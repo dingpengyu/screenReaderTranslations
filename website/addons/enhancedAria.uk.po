@@ -3,37 +3,39 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-13 23:42+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-15 12:12+0300\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Enhanced Aria\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Enhanced Aria\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Jose Manuel Delicado"
-msgstr ""
+msgstr "Автор: Jose Manuel Delicado"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Завантажити [стабільну версію][1]"
 
 #. type: Plain text
 msgid ""
 "This addon allows you to customize which aria landmarks are reported by NVDA "
 "when you browse the Internet."
 msgstr ""
+"Цей додаток дозволяє вам обрати, які орієнтири на WEB-сторінках має "
+"промовляти NVDA."
 
 #. type: Plain text
 msgid ""
@@ -43,17 +45,26 @@ msgid ""
 "press quick navigation keys to jump between them, and list them by pressing "
 "NVDA+f7 in all browsers. Read the NVDA User Guide for more information."
 msgstr ""
+"Його функціонал дуже простий. Після встановлення відкрийте браузер і "
+"заходьте до інтернету, як зазвичай. Типові орієнтири, які озвучуються у "
+"Firefox і Chrome, також будуть видимими в Internet Explorer, тому ви зможете "
+"натискати клавіші швидкої навігації для переміщення між ними, і переглянути "
+"список усіх орієнтирів на сторінці після натискання NVDA+F7 у всіх "
+"браузерах. Прочитайте посібник користувача NVDA для отримання додаткової "
+"інформації."
 
 #. type: Plain text
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
 "article."
 msgstr ""
+"Цей додаток також додає ще один орієнтир, який типово не входить до NVDA, це "
+"орієнтир \"стаття\" article)."
 
 #. type: Title ##
 #, no-wrap
 msgid "The configuration dialog"
-msgstr ""
+msgstr "Діалог налаштувань"
 
 #. type: Plain text
 msgid ""
@@ -62,11 +73,19 @@ msgid ""
 "landmark, you won't be able to jump to it pressing the d key when browsing a "
 "webpage, and NVDA won't report it."
 msgstr ""
+"Ви можете вмикати й вимикати читання орієнтирів, увійшовши до підменю "
+"\"Параметри\" головного меню NVDA і обравши там пункт \"Налаштування "
+"Enhanced Aria\" (Enhanced Aria Settings) (примітка перекладача: починаючи з "
+"версії NVDA 2018.2, цей пункт можна знайти в багатосторінковому діалозі "
+"\"Налаштування\", розташованому в підменю \"Параметри\" головного меню "
+"NVDA). Діалог містить прапорці для низки орієнтирів. Якщо ви вимкнете один з "
+"них, то ви не зможете переходити до нього шляхом натискання клавіші d на WEB-"
+"сторінках, також NVDA не повідомлятиме про нього."
 
 #. type: Title ##
 #, no-wrap
 msgid "Contact info"
-msgstr ""
+msgstr "Контактна інформація"
 
 #. type: Plain text
 msgid ""
@@ -74,65 +93,72 @@ msgid ""
 "contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on "
 "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgstr ""
+"Цей додаток розробив Jose Manuel Delicado. Для зв'язку зі мною ви можете "
+"написати на електронну пошту jmdaweb@hotmail.com або повідомити про проблему "
+"на GitHub за адресою https://github.com/jmdaweb/enhancedAria"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changelog"
-msgstr ""
+msgstr "Журнал змін"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 2.0"
-msgstr ""
+msgstr "Версія 2.0"
 
 #. type: Bullet: '* '
 msgid ""
 "Added support for multi-category settings dialog available on NVDA 2018.2 "
 "and later"
 msgstr ""
+"Додано підтримку багатосторінкового діалогу з категоріями налаштувань NVDA, "
+"який доступний в NVDA 2018.2 і новіших версіях"
 
 #. type: Bullet: '* '
 msgid "Added Python 3 compatibility"
-msgstr ""
+msgstr "Added Python 3 compatibility"
 
 #. type: Bullet: '* '
 msgid "Now guiHelper module is used to create the addon interface"
-msgstr ""
+msgstr "Now guiHelper module is used to create the addon interface"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.3"
-msgstr ""
+msgstr "Версія 1.3"
 
 #. type: Bullet: '* '
 msgid "Added configobj specification for addon settings"
-msgstr ""
+msgstr "Added configobj specification for addon settings"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.2"
-msgstr ""
+msgstr "Версія 1.2"
 
 #. type: Bullet: '* '
 msgid "Bugs fixed"
-msgstr ""
+msgstr "Bugs fixed"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.1"
-msgstr ""
+msgstr "Версія 1.1"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed issues which prevented opening the addon settings dialog when "
 "reverting to NVDA saved configuration"
 msgstr ""
+"Fixed issues which prevented opening the addon settings dialog when "
+"reverting to NVDA saved configuration"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=earia"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=earia"
