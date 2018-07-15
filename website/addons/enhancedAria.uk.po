@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-13 23:42+1000\n"
-"PO-Revision-Date: 2018-07-15 12:12+0300\n"
+"PO-Revision-Date: 2018-07-15 12:15+0300\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,7 +59,7 @@ msgid ""
 "article."
 msgstr ""
 "Цей додаток також додає ще один орієнтир, який типово не входить до NVDA, це "
-"орієнтир \"стаття\" article)."
+"орієнтир \"стаття\" (article)."
 
 #. type: Title ##
 #, no-wrap
