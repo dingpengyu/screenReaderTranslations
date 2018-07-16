@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-07-06 18:33+0800\n"
+"PO-Revision-Date: 2018-07-16 12:42+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
@@ -35,7 +35,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "This plugin adds a layer command to use arrow keys to navigate table cells."
-msgstr "此插件添加了一个图层命令来使用箭头键来导航表单元格。"
+msgstr "此插件添加了一个图层命令来使用光标键来导航表单元格。"
 
 #. type: Plain text
 msgid "Currently supported tables are:"
@@ -43,7 +43,7 @@ msgstr "目前支持的表格有："
 
 #. type: Bullet: '* '
 msgid "Browse mode (Internet Explorer, Firefox, etc.)."
-msgstr "Browse mode (Internet Explorer, Firefox, etc.)."
+msgstr "浏览模式（Internet Explorer，Firefox等）。"
 
 #. type: Bullet: '* '
 msgid "Microsoft Word."

@@ -3,59 +3,65 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-16 13:37+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"instantTranslate\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"实时翻译\"]]\n"
 
 #. type: Bullet: '* '
 msgid ""
 "Authors: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino "
 "and other NVDA contributors."
 msgstr ""
+"作者: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino and "
+"other NVDA contributors."
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "下载 [开发板][2]"
 
 #. type: Plain text
 msgid ""
 "This add-on is used to translate selected and/or clipboard text from one "
 "language to another.  This is done using an external service."
 msgstr ""
+"此插件用于将选定的语言和剪贴板文本从一种语言翻译为另一种语言。这是使用外部服"
+"务完成的。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Configuring languages"
-msgstr ""
+msgstr "配置语言"
 
 #. type: Plain text
 #, no-wrap
 msgid "To configure source, target and in case swap language, go to: NVDA Menu >> Preferences >> Instant Translate Settings.\n"
-msgstr ""
+msgstr "要配置翻译源，目标和案例交换语言，请转到：NVDA菜单>>首选项>>实时翻译设置。\n"
 
 #. type: Plain text
 msgid ""
 "There are two comboboxes labeled \"Source language\" and \"Target language"
 "\", and a checkbox to decide if it must copy the translation to clipboard."
 msgstr ""
+"有两个标签为“源语言”和“目标语言”的组合框，以及一个用于决定是否必须将翻译复制"
+"到剪贴板的复选框。"
 
 #. type: Plain text
 msgid ""
@@ -63,6 +69,8 @@ msgid ""
 "language\" combobox, there are also a combobox labeled \"Language for "
 "swapping\" and a checkbox about the auto-swap."
 msgstr ""
+"此外，如果您从“源语言”组合框中选择了自动选项（第一选项），还有一个标有“交换语"
+"言”的组合框和一个关于自动交换的复选框。"
 
 #. type: Plain text
 msgid ""
@@ -70,6 +78,8 @@ msgid ""
 "words about the rest are necessary. Remember always that the explanations "
 "below assume the source language set on the auto option."
 msgstr ""
+"两个第一个组合框和复制复选框的含义很清楚，但有些关于其余部分的说法是必要的。"
+"请记住，下面的解释假定在auto选项上设置了源语言。"
 
 #. type: Plain text
 msgid ""
@@ -78,6 +88,8 @@ msgid ""
 "on the auto option has no sense, so the addon sets it to value of combobox "
 "above."
 msgstr ""
+"当您通过脚本（见下文）交换源语言和目标语言时，“交换语言”组合框很有用;实际上，"
+"在auto选项上设置的目标语言没有任何意义，因此插件将其设置为上面的组合框的值。"
 
 #. type: Plain text
 msgid ""
@@ -89,6 +101,10 @@ msgid ""
 "Obviously this function has a major or minor utility according to your more "
 "frequent needs."
 msgstr ""
+"所以，想象一下这种情况：你通常翻译成英语（你的主要语言），但有时候（例如，当"
+"你写一篇文档时）你需要翻译成意大利语（你的第二语言，假设）;您可以将“交换语"
+"言”组合框设置为意大利语，这样您就可以从英语翻译成意大利语，而无需直接访问插件"
+"设置。显然，根据您更频繁的需求，此功能具有主要或次要功能。"
 
 #. type: Plain text
 msgid ""
@@ -101,6 +117,10 @@ msgid ""
 "extremely useful if the source language of the text you want translate is "
 "the target language."
 msgstr ""
+"现在，自动交换复选框：当且仅当您在“源语言”组合框中设置自动选项并且与“交换语"
+"言”组合框直接连接时，它才会出现。如果您激活它，则插件会尝试从源和目标配置自动"
+"转换到目标成为源语言的配置，并且在“交换语言”组合框中选择的语言是新的目标语言;"
+"如果要翻译的文本的源语言是目标语言，则非常有用。"
 
 #. type: Plain text
 msgid ""
@@ -113,6 +133,10 @@ msgid ""
 "Italian, the addon commutes automatically the target language to Italian, so "
 "it returns a valid translation."
 msgstr ""
+"一个简单的例子：再考虑以前想象的情况;如果您使用与英语不同的语言翻译文本，则没"
+"有问题，您将获得正确的英语翻译。但是如果你需要翻译英文文本，通常会得到与原文"
+"相同的英文翻译，这有点无用。但是，由于自动交换功能，假设您想知道文本如何发音"
+"为意大利语，插件会自动将目标语言转换为意大利语，因此它会返回有效的翻译。"
 
 #. type: Plain text
 msgid ""
@@ -124,15 +148,19 @@ msgid ""
 "script, so to force the source language to be the previous target language "
 "(English in our example)."
 msgstr ""
+"无论如何，这是一个临时配置;如果此选项无效（它是实验性的），请尝试使用下面描述"
+"的交换手势手动将其传送到稳定配置。这是实验性的，因为在某些情况下（简短的文"
+"字），谷歌不能正确识别真正的源语言，你必须通过脚本手动交换语言，所以强制源语"
+"言成为以前的目标语言（英语在我们的例）。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Using"
-msgstr ""
+msgstr "运用"
 
 #. type: Plain text
 msgid "You can use this add-on in two ways:"
-msgstr ""
+msgstr "您可以通过两种方式使用此插件："
 
 #. type: Bullet: '1. '
 msgid ""
@@ -140,77 +168,79 @@ msgid ""
 "example) and press associated key to translate. translation result willbe "
 "read with synthesizer which you are using."
 msgstr ""
+"使用选择快捷键选择一些文本（例如，使用光标键移动）并按相关键进行翻译。翻译结"
+"果将使用您正在使用的合成器读取。"
 
 #. type: Bullet: '2. '
 msgid "You can also translate text from the Clipboard."
-msgstr ""
+msgstr "您还可以从剪贴板翻译文本。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Shortcuts"
-msgstr ""
+msgstr "快捷键"
 
 #. type: Plain text
 msgid ""
 "All following commands must be pressed after modifier key \"NVDA+Shift+t\":"
-msgstr ""
+msgstr "在修改键“NVDA + Shift + t”后必须按下以下所有命令："
 
 #. type: Bullet: '* '
 msgid "T: Translate selected text,"
-msgstr ""
+msgstr "T：翻译选定的文字，"
 
 #. type: Bullet: '* '
 msgid "Shift+t: translate text from the Clipboard,"
-msgstr ""
+msgstr "Shift + t：翻译剪贴板中的文字，"
 
 #. type: Bullet: '* '
 msgid "S: swap source and target languages,"
-msgstr ""
+msgstr "S：交换源语言和目标语言，"
 
 #. type: Bullet: '* '
 msgid "A: announce current configuration,"
-msgstr ""
+msgstr "A：宣布当前配置，"
 
 #. type: Bullet: '* '
 msgid "C: copy last result to clipboard,"
-msgstr ""
+msgstr "C：将最后一个结果复制到剪贴板，"
 
 #. type: Bullet: '* '
 msgid "I: identify the language of selected text,"
-msgstr ""
+msgstr "I：识别所选文字的语言，"
 
 #. type: Bullet: '* '
 msgid "H: announces all available commands to user."
-msgstr ""
+msgstr "H：向用户宣布所有可用快捷键。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 4.1"
-msgstr ""
+msgstr "版本4.1"
 
 #. type: Bullet: '* '
 msgid ""
 "InstantTranslate is working again, now with Yandex translator service "
 "instead of Google."
-msgstr ""
+msgstr "InstantTranslate再次运行，现在使用Yandex翻译服务代替Google。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 4.0"
-msgstr ""
+msgstr "版本4.0"
 
 #. type: Bullet: '* '
 msgid "Translation is automatically performed after swapping."
-msgstr ""
+msgstr "交换后自动执行翻译。"
 
 #. type: Bullet: '* '
 msgid "Cache bug fixed."
-msgstr ""
+msgstr "缓存错误修复。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.0"
-msgstr ""
+msgstr "版本3.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -218,10 +248,12 @@ msgid ""
 "modifier key \"NVDA+Shift+t\", and then single letter key to perform some "
 "action (see all Commands in the \"Shortcuts\" section)."
 msgstr ""
+"更改快捷键的使用方式，现在您可以按instantTranslate修饰键“NVDA + Shift + t”，"
+"然后按单字母键执行某些操作（请参阅“快捷方式”部分中的所有快捷键）。"
 
 #. type: Bullet: '* '
 msgid "Implemented swapping languages."
-msgstr ""
+msgstr "实现了交换语言。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -229,76 +261,78 @@ msgid ""
 "if we are in readonly pane, but remember that this will work before first "
 "restart of NVDA."
 msgstr ""
+"更改了配置格式，现在我们可以更改实时翻译设置，如果我们在只读窗格中，但请记"
+"住，这将在首次重新启动NVDA之前工作。"
 
 #. type: Bullet: '* '
 msgid "Removed limit on amount of text that can be translated."
-msgstr ""
+msgstr "删除了可翻译文本数量的限制。"
 
 #. type: Bullet: '* '
 msgid "Added shortcut t to the Instant Translate Settings menu item"
-msgstr ""
+msgstr "添加了Instant Translate Settings菜单项的快捷方式"
 
 #. type: Bullet: '* '
 msgid ""
 "The auto option is now in first position in source combo, and absent in "
 "target combo."
-msgstr ""
+msgstr "auto选项现在位于源组合中的第一个位置，并且在目标组合中不存在。"
 
 #. type: Bullet: '* '
 msgid "Added a checkbox for configuring copying translation results."
-msgstr ""
+msgstr "添加了用于配置复制翻译结果的复选框。"
 
 #. type: Bullet: '* '
 msgid "Store config file in the root of settings folder."
-msgstr ""
+msgstr "将配置文件存储在设置文件夹的根目录中。"
 
 #. type: Bullet: '* '
 msgid ""
 "Source and target languages syncronized with what Google Translate currently "
 "exposes (22 Apr 2015)."
-msgstr ""
+msgstr "源语言和目标语言与Google翻译目前公开的内容同步（2015年4月22日）。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.1"
-msgstr ""
+msgstr "版本2.1"
 
 #. type: Bullet: '* '
 msgid "Now addon can translate text from clipboard when pressing nvda+shift+y."
-msgstr ""
+msgstr "现在，当按nvda + shift + y时，插件可以从剪贴板翻译文本。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.0"
-msgstr ""
+msgstr "版本2.0"
 
 #. type: Bullet: '* '
 msgid ""
 "Added gui configurator where you can choose source and target languages."
-msgstr ""
+msgstr "添加了gui配置器，您可以在其中选择源语言和目标语言。"
 
 #. type: Bullet: '* '
 msgid "Added addon menu item found under preferences menu."
-msgstr ""
+msgstr "添加了首选项菜单下的插件菜单项。"
 
 #. type: Bullet: '* '
 msgid "Settings now is written in separate config file."
-msgstr ""
+msgstr "现在设置是在单独的配置文件中编写的。"
 
 #. type: Bullet: '* '
 msgid ""
 "Translation results now automatically copies into the clipboard for future "
 "manipulations."
-msgstr ""
+msgstr "现在，翻译结果会自动复制到剪贴板中以供接下来的操作。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr ""
+msgstr "版本1.0"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "发布初始版本"
 
 #. type: Plain text
 #, no-wrap
@@ -307,8 +341,8 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=it"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=it"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=it-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=it-dev"

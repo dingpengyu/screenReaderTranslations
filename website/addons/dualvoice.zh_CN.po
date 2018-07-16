@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-07-06 18:32+0800\n"
+"PO-Revision-Date: 2018-07-16 12:40+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
@@ -35,8 +35,8 @@ msgid ""
 "your chosen voice language. For more information about this add-on, read the "
 "[add-on readme.][2]"
 msgstr ""
-"此插件允许您使用两个合成器或声音以您选择的方式来阅读文本。有关此附加组件的更"
-"多信息，请阅读[附加自述文件]。[2]"
+"此插件允许您使用两个合成器或声音以您选择的方式来朗读文本。有关此插件的更多信"
+"息，请阅读[附加自述文件]。[2]"
 
 #. type: Plain text
 #, no-wrap
