@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-06-25 07:57+0800\n"
+"PO-Revision-Date: 2018-07-16 17:54+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
@@ -36,8 +36,8 @@ msgid ""
 "easier navigaiton mode for long math content, useful for understanding math "
 "expression structure."
 msgstr ""
-"此插件增强了NVDA中的数学阅读功能。尽管NVDA支持MathPlayer，但仍有一些不足的功"
-"能，包括较长数学内容的导航，另外用户使用此插件可能会对理解数学中的表达式的结"
+"此插件增强了NVDA中的数学阅读功能。尽管NVDA支持MathPlayer，但仍有一些不足的地"
+"方，包括较长数学内容的导航，另外用户使用此插件可能会对理解数学中的表达式的结"
 "构会有一些帮助。"
 
 #. type: Plain text
