@@ -3,31 +3,31 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-18 17:05+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Clipspeak\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Damien Sykes-Lindley"
-msgstr ""
+msgstr "Tác giả: Damien Sykes-Lindley"
 
 #. type: Bullet: '* '
 msgid "download [development version][1]"
-msgstr ""
+msgstr "Tải về [bản development][1]"
 
 #. type: Plain text
 msgid ""
@@ -40,30 +40,37 @@ msgid ""
 "announcements may be inaccurate.  By default, Clipspeak's gestures are "
 "mapped to those commonly used by English versions of Windows, I.E.:"
 msgstr ""
+"Clipspeak là addon cho phép NVDA tự thông báo các hoạt động của bộ nhớ tạm "
+"(như là cắt, chép và dán), kèm theo là các hoạt động chỉnh sửa phổ biến khác "
+"như chọn tất cả, phục hồi và làm lại.  Để ngăn chặn thông báo không đúng "
+"chỗ, Clipspeak thực hiện việc kiểm tra trên các điều khiển và bộ nhớ tạm để "
+"đưa ra quyết định lúc nào thì cần thông báo. Vì vậy, việc thông báo của "
+"Clipspeak có thể không chính xác.  Mặc định, Thao tác của Clipspeak được gán "
+"theo thao tác thường dùng bởi phiên bản tiếng Anh của Windows:"
 
 #. type: Bullet: '* '
 msgid "CTRL+A: Select all"
-msgstr ""
+msgstr "CTRL+A: chọn tất cả"
 
 #. type: Bullet: '* '
 msgid "CTRL+Z: Undo"
-msgstr ""
+msgstr "CTRL+Z: phục hồi"
 
 #. type: Bullet: '* '
 msgid "CTRL+Y: Redo"
-msgstr ""
+msgstr "CTRL+Y: làm lại"
 
 #. type: Bullet: '* '
 msgid "CTRL+X: Cut"
-msgstr ""
+msgstr "CTRL+X: cắt"
 
 #. type: Bullet: '* '
 msgid "CTRL+C: Copy"
-msgstr ""
+msgstr "CTRL+C: sao chép"
 
 #. type: Bullet: '* '
 msgid "CTRL+V: Paste"
-msgstr ""
+msgstr "CTRL+V: dán"
 
 #. type: Plain text
 msgid ""
@@ -71,12 +78,14 @@ msgid ""
 "of Windows, you will need to remap these gestures in the input gestures "
 "configuration."
 msgstr ""
+"Nếu chúng không phải thao tác thường dùng cho những việc nói trên ở phiên "
+"bản Windows của bạn, bạn sẽ cần phải gán lại chúng trong phần Quản lý cử chỉ."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
