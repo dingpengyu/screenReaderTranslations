@@ -134,7 +134,7 @@ vi 10.8.1. start:863 paragraphs:4, tables:0, lists:0
 en 10.8.2. start:872 paragraphs:3, tables:0, lists:1
 vi 10.8.2. start:877 paragraphs:1, tables:0, lists:0
 vi 10.8.3. start:885 paragraphs:3, tables:0, lists:1
-vi 10.9. start:899 paragraphs:1, tables:0, lists:0
+vi 10.9. start:899 paragraphs:1, tables:1, lists:0
 en 11. start:886 paragraphs:0, tables:0, lists:0
 vi 11. start:906 paragraphs:0, tables:0, lists:0
 en 11.1. start:888 paragraphs:2, tables:0, lists:0
