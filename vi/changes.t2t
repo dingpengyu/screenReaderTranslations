@@ -21,6 +21,7 @@ Một số tính năng nổi bật của bản phát hành này bao gồm  hỗ 
  - đầu ra  văn bản nói hay chữ nổi, vị trí của các điều khiển sẽ được thông báo  với cách sắp xếp giống nhau, bất kể chúng được sắp xếp  như thế nào. (#7076)
 - Trong các ứng dụng như Windows 10 Mail, NVDA sẽ không còn bị lỗi  không đọc các kí tự đã xóa khi bấm phím xóa lùi. (#7456)
 - Tất cả phím trên màn hình nổi Hims Braille Sense Polaris giờ đây đã hoạt động như mong đợi. (#7865)
+- NVDA không còn tình trạng không khởi động được trên Windows 7 và thôn báo lỗi về một api-ms dll bên trong, khi một phiên bản cụ thể của Visual Studio 2017 redistributables đã được cài đặt bởi một ứng dụng khác. (#7975)
 - NVDA sẽ thông báo các lỗi ngữ pháp khi được hiển thị một cách hợp lý trên các trang web trong Mozilla Firefox. (#8280)
 - Đã hỗ trợ nút cuộn của BrailleNote QT và Apex BT's khi sử dụng BrailleNote như một màn hình chữ nổi với NVDA. (#6316)
 - Đã thêm kịch bản thông báo thời gian còn lại và tổng thời gian của track hiện tại trong Foobar2000. (#6596)
@@ -103,7 +104,8 @@ Một số tính năng nổi bật trong bản phát hành này bao gồm hỗ t
 
 Phần này không được dịch. Vui lòng xem bản tiếng Anh để biết thêm thông tin.
 
-
+= 2018.1.1 =
+Đây là bản phát hành đặc biệt  của NVDA, sửa một lỗi trong driver của bộ đọc OneCore, khiến cho nó bị đọc nhanh và cao hơn trong Windows 10 Redstone 4 (1803). (#8082) 
 = 2018.1 =
 
 Một số tính năng nổi bật trong bản phát hành này là hỗ trợ sơ đồ cho Microsoft word và PowerPoint, hỗ trợ màn hình nổi mới là Eurobraille và bộ chuyển giao thức Optelec, hỗ trợ thêm cho màn hình nổi của Hims và Optelec, cải thiện hoạt động với Mozilla Firefox 58 và bản cao hơn, và nhiều tính năng mới khác.
