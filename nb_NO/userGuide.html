@@ -47,19 +47,19 @@
       <LI><A HREF="#TheNVDAModifierKey">5.2.1. NVDA-tasten</A>
       <LI><A HREF="#KeyboardLayouts">5.2.2. Tastaturoppsett</A>
       </UL>
-    <LI><A HREF="#NVDATouchGestures">5.3. Berøringskommandoer i NVDA</A>
+    <LI><A HREF="#NVDATouchGestures">5.3. Berøringsgester i NVDA</A>
       <UL>
-      <LI><A HREF="#ExploringTheScreen">5.3.1. Utforske skjermen</A>
+      <LI><A HREF="#ExploringTheScreen">5.3.1. Utforsk skjermen</A>
       <LI><A HREF="#TouchGestures">5.3.2. Berøringsgester</A>
       <LI><A HREF="#TouchModes">5.3.3. Berøringsmodi</A>
-      <LI><A HREF="#toc26">5.3.4. Tastaturhjelp Modus</A>
-      <LI><A HREF="#toc27">5.3.5. Tastaturoppsett</A>
+      <LI><A HREF="#TouchKeyboard">5.3.4. Skjermtastatur</A>
+      <LI><A HREF="#InputHelpMode">5.3.5. Tastaturhjelp</A>
       </UL>
-    <LI><A HREF="#toc28">5.4. NVDA menyen</A>
-    <LI><A HREF="#toc29">5.5. Grunnleggende tastekommandoer</A>
-    <LI><A HREF="#toc30">5.6. Rapportering av systeminformasjon</A>
+    <LI><A HREF="#TheNVDAMenu">5.4. NVDA-menyen</A>
+    <LI><A HREF="#BasicNVDACommands">5.5. Grunnleggende NVDA-kommandoer</A>
+    <LI><A HREF="#ReportingSystemInformation">5.6. Rapportering av systeminformasjon</A>
     </UL>
-  <LI><A HREF="#toc31">6. Navigere med NVDA</A>
+  <LI><A HREF="#NavigatingWithNVDA">6. Navigere med NVDA</A>
     <UL>
     <LI><A HREF="#Objects">6.1. Objekter</A>
     <LI><A HREF="#SystemFocus">6.2. Navigere med Systemfokus</A>
@@ -312,10 +312,10 @@ Hvis du har installert NVDA med installasjonsprogrammet, er det å starte NVDA s
 I tillegg kan du også skrive NVDA i dialogboksen Kjør, og trykke Enter.
 </P>
 <P>
-Du kan også sende noen <A HREF="#CommandLineOptions">command line options</A> som tillater deg å starte NVDA på nytt (-r), avslutte NVDA (-q), slå av programtillegg (--disable-addons), osv.
+Du kan også sende noen <A HREF="#CommandLineOptions">kommandolinjeparametre</A> som tillater deg å starte NVDA på nytt (-r), avslutte NVDA (-q), slå av programtillegg (--disable-addons), osv.
 </P>
 <P>
-For installerte kopier lagrer NVDA som standard konfigurasjonen i "roaming"-appdatamappa under gjeldende bruker, "C:\Users\&lt;bruker&gt;\AppData\Roaming"). Dette kan endres slik at NVDA isteden laster konfigurasjonen fra den lokale appdata-mappa. Se seksjonen om <A HREF="#SystemWideParameters">system wide parameters</A> for flere detaljer.
+For installerte kopier lagrer NVDA som standard konfigurasjonen i "roaming"-appdatamappa under gjeldende bruker, "C:\Users\&lt;bruker&gt;\AppData\Roaming"). Dette kan endres slik at NVDA isteden laster konfigurasjonen fra den lokale appdata-mappa. Se seksjonen om <A HREF="#SystemWideParameters">systemparametre</A> for flere detaljer.
 </P>
 <P>
 For å starte den flyttbare versjonen, går du til mappa du pakket NVDA ut i, og trykker enter. Du kan også dobbeltklikke på nvda.exe.
@@ -377,7 +377,7 @@ Hvis du ønsker at en av NVDA-tastene skal opptre som opprinnelig tast (for ekse
 NVDA leveres for tida med to sett med tastaturkommandoer, også kjent som tastaturoppsett: stasjonært og bærbart tastaturoppsett.
 </P>
 <P>
-Som standard er NVDA satt opp til å bruke stasjonært tastaturoppsett. Du kan enkelt bytte til bærbart tastaturoppsett under Tastatur-kategorien i <A HREF="#NVDASettings">NVDA Settings</A>, som du finner under Brukervalg i NVDA-menyen.
+Som standard er NVDA satt opp til å bruke stasjonært tastaturoppsett. Du kan enkelt bytte til bærbart tastaturoppsett under Tastatur-kategorien i <A HREF="#NVDASettings">NVDA-innstillinger</A>, som du finner under Brukervalg i NVDA-menyen.
 </P>
 <P>
 Stasjonært tastaturoppsett gjør omfattende bruk av insert-tastene (med NumLock av).
@@ -387,17 +387,17 @@ Selv om mange bærbare PC-er ikke har noe fysisk numerisk tast, er det vanlig at
 </P>
 
 <A NAME="NVDATouchGestures"></A>
-<H3>5.3. Berøringskommandoer i NVDA</H3>
+<H3>5.3. Berøringsgester i NVDA</H3>
 
 <P>
-Kjører du NVDA på en enhet med berøringsskjerm og bruker Windows 8 eller høyere, kan du også kontrollere NVDA direkte via berøringskommandoer.
+Kjører du NVDA på en enhet med berøringsskjerm og bruker Windows 8 eller høyere, kan du også kontrollere NVDA direkte via berøringsgester.
 </P>
 <P>
 Så lenge NVDA kjører, vil all berøring av skjermen gå direkte til NVDA. Derfor vil handlinger som kan utføres normalt uten NVDA ikke fungere.
 </P>
 
 <A NAME="ExploringTheScreen"></A>
-<H4>5.3.1. Utforske skjermen</H4>
+<H4>5.3.1. Utforsk skjermen</H4>
 
 <P>
 Den mest grunnleggende handlingen du kan utføre med berøringsskjermen er å annonsere kontrollen eller teksten på et hvilket som helst sted på skjermen. For å gjøre dette, plasserer du én finger et vilkårlig sted på skjermen.
@@ -451,107 +451,127 @@ Siden det er langt flere NVDA-kommandoer enn mulige berøringsgester, har NVDA f
 De to modiene er tekstmodus og objektmodus.
 </P>
 <P>
-Visse NVDA-kommandoer som oppgis i denne brukermanualen kan ha en berøringsmodus oppgitt i klammer etter berøringsgesten.
-</P>
-
-<TABLE CELLPADDING="4">
-<TR>
-<TD></TD>
-</TR>
-</TABLE>
-
-<A NAME="toc26"></A>
-<H4>5.3.4. Tastaturhjelp Modus</H4>
-
-<P>
-Mange tastaturkommandoer er nevnt gjennom hele resten av denne bruksanvisningen, men en enkel måte å utforske alle de forskjellige tastaturkommandoene er å slå på tastaturhjelp.
+Visse NVDA-kommandoer som oppgis i denne brukermanualen kan ha en berøringsmodus oppgitt i klammer etter berøringsgesten. For eksempel betyr sveip opp (tekstmodus) at kommandoen blir utført når du sveiper opp, men bare når du er i tekstmodus.
 </P>
 <P>
-For å slå på tastaturhjelp trykker du NVDA+1.
-For å slå den av, trykk NVDA+1 en gang til.
-I tastaturhjelp, vil hvetrt tastetrykk lese hva den gjeldende tasten gjør (så sant det gjør noe).
-Tastene vil ikke utføre sin funksjon i tastaturhjelp modus, slik at du kan trykke hvilke taster du vil.
-</P>
-
-<A NAME="toc27"></A>
-<H4>5.3.5. Tastaturoppsett</H4>
-
-<P>
-NVDA kommer i dag med to sett av sentrale kommandoer.
-Det er et oppsett for stasjonære og et oppsett for bærbare.
-NVDA som standard er satt til å bruke stasjonæroppsett, men du kan bytte til bærbaroppsettet i Tastaturinnstillinger, under Innstillinger i NVDA menyen.
+Hvis en kommando ikke har en modus knyttet til seg, vil det si at kommandoen fungerer uansett modus.
 </P>
 <P>
-Stasjonæroppsettet gjør mye bruk av numpad (med Numlock av).
-Selv om de fleste bærbare datamaskiner ikke har en fysisk numpad, kan noen bærbare emulere en ved å holde nede Fn-tasten og trykke bokstaver og tall på høyre side av tastaturet (7 8 9 u i o j k l etc).
-Dersom din bærbare ikke kan gjøre dette, eller ikke tillater deg å slå Numlock av, kan det være lurt å bytte til bærbaroppsett i stedet.
+For å bytte mellom modi, trykker du med tre fingrer.
 </P>
 
-<A NAME="toc28"></A>
-<H3>5.4. NVDA menyen</H3>
+<A NAME="TouchKeyboard"></A>
+<H4>5.3.4. Skjermtastatur</H4>
 
 <P>
-NVDA menyen lar deg kontrollere NVDA innstillinger, Hjelp, lagre / tilbakestille konfigurasjonen, Endre taleordbøker, få tilgang til flere verktøy og avslutte NVDA.
+Skjermtastaturet brukes til å skrive tekst og kommandoer fra en berøringsskjerm. Når du har fokus på et skrivefelt, henter du fram skjermtastaturet ved å dobbelttrykke på ikonet for skjermtastaturet nederst på skjermen. For nettbrett som Microsoft Surface Pro er skjermtastaturet alltid tilgjengelig så lenge et tastatur ikke er tilkoblet. For å ta bort skjermtastaturet kan du dobbelttrykke på ikonet for skjermtastatur eller flytte bort fra skrivefeltet.
 </P>
 <P>
-For å gå til NVDA menyen fra hvor som helst i Windows mens NVDA kjører, trykker du NVDA+N.
-Du kan også gå til NVDA menyen via systemstatusfeltet i Windows.
-Enten høyreklikk på NVDA ikonet i systemstatusfeltet, eller få tilgang til systemstatusfeltet ved å trykke Windows-tasten+B, pil ned til NVDA ikonet og trykk på kontekst-tasten ved siden av høyre kontroll-tast på de fleste tastaturer.
-Når menyen kommer opp, kan du bruke piltastene til å navigere i menyen, og enter-tasten for å aktivere et element.
+For å finne taster på skjermtastaturet når skjermtastaturet er aktivt, flytter du fingeren til der skjermtastaturet er (normalt nederst på skjermen). Der bruker du én finger til å navigere omkring på skrivebordet. Når du finner tasten du vil trykke på, dobbelttrykker du eller løfter fingeren, avhengig av hvilket valg du har gjort i <A HREF="#TouchInteraction">kategorien Innstillinger for berøringsinteraksjon</A> i NVDA-innstillingene.  
 </P>
 
-<A NAME="toc29"></A>
-<H3>5.5. Grunnleggende tastekommandoer</H3>
+<A NAME="InputHelpMode"></A>
+<H4>5.3.5. Tastaturhjelp</H4>
+
+<P>
+Mange NVDA-kommandoer er nevnt gjennom hele resten av denne brukermanualen, men en enkel måte å utforske alle de forskjellige tastaturkommandoene på er å slå på tastaturhjelp.
+</P>
+<P>
+For å slå på tastaturhjelp, trykker du NVDA+1.
+For å slå den av, trykker du NVDA+1 en gang til.
+</P>
+<P>
+Når tastaturhjelp er slått på, vil hvert tastetrykk du utfører på tastaturet eller hver gest du utfører på en berøringsskjerm gi som respons handlingen og hva den gjør (hvis den gjør noe).
+</P>
+<P>
+Tastene vil ikke utføre sin funksjon når du er i tastaturhjelpmodus, slik at du kan trykke hvilke taster du vil.
+</P>
+
+<A NAME="TheNVDAMenu"></A>
+<H3>5.4. NVDA-menyen</H3>
+
+<P>
+NVDA-menyen lar deg kontrollere NVDAs innstillinger, hjelp, lagre/tilbakestille konfigurasjonen, endre taleordlister, få tilgang til flere verktøy og å avslutte NVDA.
+</P>
+<P>
+For å gå til NVDA-menyen fra hvor som helst i Windows mens NVDA kjører, trykker du NVDA+n.
+Du kan også gå til NVDA-menyen via systemstatusfeltet i Windows.
+Enten høyreklikk på NVDA-ikonet i systemstatusfeltet, eller få tilgang til systemstatusfeltet ved å trykke Win+b, pil ned til NVDA-ikonet og trykk deretter på meny-tasten. Den finner du rett til venstre for høyre kontrolltast på de fleste tastaturer.
+</P>
+<P>
+Når menyen vises, kan du bruke piltastene til å navigere i den, og enter-tasten for å aktivere et element.
+</P>
+
+<A NAME="BasicNVDACommands"></A>
+<H3>5.5. Grunnleggende NVDA-kommandoer</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
-<TH>Tast</TH>
+<TH>Stasjonær tast</TH>
+<TH>Bærbar tast</TH>
+<TH>Berøring</TH>
 <TH>Beskrivelse</TH>
 </TR>
 <TR>
 <TD>Stopp tale</TD>
 <TD>Ctrl</TD>
+<TD>Ctrl</TD>
+<TD>Trykk med to fingrer</TD>
 <TD>Slutter øyeblikkelig å snakke</TD>
 </TR>
 <TR>
 <TD>Pause tale</TD>
 <TD>Skift</TD>
-<TD>Pauser øyeblikkelig tale. Ved å trykke den igjen vil fortsette å snakke der den slapp (hvis pause støttes av gjeldende synthesizer)</TD>
+<TD>Skift</TD>
+<TD>ingen</TD>
+<TD>Pauser øyeblikkelig tale. Ved å trykke igjen vil talen fortsette der den slapp (hvis pause støttes av gjeldende talesyntese)</TD>
 </TR>
 <TR>
-<TD>NVDA Meny</TD>
-<TD>NVDA+N</TD>
-<TD>Åpner NVDA menyen slik at du kan få tilgang til innstillinger, verktøy og hjelp etc</TD>
+<TD>NVDA-meny</TD>
+<TD>NVDA+n</TD>
+<TD>NVDA-n</TD>
+<TD>Dobbelttrykk med to fingrer</TD>
+<TD>Åpner NVDA-menyen slik at du får tilgang til innstillinger, verktøy og hjelp osv.</TD>
 </TR>
 <TR>
-<TD>Veksler talemodus</TD>
-<TD>NVDA+S</TD>
-<TD>Veksler talemodus mellom tale, pip og av.</TD>
+<TD>Bytt talemodus</TD>
+<TD>NVDA+s</TD>
+<TD>NVDA+s</TD>
+<TD>ingen</TD>
+<TD>Bytter talemodus mellom tale, pip og av.</TD>
 </TR>
 <TR>
-<TD>Slår av/på Tastaturhjelp modus</TD>
+<TD>Slå av/på tastaturhjelpmodus</TD>
 <TD>NVDA+1</TD>
-<TD>Når du trykker en tast i denne modusen vil tasten bli lest, og beskrivelse av eventuelle NVDA kommando tilknyttet den</TD>
+<TD>NVDA+1</TD>
+<TD>ingen</TD>
+<TD>Når du trykker en tast i denne modusen vil tasten bli lest sammen med beskrivelse av eventuell NVDA-kommando tilknyttet den</TD>
 </TR>
 <TR>
 <TD>Avslutt NVDA</TD>
-<TD>NVDA+Q</TD>
+<TD>NVDA+q</TD>
+<TD>NVDA+q</TD>
+<TD>ingen</TD>
 <TD>Avslutter NVDA</TD>
 </TR>
 <TR>
 <TD>Slipp neste tast gjennom</TD>
 <TD>NVDA+F2</TD>
-<TD>Lar NVDA slippe neste tastetrykk rett gjennom til det aktive programmet, selv om det er normalt håndtert som en NVDA tastekommando</TD>
+<TD>NVDA+F2</TD>
+<TD>ingen</TD>
+<TD>Lar NVDA slippe neste tastetrykk rett gjennom til det aktive programmet, selv om det normalt er håndtert som en NVDA-tastekommando</TD>
 </TR>
 <TR>
-<TD>Slår applikasjonshvilemodus på/av</TD>
-<TD>NVDA+Skift+S</TD>
-<TD>Dvalemodus deaktiverer alle NVDA kommandoer og tale/punkt for det gjeldende programmet. Dette er mest nyttig i applikasjoner som har sin egen tale eller leser av skjermen funksjoner. Trykk denne kommandoen på nytt for å deaktivere innebygde talemodus.</TD>
+<TD>Slå applikasjonsdvalemodus på/av</TD>
+<TD>NVDA+Skift+s</TD>
+<TD>NVDA-Skift+z</TD>
+<TD>ingen</TD>
+<TD>Dvalemodus deaktiverer alle NVDA-kommandoer og tale/punktskrift for det gjeldende programmet. Dette er mest nyttig i applikasjoner som har sin egen tale eller skjermleserfunksjon. Trykk denne kommandoen på nytt for å deaktivere dvalemodus.</TD>
 </TR>
 </TABLE>
 
-<A NAME="toc30"></A>
+<A NAME="ReportingSystemInformation"></A>
 <H3>5.6. Rapportering av systeminformasjon</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -563,21 +583,21 @@ Når menyen kommer opp, kan du bruke piltastene til å navigere i menyen, og ent
 <TR>
 <TD>Rapporter dato/klokkeslett</TD>
 <TD>NVDA+F12</TD>
-<TD>Trykk en gang rapporterer nåværende tidspunkt, å trykke to ganger rapporterer dato</TD>
+<TD>Ett trykk rapporterer gjeldende tid, to trykk rapporterer dato</TD>
 </TR>
 <TR>
 <TD>Rapporter batteristatus</TD>
-<TD>NVDA+Skift+B</TD>
-<TD>Rapporterer batteristatus dvs. om strøm er i bruk eller nåværende strømprosent.</TD>
+<TD>NVDA+Skift+b</TD>
+<TD>Rapporterer batteristatus, dvs. om strøm er i bruk eller nåværende ladeprosent.</TD>
 </TR>
 <TR>
 <TD>Rapporter tekst i utklippstavle</TD>
-<TD>NVDA+C</TD>
+<TD>NVDA+c</TD>
 <TD>Rapporterer tekst i utklippstavlen hvis det er noen.</TD>
 </TR>
 </TABLE>
 
-<A NAME="toc31"></A>
+<A NAME="NavigatingWithNVDA"></A>
 <H2>6. Navigere med NVDA</H2>
 
 <P>
@@ -588,20 +608,17 @@ NVDA lar deg utforske og navigere i systemet på flere måter, inkludert både n
 <H3>6.1. Objekter</H3>
 
 <P>
-Hvert program og selve operativsystemet består av mange objekter.
-Et objekt er et enkelt element som en del av teksten, knapp, boks, glidebryter, liste eller redigerbare tekstfelt.
+Hvert program og selve operativsystemet består av mange objekter. Et objekt er et enkelt element som en tekststreng, knapp, boks, glidebryter, liste eller et redigerbart tekstfelt.
 </P>
 
 <A NAME="SystemFocus"></A>
 <H3>6.2. Navigere med Systemfokus</H3>
 
 <P>
-Systemfokus, også kjent som fokus, er <A HREF="#Objects">objektet</A> som mottar tastetrykk som trykkes på tastaturet.
-For eksempel, hvis du skriver inn i et redigerbart tekstfelt, er tekstfeltet i fokus.
+Systemfokus, også kjent som fokus, er <A HREF="#Objects">objektet</A> som mottar tastetrykk som trykkes på tastaturet. For eksempel, hvis du skriver i et redigerbart tekstfelt, er tekstfeltet i fokus.
 </P>
 <P>
-Den vanligste måten å navigere rundt i Windows med NVDA, er å bare flytte systemfokus ved hjelp av standard Windows tastaturkommandoer, for eksempel å trykke Tab og Skift+Tab for å gå fram og tilbake mellom kontrollene, trykke Alt for å komme til menylinjen og deretter bruke piltastene for å navigere i menyer, og ved hjelp av Alt+Tab for å flytte mellom åpne programmer.
-Mens du gjør dette, vil NVDA rapportere informasjon om objektet med fokus, slik som navn, type, verdi, tilstand, beskrivelse, tastatursnarvei og posisjonsinformasjon.
+Den vanligste måten å navigere rundt i Windows med NVDA, er å ganske enkelt flytte systemfokus ved hjelp av standard tastaturkommandoer i Windows. Eksempler på dette kan være å trykke Tab og Skift+Tab for å gå fram og tilbake mellom kontrollene, trykke Alt for å komme til menylinjen og deretter bruke piltastene for å navigere i menyer, og trykke Alt+Tab for å flytte mellom kjørende programmer. Mens du gjør dette, vil NVDA gi informasjon om objektet som har fokus, slik som navn, type, verdi, tilstand, beskrivelse, tastatursnarvei og informasjon om posisjon.
 </P>
 <P>
 Det er noen viktige kommandoer som er nyttige når du flytter sammen med Systemfokus:
@@ -610,28 +627,33 @@ Det er noen viktige kommandoer som er nyttige når du flytter sammen med Systemf
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
-<TH>Tast</TH>
+<TH>Stasjonær tast</TH>
+<TH>Bærbar tast</TH>
 <TH>Beskrivelse</TH>
 </TR>
 <TR>
-<TD>Lese gjeldende fokus</TD>
+<TD>Les gjeldende fokus</TD>
 <TD>NVDA+Tab</TD>
-<TD>Leser det gjeldende objektet eller kontroll som har systemfokus. Ved å trykke to ganger staves informasjonen</TD>
+<TD>NVDA+Tab</TD>
+<TD>Leser gjeldende objekt eller kontroll som har systemfokus. Ved å trykke to ganger staves informasjonen</TD>
 </TR>
 <TR>
-<TD>Lese tittel</TD>
-<TD>NVDA+T</TD>
+<TD>Les tittel</TD>
+<TD>NVDA+t</TD>
+<TD>NVDA+t</TD>
 <TD>Leser tittelen på det aktive vinduet. Ved å trykke to ganger staves informasjonen. Ved å trykke tre ganger kopieres den til utklippstavlen</TD>
 </TR>
 <TR>
 <TD>Les det aktive vinduet</TD>
-<TD>NVDA+B</TD>
+<TD>NVDA+b</TD>
+<TD>NVDA+b</TD>
 <TD>Leser alle kontrollene i det aktive vinduet (nyttig for dialoger)</TD>
 </TR>
 <TR>
-<TD>Les Statuslinje</TD>
+<TD>Les statuslinje</TD>
 <TD>NVDA+End</TD>
-<TD>Leser Statuslinjen hvis NVDA finner en. Flytter også navigasjonsobjektet til denne plasseringen</TD>
+<TD>NVDA+Skift+End</TD>
+<TD>Leser Statuslinjen hvis NVDA finner en, og flytter navigasjonsobjektet til denne plasseringen. Ved å trykke to ganger staves informasjonen. Ved å trykke tre ganger kopieres den til utklippstavlen</TD>
 </TR>
 </TABLE>
 
@@ -639,7 +661,7 @@ Det er noen viktige kommandoer som er nyttige når du flytter sammen med Systemf
 <H3>6.3. Navigere med Systemmarkøren</H3>
 
 <P>
-Når et <A HREF="#Objects">objekt</A> som har navigering og/eller redigering av tekst er <A HREF="#SystemFocus">fokusert</A>, kan du bevege deg i teksten ved hjelp av systemmarkøren, også kjent som redigeringsmarkøren.
+::Når et <A HREF="#Objects">objekt</A> som har navigering og/eller redigering av tekst er <A HREF="#SystemFocus">fokusert</A>, kan du bevege deg i teksten ved hjelp av systemmarkøren, også kjent som redigeringsmarkøren.
 </P>
 <P>
 Når fokus er på et objekt som har systemmarkør, kan du bruke piltastene, side opp, side ned, home, end osv. for å bevege deg rundt i teksten.

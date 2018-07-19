@@ -13,56 +13,86 @@
 <A NAME="GettingStartedWithNVDA"></A>
 <H2>Kom i gang med NVDA</H2>
 
-<H3>Grunnleggende tastekommandoer</H3>
+<A NAME="NVDATouchGestures"></A>
+<H3>Berøringsgester i NVDA</H3>
+
+<A NAME="TouchModes"></A>
+<H4>Berøringsmodi</H4>
+
+<P>
+For å bytte mellom modi, trykker du med tre fingrer.
+</P>
+
+<A NAME="BasicNVDACommands"></A>
+<H3>Grunnleggende NVDA-kommandoer</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
-<TH>Tast</TH>
+<TH>Stasjonær tast</TH>
+<TH>Bærbar tast</TH>
+<TH>Berøring</TH>
 <TH>Beskrivelse</TH>
 </TR>
 <TR>
 <TD>Stopp tale</TD>
 <TD>Ctrl</TD>
+<TD>Ctrl</TD>
+<TD>Trykk med to fingrer</TD>
 <TD>Slutter øyeblikkelig å snakke</TD>
 </TR>
 <TR>
 <TD>Pause tale</TD>
 <TD>Skift</TD>
-<TD>Pauser øyeblikkelig tale. Ved å trykke den igjen vil fortsette å snakke der den slapp (hvis pause støttes av gjeldende synthesizer)</TD>
+<TD>Skift</TD>
+<TD>ingen</TD>
+<TD>Pauser øyeblikkelig tale. Ved å trykke igjen vil talen fortsette der den slapp (hvis pause støttes av gjeldende talesyntese)</TD>
 </TR>
 <TR>
-<TD>NVDA Meny</TD>
-<TD>NVDA+N</TD>
-<TD>Åpner NVDA menyen slik at du kan få tilgang til innstillinger, verktøy og hjelp etc</TD>
+<TD>NVDA-meny</TD>
+<TD>NVDA+n</TD>
+<TD>NVDA-n</TD>
+<TD>Dobbelttrykk med to fingrer</TD>
+<TD>Åpner NVDA-menyen slik at du får tilgang til innstillinger, verktøy og hjelp osv.</TD>
 </TR>
 <TR>
-<TD>Veksler talemodus</TD>
-<TD>NVDA+S</TD>
-<TD>Veksler talemodus mellom tale, pip og av.</TD>
+<TD>Bytt talemodus</TD>
+<TD>NVDA+s</TD>
+<TD>NVDA+s</TD>
+<TD>ingen</TD>
+<TD>Bytter talemodus mellom tale, pip og av.</TD>
 </TR>
 <TR>
-<TD>Slår av/på Tastaturhjelp modus</TD>
+<TD>Slå av/på tastaturhjelpmodus</TD>
 <TD>NVDA+1</TD>
-<TD>Når du trykker en tast i denne modusen vil tasten bli lest, og beskrivelse av eventuelle NVDA kommando tilknyttet den</TD>
+<TD>NVDA+1</TD>
+<TD>ingen</TD>
+<TD>Når du trykker en tast i denne modusen vil tasten bli lest sammen med beskrivelse av eventuell NVDA-kommando tilknyttet den</TD>
 </TR>
 <TR>
 <TD>Avslutt NVDA</TD>
-<TD>NVDA+Q</TD>
+<TD>NVDA+q</TD>
+<TD>NVDA+q</TD>
+<TD>ingen</TD>
 <TD>Avslutter NVDA</TD>
 </TR>
 <TR>
 <TD>Slipp neste tast gjennom</TD>
 <TD>NVDA+F2</TD>
-<TD>Lar NVDA slippe neste tastetrykk rett gjennom til det aktive programmet, selv om det er normalt håndtert som en NVDA tastekommando</TD>
+<TD>NVDA+F2</TD>
+<TD>ingen</TD>
+<TD>Lar NVDA slippe neste tastetrykk rett gjennom til det aktive programmet, selv om det normalt er håndtert som en NVDA-tastekommando</TD>
 </TR>
 <TR>
-<TD>Slår applikasjonshvilemodus på/av</TD>
-<TD>NVDA+Skift+S</TD>
-<TD>Dvalemodus deaktiverer alle NVDA kommandoer og tale/punkt for det gjeldende programmet. Dette er mest nyttig i applikasjoner som har sin egen tale eller leser av skjermen funksjoner. Trykk denne kommandoen på nytt for å deaktivere innebygde talemodus.</TD>
+<TD>Slå applikasjonsdvalemodus på/av</TD>
+<TD>NVDA+Skift+s</TD>
+<TD>NVDA-Skift+z</TD>
+<TD>ingen</TD>
+<TD>Dvalemodus deaktiverer alle NVDA-kommandoer og tale/punktskrift for det gjeldende programmet. Dette er mest nyttig i applikasjoner som har sin egen tale eller skjermleserfunksjon. Trykk denne kommandoen på nytt for å deaktivere dvalemodus.</TD>
 </TR>
 </TABLE>
 
+<A NAME="ReportingSystemInformation"></A>
 <H3>Rapportering av systeminformasjon</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -74,20 +104,21 @@
 <TR>
 <TD>Rapporter dato/klokkeslett</TD>
 <TD>NVDA+F12</TD>
-<TD>Trykk en gang rapporterer nåværende tidspunkt, å trykke to ganger rapporterer dato</TD>
+<TD>Ett trykk rapporterer gjeldende tid, to trykk rapporterer dato</TD>
 </TR>
 <TR>
 <TD>Rapporter batteristatus</TD>
-<TD>NVDA+Skift+B</TD>
-<TD>Rapporterer batteristatus dvs. om strøm er i bruk eller nåværende strømprosent.</TD>
+<TD>NVDA+Skift+b</TD>
+<TD>Rapporterer batteristatus, dvs. om strøm er i bruk eller nåværende ladeprosent.</TD>
 </TR>
 <TR>
 <TD>Rapporter tekst i utklippstavle</TD>
-<TD>NVDA+C</TD>
+<TD>NVDA+c</TD>
 <TD>Rapporterer tekst i utklippstavlen hvis det er noen.</TD>
 </TR>
 </TABLE>
 
+<A NAME="NavigatingWithNVDA"></A>
 <H2>Navigere med NVDA</H2>
 
 <A NAME="SystemFocus"></A>
@@ -96,28 +127,33 @@
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
-<TH>Tast</TH>
+<TH>Stasjonær tast</TH>
+<TH>Bærbar tast</TH>
 <TH>Beskrivelse</TH>
 </TR>
 <TR>
-<TD>Lese gjeldende fokus</TD>
+<TD>Les gjeldende fokus</TD>
 <TD>NVDA+Tab</TD>
-<TD>Leser det gjeldende objektet eller kontroll som har systemfokus. Ved å trykke to ganger staves informasjonen</TD>
+<TD>NVDA+Tab</TD>
+<TD>Leser gjeldende objekt eller kontroll som har systemfokus. Ved å trykke to ganger staves informasjonen</TD>
 </TR>
 <TR>
-<TD>Lese tittel</TD>
-<TD>NVDA+T</TD>
+<TD>Les tittel</TD>
+<TD>NVDA+t</TD>
+<TD>NVDA+t</TD>
 <TD>Leser tittelen på det aktive vinduet. Ved å trykke to ganger staves informasjonen. Ved å trykke tre ganger kopieres den til utklippstavlen</TD>
 </TR>
 <TR>
 <TD>Les det aktive vinduet</TD>
-<TD>NVDA+B</TD>
+<TD>NVDA+b</TD>
+<TD>NVDA+b</TD>
 <TD>Leser alle kontrollene i det aktive vinduet (nyttig for dialoger)</TD>
 </TR>
 <TR>
-<TD>Les Statuslinje</TD>
+<TD>Les statuslinje</TD>
 <TD>NVDA+End</TD>
-<TD>Leser Statuslinjen hvis NVDA finner en. Flytter også navigasjonsobjektet til denne plasseringen</TD>
+<TD>NVDA+Skift+End</TD>
+<TD>Leser Statuslinjen hvis NVDA finner en, og flytter navigasjonsobjektet til denne plasseringen. Ved å trykke to ganger staves informasjonen. Ved å trykke tre ganger kopieres den til utklippstavlen</TD>
 </TR>
 </TABLE>
 
