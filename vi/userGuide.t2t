@@ -859,6 +859,11 @@ Kí tự di chuyển nhanh được hỗ trợ cho các liên kết và hình �
 
 +NVDA sớm hỗ trợ việc đọc và điều hướng tương tác nội dung toán học cho các sách với nội dung toán tiếp cận.
 +Vui lòng xem phần [Đọc nội dung toán học #ReadingMath] để biết thêm thông tin.
+
++++ Chọn văn bản +++
+Kindle cho phép bạn thực hiện nhiều thao tác trên văn bản được chọn, bao gồm lấy định nghĩa từ điển, thêm ghi chú và đánh dấu, sao chép văn bản vào bộ nhớ tạm và tìm kiếm trên web.
+ Để làm điều đó, trước tiên hãy chọn văn bản một cách bình thường như bạn vẫn làm ở chế độ duyệt; ví dụ: dùng shift và các phím di chuyển con trỏ.
+
 %kc:beginInclude
 Bạn có thể tự chuyển trang với phím Trang trước hoặc phím Trang kế để chuyển về trang trước hoặc trang kế đó.
 %kc:endInclude
