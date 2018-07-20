@@ -240,7 +240,7 @@ Nhấn thêm một lần nữa để tắt.
 Khi chế độ này được bật, nếu bạn thực hiện một thao tác nhập ví dụ như nhấn một phím lệnh hoặc hành động cảm ứng nào đó thì NVDA sẽ đọc thao tác bạn vừa thực hiện và mô tả chức năng của thao tác đó.
 Chức năng của thao tác lệnh đó hoàn toàn không được thực thi khi chế độ trợ giúp nhập đang bật.
 
-++ Thực đơn NVDA ++
+++ Thực đơn NVDA ++[TheNVDAMenu]
 Trong thực đơn NVDA, bạn có thể thay đổi các thông tin cấu hình cho NVDA, sử dụng các công cụ, xem tài liệu hướng dẫn, quản lý thông tin hay tắt NVDA.
 
 Để mở thực đơn NVDA khi NVDA đang chạy, bạn có thể nhấn tổ hợp phím NVDA + n hoặc hành động 2 chạm 2-ngón lên màn hình cảm ứng.
@@ -248,7 +248,7 @@ Bạn cũng có thể mở thực đơn đó từ khay hệ thống.
 Bạn kích hoạt nút chuột phải vào biểu tượng NVDA trên khay hệ thống hoặc dùng tổ hợp phím Windows + b để chuyển đến khay hệ thống, dùng phím mũi tên để tìm đến NVDA và nhấn phím thực đơn ngữ cảnh (phím application) trên biểu tượng NVDA đó.
 Khi thực đơn hiện ra, bạn dùng các phím mũi tên để khám phá các thực đơn đó và nhấn phím enter để kích hoạt mục bạn chọn.
 
-++ Các lệnh cơ bản của NVDA ++
+++ Các lệnh cơ bản của NVDA ++[BasicNVDACommands]
 %kc:beginInclude
 || Chức năng | Desktop | Phím Laptop | Hành động cảm ứng | Mô tả |
 | Dừng đọc | Control | control | Chạm 2-ngón | Dừng đọc |
@@ -261,7 +261,7 @@ Khi thực đơn hiện ra, bạn dùng các phím mũi tên để khám phá c�
 | Bật tắt chế độ ngủ cho ứng dụng | NVDA+shift+s | NVDA+shift+z | none | Bật tắt chế độ ngủ cho ứng dụng hiện tại. Chức năng này hữu ích khi bạn dùng một ứng dụng tự hỗ trợ giọng nói. Mọi lệnh đọc và chức năng hiển thị thông tin trên màn hình nổi của NVDA đều không hoạt động khi ở chế độ ngủ. Nhấn một lần nữa để tắt chế độ ngủ nếu đang bật, và ngược lại |
 %kc:endInclude
 
-++ Thông báo thông tin hệ thống ++
+++ Thông báo thông tin hệ thống ++[ReportingSystemInformation]
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
 | Thông báo ngày giờ hệ thống | NVDA+f12 | Nhấn 1 lần để nghe giờ, nhấn nhanh 2 lần để nghe ngày tháng |
@@ -269,7 +269,7 @@ Khi thực đơn hiện ra, bạn dùng các phím mũi tên để khám phá c�
 | Thông báo dữ liệu trong bộ nhớ đệm | NVDA+c | thông báo dữ liệu trong bộ nhớ đệm (nếu có) |
 %kc:endInclude
 
-+ Di chuyển với NVDA +
++ Di chuyển với NVDA +[NavigatingWithNVDA]
 NVDA cho phép bạn di chuyển trên máy theo các chế độ khác nhau, cả ở chế độ bình thường và chế độ duyệt.
 
 ++ Đối tượng ++[Objects]
@@ -435,7 +435,7 @@ Khi di chuyển trên màn hình với các lệnh duyệt, đối tượng đi�
 
 Chú ý là với một số ứng dụng mới thì NVDA có thể chưa nhận biết được hết nội dung trên màn hình do có thể là ứng dụng đã dùng cơ chế vẽ màn hình mới.
 
-++ Di chuyển với chuột ++
+++ Di chuyển với chuột ++[NavigatingWithTheMouse]
 Khi bạn di chuyển chuột thì theo mặc định NVDA sẽ tự động thông báo văn bản và đối tượng ở dưới vị trí con trỏ chuột hay nơi chuột đi qua.
 Nếu bạn lựa chọn thì NVDA có thể thông báo cả đoạn văn bản, hay 1 dòng tại vị trí con trỏ chuột.
 
@@ -490,7 +490,7 @@ Bạn cũng có thể thiết lập để chế độ nhập tiếp tục hoạt
 %kc:endInclude
 
 
-++ Ký tự di chuyển đơn ++
+++ Ký tự di chuyển đơn ++[SingleLetterNavigation]
 Trong chế độ duyệt tài liệu, NVDA cung cấp cơ chế duyệt nhanh đến các thành phần trong tài liệu đó.
 Chú ý không phải tất cả các phím tắt này đều hỗ trợ cho mọi loại tài liệu.
 
@@ -532,7 +532,7 @@ Nếu bạn muốn dùng các phím tắt này trong khi vẫn muốn sử dụn
 Nhấn NVDA+shift+khoảng trắng để bật/tắt ký tự di chuyển đơn.
 %kc:endInclude
 
-++ Hộp thoại danh sách các thành phần ++
+++ Hộp thoại danh sách các thành phần ++[ElementsList]
 NVDA cho phép bạn lọc và truy cập nhanh đến các đối tượng trong tài liệu 
 Ví dụ như liên kết (link), tiêu đề (heading), biểu mẫu, nút  hay cột mốc (landmarks) bằng hộp thoại danh sách các thành phần. 
 Bạn có thể thay đổi liệt kê giữa các loại thành phần trên ở nhóm nút radio.
@@ -543,7 +543,7 @@ Khi tìm thấy đối tượng mình mong muốn, bạn có thể nhảy đến
 | Mở hộp thoại danh sách các thành phần | NVDA+f7 | Mở hộp thoại danh sách các thành phần để lọc theo link, heading hay cột mốc |
 %kc:endInclude
 
-++ Thao tác trên đối tượng nhúng ++
+++ Thao tác trên đối tượng nhúng ++[ImbeddedObjects]
 Tài liệu có thể chứa các loại đối tượng sử dụng công nghệ như Adobe Flash, Oracle Java, HTML5 cũng như các hộp thoại hay ứng dụng  khác.
 Trong quá trình duyệt tài liệu, nếu gặp các đối tượng trên thì NVDA sẽ thông báo kiểu đối tượng cho bạn, ví dụ đối tượng nhúng, hộp thoại, v..v.
 Có thể nhấn phím di chuyển đơn o và shift+o để đi nhanh đến các đối tượng đó.
@@ -573,7 +573,7 @@ Lưu ý là đây vẫn chưa phải chuẩn chính thức vì vậy hiện vẫ
 Khi đọc tài liệu, NVDA sẽ đọc bất kỳ nội dung toán học mà nó được hỗ trợ.
 Nếu bạn dùng màn hình nổi, nó sẽ hiển thị trên màn hình nổi.
 
-++ Duyệt và Tương Tác ++
+++ Duyệt và Tương Tác ++[InteractiveNavigation]
 Khi bạn chủ yếu đọc tài liệu này với giọng nói, bạn sẽ muốn đọc một biểu thức dưới dạng chia nhỏ của nó, thay vì nghe toàn bộ một biểu thức tại một thời điểm.
 
 Trong chế độ duyệt, bạn có thể làm điều này bằng cách chuyển con trỏ đến phần nội dung toán học và nhấn enter.
@@ -595,14 +595,14 @@ Vui lòng đọc tài liệu hướng dẫn của MathPlayer phần các lệnh 
 
 Nhấn escape nếu bạn muốn trở về tài liệu.
 
-+ Chữ Nổi +
++ Chữ Nổi +[Braille]
 Nếu bạn sử dụng màn hình nổi, NVDA có thể xuất thông tin ra dạng chữ nổi.
 Nếu màn hình nổi của bạn có bàn phím kiểu Perkins, bạn có thể nhập liệu chữ nổi dưới dạng đầy đủ và viết tắt.
 
 Vui lòng xem phần [các màn hình nổi được hỗ trợ #SupportedBrailleDisplays] để biết thêm thông tin các mẫu được hỗ trợ.
 Bạn có thể cấu hình màn hình nổi với [hộp thoại thiết lập màn hình nổi #BrailleSettings].
 
-++ Quy ước viết tắt cho loại điều khiển, trạng thái và cột mốc ++
+++ Quy ước viết tắt cho loại điều khiển, trạng thái và cột mốc ++[BrailleAbbreviations]
 Để giúp hiển thị thông tin đầy đủ trên màn hình nổi, sau đây là một số quy ước viết tắt cho các loại điều khiển, trạng thái và cột mốc.
 
 || Viết tắt | Loại điều khiển |
@@ -690,9 +690,9 @@ Và sau đây là những quy ước viết tắt cho cột mốc:
 | srch | search |
 | rgn | region |
 
-++ Nhập Liệu Chữ Nổi ++
+++ Nhập Liệu Chữ Nổi ++[BrailleInput]
 NVDA hỗ trợ nhập liệu chữ nổi dưới dạng đầy đủ và viết tắt.
-Bạn có thể chọn bảng chuyển đổi chữ nổi để chuyển từ chữ nổi sang dạng văn bản thông thường trong phần cài đặt [bảng nhập liệu #BrailleInputTable] ở hộp thoại thiết lập màn hình nổi.
+Bạn có thể chọn bảng chuyển đổi chữ nổi để chuyển từ chữ nổi sang dạng văn bản thông thường trong phần cài đặt [bảng nhập liệu #BrailleSettingsInputTable] ở hộp thoại thiết lập màn hình nổi.
 
 Khi nhập liệu chữ đầy đủ, văn bản sẽ được chuyển dịch ngay sau lúc gõ vào..
 Khi dùng chữ tắt, văn bản sẽ được chuyển dịch sau khi nhấn phím khoảng trắng hoặc enter ở cuối mỗi từ.
