@@ -3666,7 +3666,7 @@ Phần này có các thông tin về các bộ đọc mà NVDA hỗ trợ.
 
 <P>
 Bộ đọc <A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak NG</A> được tích hợp trực tiếp với NVDA và nó không cần cài thêm bất kỳ driver hoặc gói dữ liệu nào.
-Mặc định NVDA khi khởi động sẽ dùng bộ đọc eSpeak NG
+Mặc định, NVDA khi khởi động sẽ dùng bộ đọc eSpeak NG
 Vì được tích hợp sẵn trong NVDA nên nó có thể được sử dụng tốt cho bản NVDA chạy trực tiếp từ USB.
 </P>
 <P>
@@ -4109,16 +4109,21 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 <H3>14.3. Các Màn Hình Handy Tech</H3>
 
 <P>
-NVDA hỗ trợ tất cả màn hình của <A HREF="http://www.handytech.de/">Handy Tech</A> khi kết nối qua cổng USB và bluetooth.
+NVDA hỗ trợ hầu hết màn hình của <A HREF="http://www.handytech.de/">Handy Tech</A> khi kết nối qua cổng USB, cổng serial hay bluetooth.
 Bạn cần phải cài driver của Handy Tech cho những mẫu màn hình dùng cổng USB cũ.
 </P>
 <P>
-Nhập liệu bằng chữ nổi hiện chưa được hỗ trợ.
+Các màn hình nổi sau đây không còn dược hỗ trợ, nhưng có thể sử dụng thông qua <A HREF="https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers">trình điều khiển chung của Handy Tech</A> và NVDA add-on:
 </P>
-<P>
-Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
+
+<UL>
+<LI>Braillino
+<LI>Bookworm
+<LI>Màn hình Modular với firmware phiên bản 1.13 hay thấp hơn. Lưu ý rằng firmware của màn hình này có thể cập nhật được.
++-
+Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
-</P>
+</UL>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4134,6 +4139,14 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 <TD>right, down</TD>
 </TR>
 <TR>
+<TD>Cuộn màn hình lên</TD>
+<TD>left, up, b3</TD>
+</TR>
+<TR>
+<TD>Cuộn màn hình xuống</TD>
+<TD>right, down, b6</TD>
+</TR>
+<TR>
 <TD>Chuyển về dòng trước</TD>
 <TD>b4</TD>
 </TR>
@@ -4147,7 +4160,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím shift+tab</TD>
-<TD>esc</TD>
+<TD>esc, left triple action key up+down</TD>
 </TR>
 <TR>
 <TD>Phím alt</TD>
@@ -4159,27 +4172,47 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím tab</TD>
-<TD>enter</TD>
+<TD>enter, right triple action key up+down</TD>
 </TR>
 <TR>
 <TD>Phím enter</TD>
-<TD>esc+enter</TD>
+<TD>esc+enter, left+right triple action key up+down, joystickAction</TD>
 </TR>
 <TR>
 <TD>Phím mũi tên lên</TD>
-<TD>leftSpace</TD>
+<TD>joystickUp</TD>
 </TR>
 <TR>
 <TD>Phím mũi tên xuống</TD>
-<TD>rightSpace</TD>
+<TD>joystickDown</TD>
+</TR>
+<TR>
+<TD>Phím mũi tên trái</TD>
+<TD>joystickLeft</TD>
+</TR>
+<TR>
+<TD>Phím ũi tên phải</TD>
+<TD>joystickRight</TD>
 </TR>
 <TR>
 <TD>Thực đơn NVDA</TD>
 <TD>b2+b4+b5+b6</TD>
 </TR>
 <TR>
-<TD>Cấu hình Handy Tech</TD>
-<TD>b4+b8</TD>
+<TD>Bật tắt con trỏ nổi đi theo</TD>
+<TD>b2</TD>
+</TR>
+<TR>
+<TD>Bật tắt con trỏ nổi</TD>
+<TD>b1</TD>
+</TR>
+<TR>
+<TD>Bật tắt con trỏ trình chiếu ngữ cảnh</TD>
+<TD>b7</TD>
+</TR>
+<TR>
+<TD>Bật tắt nhập liệu chữ nổi</TD>
+<TD>space+b1+b3+b4 (space+capital B)</TD>
 </TR>
 </TABLE>
 
