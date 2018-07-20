@@ -171,25 +171,25 @@ Mặc định thì cả hai phím Insert đều được chọn là phím bổ t
 
 Nếu bạn muốn phím bổ trợ hoạt động theo đúng chức năng của nó(ví dụ phím Khóa hoa) thì bạn nhấn nhanh 2 lần phím đó 
 
-+++ Kiểu bàn phím +++
-Hiện tại NVDA có 2 kiểu phím tắt(hay còn gọi là kiểu bàn phím): Đó là kiểu bàn phím Desktop và Laptop.
-Mặc định NVDA được thiết lập theo kiểu bàn phím Desktop nhưng bạn có thể chuyển sang kiểu Laptop bằng cách chọn mục đó trong hộp thoại "Thiết lập bàn phím" ở trong thực đơn Tùy chọn của NVDA.
++++ Kiểu bàn phím +++[KeyboardLayouts]
+Hiện tại, NVDA có 2 kiểu phím tắt(hay còn gọi là kiểu bàn phím): Đó là kiểu bàn phím Desktop và Laptop.
+Mặc định, NVDA được thiết lập theo kiểu bàn phím Desktop nhưng bạn có thể chuyển sang kiểu Laptop bằng cách chọn mục đó trong hộp thoại "Thiết lập bàn phím" ở trong thực đơn Tùy chọn của NVDA.
 
 Kiểu bàn phím Desktop sẽ sử dụng các phím bên bàn phím số và yêu cầu tắt phím Khóa số (NumLock).
 Mặc dù kiểu bàn phím Laptop không có bàn phím số riêng nhưng bạn có thể sử dụng giống như bàn phím số trên Desktop bằng cách nhấn kết hợp phím fn (phím function) với các phím bên phải như (7, 8, 9, u, i, o, j, k, l, v.v).
 Nếu kiểu bàn phím của bạn không cho phép làm điều đó thì bạn nên chọn kiểu bàn phím là Laptop.
 
-++ Thao tác cảm ứng trong NVDA ++
+++ Thao tác cảm ứng trong NVDA ++[NVDATouchGestures]
 Nếu bạn đang sử dụng các thiết bị cảm ứng chạy trên hệ điều hành từ Windows 8 trở lên thì bạn có thể điều khiển trực tiếp NVDA thông qua các thao tác cảm ứng.
 Nếu như NVDA đang chạy thì tất cả các hành động trên màn hình cảm ứng sẽ được gửi trực tiếp đến NVDA. 
 Vì vậy các hành động có thể thực hiện khi NVDA không chạy sẽ không hoạt động nếu NVDA đang chạy.
 
-+++ Khám phá màn hình +++
++++ Khám phá màn hình +++[ExploringTheScreen]
 Hành động phổ biến nhất trên màn hình là thông báo các đối tượng hay văn bản ở vị trí bất kỳ trên màn hình.
 Để làm điều đó, bạn đặt một ngón tay trên màn hình.
 Sau đó bạn có thể giữ và di chuyển ngón tay qua các đối tượng và văn bản trên màn hình.
 
-+++ Thao tác cảm ứng +++
++++ Thao tác cảm ứng +++[TouchGestures]
 Trong các phần dưới đây sẽ liệt kê các phím tắt cho bạn thao tác trên màn hình cảm ứng.
 Dưới đây là hướng dẫn cho một số thao tác.
 
@@ -212,7 +212,7 @@ Có 4 hành động vuốt tùy theo hướng của nó như vuốt sang trái, 
 Giống như hành động chạm thì hành động vuốt có thể thực hiện với một hoặc nhiều ngón tay.
 Do vậy mà bạn có thể vuốt với hai hoặc nhiều ngón tay ví dụ vuốt lên trên bằng hai ngón được gọi là vuốt lên 2-ngón, vuốt qua trái bằng 4 ngón được gọi là vuốt trái 4-ngón và tương tự như vậy...
 
-+++ Chế độ cảm ứng +++
++++ Chế độ cảm ứng +++[TouchModes]
 NVDA có nhiều lệnh hơn so với số lượng hành động cảm ứng có thể thực hiện. NVDA có một vài chế độ cảm ứng cho phép bạn chuyển đổi để thực hiện các tập lệnh của những hành động cảm ứng khác nhau.
 Có hai chế độ là chế độ đối tượng (object mode) và chế độ văn bản(text mode) 
 Nếu các lệnh của NVDA liệt kê trong tài liệu này có thao tác cảm ứng, thì chế độ cho thao tác cảm ứng đó sẽ được ghi ngay sau hành động cảm ứng  bên trong dấu ngoặc.
@@ -223,7 +223,7 @@ Nếu như hành động nào không được ghi kèm theo chế độ cảm �
 Để chuyển qua lại giữa các chế độ, chạm ba (chạm nhanh ba ngón vào màn hình).
 %kc:endInclude
 
-+++ Bàn phím cảm ứng +++
++++ Bàn phím cảm ứng +++[TouchKeyboard]
 Bàn phím cảm ứng dùng để nhập lệnh và văn bản từ màn hình cảm ứng.
 Khi con trỏ ở trong trường nhập liệu, bạn có thể mở bàn phím cảm ứng bằng cách chạm hai lần biểu tượng bàn phím cảm ứng dưới đáy màn hình.
 Với các máy tablet như Microsoft Surface Pro, bàn phím cảm ứng luôn sẵn sàng khi bàn phím bị khóa.
@@ -232,7 +232,7 @@ Với các máy tablet như Microsoft Surface Pro, bàn phím cảm ứng luôn 
 Khi đang bật bàn phím cảm ứng, để xác định các phím, di chuyển ngón tay đến vị trí của bàn phím cảm ứng (thường ở phía dưới màn hình), rồi di chuyển bằng một ngón tay.
 khi tìm thấy phím muốn nhấn, chạm phím đó hai lần hoặc buông ngón tay ra, tùy vào thiết lập đã chọn trong [cài đặt Tương tác cảm ứng #TouchInteraction].
 
-++ Chế độ trợ giúp thao tác nhập ++
+++ Chế độ trợ giúp thao tác nhập ++[InputHelpMode]
 Rất nhiều phím tắt của NVDA được mô tả trong tài liệu hướng dẫn này nhưng có một cách khác để khám phá tất cả các thao tác lệnh là bật chế độ trợ giúp nhập.
 
 Để bật chế độ trợ giúp này, nhấn tổ hợp phím NVDA + 1.
