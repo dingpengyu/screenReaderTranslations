@@ -7,14 +7,14 @@ Hướng dẫn sử dụng NVDA NVDA_VERSION
 = Mục lục=[toc]
 %%toc
 
-+ Giới thiệu+
++ Giới thiệu+[Introduction]
 Chào mừng bạn đến với NVDA!
 
 NonVisual Desktop Access (NVDA), (tạm dịch là tiếp cận máy tính không cần thị giác), là một phần mềm đọc màn hình miễn phí, mã nguồn mở trên hệ điều hành windows.
 Cung cấp các phản hồi qua tiếng nói và qua màn hình nổi để giúp người khiếm thị có thể sử dụng được máy tính mà không tốn chi phí.
 NVDA được phát triển bởi công ty [NV Access https://www.nvaccess.org/], với sự đóng góp và hỗ trợ từ cộng đồng.
 
-++ Các tính năng chung++
+++ Các tính năng chung ++[GeneralFeatures]
 NVDA cho phép người khiếm thị tương tác và sử dụng máy tính với hệ điều hành Windows và các ứng dụng khác.
 
 Một số tính năng nổi bật như:
@@ -33,25 +33,25 @@ Một số tính năng nổi bật như:
 - Hỗ trợ đọc trong các console như dòng lệnh Windows và những ứng dụng console khác
 - 
 
-++ Tính quốc tế ++
+++ Tính quốc tế ++[Internationalization]
 Một điều quan trọng là tất cả mọi người trên thế giới, họ đều có quyền ngang nhau trong việc tiếp cận với công nghệ; cho dù họ đang giao tiếp bằng ngôn ngữ nào.
 Bên cạnh tiếng anh thì NVDA được dịch sang 51 ngôn ngữ khác nhau bao gồm: Afrikaans, Albanian, Amharic, Arabic, Aragonese, Bulgarian, Burmese, Catalan, Chinese (simplified and traditional), Croatian, Czech, Danish, Dutch, Farsi, Finnish, French, Galician, Georgian, German (Germany and Switzerland), Greek, Hebrew, Hindi, Hungarian, Icelandic, Irish, Italian, Japanese, Kannada, Korean, Kyrgyz, Lithuanian, Macedonian, Mongolian, Nepali, Norwegian, Polish, Portuguese (Brazil and Portugal), Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish (Colombia and Spain), Swedish, Tamil, Thai, Turkish, Ukrainian và tiếng Việt.
 
-++ Hỗ trợ các bộ tổng hợp tiếng nói ++
+++ Hỗ trợ các bộ tổng hợp tiếng nói ++[SpeechSynthesizerSupport]
 Ngoài việc hỗ trợ giao diện với nhiều ngôn ngữ khác nhau, NVDA hỗ trợ đọc nội dung của một ngôn ngữ nếu có bộ tổng hợp âm cho ngôn ngữ đó.
 
 NVDA tích hợp sẵn  bộ đọc [eSpeak NG https://github.com/espeak-ng/espeak-ng]; đây là một bộ tổng hợp tiếng nói đa ngôn ngữ, miễn phí và mã nguồn mở.
 
 Có thể xem thêm thông tin về các bộ đọc được NVDA hỗ trợ trong phần [hỗ trợ các bộ đọc của NVDA #SupportedSpeechSynths].
 
-++ Hỗ Trợ Màn Hình Nổi ++
+++ Hỗ Trợ Màn Hình Nổi ++[BrailleSupport]
 Nếu người dùng có sử dụng màn hình nổi, NVDA có thể gửi thông tin dưới dạng chữ nổi ra màn hình nổi.
 Hỗ trợ nhập liệu chữ nổi đầy đủ và viết tắt với bàn phím màn hình nổi.
 Chi tiết về các màn hình nổi được hỗ trợ bởi NVDA có thể xem ở phần [hỗ trợ các màn hình nổi #SupportedBrailleDisplays] để biết thêm thông tin.
  
 NVDA hỗ trợ các bảng mã chữ nổi cho nhiều ngôn ngữ khác nhau bao gồm bảng mã chữ đủ, chữ tắt và chữ nổi máy tính.
 
-++ Giấy phép và bản quyền ++
+++ Giấy phép và bản quyền ++[LicenseAndCopyright]
 Bản quyền NVDA NVDA_COPYRIGHT_YEARS cộng đồng NVDA.
 
 NVDA được bảo vệ bởi GNU General Public License (Phiên bản 2).
@@ -59,7 +59,7 @@ Bạn có thể chia sẻ hoặc thay đổi phần mềm này theo ý mình mi�
 Điều này được áp dụng cho cả bản gốc, bản chỉnh sửa hay bất kỳ phần phát sinh nào khác.
 Để biết thêm thông tin chi tiết, xin xem đầy đủ nội dung [Giấy phép http://www.gnu.org/licenses/old-licenses/gpl-2.0.html]
 
-+ Yêu Cầu Hệ Thống +
++ Yêu Cầu Hệ Thống +[SystemRequirements]
 - Hệ điều hành: tất cả các phiên bản 32bit và 64bit của Windows 7, Windows 8, Windows 8.1,  Windows 10 và các bản máy chủ từ bản Windows Server 2008 R2.
  - Đối với Win 7, NVDA yêu cầu bản SP1 hoặc cao hơn.
  - Đối với bản  Windows Server 2008 R2, NVDA yệu cầu bản SP 1 hoặc cao hơn.
@@ -68,7 +68,7 @@ Bạn có thể chia sẻ hoặc thay đổi phần mềm này theo ý mình mi�
 - Yêu cầu ít nhất 90 MB không gian lưu trữ ổ cứng
 -
 
-+ Tải và cài đặt NVDA +
++ Tải và cài đặt NVDA +[GettingAndSettingUpNVDA]
 Nếu bạn chưa có NVDA thì có thể tải về từ trang web [www.nvaccess.org NVDA_URL].
 
 Tìm đến phần Download và bạn sẽ thấy liên kết để tải phiên bản mới nhất của NVDA.
@@ -87,7 +87,7 @@ Hiện tại NVDA chưa hỗ trợ chạy bản chạy trực tiếp trên các 
 
 Bản NVDA tạm thời thường được sử dụng với mục đích demo. Vì bản tạm thời bị giới hạn về thời gian.
 
-++ Hạn chế của phiên bản tạm thời và bản chạy trực tiếp ++
+++ Hạn chế của phiên bản tạm thời và bản chạy trực tiếp ++[PortableAndTemporaryCopyRestrictions]
 Bên cạnh việc không thể tự khởi động cùng Windows và chạy ở cửa sổ đăng nhập của Windows thì bản chạy trực tiếp và bản tạm thời có các hạn chế sau:
 - Không có khả năng tương tác với các ứng dụng yêu cầu quyền quản trị, trừ trường hợp NVDA đang được chạy với quyền quản trị (không khuyến cáo).
 - Không có khả năng đọc các thông tin tài khoản người dùng(UAC) khi khởi động một ứng dụng được yêu cầu quyền quản trị.
@@ -96,7 +96,7 @@ Bên cạnh việc không thể tự khởi động cùng Windows và chạy ở
 - Từ Windows 8 trở lên: Không hỗ trợ chế độ giảm âm.
 -
 
-++ Cài đặt NVDA ++
+++ Cài đặt NVDA ++[InstallingNVDA]
 Nếu bạn cài đặt từ gói NVDA bạn tải về thì bạn có thể chọn nút "Cài đặt" NVDA.
 Nếu bạn cài từ bản chạy trực tiếp thì bạn có thể chọn mục "Cài đặt NVDA" từ thực đơn "Công cụ" của NVDA.
 
@@ -106,20 +106,20 @@ Có một số tùy chọn cho việc cài đặt sẽ được giải thích tr
 Sau khi việc cài đặt kết thúc sẽ có một thông báo về việc cài đặt đã thành công.
 Chọn nút OK để khởi động lại bản NVDA vừa cài đặt.
 
-+++ Chạy NVDA tại màn hình đăng nhập của Windows +++
++++ Chạy NVDA tại màn hình đăng nhập của Windows +++[StartAtWindowsLogon]
 Tùy chọn này cho phép NVDA có thể chạy  hoặc không chạy tự động tại màn hình đăng nhập của Windows, trước khi bạn nhập mật khẩu.
 Tùy chọn này cũng áp dụng cho màn hình UAC và các màn hình bảo vệ khác.
 
-+++ Tạo biểu tượng trên Desktop (ctrl+alt+n) +++
++++ Tạo biểu tượng trên Desktop (ctrl+alt+n) +++[CreateDesktopShortcut]
 Tùy chọn này sẽ tạo biểu tượng NVDA trên màn hình Desktop để bạn có thể khởi động NVDA từ biểu tượng này.
 Nếu biểu tượng đó được tạo thì nó sẽ được gán 1 phím tắt là Ctrl + alt + n, khi nhấn tổ hợp phím này thì NVDA sẽ được chạy.
 
-+++ Sao chép cấu hình từ bản chạy trực tiếp tới thư mục cấu hình người dùng hiện tại +++
++++ Sao chép cấu hình từ bản chạy trực tiếp tới thư mục cấu hình người dùng hiện tại +++[CopyPortableConfigurationToCurrentUserAccount]
 Tùy chọn này sẽ copy thư mục cấu hình của bản NVDA chạy trực tiếp sang thư mục cấu hình của người dùng hiện tại (cho bản cài đặt).
 Nó sẽ không copy tới thư mục cấu hình của các tài khoản người dùng khác trên máy hay tới phần cấu hình hệ thống liên quan đến việc cho phép chạy ở màn hình đăng nhập của Windos cũng như các màn hình bảo vệ.
 Tùy chọn này chỉ có trong quá trình cài đặt NVDA từ bản chạy trực tiếp.
 
-++ Tạo bản NVDA chạy trực tiếp ++
+++ Tạo bản NVDA chạy trực tiếp ++[CreatingAPortableCopy]
 Nếu bạn chạy bản NVDA chạy trực tiếp từ gói bạn tải về thì bạn có thể chọn nút Tạo bản chạy trực tiếp (Create portable copy).
 Nếu bạn đang sử dụng NVDA được cài đặt trên máy thì bạn có thể tạo bản chạy trực tiếp bằng cách chọn mục "Tạo bản chạy trực tiếp" từ thực đơn "Công cụ" của NVDA.
 
@@ -131,9 +131,9 @@ Sau đó nhấn nút "tiếp tục' để tiến hành tạo bản NVDA chạy t
 Khi hoàn tất, sẽ có một thông báo xác nhận là việc tạo bản chạy trực tiếp đã thành công.
 Nhấn OK để đóng cửa sổ đó.
 
-+ Bắt đầu với NVDA +
++ Bắt đầu với NVDA +[GettingStartedWithNVDA]
 
-++ Khởi động NVDA ++
+++ Khởi động NVDA ++[LaunchingNVDA]
 Nếu bạn đã cài NVDA thì bạn có thể khởi động nó bằng cách nhấn tổ hợp phím ctrl + alt + n hoặc từ menu start.
 Thêm vào đó bạn có thể gõ nvda vào cửa sổ Run và nhấn enter.
 Bạn cũng có thể đưa thêm vào một số [tùy chọn của dòng lệnh #CommandLineOptions] khi chạy NVDA chẳng hạn như khởi động lại NVDA (-r), thoát (-q), vô hiệu hóa add-ons (--disable-addons)
@@ -151,6 +151,7 @@ Nếu phải chờ lâu thì NVDA sẽ thông báo như  "Chương trình NVDA �
 Nếu bạn không nghe thấy các dấu hiệu trên hoặc nghe thấy âm thanh tắt NVDA, hoặc thông báo lỗi từ Windows thì có thể việc khởi động đã có lỗi và bạn cần thông báo với nhà phát triển NVDA để tìm ra nguyên nhân lỗi
 Xin vui lòng kiểm tra thông tin trên trang web của NVDA để biết thêm thông tin về cách báo lỗi.
 
++++ Hộp thoại chào mừng +++[WelcomeDialog]
 Khi NVDA được khởi động thành công trong lần đầu tiên, sẽ có 1 cửa sổ cung cấp cho bạn thông tin cơ bản về các phím bổ trợ NVDA và thực đơn.
 (Vui lòng tham khảo đề tài này ở những phần sau)
 Hộp thoại gồm một hộp xổ và ba hộp kiểm.
@@ -159,9 +160,9 @@ Hộp kiểm đầu tiên cho phép bạn chọn phím khóa hoa làm phím bổ
 Hộp kiểm thứ hai cho phép NVDA khởi động cùng Windows (tùy chọn này chỉ dành cho bản cài đặt).
 Hộp kiểm thứ ba cho phép bạn hiển thị cửa sổ chào mừng này mỗi khi khởi động NVDA.
 
-++ Giới thiệu về các lệnh bàn phím của NVDA ++
+++ Giới thiệu về các lệnh bàn phím của NVDA ++[AboutNVDAKeyboardCommands]
 
-+++ phím bổ trợ NVDA +++
++++ phím bổ trợ NVDA +++[TheNVDAModifierKey]
 Các phím tắt trong NVDA thường là một tổ hợp phím với sự kết hợp của phím bổ trợ NVDA với một hay nhiều phím khác.
 ngoại trừ trường hợp duyệt nội dung trong kiểu bàn phím Desktop sử dụng các phím số bên bàn phím số và một vài trường hợp ngoại lệ khác.
 
