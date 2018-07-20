@@ -1131,27 +1131,27 @@ Chọn tùy chọn này để từ dưới vị trí con trỏ sẽ được hi�
 Tùy chọn này dùng để chọn hiển thị hoặc không hiển thị con trỏ trên màn hình nổi.
 Nó có hiệu lực đối với dấu nháy hệ thống và con trỏ duyệt nhưng không có tác dụng với chỉ báo vùng chọn.
 
-==== Nhấp Nháy Con Trỏ ====
+==== Nhấp Nháy Con Trỏ ====[BrailleSettingsBlinkCursor]
 Tùy chọn này dùng để cho phép con trỏ nhấp nháy hay không.
 Nếu tắt, con trỏ nổi sẽ luôn luôn ở tình trạng nổi và không nhấp nháy.
 Dấu báo vùng chọn không thay đổi, vẫn sử dụng chấm 7 và 8 và không nháy.
 
-==== Tốc Độ Nháy Của Con Trỏ (ms) ====
+==== Tốc Độ Nháy Của Con Trỏ (ms) ====[BrailleSettingsBlinkRate]
 Tùy chọn này là ô nhập liệu chữ số, cho phép bạn nhập tốc độ nhấp nháy của con trỏ theo đơn vị mili giây.
 
-==== Hình Dạng Con Trỏ tại Focus ====
+==== Hình Dạng Con Trỏ tại Focus ====[BrailleSettingsCursorShapeForFocus]
 Tùy chọn này cho phép chọn hình dạng, kiểu mẫu chấm cho con trỏ nổi khi đi theo focus.
 Chỉ báo vùng chọn vẫn sử dụng chấm 7 và 8 và không nháy. Nó không bị ảnh hưởng bởi tùy chọn này.
 
-==== Hình Dạng Con Trỏ Khi Duyệt ====
+==== Hình Dạng Con Trỏ Khi Duyệt ====[BrailleSettingsCursorShapeForReview]
 Tùy chọn này cho phép chọn hình dạng, kiểu mẫu chấm cho con trỏ nổi khi đi theo con trỏ duyệt.
 Chỉ báo vùng chọn vẫn sử dụng chấm 7 và 8 và không nháy. Nó không bị ảnh hưởng bởi tùy chọn này.
 
-==== Thời Gian Kết Thúc Thông Điệp (bằng Giây) ====
+==== Thời Gian Kết Thúc Thông Điệp (bằng Giây) ====[BrailleSettingsMessageTimeout]
 Tùy chọn này kiểm soát thời gian kết thúc hiển thị các thông điệp trên màn hình nổi.
 Nhập vào số 0 sẽ hoàn toàn không hiển thị thông điệp.
 
-==== Hiển Thị Thông Điệp Không Xác Định ====
+==== Hiển Thị Thông Điệp Không Xác Định ====[BrailleSettingsNoMessageTimeout]
 Tùy chọn này cho phép hiển thị các thông điệp của NVDA trên màn hình chữ nổi.
 
 %kc:setting
@@ -1160,14 +1160,14 @@ Phím tắt: NVDA+control+t
 
 Tùy chọn này cho phép bạn chọn con trỏ nổi sẽ đi theo con trỏ hệ thống hoặc theo con trỏ duyệt.
 
-==== Đọc Theo Đoạn ====
+==== Đọc Theo Đoạn ====[BrailleSettingsReadByParagraph]
 Khi bật, nội dung sẽ được hiện thị trên màn hình nổi theo đoạn thay vì dòng.
 Lệnh chuyển về dòng trước và dòng kế cũng sẽ đổi sang thành chuyển qua đoạn tương ứng.
 Điều này có nghĩa là bạn không cần cuộn màn hình ở cuối mỗi dòng, khi nội dung có thể hiển thị đầy đủ trên màn hình nổi.
 Nó có thể giúp bạn đọc xuyên suốt một đoạn nội dung dài.
 Tùy chọn này mặc định được tắt.
 
-==== Tránh Tách Từ ====
+==== Tránh Tách Từ ====[BrailleSettingsWordWrap]
 Nếu tùy chọn được bật, một từ quá dài nằm cuối màn hình nổi sẽ không bị tách ra.
 Bù vào đó, nó sẽ chừa ra vài ô trắng tại vị trí đó.
 Khi cuộn màn hình, bạn có thể đọc toàn bộ từ đó.
@@ -1179,7 +1179,7 @@ Khi cuộn màn hình, bạn sẽ đọc phần còn lại của từ.
 
 Nếu bật tùy chọn này, có thể giúp bạn đọc trôi chảy hơn, nhưng cũng sẽ thực hiện thao tác cuộn màn hình nhiều lần hơn.
 
-==== Trình Bày Ngữ Cảnh tại Focus ====
+==== Trình Bày Ngữ Cảnh tại Focus ====[BrailleSettingsFocusContextPresentation]
 Tùy chọn này cho phép chọn những thông tin ngữ cảnh nào sẽ hiển thị trên màn hình nổi khi một đối tượng có focus.
 Thông tin ngữ cảnh là những thông tin của những đối tượng liên quan theo cấp nằm trong đối tượng hiện tại.
 Ví dụ, khi đứng ở một mục trong danh sách, mục đó là một phần nằm trong đối tượng danh sách.
@@ -1205,20 +1205,20 @@ Vì vậy, nó chỉ hiển thị bạn đang đứng tại mục có focus.
 
 Để chuyển đổi giữa các chế độ trình bày ngữ cảnh, bạn có thể gán phím lệnh tùy chỉnh cho nó trong [hộp thoại quản lý thao tác #InputGestures].
 
-+++ Thiết Lập Bàn Phím (NVDA+control+k) +++
++++ Thiết Lập Bàn Phím (NVDA+control+k) +++[KeyboardSettings]
 Bạn có thể mở hộp thoại này từ thực đơn Tùy chọn của NVDA.
 Có các tùy chọn sau trong hộp thoại này:
 
-==== Kiểu bàn phím ====
+==== Kiểu bàn phím ====[KeyboardSettingsLayout]
 bạn có thể chọn kiểu bàn phím là desktop hoặc Laptop. ưu điểm của sử dụng kiểu bàn phím desktop là có thể sử dụng các phím số bên bàn phím số để duyệt nội dung.
 
-==== Sử dụng phím Khóa hoa làm phím bổ trợ NVDA ====
+==== Sử dụng phím Khóa hoa làm phím bổ trợ NVDA ====[KeyboardSettingsCapsModifier]
 Nếu chọn thì phím Khóa hoa sẽ là một trong các phím bổ trợ của NVDA.
 
-==== Sử dụng phím Insert mở rộng làm phím bổ trợ NVDA ====
+==== Sử dụng phím Insert mở rộng làm phím bổ trợ NVDA ====[KeyboardSettingsExtendedInsert]
 Nếu bạn chọn thì phím Insert (cạnh phím home và end) sẽ là phím bổ trợ của NVDA.
 
-==== Sử dụng phím Insert bàn phím số làm phím bổ trợ NVDA ====
+==== Sử dụng phím Insert bàn phím số làm phím bổ trợ NVDA ====[KeyboardSettingsNumpadInsert]
 Nếu bạn chọn thì phím Insert ở bên bàn phím số sẽ là phím bổ trợ của NVDA.
 
 Nếu bạn không chọn phím nào làm phím bổ trợ thì NVDA không thể sử dụng được các phím tắt.
@@ -1226,60 +1226,60 @@ Trong trường hợp đó NVDA sẽ hiển thị thông báo lỗi.
 Và bạn phải chọn ít nhất 1 phím làm phím bổ trợ.
 
 %kc:setting
-==== Đọc ký tự khi gõ ====
+==== Đọc ký tự khi gõ ====[KeyboardSettingsSpeakTypedCharacters]
 Phím bật/tắt: NVDA+2
 
 Khi được chọn, NVDA sẽ đọc mỗi ký tự  sau khi bạn gõ vào từ bàn phím.
 
 %kc:setting
-==== Đọc từ khi gõ ====
+==== Đọc từ khi gõ ====[KeyboardSettingsSpeakTypedWords]
 Phím bật/tắt: NVDA+3
 
 Khi được chọn, NVDA sẽ đọc từng từ ngay sau khi bạn gõ xong một từ.
 
-==== Ngừng đọc khi gõ ký tự ====
+==== Ngừng đọc khi gõ ký tự ====[KeyboardSettingsSpeechInteruptForCharacters]
 Nếu được chọn, việc đọc sẽ bị ngắt giữa chừng khi bạn gõ phím. Mặc định nó đã được chọn.
 
-==== Ngừng đọc khi nhấn phím Enter ====
+==== Ngừng đọc khi nhấn phím Enter ====[KeyboardSettingsSpeechInteruptForEnter]
 Nếu được chọn, việc đọc sẽ bị ngắt giữa chừng khi bạn gõ phím enter. Mặc định nó đã được chọn.
 
-==== Cho phép thay đổi vị trí đọc khi đọc tất cả ====
+==== Cho phép thay đổi vị trí đọc khi đọc tất cả ====[KeyboardSettingsSkimReading]
 Nếu được chọn thì việc thay đổi vị trí của con trỏ bằng các phím di chuyển nhanh trong chế độ duyệt tài liệu hay các phím di chuyển qua các dòng, các đoạn trong văn bản sẽ không làm dừng việc đọc. Thay vào đó, nó sẽ chuyển đến vị trí mới theo phím lệnh di chuyển được nhấn và đọc tiếp.
  
-==== bíp nếu gõ ký tự thường khi phím khóa hoa đang bật ====
+==== bíp nếu gõ ký tự thường khi phím khóa hoa đang bật ====[VoiceSettingsBeepLowercase]
 Nếu được chọn và khi phím Khóa hoa bật thì sẽ có tiếng bip cảnh báo khi bạn gõ phím chữ kết hợp với phím shift.
 Đôi khi phím Khóa hoa bật mà bạn không biết, nên khi bạn muốn gõ 1 chữ in hoa thì bạn hay nhấn thêm phím Shift nhưng điều đó lại tạo ra chữ cái thường.
 Do vậy chức năng này khá hữu ích trong trường hợp trên.
 
 %kc:setting
-==== Đọc phím lệnh ====
+==== Đọc phím lệnh ====[VoiceSettingsSpeakCommandKeys]
 Phím bật/tắt: NVDA+4
 
 Nếu được chọn thì NVDA sẽ thông báo tất cả các phím lệnh (không phải phím chữ và phím số), ví dụ như phím ctrl, alt, shift, v..v hoặc tổ hợp phím lệnh đó với các phím khác như Ctrl + s.
 
-==== Phát âm thanh báo lỗi chính tả khi nhập liệu ====
+==== Phát âm thanh báo lỗi chính tả khi nhập liệu ====[KeyboardSettingsAlertForSpellingErrors]
 Nếu bật, một âm thanh ngắn sẽ được phát khi từ bạn gõ có lỗi chính tả.
 Tùy chọn này chỉ hoạt động khi tùy chọn thông báo lỗi chính tả được bật trong hộp thoại [định dạng tài liệu #DocumentFormattingSettings].
 
-==== Quản lý phím từ ứng dụng khác ====
+==== Quản lý phím từ ứng dụng khác ====[KeyboardSettingsHandleKeys]
 Tùy chọn này điều khiển việc nhập dữ liệu từ các ứng dụng như màn hình cảm ứng hay phần mềm nhận dạng tiếng nói. 
-Nó được bật mặc định do vậy với những người dùng không muốn sử dụng chức năng này thì nên tắt chức năng này đi, ví dụ với người dùng ở Việt Nam cần tắt tùy chọn này để gõ được tiếng việt tốt với phần mềm Unikey.
+Nó được bật mặc định do vậy với những người dùng không muốn sử dụng chức năng này thì nên tắt chức năng này đi, ví dụ với người dùng ở Việt Nam cần tắt tùy chọn này để gõ được tiếng việt tốt với phần mềm UniKey.
 
 +++ Thiết Lập Chuột(NVDA+control+m) +++[MouseSettings]
 Bạn mở hộp thoại này từ thực đơn Tùy chọn của NVDA.
 Nó gồm các mục sau:
 
-==== Thông báo khi hình dạng chuột thay đổi ====
+==== Thông báo khi hình dạng chuột thay đổi ====[MouseSettingsShape]
 Nếu chọn, NVDA sẽ thông báo khi hình dạng của chuột thay đổi (ví dụ khi tải trang web và phải chờ đợi thì chuột có hình vòng tròn quay, v..v).
 Thông thường hình dạng của chuột thay đổi khi chuyển qua đối tượng nhập liệu, hoặc thao tác phải chờ lâu.
 
 %kc:setting
-==== Thông báo khi di chuyển chuột ====
+==== Thông báo khi di chuyển chuột ====[MouseSettingsTracking]
 Phím bật/tắt: NVDA+m
 
 Nếu được chọn và bạn di chuyển chuột trên màn hình thì NVDA sẽ thông báo nội dung và các đối tượng dưới vị trí con trỏ chuột và những nơi mà nó đi qua
 
-==== Đơn vị nội dung được đọc tại vị trí chuột ====
+==== Đơn vị nội dung được đọc tại vị trí chuột ====[MouseSettingsTextUnit]
 Tùy chọn này cho phép bạn chọn lượng nội dung sẽ được đọc khi chuột đi qua một đối tượng.
 Các giá trị cho tùy chọn này là: ký tự, từ, dòng hay đoạn.
 
