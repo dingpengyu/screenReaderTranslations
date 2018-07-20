@@ -2097,75 +2097,76 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 %kc:endInclude
 
 ++ Các dòng HIMS Braille Sense/Braille EDGE/Smart Beetle ++
-NVDA hỗ trợ các màn hình Braille Sense, Braille EDGE và Smart Beetle của [Hims http://www.hims-inc.com/] khi kết nối qua cổng USB và bluetooth.
+NVDA hỗ trợ các màn hình Braille Sense, Braille EDGE và Smart Beetle của [Hims http://www.hims-inc.com/] khi kết nối qua cổng USB hay bluetooth.
 Bạn cần phải cài driver nếu kết nối qua cổng USB.
-Bạn có thể download về tại trang: http://www.himsintl.com/?c=2/13&uid=2319
+Bạn có thể download về tại đây: http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip
 
 Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
 %kc:beginInclude
 || Tên | Phím |
-| Cuộn về trước | left side scroll down |
-| Cuộn tới | right side scroll down |
-| Chuyển về dòng trước | left side scroll up |
-| Chuyển đến dòng kế | right side scroll up |
+| Cuộn về trước | leftSideScrollUp, rightSideScrollUp, leftSideScroll |
+| Cuộn tới | leftSideScrollDown, rightSideScrollDown, rightSideScroll |
+| Chuyển về dòng trước | leftSideScrollUp+rightSideScrollUp |
++| Move braille display to next line | leftSideScrollDown+rightSideScrollDown |
+| Chuyển đến dòng trước | rightSideUpArrow |
+
+| Chuyển đến dòng kế | rightSideDownArrow |
+| Chuyển đến kí tự trước | rightSideLeftArrow |
+| Chuyển đến kí tự kế | rightSideRightArrow |
 | Rút về ô chữ nổi | routing |
+| Chuyển đến focus hiện tại | leftSideScrollUp+leftSideScrollDown, rightSideScrollUp+rightSideScrollDown, leftSideScroll+rightSideScroll |
+| Phím control | smartbeetle:f1, brailleedge:f3 |
+| Phím windows | f7, smartbeetle:f2 |
+| Phím alt | dot1+dot3+dot4+space, f2, smartbeetle:f3, brailleedge:f4 |
+| Phím shift | f5 |
+| Phím insert | dot2+dot4+space, f6 |
+| Phím applications | dot1+dot2+dot3+dot4+space, f8 |
+| Phím capsLock | dot1+dot3+dot6+space |
+| Phím tab | dot4+dot5+space, f3, brailleedge:f2 |
+| Phím shift+alt+tab | f2+f3+f1 |
+| Phím alt+tab | f2+f3 |
 | Phím shift+tab | dot1+dot2+space |
-| Phím alt | dot1+dot3+dot4+Space |
-| Phím escape | dot1+dot5+Space |
-| Phím tab | dot4+dot5+Space |
-| Phím mũi tên lên | dot1+Space |
-| Phím mũi tên xuống | dot4+Space |
-| Khóa hoa | dot1+dot3+dot6+space |
-| Phím shift+alt+tab | advance2+advance3+advance1 |
-| Phím alt+tab | advance2+advance3 |
 | Phím end | dot4+dot6+space |
-| Phím Control+end | dot4+dot5+dot6+space |
-| Phím home | dot1+dot3+space |
+| Phím control+end | dot4+dot5+dot6+space |
+| Phím home | dot1+dot3+space, smartbeetle:f4 |
 | Phím control+home | dot1+dot2+dot3+space |
-| Phím mũi tên trái | dot3+space |
-| Phím control+shift+mũi tên trái | dot2+dot8+space+advance1 |
+| Phím alt+f4 | dot1+dot3+dot5+dot6+space |
+| Phím mũi tên trái | dot3+space, leftSideLeftArrow |
+| Phím control+shift+mũi tên trái | dot2+dot8+space+f1 |
 | Phím control+mũi tên trái | dot2+space |
-| Phím shift+alt+mũi tên trái | dot2+dot7+advance1 |
+| Phím shift+alt+mũi tên trái | dot2+dot7+f1 |
 | Phím alt+mũi tên trái | dot2+dot7 |
-| Phím mũi tên phải | dot6+space |
-| Phím control+shift+mũi tên phải | dot5+dot8+space+advance1 |
+| Phím mũi tên phải | dot6+space, leftSideRightArrow |
+| Phím control+shift+mũi tên phải | dot5+dot8+space+f1 |
 | Phím control+mũi tên phải | dot5+space |
-| Phím shift+alt+mũi tên phải | dot5+dot7+advance1 |
+| Phím shift+alt+mũi tên phải | dot5+dot7+f1 |
 | Phím alt+mũi tên phải | dot5+dot7 |
 | Phím trang trước | dot1+dot2+dot6+space |
 | Phím control+trang trước | dot1+dot2+dot6+dot8+space |
-| Phím control+shift+mũi tên lên | dot2+dot3+dot8+space+advance1 |
+| Phím mũi tên lên | dot1+space, leftSideUpArrow |
 | Phím control+mũi tên lên | dot2+dot3+space |
-| Phím shift+alt+mũi tên lên | dot2+dot3+dot7+advance1 |
+| Phím control+shift+mũi tên lên | dot2+dot3+dot8+space+f1 |
+| Phím shift+alt+mũi tên lên | dot2+dot3+dot7+f1 |
 | Phím alt+mũi tên lên | dot2+dot3+dot7 |
-| Phím shift+mũi tên lên | left side scroll down + space |
+| Phím shift+mũi tên lên | leftSideScrollDown+space |
 | Phím trang kế | dot3+dot4+dot5+space |
 | Phím control+trang kế | dot3+dot4+dot5+dot8+space |
-| Phím control+shift+mũi tên xuống | dot5+dot6+dot8+space+advance1 |
+| Phím mũi tên xuống | dot4+space, leftSideDownArrow |
+| Phím control+shift+mũi tên xuống | dot5+dot6+dot8+space+f1 |
 | Phím control+mũi tên xuống | dot5+dot6+space |
-| Phím shift+alt+mũi tên xuống | dot5+dot6+dot7+advance1 |
+| Phím shift+alt+mũi tên xuống | dot5+dot6+dot7+f1 |
 | Phím alt+mũi tên xuống | dot5+dot6+dot7 |
-| Phím shift+mũi tên xuống | right side scroll down + space |
+| Phím shift+mũi tên xuống | space+rightSideScrollDown |
+| Phím escape | dot1+dot5+space, f4, brailleedge:f1 |
 | Phím delete | dot1+dot3+dot5+space |
-| Phím f1 | dot1+dot2+dot5+space |
+Phím f1 | dot1+dot2+dot5+space |
 | Phím f3 | dot1+dot2+dot4+dot8 |
-| Phím f4 | dot7+advance3 |
-| Phím windows+b | dot1+dot2+advance1 |
-| Phím windows+d | dot1+dot4+dot5+advance1 |
-%kc:endInclude
-
-++ HIMS SyncBraille ++
-NVDA hỗ trợ màn hình SyncBraille tại [HIMS http://www.hims-inc.com/].
-Bạn cần phải cài driver USB của Hims.
-
-Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
-Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
-%kc:beginInclude
-|| Tên | Phím |
-| Cuộn về trước | left side scroll down |
-| Cuộn tới | right side scroll down |
-| Rút về ô chữ nổi | routing |
+| Phím f4 | dot7+f3 |
+| Phím windows+b | dot1+dot2+f1 |
+| windows+d key | dot1+dot4+dot5+f1 |
+| Phím control+insert | smartbeetle:f1+rightSideScroll |
+| Phím alt+insert | smartbeetle:f3+rightSideScroll |
 %kc:endInclude
 
 ++ Màn hình nổi Seika ++
