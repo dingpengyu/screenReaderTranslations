@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-20 14:56+1000\n"
-"PO-Revision-Date: 2017-12-02 01:40+0100\n"
-"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
+"PO-Revision-Date: 2018-07-20 08:14+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
@@ -22,16 +22,14 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "Author: Damien Sykes-Lindley"
 msgid "Author: Damien Garwood"
-msgstr "Autor: Damien Sykes-Lindley"
+msgstr "Autor: Damien Garwood"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "download [development version][1]"
 msgid "download [stable version][1]"
-msgstr "[Testversion][1] herunterladen"
+msgstr "Herunterladen der [stabilen Version][1]"
 
 #. type: Plain text
 msgid ""
@@ -46,14 +44,14 @@ msgid ""
 msgstr ""
 "Clipspeak ist eine Erweiterung, mit der NVDA automatisch Aktionen der "
 "Zwischenablage (wie Ausschneiden, Kopieren und Einfügen) sowie andere "
-"übliche Bearbeitungsoperationen wie Alles auswählen, rückgängig und "
-"wiederherstellen ansagen kann.  Um eine Ansage in unpassenden Situationen zu "
+"übliche Bearbeitungsoperationen wie Alles auswählen, Rückgängig machen und "
+"Wiederherstellen ansagen kann.  Um eine Ansage in unpassenden Situationen zu "
 "verhindern, führt Clipspeak Kontrollen an der Steuerung und der "
 "Zwischenablage durch. So kann eine Entscheidung darüber getroffen werden, ob "
 "eine solche Ansage notwendig ist. Aus diesem Grund können die Ansagen von "
-"Clipspeak ungenau sein.  Standardmäßig werden die Gesten von Clipspeak den "
-"Gesten zugeordnet, die in englischen Versionen von Windows genutzt werden, z."
-"B:"
+"Clipspeak ungenau sein. Standardmäßig werden die Gesten von Clipspeak den "
+"Gesten zugeordnet, die in englischen Versionen von Windows genutzt werden, "
+"zum Beispiel:"
 
 #. type: Bullet: '* '
 msgid "CTRL+A: Select all"
@@ -61,11 +59,11 @@ msgstr "Strg+A: Alles markieren"
 
 #. type: Bullet: '* '
 msgid "CTRL+Z: Undo"
-msgstr "Strg+Z: Rückgängig"
+msgstr "Strg+Z: Rückgängig machen"
 
 #. type: Bullet: '* '
 msgid "CTRL+Y: Redo"
-msgstr "Strg+Y: wiederholen"
+msgstr "Strg+Y: Wiederholen"
 
 #. type: Bullet: '* '
 msgid "CTRL+X: Cut"
@@ -73,7 +71,7 @@ msgstr "Strg+X: Ausschneiden"
 
 #. type: Bullet: '* '
 msgid "CTRL+C: Copy"
-msgstr "Strg+C: kopieren"
+msgstr "Strg+C: Kopieren"
 
 #. type: Bullet: '* '
 msgid "CTRL+V: Paste"
@@ -85,16 +83,16 @@ msgid ""
 "of Windows, you will need to remap these gestures in the input gestures "
 "configuration."
 msgstr ""
-"Wenn dies nicht die Tastenkürzel sind, die normalerweise für diese Aufgaben "
-"in Ihrer Windows-Version verwendet werden, dann müssen Sie diese Gesten in "
-"der Konfiguration der Eingaben im NVDA-Menü neu zuordnen."
+"Wenn diese nicht die Tastenkombinationen sind, die normalerweise für diese "
+"Aufgaben in Ihrer Windows-Version verwendet werden, dann müssen Sie diese "
+"Gesten in der Konfiguration der Eingaben im NVDA-Menü neu zuordnen."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=ccd"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
