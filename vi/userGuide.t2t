@@ -1774,7 +1774,7 @@ Phần này có các thông tin về các bộ đọc mà NVDA hỗ trợ.
 
 ++ eSpeak NG++
 Bộ đọc [eSpeak NG https://github.com/espeak-ng/espeak-ng] được tích hợp trực tiếp với NVDA và nó không cần cài thêm bất kỳ driver hoặc gói dữ liệu nào.
-Mặc định NVDA khi khởi động sẽ dùng bộ đọc eSpeak NG
+Mặc định, NVDA khi khởi động sẽ dùng bộ đọc eSpeak NG
 Vì được tích hợp sẵn trong NVDA nên nó có thể được sử dụng tốt cho bản NVDA chạy trực tiếp từ USB.
 
 Mỗi giọng trong eSpeak NG tương ứng với 1 ngôn ngữ khác nhau.
@@ -1940,29 +1940,39 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 %kc:endInclude
 
 ++ Các Màn Hình Handy Tech ++
-NVDA hỗ trợ tất cả màn hình của [Handy Tech http://www.handytech.de/] khi kết nối qua cổng USB và bluetooth.
+NVDA hỗ trợ hầu hết màn hình của [Handy Tech http://www.handytech.de/] khi kết nối qua cổng USB, cổng serial hay bluetooth.
 Bạn cần phải cài driver của Handy Tech cho những mẫu màn hình dùng cổng USB cũ.
 
-Nhập liệu bằng chữ nổi hiện chưa được hỗ trợ.
-
-Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
+Các màn hình nổi sau đây không còn dược hỗ trợ, nhưng có thể sử dụng thông qua [trình điều khiển chung của Handy Tech https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers] và NVDA add-on:
+- Braillino
+- Bookworm
+- Màn hình Modular với firmware phiên bản 1.13 hay thấp hơn. Lưu ý rằng firmware của màn hình này có thể cập nhật được.
++-
+Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
 %kc:beginInclude
 || Tên | Phím |
 | Cuộn về trước | left, up |
 | Cuộn tới | right, down |
+| Cuộn màn hình lên | left, up, b3 |
+| Cuộn màn hình xuống | right, down, b6 |
 | Chuyển về dòng trước | b4 |
 | Chuyển đến dòng kế | b5 |
 | Rút về ô chữ nổi | routing |
-| Phím shift+tab | esc |
+| Phím shift+tab | esc, left triple action key up+down |
 | Phím alt | b2+b4+b5 |
 | Phím escape | b4+b6 |
-| Phím tab | enter |
-| Phím enter | esc+enter |
-| Phím mũi tên lên | leftSpace |
-| Phím mũi tên xuống | rightSpace |
+| Phím tab | enter, right triple action key up+down |
+| Phím enter | esc+enter, left+right triple action key up+down, joystickAction |
+| Phím mũi tên lên | joystickUp |
+| Phím mũi tên xuống | joystickDown |
+| Phím mũi tên trái | joystickLeft |
+| Phím ũi tên phải | joystickRight |
 | Thực đơn NVDA | b2+b4+b5+b6 |
-| Cấu hình Handy Tech | b4+b8 |
+| Bật tắt con trỏ nổi đi theo | b2 |
+| Bật tắt con trỏ nổi | b1 |
+| Bật tắt con trỏ trình chiếu ngữ cảnh | b7 |
+| Bật tắt nhập liệu chữ nổi | space+b1+b3+b4 (space+capital B) |
 %kc:endInclude
 
 ++ MDV Lilli ++
