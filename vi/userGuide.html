@@ -131,7 +131,7 @@
       <LI><A HREF="#VoiceSettings">11.1.3. Thiết lập giọng đọc (NVDA+control+v)</A>
       <LI><A HREF="#SynthSettingsRing">11.1.4. Thiết lập nhanh tham số cho giọng đọc</A>
       <LI><A HREF="#BrailleSettings">11.1.5. Thiết Lập Màn Hình Nổi</A>
-      <LI><A HREF="#toc81">11.1.6. Thiết Lập Bàn Phím (NVDA+control+k)</A>
+      <LI><A HREF="#KeyboardSettings">11.1.6. Thiết Lập Bàn Phím (NVDA+control+k)</A>
       <LI><A HREF="#MouseSettings">11.1.7. Thiết Lập Chuột(NVDA+control+m)</A>
       <LI><A HREF="#TouchInteraction">11.1.8. Cài đặt tương tác cảm ứng</A>
       <LI><A HREF="#toc84">11.1.9. Thiết Lập Con Trỏ Duyệt</A>
@@ -2670,6 +2670,7 @@ Tùy chọn này dùng để chọn hiển thị hoặc không hiển thị con 
 Nó có hiệu lực đối với dấu nháy hệ thống và con trỏ duyệt nhưng không có tác dụng với chỉ báo vùng chọn.
 </P>
 
+<A NAME="BrailleSettingsBlinkCursor"></A>
 <H5>Nhấp Nháy Con Trỏ</H5>
 
 <P>
@@ -2678,12 +2679,14 @@ Nếu tắt, con trỏ nổi sẽ luôn luôn ở tình trạng nổi và không
 Dấu báo vùng chọn không thay đổi, vẫn sử dụng chấm 7 và 8 và không nháy.
 </P>
 
+<A NAME="BrailleSettingsBlinkRate"></A>
 <H5>Tốc Độ Nháy Của Con Trỏ (ms)</H5>
 
 <P>
 Tùy chọn này là ô nhập liệu chữ số, cho phép bạn nhập tốc độ nhấp nháy của con trỏ theo đơn vị mili giây.
 </P>
 
+<A NAME="BrailleSettingsCursorShapeForFocus"></A>
 <H5>Hình Dạng Con Trỏ tại Focus</H5>
 
 <P>
@@ -2691,6 +2694,7 @@ Tùy chọn này cho phép chọn hình dạng, kiểu mẫu chấm cho con tr�
 Chỉ báo vùng chọn vẫn sử dụng chấm 7 và 8 và không nháy. Nó không bị ảnh hưởng bởi tùy chọn này.
 </P>
 
+<A NAME="BrailleSettingsCursorShapeForReview"></A>
 <H5>Hình Dạng Con Trỏ Khi Duyệt</H5>
 
 <P>
@@ -2698,6 +2702,7 @@ Tùy chọn này cho phép chọn hình dạng, kiểu mẫu chấm cho con tr�
 Chỉ báo vùng chọn vẫn sử dụng chấm 7 và 8 và không nháy. Nó không bị ảnh hưởng bởi tùy chọn này.
 </P>
 
+<A NAME="BrailleSettingsMessageTimeout"></A>
 <H5>Thời Gian Kết Thúc Thông Điệp (bằng Giây)</H5>
 
 <P>
@@ -2705,6 +2710,7 @@ Tùy chọn này kiểm soát thời gian kết thúc hiển thị các thông �
 Nhập vào số 0 sẽ hoàn toàn không hiển thị thông điệp.
 </P>
 
+<A NAME="BrailleSettingsNoMessageTimeout"></A>
 <H5>Hiển Thị Thông Điệp Không Xác Định</H5>
 
 <P>
@@ -2721,6 +2727,7 @@ Phím tắt: NVDA+control+t
 Tùy chọn này cho phép bạn chọn con trỏ nổi sẽ đi theo con trỏ hệ thống hoặc theo con trỏ duyệt.
 </P>
 
+<A NAME="BrailleSettingsReadByParagraph"></A>
 <H5>Đọc Theo Đoạn</H5>
 
 <P>
@@ -2731,6 +2738,7 @@ Nó có thể giúp bạn đọc xuyên suốt một đoạn nội dung dài.
 Tùy chọn này mặc định được tắt.
 </P>
 
+<A NAME="BrailleSettingsWordWrap"></A>
 <H5>Tránh Tách Từ</H5>
 
 <P>
@@ -2748,6 +2756,7 @@ Khi cuộn màn hình, bạn sẽ đọc phần còn lại của từ.
 Nếu bật tùy chọn này, có thể giúp bạn đọc trôi chảy hơn, nhưng cũng sẽ thực hiện thao tác cuộn màn hình nhiều lần hơn.
 </P>
 
+<A NAME="BrailleSettingsFocusContextPresentation"></A>
 <H5>Trình Bày Ngữ Cảnh tại Focus</H5>
 
 <P>
@@ -2781,7 +2790,7 @@ Vì vậy, nó chỉ hiển thị bạn đang đứng tại mục có focus.
 Để chuyển đổi giữa các chế độ trình bày ngữ cảnh, bạn có thể gán phím lệnh tùy chỉnh cho nó trong <A HREF="#InputGestures">hộp thoại quản lý thao tác</A>.
 </P>
 
-<A NAME="toc81"></A>
+<A NAME="KeyboardSettings"></A>
 <H4>11.1.6. Thiết Lập Bàn Phím (NVDA+control+k)</H4>
 
 <P>
@@ -2789,24 +2798,28 @@ Bạn có thể mở hộp thoại này từ thực đơn Tùy chọn của NVDA
 Có các tùy chọn sau trong hộp thoại này:
 </P>
 
+<A NAME="KeyboardSettingsLayout"></A>
 <H5>Kiểu bàn phím</H5>
 
 <P>
 bạn có thể chọn kiểu bàn phím là desktop hoặc Laptop. ưu điểm của sử dụng kiểu bàn phím desktop là có thể sử dụng các phím số bên bàn phím số để duyệt nội dung.
 </P>
 
+<A NAME="KeyboardSettingsCapsModifier"></A>
 <H5>Sử dụng phím Khóa hoa làm phím bổ trợ NVDA</H5>
 
 <P>
 Nếu chọn thì phím Khóa hoa sẽ là một trong các phím bổ trợ của NVDA.
 </P>
 
+<A NAME="KeyboardSettingsExtendedInsert"></A>
 <H5>Sử dụng phím Insert mở rộng làm phím bổ trợ NVDA</H5>
 
 <P>
 Nếu bạn chọn thì phím Insert (cạnh phím home và end) sẽ là phím bổ trợ của NVDA.
 </P>
 
+<A NAME="KeyboardSettingsNumpadInsert"></A>
 <H5>Sử dụng phím Insert bàn phím số làm phím bổ trợ NVDA</H5>
 
 <P>
@@ -2818,6 +2831,7 @@ Trong trường hợp đó NVDA sẽ hiển thị thông báo lỗi.
 Và bạn phải chọn ít nhất 1 phím làm phím bổ trợ.
 </P>
 
+<A NAME="KeyboardSettingsSpeakTypedCharacters"></A>
 <H5>Đọc ký tự khi gõ</H5>
 
 <P>
@@ -2827,6 +2841,7 @@ Phím bật/tắt: NVDA+2
 Khi được chọn, NVDA sẽ đọc mỗi ký tự  sau khi bạn gõ vào từ bàn phím.
 </P>
 
+<A NAME="KeyboardSettingsSpeakTypedWords"></A>
 <H5>Đọc từ khi gõ</H5>
 
 <P>
@@ -2836,24 +2851,28 @@ Phím bật/tắt: NVDA+3
 Khi được chọn, NVDA sẽ đọc từng từ ngay sau khi bạn gõ xong một từ.
 </P>
 
+<A NAME="KeyboardSettingsSpeechInteruptForCharacters"></A>
 <H5>Ngừng đọc khi gõ ký tự</H5>
 
 <P>
 Nếu được chọn, việc đọc sẽ bị ngắt giữa chừng khi bạn gõ phím. Mặc định nó đã được chọn.
 </P>
 
+<A NAME="KeyboardSettingsSpeechInteruptForEnter"></A>
 <H5>Ngừng đọc khi nhấn phím Enter</H5>
 
 <P>
 Nếu được chọn, việc đọc sẽ bị ngắt giữa chừng khi bạn gõ phím enter. Mặc định nó đã được chọn.
 </P>
 
+<A NAME="KeyboardSettingsSkimReading"></A>
 <H5>Cho phép thay đổi vị trí đọc khi đọc tất cả</H5>
 
 <P>
 Nếu được chọn thì việc thay đổi vị trí của con trỏ bằng các phím di chuyển nhanh trong chế độ duyệt tài liệu hay các phím di chuyển qua các dòng, các đoạn trong văn bản sẽ không làm dừng việc đọc. Thay vào đó, nó sẽ chuyển đến vị trí mới theo phím lệnh di chuyển được nhấn và đọc tiếp.
 </P>
 
+<A NAME="VoiceSettingsBeepLowercase"></A>
 <H5>bíp nếu gõ ký tự thường khi phím khóa hoa đang bật</H5>
 
 <P>
@@ -2862,6 +2881,7 @@ Nếu được chọn và khi phím Khóa hoa bật thì sẽ có tiếng bip c�
 Do vậy chức năng này khá hữu ích trong trường hợp trên.
 </P>
 
+<A NAME="VoiceSettingsSpeakCommandKeys"></A>
 <H5>Đọc phím lệnh</H5>
 
 <P>
@@ -2871,6 +2891,7 @@ Phím bật/tắt: NVDA+4
 Nếu được chọn thì NVDA sẽ thông báo tất cả các phím lệnh (không phải phím chữ và phím số), ví dụ như phím ctrl, alt, shift, v..v hoặc tổ hợp phím lệnh đó với các phím khác như Ctrl + s.
 </P>
 
+<A NAME="KeyboardSettingsAlertForSpellingErrors"></A>
 <H5>Phát âm thanh báo lỗi chính tả khi nhập liệu</H5>
 
 <P>
@@ -2878,11 +2899,12 @@ Nếu bật, một âm thanh ngắn sẽ được phát khi từ bạn gõ có l
 Tùy chọn này chỉ hoạt động khi tùy chọn thông báo lỗi chính tả được bật trong hộp thoại <A HREF="#DocumentFormattingSettings">định dạng tài liệu</A>.
 </P>
 
+<A NAME="KeyboardSettingsHandleKeys"></A>
 <H5>Quản lý phím từ ứng dụng khác</H5>
 
 <P>
 Tùy chọn này điều khiển việc nhập dữ liệu từ các ứng dụng như màn hình cảm ứng hay phần mềm nhận dạng tiếng nói. 
-Nó được bật mặc định do vậy với những người dùng không muốn sử dụng chức năng này thì nên tắt chức năng này đi, ví dụ với người dùng ở Việt Nam cần tắt tùy chọn này để gõ được tiếng việt tốt với phần mềm Unikey.
+Nó được bật mặc định do vậy với những người dùng không muốn sử dụng chức năng này thì nên tắt chức năng này đi, ví dụ với người dùng ở Việt Nam cần tắt tùy chọn này để gõ được tiếng việt tốt với phần mềm UniKey.
 </P>
 
 <A NAME="MouseSettings"></A>
@@ -2893,6 +2915,7 @@ Bạn mở hộp thoại này từ thực đơn Tùy chọn của NVDA.
 Nó gồm các mục sau:
 </P>
 
+<A NAME="MouseSettingsShape"></A>
 <H5>Thông báo khi hình dạng chuột thay đổi</H5>
 
 <P>
@@ -2900,6 +2923,7 @@ Nếu chọn, NVDA sẽ thông báo khi hình dạng của chuột thay đổi (
 Thông thường hình dạng của chuột thay đổi khi chuyển qua đối tượng nhập liệu, hoặc thao tác phải chờ lâu.
 </P>
 
+<A NAME="MouseSettingsTracking"></A>
 <H5>Thông báo khi di chuyển chuột</H5>
 
 <P>
@@ -2909,6 +2933,7 @@ Phím bật/tắt: NVDA+m
 Nếu được chọn và bạn di chuyển chuột trên màn hình thì NVDA sẽ thông báo nội dung và các đối tượng dưới vị trí con trỏ chuột và những nơi mà nó đi qua
 </P>
 
+<A NAME="MouseSettingsTextUnit"></A>
 <H5>Đơn vị nội dung được đọc tại vị trí chuột</H5>
 
 <P>
