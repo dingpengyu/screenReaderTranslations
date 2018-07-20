@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-20 14:56+1000\n"
-"PO-Revision-Date: 2017-06-16 09:09+0200\n"
+"PO-Revision-Date: 2018-07-20 08:03+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -22,16 +22,12 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Изговаряне на клипборда (Clipspeak)\"]]\n"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Author: Damien Sykes-Lindley"
 msgid "Author: Damien Garwood"
-msgstr "Автор: Damien Sykes-Lindley"
+msgstr "Автор: Damien Garwood"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "download [development version][1]"
 msgid "download [stable version][1]"
-msgstr "Изтегляне на [работна версия][1]"
+msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Plain text
 msgid ""
@@ -91,10 +87,9 @@ msgstr ""
 "жестовете на въвеждане на NVDA."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev]]\n"
+#, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
