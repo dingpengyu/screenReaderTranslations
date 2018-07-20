@@ -1796,83 +1796,121 @@ Dành cho các màn hình có cần điều khiển:
 </TR>
 <TR>
 <TD>Cuộn về trước</TD>
-<TD>left side scroll down</TD>
+<TD>leftSideScrollUp, rightSideScrollUp, leftSideScroll</TD>
 </TR>
 <TR>
 <TD>Cuộn tới</TD>
-<TD>right side scroll down</TD>
+<TD>leftSideScrollDown, rightSideScrollDown, rightSideScroll</TD>
 </TR>
 <TR>
 <TD>Chuyển về dòng trước</TD>
-<TD>left side scroll up</TD>
+<TD>leftSideScrollUp+rightSideScrollUp</TD>
 </TR>
+</TABLE>
+
+<P>
++| Move braille display to next line | leftSideScrollDown+rightSideScrollDown |
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TD>Chuyển đến dòng trước</TD>
+<TD>rightSideUpArrow</TD>
+</TR>
+</TABLE>
+
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>Chuyển đến dòng kế</TD>
-<TD>right side scroll up</TD>
+<TD>rightSideDownArrow</TD>
+</TR>
+<TR>
+<TD>Chuyển đến kí tự trước</TD>
+<TD>rightSideLeftArrow</TD>
+</TR>
+<TR>
+<TD>Chuyển đến kí tự kế</TD>
+<TD>rightSideRightArrow</TD>
 </TR>
 <TR>
 <TD>Rút về ô chữ nổi</TD>
 <TD>routing</TD>
 </TR>
 <TR>
-<TD>Phím shift+tab</TD>
-<TD>dot1+dot2+space</TD>
+<TD>Chuyển đến focus hiện tại</TD>
+<TD>leftSideScrollUp+leftSideScrollDown, rightSideScrollUp+rightSideScrollDown, leftSideScroll+rightSideScroll</TD>
+</TR>
+<TR>
+<TD>Phím control</TD>
+<TD>smartbeetle:f1, brailleedge:f3</TD>
+</TR>
+<TR>
+<TD>Phím windows</TD>
+<TD>f7, smartbeetle:f2</TD>
 </TR>
 <TR>
 <TD>Phím alt</TD>
-<TD>dot1+dot3+dot4+Space</TD>
+<TD>dot1+dot3+dot4+space, f2, smartbeetle:f3, brailleedge:f4</TD>
 </TR>
 <TR>
-<TD>Phím escape</TD>
-<TD>dot1+dot5+Space</TD>
+<TD>Phím shift</TD>
+<TD>f5</TD>
 </TR>
 <TR>
-<TD>Phím tab</TD>
-<TD>dot4+dot5+Space</TD>
+<TD>Phím insert</TD>
+<TD>dot2+dot4+space, f6</TD>
 </TR>
 <TR>
-<TD>Phím mũi tên lên</TD>
-<TD>dot1+Space</TD>
+<TD>Phím applications</TD>
+<TD>dot1+dot2+dot3+dot4+space, f8</TD>
 </TR>
 <TR>
-<TD>Phím mũi tên xuống</TD>
-<TD>dot4+Space</TD>
-</TR>
-<TR>
-<TD>Khóa hoa</TD>
+<TD>Phím capsLock</TD>
 <TD>dot1+dot3+dot6+space</TD>
 </TR>
 <TR>
+<TD>Phím tab</TD>
+<TD>dot4+dot5+space, f3, brailleedge:f2</TD>
+</TR>
+<TR>
 <TD>Phím shift+alt+tab</TD>
-<TD>advance2+advance3+advance1</TD>
+<TD>f2+f3+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+tab</TD>
-<TD>advance2+advance3</TD>
+<TD>f2+f3</TD>
+</TR>
+<TR>
+<TD>Phím shift+tab</TD>
+<TD>dot1+dot2+space</TD>
 </TR>
 <TR>
 <TD>Phím end</TD>
 <TD>dot4+dot6+space</TD>
 </TR>
 <TR>
-<TD>Phím Control+end</TD>
+<TD>Phím control+end</TD>
 <TD>dot4+dot5+dot6+space</TD>
 </TR>
 <TR>
 <TD>Phím home</TD>
-<TD>dot1+dot3+space</TD>
+<TD>dot1+dot3+space, smartbeetle:f4</TD>
 </TR>
 <TR>
 <TD>Phím control+home</TD>
 <TD>dot1+dot2+dot3+space</TD>
 </TR>
 <TR>
+<TD>Phím alt+f4</TD>
+<TD>dot1+dot3+dot5+dot6+space</TD>
+</TR>
+<TR>
 <TD>Phím mũi tên trái</TD>
-<TD>dot3+space</TD>
+<TD>dot3+space, leftSideLeftArrow</TD>
 </TR>
 <TR>
 <TD>Phím control+shift+mũi tên trái</TD>
-<TD>dot2+dot8+space+advance1</TD>
+<TD>dot2+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>Phím control+mũi tên trái</TD>
@@ -1880,7 +1918,7 @@ Dành cho các màn hình có cần điều khiển:
 </TR>
 <TR>
 <TD>Phím shift+alt+mũi tên trái</TD>
-<TD>dot2+dot7+advance1</TD>
+<TD>dot2+dot7+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+mũi tên trái</TD>
@@ -1888,11 +1926,11 @@ Dành cho các màn hình có cần điều khiển:
 </TR>
 <TR>
 <TD>Phím mũi tên phải</TD>
-<TD>dot6+space</TD>
+<TD>dot6+space, leftSideRightArrow</TD>
 </TR>
 <TR>
 <TD>Phím control+shift+mũi tên phải</TD>
-<TD>dot5+dot8+space+advance1</TD>
+<TD>dot5+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>Phím control+mũi tên phải</TD>
@@ -1900,7 +1938,7 @@ Dành cho các màn hình có cần điều khiển:
 </TR>
 <TR>
 <TD>Phím shift+alt+mũi tên phải</TD>
-<TD>dot5+dot7+advance1</TD>
+<TD>dot5+dot7+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+mũi tên phải</TD>
@@ -1915,16 +1953,20 @@ Dành cho các màn hình có cần điều khiển:
 <TD>dot1+dot2+dot6+dot8+space</TD>
 </TR>
 <TR>
-<TD>Phím control+shift+mũi tên lên</TD>
-<TD>dot2+dot3+dot8+space+advance1</TD>
+<TD>Phím mũi tên lên</TD>
+<TD>dot1+space, leftSideUpArrow</TD>
 </TR>
 <TR>
 <TD>Phím control+mũi tên lên</TD>
 <TD>dot2+dot3+space</TD>
 </TR>
 <TR>
+<TD>Phím control+shift+mũi tên lên</TD>
+<TD>dot2+dot3+dot8+space+f1</TD>
+</TR>
+<TR>
 <TD>Phím shift+alt+mũi tên lên</TD>
-<TD>dot2+dot3+dot7+advance1</TD>
+<TD>dot2+dot3+dot7+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+mũi tên lên</TD>
@@ -1932,7 +1974,7 @@ Dành cho các màn hình có cần điều khiển:
 </TR>
 <TR>
 <TD>Phím shift+mũi tên lên</TD>
-<TD>left side scroll down + space</TD>
+<TD>leftSideScrollDown+space</TD>
 </TR>
 <TR>
 <TD>Phím trang kế</TD>
@@ -1943,8 +1985,12 @@ Dành cho các màn hình có cần điều khiển:
 <TD>dot3+dot4+dot5+dot8+space</TD>
 </TR>
 <TR>
+<TD>Phím mũi tên xuống</TD>
+<TD>dot4+space, leftSideDownArrow</TD>
+</TR>
+<TR>
 <TD>Phím control+shift+mũi tên xuống</TD>
-<TD>dot5+dot6+dot8+space+advance1</TD>
+<TD>dot5+dot6+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>Phím control+mũi tên xuống</TD>
@@ -1952,7 +1998,7 @@ Dành cho các màn hình có cần điều khiển:
 </TR>
 <TR>
 <TD>Phím shift+alt+mũi tên xuống</TD>
-<TD>dot5+dot6+dot7+advance1</TD>
+<TD>dot5+dot6+dot7+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+mũi tên xuống</TD>
@@ -1960,52 +2006,46 @@ Dành cho các màn hình có cần điều khiển:
 </TR>
 <TR>
 <TD>Phím shift+mũi tên xuống</TD>
-<TD>right side scroll down + space</TD>
+<TD>space+rightSideScrollDown</TD>
+</TR>
+<TR>
+<TD>Phím escape</TD>
+<TD>dot1+dot5+space, f4, brailleedge:f1</TD>
 </TR>
 <TR>
 <TD>Phím delete</TD>
 <TD>dot1+dot3+dot5+space</TD>
 </TR>
-<TR>
-<TD>Phím f1</TD>
-<TD>dot1+dot2+dot5+space</TD>
-</TR>
+</TABLE>
+
+<P>
+Phím f1 | dot1+dot2+dot5+space |
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>Phím f3</TD>
 <TD>dot1+dot2+dot4+dot8</TD>
 </TR>
 <TR>
 <TD>Phím f4</TD>
-<TD>dot7+advance3</TD>
+<TD>dot7+f3</TD>
 </TR>
 <TR>
 <TD>Phím windows+b</TD>
-<TD>dot1+dot2+advance1</TD>
+<TD>dot1+dot2+f1</TD>
 </TR>
 <TR>
-<TD>Phím windows+d</TD>
-<TD>dot1+dot4+dot5+advance1</TD>
-</TR>
-</TABLE>
-
-<H3>HIMS SyncBraille</H3>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TH>Tên</TH>
-<TH>Phím</TH>
+<TD>windows+d key</TD>
+<TD>dot1+dot4+dot5+f1</TD>
 </TR>
 <TR>
-<TD>Cuộn về trước</TD>
-<TD>left side scroll down</TD>
+<TD>Phím control+insert</TD>
+<TD>smartbeetle:f1+rightSideScroll</TD>
 </TR>
 <TR>
-<TD>Cuộn tới</TD>
-<TD>right side scroll down</TD>
-</TR>
-<TR>
-<TD>Rút về ô chữ nổi</TD>
-<TD>routing</TD>
+<TD>Phím alt+insert</TD>
+<TD>smartbeetle:f3+rightSideScroll</TD>
 </TR>
 </TABLE>
 

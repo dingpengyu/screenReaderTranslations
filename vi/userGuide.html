@@ -180,21 +180,20 @@
     <LI><A HREF="#toc120">14.7. hedo MobilLine USB</A>
     <LI><A HREF="#toc121">14.8. Các dòng HumanWare Brailliant BI/B</A>
     <LI><A HREF="#toc122">14.9. Các dòng HIMS Braille Sense/Braille EDGE/Smart Beetle</A>
-    <LI><A HREF="#toc123">14.10. HIMS SyncBraille</A>
-    <LI><A HREF="#toc124">14.11. Màn hình nổi Seika</A>
-    <LI><A HREF="#toc125">14.12. Các Mẫu Papenmeier BRAILLEX Mới</A>
-    <LI><A HREF="#toc126">14.13. Các Mẫu Papenmeier Braille BRAILLEX Cũ</A>
-    <LI><A HREF="#toc127">14.14. HumanWare BrailleNote</A>
-    <LI><A HREF="#toc128">14.15. EcoBraille</A>
-    <LI><A HREF="#toc129">14.16. SuperBraille</A>
-    <LI><A HREF="#toc130">14.17. BRLTTY</A>
+    <LI><A HREF="#toc123">14.10. Màn hình nổi Seika</A>
+    <LI><A HREF="#toc124">14.11. Các Mẫu Papenmeier BRAILLEX Mới</A>
+    <LI><A HREF="#toc125">14.12. Các Mẫu Papenmeier Braille BRAILLEX Cũ</A>
+    <LI><A HREF="#toc126">14.13. HumanWare BrailleNote</A>
+    <LI><A HREF="#toc127">14.14. EcoBraille</A>
+    <LI><A HREF="#toc128">14.15. SuperBraille</A>
+    <LI><A HREF="#toc129">14.16. BRLTTY</A>
     </UL>
-  <LI><A HREF="#toc131">15. Chủ Đề Nâng Cao</A>
+  <LI><A HREF="#toc130">15. Chủ Đề Nâng Cao</A>
     <UL>
     <LI><A HREF="#CommandLineOptions">15.1. Các Tùy Chọn Cho Dòng Lệnh</A>
     <LI><A HREF="#SystemWideParameters">15.2. Các Tham Số Mở Rộng Hệ Thống</A>
     </UL>
-  <LI><A HREF="#toc134">16. Thông Tin Thêm</A>
+  <LI><A HREF="#toc133">16. Thông Tin Thêm</A>
   </UL>
 
 <A NAME="toc2"></A>
@@ -4560,9 +4559,9 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 <H3>14.9. Các dòng HIMS Braille Sense/Braille EDGE/Smart Beetle</H3>
 
 <P>
-NVDA hỗ trợ các màn hình Braille Sense, Braille EDGE và Smart Beetle của <A HREF="http://www.hims-inc.com/">Hims</A> khi kết nối qua cổng USB và bluetooth.
+NVDA hỗ trợ các màn hình Braille Sense, Braille EDGE và Smart Beetle của <A HREF="http://www.hims-inc.com/">Hims</A> khi kết nối qua cổng USB hay bluetooth.
 Bạn cần phải cài driver nếu kết nối qua cổng USB.
-Bạn có thể download về tại trang: <A HREF="http://www.himsintl.com/?c=2/13&amp;uid=2319">http://www.himsintl.com/?c=2/13&amp;uid=2319</A>
+Bạn có thể download về tại đây: <A HREF="http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip">http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip</A>
 </P>
 <P>
 Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
@@ -4576,83 +4575,121 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Cuộn về trước</TD>
-<TD>left side scroll down</TD>
+<TD>leftSideScrollUp, rightSideScrollUp, leftSideScroll</TD>
 </TR>
 <TR>
 <TD>Cuộn tới</TD>
-<TD>right side scroll down</TD>
+<TD>leftSideScrollDown, rightSideScrollDown, rightSideScroll</TD>
 </TR>
 <TR>
 <TD>Chuyển về dòng trước</TD>
-<TD>left side scroll up</TD>
+<TD>leftSideScrollUp+rightSideScrollUp</TD>
 </TR>
+</TABLE>
+
+<P>
++| Move braille display to next line | leftSideScrollDown+rightSideScrollDown |
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TD>Chuyển đến dòng trước</TD>
+<TD>rightSideUpArrow</TD>
+</TR>
+</TABLE>
+
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>Chuyển đến dòng kế</TD>
-<TD>right side scroll up</TD>
+<TD>rightSideDownArrow</TD>
+</TR>
+<TR>
+<TD>Chuyển đến kí tự trước</TD>
+<TD>rightSideLeftArrow</TD>
+</TR>
+<TR>
+<TD>Chuyển đến kí tự kế</TD>
+<TD>rightSideRightArrow</TD>
 </TR>
 <TR>
 <TD>Rút về ô chữ nổi</TD>
 <TD>routing</TD>
 </TR>
 <TR>
-<TD>Phím shift+tab</TD>
-<TD>dot1+dot2+space</TD>
+<TD>Chuyển đến focus hiện tại</TD>
+<TD>leftSideScrollUp+leftSideScrollDown, rightSideScrollUp+rightSideScrollDown, leftSideScroll+rightSideScroll</TD>
+</TR>
+<TR>
+<TD>Phím control</TD>
+<TD>smartbeetle:f1, brailleedge:f3</TD>
+</TR>
+<TR>
+<TD>Phím windows</TD>
+<TD>f7, smartbeetle:f2</TD>
 </TR>
 <TR>
 <TD>Phím alt</TD>
-<TD>dot1+dot3+dot4+Space</TD>
+<TD>dot1+dot3+dot4+space, f2, smartbeetle:f3, brailleedge:f4</TD>
 </TR>
 <TR>
-<TD>Phím escape</TD>
-<TD>dot1+dot5+Space</TD>
+<TD>Phím shift</TD>
+<TD>f5</TD>
 </TR>
 <TR>
-<TD>Phím tab</TD>
-<TD>dot4+dot5+Space</TD>
+<TD>Phím insert</TD>
+<TD>dot2+dot4+space, f6</TD>
 </TR>
 <TR>
-<TD>Phím mũi tên lên</TD>
-<TD>dot1+Space</TD>
+<TD>Phím applications</TD>
+<TD>dot1+dot2+dot3+dot4+space, f8</TD>
 </TR>
 <TR>
-<TD>Phím mũi tên xuống</TD>
-<TD>dot4+Space</TD>
-</TR>
-<TR>
-<TD>Khóa hoa</TD>
+<TD>Phím capsLock</TD>
 <TD>dot1+dot3+dot6+space</TD>
 </TR>
 <TR>
+<TD>Phím tab</TD>
+<TD>dot4+dot5+space, f3, brailleedge:f2</TD>
+</TR>
+<TR>
 <TD>Phím shift+alt+tab</TD>
-<TD>advance2+advance3+advance1</TD>
+<TD>f2+f3+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+tab</TD>
-<TD>advance2+advance3</TD>
+<TD>f2+f3</TD>
+</TR>
+<TR>
+<TD>Phím shift+tab</TD>
+<TD>dot1+dot2+space</TD>
 </TR>
 <TR>
 <TD>Phím end</TD>
 <TD>dot4+dot6+space</TD>
 </TR>
 <TR>
-<TD>Phím Control+end</TD>
+<TD>Phím control+end</TD>
 <TD>dot4+dot5+dot6+space</TD>
 </TR>
 <TR>
 <TD>Phím home</TD>
-<TD>dot1+dot3+space</TD>
+<TD>dot1+dot3+space, smartbeetle:f4</TD>
 </TR>
 <TR>
 <TD>Phím control+home</TD>
 <TD>dot1+dot2+dot3+space</TD>
 </TR>
 <TR>
+<TD>Phím alt+f4</TD>
+<TD>dot1+dot3+dot5+dot6+space</TD>
+</TR>
+<TR>
 <TD>Phím mũi tên trái</TD>
-<TD>dot3+space</TD>
+<TD>dot3+space, leftSideLeftArrow</TD>
 </TR>
 <TR>
 <TD>Phím control+shift+mũi tên trái</TD>
-<TD>dot2+dot8+space+advance1</TD>
+<TD>dot2+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>Phím control+mũi tên trái</TD>
@@ -4660,7 +4697,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím shift+alt+mũi tên trái</TD>
-<TD>dot2+dot7+advance1</TD>
+<TD>dot2+dot7+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+mũi tên trái</TD>
@@ -4668,11 +4705,11 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím mũi tên phải</TD>
-<TD>dot6+space</TD>
+<TD>dot6+space, leftSideRightArrow</TD>
 </TR>
 <TR>
 <TD>Phím control+shift+mũi tên phải</TD>
-<TD>dot5+dot8+space+advance1</TD>
+<TD>dot5+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>Phím control+mũi tên phải</TD>
@@ -4680,7 +4717,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím shift+alt+mũi tên phải</TD>
-<TD>dot5+dot7+advance1</TD>
+<TD>dot5+dot7+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+mũi tên phải</TD>
@@ -4695,16 +4732,20 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 <TD>dot1+dot2+dot6+dot8+space</TD>
 </TR>
 <TR>
-<TD>Phím control+shift+mũi tên lên</TD>
-<TD>dot2+dot3+dot8+space+advance1</TD>
+<TD>Phím mũi tên lên</TD>
+<TD>dot1+space, leftSideUpArrow</TD>
 </TR>
 <TR>
 <TD>Phím control+mũi tên lên</TD>
 <TD>dot2+dot3+space</TD>
 </TR>
 <TR>
+<TD>Phím control+shift+mũi tên lên</TD>
+<TD>dot2+dot3+dot8+space+f1</TD>
+</TR>
+<TR>
 <TD>Phím shift+alt+mũi tên lên</TD>
-<TD>dot2+dot3+dot7+advance1</TD>
+<TD>dot2+dot3+dot7+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+mũi tên lên</TD>
@@ -4712,7 +4753,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím shift+mũi tên lên</TD>
-<TD>left side scroll down + space</TD>
+<TD>leftSideScrollDown+space</TD>
 </TR>
 <TR>
 <TD>Phím trang kế</TD>
@@ -4723,8 +4764,12 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 <TD>dot3+dot4+dot5+dot8+space</TD>
 </TR>
 <TR>
+<TD>Phím mũi tên xuống</TD>
+<TD>dot4+space, leftSideDownArrow</TD>
+</TR>
+<TR>
 <TD>Phím control+shift+mũi tên xuống</TD>
-<TD>dot5+dot6+dot8+space+advance1</TD>
+<TD>dot5+dot6+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>Phím control+mũi tên xuống</TD>
@@ -4732,7 +4777,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím shift+alt+mũi tên xuống</TD>
-<TD>dot5+dot6+dot7+advance1</TD>
+<TD>dot5+dot6+dot7+f1</TD>
 </TR>
 <TR>
 <TD>Phím alt+mũi tên xuống</TD>
@@ -4740,67 +4785,51 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím shift+mũi tên xuống</TD>
-<TD>right side scroll down + space</TD>
+<TD>space+rightSideScrollDown</TD>
+</TR>
+<TR>
+<TD>Phím escape</TD>
+<TD>dot1+dot5+space, f4, brailleedge:f1</TD>
 </TR>
 <TR>
 <TD>Phím delete</TD>
 <TD>dot1+dot3+dot5+space</TD>
 </TR>
-<TR>
-<TD>Phím f1</TD>
-<TD>dot1+dot2+dot5+space</TD>
-</TR>
+</TABLE>
+
+<P>
+Phím f1 | dot1+dot2+dot5+space |
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>Phím f3</TD>
 <TD>dot1+dot2+dot4+dot8</TD>
 </TR>
 <TR>
 <TD>Phím f4</TD>
-<TD>dot7+advance3</TD>
+<TD>dot7+f3</TD>
 </TR>
 <TR>
 <TD>Phím windows+b</TD>
-<TD>dot1+dot2+advance1</TD>
+<TD>dot1+dot2+f1</TD>
 </TR>
 <TR>
-<TD>Phím windows+d</TD>
-<TD>dot1+dot4+dot5+advance1</TD>
+<TD>windows+d key</TD>
+<TD>dot1+dot4+dot5+f1</TD>
+</TR>
+<TR>
+<TD>Phím control+insert</TD>
+<TD>smartbeetle:f1+rightSideScroll</TD>
+</TR>
+<TR>
+<TD>Phím alt+insert</TD>
+<TD>smartbeetle:f3+rightSideScroll</TD>
 </TR>
 </TABLE>
 
 <A NAME="toc123"></A>
-<H3>14.10. HIMS SyncBraille</H3>
-
-<P>
-NVDA hỗ trợ màn hình SyncBraille tại <A HREF="http://www.hims-inc.com/">HIMS</A>.
-Bạn cần phải cài driver USB của Hims.
-</P>
-<P>
-Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
-Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
-</P>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TH>Tên</TH>
-<TH>Phím</TH>
-</TR>
-<TR>
-<TD>Cuộn về trước</TD>
-<TD>left side scroll down</TD>
-</TR>
-<TR>
-<TD>Cuộn tới</TD>
-<TD>right side scroll down</TD>
-</TR>
-<TR>
-<TD>Rút về ô chữ nổi</TD>
-<TD>routing</TD>
-</TR>
-</TABLE>
-
-<A NAME="toc124"></A>
-<H3>14.11. Màn hình nổi Seika</H3>
+<H3>14.10. Màn hình nổi Seika</H3>
 
 <P>
 NVDA hỗ trợ màn hình nổi Seika phiên bản 3, 4 và 5 (40 ô) và Seika80 (80 ô) tại <A HREF="http://www.nippontelesoft.com/">Nippon Telesoft</A>.
@@ -4863,8 +4892,8 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 </TABLE>
 
-<A NAME="toc125"></A>
-<H3>14.12. Các Mẫu Papenmeier BRAILLEX Mới</H3>
+<A NAME="toc124"></A>
+<H3>14.11. Các Mẫu Papenmeier BRAILLEX Mới</H3>
 
 <P>
 Hiện đã hỗ trợ các màn hình nổi sau: 
@@ -5085,8 +5114,8 @@ Cả hai phím bên trong đều được gán cho phím khoảng trắng.
 </TR>
 </TABLE>
 
-<A NAME="toc126"></A>
-<H3>14.13. Các Mẫu Papenmeier Braille BRAILLEX Cũ</H3>
+<A NAME="toc125"></A>
+<H3>14.12. Các Mẫu Papenmeier Braille BRAILLEX Cũ</H3>
 
 <P>
 Có hỗ trợ các màn hình nổi sau: 
@@ -5362,8 +5391,8 @@ BRAILLEX 2D Screen:
 </TR>
 </TABLE>
 
-<A NAME="toc127"></A>
-<H3>14.14. HumanWare BrailleNote</H3>
+<A NAME="toc126"></A>
+<H3>14.13. HumanWare BrailleNote</H3>
 
 <P>
 NVDA hỗ trợ máy tính màn hình nổi BrailleNote tại <A HREF="http://www.humanware.com">Humanware</A> khi chức năng của nó được kết nối như một màn hình cho trình đọc màn hình.
@@ -5495,8 +5524,8 @@ Vui lòng xem tài liệu hướng dẫn mô tả các phím để biết vị t
 </TR>
 </TABLE>
 
-<A NAME="toc128"></A>
-<H3>14.15. EcoBraille</H3>
+<A NAME="toc127"></A>
+<H3>14.14. EcoBraille</H3>
 
 <P>
 NVDA hỗ trợ các màn hình EcoBraille tại <A HREF="http://www.once.es/">ONCE</A>.
@@ -5593,8 +5622,8 @@ Vui lòng xem <A HREF="ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braille/ECO
 </TR>
 </TABLE>
 
-<A NAME="toc129"></A>
-<H3>14.16. SuperBraille</H3>
+<A NAME="toc128"></A>
+<H3>14.15. SuperBraille</H3>
 
 <P>
 Màn hình chữ nổi SuperBraille được sử dụng phổ biến ở Đài Loan có thể kết nối qua cổng USB và Serial.
@@ -5617,8 +5646,8 @@ Màn hình SuperBraille không có bàn phím nhập liệu và nút cuộn, vì
 </TR>
 </TABLE>
 
-<A NAME="toc130"></A>
-<H3>14.17. BRLTTY</H3>
+<A NAME="toc129"></A>
+<H3>14.16. BRLTTY</H3>
 
 <P>
 <A HREF="http://www.brltty.com/">BRLTTY</A> là một chương trình đọc lập, có thể sử dụng để hỗ trợ nhiều dòng màn hình nổi hơn.
@@ -5662,7 +5691,7 @@ Vui lòng xem <A HREF="http://mielke.cc/brltty/doc/KeyBindings/">Danh sách phí
 </TR>
 </TABLE>
 
-<A NAME="toc131"></A>
+<A NAME="toc130"></A>
 <H2>15. Chủ Đề Nâng Cao</H2>
 
 <A NAME="CommandLineOptions"></A>
@@ -5853,7 +5882,7 @@ Sau đây là những giá trị có thể thiết lập cho khóa nói trên:
 </TR>
 </TABLE>
 
-<A NAME="toc134"></A>
+<A NAME="toc133"></A>
 <H2>16. Thông Tin Thêm</H2>
 
 <P>
