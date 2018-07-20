@@ -705,7 +705,7 @@ Chấm 8 dùng để chuyển dịch phần chữ nổi nhập liệu và nhấn
 Nhấn chấm 7 + 8 để chuyển dịch phần chữ nổi nhập liệu nhưng không không thêm vào khoảng trắng hay nhấn phím enter.
 %kc:endInclude
 
-+ Nhận Dạng Nội Dung +
++ Nhận Dạng Nội Dung +[ContentRecognition]
 Khi tác giả không cung cấp đầy đủ thông tin của ứng dụng cho trình đọc màn hình, sẽ có nhiều công cụ khác nhau hỗ trợ để có thể nhận dạng nội dung của một hình ảnh chẳng hạn.
 NVDA hỗ trợ sử dụng chức năng nhận dạng văn bản từ hình ảnh (OCR) với công cụ nhận dạng Windows 10 OCR.
 Cũng có thêm những trình nhận dạng văn bản khác cho NVDA dưới dạng add-on.
