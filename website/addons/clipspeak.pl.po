@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-06-03 04:37+1000\n"
+"POT-Creation-Date: 2018-07-20 14:56+1000\n"
 "PO-Revision-Date: 2017-06-02 21:42+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: \n"
@@ -22,11 +22,15 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
-msgid "Author: Damien Sykes-Lindley"
+#, fuzzy
+#| msgid "Author: Damien Sykes-Lindley"
+msgid "Author: Damien Garwood"
 msgstr "Autor: Damien Sykes-Lindley"
 
 #. type: Bullet: '* '
-msgid "download [development version][1]"
+#, fuzzy
+#| msgid "download [development version][1]"
+msgid "download [stable version][1]"
 msgstr "pobierz [wersję rozwojową][1]"
 
 #. type: Plain text
@@ -83,8 +87,9 @@ msgstr ""
 "Należy zmienić te skróty w dialogu zdarzenia wejścia."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text

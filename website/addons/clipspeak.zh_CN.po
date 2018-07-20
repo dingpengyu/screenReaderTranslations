@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-07-20 14:56+1000\n"
 "PO-Revision-Date: 2018-07-16 12:34+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -22,11 +22,15 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak剪贴板插件\"]]\n"
 
 #. type: Bullet: '* '
-msgid "Author: Damien Sykes-Lindley"
+#, fuzzy
+#| msgid "Author: Damien Sykes-Lindley"
+msgid "Author: Damien Garwood"
 msgstr "作者: Damien Sykes-Lindley"
 
 #. type: Bullet: '* '
-msgid "download [development version][1]"
+#, fuzzy
+#| msgid "download [development version][1]"
+msgid "download [stable version][1]"
 msgstr "下载 [开发板][1]"
 
 #. type: Plain text
@@ -81,7 +85,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
 msgstr ""
 
 #. type: Plain text

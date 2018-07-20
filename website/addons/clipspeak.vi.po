@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-07-20 14:56+1000\n"
 "PO-Revision-Date: 2018-07-19 18:10+0700\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
@@ -22,11 +22,15 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
-msgid "Author: Damien Sykes-Lindley"
+#, fuzzy
+#| msgid "Author: Damien Sykes-Lindley"
+msgid "Author: Damien Garwood"
 msgstr "Tác giả: Damien Sykes-Lindley"
 
 #. type: Bullet: '* '
-msgid "download [development version][1]"
+#, fuzzy
+#| msgid "download [development version][1]"
+msgid "download [stable version][1]"
 msgstr "Tải về [bản thử nghiệm][1]"
 
 #. type: Plain text
@@ -82,8 +86,9 @@ msgstr ""
 "bản Windows của bạn, bạn sẽ cần phải gán lại chúng trong phần Quản lý cử chỉ."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
