@@ -730,12 +730,12 @@ Có thể cài đặt thêm ngôn ngữ nhận dạng bằng cách mở start me
 Nhấn NVDA+r để nhận dạng với Windows 10 OCR.
 %kc:endInclude
 
-+ Phím tắt cho một số ứng dụng +
++ Phím tắt cho một số ứng dụng +[ApplicationSpecificFeatures]
 NVDA cung cấp một số phím tắt mở rộng để hỗ trợ người dùng thao tác trên một số ứng dụng.
 
-++ Microsoft Word ++
+++ Microsoft Word ++[MicrosoftWord]
 
-+++ Tự động đọc tiêu đề dòng và cột +++
++++ Tự động đọc tiêu đề dòng và cột +++[WordAutomaticColumnAndRowHeaderReading]
 NVDA sẽ tự động thông báo tiêu đề dòng và cột khi duyệt qua các bảng trong Word.
 Để làm được điều này trước tiên phải bật tùy chọn thông báo tiêu đề dòng / cột trong hộp thoại Định dạng tài liệu của NVDA.
 Tiếp theo, NVDA cần biết dòng nào cột nào chứa tiêu đề trong bảng bất kỳ.
@@ -748,28 +748,28 @@ Sau đó chuyển đến ô đầu tiên của dòng hoặc cột chứa tiêu �
 Những thiết lập này sẽ được lưu lại trong tài liệu và có thể tương thích với những trình đọc màn hình khác như Jaws chẳng hạn.
 Nghĩa là khi người dùng sử dụng trình ứng dụng khác mở tài liệu này thiết lập này sẽ tự động có sẵn
 
-+++ Chế độ duyệt tài liệu trong Microsoft Word +++
++++ Chế độ duyệt tài liệu trong Microsoft Word +++[BrowseModeInMicrosoftWord]
 Tương tự đối với web, chế độ duyệt có thể được dùng trong Word, bạn có thể sử dụng những chức năng như duyệt nhanh, duyệt đối tượng.
 %kc:beginInclude
 Để bật tắt chế độ duyệt trong Word, nhấn NVDA+space.
 %kc:endInclude
 Xem thêm thông tin về chế độ duyệt và duyệt nhanh trong phần [Chế độ duyệt #BrowseMode].
 
-++++ Duyệt Danh sách các thành phần ++++
+++++ Duyệt Danh sách các thành phần ++++[WordElementsList]
 %kc:beginInclude
 Trong khi dùng chế độ duyệt trong Word, bạn có thể duyệt các thành phần bằng cách nhấn NVDA+f7.
 %kc:endInclude
 Danh sách các thành phần có thể liệt kê các tiêu đề, liên kết, chú thích ( bao gồm phần bình luận, thay đổi) và các lỗi (hiện chỉ giới hạn ở các lỗi chính tả).
 
-+++ Thông Báo Chú Thích +++
++++ Thông Báo Chú Thích +++[WordReportingComments]
 %kc:beginInclude
 Nhấn NVDA+alt+c để thông báo phần chú thích tại vị trí dấu nháy.
 %kc:endInclude
 Tất cả các chú thích cũng như những thay đổi liên quan của tài liệu đều có thể liệt kê trong danh sách thành phần của NVDA khi chọn theo loại thuộc thành phần chú thích (annotation).
 
-++ Microsoft Excel ++
+++ Microsoft Excel ++[MicrosoftExcel]
 
-+++ Tự Động Đọc Tiêu Đề Dòng Và Cột +++
++++ Tự Động Đọc Tiêu Đề Dòng Và Cột +++[ExcelAutomaticColumnAndRowHeaderReading]
 Khi di chuyển trong bảng tính của Excel, NVDA hoàn toàn có thể tự động đọc các tiêu đề của cột và dòng.
 Trước hết, bạn cần bật mục thông báo tiêu đề dòng/cột trong hộp thoại Định dạng tài liệu của NVDA.
 Bước thứ hai là NVDA cần biết dòng hoặc cột nào có tiêu đề.
@@ -782,7 +782,7 @@ Sau khi chuyển đến ô đầu tiên của cột hoặc dòng có tiêu đề
 Những thiết lập này sẽ được lưu lại trong tài liệu và có thể tương thích với những trình đọc màn hình khác như Jaws chẳng hạn.
 Nghĩa là, sau này khi tài liệu này được mở và dùng một trình đọc màn hình khác để đọc, thì các thiết lập tiêu đề của cột và dòng vẫn còn giữ nguyên.
 
-+++ Danh Sách Thành Phần +++
++++ Danh Sách Thành Phần +++[ExcelElementsList]
 Giống như trên web, NVDA cung cấp tính năng danh sách thành phần, sẽ liệt kê một số loại thông tin giúp bạn truy xuất nhanh.
 %kc:beginInclude
 Nhấn NVDA+f7 để mở danh sách các thành phần trong Excel.
@@ -804,31 +804,31 @@ Trong danh sách thành phần, mỗi biểu mẫu sẽ được hiển thị nh
 Chọn biểu mẫu, nhấn enter hoặc nút Chuyển đến để đi đến biểu mẫu đó ở chế độ duyệt.
 -
 
-+++ Thông Báo Chú Thích +++
++++ Thông Báo Chú Thích +++[ExcelReportingComments]
 %kc:beginInclude
 Nhấn press NVDA+alt+c để đọc thông báo phần chú thích của ô hiện tại.
 %kc:endInclude
 Có thể liệt kê toàn bộ các chú thích trong bảng tính hiện tại với phần danh sách thành phần.
 
-+++ Đọc Ô Được Bảo Vệ +++
++++ Đọc Ô Được Bảo Vệ +++[ExcelReadingProtectedCells]
 Bạn có thể không chuyển focus đến các ô trong một workbook được bảo vệ vì nó được khóa, không cho phép chỉnh sửa.
 %kc:beginInclude
 Chuyển qua chế độ duyệt bằng cách nhấn NVDA+khoảng trắng. Lúc này, bạn có thể dùng các phím di chuyển để đọc các ô trong bảng tính hiện tại.
 %kc:endInclude
 
-+++ Biểu Mẫu +++
++++ Biểu Mẫu +++[ExcelFormFields]
 Các bảng tính của Excel có thể có các biểu mẫu.
 Bạn có thể đi nhanh đến các biểu mẫu thông qua danh sách thành phần hoặc bằng ký tự di chuyển đơn với f và shift+f.
 Khi bạn chuyển đến một biểu mẫu ở chế độ duyệt, nhấn enter hoặc phím khoảng trắng để kích hoạt hoặc chuyển qua chế độ focus và tương tác với biểu mẫu đó.
 Để biết thêm về chế độ duyệt và ký tự di chuyển đơn, hãy xem [phần chế độ duyệt #BrowseMode].
 
-++ Microsoft PowerPoint ++
+++ Microsoft PowerPoint ++[MicrosoftPowerPoint]
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
 | bật tắt chế độ đọc chú thích của slide | control+shift+s | bật tắt chế độ đọc chú thích của slide, nó chỉ có tác dụng đọc chứ không hiển thị lên slide khi trình diễn | 
 %kc:endInclude
 
-++ foobar2000 ++
+++ foobar2000 ++[Foobar2000]
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
 | Thông báo thời gian còn lại | control+shift+r | thông báo thời gian còn lại của bài hát hiện tại |
@@ -836,27 +836,27 @@ Khi bạn chuyển đến một biểu mẫu ở chế độ duyệt, nhấn ent
 
 Chú ý: Phím tắt trên chỉ hoạt động với định dạng mặc định cho dòng trạng thái của foobar
 
-++ Miranda IM ++
+++ Miranda IM ++[MirandaIM]
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
 | thông báo các tin nhắn gần đây | NVDA+control+1-4 | thông báo các tin nhắn gần đây, số tin nhắn chính là số bạn nhấn |
 %kc:endInclude
 
-++ Poedit ++
+++ Poedit ++[Poedit]
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
 | Thông báo chú thích | control+shift+c | Thông báo chú thích |
 | Thông báo chú thích cho người dịch | control+shift+a | Thông báo chú thích cho người dịch |
 %kc:endInclude
 
-++ Skype ++
+++ Skype ++[Skype]
 %kc:beginInclude
 Khi đang ở trong một cuộc trò chuyện:
 || Chức năng | Phím | Mô tả |
 | Xem lại tin nhắn | NVDA+control+1-0 | Đọc và di chuyển con trỏ duyệt đến tin nhắn gần đây, tùy vào chữ số bạn nhấn kèm. Ví dụ, nhấn NVDA+control+2 sẽ đọc tin nhắn thứ hai gần nhất. |
 %kc:endInclude
 
-++ Kindle cho PC ++
+++ Kindle cho PC ++[Kindle]
 NVDA hỗ trợ di chuyển và đọc sách với mẫu Kindle cho PC của Amazon.
 Chức năng này chỉ dành cho các sách Kindle có hỗ trợ trình đọc màn hình (Screen reader: supported). Bạn có thể kiểm tra trong trang thông tin chi tiết của sách.
 
@@ -870,7 +870,7 @@ Kí tự di chuyển nhanh được hỗ trợ cho các liên kết và hình �
 +NVDA sớm hỗ trợ việc đọc và điều hướng tương tác nội dung toán học cho các sách với nội dung toán tiếp cận.
 +Vui lòng xem phần [Đọc nội dung toán học #ReadingMath] để biết thêm thông tin.
 
-+++ Chọn văn bản +++
++++ Chọn văn bản +++[KindleTextSelection]
 Kindle cho phép bạn thực hiện nhiều thao tác trên văn bản được chọn, bao gồm lấy định nghĩa từ điển, thêm ghi chú và đánh dấu, sao chép văn bản vào bộ nhớ tạm và tìm kiếm trên web.
  Để làm điều đó, trước tiên hãy chọn văn bản một cách bình thường như bạn vẫn làm ở chế độ duyệt; ví dụ: dùng shift và các phím di chuyển con trỏ.
 
@@ -892,7 +892,7 @@ Sau khi chọn nội dung, bạn nhấn phím application hoặc shift+f10 để
 %kc:endInclude
 Nếu bạn thực hiện bước trên khi không có nội dung nào được chọn, thì nó sẽ hiển thị các tùy chọn cho từ tại vị trí con trỏ.
 
-+++ Ghi Chú Người Đọc +++
++++ Ghi Chú Người Đọc +++[KindleUserNotes]
 Bạn có thể ghi chú cho một từ hoặc một đoạn.
 Để làm điều đó, bạn chọn nội dung và mở các tùy chọn cho nội dung được chọn như đã đề cập ở trên.
 Sau đó, chọn Add Note (Thêm ghi chú vào).
@@ -906,7 +906,7 @@ NVDA sẽ xem những ghi chú này (note) như lời bình/chú thích (comment
 + Chọn Edit Note (chỉnh sửa ghi chú).
 +
 
-++ Azardi ++
+++ Azardi ++[Azardi]
 %kc:beginInclude
 Khi ở trong bảng xem các sách đã thêm vào:
 || Name | Key | Description |
@@ -914,9 +914,9 @@ Khi ở trong bảng xem các sách đã thêm vào:
 | Trình đơn ngữ cảnh| applications | Mở trình đơn ngữ cảnh cho quyển sách được chọn. |
 %kc:endInclude
 
-+ Cấu hình NVDA +
++ Cấu hình NVDA +[ConfiguringNVDA]
 
-++ Thực đơn Tùy chọn ++
+++ Thực đơn Tùy chọn ++[preferences]
 %kc:settingsSection: || Chức năng | Desktop | Laptop | Mô tả |
 Phần lớn việc thay đổi cấu hình cho NVDA có thể được thực hiện trong thực đơn tùy chọn của NVDA.
 Trong các cửa sổ cài đặt cấu hình cho NVDA, bạn chọn nút đồng ý để chấp nhận những thay đổi.
@@ -926,11 +926,11 @@ Một số cấu hình có thể được thay đổi thông qua phím tắt s�
 Lưu ý, mặc định không phải tất cả các hộp thoại tùy chọn đều có thể mở bằng phím tắt hoặc thao tác cảm ứng.
 Bạn có thể gán phím tắt hoặc thao tác cảm ứng cho một hộp thoại chưa có phím tắt trong hộp thoại [Quản lý thao tác #InputGestures].
 
-+++ Thiết lập chung (NVDA+control+g) +++
++++ Thiết lập chung (NVDA+control+g) +++[GeneralSettings]
 Cửa sổ cài đặt chung có thể được mở từ thực đơn tùy chọn.
 Nó chứa các mục sau:
 
-==== Ngôn ngữ ====
+==== Ngôn ngữ ====[GeneralSettingsLanguage]
 Đó là một hộp xổ (combo box) cho phép bạn chọn ngôn ngữ hiển thị cho giao diện, các thông báo hay tài liệu hướng dẫn.
 Có nhiều ngôn ngữ, tuy nhiên giá trị mặc định là "mặc định của người dùng, (sử dụng ngôn ngữ đang chọn của Windows)".
 NVDA sẽ sử dụng ngôn ngữ mà hệ điều hành đang sử dụng.
@@ -939,45 +939,45 @@ Chú ý là NVDA cần được khởi động lại để có hiệu lực khi 
 NVDA sẽ thông báo khi bạn chấp nhận thay đổi ngôn ngữ mới.
 Nhấn nút đồng ý là NVDA sẽ khởi động lại.
 
-==== Lưu cấu hình khi tắt NVDA ====
+==== Lưu cấu hình khi tắt NVDA ====[GeneralSettingsSaveConfig]
 Nếu được chọn, NVDA sẽ lưu các thay đổi của bạn ngay sau khi bạn tắt NVDA.
 
-==== Cảnh báo khi thoát NVDA ====
+==== Cảnh báo khi thoát NVDA ====[GeneralSettingsShowExitOptions]
 Tùy chọn này là một hộp kiểm (check box), sẽ cho phép hiển thị một cửa sổ hỏi bạn có chắc chắn muốn thoát NVDA hay không.
 Nếu chọn, một cửa sổ sẽ xuất hiện hỏi bạn có muốn thoát NVDA, muốn khởi động lại  vô hiệu hóa các add-ons hoặc khởi động lại với bản dò lỗi được bật.
 Nếu không chọn, NVDA sẽ thoát ngay lập tức.
 
-==== Phát âm thanh khi khởi động và thoát NVDA ====
+==== Phát âm thanh khi khởi động và thoát NVDA ====[GeneralSettingsPlaySounds]
 Lựa chọn tùy chọn này nếu bạn muốn có âm thanh thông báo khi khởi động và thoát NVDA.
 
-==== Mức độ log ====
+==== Mức độ log ====[GeneralSettingsLogLevel]
 Cho phép bạn chọn cấp độ log trong NVDA.
 Thông thường bạn không cần cài đặt tùy chọn này.
 Tuy nhiên trong trường hợp cần thông tin về lỗi thì nó rất hữu ích.
 
-==== Tự động khởi động NVDA khi khởi động Windows ====
+==== Tự động khởi động NVDA khi khởi động Windows ====[GeneralSettingsStartAfterLogOn]
 Nếu chọn mục này thì NVDA sẽ tự khởi động sau khi bạn đăng nhập vào Windows.
 Tùy chọn này chỉ có trên bản cài đặt của NVDA.
 
-==== Sử dụng NVDA trong màn hình đăng nhập của windows (yêu cầu quyền quản trị ====
+==== Sử dụng NVDA trong màn hình đăng nhập của windows (yêu cầu quyền quản trị ====[GeneralSettingsStartOnLogOnScreen]
 Nếu chọn tùy chọn này thì NVDA cũng sẽ được khởi động trong màn hình đăng nhập của windows, giúp bạn dễ thao tác hơn trên màn hình  này
 Tùy chọn này chỉ có trong phiên bản cài đặt NVDA.
 
-==== Sử dụng cấu hình hiện tại cho màn hình đăng nhập và các màn hình bảo vệ khác ====
+==== Sử dụng cấu hình hiện tại cho màn hình đăng nhập và các màn hình bảo vệ khác ====[GeneralSettingsCopySettings]
 Chọn nút này để copy cấu hình hiện tại tới thư mục cấu hình hệ thống của NVDA, khi đó NVDA sẽ sử dụng các cấu hình đó trong màn hình đăng nhập của windows, trong màn hình UAC hay các màn hình bảo vệ khác.
 Để chắc chắn các cấu hình đã được lưu trước khi copy, bạn nên nhấn tổ hợp phím ctrl + NVDA + C để lưu lại các thay đổi cấu hình của NVDA.
 Tùy chọn này chỉ có trong phiên bản cài đặt NVDA.
 
-==== Tự động kiểm tra phiên bản NVDA mới ====
+==== Tự động kiểm tra phiên bản NVDA mới ====[GeneralSettingsCheckForUpdates]
 Nếu được chọn thì NVDA sẽ tự động kiểm tra phiên bản mới và thông báo lại cho bạn nếu có.
 Bạn cũng có thể tự kiểm tra các phiên bản mới bằng cách chọn mục "Kiểm tra phiên bản mới" trong thực đơn Trợ giúp.
 
-+++ Chọn bộ đọc (NVDA+control+s) +++
++++ Chọn bộ đọc (NVDA+control+s) +++[SynthesizerSelection]
 Mở cửa sổ này từ thực đơn tùy chọn, nó sẽ cho phép bạn chọn một bộ đọc mà mình mong muốn.
 Sau khi chọn được bộ đọc cho mình, bạn chọn nút đồng ý và NVDA sẽ khởi động bộ đọc đó cho bạn.
 Nếu có lỗi thì NVDA sẽ thông báo lỗi cho bạn và tiếp tục sử dụng bộ đọc cũ.
 
-==== Các bộ đọc ====
+==== Các bộ đọc ====[SynthesizerSelectionSynthesizer]
 Đây là danh sách các bộ đọc và bạn có thể chọn một trong số chúng.
 
 Để biết thêm thông tin về danh sách các bộ tổng hợp tiếng nói mà NVDA hỗ trợ, xin vui lòng xem phần [Hỗ trợ các bộ tổng hợp tiếng nói #SupportedSpeechSynths].
@@ -985,11 +985,11 @@ Nếu có lỗi thì NVDA sẽ thông báo lỗi cho bạn và tiếp tục sử
 Trong danh sách các bộ đọc trên có một mục là "Không đọc", nếu bạn chọn mục này thì NVDA vẫn hoạt động nhưng không nói gì cả.
 chức năng này khá hữu ích cho những người chỉ muốn  dùng NVDA với màn hình nổi hay các lập trình viên chỉ muốn xem các từ đã đọc.
 
-==== Thiết bị đầu ra ====
+==== Thiết bị đầu ra ====[SynthesizerSelectionOutputDevice]
 Cho phép bạn chọn thiết bị đầu ra cho bộ đọc mà bạn đã chọn.
 
 %kc:setting
-==== Chế Độ Giảm Âm Lượng Ứng Dụng Khác ====
+==== Chế Độ Giảm Âm Lượng Ứng Dụng Khác ====[SynthesizerSelectionDuckingMode]
 Phím tắt: NVDA+shift+d
 
 Từ Windows 8 trở lên, tùy chọn này cho phép bạn cấu hình NVDA sẽ giảm âm lượng của các ứng dụng khác khi NVDA đang đọc, luôn luôn giảm hoặc không giảm.
@@ -1007,66 +1007,66 @@ Ngoài việc thay đổi trên cửa sổ này, bạn có thể thay đổi nha
 
 Có các tùy chọn sau trong cửa sổ này:
 
-==== Giọng Đọc ====
+==== Giọng Đọc ====[VoiceSettingsVoice]
 Tùy chọn đầu tiên có focus khi hộp thoại này được mở là danh sách giọng đọc của bộ đọc đang dùng.
 Dùng mũi tên để nghe các giọng.
 Mũi tên trái và lên dùng để đi lên và mũi tên phải và xuống dùng để đi xuống trong danh sách.
 
-==== Tên Biến Thể ====
+==== Tên Biến Thể ====[VoiceSettingsVariant]
 Nếu bạn sử dụng bộ đọc eSpeak NG đi kèm với NVDA, hộp xổ này cho phép bạn chọn tên giọng đọc phát âm theo vùng miền.
 Các biến thể này của eSpeak NG cũng khá giống với giọng đọc chính, vì nó chỉ thay đổi một số thuộc tính của giọng đọc đã chọn.
 Một số biến thể nghe giống giọng nam, một số giống giọng nữ và một số khá giống giọng ếch kêu.
 
-==== Tốc độ đọc ====
+==== Tốc độ đọc ====[VoiceSettingsRate]
 Cho phép bạn thay đổi tốc độ đọc.
 Đó là 1 thanh trượt có giá trị từ 0 đến 100 (0 là chậm nhất, và 100 là nhanh nhất).
 
-==== Cao độ ====
+==== Cao độ ====[VoiceSettingsPitch]
 cho phép bạn thay đổi cao độ của giọng hiện tại.
 Nó có giá trị từ 0 đến 100 (0 là thấp nhất, 100 là cao nhất).
 
-==== Âm lượng ====
+==== Âm lượng ====[VoiceSettingsVolume]
 Nó có giá trị từ 0 đến 100 (0 là nhỏ nhất, 100 là lớn nhất).
 
-==== Ngữ điệu ====
+==== Ngữ điệu ====[VoiceSettingsInflection]
 Cho phép bạn chọn ngữ điệu cho giọng, tùy chọn này chỉ có tác dụng với các bộ đọc hỗ trợ tính năng này. (hiện tại bộ đọc duy nhất hỗ trợ tính năng này là eSpeak NG)
 
-==== Tự động chuyển ngôn ngữ ====
+==== Tự động chuyển ngôn ngữ ====[VoiceSettingsLanguageSwitching]
 Tùy chọn này cho phép bạn chọn tự động chuyển ngôn ngữ của bộ đọc nếu văn bản có đánh dấu ngôn ngữ cho phần nội dung nào đó.
 Nó được chọn mặc định.
 Hiện tại chỉ có bộ đọc eSpeak hỗ trợ chức năng tự động chuyển ngôn ngữ này.
 
-==== Tự động chuyển giọng theo vùng miền ====
+==== Tự động chuyển giọng theo vùng miền ====[VoiceSettingsDialectSwitching]
 Nếu chức năng tự động chuyển ngôn ngữ được bật thì tùy chọn này cho phép chuyển giọng theo vùng miền trong cùng một ngôn ngữ.
 Ví dụ khi bạn đọc một văn bản quốc tế bằng giọng tiếng Anh (Mỹ), trong văn bản đó có một đoạn được đánh dấu là tiếng Anh (của người Anh), chương trình sẽ tự động đổi cách phát âm của giọng đó sang cách phát âm của người Anh nếu tùy chọn này được bật.
 Mặc định tùy chọn này không được chọn.
 
 %kc:setting
-==== Đọc dấu và ký hiệu ====
+==== Đọc dấu và ký hiệu ====[VoiceSettingsSymbolLevel]
 Phím tắt: NVDA+p
 
 Cho phép bạn chọn chế độ đọc dấu câu và ký hiệu.
 Ví dụ, nếu bạn chọn tất cả thì tất cả các dấu và ký hiệu trong văn bản sẽ được đọc.
 Tùy chọn này áp dụng cho tất cả các bộ đọc chứ không chỉ riêng cho bộ đọc hiện tại.
 
-==== Sử dụng giọng đọc của ngôn ngữ để xử lý ký hiệu và ký tự ====
+==== Sử dụng giọng đọc của ngôn ngữ để xử lý ký hiệu và ký tự ====[VoiceSettingsTrust]
 Mặc định, tùy chọn này để chọn có thể sử dụng giọng đọc để đọc các ký tự và ký hiệu hay không.
 Nếu bạn thấy NVDA đọc dấu câu không đúng cho một ngôn ngữ với bộ đọc hoặc giọng đọc đang dùng, bạn có thể tắt tùy chọn này để NVDA dùng các thiết lập ngôn ngữ chung.
 
-==== Phần trăm thay đổi độ cao cho chữ hoa ====
+==== Phần trăm thay đổi độ cao cho chữ hoa ====[VoiceSettingsCapPitchChange]
 Tùy chọn này cho phép bạn nhập phần trăm độ cao sẽ thay đổi khi đọc các chữ cái in hoa.
 Đây là giá trị phần trăm nên không nhận số âm và phải nằm trong vùng cho phép (từ 1 đến 100).
 Nếu không muốn có sự thay đổi về cao độ thì bạn có thể thiết lập giá trị 0 cho mục này.
 
-==== Thông báo chữ in hoa ====
+==== Thông báo chữ in hoa ====[VoiceSettingsSayCapBefore]
 Chọn tùy chọn này sẽ cho phép NVDA đọc thông báo chữ in hoa khi đứng trước chữ in hoa hoặc khi đánh vần
 Thông thường NVDA sẽ thay đổi cao độ khi đọc các chữ cái in hoa nhưng có bộ đọc không hỗ trợ việc thay đổi cao độ nên chức năng này sẽ được sử dụng.
 
-==== Bip cho chữ in hoa ====
+==== Bip cho chữ in hoa ====[VoiceSettingsBeepForCaps]
 Nếu được chọn, NVDA sẽ báo tiếng bip khi đứng trước chữ in hoa.
 Nó cũng rất hữu ích khi bộ đọc không hỗ trợ thay đổi cao độ cho giọng đọc.
 
-==== Chức năng đánh vần ====[VoiceSpellingFunctionality]
+==== Chức năng đánh vần ====[VoiceSettingsUseSpelling]
 Một số từ chỉ có một ký tự nhưng việc phát âm ký tự đó thì còn tùy thuộc vào việc coi đó là 1 từ hay một ký tự.
 Ví dụ trong tiếng anh thì "a" vừa là 1 từ, và cũng là 1 ký tự.
 Tùy chọn này sẽ cho phép bộ đọc phân biệt được các trường hợp đó.
@@ -1089,7 +1089,7 @@ Ngoài việc thay đổi các tham số cho giọng đọc trong cửa sổ, b�
 +++ Thiết Lập Màn Hình Nổi +++[BrailleSettings]
 Vào thực đơn Tùy chọn của NVDA, tìm và mở mục Thiết lập màn hình nổi.
 
-==== Màn Hình Nổi ====
+==== Màn Hình Nổi ====[BrailleSettingsDisplay]
 Tùy chọn đầu tiên trong hộp thoại Thiết lập màn hình nổi là một hộp xổ với tên "Màn hình nổi".
 Sẽ có một số tùy chọn tùy theo trên máy bạn được cài driver nào của màn hình nổi.
 Dùng phím mũi tên để di chuyển đến các tùy chọn này.
@@ -1098,7 +1098,7 @@ Không có Braille, nghĩa là máy bạn không dùng màn hình nổi.
 
 Vui lòng xem phần [Các màn hình nổi được hỗ trợ #SupportedBrailleDisplays] để biết thêm thông tin.
  
-==== Cổng ====
+==== Cổng ====[BrailleSettingsPort]
 Nếu có tùy chọn này, mục này cho phép bạn chọn cổng hoặc loại kết nối sử dụng để giao tiếp với màn hình nổi được chọn.
 Nó là một hộp xổ gồm các lựa chọn có sẵn cho màn hình nổi đó.
 
@@ -1110,13 +1110,13 @@ Nó sẽ không hiển thị tùy chọn này nếu màn hình nổi của bạn
 
 Bạn nên tham khảo tài liệu của màn hình nổi tại phần [Các màn hình nổi được hỗ trợ #SupportedBrailleDisplays] để kiểm tra các phương thức nào được hỗ trợ cho dòng màn hình chữ nổi của bạn.
 
-==== Bảng Mã Đầu Ra ====
+==== Bảng Mã Đầu Ra ====[BrailleSettingsOutputTable]
 Tùy chọn kế tiếp trong hộp thoại này là một hộp xổ chọn bảng mã đầu ra.
 Trong hộp xổ này, bạn tìm thấy bảng mã chữ nổi cho các ngôn ngữ khác nhau, phiên bản chuẩn và viết tắt.
 Bảng được chọn sẽ dùng để chuyển đổi nội dung và hiển thị trên màn hình nổi.
 Dùng phím mũi tên để duyệt và chọn bảng mã đầu ra.
 
-==== Bảng Mã Đầu Vào ====[BrailleInputTable]
+==== Bảng Mã Đầu Vào ====[BrailleSettingsInputTable]
 Tiếp theo với tùy chọn trước đó là bảng mã chữ nổi đầu vào.
 Bảng mã được chọn sẽ dùng để chuyển đổi nội dung được nhập bằng kiểu bàn phím Perkins sang dạng văn bản.
 Dùng mũi tên để duyệt và chọn bảng mã đầu vào.
@@ -1124,10 +1124,10 @@ Dùng mũi tên để duyệt và chọn bảng mã đầu vào.
 Lưu ý, tùy chọn này chỉ có ý nghĩa khi màn hình nổi của bạn có bàn phím kiểu Perkins và driver của nó có hỗ trợ tính năng này.
 Nếu màn hình nổi có bàn phím Perkins nhưng không hỗ trợ phần nhập liệu, nó sẽ được đề cập trong phần [Các màn hình nổi được hỗ trợ #SupportedBrailleDisplays].
 
-==== Mở rộng từ tại vị trí con trỏ theo bảng chữ nổi máy tính được viết đầy đủ ====
+==== Mở rộng từ tại vị trí con trỏ theo bảng chữ nổi máy tính được viết đầy đủ ====[BrailleSettingsExpandToComputerBraille]
 Chọn tùy chọn này để từ dưới vị trí con trỏ sẽ được hiển thị đầy đủ theo chữ nổi máy tính.
 
-==== Hiển Thị Con Trỏ ====
+==== Hiển Thị Con Trỏ ====[BrailleSettingsShowCursor]
 Tùy chọn này dùng để chọn hiển thị hoặc không hiển thị con trỏ trên màn hình nổi.
 Nó có hiệu lực đối với dấu nháy hệ thống và con trỏ duyệt nhưng không có tác dụng với chỉ báo vùng chọn.
 
