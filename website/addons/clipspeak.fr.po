@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clipspeak\n"
 "POT-Creation-Date: 2018-07-20 14:56+1000\n"
-"PO-Revision-Date: 2017-06-03 15:36+0200\n"
+"PO-Revision-Date: 2018-07-20 18:56+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: French NVDA add-ons translation team <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -23,16 +23,12 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Author: Damien Sykes-Lindley"
 msgid "Author: Damien Garwood"
-msgstr "Auteur : Damien Sykes-Lindley"
+msgstr "Auteur : Damien Garwood"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "download [development version][1]"
 msgid "download [stable version][1]"
-msgstr "Télécharger [version de développement][1]"
+msgstr "Télécharger [version stable][1]"
 
 #. type: Plain text
 msgid ""
@@ -91,10 +87,10 @@ msgstr ""
 "configuration des Gestes de commandes."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
