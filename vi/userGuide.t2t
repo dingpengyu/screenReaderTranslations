@@ -179,13 +179,13 @@ Mặc dù kiểu bàn phím Laptop không có bàn phím số riêng nhưng bạ
 Nếu kiểu bàn phím của bạn không cho phép làm điều đó thì bạn nên chọn kiểu bàn phím là Laptop.
 
 ++ Thao tác cảm ứng trong NVDA ++
-Nếu bạn đang sử dụng các thiết bị cảm ứng chạy trên hệ điều hành từ Windows 8 trở lên thì bạn có thể điều khiển trực tiếp NVDA trên màn hình cảm ứng.
+Nếu bạn đang sử dụng các thiết bị cảm ứng chạy trên hệ điều hành từ Windows 8 trở lên thì bạn có thể điều khiển trực tiếp NVDA thông qua các thao tác cảm ứng.
 Nếu như NVDA đang chạy thì tất cả các hành động trên màn hình cảm ứng sẽ được gửi trực tiếp đến NVDA. 
 Vì vậy các hành động có thể thực hiện khi NVDA không chạy sẽ không hoạt động nếu NVDA đang chạy.
 
 +++ Khám phá màn hình +++
 Hành động phổ biến nhất trên màn hình là thông báo các đối tượng hay văn bản ở vị trí bất kỳ trên màn hình.
-Để làm điều đó bạn đặt một ngón tay trên màn hình.
+Để làm điều đó, bạn đặt một ngón tay trên màn hình.
 Sau đó bạn có thể giữ và di chuyển ngón tay qua các đối tượng và văn bản trên màn hình.
 
 +++ Thao tác cảm ứng +++
@@ -221,6 +221,15 @@ Nếu như hành động nào không được ghi kèm theo chế độ cảm �
 %kc:beginInclude
 Để chuyển qua lại giữa các chế độ, chạm ba (chạm nhanh ba ngón vào màn hình).
 %kc:endInclude
+
++++ Bàn phím cảm ứng +++
+Bàn phím cảm ứng dùng để nhập lệnh và văn bản từ màn hình cảm ứng.
+Khi con trỏ ở trong trường nhập liệu, bạn có thể mở bàn phím cảm ứng bằng cách chạm hai lần biểu tượng bàn phím cảm ứng dưới đáy màn hình.
+Với các máy tablet như Microsoft Surface Pro, bàn phím cảm ứng luôn sẵn sàng khi bàn phím bị khóa.
+Để tắt bàn phím cảm ứng, chạm hai lần biểu tượng bàn phím cảm ứng hoặc di chuyển khỏi trường nhập liệu.
+
+Khi đang bật bàn phím cảm ứng, để xác định các phím, di chuyển ngón tay đến vị trí của bàn phím cảm ứng (thường ở phía dưới màn hình), rồi di chuyển bằng một ngón tay.
+khi tìm thấy phím muốn nhấn, chạm phím đó hai lần hoặc buông ngón tay ra, tùy vào thiết lập đã chọn trong [cài đặt Tương tác cảm ứng #TouchInteraction].
 
 ++ Chế độ trợ giúp thao tác nhập ++
 Rất nhiều phím tắt của NVDA được mô tả trong tài liệu hướng dẫn này nhưng có một cách khác để khám phá tất cả các thao tác lệnh là bật chế độ trợ giúp nhập.
@@ -1285,8 +1294,16 @@ Di chuyển chuột sang trái hoặc phải, thì âm thanh sẽ phát ra loa t
 Nếu chọn "Phát tọa độ âm thanh khi chuột di chuyển" và chọn hộp kiểm này thì âm lượng của tọa độ âm thanh sẽ được kiểm soát bởi độ sáng màn hình tại vị trí chuột.
 Mặc định tùy chọn này không được chọn.
 
++++ Cài đặt tương tác cảm ứng +++[TouchInteraction]
+Hộp thoại này chỉ xuất hiện trên các máy tính có màn hình cảm ứng, chạy Windows 8 trở lên, cho phép bạn thiết lập cách NVDA tương tác với màn hình cảm ứng.
+
+==== Chế độ gõ cảm ứng ====
+Hộp kiểm này cho phép bạn thiết lập cách thức muốn sử dụng khi nhập văn bản bằng bàn phím cảm ứng.
+Nếu đánh dấu chọn hộp kiểm này, khi đi đến một phím trên bàn phím cảm ứng, bạn có thể buôn ngón tay và phím đó sẽ được nhấn.
+Nếu không đánh dấu chọn, bạn cần phải chạm hai lần để nhấn nó.
+
 +++ Thiết Lập Con Trỏ Duyệt +++
-Mở hộp thoại này từ thực đơn Tùy chọn của NVDA.
+Mở hộp thoại này từ thực đơn Tùy chọn của NVDA, trong nhóm Con trỏ duyệt.
 Có các mục sau trong hộp thoại này:
 
 %kc:setting
