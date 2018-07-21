@@ -178,7 +178,7 @@
     <UL>
     <LI><A HREF="#FreedomScientificFocus">14.1. Freedom Scientific Focus/PAC Mate Series</A>
     <LI><A HREF="#OptelecALVA">14.2. Optelec ALVA 6 series/protocol converter</A>
-    <LI><A HREF="#toc119">14.3. Các Màn Hình Handy Tech</A>
+    <LI><A HREF="#HandyTech">14.3. Các Màn Hình Handy Tech</A>
     <LI><A HREF="#MDVLilli">14.4. MDV Lilli</A>
     <LI><A HREF="#Baum">14.5. Màn Hình Nổi Baum/Humanware/APH/Orbit</A>
     <LI><A HREF="#HedoProfiLine">14.6. hedo ProfiLine USB</A>
@@ -4103,8 +4103,13 @@ Bạn không cần phải cài driver để sử dụng màn hình này.
 Đơn giản chỉ kết nối với máy tính và cấu hình cho NVDA để sử dụng.
 </P>
 <P>
-Các màn hình này có bàn phím riêng, nó sẽ tự quản lý việc chuyển từ chữ nổi sang   chữ in.
-Vì vậy các thiết lập bảng nhập chữ nổi sẽ không cần.
+Lưu ý: NVDA có thể không dùng được màn hình ALVA BC6 thông qua Bluetooth khi ghép nối bằng tiện ích ALVA  Bluetooth.
+Khi bạn ghép nối thiết bị bằng tiện ích này và NVDA không nhận được nó, chúng tôi khuyến cáo ghép nối màn hình ALVA bằng cách phổ biến là thiết lập cho Bluetooth thông qua Windows.
+</P>
+<P>
+Lưu ý: trong khi một số trong các màn hình này có bàn phím chữ nổi, mặc định, chúng tự xử lý việc phiên dịch từ chữ nổi ra chữ in.
+Điều này có nghĩa là hệ thống đầu vào chữ nổi của NVDA không được dùng mặc định (thiết lập đầu vào chữ nổi không có tác dụng).
+Với các màn hình ALVA dùng các firmware gần đay, đã có thể vô hiệu hóa điều này thông qua một thao tác.
 </P>
 <P>
 Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
@@ -4139,6 +4144,10 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 <TR>
 <TD>Rút về ô chữ nổi</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>Bật tắt HID keyboard simulation</TD>
+<TD>t1+spEnter</TD>
 </TR>
 <TR>
 <TD>Về dòng đầu khi duyệt</TD>
@@ -4194,7 +4203,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím enter</TD>
-<TD>spEnter</TD>
+<TD>spEnter, enter</TD>
 </TR>
 <TR>
 <TD>Thông báo ngày giờ</TD>
@@ -4214,7 +4223,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TR>
 <TR>
 <TD>Phím windows</TD>
-<TD>sp2+sp3</TD>
+<TD>sp2+sp3, windows</TD>
 </TR>
 <TR>
 <TD>Phím alt+tab</TD>
@@ -4236,9 +4245,17 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 <TD>Phím end</TD>
 <TD>t3+spRight</TD>
 </TR>
+<TR>
+<TD>Phím alt</TD>
+<TD>alt</TD>
+</TR>
+<TR>
+<TD>Phím control</TD>
+<TD>control</TD>
+</TR>
 </TABLE>
 
-<A NAME="toc119"></A>
+<A NAME="HandyTech"></A>
 <H3>14.3. Các Màn Hình Handy Tech</H3>
 
 <P>
