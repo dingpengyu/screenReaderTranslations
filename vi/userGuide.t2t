@@ -1847,14 +1847,6 @@ Bạn phải cài bộ đọc này trước rồi mới sử dụng được tro
 
 Bộ đọc này không hỗ trợ [chức năng đánh vần #VoiceSettingsUseSpelling].
 
-++ Nuance Vocalizer for NVDA ++[Vocalizer]
-Nuance Vocalizer là sản phẩm thương mại, có chất lượng rất cao được phát triển bởi công ty  Nuance Communications, Inc. và  được đóng gói đặc biệt cho NVDA bởi Tiflotecnia, Lda.
-Nó có hơn 50 giọng và hỗ trợ 30 ngôn ngữ.
-Tất cả các giọng trong bộ đọc đều được đóng gói dưới dạng Add on nên có thể được tích hợp trong bản NVDA chạy trực tiếp từ USB.
-
-Bạn có thể xem thông tin chi tiết về bộ đọc này tại [www.vocalizer-nvda.com http://www.vocalizer-nvda.com/].
-Một phần trăm  doanh thu của sản phẩm được tài trợ để phát triển trình đọc màn hình NVDA.
-
 + Hỗ trợ màn hình nổi (Braille Displays) +[SupportedBrailleDisplays]
 Phần này gồm thông tin về các dòng màn hình nổi được hỗ trợ bởi NVDA.
 
