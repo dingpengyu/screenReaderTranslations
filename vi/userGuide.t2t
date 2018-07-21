@@ -2088,13 +2088,16 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Đọc tất cả | B6 |
 %kc:endInclude
 
-++ Các dòng HumanWare Brailliant BI/B ++[HumanWareBrailliant]
-Các dòng màn hình Brailliant BI và B của [HumanWare http://www.humanware.com/], bao gồm BI 32, BI 40 và B 80, đều được hỗ trợ khi kết nối qua cổng USB và bluetooth.
+++ Các dòng HumanWare Brailliant BI/B / BrailleNote Touch++[HumanWareBrailliant]
+Các dòng màn hình Brailliant BI và B của [HumanWare http://www.humanware.com/], bao gồm BI 14, BI 32, BI 40 và B 80, đều được hỗ trợ khi kết nối qua cổng USB hay bluetooth.
 Nếu kết nối qua cổng USB với thiết lập giao thức đến Humanware, bạn cần phải cài driver được cung cấp bởi nhà sản xuất.
 Sẽ không cần cài driver USB nếu thiết lập giao thức đến OpenBraille.
 
+BrailleNote Touch cũng đã được hỗ trợ, và không đòi hỏi  phải cài đặt bất cứ driver nào.
+
 Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
++++ Các phím được gán cho tất cả sản phẩm +++
 %kc:beginInclude
 || Tên | Phím |
 | Cuộn về trước | left |
@@ -2117,6 +2120,24 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Phím windows | space+dot3+dot4 |
 | Phím alt+tab | space+dot2+dot3+dot4+dot5 (space+t) |
 | Đọc tất cả | c1+c2+c3+c4+c5+c6 |
+%kc:endInclude
+
++++ Các phím gán cho màn hình Brailliant BI 32, BI 40 và B 80 +++ 
+%kc:beginInclude
+|| Tên | Phím |
+| Thực đơn NVDA | c1+c3+c4+c5 (command n) |
+| Phím windows+d (thu nhỏ toàn bộ ứng dụng ) | c1+c4+c5 (command d) |
+ | Đọc tất cả | c1+c2+c3+c4+c5+c6 |
+ %kc:endInclude
+ 
++++ Phím gán cho Brailliant BI 14 +++ 
+%kc:beginInclude
+|| Tên | Phím |
+| Phím mũi tên lên | joystick up |
+| Phím mũi tên xuống | joystick down |
+| Phím mũi tên trái | joystick left |
+| Phím mũi tên phải | joystick right |
+| Phím enter | joystick action |
 %kc:endInclude
 
 ++ Các dòng HIMS Braille Sense/Braille EDGE/Smart Beetle ++[Hims]
@@ -2386,6 +2407,7 @@ Sau đây là các dòng sản phẩm được hỗ trợ:
 - BrailleNote MPower (kết nối qua bluetooth và serial)
 - BrailleNote Apex (kết nối qua bluetoothe và USB)
 -
+Với BrailleNote Touch, vui lòng xem phần [các dòng màn hình nổi Brailliant BI / BrailleNote Touch HumanWareBrailliant].
 
 Nếu thiết bị của bạn hỗ trợ hơn một phương thức kết nối và kết nối máy BrailleNote của bạn với NVDA, bạn cần khai báo cổng kết nối trong phần tùy chọn terminal màn hình nổi.
 Vui lòng xem tài liệu hướng dẫn sử dụng của BrailleNote..
