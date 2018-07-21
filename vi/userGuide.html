@@ -854,8 +854,10 @@ Khi bạn duyệt đến một đối tượng, bạn có thể xem nội dung c
 Mặc định thì đối tượng điều hướng sẽ đi cùng với focus hệ thống; tuy nhiên, bạn có thể bật/tắt chế độ này.
 </P>
 <P>
-Lưu ý, con trỏ nổi mặc định sẽ đi theo <A HREF="#SystemFocus">focus hệ thống</A> và <A HREF="#SystemCaret">dấu nháy hệ thống</A>, chứ không đi theo khi duyệt đối tượng và duyệt nội dung.
-Nếu bạn muốn con trỏ nổi đi theo đối tượng điều hướng và khi duyệt nội dung, bạn cần phải <A HREF="#BrailleTether">cấu hình con trỏ nổi đi theo</A> con trỏ duyệt.
+Lưu ý, con trỏ nổi mặc định sẽ đi theo <A HREF="#SystemFocus">focus hệ thống</A>, <A HREF="#SystemCaret">dấu nháy hệ thống</A>, cũng như khi duyệt đối tượng và duyệt nội dung.
+Nếu bạn chỉ muốn con trỏ nổi đi theo focus hệ thống và dấu nháy hệ thống, bạn cần phải <A HREF="#BrailleTether">cấu hình con trỏ nổi đi theo</A> focus hệ thống.
+Trường họp này, con trỏ braille sẽ không đi theo khi duyệt đối tượng và duyệt nội dung.
+Nếu muốn con trỏ braille đi theo khi duyệt  đối tượng và nội dung, cần phải <A HREF="#BrailleTether">cấu hình con trỏ nổi đi theo</A> con trỏ duyệt.
 </P>
 <P>
 Sử dụng các phím tắt sau để duyệt qua các đối tượng:
@@ -2724,7 +2726,9 @@ Tùy chọn này cho phép hiển thị các thông điệp của NVDA trên mà
 Phím tắt: NVDA+control+t
 </P>
 <P>
-Tùy chọn này cho phép bạn chọn con trỏ nổi sẽ đi theo con trỏ hệ thống hoặc theo con trỏ duyệt.
+Tùy chọn này cho phép bạn chọn con trỏ nổi sẽ đi theo con trỏ hệ thống, theo con trỏ duyệt hay cả hai.
+Khi chọn "tự động", NVDA sẽ đi theo focus hệ thống và dấu nháy hệ thống.
+Trường hợp này, khi vị trí con trỏ điều hướng đối tượng hay con trỏ duyệt bị thay đổi bởi thao tác cụ thể của người dùng, NVDA sẽ tạm thời đi theo con trỏ duyệt cho đến khi có sự thay đổi của focus hệ thống và dấu nháy hệ thống.
 </P>
 
 <A NAME="BrailleSettingsReadByParagraph"></A>
