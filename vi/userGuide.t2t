@@ -1933,6 +1933,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Chuyển đến dòng kế | t4 |
 | Cuộn tới | t5 hoặc etouch3 |
 | Rút về ô chữ nổi | routing |
+| Thông báo định dạng văn bản tại ô chữ nổi | secondary routing |
 | Bật tắt HID keyboard simulation | t1+spEnter |
 | Về dòng đầu khi duyệt | t1+t2 |
 | Về dòng cuối khi duyệt | t4+t5 |
@@ -2290,7 +2291,7 @@ Sau đây là các lệnh được gán của Papenmeier cho NVDA:
 | Chuyển đến đối tượng con thứ nhất | dn2 |
 | Chuyển về đối tượng trước | left2 |
 | Chuyển đến đối tượng kế | right2 |
-| Thông báo định dạng nội dung | upper routing row |
+| Thông báo định dạng  văn bản  tại ô chữ nổi | upper routing row |
 %kc:endInclude
 
 Mẫu Trio có thêm bốn phím nằm trước bàn phím chữ nổi.
@@ -2364,7 +2365,7 @@ Thiết bị có EAB:
 | Chuyển đến đối tượng con thứ nhất | dn2 |
 | Chuyển đến đối tượng kế | right2 |
 | Chuyển về đối tượng trước | left2 |
-| Thông báo định dạng nội dung | Upper routing strip |
+| Thông báo định dạng văn bản tại ô chữ nổi | upper routing strip |
 
 BRAILLEX Tiny:
 || Chức năng | Phím |
@@ -2379,7 +2380,7 @@ BRAILLEX Tiny:
 | Chuyển đến đối tượng con thứ nhất | r1+dn |
 | Chuyển về đối tượng trước | r1+left |
 | Chuyển đến đối tượng kế | r1+right |
-| Thông báo định dạng nội dung | reportf |
+| Thông báo định dạng văn bản  tại ô chữ nổi | upper routing strip |
 | Thông báo tiêu đề | l1+up |
 | Thông báo thanh trạng thái | l2+down |
 
@@ -2388,7 +2389,7 @@ BRAILLEX 2D Screen:
 | Thông báo ký tự hiện tại khi duyệt | l1 |
 | Kích hoạt đối tượng điều hướng hiện tại | l2 |
 | Bật/tắt con trỏ nổi đi theo | r2 |
-| Thông báo định dạng nội dung | reportf |
+| Thông báo định dạng văn bản  tại ô chữ nổi | upper routing strip |
 | Chuyển về dòng trước | up |
 | Cuộn về trước | left |
 | Cuộn tới | right |
@@ -2510,7 +2511,8 @@ Vui lòng xem Tài Liệu của màn hình cho phần mô tả vị trí các ph
 | Cuộn lùi | switch1-6left, l1 |
 | Cuộn tới | switch1-6Right, l8 |
 | Chuyển đến focus hiện tại | switch1-6Left+switch1-6Right, l1+l8 |
-| Rút về ô chữ nổi | routing, doubleRouting|
+| Rút về ô chữ nổi | routing |
+| Thông báo định dạng văn bản tại ô chữ nổi | doubleRouting |
 | Chuyển đến dòng trước | joystick1Up |
 | Chuyển đến dòng kế | joystick1Down |
 | Chuyển đến kí tự trước | joystick1Left |
