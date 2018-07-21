@@ -1246,13 +1246,13 @@ Nếu được chọn, việc đọc sẽ bị ngắt giữa chừng khi bạn g
 ==== Cho phép thay đổi vị trí đọc khi đọc tất cả ====[KeyboardSettingsSkimReading]
 Nếu được chọn thì việc thay đổi vị trí của con trỏ bằng các phím di chuyển nhanh trong chế độ duyệt tài liệu hay các phím di chuyển qua các dòng, các đoạn trong văn bản sẽ không làm dừng việc đọc. Thay vào đó, nó sẽ chuyển đến vị trí mới theo phím lệnh di chuyển được nhấn và đọc tiếp.
  
-==== bíp nếu gõ ký tự thường khi phím khóa hoa đang bật ====[VoiceSettingsBeepLowercase]
+==== bíp nếu gõ ký tự thường khi phím khóa hoa đang bật ====[KeyboardSettingsBeepLowercase]
 Nếu được chọn và khi phím Khóa hoa bật thì sẽ có tiếng bip cảnh báo khi bạn gõ phím chữ kết hợp với phím shift.
 Đôi khi phím Khóa hoa bật mà bạn không biết, nên khi bạn muốn gõ 1 chữ in hoa thì bạn hay nhấn thêm phím Shift nhưng điều đó lại tạo ra chữ cái thường.
 Do vậy chức năng này khá hữu ích trong trường hợp trên.
 
 %kc:setting
-==== Đọc phím lệnh ====[VoiceSettingsSpeakCommandKeys]
+==== Đọc phím lệnh ====[KeyboardSettingsSpeakCommandKeys]
 Phím bật/tắt: NVDA+4
 
 Nếu được chọn thì NVDA sẽ thông báo tất cả các phím lệnh (không phải phím chữ và phím số), ví dụ như phím ctrl, alt, shift, v..v hoặc tổ hợp phím lệnh đó với các phím khác như Ctrl + s.
@@ -1440,12 +1440,12 @@ Tùy chọn này mặc định được chọn.
 Với tùy chọn này cho phép NVDA tiếp cận được với các kiểu bảng khác nhau.
 Khi được bật và gặp các bảng có kiểu trình bày khác nhau nhưng NVDA vẫn hỗ trợ thao tác trên bảng như các bảng thông thường khác.
 Nếu không chọn, thì NVDA chỉ thông báo nội dung mà sẽ không hỗ trợ di chuyển trong bảng.
-Tuy nhiên nội dung của bảng vẫn sẽ là các văn bản bình thường.
+Tuy nhiên, nội dung của bảng vẫn sẽ là các văn bản bình thường.
 Mặc định nó không được chọn.
 
 Để bật/tắt chế độ duyệt đơn giản ở bất kỳ nơi nào, hãy gán phím tắt cho tính năng này trong hộp thoại [Quản lý thao tác #InputGestures].
 
-==== Cấu hình thông báo các thành phần như liên kết và tiêu đề ====
+==== Cấu hình thông báo các thành phần như liên kết và tiêu đề ====[BrowseModeLinksAndHeadings]
 Xem thêm thông tin cấu hình các tùy chọn trong hộp thoại  [Định dạng tài liệu #DocumentFormattingSettings] để thiết lập các tùy chọn thông báo cho các thành phần như liên kết, tiêu đề, bảng vvv.
 
 ==== Tự động chuyển sang chế độ focus khi focus thay đổi ====[BrowseModeSettingsAutoPassThroughOnFocusChange]
