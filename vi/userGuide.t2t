@@ -182,7 +182,7 @@ Nếu kiểu bàn phím của bạn không cho phép làm điều đó thì bạ
 ++ Thao tác cảm ứng trong NVDA ++[NVDATouchGestures]
 Nếu bạn đang sử dụng các thiết bị cảm ứng chạy trên hệ điều hành từ Windows 8 trở lên thì bạn có thể điều khiển trực tiếp NVDA thông qua các thao tác cảm ứng.
 Nếu như NVDA đang chạy thì tất cả các hành động trên màn hình cảm ứng sẽ được gửi trực tiếp đến NVDA. 
-Vì vậy các hành động có thể thực hiện khi NVDA không chạy sẽ không hoạt động nếu NVDA đang chạy.
+Vì vậy, các hành động có thể thực hiện khi NVDA không chạy sẽ không hoạt động nếu NVDA đang chạy.
 
 +++ Khám phá màn hình +++[ExploringTheScreen]
 Hành động phổ biến nhất trên màn hình là thông báo các đối tượng hay văn bản ở vị trí bất kỳ trên màn hình.
@@ -567,7 +567,7 @@ NVDA hỗ trợ một số nội dung toán học sau đây:
 - Design Science MathType với Microsoft Word và Powerpoint.
 Cần phải cài MathType để có thể hoạt động. Lưu ý, chỉ cần cài phiên bản chạy thử là đủ.
 - MathML trong chương trình Adobe Reader.
-Lưu ý là đây vẫn chưa phải chuẩn chính thức vì vậy hiện vẫn chưa có phần mềm chung có thể sản xuất nội dung này.
+Lưu ý là đây vẫn chưa phải chuẩn chính thức. Vì vậy, hiện vẫn chưa có phần mềm chung có thể sản xuất nội dung này.
 - Tài liệu toán tiếp cận trên Kindle for PC.
 -
 
@@ -1866,7 +1866,7 @@ Cũng có khá nhiều giọng khác nhau để bạn lựa chọn.
 ++ Microsoft Speech API version 4 (SAPI 4) ++
 SAPI 4 là một chuẩn cũ của các bộ tổng hợp tiếng nói của Microsoft cho windows.
 NVDA vẫn còn hỗ trợ cho bộ tổng hợp âm này.
-Tuy nhiên, Microsoft đã ngưng hỗ trợ cho phiên bản này vì vậy bạn không thể download bộ cài đặt hoặc những gói dữ liệu liên quan từ trang web của Microsoft.
+Tuy nhiên, Microsoft đã ngưng hỗ trợ cho phiên bản này. Vì vậy, bạn không thể download bộ cài đặt hoặc những gói dữ liệu liên quan từ trang web của Microsoft.
 
 Khi sử dụng bộ đọc này với NVDA, các giọng đọc hiện có, có thể chọn ở  phân loại [tiếng nói#SpeechSettings] trong [hộp thoại cấu hình NVDA #NVDASettings] hoặc [thiết lập giọng theo tham số #SynthSettingsRing] sẽ thấy tất cả các giọng được cài cho bộ đọc chuẩn SAPI 4 trên máy của bạn. 
 
@@ -2588,7 +2588,7 @@ Vui lòng xem [Tài Liệu của EcoBraille ftp://ftp.once.es/pub/utt/bibliotecn
 
 ++ SuperBraille ++
 Màn hình chữ nổi SuperBraille được sử dụng phổ biến ở Đài Loan có thể kết nối qua cổng USB và Serial.
-Màn hình SuperBraille không có bàn phím nhập liệu và nút cuộn, vì vậy các thao tác cho những chức năng tương tự đều được thực hiện với bàn phím máy tính.
+Màn hình SuperBraille không có bàn phím nhập liệu và nút cuộn. Vì vậy, các thao tác cho những chức năng tương tự đều được thực hiện với bàn phím máy tính.
 Để giải quyết vấn đề này, sau đây là 2 tổ hợp phím được định nghĩa cho chức năng cuộn của SuperBraille:
 %kc:beginInclude
 || Tên | Phím |
