@@ -1923,8 +1923,12 @@ Mặt khác, bạn có thể kết nối một màn hình cũ của Optelec như
 Bạn không cần phải cài driver để sử dụng màn hình này.
 Đơn giản chỉ kết nối với máy tính và cấu hình cho NVDA để sử dụng.
 
-Các màn hình này có bàn phím riêng, nó sẽ tự quản lý việc chuyển từ chữ nổi sang   chữ in.
-Vì vậy các thiết lập bảng nhập chữ nổi sẽ không cần.
+Lưu ý: NVDA có thể không dùng được màn hình ALVA BC6 thông qua Bluetooth khi ghép nối bằng tiện ích ALVA  Bluetooth.
+Khi bạn ghép nối thiết bị bằng tiện ích này và NVDA không nhận được nó, chúng tôi khuyến cáo ghép nối màn hình ALVA bằng cách phổ biến là thiết lập cho Bluetooth thông qua Windows.
+
+Lưu ý: trong khi một số trong các màn hình này có bàn phím chữ nổi, mặc định, chúng tự xử lý việc phiên dịch từ chữ nổi ra chữ in.
+Điều này có nghĩa là hệ thống đầu vào chữ nổi của NVDA không được dùng mặc định (thiết lập đầu vào chữ nổi không có tác dụng).
+Với các màn hình ALVA dùng các firmware gần đay, đã có thể vô hiệu hóa điều này thông qua một thao tác.
 
 Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
@@ -1936,6 +1940,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Chuyển đến dòng kế | t4 |
 | Cuộn tới | t5 hoặc etouch3 |
 | Rút về ô chữ nổi | routing |
+| Bật tắt HID keyboard simulation | t1+spEnter |
 | Về dòng đầu khi duyệt | t1+t2 |
 | Về dòng cuối khi duyệt | t4+t5 |
 | Bật/tắt con trỏ nổi đi theo | t1+t3 |
@@ -1949,20 +1954,22 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Phím mũi tên xuống | spDown |
 | Phím mũi tên trái | spLeft |
 | Phím mũi tên phải | spRight |
-| Phím enter | spEnter |
+| Phím enter | spEnter, enter |
 | Thông báo ngày giờ | sp1+sp2 |
 | Thực đơn NVDA | sp1+sp3 |
 | Phím windows+d (minimize all applications) | sp1+sp4 |
 | Phím windows+b (đến khay hệ thống) | sp3+sp4 |
-| Phím windows | sp2+sp3 |
+| Phím windows | sp2+sp3, windows |
 | Phím alt+tab | sp2+sp4 |
 | Phím control+home | t3+spUp |
 | Phím control+end | t3+spDown |
 | Phím home | t3+spLeft |
 | Phím end | t3+spRight |
+| Phím alt | alt |
+| Phím control | control |
 %kc:endInclude
 
-++ Các Màn Hình Handy Tech ++
+++ Các Màn Hình Handy Tech ++[HandyTech]
 NVDA hỗ trợ hầu hết màn hình của [Handy Tech http://www.handytech.de/] khi kết nối qua cổng USB, cổng serial hay bluetooth.
 Bạn cần phải cài driver của Handy Tech cho những mẫu màn hình dùng cổng USB cũ.
 
