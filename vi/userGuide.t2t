@@ -984,6 +984,25 @@ Tùy chọn này chỉ có trong phiên bản cài đặt NVDA.
 ==== Tự động kiểm tra phiên bản NVDA mới ====[GeneralSettingsCheckForUpdates]
 Nếu được chọn thì NVDA sẽ tự động kiểm tra phiên bản mới và thông báo lại cho bạn nếu có.
 Bạn cũng có thể tự kiểm tra các phiên bản mới bằng cách chọn mục "Kiểm tra phiên bản mới" trong thực đơn Trợ giúp.
+Khi kiểm tra cập nhật thủ công hay tự động, cũng cần thiết để NVDA gửi vài thông tin tới máy chủ để nhận đúng bản cập nhật cho hệ thống của bạn.
+Các thông tin được gửi đi bao gồm:
+- Phiên bản NVDA hiện tại
+- Phiên bản hệ điều hành
+- Hệ điều hành 32 hay 64 bit
+
+
+==== Cho phép dự án NVDA thu thập thống kê sử dụng NVDA ====[GeneralSettingsGatherUsageStats]
+Nếu được chọn, NV Access sẽ dùng các thông tin từ việc kiểm tra cập nhật để theo dõi số người dùng NVDA, bao gồm các thông tin cụ thể phiên bản hệ điều hành và quốc gia của bạn.
+Lưu ý rằng cho dù địa chỉ IP sẽ được dùng  để lấy số liệu thống kê tại quốc gia của bạn khi kiểm tra cập nhật, nó không bao giờ được lưu giữ.
++Apart from the mandatory information required to check Ngoài những thông tin bắt buộc cho việc kiểm tra cập nhật, các thông tin sau đây cũng được gửi đi:
+- Ngôn ngữ giao diện của NVDA
+- NVDA được cài đặt hay chạy trực tiếp
+- Tên bộ đọc đang dùng (bao gồm tên add-on và driver của nó)
+- Tên màn hình chữ nổi đang dùng (bao gồm tên driver của nó)
+- Đầu ra chữ nổi (nếu đang dùng màn hình nổi)
+
+
+Đây là những thông tin hữu ích để NV Access ưu tiên phát triển tính năng mới cho các bản NVDA trong tương lai.
 
 +++ Chọn bộ đọc (NVDA+control+s) +++[SynthesizerSelection]
 Mở cửa sổ này từ thực đơn tùy chọn, nó sẽ cho phép bạn chọn một bộ đọc mà mình mong muốn.
