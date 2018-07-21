@@ -833,9 +833,11 @@ Khi bạn chuyển đến một biểu mẫu ở chế độ duyệt, nhấn ent
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
 | Thông báo thời gian còn lại | control+shift+r | thông báo thời gian còn lại của bài hát hiện tại |
+| Thông báo thời gian đã qua | control+shift+e | Thông báo thời gian đã phát của  bản nhạc hiện tại. |
+| Thông báo độ dài | control+shift+t | Thông báo độ dài của bản nhạc hiện tại. |
 %kc:endInclude
 
-Chú ý: Phím tắt trên chỉ hoạt động với định dạng mặc định cho dòng trạng thái của foobar
+Chú ý: các phím tắt trên chỉ hoạt động với định dạng mặc định cho dòng trạng thái của foobar
 
 ++ Miranda IM ++[MirandaIM]
 %kc:beginInclude
