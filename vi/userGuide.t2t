@@ -1929,6 +1929,8 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Phím control+end | brailleSpaceBar+dot4+dot5+dot6 |
 | Phím alt | brailleSpaceBar+dot1+dot3+dot4 |
 | Phím alt+tab | brailleSpaceBar+dot2+dot3+dot4+dot5 |
+| Phím alt+shift+tab | brailleSpaceBar+dot1+dot2+dot5+dot6 |
+| Phím windows+tab | brailleSpaceBar+dot2+dot3+dot4 |
 | Phím escape | brailleSpaceBar+dot1+dot5 |
 | Phím windows | brailleSpaceBar+dot2+dot4+dot5+dot6 |
 | Phím khoảng trắng | brailleSpaceBar |
@@ -2447,6 +2449,11 @@ Sau đây là các dòng sản phẩm được hỗ trợ:
 -
 Với BrailleNote Touch, vui lòng xem phần [các dòng màn hình nổi Brailliant BI / BrailleNote Touch HumanWareBrailliant].
 
+Trừ BrailleNote PK, cả  bàn phím chữ nổi  (BT) và  QWERTY (QT) đều được hỗ trợ.
+Với BrailleNote QT,  PC keyboard emulation không được hỗ trợ.
+Bạn cũng có thể nhập chấm nổi bằng bàn phím QT.
+Vui lòng xem phần cổng kết nối  chữ nổi trong tài liệu hướng dẫn sử dụng của BrailleNote để biết thêm thông tin.
+
 Nếu thiết bị của bạn hỗ trợ hơn một phương thức kết nối và kết nối máy BrailleNote của bạn với NVDA, bạn cần khai báo cổng kết nối trong phần tùy chọn terminal màn hình nổi.
 Vui lòng xem tài liệu hướng dẫn sử dụng của BrailleNote..
 Trong NVDA, bạn cũng phải khai báo cổng tương ứng trong [hộp thoại chọn màn hình nổi #SelectBrailleDisplay].
@@ -2454,6 +2461,9 @@ Bạn cũng có thể chọn "tự động", "USB" hoặc "bluetooth" nếu bạ
 Còn nếu bạn kết nối qua cổng serial (hoặc từ cáp chuyển USB sang serial), bạn cần phải chọn cổng giao tiếp từ danh sách các cổng của phần cứng.
 
 Trước khi kết nối BrailleNote Apex sử dụng USB của nó, bạn phải cài driver được cung cấp bởi Humanware.
+
+Trên máy BrailleNote Apex BT, bạn có thể dùng bánh xe cuộn ở giữa chấm 1 và 4 cho nhiều lệnh của NVDA.
+Bánh xe có 4 chấm để định hướng, một nút bấm ở chính giữa, và một bánh xe cuộn thuận hay ngược chiều kim đồng hồ.
 
 Sau đây là các lệnh của BrailleNote được gán cho NVDA.
 Vui lòng xem tài liệu hướng dẫn mô tả các phím để biết vị trí của nó.
@@ -2465,6 +2475,7 @@ Vui lòng xem tài liệu hướng dẫn mô tả các phím để biết vị t
 | Chuyển về dòng trước | previous |
 | Chuyển đến dòng kế | next |
 | Rút về ô chữ nổi | routing |
+| Thực đơn NvDA | space+dot1+dot3+dot4+dot5 (space+n) |
 | Bật/tắt con trỏ nổi đi theo | previous+next |
 | Mũi tên lên | space+dot1 |
 | Mũi tên xuống | space+dot4 |
@@ -2484,6 +2495,39 @@ Vui lòng xem tài liệu hướng dẫn mô tả các phím để biết vị t
 | Phím Windows | space+dot2+dot4+dot5+dot6 (space+w) |
 | Phím Alt | space+dot1+dot3+dot4 (space+m) |
 | Bật/tắt chế độ trợ giúp nhập | space+dot2+dot3+dot6 (space+lower h) |
+
+Sau đây là các hpím được gán cho BrailleNote QT không ở trong chế độ nhập liệu chữ nổi.
++
+|| Tên | Phím |
+| Thực đơn NvDA | read+n |
+| Phím mũi tên lên | upArrow |
+| Phím mũi tên xuống | downArrow |
+| Phím mũi tên trái | leftArrow|
+| Phím mũi tên phải | rightArrow |
+| Phím trang trước | function+upArrow |
+| Phím trang sau | function+downArrow |
+| Phím Home | function+leftArrow |
+| Phím End | function+rightArrow |
+| Phím Control+home | read+t |
+| Phím Control+end | read+b |
+| Phím Enter | enter |
+| Phím xóa lùi | backspace |
+| Phím Tab | tab |
+| Phím Shift+tab | shift+tab |
+| Phím Windows | read+w |
+| Phím Alt | read+mj |
+| Bật tắt trợ giúp nhập | read+1 |
++
+Sau đây là các lệnh được gán cho bánh xe cuộn:
++
+|| Tên | Phím |
+| Phím mũi tên lên | upArrow |
+| Phím mũi tên xuống | downArrow |
+| Phím mũi tên trái | leftArrow |
+| Phím mũi tên phải | rightArrow |
+| Phím Enter | center button |
+| Phím Tab | scroll wheel clockwise |
+| Phím Shift+tab | scroll wheel counterclockwise |
 %kc:endInclude
 
 ++ EcoBraille ++[EcoBraille]
