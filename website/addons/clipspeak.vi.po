@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-20 14:56+1000\n"
-"PO-Revision-Date: 2018-07-19 18:10+0700\n"
+"PO-Revision-Date: 2018-07-21 10:49+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -22,16 +22,12 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Author: Damien Sykes-Lindley"
 msgid "Author: Damien Garwood"
-msgstr "Tác giả: Damien Sykes-Lindley"
+msgstr "Tác giả: Damien Garwood"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "download [development version][1]"
 msgid "download [stable version][1]"
-msgstr "Tải về [bản thử nghiệm][1]"
+msgstr "Tải về [bản chính thức][1]"
 
 #. type: Plain text
 msgid ""
@@ -86,10 +82,10 @@ msgstr ""
 "bản Windows của bạn, bạn sẽ cần phải gán lại chúng trong phần Quản lý cử chỉ."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
