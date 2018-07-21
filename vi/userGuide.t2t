@@ -1360,8 +1360,7 @@ Nếu được chọn thì NVDA sẽ lọc bỏ bớt một số đối tượng
 Để bật/tắt chế độ duyệt đơn giản ở bất kỳ nơi nào, hãy gán phím tắt cho tính năng này trong hộp thoại [Quản lý thao tác #InputGestures].
 
 +++ Thiết Lập Trình Bày Đối Tượng (NVDA+control+o) +++[ObjectPresentationSettings]
-Mở hộp thoại này từ thực đơn Tùy chọn của NVDA.
-Hộp thoại này gồm các mục sau:
+Phân loại này gồm các mục sau:
 
 ==== Đọc các thông báo trên đối tượng ====[ObjectPresentationReportToolTips]
 Tùy chọn này cho phép NVDA đọc thông báo của đối tượng khi nó xuất hiện.
@@ -1417,8 +1416,7 @@ Có một số ô nhập liệu như ô tìm kiếm trong những ứng dụng W
 Danh sách gợi ý tự động sẽ tắt khi bạn di chuyển focus khỏi ô nhập liệu. Trong một số trường hợp, NVDA cũng sẽ thông báo tình trạng này.
 
 +++ Thiết Lập Phương Thức Nhập +++[InputCompositionSettings]
-Hộp thoại Thiết lập phương thức nhập có thể tìm thấy trong mục Tùy chọn thực đơn NVDA.
-Hộp thoại này cho phép bạn cấu hình cách NVDA thông báo những ký tự của một số ngôn ngữ ở Châu Á khi nhập liệu với IME hoặc những kiểu gõ khác.
+Phân loại này cho phép bạn cấu hình cách NVDA thông báo những ký tự của một số ngôn ngữ ở Châu Á khi nhập liệu với IME hoặc những kiểu gõ khác.
 Lưu ý, do các phương thức nhập và tính năng của nó sẽ khác nhau rất nhiều; vì vậy, nó rất cần thiết để cấu hình làm sao cho phù hợp với phương thức nhập của bạn, nhằm giúp NVDA đọc tốt hơn khi nhập liệu.
 
 ==== Tự động thông báo các lựa chọn hiện có ====[InputCompositionReportAllCandidates]
@@ -1448,9 +1446,7 @@ Tùy chọn này cho phép bạn chọn NVDA thông báo những ký hiệu mớ
 Tùy chọn này mặc định được bật.
 
 +++ Thiết Lập Chế Độ Duyệt (NVDA+control+b) +++[BrowseModeSettings]
-Có thể mở hộp thoại này từ thực đơn Tùy chọn của NVDA.
-
-Có các mục sau trong cửa sổ này:
+Có các mục sau trong cửa sổ phân loại này:
 
 ==== Số ký tự tối đa trên một dòng ====[BrowseModeSettingsMaxLength]
 Ô cho phép bạn thiết lập số ký tự tối đa nằm trên một dòng ở chế độ duyệt.
@@ -1478,7 +1474,7 @@ Mặc định nó không được chọn.
 Để bật/tắt chế độ duyệt đơn giản ở bất kỳ nơi nào, hãy gán phím tắt cho tính năng này trong hộp thoại [Quản lý thao tác #InputGestures].
 
 ==== Cấu hình thông báo các thành phần như liên kết và tiêu đề ====[BrowseModeLinksAndHeadings]
-Xem thêm thông tin cấu hình các tùy chọn trong hộp thoại  [Định dạng tài liệu #DocumentFormattingSettings] để thiết lập các tùy chọn thông báo cho các thành phần như liên kết, tiêu đề, bảng vvv.
+Xem thêm thông tin cấu hình các tùy chọn trong phân loại [Định dạng tài liệu #DocumentFormattingSettings] ttrong hộp thoại cấu hình của NVDA để thiết lập các tùy chọn thông báo cho các thành phần như liên kết, tiêu đề, bảng vvv.
 
 ==== Tự động chuyển sang chế độ focus khi focus thay đổi ====[BrowseModeSettingsAutoPassThroughOnFocusChange]
 Tùy chọn này cho phép tự động chuyển sang chế độ focus khi thay đổi focus trong tài liệu.
