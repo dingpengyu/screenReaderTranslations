@@ -1573,7 +1573,7 @@ Bao gồm:
 Bạn cần gán phím tắt cho những hộp thoại từ điển này để có thể mở nhanh nó ở bất kỳ chỗ nào, dùng [hộp thoại Quản lý thao tác #InputGestures] để gán phím tắt.
 
 Các cửa sổ định nghĩa từ điển đều chứa các nguyên tắc cho việc định nghĩa các phát âm cho từ hoặc cụm từ
-Ngoài ra còn có các nút thêm, sửa và xóa từ trong từ điển.
+Ngoài ra, còn có các nút thêm, sửa và xóa từ trong từ điển.
 
 Để thêm từ vào trong từ điển, chọn nút thêm từ và định nghĩa cách phát âm cho từ đó.
 Sau đó bạn có thể xem từ mới thêm vào có trong danh sách.
@@ -1599,7 +1599,7 @@ Trong tài liệu hướng dẫn này không đề cập nhiều về biểu th�
 Trong cửa sổ này sẽ cho phép bạn thay đổi cách phát âm cho các dấu câu và các ký hiệu, đồng thời quyết định khi nào thì đọc chúng.
 
 Tên ngôn ngữ cho phần chỉnh sửa các phát âm ký hiệu được hiển thị trên tiêu đề hộp thoại.
-Lưu ý, thiết lập trong hộp thoại này dựa vào thiết lập của tùy chọn "Sử dụng giọng đọc của ngôn ngữ để xử lý ký hiệu và ký tự" trong hộp thoại [Thiết lập giọng đọc #VoiceSettings]; cụ thể là nó sẽ sử dụng giọng đọc của ngôn ngữ đó thay vì dùng các thiết lập ngôn ngữ chung của NVDA nếu mục này được chọn.
+Lưu ý, thiết lập trong hộp thoại này dựa vào thiết lập của tùy chọn "Sử dụng giọng đọc của ngôn ngữ để xử lý ký hiệu và ký tự" trong phân loại [tiếng nói #SpeechSettings] trong [hộp thoại cấu hình của NVDA #NVDASettings]; cụ thể là nó sẽ sử dụng giọng đọc của ngôn ngữ đó thay vì dùng các thiết lập ngôn ngữ chung của NVDA nếu mục này được chọn.
 
 Để thay đổi một ký hiệu, trước tiên hãy chọn một ký hiệu trong danh sách.
 
