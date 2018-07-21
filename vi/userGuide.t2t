@@ -2478,6 +2478,86 @@ Màn hình SuperBraille không có bàn phím nhập liệu và nút cuộn, vì
 | Cuộn tới | numpadPlus | 
 %kc:endInclude
 
+++ các màn hình Esys/Esytime/Iris của Eurobraille ++[Eurobraille]
+Các màn hình nổi  Esys, Esytime và Iris của [Eurobraille http://www.eurobraille.fr/] đã được NVDA hỗ trợ.
+Các thiết bị Esys và Esytime-Evo được hỗ trợ khi kết nối qua USB hay bluetooth.
+Các thiết bị Esytime cũ hơn chỉ được hỗ  trợ USB.
+Các màn hình Iris displays chỉ có thể kết nối được qua một cổng serial.
+Vậy nên, với những màn hình này, bạn nên chọn cổng để kết nối sau khi chọn driver cho nó trong hộp thoại cài đặt chữ nổi..
+
+Các Màn hình Iris và Esys có bàn phím chữ nổi 10 phím.
+Có hai phím giống như khoảng trắng, phím bến trái tương ứng với phím xóa và phím bên phải là khoảng trắng.
+
+Sau đây là các lệnh của màn hình nổi này được gán cho NVDA.
+Vui lòng xem Tài Liệu của màn hình cho phần mô tả vị trí các phím. 
+%kc:beginInclude
+|| Tên | Phím |
+| Cuộn lùi | switch1-6left, l1 |
+| Cuộn tới | switch1-6Right, l8 |
+| Chuyển đến focus hiện tại | switch1-6Left+switch1-6Right, l1+l8 |
+| Rút về ô chữ nổi | routing, doubleRouting|
+| Chuyển đến dòng trước | joystick1Up |
+| Chuyển đến dòng kế | joystick1Down |
+| Chuyển đến kí tự trước | joystick1Left |
+| Chuyển đến kí tự kế | joystick1Right |
+| Chuyển đến chế độ duyệt trước | joystick1Left+joystick1Up |
+| Chuyển đến chế độ duyệt kế | joystick1Right+joystick1Down |
+| xóa lệnh vào ô chữ nổi hay kí tự | backSpace |
+| Dịch kí tự chữ nổi được nhập và nhấn phím enter | backSpace+space |
+| Phím insert | dot3+dot5+space, l7 |
+| Phím delete | dot3+dot6+space |
+| Phím home | dot1+dot2+dot3+space, joystick2Left+joystick2Up |
+| Phím end | dot4+dot5+dot6+space, joystick2Right+joystick2Down |
+| Phím mũi tên trái | dot2+space, joystick2Left, leftArrow |
+| Phím mũi tên phải | dot5+space, joystick2Right, rightArrow |
+| Phím mũi tên lên | dot1+space, joystick2Up, upArrow |
+| Phím mũi tên xuống | dot6+space, joystick2Down, downArrow |
+| Phím enter | joystick2Center |
+| Phím trang trước | dot1+dot3+space |
+| Phím trang sau | dot4+dot6+space |
+| Phím numpad1 | dot1+dot6+backspace |
+| Phím numpad2 | dot1+dot2+dot6+backspace |
+| Phím numpad3 | dot1+dot4+dot6+backspace |
+| Phím numpad4 | dot1+dot4+dot5+dot6+backspace |
+| Phím numpad5 | dot1+dot5+dot6+backspace |
+| Phím numpad6 | dot1+dot2+dot4+dot6+backspace |
+| Phím numpad7 | dot1+dot2+dot4+dot5+dot6+backspace |
+| Phím numpad8 | dot1+dot2+dot5+dot6+backspace |
+| Phím numpad9 | dot2+dot4+dot6+backspace |
+| Phím numpadInsert | dot3+dot4+dot5+dot6+backspace |
+| Phím numpadDecimal | dot2+backspace |
+| Phím numpadDivide key | dot3+dot4+backspace |
+| Phím numpadMultiply | dot3+dot5+backspace |
+| Phím numpadMinus | dot3+dot6+backspace |
+| Phím numpadPlus | dot2+dot3+dot5+backspace |
+| Phím numpadEnter key | dot3+dot4+dot5+backspace |
+| Phím escape | dot1+dot2+dot4+dot5+space, l2 |
+| Phím tab | dot2+dot5+dot6+space, l3 |
+| Phím shift+tab key | dot2+dot3+dot5+space |
+| Phím printScreen | dot1+dot3+dot4+dot6+space |
+| Phím pause | dot1+dot4+space |
+| Phím applications | dot5+dot6+backspace |
+| Phím f1 | dot1+backspace |
+| Phím f2 | dot1+dot2+backspace |
+| Phím f3 | dot1+dot4+backspace |
+| Phím f4 | dot1+dot4+dot5+backspace |
+| Phím f5 | dot1+dot5+backspace |
+| Phím f6 | dot1+dot2+dot4+backspace |
+| Phím f7 | dot1+dot2+dot4+dot5+backspace |
+| Phím f8 | dot1+dot2+dot5+backspace |
+| Phím f9 | dot2+dot4+backspace |
+| Phím f10 | dot2+dot4+dot5+backspace |
+| Phím f11 | dot1+dot3+backspace |
+| Phím f12 | dot1+dot2+dot3+backspace |
+| Phím windows | dot1+dot2+dot3+dot4+backspace |
+| Phím capsLock | dot7+backspace, dot8+backspace |
+| Phím numLock | dot3+backspace, dot6+backspace |
+| Phím shift | dot7+space, l4 |
+| Phím control | dot7+dot8+space, dot1+dot7+dot8+space, dot4+dot7+dot8+space, l5 |
+| Phím alt | dot8+space, dot1+dot8+space, dot4+dot8+space, l6 |
+| ToggleHID keyboard input simulation | esytime):l1+joystick1Down, esytime):l8+joystick1Down |
+%kc:endInclude+
+
 ++ BRLTTY ++[BRLTTY]
 [BRLTTY http://www.brltty.com/] là một chương trình đọc lập, có thể sử dụng để hỗ trợ nhiều dòng màn hình nổi hơn.
 Nếu bạn muốn dùng, bạn có thể download tại [BRLTTY for Windows http://www.brltty.com/download.html] và cài đặt vào máy.
