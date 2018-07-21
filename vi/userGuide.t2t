@@ -1917,8 +1917,9 @@ Dành cho Focus 80:
 | Cuộn màn hình nổi tới | leftBumperBarDown, rightBumperBarDown |
 %kc:endInclude
 
-++ Optelec ALVA BC640/680 ++[OptelecALVA]
+++ Optelec ALVA 6 series/protocol converter ++[OptelecALVA]
 Cả hai mẫu màn hình ALVA BC640 và BC680 của hãng [Optelec http://www.optelec.com/] đều được hỗ trợ khi kết nối qua cổng USB và bluetooth.
+Mặt khác, bạn có thể kết nối một màn hình cũ của Optelec như Braille Voyager, thông qua bộ chuyển đổi giao thức được cung cấp bởi Optelec.
 Bạn không cần phải cài driver để sử dụng màn hình này.
 Đơn giản chỉ kết nối với máy tính và cấu hình cho NVDA để sử dụng.
 
