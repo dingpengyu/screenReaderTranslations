@@ -339,8 +339,10 @@ Tương tự như vậy, một thanh công cụ chứa các mục con và bạn 
 Khi bạn duyệt đến một đối tượng, bạn có thể xem nội dung của nó bằng  [các lệnh duyệt nội dung #ReviewingText] trong [chế độ duyệt đối tượng #ObjectReview].
 Mặc định thì đối tượng điều hướng sẽ đi cùng với focus hệ thống; tuy nhiên, bạn có thể bật/tắt chế độ này.
 
-Lưu ý, con trỏ nổi mặc định sẽ đi theo [focus hệ thống #SystemFocus] và [dấu nháy hệ thống #SystemCaret], chứ không đi theo khi duyệt đối tượng và duyệt nội dung.
-Nếu bạn muốn con trỏ nổi đi theo đối tượng điều hướng và khi duyệt nội dung, bạn cần phải [cấu hình con trỏ nổi đi theo #BrailleTether] con trỏ duyệt.
+Lưu ý, con trỏ nổi mặc định sẽ đi theo [focus hệ thống #SystemFocus], [dấu nháy hệ thống #SystemCaret], cũng như khi duyệt đối tượng và duyệt nội dung.
+Nếu bạn chỉ muốn con trỏ nổi đi theo focus hệ thống và dấu nháy hệ thống, bạn cần phải [cấu hình con trỏ nổi đi theo #BrailleTether] focus hệ thống.
+Trường họp này, con trỏ braille sẽ không đi theo khi duyệt đối tượng và duyệt nội dung.
+Nếu muốn con trỏ braille đi theo khi duyệt  đối tượng và nội dung, cần phải [cấu hình con trỏ nổi đi theo #BrailleTether] con trỏ duyệt.
 
 Sử dụng các phím tắt sau để duyệt qua các đối tượng:
 
@@ -1158,7 +1160,9 @@ Tùy chọn này cho phép hiển thị các thông điệp của NVDA trên mà
 ==== Con Trỏ Nổi Đi Theo ====[BrailleTether]
 Phím tắt: NVDA+control+t
 
-Tùy chọn này cho phép bạn chọn con trỏ nổi sẽ đi theo con trỏ hệ thống hoặc theo con trỏ duyệt.
+Tùy chọn này cho phép bạn chọn con trỏ nổi sẽ đi theo con trỏ hệ thống, theo con trỏ duyệt hay cả hai.
+Khi chọn "tự động", NVDA sẽ đi theo focus hệ thống và dấu nháy hệ thống.
+Trường hợp này, khi vị trí con trỏ điều hướng đối tượng hay con trỏ duyệt bị thay đổi bởi thao tác cụ thể của người dùng, NVDA sẽ tạm thời đi theo con trỏ duyệt cho đến khi có sự thay đổi của focus hệ thống và dấu nháy hệ thống.
 
 ==== Đọc Theo Đoạn ====[BrailleSettingsReadByParagraph]
 Khi bật, nội dung sẽ được hiện thị trên màn hình nổi theo đoạn thay vì dòng.
