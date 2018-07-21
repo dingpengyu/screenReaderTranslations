@@ -25,7 +25,7 @@ Một số tính năng nổi bật như:
 - Hỗ trợ nhiều dòng màn hình chữ nổi khác nhau, bao gồm việc nhập liệu trên màn hình có bàn phím chữ nổi
 - có thể chạy trực tiếp từ ổ USB hay các thiết bị lưu trữ khác mà không cần phải cài đặt
 - Dễ dàng cài đặt với gói cài đặt có hỗ trợ giọng nói
-- Được dịch sang 52 ngôn ngữ
+- Được dịch sang 54 ngôn ngữ
 - Hỗ trợ các hệ điều hành Windows 32bit và 64 bit
 - Có khả năng chạy trong cửa sổ đăng nhập của Windows và trong các màn hình bảo vệ khác
 - Thông báo các điều khiển và văn bản khi dùng thao tác trên màn hình cảm ứng
@@ -35,7 +35,7 @@ Một số tính năng nổi bật như:
 
 ++ Tính quốc tế ++[Internationalization]
 Một điều quan trọng là tất cả mọi người trên thế giới, họ đều có quyền ngang nhau trong việc tiếp cận với công nghệ; cho dù họ đang giao tiếp bằng ngôn ngữ nào.
-Bên cạnh tiếng anh thì NVDA được dịch sang 52 ngôn ngữ khác nhau bao gồm: Afrikaans, Albanian, Amharic, Arabic, Aragonese, Brazilian Portuguese, Bulgarian, Burmese, Catalan, Colombian Spanish, Croatian, Czech, Danish, Dutch, Farsi, Finnish, French, Galician, Georgian, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Irish, Italian, Japanese, Kannada, Korean, Kyrgyz, Lithuanian, Macedonian, Nepali, Norwegian, Polish, Portuguese, Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Tamil, Thai, Traditional and Simplified Chinese, Turkish, Ukrainian and Vietnamese.
+Bên cạnh tiếng anh thì NVDA được dịch sang 54 ngôn ngữ khác nhau bao gồm: Afrikaans, Albanian, Amharic, Arabic, Aragonese, Bulgarian, Burmese, Catalan, Chinese (simplified and traditional), Croatian, Czech, Danish, Dutch, Farsi, Finnish, French, Galician, Georgian, German (Germany and Switzerland), Greek, Hebrew, Hindi, Hungarian, Icelandic, Irish, Italian, Japanese, Kannada, Korean, Kyrgyz, Lithuanian, Macedonian, Mongolian, Nepali, Norwegian, Polish, Portuguese (Brazil and Portugal), Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish (Colombia and Spain), Swedish, Tamil, Thai, Turkish, Ukrainian and Vietnamese.
 
 ++ Hỗ trợ các bộ tổng hợp tiếng nói ++[SpeechSynthesizerSupport]
 Ngoài việc hỗ trợ giao diện với nhiều ngôn ngữ khác nhau, NVDA hỗ trợ đọc nội dung của một ngôn ngữ nếu có bộ tổng hợp âm cho ngôn ngữ đó.
@@ -917,8 +917,10 @@ Khi ở trong bảng xem các sách đã thêm vào:
 
 + Cấu hình NVDA +[ConfiguringNVDA]
 Hầu hết các cấu hình có thể thực hiện bằng   các hộp thoại được mở thông qua thực đơn tùy chọn trong thực đơn của NVDA.
+Nhiều thiết lập cũng có thể được  thực hiện  trong [hộp thoại nhiều trang  để cấu hình #NVDASettings].
 Trong tất cả các hộp thoại, nhấn nút Đồng ý để lưu lại các thay đổi.
  Để hủy bỏ các thay đổi, nhấn  nút Hủy bỏ hoặc escape.
+ Trong một số hộp thoại, bạn có thể bấm nút Áp dụng để các thiết lập có hiệu lực lập tức mà không đóng hộp thoại.
 Một số cấu hình có thể được thay đổi thông qua phím tắt sẽ được giới thiệu chi tiết dưới đây.
 
 ++ Cài đặt NVDA ++[NVDASettings]
@@ -930,15 +932,16 @@ Các thiết lập này có thể được áp dụng bằng cách nhấn nút  
 Nếu muốn lưu thiết lập và đóng hộp thoại cài đặt NVDA, bạn có thế dùng nút Đồng ý.
 Nếu muốn lưu thiết lập và đóng hộp thoại cài đặt NVDA, bạn có thể dùng nút Đồng ý.
 +
-Một số phân loại có phím tắt để gọi.
+Một số phân loại có thể gọi bằng phím tắt.
 Nếu bấm phím tắt, hộp thoại cài đặt NVDA sẽ được mở và con trỏ sẽ đi đến phân loại đó.
-Mặc định, không phải tất cả phân loại đều mở được bằng phím lệnh.
-If you wish to access categories which don't have Nếu muốn mở phân loại nào không được gán phím tắt, hãy dùng [hộp thoại quản lý thao tác #InputGestures] để gán phím lệnh hay thao tác cảm ứng cho phân loại đó.
+Mặc định, không phải tất cả phân loại đều mở được bằng phím tắt.
+Nếu muốn mở phân loại nào không được gán phím tắt, hãy dùng [hộp thoại quản lý thao tác #InputGestures] để gán phím lệnh hay thao tác cảm ứng cho phân loại đó.
 +
 Dưới đây là các phân loại trong hộp thoại thiết lập của NVDA:
 
 +++ Thiết lập chung (NVDA+control+g) +++[GeneralSettings]
-Phân loại thiết lập chung trong hộp thoại thiết lập của NVDA chứa các mục sau:
+Phân loại thiết lập chung trong hộp thoại thiết lập của NVDA cho phép thực hiện các thiết lập tổng thể như ngôn ngữ giao diện, có kiểm tra cập nhật phiên bản mới hay không.
+Phân loại này có các mục sau:
 
 ==== Ngôn ngữ ====[GeneralSettingsLanguage]
 Đó là một hộp xổ (combo box) cho phép bạn chọn ngôn ngữ hiển thị cho giao diện, các thông báo hay tài liệu hướng dẫn.
@@ -963,7 +966,7 @@ Lựa chọn tùy chọn này nếu bạn muốn có âm thanh thông báo khi k
 ==== Mức độ log ====[GeneralSettingsLogLevel]
 Cho phép bạn chọn cấp độ log trong NVDA.
 Thông thường bạn không cần cài đặt tùy chọn này.
-Tuy nhiên trong trường hợp cần thông tin về lỗi thì nó rất hữu ích.
+Tuy nhiên, trong trường hợp cần thông tin về lỗi thì nó rất hữu ích.
 
 ==== Tự động khởi động NVDA khi khởi động Windows ====[GeneralSettingsStartAfterLogOn]
 Nếu chọn mục này thì NVDA sẽ tự khởi động sau khi bạn đăng nhập vào Windows.
@@ -992,8 +995,8 @@ Nếu bật tùy chọn này, NVDA sẽ  thông báo cho bạn là có bản c�
 Bạn cũng có thể cài đặt  cập nhật thủ công từ hộp thoại thoát NVDA (nếu đã bật),  từ thực đơn NVDA, hoặc khi bạn thực hiện lệnh kiểm tra cập nhật từ thực đơn trợ giúp.
 
 +++ Thiết lập bộ đọc (NVDA+control+v) +++[SpeechSettings]
-Phân loại bộ đọc trong hộp thoại cài đặt của NVDA chứa các tùy chọn cho phép bạn thay đổi bộ đọc cũng như âm thanh của nó.
-
+Phân loại bộ đọc trong hộp thoại cài đặt của NVDA chứa tùy chọn cho phép bạn thay đổi bộ đọc cũng như các thuộc tính giọng đọc cho bộ đọc được chọn.
+Để dùng một cách khác nhanh hơn và có thể thực hiện các thay đổi về giọng đọc ở bất cứ đâu, vui lòng xem phần [thiết lập giọng theo tham số #SynthSettingsRing] section.
 Có các tùy chọn sau trong phân loại này:
 
 ==== Thay đổi bộ đọc ====[SpeechSettingsChange]
@@ -1241,6 +1244,7 @@ Nó sẽ không hiển thị tùy chọn này nếu màn hình nổi của bạn
 Bạn nên tham khảo tài liệu của màn hình nổi tại phần [Các màn hình nổi được hỗ trợ #SupportedBrailleDisplays] để kiểm tra các phương thức nào được hỗ trợ cho dòng màn hình chữ nổi của bạn.
 
 +++ Bàn phím (NVDA+control+k) +++[KeyboardSettings]
+Phân loại bàn phím  trong hộp thoại cấu hình NVDA có các tùy chọn cho việc dùng chương trình này với bàn phím.
 Phân loại này có các tùy chọn sau:
 
 ==== Kiểu bàn phím ====[KeyboardSettingsLayout]
@@ -1300,7 +1304,8 @@ Tùy chọn này điều khiển việc nhập dữ liệu từ các ứng dụn
 Nó được bật mặc định do vậy với những người dùng không muốn sử dụng chức năng này thì nên tắt chức năng này đi, ví dụ với người dùng ở Việt Nam cần tắt tùy chọn này để gõ được tiếng việt tốt với phần mềm UniKey.
 
 +++ Thiết Lập Chuột(NVDA+control+m) +++[MouseSettings]
-Phân loại chuột trong hộp thoại cấu hình của NVDA gồm các mục sau:
+Phân loại chuột trong hộp thoại cấu hình của NVDA cho phép NVDA theo dõi chuột, phát tiếng beep theo tọa độ chuột và thiết lập các tùy chọn khác.
+Phân loại này gồm các mục sau:
 
 ==== Thông báo khi hình dạng chuột thay đổi ====[MouseSettingsShape]
 Nếu chọn, NVDA sẽ thông báo khi hình dạng của chuột thay đổi (ví dụ khi tải trang web và phải chờ đợi thì chuột có hình vòng tròn quay, v..v).
@@ -1330,6 +1335,7 @@ Mặc định tùy chọn này không được chọn.
 
 +++ Cài đặt tương tác cảm ứng +++[TouchInteraction]
 Phân loại này  chỉ xuất hiện trên các máy tính có màn hình cảm ứng, chạy Windows 8 trở lên, cho phép bạn thiết lập cách NVDA tương tác với màn hình cảm ứng.
+Phân loại này gồm các mục sau:
 
 ==== Chế độ gõ cảm ứng ====[TouchTypingMode]
 Hộp kiểm này cho phép bạn thiết lập cách thức muốn sử dụng khi nhập văn bản bằng bàn phím cảm ứng.
@@ -1337,6 +1343,7 @@ Nếu đánh dấu chọn hộp kiểm này, khi đi đến một phím trên b�
 Nếu không đánh dấu chọn, bạn cần phải chạm hai lần để nhấn nó.
 
 +++ Thiết Lập Con Trỏ Duyệt +++[ReviewCursorSettings]
+Phân loại con trỏ duyệt trong hộp thoại cấu hình NVDA được dùng để cấu hình cách thức hoạt động của con trỏ duyệt trong NVDA.
 Có các mục sau trong phân loại này:
 
 %kc:setting
@@ -1360,6 +1367,7 @@ Nếu được chọn thì NVDA sẽ lọc bỏ bớt một số đối tượng
 Để bật/tắt chế độ duyệt đơn giản ở bất kỳ nơi nào, hãy gán phím tắt cho tính năng này trong hộp thoại [Quản lý thao tác #InputGestures].
 
 +++ Thiết Lập Trình Bày Đối Tượng (NVDA+control+o) +++[ObjectPresentationSettings]
+Phân loại trình bày đối tượng trong hộp thoại cấu hình NVDA được dùng để thiết lập các thông tin về các điều khiển dược trình bày bởi NVDA như mô tả, vị trí, v...v...
 Phân loại này gồm các mục sau:
 
 ==== Đọc các thông báo trên đối tượng ====[ObjectPresentationReportToolTips]
@@ -1416,7 +1424,7 @@ Có một số ô nhập liệu như ô tìm kiếm trong những ứng dụng W
 Danh sách gợi ý tự động sẽ tắt khi bạn di chuyển focus khỏi ô nhập liệu. Trong một số trường hợp, NVDA cũng sẽ thông báo tình trạng này.
 
 +++ Thiết Lập Phương Thức Nhập +++[InputCompositionSettings]
-Phân loại này cho phép bạn cấu hình cách NVDA thông báo những ký tự của một số ngôn ngữ ở Châu Á khi nhập liệu với IME hoặc những kiểu gõ khác.
+Phân loại phương thức nhập cho phép bạn cấu hình cách NVDA thông báo những ký tự của một số ngôn ngữ ở Châu Á khi nhập liệu với IME hoặc những kiểu gõ khác.
 Lưu ý, do các phương thức nhập và tính năng của nó sẽ khác nhau rất nhiều; vì vậy, nó rất cần thiết để cấu hình làm sao cho phù hợp với phương thức nhập của bạn, nhằm giúp NVDA đọc tốt hơn khi nhập liệu.
 
 ==== Tự động thông báo các lựa chọn hiện có ====[InputCompositionReportAllCandidates]
@@ -1446,6 +1454,7 @@ Tùy chọn này cho phép bạn chọn NVDA thông báo những ký hiệu mớ
 Tùy chọn này mặc định được bật.
 
 +++ Thiết Lập Chế Độ Duyệt (NVDA+control+b) +++[BrowseModeSettings]
+Phân loại chế độ duyệt tài liệu trong hộp thoại cấu hình NVDA  dùng để thiết lập cách vận hành của NVDA  khi bạn đọc và di chuyển trên các tài liệu phức tạp như là các trang web.
 Có các mục sau trong cửa sổ phân loại này:
 
 ==== Số ký tự tối đa trên một dòng ====[BrowseModeSettingsMaxLength]
@@ -1554,6 +1563,7 @@ Mỗi âm sẽ tăng cao độ lên một chút và đại diện cho một kho�
 
 +++ Cài Đặt Windows 10 OCR +++[Win10OcrSettings]
 Các thiết lập ở phân loại này cho phép bạn cấu hình [Windows 10 OCR #Win10Ocr].
+Phân loại này gồm các mục sau:
 
 ==== Ngôn Ngữ Nhận Dạng ====[Win10OcrSettingsRecognitionLanguage]
 Hộp xổ này cho phép chọn ngôn ngữ dùng để nhận dạng.
