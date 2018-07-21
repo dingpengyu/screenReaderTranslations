@@ -1618,7 +1618,7 @@ Ví dụ, bạn có thể muốn một ký hiệu sẽ đọc lên với phần 
 
 Kích hoạt nút Thêm để thêm vào ký hiệu mới.
 Nhập vào ký hiệu trong hộp thoại vừa xuất hiện và kích hoạt nút Đồng ý.
-Sau đó thay đổi các mục cho ký hiệu mới.
+Sau đó, thay đổi các mục cho ký hiệu mới.
 
 Kích hoạt nút Xóa để xóa các ký hiệu thêm vào trước đây.
 
@@ -1635,7 +1635,7 @@ Bạn có thể tìm bằng cách gõ vào tên lệnh trong ô lọc theo.
 Thao tác hoặc phím tắt tìm thấy sẽ hiển thị ngay dưới mỗi lệnh.
 
 Để thêm một phím tắt cho một chức năng nào đó, bạn chọn chức năng mình muốn rồi chọn nút Thêm.
-Sau đó nhấn tổ hợp phím mới cho chức năng đó từ bàn phím hoặc từ các nút trên màn hình nổi.
+Sau đó, nhấn tổ hợp phím mới cho chức năng đó từ bàn phím hoặc từ các nút trên màn hình nổi.
 Thông thường thì một phím tắt có thể được thực hiện theo các kiểu bàn phím khác nhau.
 Ví dụ như khi bạn nhấn một phím trên bàn phím bạn có thể thiết lập cho nó thực hiện theo kiểu Desktop hay Laptop hoặc cả hai.
 Một thực đơn sẽ xuất hiện cho phép bạn chọn các kiểu bàn phím đó.
@@ -1665,7 +1665,7 @@ Ví dụ bạn muốn nghe thông báo về canh lề khi bạn soạn thảo, h
 NVDA cho phép bạn tạo các cấu hình riêng được gọi là hồ sơ cấu hình cho các trường hợp đó.
 
 Một hồ sơ cấu hình chỉ chứa các thông tin khác so với cấu hình gốc.
-Phần lớn các thông tin cấu hình có thể được thay đổi trong các hồ sơ cấu hình riêng đó, trừ các cấu hình trong hộp thoại thiết lập chung  vì chúng được dùng cho cả NVDA
+Phần lớn các thông tin cấu hình có thể được thay đổi trong các hồ sơ cấu hình riêng đó, trừ các cấu hình trong phân loại chung  trong hộp thoại [cấu hình NVDA #NVDASettings] vì chúng được dùng cho cả NVDA
 
 Bạn có thể chủ động kích hoạt hồ sơ cấu hình của bạn.
 Hoặc nó cũng có thể được kích hoạt tự động cho một ứng dụng nào đó.
