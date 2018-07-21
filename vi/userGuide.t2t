@@ -909,7 +909,7 @@ NVDA sẽ xem những ghi chú này (note) như lời bình/chú thích (comment
 ++ Azardi ++[Azardi]
 %kc:beginInclude
 Khi ở trong bảng xem các sách đã thêm vào:
-|| Name | Key | Description |
+|| Tên | Phím | Mô tả |
 | Enter | enter | mở quyển sách được chọn. |
 | Trình đơn ngữ cảnh| applications | Mở trình đơn ngữ cảnh cho quyển sách được chọn. |
 %kc:endInclude
