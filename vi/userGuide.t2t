@@ -1553,10 +1553,13 @@ Mỗi âm sẽ tăng cao độ lên một chút và đại diện cho một kho�
 -
 
 +++ Cài Đặt Windows 10 OCR +++[Win10OcrSettings]
-Có thể mở hộp thoại này từ thực đơn tùy chọn của NVDA và cấu hình [Windows 10 OCR #Win10Ocr].
+Các thiết lập ở phân loại này cho phép bạn cấu hình [Windows 10 OCR #Win10Ocr].
 
 ==== Ngôn Ngữ Nhận Dạng ====[Win10OcrSettingsRecognitionLanguage]
 Hộp xổ này cho phép chọn ngôn ngữ dùng để nhận dạng.
+
+++ Các thiết lập khác ++[MiscSettings]
+Bên cạnh  hộp thoại [cấu hình NVDA #NVDASettings], thực đơn tùy chọn trong thực đơn của NVDA còn có vài thành phần được liệt kê dưới đây.
 
 +++ Từ Điển Phát Âm +++[SpeechDictionaries]
 Bạn có thể mở cửa sổ này từ thực đơn tùy chọn của NVDA, trong cửa sổ này sẽ cho phép bạn định nghĩa cách phát âm cho các từ hoặc cụm từ.
