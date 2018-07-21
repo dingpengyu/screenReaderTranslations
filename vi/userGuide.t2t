@@ -1492,9 +1492,7 @@ Mặc định, tùy chọn này cho phép bạn chặn các thao tác như nhấ
 Ví dụ khi tùy chọn này được bật, khi nhấn chữ j, nó sẽ bị chặn lại, không được gửi đến tài liệu. Mặc dù, nó không phải là phím lệnh di chuyển nhanh và cũng không phải là phím lệnh của ứng dụng đang có focus.
 
 +++ Thiết Lập Định Dạng Tài Liệu (NVDA+control+d) +++[DocumentFormattingSettings]
-Mở hộp thoại này từ thực đơn Tùy chọn của NVDA.
-
-Các mục trong cửa sổ này là các thành phần thông tin sẽ được thông báo khi bạn duyệt tài liệu.
+Các mục trong cửa sổ phân loại này là các thành phần thông tin sẽ được thông báo khi bạn duyệt tài liệu.
 Ví dụ nếu bạn chọn mục thông báo tên phông chữ thì khi bạn duyệt tài liệu, nếu đến vùng nội dung có phông chữ khác nhau thì nó sẽ tự động thông báo tên phông chữ đó cho bạn.
 
 Tùy chọn định dạng tài liệu được tổ chức theo dạng nhóm
