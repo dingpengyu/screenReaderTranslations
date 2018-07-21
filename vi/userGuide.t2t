@@ -250,7 +250,7 @@ Khi thực đơn hiện ra, bạn dùng các phím mũi tên để khám phá c�
 
 ++ Các lệnh cơ bản của NVDA ++[BasicNVDACommands]
 %kc:beginInclude
-|| Chức năng | Desktop | Phím Laptop | Hành động cảm ứng | Mô tả |
+|| Chức năng | Phím máyy bàn | Phím xách tay | Hành động cảm ứng | Mô tả |
 | Dừng đọc | Control | control | Chạm 2-ngón | Dừng đọc |
 | Tạm dừng đọc | shift | shift | Không có | Tạm dừng đọc (hoặc tiếp tục đọc nếu đã tạm dừng trước đó) |
 | Mở thực đơn của NVDA | NVDA+n | NVDA+n | 2 chạm 2-ngón | Mở thực đơn của NVDA |
@@ -285,7 +285,7 @@ Khi bạn di chuyển theo cách đó thì NVDA sẽ thông báo về các đố
 
 Có một số phím tắt quan trọng khi di chuyển với focus hệ thống là:
 %kc:beginInclude
-|| Chức năng | Desktop key | Laptop key | Mô tả |
+|| Chức năng | Phím máy bàn | Phím xách tay | Mô tả |
 | Thông báo focus hiện tại | NVDA+tab | NVDA+tab | Thông báo về đối tượng đang có focus hiện tại. Nhấn nhanh 2 lần để đánh vần thông tin |
 | Thông báo tiêu đề | NVDA+t | NVDA+t | Thông báo tiêu đề của cửa sổ hiện tại. Nhấn 2 lần để đánh vần tiêu đề, nhấn 3 lần để copy |
 | Thông báo cửa sổ hiện tại | NVDA+b | NVDA+b | Đọc tất cả đối tượng trên cửa sổ hiện tại (rất hữu ích khi đứng trong một hộp thoại) |
@@ -301,7 +301,7 @@ NVDA sẽ thông báo khi bạn di chuyển qua từng ký tự, từng dòng ha
 
 Dưới đây là các phím tắt mà NVDA cung cấp cho việc thao tác với con trỏ nháy:
 %kc:beginInclude
-|| Chức năng | Desktop | Laptop | Mô tả |
+|| Chức năng | Phím máy bàn | Phím xách tay | Mô tả |
 | Đọc tất cả | NVDA+mũi tên xuống | NVDA+a | Đọc tất cả văn bản từ vị trí hiện tại trở đi |
 | Đọc dòng hiện tại | NVDA+mũi tên lên | NVDA+l | Đọc dòng hiện tại, nhấn nhanh 2 lần để đánh vần và nhấn nhanh ba lần để đánh vần dòng đó với phần mô tả ký tự |
 | Đọc vùng văn bản đang chọn | NVDA+Shift+mũi tên lên | NVDA+shift+s | Đọc vùng văn bản đang được chọn |
@@ -373,7 +373,7 @@ Vì vậy, nếu bạn muốn màn hình nổi hiển thị nội dung khi duy�
 
 Dưới đây là một số phím tắt dùng để duyệt nội dung:
 %kc:beginInclude
-|| Chức năng | Desktop | Laptop | Cảm ứng | mô tả |
+|| Chức năng | Phím máy bàn | Phím xách tay | Cảm ứng | mô tả |
 | Chuyển đến dòng trên cùng | shift+7 bàn phím số | NVDA+control+home | none | Chuyển con trỏ duyệt lên dòng đầu tiên trên cùng |
 | Chuyển đến dòng trước | 7 bàn phím số | NVDA+mũi tên lên | Vuốt lên (chế độ văn bản) | Chuyển con trỏ duyệt lên dòng trước đó |
 | Thông báo nội dung của dòng hiện tại | 8 bàn phím số | NVDA+shift+. | none | Thông báo nội dung của dòng hiện tại của con trỏ duyệt. Nhấn 2 lần để đánh vần, nhấn 3 lần để đánh vần với phần mô tả cho từng ký tự |
@@ -407,7 +407,7 @@ Khái niệm duyệt Flat trước đây của NVDA được thay thế bằng c
 
 Các phím để chuyển qua lại giữa các chế độ duyệt:
 %kc:beginInclude
-|| chức năng | Desktop | Laptop | Cảm ứng | Mô tả |
+|| chức năng | máy bàn | xách tay | Cảm ứng | Mô tả |
 | Chuyển qua chế độ duyệt kế | NVDA+7 bàn phím số | NVDA+trang trước | Vuốt lên 2-ngón | chuyển sang chế độ duyệt tiếp theo (nếu có) |
 | Chuyển về chế độ duyệt trước | NVDA+1 bàn phím số | NVDA+trang sau | Vuốt xuống 2-ngón | Chuyển về chế độ duyệt trước (nếu có) |
 %kc:endInclude
@@ -451,7 +451,7 @@ Nếu bạn muốn bật chức năng này bạn có thể mở hộp thoại [T
 
 Bên cạnh sử dụng trực tiếp chuột thì NVDA cung cấp cho bạn thêm một số phím tương tác giống như chuột như sau:
 %kc:beginInclude
-|| chức năng | Desktop | Laptop | Mô tả |
+|| chức năng | Máy bàn | Xách tay | Mô tả |
 | Kích hoạt nút chuột trái | dấu chia bàn phím số | NVDA+[ | Kích hoạt nút chuột trái, nhấn nhanh 2 lần sẽ tương tự như kích đúp nút chuột trái |
 | Khóa nút chuột trái | shift+dấu chia bàn phím số | NVDA+control+[ |  Khóa nút chuột trái, nhấn tiếp để mở lại |
 | Kích hoạt nút chuột phải | dấu nhân bàn phím số | NVDA+] | Kích hoạt nút chuột phải |
@@ -551,7 +551,7 @@ Bạn có thể nhấn phím enter để tương tác trực tiếp trên các �
 Nếu đối tượng đó có thể tương tác được thì bạn có thể dùng phím tab để chuyển qua lại giữa các thành phần con trong đối tượng này.
 Dưới đây là phím tắt để giúp bạn quay trở lại chế độ duyệt tài liệu có chứa đối tượng nhúng:
 %kc:beginInclude
-|| Chức năng | Phím | Mô tả |
+|| Chức năng | Phím tắt | Mô tả |
 Một lệnh quan trọng được cung cấp để trở về trang gốc chứa đối tượng đã nhúng
 | Quay về chế độ duyệt tài liệu | NVDA+control+space | Quay về chế độ duyệt tài liệu |
 %kc:endInclude
@@ -585,7 +585,7 @@ Mặc định, con trỏ duyệt sẽ đi theo dấu nháy hệ thống, nên th
 +
 
 %kc:beginInclude
-|| Chức năng | Phím | Mô tả |
+|| Chức năng | Phím tắt | Mô tả |
 | Tương tác với nội dung toán | NVDA+alt+m | Bắt đầu tương tác với nội dung toán. |
 %kc:endInclude
 
@@ -741,7 +741,7 @@ NVDA sẽ tự động thông báo tiêu đề dòng và cột khi duyệt qua c
 Tiếp theo, NVDA cần biết dòng nào cột nào chứa tiêu đề trong bảng bất kỳ.
 Sau đó chuyển đến ô đầu tiên của dòng hoặc cột chứa tiêu đề, có thể sử dụng một số phím tắt sau:  
 %kc:beginInclude
-|| Chức năng | Phím | Mô tả |
+|| Chức năng | Phím tắt | Mô tả |
 | Chọn tiêu đề cho cột | NVDA+shift+c | Nhấn 1 lần để lựa chọn ô này là ô tiêu đề đầu tiên của các cột, tiêu đề này sẽ tự động được thông báo khi bạn di chuyển giữa các cột trong bảng. Nhấn nhanh 2 lần để bỏ lựa chọn này | 
 | Chọn tiêu đề cho dòng | NVDA+shift+r | Nhấn 1 lần để lựa chọn ô này là ô tiêu đề đầu tiên của các dòng, tiêu đề này sẽ tự động được thông báo khi bạn di chuyển giữa các hàng trong bảng. Nhấn nhanh 2 lần để bỏ lựa chọn này | | 
 %kc:endInclude
@@ -775,7 +775,7 @@ Trước hết, bạn cần bật mục thông báo tiêu đề dòng/cột tron
 Bước thứ hai là NVDA cần biết dòng hoặc cột nào có tiêu đề.
 Sau khi chuyển đến ô đầu tiên của cột hoặc dòng có tiêu đề, hãy thực hiện một trong các lệnh sau:
 %kc:beginInclude
-|| Chức năng | Phím | Mô tả |
+|| Chức năng | Phím tắt | Mô tả |
 | Thiết lập tiêu đề cột | NVDA+shift+c | Nhấn một lần, NVDA sẽ coi đây là ô tiêu đề đầu tiên nằm trên dòng có các tiêu đề cột; điều này nghĩa là khi di chuyển giữa các cột ở những dòng dưới, tiêu đề cột sẽ tự động được đọc. Nhấn hai lần để xóa các thiết lập. |
 | Thiết lập tiêu đề dòng | NVDA+shift+r | Nhấn một lần, NVDA sẽ coi đây là ô tiêu đề đầu tiên nằm ở cột có các tiêu đề dòng; điều này nghĩa là khi di chuyển giữa các dòng nằm sau cột này, tiêu đề dòng sẽ tự động được đọc. Nhấn hai lần để xóa các thiết lập. |
 %kc:endInclude
@@ -806,7 +806,7 @@ Chọn biểu mẫu, nhấn enter hoặc nút Chuyển đến để đi đến b
 
 +++ Thông Báo Chú Thích +++[ExcelReportingComments]
 %kc:beginInclude
-Nhấn press NVDA+alt+c để đọc thông báo phần chú thích của ô hiện tại.
+Nhấn NVDA+alt+c để đọc thông báo phần chú thích của ô hiện tại.
 %kc:endInclude
 Có thể liệt kê toàn bộ các chú thích trong bảng tính hiện tại với phần danh sách thành phần.
 
@@ -852,7 +852,7 @@ Chú ý: Phím tắt trên chỉ hoạt động với định dạng mặc đị
 ++ Skype ++[Skype]
 %kc:beginInclude
 Khi đang ở trong một cuộc trò chuyện:
-|| Chức năng | Phím | Mô tả |
+|| Chức năng | Phím tắt | Mô tả |
 | Xem lại tin nhắn | NVDA+control+1-0 | Đọc và di chuyển con trỏ duyệt đến tin nhắn gần đây, tùy vào chữ số bạn nhấn kèm. Ví dụ, nhấn NVDA+control+2 sẽ đọc tin nhắn thứ hai gần nhất. |
 %kc:endInclude
 
@@ -909,7 +909,7 @@ NVDA sẽ xem những ghi chú này (note) như lời bình/chú thích (comment
 ++ Azardi ++[Azardi]
 %kc:beginInclude
 Khi ở trong bảng xem các sách đã thêm vào:
-|| Tên | Phím | Mô tả |
+|| Tên | Phím tắt | Mô tả |
 | Enter | enter | mở quyển sách được chọn. |
 | Trình đơn ngữ cảnh| applications | Mở trình đơn ngữ cảnh cho quyển sách được chọn. |
 %kc:endInclude
