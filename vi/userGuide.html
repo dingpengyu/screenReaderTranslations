@@ -182,14 +182,19 @@
     <LI><A HREF="#Baum">14.5. Màn Hình Nổi Baum/Humanware/APH/Orbit</A>
     <LI><A HREF="#HedoProfiLine">14.6. hedo ProfiLine USB</A>
     <LI><A HREF="#HedoMobilLine">14.7. hedo MobilLine USB</A>
-    <LI><A HREF="#HumanWareBrailliant">14.8. Các dòng HumanWare Brailliant BI/B</A>
+    <LI><A HREF="#HumanWareBrailliant">14.8. Các dòng HumanWare Brailliant BI/B / BrailleNote Touch</A>
+      <UL>
+      <LI><A HREF="#toc124">14.8.1. Các phím được gán cho tất cả sản phẩm</A>
+      <LI><A HREF="#toc125">14.8.2. Các phím gán cho màn hình Brailliant BI 32, BI 40 và B 80</A>
+      <LI><A HREF="#toc126">14.8.3. Phím gán cho Brailliant BI 14</A>
+      </UL>
     <LI><A HREF="#Hims">14.9. Các dòng HIMS Braille Sense/Braille EDGE/Smart Beetle</A>
     <LI><A HREF="#Seika">14.10. Màn hình nổi Seika</A>
     <LI><A HREF="#Papenmeier">14.11. Các Mẫu Papenmeier BRAILLEX Mới</A>
     <LI><A HREF="#PapenmeierOld">14.12. Các Mẫu Papenmeier Braille BRAILLEX Cũ</A>
     <LI><A HREF="#HumanWareBrailleNote">14.13. HumanWare BrailleNote</A>
     <LI><A HREF="#EcoBraille">14.14. EcoBraille</A>
-    <LI><A HREF="#toc130">14.15. SuperBraille</A>
+    <LI><A HREF="#toc133">14.15. SuperBraille</A>
     <LI><A HREF="#Eurobraille">14.16. các màn hình Esys/Esytime/Iris của Eurobraille</A>
     <LI><A HREF="#BRLTTY">14.17. BRLTTY</A>
     </UL>
@@ -4595,17 +4600,23 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 </TABLE>
 
 <A NAME="HumanWareBrailliant"></A>
-<H3>14.8. Các dòng HumanWare Brailliant BI/B</H3>
+<H3>14.8. Các dòng HumanWare Brailliant BI/B / BrailleNote Touch</H3>
 
 <P>
-Các dòng màn hình Brailliant BI và B của <A HREF="http://www.humanware.com/">HumanWare</A>, bao gồm BI 32, BI 40 và B 80, đều được hỗ trợ khi kết nối qua cổng USB và bluetooth.
+Các dòng màn hình Brailliant BI và B của <A HREF="http://www.humanware.com/">HumanWare</A>, bao gồm BI 14, BI 32, BI 40 và B 80, đều được hỗ trợ khi kết nối qua cổng USB hay bluetooth.
 Nếu kết nối qua cổng USB với thiết lập giao thức đến Humanware, bạn cần phải cài driver được cung cấp bởi nhà sản xuất.
 Sẽ không cần cài driver USB nếu thiết lập giao thức đến OpenBraille.
+</P>
+<P>
+BrailleNote Touch cũng đã được hỗ trợ, và không đòi hỏi  phải cài đặt bất cứ driver nào.
 </P>
 <P>
 Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
 </P>
+
+<A NAME="toc124"></A>
+<H4>14.8.1. Các phím được gán cho tất cả sản phẩm</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4691,6 +4702,62 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 <TR>
 <TD>Đọc tất cả</TD>
 <TD>c1+c2+c3+c4+c5+c6</TD>
+</TR>
+</TABLE>
+
+<A NAME="toc125"></A>
+<H4>14.8.2. Các phím gán cho màn hình Brailliant BI 32, BI 40 và B 80</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Tên</TH>
+<TH>Phím</TH>
+</TR>
+<TR>
+<TD>Thực đơn NVDA</TD>
+<TD>c1+c3+c4+c5 (command n)</TD>
+</TR>
+<TR>
+<TD>Phím windows+d (thu nhỏ toàn bộ ứng dụng )</TD>
+<TD>c1+c4+c5 (command d)</TD>
+</TR>
+<TR>
+<TD>Đọc tất cả</TD>
+<TD>c1+c2+c3+c4+c5+c6</TD>
+</TR>
+</TABLE>
+
+<P>
+ %kc:endInclude
+</P>
+
+<A NAME="toc126"></A>
+<H4>14.8.3. Phím gán cho Brailliant BI 14</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Tên</TH>
+<TH>Phím</TH>
+</TR>
+<TR>
+<TD>Phím mũi tên lên</TD>
+<TD>joystick up</TD>
+</TR>
+<TR>
+<TD>Phím mũi tên xuống</TD>
+<TD>joystick down</TD>
+</TR>
+<TR>
+<TD>Phím mũi tên trái</TD>
+<TD>joystick left</TD>
+</TR>
+<TR>
+<TD>Phím mũi tên phải</TD>
+<TD>joystick right</TD>
+</TR>
+<TR>
+<TD>Phím enter</TD>
+<TD>joystick action</TD>
 </TR>
 </TABLE>
 
@@ -5546,6 +5613,9 @@ Sau đây là các dòng sản phẩm được hỗ trợ:
 </UL>
 
 <P>
+Với BrailleNote Touch, vui lòng xem phần <A HREF="HumanWareBrailliant">các dòng màn hình nổi Brailliant BI / BrailleNote Touch</A>.
+</P>
+<P>
 Nếu thiết bị của bạn hỗ trợ hơn một phương thức kết nối và kết nối máy BrailleNote của bạn với NVDA, bạn cần khai báo cổng kết nối trong phần tùy chọn terminal màn hình nổi.
 Vui lòng xem tài liệu hướng dẫn sử dụng của BrailleNote..
 Trong NVDA, bạn cũng phải khai báo cổng tương ứng trong hộp thoại thiết lập màn hình nổi.
@@ -5761,7 +5831,7 @@ Vui lòng xem <A HREF="ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braille/ECO
 </TR>
 </TABLE>
 
-<A NAME="toc130"></A>
+<A NAME="toc133"></A>
 <H3>14.15. SuperBraille</H3>
 
 <P>
