@@ -1665,7 +1665,7 @@ Ví dụ bạn muốn nghe thông báo về canh lề khi bạn soạn thảo, h
 NVDA cho phép bạn tạo các cấu hình riêng được gọi là hồ sơ cấu hình cho các trường hợp đó.
 
 Một hồ sơ cấu hình chỉ chứa các thông tin khác so với cấu hình gốc.
-Phần lớn các thông tin cấu hình có thể được thay đổi trong các hồ sơ cấu hình riêng đó, trừ các cấu hình trong phân loại chung  trong hộp thoại [cấu hình NVDA #NVDASettings] vì chúng được dùng cho cả NVDA
+Phần lớn các thông tin cấu hình có thể được thay đổi trong các hồ sơ cấu hình riêng đó, trừ các cấu hình trong phân loại chung  trong hộp thoại [cấu hình NVDA #NVDASettings] vì chúng được dùng cho cả NVDA.
 
 Bạn có thể chủ động kích hoạt hồ sơ cấu hình của bạn.
 Hoặc nó cũng có thể được kích hoạt tự động cho một ứng dụng nào đó.
@@ -1741,7 +1741,7 @@ Còn với bản NVDA cài đặt thì tất cả các thông tin đó được 
 
 Các cấu hình cho màn hình đăng nhập vào Windows, UAC thì được lưu trong thư mục cấu hình hệ thống của NVDA ở thư mục cài đặt.
 Thông thường bạn không nên can thiệp vào thư mục này.
-Để thay đổi cấu hình cho màn hình đăng nhập vào Windows, bạn thiết lập cấu hình mình muốn, lưu lại và sau đó chọn mục "Sử dụng cấu hình hiện tại cho màn hình đăng nhập Windows và các màn hình bảo vệ khác" trên cửa sổ thiết lập chung.
+Để thay đổi cấu hình cho màn hình đăng nhập vào Windows, bạn thiết lập cấu hình mình muốn, lưu lại và sau đó chọn mục "Sử dụng cấu hình hiện tại cho màn hình đăng nhập Windows và các màn hình bảo vệ khác" trong phân loại chung của [hộp thoại cấu hình NVDA #NVDASettings].
 
 + Các Công Cụ +[ExtraTools]
 
@@ -1835,12 +1835,12 @@ SAPI 4 là một chuẩn cũ của các bộ tổng hợp tiếng nói của Mic
 NVDA vẫn còn hỗ trợ cho bộ tổng hợp âm này.
 Tuy nhiên, Microsoft đã ngưng hỗ trợ cho phiên bản này vì vậy bạn không thể download bộ cài đặt hoặc những gói dữ liệu liên quan từ trang web của Microsoft.
 
-Khi sử dụng bộ đọc này với NVDA, các giọng đọc hiện có, có thể chọn ở hộp thoại [Thiết lập giọng đọc #VoiceSettings] hoặc [thiết lập giọng theo tham số #SynthSettingsRing] sẽ thấy tất cả các giọng được cài cho bộ đọc chuẩn SAPI 4 trên máy của bạn. 
+Khi sử dụng bộ đọc này với NVDA, các giọng đọc hiện có, có thể chọn ở  phân loại [tiếng nói#SpeechSettings] trong [hộp thoại cấu hình NVDA #NVDASettings] hoặc [thiết lập giọng theo tham số #SynthSettingsRing] sẽ thấy tất cả các giọng được cài cho bộ đọc chuẩn SAPI 4 trên máy của bạn. 
 
 ++ Microsoft Speech API version 5 (SAPI 5) ++[SAPI5]
 SAPI 5 cũng là một chuẩn cho các bộ đọc trên Windows.
 Nhiều bộ tổng hợp tiếng nói này có thể tải và sử dụng miễn phí từ trang web của các công ty khác nhau.
-Nếu sử dụng chuẩn này thì trong cửa sổ [Cấu hình cho giọng đọc #VoiceSettings] hoặc [thiết lập giọng theo tham số #SynthSettingsRing]sẽ chứa tất cả các giọng đọc của các bộ tổng hợp tiếng nói đã được cài trong máy theo chuẩn này.
+Nếu sử dụng chuẩn này thì trong phân loại [tiếng nói #SpeechSettings] của  [hộp thoại cấu hình NVDA #NVDASettings] hoặc [thiết lập giọng theo tham số #SynthSettingsRing]sẽ chứa tất cả các giọng đọc của các bộ tổng hợp tiếng nói đã được cài trong máy theo chuẩn này.
 
 ++ Microsoft Speech Platform ++[MicrosoftSpeechPlatform]
 Microsoft Speech Platform cung cấp bộ đọc nhiều ngôn ngữ dựa trên máy chủ.
@@ -1871,7 +1871,7 @@ Chúng tôi mong rằng những vấn đề này sẽ được sửa trong phiê
 Bạn phải cài bộ đọc này trước rồi mới sử dụng được trong NVDA.
 Để biết thêm thông tin chi tiết, xem tại  trang web của Audiologic www.audiologic.it.
 
-Bộ đọc này không hỗ trợ [chức năng đánh vần #VoiceSettingsUseSpelling].
+Bộ đọc này không hỗ trợ [chức năng đánh vần #SpeechSettingsUseSpelling].
 
 + Hỗ trợ màn hình nổi (Braille Displays) +[SupportedBrailleDisplays]
 Phần này gồm thông tin về các dòng màn hình nổi được hỗ trợ bởi NVDA.
@@ -2343,13 +2343,13 @@ Cả hai phím bên trong đều được gán cho phím khoảng trắng.
 %kc:endInclude 
 
 ++ Các Mẫu Papenmeier Braille BRAILLEX Cũ ++[PapenmeierOld]
-Có hỗ trợ các màn hình nổi sau: 
+Các màn hình nổi sau đây được hỗ trợ:
 - BRAILLEX EL 80, EL 2D-80, EL 40 P
 - BRAILLEX Tiny, 2D Screen
 -
 
 Lưu ý, những màn hình này chỉ kết nối qua cổng serial.
-Vì vậy bạn cần phải chọn đúng cổng trong hộp thoại thiết lập màn hình nổi sau khi cài driver.
+Vì vậy, bạn cần phải chọn đúng cổng trong [hộp thoại chọn màn hình nổi #SelectBrailleDisplay] sau khi cài driver.
 
 Một số mẫu màn hình sẽ có thanh tiện ích (EAB) giúp truy xuất tiện lợi và nhanh hơn.
 EAB có thể di chuyển qua 4 chiều và mỗi chiều có hai switch.
@@ -2437,7 +2437,7 @@ Với BrailleNote Touch, vui lòng xem phần [các dòng màn hình nổi Brail
 
 Nếu thiết bị của bạn hỗ trợ hơn một phương thức kết nối và kết nối máy BrailleNote của bạn với NVDA, bạn cần khai báo cổng kết nối trong phần tùy chọn terminal màn hình nổi.
 Vui lòng xem tài liệu hướng dẫn sử dụng của BrailleNote..
-Trong NVDA, bạn cũng phải khai báo cổng tương ứng trong hộp thoại thiết lập màn hình nổi.
+Trong NVDA, bạn cũng phải khai báo cổng tương ứng trong [hộp thoại chọn màn hình nổi #SelectBrailleDisplay].
 Bạn cũng có thể chọn "tự động", "USB" hoặc "bluetooth" nếu bạn kết nối qua một trong hai cổng đó.
 Còn nếu bạn kết nối qua cổng serial (hoặc từ cáp chuyển USB sang serial), bạn cần phải chọn cổng giao tiếp từ danh sách các cổng của phần cứng.
 
@@ -2483,7 +2483,7 @@ Sau đây là các mẫu sản phẩm được hỗ trợ:
 - EcoBraille Plus
 -
 
-Ở hộp thoại thiết lập màn hình nổi của NVDA, bạn có thể thiết lập cổng serial cho màn hình được kết nối với NVDA.
+Ở [hộp thoại chọn màn hình nổi #SelectBrailleDisplay] của NVDA, bạn có thể thiết lập cổng serial cho màn hình được kết nối với NVDA.
 
 Sau đây là các lệnh của màn hình nổi này được gán cho NVDA.
 Vui lòng xem [Tài Liệu của EcoBraille ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braille/ECO/] cho phần mô tả vị trí các phím. 
