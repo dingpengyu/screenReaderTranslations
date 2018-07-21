@@ -2118,7 +2118,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Đọc tất cả | c1+c2+c3+c4+c5+c6 |
 %kc:endInclude
 
-++ Các dòng HIMS Braille Sense/Braille EDGE/Smart Beetle ++
+++ Các dòng HIMS Braille Sense/Braille EDGE/Smart Beetle ++[Hims]
 NVDA hỗ trợ các màn hình Braille Sense, Braille EDGE và Smart Beetle của [Hims http://www.hims-inc.com/] khi kết nối qua cổng USB hay bluetooth.
 Bạn cần phải cài driver nếu kết nối qua cổng USB.
 Bạn có thể download về tại đây: http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip
