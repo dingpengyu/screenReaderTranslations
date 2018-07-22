@@ -2036,7 +2036,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Phím control | control |
 %kc:endInclude
 
-++ Các Màn Hình Handy Tech ++[HandyTech]
+++ Các Màn Hình của Handy Tech ++[HandyTech]
 NVDA hỗ trợ hầu hết màn hình của [Handy Tech http://www.handytech.de/] khi kết nối qua cổng USB, cổng serial hay bluetooth.
 Bạn cần phải cài driver của Handy Tech cho những mẫu màn hình dùng cổng USB cũ.
 
