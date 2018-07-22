@@ -2374,11 +2374,11 @@ Lần lượt từ trái sang phải là các phím:
 - khoảng trắng
 - Phím thumb phải (rt)
 -
+
 Hiện nay, phím thumb phải không được sử dụng.
 Cả hai phím bên trong đều được gán cho phím khoảng trắng.
-
-|| Tên | Phím |
 %kc:beginInclude
+|| Tên | Phím |
 | Phím escape | space with dot 7 |
 | Phím mũi tên lên | space with dot 2 |
 | Phím mũi tên trái | space with dot 1 |
