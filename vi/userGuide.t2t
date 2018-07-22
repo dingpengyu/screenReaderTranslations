@@ -251,7 +251,7 @@ Khi thực đơn hiện ra, bạn dùng các phím mũi tên để khám phá c�
 ++ Các lệnh cơ bản của NVDA ++[BasicNVDACommands]
 
 %kc:beginInclude
-|| Chức năng | Phím của máy bàn | Phím xách tay | Cảm ứng | Mô tả |
+|| Chức năng | Phím máy bàn | Phím xách tay | Cảm ứng | Mô tả |
 | Dừng đọc | Control | control | Chạm 2-ngón | Dừng đọc |
 | Tạm dừng đọc | shift | shift | Không có | Tạm dừng đọc (hoặc tiếp tục đọc nếu đã tạm dừng trước đó) |
 | Mở thực đơn của NVDA | NVDA+n | NVDA+n | 2 chạm 2-ngón | Mở thực đơn của NVDA |
