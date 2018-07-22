@@ -17,7 +17,7 @@ NVDA được phát triển bởi công ty [NV Access https://www.nvaccess.org/]
 ++ Các tính năng chung ++[GeneralFeatures]
 NVDA cho phép người khiếm thị tương tác và sử dụng máy tính với hệ điều hành Windows và các ứng dụng khác.
 
-Một số tính năng nổi bật như:
+Một số tính năng nổi bật bao gồm:
 - Hỗ trợ tương tác với các ứng dụng phổ biến như các trình duyệt web, chương trình thư điện tử, chương trình trò chuyện và các bộ ứng dụng văn phòng
 - Tích hợp bộ tổng hợp tiếng nói hỗ trợ hơn 80 ngôn ngữ khác nhau
 - thông báo các thuộc tính của phông chữ (nếu có) như tên phông, kích thước, kiểu chữ, v...v... và thông báo lỗi chính tả
@@ -35,7 +35,7 @@ Một số tính năng nổi bật như:
 
 ++ Tính quốc tế ++[Internationalization]
 Một điều quan trọng là tất cả mọi người trên thế giới, họ đều có quyền ngang nhau trong việc tiếp cận với công nghệ; cho dù họ đang giao tiếp bằng ngôn ngữ nào.
-Bên cạnh tiếng anh thì NVDA được dịch sang 54 ngôn ngữ khác nhau bao gồm: Afrikaans, Albanian, Amharic, Arabic, Aragonese, Bulgarian, Burmese, Catalan, Chinese (simplified and traditional), Croatian, Czech, Danish, Dutch, Farsi, Finnish, French, Galician, Georgian, German (Germany and Switzerland), Greek, Hebrew, Hindi, Hungarian, Icelandic, Irish, Italian, Japanese, Kannada, Korean, Kyrgyz, Lithuanian, Macedonian, Mongolian, Nepali, Norwegian, Polish, Portuguese (Brazil and Portugal), Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish (Colombia and Spain), Swedish, Tamil, Thai, Turkish, Ukrainian and Vietnamese.
+Bên cạnh tiếng anh thì NVDA được dịch sang 54 ngôn ngữ khác nhau bao gồm: Afrikaans, Albanian, Amharic, Arabic, Aragonese, Bulgarian, Burmese, Catalan, Chinese (simplified and traditional), Croatian, Czech, Danish, Dutch, Farsi, Finnish, French, Galician, Georgian, German (Germany and Switzerland), Greek, Hebrew, Hindi, Hungarian, Icelandic, Irish, Italian, Japanese, Kannada, Korean, Kyrgyz, Lithuanian, Macedonian, Mongolian, Nepali, Norwegian, Polish, Portuguese (Brazil and Portugal), Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish (Colombia and Spain), Swedish, Tamil, Thai, Turkish, Ukrainian và tiếng Việt.
 
 ++ Hỗ trợ các bộ tổng hợp tiếng nói ++[SpeechSynthesizerSupport]
 Ngoài việc hỗ trợ giao diện với nhiều ngôn ngữ khác nhau, NVDA hỗ trợ đọc nội dung của một ngôn ngữ nếu có bộ tổng hợp âm cho ngôn ngữ đó.
@@ -46,10 +46,10 @@ Có thể xem thêm thông tin về các bộ đọc được NVDA hỗ trợ tr
 
 ++ Hỗ Trợ Màn Hình Nổi ++[BrailleSupport]
 Nếu người dùng có sử dụng màn hình nổi, NVDA có thể gửi thông tin dưới dạng chữ nổi ra màn hình nổi.
-Hỗ trợ nhập liệu chữ nổi đầy đủ và viết tắt với bàn phím màn hình nổi.
+Hỗ trợ nhập liệu chữ nổi đầy đủ và viết tắt với bàn phím của màn hình nổi.
 Chi tiết về các màn hình nổi được hỗ trợ bởi NVDA có thể xem ở phần [hỗ trợ các màn hình nổi #SupportedBrailleDisplays] để biết thêm thông tin.
  
-NVDA hỗ trợ các bảng mã chữ nổi cho nhiều ngôn ngữ khác nhau bao gồm bảng mã chữ đủ, chữ tắt và chữ nổi máy tính.
+NVDA hỗ trợ các bảng mã chữ nổi cho nhiều ngôn ngữ khác nhau, bao gồm bảng mã chữ đủ, chữ tắt và chữ nổi máy tính.
 
 ++ Giấy phép và bản quyền ++[LicenseAndCopyright]
 Bản quyền NVDA NVDA_COPYRIGHT_YEARS cộng đồng NVDA.
@@ -62,7 +62,7 @@ Bạn có thể chia sẻ hoặc thay đổi phần mềm này theo ý mình mi�
 + Yêu Cầu Hệ Thống +[SystemRequirements]
 - Hệ điều hành: tất cả các phiên bản 32bit và 64bit của Windows 7, Windows 8, Windows 8.1,  Windows 10 và các bản máy chủ từ bản Windows Server 2008 R2.
  - Đối với Win 7, NVDA yêu cầu bản SP1 hoặc cao hơn.
- - Đối với bản  Windows Server 2008 R2, NVDA yệu cầu bản SP 1 hoặc cao hơn.
+ - Đối với bản  Windows Server 2008 R2, NVDA yêu cầu bản SP 1 hoặc cao hơn.
  - Bộ nhớ RAM: 256 mb hoặc cao hơn
 - Tốc độ bộ vi xử lý: 1.0 ghz hoặc cao hơn
 - Yêu cầu ít nhất 90 MB không gian lưu trữ ổ cứng
@@ -77,12 +77,12 @@ Chạy tập tin vừa tải về sẽ khởi động chương trình NVDA tạm
 Sau đó bạn sẽ được hỏi là bạn muốn cài đặt NVDA vào máy, tạo bản chạy trực tiếp hay tiếp tục sử dụng phiên bản tạm thời đó.
 
 Nếu bạn muốn thường xuyên dùng NVDA trên máy này, bạn nên chọn cài đặt vào máy.
-Việc cài đặt NVDA vào máy sẽ cho phép bạn sử dụng một số tính năng như khởi động cùng Windows, chạy NVDA ở màn hình đăng nhập và các màn hình bảo vệ khác (những tính năng đó nó không được hỗ trợ cho bản chạy tạm thời cũng như bản chạy trực tiếp). Nó cũng không hỗ trợ tự động tạo biểu tượng chương trình trên start menu và desktop.
+Việc cài đặt NVDA vào máy sẽ cho phép bạn sử dụng một số tính năng như khởi động cùng Windows, chạy NVDA ở màn hình đăng nhập và các màn hình bảo vệ khác (những tính năng đó không được hỗ trợ cho bản chạy tạm thời cũng như bản chạy trực tiếp). Nó cũng không hỗ trợ tự động tạo biểu tượng chương trình trên start menu và desktop.
 Bạn có thể tạo bản chạy trực tiếp sau khi cài đặt NVDA vào máy.
 
 Nếu bạn muốn NVDA có thể chạy từ ổ USB hay các phương tiện lưu trữ khác, bạn có thể chọn chức năng tạo bản chạy trực tiếp.
 Sau này bạn cũng có thể cài bản chạy trực tiếp đó vào máy tính.
-Tuy nhiên nếu bạn muốn tạo bản chạy trực tiếp trên ổ CD (phương tiện lưu trữ chỉ đọc) thì bạn chỉ cần copy bản NVDA tải về lên đĩa CD.
+Tuy nhiên nếu bạn muốn tạo bản chạy trực tiếp trên ổ CD (phương tiện lưu trữ chỉ đọc) thì bạn chỉ cần chép bản NVDA tải về lên đĩa CD.
 Hiện tại NVDA chưa hỗ trợ chạy bản chạy trực tiếp trên các phương tiện lưu trữ có thuộc tính chỉ đọc.
 
 Bản NVDA tạm thời thường được sử dụng với mục đích demo. Vì bản tạm thời bị giới hạn về thời gian.
@@ -115,8 +115,8 @@ Tùy chọn này sẽ tạo biểu tượng NVDA trên màn hình Desktop để 
 Nếu biểu tượng đó được tạo thì nó sẽ được gán 1 phím tắt là Ctrl + alt + n, khi nhấn tổ hợp phím này thì NVDA sẽ được chạy.
 
 +++ Sao chép cấu hình từ bản chạy trực tiếp tới thư mục cấu hình người dùng hiện tại +++[CopyPortableConfigurationToCurrentUserAccount]
-Tùy chọn này sẽ copy thư mục cấu hình của bản NVDA chạy trực tiếp sang thư mục cấu hình của người dùng hiện tại (cho bản cài đặt).
-Nó sẽ không copy tới thư mục cấu hình của các tài khoản người dùng khác trên máy hay tới phần cấu hình hệ thống liên quan đến việc cho phép chạy ở màn hình đăng nhập của Windos cũng như các màn hình bảo vệ.
+Tùy chọn này sẽ chép thư mục cấu hình của bản NVDA chạy trực tiếp sang thư mục cấu hình của người dùng hiện tại (cho bản cài đặt).
+Nó sẽ không chép tới thư mục cấu hình của các tài khoản người dùng khác trên máy hay tới phần cấu hình hệ thống liên quan đến việc cho phép chạy ở màn hình đăng nhập của Windows cũng như các màn hình bảo vệ.
 Tùy chọn này chỉ có trong quá trình cài đặt NVDA từ bản chạy trực tiếp.
 
 ++ Tạo bản NVDA chạy trực tiếp ++[CreatingAPortableCopy]
@@ -125,7 +125,7 @@ Nếu bạn đang sử dụng NVDA được cài đặt trên máy thì bạn c�
 
 Một hộp thoại sẽ xuất hiện cho phép bạn chọn nơi sẽ tạo bản chạy trực tiếp.
 Đó có thể là một thư mục trên ổ đĩa cứng, trên ổ USB hay một phương tiện lưu trữ bất kỳ.
-Trên cửa sổ này, bạn cũng có thể chọn tùy chọn copy thư mục cấu hình của người dùng hiện tại sang phiên bản chạy trực tiếp.
+Trên cửa sổ này, bạn cũng có thể chọn tùy chọn chép thư mục cấu hình của người dùng hiện tại sang phiên bản chạy trực tiếp.
 Tùy chọn này chỉ áp dụng khi bạn tạo bản chạy trực tiếp từ bản NVDA đã cài đặt trên máy, không tồn tại khi tạo bản chạy trực tiếp từ gói cài đặt.
 Sau đó nhấn nút "tiếp tục' để tiến hành tạo bản NVDA chạy trực tiếp.
 Khi hoàn tất, sẽ có một thông báo xác nhận là việc tạo bản chạy trực tiếp đã thành công.
@@ -135,16 +135,16 @@ Nhấn OK để đóng cửa sổ đó.
 
 ++ Khởi động NVDA ++[LaunchingNVDA]
 Nếu bạn đã cài NVDA thì bạn có thể khởi động nó bằng cách nhấn tổ hợp phím ctrl + alt + n hoặc từ menu start.
-Thêm vào đó bạn có thể gõ nvda vào cửa sổ Run và nhấn enter.
+Thêm vào đó, bạn có thể gõ nvda vào cửa sổ Run và nhấn enter.
 Bạn cũng có thể đưa thêm vào một số [tùy chọn của dòng lệnh #CommandLineOptions] khi chạy NVDA chẳng hạn như khởi động lại NVDA (-r), thoát (-q), vô hiệu hóa add-ons (--disable-addons)
 
-Đối với bản cài đặt, mặc định NVDA lưu các cấu hình người dùng trong thư mục roaming application data của người dùng hiện tại (ví dụ: "C:\Users\<user>\AppData\Roaming").
+Đối với bản cài đặt, mặc định, NVDA lưu các cấu hình người dùng trong thư mục roaming application data của người dùng hiện tại (ví dụ: "C:\Users\<user>\AppData\Roaming").
 Hiện đã có thể thay đổi để NVDA tải và sử dụng cấu hình từ thư mục local application data.
 Hãy tham khảo thêm phần [các tham số hệ thống #SystemWideParameters].
 
 Nếu khởi động bản NVDA chạy trực tiếp thì bạn tìm đến thư mục của bản chạy, sau đó tìm tập tin nvda.exe và kích hoạt nó.
 
-Khi NVDA khởi động bạn sẽ nghe thấy một tiếng nhạc thông báo là NVDA đang khởi động.
+Khi NVDA khởi động, bạn sẽ nghe thấy một tiếng nhạc thông báo là NVDA đang khởi động.
 Tùy thuộc vào tốc độ xử lý trên máy của bạn hay thiết bị lưu trữ bản chạy trực tiếp mà việc khởi động NVDA có thể mất một khoảng thời gian nhỏ.
 Nếu phải chờ lâu thì NVDA sẽ thông báo như  "Chương trình NVDA đang được tải. Vui lòng chờ...".
 
@@ -152,8 +152,8 @@ Nếu bạn không nghe thấy các dấu hiệu trên hoặc nghe thấy âm th
 Xin vui lòng kiểm tra thông tin trên trang web của NVDA để biết thêm thông tin về cách báo lỗi.
 
 +++ Hộp thoại chào mừng +++[WelcomeDialog]
-Khi NVDA được khởi động thành công trong lần đầu tiên, sẽ có 1 cửa sổ cung cấp cho bạn thông tin cơ bản về các phím bổ trợ NVDA và thực đơn.
-(Vui lòng tham khảo đề tài này ở những phần sau)
+Ở lần đầu tiên khởi động, NVDA sẽ có 1 cửa sổ cung cấp cho bạn thông tin cơ bản về các phím bổ trợ NVDA và thực đơn.
+(Vui lòng tham khảo chủ đề này ở những phần sau)
 Hộp thoại gồm một hộp xổ và ba hộp kiểm.
 Hộp xổ dùng để chọn kiểu bàn phím.
 Hộp kiểm đầu tiên cho phép bạn chọn phím khóa hoa làm phím bổ trợ NVDA.
@@ -173,10 +173,10 @@ Nếu bạn muốn phím bổ trợ hoạt động theo đúng chức năng củ
 
 +++ Kiểu bàn phím +++[KeyboardLayouts]
 Hiện tại, NVDA có 2 kiểu phím tắt(hay còn gọi là kiểu bàn phím): Đó là kiểu bàn phím Desktop và Laptop.
-Mặc định, NVDA được thiết lập theo kiểu bàn phím Desktop nhưng bạn có thể chuyển sang kiểu Laptop bằng cách chọn mục đó trong phân loại bàn phím trong hộp thoại [Cấu hình NVDA #NVDASettings], được tìm thấy trong  tùy chọn  trong thực đơn của NVDA.
+Mặc định, NVDA được thiết lập theo kiểu bàn phím Desktop nhưng bạn có thể chuyển sang kiểu Laptop bằng cách chọn mục đó trong phân loại bàn phím trong hộp thoại [Cấu hình NVDA #NVDASettings], được tìm thấy trong  thực đơn tùy chọn  của NVDA.
 
 Kiểu bàn phím Desktop sẽ sử dụng các phím bên bàn phím số và yêu cầu tắt phím Khóa số (NumLock).
-Mặc dù kiểu bàn phím Laptop không có bàn phím số riêng nhưng bạn có thể sử dụng giống như bàn phím số trên Desktop bằng cách nhấn kết hợp phím fn (phím function) với các phím bên phải như (7, 8, 9, u, i, o, j, k, l, v.v).
+Mặc dù kiểu bàn phím Laptop không có bàn phím số riêng nhưng bạn có thể sử dụng giống như bàn phím số trên Desktop bằng cách nhấn kết hợp phím fn (phím function) với các phím bên phải như (7, 8, 9, u, i, o, j, k, l, v...v...).
 Nếu kiểu bàn phím của bạn không cho phép làm điều đó thì bạn nên chọn kiểu bàn phím là Laptop.
 
 ++ Thao tác cảm ứng trong NVDA ++[NVDATouchGestures]
@@ -202,7 +202,7 @@ Chạm hai ngón tay cùng một lúc vào màn hình gọi là chạm 2-ngón, 
 Nếu chạm nhanh một hoặc hai ngón tay nhiều lần thì NVDA coi đó như là hành động đa chạm.
 Chạm nhanh hai lần liên tiếp gọi là hai chạm.
 Chạm nhanh 3 lần gọi là ba chạm và tương tự như vậy.
-Dĩ nhiên là trong mỗi hành động như vậy thì NVDA sẽ nhận biết số ngón tay chạm vào màn hình trong mỗi hành động ví dụ như hành động chạm nhanh 2 lần với 3 ngón được gọi là 2 chạm 3-ngón (2 lần chạm bằng 3 ngón) hoặc 3 chạm 3-ngón (3 lần chạm bằng 3 ngón) vvv.
+Dĩ nhiên là trong mỗi hành động như vậy thì NVDA sẽ nhận biết số ngón tay chạm vào màn hình trong mỗi hành động ví dụ như hành động chạm nhanh 2 lần với 3 ngón được gọi là 2 chạm 3-ngón (2 lần chạm bằng 3 ngón) hoặc 3 chạm 3-ngón (3 lần chạm bằng 3 ngón) v...v...
 
 ==== Hành động vuốt ====
 Đó là hành động vuốt nhanh ngón tay của bạn trên màn hình.
@@ -250,7 +250,7 @@ Khi thực đơn hiện ra, bạn dùng các phím mũi tên để khám phá c�
 
 ++ Các lệnh cơ bản của NVDA ++[BasicNVDACommands]
 %kc:beginInclude
-|| Chức năng | Phím máyy bàn | Phím xách tay | Cảm ứng | Mô tả |
+|| Chức năng | Máy bàn | Xách tay | Cảm ứng | Mô tả |
 | Dừng đọc | Control | control | Chạm 2-ngón | Dừng đọc |
 | Tạm dừng đọc | shift | shift | Không có | Tạm dừng đọc (hoặc tiếp tục đọc nếu đã tạm dừng trước đó) |
 | Mở thực đơn của NVDA | NVDA+n | NVDA+n | 2 chạm 2-ngón | Mở thực đơn của NVDA |
