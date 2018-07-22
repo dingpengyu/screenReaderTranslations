@@ -546,7 +546,7 @@ NVDA cho phép bạn lọc và truy cập nhanh đến các đối tượng tron
 Ví dụ như liên kết (link), tiêu đề (heading), biểu mẫu, nút  hay cột mốc (landmarks) bằng hộp thoại danh sách các thành phần. 
 Bạn có thể thay đổi liệt kê giữa các loại thành phần trên ở nhóm nút radio.
 Có ô nhập liệu cũng cho phép bạn nhập các ký tự để lọc các đối tượng trong danh sách.
-Khi tìm thấy đối tượng mình mong muốn, bạn có thể nhảy đến đối tượng đó hoặc kích hoạt luôn nó.
+Khi tìm thấy đối tượng mình mong muốn, bạn có thể đi đến đối tượng đó hoặc kích hoạt luôn nó.
 
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
@@ -555,7 +555,7 @@ Khi tìm thấy đối tượng mình mong muốn, bạn có thể nhảy đến
 
 ++ Thao tác trên đối tượng nhúng ++[ImbeddedObjects]
 Tài liệu có thể chứa các loại đối tượng sử dụng công nghệ như Adobe Flash, Oracle Java, HTML5 cũng như các hộp thoại hay ứng dụng  khác.
-Trong quá trình duyệt tài liệu, nếu gặp các đối tượng trên thì NVDA sẽ thông báo kiểu đối tượng cho bạn, ví dụ đối tượng nhúng, hộp thoại, v..v.
+Trong quá trình duyệt tài liệu, nếu gặp các đối tượng trên thì NVDA sẽ thông báo kiểu đối tượng cho bạn, ví dụ đối tượng nhúng, hộp thoại, v...v...
 Có thể nhấn phím di chuyển đơn o và shift+o để đi nhanh đến các đối tượng đó.
 Bạn có thể nhấn phím enter để tương tác trực tiếp trên các đối tượng này.
 Nếu đối tượng đó có thể tương tác được thì bạn có thể dùng phím tab để chuyển qua lại giữa các thành phần con trong đối tượng này.
@@ -578,8 +578,7 @@ NVDA hỗ trợ một số nội dung toán học sau đây:
 Cần phải cài MathType để có thể hoạt động. Lưu ý, chỉ cần cài phiên bản chạy thử là đủ.
 - MathML trong chương trình Adobe Reader.
 Lưu ý là đây vẫn chưa phải chuẩn chính thức. Vì vậy, hiện vẫn chưa có phần mềm chung có thể sản xuất nội dung này.
-- Tài liệu toán tiếp cận trên Kindle for PC.
--
+- Tài liệu toán tiếp cận trên Kindle for PC.-
 
 Khi đọc tài liệu, NVDA sẽ đọc bất kỳ nội dung toán học mà nó được hỗ trợ.
 Nếu bạn dùng màn hình nổi, nó sẽ hiển thị trên màn hình nổi.
@@ -590,10 +589,10 @@ Khi bạn chủ yếu đọc tài liệu này với giọng nói, bạn sẽ mu�
 Trong chế độ duyệt, bạn có thể làm điều này bằng cách chuyển con trỏ đến phần nội dung toán học và nhấn enter.
 
 Nếu bạn đang không ở chế độ duyệt, hãy thực hiện các bước sau:
-+ Chuyển con trỏ duyệt đến phần nội dung toán học.
-Mặc định, con trỏ duyệt sẽ đi theo dấu nháy hệ thống, nên thông thường bạn chỉ cần chuyển dấu nháy đến phần nội dung bạn muốn.
-+ Sau đó, thực hiện các lệnh sau:
-+
+Chuyển con trỏ duyệt đến phần nội dung toán học.
+Mặc định, con trỏ duyệt sẽ đi theo dấu nháy hệ thống nên thông thường bạn chỉ cần chuyển dấu nháy đến phần nội dung bạn muốn.
+Sau đó, thực hiện các lệnh sau:
+
 
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
