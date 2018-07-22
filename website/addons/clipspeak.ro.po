@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-20 14:56+1000\n"
-"PO-Revision-Date: 2017-06-03 13:12+0300\n"
+"PO-Revision-Date: 2018-07-22 15:57+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -22,16 +22,12 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Author: Damien Sykes-Lindley"
 msgid "Author: Damien Garwood"
-msgstr "Autor: Damien Sykes-Lindley"
+msgstr "Autor: Damien Garwood"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "download [development version][1]"
 msgid "download [stable version][1]"
-msgstr "Descărcați [versiunea în dezvoltare][1]"
+msgstr "descărcați [versiunea stabilă][1]"
 
 #. type: Plain text
 msgid ""
@@ -87,13 +83,12 @@ msgid ""
 msgstr ""
 "Dacă acestea nu sunt scurtăturile de taste utilizate în comun pentru aceste "
 "activități pe versiunea dumneavoastră de Windows, veți fi nevoit să repuneți "
-"aceste gesturi în configurarea de intrare a lor"
+"aceste gesturi în configurarea de intrare a lor."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev]]\n"
+#, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
