@@ -2100,7 +2100,6 @@ Các mẫu màn hình này bao gồm:
 - APH: Refreshabraille
 - Orbit: Orbit Reader 20
 -
-
 Một số màn hình do Baum sản xuất cũng có thể làm việc được, mặc dù chưa được chính thức kiểm tra qua.
 
 Nếu kết nối qua cổng USB mà không sử dụng HID, trước hết bạn cần phải cài driver của nhà sản xuất.
