@@ -2686,7 +2686,7 @@ Vui lòng xem Tài Liệu của màn hình cho phần mô tả vị trí các ph
 | Phím shift | dot7+space, l4 |
 | Bật tắt phím  shift | dot1+dot7+space, dot4+dot7+space |
 | Phím control | dot7+dot8+space, l5 |
-| Bật tắt phím control | dot1+dot7+dot8+space, dot4+dot7+dot8+space | Phím alt | dot8+space, dot1+dot8+space, dot4+dot8+space, l6 |
+| Bật tắt phím control | dot1+dot7+dot8+space, dot4+dot7+dot8+space | 
 | Phím alt | dot8+space, l6 |
 | Bật tắt phím  alt | dot1+dot8+space, dot4+dot8+space |
 | ToggleHID keyboard input simulation | esytime):l1+joystick1Down, esytime):l8+joystick1Down |
