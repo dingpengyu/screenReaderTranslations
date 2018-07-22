@@ -251,7 +251,7 @@ Khi thực đơn hiện ra, bạn dùng các phím mũi tên để khám phá c�
 ++ Các lệnh cơ bản của NVDA ++[BasicNVDACommands]
 
 %kc:beginInclude
-|| Chức năng | Máy bàn | Xách tay | Cảm ứng | Mô tả |
+|| Chức năng | Phím máy bàn | Phím xách tay | Cảm ứng | Mô tả |
 | Dừng đọc | Control | control | Chạm 2-ngón | Dừng đọc |
 | Tạm dừng đọc | shift | shift | Không có | Tạm dừng đọc (hoặc tiếp tục đọc nếu đã tạm dừng trước đó) |
 | Mở thực đơn của NVDA | NVDA+n | NVDA+n | 2 chạm 2-ngón | Mở thực đơn của NVDA |
@@ -415,7 +415,7 @@ Khái niệm duyệt Flat trước đây của NVDA được thay thế bằng c
 Các phím để chuyển qua lại giữa các chế độ duyệt:
 
 %kc:beginInclude
-|| chức năng | máy bàn | xách tay | Cảm ứng | Mô tả |
+|| chức năng | Phím máy bàn | Phím xách tay | Cảm ứng | Mô tả |
 | Chuyển qua chế độ duyệt kế | NVDA+7 bàn phím số | NVDA+trang trước | Vuốt lên 2-ngón | chuyển sang chế độ duyệt tiếp theo (nếu có) |
 | Chuyển về chế độ duyệt trước | NVDA+1 bàn phím số | NVDA+trang sau | Vuốt xuống 2-ngón | Chuyển về chế độ duyệt trước (nếu có) |
 %kc:endInclude
@@ -459,7 +459,7 @@ Nếu bạn muốn bật chức năng này, bạn có thể cấu hình trong ph
 Bên cạnh sử dụng trực tiếp chuột thì NVDA cung cấp cho bạn thêm một số phím tương tác giống như chuột như sau:
 
 %kc:beginInclude
-|| chức năng | Máy bàn | Xách tay | Mô tả |
+|| chức năng | Phím máy bàn | Phím xách tay | Mô tả |
 | Kích hoạt nút chuột trái | dấu chia bàn phím số | NVDA+[ | Kích hoạt nút chuột trái, nhấn nhanh hai lần sẽ tương tự như kích đúp nút chuột trái |
 | Khóa nút chuột trái | shift+dấu chia bàn phím số | NVDA+control+[ |  Khóa nút chuột trái, nhấn tiếp để mở lại |
 | Kích hoạt nút chuột phải | dấu nhân bàn phím số | NVDA+] | Kích hoạt nút chuột phải |
@@ -935,7 +935,7 @@ Trong tất cả các hộp thoại, nhấn nút Đồng ý để lưu lại cá
 Một số cấu hình có thể được thay đổi thông qua phím tắt sẽ được giới thiệu chi tiết dưới đây.
 
 ++ Cài đặt NVDA ++[NVDASettings]
-%kc:settingsSection: || Tên | Máy bàn | Xách tay | Mô tả |
+%kc:settingsSection: || Tên | Phím máy bàn | Phím xách tay | Mô tả |
 Hộp thoại cài đặt NVDA có thể dùng để thay đổi nhiều tham số cấu hình.
 Hộp thoại này có một danh sách với vài phân loại cấu hình để người dùng lựa chọn.
 Khi bạn chọn một phân loại, hộp thoại sẽ hiển thị  vài thiết lập liên quan đến phân loại đó.
@@ -1134,7 +1134,7 @@ Hiện nó không thể hỗ trợ tùy chọn giảm âm này cho phiên bản 
 +++ Thiết lập nhanh tham số cho giọng đọc +++[SynthSettingsRing]
 Ngoài việc thay đổi các tham số cho giọng đọc trong phân loại tiếng nói, bạn còn có thể thay đổi chúng bằng các phím tắt ở bất cứ nơi nào.Dưới đây là các phím tắt đó:
 %kc:beginInclude
-|| Chức năng | Máy bàn | Xách tay | Mô tả |
+|| Chức năng | Phím máy bàn | Phím xách tay | Mô tả |
 | Chuyển tới tham số tiếp theo của giọng đọc | NVDA+control+mũi tên phải | NVDA+shift+control+mũi tên phải | Chuyển tới tham số tiếp theo của giọng đọc, nếu hết thì sẽ quay vòng |
 | Chuyển tới tham số trước đó của giọng đọc | NVDA+control+mũi tên trái | NVDA+shift+control+mũi tên trái | Chuyển tới tham số trước đó của giọng đọc, nếu hết thì sẽ quay vòng |
 | Tăng giá trị cho tham số hiện tại | NVDA+control+mũi tên lên | NVDA+shift+control+mũi tên lên | Tăng giá trị cho tham số hiện tại |
@@ -1692,7 +1692,7 @@ Hoặc quay lại cấu hình gốc ban đầu của NVDA bằng cách chọn m�
 
 Dưới đây là một số phím tắt lưu cấu hình:
 %kc:beginInclude
-|| chức năng | Máy bàn | Xách tay | Mô tả |
+|| chức năng | Phím máy bàn | Phím xách tay | Mô tả |
 | Lưu thông tin cấu hình | NVDA+control+c | NVDA+control+c | Lưu lại thông tin cấu hình ở thời điểm hiện tại và sẽ không bị mất khi thoát khỏi NVDA |
 | Phục hồi lại cấu hình đã lưu | NVDA+control+r | NVDA+control+r | Nhấn một lần để quay lại cấu hình đã lưu trước đó, nhấn ba lần để phục hồi lại cấu hình gốc |
 %kc:endInclude
