@@ -2690,7 +2690,7 @@ Vui lòng xem Tài Liệu của màn hình cho phần mô tả vị trí các ph
 | Phím alt | dot8+space, l6 |
 | Bật tắt phím  alt | dot1+dot8+space, dot4+dot8+space |
 | ToggleHID keyboard input simulation | esytime):l1+joystick1Down, esytime):l8+joystick1Down |
-%kc:endInclude+
+%kc:endInclude
 
 ++ BRLTTY ++[BRLTTY]
 [BRLTTY http://www.brltty.com/] là một chương trình đọc lập, có thể sử dụng để hỗ trợ nhiều dòng màn hình nổi hơn.
