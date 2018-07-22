@@ -1513,12 +1513,12 @@ Với tùy chọn này cho phép NVDA tiếp cận được với các kiểu b�
 Khi được bật và gặp các bảng có kiểu trình bày khác nhau nhưng NVDA vẫn hỗ trợ thao tác trên bảng như các bảng thông thường khác.
 Nếu không chọn, thì NVDA chỉ thông báo nội dung mà sẽ không hỗ trợ di chuyển trong bảng.
 Tuy nhiên, nội dung của bảng vẫn sẽ là các văn bản bình thường.
-Mặc định nó không được chọn.
+Mặc định, nó không được chọn.
 
 Để bật/tắt chế độ duyệt đơn giản ở bất kỳ nơi nào, hãy gán phím tắt cho tính năng này trong hộp thoại [Quản lý thao tác #InputGestures].
 
 ==== Cấu hình thông báo các thành phần như liên kết và tiêu đề ====[BrowseModeLinksAndHeadings]
-Xem thêm thông tin cấu hình các tùy chọn trong phân loại [Định dạng tài liệu #DocumentFormattingSettings] ttrong hộp thoại cấu hình của NVDA để thiết lập các tùy chọn thông báo cho các thành phần như liên kết, tiêu đề, bảng vvv.
+Xem thêm thông tin cấu hình các tùy chọn trong phân loại [Định dạng tài liệu #DocumentFormattingSettings] ttrong hộp thoại cấu hình của NVDA để thiết lập các tùy chọn thông báo cho các thành phần như liên kết, tiêu đề, bảng v...v...
 
 ==== Tự động chuyển sang chế độ focus khi focus thay đổi ====[BrowseModeSettingsAutoPassThroughOnFocusChange]
 Tùy chọn này cho phép tự động chuyển sang chế độ focus khi thay đổi focus trong tài liệu.
@@ -1536,7 +1536,7 @@ Mặc định, tùy chọn này cho phép bạn chặn các thao tác như nhấ
 Ví dụ khi tùy chọn này được bật, khi nhấn chữ j, nó sẽ bị chặn lại, không được gửi đến tài liệu. Mặc dù, nó không phải là phím lệnh di chuyển nhanh và cũng không phải là phím lệnh của ứng dụng đang có focus.
 
 +++ Thiết Lập Định Dạng Tài Liệu (NVDA+control+d) +++[DocumentFormattingSettings]
-Các mục trong cửa sổ phân loại này là các thành phần thông tin sẽ được thông báo khi bạn duyệt tài liệu.
+Các mục trong phân loại này là các thành phần thông tin sẽ được thông báo khi bạn duyệt tài liệu.
 Ví dụ nếu bạn chọn mục thông báo tên phông chữ thì khi bạn duyệt tài liệu, nếu đến vùng nội dung có phông chữ khác nhau thì nó sẽ tự động thông báo tên phông chữ đó cho bạn.
 
 Tùy chọn định dạng tài liệu được tổ chức theo dạng nhóm
@@ -1653,13 +1653,12 @@ Lưu ý, thiết lập trong hộp thoại này dựa vào thiết lập của t
 - Mục Gửi ký hiệu gốc đến bộ đọc sẽ xác định nếu phần thay thế ngược với ký hiệu, nó sẽ gửi trực trực tiếp đến bộ đọc.
 Điều này sẽ hữu ích khi ký hiệu có nhiệm vụ làm bộ đọc ngưng nghỉ hoặc thay đổi ngữ điệu.
 Ví dụ, bộ đọc sẽ ngưng khi gặp dấu phẩy.
-Có 3 lựa chọn:
+Có ba lựa chọn:
  - Không bao giờ: không gửi ký hiệu gốc đến bộ đọc.
  - Luôn luôn: luôn luôn gửi ký hiệu gốc đến bộ đọc.
  - Chỉ dưới mức độ của ký hiệu: gửi ký hiệu gốc khi mức độ đọc ký hiệu thấp hơn mức độ được thiết lập cho ký hiệu này.
 Ví dụ, bạn có thể muốn một ký hiệu sẽ đọc lên với phần thay thế của nó ở mức độ cao hơn và không cần ngưng nghỉ; nhưng vẫn ngưng nghỉ ở mức độ thấp hơn.
  -
--
 
 Kích hoạt nút Thêm để thêm vào ký hiệu mới.
 Nhập vào ký hiệu trong hộp thoại vừa xuất hiện và kích hoạt nút Đồng ý.
@@ -1670,7 +1669,7 @@ Kích hoạt nút Xóa để xóa các ký hiệu thêm vào trước đây.
 Khi hoàn tất, nhấn nút Đồng ý để lưu lại, hoặc nhấn nút Hủy bỏ để bỏ qua và đóng hộp thoại lại.
 
 +++ Quản Lý Thao Tác +++[InputGestures]
-Trong cửa sổ này bạn có thể thay đổi các phím tắt trên bàn phím và màn hình nổi đang được sử dụng.
+Trong cửa sổ này, bạn có thể thay đổi các phím tắt trên bàn phím và màn hình nổi đang được sử dụng.
 
 Việc thay đổi chỉ có hiệu lực ngay lập tức đối với các phím tắt ở chế độ hiện tại.
 Ví dụ nếu như bạn đang ở chế độ duyệt tài liệu (browse mode) và mở cửa sổ này để thay đổi phím tắt cho chế độ duyệt đó, thì các phím tắt mới sẽ có hiệu lực ngay lập tức.
@@ -1685,7 +1684,7 @@ Thông thường thì một phím tắt có thể được thực hiện theo c�
 Ví dụ như khi bạn nhấn một phím trên bàn phím bạn có thể thiết lập cho nó thực hiện theo kiểu Desktop hay Laptop hoặc cả hai.
 Một thực đơn sẽ xuất hiện cho phép bạn chọn các kiểu bàn phím đó.
 
-Để xóa một phím tắt cho một chức năng nào đó, chọn phím tắt đó rồi chọn tiếp nút xóa.
+Để xóa một phím tắt cho một chức năng nào đó, chọn phím tắt đó rồi chọn tiếp nút Xóa.
 
 Khi bạn hoàn tất, chọn nút Đồng ý để lưu lại các thay đổi hoặc chọn nút Hủy bỏ để bỏ qua các thay đổi đó.
 
@@ -1699,7 +1698,7 @@ Hoặc quay lại cấu hình gốc ban đầu của NVDA bằng cách chọn m�
 
 Dưới đây là một số phím tắt lưu cấu hình:
 %kc:beginInclude
-|| chức năng | Desktop | Laptop | Mô tả |
+|| chức năng | Máy bàn | Xách tay | Mô tả |
 | Lưu thông tin cấu hình | NVDA+control+c | NVDA+control+c | Lưu lại thông tin cấu hình ở thời điểm hiện tại và sẽ không bị mất khi thoát khỏi NVDA |
 | Phục hồi lại cấu hình đã lưu | NVDA+control+r | NVDA+control+r | Nhấn một lần để quay lại cấu hình đã lưu trước đó, nhấn ba lần để phục hồi lại cấu hình gốc |
 %kc:endInclude
