@@ -1393,9 +1393,6 @@ Ova opcija vam omogućuje izgovaranje pozicije objekta kad se krećete po objekt
 Ako je izvještavanje o poziciji objekta uključeno, Ova opcija omogućuje NVDA pogađanje pozicije objekta za određenu kontrolu kad je ista nedostupna.
 Kad je ova opcija uključena, NVDA će čitati informacije za više kontrola kao što mogu biti izbornici i alatne trake, međutim, ove informacije mogu biti malčice neprecizne.
 
-==== Reproduciraj koordinate objekta ====[ObjectPresentationObjectCoordinates]
-Kada odaberete ovaj otvrdni okvir, moči ćete doznati gdje se nalazi objekt na zaslonu. To je korisno, ako koristite dodirne geste za navigaciju po objektima.
-
 ==== Izvijesti o opisima objekata ====[ObjectPresentationReportDescriptions]
 Maknite kvačicu s ovog potvrdnog okvira uz pomoć razmaknice ako ne želite da opis uz objekt bude pročitan.
 
