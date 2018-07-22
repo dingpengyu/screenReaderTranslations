@@ -2227,9 +2227,8 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Cuộn về trước | leftSideScrollUp, rightSideScrollUp, leftSideScroll |
 | Cuộn tới | leftSideScrollDown, rightSideScrollDown, rightSideScroll |
 | Chuyển về dòng trước | leftSideScrollUp+rightSideScrollUp |
-+| Move braille display to next line | leftSideScrollDown+rightSideScrollDown |
+| Move braille display to next line | leftSideScrollDown+rightSideScrollDown |
 | Chuyển đến dòng trước | rightSideUpArrow |
-
 | Chuyển đến dòng kế | rightSideDownArrow |
 | Chuyển đến kí tự trước | rightSideLeftArrow |
 | Chuyển đến kí tự kế | rightSideRightArrow |
@@ -2279,7 +2278,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Phím shift+mũi tên xuống | space+rightSideScrollDown |
 | Phím escape | dot1+dot5+space, f4, brailleedge:f1 |
 | Phím delete | dot1+dot3+dot5+space |
-Phím f1 | dot1+dot2+dot5+space |
+| Phím f1 | dot1+dot2+dot5+space |
 | Phím f3 | dot1+dot2+dot4+dot8 |
 | Phím f4 | dot7+f3 |
 | Phím windows+b | dot1+dot2+f1 |
