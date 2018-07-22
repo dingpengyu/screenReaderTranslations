@@ -891,10 +891,10 @@ Kí tự di chuyển nhanh được hỗ trợ cho các liên kết và hình �
 +++ Chọn văn bản +++[KindleTextSelection]
 Kindle cho phép bạn thực hiện nhiều thao tác trên văn bản được chọn, bao gồm lấy định nghĩa từ điển, thêm ghi chú và đánh dấu, sao chép văn bản vào bộ nhớ tạm và tìm kiếm trên web.
  Để làm điều đó, trước tiên, hãy chọn văn bản một cách bình thường như bạn vẫn làm ở chế độ duyệt; ví dụ: dùng shift và các phím di chuyển con trỏ.
-
 %kc:beginInclude
-Bạn có thể tự chuyển trang với phím Trang trước hoặc phím Trang kế để chuyển về trang trước hoặc trang kế đó.
+Sau khi chọn nội dung, bạn nhấn phím application hoặc shift+f10 để xem các tùy chọn hiện có.
 %kc:endInclude
+Nếu bạn thực hiện bước trên khi không có nội dung nào được chọn thì nó sẽ hiển thị các tùy chọn cho từ tại vị trí con trỏ.
 
 Ký tự di chuyển đơn được hỗ trợ cho liên kết và hình ảnh, nhưng chỉ làm việc trong trang hiện tại.
 Điều hướng qua liên kết cũng được bao gồm phần chú thích chân.
@@ -902,13 +902,7 @@ Ký tự di chuyển đơn được hỗ trợ cho liên kết và hình ảnh, 
 NVDA hỗ trợ cơ bản đọc và tương tác với nội dung toán tiếp cận.
 +Vui lòng xem phần [Đọc Nội Dung Toán #ReadingMath] để biết thêm thông tin.
 
-+++ Chọn Nội Dung +++
-Kindle cho phép bạn thực hiện nhiều chức năng ở vùng nội dung được chọn, ví như tra cứu định nghĩa trong từ điển, ghi chú, đánh dấu, sao chép lên bộ nhớ tạm và tìm kiếm trên web.
-Để thực hiện việc này, trước hết, bạn chọn nội dung như khi bạn làm ở chế độ duyệt; nhấn shift cộng với phím con trỏ. 
-%kc:beginInclude
-Sau khi chọn nội dung, bạn nhấn phím application hoặc shift+f10 để xem các tùy chọn hiện có.
-%kc:endInclude
-Nếu bạn thực hiện bước trên khi không có nội dung nào được chọn thì nó sẽ hiển thị các tùy chọn cho từ tại vị trí con trỏ.
+
 
 +++ Ghi Chú Người Đọc +++[KindleUserNotes]
 Bạn có thể ghi chú cho một từ hoặc một đoạn.
