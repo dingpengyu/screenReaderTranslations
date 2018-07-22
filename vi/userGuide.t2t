@@ -2346,7 +2346,7 @@ Sau đây là các phím có trên những màn hình nổi này:
 | right2 | Qua phải 2 bước |
 | dn | xuống 1 bước |
 | dn2 | Xuống 2 bước |
-
+%kc:endInclude
 Sau đây là các lệnh được gán của Papenmeier cho NVDA:
 %kc:beginInclude
 || Tên | Phím |
