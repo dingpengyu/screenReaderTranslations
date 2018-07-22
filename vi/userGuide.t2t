@@ -610,7 +610,7 @@ Nếu bạn sử dụng màn hình nổi, NVDA có thể xuất thông tin ra d�
 Nếu màn hình nổi của bạn có bàn phím kiểu Perkins, bạn có thể nhập liệu chữ nổi dưới dạng đầy đủ và viết tắt.
 
 Vui lòng xem phần [các màn hình nổi được hỗ trợ #SupportedBrailleDisplays] để biết thêm thông tin các mẫu được hỗ trợ.
-Bạn có thể cấu hình màn hình nổi với phân loại [Chữ nổi #BrailleSettings] trong [hộp thoại cấu hình của NVDA #NVDASettings.
+Bạn có thể cấu hình màn hình nổi với phân loại [Chữ nổi #BrailleSettings] trong [hộp thoại cấu hình NVDA #NVDASettings.
 
 ++ Quy ước viết tắt cho loại điều khiển, trạng thái và cột mốc ++[BrailleAbbreviations]
 Để giúp hiển thị thông tin đầy đủ trên màn hình nổi, sau đây là một số quy ước viết tắt cho các loại điều khiển, trạng thái và cột mốc.
@@ -702,7 +702,7 @@ Và sau đây là những quy ước viết tắt cho cột mốc:
 
 ++ Nhập Liệu Chữ Nổi ++[BrailleInput]
 NVDA hỗ trợ nhập liệu chữ nổi dưới dạng đầy đủ và viết tắt.
-Bạn có thể chọn bảng chuyển đổi chữ nổi để chuyển từ chữ nổi sang dạng văn bản thông thường trong phần cài đặt [bảng nhập liệu #BrailleSettingsInputTable] ở phân loại chữ nổi trong [hộp thoại cấu hình của NVDA #NVDASettings].
+Bạn có thể chọn bảng chuyển đổi chữ nổi để chuyển từ chữ nổi sang dạng văn bản thông thường trong phần cài đặt [bảng nhập liệu #BrailleSettingsInputTable] ở phân loại chữ nổi trong [hộp thoại cấu hình NVDA #NVDASettings].
 
 Khi nhập liệu chữ đầy đủ, văn bản sẽ được chuyển dịch ngay sau lúc gõ vào..
 Khi dùng chữ tắt, văn bản sẽ được chuyển dịch sau khi nhấn phím khoảng trắng hoặc enter ở cuối mỗi từ.
@@ -725,7 +725,7 @@ Mặc định thì đối tượng điều hướng sẽ đi theo focus hệ th�
 Ví dụ, nếu bạn di chuyển con trỏ ở chế độ duyệt đến một hình ảnh và thực hiện lệnh nhận dạng, NVDA sẽ nhận dạng văn bản của ảnh đó.
 Tuy nhiên, bạn cũng có thể dùng lệnh duyệt đối tượng để nhận dạng nội dung trên toàn bộ cửa sổ ứng dụng.
 
-Khi hoàn tất nhận dạng, kết quả sẽ hiển thị trong một tài liệu như khi ở chế độ duyệt, cho phép đọc thông tin với con trỏ vvv.
+Khi hoàn tất nhận dạng, kết quả sẽ hiển thị trong một tài liệu như khi ở chế độ duyệt, cho phép đọc thông tin với con trỏ v...v...
 Nhấn enter hoặc phím khoảng trắng để kích hoạt văn bản tại vị trí con trỏ nếu có thể.
 Nhấn escape để bỏ qua kết quả nhận dạng.
 
@@ -747,9 +747,9 @@ NVDA cung cấp một số phím tắt mở rộng để hỗ trợ người dù
 
 +++ Tự động đọc tiêu đề dòng và cột +++[WordAutomaticColumnAndRowHeaderReading]
 NVDA sẽ tự động thông báo tiêu đề dòng và cột khi duyệt qua các bảng trong Word.
-Để làm được điều này, trước tiên, phải bật tùy chọn thông báo tiêu đề dòng / cột trong phân loại Định dạng tài liệu trong [hộp thoại cấu hình của NVDA #NVDASettings].
+Để làm được điều này, trước tiên, phải bật tùy chọn thông báo tiêu đề dòng / cột trong phân loại Định dạng tài liệu trong [hộp thoại cấu hình NVDA #NVDASettings].
 Tiếp theo, NVDA cần biết dòng nào cột nào chứa tiêu đề trong bảng bất kỳ.
-Sau đó chuyển đến ô đầu tiên của dòng hoặc cột chứa tiêu đề, có thể sử dụng một số phím tắt sau:  
+Sau đó, chuyển đến ô đầu tiên của dòng hoặc cột chứa tiêu đề, có thể sử dụng một số phím tắt sau:  
 
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
@@ -785,7 +785,7 @@ Tất cả các chú thích cũng như những thay đổi liên quan của tài
 
 +++ Tự Động Đọc Tiêu Đề Dòng Và Cột +++[ExcelAutomaticColumnAndRowHeaderReading]
 Khi di chuyển trong bảng tính của Excel, NVDA hoàn toàn có thể tự động đọc các tiêu đề của cột và dòng.
-Trước hết, bạn cần bật mục thông báo tiêu đề dòng/cột trong phân loại Định dạng tài liệu, được tìm thấy trong [hộp thoại cấu hình của NVDA #NVDASettings].
+Trước hết, bạn cần bật mục thông báo tiêu đề dòng/cột trong phân loại Định dạng tài liệu, được tìm thấy trong [hộp thoại cấu hình NVDA #NVDASettings].
 Bước thứ hai là NVDA cần biết dòng hoặc cột nào có tiêu đề.
 Sau khi chuyển đến ô đầu tiên của cột hoặc dòng có tiêu đề, hãy thực hiện một trong các lệnh sau:
 
@@ -848,8 +848,8 @@ Khi bạn chuyển đến một biểu mẫu ở chế độ duyệt, nhấn ent
 %kc:beginInclude
 || Chức năng | Phím tắt | Mô tả |
 | Thông báo thời gian còn lại | control+shift+r | thông báo thời gian còn lại của bài hát hiện tại |
-| Thông báo thời gian đã qua | control+shift+e | Thông báo thời gian đã phát của  bản nhạc hiện tại. |
-| Thông báo độ dài | control+shift+t | Thông báo độ dài của bản nhạc hiện tại. |
+| Thông báo thời gian đã qua | control+shift+e | thông báo thời gian đã phát của  bài hát hiện tại |
+| Thông báo độ dài | control+shift+t | thông báo độ dài của bài hát hiện tại |
 %kc:endInclude
 
 Chú ý: các phím tắt trên chỉ hoạt động với định dạng mặc định cho dòng trạng thái của foobar
