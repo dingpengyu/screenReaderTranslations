@@ -1892,7 +1892,7 @@ Nếu sử dụng chuẩn này thì trong phân loại [tiếng nói #SpeechSett
 Microsoft Speech Platform cung cấp bộ đọc nhiều ngôn ngữ dựa trên máy chủ.
 Những giọng đọc đó có thể được sử dụng với NVDA.
 
-Để sử dụng được các giọng này bạn cần cài hai thành phần:
+Để sử dụng được các giọng này, bạn cần cài hai thành phần:
 - Microsoft Speech Platform - Runtime (Version 11) , x86: http://www.microsoft.com/download/en/details.aspx?id=27225
 - Microsoft Speech Platform - Runtime Languages (Version 11): http://www.microsoft.com/download/en/details.aspx?id=27224
  - Trang này bao gồm nhiều tập tin cho cả hai trình nhận dạng giọng nói và bộ đọc.
@@ -1905,11 +1905,11 @@ Ví dụ tập tin  MSSpeech_TTS_en-US_ZiraPro.msi là giọng cho tiếng anh m
 Windows 10 đi kèm với những giọng đọc mới được gọi là OneCore, hoặc còn gọi là "Mobil voices".
 Những giọng đọc mới này hỗ trợ cho khá nhiều ngôn ngữ khác nhau và có tính phản hồi nhanh hơn so với những giọng theo chuân SAPI-5.
 
-Vui lòng xem bài viết của Microsoft sau để biết danh sách các giọng và cách cài đặt: https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices
+Vui lòng xem bài viết sau của Microsoft để biết danh sách các giọng và cách cài đặt: https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices
 
 Lưu ý, chức năng đọc ở tốc độ nhanh hơn như trong Narrator vẫn chưa được hỗ trợ cho NVDA.
 Và tốc độ bạn thiết lập cho giọng với cài đặt của Windows sẽ có tác dụng lên NVDA.
-Hiện đây là những vấn đề mà chúng tôi chưa thể khắc phục nếu không thay đổi Windows.
+Hiện, đây là những vấn đề mà chúng tôi chưa thể khắc phục nếu không thay đổi Windows.
 Chúng tôi mong rằng những vấn đề này sẽ được sửa trong phiên bản cập nhật tương lai của Windows.
 
 ++ Audiologic Tts3 ++[Audiologic]
@@ -1929,7 +1929,7 @@ Bạn có thể tải về từ trang http://www2.freedomscientific.com/download
 Trên trang này chỉ thông báo cho dòng Focus Blue nhưng nó có thể sử dụng cho cả dòng Focus và Pacmate của Freedom Scientific.
 Nếu bạn dùng bản Windows 64-bit, cho dù các driver này đã được cài đặt bởi trình đọc màn hình khác, bạn vẫn nên cài lại bản driver tải về từ liên kết này.  Do có thể có những tập tin NVDA cần vẫn chưa được cài đặt.
 
-Mặc định NVDA sẽ tự động nhận các thiết bị này khi nó được kết nối qua cổng USB và bluetooth.
+Mặc định, NVDA sẽ tự động nhận các thiết bị này khi nó được kết nối qua cổng USB và bluetooth.
 Tuy nhiên, khi cấu hình màn hình, bạn hoàn toàn có thể chọn cổng "USB" hoặc "bluetooth" để chỉ định cụ thể kiểu kết nối nào sẽ được sử dụng.
 Điều này sẽ thích hợp khi bạn kết nối màn hình Focus với NVDA để sử dụng cổng bluetooth nhưng vẫn muốn nạp bin bằng cáp USB từ máy tính.
 
@@ -1983,11 +1983,11 @@ Dành cho Focus 80:
 | Cuộn màn hình nổi tới | leftBumperBarDown, rightBumperBarDown |
 %kc:endInclude
 
-++ Optelec ALVA 6 series/protocol converter ++[OptelecALVA]
+++ Optelec ALVA dòng 6 / có bộ chuyển giao thức ++[OptelecALVA]
 Cả hai mẫu màn hình ALVA BC640 và BC680 của hãng [Optelec http://www.optelec.com/] đều được hỗ trợ khi kết nối qua cổng USB và bluetooth.
 Mặt khác, bạn có thể kết nối một màn hình cũ của Optelec như Braille Voyager, thông qua bộ chuyển đổi giao thức được cung cấp bởi Optelec.
 Bạn không cần phải cài driver để sử dụng màn hình này.
-Đơn giản chỉ kết nối với máy tính và cấu hình cho NVDA để sử dụng.
+Đơn giản, chỉ kết nối với máy tính và cấu hình cho NVDA để sử dụng.
 
 Lưu ý: NVDA có thể không dùng được màn hình ALVA BC6 thông qua Bluetooth khi ghép nối bằng tiện ích ALVA  Bluetooth.
 Khi bạn ghép nối thiết bị bằng tiện ích này và NVDA không nhận được nó, chúng tôi khuyến cáo ghép nối màn hình ALVA bằng cách phổ biến là thiết lập cho Bluetooth thông qua Windows.
@@ -2044,7 +2044,7 @@ Các màn hình nổi sau đây không còn dược hỗ trợ, nhưng có thể
 - Braillino
 - Bookworm
 - Màn hình Modular với firmware phiên bản 1.13 hay thấp hơn. Lưu ý rằng firmware của màn hình này có thể cập nhật được.
-+-
+-
 Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
 %kc:beginInclude
