@@ -6,17 +6,17 @@
 = 2018.3 =
 
 == Nove značajke ==
-- NVDA will report grammar errors when appropriately exposed by web pages in Mozilla Firefox. (#8280)
-- Added support for BrailleNote QT and Apex BT's scroll wheel when BrailleNote is used as a braille display with NVDA. (#6316)
-- Added scripts for reporting elapsed and total time of current track in Foobar2000. (#6596)
-- The Mac command key symbol (⌘) is now announced when reading text with any synthesizer. (#8366)
-- custom roles via the aria-roledescription attribute are now supported in Firefox, Chrome and Internet Explorer.
-- New braille table: Swedish 8 dot computer braille. (#8227)
+- U mozilla firefoxu, NVDA će sada izvještavati o gramatičkim pogreškama tamo, gdje su one pokazane. (#8280)
+- Dodana podrška za BrailleNote QT i Apex BT's pomični kotačić kada se  BrailleNote koristi kao brajični redak sa NVDA. (#6316)
+- Dodana skripta za izvještavanje o cjelovitom i preostalom vremenu trajanja audio zapisa Foobar2000. (#6596)
+- Simbol mac komandne tipke (⌘) sada se izgovara prilikom čitanja teksta bilo kojim sintetizatorom govora. (#8366)
+- Prilagođene uloge preko aria-roledescription atributa sada su podržane u Firefoxu, Chromeu i Internet Exploreru.
+- Nova brajična tablica: Švedski osmotočkasta brajica. (#8227)
 
 
 == Izmjene ==
-- the list of available languages in the General Settings dialog is now sorted based on language names instead of ISO 639 codes. (#7284)
-- Add default gestures for alt shift tab and windows tab with all supported Freedom Scientific braille displays. (#7387)
+- Popis dostupnih jezika u dijaloškom okviru općenitih postavki sada je sortiran po imenima jezika umjesto po ISO 639 kodovima. (#7284)
+- dodane podrazumjevane prečice za alt shift tab i windows tab za sve fokus freedomscientific brajične redke. (#7387)
 - The user is now asked once on NVDA start-up if they are happy sending usage statistics to NV Access when automatically checking for updates. (#8217)
 - When checking for updates, if the user has agreed to allow sending usage statistics to NV Access, NVDA will now send the name of the current synth driver and braille display in use, to aide in better prioritization for future work on these drivers. (#8217)
 - Updated liblouis braille translator to version 3.6.0. (#8365)
