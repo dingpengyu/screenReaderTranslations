@@ -2757,7 +2757,7 @@ Sau đây là các tùy chọn dòng lệnh cho NVDA:
 | Không có | --install-silent | Cài đặt NVDA ở chế độ im lặng (không chạy lên sau khi cài đặt) |
 | Không có | --create-portable | Tạo bản NVDA chạy trực tiếp (chạy lên sau khi tạo). yêu cầu khai báo đường dẫn cho bản chạy trực tiếp |
 | Không có | --create-portable-silent | Tạo bản NVDA chạy trực tiếp ở chế độ im lặng (không chạy lên sau khi cài). yêu cầu khai báo đường dẫn cho bản chạy trực tiếp |
-+| Không có | --portable-path=PORTABLEPATH | đường dẫn để tạo bản chạy trực tiếp |
+| Không có | --portable-path=PORTABLEPATH | đường dẫn để tạo bản chạy trực tiếp |
 
 ++ Các Tham Số Mở Rộng Hệ Thống ++[SystemWideParameters]
 NVDA cho phép thiết lập một số giá trị trong registry hệ thống để thay thế cách hoạt động ở mức hệ thống của NVDA.
