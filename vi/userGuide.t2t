@@ -314,7 +314,7 @@ Dưới đây là các phím tắt mà NVDA cung cấp cho việc thao tác vớ
 
 
 Khi ở trong bảng thì dùng các phím tắt sau để thao tác:
-|| Chức năng | Phím | Mô tả |
+|| Chức năng | Phím tắt | Mô tả |
 | Chuyển về cột trước | control+alt+mũi tên trái | Đưa con trỏ về cột trước đó ( vẫn ở trên cùng dòng) |
 | Chuyển sang cột kế tiếp | control+alt+mũi tên phải | Đưa con trỏ sang cột kế tiếp (vẫn ở trên cùng dòng) |
 | Chuyển lên dòng trên | control+alt+mũi tên lên | Đưa con trỏ lên dòng trên ( vẫn ở trong cùng cột) |
