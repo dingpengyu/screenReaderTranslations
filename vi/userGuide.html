@@ -176,7 +176,7 @@
   <LI><A HREF="#SupportedBrailleDisplays">14. Hỗ trợ màn hình nổi (Braille Displays)</A>
     <UL>
     <LI><A HREF="#FreedomScientificFocus">14.1. Freedom Scientific Focus/PAC Mate Series</A>
-    <LI><A HREF="#OptelecALVA">14.2. Optelec ALVA 6 series/protocol converter</A>
+    <LI><A HREF="#OptelecALVA">14.2. Optelec ALVA dòng 6 / có bộ chuyển giao thức</A>
     <LI><A HREF="#HandyTech">14.3. Các Màn Hình Handy Tech</A>
     <LI><A HREF="#MDVLilli">14.4. MDV Lilli</A>
     <LI><A HREF="#Baum">14.5. Màn Hình Nổi Baum/Humanware/APH/Orbit</A>
@@ -3914,7 +3914,7 @@ Microsoft Speech Platform cung cấp bộ đọc nhiều ngôn ngữ dựa trên
 Những giọng đọc đó có thể được sử dụng với NVDA.
 </P>
 <P>
-Để sử dụng được các giọng này bạn cần cài hai thành phần:
+Để sử dụng được các giọng này, bạn cần cài hai thành phần:
 </P>
 
 <UL>
@@ -3935,12 +3935,12 @@ Windows 10 đi kèm với những giọng đọc mới được gọi là OneCor
 Những giọng đọc mới này hỗ trợ cho khá nhiều ngôn ngữ khác nhau và có tính phản hồi nhanh hơn so với những giọng theo chuân SAPI-5.
 </P>
 <P>
-Vui lòng xem bài viết của Microsoft sau để biết danh sách các giọng và cách cài đặt: <A HREF="https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices">https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices</A>
+Vui lòng xem bài viết sau của Microsoft để biết danh sách các giọng và cách cài đặt: <A HREF="https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices">https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices</A>
 </P>
 <P>
 Lưu ý, chức năng đọc ở tốc độ nhanh hơn như trong Narrator vẫn chưa được hỗ trợ cho NVDA.
 Và tốc độ bạn thiết lập cho giọng với cài đặt của Windows sẽ có tác dụng lên NVDA.
-Hiện đây là những vấn đề mà chúng tôi chưa thể khắc phục nếu không thay đổi Windows.
+Hiện, đây là những vấn đề mà chúng tôi chưa thể khắc phục nếu không thay đổi Windows.
 Chúng tôi mong rằng những vấn đề này sẽ được sửa trong phiên bản cập nhật tương lai của Windows.
 </P>
 
@@ -3974,7 +3974,7 @@ Trên trang này chỉ thông báo cho dòng Focus Blue nhưng nó có thể s�
 Nếu bạn dùng bản Windows 64-bit, cho dù các driver này đã được cài đặt bởi trình đọc màn hình khác, bạn vẫn nên cài lại bản driver tải về từ liên kết này.  Do có thể có những tập tin NVDA cần vẫn chưa được cài đặt.
 </P>
 <P>
-Mặc định NVDA sẽ tự động nhận các thiết bị này khi nó được kết nối qua cổng USB và bluetooth.
+Mặc định, NVDA sẽ tự động nhận các thiết bị này khi nó được kết nối qua cổng USB và bluetooth.
 Tuy nhiên, khi cấu hình màn hình, bạn hoàn toàn có thể chọn cổng "USB" hoặc "bluetooth" để chỉ định cụ thể kiểu kết nối nào sẽ được sử dụng.
 Điều này sẽ thích hợp khi bạn kết nối màn hình Focus với NVDA để sử dụng cổng bluetooth nhưng vẫn muốn nạp bin bằng cáp USB từ máy tính.
 </P>
@@ -4165,13 +4165,13 @@ Dành cho Focus 80:
 </TABLE>
 
 <A NAME="OptelecALVA"></A>
-<H3>14.2. Optelec ALVA 6 series/protocol converter</H3>
+<H3>14.2. Optelec ALVA dòng 6 / có bộ chuyển giao thức</H3>
 
 <P>
 Cả hai mẫu màn hình ALVA BC640 và BC680 của hãng <A HREF="http://www.optelec.com/">Optelec</A> đều được hỗ trợ khi kết nối qua cổng USB và bluetooth.
 Mặt khác, bạn có thể kết nối một màn hình cũ của Optelec như Braille Voyager, thông qua bộ chuyển đổi giao thức được cung cấp bởi Optelec.
 Bạn không cần phải cài driver để sử dụng màn hình này.
-Đơn giản chỉ kết nối với máy tính và cấu hình cho NVDA để sử dụng.
+Đơn giản, chỉ kết nối với máy tính và cấu hình cho NVDA để sử dụng.
 </P>
 <P>
 Lưu ý: NVDA có thể không dùng được màn hình ALVA BC6 thông qua Bluetooth khi ghép nối bằng tiện ích ALVA  Bluetooth.
@@ -4345,10 +4345,12 @@ Các màn hình nổi sau đây không còn dược hỗ trợ, nhưng có thể
 <LI>Braillino
 <LI>Bookworm
 <LI>Màn hình Modular với firmware phiên bản 1.13 hay thấp hơn. Lưu ý rằng firmware của màn hình này có thể cập nhật được.
-+-
+</UL>
+
+<P>
 Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
-</UL>
+</P>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
