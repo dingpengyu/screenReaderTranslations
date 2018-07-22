@@ -2378,6 +2378,7 @@ Hiện nay, phím thumb phải không được sử dụng.
 Cả hai phím bên trong đều được gán cho phím khoảng trắng.
 
 || Tên | Phím |
+%kc:beginInclude
 | Phím escape | space with dot 7 |
 | Phím mũi tên lên | space with dot 2 |
 | Phím mũi tên trái | space with dot 1 |
@@ -2387,7 +2388,7 @@ Cả hai phím bên trong đều được gán cho phím khoảng trắng.
 | Phím alt | lt+dot3 |
 | Phím control+escape | space with dot 1 2 3 4 5 6 |
 | Phím tab | space with dot 3 7 |
-
+%kc:endInclude 
 
 ++ Các Mẫu Papenmeier Braille BRAILLEX Cũ ++[PapenmeierOld]
 Các màn hình nổi sau đây được hỗ trợ:
