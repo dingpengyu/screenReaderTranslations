@@ -2332,8 +2332,7 @@ Dòng sản phẩm Live chỉ có một dòng phím routing và mỗi chiều c�
 Bước thứ hai có thể thực hiện bằng cách nhấn một phím routing và nhấn EAB theo chiều tương ứng.
 Nhấn, giữ phím lên, xuống, trái, phải (hoặc EAB) sẽ lập lại thao tác tương ứng. 
 
-Sau đây là các phím có trên những màn hình nổi này:
-%kc:beginInclude
+Sau đây là các phím có trên những màn hình nổi này:%kc:beginInclude
 || Tên | Phím |
 | l1 | Phím trái trước |
 | l2 | Phím trái sau |
@@ -2347,7 +2346,7 @@ Sau đây là các phím có trên những màn hình nổi này:
 | right2 | Qua phải 2 bước |
 | dn | xuống 1 bước |
 | dn2 | Xuống 2 bước |
-%kc:endInclude
+
 Sau đây là các lệnh được gán của Papenmeier cho NVDA:
 %kc:beginInclude
 || Tên | Phím |
