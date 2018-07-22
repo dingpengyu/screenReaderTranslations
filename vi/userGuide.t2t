@@ -881,7 +881,7 @@ Chức năng này chỉ dành cho các sách Kindle có hỗ trợ trình đọc
 Chế độ duyệt được dùng để đọc sách.
 Nó được tự động bật khi mở sách hoặc đưa focus đến phần nội dung sách.
 Trang sách sẽ tự động được chuyển khi di chuyển con trỏ hoặc thực hiện lệnh đọc toàn bộ.
-Bạn có thể di chuyển bằng tay đến trangnn kế với phím pageDown và trở về trang trước
+Bạn có thể di chuyển bằng tay đến trang kế với phím trang sau và trở về trang trước
 Kí tự di chuyển nhanh được hỗ trợ cho các liên kết và hình ảnh, nhưng chỉ giới hạn ở trang hiện tại.
 Điều hướng qua liên kết cũng đã bao gồm các chú thích chân trang.
 
@@ -890,25 +890,25 @@ Kí tự di chuyển nhanh được hỗ trợ cho các liên kết và hình �
 
 +++ Chọn văn bản +++[KindleTextSelection]
 Kindle cho phép bạn thực hiện nhiều thao tác trên văn bản được chọn, bao gồm lấy định nghĩa từ điển, thêm ghi chú và đánh dấu, sao chép văn bản vào bộ nhớ tạm và tìm kiếm trên web.
- Để làm điều đó, trước tiên hãy chọn văn bản một cách bình thường như bạn vẫn làm ở chế độ duyệt; ví dụ: dùng shift và các phím di chuyển con trỏ.
+ Để làm điều đó, trước tiên, hãy chọn văn bản một cách bình thường như bạn vẫn làm ở chế độ duyệt; ví dụ: dùng shift và các phím di chuyển con trỏ.
 
 %kc:beginInclude
 Bạn có thể tự chuyển trang với phím Trang trước hoặc phím Trang kế để chuyển về trang trước hoặc trang kế đó.
 %kc:endInclude
 
 Ký tự di chuyển đơn được hỗ trợ cho liên kết và hình ảnh, nhưng chỉ làm việc trong trang hiện tại.
-Di chuyển qua liên kết cũng được bao gồm phần chú thích chân.
+Điều hướng qua liên kết cũng được bao gồm phần chú thích chân.
 
 NVDA hỗ trợ cơ bản đọc và tương tác với nội dung toán tiếp cận.
 +Vui lòng xem phần [Đọc Nội Dung Toán #ReadingMath] để biết thêm thông tin.
 
 +++ Chọn Nội Dung +++
-Kindle cho phép bạn thực hiện nhiều chức năng ở vùng nội dung được chọn, ví như tra cứu định nghĩa trong từ điển, ghi chú, đánh dấu, sao chép lên bộ nhớ đệm và tìm kiếm trên web.
-Để thực hiện việc này, trước hết bạn chọn nội dung như khi bạn làm ở chế độ duyệt; nhấn shift cộng với phím con trỏ. 
+Kindle cho phép bạn thực hiện nhiều chức năng ở vùng nội dung được chọn, ví như tra cứu định nghĩa trong từ điển, ghi chú, đánh dấu, sao chép lên bộ nhớ tạm và tìm kiếm trên web.
+Để thực hiện việc này, trước hết, bạn chọn nội dung như khi bạn làm ở chế độ duyệt; nhấn shift cộng với phím con trỏ. 
 %kc:beginInclude
 Sau khi chọn nội dung, bạn nhấn phím application hoặc shift+f10 để xem các tùy chọn hiện có.
 %kc:endInclude
-Nếu bạn thực hiện bước trên khi không có nội dung nào được chọn, thì nó sẽ hiển thị các tùy chọn cho từ tại vị trí con trỏ.
+Nếu bạn thực hiện bước trên khi không có nội dung nào được chọn thì nó sẽ hiển thị các tùy chọn cho từ tại vị trí con trỏ.
 
 +++ Ghi Chú Người Đọc +++[KindleUserNotes]
 Bạn có thể ghi chú cho một từ hoặc một đoạn.
@@ -917,7 +917,7 @@ Sau đó, chọn Add Note (Thêm ghi chú vào).
 
 NVDA sẽ xem những ghi chú này (note) như lời bình/chú thích (comment) khi đọc ở chế độ duyệt.
 
-Để xem chỉnh sửa xóa ghi chú:
+Để xem / chỉnh sửa xóa ghi chú:
 
 + Chuyển con trỏ đến nội dung có phần ghi chú.
 + Mở các tùy chọn cho vùng chọn như hướng dẫn ở trên.
@@ -934,30 +934,29 @@ Khi ở trong bảng xem các sách đã thêm vào:
 
 + Cấu hình NVDA +[ConfiguringNVDA]
 Hầu hết các cấu hình có thể thực hiện bằng   các hộp thoại được mở thông qua thực đơn tùy chọn trong thực đơn của NVDA.
-Nhiều thiết lập cũng có thể được  thực hiện  trong [hộp thoại nhiều trang  để cấu hình #NVDASettings].
+Nhiều thiết lập cũng có thể được  thực hiện  trong [hộp thoại nhiều trang  để cấu hình NVDA #NVDASettings].
 Trong tất cả các hộp thoại, nhấn nút Đồng ý để lưu lại các thay đổi.
  Để hủy bỏ các thay đổi, nhấn  nút Hủy bỏ hoặc escape.
- Trong một số hộp thoại, bạn có thể bấm nút Áp dụng để các thiết lập có hiệu lực lập tức mà không đóng hộp thoại.
+ Trong một số hộp thoại, bạn có thể nhấn nút Áp dụng để các thiết lập có hiệu lực lập tức mà không đóng hộp thoại.
 Một số cấu hình có thể được thay đổi thông qua phím tắt sẽ được giới thiệu chi tiết dưới đây.
 
 ++ Cài đặt NVDA ++[NVDASettings]
 %kc:settingsSection: || Tên | Máy bàn | Xách tay | Mô tả |
 Hộp thoại cài đặt NVDA có thể dùng để thay đổi nhiều tham số cấu hình.
-Hộp thoại này có một danh sách với vài phân loại cài đặt để người dùng lựa chọn.
+Hộp thoại này có một danh sách với vài phân loại cấu hình để người dùng lựa chọn.
 Khi bạn chọn một phân loại, hộp thoại sẽ hiển thị  vài thiết lập liên quan đến phân loại đó.
 Các thiết lập này có thể được áp dụng bằng cách nhấn nút  Áp dụng. trường hợp này, hộp thoại không bị đóng lại.
-Nếu muốn lưu thiết lập và đóng hộp thoại cài đặt NVDA, bạn có thế dùng nút Đồng ý.
-Nếu muốn lưu thiết lập và đóng hộp thoại cài đặt NVDA, bạn có thể dùng nút Đồng ý.
+Nếu muốn lưu thiết lập và đóng hộp thoại cấu hình NVDA, bạn có thế dùng nút Đồng ý.
 +
 Một số phân loại có thể gọi bằng phím tắt.
-Nếu bấm phím tắt, hộp thoại cài đặt NVDA sẽ được mở và con trỏ sẽ đi đến phân loại đó.
+Nếu bấm phím tắt, hộp thoại cấu hình NVDA sẽ được mở và con trỏ sẽ đi đến phân loại đó.
 Mặc định, không phải tất cả phân loại đều mở được bằng phím tắt.
 Nếu muốn mở phân loại nào không được gán phím tắt, hãy dùng [hộp thoại quản lý thao tác #InputGestures] để gán phím lệnh hay thao tác cảm ứng cho phân loại đó.
 +
-Dưới đây là các phân loại trong hộp thoại thiết lập của NVDA:
+Dưới đây là các phân loại trong hộp thoại cấu hình NVDA:
 
 +++ Thiết lập chung (NVDA+control+g) +++[GeneralSettings]
-Phân loại thiết lập chung trong hộp thoại thiết lập của NVDA cho phép thực hiện các thiết lập tổng thể như ngôn ngữ giao diện, có kiểm tra cập nhật phiên bản mới hay không.
+Phân loại thiết lập chung trong hộp thoại cấu hình NVDA cho phép thực hiện các thiết lập tổng thể như ngôn ngữ giao diện, có kiểm tra cập nhật phiên bản mới hay không.
 Phân loại này có các mục sau:
 
 ==== Ngôn ngữ ====[GeneralSettingsLanguage]
@@ -967,18 +966,18 @@ NVDA sẽ sử dụng ngôn ngữ mà hệ điều hành đang sử dụng.
 
 Chú ý là NVDA cần được khởi động lại để có hiệu lực khi bạn thay đổi ngôn ngữ.
 NVDA sẽ thông báo khi bạn chấp nhận thay đổi ngôn ngữ mới.
-Nhấn nút đồng ý là NVDA sẽ khởi động lại.
+Nhấn nút Đồng ý là NVDA sẽ khởi động lại.
 
 ==== Lưu cấu hình khi tắt NVDA ====[GeneralSettingsSaveConfig]
 Nếu được chọn, NVDA sẽ lưu các thay đổi của bạn ngay sau khi bạn tắt NVDA.
 
 ==== Cảnh báo khi thoát NVDA ====[GeneralSettingsShowExitOptions]
 Tùy chọn này là một hộp kiểm (check box), sẽ cho phép hiển thị một cửa sổ hỏi bạn có chắc chắn muốn thoát NVDA hay không.
-Nếu chọn, một cửa sổ sẽ xuất hiện hỏi bạn có muốn thoát NVDA, muốn khởi động lại  vô hiệu hóa các add-ons hoặc cài bản cập nhật đang chờ.
+Nếu chọn, một cửa sổ sẽ xuất hiện hỏi bạn có muốn thoát NVDA, muốn khởi động lại  vô hiệu hóa các add-on hoặc cài bản cập nhật đang chờ.
 Nếu không chọn, NVDA sẽ thoát ngay lập tức.
 
 ==== Phát âm thanh khi khởi động và thoát NVDA ====[GeneralSettingsPlaySounds]
-Lựa chọn tùy chọn này nếu bạn muốn có âm thanh thông báo khi khởi động và thoát NVDA.
+Đánh dấu tùy chọn này nếu bạn muốn có âm thanh thông báo khi khởi động và thoát NVDA.
 
 ==== Mức độ log ====[GeneralSettingsLogLevel]
 Cho phép bạn chọn cấp độ log trong NVDA.
@@ -995,13 +994,13 @@ Tùy chọn này chỉ có trong phiên bản cài đặt NVDA.
 
 ==== Sử dụng cấu hình hiện tại cho màn hình đăng nhập và các màn hình bảo vệ khác ====[GeneralSettingsCopySettings]
 Chọn nút này để copy cấu hình hiện tại tới thư mục cấu hình hệ thống của NVDA, khi đó NVDA sẽ sử dụng các cấu hình đó trong màn hình đăng nhập của windows, trong màn hình UAC hay các màn hình bảo vệ khác.
-Để chắc chắn các cấu hình đã được lưu trước khi copy, bạn nên nhấn tổ hợp phím ctrl + NVDA + C để lưu lại các thay đổi cấu hình của NVDA.
+Để chắc chắn các cấu hình đã được lưu trước khi sao chép, bạn nên nhấn tổ hợp phím ctrl + NVDA + C để lưu lại các thay đổi cấu hình của NVDA.
 Tùy chọn này chỉ có trong phiên bản cài đặt NVDA.
 
 ==== Tự động kiểm tra phiên bản NVDA mới ====[GeneralSettingsCheckForUpdates]
 Nếu được chọn thì NVDA sẽ tự động kiểm tra phiên bản mới và thông báo lại cho bạn nếu có.
 Bạn cũng có thể tự kiểm tra các phiên bản mới bằng cách chọn mục "Kiểm tra phiên bản mới" trong thực đơn Trợ giúp.
-Khi kiểm tra cập nhật thủ công hay tự động, cũng cần thiết để NVDA gửi vài thông tin tới máy chủ để nhận đúng bản cập nhật cho hệ thống của bạn.
+Khi kiểm tra cập nhật thủ công hay tự động, cũng cần thiết cho phép NVDA gửi vài thông tin tới máy chủ để nhận đúng bản cập nhật cho hệ thống của bạn.
 Các thông tin được gửi đi bao gồm:
 - Phiên bản NVDA hiện tại
 - Phiên bản hệ điều hành
@@ -1010,8 +1009,8 @@ Các thông tin được gửi đi bao gồm:
 
 ==== Cho phép dự án NVDA thu thập thống kê sử dụng NVDA ====[GeneralSettingsGatherUsageStats]
 Nếu được chọn, NV Access sẽ dùng các thông tin từ việc kiểm tra cập nhật để theo dõi số người dùng NVDA, bao gồm các thông tin cụ thể phiên bản hệ điều hành và quốc gia của bạn.
-Lưu ý rằng cho dù địa chỉ IP sẽ được dùng  để lấy số liệu thống kê tại quốc gia của bạn khi kiểm tra cập nhật, nó không bao giờ được lưu giữ.
-+Apart from the mandatory information required to check Ngoài những thông tin bắt buộc cho việc kiểm tra cập nhật, các thông tin sau đây cũng được gửi đi:
+Lưu ý rằng cho dù địa chỉ IP sẽ được dùng  để lấy số liệu thống kê tại quốc gia của bạn khi kiểm tra cập nhật, nhưng nó không bao giờ được lưu giữ.
+Ngoài những thông tin bắt buộc cho việc kiểm tra cập nhật, các thông tin sau đây cũng được gửi đi:
 - Ngôn ngữ giao diện của NVDA
 - NVDA được cài đặt hay chạy trực tiếp
 - Tên bộ đọc đang dùng (bao gồm tên add-on và driver của nó)
@@ -1031,12 +1030,12 @@ Nếu bật tùy chọn này, NVDA sẽ  thông báo cho bạn là có bản c�
 Bạn cũng có thể cài đặt  cập nhật thủ công từ hộp thoại thoát NVDA (nếu đã bật),  từ thực đơn NVDA, hoặc khi bạn thực hiện lệnh kiểm tra cập nhật từ thực đơn trợ giúp.
 
 +++ Thiết lập bộ đọc (NVDA+control+v) +++[SpeechSettings]
-Phân loại bộ đọc trong hộp thoại cài đặt của NVDA chứa tùy chọn cho phép bạn thay đổi bộ đọc cũng như các thuộc tính giọng đọc cho bộ đọc được chọn.
+Phân loại tiếng nói trong hộp thoại cấu hình NVDA chứa tùy chọn cho phép bạn thay đổi bộ đọc cũng như các thuộc tính giọng đọc cho bộ đọc được chọn.
 Để dùng một cách khác nhanh hơn và có thể thực hiện các thay đổi về giọng đọc ở bất cứ đâu, vui lòng xem phần [thiết lập giọng theo tham số #SynthSettingsRing] section.
 Có các tùy chọn sau trong phân loại này:
 
 ==== Thay đổi bộ đọc ====[SpeechSettingsChange]
-Mục đầu tiên trogn phân loại tiếng ngói là nút Thay đổi.... Nút này gọi chạy   hộp thoại [Chọn bộ đọc #SelectSynthesizer], which allows you to select the active speech synthesizer and output devicecho phép bạn chọn bộ đọc và thiết bị đầu ra.
+Mục đầu tiên trong phân loại tiếng nói là nút Thay đổi.... Nút này gọi chạy   hộp thoại [Chọn bộ đọc #SelectSynthesizer], cho phép bạn chọn bộ đọc và thiết bị đầu ra.
 Hộp thoại này được mở đè lên hộp thoại cấu hình NVDA.
 Việc lưu lại hay hủy bỏ các thiết lập trong hộp thoại này sẽ đưa bạn trở về hộp thoại cấu hình NVDA.
 
@@ -1110,9 +1109,9 @@ Tuy nhiên, một số bộ đọc SAPI5 không phát triển tính năng này n
 Nếu bạn có vấn đề khi bật chức năng này thì bạn nên tắt nó đi.
 
 +++ Chọn bộ đọc (NVDA+control+s) +++[SelectSynthesizer]
-Hộp thoại chọn bộ đọc, có thể mở bằng cách kích hoạt nút Thay đổi... trong phân loại  tiếng nói của hộp thoại thiết lập NVDA, cho phép bạn  chọn bộ đọc nào sẽ dùng với NVDA.
-khi chọn dược bộ đọc mong muốn, bạn có thể nhấn  Đồng ý và NVDA sẽ gọi bộ đọc đó.
-Nếu có lỗi khi gọi bộ đọc, NVDA sẽ thông báo cho bạn và dùng lại bộ đọc trước đó.
+Hộp thoại chọn bộ đọc, có thể mở bằng cách kích hoạt nút Thay đổi... trong phân loại  tiếng nói của hộp thoại cấu hình NVDA, cho phép bạn  chọn bộ đọc nào sẽ dùng với NVDA.
+khi chọn được bộ đọc mong muốn, bạn có thể nhấn  Đồng ý và NVDA sẽ gọi bộ đọc đó.
+Nếu có lỗi khi gọi bộ đọc, NVDA sẽ thông báo cho bạn và dùng lại bộ đọc cũ.
 
 ==== Các bộ đọc ====[SelectSynthesizerSynthesizer]
 Đây là danh sách các bộ đọc mà bạn có thể chọn một trong số chúng để dùng với NVDA.
