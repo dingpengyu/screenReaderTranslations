@@ -1122,8 +1122,8 @@ Trong danh sách các bộ đọc trên, có một mục là "Không đọc", n�
 chức năng này có thể hữu ích cho những người chỉ muốn  dùng NVDA với màn hình nổi hay các lập trình viên chỉ muốn xem các từ đã đọc.
 +
 ==== Thiết bị đầu ra ====[SelectSynthesizerOutputDevice]
-Cho phép bạn chọn thiết bị đầu ra cho bộ đọc mà bạn đã chọn để NVDA đọc.
-+
+Cho phép bạn chọn thiết bị đầu ra cho bộ đọc mà bạn đã chọn để NVDA đọc.+
+
 %kc:setting
 ==== Chế Độ Giảm Âm Lượng Ứng Dụng Khác ====[SelectSynthesizerDuckingMode]
 Phím tắt: NVDA+shift+d
@@ -1152,7 +1152,7 @@ Phân loại chữ nổi trong hộp thoại cấu hình của NVDA có các tù
 Phân loại này có các tùy chọn sau:
 
 ==== Thay đổi màn hình nổi ====[BrailleSettingsChange]
-Nút thay đổi... trong phân loại chữ nổi của hộp thoại cấu hình NVDA kích hoạt [hộp thoại chọn màn hình nổi #SelectBrailleDisplay] để lựa chọn màn hình sẽ dùng.
+Nút Thay đổi... trong phân loại chữ nổi của hộp thoại cấu hình NVDA kích hoạt [hộp thoại chọn màn hình nổi #SelectBrailleDisplay] để lựa chọn màn hình sẽ dùng.
 Hộp thoại này được mở đè lên hộp thoại cấu hình NVDA.
 Lưu hay hủy bỏ các thiết lập trong hộp thoại này sẽ đưa bạn trở về hộp thoại cấu hình NVDA.
 
@@ -1231,13 +1231,13 @@ Nếu bật tùy chọn này, có thể giúp bạn đọc trôi chảy hơn, nh
 Tùy chọn này cho phép chọn những thông tin ngữ cảnh nào sẽ hiển thị trên màn hình nổi khi một đối tượng có focus.
 Thông tin ngữ cảnh là những thông tin của những đối tượng liên quan theo cấp nằm trong đối tượng hiện tại.
 Ví dụ, khi đứng ở một mục trong danh sách, mục đó là một phần nằm trong đối tượng danh sách.
-Và danh sách là có thể nằm trong một hộp thoại, vvv.
-Vui lòng xem phần [Duyệt đối tượng #ObjectNavigation] để nắm rõ về khái niệm mối quan hệ giữa các đối tượng.
+Và danh sách là có thể nằm trong một hộp thoại, v...v...
+Vui lòng xem phần [Duyệt đối tượng #ObjectNavigation] để nắm rõ khái niệm về mối quan hệ giữa các đối tượng.
 
 Nếu chọn điền trên màn hình các thay đổi ngữ cảnh, NVDA sẽ hiển thị đầy đủ thông tin ngữ cảnh trên màn hình, nhưng lưu ý là nó chỉ hiển thị những phần ngữ cảnh thay đổi.
 Ví dụ như với trường hợp ở trên, khi đổi focus đến danh sách, màn hình nổi sẽ hiển thị mục trong danh sách đó.
 Nếu màn hình nổi còn ô trống, NVDA sẽ hiển thị thông tin báo mục đó thuộc danh sách.
-Và nếu bạn di chuyển giữa các mục trong danh sách với mũi tên, nó sẽ cho rằng  là bạn vẫn đang ở trong danh sách.
+Và nếu bạn di chuyển giữa các mục trong danh sách với mũi tên, nó sẽ cho rằng  bạn vẫn đang ở trong danh sách.
 Vì vậy, khi focus chuyển đến những mục còn lại trong danh sách, nó sẽ chỉ hiển thị mục đang có focus.
 Để đọc lại những thông tin ngữ cảnh trước đó, bạn cần phải cuộn màn hình nổi về trước.
 
@@ -1254,7 +1254,7 @@ Vì vậy, nó chỉ hiển thị bạn đang đứng tại mục có focus.
 Để chuyển đổi giữa các chế độ trình bày ngữ cảnh, bạn có thể gán phím lệnh tùy chỉnh cho nó trong [hộp thoại quản lý thao tác #InputGestures].
 
 +++ Chọn màn hình nổi (NVDA+control+a) +++[SelectBrailleDisplay]
-Hộp thoại chọn màn hình nổi, có thể mở bằng cách kích hoạt nút thay đổi... trong phân loại chữ nổi của hộp thoại cấu hình NVDA,cho phép bạn chọn màn hình để hiển thị đầu ra chữ nổi trong NVDA.
+Hộp thoại chọn màn hình nổi, có thể mở bằng cách kích hoạt nút Thay đổi... trong phân loại chữ nổi của hộp thoại cấu hình NVDA,cho phép bạn chọn màn hình để hiển thị đầu ra chữ nổi trong NVDA.
 Khi chọn được màn hình mong muốn, bạn có thế nhấn Đồng ý và NVDA sẽ gọi màn hình đã chọn.
 Nếu có  lỗi khi gọi các driver của màn hình, NVDA sẽ thông báo và tiếp tục dùng màn hình trước đó nếu có.
 +
@@ -1328,11 +1328,11 @@ Do vậy chức năng này khá hữu ích trong trường hợp trên.
 ==== Đọc phím lệnh ====[KeyboardSettingsSpeakCommandKeys]
 Phím bật/tắt: NVDA+4
 
-Nếu được chọn thì NVDA sẽ thông báo tất cả các phím lệnh (không phải phím chữ và phím số), ví dụ như phím ctrl, alt, shift, v..v hoặc tổ hợp phím lệnh đó với các phím khác như Ctrl + s.
+Nếu được chọn thì NVDA sẽ thông báo tất cả các phím lệnh (không phải phím chữ và phím số), ví dụ như phím ctrl, alt, shift, v...v... hoặc tổ hợp phím lệnh đó với các phím khác như Ctrl + s.
 
 ==== Phát âm thanh báo lỗi chính tả khi nhập liệu ====[KeyboardSettingsAlertForSpellingErrors]
 Nếu bật, một âm thanh ngắn sẽ được phát khi từ bạn gõ có lỗi chính tả.
-Tùy chọn này chỉ hoạt động khi tùy chọn thông báo lỗi chính tả được bật trong phân loại  [định dạng tài liệu #DocumentFormattingSettings], được tìm thấy trong hộp thoại cấu hình của NVDA.
+Tùy chọn này chỉ hoạt động khi tùy chọn thông báo lỗi chính tả được bật trong phân loại  [định dạng tài liệu #DocumentFormattingSettings], được tìm thấy trong hộp thoại cấu hình NVDA.
 
 ==== Quản lý phím từ ứng dụng khác ====[KeyboardSettingsHandleKeys]
 Tùy chọn này điều khiển việc nhập dữ liệu từ các ứng dụng như màn hình cảm ứng hay phần mềm nhận dạng tiếng nói. 
@@ -1366,7 +1366,7 @@ Di chuyển chuột sang trái hoặc phải, thì âm thanh sẽ phát ra loa t
 
 ==== Độ sáng kiểm soát âm lượng của tọa độ âm thanh ====[MouseSettingsBrightness]
 Nếu chọn "Phát tọa độ âm thanh khi chuột di chuyển" và chọn hộp kiểm này thì âm lượng của tọa độ âm thanh sẽ được kiểm soát bởi độ sáng màn hình tại vị trí chuột.
-Mặc định tùy chọn này không được chọn.
+Mặc định, tùy chọn này không được chọn.
 
 +++ Cài đặt tương tác cảm ứng +++[TouchInteraction]
 Phân loại này  chỉ xuất hiện trên các máy tính có màn hình cảm ứng, chạy Windows 8 trở lên, cho phép bạn thiết lập cách NVDA tương tác với màn hình cảm ứng.
@@ -1411,7 +1411,7 @@ Rất nhiều đối tượng trên các cửa sổ và trong Windows hiển th�
 
 ==== Đọc các thông báo trợ giúp ====[ObjectPresentationReportBalloons]
 Cho phép NVDA đọc thông báo trợ giúp nếu chúng xuất hiện.
-Thông báo trợ giúp (help bloon) thường là các thông báo xuất hiện trên các biểu tượng dưới khay hệ thống như tình trạng kết nối mạng, nhận biết thiết bị mới được cắm vào, v..v
+Thông báo trợ giúp (help bloon) thường là các thông báo xuất hiện trên các biểu tượng dưới khay hệ thống như tình trạng kết nối mạng, nhận biết thiết bị mới được cắm vào, v...v...
 
 ==== Thông báo phím tắt của đối tượng ====[ObjectPresentationShortcutKeys]
 Nếu được chọn thì NVDA sẽ thông báo phím tắt của đối tượng (nếu có).
@@ -1424,7 +1424,7 @@ Tùy chọn này cho phép bạn chọn NVDA thông báo vị trí của đối 
 Khi bật thông báo thông tin vị trí đối tượng ẩn, NVDA sẽ chẩn đoán và thông báo thông tin vị trí trong những trường hợp thông tin của đối tượng đó không có sẵn.
 
 Khi bật, NVDA sẽ thông báo vị trí đối tượng cho nhiều loại điều khiển hơn như thực đơn, thanh công cụ. Tuy nhiên, thông tin này có thể không được chính xác lắm.
-+
+
 ==== Thông Báo Mô Tả Của Đối Tượng ====[ObjectPresentationReportDescriptions]
 Bỏ chọn mục này nếu bạn không muốn NVDA đọc phần mô tả mỗi khi di chuyển đến một đối tượng.
 
