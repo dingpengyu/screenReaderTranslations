@@ -352,7 +352,7 @@ Sử dụng các phím tắt sau để duyệt qua các đối tượng:
 
 %kc:beginInclude
 || Chức năng | Phím máy bàn | Phím sách tay | Cảm ứng | Mô tả |
-| Thông báo đối tượng hiện tại | NVDA+5 bàn phím số | NVDA+shift+o | none | Thông báo đối tượng đang được duyệt hiện tại, nhấn hai lần để đánh vần thông tin, nhấn ba lần để chép thông tin vào bộ nhớ tạm |
+| Thông báo đối tượng hiện tại | NVDA+5 bàn phím số | NVDA+shift+o | không có | Thông báo đối tượng đang được duyệt hiện tại, nhấn hai lần để đánh vần thông tin, nhấn ba lần để chép thông tin vào bộ nhớ tạm |
 | Chuyển đến đối tượng cha | NVDA+8 bàn phím số | NVDA+shift+mũi tên lên | Vuốt lên (chế độ đối tượng) | Chuyển đến đối tượng cha đang chứa đối tượng hiện tại |
 | Chuyển về đối tượng trước cùng cấp | NVDA+4 bàn phím số | NVDA+shift+mũi tên trái | Vuốt trái (chế độ đối tượng) | Chuyển về đối tượng trước đối tượng hiện tại |
 | Chuyển sang đối tượng kế tiếp cùng cấp | NVDA+6 bàn phím số | NVDA+shift+mũi tên phải | Vuốt phải (chế độ đối tượng) | Chuyển sang đối tượng kế tiếp |
@@ -381,23 +381,23 @@ Dưới đây là một số phím tắt dùng để duyệt nội dung:
 
 %kc:beginInclude
 || Chức năng | Phím máy bàn | Phím xách tay | Cảm ứng | mô tả |
-| Chuyển đến dòng trên cùng | shift+7 bàn phím số | NVDA+control+home | none | Chuyển con trỏ duyệt lên dòng đầu tiên trên cùng |
+| Chuyển đến dòng trên cùng | shift+7 bàn phím số | NVDA+control+home | không có | Chuyển con trỏ duyệt lên dòng đầu tiên trên cùng |
 | Chuyển đến dòng trước | 7 bàn phím số | NVDA+mũi tên lên | Vuốt lên (chế độ văn bản) | Chuyển con trỏ duyệt lên dòng trước đó |
-| Thông báo nội dung của dòng hiện tại | 8 bàn phím số | NVDA+shift+. | none | Thông báo nội dung của dòng hiện tại của con trỏ duyệt. Nhấn hai lần để đánh vần, nhấn ba lần để đánh vần với phần mô tả cho từng ký tự |
+| Thông báo nội dung của dòng hiện tại | 8 bàn phím số | NVDA+shift+. | không có | Thông báo nội dung của dòng hiện tại của con trỏ duyệt. Nhấn hai lần để đánh vần, nhấn ba lần để đánh vần với phần mô tả cho từng ký tự |
 | Chuyển đến dòng kế | 9 bàn phím số | NVDA+mũi tên xuống | Vuốt xuống (chế độ văn bản) | Chuyển con trỏ duyệt xuống dòng dưới |
-| Chuyển đến dòng dưới cùng | shift+9 bàn phím số | NVDA+control+end | none | Chuyển con trỏ duyệt xuống dòng dưới cùng |
+| Chuyển đến dòng dưới cùng | shift+9 bàn phím số | NVDA+control+end | không có | Chuyển con trỏ duyệt xuống dòng dưới cùng |
 | Chuyển qua từ trước | 4 bàn phím số | NVDA+control+mũi tên trái | Vuốt trái 2-ngón (chế độ văn bản) | chuyển con trỏ duyệt sang từ bên trái |
-| thông báo từ hiện tại | 5 bàn phím số | NVDA+control+. | none | Thông báo từ tại vị trí con trỏ duyệt. Nhấn hai lần để đánh vần. Nhấn ba lần để đánh vần với phần mô tả của ký tự |
+| thông báo từ hiện tại | 5 bàn phím số | NVDA+control+. | không có | Thông báo từ tại vị trí con trỏ duyệt. Nhấn hai lần để đánh vần. Nhấn ba lần để đánh vần với phần mô tả của ký tự |
 | Chuyển qua từ kế | 6 bàn phím số | NVDA+control+mũi tên phải | Vuối phải 2-ngón (chế độ văn bản) | chuyển con trỏ duyệt sang từ kế tiếp bên phải |
 | Chuyển về đầu dòng | shift+1 bàn phím số | NVDA+home | không có | chuyển con trỏ duyệt về đầu dòng |
 | Chuyển qua ký tự trước | 1 bàn phím số | NVDA+mũi tên trái | Vuốt trái (chế độ văn bản) | chuyển con trỏ duyệt sang ký tự bên trái |
-| Đọc ký tự hiện tại | 2 bàn phím số | NVDA+. | none | Đọc ký tự nơi có con trỏ duyệt. Nhấn hai lần để nghe đánh vần mô tả hay ví dụ về ký tự đó. Nhấn ba lần để nghe mã cơ số 10 và 16 của ký tự đó |
+| Đọc ký tự hiện tại | 2 bàn phím số | NVDA+. | không có | Đọc ký tự nơi có con trỏ duyệt. Nhấn hai lần để nghe đánh vần mô tả hay ví dụ về ký tự đó. Nhấn ba lần để nghe mã cơ số 10 và 16 của ký tự đó |
 | chuyển qua ký tự bên phải | 3 bàn phím số | NVDA+mũi tên phải | Vuốt phải (chế độ văn bản) | chuyển con trỏ duyệt sang ký tự bên phải |
-| chuyển đến  cuối dòng | shift+3 bàn phím số | NVDA+end | none | chuyển con trỏ duyệt đến cuối dòng hiện tại |
+| chuyển đến  cuối dòng | shift+3 bàn phím số | NVDA+end | không có | chuyển con trỏ duyệt đến cuối dòng hiện tại |
 | Đọc cả vùng văn bản | dấu cộng bàn phím số | NVDA+shift+a | Vuốt xuống 3-ngón (chế độ văn bản) | Đọc cả vùng văn bản từ vị trí con trỏ duyệt hiện tại trở đi |
-| Chọn điểm bắt đầu để copy sau đó | NVDA+f9 | NVDA+f9 | none | Đánh dấu điểm bắt đầu của vùng chọn để copy. Hành động copy vẫn chưa được thực hiện cho đến khi bạn chọn điểm kết. |
+| Chọn điểm bắt đầu để copy sau đó | NVDA+f9 | NVDA+f9 | không có | Đánh dấu điểm bắt đầu của vùng chọn để copy. Hành động copy vẫn chưa được thực hiện cho đến khi bạn chọn điểm kết. |
 | Chọn điểm kết của vùng chọn và chép | NVDA+f10 | NVDA+f10 | không có | Nhấn lần đầu để đánh dấu điểm kết thúc và chọn vùng nội dung từ điểm bắt đầu đến điểm kết.  Nhấn lần hai để thực hiện lệnh copy nội dung lên bộ nhớ đệm. |
-| Thông báo định dạng nội dung | NVDA+f | NVDA+f | none | Thông báo định dạng của nội dung  tại vị trí con trỏ duyệt |
+| Thông báo định dạng nội dung | NVDA+f | NVDA+f | không có | Thông báo định dạng của nội dung  tại vị trí con trỏ duyệt |
 %kc:endInclude
 
 Chú ý: Bạn cần tắt phím NumLock để sử dụng các phím số bên bàn phím số trong bàn phím Desktop.
