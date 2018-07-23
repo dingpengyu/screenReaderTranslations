@@ -16,7 +16,7 @@
 
 == Izmjene ==
 - Popis dostupnih jezika u dijaloškom okviru općenitih postavki sada je sortiran po imenima jezika umjesto po ISO 639 kodovima. (#7284)
-- dodane podrazumjevane prečice za alt shift tab i windows tab za sve fokus freedomscientific brajične redke. (#7387)
+- dodane podrazumijevane prečice za alt shift tab i windows tab za sve fokus freedomscientific brajične redke. (#7387)
 - Pri pokretanju NVDA, korisniku se postavlja pitanje, želi li slati statistiku korištenja NV Accessu prilikom automatskog provjeravanja nadogradnji. (#8217)
 - Prilikom provjere nadogradnje, ako je korisnik pristao na slanje statistika korištenja NV Accessu, NVDA će sada slati ime drivera sintetizatora govora te ime brajičnog retka koji se koristi, kako bi pomogao NV accssu u prioritetima razvoja istih. (#8217)
 - Nadograđen liblouis brajični prevoditelj na inačicu 3.6.0. (#8365)
