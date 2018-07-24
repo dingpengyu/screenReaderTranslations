@@ -3,10 +3,10 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.org">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>NVDA 2018.1-dev ユーザーガイド</TITLE>
+<TITLE>NVDA 2018.3-dev ユーザーガイド</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
 <CENTER>
-<H2>NVDA 2018.1-dev ユーザーガイド</H2>
+<H2>NVDA 2018.3-dev ユーザーガイド</H2>
 </CENTER>
 
 
@@ -284,7 +284,7 @@ NVDAでは、多くの言語の点字コードをサポートしており、そ�
 <H3>1.5. ライセンスと著作権</H3>
 
 <P>
-NVDA is copyright 2006-2017 NVDA contributors.
+NVDA is copyright 2006-2018 NVDA contributors.
 </P>
 <P>
 NVDAはGNU 一般公衆利用許諾契約書 (Version 2) によって保護されています。
@@ -2111,10 +2111,20 @@ Excel のワークシートにはフォームフィールドが含まれる場�
 <TD>Ctrl+Shift+R</TD>
 <TD>現在再生中のトラックがある場合、その残り時間を報告します。</TD>
 </TR>
+<TR>
+<TD>経過時間の報告</TD>
+<TD>Ctrl+Shift+E</TD>
+<TD>現在再生中のトラックがある場合、その経過時間を報告します。</TD>
+</TR>
+<TR>
+<TD>合計再生時間の報告</TD>
+<TD>Ctrl+Shift+T</TD>
+<TD>現在再生中のトラックがある場合、その合計再生時間を報告します。</TD>
+</TR>
 </TABLE>
 
 <P>
-注意：「残り時間の報告」ショートカットはステータス行の書式が既定の設定の場合のみ有効です。
+注意：これらのショートカットはステータス行の書式が既定の設定の場合のみ有効です。
 </P>
 
 <A NAME="MirandaIM"></A>
@@ -2369,6 +2379,35 @@ OKボタンを押すとNVDAが再起動します。
 <P>
 このチェックボックスをチェックすると、NVDAは新しいバージョンが入手できるかどうかを自動的に確認し、それを通知します。
 NVDAメニュー「ヘルプ」の「更新を確認」を使って手動で更新を確認することもできます。
+更新を確認するときには、NVDA は利用できる更新を正しく判断するために、ある決められた情報を更新サーバーに送る必要があります。
+以下は必ず更新サーバーに送信される情報です: 
+</P>
+
+<UL>
+<LI>現在の NVDA のバージョン
+<LI>オペレーティングシステムのバージョン
+<LI>オペレーティングシステムの64ビットまたは32ビットの種別
+</UL>
+
+<A NAME="GeneralSettingsGatherUsageStats"></A>
+<H5>NVDA 使用状況統計の収集</H5>
+
+<P>
+このチェックボックスをチェックすると、更新チェックを通じて NVDA の使用状況を NV Access に送信します。そして、例えばオペレーティングシステムやユーザーの国によってNVDAのユーザー数を比較するなど、詳しい統計を行います。
+IP アドレスは更新チェック時にユーザーの国を判断するために使われますが、この情報は保存されません。
+必ず更新サーバーに送信される前述の情報に加えて、このチェックボックスをチェックすると、以下の情報が送信されます:
+</P>
+
+<UL>
+<LI>NVDA のインタフェース言語
+<LI>NVDA のポータブル版またはインストール環境の種別
+<LI>使用中の音声合成エンジンの名前（および、そのドライバーを提供しているアドオンの名前）
+<LI>使用中の点字ディスプレイドライバーの名前（および、そのドライバーを提供しているアドオンの名前）
+<LI>点字を使用している場合には、使用中の点字出力テーブルの名前
+</UL>
+
+<P>
+この情報は、NV Access が将来の NVDA 開発における課題の優先順位を決めるために役立ちます。
 </P>
 
 <A NAME="GeneralSettingsNotifyPendingUpdates"></A>
@@ -4065,6 +4104,14 @@ NVDAの初期設定では、NVDA はUSBまたはBluetoothによる接続を自�
 <TD>スペース+2の点+3の点+4の点+5の点</TD>
 </TR>
 <TR>
+<TD>Alt+Shift+Tab キー</TD>
+<TD>スペース+1の点+2の点+5の点+6の点</TD>
+</TR>
+<TR>
+<TD>Windows+Tab キー</TD>
+<TD>スペース+2の点+3の点+4の点</TD>
+</TR>
+<TR>
 <TD>Escape キー</TD>
 <TD>スペース+1の点+5の点</TD>
 </TR>
@@ -5643,6 +5690,12 @@ NVDA は <A HREF="http://www.humanware.com">Humanware</A> の BrailleNote ノー
 BrailleNote Touch については <A HREF="#HumanWareBrailliant">Brailliant BI シリーズ / BrailleNote Touch</A> を参照してください。
 </P>
 <P>
+BrailleNote PK を除いて、点字 (BT) および QWERTY (QT) の両方のキーボードに対応しています。
+BrailleNote QT の PC キーボードエミュレーションには対応していません。
+QT キーボードから点字のドットを入力することもできます。
+詳細は BrailleNote マニュアルガイドの点字ターミナルのセクションを参照してください。
+</P>
+<P>
 お使いの機種が複数の接続方法で使える場合は、 BrailleNote を NVDA で使うために、点字ディスプレイ装置の設定でポートを選ぶ必要があります。
 詳細は BrailleNote の説明書をお読みください。
 NVDA設定ダイアログの点字カテゴリでポート選択が必要になる場合もあります。
@@ -5651,6 +5704,10 @@ USBまたはBluetoothで接続する場合は、"自動選択"、"USB"、"Blueto
 </P>
 <P>
 BrailleNote Apex を USB 接続するためには、あらかじめ HumanWare が提供するドライバーをインストールしてください。
+</P>
+<P>
+BrailleNote Apex BT では、1の点と4の点の間にあるスクロールホイールにさまざまな NVDA のコマンドを割り当てて使うことができます。
+このスクロールホイールには、4方向のボタン、中央のボタン、そして時計回りまたは反時計回りに回転するホイールがあります。
 </P>
 <P>
 以下は NVDA における BrailleNote のコマンド割り当てです。
@@ -5681,6 +5738,10 @@ BrailleNote Apex を USB 接続するためには、あらかじめ HumanWare �
 <TR>
 <TD>点字セルに移動</TD>
 <TD>タッチカーソル</TD>
+</TR>
+<TR>
+<TD>NVDA メニュー</TD>
+<TD>スペース+1の点+3の点+4の点+5の点 (スペース+n)</TD>
 </TR>
 <TR>
 <TD>タッチカーソルの切替</TD>
@@ -5757,6 +5818,128 @@ BrailleNote Apex を USB 接続するためには、あらかじめ HumanWare �
 <TR>
 <TD>入力ヘルプの切替</TD>
 <TD>スペース+2の点+3の点+6の点 (スペース+小文字h)</TD>
+</TR>
+</TABLE>
+
+<P>
+以下は点字入力モードでない場合の BrailleNote QT のコマンド割り当てです。
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>名称</TH>
+<TH>キー</TH>
+</TR>
+<TR>
+<TD>NVDA メニュー</TD>
+<TD>read+n</TD>
+</TR>
+<TR>
+<TD>上矢印キー</TD>
+<TD>上矢印</TD>
+</TR>
+<TR>
+<TD>下矢印キー</TD>
+<TD>下矢印</TD>
+</TR>
+<TR>
+<TD>左矢印キー</TD>
+<TD>左矢印</TD>
+</TR>
+<TR>
+<TD>右矢印キー</TD>
+<TD>右矢印</TD>
+</TR>
+<TR>
+<TD>Page Up キー</TD>
+<TD>ファンクション+上矢印</TD>
+</TR>
+<TR>
+<TD>Page Down キー</TD>
+<TD>ファンクション+下矢印</TD>
+</TR>
+<TR>
+<TD>Home キー</TD>
+<TD>ファンクション+左矢印</TD>
+</TR>
+<TR>
+<TD>End キー</TD>
+<TD>ファンクション+右矢印</TD>
+</TR>
+<TR>
+<TD>Ctrl+Home キー</TD>
+<TD>read+t</TD>
+</TR>
+<TR>
+<TD>Ctrl+End キー</TD>
+<TD>read+b</TD>
+</TR>
+<TR>
+<TD>Enter キー</TD>
+<TD>enter</TD>
+</TR>
+<TR>
+<TD>Backspace キー</TD>
+<TD>backspace</TD>
+</TR>
+<TR>
+<TD>Tab キー</TD>
+<TD>tab</TD>
+</TR>
+<TR>
+<TD>Shift+Tab キー</TD>
+<TD>shift+tab</TD>
+</TR>
+<TR>
+<TD>Windows キー</TD>
+<TD>read+w</TD>
+</TR>
+<TR>
+<TD>Alt キー</TD>
+<TD>read+m</TD>
+</TR>
+<TR>
+<TD>入力ヘルプの切替</TD>
+<TD>read+1</TD>
+</TR>
+</TABLE>
+
+<P>
+以下はスクロールホイールに割り当てられたコマンドです:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>名称</TH>
+<TH>キー</TH>
+</TR>
+<TR>
+<TD>上矢印キー</TD>
+<TD>上矢印</TD>
+</TR>
+<TR>
+<TD>下矢印キー</TD>
+<TD>下矢印</TD>
+</TR>
+<TR>
+<TD>左矢印キー</TD>
+<TD>左矢印</TD>
+</TR>
+<TR>
+<TD>右矢印キー</TD>
+<TD>右矢印</TD>
+</TR>
+<TR>
+<TD>Enter キー</TD>
+<TD>中央ボタン</TD>
+</TR>
+<TR>
+<TD>Tab キー</TD>
+<TD>ホイール時計回り</TD>
+</TR>
+<TR>
+<TD>Shift+Tab キー</TD>
+<TD>ホイール反時計回り</TD>
 </TR>
 </TABLE>
 
