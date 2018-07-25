@@ -268,7 +268,7 @@ Khi thực đơn hiện ra, bạn dùng các phím mũi tên để khám phá c�
 || Chức năng | Phím tắt | Mô tả |
 | Thông báo ngày giờ hệ thống | NVDA+f12 | Nhấn một lần để nghe giờ, nhấn nhanh hai lần để nghe ngày tháng |
 | Thông báo trạng thái Pin | NVDA+shift+b | thông báo tình trạng hiện tại của Pin(phần trăm pin và tình trạng sạc) |
-| Thông báo dữ liệu trong bộ nhớ đệm | NVDA+c | thông báo dữ liệu trong bộ nhớ đệm (nếu có) |
+| Thông báo dữ liệu trong bộ nhớ tạm | NVDA+c | thông báo dữ liệu trong bộ nhớ tạm (nếu có) |
 %kc:endInclude
 
 + Di chuyển với NVDA +[NavigatingWithNVDA]
