@@ -13,20 +13,30 @@
 <H2>2018.3</H2>
 
 <P>
-Một số tính năng nổi bật của bản phát hành này bao gồm  hỗ trợ cho biểu đồ trong Microsoft word và  PowerPoint, hỗ trợ các màn hình chữ nổi bao gồm Eurobraille và Optelec protocol converter, cải thiện hỗ trợ cho màn hình nổi của Hims và Optelec, cải thiện khả năng vận hành với Mozilla Firefox 58 trở lên, và còn nhiều nữa.
+Một số tính năng nổi bật của bản phát hành này bao gồm  hỗ trợ cho biểu đồ trong Microsoft word và  PowerPoint, hỗ trợ các màn hình chữ nổi bao gồm Eurobraille và Optelec với bộ chuyển giao thức, cải thiện hỗ trợ cho màn hình nổi của Hims và Optelec, cải thiện khả năng vận hành với Mozilla Firefox 58 trở lên, và còn nhiều nữa.
 </P>
 
 <H3>Các tính năng mới</H3>
 
 <UL>
-<LI>giờ đây đã tương tác được  với các biểu đồ trong Microsoft Word và Microsoft PowerPoint, tương tự như đã hỗ trợ cho biểu đồ trong Microsoft Excel. (<A HREF="http://github.com/nvaccess/nvda/issues/7046">#7046</A>)
+<LI>NVDA sẽ thông báo các lỗi ngữ pháp khi được hiển thị một cách hợp lý trên các trang web trong Mozilla Firefox. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>Đã hỗ trợ nút cuộn của BrailleNote QT và Apex BT's khi sử dụng BrailleNote như một màn hình chữ nổi với NVDA. (<A HREF="http://github.com/nvaccess/nvda/issues/6316">#6316</A>)
+<LI>Đã thêm kịch bản thông báo thời gian còn lại và tổng thời gian của bài hát hiện tại trong Foobar2000. (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
+ <UL>
+ <LI>Kí hiệu trên Mac (⌘) giờ đây đã được thông báo khi đọc văn bản với bất kì bộ đọc nào(<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
+ </UL>
+<LI>vai trò tùy chỉnh thông qua thuộc tính aria-roledescription hiện được hỗ trợ trong Firefox, Chrome và Internet Explorer.
+ <UL>
+ <LI>Bản chữ nổi mới: chữ Braille máy tính Thụy Điển 8 chấm. (<A HREF="http://github.com/nvaccess/nvda/issues/8227">#8227</A>)
+ </UL>
+<LI>giờ đây, đã tương tác được  với các biểu đồ trong Microsoft Word và Microsoft PowerPoint, tương tự như đã hỗ trợ cho biểu đồ trong Microsoft Excel. (<A HREF="http://github.com/nvaccess/nvda/issues/7046">#7046</A>)
 <LI>Trong Microsoft PowerPoint, khi chỉnh sửa một slide: bấm tab đến một biểu đồ, và bấm enter hay khoảng trắng để tương tác với nó.
   <UL>
   <LI>để thoát khỏi biểu đồ và không tương tác với nó nữa, bấm  escape.
   </UL>
 <LI>Ngôn ngữ mới: Kyrgyz.
 <LI>Đã hỗ trợ cho VitalSource Bookshelf. (<A HREF="http://github.com/nvaccess/nvda/issues/7155">#7155</A>)
-<LI>Đã hỗ trợ cho Optelec protocol converter, một thiết bị cho phép sử dụng Braille Voyager và  màn hình Satellite với công nghệ giao tiếp ALVA BC6 protocol.
+<LI>Đã hỗ trợ cho Optelec với bộ chuyển giao thức, một thiết bị cho phép sử dụng Braille Voyager và  màn hình Satellite với công nghệ giao tiếp ALVA BC6 protocol.
 <LI>đã  dùng được đầu vào chữ nổi với màn hình ALVA 640 Comfort. (<A HREF="http://github.com/nvaccess/nvda/issues/7733">#7733</A>) 
   <UL>
   <LI>Chức năng đầu vào chữ nổi của NVDA có thể dùng với những thiết bị này cũng như các màn hình nổi BC6 khác với firmware 3.0.0 trở lên.
@@ -35,20 +45,12 @@ Một số tính năng nổi bật của bản phát hành này bao gồm  hỗ 
 <LI>NVDA giờ đây đã dùng ngôn ngữ chính xác  để thông báo các kí hiệu  khi văn bản được chọn. (<A HREF="http://github.com/nvaccess/nvda/issues/7687">#7687</A>)
 <LI>Trong các phiên bản gần đây của Office 365, phục hồi khả năng điều hướng trong biểu đồ trong  Excel bằng các phím mũi tên. (<A HREF="http://github.com/nvaccess/nvda/issues/7046">#7046</A>)
  <UL>
- <LI>đầu ra  văn bản nói hay chữ nổi, vị trí của các điều khiển sẽ được thông báo  với cách sắp xếp giống nhau, bất kể chúng được sắp xếp  như thế nào. (<A HREF="http://github.com/nvaccess/nvda/issues/7076">#7076</A>)
+ <LI>đầu ra  bộ đọc hay chữ nổi, vị trí của các điều khiển sẽ được thông báo  với cách sắp xếp giống nhau, bất kể chúng được sắp xếp  như thế nào. (<A HREF="http://github.com/nvaccess/nvda/issues/7076">#7076</A>)
  </UL>
 <LI>Trong các ứng dụng như Windows 10 Mail, NVDA sẽ không còn bị lỗi  không đọc các kí tự đã xóa khi bấm phím xóa lùi. (<A HREF="http://github.com/nvaccess/nvda/issues/7456">#7456</A>)
 <LI>Tất cả phím trên màn hình nổi Hims Braille Sense Polaris giờ đây đã hoạt động như mong đợi. (<A HREF="http://github.com/nvaccess/nvda/issues/7865">#7865</A>)
 <LI>NVDA không còn tình trạng không khởi động được trên Windows 7 và báo lỗi về một api-ms dll bên trong, khi một phiên bản cụ thể của Visual Studio 2017 redistributables đã được cài đặt bởi một ứng dụng khác. (<A HREF="http://github.com/nvaccess/nvda/issues/7975">#7975</A>)
-<LI>NVDA sẽ thông báo các lỗi ngữ pháp khi được hiển thị một cách hợp lý trên các trang web trong Mozilla Firefox. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
-<LI>Đã hỗ trợ nút cuộn của BrailleNote QT và Apex BT's khi sử dụng BrailleNote như một màn hình chữ nổi với NVDA. (<A HREF="http://github.com/nvaccess/nvda/issues/6316">#6316</A>)
-<LI>Đã thêm kịch bản thông báo thời gian còn lại và tổng thời gian của track hiện tại trong Foobar2000. (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
- <UL>
- <LI>Kí hiệu trên Mac (⌘) giờ đây đã được thông báo khi đọc văn bản với bất kì bộ đọc nào(<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
- <LI>vai trò tùy chỉnh thông qua thuộc tính aria-roledescription hiện được hỗ trợ trong Firefox, Chrome và Internet Explorer.
- <LI>Bản chữ nổi mới: chữ Braille máy tính Thụy Điển 8 chấm..
- </UL>
-<LI>Giờ đây, NVDA có thể tùy ý phát một âm thanh đại diện cho một đối tượng trên màn hình khi điều hướng giữa các điều khiển bằng điều hướng đối tượng. (<A HREF="http://github.com/nvaccess/nvda/issues/6078">#6078</A>) (<A HREF="http://github.com/nvaccess/nvda/issues/8227">#8227</A>)
+<LI>Giờ đây, NVDA có thể tùy ý phát một âm thanh đại diện cho một đối tượng trên màn hình khi điều hướng giữa các điều khiển bằng chế độ duyệt đối tượng. (<A HREF="http://github.com/nvaccess/nvda/issues/6078">#6078</A>)
   <UL>
   <LI>Tùy chọn để bật tính năng này có thể tìm thấy trong cài đặt trình bày đối tượng của NVDA.
   <P></P>
