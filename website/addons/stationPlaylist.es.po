@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: stationPlayList NVDA add-on\n"
-"POT-Creation-Date: 2018-04-27 01:54+1000\n"
+"POT-Creation-Date: 2018-07-27 02:30+1000\n"
 "PO-Revision-Date: 2018-05-29 11:18+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA translation team <LL@li.org>\n"
@@ -58,8 +58,12 @@ msgid "IMPORTANT NOTES:"
 msgstr "NOTAS IMPORTANTES:"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "This add-on requires NVDA 2017.4 or later and StationPlaylist Studio 5.10 "
+#| "or later."
 msgid ""
-"This add-on requires NVDA 2017.4 or later and StationPlaylist Studio 5.10 or "
+"This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 or "
 "later."
 msgstr ""
 "Este complemento requiere de NVDA 2017.4 o posterior y StationPlaylist "
@@ -71,19 +75,6 @@ msgid ""
 msgstr ""
 "Si utilizas Windows 8 o posterior, para una mejor experiencia, deshabilita "
 "el modo atenuación de audio."
-
-#. type: Bullet: '* '
-msgid ""
-"add-on 8.0/16.10 requires Studio 5.10 or later. For broadcasters using "
-"Studio 5.0x and/or Windows XP, Vista or 7 without Service Pack 1, a [long-"
-"term support version][3] (15.x) is available. The last stable version to "
-"support Windows releases prior to 7 Service Pack 1 is 17.11.2."
-msgstr ""
-"El complemento 8.0/16.10 requiere de Studio 5.10 o posterior. Para "
-"retransmisores que utilicen Studio 5.0x y/o Windows XP, Vista o 7 sin "
-"Service Pack 1, está disponible una versión de soporte extendido (15.x). La "
-"última versión estable para soportar versiones de Windows anteriores a 7 "
-"Service Pack 1 es 17.11.2."
 
 #. type: Bullet: '* '
 msgid ""
@@ -115,6 +106,10 @@ msgstr ""
 #, no-wrap
 msgid "Shortcut keys"
 msgstr "Teclas de atajo"
+
+#. type: Plain text
+msgid "Most of these will work in Studio only unless otherwise specified."
+msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
@@ -200,17 +195,26 @@ msgstr ""
 "temporizador braille."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+left/right arrow (while focused on a track): Announce "
+#| "previous/next track column."
 msgid ""
-"Control+Alt+left/right arrow (while focused on a track): Announce previous/"
-"next track column."
+"Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
+"and Track Tool): Announce previous/next track column."
 msgstr ""
 "Control+Alt+flecha derecha o izquierda (mientras se enfoca una pista): "
 "anuncia la columna de la pista siguiente o anterior."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+up/down arrow (while focused on a track): Move to previous or "
+#| "next track and announce specific columns (unavailable in add-on 15.x)."
 msgid ""
-"Control+Alt+up/down arrow (while focused on a track): Move to previous or "
-"next track and announce specific columns (unavailable in add-on 15.x)."
+"Control+Alt+up/down arrow (while focused on a track in Studio only): Move to "
+"previous or next track and announce specific columns (unavailable in add-on "
+"15.x)."
 msgstr ""
 "Control+Alt+flecha abajo/arriba (mientras se enfoque una pista): Mueven a la "
 "pista siguiente o anterior y anuncian columnas específicas (no disponible en "
@@ -218,14 +222,24 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Control+NVDA+1 through 0 (6 for Studio 5.0x): Announce column content for a "
-"specified column."
+"Control+NVDA+1 through 0 (while focused on a track in Studio, Creator, and "
+"Track Tool): Announce column content for a specified column. Pressing this "
+"command twice will display column information on a browse mode window."
 msgstr ""
-"control+NVDA+1 hasta 0 (6 para Studio 5.0x): anuncia el contenido de la "
-"columna para una columna específica."
 
 #. type: Bullet: '* '
-msgid "Alt+NVDA+C while focused on a track: announces track comments if any."
+msgid ""
+"Control+NVDA+- (hyphen in Studio): display data for all columns in a track "
+"on a browse mode window."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+C while focused on a track: announces track comments if any."
+msgid ""
+"Alt+NVDA+C while focused on a track (Studio only): announces track comments "
+"if any."
 msgstr ""
 "Alt+NVDA+C mientras se enfoca una pista: anuncia los comentarios de pista si "
 "los hay."
@@ -238,9 +252,13 @@ msgstr ""
 "complemento para Studio."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+NVDA+- (hyphen) from Studio window: Send feedback to add-on "
+#| "developer using the default email client."
 msgid ""
-"Control+NVDA+- (hyphen) from Studio window: Send feedback to add-on "
-"developer using the default email client."
+"Alt+NVDA+- (hyphen) from Studio window: Send feedback to add-on developer "
+"using the default email client."
 msgstr ""
 "Control+NVDA+- (guión) desde la ventana de Studio: envía retroalimentación "
 "al desarrollador del complemento utilizando el cliente de correo "
@@ -870,13 +888,20 @@ msgid "Columns Explorer"
 msgstr "Explorador de Columnas"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "By pressing Control+NVDA+1 through 0 (6 for Studio 5.0x) or SPL "
+#| "Assistant, 1 through 0 (6 for Studio 5.01 and earlier), you can obtain "
+#| "contents of specific columns. By default, these are artist, title, "
+#| "duration, intro, category and filename (Studio 5.10 adds year, album, "
+#| "genre and time scheduled). You can configure which columns will be "
+#| "explored via columns explorer dialog found in add-on settings dialog."
 msgid ""
-"By pressing Control+NVDA+1 through 0 (6 for Studio 5.0x) or SPL Assistant, 1 "
-"through 0 (6 for Studio 5.01 and earlier), you can obtain contents of "
-"specific columns. By default, these are artist, title, duration, intro, "
-"category and filename (Studio 5.10 adds year, album, genre and time "
-"scheduled). You can configure which columns will be explored via columns "
-"explorer dialog found in add-on settings dialog."
+"By pressing Control+NVDA+1 through 0 or SPL Assistant, 1 through 0, you can "
+"obtain contents of specific columns. By default, these are artist, title, "
+"duration, intro, category, filename, year, album, genre and time scheduled. "
+"You can configure which columns will be explored via columns explorer dialog "
+"found in add-on settings dialog."
 msgstr ""
 "Pulsando Control+NVDA+1 hasta 0 (6 para Studio 5.0x) o SPL Assistant, 1 "
 "hasta 0 (6 para Studio 5.01 y anteriores), puedes obtener contenidos de "
@@ -958,6 +983,230 @@ msgstr ""
 "realizar algunas órdenes de Studio desde la pantalla táctil. Primero utiliza "
 "un toque con tres dedos para cambiar a modo SPL, entonces utiliza las "
 "órdenes táctiles listadas arriba para llevar a cabo tareas."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.05"
+msgid "Version 18.08"
+msgstr "Versión 18.05"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on settings dialog is now based on multi-category settings interface "
+"found in NVDA 2018.2. Consequently, this release requires NVDA 2018.2 or "
+"later. The old add-on settings interface is deprecated and will be removed "
+"later in 2018."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new section (button/panel) in add-on settings to configure playlist "
+"transcripts options, which is used to configure column inclusion and "
+"ordering for this feature and other settings."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When creating a table-based playlist transcripts and if custom column "
+"ordering and/or column removal is in effect, NVDA will use custom column "
+"presentation order specified from add-on settings and/or not include "
+"information from removed columns."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When using column navigation commands in track items (Control+Alt+home/end/"
+"left arrow/right arrow) in Studio, Creator, and Track Tool, NVDA will no "
+"longer announce wrong column data after changing column position on screen "
+"via mouse."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Significant improvements to NVDA's responsiveness when using column "
+"navigation commands in Creator and Track Tool. In particular, when using "
+"Creator, NVDA will respond better when using column navigation commands."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer play error tones or appear to do nothing when using "
+#| "Control+Alt+left or right arrow keys to navigate columns in Track Tool "
+#| "5.20 with a track loaded. Because of this change, when using Studio 5.20, "
+#| "build 48 or later is required."
+msgid ""
+"NVDA will no longer play error tones or appear to do nothing when attempting "
+"to add comments to tracks in Studio or when exiting NVDA while using Studio, "
+"caused by wxPython 4 compatibility issue."
+msgstr ""
+"NVDA ya no reproducirá tonos de error o ya no parecerá no hacer nada al "
+"utilizar Control+Alt+teclas de flecha izquierda o derecha para navegar por "
+"columnas en Track Tool 5.20 con una pista cargada. Debido a este cambio, al "
+"utilizar Studio 5.20, se requiere de la compilación 48 o posterior."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.05"
+msgid "Version 18.07"
+msgstr "Versión 18.05"
+
+#. type: Bullet: '* '
+msgid ""
+"Added an experimental multi-category add-on settings screen, accessible by "
+"toggling a setting in add-on settings/Advanced dialog (you need to restart "
+"NVDA after configuring this setting for the new dialog to show up). This is "
+"for NVDA 2018.2 users, and not all add-on settings can be configured from "
+"this new screen."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer play error tones or do nothing when searching for a "
+#| "track forward from the last track or backward from the first track, "
+#| "respectively."
+msgid ""
+"NVDA will no longer play error tones or appear to do nothing when trying to "
+"rename a broadcast profile from add-on settings, caused by wxPython 4 "
+"compatibility issue."
+msgstr ""
+"NVDA ya no reproducirá tonos de error o no hará nada al buscar una pista "
+"hacia adelante desde la última pista o hacia atrás desde la primera, "
+"respectivamente."
+
+#. type: Bullet: '* '
+msgid ""
+"When restarting NvDA and/or Studio after making changes to settings in a "
+"broadcast profile other than normal profile, NVDA will no longer revert to "
+"old settings."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"It is now possible to obtain playlist transcripts for the current hour. "
+"Select \"current hour\" from list of playlist range options in playlist "
+"transcripts dialog (SPL Assistant, Shift+F8)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added an option in Playlist Transcripts dialog to have transcripts saved to "
+"a file (all formats) or copied to the clipboard (text and Markdown table "
+"formats only) in addition to viewing transcripts on screen. When transcripts "
+"are saved, they are saved to user's Documents folder under "
+"\"nvdasplPlaylistTranscripts\" subfolder."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Status column is no longer included when creating playlist transcripts in "
+"HTML and Markdown table formats."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When focused on a track in Creator and Track Tool, pressing Control+NVDA"
+"+number row twice will present column information on a browse mode window."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Added Control+Alt+Home/End to move Column Navigator to first or last "
+#| "column in Playlist Viewer."
+msgid ""
+"In Creator and Track Tool, added Control+Alt+Home/End keys to move Column "
+"Navigator to first or last column for the focused track."
+msgstr ""
+"Añadido Control+Alt+Inicio/Fin para mover el navegador de Columna a la "
+"primera o última columna en el visualizador de la lista de reproducción."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.04.1"
+msgid "Version 18.06.1"
+msgstr "Versión 18.04.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed several compatibility issues with wxPython 4, including inability to "
+"open track finder (Control+NVDA+F), column search and time ranger finder "
+"dialogs in Studio and stream labeler dialog (F12) from encoders window."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"While opening a find dialog from Studio and an unexpected error occurs, NVDA "
+"will present more appropriate messages instead of saying that another find "
+"dialog is open."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In encoders window, NVDA will no longer play error tones or appear to do "
+"nothing when attempting to open encoder settings dialog (Alt+NVDA+0)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.05"
+msgid "Version 18.06"
+msgstr "Versión 18.05"
+
+#. type: Bullet: '* '
+msgid ""
+"In add-on settings, added \"Apply\" button so changes to settings can be "
+"applied to the currently selected and/or active profile without closing the "
+"dialog first. This feature is available for NVDA 2018.2 users."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Resolved an issue where NVDA would apply changes to Columns Explorer "
+"settings despite pressing Cancel button from add-on settings dialog."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, when pressing Control+NVDA+number row twice while focused on a "
+"track, NVDA will display column information for a specific column on a "
+"browse mode window."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"While focused on a track in Studio, pressing Control+NVDA+Dash will display "
+"data for all columns on a browse mode window."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In StationPlaylist Creator, when focused on a track, pressing Control+NVDA"
+"+number row will announce data in specific column."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "8.0: Added a dialog in add-on settings to configure Columns Explorer "
+#| "slots for Track Tool."
+msgid ""
+"Added a button in Studio add-on settings to configure Columns Explorer for "
+"SPL Creator."
+msgstr ""
+"8.0: añadido un diálogo en las opciones del complemento para configurar los "
+"slots del Explorador de Columnas para la Herramienta de Pista."
+
+#. type: Bullet: '* '
+msgid "Added Markdown table format as a playlist transcripts format."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The developer feedback email command has changed from Control+NVDA+dash to "
+"Alt+NVDA+dash."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -3314,3 +3563,22 @@ msgstr "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
 #. type: Plain text
 msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
 msgstr "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
+
+#~ msgid ""
+#~ "add-on 8.0/16.10 requires Studio 5.10 or later. For broadcasters using "
+#~ "Studio 5.0x and/or Windows XP, Vista or 7 without Service Pack 1, a [long-"
+#~ "term support version][3] (15.x) is available. The last stable version to "
+#~ "support Windows releases prior to 7 Service Pack 1 is 17.11.2."
+#~ msgstr ""
+#~ "El complemento 8.0/16.10 requiere de Studio 5.10 o posterior. Para "
+#~ "retransmisores que utilicen Studio 5.0x y/o Windows XP, Vista o 7 sin "
+#~ "Service Pack 1, está disponible una versión de soporte extendido (15.x). "
+#~ "La última versión estable para soportar versiones de Windows anteriores a "
+#~ "7 Service Pack 1 es 17.11.2."
+
+#~ msgid ""
+#~ "Control+NVDA+1 through 0 (6 for Studio 5.0x): Announce column content for "
+#~ "a specified column."
+#~ msgstr ""
+#~ "control+NVDA+1 hasta 0 (6 para Studio 5.0x): anuncia el contenido de la "
+#~ "columna para una columna específica."
