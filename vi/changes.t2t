@@ -10,7 +10,7 @@ Một số tính năng nổi bật của bản phát hành này bao gồm  hỗ 
 - NVDA sẽ thông báo các lỗi ngữ pháp khi được hiển thị một cách hợp lý trên các trang web trong Mozilla Firefox. (#8280)
 - Đã hỗ trợ nút cuộn của BrailleNote QT và Apex BT's khi sử dụng BrailleNote như một màn hình chữ nổi với NVDA. (#6316)
 - Đã thêm kịch bản thông báo thời gian còn lại và tổng thời gian của bài hát hiện tại trong Foobar2000. (#6596)
- - Kí hiệu trên Mac (⌘) giờ đây đã được thông báo khi đọc văn bản với bất kì bộ đọc nào(#8366)
+ - Kí hiệu command key trên Mac (⌘) giờ đây đã được thông báo khi đọc văn bản với bất kì bộ đọc nào. (#8366)
 - vai trò tùy chỉnh thông qua thuộc tính aria-roledescription hiện được hỗ trợ trong Firefox, Chrome và Internet Explorer.
  - Bản chữ nổi mới: chữ Braille máy tính Thụy Điển 8 chấm. (#8227)
 - giờ đây, đã tương tác được  với các biểu đồ trong Microsoft Word và Microsoft PowerPoint, tương tự như đã hỗ trợ cho biểu đồ trong Microsoft Excel. (#7046)

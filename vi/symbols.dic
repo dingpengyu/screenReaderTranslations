@@ -36,7 +36,7 @@ negative number	minus	trừ	norep
 \t	táp
 \n	xuống dòng	char
 \f	ngắt trang	none
-\r	xuống dòngn	char
+\r	xuống dòng	char
  	khoảng trắng	char
  	khoảng trắng	char	# no-break space
 
@@ -92,7 +92,7 @@ _	gạch dưới	most
 ●	bu lét tròn	most
 ¨	tách đôi	most
 ‎	dấu trái qua phải	char
-‏	dấu phải qua trrái	char
+‏	dấu phải qua trái	char
 ■	vuông đen	some
 ▪	vuông đen	some
 ◾	vuông đen	some
