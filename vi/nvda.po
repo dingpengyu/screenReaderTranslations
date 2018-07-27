@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Vietnamese Language for NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-27 00:10+1000\n"
-"PO-Revision-Date: 2018-07-25 23:12+0700\n"
+"PO-Revision-Date: 2018-07-27 13:56+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai Center for the Blind <danghoaiphuc@gmail.com>\n"
 "Language: vi_VN\n"
@@ -8398,7 +8398,7 @@ msgstr ""
 
 #. Translators: The label of a checkbox in general settings to toggle automatic checking for updated versions of NVDA (if not checked, user must check for updates manually).
 msgid "Automatically check for &updates to NVDA"
-msgstr "tự động kiểm tra khi có phiên bản NVDa mới"
+msgstr "tự động kiểm tra khi có phiên bản NVDA mới"
 
 #. Translators: The label of a checkbox in general settings to toggle startup notifications
 #. for a pending NVDA update.
