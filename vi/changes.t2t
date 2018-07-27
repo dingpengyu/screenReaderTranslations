@@ -7,7 +7,7 @@
 Một số tính năng nổi bật của bản phát hành này bao gồm  hỗ trợ cho biểu đồ trong Microsoft word và  PowerPoint, hỗ trợ các màn hình chữ nổi bao gồm Eurobraille và Optelec với bộ chuyển giao thức, cải thiện hỗ trợ cho màn hình nổi của Hims và Optelec, cải thiện khả năng vận hành với Mozilla Firefox 58 trở lên, và còn nhiều nữa.
 
 == Các tính năng mới ==
-- NVDA sẽ thông báo các lỗi ngữ pháp khi được hiển thị một cách hợp lý trên các trang web trong Mozilla Firefox. (#8280)
+- NVDA sẽ thông báo các lỗi ngữ pháp khi tiếp xúc một cách thích hợp trên các trang web trong Mozilla Firefox. (#8280)
 - Đã hỗ trợ nút cuộn của BrailleNote QT và Apex BT's khi sử dụng BrailleNote như một màn hình chữ nổi với NVDA. (#6316)
 - Đã thêm kịch bản thông báo thời gian còn lại và tổng thời gian của bài hát hiện tại trong Foobar2000. (#6596)
  - Kí hiệu command key trên Mac (⌘) giờ đây đã được thông báo khi đọc văn bản với bất kì bộ đọc nào. (#8366)
