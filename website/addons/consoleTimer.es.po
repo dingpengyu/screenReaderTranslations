@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: website po files updated\n"
 "POT-Creation-Date: 2018-06-30 14:32+1000\n"
-"PO-Revision-Date: 2017-06-06 17:14+0100\n"
-"Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
+"PO-Revision-Date: 2018-07-29 22:17+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Spanish website translation team <oprisniki@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -146,10 +146,9 @@ msgstr ""
 "list."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev stable]]\n"
+#, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cont"

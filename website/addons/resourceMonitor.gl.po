@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2018-03-26 15:48+0100\n"
+"PO-Revision-Date: 2018-07-29 22:22+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA Galician translation team <oprisniki@gmail.com>\n"
 "Language: gl\n"
@@ -139,18 +139,13 @@ msgstr ""
 "podería haber retrasos ao obter información de uso do disco."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for Windows XP from this add-on ended on December 31, 2017. "
-#| "Support for Windows Server 2003, Vista and Server 2008 will end on June "
-#| "30, 2018."
 msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
 "for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
 msgstr ""
-"O soporte para o Windows XP deste complemento rematará o 31 de decembro do "
+"O soporte para o Windows XP deste complemento rematou o 31 de decembro do "
 "2017. O soporte para o Windows Server 2003, o Windows Vista e o Windows "
-"Server 2008 rematará o 30 de xunio do 2018."
+"Server 2008 rematou o 30 de xunio do 2018."
 
 #. type: Title ##
 #, no-wrap

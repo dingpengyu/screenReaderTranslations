@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons translation team\n"
 "POT-Creation-Date: 2018-06-29 21:16+1000\n"
-"PO-Revision-Date: 2018-06-24 21:01+0200\n"
-"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"PO-Revision-Date: 2018-07-29 22:32+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Spanish translation <oprisniki@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 1.6.11\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Plain text
@@ -31,10 +31,8 @@ msgid "Download [stable version][2]"
 msgstr "Descargar [versión estable][2]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [stable version][2]"
 msgid "Download [development version][3]"
-msgstr "Descargar [versión estable][2]"
+msgstr "Descargar [versión de desarrollo][3]"
 
 #. type: Plain text
 msgid "This addon provides some accessibility features for VLC Media Player."
@@ -85,6 +83,9 @@ msgid ""
 "automatically when they are displayed. Press Control+Tab to try to bring "
 "them to the front."
 msgstr ""
+"Hay algunas ventanas y paneles en capa que NVDA no es capaz de enfocar "
+"automáticamente cuando se muestran, Pulsa Control+Tab para intentar traerlos "
+"al frente."
 
 #. type: Bullet: '* '
 msgid ""
@@ -102,6 +103,9 @@ msgid ""
 "(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) for more "
 "details."
 msgstr ""
+"Cubierto por la GNU General Public License. consulta el [archivo COPYING.txt]"
+"(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) para más "
+"detalles."
 
 #. type: Plain text
 #, no-wrap
@@ -117,10 +121,8 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
 
 #, fuzzy
 #~| msgid "Download [stable version][2]"

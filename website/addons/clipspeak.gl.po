@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: clipspeak website\n"
 "POT-Creation-Date: 2018-07-20 14:56+1000\n"
-"PO-Revision-Date: 2017-06-06 17:14+0100\n"
-"Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
+"PO-Revision-Date: 2018-07-29 22:17+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: galician translation team <oprisniki@gmail.com>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -23,16 +23,12 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Author: Damien Sykes-Lindley"
 msgid "Author: Damien Garwood"
-msgstr "Autor: Damien Sykes-Lindley"
+msgstr "Autor: Damien Garwood"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "download [development version][1]"
 msgid "download [stable version][1]"
-msgstr "descargar [versión de desenvolvemento][1]"
+msgstr "descargar [versión estable][1]"
 
 #. type: Plain text
 msgid ""

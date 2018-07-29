@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA\n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2017-11-30 20:24+0100\n"
-"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
+"PO-Revision-Date: 2018-07-29 22:21+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA website translation team <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -91,16 +91,17 @@ msgstr ""
 "Requírese do NVDA 2014.1 ou posterior para utilizar o complemento 2.0."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.05"
+#, no-wrap
 msgid "Version 18.07"
-msgstr "Versión 17.05"
+msgstr "Versión 18.07"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where leading zeroes would not be displayed when trying to "
 "obtain remaining time for a track."
 msgstr ""
+"Arranxado un erro polo que os ceros á esquerda non se amosaban ó obter o "
+"tempo restante para unha pista."
 
 #. type: Title ##
 #, no-wrap

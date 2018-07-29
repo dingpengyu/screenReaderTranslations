@@ -3,37 +3,39 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-30 04:56+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2018-07-29 22:14+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Add-on Updater\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Add-on Updater\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
-msgstr ""
+msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Download [versión estable][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 3208 to life: ability to check for, "
 "download, and apply add-on updates."
 msgstr ""
+"Este complemento leva á vida á incidencia 3208 do núcleo de NVDA: capacidade "
+"para verificar, descargar e aplicar actualizacións de complementos."
 
 #. type: Plain text
 msgid ""
@@ -43,49 +45,62 @@ msgid ""
 "and the new version. Select Update, and NVDA will download and apply updates "
 "in sequence, with a prompt to restart your NVDA shown afterwards."
 msgstr ""
+"Para verificar actualizacións tras instalar este complemento, vai a NVDA/"
+"Ferramentas/Check for add-on updates (Verificar actualizacións de "
+"complementos). Se hay dispoñibles actualizacións, mostrarase unha listaxe de "
+"actualizacións de complementos, with consistindo cada entrada en descrición, "
+"versión actual, e nova versión. Selecciona Update (Actualizar), e NVDA "
+"descargará e aplicará as actualizacións secuencialmente, mostrando despois "
+"unha alerta para reiniciar o NVDA."
 
 #. type: Plain text
 msgid ""
 "The following add-ons provide built-in update feature and thus updates will "
 "not be checked via this add-on:"
 msgstr ""
+"Os seguintes complementos fornecen a característica de actualización nativa "
+"e polo tanto as súas actualizacións non serán verificadas con este "
+"complemento:"
 
 #. type: Bullet: '* '
 msgid "Braille Extender"
-msgstr ""
+msgstr "Braille Extender"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
-msgstr ""
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "WeatherPlus"
-msgstr ""
+msgstr "WeatherPlus"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
-msgstr ""
+msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
 "included in NVDA, this add-on will be discontinued."
 msgstr ""
+"IMPORTANTE: éste é un complemento como proba de concepto. Unha vez a "
+"funcionalidad principal se inclúa no núcleo do NVDA, este complemento será "
+"descontinuado."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Versión 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Versión inicial."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
