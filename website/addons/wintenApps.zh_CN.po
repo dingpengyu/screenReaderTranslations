@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-27 05:59+1000\n"
+"POT-Creation-Date: 2018-07-29 10:11+1000\n"
 "PO-Revision-Date: 2018-06-27 05:08+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -182,8 +182,9 @@ msgstr "常规设置"
 
 #. type: Bullet: '* '
 msgid ""
-"In context menus for Start Menu tiles, submenus are properly recognized."
-msgstr "在开始菜单瓷贴控件的上下文菜单中，子菜单被正确识别。"
+"Submenu items are properly recognized in various apps, including context "
+"menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
+msgstr ""
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -219,12 +220,12 @@ msgstr "在某些上下文菜单中（例如在Edge中），位置信息（例�
 #| "to run with debug logging enabled, these events will be tracked, and for "
 #| "UIA notification event, a debug tone will be heard."
 msgid ""
-"The following UIA events are recognized: active text position change "
-"(Redstone 5), controller for, drag start, drag cancel, drag complete, "
-"element selected, live region change, notification, system alert, tooltip "
-"opened, window opened. With NVDA set to run with debug logging enabled, "
-"these events will be tracked, and for UIA notification event, a debug tone "
-"will be heard."
+"The following UIA events are recognized: active text position change, "
+"controller for, drag start, drag cancel, drag complete, element selected, "
+"live region change, notification, system alert, tooltip opened, window "
+"opened. With NVDA set to run with debug logging enabled, these events will "
+"be tracked, and for UIA notification event, a debug tone will be heard if "
+"notifications come from somewhere other than the currently active app."
 msgstr ""
 "以下UIA事件被识别：控制器用于，拖动开始，拖动取消，拖动完成，元素选择，实时区"
 "域更改，通知，系统警报，工具提示打开，窗口打开。 将NVDA设置为启用调试日志记录"
@@ -241,10 +242,15 @@ msgstr ""
 "动）的功能。 默认情况下，稳定版和开发版将分别按每周或每天自动检查新更新。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "In some apps, live region text is announced. This includes alerts in "
+#| "Edge, results in Calculator and others. Note that this may result in "
+#| "double-speaking in some cases."
 msgid ""
-"In some apps, live region text is announced. This includes alerts in Edge, "
-"results in Calculator and others. Note that this may result in double-"
-"speaking in some cases."
+"In some apps, live region text is announced. This includes alerts in Edge "
+"(including elements marked with aria-role=alert), results in Calculator and "
+"others. Note that this may result in double-speaking in some cases."
 msgstr ""
 "在某些应用程序中，活动区域文本被朗读。 这包括Edge中的警报，Calculator中的结果"
 "等。 请注意，在某些情况下，这可能导致重复朗读。"
@@ -270,18 +276,27 @@ msgid ""
 msgstr "来自Edge和通用应用程序的工具提示已被识别并将被朗读。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "In build 17627 and later, when opening a new Sets tab (Control+Windows"
+#| "+T), NVDA will announce search results when searching for items in the "
+#| "embedded Cortana window."
 msgid ""
-"In build 17627 and later, when opening a new Sets tab (Control+Windows+T), "
-"NVDA will announce search results when searching for items in the embedded "
-"Cortana window."
+"With Sets turned on (builds 17627 through 17692 for some insiders), when "
+"opening a new Sets tab (Control+Windows+T), NVDA will announce search "
+"results when searching for items in the embedded Cortana window."
 msgstr ""
 "在build 17627及以上版本中，当打开一个新的设置选项卡（Control + Windows + T）"
 "时，NVDA将在嵌入式Cortana窗口中搜索项目时读出搜索结果。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "When switching between Sets tabs, NvDA will announce name and position of "
+#| "the tab you are switching to."
 msgid ""
-"When switching between Sets tabs, NvDA will announce name and position of "
-"the tab you are switching to."
+"With Sets turned on, when switching between Sets tabs, NvDA will announce "
+"name and position of the tab you are switching to."
 msgstr "在设置选项卡之间切换时，NVDA会读出您要切换到选项卡的名称和位置。"
 
 #. type: Bullet: '* '
@@ -326,6 +341,14 @@ msgid ""
 "announce results as soon as calculations are entered."
 msgstr "对于计算，如单位换算，汇率转换器，NVDA将在输入计算后立即读出结果。"
 
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
+#| "for majority of cases."
+msgid "NVDA will no longer announce \"heading level\" for calculator results."
+msgstr "NVDA在浏览多数案件的讯息时将不再读出“Skype讯息”。"
+
 #. type: Title ##
 #, no-wrap
 msgid "calendar"
@@ -360,9 +383,13 @@ msgid ""
 msgstr "对于新的应用程序版本，NVDA将不再对反馈类别重复朗读两次。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will announce appearance of Game Bar window. Due to technical "
+#| "limitations, NVDA cannot interact fully with Game Bar."
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
-"limitations, NVDA cannot interact fully with Game Bar."
+"limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
 "NVDA将读出Game Bar窗口状态。 由于技术限制，NVDA无法与Game Bar完全互动。"
 
@@ -445,8 +472,13 @@ msgstr ""
 "时不再保持沉默。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "When searching for contacts, a sound will play if there are search "
+#| "results."
 msgid ""
-"When searching for contacts, a sound will play if there are search results."
+"When searching for contacts, first suggestion will be announced, "
+"particularly if using recent app releases."
 msgstr "搜索联系人时，如果有搜索结果，则会播放提示音。"
 
 #. type: Title ##
@@ -607,6 +639,10 @@ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
 #. type: Plain text
 msgid "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
 msgstr "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
+
+#~ msgid ""
+#~ "In context menus for Start Menu tiles, submenus are properly recognized."
+#~ msgstr "在开始菜单瓷贴控件的上下文菜单中，子菜单被正确识别。"
 
 #~ msgid ""
 #~ "NVDA will no longer announce \"unknown\" when opening quick link menu "

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons translation team.\n"
-"POT-Creation-Date: 2018-06-27 05:59+1000\n"
+"POT-Creation-Date: 2018-07-29 10:11+1000\n"
 "PO-Revision-Date: 2018-06-26 17:34+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Spanish <oprisniki@gmail.com>\n"
@@ -178,10 +178,9 @@ msgstr "General"
 
 #. type: Bullet: '* '
 msgid ""
-"In context menus for Start Menu tiles, submenus are properly recognized."
+"Submenu items are properly recognized in various apps, including context "
+"menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
-"En menús de contexto para los mosaicos del Menú Inicio, los submenús ahora "
-"se reconocen apropiadamente."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -222,12 +221,12 @@ msgstr ""
 #| "to run with debug logging enabled, these events will be tracked, and for "
 #| "UIA notification event, a debug tone will be heard."
 msgid ""
-"The following UIA events are recognized: active text position change "
-"(Redstone 5), controller for, drag start, drag cancel, drag complete, "
-"element selected, live region change, notification, system alert, tooltip "
-"opened, window opened. With NVDA set to run with debug logging enabled, "
-"these events will be tracked, and for UIA notification event, a debug tone "
-"will be heard."
+"The following UIA events are recognized: active text position change, "
+"controller for, drag start, drag cancel, drag complete, element selected, "
+"live region change, notification, system alert, tooltip opened, window "
+"opened. With NVDA set to run with debug logging enabled, these events will "
+"be tracked, and for UIA notification event, a debug tone will be heard if "
+"notifications come from somewhere other than the currently active app."
 msgstr ""
 "Se reconocen los siguientes eventos UIA: Controller for, drag start, drag "
 "cancel, drag complete, element selected, live region change, notification, "
@@ -249,10 +248,15 @@ msgstr ""
 "diáriamente, respectivamente."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "In some apps, live region text is announced. This includes alerts in "
+#| "Edge, results in Calculator and others. Note that this may result in "
+#| "double-speaking in some cases."
 msgid ""
-"In some apps, live region text is announced. This includes alerts in Edge, "
-"results in Calculator and others. Note that this may result in double-"
-"speaking in some cases."
+"In some apps, live region text is announced. This includes alerts in Edge "
+"(including elements marked with aria-role=alert), results in Calculator and "
+"others. Note that this may result in double-speaking in some cases."
 msgstr ""
 "En algunas aplicaciones, se anuncia el texto en regiones vivas. Esto incluye "
 "alertas en Edge, resultados en la calculadora y otros. Ten en cuenta que "
@@ -282,19 +286,28 @@ msgstr ""
 "universales."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "In build 17627 and later, when opening a new Sets tab (Control+Windows"
+#| "+T), NVDA will announce search results when searching for items in the "
+#| "embedded Cortana window."
 msgid ""
-"In build 17627 and later, when opening a new Sets tab (Control+Windows+T), "
-"NVDA will announce search results when searching for items in the embedded "
-"Cortana window."
+"With Sets turned on (builds 17627 through 17692 for some insiders), when "
+"opening a new Sets tab (Control+Windows+T), NVDA will announce search "
+"results when searching for items in the embedded Cortana window."
 msgstr ""
 "En la compilación 17627 y posteriores, cuando se abra una nueva pestaña de "
 "Conjuntos (ctrl+windows+T), NVDA anunciará los resultados de búsqueda cuando "
 "se busque en la ventana incrustada de Cortana."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "When switching between Sets tabs, NvDA will announce name and position of "
+#| "the tab you are switching to."
 msgid ""
-"When switching between Sets tabs, NvDA will announce name and position of "
-"the tab you are switching to."
+"With Sets turned on, when switching between Sets tabs, NvDA will announce "
+"name and position of the tab you are switching to."
 msgstr ""
 "Al saltar entre pestañas de Conjuntos, NVDA anunciará nombre y posición de "
 "la pestaña hacia la cual se está conmutando."
@@ -348,6 +361,16 @@ msgstr ""
 "Para cálculos tales como conversión de unidades y conversión de moneda, NVDA "
 "anunciará los resultados tan pronto como los cálculos se introduzcan."
 
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
+#| "for majority of cases."
+msgid "NVDA will no longer announce \"heading level\" for calculator results."
+msgstr ""
+"NVDA ya no anuncia \"Mensaje Skype\" cuando se revisen mensajes para la "
+"mayoría de los casos."
+
 #. type: Title ##
 #, no-wrap
 msgid "calendar"
@@ -386,9 +409,13 @@ msgstr ""
 "comentarios dos veces."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will announce appearance of Game Bar window. Due to technical "
+#| "limitations, NVDA cannot interact fully with Game Bar."
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
-"limitations, NVDA cannot interact fully with Game Bar."
+"limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
 "NVDA anunciará la aparición de la ventana Barra de Juegos. Debido a "
 "limitaciones técnicas, NVDA no puede interactuar completamente con la Barra "
@@ -484,8 +511,13 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "When searching for contacts, a sound will play if there are search "
+#| "results."
 msgid ""
-"When searching for contacts, a sound will play if there are search results."
+"When searching for contacts, first suggestion will be announced, "
+"particularly if using recent app releases."
 msgstr ""
 "Cuando se busquen contactos, se reproducirá un sonido si hay resultados de "
 "la búsqueda."
@@ -670,6 +702,12 @@ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
 #. type: Plain text
 msgid "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
 msgstr ""
+
+#~ msgid ""
+#~ "In context menus for Start Menu tiles, submenus are properly recognized."
+#~ msgstr ""
+#~ "En menús de contexto para los mosaicos del Menú Inicio, los submenús "
+#~ "ahora se reconocen apropiadamente."
 
 #~ msgid ""
 #~ "NVDA will no longer announce \"unknown\" when opening quick link menu "

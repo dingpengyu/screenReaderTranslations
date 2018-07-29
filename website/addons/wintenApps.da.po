@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-07-29 10:11+1000\n"
 "PO-Revision-Date: 2018-06-28 07:34+0200\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: \n"
@@ -172,10 +172,9 @@ msgstr "Generelt"
 
 #. type: Bullet: '* '
 msgid ""
-"In context menus for Start Menu tiles, submenus are properly recognized."
+"Submenu items are properly recognized in various apps, including context "
+"menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
-"I kontesktmenuer, der vises i felterne i menuen start, genkendes undermenuer "
-"nu korrekt."
 
 #. type: Bullet: '* '
 msgid ""
@@ -204,13 +203,21 @@ msgstr ""
 "(f.eks. 1 af 2) ikke længere annonceret."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "The following UIA events are recognized: active text position change "
+#| "(Redstone 5), controller for, drag start, drag cancel, drag complete, "
+#| "element selected, live region change, notification, system alert, tooltip "
+#| "opened, window opened. With NVDA set to run with debug logging enabled, "
+#| "these events will be tracked, and for UIA notification event, a debug "
+#| "tone will be heard."
 msgid ""
-"The following UIA events are recognized: active text position change "
-"(Redstone 5), controller for, drag start, drag cancel, drag complete, "
-"element selected, live region change, notification, system alert, tooltip "
-"opened, window opened. With NVDA set to run with debug logging enabled, "
-"these events will be tracked, and for UIA notification event, a debug tone "
-"will be heard."
+"The following UIA events are recognized: active text position change, "
+"controller for, drag start, drag cancel, drag complete, element selected, "
+"live region change, notification, system alert, tooltip opened, window "
+"opened. With NVDA set to run with debug logging enabled, these events will "
+"be tracked, and for UIA notification event, a debug tone will be heard if "
+"notifications come from somewhere other than the currently active app."
 msgstr ""
 "De følgende UIA begivenheder er anerkendt: active text position change "
 "(Redstone 5), controller for, drag start, drag cancel, drag complete, "
@@ -233,10 +240,15 @@ msgstr ""
 "tidspunkt."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "In some apps, live region text is announced. This includes alerts in "
+#| "Edge, results in Calculator and others. Note that this may result in "
+#| "double-speaking in some cases."
 msgid ""
-"In some apps, live region text is announced. This includes alerts in Edge, "
-"results in Calculator and others. Note that this may result in double-"
-"speaking in some cases."
+"In some apps, live region text is announced. This includes alerts in Edge "
+"(including elements marked with aria-role=alert), results in Calculator and "
+"others. Note that this may result in double-speaking in some cases."
 msgstr ""
 "Nogle apps, live region tekst er annonceret. Dette omfatter advarsler i "
 "Edge, resultater i Lommeregner m.fl. Bemærk, at dette kan betyde, at nogle "
@@ -258,19 +270,28 @@ msgstr ""
 "annonceret."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "In build 17627 and later, when opening a new Sets tab (Control+Windows"
+#| "+T), NVDA will announce search results when searching for items in the "
+#| "embedded Cortana window."
 msgid ""
-"In build 17627 and later, when opening a new Sets tab (Control+Windows+T), "
-"NVDA will announce search results when searching for items in the embedded "
-"Cortana window."
+"With Sets turned on (builds 17627 through 17692 for some insiders), when "
+"opening a new Sets tab (Control+Windows+T), NVDA will announce search "
+"results when searching for items in the embedded Cortana window."
 msgstr ""
 "I Build 17627 og senere, når du åbner et nyt sæt af faner (CTRL + Windows + "
 "T), vil NVDA annoncerer søgeresultater, når du søger efter elementer i det "
 "integrerede Cortana vindue."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "When switching between Sets tabs, NvDA will announce name and position of "
+#| "the tab you are switching to."
 msgid ""
-"When switching between Sets tabs, NvDA will announce name and position of "
-"the tab you are switching to."
+"With Sets turned on, when switching between Sets tabs, NvDA will announce "
+"name and position of the tab you are switching to."
 msgstr ""
 "Når du skifter mellem Sæt af faner, annoncerer NvDA navn og position på "
 "fanen, du skifter til."
@@ -324,6 +345,16 @@ msgstr ""
 "For beregninger som enhedsberegninger og valutaberegninger, vil NVDA "
 "annoncere resultater så snart beregningerne er indtastet."
 
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
+#| "for majority of cases."
+msgid "NVDA will no longer announce \"heading level\" for calculator results."
+msgstr ""
+"NVDA vil ikke længere meddele \"Skype besked\", når du gennemgår meddelelser "
+"i de fleste tilfælde."
+
 #. type: Title ##
 #, no-wrap
 msgid "calendar"
@@ -362,9 +393,13 @@ msgstr ""
 "to gange."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will announce appearance of Game Bar window. Due to technical "
+#| "limitations, NVDA cannot interact fully with Game Bar."
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
-"limitations, NVDA cannot interact fully with Game Bar."
+"limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
 "NVDA vil annoncere udseende af vinduet Spillinje. På grund af tekniske "
 "begrænsninger, kan NVDA ikke fuldt interagere med Spillinje."
@@ -461,8 +496,13 @@ msgstr ""
 "event på nogle systemer."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "When searching for contacts, a sound will play if there are search "
+#| "results."
 msgid ""
-"When searching for contacts, a sound will play if there are search results."
+"When searching for contacts, first suggestion will be announced, "
+"particularly if using recent app releases."
 msgstr ""
 "Når du søger efter kontakter, afspilles en lyd, hvis der er søgeresultater."
 
@@ -627,3 +667,9 @@ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
 #. type: Plain text
 msgid "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
 msgstr "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
+
+#~ msgid ""
+#~ "In context menus for Start Menu tiles, submenus are properly recognized."
+#~ msgstr ""
+#~ "I kontesktmenuer, der vises i felterne i menuen start, genkendes "
+#~ "undermenuer nu korrekt."

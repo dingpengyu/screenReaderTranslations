@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-27 05:59+1000\n"
+"POT-Creation-Date: 2018-07-29 10:11+1000\n"
 "PO-Revision-Date: 2017-12-29 03:32-0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -164,8 +164,9 @@ msgstr "عام"
 
 #. type: Bullet: '* '
 msgid ""
-"In context menus for Start Menu tiles, submenus are properly recognized."
-msgstr "التعرف على القوائم الفرعية لقوائم سياق عناصر قائمة ابدأ بشكل صحيح."
+"Submenu items are properly recognized in various apps, including context "
+"menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
+msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
@@ -188,12 +189,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"The following UIA events are recognized: active text position change "
-"(Redstone 5), controller for, drag start, drag cancel, drag complete, "
-"element selected, live region change, notification, system alert, tooltip "
-"opened, window opened. With NVDA set to run with debug logging enabled, "
-"these events will be tracked, and for UIA notification event, a debug tone "
-"will be heard."
+"The following UIA events are recognized: active text position change, "
+"controller for, drag start, drag cancel, drag complete, element selected, "
+"live region change, notification, system alert, tooltip opened, window "
+"opened. With NVDA set to run with debug logging enabled, these events will "
+"be tracked, and for UIA notification event, a debug tone will be heard if "
+"notifications come from somewhere other than the currently active app."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -206,9 +207,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"In some apps, live region text is announced. This includes alerts in Edge, "
-"results in Calculator and others. Note that this may result in double-"
-"speaking in some cases."
+"In some apps, live region text is announced. This includes alerts in Edge "
+"(including elements marked with aria-role=alert), results in Calculator and "
+"others. Note that this may result in double-speaking in some cases."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -224,15 +225,15 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"In build 17627 and later, when opening a new Sets tab (Control+Windows+T), "
-"NVDA will announce search results when searching for items in the embedded "
-"Cortana window."
+"With Sets turned on (builds 17627 through 17692 for some insiders), when "
+"opening a new Sets tab (Control+Windows+T), NVDA will announce search "
+"results when searching for items in the embedded Cortana window."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When switching between Sets tabs, NvDA will announce name and position of "
-"the tab you are switching to."
+"With Sets turned on, when switching between Sets tabs, NvDA will announce "
+"name and position of the tab you are switching to."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -282,6 +283,10 @@ msgid ""
 "announce results as soon as calculations are entered."
 msgstr ""
 
+#. type: Bullet: '* '
+msgid "NVDA will no longer announce \"heading level\" for calculator results."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "calendar"
@@ -316,7 +321,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
-"limitations, NVDA cannot interact fully with Game Bar."
+"limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -389,7 +394,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When searching for contacts, a sound will play if there are search results."
+"When searching for contacts, first suggestion will be announced, "
+"particularly if using recent app releases."
 msgstr ""
 
 #. type: Title ##
@@ -526,3 +532,7 @@ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=w10-dev"
 #. type: Plain text
 msgid "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
 msgstr ""
+
+#~ msgid ""
+#~ "In context menus for Start Menu tiles, submenus are properly recognized."
+#~ msgstr "التعرف على القوائم الفرعية لقوائم سياق عناصر قائمة ابدأ بشكل صحيح."
