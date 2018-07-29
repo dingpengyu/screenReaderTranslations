@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-29 10:11+1000\n"
-"PO-Revision-Date: 2018-07-19 18:29+0700\n"
+"PO-Revision-Date: 2018-07-29 22:38+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -46,7 +46,7 @@ msgid ""
 "The following app modules or support modules for some apps are included (see "
 "each app section for details on what is included):"
 msgstr ""
-"Các module cho các ứng dụng sau đây đã đơc5 tích hợp (xem phần thông tin chi "
+"Các module cho các ứng dụng sau đây đã được tích hợp (xem phần thông tin chi "
 "tiết của mỗi ứng dụng để biết thêm chi tiết):"
 
 #. type: Bullet: '* '
@@ -106,11 +106,11 @@ msgstr "People"
 
 #. type: Bullet: '* '
 msgid "Settings (system settings, Windows+I)"
-msgstr "Settings (system settings, Windows+I)"
+msgstr "Thiết lập (thiết lập hệ thống, Windows+I)"
 
 #. type: Bullet: '* '
 msgid "Skype (universal app)"
-msgstr "Skype (universal app)"
+msgstr "Skype (ứng dụng universal)"
 
 #. type: Title ##
 #, no-wrap
@@ -137,7 +137,7 @@ msgid ""
 msgstr ""
 "Add-on này yêu cầu Windows 10 phiên bản 1709 (build 16299) trở lên và NVDA "
 "2018.2 trở lên. Tốt nhất, là dùng add-on với bản Windows 10 mới nhất (build "
-"17134) và stable bản mới nhất của NVDA."
+"17134) và bản chính thức mới nhất của NVDA."
 
 #. type: Bullet: '* '
 msgid "Some add-on features are or will be part of NVDA screen reader."
@@ -153,7 +153,7 @@ msgid ""
 msgstr ""
 "Với những thành phần không được liệt kê bên dưới, bạn có thể xem như các "
 "tính năng đó đã là một phần của NVDA, không phải áp dụng như add-on không hỗ "
-"trợ Windows 10 phiên bản cũ or các thay đổi của các ứng dụng làm cho chúng "
+"trợ Windows 10 phiên bản cũ hay các thay đổi của các ứng dụng làm cho chúng "
 "không còn tác dụng."
 
 #. type: Plain text
@@ -174,6 +174,9 @@ msgid ""
 "Submenu items are properly recognized in various apps, including context "
 "menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
+"Thành phần có trình đơn con đã được nhận dạng chính xác trong nhiều ứng "
+"dụng, bao gồm trình đơn ngữ cảnh của Start menu tiles và microsoft Edge "
+"(Redstone 5)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -202,7 +205,6 @@ msgstr ""
 "2) không còn được đọc nữa."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "The following UIA events are recognized: active text position change "
 #| "(Redstone 5), controller for, drag start, drag cancel, drag complete, "
@@ -218,12 +220,12 @@ msgid ""
 "be tracked, and for UIA notification event, a debug tone will be heard if "
 "notifications come from somewhere other than the currently active app."
 msgstr ""
-"Các sự kiện UIA sau đây đã được nhận dạng: active text position change "
-"(Redstone 5), controller for, drag start, drag cancel, drag complete, "
-"element selected, live region change, notification, system alert, tooltip "
-"opened, window opened. Với NVDA được thiết lập để chạy với chế độ bản ghi dò "
-"lỗi được bật, các sự kiện này sẽ được theo dõi, và cho thông báo sự kiện "
-"UIA, bạn sẽ nghe âm báo gỡ lỗi."
+"Các sự kiện UIA sau đã được nhận dạng: active text position change, "
+"controller for, drag start, drag cancel, drag complete, element selected, "
+"live region change, notification, system alert, tooltip opened, window "
+"opened. Khi NVDA được thiết lập chạy với bản ghi dò lỗi, những sự kiện này "
+"sẽ được theo dõi, và với sự kiện thông báo UIA, một âm báo lỗi sẽ được phát "
+"lên nếu các thông báo đến từ một nơi khác với ứng dụng đang chạy."
 
 #. type: Bullet: '* '
 msgid ""
@@ -234,23 +236,19 @@ msgid ""
 msgstr ""
 "Thêm khả năng kiểm tra cập nhật add-on (tự động hoặc thủ công) thông qua hộp "
 "thoại Windows 10 App Essentials được tìm thấy trong trình đơn tùy chọn của "
-"NvDA . Mặc định, các phiên bản stable và development sẽ được tự động kiểm "
+"NvDA . Mặc định, các phiên bản chính thức và thử nghiệm sẽ được tự động kiểm "
 "tra cập nhật hàng ngày hoặc hàng tuần."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In some apps, live region text is announced. This includes alerts in "
-#| "Edge, results in Calculator and others. Note that this may result in "
-#| "double-speaking in some cases."
 msgid ""
 "In some apps, live region text is announced. This includes alerts in Edge "
 "(including elements marked with aria-role=alert), results in Calculator and "
 "others. Note that this may result in double-speaking in some cases."
 msgstr ""
-"Trong một số ứng dụng, live region text đã được thông báo. Bao gồm các thông "
-"báo trong Edge, các kết quả trong Calculator và các thông tin khác. Lưu ý "
-"rằng các kết quả này có thể được đọc hai lần trong vài trường hợp."
+"Trong một số ứng dụng, live region text đã được thông báo, bao gồm các thông "
+"báo trong Edge (bao gôm các thành phần được đánh dấu thuộc tính aria-"
+"role=alert), các kết quả trong Calculator và các thông tin khác. Lưu ý rằng "
+"các kết quả này có thể được đọc hai lần trong vài trường hợp."
 
 #. type: Bullet: '* '
 msgid ""
@@ -268,31 +266,22 @@ msgstr ""
 "và sẽ được thông báo."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In build 17627 and later, when opening a new Sets tab (Control+Windows"
-#| "+T), NVDA will announce search results when searching for items in the "
-#| "embedded Cortana window."
 msgid ""
 "With Sets turned on (builds 17627 through 17692 for some insiders), when "
 "opening a new Sets tab (Control+Windows+T), NVDA will announce search "
 "results when searching for items in the embedded Cortana window."
 msgstr ""
-"Trong build 17627 trở lên, khi mở một bộ tab mới (Control+Windows+T), NVDA "
-"sẽ thông báo kết quả tìm kiếm khi tìm các thành phần trong cửa sổ Cortana đã "
-"được nhún vào."
+"Khi bật set (build 17627 đến 17692 với vài người), khi mở một bộ tab mới "
+"(Control+Windows+T), NVDA sẽ thông báo kết quả tìm kiếm khi tìm các thành "
+"phần trong cửa sổ Cortana đã được nhún vào."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When switching between Sets tabs, NvDA will announce name and position of "
-#| "the tab you are switching to."
 msgid ""
 "With Sets turned on, when switching between Sets tabs, NvDA will announce "
 "name and position of the tab you are switching to."
 msgstr ""
-"Khi chuyển giữa các bộ tab, NvDA sẽ thông báo tên và vị trí của tab bạn đang "
-"chuyển đến."
+"Nếu bật setts, khi chuyển giữa các bộ tab, NvDA sẽ thông báo tên và vị trí "
+"của tab bạn đang chuyển đến."
 
 #. type: Bullet: '* '
 msgid ""
@@ -321,10 +310,10 @@ msgid ""
 "controls. This also affects the control used to select when to restart to "
 "finish installing Windows updates."
 msgstr ""
-"giá trị của bộ chọn thời gian giờ đã được đọc, đặc biệt là khi chuyển con "
-"trỏ đến điều khiển để chọn. điều này cũng có tác dụng với điều khiển đã dùng "
-"để chọn thời gian khởi động lại máy để hoàn tất việc cài đặt cập nhật "
-"Windows."
+"Giá trị của bộ chọn thời gian (Time picker) giờ đã được đọc, đặc biệt là khi "
+"chuyển con trỏ đến điều khiển để chọn. điều này cũng có tác dụng với điều "
+"khiển đã dùng để chọn thời gian khởi động lại máy để hoàn tất việc cài đặt "
+"cập nhật."
 
 #. type: Title ##
 #, no-wrap
@@ -344,14 +333,8 @@ msgstr ""
 "khi phép tính được nhập."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
-#| "for majority of cases."
 msgid "NVDA will no longer announce \"heading level\" for calculator results."
-msgstr ""
-"NVDA không còn đọc \"Skype Message\" khi xem lại tin nhắn trong nhiều trường "
-"hợp."
+msgstr "NVDA không còn đọc \"tiêu đề cấp\" cho kết quả tính toán."
 
 #. type: Title ##
 #, no-wrap
@@ -390,16 +373,13 @@ msgstr ""
 "Từ các ứng dụng mới ra, NVDA không còn thông báo hai lần loại phản hồi."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will announce appearance of Game Bar window. Due to technical "
-#| "limitations, NVDA cannot interact fully with Game Bar."
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
 "limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
 "NVDA sẽ thông báo sự xuất hiện của cửa sổ Game Bar. vì giới hạn kĩ thuật, "
-"NVDA không thể tương tác hoàn toàn với Game Bar."
+"NVDA không thể tương tác hoàn toàn với Game Bar trong các phiên bản trước "
+"build 17723."
 
 #. type: Bullet: '* '
 msgid ""
@@ -490,14 +470,15 @@ msgstr ""
 "cảm ứng tăng sự kiện đổi tên trên một số hệ thống."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "When searching for contacts, a sound will play if there are search "
 #| "results."
 msgid ""
 "When searching for contacts, first suggestion will be announced, "
 "particularly if using recent app releases."
-msgstr "Khi tìm kiếm danh bạ, âm thanh sẽ được phát lên khi tìm thấy kết quả."
+msgstr ""
+"Khi tìm kiếm danh bạ, gợi ý đầu tiên sẽ được thông báo, đặc biệt là với các "
+"bản phát hành mới của ứng dụng."
 
 #. type: Title ##
 #, no-wrap
@@ -624,7 +605,7 @@ msgid ""
 "Tabs such as \"forecast\" and \"maps\" are recognized as proper tabs (patch "
 "by Derek Riemer)."
 msgstr ""
-"Các tab như \"dự báo\" và \"bản đồ\" đã được nhận dạng chính xác (vá lỗi bởi "
+"Các thẻ như \"dự báo\" và \"bản đồ\" đã được nhận dạng chính xác (vá lỗi bởi "
 "Derek Riemer)."
 
 #. type: Bullet: '* '
@@ -636,7 +617,7 @@ msgid ""
 "again will read the next item (Like the temperature). This currently works "
 "for daily and hourly forecasts."
 msgstr ""
-"Khi đọc một dự báo, dùng mũi tên trái phải để chuyển giữa các thành phần. "
+"khi đọc một dự báo, dùng mũi tên trái phải để chuyển giữa các thành phần. "
 "Dùng mũi tên lên xuống để đọc từng thành phần. Ví dụ, Bấm mũi tên phải có "
 "thể thông báo \"Thứ hai: 26 độ, có mây, ...\" Bấm mũi tên xuống sẽ đọc \"Thứ "
 "hai\" và bấm lần nữa sẽ đọc thành phần tiếp theo (nhiệt độ chẳng hạn). Tính "
