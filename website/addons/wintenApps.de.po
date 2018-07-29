@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-29 10:11+1000\n"
-"PO-Revision-Date: 2018-06-28 00:21+0200\n"
+"PO-Revision-Date: 2018-07-29 02:30+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -174,6 +174,9 @@ msgid ""
 "Submenu items are properly recognized in various apps, including context "
 "menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
+"Untermenüs werden in verschiedenen Anwendungen richtig erkannt, "
+"einschließlich des Kontextmenüs für Startmenükacheln und des Anwendungsmenüs "
+"von Microsoft Edge (Redstone 5)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -203,7 +206,6 @@ msgstr ""
 "B. 1 von 2) nicht mehr angesagt."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "The following UIA events are recognized: active text position change "
 #| "(Redstone 5), controller for, drag start, drag cancel, drag complete, "
@@ -219,12 +221,14 @@ msgid ""
 "be tracked, and for UIA notification event, a debug tone will be heard if "
 "notifications come from somewhere other than the currently active app."
 msgstr ""
-"Folgende UIA-Ereignisse werden erkannt: Aktive Änderungen der Textposition "
-"(Redstone 5), Controller für Drag Start, Drag Cancel, Drag Complete, Element "
-"ausgewählt, Live Region Change, Benachrichtigung, Systemalarm, Tooltip "
-"geöffnet, Fenster geöffnet. Wenn NVDA so eingestellt ist, dass es mit "
-"aktiviertem Debug-Logging läuft, werden diese Ereignisse verfolgt, und für "
-"UIA-Benachrichtigungsereignisse wird ein Debug-Ton ausgegeben."
+"Folgende UIA-Ereignisse werden erkannt: aktive Textpositionsänderung, "
+"Controller für, Drag Start, Drag Cancel, Drag Complete, Element ausgewählt, "
+"Live Region Change, Benachrichtigung, Systemalarm, Tooltip geöffnet, Fenster "
+"geöffnet. Wenn NVDA so eingestellt ist, dass es mit aktiviertem Debug-"
+"Logging läuft, werden diese Ereignisse verfolgt, und für UIA-"
+"Benachrichtigungsereignisse wird ein Debug-Ton ausgegeben, wenn "
+"Benachrichtigungen von einem anderen Ort als der aktuell aktiven Anwendung "
+"kommen."
 
 #. type: Bullet: '* '
 msgid ""
@@ -240,7 +244,6 @@ msgstr ""
 "suchen."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "In some apps, live region text is announced. This includes alerts in "
 #| "Edge, results in Calculator and others. Note that this may result in "
@@ -250,10 +253,10 @@ msgid ""
 "(including elements marked with aria-role=alert), results in Calculator and "
 "others. Note that this may result in double-speaking in some cases."
 msgstr ""
-"In einigen Apps wird Live-Region-Text angekündigt. Dazu gehören Meldungen in "
-"Edge, Ergebnisse im Windowsrechner und andere. Beachten Sie, dass dies in "
-"manchen Fällen zu einer doppelten Aussprache führen kann, da die meisten "
-"Szenarien nun Bestandteil von NVDA ab 2017.3 sind."
+"In einigen Apps wird der Live-Text der Region angekündigt. Dazu gehören "
+"Alerts in Edge (einschließlich der mit aria-role=alert markierten Elemente), "
+"Ergebnisse in Calculator und re. Beachten Sie, dass dies in manchen Fällen "
+"zu doppelten Ansagen führen kann."
 
 #. type: Bullet: '* '
 msgid ""
@@ -269,7 +272,6 @@ msgid ""
 msgstr "Tooltips von Edge und Universal Apps werden erkannt und angekündigt."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "In build 17627 and later, when opening a new Sets tab (Control+Windows"
 #| "+T), NVDA will announce search results when searching for items in the "
@@ -279,12 +281,12 @@ msgid ""
 "opening a new Sets tab (Control+Windows+T), NVDA will announce search "
 "results when searching for items in the embedded Cortana window."
 msgstr ""
-"In Build 17627 und später, beim Öffnen einer neuen Registerkarte (Control"
-"+Windows+T), gibt NVDA die Suchergebnisse bei der Suche nach Elementen im "
-"eingebetteten Cortana-Fenster bekannt."
+"Bei eingeschalteten Sets (Builds 17627 bis 17692 für einige Insider) gibt "
+"NVDA beim Öffnen einer neuen Registerkarte Sets (Control+Windows+T) die "
+"Suchergebnisse bei der Suche nach Artikeln im eingebetteten Cortana-Fenster "
+"bekannt."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "When switching between Sets tabs, NvDA will announce name and position of "
 #| "the tab you are switching to."
@@ -292,8 +294,9 @@ msgid ""
 "With Sets turned on, when switching between Sets tabs, NvDA will announce "
 "name and position of the tab you are switching to."
 msgstr ""
-"NVDA meldet nun auch die Position und die Zahl x von x der Registerkarte in "
-"Windows Sets, wenn zwischen Registerkarten navigiert wird."
+"Wenn Sets eingeschaltet sind, wird NVDA beim Umschalten zwischen den Sets-"
+"Registerkarten den Namen und die Position der Registerkarte, zu der Sie "
+"wechseln, bekannt geben."
 
 #. type: Bullet: '* '
 msgid ""
@@ -347,14 +350,13 @@ msgstr ""
 "die Ergebnisse bekannt, sobald die Berechnungen eingegeben wurden."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
 #| "for majority of cases."
 msgid "NVDA will no longer announce \"heading level\" for calculator results."
 msgstr ""
-"NVDA wird beim Navigieren durch die Nachrichteneinträge in den meisten "
-"Fällen nicht mehr \"Skype-Nachricht\" ansagen."
+"NVDA wird nicht mehr \"Überschriften\" für Berechnungsergebnisse bekannt "
+"geben."
 
 #. type: Title ##
 #, no-wrap
@@ -398,7 +400,6 @@ msgstr ""
 "angesagt."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "NVDA will announce appearance of Game Bar window. Due to technical "
 #| "limitations, NVDA cannot interact fully with Game Bar."
@@ -406,9 +407,9 @@ msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
 "limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
-"NVDA wird das Erscheinen des Fensters mit der Spieleleiste ansagen. Aufgrund "
-"technischer Einschränkungen kann NVDA nicht vollständig mit der Spieleleiste "
-"interagieren."
+"NVDA wird das Erscheinen der Spieleleiste ankündigen. Auf Grund technischer "
+"Einschränkungen kann NVDA vor dem Build 17723 nicht vollständig mit der "
+"Spieleleiste interagieren."
 
 #. type: Bullet: '* '
 msgid ""
@@ -501,7 +502,6 @@ msgstr ""
 "Systemen ein Namensänderungsereignis auslösen."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "When searching for contacts, a sound will play if there are search "
 #| "results."
@@ -509,7 +509,8 @@ msgid ""
 "When searching for contacts, first suggestion will be announced, "
 "particularly if using recent app releases."
 msgstr ""
-"Wenn die Suche nach Kontakten erfolgreich war, wird ein Signalton abgespielt."
+"Bei der Suche nach Kontakten wird der erste Vorschlag angekündigt, "
+"insbesondere bei Verwendung aktueller App-Veröffentlichungen."
 
 #. type: Title ##
 #, no-wrap
