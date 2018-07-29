@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Windows 10 App Essentials\n"
 "POT-Creation-Date: 2018-07-29 10:11+1000\n"
-"PO-Revision-Date: 2018-06-27 10:11+0200\n"
+"PO-Revision-Date: 2018-07-29 07:41+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -175,6 +175,9 @@ msgid ""
 "Submenu items are properly recognized in various apps, including context "
 "menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
+"Alavalikot tunnistetaan asianmukaisesti useissa sovelluksissa, mukaan lukien "
+"Käynnistä-valikon ruutujen tilannekohtaiset valikot ja microsoft Edgen "
+"sovellusvalikko (Redstone 5)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -204,14 +207,6 @@ msgstr ""
 "Edgessä)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "The following UIA events are recognized: active text position change "
-#| "(Redstone 5), controller for, drag start, drag cancel, drag complete, "
-#| "element selected, live region change, notification, system alert, tooltip "
-#| "opened, window opened. With NVDA set to run with debug logging enabled, "
-#| "these events will be tracked, and for UIA notification event, a debug "
-#| "tone will be heard."
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
@@ -221,11 +216,11 @@ msgid ""
 "notifications come from somewhere other than the currently active app."
 msgstr ""
 "Seuraavat UIA-tapahtumat tunnistetaan: sijainnin muutos aktiivisessa "
-"tekstissä (Redstone 5), ohjain kohteelle, vetämisen aloitus, vetämisen "
-"peruutus, vetäminen suoritettu, elementti valittu, aktiivisen alueen muutos, "
-"ilmoitus, järjestelmän ilmoitus, työkaluvihje avattu, ikkuna avattu. Näitä "
-"tapahtumia seurataan ja UIA-ilmoitustapahtuma ilmaistaan virheäänellä, kun "
-"NVDA:n lokitasoksi on määritetty \"virheenkorjaus\"."
+"tekstissä, ohjain kohteelle, vetämisen aloitus, vetämisen peruutus, "
+"vetäminen suoritettu, elementti valittu, aktiivisen alueen muutos, ilmoitus, "
+"järjestelmän ilmoitus, työkaluvihje avattu, ikkuna avattu. Näitä tapahtumia "
+"seurataan ja UIA-ilmoitustapahtuma ilmaistaan virheäänellä, kun NVDA:n "
+"lokitasoksi on määritetty \"virheenkorjaus\"."
 
 #. type: Bullet: '* '
 msgid ""
@@ -240,19 +235,16 @@ msgstr ""
 "oletuksena automaattisen päivitystarkistuksen viikoittain tai päivittäin."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In some apps, live region text is announced. This includes alerts in "
-#| "Edge, results in Calculator and others. Note that this may result in "
-#| "double-speaking in some cases."
 msgid ""
 "In some apps, live region text is announced. This includes alerts in Edge "
 "(including elements marked with aria-role=alert), results in Calculator and "
 "others. Note that this may result in double-speaking in some cases."
 msgstr ""
 "Joidenkin sovellusten Aktiivisen alueen teksti luetaan. Näitä ovat mm. Edgen "
-"ilmoitukset ja laskutoimitusten tulokset Laskimessa sekä muut. Huomaa, että "
-"tämä saattaa johtaa joissakin tapauksissa ilmoitusten kahdesti puhumiseen."
+"ilmoitukset (mukaan lukien elementit, jotka on merkitty aria-role=alert-"
+"ominaisuudella) ja laskutoimitusten tulokset Laskimessa sekä muut. Huomaa, "
+"että tämä saattaa johtaa joissakin tapauksissa ilmoitusten kahdesti "
+"puhumiseen."
 
 #. type: Bullet: '* '
 msgid ""
@@ -270,31 +262,22 @@ msgstr ""
 "ilmoitetaan."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In build 17627 and later, when opening a new Sets tab (Control+Windows"
-#| "+T), NVDA will announce search results when searching for items in the "
-#| "embedded Cortana window."
 msgid ""
 "With Sets turned on (builds 17627 through 17692 for some insiders), when "
 "opening a new Sets tab (Control+Windows+T), NVDA will announce search "
 "results when searching for items in the embedded Cortana window."
 msgstr ""
-"Kun koontiversiossa 17627 ja uudemmissa avataan uusi Sets-välilehti (Ctrl"
-"+Windows+T), NVDA ilmoittaa hakutulokset etsittäessä kohteita upotetussa "
-"Cortana-IKKUNASSA."
+"Kun Sets on otettu käyttöön (koontiversiot 17627-17692 joillakin Windows "
+"Insider -ohjelmaan liittyneillä), NVDA ilmoittaa uutta välilehteä avattaessa "
+"(Ctrl+Win+T) hakutulokset etsittäessä kohteita upotetussa Cortana-IKKUNASSA."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When switching between Sets tabs, NvDA will announce name and position of "
-#| "the tab you are switching to."
 msgid ""
 "With Sets turned on, when switching between Sets tabs, NvDA will announce "
 "name and position of the tab you are switching to."
 msgstr ""
-"NVDA ilmoittaa Sets-välilehteä vaihdettaessa sen välilehden nimen ja "
-"sijainnin, johon olet siirtymässä."
+"Kun Sets on otettu käyttöön, NVDA ilmoittaa välilehteä vaihdettaessa sen "
+"nimen ja sijainnin, johon olet siirtymässä."
 
 #. type: Bullet: '* '
 msgid ""
@@ -346,14 +329,10 @@ msgstr ""
 "heti laskukaavoja syötettäessä."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
-#| "for majority of cases."
 msgid "NVDA will no longer announce \"heading level\" for calculator results."
 msgstr ""
-"NVDA ei enää sano \"Skype-viesti\" useimmissa tapauksissa viestejä "
-"tarkasteltaessa."
+"NVDA ei enää sano \"otsikkotaso\" tarkasteltaessa laskutoimitusten tuloksia "
+"laskimessa."
 
 #. type: Title ##
 #, no-wrap
@@ -392,16 +371,13 @@ msgstr ""
 "NVDA ei enää puhu palauteluokkia kahdesti sovelluksen uudemmissa versioissa."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will announce appearance of Game Bar window. Due to technical "
-#| "limitations, NVDA cannot interact fully with Game Bar."
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
 "limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
 "NVDA ilmoittaa pelipalkki-ikkunan ilmestymisestä. Teknisistä rajoituksista "
-"johtuen NVDA ei voi olla täysin vuorovaikutuksessa pelipalkin kanssa."
+"johtuen NVDA ei voi olla täysin vuorovaikutuksessa pelipalkin kanssa ennen "
+"koontiversiota 17723."
 
 #. type: Bullet: '* '
 msgid ""
@@ -493,14 +469,12 @@ msgstr ""
 "muuttuneen nimitapahtuman."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When searching for contacts, a sound will play if there are search "
-#| "results."
 msgid ""
 "When searching for contacts, first suggestion will be announced, "
 "particularly if using recent app releases."
-msgstr "Kontakteja etsittäessä toistetaan ääni, mikäli hakutuloksia on."
+msgstr ""
+"Ensimmäinen ehdotus puhutaan kontakteja etsittäessä, erityisesti uusimpia "
+"sovellusversioita käytettäessä."
 
 #. type: Title ##
 #, no-wrap
