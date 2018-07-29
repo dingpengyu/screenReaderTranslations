@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-29 10:11+1000\n"
-"PO-Revision-Date: 2018-07-03 22:34+0300\n"
+"PO-Revision-Date: 2018-07-29 16:19+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -125,7 +125,7 @@ msgstr "Meteo."
 
 #. type: Bullet: '* '
 msgid "Miscellaneous modules for controls such as Start Menu tiles."
-msgstr "Diverse module de control precum tile-urile din meniul start."
+msgstr "Diverse module de control precum comenzile din meniul start."
 
 #. type: Plain text
 msgid "Notes:"
@@ -179,6 +179,9 @@ msgid ""
 "Submenu items are properly recognized in various apps, including context "
 "menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
+"Elementele de submeniu sunt recunoscute corespunzător în diverse aplicații, "
+"incluzând meniul context pentru comenzile din meniul Start și meniul de "
+"aplicație al Microsoft Edge (Redstone 5)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -208,14 +211,6 @@ msgstr ""
 "x. 1 din 2) nu mai este anunțată."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "The following UIA events are recognized: active text position change "
-#| "(Redstone 5), controller for, drag start, drag cancel, drag complete, "
-#| "element selected, live region change, notification, system alert, tooltip "
-#| "opened, window opened. With NVDA set to run with debug logging enabled, "
-#| "these events will be tracked, and for UIA notification event, a debug "
-#| "tone will be heard."
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
@@ -225,11 +220,11 @@ msgid ""
 "notifications come from somewhere other than the currently active app."
 msgstr ""
 "Următoarele evenimente UIA sunt recunoscute: schimbarea poziției textului "
-"activ (Redstone 5), controler pentru, început tragere, tragere finalizată, "
-"element selectat, schimbarea regiunii active, notificare, alertă de sistem, "
-"indiciu deschis, fereastră deschisă. Cu NVDA-ul setat să ruleze cu "
-"diagnosticarea activată, aceste evenimente vor fi urmărite, iar pentru "
-"evenimentul de tip notificare UIA, se va auzi un ton de diagnosticare."
+"activ, controler pentru, început de tragere, tragere finalizată, element "
+"selectat, schimbarea regiunii active, notificare, alertă de sistem, indiciu "
+"deschis, fereastră deschisă. Cu NVDA-ul setat să ruleze cu diagnosticarea "
+"activată, aceste evenimente vor fi urmărite, iar pentru evenimentul de tip "
+"notificare UIA, se va auzi un ton de diagnosticare."
 
 #. type: Bullet: '* '
 msgid ""
@@ -244,19 +239,15 @@ msgstr ""
 "cea în dezvoltare vor căuta noi actualizări automat săptămânal sau zilnic."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In some apps, live region text is announced. This includes alerts in "
-#| "Edge, results in Calculator and others. Note that this may result in "
-#| "double-speaking in some cases."
 msgid ""
 "In some apps, live region text is announced. This includes alerts in Edge "
 "(including elements marked with aria-role=alert), results in Calculator and "
 "others. Note that this may result in double-speaking in some cases."
 msgstr ""
 "În unele aplicații, textul regiunii live este anunțat. Aceasta include "
-"alertele din Edge, rezultatele din Calculator și altele. Rețineți faptul că "
-"asta poate rezulta o dublă vorbire în unele cazuri."
+"alertele din Edge (incluzând elementele marcate cu aria-role=alert), "
+"rezultatele din Calculator și altele. Rețineți faptul că asta poate rezulta "
+"o dublă vorbire în unele cazuri."
 
 #. type: Bullet: '* '
 msgid ""
@@ -274,31 +265,23 @@ msgstr ""
 "anunțate."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In build 17627 and later, when opening a new Sets tab (Control+Windows"
-#| "+T), NVDA will announce search results when searching for items in the "
-#| "embedded Cortana window."
 msgid ""
 "With Sets turned on (builds 17627 through 17692 for some insiders), when "
 "opening a new Sets tab (Control+Windows+T), NVDA will announce search "
 "results when searching for items in the embedded Cortana window."
 msgstr ""
-"În compilarea 17627 și mai nouă, la deschiderea unei noi file Sets (Control"
-"+Windows+T), NVDA va anunța rezultatele căutării atunci când se caută "
-"elemente în fereastra Cortana încorporată."
+"Cu Sets pornit (de la compilarea 17627 până la compilarea 17692 pentru unii "
+"insideri), la deschiderea unei noi file Sets (Control+Windows+T), NVDA va "
+"anunța rezultatele căutării atunci când se caută elemente în fereastra "
+"încorporată a Cortanei."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When switching between Sets tabs, NvDA will announce name and position of "
-#| "the tab you are switching to."
 msgid ""
 "With Sets turned on, when switching between Sets tabs, NvDA will announce "
 "name and position of the tab you are switching to."
 msgstr ""
-"NVDA anunță acum poziția și numărul etichetei set în timpul navigării între "
-"etichete."
+"Cu Sets pornit, la comutarea între filele Sets, NVDA va anunța numele și "
+"poziția filei la care vă comutați."
 
 #. type: Bullet: '* '
 msgid ""
@@ -350,14 +333,9 @@ msgstr ""
 "anunța rezultatele de îndată ce vor fi introduse calculele."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
-#| "for majority of cases."
 msgid "NVDA will no longer announce \"heading level\" for calculator results."
 msgstr ""
-"NVDA nu mai anunță „Mesaj Skype” la examinarea mesajelor pentru majoritatea "
-"cazurilor."
+"NVDA nu va mai anunța „rubrică nivel” pentru rezultatele calculatorului."
 
 #. type: Title ##
 #, no-wrap
@@ -397,16 +375,13 @@ msgstr ""
 "feedback de două ori."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will announce appearance of Game Bar window. Due to technical "
-#| "limitations, NVDA cannot interact fully with Game Bar."
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
 "limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
 "NVDA va anunța aspectul barei de jocuri. Datorită limitărilor tehnice, NVDA "
-"nu poate interacționa pe deplin cu bara de jocuri."
+"nu poate interacționa pe deplin cu bara de jocuri într-o compilare mai veche "
+"decât 17723."
 
 #. type: Bullet: '* '
 msgid ""
@@ -500,16 +475,12 @@ msgstr ""
 "un eveniment de schimbare a numelui pe unele sisteme."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When searching for contacts, a sound will play if there are search "
-#| "results."
 msgid ""
 "When searching for contacts, first suggestion will be announced, "
 "particularly if using recent app releases."
 msgstr ""
-"La căutarea contactelor, un sunet se va reda dacă există rezultate de "
-"căutare."
+"La căutarea de contacte, va fi anunțată prima sugestie, în particular dacă "
+"se folosesc versiuni recente ale aplicației."
 
 #. type: Title ##
 #, no-wrap
