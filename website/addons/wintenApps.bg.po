@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-29 10:11+1000\n"
-"PO-Revision-Date: 2018-06-26 23:34+0200\n"
+"PO-Revision-Date: 2018-07-29 11:11+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -177,6 +177,9 @@ msgid ""
 "Submenu items are properly recognized in various apps, including context "
 "menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
+"Подменютата биват правилно разпознати в различни приложения, включително "
+"контекстното меню за плочки от менюто \"Старт\" и менюто на приложението "
+"Microsoft Edge (Redstone 5)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -207,14 +210,6 @@ msgstr ""
 "за позицията (например 1 от 2)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "The following UIA events are recognized: active text position change "
-#| "(Redstone 5), controller for, drag start, drag cancel, drag complete, "
-#| "element selected, live region change, notification, system alert, tooltip "
-#| "opened, window opened. With NVDA set to run with debug logging enabled, "
-#| "these events will be tracked, and for UIA notification event, a debug "
-#| "tone will be heard."
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
@@ -223,12 +218,13 @@ msgid ""
 "be tracked, and for UIA notification event, a debug tone will be heard if "
 "notifications come from somewhere other than the currently active app."
 msgstr ""
-"Разпознават се следните UIA събития: active text position change (Redstone "
-"5), controller for, drag start, drag cancel, drag complete, element "
-"selected, live region change, notification, system alert, tooltip opened, "
-"window opened. Когато е указано на NVDA да работи с включено протоколиране "
-"за отстраняване на грешки, тези събития ще бъдат проследявани. А за събития "
-"за UIA известия, ще бъде възпроизвеждан и тон за отстраняване на грешки."
+"Разпознават се следните UIA събития: active text position change, controller "
+"for, drag start, drag cancel, drag complete, element selected, live region "
+"change, notification, system alert, tooltip opened, window opened. Когато е "
+"указано на NVDA да работи с включено протоколиране за отстраняване на "
+"грешки, тези събития ще бъдат проследявани. А за събития за UIA известия, ще "
+"бъде възпроизвеждан и тон за отстраняване на грешки ако известията идват от "
+"приложение различно от текущо фокусираното."
 
 #. type: Bullet: '* '
 msgid ""
@@ -244,18 +240,14 @@ msgstr ""
 "съответно ежеседмично и ежедневно."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In some apps, live region text is announced. This includes alerts in "
-#| "Edge, results in Calculator and others. Note that this may result in "
-#| "double-speaking in some cases."
 msgid ""
 "In some apps, live region text is announced. This includes alerts in Edge "
 "(including elements marked with aria-role=alert), results in Calculator and "
 "others. Note that this may result in double-speaking in some cases."
 msgstr ""
 "В някои приложения бива съобщавано съдържанието от активните (живи) региони. "
-"Това включва известията в Edge, Калкулатор и други. Забележка: това може да "
+"Това включва известията в Edge (включително елементи, маркирани с aria-"
+"role=alert), резултатите в Калкулатор и други. Забележка: това може да "
 "доведе в някои случаи до двойно четене."
 
 #. type: Bullet: '* '
@@ -274,31 +266,23 @@ msgstr ""
 "бъдат съобщавани."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In build 17627 and later, when opening a new Sets tab (Control+Windows"
-#| "+T), NVDA will announce search results when searching for items in the "
-#| "embedded Cortana window."
 msgid ""
 "With Sets turned on (builds 17627 through 17692 for some insiders), when "
 "opening a new Sets tab (Control+Windows+T), NVDA will announce search "
 "results when searching for items in the embedded Cortana window."
 msgstr ""
-"В компилация 17627 и по-нови, при отваряне на нов раздел в Sets (Control"
-"+Windows+T), NVDA ще съобщава резултатите от търсенето при търсене за "
-"елементи във вградения прозорец на Cortana."
+"При включена функция \"Sets\" (в компилации от 17627 до 17692 за някои "
+"изпитатели), при отварянето на нов раздел в Sets (Control+Windows+T), NVDA "
+"ще съобщава резултатите от търсенето, когато се търсят елементи във "
+"вградения прозорец на Cortana."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When switching between Sets tabs, NvDA will announce name and position of "
-#| "the tab you are switching to."
 msgid ""
 "With Sets turned on, when switching between Sets tabs, NvDA will announce "
 "name and position of the tab you are switching to."
 msgstr ""
-"Когато превключвате между разделите от \"Набори\", NVDA ще съобщава името и "
-"позицията на раздела, към който превключвате."
+"При включена функция \"Sets\", когато превключвате между разделите, NVDA ще "
+"съобщава името и позицията на раздела, към който превключвате."
 
 #. type: Bullet: '* '
 msgid ""
@@ -353,14 +337,10 @@ msgstr ""
 "резултатите веднага щом бъдат въведени стойности."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
-#| "for majority of cases."
 msgid "NVDA will no longer announce \"heading level\" for calculator results."
 msgstr ""
-"В повечето случаи NVDA вече няма да съобщава \"Съобщение от Skype\" при "
-"преглед на съобщенията."
+"NVDA вече няма да съобщава \"заглавие ниво\" за резултатите в приложението "
+"Калкулатор."
 
 #. type: Title ##
 #, no-wrap
@@ -404,16 +384,13 @@ msgstr ""
 "категориите за обратна връзка."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will announce appearance of Game Bar window. Due to technical "
-#| "limitations, NVDA cannot interact fully with Game Bar."
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
 "limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
-"NVDA ще прочита известията от лентата за игри. Поради технически "
-"ограничения, NVDA не може да взаимодейства пълноценно с лентата за игри."
+"NVDA ще съобщава появата на прозореца на лентата за игри. Поради технически "
+"ограничения, NVDA не може да взаимодейства напълно с лентата за игри в "
+"компилации на Windows 10 по-стари от 17723."
 
 #. type: Bullet: '* '
 msgid ""
@@ -510,16 +487,12 @@ msgstr ""
 "някои системи."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When searching for contacts, a sound will play if there are search "
-#| "results."
 msgid ""
 "When searching for contacts, first suggestion will be announced, "
 "particularly if using recent app releases."
 msgstr ""
-"При търсене на контакти, ще бъде възпроизведен звук, ако бъдат открити "
-"съвпадения."
+"При търсене на контакти, ще бъде съобщено първото предложение, особено ако "
+"използвате най-новите версии на приложенията."
 
 #. type: Title ##
 #, no-wrap
