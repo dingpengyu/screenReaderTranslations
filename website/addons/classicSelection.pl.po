@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Classic Selection\n"
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
-"PO-Revision-Date: 2017-06-02 21:43+0100\n"
+"PO-Revision-Date: 2018-07-29 20:48+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Classic Selection\"]]\n"
-msgstr "[[!meta title=\"Classic Selection /zaznaczanie klasyczne\"]]\n"
+msgstr "[[!meta title=\"Classic Selection\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Tyler Spivey"

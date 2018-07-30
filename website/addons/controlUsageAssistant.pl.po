@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Control usage assistant\n"
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
-"PO-Revision-Date: 2017-06-02 21:41+0100\n"
+"PO-Revision-Date: 2018-07-29 20:53+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: polish translation team <killer@tyflonet.com>\n"
 "Language: pl\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Control Usage Assistant\"]]\n"
-msgstr "[[!meta title=\"Asystent używania kontrolek / Control Usage Assistant\"]]\n"
+msgstr "[[!meta title=\"Control Usage Assistant\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
