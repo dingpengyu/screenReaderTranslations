@@ -3,37 +3,40 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: addonUpdater Addons website for NVDA\n"
 "POT-Creation-Date: 2018-07-30 04:56+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-30 12:47+0200\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Add-on Updater\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Add-on Updater\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
-msgstr ""
+msgstr "Auteur : Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Télécharger [version stable][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 3208 to life: ability to check for, "
 "download, and apply add-on updates."
 msgstr ""
+"Ce module complémentaire apporte vie à NVDA Core issue 3208 : possibilité de "
+"vérifier, de télécharger et d'appliquer des mises à jour de modules "
+"complémentaires."
 
 #. type: Plain text
 msgid ""
@@ -43,49 +46,62 @@ msgid ""
 "and the new version. Select Update, and NVDA will download and apply updates "
 "in sequence, with a prompt to restart your NVDA shown afterwards."
 msgstr ""
+"Pour vérifier les mises à jour après l'installation de ce module "
+"complémentaire, allez dans le menu NVDA / Outils / Vérifier pour les mises à "
+"jour de modules complémentaires. Si des mises à jour sont disponibles, une "
+"liste de mises à jour de modules complémentaires s'affiche, chaque entrée "
+"comprenant la description, la version actuelle et la nouvelle version. "
+"Sélectionnez Mise à jour, et NVDA téléchargera et appliquera les mises à "
+"jour dans l'ordre, avec une invite pour redémarrer votre NVDA montré après."
 
 #. type: Plain text
 msgid ""
 "The following add-ons provide built-in update feature and thus updates will "
 "not be checked via this add-on:"
 msgstr ""
+"Les modules complémentaires suivants fournissent une fonction de mise à jour "
+"intégrée et les mises à jour ne seront donc pas vérifiées via ce module "
+"complémentaire :"
 
 #. type: Bullet: '* '
 msgid "Braille Extender"
-msgstr ""
+msgstr "Braille Extender"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
-msgstr ""
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "WeatherPlus"
-msgstr ""
+msgstr "WeatherPlus"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
-msgstr ""
+msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
 "included in NVDA, this add-on will be discontinued."
 msgstr ""
+"IMPORTANT : ceci est un module complémentaire de preuve de concept. Une fois "
+"la fonctionnalité pertinente incluse dans NVDA, ce module complémentaire "
+"sera supprimé."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Version 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Première version"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
