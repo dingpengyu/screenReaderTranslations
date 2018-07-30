@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-27 02:30+1000\n"
+"POT-Creation-Date: 2018-07-30 14:57+1000\n"
 "PO-Revision-Date: 2017-12-28 10:52-0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -936,6 +936,29 @@ msgstr ""
 "NVDA 2012.3以降がインストールされている場合、Studioコマンドの一部をタッチスク"
 "リーンから操作することが出来ます。最初に三本指タップをしてSPLモードに切り替え"
 "てから、上記のタッチコマンドを利用してコマンドを操作して下さい。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.08.1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed yet another wxPython 4 compatibility issue seen when Studio exits."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will announce an appropriate message when playlist modification text "
+"isn't present, commonly seen after loading an unmodified playlist or when "
+"Studio starts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when trying to "
+"obtain metadata streaming status via SPL Assistant (E)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

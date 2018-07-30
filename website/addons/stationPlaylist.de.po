@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-07-27 02:30+1000\n"
+"POT-Creation-Date: 2018-07-30 14:57+1000\n"
 "PO-Revision-Date: 2018-05-06 04:05+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
@@ -986,6 +986,37 @@ msgstr ""
 "Studio-Befehle über den Touchscreen ausführen. Tippen Sie zunächst einmal "
 "mit drei Fingern, um in den SPL-Touchmodus zu wechseln. Verwenden Sie dann "
 "die oben aufgeführten Touch-Befehle, um Befehle auszuführen."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.04.1"
+msgid "Version 18.08.1"
+msgstr "Version 18.04.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed yet another wxPython 4 compatibility issue seen when Studio exits."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will announce an appropriate message when playlist modification text "
+"isn't present, commonly seen after loading an unmodified playlist or when "
+"Studio starts."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer appear to do anything or play an error tone when "
+#| "switching to a time-based broadcast profile."
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when trying to "
+"obtain metadata streaming status via SPL Assistant (E)."
+msgstr ""
+"NVDA wird keine irreführenden Aktionen  mehr ausführen und auch keine "
+"Fehlerton mehr abspielen, wenn auf  ein temporäres Sendeprofil gewechselt "
+"wird."
 
 #. type: Title ##
 #, fuzzy, no-wrap

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA website files\n"
-"POT-Creation-Date: 2018-07-27 02:30+1000\n"
+"POT-Creation-Date: 2018-07-30 14:57+1000\n"
 "PO-Revision-Date: 2018-05-29 11:16+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA Translation team <LL@li.org>\n"
@@ -975,6 +975,36 @@ msgstr ""
 "realizar algunhas ordes do Studio dende a pantalla tactil. Primeiro usa un "
 "toque con tgres dedos para cambiar a modo SPL, logo usa as ordes tactiles "
 "listadas arriba para realizar ordes."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.04.1"
+msgid "Version 18.08.1"
+msgstr "Versión 18.04.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed yet another wxPython 4 compatibility issue seen when Studio exits."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will announce an appropriate message when playlist modification text "
+"isn't present, commonly seen after loading an unmodified playlist or when "
+"Studio starts."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer appear to do anything or play an error tone when "
+#| "switching to a time-based broadcast profile."
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when trying to "
+"obtain metadata streaming status via SPL Assistant (E)."
+msgstr ""
+"NVDA xa non parecerá non facer nada ou non reproducirá un ton de erro ao "
+"cambiar a un perfil de transmisión baseado en tempo."
 
 #. type: Title ##
 #, fuzzy, no-wrap
