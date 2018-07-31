@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-07-30 04:56+1000\n"
+"POT-Creation-Date: 2018-07-31 15:03+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,6 +70,18 @@ msgstr ""
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
 "included in NVDA, this add-on will be discontinued."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.08.1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"It is now possible to let NVDA check for add-on updates automatically (every "
+"24 hours). This is configured through a new Add-on Updater settings panel "
+"found in NVDA settings."
 msgstr ""
 
 #. type: Title ##

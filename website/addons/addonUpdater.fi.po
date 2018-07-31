@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Add-on Updater\n"
-"POT-Creation-Date: 2018-07-30 04:56+1000\n"
+"POT-Creation-Date: 2018-07-31 15:03+1000\n"
 "PO-Revision-Date: 2018-07-29 23:01+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
@@ -85,6 +85,19 @@ msgid ""
 msgstr ""
 "TÄRKEÄÄ: tämä on konseptilisäosa. Sen kehitys lopetetaan, kun kyseinen "
 "ominaisuus sisältyy NVDA:han."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08"
+msgid "Version 18.08.1"
+msgstr "Versio 18.08"
+
+#. type: Bullet: '* '
+msgid ""
+"It is now possible to let NVDA check for add-on updates automatically (every "
+"24 hours). This is configured through a new Add-on Updater settings panel "
+"found in NVDA settings."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-30 04:56+1000\n"
+"POT-Creation-Date: 2018-07-31 15:03+1000\n"
 "PO-Revision-Date: 2018-07-29 22:26+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,6 +84,19 @@ msgstr ""
 "ВАЖНО: Целта на тази добавка е да докаже работеща концепция за въпросната "
 "функционалност. След като съответната функция бъде включена в NVDA, тази "
 "добавка ще бъде премахната."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08"
+msgid "Version 18.08.1"
+msgstr "Версия 18.08"
+
+#. type: Bullet: '* '
+msgid ""
+"It is now possible to let NVDA check for add-on updates automatically (every "
+"24 hours). This is configured through a new Add-on Updater settings panel "
+"found in NVDA settings."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
