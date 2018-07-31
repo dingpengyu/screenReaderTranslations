@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-31 15:03+1000\n"
-"PO-Revision-Date: 2018-07-30 03:27+0800\n"
+"PO-Revision-Date: 2018-07-31 13:10+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Add-on Updater\"]]\n"
-msgstr "[[!meta title=\"概念插件-插件更新程序\"]]\n"
+msgstr "[[!meta title=\"插件更新-概念插件\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
@@ -77,10 +77,9 @@ msgstr ""
 "重要提示：这是一款概念插件。一旦相关功能包含在NVDA中，此插件将停止使用。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.08.1"
-msgstr "版本18.08"
+msgstr "版本18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -88,6 +87,8 @@ msgid ""
 "24 hours). This is configured through a new Add-on Updater settings panel "
 "found in NVDA settings."
 msgstr ""
+"现在支持让NVDA自动检查插件更新（每24小时一次）。这是通过NVDA设置中的新插件更"
+"新程序设置面板配置的。"
 
 #. type: Title ##
 #, no-wrap
