@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Enhanced Touch gestures\n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2017-05-12 22:41+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: polish <killer@tyflonet.com>\n"
@@ -187,6 +187,16 @@ msgid ""
 "turn off touch support for that profile. This is useful in apps that provide "
 "their own touch commands. To restore touch functionality, either uncheck "
 "this checkbox or manually toggle touch passthrough."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.03"
+msgid "Version 18.08"
+msgstr "Wersja 17.03"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
 msgstr ""
 
 #. type: Title ##

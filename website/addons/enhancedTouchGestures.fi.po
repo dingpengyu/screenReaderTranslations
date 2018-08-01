@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2018-06-13 14:04+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
@@ -202,6 +202,16 @@ msgstr ""
 "tarjoavat omia kosketuskomentojaan. Palauta kosketustuki käyttöön joko "
 "poistamalla valintaruudun valinta tai vaihtamalla kosketuksen "
 "läpivientitilaa manuaalisesti."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.06"
+msgid "Version 18.08"
+msgstr "Versio 18.06"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

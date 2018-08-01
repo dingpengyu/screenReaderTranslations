@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2018-06-21 23:02+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -201,6 +201,16 @@ msgstr ""
 "Funktionalität von NVDA wieder zu aktivieren, deaktivieren Sie entweder "
 "dieses Kontrollkästchen oder schalten Sie das Durchreichen der Touch-Gesten "
 "manuell ein."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.06"
+msgid "Version 18.08"
+msgstr "Version 18.06"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

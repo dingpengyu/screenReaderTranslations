@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2018-07-16 13:14+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
@@ -179,6 +179,16 @@ msgstr ""
 "一个名为“完全禁用触摸支持”的复选框。选中此框并在提示时回答“是”将完全关闭该配"
 "置文件的触摸支持。这在提供自己的触摸命令的应用程序中很有用。要恢复触控功能，"
 "请取消选中此复选框或手动切换触摸直通。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.06"
+msgid "Version 18.08"
+msgstr "版本18.06"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

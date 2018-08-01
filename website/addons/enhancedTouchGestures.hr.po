@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2018-04-19 17:03+0100\n"
 "Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -209,6 +209,16 @@ msgstr ""
 "za taj profil. Ovo je korisno u aplikacijama koje nude vlastite dodirne "
 "komande. Kako biste vratili ovo podešavanje na staro, samo isključite taj "
 "potvrdni okvir."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.4][1]"
+msgid "Version 18.08"
+msgstr "Inačica: [0.4][1]"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

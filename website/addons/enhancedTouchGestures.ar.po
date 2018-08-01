@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA addons\n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2015-10-09 12:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -179,6 +179,16 @@ msgid ""
 "turn off touch support for that profile. This is useful in apps that provide "
 "their own touch commands. To restore touch functionality, either uncheck "
 "this checkbox or manually toggle touch passthrough."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 18.08"
+msgstr "الإصدار: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
 msgstr ""
 
 #. type: Title ##

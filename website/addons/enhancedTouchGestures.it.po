@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDa Website\n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2018-06-19 15:06+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: NVDA italian community <simone.dalmaso@gmail.com>\n"
@@ -205,6 +205,16 @@ msgstr ""
 "nel touchScreen. Per rirpristinare il supporto al tocco da parte di NVDA, "
 "disattivare la casella di controllo in questione oppure servirsi della "
 "funzione passa il prossimo gesto al touchscreen."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.06"
+msgid "Version 18.08"
+msgstr "Versione 18.06"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

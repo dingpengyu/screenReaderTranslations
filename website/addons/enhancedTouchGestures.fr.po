@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: enhancedTouchGestures website\n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2018-06-15 18:38+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: rémy Ruiz <remyruiz@gmail.com>\n"
@@ -203,6 +203,16 @@ msgstr ""
 "applications qui fournissent leurs propres commandes tactiles. Pour "
 "restaurer la fonctionnalité tactile, décochez cette case à cocher ou "
 "basculer manuellement l'émulation tactile."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.06"
+msgid "Version 18.08"
+msgstr "Version 18.06"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

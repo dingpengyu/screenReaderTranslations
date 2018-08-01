@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2018-06-28 15:06+0200\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Danish <LL@li.org>\n"
@@ -196,6 +196,16 @@ msgstr ""
 "den pågældende profil. Dette er nyttigt i apps der anvender deres egne touch-"
 "kommandoer. Hvis du vil gendanne touch funktionalitet, enten fjerne "
 "markeringen i dette afkrydsningsfelt eller manuelt skifte touch passthrough."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.06"
+msgid "Version 18.08"
+msgstr "Version 18.06"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

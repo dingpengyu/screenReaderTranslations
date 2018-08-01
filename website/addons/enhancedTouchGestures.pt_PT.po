@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Comandos de Toque Realçados\n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-08-01 11:17+1000\n"
 "PO-Revision-Date: 2018-06-13 18:47+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
@@ -198,6 +198,16 @@ msgstr ""
 "toque para esse perfil. Isto é útil em aplicações que fornecem os seus "
 "próprios comandos de toque. Para restaurar a funcionalidade de toque, "
 "desmarque essa caixa de selecção ou altere manualmente a passagem de toque."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.06"
+msgid "Version 18.08"
+msgstr "Versão 18.06"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
