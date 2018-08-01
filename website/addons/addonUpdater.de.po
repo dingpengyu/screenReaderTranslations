@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-31 15:03+1000\n"
-"PO-Revision-Date: 2018-07-30 08:22+0200\n"
+"PO-Revision-Date: 2018-08-01 05:11+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -87,10 +87,10 @@ msgstr ""
 "eingestellt."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.08"
 msgid "Version 18.08.1"
-msgstr "Version 18.08"
+msgstr "Version 18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -98,6 +98,9 @@ msgid ""
 "24 hours). This is configured through a new Add-on Updater settings panel "
 "found in NVDA settings."
 msgstr ""
+"Es ist nun möglich, NVDA automatisch (alle 24 Stunden) auf Updates der "
+"Erweiterungen prüfen zu lassen. Dies wird über ein neues Add-on Updater-"
+"Einstellungsfenster in den NVDA-Einstellungen konfiguriert."
 
 #. type: Title ##
 #, no-wrap
