@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Windows 10 aplicações essenciais\n"
 "POT-Creation-Date: 2018-07-29 10:11+1000\n"
-"PO-Revision-Date: 2018-06-26 23:10+0100\n"
+"PO-Revision-Date: 2018-08-02 19:33+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -177,6 +177,9 @@ msgid ""
 "Submenu items are properly recognized in various apps, including context "
 "menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
+"Os itens do submenu são reconhecidos correctamente em vários aplicativos, "
+"incluindo o menu de contexto para os menus do menu Iniciar e o menu de "
+"aplicativos do Microsoft Edge (Redstone 5)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -205,7 +208,6 @@ msgstr ""
 "(por exemplo, 1 de 2) deixaram de ser anunciadas."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "The following UIA events are recognized: active text position change "
 #| "(Redstone 5), controller for, drag start, drag cancel, drag complete, "
@@ -221,12 +223,14 @@ msgid ""
 "be tracked, and for UIA notification event, a debug tone will be heard if "
 "notifications come from somewhere other than the currently active app."
 msgstr ""
-"Os seguintes eventos UIA são reconhecidos: Controlador para, arrastar para "
-"início, arrastar para cancelamento, arrastar para completo, elemento "
-"seleccionado, alterar região, notificação, alerta do sistema, barra de "
-"ferramentas aberta, janela aberta. Com o NVDA configurado para ser executado "
-"com o log de depuração ativado, esses eventos serão rastreados e, para o "
-"evento de notificação do UIA, um tom de depuração será ouvido. "
+"Os seguintes eventos UIA são reconhecidos: alteração da posição do texto "
+"activo, controlador para, arrastar início, arrastar cancelamento, arrastar "
+"completo, elemento selecionado, alterar região ao vivo, notificação, alerta "
+"do sistema, tooltip aberta, janela aberta. Com o NVDA configurado para ser "
+"executado com o log de depuração activado, esses eventos serão rastreados e, "
+"para o evento de notificação UIA, um beep de depuração será ouvido se as "
+"notificações vierem de algum lugar diferente do aplicativo actualmente "
+"activo."
 
 #. type: Bullet: '* '
 msgid ""
@@ -242,19 +246,14 @@ msgstr ""
 "diariamente, conforme determinado."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In some apps, live region text is announced. This includes alerts in "
-#| "Edge, results in Calculator and others. Note that this may result in "
-#| "double-speaking in some cases."
 msgid ""
 "In some apps, live region text is announced. This includes alerts in Edge "
 "(including elements marked with aria-role=alert), results in Calculator and "
 "others. Note that this may result in double-speaking in some cases."
 msgstr ""
-"Em algumas aplicações, o texto da região é anunciado. Isto inclui alertas no "
-"Edge, resultados na Calculadora e outros. Observe que isso pode resultar em "
-"fala dupla em alguns casos."
+"Em algumas aplicações, o texto da localização é anunciado. Isto inclui "
+"alertas no Edge, resultados na Calculadora e outros. Observe que isso pode "
+"resultar em fala dupla em alguns casos."
 
 #. type: Bullet: '* '
 msgid ""
@@ -272,7 +271,6 @@ msgstr ""
 "serão anunciadas."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "In build 17627 and later, when opening a new Sets tab (Control+Windows"
 #| "+T), NVDA will announce search results when searching for items in the "
@@ -282,12 +280,12 @@ msgid ""
 "opening a new Sets tab (Control+Windows+T), NVDA will announce search "
 "results when searching for items in the embedded Cortana window."
 msgstr ""
-"Na versão 17627 e posteriores, ao abrir uma nova guia Conjuntos (Control + "
+"Com as definições activadas (compilações  17627 a 17692 para algumas "
+"aplicações internas), ao abrir uma nova guia de definições (Controle + "
 "Windows + T), o NVDA anunciará os resultados da pesquisa ao pesquisar itens "
-"na janela Cortana incorporada."
+"na janela da Cortana incorporada."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "When switching between Sets tabs, NvDA will announce name and position of "
 #| "the tab you are switching to."
@@ -295,8 +293,9 @@ msgid ""
 "With Sets turned on, when switching between Sets tabs, NvDA will announce "
 "name and position of the tab you are switching to."
 msgstr ""
-"Ao alternar entre os separadores, o NVDA anunciará o nome e a posição do "
-"separador para o qual se está a deslocar."
+"Com as definições activadas, ao alternar entre os separadores de  "
+"definições, o NVDA anunciará o nome e a posição do separador para o qual "
+"está a deslocar-se."
 
 #. type: Bullet: '* '
 msgid ""
@@ -350,14 +349,13 @@ msgstr ""
 "anunciará os resultados assim que os cálculos forem inseridos."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
 #| "for majority of cases."
 msgid "NVDA will no longer announce \"heading level\" for calculator results."
 msgstr ""
-"O NVDA já não anunciará \"Mensagem do Skype\" ao revisar as mensagens para a "
-"maioria dos casos."
+"O NVDA não anunciará mais \"nível de cabeçalho\" para os resultados da "
+"calculadora."
 
 #. type: Title ##
 #, no-wrap
@@ -398,7 +396,6 @@ msgstr ""
 "anunciar duas vezes."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "NVDA will announce appearance of Game Bar window. Due to technical "
 #| "limitations, NVDA cannot interact fully with Game Bar."
@@ -407,8 +404,8 @@ msgid ""
 "limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
 "O NVDA anunciará a aparência da janela da barra de jogos. Devido a "
-"limitações técnicas, o NVDA não pode interagir completamente com a barra de "
-"jogos."
+"limitações técnicas, o NVDA não pode interagir totalmente com a barra de "
+"jogos antes da compilação 17723."
 
 #. type: Bullet: '* '
 msgid ""
@@ -502,7 +499,6 @@ msgstr ""
 "alguns sistemas."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "When searching for contacts, a sound will play if there are search "
 #| "results."
@@ -510,8 +506,8 @@ msgid ""
 "When searching for contacts, first suggestion will be announced, "
 "particularly if using recent app releases."
 msgstr ""
-"Ao procurar contactos, um som será reproduzido se houver resultados de "
-"pesquisa."
+"Ao procurar contactos, a primeira sugestão será anunciada, principalmente se "
+"usar os aplicativos mais recentes."
 
 #. type: Title ##
 #, no-wrap

@@ -3,37 +3,40 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Actualizador de extras\n"
 "POT-Creation-Date: 2018-07-31 15:03+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-02 19:11+0100\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: Equipa Portuguesa do NVDA\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Add-on Updater\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Actualizador de extras\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
-msgstr ""
+msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Baixar [versão estável][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 3208 to life: ability to check for, "
 "download, and apply add-on updates."
 msgstr ""
+"Este extra cumpre o solicitado no NVDA Core 3208: capacidade de verificar, "
+"baixar e aplicar atualizações de extras."
 
 #. type: Plain text
 msgid ""
@@ -43,39 +46,49 @@ msgid ""
 "and the new version. Select Update, and NVDA will download and apply updates "
 "in sequence, with a prompt to restart your NVDA shown afterwards."
 msgstr ""
+"Para verificar se há actualizações após a instalação deste extra, aceda ao "
+"menu do NVDA / Ferramentas / Verificar actualizações de extras. Se houver "
+"actualizações disponíveis, uma lista de actualizações de extras será "
+"mostrada, com cada entrada consistindo em descrição, versão actual e a nova "
+"versão. Seleccione Actualizar e o NVDA baixará e aplicará as actualizações "
+"em sequência, com um aviso para reiniciar o NVDA mostrado posteriormente."
 
 #. type: Plain text
 msgid ""
 "The following add-ons provide built-in update feature and thus updates will "
 "not be checked via this add-on:"
 msgstr ""
+"Os seguintes extras fornecem recursos de actualização integrados e, "
+"portanto, as actualizações não serão verificadas através deste extra:"
 
 #. type: Bullet: '* '
 msgid "Braille Extender"
-msgstr ""
+msgstr "Braille Extender"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
-msgstr ""
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "WeatherPlus"
-msgstr ""
+msgstr "WeatherPlus"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
-msgstr ""
+msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
 "included in NVDA, this add-on will be discontinued."
 msgstr ""
+"IMPORTANTE: este é um extra de teste de conceito. Uma vez que o recurso "
+"relevante esteja incluído no NVDA, este extra será descontinuado."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.1"
-msgstr ""
+msgstr "Versão 18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -83,21 +96,25 @@ msgid ""
 "24 hours). This is configured through a new Add-on Updater settings panel "
 "found in NVDA settings."
 msgstr ""
+"Agora é possível deixar que o NVDA verifique as actualizações complementares "
+"automaticamente (a cada 24 horas). Isso é configurado através de um novo "
+"painel de configurações do actualizador de extras que pode ser encontrado "
+"nas configurações do NVDA."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Versão 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Versão inicial"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
