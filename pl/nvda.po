@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-03 19:07+1000\n"
-"PO-Revision-Date: 2018-06-28 17:38+0100\n"
+"PO-Revision-Date: 2018-08-03 11:44+0200\n"
 "Last-Translator: Grzegorz Zlotowicz <grzezlo@wp.pl>\n"
 "Language-Team: killer@tyflonet.com\n"
 "Language: pl_PL\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-Bookmarks: -1,216,-1,-1,128,-1,-1,-1,-1,-1\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -362,14 +362,12 @@ msgid "pwdedt"
 msgstr "pwded"
 
 #. Translators: Displayed in braille for an object which is deleted.
-#, fuzzy
 msgid "del"
-msgstr "dlg"
+msgstr "del"
 
 #. Translators: Displayed in braille for an object which is inserted.
-#, fuzzy
 msgid "ins"
-msgstr "Lin&ki"
+msgstr "ins"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -514,11 +512,11 @@ msgstr "Automatyczne"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -590,14 +588,13 @@ msgid "to review"
 msgstr "Do kursora przeglądu"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
 msgid "Unknown braille display"
-msgstr "Monitory brajlowskie seika"
+msgstr "Nieznany monitor brajlowski"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "Bluetooth połączony szeregowo: {portName}"
+msgstr "Buetoot połączony szeregowo: {port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
@@ -669,9 +666,8 @@ msgstr "Bułgarski 8-punktowy brajl komputerowy"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Central Kurdish grade 1"
-msgstr "Szwedzki stopień 1"
+msgstr "Środkowokurdyjski stopień 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -685,9 +681,8 @@ msgstr "Walijski stopień 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Czech 8 dot computer braille"
-msgstr "Szwedzki 8-punktowy brajl komputerowy"
+msgstr "Czeski brajl komputerowy"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -791,9 +786,8 @@ msgstr "Angielski (U.S.) stopień 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Esperanto grade 1"
-msgstr "Niemiecki stopień 1"
+msgstr "Esperanto stopień 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -902,9 +896,8 @@ msgstr "Węgierski stopień 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Hungarian grade 2"
-msgstr "Węgierski stopień 1"
+msgstr "Węgierski stopień 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -3860,13 +3853,12 @@ msgid "No status line found"
 msgstr "Brak paska stanu"
 
 #. Translators: Reported when status line exist, but is empty.
-#, fuzzy
 msgid "no status bar information"
-msgstr "Brak informacji o położeniu"
+msgstr "Brak informacji o pasku stanu"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
-msgstr ""
+msgstr "Nie można skopiować treści paska stanu do schowka"
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -4824,17 +4816,17 @@ msgstr "Aragoński"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr ""
+msgstr "Środkowokurdyjski"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr ""
+msgstr "Północnokurdyjski"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "Birmański"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -7285,7 +7277,7 @@ msgstr "wyłączone"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
-msgstr ""
+msgstr "Nie ma emoji"
 
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
