@@ -568,7 +568,7 @@ msgstr ""
 msgid "No playlist has been loaded."
 msgstr ""
 
-#. Translators: Presented when playlist modification is unavailable (for Studio 4.33 and earlier)
+#. Translators: presented when playlist modification message isn't shown.
 msgid "Playlist modification not available"
 msgstr ""
 
@@ -610,10 +610,6 @@ msgstr ""
 
 #. Translators: Presented when there is no listener count information.
 msgid "Listener count not found"
-msgstr ""
-
-#. Translators: Presented when there is no information on song pitch (for Studio 4.33 and earlier).
-msgid "Song pitch not available"
 msgstr ""
 
 #. Translators: Presented when attempting to start library scan.
