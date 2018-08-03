@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-08-04 06:58+1000\n"
+"POT-Creation-Date: 2018-08-04 07:30+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title #
+#. type: Plain text
 #, no-wrap
-msgid "Screen Curtain"
+msgid "[[!meta title=\"Screen Curtain\"]]\n"
 msgstr ""
 
 #. type: Bullet: '* '
