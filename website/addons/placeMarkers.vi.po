@@ -182,7 +182,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 10.0"
-msgstr "Các thay đổi cho 10.0"
+msgstr "Các thay đổi cho phiên bản 10.0"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -201,7 +201,7 @@ msgstr "Giờ đây đã hỗ trợ tìm kiếm cụ thể trong Edge."
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 9.0"
-msgstr "Các thay đổi cho 9.0"
+msgstr "Các thay đổi cho phiên bản 9.0"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -230,7 +230,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 8.0"
-msgstr "Các thay đổi cho 8.0"
+msgstr "Các thay đổi cho phiên bản 8.0"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -251,7 +251,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 7.0"
-msgstr "Các thay đổi cho 7.0"
+msgstr "Các thay đổi cho phiên bản 7.0"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -303,7 +303,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 6.0"
-msgstr "Các thay đổi cho 6.0"
+msgstr "Các thay đổi cho phiên bản 6.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -316,7 +316,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.0"
-msgstr "Các thay đổi cho 5.0"
+msgstr "Các thay đổi cho phiên bản 5.0"
 
 #. type: Bullet: '* '
 msgid "Added case sensitive search."
@@ -333,7 +333,7 @@ msgstr "Thêm các phím lệnh trực quan."
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 4.0"
-msgstr "Các thay đổi cho 4.0"
+msgstr "Các thay đổi cho phiên bản 4.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -350,7 +350,7 @@ msgstr "Thông tin giúp đỡ cho add-on đã hiển thị trong phần quản 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.1"
-msgstr "Các thay đổi cho 3.1"
+msgstr "Các thay đổi cho phiên bản 3.1"
 
 #. type: Bullet: '* '
 msgid "Translation updates and new language."
@@ -364,7 +364,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.0"
-msgstr "Các thay đổi cho 3.0"
+msgstr "Các thay đổi cho phiên bản 3.0"
 
 #. type: Bullet: '* '
 msgid "Added support for skim reading."
@@ -373,7 +373,7 @@ msgstr "Thêm hỗ trợ cho thay đổi vị trí đọc."
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.0"
-msgstr "Các thay đổi cho 2.0"
+msgstr "Các thay đổi cho phiên bản 2.0"
 
 #. type: Bullet: '* '
 msgid "Added options to save and delete different searches for each file."
@@ -392,7 +392,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr "Các thay đổi cho 1.0"
+msgstr "Các thay đổi cho phiên bản 1.0"
 
 #. type: Bullet: '* '
 msgid "Initial version."
