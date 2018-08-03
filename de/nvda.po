@@ -11,7 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.9\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../nvda_quellen/nvda\n"
@@ -106,7 +106,7 @@ msgstr "Grammatik: {text}"
 #. Translators: This is presented when errors are found in an appModule (example output: error in appModule explorer).
 #, python-format
 msgid "Error in appModule %s"
-msgstr "Fehler in Anwendungsmodul \"%s\""
+msgstr "Fehler im Anwendungsmodul \"%s\""
 
 #. Translators: Reported for the banner landmark, normally found on web pages.
 msgctxt "aria"
@@ -364,14 +364,12 @@ msgid "pwdedt"
 msgstr "kwef"
 
 #. Translators: Displayed in braille for an object which is deleted.
-#, fuzzy
 msgid "del"
-msgstr "dlg"
+msgstr "del"
 
 #. Translators: Displayed in braille for an object which is inserted.
-#, fuzzy
 msgid "ins"
-msgstr "Lin&ks"
+msgstr "ins"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -516,11 +514,11 @@ msgstr "Automatisch"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -592,12 +590,11 @@ msgid "to review"
 msgstr "An NVDA-Cursor"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
 msgid "Unknown braille display"
-msgstr "Seika-Braillezeilen"
+msgstr "Unbekannte Braillezeile"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
 msgstr "Bluetooth-Anschluss: {portName}"
 
@@ -605,7 +602,7 @@ msgstr "Bluetooth-Anschluss: {portName}"
 #. Translators: Name of a serial communications port
 #, python-brace-format
 msgid "Serial: {portName}"
-msgstr "seriell: {portName}"
+msgstr "Seriell: {portName}"
 
 #. Translators: Reported when translation didn't succeed due to unsupported input.
 msgid "Unsupported input"
@@ -671,9 +668,8 @@ msgstr "Bulgarisches 8-Punkt-Computerbraille"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Central Kurdish grade 1"
-msgstr "Schwedische Vollschrift"
+msgstr "Zentralkurdische Vollschrift"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -687,9 +683,8 @@ msgstr "Walisische Kurzschrift"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Czech 8 dot computer braille"
-msgstr "Schwedisches 8-Punkt-Computerbraille"
+msgstr "Tschechisches 8-Punkt-Computerbraille"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -793,9 +788,8 @@ msgstr "Englische Kurzschrift (USA)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Esperanto grade 1"
-msgstr "Deutsche Vollschrift"
+msgstr "Spanische Vollschrift (Esperanto)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -904,7 +898,6 @@ msgstr "Ungarische Vollschrift"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Hungarian grade 2"
 msgstr "Ungarische Vollschrift"
 
@@ -3889,13 +3882,13 @@ msgid "No status line found"
 msgstr "Keine Statuszeile gefunden."
 
 #. Translators: Reported when status line exist, but is empty.
-#, fuzzy
 msgid "no status bar information"
-msgstr "Keine Standortinformationen"
+msgstr "Keine Informationen in der Statusleiste"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
 msgstr ""
+"Inhalt der Statusleiste konnte nicht in die Zwischenablage kopiert werden."
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -4869,17 +4862,17 @@ msgstr "Argonesisch"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr ""
+msgstr "Zentralkurdisch"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr ""
+msgstr "Nordkurdisch"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "Burmesisch"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -7365,7 +7358,7 @@ msgstr "Wiederholen Aus"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
-msgstr ""
+msgstr "Kein Emoji"
 
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
@@ -11033,200 +11026,3 @@ msgstr "Doppelter Zeilenabstand"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1,5 Zeilenabstand"
-
-#~ msgid "{language} - {layout}"
-#~ msgstr "{language} - {layout}"
-
-#~ msgctxt "languageName"
-#~ msgid "Amharic"
-#~ msgstr "Amharisch"
-
-#~ msgctxt "languageName"
-#~ msgid "Arabic"
-#~ msgstr "Arabisch"
-
-#~ msgctxt "languageName"
-#~ msgid "Nepali"
-#~ msgstr "Nepalesisch"
-
-#~ msgctxt "languageName"
-#~ msgid "Serbian (Latin)"
-#~ msgstr "Serbisch"
-
-#~ msgid "Shows the NVDA voice settings dialog"
-#~ msgstr "Zeigt die Stimmeneinstellungen von NVDA an."
-
-#~ msgid "&General settings..."
-#~ msgstr "&Allgemeine Einstellungen..."
-
-#~ msgid "&Synthesizer..."
-#~ msgstr "&Sprachausgabe..."
-
-#~ msgid "Change the synthesizer to be used"
-#~ msgstr "Zu verwendende Sprachausgabe"
-
-#~ msgid "Choose the voice, rate, pitch and volume to use"
-#~ msgstr ""
-#~ "Wählen Sie die gewünschte Stimme, Geschwindigkeit, Tonhöhe und Lautstärke."
-
-#~ msgid "B&raille settings..."
-#~ msgstr "B&raille-Einstellungen"
-
-#~ msgid "&Keyboard settings..."
-#~ msgstr "&Tastatureinstellungen..."
-
-#~ msgid ""
-#~ "Configure keyboard layout, speaking of typed characters, words or command "
-#~ "keys"
-#~ msgstr ""
-#~ "Konfigurieren Sie das Tastaturschema, die Ansage von Zeichen und Wörtern "
-#~ "sowie die Ansage von Funktionstasten."
-
-#~ msgid "&Mouse settings..."
-#~ msgstr "&Mauseinstellungen..."
-
-#~ msgid "Change reporting of mouse shape and object under mouse"
-#~ msgstr "Ansagen aller Änderungen der Mausformen und Objekte unter der Maus"
-
-#~ msgid "&Touch interaction..."
-#~ msgstr "&Touch-Interaktion..."
-
-#~ msgid "Change how NVDA interacts with the touchscreen"
-#~ msgstr "Bestimmen Sie, wie NVDA mit dem Touchscreen interagieren soll."
-
-#~ msgid "Configure how and when the review cursor moves"
-#~ msgstr "Konfiguriert das Verhalten des NVDA-Cursors"
-
-#~ msgid "&Input composition settings..."
-#~ msgstr "Einstellungen für &Eingabemethoden"
-
-#~ msgid ""
-#~ "Configure how NVDA reports input composition and candidate selection for "
-#~ "certain languages"
-#~ msgstr ""
-#~ "legt fest, wie NVDA Eingaben und -Kandidaten für verschiedene Sprachen "
-#~ "ausgibt"
-
-#~ msgid "&Object presentation..."
-#~ msgstr "&Objektdarstellung..."
-
-#~ msgid "Change reporting of objects"
-#~ msgstr "Ansage der Objekte ändern"
-
-#~ msgid "&Browse mode..."
-#~ msgstr "&Lesemodus..."
-
-#~ msgid "Change virtual buffers specific settings"
-#~ msgstr "Einstellungen für die virtuellen Ansichten ändern."
-
-#~ msgid "Document &formatting..."
-#~ msgstr "Dokument&formatierungen..."
-
-#~ msgid "Change settings of document properties"
-#~ msgstr "Einstellungen der Dokumenteigenschaften ändern"
-
-#~ msgid "&Windows 10 OCR..."
-#~ msgstr "&Windows 10 Texterkennung..."
-
-#~ msgid "General Settings"
-#~ msgstr "Allgemeine Einstellungen"
-
-#~ msgid "Voice Settings"
-#~ msgstr "Stimmeneinstellungen"
-
-#~ msgid "Keyboard Settings"
-#~ msgstr "Tastatureinstellungen"
-
-#~ msgid "Mouse Settings"
-#~ msgstr "Mauseinstellungen"
-
-#~ msgid "Review Cursor Settings"
-#~ msgstr "Einstellungen des NVDA-Cursors"
-
-#~ msgid "Braille Settings"
-#~ msgstr "Braille-Einstellungen"
-
-#~ msgid "French (Canada) grade 1"
-#~ msgstr "Französische Vollschrift (Kanada)"
-
-#~ msgid "French (Canada) grade 2"
-#~ msgstr "Französische Kurzschrift (Kanada)"
-
-#~ msgid "Mongolian"
-#~ msgstr "Mongolisch"
-
-#~ msgid "Download and &install update"
-#~ msgstr "Aktualisierung herunterladen und &installieren"
-
-#~ msgid "Update downloaded. It will now be installed."
-#~ msgstr ""
-#~ "Die Aktualisierung wurde heruntergeladen. Installation wird gestartet."
-
-#~ msgid "Route to and report formatting"
-#~ msgstr ""
-#~ "Bewegt den Cursor an die angegebene Position und zeigt die "
-#~ "Dokumentformatierungen an"
-
-#~ msgid "r%s"
-#~ msgstr "R%s"
-
-#~ msgid "c%s"
-#~ msgstr "S%s"
-
-#~ msgid "suspended"
-#~ msgstr "Angehalten"
-
-#~ msgid "running"
-#~ msgstr "Wird ausgeführt"
-
-#~ msgid "ALVA BC640/680 series"
-#~ msgstr "ALVA Serie BC640/680"
-
-#~ msgid "review"
-#~ msgstr "NVDA-Cursor"
-
-#~ msgid "focus"
-#~ msgstr "Fokus"
-
-#~ msgid "B&raille tethered to:"
-#~ msgstr "Braillezeile ge&koppelt an:"
-
-#~ msgid "Not defined"
-#~ msgstr "Nicht definiert"
-
-#~ msgid "Value"
-#~ msgstr "Wert"
-
-#~ msgid "Series"
-#~ msgstr "Serien"
-
-#~ msgid "{axisName} Axis is {axisTitle}"
-#~ msgstr "Die Achse {axisName} ist eine {axisTitle}"
-
-#~ msgid "Primary"
-#~ msgstr "Primär"
-
-#~ msgid "Chart axis, type: {axisType}, group: {axisGroup}, title: {axisTitle}"
-#~ msgstr ""
-#~ "Diagrammachse, typ: {axisType}, gruppe: {axisGroup}, titel: {axisTitle}"
-
-#~ msgid "Chart axis, type: {axisType}, group: {axisGroup}"
-#~ msgstr "Diagrammachse, Typ: {axisType}, Gruppe: {axisGroup}"
-
-#~ msgid "Chart axis title"
-#~ msgstr "Diagramm-Achsen-Titel"
-
-#~ msgid "trendline"
-#~ msgstr "Trendlinie"
-
-#~ msgid "Legend"
-#~ msgstr "Legende"
-
-#~ msgid "No legend"
-#~ msgstr "Keine Legende"
-
-#~ msgid "HIMS SyncBraille"
-#~ msgstr "HIMS SyncBraille"
-
-#~ msgid "Show the Handy Tech driver configuration window."
-#~ msgstr "Zeige das Handy Tech Treiber Einstellungsfenster."
