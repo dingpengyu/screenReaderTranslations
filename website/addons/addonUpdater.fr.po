@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: addonUpdater Addons website for NVDA\n"
 "POT-Creation-Date: 2018-07-31 15:03+1000\n"
-"PO-Revision-Date: 2018-07-30 12:47+0200\n"
+"PO-Revision-Date: 2018-08-03 15:37+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -47,12 +47,12 @@ msgid ""
 "in sequence, with a prompt to restart your NVDA shown afterwards."
 msgstr ""
 "Pour vérifier les mises à jour après l'installation de ce module "
-"complémentaire, allez dans le menu NVDA / Outils / Vérifier pour les mises à "
-"jour de modules complémentaires. Si des mises à jour sont disponibles, une "
-"liste de mises à jour de modules complémentaires s'affiche, chaque entrée "
-"comprenant la description, la version actuelle et la nouvelle version. "
-"Sélectionnez Mise à jour, et NVDA téléchargera et appliquera les mises à "
-"jour dans l'ordre, avec une invite pour redémarrer votre NVDA montré après."
+"complémentaire, allez dans le menu NVDA / Outils / Check for add-on updates. "
+"Si des mises à jour sont disponibles, une liste de mises à jour de modules "
+"complémentaires s'affiche, chaque entrée comprenant la description, la "
+"version actuelle et la nouvelle version. Sélectionnez Update, et NVDA "
+"téléchargera et appliquera les mises à jour dans l'ordre, avec une invite "
+"pour redémarrer votre NVDA montré après."
 
 #. type: Plain text
 msgid ""
@@ -89,10 +89,10 @@ msgstr ""
 "sera supprimé."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.08"
 msgid "Version 18.08.1"
-msgstr "Version 18.08"
+msgstr "Version 18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -100,6 +100,10 @@ msgid ""
 "24 hours). This is configured through a new Add-on Updater settings panel "
 "found in NVDA settings."
 msgstr ""
+"Il est maintenant possible de laisser NVDA vérifier automatiquement les "
+"mises à jour des modules complémentaires (toutes les 24 heures). Ceci est "
+"configuré à travers d'un nouveau panneau de Paramètres Add-on Updater trouvé "
+"dans les paramètres NVDA."
 
 #. type: Title ##
 #, no-wrap
