@@ -1,4 +1,4 @@
-# Screen Curtain
+[[!meta title="Screen Curtain"]]
 
 * Authors: Babbage B.V., Joseph Lee
 * Download [development version][1]
