@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
 "POT-Creation-Date: 2018-08-01 11:17+1000\n"
-"PO-Revision-Date: 2018-06-13 14:04+0200\n"
+"PO-Revision-Date: 2018-08-03 10:37+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -204,14 +204,13 @@ msgstr ""
 "läpivientitilaa manuaalisesti."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.06"
+#, no-wrap
 msgid "Version 18.08"
-msgstr "Versio 18.06"
+msgstr "Versio 18.08"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 and future versions."
-msgstr ""
+msgstr "Yhteensopiva NVDA 2018.3:n ja sitä uudempien versioiden kanssa."
 
 #. type: Title ##
 #, no-wrap

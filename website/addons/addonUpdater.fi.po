@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Add-on Updater\n"
 "POT-Creation-Date: 2018-07-31 15:03+1000\n"
-"PO-Revision-Date: 2018-07-29 23:01+0200\n"
+"PO-Revision-Date: 2018-08-03 10:44+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Add-on Updater\"]]\n"
-msgstr "[[!meta title=\"Add-on Updater\"]]\n"
+msgstr "[[!meta title=\"Lisäosien päivittäjä\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
@@ -87,10 +87,9 @@ msgstr ""
 "ominaisuus sisältyy NVDA:han."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.08.1"
-msgstr "Versio 18.08"
+msgstr "Versio 18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -98,6 +97,9 @@ msgid ""
 "24 hours). This is configured through a new Add-on Updater settings panel "
 "found in NVDA settings."
 msgstr ""
+"Automaattinen lisäosapäivitysten tarkistaminen on nyt mahdollista 24 tunnin "
+"välein. Tämä määritetään uudesta Lisäosien päivittäjä -asetuspaneelista, "
+"joka löytyy NVDA:n asetuksista."
 
 #. type: Title ##
 #, no-wrap
