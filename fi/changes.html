@@ -17,12 +17,21 @@
 </P>
 
 <UL>
-<LI>NVDA ilmoittaa Mozilla Firefoxissa kielioppivirheistä, kun tieto niistä välitetään verkkosivuilla asianmukaisesti. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
-<LI>Lisätty tuki BrailleNote QT:n ja Apex BT:n vieritysrullalle, kun BrailleNotea käytetään pistenäyttönä NVDA:n kanssa. (<A HREF="http://github.com/nvaccess/nvda/issues/6316">#6316</A>)
+<LI>NVDA ilmoittaa Mozilla Firefoxissa ja Google Chromessa kielioppivirheistä, kun tieto niistä välitetään verkkosivuilla asianmukaisesti. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>Verkkosivuilla lisättäväksi tai poistettavaksi merkitty sisältö ilmoitetaan nyt Google Chromessa. (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
+<LI>Lisätty tuki BrailleNote QT:n ja Apex BT:n vieritysrullalle, kun BrailleNotea käytetään pistenäyttönä NVDA:n kanssa. (<A HREF="http://github.com/nvaccess/nvda/issues/5992">#5992</A>, <A HREF="http://github.com/nvaccess/nvda/issues/5993">#5993</A>)
 <LI>Lisätty komennot nykyisen kappaleen kuluneen ajan ja kokonaiskeston ilmoittamiseen Foobar2000:ssa. (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
 <LI>Mac-komentonäppäimen symboli (⌘) puhutaan nyt luettaessa tekstiä mitä tahansa syntetisaattoria käytettäessä. (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
-<LI>Mukautettuja rooleja tuetaan nyt aria-roledescription-attribuutin välityksellä Firefoxissa, Chromessa ja Internet Explorerissa.
-<LI>Uusi pistetaulukko: ruotsalainen 8 pisteen tietokonemerkistö. (<A HREF="http://github.com/nvaccess/nvda/issues/8227">#8227</A>)
+<LI>Mukautettuja rooleja tuetaan nyt aria-roledescription-attribuutin välityksellä kaikissa verkkoselaimissa. (<A HREF="http://github.com/nvaccess/nvda/issues/8448">#8448</A>)
+<LI>Uusia pistetaulukoita: tšekkiläinen 8 pisteen tietokonemerkistö, keski-kurdi, esperanto, unkarilainen, ruotsalainen 8 pisteen tietokonemerkistö. (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
+<LI>Lisätty tuki automaattiselle taustalla tapahtuvalle pistenäytön tunnistukselle. (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>Tällä hetkellä tuetaan ALVA-, Baum/HumanWare/APH/Orbit-, Eurobraille-, Handy Tech-, Hims-, SuperBraille- ja HumanWare BrailleNote- sekä Brailliant BI/B -näyttöjä.
+ <LI>Toiminto voidaan ottaa käyttöön valitsemalla vaihtoehto "automaattinen" pistenäyttöluettelosta NVDA:n Valitse pistenäyttö -valintaikkunasta.
+ <LI>Lisätietoja löytyy käyttöoppaasta.
+ </UL>
+<LI>Lisätty tuki useille Windows 10:n viimeisimmissä versioissa esitellyille moderneille syöttöominaisuuksille. Näitä ovat emojipaneeli (Fall Creators -päivitys), sanelu (Fall Creators -päivitys), fyysisen näppäimistön syöttöehdotukset (April 2018 -päivitys) sekä pilvileikepöydän liittäminen (October 2018 -päivitys). (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
+<LI>Sisältöä, joka on merkitty sisennetyksi kappaleeksi ARIAn blockquote-roolimääritystä käyttäen, tuetaan nyt Mozilla Firefox 63:ssa. (<A HREF="http://github.com/nvaccess/nvda/issues/8577">#8577</A>)
 </UL>
 
 <H3>Muutokset</H3>
@@ -30,21 +39,54 @@
 <UL>
 <LI>Yleiset asetukset -valintaikkunan käytettävissä olevien kielten luettelo  lajitellaan nyt ISO 639 -koodien asemesta kielen nimen perusteella. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
 <LI>Lisätty oletussyötekomentoja Alt+Vaihto+Sarkain- ja Windows+Sarkain-näppäinyhdistelmille kaikille tuetuille Freedom Scientificin pistenäytöille. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>ALVA BC680- ja protokollamuunnin, it is now possible to assign different functions to the left and right smart pad, thumb and etouch keys. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>ALVA BC6 -näytöissä näppäinyhdistelmä sp2+sp3 puhuu päivämäärän ja ajan, kun taas sp1+sp2 jäljittelee Windows-näppäintä. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>Käyttäjältä kysytään nyt kerran NVDA:n käynnistyessä, haluaako hän sallia käyttötilastojen lähettämisen NV Accessille automaattisen päivitystarkistuksen yhteydessä. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
 <LI>Jos käyttäjä on sallinut käyttötilastojen lähettämisen NV Accessille, NVDA lähettää nyt päivitystä tarkistettaessa nykyisen syntetisaattorin ja käytössä olevan pistenäytön nimen, jotta niiden ajurien tulevaa kehitystä voidaan priorisoida paremmin. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
 <LI>Päivitetty liblouis-pistekirjoituskääntäjä versioksi 3.6.0. (<A HREF="http://github.com/nvaccess/nvda/issues/8365">#8365</A>)
+<LI>Venäläisen 8 pisteen pistetaulukon tiedostopolku korjattu. (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
+<LI>Päivitetty eSpeak-ng versioksi 1.49.3dev muutos 910f4c2 (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
 </UL>
 
 <H3>Korjatut ohjelmavirheet</H3>
 
 <UL>
 <LI>Esteettömät selitteet  ilmoitetaan nyt herkemmin Google Chromessa selaustilassa oltaessa kun selite ei näy sisällön osana. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
+<LI>Zoomissa tuetaan nyt ilmoituksia. Niitä ovat esim. mykistyksen/mykistyksen poiston tila sekä saapuvat viestit.(<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
+<LI>Pistekirjoitustuloste ei enää lakkaa seuraamasta, kun Kohdistuskontekstin näyttämisasetusta vaihdetaan selaustilassa oltaessa. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>Korjattu ALVA BC680 -pistenäyttöjen alustuksen ajoittainen epäonnistuminen. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>ALVA BC6 -näytöt eivät enää oletusarvoisesti suorita emuloitujen näppäimien painalluksia painettaessa sp2+sp3-näppäimiä sisältäviä  näppäinkomentoja sisäisen toiminnallisuuden käynnistämiseksi. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Alt-näppäimen emulointi ALVA BC6 -näytön sp2-näppäintä painamalla toimii nyt, kuten on ilmoitettu. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
+<LI>NVDA ei enää puhu tarpeettomia näppäinasettelun muutoksia. (<A HREF="http://github.com/nvaccess/nvda/issues/7383">#7383</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
+<LI>Hiiren seuranta on nyt paljon tarkempaa Muistiossa sekä muissa pelkkäteksti-muokkaussäätimissä oltaessa dokumentissa, jossa on enemmän kuin 65535 merkkiä. (<A HREF="http://github.com/nvaccess/nvda/issues/8397">#8397</A>)
+<LI>NVDA tunnistaa enemmän valintaikkunoita Windows 10:ssä ja muissa moderneissa sovelluksissa. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
+<LI>Järjestelmäkohdistuksen seuraaminen ei enää epäonnistu Windows 10:n October 2018 -päivityksessä ja Server 2019:ssä ja uudemmissa sovelluksen jäädessä jumiin tai ryöpyttäessä järjestelmää tapahtumilla. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
+<LI>Käyttäjille ilmoitetaan heidän yrittäessään lukea tai kopioida tyhjää tilariviä. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
+<LI>Korjattu tilanne, jossa säätimien "ei valittu" -tilaa ei ilmoiteta puheella, mikäli kyseinen säädin oli aiemmin osittain valittu. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>Kielen nimi näytetään burmalle asianmukaisesti NVDA:n yleisten asetusten kieliluettelossa Windows 7:ssä. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>NVDA puhuu Microsoft Edgessä ilmoitukset, kuten lukunäkymän saatavuuden ja sivun lataamisen edistymisen. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
+<LI>Kun pistenäytöllä ollaan dokumentin alussa, teksti näkyy nyt näytöllä siten, että dokumentin ensimmäinen merkki on näytön vasemmassa reunassa kuten muissakin monirivisissä tekstikentissä. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
+<LI>Kun verkkosivulla siirrytään luetteloon, NVDA ilmoittaa nyt sen selitteen, mikäli sivun tekijä on sen määrittänyt. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
+<LI>Kun tietyn pistenäytön toimintoja liitetään syötekomentoihin, kyseiset syötekomennot näkyvät määriteltyinä juuri sille näytölle. Aiemmin ne näkyivät ikään kuin ne olisi määritelty sillä hetkellä käytössä olevalle näytölle. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>Lisätty tuki Media Player Classicin 64-bittiselle versiolle. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>Useita parannuksia Microsoft Wordin pistenäyttötukeen UI Automationin ollessa käytössä:
+ <UL>
+ <LI>Vähennetty kohdistuksen näyttämisen puheliaisuutta sekä puheella että pistekirjoituksella, kun kohdistus siirretään Word-dokumenttiin. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>Kohdistimen siirtäminen pistenäytön kosketuskohdistinnäppäimillä toimii nyt asianmukaisesti oltaessa luettelossa Word-dokumentissa. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ <LI>Äskettäin Word-dokumenttiin lisätyt luettelomerkit/numerot ilmaistaan asianmukaisesti sekä puheella että pistenäytöllä. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ </UL>
 </UL>
 
 <H3>Muutokset kehittäjille</H3>
 
 <P>
 Katso muutokset tämän dokumentin <A HREF="../en/changes.html">englanninkielisestä versiosta.</A>
+</P>
+
+<H2>2018.2.1</H2>
+
+<P>
+Tämä versio sisältää käännöspäivityksiä, jotka johtuivat ongelmia aiheuttaneen ominaisuuden viime hetken poistosta.
 </P>
 
 <H2>2018.2</H2>
