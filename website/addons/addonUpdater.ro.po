@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-31 15:03+1000\n"
+"POT-Creation-Date: 2018-08-04 06:58+1000\n"
 "PO-Revision-Date: 2018-08-02 11:58+0300\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.6\n"
 
 #. type: Plain text
@@ -79,13 +79,31 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
+#| "is included in NVDA, this add-on will be discontinued."
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
-"included in NVDA, this add-on will be discontinued."
+"included in NVDA, this add-on will be discontinued. Also, checkable list box "
+"comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B.V.)."
 msgstr ""
 "Important: aceasta este dovada de concept a acestui supliment. Odată ce "
 "caracteristica relevantă va fi inclusă în NVDA, dezvoltarea acestui "
 "supliment va fi întreruptă."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08.1"
+msgid "Version 18.08.3"
+msgstr "Version 18.08.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Added ability to exclude add-ons from being updated via a new checkable list "
+"box found in Add-on Updater settings panel. Checked items will not be "
+"updated."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-07-31 15:03+1000\n"
+"POT-Creation-Date: 2018-08-04 06:58+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,20 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
-"included in NVDA, this add-on will be discontinued."
+"included in NVDA, this add-on will be discontinued. Also, checkable list box "
+"comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B.V.)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.08.3"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added ability to exclude add-ons from being updated via a new checkable list "
+"box found in Add-on Updater settings panel. Checked items will not be "
+"updated."
 msgstr ""
 
 #. type: Title ##
