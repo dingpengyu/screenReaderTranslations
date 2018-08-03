@@ -585,7 +585,7 @@ msgstr "Podmnožina príkazov. Pozrite návod k doplnku pre podrobnosti."
 msgid "No playlist has been loaded."
 msgstr ""
 
-#. Translators: Presented when playlist modification is unavailable (for Studio 4.33 and earlier)
+#. Translators: presented when playlist modification message isn't shown.
 #, fuzzy
 msgid "Playlist modification not available"
 msgstr "Uplynutý čas nie je dostupný"
@@ -633,11 +633,6 @@ msgstr ""
 #. Translators: Presented when there is no listener count information.
 msgid "Listener count not found"
 msgstr "Nepodarilo sa nájsť informáciu o počte poslucháčov"
-
-#. Translators: Presented when there is no information on song pitch (for Studio 4.33 and earlier).
-#, fuzzy
-msgid "Song pitch not available"
-msgstr "Zostávajúci čas nie je dostupný"
 
 #. Translators: Presented when attempting to start library scan.
 msgid "Monitoring library scan"
@@ -2142,6 +2137,10 @@ msgstr ""
 "Zlepšuje prístupnosť programu Station Playlist.\n"
 "Navyše pridáva globálne skratky, ktoré sa dajú použiť aj mimo hlavného okna "
 "SPL."
+
+#, fuzzy
+#~ msgid "Song pitch not available"
+#~ msgstr "Zostávajúci čas nie je dostupný"
 
 #, fuzzy
 #~ msgid "Studio Add-on Settings V2"
