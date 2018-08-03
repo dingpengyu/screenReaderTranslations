@@ -1,4 +1,4 @@
-diff --git a/user_docs/en/changes.t2t b/user_docs/en/changes.t2t
+﻿diff --git a/user_docs/en/changes.t2t b/user_docs/en/changes.t2t
 index e31d3d5..1360cf4 100644
 --- a/user_docs/en/changes.t2t
 +++ b/user_docs/en/changes.t2t
@@ -30,7 +30,7 @@ index e31d3d5..1360cf4 100644
 +- The list of available languages in the General Settings dialog is now sorted based on language names instead of ISO 639 codes. (#7284)
  - Add default gestures for alt shift tab and windows tab with all supported Freedom Scientific braille displays. (#7387)
 +- For ALVA BC680 and protocol converter displays, it is now possible to assign different functions to the left and right smart pad, thumb and etouch keys. (#8230)
-+- For ALVA BC6 displays, the key combination sp2+sp3 will now announce the current date and time, whereas sp1+sp2 emulates the Windows key. (#8230)
++- ALVA BC6 -näytöissä näppäinyhdistelmä sp2+sp3 puhuu päivämäärän ja ajan, kun taas sp1+sp2 jäljittelee Windows-näppäintä. (#8230)
  - The user is now asked once on NVDA start-up if they are happy sending usage statistics to NV Access when automatically checking for updates. (#8217)
  - When checking for updates, if the user has agreed to allow sending usage statistics to NV Access, NVDA will now send the name of the current synth driver and braille display in use, to aide in better prioritization for future work on these drivers. (#8217)
  - Updated liblouis braille translator to version 3.6.0. (#8365)
