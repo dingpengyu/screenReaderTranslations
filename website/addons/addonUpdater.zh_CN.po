@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-04 06:58+1000\n"
-"PO-Revision-Date: 2018-07-31 13:10+0800\n"
+"PO-Revision-Date: 2018-08-04 07:28+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -55,7 +55,7 @@ msgstr "以下插件提供内置更新功能，因此不会通过此插件检查
 
 #. type: Bullet: '* '
 msgid "Braille Extender"
-msgstr "盲文扩展器"
+msgstr "Braille Extender"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
@@ -63,29 +63,25 @@ msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "WeatherPlus"
-msgstr "天气家"
+msgstr "WeatherPlus"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
-msgstr "windows10增强"
+msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
-#| "is included in NVDA, this add-on will be discontinued."
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
 "included in NVDA, this add-on will be discontinued. Also, checkable list box "
 "comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B.V.)."
 msgstr ""
-"重要提示：这是一款概念插件。一旦相关功能包含在NVDA中，此插件将停止使用。"
+"重要提示：这是一款概念插件。一旦相关功能包含在NVDA中，此插件将停止开发和维"
+"护。此外，感谢：Derek Riemer和Babbage B.V.）。增加排除插件更新模块。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.1"
+#, no-wrap
 msgid "Version 18.08.3"
-msgstr "版本18.08.1"
+msgstr "版本18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -93,6 +89,8 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"增加了排除插件更新的功能，相关设置可以打开NVDA菜单-选项子菜单-NVDA通用设置下"
+"的addon-update设置项进行设置。设置完后已选择的插件不会进行更新。"
 
 #. type: Title ##
 #, no-wrap
@@ -115,7 +113,7 @@ msgstr "版本18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr "发布初始版本"
+msgstr "发布初始版本."
 
 #. type: Plain text
 #, no-wrap
