@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-04 06:58+1000\n"
-"PO-Revision-Date: 2018-08-01 05:11+0200\n"
+"PO-Revision-Date: 2018-08-04 00:58+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -78,7 +78,6 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
 #| "is included in NVDA, this add-on will be discontinued."
@@ -87,15 +86,16 @@ msgid ""
 "included in NVDA, this add-on will be discontinued. Also, checkable list box "
 "comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B.V.)."
 msgstr ""
-"WICHTIG: Dies ist eine Proof-of-Concept-Erweiterung. Sobald das "
+"WICHTIG: Dies ist eine \"Proof of Concept\"-Erweiterung. Sobald das "
 "entsprechende Feature in NVDA enthalten ist, wird diese Erweiterung "
-"eingestellt."
+"eingestellt. Auch die Auswahlliste stammt aus der NVDA-Fehlermeldung #7491 "
+"(Quelle: Derek Riemer und Babbage B.V.)."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.08.1"
 msgid "Version 18.08.3"
-msgstr "Version 18.08.1"
+msgstr "Version 18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -103,6 +103,9 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"Es wurde die Möglichkeit hinzugefügt, Erweiterungen von der Aktualisierung "
+"über ein neues, aktivierbares Listenfeld im Einstellungsfenster des Zusatz-"
+"Updaters auszuschließen. Geprüfte Artikel werden nicht aktualisiert."
 
 #. type: Title ##
 #, no-wrap
