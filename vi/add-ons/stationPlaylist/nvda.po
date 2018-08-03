@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: stationPlaylist 17.02\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 19:00+1000\n"
-"PO-Revision-Date: 2018-08-02 22:03+0700\n"
+"PO-Revision-Date: 2018-08-03 14:41+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +47,7 @@ msgstr "{header}: ()"
 
 #. Translators: Presented when microphone has been active for a while.
 msgid "Microphone active"
-msgstr "Bật microphone"
+msgstr "Microphone hoạt động"
 
 #. Translators: presented when column information for a track is empty.
 msgid "blank"
@@ -375,7 +375,7 @@ msgstr "Đã quét xong với {scanCount} mục"
 
 #. Translators: Presented when cart modes are toggled while cart explorer is on.
 msgid "Cart explorer is active"
-msgstr "Cart explorer đã hoạt động"
+msgstr "Cart explorer đang hoạt động"
 
 #. Translators: Presented when microphone was on for more than a specified time in microphone alarm dialog.
 msgid "Warning: Microphone active"
@@ -401,7 +401,7 @@ msgstr "Thông báo thời gian còn lại của track."
 
 #. Translators: Input help mode message for a command in Station Playlist Studio.
 msgid "Announces the elapsed time for the currently playing track."
-msgstr "Thông báo thời gian đã trôi qua của bản nhạc đang phát."
+msgstr "Thông báo thời gian đã trôi qua của track đang phát."
 
 #. Translators: Input help mode message for a command in Station Playlist Studio.
 msgid ""
@@ -418,7 +418,7 @@ msgstr "Thông báo thời gian bao bồm giây."
 #. Translators: Presented when the add-on config dialog is opened.
 msgid ""
 "The add-on settings dialog is opened. Please close the settings dialog first."
-msgstr "Cửa sổ cài đặt add-on đang mở. Vui lòng đóng nó lại trước."
+msgstr "Hộp thoại cài đặt add-on đang mở. Vui lòng đóng nó lại trước."
 
 #. Translators: The title of the message box
 #. Translators: The title of a dialog presented when an error occurs.
@@ -459,15 +459,15 @@ msgstr "Lỗi tìm kiếm"
 
 #. Translators: Presented when a user attempts to find tracks but is not at the track list.
 msgid "Track finder is available only in track list."
-msgstr "Công cụ tìm track chỉ hoạt động trong danh sách track."
+msgstr "Tìm track chỉ hoạt động trong danh sách track."
 
 #. Translators: Presented when a user attempts to find tracks but is not at the track list.
 msgid "Column search is available only in track list."
-msgstr "Công cụ tìm kiếm cột chỉ hoạt động trong danh sách track."
+msgstr "Tìm kiếm cột chỉ hoạt động trong danh sách track."
 
 #. Translators: Presented when a user attempts to find tracks but is not at the track list.
 msgid "Time range finder is available only in track list."
-msgstr "Công cụ tìm theo thời gian chỉ hoạt động trong danh sách track."
+msgstr "Tìm theo thời gian chỉ hoạt động trong danh sách track."
 
 #. Translators: Presented when a user wishes to find a track but didn't add any tracks.
 msgid "You need to add at least one track to find tracks."
@@ -536,7 +536,7 @@ msgstr "Chuyển đổi cài đặt tiến trình quét thư viện."
 
 #. Translators: Presented when library scan has started.
 msgid "Scan start"
-msgstr "Scan start"
+msgstr "Bắt đầu quét"
 
 #. Translators: Presented when library scanning is finished.
 #, python-brace-format
@@ -546,7 +546,7 @@ msgstr "{itemCount} mục trong thư viện"
 #. Translators: Presented after library scan is done.
 #, python-brace-format
 msgid "Scan complete with {itemCount} items"
-msgstr "Scan complete with {itemCount} items"
+msgstr "Đã quét xong với {itemCount} mục"
 
 #. Translators: Presented when library scan is in progress.
 msgid "Scanning"
@@ -738,7 +738,7 @@ msgstr "Độ cao bài hát không sẵn sàng"
 
 #. Translators: Presented when attempting to start library scan.
 msgid "Monitoring library scan"
-msgstr "Đang theo dõi quét thư viện"
+msgstr "Đang theo dõi việcquét thư viện"
 
 #. Translators: Presented when library scan is already in progress.
 msgid "Scanning is in progress"
@@ -906,8 +906,8 @@ msgid ""
 "stream labels configured for various encoders, please add them again."
 msgstr ""
 "Cài đặt mã hóa của bạn bị lỗi và đã được khôi phục về mặc định. Nếu bạn có "
-"các nhãn phát trực tiếp được cấu hình cho các bộ mã hóa khác nhau, vui lòng "
-"thêm chúng vào lại."
+"các nhãn phát thanh được cấu hình cho các bộ mã hóa khác nhau, vui lòng thêm "
+"chúng vào lại."
 
 #. Translators: Title of the encoder settings error dialog.
 msgid "Encoder settings error"
@@ -946,7 +946,7 @@ msgstr "Chỉ đang dùng hồ sơ bình thường"
 
 #. Translators: Presented when trying to switch to an instant switch profile when the instant switch profile is not defined.
 msgid "No instant switch profile is defined"
-msgstr "Không có hồ sơ chuyển nhanh nào được định nghĩa"
+msgstr "Không có hồ sơ chuyển nhanh nào được chỉ định"
 
 #. Translators: Presented when trying to switch to an instant switch profile when one is already using the instant switch profile.
 msgid "You are already in the instant switch profile"
@@ -980,7 +980,7 @@ msgstr ""
 
 #. Translators: A checkbox to turn off audio ducking reminder message.
 msgid "Do not show this message again"
-msgstr "Không hiển thị lại thông điệp này"
+msgstr "Không hiển thị lại thông điệp này nữa"
 
 #. Translators: A message giving basic information about the add-on.
 msgid ""
@@ -1008,6 +1008,32 @@ msgid ""
 "\n"
 "Thank you."
 msgstr ""
+"Chào mừng đến với StationPlaylist Studio add-on cho NVDA,\n"
+"sự đồng hành của bạn để phát thanh với SPL Studio bằng trình đọc màn hình "
+"NVDA.\n"
+"\n"
+"Điẻm nổi bật của StationPlaylist Studio add-on bao gồm:\n"
+"* Các lệnh thu thập thông tin trạng thái.\n"
+"* Nhiều cách để xem sét các cột của track.\n"
+"* Nhiều cách để tìm kiếm track.\n"
+"* Cart Explorer để tìm hiểu cách gán cart.\n"
+"* toàn bộ các cài đặt và tài liệu hướng dẫn.\n"
+"* Kiểm tra cập nhật add-on tự động hoặc thủ công.\n"
+"* Hoàn toàn miễn phí, mã nguồn mở và hướng đến cộng đồng.\n"
+"* và còn nhiều nữa.\n"
+"\n"
+"Vào trang www.stationplaylist.com để biết thêm chi tiết về StationPlaylist "
+"Studio.\n"
+"Vào bài viết về StationPlaylist trên trang NVDA Community Add-ons (addons."
+"nvda-project.org) để biết thêm thông tin về add-on và để đọc tài liệu hướng "
+"dẫn.\n"
+"Muốn xem lại hộp thoại này? Chỉ cần bấm Alt+NVDA+F1 khi sử dụng Studio để trở "
+"về hộp thoại này.\n"
+"Có điều gì muốn nói về add-on này? Bấm Control+NVDA+dấu trừ (-) để gửi phản "
+"hồi đến người phát triển của add-on này bằng trình gửi thư điện tử mặc định "
+"của bạn.\n"
+"\n"
+"Xin cảm ơn."
 
 #. Translators: Title of a dialog displayed when the add-on starts presenting basic information, similar to NVDA's own welcome dialog.
 msgid "Welcome to StationPlaylist Studio add-on"
@@ -1023,7 +1049,7 @@ msgstr "Thông báo trạng thái beeps"
 
 #. Translators: Reported when status announcement is set to beeps in SPL Studio.
 msgid "Beeps"
-msgstr "Beeps"
+msgstr "Beep"
 
 #. Translators: Reported when status announcement is set to beeps in SPL Studio.
 msgid "Status announcement words"
@@ -1106,24 +1132,32 @@ msgid ""
 "NVDA is in secure mode. Please restart with secure mode disabled before "
 "checking for add-on updates."
 msgstr ""
+"NVDA đang trong chế độ bảo vệ. Vui lòng khởi động lại với chế độ bảo vệ được "
+"tắt trước khi kiểm tra cập nhật add-on."
 
 #. Translators: one of the error messages when trying to update the add-on.
 msgid ""
 "This is a try build of StationPlaylist Studio add-on. Please install the "
 "latest stable release to receive updates again."
 msgstr ""
+"Đây là bản dùng thử của StationPlaylist Studio add-on. Vui lòng cài bản chính "
+"thức mới nhất để nhận lại các cập nhật."
 
 #. Translators: one of the error messages when trying to update the add-on.
 msgid ""
 "Update checking not supported while running NVDA from source. Please run this "
 "add-on from an installed or a portable version of NVDA."
 msgstr ""
+"Không hỗ trợ kiểm tra cập nhật khi chạy NVDA từ mã nguồn. Vui lòng chạy add-"
+"on này từ bản cài hay bản chạy trực tiếp của NVDA."
 
 #. Translators: one of the error messages when trying to update the add-on.
 msgid ""
 "This is a Windows Store version of NVDA. Add-on updating is supported on "
 "desktop version of NVDA."
 msgstr ""
+"Đây là phiên bản NVDA từ Windows Store. Việc cập nhật add-on chỉ hỗ trợ cho "
+"bản NVDA trên desktop."
 
 #. Translators: one of the error messages when trying to update the add-on.
 msgid ""
@@ -1197,12 +1231,16 @@ msgid ""
 "A profile trigger already exists for the entered time slot. Please choose a "
 "different date or time."
 msgstr ""
+"Đã có một tác nhân hồ sơ cho khung giờ đươc5 nhập. Vui lòng chọn thời gian "
+"khác."
 
 #. Er, did you specify a date?
 msgid ""
 "The time-based profile checkbox is checked but no switch dates are given. "
 "Please either specify switch date(s) or uncheck time-based profile checkbox."
 msgstr ""
+"Hộp kiểm hồ sơ theo thời gian đã được chọn nưng không có chỉ định ngày "
+"chuyển. Vui lòng định ngày chuyển hoặc bỏ chọn mục này."
 
 #. Translators: Title of a dialog to configure various general add-on settings such as top and bottom announcement for playlists.
 msgid "General add-on settings"
@@ -1222,7 +1260,7 @@ msgstr "nâng cao"
 
 #. Translators: The label for a setting in SPL add-on dialog to set message verbosity.
 msgid "Message &verbosity:"
-msgstr "Mức độ thông điệp:"
+msgstr "Mức độ đọc thông điệp:"
 
 #. Translators: One of the braille timer settings.
 msgid "Track ending"
@@ -1287,10 +1325,10 @@ msgstr "Một hộp thoại báo động khác đang mở."
 #. Now the actual alarm dialog code.
 #. 8.0: Apart from level 0 (all settings shown), levels change title.
 msgid "Alarms Center"
-msgstr "Trugn tâm báo động"
+msgstr "Trugn tâm các báo động"
 
 msgid "End of track alarm"
-msgstr "Báo động cưới track"
+msgstr "Báo động cuối track"
 
 msgid "Song intro alarm"
 msgstr "Báo động nhạc dạo"
@@ -1302,26 +1340,28 @@ msgid "&End of track alarm in seconds"
 msgstr "&Báo động cuối track bằng giây"
 
 msgid "&Notify when end of track is approaching"
-msgstr ""
+msgstr "&Thông báo khi gần hết track"
 
 msgid "&Track intro alarm in seconds"
 msgstr "&Báo động track nhạc dạo bằng giây"
 
 msgid "&Notify when end of introduction is approaching"
-msgstr ""
+msgstr "&Thông báo khi gần hết phần giới thiệu"
 
 #. Translators: A dialog message to set microphone active alarm.
 msgid "&Microphone alarm in seconds (0 disables the alarm)"
-msgstr ""
+msgstr "&Báo động Microphone bằng giây (0 giây là tắt báo động)"
 
 msgid "Microphone alarm &interval in seconds"
-msgstr ""
+msgstr "Thời &gian báo động microphone tính bằng giây"
 
 #. Translators: Help text for playlist snapshots dialog.
 msgid ""
 "Select information to be included when obtaining playlist snapshots.\n"
 "\t\tTrack count and total duration are always included."
 msgstr ""
+"Chọn các thông tin để bao gồm khi thu thập ảnh chụp danh sách phát.\n"
+"\t\tSố lượng track và tổng thời gian luôn được bao gồm."
 
 #. Translators: the label for a setting in SPL add-on settings to include shortest and longest track duration in playlist snapshots window.
 msgid "Shortest and longest tracks"
@@ -1337,7 +1377,7 @@ msgstr "Lượt ca sĩ"
 
 #. Translators: the label for a setting in SPL add-on settings to set top artist count limit in playlist snapshots window.
 msgid "Top artist count (0 displays all artists)"
-msgstr ""
+msgstr "Số ca sĩ tiêu biểu (0 sẽ hiển thị tất cả ca sĩ)"
 
 #. Translators: the label for a setting in SPL add-on settings to include track category count in playlist snapshots window.
 msgid "Category count"
@@ -1345,7 +1385,7 @@ msgstr "Số loại"
 
 #. Translators: the label for a setting in SPL add-on settings to set top track category count limit in playlist snapshots window.
 msgid "Top category count (0 displays all categories)"
-msgstr ""
+msgstr "Các chủ đề tiêu biẻu (0 sẽ hiện thị tất cả chủ đề)"
 
 #. Translators: the label for a setting in SPL add-on settings to include track genre count in playlist snapshots window.
 msgid "Genre count"
@@ -1354,25 +1394,27 @@ msgstr "Số thể loại"
 #. Translators: the label for a setting in SPL add-on settings to set top track genre limit in playlist snapshots window.
 #. Translators: the label for a setting in SPL add-on settings to set top track genre count limit in playlist snapshots window.
 msgid "Top genre count (0 displays all genres)"
-msgstr ""
+msgstr "Các thể loại tiêu biểu (0 sẽ hiển thị tất cả thể loại)"
 
 #. Translators: the label for a setting in SPL add-on settings to show playlist snaphsots window when the snapshots command is pressed once.
 msgid "&Show results window when playlist snapshots command is performed once"
 msgstr ""
+"&Hiện cửa sổ các kết quả khi lệnh chụp ảnh danh sách phát được thực hiện một "
+"lần"
 
 #. Translators: Title of a dialog to configure metadata streaming status for DSP encoder and four additional URL's.
 msgid "Metadata streaming options"
 msgstr "Các tùy chọn cho Metadata streaming"
 
 msgid "Select the URL for metadata streaming upon request."
-msgstr ""
+msgstr "Chọn URL cho metadata streaming theo yêu cầu."
 
 msgid "Check to enable metadata streaming, uncheck to disable."
-msgstr ""
+msgstr "Chọn để bật metadata streaming, bỏ chọn để tắt."
 
 #. Translators: A checkbox to let metadata streaming status be applied to the currently active broadcast profile.
 msgid "&Apply streaming changes to the selected profile"
-msgstr ""
+msgstr "Á&p dụng các thay đổi phát thanh cho hồ sơ được chọn"
 
 #. Translators: Title of a dialog to configure column announcements (order and what columns should be announced).
 msgid "Manage column announcements"
@@ -1380,18 +1422,20 @@ msgstr "Quản lý thông báo cột"
 
 #. Translators: Title of a dialog to configure columnn seleciton for Playlist Transcripts.
 msgid "Playlist transcript columns"
-msgstr ""
+msgstr "Cột bảng điểm danh sách phát"
 
 #. Translators: Help text to select columns to be announced.
 msgid ""
 "Select columns to be announced (artist and title are announced by default"
-msgstr ""
+msgstr "Chọn các cột để thông báo (ca sĩ và tựa đề mặc định được thông báo"
 
 #. Translators: Help text to select columns to be announced.
 msgid ""
 "Select columns to be included in playlist transcripts (artist and title are "
 "always included"
 msgstr ""
+"Chọn các cột để bao gồm trong bảng điểm danh sách phát (ca sĩ và tựa đề luôn "
+"được bao gồm"
 
 #. wxPython 4 contains RearrangeList to allow item orders to be changed automatically.
 #. Because wxPython 3 doesn't include this, work around by using a variant of list box and move up/down buttons.
@@ -1410,7 +1454,7 @@ msgstr "Di chuyển &xuống"
 
 #. Translators: Title of a dialog to configure playlsit transcripts options.
 msgid "Playlist transcripts settings"
-msgstr ""
+msgstr "Cài đặt bảng điểm danh sách phát"
 
 #. self.availableTranscriptFormats = [output[0] for output in splmisc.SPLPlaylistTranscriptFormats]
 #. self.availableTranscriptFormats.insert(0, "")
@@ -1429,19 +1473,19 @@ msgstr ""
 #. self.transcriptFormatsList.SetSelection(self.availableTranscriptFormats.index(splconfig.SPLConfig["PlaylistTranscripts"]["TranscriptFormat"]))
 #. Translators: The label of a button to configure columns for playlist transcripts.
 msgid "Manage transcript columns..."
-msgstr ""
+msgstr "Quản lý các cột của bảng điểm..."
 
 #. Translators: The title of Columns Explorer configuration dialog.
 msgid "Columns Explorer"
-msgstr "Khám phá cột"
+msgstr "Khám phá các cột"
 
 #. Translators: The title of Columns Explorer configuration dialog.
 msgid "Columns Explorer for Track Tool"
-msgstr ""
+msgstr "Khám phá các cột cho công cụ track"
 
 #. Translators: The title of Columns Explorer configuration dialog.
 msgid "Columns Explorer for SPL Creator"
-msgstr ""
+msgstr "Khám phá các cột của SPL Creator"
 
 #. Translators: The label for a setting in SPL add-on dialog to select column for this column slot.
 #, python-brace-format
@@ -1455,7 +1499,7 @@ msgstr "Thông báo trạng thái"
 
 #. Translators: the label for a setting in SPL add-on settings to announce scheduled time.
 msgid "Announce &scheduled time for the selected track"
-msgstr ""
+msgstr "Thông báo &thời gian đã lên lịch cho track được chọn"
 
 #. Translators: the label for a setting in SPL add-on settings to announce listener count.
 msgid "Announce &listener count"
@@ -1463,7 +1507,7 @@ msgstr "Thông báo số &người nghe"
 
 #. Translators: the label for a setting in SPL add-on settings to announce currently playing cart.
 msgid "&Announce name of the currently playing cart"
-msgstr ""
+msgstr "&Thông báo tên của cart đang phát"
 
 #. Translators: the label for a setting in SPL add-on settings to announce currently playing track name.
 msgid "&Track name announcement:"
@@ -1486,11 +1530,12 @@ msgid ""
 "Include track player &position when announcing current and next track "
 "information"
 msgstr ""
+"Bao gồm &vị trí track khi thông báo thông tin của track hiện tại và track kế"
 
 #. Translators: The title of a dialog to configure advanced SPL add-on options such as update checking.
 #. Translators: title of a panel to configure advanced SPL add-on options such as update checking.
 msgid "Advanced options"
-msgstr "Tùy chọn nâng cao"
+msgstr "Các tùy chọn nâng cao"
 
 #. Translators: A checkbox to toggle automatic add-on updates.
 msgid "Automatically check for add-on &updates"
@@ -1506,11 +1551,11 @@ msgstr "Kênh cập nhật &add-on:"
 
 #. Translators: A checkbox to toggle if SPL Controller command can be used to invoke Assistant layer.
 msgid "Allow SPL C&ontroller command to invoke SPL Assistant layer"
-msgstr ""
+msgstr "Cho phép lệnh điề&u khiển SPL gọi SPL Assistant layer"
 
 #. Translators: The label for a setting in SPL add-on dialog to set keyboard layout for SPL Assistant.
 msgid "SPL Assistant command &layout:"
-msgstr ""
+msgstr "Kiểu lệnh SP&L Assistant:"
 
 #. Translators: The confirmation prompt displayed when changing to the fastest development channel (with risks involved).
 msgid ""
@@ -1521,6 +1566,12 @@ msgid ""
 "to use stable releases, please answer no and switch to a more stable update "
 "channel. Are you sure you wish to switch to Test Drive Fast channel?"
 msgstr ""
+"Bạn sắp chuyển sang kênh Test Drive Fast (dùng thử), kênh nhanh nhất và gần "
+"như không chính thức. Lưu ý rằng kênh được chọn có thể có các cập nhật không "
+"chính thức và chỉ nên dùng để kiểm tra và gửi phản hồi cho người phát triển "
+"add-on . Nếu bạn thích dùng các bản phát hành chính thức, vui lòng trả lời no "
+"và chuyển về một kênh cập nhật chính thức hơn. Bạn có chắc rằng mình dùng "
+"kênh Test Drive Fast không?"
 
 #. Translators: The title of the channel switch confirmation dialog.
 msgid "Switching to unstable channel"
@@ -1543,19 +1594,19 @@ msgstr "Xác nhận thời gian cập nhật"
 #. Translators: Title of the dialog to reset various add-on settings.
 #. Translators: title of a panel to reset add-on settings.
 msgid "Reset settings"
-msgstr "Khôi phục cài đặt"
+msgstr "Khôi phục các cài đặt"
 
 #. Translators: the label for resetting profile triggers.
 msgid "Reset instant switch profile"
-msgstr ""
+msgstr "Khôi phục hồ sơ chuyển nhanh"
 
 #. Translators: the label for resetting profile triggers.
 msgid "Delete time-based profile database"
-msgstr ""
+msgstr "Xóa dữ liệu hồ sơ theo thời gian"
 
 #. Translators: the label for resetting encoder settings.
 msgid "Remove encoder settings"
-msgstr ""
+msgstr "Gỡ các thiết lập mã hóa"
 
 #. Translators: the label for resetting track comments.
 msgid "Erase track comments"
@@ -1608,7 +1659,7 @@ msgstr "&Tác nhân..."
 
 #. Translators: The label for a setting in SPL Add-on settings to configure countdown seconds before switching profiles.
 msgid "Countdown seconds before switching profiles"
-msgstr ""
+msgstr "Đếm ngược bằng giây trước khi chuyển hồ sơ"
 
 #. Translators: The label of a button to open a dialog to configure general add-on settings such as beep announcement and top and bottom notifications.
 msgid "&General add-on settings..."
@@ -1616,7 +1667,7 @@ msgstr "&Cài đặt chung cho add-on..."
 
 #. Translators: The label of a button to open a dialog to configure various alarms.
 msgid "&Alarms Center..."
-msgstr "&Trung  tâm báo động..."
+msgstr "&Trung  tâm các báo động..."
 
 #. Translators: One of the alarm notification options.
 msgid "beep"
@@ -1632,7 +1683,7 @@ msgstr "cả beep và thông điệp"
 
 #. Translators: The label for a setting in SPL add-on dialog to control alarm announcement type.
 msgid "&Alarm notification:"
-msgstr ""
+msgstr "&Thông báo báo động:"
 
 #. Translators: The label of a button to manage playlist snapshot flags.
 msgid "&Playlist snapshots..."
@@ -1644,19 +1695,19 @@ msgstr "Khi khởi động Studio"
 
 #. Translators: One of the metadata notification settings.
 msgid "When instant switch profile is active"
-msgstr ""
+msgstr "Khi hồ sơ chuyển nhanh hoạt động"
 
 #. Translators: the label for a setting in SPL add-on settings to be notified that metadata streaming is enabled.
 msgid "&Metadata streaming notification and connection"
-msgstr ""
+msgstr "Thông báo và kết nối metadata streaming"
 
 #. Translators: The label of a button to manage column announcements.
 msgid "Configure metadata &streaming connection options..."
-msgstr ""
+msgstr "Cấu hình các tùy chọn cho kết nối metadata và phát thanh..."
 
 #. Translators: the label for a setting in SPL add-on settings to toggle custom column announcement.
 msgid "Announce columns in the &order shown on screen"
-msgstr ""
+msgstr "Thông báo các cột như được &sắp xếp hiẻn thị trên màn hình"
 
 #. Translators: The label of a button to manage column announcements.
 msgid "&Manage track column announcements..."
@@ -1664,24 +1715,24 @@ msgstr "&Quản lý thông báo cột của track..."
 
 #. Translators: the label for a setting in SPL add-on settings to toggle whether column headers should be included when announcing track information.
 msgid "Include column &headers when announcing track information"
-msgstr ""
+msgstr "Bao gồm cột và tiêu đề khi thông báo thông tin track"
 
 #. Translators: The label of a button to configure columns explorer slots (SPL Assistant, number row keys to announce specific columns).
 msgid "Columns E&xplorer..."
-msgstr "Khám phá &cột..."
+msgstr "Khám phá các &cột..."
 
 #. Translators: The label of a button to configure columns explorer slots for Track Tool (SPL Assistant, number row keys to announce specific columns).
 msgid "Columns Explorer for &Track Tool..."
-msgstr ""
+msgstr "Khám phá các cột cho công cụ &track..."
 
 #. Translators: The label of a button to configure columns explorer slots for SPL Creator (SPL Assistant, number row keys to announce specific columns).
 #. Translators: The label of a button to configure columns explorer slots (SPL Assistant, number row keys to announce specific columns).
 msgid "Columns Explorer for &SPL Creator..."
-msgstr ""
+msgstr "Khám phá các cột cho &SPL Creator..."
 
 #. Translators: The label of a button to open playlist transcripts settings.
 msgid "Playlist &transcripts..."
-msgstr ""
+msgstr "Bảng điểm &danh sách phát..."
 
 #. Translators: The label of a button to open status announcement dialog such as announcing listener count.
 msgid "&Status announcements..."
@@ -1694,12 +1745,14 @@ msgstr "&Tùy chọn nâng cao..."
 #. Translators: The label for a button in SPL add-on configuration dialog to reset settings to defaults.
 #. Translators: The label of a button to open reset dialog.
 msgid "Reset settings..."
-msgstr "Khôi phục cài đặt..."
+msgstr "Khôi phục các cài đặt..."
 
 msgid ""
 "The selected profile is different from currently active broadcast profile. "
 "Settings will be applied to the selected profile instead."
 msgstr ""
+"Hồ sơ được chọn khác với hồ sơ phát thành đang hoạt động. Các thiết lập sẽ "
+"được áp dụng cho hồ sơ được chọn."
 
 msgid "Apply settings"
 msgstr "Áp dụng các thiết lập"
@@ -1710,6 +1763,9 @@ msgid ""
 "change to take effect. Be sure to answer yes when you are asked to install "
 "the new version when prompted after restarting NVDA."
 msgstr ""
+"Bạn đã thay đổi kênh cập nhật add-on. Bạn phải khởi động lại NVDA để thay đổi "
+"có hiệu lực. Nhớ trả lời yes khi được yêu cầu cài phiên bản mới sau khi khởi "
+"động lại NVDA."
 
 #. Translators: Title of the update channel dialog.
 msgid "Add-on update channel changed"
@@ -1729,6 +1785,9 @@ msgid ""
 "broadcast. If so, please press SPL Assistant, F12 to switch back to a "
 "previously active profile before opening add-on settings to delete a profile."
 msgstr ""
+"Một hồ sơ chuyển nahnh có thể đang hoạt động hoặc bạn đang ở trong một chương "
+"trình phát thanh. Nếu vậy, vui lòng bấm SPL Assistant, F12 để chuyển về một "
+"hồ sơ được kích hoạt trước đó trước khi mở  cài đặt add-on để xóa một hồ sơ."
 
 #. Translators: Title of a dialog shown when profile cannot be deleted.
 msgid "Profile delete error"
@@ -1738,7 +1797,7 @@ msgstr "Lỗi xóa hồ sơ"
 msgid ""
 "You are about to delete the currently active profile. Select yes if you wish "
 "to proceed."
-msgstr ""
+msgstr "Bạn sắp xóa hồ sơ đang hoạt động. Chọn yes nếu muốn thực hiện."
 
 #. Translators: The title of the confirmation dialog for deletion of a profile.
 msgid "Delete active profile"
@@ -1755,6 +1814,8 @@ msgstr "Xác nhận xóa"
 #. Translators: Message reported when attempting to change profile switch trigger while broadcasting.
 msgid "You cannot change profile switch triggers in the midst of a broadcast."
 msgstr ""
+"Bạn không thể thay đổi tác nhân chuyển hồ sơ khi đang nghe chương trình phát "
+"thanh."
 
 #. Translators: Title of a dialog shown when profile trigger cannot e changd.
 msgid "Profile triggers"
@@ -1781,29 +1842,31 @@ msgstr "Chung"
 
 #. Translators: title of a panel to configure various alarms and related settings.
 msgid "Alarms"
-msgstr "Báo động"
+msgstr "Các báo động"
 
 #. Translators: title of a panel to configure metadata streaming status for DSP encoder and four additional URL's.
 msgid "Metadata streaming"
-msgstr ""
+msgstr "Metadata streaming"
 
 #. Translators: title of a panel to configure column announcements (order and what columns should be announced).
 msgid "Column announcements"
-msgstr ""
+msgstr "Thông báo các cột"
 
 #. Translators: Title of a panel to configure playlsit transcripts options.
 msgid "Playlist transcripts"
-msgstr ""
+msgstr "Bảng điểm danh sách phát"
 
 #. Translators: title of a panel to configure columns explorer settings.
 msgid "Columns explorer"
-msgstr "Khám phá cột"
+msgstr "Khám phá các cột"
 
 #. Translators: Help text explaijning what will happen when settings are reset.
 msgid ""
 "Warning! Selecting Reset button and choosing various reset options will reset "
 "add-on settings to defaults."
 msgstr ""
+"Cảnh báo! Chọn nút khôi phục và chọn các tùy chỉnh khôi phục khác nhau sẽ trả "
+"các cài đặt của add-on về mặc định."
 
 #. Translators: Text of the dialog when another find dialog is open.
 msgid "Another find dialog is open."
@@ -1817,7 +1880,7 @@ msgid "Enter or select the name or the artist of the track you wish to &search"
 msgstr "Nhập hoặc chọn tên hay ca sĩ của track bạn muốn &tìm"
 
 msgid "Enter or select text to be &searched in a column"
-msgstr ""
+msgstr "Nhập hoặc chọn nội dung để &tìm trong một cột"
 
 #. Translators: The label in track finder to search columns.
 msgid "C&olumn to search:"
@@ -1825,7 +1888,7 @@ msgstr "&Cột muốn tìm kiếm:"
 
 #. Translators: The title of a dialog to find tracks with duration within a specified range.
 msgid "Time range finder"
-msgstr ""
+msgstr "Tìm khoảng thời gian"
 
 msgid "Minimum duration"
 msgstr "Thời lượng tối thiểu"
@@ -1848,7 +1911,7 @@ msgstr ""
 
 #. Translators: Standard error title for find error (copy this from main nvda.po).
 msgid "Time range find error"
-msgstr ""
+msgstr "Lỗi tìm kiếm khoảng thời gian"
 
 msgid "Countdown started"
 msgstr "Bắt đầu đếm ngược"
@@ -1858,46 +1921,46 @@ msgstr "Hẹn giờ hoàn tất"
 
 #. Translators: presented when metadata streaming status cannot be obtained.
 msgid "Cannot obtain metadata streaming status information"
-msgstr ""
+msgstr "Không thể thu thập thông tin trạng thái metadata streaming"
 
 #. Translators: Status message for metadata streaming.
 msgid "No metadata streaming URL's defined"
-msgstr ""
+msgstr "Không có metadata streaming URL nào được chỉ định"
 
 #. Translators: Status message for metadata streaming.
 msgid "Metadata streaming configured for DSP encoder"
-msgstr ""
+msgstr "Metadata streaming được cấu hình cho DSP encoder"
 
 #. Translators: Status message for metadata streaming.
 #, python-brace-format
 msgid "Metadata streaming configured for DSP encoder and URL {URL}"
-msgstr ""
+msgstr "Metadata streaming được cấu hình cho DSP encoder và URL {URL}"
 
 #. Translators: Status message for metadata streaming.
 #, python-brace-format
 msgid "Metadata streaming configured for URL {URL}"
-msgstr ""
+msgstr "Metadata streaming được cấu hình cho URL {URL}"
 
 #. Translators: Status message for metadata streaming.
 #, python-brace-format
 msgid "Metadata streaming configured for DSP encoder and URL's {URL}"
-msgstr ""
+msgstr "Metadata streaming được cấu hình cho DSP encoder và URL {URL}"
 
 #. Translators: Status message for metadata streaming.
 #, python-brace-format
 msgid "Metadata streaming configured for URL's {URL}"
-msgstr ""
+msgstr "Metadata streaming được cấu hình cho URL {URL}"
 
 #. Translators: the Playlist transcripts dialog title.
 msgid "Playlist Transcripts"
-msgstr ""
+msgstr "Bảng điểm danh sách phát"
 
 msgid "Playlist data copied to clipboard"
 msgstr "Đã chép dữ liệu danh sách phát vào bộ nhớ tạm"
 
 #. Translators: Text of the dialog when another playlist transcripts dialog is open.
 msgid "Another playlist transcripts dialog is open."
-msgstr ""
+msgstr "Một hộp thoại bảng điểm danh sách phát khác đang được mở."
 
 #. Translators: one of the playlist transcripts range options.
 msgid "entire playlist"
@@ -1917,15 +1980,15 @@ msgstr "giờ hiện tại"
 
 #. Translators: The label in playlist transcripts dialog to select playlist transcript range.
 msgid "Transcript range:"
-msgstr ""
+msgstr "Khoảng điểm:"
 
 #. Translators: The label in playlist transcripts dialog to select transcript output format.
 msgid "Transcript format:"
-msgstr ""
+msgstr "Định dạng bảng điểm:"
 
 #. Translators: one of the playlist transcript actions.
 msgid "view transcript"
-msgstr ""
+msgstr "xem bảng điểm"
 
 #. Translators: one of the playlist transcript actions.
 msgid "copy to clipboard"
@@ -1937,12 +2000,14 @@ msgstr "lưu thành tập tin"
 
 #. Translators: The label in playlist transcripts dialog to select transcript action.
 msgid "Transcript action:"
-msgstr ""
+msgstr "Hoạt động bản điểm:"
 
 msgid ""
 "Did you recently tell SPL add-on to use a different update channel? If so, "
 "please restart NVDA before checking for add-on updates."
 msgstr ""
+"Có phải bạn đã khai báo với SPL add-on để dùng một kênh cập nhật khác không? "
+"Nếu có, vui lòng khởi động lại NVDA trước khi kiểm tra cập nhật add-on."
 
 msgid "Update channel changed"
 msgstr "Đã thay đổi kênh cập nhật"
@@ -1973,7 +2038,7 @@ msgstr "Lỗi tải cập nhật add-on."
 #, python-format
 msgid ""
 "Failed to open add-on package file at %s - missing file or invalid file format"
-msgstr ""
+msgstr "Mở gói add-on tại %s thất bại - tập tin bị lỗi hoạt sai định dạng"
 
 #. Translators: The title of the dialog presented while an Addon is being updated.
 msgid "Updating Add-on"
@@ -2011,6 +2076,25 @@ msgid ""
 "R: Remaining time for the playing track.\n"
 "Shift+R: Library scan progress."
 msgstr ""
+"\n"
+"Sau khi vào bộ điều khiển SPL, bấm:\n"
+"A: bật tự động hóa.\n"
+"Shift+A: tắt tự động hóa.\n"
+"M: bật microphone.\n"
+"Shift+M: tắt microphone.\n"
+"N: bật microphone mà không có hiệu ứng fade.\n"
+"L: bật line in.\n"
+"Shift+L: tắt line in.\n"
+"P: phát.\n"
+"U: tạm dừng.\n"
+"S: dừng với hiệu ứng fade.\n"
+"T: dừng nhanh.\n"
+"C: thông báo tên và thời lượng của track đang phát.\n"
+"E: thông báo khi có một bộ mã hóa đang được theo dõi.\n"
+"I: thông báo số người nghe.\n"
+"Q: thông báo trạng thái Studio.\n"
+"R: thời gian còn lại của track đang phát.\n"
+"Shift+R: tiến trình quét thư viện."
 
 #. Used ANSI version, as Wide char version always returns 0.
 #. Translators: Presented when Station Playlist Studio is not running.
@@ -2019,26 +2103,30 @@ msgstr "SPL Studio không chạy."
 
 #. Translators: Input help mode message for a command to switch to Station Playlist Studio from any program.
 msgid "Moves to SPL Studio window from other programs."
-msgstr ""
+msgstr "Chuyển đến cửa sổ SPL Studio từ chương trình khác."
 
 #. Translators: Presented when NVDA cannot enter SPL Controller layer since SPL Studio is focused.
 msgid ""
 "You are already in SPL Studio window. For status commands, use SPL Assistant "
 "commands."
 msgstr ""
+"Bạn đã ở trong cửa sổ SPL Studio. Để biết các lệnh trạng thái, hãy dùng các "
+"lệnh SPL Assistant."
 
 #. Translators: The name of a layer command set for Station Playlist Studio.
 #. Hint: it is better to translate it as "SPL Control Panel."
 msgid "SPL Controller"
-msgstr "Điều khiển SPL"
+msgstr "Bộ bộ điều khiển SPL"
 
 #. Translators: Input help mode message for a layer command in Station Playlist Studio.
 msgid "SPl Controller layer command. See add-on guide for available commands."
 msgstr ""
+"Các lệnh SPl Controller layer. Xem hướng dẫn sử dụng add-on để biết các lệnh "
+"đang có."
 
 #. Translators: Presented when no track is playing in Station Playlist Studio.
 msgid "There is no track playing. Try pausing while a track is playing."
-msgstr ""
+msgstr "Không có track nào đang phát. Hãy thử tạm dừng khi đang phát một track."
 
 #. Translators: Announces number of items in the Studio's track library (example: 1000 items scanned).
 #, python-brace-format
@@ -2068,20 +2156,20 @@ msgstr ""
 
 #. Translators: The title for SPL Controller help dialog.
 msgid "SPL Controller help"
-msgstr "Trợ giúp điều khiển SPL"
+msgstr "Trợ giúp bộ điều khiển SPL"
 
 #. Translators: Message presented when there are no encoders being monitored.
 msgid "No encoders are being monitored"
-msgstr ""
+msgstr "Không có bộ mã hóa nào đang được theo dõi"
 
 #. Translators: Announces number of encoders being monitored in the background.
 #, python-brace-format
 msgid "Number of encoders monitored: {numberOfEncoders}: {streamLabels}"
-msgstr ""
+msgstr "Số bộ mã hóa được theo dõi: {numberOfEncoders}: {streamLabels}"
 
 #. Translators: Text of the dialog when another alarm dialog is open.
 msgid "Another encoder settings dialog is open."
-msgstr ""
+msgstr "Một hộp thoại cài đặt mã hóa khác đang mở."
 
 #. Translators: The title of the encoder settings dialog (example: Encoder settings for SAM 1").
 #, python-brace-format
@@ -2090,7 +2178,7 @@ msgstr "Cài đặt mã hóa cho {name}"
 
 #. Translators: An edit field in encoder settings to set stream label for this encoder.
 msgid "Stream &label"
-msgstr ""
+msgstr "&Nhãn phát thanh"
 
 #. Translators: A checkbox in encoder settings to set if NvDA should switch focus to Studio window when connected.
 msgid "&Focus to Studio when connected"
@@ -2102,16 +2190,16 @@ msgstr "&Phát track đầu tiên khi kết nối"
 
 #. Translators: A checkbox in encoder settings to set if NvDA should monitor the status of this encoder in the background.
 msgid "Enable background connection &monitoring"
-msgstr ""
+msgstr "Bật kết nối và theo dõi ngầ&m"
 
 #. Translators: A checkbox in encoder settings to set if NvDA should play connection progress tone.
 msgid "Play connection status &beep while connecting"
-msgstr ""
+msgstr "Phát trạng thái kết nối &beep trong khi kết nối"
 
 #. Translators: Status message for encoder monitoring.
 #, python-brace-format
 msgid "{encoder} {encoderNumber}: {status}"
-msgstr ""
+msgstr "{encoder} {encoderNumber}: {status}"
 
 #. Translators: Presented when toggling the setting to switch to Studio when connected to a streaming server.
 msgid "Switch to Studio after connecting"
@@ -2126,6 +2214,8 @@ msgid ""
 "Toggles whether NVDA will switch to Studio when connected to a streaming "
 "server."
 msgstr ""
+"Bật chế độ để NVDA sẽ chuyển đến Studio khi đã kết nối đến một máy chủ phát "
+"thanh."
 
 #. Translators: Presented when toggling the setting to play selected song when connected to a streaming server.
 msgid "Play first track after connecting"
@@ -2140,8 +2230,8 @@ msgid ""
 "Toggles whether Studio will play the first song when connected to a streaming "
 "server."
 msgstr ""
-"Bật tắt chế độ để Studio sẽ phát bài nhạc đầu tiên khi kết nối vào máy chủ "
-"phát trực tuyến."
+"Bật chế độ để Studio sẽ phát bài nhạc đầu tiên khi kết nối vào máy chủ đang "
+"phát."
 
 #. Multiple encoders.
 #. Translators: Presented when toggling the setting to monitor the selected encoder.
@@ -2152,7 +2242,7 @@ msgstr "Đang theo dõi bộ mã hóa {encoderNumber}"
 #. Translators: Presented when toggling the setting to monitor the selected encoder.
 #, python-brace-format
 msgid "Encoder {encoderNumber} will not be monitored"
-msgstr "Bộ mã hóa {encoderNumber} sẽ không bị theo dõi"
+msgstr "Bộ mã hóa {encoderNumber} sẽ không được theo dõi"
 
 #. Translators: Announced when background encoder monitoring is canceled.
 msgid "Encoder monitoring canceled"
@@ -2174,21 +2264,23 @@ msgstr "Nhập nhãn cho đường này"
 
 #. Translators: Input help mode message in SAM Encoder window.
 msgid "Opens a dialog to label the selected encoder."
-msgstr "Mở hộp thoại để gán nhãn cho bộ mã được chọn."
+msgstr "Mở hộp thoại để gán nhãn cho bộ mã hóa được chọn."
 
 #. Translators: The title of the stream configuration eraser dialog.
 msgid "Stream label and settings eraser"
-msgstr "Nhãn phát trực tuyến và xóa các cài đặt"
+msgstr "Nhãn phát thanh và xóa các cài đặt"
 
 #. Translators: The text of the stream configuration eraser dialog.
 msgid "Enter the position of the encoder you wish to delete or will delete"
-msgstr ""
+msgstr "Nhập vị trí của bộ mã hóa bạn muốn xóa hoặc sẽ xóa"
 
 #. Translators: Input help mode message in SAM Encoder window.
 msgid ""
 "Opens a dialog to erase stream labels and settings from an encoder that was "
 "deleted."
 msgstr ""
+"Mở một hộp thoại để xóa các nhãn phát và các thiết lạp từ một bộ mã hóa đã bị "
+"xóa."
 
 #. Translators: Input help mode message for a command in Station Playlist Studio.
 msgid ""
@@ -2206,7 +2298,7 @@ msgid ""
 "If pressed once, reports the current time including seconds. If pressed "
 "twice, reports the current date"
 msgstr ""
-"Nếu bấm một lần, thông báo thời gian hiện tại bao gồm giây. Nếu bấm hai lần, "
+"Bấm một lần để thông báo thời gian hiện tại bao gồm giây. Bấm hai lần để "
 "thông báo ngày hiện tại"
 
 #, python-brace-format
@@ -2218,7 +2310,7 @@ msgid "Label: {label}"
 msgstr "Nhãn: {label}"
 
 msgid "No stream label"
-msgstr "Không có nhãn phát trực tuyến"
+msgstr "Không có nhãn phát thanh"
 
 #. Translators: Presented when an Encoder is trying to connect to a streaming server.
 msgid "Connecting..."
@@ -2229,7 +2321,7 @@ msgid "Disconnecting..."
 msgstr "Đang ngắt kết nối..."
 
 msgid "Connects to a streaming server."
-msgstr "Kết nối với một máy chủ phát trực tuyến."
+msgstr "Kết nối với một máy chủ đang phát."
 
 #, python-brace-format
 msgid "Encoder Settings: {setting}"
@@ -2237,7 +2329,7 @@ msgstr "Cài đặt mã hóa: {setting}"
 
 #, python-brace-format
 msgid "Transfer Rate: {transferRate}"
-msgstr "Transfer Rate: {transferRate}"
+msgstr "Tốc độ truyền tải: {transferRate}"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
