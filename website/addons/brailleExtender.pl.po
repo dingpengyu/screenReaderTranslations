@@ -3,107 +3,117 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-04-04 05:23+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-08-04 20:20+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"BrailleExtender\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"BrailleExtender\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: André-Abush Clause and contributors"
-msgstr ""
+msgstr "Autorzy: André-Abush Clause i współtwórcy"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Pobierz [wersja stabilna][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Pobierz [wersja rozwojowa][2]"
 
 #. type: Plain text
 msgid ""
 "BrailleExtender is an NVDA add-on that provides various features at braille "
 "level. Currently, the following features are implemented:"
 msgstr ""
+"BrailleExtender jest dodatkiem do NVDA, który dostarcza różnorodnych funkcji "
+"związanych z brajlem. Obecnie wprowadzone zostały następujące funkcje:"
 
 #. type: Bullet: '* '
 msgid "Reload two favorite braille display with shortcuts."
 msgstr ""
+"Załadowanie dwóch ulubionych monitorów brajlowskiich za pomocą skrótów."
 
 #. type: Bullet: '* '
 msgid "Automatically switch in review mode in apps."
-msgstr ""
+msgstr "Automatyczne przełączanie w tryb przeglądu w aplikacjach."
 
 #. type: Bullet: '* '
 msgid "Auto scroll."
-msgstr ""
+msgstr "Automatyczne czytanie."
 
 #. type: Bullet: '* '
 msgid "Switch between several input/output braille tables."
-msgstr ""
+msgstr "Przełączanie między kilkoma tablicami brajlowskimi wejścia/wyjścia."
 
 #. type: Bullet: '* '
 msgid ""
 "Define custom rules to mark text with special fields option with braille "
 "dots 7 and 8."
 msgstr ""
+"Definiowanie regół dla oznaczania tekstu specjalnymi polami za pomocą "
+"punktów 7 i 8."
 
 #. type: Bullet: '* '
 msgid "Use two output braille tables simultaneously."
-msgstr ""
+msgstr "Jednoczesne używanie dwóch brajlowskich tablic wyjścia."
 
 #. type: Bullet: '* '
 msgid "Display tab signs as spaces."
-msgstr ""
+msgstr "Wyświetlanie znaków tabulacji jako spacji."
 
 #. type: Bullet: '* '
 msgid "Reverse forward scroll and back scroll buttons."
-msgstr ""
+msgstr "Zamienianie miejscami przycisków przewijania."
 
 #. type: Bullet: '* '
 msgid "Say the current line during text scrolling, in review mode."
-msgstr ""
+msgstr "Odczytaj bieżącą linię podczas przewijania tekstu, w trybie przeglądu."
 
 #. type: Plain text
 msgid ""
 "For some braille displays, it extends the braille display commands to "
 "provide:"
 msgstr ""
+"Dodatek rozszerza funkcjonalność niektórych monitorów brajlowskich o "
+"dodatkowe skróty umożliwiające:"
 
 #. type: Bullet: '* '
 msgid "Access to function keys, multimedia keys, quick navigation."
 msgstr ""
+"Dostęp do klawiszy funkcyjnych, klawiszy multimedialnych, szybkiej nawigacji."
 
 #. type: Bullet: '* '
 msgid "Emulate modifier keys, and thus any keyboard shortcut."
-msgstr ""
+msgstr "Klawiszy emulacji modyfikatorów, a więc, każdego skrótu klawiszowego."
 
 #. type: Bullet: '* '
 msgid ""
 "Offer several keyboard configurations concerning the possibility to input "
 "dots 7 and 8, enter and backspace."
 msgstr ""
+"Dodatek oferuje kilka konfiguracji klawiatury związanych z możliwością "
+"wprowadzania punktów 7 i 8, używania klawiszy enter i backspace."
 
 #. type: Bullet: '* '
 msgid "Launch applications quickly."
-msgstr ""
+msgstr "Umożliwia szybkie uruchamianie aplikacji."
 
 #. type: Bullet: '* '
 msgid "Actions and quick navigation through a rotor."
-msgstr ""
+msgstr "Akcje i szybką nawigację po rotorze."
 
 #. type: Plain text
 msgid ""
@@ -112,16 +122,20 @@ msgid ""
 "The documentation is mainly generated automatically because it depends on "
 "the braille display in use."
 msgstr ""
+"Po zainstalowaniu dodatku, należy przeczytać dokumentację, następnie "
+"przejrzeć menu ustawień BrailleExtender (umieszczone w głównym menu NVDA). "
+"Dokumentacja jest w głównej mierze generowana automatycznie, w zależności od "
+"używanego monitora brajlowskiego."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=brlext"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=brlext"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=brlext-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=brlext-dev"
