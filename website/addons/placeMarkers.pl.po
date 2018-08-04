@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: placeMarkers\n"
 "POT-Creation-Date: 2018-06-02 21:25+1000\n"
-"PO-Revision-Date: 2017-06-29 19:49+0100\n"
+"PO-Revision-Date: 2018-08-04 21:17+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"placeMarkers\"]]\n"
-msgstr "[[!meta title=\"Znaczniki miejsc / placeMarkers\"]]\n"
+msgstr "[[!meta title=\"placeMarkers\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Noelia, Chris."
