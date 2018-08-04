@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: addonUpdater Addons website for NVDA\n"
 "POT-Creation-Date: 2018-08-04 06:58+1000\n"
-"PO-Revision-Date: 2018-08-03 15:37+0200\n"
+"PO-Revision-Date: 2018-08-04 22:08+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -80,10 +80,6 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
-#| "is included in NVDA, this add-on will be discontinued."
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
 "included in NVDA, this add-on will be discontinued. Also, checkable list box "
@@ -91,13 +87,14 @@ msgid ""
 msgstr ""
 "IMPORTANT : ceci est un module complémentaire de preuve de concept. Une fois "
 "la fonctionnalité pertinente incluse dans NVDA, ce module complémentaire "
-"sera supprimé."
+"sera supprimé. En outre, la zone de liste vérifiable provient du issue  7491 "
+"de NVDA (crédit : Derek Riemer et Babbage B.V.)."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.08.1"
 msgid "Version 18.08.3"
-msgstr "Version 18.08.1"
+msgstr "Version 18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -105,6 +102,9 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"Ajout de la possibilité d'exclure la mise à jour des modules complémentaires "
+"via une nouvelle liste de cases à cocher figurant dans le panneau de "
+"Paramètres Add-on Updater. Les éléments cochés ne seront pas mis à jour."
 
 #. type: Title ##
 #, no-wrap
