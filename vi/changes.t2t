@@ -11,7 +11,7 @@ Một số tính năng nổi bật của bản phát hành này bao gồm  hỗ 
 - Nội dung đã đánh dấu là đang được thêm vào hay xóa đi trong các trang web đã được thông báo trong Google Chrome. (#8280)
 - Đã hỗ trợ nút cuộn của máy BrailleNote QT và Apex BT's khi sử dụng như một màn hình chữ nổi với NVDA. (#5992, #5993)
 - Đã thêm kịch bản thông báo thời gian còn lại và tổng thời gian của bài hát hiện tại trong Foobar2000. (#6596)
- - Kí hiệu command key trên Mac (⌘) giờ đây đã được thông báo khi đọc văn bản với bất kì bộ đọc nào. (#8366)
+- Kí hiệu command key trên Mac (⌘) giờ đây đã được thông báo khi đọc văn bản với bất kì bộ đọc nào. (#8366)
 - vai trò tùy chỉnh thông qua thuộc tính aria-roledescription hiện đã hỗ trợ trong tất cả các trình duyệt. (#8448)
  - Các bảng chữ nổi mới: Czech 8 chấm, Central Kurdish, Esperanto, Hungarian, Thụy Điẻn máy tính 8 chấm. (#8226, #8437)- Đã hỗ trợ tự động ngầm nhận các màn hình chữ nổi. (#1271)
  - Bản chữ nổi mới: chữ Braille máy tính Thụy Điển 8 chấm. (#8227)
