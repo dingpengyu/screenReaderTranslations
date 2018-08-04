@@ -668,7 +668,7 @@ msgstr "Bulgare Braille informatique 8 points"
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 msgid "Central Kurdish grade 1"
-msgstr "Curde central intégral"
+msgstr "Kurde central intégral"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -4844,12 +4844,12 @@ msgstr "Aragonais"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr "Curde Central"
+msgstr "Kurde Central"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr "Curde du Nord"
+msgstr "Kurde du Nord"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
@@ -10962,22 +10962,3 @@ msgstr "Interligne double"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "Interligne 1.5"
-
-#~ msgid "{language} - {layout}"
-#~ msgstr "{language} - {layout}"
-
-#~ msgctxt "languageName"
-#~ msgid "Amharic"
-#~ msgstr "Amharique"
-
-#~ msgctxt "languageName"
-#~ msgid "Arabic"
-#~ msgstr "Arabe"
-
-#~ msgctxt "languageName"
-#~ msgid "Nepali"
-#~ msgstr "Népalais"
-
-#~ msgctxt "languageName"
-#~ msgid "Serbian (Latin)"
-#~ msgstr "Serbe (Latin)"
