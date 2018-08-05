@@ -3,41 +3,43 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-30 14:57+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-05 22:42+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"StationPlaylist Studio\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"StationPlaylist Studio\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Geoff Shang, Joseph Lee and other contributors"
-msgstr ""
+msgstr "Tác giả: Geoff Shang, Joseph Lee và các cộng tác viên khác"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Tải về [phiên bản chính thức][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Tải về [phiên bản thử nghiệm][2]"
 
 #. type: Plain text
 msgid ""
 "This add-on package provides improved usage of StationPlaylist Studio, as "
 "well as providing utilities to control the Studio from anywhere."
 msgstr ""
+"Gói add-on này cung cấp sự cải thiện cho việc sử dụng StationPlaylist "
+"Studio, cũng như cung cấp các tiện ích để điều khiển Studio ở mọi nơi."
 
 #. type: Plain text
 msgid ""
@@ -45,60 +47,80 @@ msgid ""
 "developers seeking to know how to build the add-on, see buildInstructions."
 "txt located at the root of the add-on source code repository."
 msgstr ""
+"Để biết thêm thông tin về add-on này, xem [hướng dẫn sử dụng add-on][4]. Với "
+"những người phát triển add-on quan tâm đến việc làm thế nào để tạo add-on, "
+"xem tập tin buildInstructions.txt ở thư mục gốc trong mã nguồn của add-on."
 
 #. type: Plain text
 msgid "IMPORTANT NOTES:"
-msgstr ""
+msgstr "CÁC LƯU Ý QUAN TRỌNG:"
 
 #. type: Bullet: '* '
 msgid ""
 "This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 or "
 "later."
 msgstr ""
+"Add-on này yêu cầu NVDA 2018.2 trở lên và StationPlaylist Studio 5.10 trở "
+"lên."
 
 #. type: Bullet: '* '
 msgid ""
 "If using Windows 8 or later, for best experience, disable audio ducking mode."
 msgstr ""
+"Nếu dùng Windows 8 trở lên, hãy tắt chế độ giảm âm thanh để có trải nghiệm "
+"tốt nhất."
 
 #. type: Bullet: '* '
 msgid ""
 "Starting from 2018, [changelogs for old add-on releases][5] will be found on "
 "GitHub. This add-on readme will list changes from version 5.0 (2015 onwards)."
 msgstr ""
+"Từ 2018, [bản ghi những thay đổi cho các bản phát hành cũ của add-on][5] sẽ "
+"được tìm thấy trên GitHub. Tập tin readme này sẽ liệt kê các thay đổi từ "
+"phiên bản 5.0 (2015 trở lên)."
 
 #. type: Bullet: '* '
 msgid ""
 "Certain add-on features (notably add-on updating) won't work under some "
 "conditions, including running NVDA in secure mode."
 msgstr ""
+"Một số tính năng nhất định của add-on (đặc biệt là cập nhật add-on) sẽ không "
+"hoạt động trong vài điều kiện, bao gồm chạy NVDA trong chế độ bảo vệ."
 
 #. type: Bullet: '* '
 msgid ""
 "Due to tecnical limitations, you cannot install or use this add-on on "
 "Windows Store version of NVDA."
 msgstr ""
+"Vì những giới hạn kĩ thuật, bạn không thể cài hay dùng add-on này với phiên "
+"bản NVDA từ Windows Store."
 
 #. type: Title ##
 #, no-wrap
 msgid "Shortcut keys"
-msgstr ""
+msgstr "Các phím tắt"
 
 #. type: Plain text
 msgid "Most of these will work in Studio only unless otherwise specified."
 msgstr ""
+"Hầu hết chúng chỉ hoạt động trong Studio cho đến khi thực hiện một số thiết "
+"lập khác."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+Shift+T from Studio window: announce elapsed time for the currently "
 "playing trakc."
 msgstr ""
+"Alt+Shift+T từ cửa sổ Studio: thông báo thời gian đã trôi qua của track đang "
+"phát."
 
 #. type: Bullet: '* '
 msgid ""
 "Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: "
 "announce remaining time for the currently playing trakc."
 msgstr ""
+"Control+Alt+T (vuốt xuống bằng hai ngón trong chế độ cảm ứng SPL) từ cửa sổ "
+"Studio: thông báo thời gian còn lại của track đang phát."
 
 #. type: Bullet: '* '
 msgid ""
@@ -106,28 +128,36 @@ msgid ""
 "announces broadcaster time such as 5 minutes to top of the hour. Pressing "
 "this command twice will announce minutes and seconds till top of the hour."
 msgstr ""
+"NVDA+Shift+F12 (vuốt lên hai ngón trong chế độ chạm của SPL) từ cửa sổ "
+"Studio: thông báo thời gian phát thanh như là 5 phút đến đầu giờ. Bấm hai "
+"lần sẽ thông báo số phút và giây đến đầu giờ."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
 "end of track setting dialog."
 msgstr ""
+"Alt+NVDA+1 (vuốt hai ngón tay qua phải trong chế độ SPL) từ cửa sổ Studio: "
+"mở hộp thoại cài đặt kết thúc track."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+2 (two finger flick left in SPL mode) from Studio window: Opens "
 "song intro alarm setting dialog."
 msgstr ""
+"Alt+NVDA+2 (vuốt hai ngón qua trái trong chế độ SPL ) từ cửa sổ Studio: mở "
+"hộp thoại cài đặt báo động nhạc dạo."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart "
 "assignments."
 msgstr ""
+"Alt+NVDA+3 từ cửa sổ Studio: bật tắt cart explorer để tìm hiểu cách gán cart."
 
 #. type: Bullet: '* '
 msgid "Alt+NVDA+4 from Studio window: Opens microphone alarm dialog."
-msgstr ""
+msgstr "Alt+NVDA+4 từ cửa sổ Studio: mở hộp thoại báo động microphone."
 
 #. type: Bullet: '* '
 msgid ""
@@ -135,23 +165,28 @@ msgid ""
 "artist or song name. Press NvDA+F3 to find forward or NVDA+Shift+F3 to find "
 "backward."
 msgstr ""
+"Control+NVDA+f từ cửa sổ Studio: mở hộp thoại để tìm một track theo tên ca "
+"sĩ hay bài hát. Bấm NvDA+F3 để tìm tiếp hoặc NVDA+Shift+F3 để tìm lùi."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+R from Studio window: Steps through library scan announcement "
 "settings."
 msgstr ""
+"Alt+NVDA+R từ cửa sổ Studio: chuyển đến các cài đặt thông báo quét thư viện."
 
 #. type: Bullet: '* '
 msgid ""
 "Control+Shift+X from Studio window: Steps through braille timer settings."
-msgstr ""
+msgstr "Control+Shift+X từ cửa sổ Studio: đi qua các cài đặt hẹn giờ chữ nổi."
 
 #. type: Bullet: '* '
 msgid ""
 "Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
 "and Track Tool): Announce previous/next track column."
 msgstr ""
+"Control+Alt+mũi tên trái phải (khi focused ở một track trong Studio, "
+"Creator, và Track Tool): thông báo các cột trước / sau của track."
 
 #. type: Bullet: '* '
 msgid ""
@@ -159,6 +194,9 @@ msgid ""
 "previous or next track and announce specific columns (unavailable in add-on "
 "15.x)."
 msgstr ""
+"Control+Alt+mũi tên lên / xuống (chỉ khi focused ở tại một track trong "
+"Studio): chuyển đến track trước hoặc kế và thông báo các cột cụ thể (không "
+"hỗ trợ cho các add-on phiên bản 15.x)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -166,195 +204,223 @@ msgid ""
 "Track Tool): Announce column content for a specified column. Pressing this "
 "command twice will display column information on a browse mode window."
 msgstr ""
+"Control+NVDA+1 đến 0 (khi focused ở tại một track trong Studio, Creator và "
+"Track Tool): thông báo nội dung cho một cột đã định. Bấm hai lần sẽ hiển thị "
+"thông tin trên cửa sổ duyệt tài liệu."
 
 #. type: Bullet: '* '
 msgid ""
 "Control+NVDA+- (hyphen in Studio): display data for all columns in a track "
 "on a browse mode window."
 msgstr ""
+"Control+NVDA+- (trừ trong Studio): hiển thị dữ liệu của tất cả các cột trong "
+"một track trên một cửa sổ chế độ duyệt."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+C while focused on a track (Studio only): announces track comments "
 "if any."
 msgstr ""
+"Alt+NVDA+C khi đứng tại một track (chỉ trong Studio): thông báo chú thích "
+"track nếu có."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog."
-msgstr ""
+msgstr "Alt+NVDA+0 từ cửa sổ Studio: mở hộp thoại cấu hình add-on của Studio."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+- (hyphen) from Studio window: Send feedback to add-on developer "
 "using the default email client."
 msgstr ""
+"Alt+NVDA+- (trừ) từ cửa sổ Studio: gửi phản hồi cho nhóm phát triển add-on "
+"bằng trình gửi thư điện tử mặc định."
 
 #. type: Bullet: '* '
 msgid "Alt+NVDA+F1: Open welcome dialog."
-msgstr ""
+msgstr "Alt+NVDA+F1: mở hộp thoại chào mừng."
 
 #. type: Title ##
 #, no-wrap
 msgid "Unassigned commands"
-msgstr ""
+msgstr "Các lẹnh chưa được gán"
 
 #. type: Plain text
 msgid ""
 "The following commands are not assigned by default; if you wish to assign "
 "them, use Input Gestures dialog to add custom commands."
 msgstr ""
+"Các lệnh sau đây mặc định không được gán thao tác; nếu muốn gán thao tác cho "
+"chúng, hãy dùng hộp thoại quản lý thao tác để thêm lệnh."
 
 #. type: Bullet: '* '
 msgid "Switching to SPL Studio window from any program."
-msgstr ""
+msgstr "Chuyển đến cửa sổ SPL Studio từ một chương trình bất kì."
 
 #. type: Bullet: '* '
 msgid "SPL Controller layer."
-msgstr ""
+msgstr "SPL Controller layer."
 
 #. type: Bullet: '* '
 msgid "Announcing Studio status such as track playback from other programs."
 msgstr ""
+"Thông báo trạng thái Studio như track đang phát từ một chương trình bất kì."
 
 #. type: Bullet: '* '
 msgid "SPL Assistant layer from SPL Studio."
-msgstr ""
+msgstr "SPL Assistant layer từ SPL Studio."
 
 #. type: Bullet: '* '
 msgid "Announce time including seconds from SPL Studio."
-msgstr ""
+msgstr "Thông báo giờ bao gồm giây từ SPL Studio."
 
 #. type: Bullet: '* '
 msgid "Announcing temperature."
-msgstr ""
+msgstr "Thông báo nhiệt độ."
 
 #. type: Bullet: '* '
 msgid "Announcing title of next track if scheduled."
-msgstr ""
+msgstr "Thông báo tên track kế nếu được lên lịch."
 
 #. type: Bullet: '* '
 msgid "Announcing title of the currently playing track."
-msgstr ""
+msgstr "Thông báo tựa đề của track đang phát."
 
 #. type: Bullet: '* '
 msgid "Marking current track for start of track time analysis."
-msgstr ""
+msgstr "Đánh dấu track hiện tại làm track bắt đầu phân tích thời gian track."
 
 #. type: Bullet: '* '
 msgid "Performing track time analysis."
-msgstr ""
+msgstr "Thực hiện phân tích thời gian track."
 
 #. type: Bullet: '* '
 msgid "Take playlist snapshots."
-msgstr ""
+msgstr "Chụp ảnh danh sách phát."
 
 #. type: Bullet: '* '
 msgid "Find text in specific columns."
-msgstr ""
+msgstr "Tìm kiếm văn bản trong các cột cụ thể."
 
 #. type: Bullet: '* '
 msgid ""
 "Find tracks with duration that falls within a given range via time range "
 "finder."
 msgstr ""
+"Tìm track với  thời lượng nằm trong khoảng thời gian cho trước thông qua tìm "
+"kiếm theo khoảng thời gian."
 
 #. type: Bullet: '* '
 msgid "Quickly enable or disable metadata streaming."
-msgstr ""
+msgstr "Nhanh chóng bật hay tắt metadata streaming."
 
 #. type: Title ##
 #, no-wrap
 msgid "Additional commands when using Sam or SPL encoders"
-msgstr ""
+msgstr "Các lệnh thêm khi dùng Sam hay SPL encoders"
 
 #. type: Plain text
 msgid "The following commands are available when using Sam or SPL encoders:"
-msgstr ""
+msgstr "Các phím lệnh sau  đây hoạt động khi sử dụng Sam hoặc SPL encoders:"
 
 #. type: Bullet: '* '
 msgid "F9: connect to a streaming server."
-msgstr ""
+msgstr "F9: kết nối tới một máy chủ đang phát."
 
 #. type: Bullet: '* '
 msgid "F10 (SAM encoder only): Disconnect from the streaming server."
 msgstr ""
+"F10 (chỉ khi dùng SAM encoder): ngắt kết nối khỏi một máy chủ đang phát."
 
 #. type: Bullet: '* '
 msgid ""
 "Control+F9/Control+F10 (SAM encoder only): Connect or disconnect all "
 "encoders, respectivley."
 msgstr ""
+"Control+F9/Control+F10 (chỉ khi dùng SAM encoder): kết nối hay ngắt kết nối "
+"tất cả các bộ mã hóa."
 
 #. type: Bullet: '* '
 msgid ""
 "F11: Toggles whether NVDA will switch to Studio window for the selected "
 "encoder if connected."
 msgstr ""
+"F11: bật tắt chế độ để NVDA chuyển đến cửa sổ Studio cho bộ mã hóa được chọn "
+"nếu đã kết nối."
 
 #. type: Bullet: '* '
 msgid ""
 "Shift+F11: Toggles whether Studio will play the first selected track when "
 "encoder is connected to a streaming server."
 msgstr ""
+"Shift+F11: bật tắt chế độ để Studio sẽ phát track đầu tiên được chọn khi bộ "
+"mã hóa được kết nối đến một máy chủ đang phát."
 
 #. type: Bullet: '* '
 msgid "Control+F11: Toggles background monitoring of the selected encoder."
-msgstr ""
+msgstr "Control+F11: bật tắt chế độ theo dõi ngầm của bộ mã hóa được chọn."
 
 #. type: Bullet: '* '
 msgid ""
 "F12: Opens a dialog to enter custom label for the selected encoder or stream."
 msgstr ""
+"F12: mở một hộp thoại để nhập nhãn tùy chỉnh cho bộ mã hóa hay chương trình "
+"phát được chọn."
 
 #. type: Bullet: '* '
 msgid ""
 "Control+F12: opens a dialog to select the encoder you have deleted (to "
 "realign stream labels and encoder settings)."
 msgstr ""
+"Control+F12: mở hộp thoại chọn bộ mã hóa đã xóa (sắp xếp lại các cài đặt của "
+"nhãn phát và các bộ mã hóa)."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+0: Opens encoder settings dialog to configure options such as "
 "stream label."
 msgstr ""
+"Alt+NVDA+0: mở hộp thoại cài đặt mã hóa để cấu hình các tùy chọn như nhãn "
+"phát."
 
 #. type: Plain text
 msgid "In addition, column review commands are available, including:"
-msgstr ""
+msgstr "Ngoài ra, có các lệnh để xem lại cột bao gồm:"
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+1: Encoder position."
-msgstr ""
+msgstr "Control+NVDA+1: vị trí mã hóa."
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+2: stream label."
-msgstr ""
+msgstr "Control+NVDA+2: nhãn phát thanh."
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+3 from SAM Encoder: Encoder format."
-msgstr ""
+msgstr "Control+NVDA+3 từ SAM Encoder: định dạng mã hóa."
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+3 from SPL Encoder: Encoder settings."
-msgstr ""
+msgstr "Control+NVDA+3 từ SPL Encoder: cài đặt mã hóa."
 
 #. type: Bullet: '* '
 msgid "Control+NvDA+4 from SAM Encoder: Encoder connection status."
-msgstr ""
+msgstr "Control+NvDA+4 từ SAM Encoder: trạng thái kết nối bộ mã hóa."
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+4 from SPL Encoder: Transfer rate or connection status."
 msgstr ""
+"Control+NVDA+4 từ SPL Encoder: tốc độ đường truyền hay trạng thái kết nối."
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+5 from SAM Encoder: Connection status description."
-msgstr ""
+msgstr "Control+NVDA+5 từ SAM Encoder: mô tả trạng thái kết nối."
 
 #. type: Title ##
 #, no-wrap
 msgid "SPL Assistant layer"
-msgstr ""
+msgstr "SPL Assistant layer"
 
 #. type: Plain text
 msgid ""
@@ -365,169 +431,195 @@ msgid ""
 "commands are exclusive to playlist viewer). You can also configure NvDA to "
 "emulate commands from other screen readers."
 msgstr ""
+"Các lệnh này cho phép bạn thu thập nhiều trạng thái khác nhau trên SPL "
+"Studio, như là một track đang phát, thời lượng của tất cả track trong khung "
+"giờ và nhiều nữa. Từ bất cứ cửa sổ SPL Studio nào, bấm các lệnh SPL "
+"Assistant layer rồi bấm một trong các phím trong danh sách dưới đây (một hay "
+"nhiều lệnh chỉ dành riêng cho trình xem danh sách phát). Bạn cũng có thể cấu "
+"hình NvDA để mô phỏng lệnh của các trình đọc màn hình khác."
 
 #. type: Plain text
 msgid "The available commands are:"
-msgstr ""
+msgstr "Các lệnh được hỗ trợ bao gồm:"
 
 #. type: Bullet: '* '
 msgid "A: Automation."
-msgstr ""
+msgstr "A: tự động hóa."
 
 #. type: Bullet: '* '
 msgid ""
 "C (Shift+C in JAWS and Window-Eyes layouts): Title for the currently playing "
 "track."
 msgstr ""
+"C (Shift+C trong kiểu phím lệnh của JAWS và Window-Eyes): tên của track đang "
+"phát."
 
 #. type: Bullet: '* '
 msgid ""
 "C (JAWS and Window-Eyes layouts): Toggle cart explorer (playlist viewer "
 "only)."
 msgstr ""
+"C (Kiểu phím lệnh JAWS và Window-Eyes): bật tắt cart explorer (chỉ trong "
+"trình xem danh sách phát)."
 
 #. type: Bullet: '* '
 msgid ""
 "D (R in JAWS layout): Remaining duration for the playlist (if an error "
 "message is given, move to playlist viewer and then issue this command)."
 msgstr ""
+"D (R trong kiểu phím lệnh của JAWS): thời lượng còn lại của danh sách phát "
+"(nếu có thông báo lỗi, di chuyển đến trình xem danh sách phát và thực hiện "
+"lệnh này)."
 
 #. type: Bullet: '* '
 msgid "E (G in Window-Eyes layout): Metadata streaming status."
-msgstr ""
+msgstr "E (G trong kiểu phím lệnh Window-Eyes): trạng thái metadata streaming."
 
 #. type: Bullet: '* '
 msgid ""
 "Shift+1 through Shift+4, Shift+0: Status for individual metadata streaming "
 "URL's (0 is for DSP encoder)."
 msgstr ""
+"Shift+1 đến Shift+4, Shift+0: trạng thái của metadata streaming URL cụ thể "
+"(0 cho DSP encoder)."
 
 #. type: Bullet: '* '
 msgid "E (Window-Eyes layout): Elapsed time for the currently playing track."
 msgstr ""
+"E (kiểu phím lệnh của Window-Eyes): thời gian đã phát của track hiện tại."
 
 #. type: Bullet: '* '
 msgid "F: Find track (playlist viewer only)."
-msgstr ""
+msgstr "F: tìm kiếm track (chỉ  khi ở trong trình xem danh sách phát)."
 
 #. type: Bullet: '* '
 msgid "H: Duration of music for the current hour slot."
-msgstr ""
+msgstr "H: thời lượng phát nhạc của khung giờ hiện tại."
 
 #. type: Bullet: '* '
 msgid "Shift+H: Remaining track duration for the hour slot."
-msgstr ""
+msgstr "Shift+H: thời lượng còn lại cho track của khung giờ hiện tại."
 
 #. type: Bullet: '* '
 msgid "I (L in JAWS or Window-Eyes layouts): Listener count."
-msgstr ""
+msgstr "I (L trong kiểu phím lệnh của JAWS hay Window-Eyes): lượt người nghe."
 
 #. type: Bullet: '* '
 msgid "K: Move to the marked track (playlist viewer only)."
 msgstr ""
+"K: chuyển đến track đã đánh dấu (chỉ khi ở trong trình xem danh sách phát)."
 
 #. type: Bullet: '* '
 msgid ""
 "Control+K: Set the current track as the place marker track (playlist viewer "
 "only)."
 msgstr ""
+"Control+K: chọn track hiện tại làm track đánh dấu (chỉ khi ở trong trình xem "
+"danh sách phát)."
 
 #. type: Bullet: '* '
 msgid "L (Shift+L in JAWS and Window-Eyes layouts): Line in."
-msgstr ""
+msgstr "L (Shift+L trong kiểu phím lệnh của JAWS và Window-Eyes): Line in."
 
 #. type: Bullet: '* '
 msgid "M: Microphone."
-msgstr ""
+msgstr "M: Microphone."
 
 #. type: Bullet: '* '
 msgid "N: Title for the next scheduled track."
-msgstr ""
+msgstr "N: tên của track kế được lên lịch."
 
 #. type: Bullet: '* '
 msgid "P: Playback status (playing or stopped)."
-msgstr ""
+msgstr "P: trạng thái phát nhạc (đang phát hay dừng)."
 
 #. type: Bullet: '* '
 msgid "Shift+P: Pitch of the current track."
-msgstr ""
+msgstr "Shift+P: độ cao của track hiện tại."
 
 #. type: Bullet: '* '
 msgid ""
 "R (Shift+E in JAWS and Window-Eyes layouts): Record to file enabled/disabled."
 msgstr ""
+"R (Shift+E trong kiểu phím lệnh của JAWS và Window-Eyes): bật / tắt thu ra "
+"tập tin."
 
 #. type: Bullet: '* '
 msgid "Shift+R: Monitor library scan in progress."
-msgstr ""
+msgstr "Shift+R: theo dõi tiến trình quét thư viện."
 
 #. type: Bullet: '* '
 msgid "S: Track starts (scheduled)."
-msgstr ""
+msgstr "S: Track bắt đầu (được lên lịch)."
 
 #. type: Bullet: '* '
 msgid "Shift+S: Time until selected track will play (track starts in)."
-msgstr ""
+msgstr "Shift+S: thời gian đến khi sẽ phát track được chọn (track bắt đầu)."
 
 #. type: Bullet: '* '
 msgid "T: Cart edit/insert mode on/off."
-msgstr ""
+msgstr "T: bật / tắt chèn / chỉnh sửa Cart."
 
 #. type: Bullet: '* '
 msgid "U: Studio up time."
-msgstr ""
+msgstr "U: Studio tăng thời gian."
 
 #. type: Bullet: '* '
 msgid "Control+Shift+U: Check for add-on updates."
-msgstr ""
+msgstr "Control+Shift+U: kiểm tra cập nhật add-on."
 
 #. type: Bullet: '* '
 msgid "W: Weather and temperature if configured."
-msgstr ""
+msgstr "W: thời tiết và nhiệt độ nếu đã được cấu hình."
 
 #. type: Bullet: '* '
 msgid "Y: Playlist modified status."
-msgstr ""
+msgstr "Y: trạng thái chỉnh sửa danh sách phát."
 
 #. type: Bullet: '* '
 msgid ""
 "1 through 0 (6 for Studio 5.0x): Announce column content for a specified "
 "column."
 msgstr ""
+"1 đến 0 (6 cho Studio 5.0x): thông báo nội dung của một cột được chỉ định."
 
 #. type: Bullet: '* '
 msgid "F8: Take playlist snapshots (number of tracks, longest track, etc.)."
-msgstr ""
+msgstr "F8: lấy ảnh chụp danh sách phát (số track, track dài nhất, v...v....)."
 
 #. type: Bullet: '* '
 msgid "Shift+F8: Request playlist transcripts in numerous formats."
-msgstr ""
+msgstr "Shift+F8: yêu cầu bảng điểm danh sách phát ở nhiều định dạng."
 
 #. type: Bullet: '* '
 msgid ""
 "F9: Mark current track for start of playlist analysis (playlist viewer only)."
 msgstr ""
+"F9: đánh dấu track hiện tại là nơi bắt đầu phân tích danh sách phát (chỉ khi "
+"ở trong trình xem danh sách phát)."
 
 #. type: Bullet: '* '
 msgid "F10: Perform track time analysis (playlist viewer only)."
 msgstr ""
+"F10: thực hiện phân tích track theo thời gian (chỉ khi ở trong trình xem "
+"danh sách phát)."
 
 #. type: Bullet: '* '
 msgid "F12: Switch between current and a predefined profile."
-msgstr ""
+msgstr "F12: chuyển đổi giữa hồ sơ hiện tại và hồ sơ được chỉ định trước."
 
 #. type: Bullet: '* '
 msgid "F1: Layer help."
-msgstr ""
+msgstr "F1: trợ giúp Layer."
 
 #. type: Bullet: '* '
 msgid "Shift+F1: Opens online user guide."
-msgstr ""
+msgstr "Shift+F1: mở tài liệu hướng dẫn trực tuyến."
 
 #. type: Title ##
 #, no-wrap
 msgid "SPL Controller"
-msgstr ""
+msgstr "Bộ điều khiển SPL"
 
 #. type: Plain text
 msgid ""
@@ -536,87 +628,98 @@ msgid ""
 "\"SPL Controller.\" Press another command to control various Studio settings "
 "such as microphone on/off or play the next track."
 msgstr ""
+"Bộ điều khiển SPL là một tập hợp các lệnh bạn có thể dùng để điều khiển SPL "
+"Studio bất cứ đâu. Bấm các lệnh của bộ điều khiển SPL, và NVDA sẽ đọc, \"bộ "
+"điều khiển SPL.\" Bấm các phím lệnh khác để thực hiện nhiều cài đặt của "
+"Studio như bật / tắt microphone hoặc phát track kế."
 
 #. type: Plain text
 msgid "The available SPL Controller commands are:"
-msgstr ""
+msgstr "Các lệnh của bộ điều khiển SPL bao gồm:"
 
 #. type: Bullet: '* '
 msgid "Press P to play the next selected track."
-msgstr ""
+msgstr "Bấm P để phát track kế được chọn."
 
 #. type: Bullet: '* '
 msgid "Press U to pause or unpause playback."
-msgstr ""
+msgstr "Bấm U để tạm dừng và tiếp tục phát."
 
 #. type: Bullet: '* '
 msgid ""
 "Press S to stop the track with fade out, or to stop the track instantly, "
 "press T."
-msgstr ""
+msgstr "Bấm S để dừng một track nhỏ dần, hoặc dừng nhanh một track, bấm T."
 
 #. type: Bullet: '* '
 msgid ""
 "Press M or Shift+M to turn on or off the microphone, respectively, or press "
 "N to enable microphone without fade."
 msgstr ""
+"Bấm M hay Shift+M để bật / tắt microphone, hoặc bấm N để bật microphone mà "
+"không có hiệu ứng fade."
 
 #. type: Bullet: '* '
 msgid "Press A to enable automation or Shift+A to disable it."
-msgstr ""
+msgstr "Bấm A để bật tự động hóa hoặc Shift+A để tắt."
 
 #. type: Bullet: '* '
 msgid "Press L to enable line-in input or Shift+L to disable it."
-msgstr ""
+msgstr "Bấm L để bật đầu vào line-in hoặc Shift+L để tắt."
 
 #. type: Bullet: '* '
 msgid "Press R to hear remaining time for the currently playing track."
-msgstr ""
+msgstr "Bấm R để biết thời gian còn lại của track đang phát."
 
 #. type: Bullet: '* '
 msgid "Press Shift+R to get a report on library scan progress."
-msgstr ""
+msgstr "Bấm Shift+R để xem báo cáo về tiến trình quét thư viện."
 
 #. type: Bullet: '* '
 msgid ""
 "Press C to let NVDA announce name and duration of the currently playing "
 "track."
-msgstr ""
+msgstr "Bấm C để NVDA thông báo tên và thời lượng của track đang phát."
 
 #. type: Bullet: '* '
 msgid ""
 "Press Shift+C to let NVDA announce name and duration of the upcoming track "
 "if any."
 msgstr ""
+"Bấm Shift+C để NVDA thông báo tên và thời lượng của track sắp tới nếu có."
 
 #. type: Bullet: '* '
 msgid "Press E to get count and labels for encoders being monitored."
 msgstr ""
+"Bấm E để biết số lượng và các nhãn của các bộ mã hóa đang được theo dõi."
 
 #. type: Bullet: '* '
 msgid "Press I to obtain listener count."
-msgstr ""
+msgstr "Bấm I để thu thập số lượng người nghe."
 
 #. type: Bullet: '* '
 msgid ""
 "Press Q to obtain various status information about Studio including whether "
 "a track is playing, microphone is on and others."
 msgstr ""
+"Bấm Q để thu thập nhiều thông tin trạng thái về Studio bao gồm việc có một "
+"track đang phát, microphone đang bật và các thông tin khác."
 
 #. type: Bullet: '* '
 msgid ""
 "Press cart keys (F1, Control+1, for example) to play assigned carts from "
 "anywhere."
 msgstr ""
+"Bấm các phím cart (ví dụ F1, Control+1) để phát cart được gán ở mọi nơi."
 
 #. type: Bullet: '* '
 msgid "Press H to show a help dialog which lists available commands."
-msgstr ""
+msgstr "Bấm H để hiện hộp thoại trợ giúp với toàn bộ các lệnh được liệt kê."
 
 #. type: Title ##
 #, no-wrap
 msgid "Track alarms"
-msgstr ""
+msgstr "Các báo động cho track"
 
 #. type: Plain text
 msgid ""
@@ -631,7 +734,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Microphone alarm"
-msgstr ""
+msgstr "Các báo động cho microphone"
 
 #. type: Plain text
 msgid ""
@@ -642,7 +745,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Track Finder"
-msgstr ""
+msgstr "Tìm kiếm track"
 
 #. type: Plain text
 msgid ""
@@ -656,12 +759,12 @@ msgstr ""
 
 #. type: Plain text
 msgid "Note: Track Finder is case-sensitive."
-msgstr ""
+msgstr "Lưu ý: tìm kiếm track có phân biệt chữ hoa / thường."
 
 #. type: Title ##
 #, no-wrap
 msgid "Cart Explorer"
-msgstr ""
+msgstr "Khám phá cart"
 
 #. type: Plain text
 msgid ""
@@ -682,7 +785,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Track time analysis"
-msgstr ""
+msgstr "Phân tích thời gian track"
 
 #. type: Plain text
 msgid ""
@@ -694,7 +797,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Columns Explorer"
-msgstr ""
+msgstr "Khám phá các cột"
 
 #. type: Plain text
 msgid ""
@@ -708,7 +811,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Playlist snapshots"
-msgstr ""
+msgstr "Ảnh chụp danh sách phát"
 
 #. type: Plain text
 msgid ""
@@ -723,7 +826,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Playlist Transcripts"
-msgstr ""
+msgstr "Bảng điểm danh sách phát"
 
 #. type: Plain text
 msgid ""
@@ -735,7 +838,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Configuration dialog"
-msgstr ""
+msgstr "Hộp thoại cấu hình"
 
 #. type: Plain text
 msgid ""
@@ -748,7 +851,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "SPL touch mode"
-msgstr ""
+msgstr "Chế độ chạm của SPL"
 
 #. type: Plain text
 msgid ""
@@ -761,12 +864,13 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.1"
-msgstr ""
+msgstr "Phiên bản 18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed yet another wxPython 4 compatibility issue seen when Studio exits."
 msgstr ""
+"Sửa lỗi khác của wxPython 4 về tính tương thích xảy ra khi thoát Studio."
 
 #. type: Bullet: '* '
 msgid ""
@@ -784,7 +888,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Phiên bản 18.08"
 
 #. type: Bullet: '* '
 msgid ""
@@ -834,7 +938,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.07"
-msgstr ""
+msgstr "Phiên bản 18.07"
 
 #. type: Bullet: '* '
 msgid ""
@@ -896,7 +1000,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.06.1"
-msgstr ""
+msgstr "Phiên bản  18.06.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -921,7 +1025,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.06"
-msgstr ""
+msgstr "Phiên bản 18.06"
 
 #. type: Bullet: '* '
 msgid ""
@@ -974,7 +1078,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.05"
-msgstr ""
+msgstr "Phiên bản 18.05"
 
 #. type: Bullet: '* '
 msgid ""
@@ -999,7 +1103,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.04.1"
-msgstr ""
+msgstr "Phiên bản 18.04.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1010,7 +1114,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.04"
-msgstr ""
+msgstr "Phiên bản 18.04"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1046,7 +1150,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.03/15.14-LTS"
-msgstr ""
+msgstr "Phiên bản 18.03/15.14-LTS"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1085,7 +1189,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.02/15.13-LTS"
-msgstr ""
+msgstr "Phiên bản 18.02/15.13-LTS"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1123,7 +1227,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.01/15.12-LTS"
-msgstr ""
+msgstr "Phiên bản 18.01/15.12-LTS"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1141,11 +1245,11 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.12"
-msgstr ""
+msgstr "Phiên bản 17.12"
 
 #. type: Bullet: '* '
 msgid "Windows 7 Service Pack 1 or later is required."
-msgstr ""
+msgstr "Yêu cầu Windows 7 Service Pack 1 trở lên."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1181,7 +1285,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.11.2"
-msgstr ""
+msgstr "Phiên bản 17.11.2"
 
 #. type: Plain text
 msgid ""
@@ -1199,7 +1303,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.11.1/15.11-LTS"
-msgstr ""
+msgstr "Phiên bản 17.11.1/15.11-LTS"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1212,11 +1316,11 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.11/15.10-LTS"
-msgstr ""
+msgstr "Phiên bản 17.11/15.10-LTS"
 
 #. type: Bullet: '* '
 msgid "Initial support for StationPlaylist Studio 5.30."
-msgstr ""
+msgstr "Bắt đầu hỗ trợ cho StationPlaylist Studio 5.30."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1252,7 +1356,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.10"
-msgstr ""
+msgstr "Phiên bản 17.10"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1294,7 +1398,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.09.1"
-msgstr ""
+msgstr "Phiên bản 17.09.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1315,7 +1419,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.09"
-msgstr ""
+msgstr "Phiên bản 17.09"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1335,7 +1439,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.08.1"
-msgstr ""
+msgstr "Phiên bản 17.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1346,7 +1450,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.08"
-msgstr ""
+msgstr "Phiên bản 17.08"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1437,7 +1541,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.06"
-msgstr ""
+msgstr "Phiên bản 17.06"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1461,7 +1565,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.05.1"
-msgstr ""
+msgstr "Phiên bản 17.05.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1472,7 +1576,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.05/15.7-LTS"
-msgstr ""
+msgstr "Phiên bản 17.05/15.7-LTS"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1489,7 +1593,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.04"
-msgstr ""
+msgstr "Phiên bản 17.04"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1608,7 +1712,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.03"
-msgstr ""
+msgstr "Phiên bản 17.03"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1618,12 +1722,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Updated translations."
-msgstr ""
+msgstr "Cập nhật các bản dịch."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.01/15.5-LTS"
-msgstr ""
+msgstr "Phiên bản 17.01/15.5-LTS"
 
 #. type: Plain text
 msgid ""
@@ -1663,7 +1767,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 16.12.1"
-msgstr ""
+msgstr "Phiên bản 16.12.1"
 
 #. type: Bullet: '* '
 msgid "Corrected user interface presentation for SPL add-on settings dialog."
@@ -1672,7 +1776,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 16.12/15.4-LTS"
-msgstr ""
+msgstr "Phiên bản 16.12/15.4-LTS"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1701,7 +1805,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 16.11/15.3-LTS"
-msgstr ""
+msgstr "Phiên bản 16.11/15.3-LTS"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1732,7 +1836,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 16.10.1/15.2-LTS"
-msgstr ""
+msgstr "Phiên bản 16.10.1/15.2-LTS"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1743,7 +1847,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 8.0/16.10/15.0-LTS"
-msgstr ""
+msgstr "Phiên bản 8.0/16.10/15.0-LTS"
 
 #. type: Plain text
 msgid ""
@@ -1859,7 +1963,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 7.5/16.09"
-msgstr ""
+msgstr "Phiên bản 7.5/16.09"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1874,7 +1978,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 7.4/16.08"
-msgstr ""
+msgstr "Phiên bản 7.4/16.08"
 
 #. type: Plain text
 msgid ""
@@ -1905,12 +2009,12 @@ msgstr ""
 msgid ""
 "New and updated translations and added localized documentation in various "
 "languages."
-msgstr ""
+msgstr "Cập nhật và thêm vào các bản dịch cho nhiều ngôn ngữ."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 7.3"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 7.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1921,7 +2025,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 7.2"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 7.2"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1963,7 +2067,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 7.1"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 7.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1985,7 +2089,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 7.0"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 7.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2136,7 +2240,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 6.4"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 6.4"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2150,7 +2254,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 6.3"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 6.3"
 
 #. type: Bullet: '* '
 msgid "Internal security enhancements."
@@ -2173,7 +2277,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 6.2"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 6.2"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2210,7 +2314,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 6.1"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 6.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2252,7 +2356,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 6.0"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 6.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2398,7 +2502,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.6"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 5.6"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2416,7 +2520,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.5"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 5.5"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2427,7 +2531,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.4"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 5.4"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2439,7 +2543,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.3"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 5.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2456,7 +2560,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.2"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 5.2"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2487,7 +2591,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.1"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 5.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2518,7 +2622,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.0"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 5.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -2530,6 +2634,8 @@ msgstr ""
 msgid ""
 "Added ability to reset all settings to defaults via configuration dialog."
 msgstr ""
+"Thêm khả năng khôi phục tất cả các cài đặt về mặc định thông qua hộp thoại "
+"cấu hình."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2622,6 +2728,8 @@ msgid ""
 "Added a command in SPL Controller layer to announce status of encoders being "
 "monitored (E)."
 msgstr ""
+"Đã thêm lệnh trong SPL Controller layer để thông báo trạng thái của các bộ "
+"mã hóa đang được theo dõi (E)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2634,34 +2742,37 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Older releases"
-msgstr ""
+msgstr "Các bản phát hành cũ hơn"
 
 #. type: Plain text
 msgid "Please see changelog link for release notes for old add-on releases."
 msgstr ""
+"Vui lòng xem liên kết các thay đổi để có thông tin về các bản phát hành cũ "
+"của add-on."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
 
 #. type: Plain text
 msgid ""
 "[3]: http://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
 msgstr ""
+"[3]: http://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
 
 #. type: Plain text
 msgid "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
-msgstr ""
+msgstr "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
 
 #. type: Plain text
 msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
-msgstr ""
+msgstr "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
