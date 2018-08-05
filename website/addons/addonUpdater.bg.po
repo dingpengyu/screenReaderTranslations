@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-04 06:58+1000\n"
-"PO-Revision-Date: 2018-07-31 09:03+0200\n"
+"PO-Revision-Date: 2018-08-05 08:54+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -77,10 +77,6 @@ msgid "Windows 10 App Essentials"
 msgstr "Базов пакет за приложения в Windows 10 (Windows 10 App Essentials)"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
-#| "is included in NVDA, this add-on will be discontinued."
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
 "included in NVDA, this add-on will be discontinued. Also, checkable list box "
@@ -88,13 +84,13 @@ msgid ""
 msgstr ""
 "ВАЖНО: Целта на тази добавка е да докаже работеща концепция за въпросната "
 "функционалност. След като съответната функция бъде включена в NVDA, тази "
-"добавка ще бъде премахната."
+"добавка ще бъде премахната. Също така, списъкът с отметки е от доклада №7491 "
+"за NVDA (заслуги: Derek Riemer и Babbage B.V.)."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.1"
+#, no-wrap
 msgid "Version 18.08.3"
-msgstr "Версия 18.08.1"
+msgstr "Версия 18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -102,6 +98,9 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"Добавена е възможност за изключване на дадени добавки от списъка за "
+"обновяване чрез нов списък с отметки, намиращ се в панела за настройки на "
+"Add-on Updater. Отметнатите елементи няма да бъдат обновявани."
 
 #. type: Title ##
 #, no-wrap
