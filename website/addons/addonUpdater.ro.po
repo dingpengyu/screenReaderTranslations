@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-04 06:58+1000\n"
+"POT-Creation-Date: 2018-08-06 04:01+1000\n"
 "PO-Revision-Date: 2018-08-02 11:58+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -26,7 +26,9 @@ msgid "Author: Joseph Lee"
 msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
-msgid "Download [stable version][1]"
+#, fuzzy
+#| msgid "Download [stable version][1]"
+msgid "Download [prototype version][1]"
 msgstr "Descărcați [versiunea stabilă][1]"
 
 #. type: Plain text
@@ -84,13 +86,42 @@ msgstr "Windows 10 App Essentials"
 #| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
 #| "is included in NVDA, this add-on will be discontinued."
 msgid ""
-"IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
-"included in NVDA, this add-on will be discontinued. Also, checkable list box "
-"comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B.V.)."
+"IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
+"included in NVDA][2], this add-on will be discontinued."
 msgstr ""
 "Important: aceasta este dovada de concept a acestui supliment. Odată ce "
 "caracteristica relevantă va fi inclusă în NVDA, dezvoltarea acestui "
 "supliment va fi întreruptă."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08.1"
+msgid "Version 18.08.5"
+msgstr "Version 18.08.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where Add-on Updater settings panel failed to show if one or "
+"more add-ons had badly formatted manifest data."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
+"for updates."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08.1"
+msgid "Version 18.08.4"
+msgstr "Version 18.08.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a regression introducedin 18.08.3 where NVDA continuously played "
+"progress beep when trying to check for add-on updates."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -129,10 +160,15 @@ msgid "Initial version."
 msgstr "Versiunea inițială."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev stable]]\n"
+msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
+
+#. type: Plain text
+msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
+msgstr ""

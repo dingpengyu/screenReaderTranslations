@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-04 06:58+1000\n"
+"POT-Creation-Date: 2018-08-06 04:01+1000\n"
 "PO-Revision-Date: 2018-08-04 07:28+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -26,7 +26,9 @@ msgid "Author: Joseph Lee"
 msgstr "作者: Joseph Lee"
 
 #. type: Bullet: '* '
-msgid "Download [stable version][1]"
+#, fuzzy
+#| msgid "Download [stable version][1]"
+msgid "Download [prototype version][1]"
 msgstr "下载 [稳定版][1]"
 
 #. type: Plain text
@@ -70,13 +72,48 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
+#| "is included in NVDA, this add-on will be discontinued. Also, checkable "
+#| "list box comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B."
+#| "V.)."
 msgid ""
-"IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
-"included in NVDA, this add-on will be discontinued. Also, checkable list box "
-"comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B.V.)."
+"IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
+"included in NVDA][2], this add-on will be discontinued."
 msgstr ""
 "重要提示：这是一款概念插件。一旦相关功能包含在NVDA中，此插件将停止开发和维"
 "护。此外，感谢：Derek Riemer和Babbage B.V.）。增加排除插件更新模块。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08.3"
+msgid "Version 18.08.5"
+msgstr "版本18.08.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where Add-on Updater settings panel failed to show if one or "
+"more add-ons had badly formatted manifest data."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
+"for updates."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08.3"
+msgid "Version 18.08.4"
+msgstr "版本18.08.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a regression introducedin 18.08.3 where NVDA continuously played "
+"progress beep when trying to check for add-on updates."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -117,9 +154,13 @@ msgstr "发布初始版本."
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!tag dev stable]]\n"
+msgid "[[!tag dev]]\n"
 msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
+
+#. type: Plain text
+msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
+msgstr ""

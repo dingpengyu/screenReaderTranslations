@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: addonUpdater Addons website for NVDA\n"
-"POT-Creation-Date: 2018-08-04 06:58+1000\n"
+"POT-Creation-Date: 2018-08-06 04:01+1000\n"
 "PO-Revision-Date: 2018-08-04 22:08+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
@@ -26,7 +26,9 @@ msgid "Author: Joseph Lee"
 msgstr "Auteur : Joseph Lee"
 
 #. type: Bullet: '* '
-msgid "Download [stable version][1]"
+#, fuzzy
+#| msgid "Download [stable version][1]"
+msgid "Download [prototype version][1]"
 msgstr "Télécharger [version stable][1]"
 
 #. type: Plain text
@@ -80,10 +82,15 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
+#| "is included in NVDA, this add-on will be discontinued. Also, checkable "
+#| "list box comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B."
+#| "V.)."
 msgid ""
-"IMPORTANT: this is a proof of concept add-on. Once the relevant feature is "
-"included in NVDA, this add-on will be discontinued. Also, checkable list box "
-"comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B.V.)."
+"IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
+"included in NVDA][2], this add-on will be discontinued."
 msgstr ""
 "IMPORTANT : ceci est un module complémentaire de preuve de concept. Une fois "
 "la fonctionnalité pertinente incluse dans NVDA, ce module complémentaire "
@@ -91,8 +98,37 @@ msgstr ""
 "de NVDA (crédit : Derek Riemer et Babbage B.V.)."
 
 #. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08.3"
+msgid "Version 18.08.5"
+msgstr "Version 18.08.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where Add-on Updater settings panel failed to show if one or "
+"more add-ons had badly formatted manifest data."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
+"for updates."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08.3"
+msgid "Version 18.08.4"
+msgstr "Version 18.08.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a regression introducedin 18.08.3 where NVDA continuously played "
+"progress beep when trying to check for add-on updates."
+msgstr ""
+
+#. type: Title ##
 #, no-wrap
-#| msgid "Version 18.08.1"
 msgid "Version 18.08.3"
 msgstr "Version 18.08.3"
 
@@ -132,10 +168,15 @@ msgid "Initial version."
 msgstr "Première version"
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev stable]]\n"
+msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
+
+#. type: Plain text
+msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
+msgstr ""
