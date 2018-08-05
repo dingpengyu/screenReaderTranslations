@@ -4214,7 +4214,7 @@ msgstr "Không thể chọn nội dung, nhấn hai lần để chép"
 
 #. Translators: Presented when some review text has been copied to clipboard.
 msgid "Review selection copied to clipboard"
-msgstr "Vùng chọn đã được cóp pi vào bộ nhớ tạm"
+msgstr "Vùng chọn đã được chép vào bộ nhớ tạm"
 
 #. Translators: Presented when unable to copy to the clipboard because of an error.
 msgid "Unable to copy"
