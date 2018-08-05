@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-06 04:01+1000\n"
-"PO-Revision-Date: 2018-08-05 08:54+0200\n"
+"PO-Revision-Date: 2018-08-05 22:14+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -26,10 +26,8 @@ msgid "Author: Joseph Lee"
 msgstr "Автор: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [stable version][1]"
 msgid "Download [prototype version][1]"
-msgstr "Изтегляне на [стабилна версия][1]"
+msgstr "Изтегляне на [прототипна версия][1]"
 
 #. type: Plain text
 msgid ""
@@ -79,50 +77,49 @@ msgid "Windows 10 App Essentials"
 msgstr "Базов пакет за приложения в Windows 10 (Windows 10 App Essentials)"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
-#| "is included in NVDA, this add-on will be discontinued. Also, checkable "
-#| "list box comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B."
-#| "V.)."
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
 "ВАЖНО: Целта на тази добавка е да докаже работеща концепция за въпросната "
-"функционалност. След като съответната функция бъде включена в NVDA, тази "
-"добавка ще бъде премахната. Също така, списъкът с отметки е от доклада №7491 "
-"за NVDA (заслуги: Derek Riemer и Babbage B.V.)."
+"функционалност. След като [съответната функция бъде включена в NVDA][2], "
+"тази добавка ще бъде премахната."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.3"
+#, no-wrap
 msgid "Version 18.08.5"
-msgstr "Версия 18.08.3"
+msgstr "Версия 18.08.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where Add-on Updater settings panel failed to show if one or "
 "more add-ons had badly formatted manifest data."
 msgstr ""
+"Отстранен е проблем, при който панелът за настройки на добавката Add-on "
+"Updater не може да се покаже, ако една или повече добавки имат неправилно "
+"форматирани manifest данни."
 
 #. type: Bullet: '* '
 msgid ""
 "Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
 "for updates."
 msgstr ""
+"Добавено е семейството от добавки на Nuance Vocalizer към добавките, които "
+"няма да бъдат проверявани за обновления."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.3"
+#, no-wrap
 msgid "Version 18.08.4"
-msgstr "Версия 18.08.3"
+msgstr "Версия 18.08.4"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
 "progress beep when trying to check for add-on updates."
 msgstr ""
+"Отстранен е проблем, появил се във версия 18.08.3, при който NVDA "
+"непрекъснато възпроизвежда тона за лентата за напредъка, при опит за "
+"проверка за обновления на добавките."
 
 #. type: Title ##
 #, no-wrap
@@ -165,10 +162,9 @@ msgid "Initial version."
 msgstr "Първо издание."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev stable]]\n"
+#, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
@@ -176,4 +172,4 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
