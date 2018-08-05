@@ -995,11 +995,6 @@ Ngoài những thông tin bắt buộc cho việc kiểm tra cập nhật, các 
 
 Đây là những thông tin hữu ích để NV Access ưu tiên phát triển tính năng mới cho các bản NVDA trong tương lai.
 
-+++ Chọn bộ đọc (NVDA+control+s) +++[SynthesizerSelection]
-Mở cửa sổ này từ thực đơn tùy chọn, nó sẽ cho phép bạn chọn một bộ đọc mà mình mong muốn.
-Sau khi chọn được bộ đọc cho mình, bạn chọn nút Đồng ý và NVDA sẽ khởi động bộ đọc đó cho bạn.
-Nếu có lỗi thì NVDA sẽ thông báo lỗi cho bạn và tiếp tục sử dụng bộ đọc cũ.
-
 ==== Báo bản cập nhật đang chờ khi khởi động ====[GeneralSettingsNotifyPendingUpdates]
 Nếu bật tùy chọn này, NVDA sẽ  thông báo cho bạn là có bản cập nhật đang chờ khi khởi động để bạn cài nó.
 Bạn cũng có thể cài đặt  cập nhật thủ công từ hộp thoại thoát NVDA (nếu đã bật),  từ thực đơn NVDA, hoặc khi bạn thực hiện lệnh kiểm tra cập nhật từ thực đơn trợ giúp.
@@ -1007,6 +1002,7 @@ Bạn cũng có thể cài đặt  cập nhật thủ công từ hộp thoại t
 +++ Thiết lập bộ đọc (NVDA+control+v) +++[SpeechSettings]
 Phân loại tiếng nói trong hộp thoại cấu hình NVDA chứa tùy chọn cho phép bạn thay đổi bộ đọc cũng như các thuộc tính giọng đọc cho bộ đọc được chọn.
 Để dùng một cách khác nhanh hơn và có thể thực hiện các thay đổi về giọng đọc ở bất cứ đâu, vui lòng xem phần [thiết lập giọng theo tham số #SynthSettingsRing] section.
+
 Có các tùy chọn sau trong phân loại này:
 
 ==== Thay đổi bộ đọc ====[SpeechSettingsChange]
@@ -1242,7 +1238,7 @@ Khi bật tính năng này và bạn kết nối một màn hình được hỗ 
 
 Không có Braille nghĩa là máy bạn không dùng màn hình nổi.
 
-Vui lòng xem phần [Các màn hình nổi được hỗ trợ #SupportedBrailleDisplays] để biết thêm thông tin về các màn hình được hỗ trợ và cái nào trong số đó được hỗ trợ tự nhận dạng ngầm.
+Vui lòng xem phần [Các màn hình nổi được hỗ trợ #SupportedBrailleDisplays] để biết thêm thông tin về các màn hình được hỗ trợ và những màn hình nào trong số đó có hỗ trợ tự nhận dạng ngầm.
 
 ==== Cổng ====[SelectBrailleDisplayPort]
 Nếu có tùy chọn này, mục này cho phép bạn chọn cổng hoặc loại kết nối sử dụng để giao tiếp với màn hình nổi được chọn.
@@ -1280,7 +1276,7 @@ Và bạn phải chọn ít nhất một phím làm phím bổ trợ.
 ==== Đọc ký tự khi gõ ====[KeyboardSettingsSpeakTypedCharacters]
 Phím bật/tắt: NVDA+2
 
-Khi được chọn, NVDA sẽ đọc mỗi ký tự  sau khi bạn gõ vào từ bàn phím.
+	Khi được chọn, nNVDA sẽ đọc mỗi ký tự  sau khi bạn gõ vào từ bàn phím.
 
 %kc:setting
 ==== Đọc từ khi gõ ====[KeyboardSettingsSpeakTypedWords]
@@ -1553,7 +1549,6 @@ Bạn có thể chọn các mục sau:
  -
 -
 
-
 Để bật hoặc tắt thiết lập này ở bất kỳ chỗ nào, hãy gán thao tác/phím tắt cho nó trong hộp thoại [Quản lý thao tác #InputGestures].
 
 ==== Thông báo thông tin định dạng tại vị trí con trỏ ====[DocumentFormattingDetectFormatAfterCursor]
@@ -1637,6 +1632,7 @@ Có ba lựa chọn:
  - Chỉ dưới mức độ của ký hiệu: gửi ký hiệu gốc khi mức độ đọc ký hiệu thấp hơn mức độ được thiết lập cho ký hiệu này.
 Ví dụ, bạn có thể muốn một ký hiệu sẽ đọc lên với phần thay thế của nó ở mức độ cao hơn và không cần ngưng nghỉ; nhưng vẫn ngưng nghỉ ở mức độ thấp hơn.
  -
+-
 
 Kích hoạt nút Thêm để thêm vào ký hiệu mới.
 Nhập vào ký hiệu trong hộp thoại vừa xuất hiện và kích hoạt nút Đồng ý.
@@ -1876,6 +1872,8 @@ Những giọng đọc đó có thể được sử dụng với NVDA.
  - Trang này bao gồm nhiều tập tin cho cả hai trình nhận dạng giọng nói và bộ đọc.
  Chọn tập tin có chứa dữ liệu cho ngôn ngữ của bạn
 Ví dụ tập tin  MSSpeech_TTS_en-US_ZiraPro.msi là giọng cho tiếng anh mỹ.
+-
+-
 
 ++ Giọng Windwos OneCore ++[OneCore]
 Windows 10 đi kèm với những giọng đọc mới được gọi là OneCore, hoặc còn gọi là "Mobil voices".
