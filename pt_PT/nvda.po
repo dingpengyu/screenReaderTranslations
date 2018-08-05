@@ -508,7 +508,7 @@ msgstr ""
 
 #. Translators: String representing automatic port selection for braille displays.
 msgid "Automatic"
-msgstr "Automático"
+msgstr "Automática"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
