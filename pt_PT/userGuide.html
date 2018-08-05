@@ -144,8 +144,8 @@
       </UL>
     <LI><A HREF="#MiscSettings">11.2. Outras Opções</A>
       <UL>
-      <LI><A HREF="#SpeechDictionaries">11.2.1. Dicionários de voz</A>
-      <LI><A HREF="#SymbolPronunciation">11.2.2. Pronúncia de Pontuação/Símbolo</A>
+      <LI><A HREF="#SpeechDictionaries">11.2.1. Dicionários</A>
+      <LI><A HREF="#SymbolPronunciation">11.2.2. Pronúncia de pontuação e símbolos</A>
       <LI><A HREF="#InputGestures">11.2.3. Definir Comandos</A>
       </UL>
     <LI><A HREF="#SavingAndReloading">11.3. Guardar E Recarregar Configuração</A>
@@ -179,35 +179,36 @@
     </UL>
   <LI><A HREF="#SupportedBrailleDisplays">14. Linhas Braille Suportadas</A>
     <UL>
-    <LI><A HREF="#FreedomScientificFocus">14.1. Freedom Scientific: Séries Focus e PM</A>
-    <LI><A HREF="#OptelecALVA">14.2. Optelec: ALVA série 6 / protocol converter</A>
-    <LI><A HREF="#HandyTech">14.3. Handy Tech</A>
-    <LI><A HREF="#MDVLilli">14.4. MDV Lilli</A>
-    <LI><A HREF="#Baum">14.5. Baum, HumanWare, APH e Orbit</A>
-    <LI><A HREF="#HedoProfiLine">14.6. hedo ProfiLine USB</A>
-    <LI><A HREF="#HedoMobilLine">14.7. hedo MobilLine USB</A>
-    <LI><A HREF="#HumanWareBrailliant">14.8. HumanWare séries Brailliant BI/B / BrailleNote Touch</A>
+    <LI><A HREF="#AutomaticDetection">14.1. Dispositivos que suportam a detecção automática em segundo plano</A>
+    <LI><A HREF="#FreedomScientificFocus">14.2. Freedom Scientific: Séries Focus e PM</A>
+    <LI><A HREF="#OptelecALVA">14.3. Optelec: ALVA série 6 / protocol converter</A>
+    <LI><A HREF="#HandyTech">14.4. Handy Tech</A>
+    <LI><A HREF="#MDVLilli">14.5. MDV Lilli</A>
+    <LI><A HREF="#Baum">14.6. Baum, HumanWare, APH e Orbit</A>
+    <LI><A HREF="#HedoProfiLine">14.7. hedo ProfiLine USB</A>
+    <LI><A HREF="#HedoMobilLine">14.8. hedo MobilLine USB</A>
+    <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare séries Brailliant BI/B / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc125">14.8.1. Comandos para todos os modelos</A>
-      <LI><A HREF="#toc126">14.8.2. Comandos para Brailliant BI 32, BI 40 e B 80</A>
-      <LI><A HREF="#toc127">14.8.3. Comandos para Brailliant BI 14</A>
+      <LI><A HREF="#toc126">14.9.1. Comandos para todos os modelos</A>
+      <LI><A HREF="#toc127">14.9.2. Comandos para Brailliant BI 32, BI 40 e B 80</A>
+      <LI><A HREF="#toc128">14.9.3. Comandos para Brailliant BI 14</A>
       </UL>
-    <LI><A HREF="#Hims">14.9. HIMS: Séries Braille Sense, Braille EDGE, Smart Beetle e Sync Braille</A>
-    <LI><A HREF="#Seika">14.10. Seika</A>
-    <LI><A HREF="#Papenmeier">14.11. Papenmeier BRAILLEX (Modelos recentes)</A>
-    <LI><A HREF="#PapenmeierOld">14.12. Papenmeier BRAILLEX (Modelos antigos)</A>
-    <LI><A HREF="#HumanWareBrailleNote">14.13. HumanWare BrailleNote</A>
-    <LI><A HREF="#EcoBraille">14.14. EcoBraille</A>
-    <LI><A HREF="#SuperBraille">14.15. SuperBraille</A>
-    <LI><A HREF="#Eurobraille">14.16. Eurobraille Esys/Esytime/Iris displays</A>
-    <LI><A HREF="#BRLTTY">14.17. BRLTTY</A>
+    <LI><A HREF="#Hims">14.10. HIMS: Séries Braille Sense, Braille EDGE, Smart Beetle e Sync Braille</A>
+    <LI><A HREF="#Seika">14.11. Seika</A>
+    <LI><A HREF="#Papenmeier">14.12. Papenmeier BRAILLEX (Modelos recentes)</A>
+    <LI><A HREF="#PapenmeierOld">14.13. Papenmeier BRAILLEX (Modelos antigos)</A>
+    <LI><A HREF="#HumanWareBrailleNote">14.14. HumanWare BrailleNote</A>
+    <LI><A HREF="#EcoBraille">14.15. EcoBraille</A>
+    <LI><A HREF="#SuperBraille">14.16. SuperBraille</A>
+    <LI><A HREF="#Eurobraille">14.17. Eurobraille Esys/Esytime/Iris displays</A>
+    <LI><A HREF="#BRLTTY">14.18. BRLTTY</A>
     </UL>
   <LI><A HREF="#AdvancedTopics">15. tópicos Avançados</A>
     <UL>
     <LI><A HREF="#CommandLineOptions">15.1. Opções de linha de comandos</A>
     <LI><A HREF="#SystemWideParameters">15.2. Parâmetros do Sistema</A>
     </UL>
-  <LI><A HREF="#toc140">16. Mais Informações</A>
+  <LI><A HREF="#toc141">16. Mais Informações</A>
   </UL>
 
 <A NAME="Introduction"></A>
@@ -237,7 +238,7 @@ As características principais são:
 <LI>Sintetizador de voz embutido, que suporta mais de oitenta idiomas;
 <LI>Anuncia a formatação do texto, quando disponível, tal como nome e tamanho do tipo de letra, estilos e erros ortográficos;
 <LI>Anuncia automaticamente o texto sob o rato e dá indicação em áudio (opcional) da posição do periférico;
-<LI>Suporte para diversas linhas Braille, incluindo a introdução de texto através do teclado Braille, nas linhas que o possuem;
+<LI>Suporte para diversas linhas Braille, incluindo a detecção automática da maioria das linhas e a introdução de texto através do teclado Braille, nas linhas que o possuem;
 <LI>Possibilidade de ser executado a partir de dispositivos USB ou através de outros dispositivos portáteis, sem necessitar de instalação;
 <LI>Instalador com voz e fácil de usar;
 <LI>Tradução para 54 idiomas;
@@ -274,7 +275,8 @@ Na secção <A HREF="#SupportedSpeechSynths">Sintetizadores de Voz Suportados</A
 
 <P>
 Para os utilizadores que tenham uma linha Braille, o NVDA pode transmitir a informação em braille.
-É também suportada a  introdução de texto, através de um teclado Braille, usando a codificação normal ou abreviada.
+Também é suportada a  introdução de texto, através de um teclado Braille, usando a codificação normal ou abreviada.
+Para além disso, o NVDA, por padrão, detecta automaticamente várias linhas Braille.
 Veja, por favor, a secção <A HREF="#SupportedBrailleDisplays">Linhas Braille Suportadas</A> para obter mais informações sobre terminais Braille compatíveis.
 </P>
 <P>
@@ -471,7 +473,7 @@ Se pretender que uma das teclas modificadoras do NVDA actue com a sua função o
 
 <P>
 Actualmente, o NVDA vem com dois conjuntos de comandos, conhecidos como Esquemas de teclado. O esquema Desktop, para computadores de secretária, e o esquema Laptop, para computadores portáteis.
-Por padrão, o NVDA está definido para utilizar o esquema de Computadores de Secretária, embora possa alternar para o esquema de Computador Portátil, na secção Teclado, que pode encontrar no diálogo de <A HREF="#NVDASettings">configurações</A> aberto através do Menu NVDA, "Opções", "Configurações".
+Por padrão, o NVDA está definido para utilizar o esquema de Computadores de Secretária, embora possa alternar para o esquema de Computador Portátil, na secção Teclado, que pode encontrar no diálogo de <A HREF="#NVDASettings">configurações</A> aberto através do Menu NVDA, "Preferências", "Configurações".
 </P>
 <P>
 O esquema de Desktop faz uso intensivo do bloco numérico (com o NumLock desligado).
@@ -1215,7 +1217,7 @@ Quanto mais à esquerda ou à direita estiver o rato no ecrã, mais à esquerda 
 </P>
 <P>
 Esta funcionalidade adicional do NVDA não se encontra activa, por padrão.
-Se pretender utilizar a mesma, pode configurá-la na secção <A HREF="#MouseSettings">configurações do rato</A>, que pode encontrar no diálogo <A HREF="#NVDASettings">Configurações</A> aberto através do Menu NVDA, "Opções", "Configurações".
+Se pretender utilizar a mesma, pode configurá-la na secção <A HREF="#MouseSettings">configurações do rato</A>, que pode encontrar no diálogo <A HREF="#NVDASettings">Configurações</A> aberto através do Menu NVDA, "Preferências", "Configurações".
 </P>
 <P>
 Apesar de um rato físico ou de um touchpad terem de ser utilizados para navegar com o rato, o NVDA tem alguns comandos relacionados com o rato:
@@ -1519,11 +1521,12 @@ Quando quiser voltar à leitura do documento, simplesmente pressione Escape.
 
 <P>
 Se dispõe de uma linha Braille, o NVDA pode usá-la para mostrar as informações em Braille.
-Se a linha Braille possuir um teclado tipo Perkins, pode escrever no PC usando o código Braille normal ou abreviado.
+Se a linha Braille possuir um teclado estilo Perkins, pode escrever no PC usando o código Braille normal ou abreviado.
 </P>
 <P>
 para informações sobre os dispositivos suportados, por favor leia a secção <A HREF="Suportadas#SupportedBrailleDisplays">Linhas Braille</A>.
-Pode configurar o Braille na secção <A HREF="#BrailleSettings">Braille</A>, que pode encontrar no diálogo <A HREF="#NVDASettings">Configurações</A> aberto através do Menu NVDA, "Opções", "Configurações".
+Esta secção também contém informação sobre que linhas Braille suportam a detecção automática do NVDA.
+Pode configurar o Braille na secção <A HREF="#BrailleSettings">Braille</A>, que pode encontrar no diálogo <A HREF="#NVDASettings">Configurações</A> aberto através do Menu NVDA, "Preferências", "Configurações".
 </P>
 
 <A NAME="BrailleAbbreviations"></A>
@@ -2265,7 +2268,7 @@ Na tabela de livros adicionados:
 <H2>11. Configurar O NVDA</H2>
 
 <P>
-A maioria das configurações do NVDA pode ser alterada através de diálogos acedidos através do submenu  "Opções" do menu do NVDA.
+A maioria das configurações do NVDA pode ser alterada através de diálogos acedidos através do submenu  "Preferências" do menu do NVDA.
 Muitas dessas configurações aparecem no diálogo multi-páginas <A HREF="#NVDASettings">Configurações</A>.
 Em qualquer dos diálogos, pressione "OK" para aceitar as alterações que tenha feito.
 Para dispensar alterações que possa ter feito, pressione "Cancelar" ou "Escape".
@@ -2840,10 +2843,14 @@ Esta caixa combinada contém diversas opções, que dependem dos drivers de linh
 Utilize as setas para se mover pelas mesmas.
 </P>
 <P>
+A primeira opção, "Automático", indica ao NVDA para pesquisar, em segundo plano, pelos vários modelos de linha Braille suportados pela detecção automática.
+Com esta funcionalidade activa, se ligar ao computador uma linha Braille suportada, via USB ou Bluetooth, o NVDA irá, automaticamente, activá-la.
+</P>
+<P>
 O item "Sem Braille" significa que não será utilizado Braille.
 </P>
 <P>
-Por favor, consulte a secção <A HREF="Suportadas#SupportedBrailleDisplays">Linhas Braille</A> para obter mais informações sobre as linhas Braille suportadas.
+Por favor, consulte a secção <A HREF="Suportadas#SupportedBrailleDisplays">Linhas Braille</A> para obter mais informações sobre as linhas Braille suportadas, e quais delas suportam a detecção automática em segundo plano.
 </P>
 
 <A NAME="SelectBrailleDisplayPort"></A>
@@ -3461,21 +3468,21 @@ Esta caixa combinada permite seleccionar qual o idioma a ser usado no reconhecim
 <H3>11.2. Outras Opções</H3>
 
 <P>
-Para além de <A HREF="#NVDASettings">Configurações</A>, o submenu "Opções", do menu  do NVDA, contém outros itens, que são detalhados seguidamente.
+Para além de <A HREF="#NVDASettings">Configurações</A>, o submenu "Preferências", do menu  do NVDA, contém outros itens, que são detalhados seguidamente.
 </P>
 
 <A NAME="SpeechDictionaries"></A>
-<H4>11.2.1. Dicionários de voz</H4>
+<H4>11.2.1. Dicionários</H4>
 
 <P>
-O submenu dos "Dicionários de voz" (que se encontra no menu "Opções") contém diálogos que lhe permitem controlar o modo como o NVDA pronuncia palavras ou expressões em particular.
-Existem três tipos de dicionários de voz.
+O submenu "Dicionários" (que se encontra no menu "Preferências") contém diálogos que lhe permitem controlar o modo como o NVDA pronuncia palavras ou expressões em particular.
+Existem três tipos de dicionários.
 Os três tipos são:
 </P>
 
 <UL>
-<LI>Predefinido: as regras neste dicionário afectam todas as vozes, no NVDA.
-<LI>Voz: As regras neste dicionário afectam apenas a voz do sintetizador que está a ser utilizado no momento.
+<LI>Padrão: as regras neste dicionário afectam todas as vozes, no NVDA.
+<LI>Para voz actual: As regras neste dicionário afectam apenas a voz do sintetizador que está a ser utilizado no momento.
 <LI>Temporário: as regras neste dicionário afectam todas as vozes deste programa, mas apenas para a sessão actual. Estas regras são temporárias e perder-se-ão se o NVDA for reiniciado.
 </UL>
 
@@ -3483,8 +3490,8 @@ Os três tipos são:
 É necessário criar associações de teclas, usando a opção <A HREF="#InputGestures">Definir comandos</A>, para os poder abrir a partir de qualquer lado.
 </P>
 <P>
-Todos os diálogos do dicionário contêm uma lista de regras, que serão utilizadas para processar o texto.
-O diálogo contém também os botões "Adicionar", "Editar" e "Remover".
+Todos os diálogos dos dicionários contêm uma lista de regras, que serão utilizadas para processar o texto.
+Os diálogos contém também os botões "Adicionar", "Editar" e "Remover".
 </P>
 <P>
 Para adicionar uma nova regra ao dicionário, pressione o botão "Adicionar", preencha os campos que aparecem na caixa de diálogo e pressione "OK".
@@ -3492,13 +3499,13 @@ Verá então a sua nova regra na lista de regras.
 Porém, Para se assegurar que a sua regra é guardada, verifique que clica no botão "OK", para sair completamente do diálogo do dicionário, quando acabar de adicionar/editar regras. 
 </P>
 <P>
-As regras para os dicionários de voz do NVDA permitem-lhe alterar uma sequência de caracteres por outra.
+As regras para os dicionários do NVDA permitem-lhe alterar uma sequência de caracteres por outra.
 Um exemplo simples passaria por ter o NVDA a anunciar a palavra "sapo", cada vez que tivesse de dizer a palavra "pássaro".
 No diálogo para adicionar a regra, o modo mais fácil de fazer isto é escrever a palavra "pássaro", no campo "texto original", e a palavra "sapo", no campo "Substituir por".
 Poderá igualmente escrever uma descrição da regra, no campo de "comentário" (algo como: muda pássaro para sapo).
 </P>
 <P>
-Os dicionários de voz do NVDA vão muito para além de simples substituição de palavras.
+Os dicionários do NVDA vão muito para além de simples substituição de palavras.
 O diálogo de adicionar regras também contém uma caixa de verificação que diz se pretende que a regra seja ou não sensível às maiúsculas (significando que o NVDA deverá ter em conta se os caracteres estão em maiúsculas ou não.
 O NVDA, por padrão, ignora a distinção entre maiúsculas e minúsculas.
 </P>
@@ -3513,7 +3520,7 @@ As expressões regulares não são explicadas neste Manual do Utilizador, mas ex
 </P>
 
 <A NAME="SymbolPronunciation"></A>
-<H4>11.2.2. Pronúncia de Pontuação/Símbolo</H4>
+<H4>11.2.2. Pronúncia de pontuação e símbolos</H4>
 
 <P>
 Este diálogo permite-lhe mudar o modo como a pontuação e outros símbolos são pronunciados, bem como o nível de pontuação em que eles são anunciados.
@@ -3965,8 +3972,31 @@ Este sintetizador não suporta <A HREF="#SpeechSettingsUseSpelling">Utilizar a f
 Esta secção contém informação sobre as linhas Braille suportadas pelo NVDA.
 </P>
 
+<A NAME="AutomaticDetection"></A>
+<H3>14.1. Dispositivos que suportam a detecção automática em segundo plano</H3>
+
+<P>
+O NVDA possui a funcionalidade de detectar várias linhas Braille em segundo plano, quer via USB quer via bluetooth.
+Esta funcionalidade é activada seleccionando "Automática" como a linha Braille a ser usada no diálogo <A HREF="#BrailleSettings">Seleccionar linha Braille do NVDA.</A>.
+Esta é a opção padrão.
+</P>
+<P>
+Estas são as linhas que suportam a funcionalidade de detecção automática:
+</P>
+
+<UL>
+<LI>Linhas da HandyTech;
+<LI>Linhas da Baum/Humanware/APH/Orbit;
+<LI>Linhas HumanWare das séries Brailliant BI/B;
+<LI>HumanWare BrailleNote
+<LI>SuperBraille
+<LI>Linhas Optelec ALVA série 6;
+<LI>Linhas HIMS das séries Braille Sense/Braille EDGE/Smart Beetle/Sync Braille;
+<LI>Linhas Eurobraille das séries Esys/Esytime/Iris;
+</UL>
+
 <A NAME="FreedomScientificFocus"></A>
-<H3>14.1. Freedom Scientific: Séries Focus e PM</H3>
+<H3>14.2. Freedom Scientific: Séries Focus e PM</H3>
 
 <P>
 Todas as linhas Focus e PM da <A HREF="http://www.freedomscientific.com/">Freedom Scientific</A> são suportadas, quando conectadas via USB ou Bluetooth.
@@ -3979,6 +4009,9 @@ Se o seu sistema está a correr um Windows de 64 bits e os drivers já foram ins
 Por padrão, o NVDA detecta e liga-se, automaticamente, a estas linhas, quer via USB, quer por Bluetooth.
 No entanto, ao configurar a linha, pode seleccionar, explicitamente, as portas "USB" ou "Bluetooth", para restringir o tipo de ligação a ser usado.
 Isto pode ser útil, se quiser ligar a linha Focus ao NVDA, usando Bluetooth, mas sendo possível carregá-la pela porta USB do seu computador.
+</P>
+<P>
+Estas linhas ainda não suportam a detecção automática em segundo plano do NVDA.
 </P>
 <P>
 Seguem-se as associações de teclas para esta linha braille com o NVDA.
@@ -4167,7 +4200,7 @@ Apenas para a Focus 80:
 </TABLE>
 
 <A NAME="OptelecALVA"></A>
-<H3>14.2. Optelec: ALVA série 6 / protocol converter</H3>
+<H3>14.3. Optelec: ALVA série 6 / protocol converter</H3>
 
 <P>
 As linhas ALVA BC640 e BC680, da <A HREF="http://www.optelec.com/">Optelec,</A> são suportadas, quer por USB quer por Bluetooth.
@@ -4284,7 +4317,7 @@ Por favor, consulte a documentação da sua linha braille para obter a descriç�
 </TR>
 <TR>
 <TD>Anunciar hora/data</TD>
-<TD>sp1+sp2</TD>
+<TD>sp2+sp3</TD>
 </TR>
 <TR>
 <TD>Menu do NVDA</TD>
@@ -4300,7 +4333,7 @@ Por favor, consulte a documentação da sua linha braille para obter a descriç�
 </TR>
 <TR>
 <TD>Tecla Windows</TD>
-<TD>sp2+sp3, Windows</TD>
+<TD>sp1+sp2, Windows</TD>
 </TR>
 <TR>
 <TD>Teclas alt+tab</TD>
@@ -4333,7 +4366,7 @@ Por favor, consulte a documentação da sua linha braille para obter a descriç�
 </TABLE>
 
 <A NAME="HandyTech"></A>
-<H3>14.3. Handy Tech</H3>
+<H3>14.4. Handy Tech</H3>
 
 <P>
 O NVDA suporta a maioria dos terminais da <A HREF="http://www.handytech.de/">Handy Tech</A>.
@@ -4437,12 +4470,15 @@ Por favor, consulte a documentação da sua linha braille para obter a descriç�
 </TABLE>
 
 <A NAME="MDVLilli"></A>
-<H3>14.4. MDV Lilli</H3>
+<H3>14.5. MDV Lilli</H3>
 
 <P>
-A linha Braille Lilli, disponível em <A HREF="http://www.mdvbologna.it/">MDV</A>, é suportada.
-Não necessitará de quaisquer drivers específicos instalados, para utilizar este terminal.
+As linhas Braille Lilli, disponíveis em <A HREF="http://www.mdvbologna.it/">MDV</A>, são suportadas.
+Não necessitará de quaisquer drivers específicos instalados, para utilizar estes terminais.
 Basta conectar a linha e configurar o NVDA para a utilizar.
+</P>
+<P>
+Estas linhas ainda não suportam a detecção automática em segundo plano do NVDA.
 </P>
 <P>
 Seguem-se as associações de teclas para esta linha braille com o NVDA.
@@ -4493,7 +4529,7 @@ Por favor, consulte a documentação desta linha braille para obter a descriçã
 </TABLE>
 
 <A NAME="Baum"></A>
-<H3>14.5. Baum, HumanWare, APH e Orbit</H3>
+<H3>14.6. Baum, HumanWare, APH e Orbit</H3>
 
 <P>
 São suportadas várias linhas braille da <A HREF="http://www.baum.de/cms/en/">Baum</A>, <A HREF="http://www.humanware.com/">HumanWare</A>, <A HREF="http://www.aph.org/">APH</A> e <A HREF="http://www.orbitresearch.com/">Orbit</A> quando ligadas via USB, porta série ou bluetooth.
@@ -4583,11 +4619,14 @@ Para linhas braille que tenham um joistick:
 </TABLE>
 
 <A NAME="HedoProfiLine"></A>
-<H3>14.6. hedo ProfiLine USB</H3>
+<H3>14.7. hedo ProfiLine USB</H3>
 
 <P>
 A linha hedo ProfiLine USB da <A HREF="http://www.hedo.de/">hedo Reha-Technik</A> é suportada.
 Deverá, primeiro, instalar os drivers USB, fornecidos pelo fabricante.
+</P>
+<P>
+Esta linha ainda não suporta a detecção automática em segundo plano do NVDA.
 </P>
 <P>
 Seguem-se as associações de teclas para esta linha braille com o NVDA.
@@ -4630,11 +4669,14 @@ Por favor, consulte a documentação desta linha braille para obter a descriçã
 </TABLE>
 
 <A NAME="HedoMobilLine"></A>
-<H3>14.7. hedo MobilLine USB</H3>
+<H3>14.8. hedo MobilLine USB</H3>
 
 <P>
 A linha hedo MobilLine USB da <A HREF="http://www.hedo.de/">hedo Reha-Technik</A> é suportada.
 Deverá, primeiro, instalar os drivers USB, fornecidos pelo fabricante.
+</P>
+<P>
+Esta linha ainda não suporta a detecção automática em segundo plano do NVDA.
 </P>
 <P>
 Seguem-se as associações de teclas para esta linha braille com o NVDA.
@@ -4677,7 +4719,7 @@ Por favor, consulte a documentação desta linha braille para obter a descriçã
 </TABLE>
 
 <A NAME="HumanWareBrailliant"></A>
-<H3>14.8. HumanWare séries Brailliant BI/B / BrailleNote Touch</H3>
+<H3>14.9. HumanWare séries Brailliant BI/B / BrailleNote Touch</H3>
 
 <P>
 A série de linhas braille Brailliant BI e B da <A HREF="http://www.humanware.com/">HumanWare</A>, incluindo as BI 14, BI 32, BI 40 e B 80, são suportadas quando conectadas via USB ou bluetooth.
@@ -4692,8 +4734,8 @@ Seguem-se as associações de teclas para estas linhas braille com o NVDA.
 Por favor, consulte a documentação da sua linha braille para obter a descrição de onde estas teclas podem ser encontradas.
 </P>
 
-<A NAME="toc125"></A>
-<H4>14.8.1. Comandos para todos os modelos</H4>
+<A NAME="toc126"></A>
+<H4>14.9.1. Comandos para todos os modelos</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4782,8 +4824,8 @@ Por favor, consulte a documentação da sua linha braille para obter a descriç�
 </TR>
 </TABLE>
 
-<A NAME="toc126"></A>
-<H4>14.8.2. Comandos para Brailliant BI 32, BI 40 e B 80</H4>
+<A NAME="toc127"></A>
+<H4>14.9.2. Comandos para Brailliant BI 32, BI 40 e B 80</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4804,8 +4846,8 @@ Por favor, consulte a documentação da sua linha braille para obter a descriç�
 </TR>
 </TABLE>
 
-<A NAME="toc127"></A>
-<H4>14.8.3. Comandos para Brailliant BI 14</H4>
+<A NAME="toc128"></A>
+<H4>14.9.3. Comandos para Brailliant BI 14</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4835,7 +4877,7 @@ Por favor, consulte a documentação da sua linha braille para obter a descriç�
 </TABLE>
 
 <A NAME="Hims"></A>
-<H3>14.9. HIMS: Séries Braille Sense, Braille EDGE, Smart Beetle e Sync Braille</H3>
+<H3>14.10. HIMS: Séries Braille Sense, Braille EDGE, Smart Beetle e Sync Braille</H3>
 
 <P>
 O NVDA suporta as linhas Braille Sense, Braille EDGE, Smart Beetle e Sync Braille da <A HREF="http://www.hims-inc.com/">Hims</A> quando conectadas via USB ou bluetooth.
@@ -5098,12 +5140,15 @@ Por favor, consulte a documentação da sua linha braille para obter a descriç�
 </TABLE>
 
 <A NAME="Seika"></A>
-<H3>14.10. Seika</H3>
+<H3>14.11. Seika</H3>
 
 <P>
 As linhas braille Seika versão 3, 4 e 5 (40 células) e Seika80 (80 células) da <A HREF="http://www.nippontelesoft.com/">Nippon Telesoft</A> são suportadas.
 Pode econtrar mais sobre estas linhas em <A HREF="http://www.seika-braille.com/">http://www.seika-braille.com/</A>.
 Deverá, primeiro, instalar os drivers USB fornecidos pelo fabricante.
+</P>
+<P>
+Estas linhas ainda não suportam a detecção automática em segundo plano do NVDA.
 </P>
 <P>
 Seguem-se as associações de teclas para esta linha braille com o NVDA.
@@ -5162,7 +5207,7 @@ Por favor, consulte a documentação desta linha braille para obter a descriçã
 </TABLE>
 
 <A NAME="Papenmeier"></A>
-<H3>14.11. Papenmeier BRAILLEX (Modelos recentes)</H3>
+<H3>14.12. Papenmeier BRAILLEX (Modelos recentes)</H3>
 
 <P>
 São suportadas as seguintes linhas braille:
@@ -5175,6 +5220,9 @@ São suportadas as seguintes linhas braille:
 <LI>BRAILLEX Live 20, BRAILLEX Live e BRAILLEX Live Plus (USB e bluetooth)
 </UL>
 
+<P>
+Estas linhas ainda não suportam a detecção automática em segundo plano do NVDA.
+</P>
 <P>
 Se estiver instalado o BrxCom, o NVDA usará o BrxCom.
 O BrxCom é uma ferramenta que permite a introdução de texto pelo teclado da linha Braille, independentemente do leitor de ecrã.
@@ -5384,7 +5432,7 @@ Ambas as teclas interiores estão definidas para Espaço.
 </TABLE>
 
 <A NAME="PapenmeierOld"></A>
-<H3>14.12. Papenmeier BRAILLEX (Modelos antigos)</H3>
+<H3>14.13. Papenmeier BRAILLEX (Modelos antigos)</H3>
 
 <P>
 Os seguintes modelos são suportados:
@@ -5397,7 +5445,8 @@ Os seguintes modelos são suportados:
 
 <P>
 Note que estas linhas só podem ser ligadas por porta série.
-Por isso, após seleccionar este tipo de linhas, nas configurações do Braille, deve seleccionar a porta onde está ligada a linha Braille.
+Por isso, estas linhas não suportam a detecção automática em segundo plano do NVDA.
+Deve seleccionar a porta onde está ligada a linha Braille após seleccionar este tipo de linhas, no diálogo <A HREF="#SelectBrailleDisplay">Seleccionar linha Braille.</A>
 </P>
 <P>
 Alguns dispositivos têm uma barra de acesso fácil, EAB - Easy access bar, que permite  a operação intuitiva e rápida.
@@ -5661,7 +5710,7 @@ BRAILLEX 2D Screen:
 </TABLE>
 
 <A NAME="HumanWareBrailleNote"></A>
-<H3>14.13. HumanWare BrailleNote</H3>
+<H3>14.14. HumanWare BrailleNote</H3>
 
 <P>
 O NVDA suporta os notetakers BrailleNote da <A HREF="http://www.humanware.com">Humanware</A> quando usados como linha Braille.
@@ -5933,7 +5982,7 @@ Seguem-se os comandos associados à roda de deslocamento:
 </TABLE>
 
 <A NAME="EcoBraille"></A>
-<H3>14.14. EcoBraille</H3>
+<H3>14.15. EcoBraille</H3>
 
 <P>
 O NVDA suporta as linhas Braille EcoBraille da <A HREF="http://www.once.es/">ONCE</A>.
@@ -5949,6 +5998,7 @@ Os modelos seguintes são suportados:
 
 <P>
 No NVDA, pode configurar a que porta série a linha está ligada, no diálogo "configurações de Braille".
+Estas linhas ainda não suportam a detecção automática em segundo plano do NVDA.
 </P>
 <P>
 Seguem-se as associações de comandos para as linhas EcoBraille com o NVDA.
@@ -6031,7 +6081,7 @@ Por favor, consulte a documentação <A HREF="ftp://ftp.once.es/pub/utt/bibliote
 </TABLE>
 
 <A NAME="SuperBraille"></A>
-<H3>14.15. SuperBraille</H3>
+<H3>14.16. SuperBraille</H3>
 
 <P>
 O dispositivo SuperBraille, quase exclusivamente usado em Taiwan, pode ser ligado por USB ou porta série.
@@ -6055,7 +6105,7 @@ Por isso, e para manter a compatibilidade com outros leitores de ecrã em Taiwan
 </TABLE>
 
 <A NAME="Eurobraille"></A>
-<H3>14.16. Eurobraille Esys/Esytime/Iris displays</H3>
+<H3>14.17. Eurobraille Esys/Esytime/Iris displays</H3>
 
 <P>
 As linhas Braille Esys, Esytime e Iris da <A HREF="http://www.eurobraille.fr/">Eurobraille</A> são suportadas pelo NVDA.
@@ -6351,7 +6401,7 @@ Por favor, consulte a documentação destas linhas Braille para obter a descriç
 </TABLE>
 
 <A NAME="BRLTTY"></A>
-<H3>14.17. BRLTTY</H3>
+<H3>14.18. BRLTTY</H3>
 
 <P>
 O <A HREF="http://www.brltty.com/">BRLTTY</A> é um programa adicional que pode ser usado para suportar muito mais linhas Braille.
@@ -6362,6 +6412,9 @@ Quando configurar a linha e porta a utilizar, certifique-se de prestar muita ate
 <P>
 Para as linhas com teclado Braille, actualmente, o BRLTTY trata da escrita em Braille.
 Por isso, a tabela de conversão da escrita do NVDA é irrelevante
+</P>
+<P>
+O BRLTTY não está envolvido na detecção automática em segundo plano do NVDA.
 </P>
 <P>
 Seguem-se as associações de teclas do BRLTTY com o NVDA.
@@ -6587,7 +6640,7 @@ Os seguintes valores podem ser configurados nestas chaves:
 </TR>
 </TABLE>
 
-<A NAME="toc140"></A>
+<A NAME="toc141"></A>
 <H2>16. Mais Informações</H2>
 
 <P>
