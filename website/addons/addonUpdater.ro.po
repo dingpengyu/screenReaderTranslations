@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-06 04:01+1000\n"
-"PO-Revision-Date: 2018-08-02 11:58+0300\n"
+"PO-Revision-Date: 2018-08-06 10:18+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -26,10 +26,8 @@ msgid "Author: Joseph Lee"
 msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [stable version][1]"
 msgid "Download [prototype version][1]"
-msgstr "Descărcați [versiunea stabilă][1]"
+msgstr "Descărcați [versiunea prototip][1]"
 
 #. type: Plain text
 msgid ""
@@ -81,53 +79,53 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
-#| "is included in NVDA, this add-on will be discontinued."
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
 "Important: aceasta este dovada de concept a acestui supliment. Odată ce "
-"caracteristica relevantă va fi inclusă în NVDA, dezvoltarea acestui "
+"[caracteristica relevantă va fi inclusă în NVDA][2], dezvoltarea acestui "
 "supliment va fi întreruptă."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.1"
+#, no-wrap
 msgid "Version 18.08.5"
-msgstr "Version 18.08.1"
+msgstr "Version 18.08.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where Add-on Updater settings panel failed to show if one or "
 "more add-ons had badly formatted manifest data."
 msgstr ""
+"S-a rezolvat o problemă în care panoul de setări al Add-on Updater eșua să "
+"arate dacă unul sau mai multe suplimente aveau un manifest data cu un format "
+"necorespunzător."
 
 #. type: Bullet: '* '
 msgid ""
 "Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
 "for updates."
 msgstr ""
+"S-a adăugat familia suplimentelor Nuance Vocalizer la suplimentele la care "
+"nu se vor căuta actualizări."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.1"
+#, no-wrap
 msgid "Version 18.08.4"
-msgstr "Version 18.08.1"
+msgstr "Version 18.08.4"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
 "progress beep when trying to check for add-on updates."
 msgstr ""
+"S-a reparat o regresie introdusă în 18.08.3, în care NVDA reda continuu "
+"bipuri de progres când încerca să caute actualizări de suplimente."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.1"
+#, no-wrap
 msgid "Version 18.08.3"
-msgstr "Version 18.08.1"
+msgstr "Versiunea 18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -135,6 +133,9 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"S-a adăugat abilitatea de excluderea suplimentelor de la actualizare printr-"
+"o nouă listă de căutare a actualizărilor, care se află în setările Add-on "
+"Updater. Elementele bifate nu vor fi actualizate."
 
 #. type: Title ##
 #, no-wrap
@@ -160,10 +161,9 @@ msgid "Initial version."
 msgstr "Versiunea inițială."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev stable]]\n"
+#, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
@@ -171,4 +171,4 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
