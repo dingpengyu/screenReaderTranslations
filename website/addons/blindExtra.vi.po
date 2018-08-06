@@ -3,31 +3,32 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-06 22:35+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Blind Extra\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Blind Extra\"]]\n"
 
 #. type: Bullet: '*   '
 msgid "Author: Ahmed Star"
-msgstr ""
+msgstr "Tác giả: Ahmed Star"
 
 #. type: Plain text
 msgid "This add-on claimed to allow access to certain extra software."
 msgstr ""
+"Add-on này đã được tuyên bố là cho phép truy cập một số phần mềm cụ thể."
 
 #. type: Plain text
 msgid ""
@@ -36,18 +37,23 @@ msgid ""
 "knowing it) by members of the NVDA add-ons community for the following "
 "reasons:"
 msgstr ""
+"Vào tháng 11/2016, add-on này đã bị gắn cờ là một Trojan điều khiển từ xa "
+"(điều khiển từ xa và phá hỏng dữ liệu mà người dùng không biết) bởi các "
+"thành viên của cộng đồng NVDA add-on vì những lí do sau:"
 
 #. type: Bullet: '* '
 msgid "Renaming files after using it for a while without users noticing it."
 msgstr ""
+"Đổi tên các tập tin sau khi  sử dụng nó một lát mà không thông báo cho "
+"người dùng."
 
 #. type: Bullet: '* '
 msgid "Remote access, including sending Skype messages."
-msgstr ""
+msgstr "Điều khiển từ xa, bao gồm gửi tin nhắn Skype."
 
 #. type: Plain text
 msgid "Note: this add-on was never hosted on the community add-ons website."
-msgstr ""
+msgstr "Lưu ý: add-on này chưa bao giờ được lưu trên trang cộng đồng add-on."
 
 #. type: Plain text
 msgid ""
@@ -60,8 +66,16 @@ msgid ""
 "things, but must be treated with care. Add-ons that do not come from this "
 "site are not checked by the Add-ons community.  Thank you."
 msgstr ""
+"Cộng đồng add-on thúc giục người dùng NVDA gỡ add-on này, và chạy các "
+"chương trình antivirus, hơn nữa là định dạng lại ổ cứng nếu máy tính đó có "
+"những thông tin nhạy cảm. Họ cũng muốn nhắc nhở người dùng hãy cẩn thận khi "
+"cài các add-on từ các nguồn không rõ, vì các add-on của NVDA có thể thực "
+"hiện nhiều thứ, bao gồm truy cập các tập tin hệ thống  và Internet. Các add-"
+"on của NVDA là những công cụ mạnh mẽ có thể làm được nhiều điều tuyệt vời, "
+"nhưng phải được nghiên cứu cẩn thận. Các Add-on không phải từ trang này "
+"không được kiểm tra bởi cộng đồng add-on.  Xin cảm ơn."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag announcements]]\n"
-msgstr ""
+msgstr "[[!tag announcements]]\n"

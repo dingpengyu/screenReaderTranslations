@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-30 14:57+1000\n"
-"PO-Revision-Date: 2018-08-05 22:42+0700\n"
+"PO-Revision-Date: 2018-08-06 20:32+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +39,7 @@ msgid ""
 "well as providing utilities to control the Studio from anywhere."
 msgstr ""
 "Gói add-on này cung cấp sự cải thiện cho việc sử dụng StationPlaylist "
-"Studio, cũng như cung cấp các tiện ích để điều khiển Studio ở mọi nơi."
+"Studio, cũng như cung cấp các tiện ích để điều khiển Studio ở bất cứ đâu."
 
 #. type: Plain text
 msgid ""
@@ -214,7 +214,7 @@ msgid ""
 "on a browse mode window."
 msgstr ""
 "Control+NVDA+- (trừ trong Studio): hiển thị dữ liệu của tất cả các cột trong "
-"một track trên một cửa sổ chế độ duyệt."
+"một track trên một cửa sổ ở chế độ duyệt."
 
 #. type: Bullet: '* '
 msgid ""
@@ -244,7 +244,7 @@ msgstr "Alt+NVDA+F1: mở hộp thoại chào mừng."
 #. type: Title ##
 #, no-wrap
 msgid "Unassigned commands"
-msgstr "Các lẹnh chưa được gán"
+msgstr "Các lệnh chưa được gán thao tác"
 
 #. type: Plain text
 msgid ""
@@ -260,7 +260,7 @@ msgstr "Chuyển đến cửa sổ SPL Studio từ một chương trình bất k
 
 #. type: Bullet: '* '
 msgid "SPL Controller layer."
-msgstr "SPL Controller layer."
+msgstr "Lệnh cho bộ điều khiển SPL."
 
 #. type: Bullet: '* '
 msgid "Announcing Studio status such as track playback from other programs."
@@ -289,7 +289,8 @@ msgstr "Thông báo tựa đề của track đang phát."
 
 #. type: Bullet: '* '
 msgid "Marking current track for start of track time analysis."
-msgstr "Đánh dấu track hiện tại làm track bắt đầu phân tích thời gian track."
+msgstr ""
+"Đánh dấu track hiện tại làm track bắt đầu phân tích track theo thời gian."
 
 #. type: Bullet: '* '
 msgid "Performing track time analysis."
@@ -308,7 +309,7 @@ msgid ""
 "Find tracks with duration that falls within a given range via time range "
 "finder."
 msgstr ""
-"Tìm track với  thời lượng nằm trong khoảng thời gian cho trước thông qua tìm "
+"Tìm track với  thời lượng trong khoảng thời gian cho trước thông qua tìm "
 "kiếm theo khoảng thời gian."
 
 #. type: Bullet: '* '
@@ -318,7 +319,7 @@ msgstr "Nhanh chóng bật hay tắt metadata streaming."
 #. type: Title ##
 #, no-wrap
 msgid "Additional commands when using Sam or SPL encoders"
-msgstr "Các lệnh thêm khi dùng Sam hay SPL encoders"
+msgstr "Các lệnh cho thêm khi dùng Sam hay SPL encoders"
 
 #. type: Plain text
 msgid "The following commands are available when using Sam or SPL encoders:"
@@ -436,7 +437,7 @@ msgstr ""
 "giờ và nhiều nữa. Từ bất cứ cửa sổ SPL Studio nào, bấm các lệnh SPL "
 "Assistant layer rồi bấm một trong các phím trong danh sách dưới đây (một hay "
 "nhiều lệnh chỉ dành riêng cho trình xem danh sách phát). Bạn cũng có thể cấu "
-"hình NvDA để mô phỏng lệnh của các trình đọc màn hình khác."
+"hình NvDA để mô phỏng lệnh theo kiểu của các trình đọc màn hình khác."
 
 #. type: Plain text
 msgid "The available commands are:"
@@ -473,7 +474,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "E (G in Window-Eyes layout): Metadata streaming status."
-msgstr "E (G trong kiểu phím lệnh Window-Eyes): trạng thái metadata streaming."
+msgstr ""
+"`E (G trong kiểu phím lệnh Window-Eyes): trạng thái metadata streaming."
 
 #. type: Bullet: '* '
 msgid ""
@@ -570,7 +572,7 @@ msgstr "Control+Shift+U: kiểm tra cập nhật add-on."
 
 #. type: Bullet: '* '
 msgid "W: Weather and temperature if configured."
-msgstr "W: thời tiết và nhiệt độ nếu đã được cấu hình."
+msgstr "W: thời tiết và nhiệt độ nếu được cấu hình."
 
 #. type: Bullet: '* '
 msgid "Y: Playlist modified status."
@@ -585,7 +587,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "F8: Take playlist snapshots (number of tracks, longest track, etc.)."
-msgstr "F8: lấy ảnh chụp danh sách phát (số track, track dài nhất, v...v....)."
+msgstr ""
+"`F8: lấy ảnh chụp danh sách phát (số track, track dài nhất, v...v....)."
 
 #. type: Bullet: '* '
 msgid "Shift+F8: Request playlist transcripts in numerous formats."
@@ -610,7 +613,7 @@ msgstr "F12: chuyển đổi giữa hồ sơ hiện tại và hồ sơ được 
 
 #. type: Bullet: '* '
 msgid "F1: Layer help."
-msgstr "F1: trợ giúp Layer."
+msgstr "F1: trợ giúp phím lệnh."
 
 #. type: Bullet: '* '
 msgid "Shift+F1: Opens online user guide."
@@ -628,7 +631,7 @@ msgid ""
 "\"SPL Controller.\" Press another command to control various Studio settings "
 "such as microphone on/off or play the next track."
 msgstr ""
-"Bộ điều khiển SPL là một tập hợp các lệnh bạn có thể dùng để điều khiển SPL "
+"Bộ điều khiển SPL là tập hợp các lệnh bạn có thể dùng để điều khiển SPL "
 "Studio bất cứ đâu. Bấm các lệnh của bộ điều khiển SPL, và NVDA sẽ đọc, \"bộ "
 "điều khiển SPL.\" Bấm các phím lệnh khác để thực hiện nhiều cài đặt của "
 "Studio như bật / tắt microphone hoặc phát track kế."
@@ -710,7 +713,7 @@ msgid ""
 "Press cart keys (F1, Control+1, for example) to play assigned carts from "
 "anywhere."
 msgstr ""
-"Bấm các phím cart (ví dụ F1, Control+1) để phát cart được gán ở mọi nơi."
+"Bấm các phím cart (ví dụ F1, Control+1) để phát cart được gán từ bất cứ đâu."
 
 #. type: Bullet: '* '
 msgid "Press H to show a help dialog which lists available commands."
@@ -730,6 +733,11 @@ msgid ""
 "to configure if you'll hear a beep, a message or both when alarms are turned "
 "on."
 msgstr ""
+"Mặc định, NvDA sẽ phát tiếng beep nếu track còn lại five giây (còn lại ở "
+"cuối track) hoặc đầu track. Để thiết lập giá trị này hoặc bật / tắt chúng, "
+"bấm Alt+NVDA+1 hoặc Alt+NVDA+2 mở hộp thoại end of track và song ramp. Ngoài "
+"ra, dùng hộp thoại cài đặt add-on của Studio để thiết lập nếu nghe thấy "
+"tiếng beep, thấy một thống điệp hoặc cả hai when khi bật báo động."
 
 #. type: Title ##
 #, no-wrap
@@ -741,6 +749,9 @@ msgid ""
 "You can ask NVDA to play a sound when microphone has been active for a "
 "while. Press Alt+NVDA+4 to configure alarm time in seconds (0 disables it)."
 msgstr ""
+"Bạn có thể yêu cầu NVDA phát âm thanh khi microphone đã hoạt động được một "
+"thời gian ngắn. Bấm Alt+NVDA+4 để cấu hình thời gian báo động bằng giây (0 "
+"để tắt)."
 
 #. type: Title ##
 #, no-wrap
@@ -756,6 +767,11 @@ msgid ""
 "entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or "
 "backward."
 msgstr ""
+"Nếu muốn nhanh chóng tìm kiếm một bài hát theo tên hay theo ca sĩ, từ danh "
+"sách track, bấm Control+NVDA+F. Nhập hoặc chọn tên ca sỉ hay tên bài hát. "
+"NVDA sẽ đưa bạn đến bài hát nếu tìm thấy hoặc hiển thị thông báo lỗi nếu "
+"không tìm thấy bài hát đó. Để tìm lại bài hát hay ca sĩ đã tìm trước đó, bấm "
+"NVDA+F3 hoặc NVDA+Shift+F3 để tìm tiếp hay tìm lùi."
 
 #. type: Plain text
 msgid "Note: Track Finder is case-sensitive."
@@ -772,6 +788,9 @@ msgid ""
 "playback. NVDA allows you to hear which cart, or jingle is assigned to these "
 "commands."
 msgstr ""
+"Tùy vào phiên bản, SPL Studio cho phép gán đến 96 cart cho việc phát thanh. "
+"NVDA cho phép bạn nghe để biết cart, hay tiếng chuông nào được gán cho các  "
+"lệnh này."
 
 #. type: Plain text
 msgid ""
@@ -781,6 +800,10 @@ msgid ""
 "exit cart explorer. See the add-on guide for more information on cart "
 "explorer."
 msgstr ""
+"Để xem các  cart được gán, từ SPL Studio, bấm Alt+NVDA+3. Bấm lệnh của cart "
+"một lần sẽ cho biết tiếng chuông nào được gán cho lệnh đó. Bấm hai lần sẽ "
+"phát tiếng chuông. Bấm Alt+NvDA+3 để thoát cart explorer. Xem hướng dẫn sử "
+"dụng add-on để biết thêm thông tin về cart explorer."
 
 #. type: Title ##
 #, no-wrap
@@ -793,6 +816,9 @@ msgid ""
 "track time analysis (SPL Assistant, F9), then press SPL Assistant, F10 when "
 "reaching end of selection."
 msgstr ""
+"Để biết tổng thời lượng phát các track được chọn, đánh dấu track hiện tại "
+"làm điểm bắt đầu phân tích thời gian track (SPL Assistant, F9), rồi bấm SPL "
+"Assistant, F10 khi kết thúc vùng chọn."
 
 #. type: Title ##
 #, no-wrap
@@ -807,6 +833,11 @@ msgid ""
 "You can configure which columns will be explored via columns explorer dialog "
 "found in add-on settings dialog."
 msgstr ""
+"Bấm Control+NVDA+1 đến 0 hoặc SPL Assistant, 1 đến 0, bạn có thể thu thập "
+"các nội dung của các cột cụ thể. Mặc định là ca sĩ, tựa đề, thời lượng, nhạc "
+"dạo, loại, tên tập tin, năm, album, thể loại và thời gian được lên lịch. Bạn "
+"có thể cấu hình những cột nào sẽ được khám phá thông qua hộp thoại khám phá "
+"cột được tìm thấy trong hộp thoại cài đặt add-on."
 
 #. type: Title ##
 #, no-wrap
@@ -822,11 +853,17 @@ msgid ""
 "to present playlist snapshot information as a webpage so you can use browse "
 "mode to navigate (press escape to close)."
 msgstr ""
+"Bạn có thể bấm SPL Assistant, F8 khi focused ở tại một danh sách phát trong "
+"Studio để thu thập nhiều thông tin thống kê về danh sách phát đó, bao gồm số "
+"track trong danh sách phát, track dài nhất, ca sĩ tiêu biểu và nhiều nữa. "
+"Sau khi gán một lệnh tùy chỉnh cho tính năng này, bấm phím lệnh đó hai lần "
+"để NVDA trình bày thông tin ảnh chụp của danh sách phát như một trang web và "
+"bạn có thể dùng chế độ duyệt để di chuyển (bấm escape để đóng)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Playlist Transcripts"
-msgstr "Bảng điểm danh sách phát"
+msgstr "Bảng điểm của danh sách phát"
 
 #. type: Plain text
 msgid ""
@@ -834,6 +871,9 @@ msgid ""
 "playlist transcripts in numerous formats, including in a plain text format, "
 "an HTML table or a list."
 msgstr ""
+"Bấm SPL Assistant, Shift+F8 sẽ mở một hộp thoại cho phép bạn yêu cầu bảng "
+"điểm của danh sách phát ở nhiều định dạng, bao gồm văn bản thô, bảng HTML "
+"hoặc một danh sách."
 
 #. type: Title ##
 #, no-wrap
@@ -847,6 +887,9 @@ msgid ""
 "select SPL Studio Settings item. This dialog is also used to manage "
 "broadcast profiles."
 msgstr ""
+"Từ cửa sổ studio, bạn có thể bấm Alt+NVDA+0 để mở hộp thoại cấu hình add-on. "
+"Cách khác, vào trình đơn tùy chỉnh của NVDA và chọn mục Cài đặt SPL Studio. "
+"Hộp thoại này cũng dùng để quản lý các hồ sơ phát thanh."
 
 #. type: Title ##
 #, no-wrap
@@ -860,6 +903,10 @@ msgid ""
 "commands from the touchscreen. First use three finger tap to switch to SPL "
 "mode, then use the touch commands listed above to perform commands."
 msgstr ""
+"Nếu dùng Studio trên một máy tính cảm ứng chạy Windows 8 trở lên và cài đặt "
+"NVDA 2012.3 trở lên, bạn có thể thực hiện vài lệnh của Studio từ mành hình "
+"cảm ứng. Trước tiên, dùng thao tác chạm ba ngón để chuyển sang chế độ SPL, "
+"và sử dụng các thao tác cảm ứng đã liệt kê ở trên để thực hiện các lệnh."
 
 #. type: Title ##
 #, no-wrap
@@ -870,7 +917,8 @@ msgstr "Phiên bản 18.08.1"
 msgid ""
 "Fixed yet another wxPython 4 compatibility issue seen when Studio exits."
 msgstr ""
-"Sửa lỗi khác của wxPython 4 về tính tương thích xảy ra khi thoát Studio."
+"Sửa lỗi khác của wxPython 4 liên quan đến tính tương thích xảy ra khi thoát "
+"Studio."
 
 #. type: Bullet: '* '
 msgid ""
@@ -878,12 +926,17 @@ msgid ""
 "isn't present, commonly seen after loading an unmodified playlist or when "
 "Studio starts."
 msgstr ""
+"NVDA sẽ thông báo một thông điệp thích hợp khi không hiển thị được các văn "
+"bản chỉnh sửa của danh sách phát, thường thấy sau khi mở một danh sách phát "
+"chưa chỉnh sửa hoặc khi khởi động Studio."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer appear to do nothing or play error tones when trying to "
 "obtain metadata streaming status via SPL Assistant (E)."
 msgstr ""
+"NVDA sẽ không còn tình trạng không làm gì hoặc phát âm thanh báo lỗi khi cố "
+"gắng thu thập trạng thái metadata streaming thông qua SPL Assistant (E)."
 
 #. type: Title ##
 #, no-wrap
@@ -897,6 +950,10 @@ msgid ""
 "later. The old add-on settings interface is deprecated and will be removed "
 "later in 2018."
 msgstr ""
+"Hộp thoại cài đặt Add-on giờ đây đã dùng giao diện cài đặt nhiều nhánh tìm "
+"thấy trong NVDA 2018.2. Vậy nên, bản phát hành này yêu cầu NVDA 2018.2 trở "
+"lên. Giao diện cài đặt cũ của add-on không còn được dùng nữa và sẽ bị gỡ bỏ "
+"trong năm 2018."
 
 #. type: Bullet: '* '
 msgid ""
@@ -904,6 +961,9 @@ msgid ""
 "transcripts options, which is used to configure column inclusion and "
 "ordering for this feature and other settings."
 msgstr ""
+"Đã thêm một phần mới (nút / bảng) trong cài đặt add-on để cấu hình các tùy "
+"chỉnh cho bảng điểm danh sách phát, được dùng để cấu hình việc bao gồm và "
+"sắp xếp các cột cho tính năng này cũng như các cài đặt khác."
 
 #. type: Bullet: '* '
 msgid ""
@@ -912,6 +972,9 @@ msgid ""
 "presentation order specified from add-on settings and/or not include "
 "information from removed columns."
 msgstr ""
+"Khi tạo một bảng theo điểm của danh sách phát và nếu có thực hiện tùy chỉnh "
+"sắp xếp hay xóa cột, NVDA sẽ dùng tùy chỉnh trình bày sắp xếp cột đã thiết "
+"lập từ cài đặt add-on hoặc không bao gồm thông tin từ các cột đã xóa."
 
 #. type: Bullet: '* '
 msgid ""
@@ -920,6 +983,10 @@ msgid ""
 "longer announce wrong column data after changing column position on screen "
 "via mouse."
 msgstr ""
+"Khi dùng các lệnh điều hướng cột trong các mục của track (Control+Alt+home/"
+"end/mũi tên trái/mũi tên phải) trong Studio, Creator và Track Tool, NVDA sẽ "
+"không còn tình trạng thông báo sai cột dữ liệu sau khi thay đổi vị trí cột "
+"trên màn hình bằng chuột."
 
 #. type: Bullet: '* '
 msgid ""
@@ -927,6 +994,9 @@ msgid ""
 "navigation commands in Creator and Track Tool. In particular, when using "
 "Creator, NVDA will respond better when using column navigation commands."
 msgstr ""
+"Những cải thiện đáng kể đến các phản hồi của NVDA khi dùng các lệnh điều "
+"hướng cột trong Creator và Track Tool. Cụ thể, khi dùng Creator, NVDA sẽ "
+"phản hồi tốt hơn khi dùng các lệnh điều hướng cột."
 
 #. type: Bullet: '* '
 msgid ""
@@ -934,6 +1004,9 @@ msgid ""
 "to add comments to tracks in Studio or when exiting NVDA while using Studio, "
 "caused by wxPython 4 compatibility issue."
 msgstr ""
+"NVDA sẽ không còn tịnh trạng phát âm thanh báo lỗi hoặc không làm gì khi nỗ "
+"lực thêm các chú thích vào track trong Studio hay khi thoát NVDA trong lúc "
+"đang sử dụng Studio, lỗi gây ra bởi vấn đề tương thích của wxPython 4."
 
 #. type: Title ##
 #, no-wrap
@@ -948,6 +1021,11 @@ msgid ""
 "for NVDA 2018.2 users, and not all add-on settings can be configured from "
 "this new screen."
 msgstr ""
+"Thêm vào màn hình cài đặt add-on nhiều nhánh để thử nghiệm, tiếp cận bằng "
+"cách bật / tắt một thiết lập trong cài đặt add-on / hộp thoại nâng cao (cần "
+"phải khởi động lại NVDA sau khi cấu hình để hiện hộp thoại mới). Tính năng "
+"này dành cho nguiờ dùng NVDA 2018.2, và không phải tất cả các cài đặt của "
+"add-on đều có thể cấu hình ở đây."
 
 #. type: Bullet: '* '
 msgid ""
@@ -955,6 +1033,9 @@ msgid ""
 "rename a broadcast profile from add-on settings, caused by wxPython 4 "
 "compatibility issue."
 msgstr ""
+"NVDA sẽ không còn tình trạng phát âm thanh báo lỗi hoặc không làm gì khi nỗ "
+"lực đổi tên một hồ sơ phát thanh từ cài đặt add-on, lỗi gây ra bởi vấn đề "
+"tương thích của wxPython 4."
 
 #. type: Bullet: '* '
 msgid ""
@@ -962,6 +1043,9 @@ msgid ""
 "broadcast profile other than normal profile, NVDA will no longer revert to "
 "old settings."
 msgstr ""
+"Khởi động lại NvDA hoặc Studio sau khi thực hiện các thay đổi trong cài đặt "
+"của một hồ sơ phát thanh không phải hồ sơ bình thường, NVDA sẽ không còn "
+"tình trạng trở về các cài đặt cũ."
 
 #. type: Bullet: '* '
 msgid ""
@@ -969,6 +1053,9 @@ msgid ""
 "Select \"current hour\" from list of playlist range options in playlist "
 "transcripts dialog (SPL Assistant, Shift+F8)."
 msgstr ""
+"Đã có thể  thu thập bảng điểm của danh sách phát cho khung giờ hiện tại. "
+"Chọn \"khung giờ hiện tại\" trong các tùy chọn khoảng danh sách phát trong "
+"bảng điểm của danh sách phát (SPL Assistant, Shift+F8)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -978,24 +1065,36 @@ msgid ""
 "are saved, they are saved to user's Documents folder under "
 "\"nvdasplPlaylistTranscripts\" subfolder."
 msgstr ""
+"Thêm một tùy chọn trong hộp thoại bảng điểm của danh sách phát để lưu điểm "
+"thành một tập tin (tất cả định dạng) hoặc chép vào bộ nhớ tạm (chỉ văn bản "
+"thô và định dạng bảng Markdown) thêm nữa là hiện điểm ra màn hình. Khi lưu "
+"bảng điểm, chúng ở tại thư mục Documents của người dùng, trong thư mục "
+"\"nvdasplPlaylistTranscripts\"."
 
 #. type: Bullet: '* '
 msgid ""
 "Status column is no longer included when creating playlist transcripts in "
 "HTML and Markdown table formats."
 msgstr ""
+"Trạng thái cột không còn được bao gồm khi tạo bảng điểm của danh sách phát ở "
+"định dạng HTML và Markdown."
 
 #. type: Bullet: '* '
 msgid ""
 "When focused on a track in Creator and Track Tool, pressing Control+NVDA"
 "+number row twice will present column information on a browse mode window."
 msgstr ""
+"Khi focused ở tại một track trong Creator và Track Tool, bấm Control+NVDA"
+"+các phím số hai lần sẽ trình bày các cột thông tin trên một cửa sổ ở chế độ "
+"duyệt."
 
 #. type: Bullet: '* '
 msgid ""
 "In Creator and Track Tool, added Control+Alt+Home/End keys to move Column "
 "Navigator to first or last column for the focused track."
 msgstr ""
+"Trong Creator và Track Tool, đã thêm các phím Control+Alt+Home/End để di "
+"chuyển đến cột đầu hay cuối cho track có focused."
 
 #. type: Title ##
 #, no-wrap
@@ -1008,6 +1107,9 @@ msgid ""
 "open track finder (Control+NVDA+F), column search and time ranger finder "
 "dialogs in Studio and stream labeler dialog (F12) from encoders window."
 msgstr ""
+"Sửa vài lỗi tương thích với wxPython 4, bao gồm lỗi mở các hộp thoại tìm "
+"kiếm track (Control+NVDA+F), tìm kiếm cột và tìm kiếm theo khoảng thời gian "
+"trong Studio và hộp thoại tạo nhãn phát thanh (F12) từ cửa sổ các bộ mã hóa."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2728,8 +2830,8 @@ msgid ""
 "Added a command in SPL Controller layer to announce status of encoders being "
 "monitored (E)."
 msgstr ""
-"Đã thêm lệnh trong SPL Controller layer để thông báo trạng thái của các bộ "
-"mã hóa đang được theo dõi (E)."
+"Đã thêm lệnh trong bộ điều khiển SPL để thông báo trạng thái của các bộ mã "
+"hóa đang được theo dõi (E)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2747,8 +2849,8 @@ msgstr "Các bản phát hành cũ hơn"
 #. type: Plain text
 msgid "Please see changelog link for release notes for old add-on releases."
 msgstr ""
-"Vui lòng xem liên kết các thay đổi để có thông tin về các bản phát hành cũ "
-"của add-on."
+"Vui lòng xem liên kết bản ghi các thay đổi để có thông tin về các bản phát "
+"hành cũ của add-on."
 
 #. type: Plain text
 #, no-wrap

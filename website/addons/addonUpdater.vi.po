@@ -3,37 +3,39 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-06 04:01+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-06 22:08+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Add-on Updater\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Add-on Updater\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
-msgstr ""
+msgstr "Tác giả: Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [prototype version][1]"
-msgstr ""
+msgstr "Tải về [phiên bản gốc][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 3208 to life: ability to check for, "
 "download, and apply add-on updates."
 msgstr ""
+"Add-on này biến đề nghị số 3208 của NVDA thành sự thật: khả năng kiểm tra "
+"cập nhật, tải về, và cài các bản cập nhật add-on."
 
 #. type: Plain text
 msgid ""
@@ -43,67 +45,81 @@ msgid ""
 "and the new version. Select Update, and NVDA will download and apply updates "
 "in sequence, with a prompt to restart your NVDA shown afterwards."
 msgstr ""
+"Để kiểm tra cập nhật, sau khi cài add-on này, vào trình đơn NVDA / Công cụ / "
+"Kiểm tra cập nhật add-on. Nếu có các bản cập nhật, danh sách các bản add-on "
+"có cập nhật sẽ hiển thị, mỗi mục sẽ có các phần: mô tả, phiên bản hiện tại "
+"và phiên bản mới. Bấm vào cập nhật, và NVDA sẽ tải rồi cài các cập nhật và "
+"yêu cầu khởi động lại NVDA sau khi cập nhật hoàn tất."
 
 #. type: Plain text
 msgid ""
 "The following add-ons provide built-in update feature and thus updates will "
 "not be checked via this add-on:"
 msgstr ""
+"Các add-on sau đây đã có khả năng tự kiểm tra cập nhật và vì vậy chúng không "
+"được kiểm tra bởi add-on này:"
 
 #. type: Bullet: '* '
 msgid "Braille Extender"
-msgstr ""
+msgstr "Braille Extender"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
-msgstr ""
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "WeatherPlus"
-msgstr ""
+msgstr "WeatherPlus"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
-msgstr ""
+msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
+"Quan trọng: đây là nhóm add-on chữa cháy. khi [các tính năng thích hợp được "
+"bao gồm trong NVDA][2], add-on này sẽ bị khai tử."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.5"
-msgstr ""
+msgstr "Phiên bản 18.08.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where Add-on Updater settings panel failed to show if one or "
 "more add-ons had badly formatted manifest data."
 msgstr ""
+"Sửa lỗi bảng cài đặt cập nhật Add-on không hiển thị nếu một hay nhiều add-on "
+"bị định dạng sai trong tập tin manifest."
 
 #. type: Bullet: '* '
 msgid ""
 "Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
 "for updates."
 msgstr ""
+"Thêm Nuance Vocalizer vào danh sách các add-on không được kiểm tra cập nhật."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.4"
-msgstr ""
+msgstr "Phiên bản 18.08.4"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
 "progress beep when trying to check for add-on updates."
 msgstr ""
+"Sửa lỗi trong phiên bản 18.08.3 NVDA cứ phát tiếng beep khi nỗ lực kiểm tra "
+"cập nhật add-on."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.3"
-msgstr ""
+msgstr "Phiên bản 18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -111,11 +127,14 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"Thêm khả năng loại bỏ add-on khỏi danh sách kiểm tra cập nhật thông qua dấu "
+"kiểm ở danh sách thả xuống được tìm thấy trong bảng cài đặt cập nhật Add-on. "
+"Các mục được chọn sẽ không cập nhật."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.1"
-msgstr ""
+msgstr "Phiên bản 18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -123,25 +142,28 @@ msgid ""
 "24 hours). This is configured through a new Add-on Updater settings panel "
 "found in NVDA settings."
 msgstr ""
+"Đã có thể cho NVDA tự kiểm tra cập nhật add-on (mỗi 24 giờ). Điều này được "
+"cấu hình thông qua một bản cài đặt cập nhật Add-on mới được tìm thấy trong "
+"cài đặt của NVDA."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Phiên bản 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Phiên bản đầu tiên."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"

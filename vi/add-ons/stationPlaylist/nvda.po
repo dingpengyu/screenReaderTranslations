@@ -1,4 +1,4 @@
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+﻿# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the stationPlaylist package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -2338,4 +2338,4 @@ msgid ""
 "In addition, adds global commands for the studio from everywhere."
 msgstr ""
 "Cải thiện hỗ trợ cho StationPlaylist Studio.\n"
-"Ngoài ra là thêm các lệnh toàn cục cho studio từ mọi nơi."
+"Ngoài ra là thêm các lệnh toàn cục cho studio từ bất cứ đâu."
