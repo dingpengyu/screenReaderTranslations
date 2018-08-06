@@ -3,35 +3,35 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2018-05-29 17:50+0100\n"
+"Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Review Cursor Copier\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Preglednik kursora kopiranja\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Tuukka Ojala <tuukka.ojala@gmail.com>"
-msgstr ""
+msgstr "Autor: Tuukka Ojala <tuukka.ojala@gmail.com>"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Preuzmi [stable version][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Preuzmi [development version][2]"
 
 #. type: Plain text
 msgid ""
@@ -39,30 +39,32 @@ msgid ""
 "review cursor to the clipboard. Currently, the following commands are "
 "implemented:"
 msgstr ""
+"Ovaj dodatak pruža različite naredbe za kopiranje teksta ispod preglednog "
+"kursora u međuspremnik. Trenutno su implementirane sljedeće naredbe:"
 
 #. type: Bullet: '* '
 msgid "Copy the line under the review cursor"
-msgstr ""
+msgstr "Kopiraj redak ispod preglednog kursora "
 
 #. type: Bullet: '* '
 msgid "Copy the word under the review cursor"
-msgstr ""
+msgstr "Kopiraj riječ ispod preglednog kursora"
 
 #. type: Bullet: '* '
 msgid "Copy from the start of the current line to the review cursor"
-msgstr ""
+msgstr "Kopiraj od početka trenutnog retka do preglednog kursora"
 
 #. type: Bullet: '* '
 msgid "Copy from the review cursor to the end of the current line"
-msgstr ""
+msgstr "Kopiraj od preglednog kursora do kraja trenutnog retka"
 
 #. type: Bullet: '* '
 msgid "Copy from the start of the current word to the review cursor"
-msgstr ""
+msgstr "Kopiraj od početka trenutne riječi do preglednog kursora"
 
 #. type: Bullet: '* '
 msgid "Copy from the review cursor to the end of the current word"
-msgstr ""
+msgstr "Kopiraj od preglednog kursora do kraja trenutne riječi"
 
 #. type: Plain text
 msgid ""
