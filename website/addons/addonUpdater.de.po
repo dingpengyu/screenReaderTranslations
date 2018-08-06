@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-06 04:01+1000\n"
-"PO-Revision-Date: 2018-08-04 00:58+0200\n"
+"PO-Revision-Date: 2018-08-06 02:24+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -26,10 +26,9 @@ msgid "Author: Joseph Lee"
 msgstr "Author: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "Download [stable version][1]"
 msgid "Download [prototype version][1]"
-msgstr "Download [stable version][1]"
+msgstr "Herunterladen der [Vorabversion][1]"
 
 #. type: Plain text
 msgid ""
@@ -80,7 +79,6 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
 #| "is included in NVDA, this add-on will be discontinued. Also, checkable "
@@ -91,39 +89,45 @@ msgid ""
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
 "WICHTIG: Dies ist eine \"Proof of Concept\"-Erweiterung. Sobald das "
-"entsprechende Feature in NVDA enthalten ist, wird diese Erweiterung "
-"eingestellt. Auch die Auswahlliste stammt aus der NVDA-Fehlermeldung #7491 "
-"(Quelle: Derek Riemer und Babbage B.V.)."
+"entsprechende Feature in NVDA][2] enthalten ist, wird dieses Add-on "
+"eingestellt."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.08.3"
 msgid "Version 18.08.5"
-msgstr "Version 18.08.3"
+msgstr "Version 18.08.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where Add-on Updater settings panel failed to show if one or "
 "more add-ons had badly formatted manifest data."
 msgstr ""
+"Es wurde ein Problem behoben, bei dem die Einstellungen des Zusatz-Updaters "
+"nicht angezeigt wurden, wenn ein oder mehrere Add-ons schlecht formatierte "
+"Manifestdaten hatten."
 
 #. type: Bullet: '* '
 msgid ""
 "Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
 "for updates."
 msgstr ""
+"Nuance Vocalizer-Familie von Erweiterung zu Erweiterungen hinzugefügt, die "
+"nicht auf Updates überprüft werden."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.08.3"
 msgid "Version 18.08.4"
-msgstr "Version 18.08.3"
+msgstr "Version 18.08.4"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
 "progress beep when trying to check for add-on updates."
 msgstr ""
+"Eine Regression wurde in 18.08.3 eingeführt, bei der NVDA beim Versuch, nach "
+"Add-On-Updates zu suchen, kontinuierlich einen Signalton abspielte."
 
 #. type: Title ##
 #, no-wrap
@@ -165,10 +169,10 @@ msgid "Initial version."
 msgstr "Erstveröffentlichung."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev stable]]\n"
 msgid "[[!tag dev]]\n"
-msgstr "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
@@ -176,4 +180,4 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
