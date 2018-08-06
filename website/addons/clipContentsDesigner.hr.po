@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-14 00:37+1000\n"
-"PO-Revision-Date: 2018-05-28 11:12+0100\n"
+"PO-Revision-Date: 2018-08-06 17:00+0100\n"
 "Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -131,6 +131,7 @@ msgid ""
 "The add-on settings are shown in the corresponding category of the NVDA "
 "Settings dialog."
 msgstr ""
+"Postavke dodatka prikazane su u odgovarajućoj kategoriji postavki NVDA."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -143,6 +144,8 @@ msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Ako je potrebno, možete preuzeti [zadnju inačicu kompatibilnu sa NVDA 2017.3]"
+"[3]."
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -297,3 +300,5 @@ msgid ""
 "[3]: https://github.com/nvdaes/clipContentsDesigner/releases/download/7.2/"
 "clipContentsDesigner-7.2.nvda-addon"
 msgstr ""
+"[3]: https://github.com/nvdaes/clipContentsDesigner/releases/download/7.2/"
+"clipContentsDesigner-7.2.nvda-addon"
