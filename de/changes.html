@@ -15,21 +15,34 @@
 <H3>Neue Funktionen</H3>
 
 <UL>
-<LI>NVDA zeigt nun Rechtschreib- und Gramatikfehler auf Webseiten in Firefox an. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
-<LI>Bei BrailleNote Apex und BrailleNote QT wird nun das Scrollrad vom BrailleNote-Treiber unterstützt. (<A HREF="http://github.com/nvaccess/nvda/issues/6316">#6316</A>)
+<LI>NVDA meldet Grammatikfehler, wenn sie von Webseiten in Mozilla Firefox und Google Chrome angemessen dargestellt werden. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>Inhalte, die in Webseiten als eingefügt oder gelöscht gekennzeichnet sind, werden nun in Google Chrome angezeigt. (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
+<LI>Unterstützung für BrailleNote QT und das Scrollrad von Apex BT wurde hinzugefügt, wenn BrailleNote als Braillezeile mit NVDA verwendet wird. (<A HREF="http://github.com/nvaccess/nvda/issues/5992">#5992</A>, <A HREF="http://github.com/nvaccess/nvda/issues/5993">#5993</A>)
 <LI>Es wurden Skripte für die Anzeige der abgelaufenen und der Gesamtzeit des aktuellen Tracks in Foobar2000 hinzugefügt. (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
 <LI>Das Mac-Befehlstastensymbol (⌘) wird nun beim Lesen von Text mit einem beliebigen Synthesizer angezeigt. (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
-<LI>Benutzerdefinierte Rollen über das Attribut aria-roledescription werden nun in Firefox, Chrome und Internet Explorer unterstützt.
-<LI>Neue Braille-Tabelle: Schwedisches 8-Punkt-Computerbraille. (<A HREF="http://github.com/nvaccess/nvda/issues/8227">#8227</A>)
+<LI>Benutzerdefinierte Regeln über das Attribut "aria-roledescription" werden nun in allen Web-Browsern unterstützt. (<A HREF="http://github.com/nvaccess/nvda/issues/8448">#8448</A>)
+<LI>Neue Braille-Tabellen: Tschechisches 8-Punkt-Computerbraille, Zentralkurdisch, Esperanto, Ungarisch, Schwedisch 8-Punkt-Computerbrailleschrift. (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
+<LI>Unterstützung wurde hinzugefügt, um Braillezeilen im Hintergrund automatisch zu erkennen. (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>Braillezeilen ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, HandyTech, Hims, SuperBraille und HumanWare BrailleNote und Brailliant BI/B werden derzeit unterstützt.
+ <LI>Sie können diese Funktion aktivieren, indem Sie die automatische Option aus der Liste der Braillezeilen im Braillezeilen-Auswahldialog von NVDA auswählen.
+ <LI>Weitere Informationen entnehmen Sie bitte der Dokumentation.
+ </UL>
+<LI>Unterstützung für verschiedene moderne Eingabefunktionen, die in den letzten Versionen von Windows 10 eingeführt wurden, wurden hinzugefügt. Dazu gehören Emoji-Panel (Fall Creators Update), Diktat (Fall Creators Update), Hardware-Tastatur-Eingabevorschläge (April 2018 Update) und Einfügen aus der Cloud-Zwischenablage (Oktober 2018 Update). (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
+<LI>Inhalte, die mit ARIA (role blockquote) als Blockzitat gekennzeichnet sind, werden nun in Mozilla Firefox 63 unterstützt. (<A HREF="http://github.com/nvaccess/nvda/issues/8577">#8577</A>)
 </UL>
 
 <H3>Änderungen</H3>
 
 <UL>
-<LI>In den Allgemeinen Einstellungen wird die Liste verfügbarer Sprachen nicht mehr nach ISO-639-Codes, sondern nach Sprachennamen sortiert. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
+<LI>Die Liste der verfügbaren Sprachen im Dialog "Allgemeine Einstellungen" werden nun nach Sprachnamen statt nach ISO-639 sortiert. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
 <LI>Die Tastenkombinationen Alt+Umschalt+Tab und Windows+Tab können mit allen Freedom Scientific-Zeilen emuliert werden. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>Für ALVA BC680 und Protokollkonverter-Brailezeilen ist es nun möglich, der linken und rechten Smart Pad-, Daumen- und Etouch-Taste unterschiedliche Funktionen zuzuweisen. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Bei ALVA BC6 Braillezeilen werden nun mit der Tastenkombination sp2+sp3 das aktuelle Datum und die Uhrzeit angezeigt, während sp1+sp2 die Windows-Taste emuliert. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>Der Benutzer wird nun beim Start von NVDA einmal gefragt, ob er bei der automatischen Suche nach Updates die Nutzungsstatistiken an NV Access senden möchte. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
 <LI>Liblouis-Braille-Übersetzer wurde auf Version 3.6.0 aktualisiert. (<A HREF="http://github.com/nvaccess/nvda/issues/8365">#8365</A>)
+<LI>Der Pfad zur korrekten Russischen 8-Punkt-Braille-Tabelle wurde aktualisiert. (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
+<LI>eSpeak-NG aktualisiert auf 1.49.3dev Commit 910f4c2 (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
 <LI>Wenn der Benutzer zugestimmt hat, Nutzungsstatistiken an NV Access zu senden, sendet NVDA nun den Namen des aktuell verwendeten Sprachausgaben-Treibers und der Braillezeile, um eine bessere Priorisierung für zukünftige Arbeiten an diesen Treibern zu ermöglichen. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
 </UL>
 
@@ -37,13 +50,57 @@
 
 <UL>
 <LI>Zugängliche Beschriftungen für Steuerelemente in Google Chrome werden nun leichter im Lesenmodus angezeigt, wenn die Beschriftung selbst nicht als Inhalt angezeigt wird. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
+<LI>Benachrichtigungen werden jetzt in Zoom unterstützt. Dazu gehören zum Beispiel der Status "Stummschalten/Stummschalten" und eingehende Nachrichten (<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>).
+<LI>Das Umschalten der Braille-Kontextdarstellung im Browse-Modus führt nicht mehr dazu, dass die Braille-Ausgabe nicht mehr folgt. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>ALVA BC680 Braillezeilen schlagen nicht mehr beim Initialisieren fehl. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>Standardmäßig führen ALVA BC6 Braillezeilen keine emulierten Systemtastaturtasten mehr aus, wenn Tastenkombinationen mit Sp2+Sp3 gedrückt werden, um interne Funktionen auszulösen. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Das Drücken von Sp2 auf einer ALVA BC6 Braillezeile, um die Alt-Taste zu emulieren, funktioniert jetzt wie angekündigt. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
+<LI>NVDA kündigt keine redundanten Änderungen am Tastaturlayout mehr an. (<A HREF="http://github.com/nvaccess/nvda/issues/7383">#7383</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
+<LI>Die Mausverfolgung ist jetzt viel genauer in Notepad und anderen Klartext-Editoren, wenn es sich um ein Dokument mit mehr als 65.535 Zeichen handelt. (<A HREF="http://github.com/nvaccess/nvda/issues/8397">#8397</A>)
+<LI>NVDA erkennt mehr Dialoge in Windows 10 und anderen modernen Anwendungen. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
+<LI>Unter Windows 10. Oktober 2018 Update und Server 2019 und höher kann NVDA den Systemfokus nicht mehr verfolgen, wenn eine Anwendung das System einfriert oder mit Ereignissen überschwemmt. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
+<LI>Anwender werden nun informiert, wenn sie versuchen, eine leere Statusleiste zu lesen oder zu kopieren. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
+<LI>Es wurde ein Fall behoben, in dem der Zustand eines Kontrollfelds "nicht angehakt" nicht in der Sprachausgabe gemeldet wurden, wenn die Kontrollfelder zuvor halb angehakt wurde. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>In der Liste der Sprachen in den Allgemeinen Einstellungen von NVDA wird der Sprachname für Burmesisch unter Windows 7 korrekt angezeigt. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>In Microsoft Edge meldet NVDA Benachrichtigungen wie die Verfügbarkeit der Leseansicht und den Fortschritt des Seitenladens. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
+<LI>Ähnlich wie bei anderen mehrzeiligen Textfeldern wird nun die Anzeige am Anfang eines Dokuments auf der Braillezeile so verschoben, dass das erste Zeichen des Dokuments am Anfang der Anzeige steht. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
+<LI>Beim Navigieren in eine Liste im Web meldet NVDA nun dessen Beschriftung, wenn der Web-Autor eines angegeben hat. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
+<LI>Bei der manuellen Zuordnung von Funktionen zu Gesten für eine bestimmte Braillezeile erscheinen diese Gesten nun immer als dieser Anzeige zugeordnet. Zuvor tauchten sie auf, als wären sie der gerade aktiven Anzeige zugeordnet. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>Die 64-Bit-Version von Media Player Classic wird nun unterstützt. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>Verschiedene Verbesserungen der Braille-Unterstützung in Microsoft Word mit aktivierter UI-Automatisierung:
+ <UL>
+ <LI>Bei der Fokussierung eines Word-Dokuments wurde die Fokussierung für die Sprachausgabe und auf der braillezeile reduziert. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>Das Cursor-Routing auf der Braillezeile funktioniert nun auch in einer Liste in einem Word-Dokument korrekt. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ <LI>Neu eingefügte Aufzählungen / Zahlen in einem Word-Dokument werden von der Sprachausgabe und auf der Braillezeile korrekt dargestellt. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ </UL>
 </UL>
 
 <H3>Änderungen für Entwickler</H3>
 
 <UL>
 <LI>scriptHandler.script hinzugefügt; kann als decorator für Scripts verwendet werden. (<A HREF="http://github.com/nvaccess/nvda/issues/6266">#6266</A>)
+<LI>Für NVDA wurde ein Systemtest-Framework eingeführt. (<A HREF="http://github.com/nvaccess/nvda/issues/708">#708</A>)
+<LI>Im Modul "hwPortUtils" wurden einige Änderungen vorgenommen: (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>Das Skript "listUsbDevices" liefert nun Wörterbücher mit Geräte-Informationen wie Hardware-ID und Geräte-Pfad.
+ <LI>Wörterbücher von "listComPorts" enthalten nun auch einen uSB-ID-Eintrag für COM-Ports mit USB-VID/PID-Informationen in dessen Hardware-ID.
+ </UL>
+<LI>wxPython wurde aktualisiert auf 4.0.3. (<A HREF="http://github.com/nvaccess/nvda/issues/7077">#7077</A>)
+<LI>Da NVDA jetzt nur noch Windows 7 SP1 und höher unterstützt, wurde der Schlüssel "minWindowsVersion" entfernt, mit dem geprüft wird, ob UIA für eine bestimmte Windows-Version aktiviert werden sollte. (<A HREF="http://github.com/nvaccess/nvda/issues/8422">#8422</A>)
+<LI>Sie können sich nun über die neuen Aktionen "config.pre_configSave", "config.post_configSave", "config.pre_configReset" und "config.post_configReset" informieren lassen. (<A HREF="http://github.com/nvaccess/nvda/issues/7598">#7598</A>)
+ <UL>
+ <LI>Das Skript "config.pre_configSave" wird verwendet, um benachrichtigt zu werden, wenn die Konfiguration von NVDA gespeichert werden soll und "config.post_configSave" wird nach dem Speichern der Konfiguration aufgerufen.
+ <LI>Die Skripte "config.pre_configReset" und "config.post_configReset" enthalten ein Flag (für die Werkseinstellung), um festzulegen, ob die Einstellungen von der Festplatte zurückgeladen werden (false) oder auf die Standardeinstellungen zurückgesetzt werden soll (true).
+ </UL>
+<LI>Das Skript "config.configProfileSwitch" wurde in "config.post_configProfileSwitch" umbenannt, um der Tatsache Rechnung zu tragen, dass diese Aktion nach dem Profilwechsel aufgerufen wird. (<A HREF="http://github.com/nvaccess/nvda/issues/7598">#7598</A>)a
+<LI>UIA-Schnittstellen wurden aktualisiert auf Windows 10, Oktober 2018 Update und Server 2019 (IUIAutomation6 / IUIAutomationElement9). (<A HREF="http://github.com/nvaccess/nvda/issues/8473">#8473</A>)
 </UL>
+
+<H2>2018.2.1</H2>
+
+<P>
+Diese Version enthält Übersetzungsaktualisierungen, da eine Funktion, die Probleme verursacht hat, in letzter Minute entfernt wurde.
+</P>
 
 <H2>2018.2</H2>
 
