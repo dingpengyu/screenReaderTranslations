@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Add-on Updater\n"
 "POT-Creation-Date: 2018-08-06 04:01+1000\n"
-"PO-Revision-Date: 2018-08-04 13:59+0200\n"
+"PO-Revision-Date: 2018-08-06 11:23+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -28,10 +28,8 @@ msgid "Author: Joseph Lee"
 msgstr "Tekijä: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [stable version][1]"
 msgid "Download [prototype version][1]"
-msgstr "Lataa [vakaa versio][1]"
+msgstr "Lataa [prototyyppiversio][1]"
 
 #. type: Plain text
 msgid ""
@@ -81,50 +79,47 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
-#| "is included in NVDA, this add-on will be discontinued. Also, checkable "
-#| "list box comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B."
-#| "V.)."
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
-"TÄRKEÄÄ: tämä on konseptilisäosa. Sen kehitys lopetetaan, kun kyseinen "
-"ominaisuus on lisätty NVDA:han. Lisäksi, valittava luetteloruutu on "
-"lähtöisin NVDA:n ongelmasta 7491 (kiitokset Derek Riemerille ja Babbage B.V.:"
-"lle)."
+"TÄRKEÄÄ: tämä on konseptilisäosa. Sen kehitys lopetetaan, kun [kyseinen "
+"ominaisuus][2] on lisätty NVDA:han."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.3"
+#, no-wrap
 msgid "Version 18.08.5"
-msgstr "Versio 18.08.3"
+msgstr "Versio 18.08.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where Add-on Updater settings panel failed to show if one or "
 "more add-ons had badly formatted manifest data."
 msgstr ""
+"Korjattu ongelma, jossa Lisäosien päivittäjän  asetuspaneeli ei tullut "
+"näkyviin, jos yhdessä tai useammassa lisäosassa oli väärin muotoiltuja "
+"manifestitietoja."
 
 #. type: Bullet: '* '
 msgid ""
 "Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
 "for updates."
 msgstr ""
+"Lisätty Nuance Vocalizer ohitettavien lisäosien luetteloon, jolloin sitä ei "
+"päivitetä."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.3"
+#, no-wrap
 msgid "Version 18.08.4"
-msgstr "Versio 18.08.3"
+msgstr "Versio 18.08.4"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
 "progress beep when trying to check for add-on updates."
 msgstr ""
+"Korjattu versiossa 18.08.3 ollut ongelma, jossa NVDA toisti jatkuvasti "
+"edistymispalkkien äänimerkkiä yritettäessä tarkistaa lisäosapäivityksiä."
 
 #. type: Title ##
 #, no-wrap
@@ -166,10 +161,9 @@ msgid "Initial version."
 msgstr "Ensimmäinen versio."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev stable]]\n"
+#, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
@@ -177,4 +171,4 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
