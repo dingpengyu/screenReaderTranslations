@@ -29,7 +29,7 @@ msgstr "Автор: Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download: [version 2.4][1]"
-msgstr "Изтегляне: [version 2.4][1]"
+msgstr "Изтегляне: [версия 2.4][1]"
 
 #. type: Plain text
 msgid ""
