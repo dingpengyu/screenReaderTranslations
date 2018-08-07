@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-03 19:07+1000\n"
-"PO-Revision-Date: 2018-06-26 11:07+0800\n"
+"PO-Revision-Date: 2018-08-07 16:09+0800\n"
 "Last-Translator: 王建立 <wangjanli@gmail.com>\n"
 "Language-Team: Jerry Wang @ TDTB <wangjanli@gmail.com>\n"
 "Language: zh_TW\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: Poedit 1.8.13\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Bookmarks: 127,-1,122,121,-1,606,650,117,123,-1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
@@ -365,14 +365,12 @@ msgid "pwdedt"
 msgstr "pwdedt"
 
 #. Translators: Displayed in braille for an object which is deleted.
-#, fuzzy
 msgid "del"
-msgstr "dlg"
+msgstr "del"
 
 #. Translators: Displayed in braille for an object which is inserted.
-#, fuzzy
 msgid "ins"
-msgstr "連結(&K)"
+msgstr "ins"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -517,11 +515,11 @@ msgstr "自動偵測"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "藍牙"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -593,14 +591,13 @@ msgid "to review"
 msgstr "檢閱游標"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
 msgid "Unknown braille display"
-msgstr "Seika 點顯器"
+msgstr "未知的點顯器"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "藍牙串列埠：{portName}"
+msgstr "藍牙串列：{portName} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
@@ -675,9 +672,8 @@ msgstr "保加利亞文八點（電腦）"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Central Kurdish grade 1"
-msgstr "瑞典文一級"
+msgstr "中库尔德文一級"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -691,9 +687,8 @@ msgstr "威爾斯文二級"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Czech 8 dot computer braille"
-msgstr "西班牙文八點（電腦）"
+msgstr "捷克文八點（電腦）"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -797,9 +792,8 @@ msgstr "英文（美國）二級"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Esperanto grade 1"
-msgstr "德文一級"
+msgstr "世界文一級"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -908,9 +902,8 @@ msgstr "匈牙利文一級"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Hungarian grade 2"
-msgstr "匈牙利文一級"
+msgstr "匈牙利文二級"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -1094,9 +1087,8 @@ msgstr "梵文一級"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Swedish 8 dot computer braille"
-msgstr "西班牙文八點（電腦）"
+msgstr "瑞典文八點（電腦）"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -3817,13 +3809,12 @@ msgid "No status line found"
 msgstr "找不到狀態列"
 
 #. Translators: Reported when status line exist, but is empty.
-#, fuzzy
 msgid "no status bar information"
-msgstr "沒有位置資訊"
+msgstr "沒有狀態列資訊"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
-msgstr ""
+msgstr "無法複製狀態列內容至剪貼簿"
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -4736,17 +4727,17 @@ msgstr "阿拉貢語"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr ""
+msgstr "中庫爾德語"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr ""
+msgstr "北庫爾德語"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "緬甸語"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -5893,7 +5884,7 @@ msgstr "第%s列"
 #. Translators: Speaks the column span added to the current column number (example output: through 5).
 #, python-format
 msgid "through %s"
-msgstr "合併%s個儲存格"
+msgstr "跨越到"
 
 #. Translators: Speaks current column number (example output: column 3).
 #, python-format
@@ -7191,7 +7182,7 @@ msgstr "關"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
-msgstr ""
+msgstr "沒有表情符號"
 
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
