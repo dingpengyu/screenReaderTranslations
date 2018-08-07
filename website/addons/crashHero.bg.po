@@ -28,7 +28,7 @@ msgid ""
 "* Download [development version][1]\n"
 msgstr ""
 "*   Автор: Derek Riemer\n"
-"* Изтегляне на [работна версия][1]\n"
+"* Изтегляне на [тестова версия][1]\n"
 
 #. type: Plain text
 msgid ""
