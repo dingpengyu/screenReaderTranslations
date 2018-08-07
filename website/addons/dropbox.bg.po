@@ -30,7 +30,7 @@ msgstr "Автори: Patrick ZAJDA <patrick@zajda.fr>, Filaos и други с�
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "Изтегляне: [стабилна версия][1]"
+msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Plain text
 msgid ""
