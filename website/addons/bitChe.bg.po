@@ -29,11 +29,11 @@ msgstr "Автори: Alberto Zanella, Alberto Buffolino и други сътр�
 
 #. type: Bullet: '*   '
 msgid "download [stable version][1]"
-msgstr "Изтегляне [стабилна версия][1]"
+msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Bullet: '*   '
 msgid "download [development version][3]"
-msgstr "Изтегляне [работна версия][3]"
+msgstr "Изтегляне на [тестова версия][3]"
 
 #. type: Plain text
 msgid ""
