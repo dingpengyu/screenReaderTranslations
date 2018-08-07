@@ -27,7 +27,7 @@ msgstr "Автор: Damien Sykes-Lindley"
 
 #. type: Bullet: '* '
 msgid "Download [Development version][1]"
-msgstr "Изтегляне на [работна версия][1]"
+msgstr "Изтегляне на [тестова версия][1]"
 
 #. type: Plain text
 msgid ""
