@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Read Feeds\"]]\n"
-msgstr "[[!meta title=\"Read Feeds (Четене на източници)\"]]\n"
+msgstr "[[!meta title=\"Четене на емисии (Read Feeds)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed"
@@ -33,7 +33,7 @@ msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "Изтегляне на [работна версия][2]"
+msgstr "Изтегляне на [тестова версия][2]"
 
 #. type: Plain text
 msgid ""

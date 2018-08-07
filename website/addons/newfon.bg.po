@@ -28,7 +28,7 @@ msgid ""
 "*   Download [stable version][1]\n"
 msgstr ""
 "* Автор: Sergey Shishmintzev \n"
-"*   Изтегляне [стабилна версия][1]\n"
+"*   Изтегляне на [стабилна версия][1]\n"
 
 #. type: Plain text
 msgid ""

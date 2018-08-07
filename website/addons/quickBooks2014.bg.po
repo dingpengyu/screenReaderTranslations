@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Quick Books 2014 support\"]]\n"
-msgstr "[[!meta title=\"Quick Books 2014 support (Поддръжка за Quick Books 2014)\"]]\n"
+msgstr "[[!meta title=\"Поддръжка за Quick Books 2014 (Quick Books 2014 support)\"]]\n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -31,7 +31,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Download: [version 2014.4.7][1]"
-msgstr "Изтегляне: [version 2014.4.7][1]"
+msgstr "Изтегляне: [версия 2014.4.7][1]"
 
 #. type: Plain text
 #, no-wrap

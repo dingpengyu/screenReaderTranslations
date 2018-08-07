@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Extended Microsoft Word functionality\"]]\n"
-msgstr "[[!meta title=\"Extended Microsoft Word functionality (Разширена функционалност за Microsoft Word)\"]]\n"
+msgstr "[[!meta title=\"Разширена функционалност за Microsoft Word (Extended Microsoft Word functionality)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Bram Duvigneau"

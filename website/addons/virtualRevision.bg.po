@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Virtual Review\"]]\n"
-msgstr "[[!meta title=\"Виртуален Преглед (Virtual Review)\"]]\n"
+msgstr "[[!meta title=\"Виртуален преглед (Virtual Review)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Rui Batista and NVDA Addon Team"
@@ -33,7 +33,7 @@ msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "Изтегляне на [работна версия][2]"
+msgstr "Изтегляне на [тестова версия][2]"
 
 #. type: Plain text
 msgid ""

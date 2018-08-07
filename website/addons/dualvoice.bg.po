@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Dual Voice\"]]\n"
-msgstr "[[!meta title=\"Dual Voice\"]]\n"
+msgstr "[[!meta title=\"Двоен глас (Dual Voice)\"]]\n"
 
 #. type: Bullet: '*   '
 msgid "Author: Mahmood Taghavi."

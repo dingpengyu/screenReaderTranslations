@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Focus Highlight\"]]\n"
-msgstr "[[!meta title=\"Focus Highlight (Открояване на фокуса)\"]]\n"
+msgstr "[[!meta title=\"Открояване на фокуса (Focus Highlight)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Takuya Nishimoto"
@@ -29,11 +29,11 @@ msgstr "Автори: Takuya Nishimoto"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][2]"
-msgstr "Изтегляне [стабилна версия][2]"
+msgstr "Изтегляне на [стабилна версия][2]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][1]"
-msgstr "Изтегляне [работна версия][1]"
+msgstr "Изтегляне на [тестова версия][1]"
 
 #. type: Plain text
 msgid ""

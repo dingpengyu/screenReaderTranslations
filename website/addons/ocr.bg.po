@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"OCR\"]]\n"
-msgstr "[[!meta title=\"OCR (Оптично разпознаване на символи)\"]]\n"
+msgstr "[[!meta title=\"Оптично разпознаване на символи (OCR)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: NV Access Limited & other contributors"

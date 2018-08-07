@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"instantTranslate\"]]\n"
-msgstr "[[!meta title=\"instantTranslate (Незабавен превод)\"]]\n"
+msgstr "[[!meta title=\"Незабавен превод (instantTranslate)\"]]\n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -37,7 +37,7 @@ msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "Изтегляне на [работна версия][2]"
+msgstr "Изтегляне на [тестова версия][2]"
 
 #. type: Plain text
 msgid ""

@@ -29,11 +29,11 @@ msgstr "Автори: Noelia, Chris."
 
 #. type: Bullet: '* '
 msgid "download [stable version][1]"
-msgstr "Изтегляне [стабилна версия][1]"
+msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Bullet: '* '
 msgid "download [development version][2]"
-msgstr "Изтегляне [работна версия][2]"
+msgstr "Изтегляне на [тестова версия][2]"
 
 #. type: Plain text
 msgid ""

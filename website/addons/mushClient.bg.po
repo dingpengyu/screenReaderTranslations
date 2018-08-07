@@ -27,7 +27,7 @@ msgstr "Автор: Nick Stockton"
 
 #. type: Bullet: '*   '
 msgid "download [development version][2]"
-msgstr "Изтегляне на [работна версия][2]"
+msgstr "Изтегляне на [тестова версия][2]"
 
 #. type: Plain text
 msgid "This add-on enhances the mush Client for use with NVDA."

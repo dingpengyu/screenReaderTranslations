@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Control Usage Assistant\"]]\n"
-msgstr "[[!meta title=\"Control Usage Assistant (Асистент за работа с контроли)\"]]\n"
+msgstr "[[!meta title=\"Асистент за работа с контроли (Control Usage Assistant)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"

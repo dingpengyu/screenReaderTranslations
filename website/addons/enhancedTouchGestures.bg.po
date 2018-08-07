@@ -474,7 +474,7 @@ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 
 #~ msgid "Download [development version][2]"
-#~ msgstr "Изтегляне на [работна версия][2]"
+#~ msgstr "Изтегляне на [тестова версия][2]"
 
 #~ msgid "Touch keyboard"
 #~ msgstr "Сензорна клавиатура"

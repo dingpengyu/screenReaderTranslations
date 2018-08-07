@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"extendedWinamp\"]]\n"
-msgstr "[[!meta title=\"extendedWinamp (Разширена поддръжка за Winamp)\"]]\n"
+msgstr "[[!meta title=\"Разширена поддръжка за Winamp (extendedWinamp)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Hrvoje Katic and NVDA-addon-team"

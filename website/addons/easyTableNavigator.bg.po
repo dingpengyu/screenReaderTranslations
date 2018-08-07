@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Easy Table Navigator\"]]\n"
-msgstr "[[!meta title=\"Easy Table Navigator (Улеснена Навигация в Таблиците)\"]]\n"
+msgstr "[[!meta title=\"Улеснена навигация в таблиците (Easy Table Navigator)\"]]\n"
 
 #. type: Plain text
 #, no-wrap

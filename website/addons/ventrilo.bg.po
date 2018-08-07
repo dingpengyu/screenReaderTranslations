@@ -27,7 +27,7 @@ msgstr "Автори: Beqa Gozalishvili, Kyle Borah"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "Изтегляне на [работна версия][2]"
+msgstr "Изтегляне на [тестова версия][2]"
 
 #. type: Plain text
 msgid ""

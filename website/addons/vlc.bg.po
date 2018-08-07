@@ -31,7 +31,7 @@ msgstr "Изтегляне на [стабилна версия][2]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][3]"
-msgstr "Изтегляне на [работна версия][3]"
+msgstr "Изтегляне на [тестова версия][3]"
 
 #. type: Plain text
 msgid "This addon provides some accessibility features for VLC Media Player."

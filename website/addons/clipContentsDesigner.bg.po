@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Clip Contents Designer\"]]\n"
-msgstr "[[!meta title=\"Clip Contents Designer (Дизайнер за Съдържанието на Клипборда)\"]]\n"
+msgstr "[[!meta title=\"Дизайнер за съдържанието на клипборда (Clip Contents Designer)\"]]\n"
 
 #. type: Bullet: '*	'
 msgid "Authors: Noelia Ruiz Martínez."

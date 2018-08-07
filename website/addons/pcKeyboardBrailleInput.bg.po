@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"PC Keyboard Braille Input for NVDA\"]]\n"
-msgstr "[[!meta title=\"PC Keyboard Braille Input for NVDA (Въвеждане на Брайл за NVDA от компютърна клавиатура)\"]]\n"
+msgstr "[[!meta title=\"Въвеждане на брайл за NVDA от компютърна клавиатура (PC Keyboard Braille Input for NVDA)\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -28,7 +28,7 @@ msgid ""
 "[1]"
 msgstr ""
 "- Автор: NV Access ООД - Авторски права: 2012-2014 NV Access ООД - Лиценз: "
-"GNU General Public License версия 2.0 - Изтегляне: [version 2014.1][1]"
+"GNU General Public License версия 2.0 - Изтегляне: [версия 2014.1][1]"
 
 #. type: Plain text
 msgid ""

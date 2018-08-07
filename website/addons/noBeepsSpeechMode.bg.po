@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"NoBeepsSpeechMode\"]]\n"
-msgstr "[[!meta title=\"NoBeepsSpeechMode (РежимНаГовораБезБибипкане)\"]]\n"
+msgstr "[[!meta title=\"Режим на говора без бибипкане (NoBeepsSpeechMode)\"]]\n"
 
 #. type: Bullet: '*	 '
 msgid "Author: Alberto Buffolino."
@@ -29,11 +29,11 @@ msgstr "Автор: Alberto Buffolino."
 
 #. type: Bullet: '*	 '
 msgid "download [stable version][1]"
-msgstr "Изтегляне [стабилна версия][1]"
+msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Bullet: '*	 '
 msgid "download [development version][2]"
-msgstr "Изтегляне [работна версия][2]"
+msgstr "Изтегляне на [тестова версия][2]"
 
 #. type: Plain text
 msgid ""

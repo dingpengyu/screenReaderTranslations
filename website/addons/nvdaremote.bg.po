@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"NVDA Remote Support\"]]\n"
-msgstr "[[!meta title=\"NVDA Remote Support (Поддръжка за управление от разстояние чрез NVDA)\"]]\n"
+msgstr "[[!meta title=\"Поддръжка за управление от разстояние чрез NVDA (NVDA Remote Support)\"]]\n"
 
 #. type: Bullet: '*	'
 msgid "Authors: Christopher Toth, Tyler Spivey"
