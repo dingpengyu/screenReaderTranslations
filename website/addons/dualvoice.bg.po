@@ -27,7 +27,7 @@ msgstr "Автор: Mahmood Taghavi."
 
 #. type: Bullet: '*   '
 msgid "download [stable version][1]"
-msgstr "изтегляне [стабилна версия][1]"
+msgstr "изтегляне на [стабилна версия][1]"
 
 #. type: Plain text
 msgid ""
