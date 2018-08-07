@@ -127,7 +127,7 @@ msgstr "Промени във версия 1.4"
 
 #. type: Bullet: '*   '
 msgid "Added download link for development version."
-msgstr "Добавена е връзка за изтегляне на работна версия на добавката."
+msgstr "Добавена е връзка за изтегляне на тестова версия на добавката."
 
 #. type: Title ##
 #, no-wrap
