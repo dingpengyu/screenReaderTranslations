@@ -3,37 +3,40 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: screenCurtain Addons website for NVDA\n"
 "POT-Creation-Date: 2018-08-08 05:05+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-07 23:56+0200\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Screen Curtain\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Screen Curtain\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Babbage B.V., Joseph Lee"
-msgstr ""
+msgstr "Auteurs : Babbage B.V., Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [development version][1]"
-msgstr ""
+msgstr "Télécharger [version de développement][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 7857 to life: adding screen curtain "
 "functionality on Windows 8 and later."
 msgstr ""
+"Ce module complémentaire apporte la vie au noyau de NVDA incidence 7857 : "
+"ajout de fonctionnalités de rideau d'écran sur Windows 8 et versions "
+"ultérieures."
 
 #. type: Plain text
 msgid ""
@@ -43,41 +46,57 @@ msgid ""
 "feature, NVDA will announce a status message, and in case screen curtain is "
 "active when NVDA starts, a tone will be heard."
 msgstr ""
+"Pour utiliser ce module complémentaire, accédez au menu NVDA/Outils/Screen "
+"Curtain. Si l'élément est coché, le screen curtain est actif, sinon il est "
+"désactivé. Vous pouvez également assigner une commande pour activer ou "
+"désactiver le Screen Curtain de partout. Lors du basculement de cette "
+"fonctionnalité, NVDA annoncera un message d'état et, si le screen curtain "
+"est activé au démarrage de NVDA, une tonalité sera émise."
 
 #. type: Plain text
 msgid ""
-"To ask NVDA to turn on screen curtain while using it, go to NVDA "
-"menu/Preferences/Settings/Screen curtain. Check \"use screen curtain\" "
-"checkbox to enable screen curtain, uncheck to disable. You can also "
-"configure this setting while profiles other than normal configuration is "
-"active so you can use screen curtain while a profile is active (while using "
-"an app, for example)."
+"To ask NVDA to turn on screen curtain while using it, go to NVDA menu/"
+"Preferences/Settings/Screen curtain. Check \"use screen curtain\" checkbox "
+"to enable screen curtain, uncheck to disable. You can also configure this "
+"setting while profiles other than normal configuration is active so you can "
+"use screen curtain while a profile is active (while using an app, for "
+"example)."
 msgstr ""
+"Pour demander à NVDA d'activer le screen curtain lors de son utilisation, "
+"accédez au menu NVDA/Préférences/Paramètres/Screen curtain. Cochez la case "
+"\"use screen curtain\" pour activer le screen curtain, décochez cette case "
+"pour le désactiver. Vous pouvez également configurer ce paramètre lorsque "
+"des profils autres que la configuration normale sont actifs afin que vous "
+"puissiez utiliser le screen curtain lorsqu'un profil est actif (lors de "
+"l'utilisation d'une application, par exemple)."
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
+"IMPORTANT : ceci est un module complémentaire de preuve de concept. Une "
+"fois la [fonctionnalité pertinente incluse dans NVDA][2], ce module "
+"complémentaire sera supprimé."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Version 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Première version"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/7857"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/7857"
