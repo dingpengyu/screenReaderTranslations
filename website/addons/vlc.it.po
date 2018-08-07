@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-29 21:16+1000\n"
-"PO-Revision-Date: 2018-06-18 11:06+0200\n"
+"PO-Revision-Date: 2018-08-07 15:38+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -26,16 +26,12 @@ msgid "Author: Javi Dominguez"
 msgstr "Autore: Javi Dominguez"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [stable version][2]"
 msgid "Download [stable version][2]"
 msgstr "Download [versione stabile][2]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [stable version][2]"
 msgid "Download [development version][3]"
-msgstr "Download [versione stabile][2]"
+msgstr "Download [versione in sviluppo][3]"
 
 #. type: Plain text
 msgid "This addon provides some accessibility features for VLC Media Player."
@@ -85,6 +81,9 @@ msgid ""
 "automatically when they are displayed. Press Control+Tab to try to bring "
 "them to the front."
 msgstr ""
+"Ci sono alcune finestre sovrapposte e riquadri che NVDA non è in grado di "
+"mettere a fuoco automaticamente quando vengono visualizzati. Premere ctrl"
+"+Tab per cercare di raggiungere questi elementi."
 
 #. type: Bullet: '* '
 msgid ""
@@ -103,6 +102,9 @@ msgid ""
 "(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) for more "
 "details."
 msgstr ""
+"Coperto dalla licenza GNU General Public License. Si veda il [file COPYING."
+"txt](https://github.com/javidominguez/VLC/blob/master/COPYING.txt) per "
+"ulteriori dettagli."
 
 #. type: Plain text
 #, no-wrap
@@ -110,34 +112,19 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[1]: https://addons.nvda-project.org/files/get.php?file=vlc [2]: https://"
-#| "addons.nvda-project.org/files/get.php?file=vlc-18"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
-msgstr ""
-"[1]: https://addons.nvda-project.org/files/get.php?file=vlc [2]: https://"
-"addons.nvda-project.org/files/get.php?file=vlc-18"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[1]: https://addons.nvda-project.org/files/get.php?file=vlc [2]: https://"
-#| "addons.nvda-project.org/files/get.php?file=vlc-18"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
-msgstr ""
-"[1]: https://addons.nvda-project.org/files/get.php?file=vlc [2]: https://"
-"addons.nvda-project.org/files/get.php?file=vlc-18"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[1]: https://addons.nvda-project.org/files/get.php?file=vlc [2]: https://"
-#| "addons.nvda-project.org/files/get.php?file=vlc-18"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
 msgstr ""
-"[1]: https://addons.nvda-project.org/files/get.php?file=vlc [2]: https://"
-"addons.nvda-project.org/files/get.php?file=vlc-18"
+"[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev[1]: https://"
+"addons.nvda-project.org/files/get.php?file=vlc [2]: https://addons.nvda-"
+"project.org/files/get.php?file=vlc-18"
 
 #, fuzzy
 #~| msgid "Download [stable version][2]"

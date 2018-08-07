@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-29 10:11+1000\n"
-"PO-Revision-Date: 2018-06-19 11:27+0200\n"
+"PO-Revision-Date: 2018-08-07 15:35+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -359,14 +359,10 @@ msgstr ""
 "risultato non appena verranno inseriti i dati"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will no longer announce \"Skype Message\" when reviewing messages "
-#| "for majority of cases."
 msgid "NVDA will no longer announce \"heading level\" for calculator results."
 msgstr ""
-"Nella maggior parte dei casi, NVDA non leggerà più i messaggi Skype di "
-"continuo quando se ne sta controllando uno"
+"NVDA non annuncerà più il livello di intestazione per i risultati dei "
+"calcoli."
 
 #. type: Title ##
 #, no-wrap
@@ -409,17 +405,13 @@ msgstr ""
 "feedback."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will announce appearance of Game Bar window. Due to technical "
-#| "limitations, NVDA cannot interact fully with Game Bar."
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical "
 "limitations, NVDA cannot interact fully with Game Bar prior to build 17723."
 msgstr ""
 "NVDA annuncerà la comparsa della barra dei giochi. Purtroppo a causa di "
 "limitazioni tecniche, l'interazione con la GameBar non è possibile in "
-"maniera completa."
+"maniera completa fino alla versione 17723."
 
 #. type: Bullet: '* '
 msgid ""
@@ -452,14 +444,13 @@ msgstr ""
 "mappa con le frecce."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Notifications such as file downloads and various webpage alerts are "
-#| "announced."
 msgid ""
 "Notifications such as file downloads and various webpage alerts, as well as "
 "availability of Reading View (if using Version 1709 and later) are announced."
-msgstr "Vengono annunciate correttamente le notifiche dei download dei file."
+msgstr ""
+"Vengono annunciate correttamente le notifiche dei download dei file, degli "
+"avvisi delle pagine web e se è disponibile la modalità lettura (dalla "
+"versione 1709 in poi)"
 
 #. type: Title ##
 #, no-wrap
@@ -510,16 +501,12 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When searching for contacts, a sound will play if there are search "
-#| "results."
 msgid ""
 "When searching for contacts, first suggestion will be announced, "
 "particularly if using recent app releases."
 msgstr ""
-"Durante la ricerca di contatti, verrà emesso un segnale acustico nel caso "
-"appaiono dei risultati di ricerca."
+"Durante la ricerca di contatti, verrà letto il primo suggerimento, in "
+"particolare se si utilizza le ultime versioni delle app."
 
 #. type: Title ##
 #, no-wrap
@@ -582,26 +569,16 @@ msgstr ""
 "per desktop."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Partial return of Control+NvDA+number row commands to read recent chat "
-#| "history and to move navigator object to chat entries just like Skype for "
-#| "Desktop."
 msgid ""
 "Control+NvDA+number row commands, used to read recent chat history and to "
 "move navigator object to chat entries in Skype for Desktop, is also "
 "available in Skype UWP."
 msgstr ""
-"Implementazione parziale della funzionalità di lettura rapida delle chat con "
-"ctrl+NVDA+numeri da 1 a 9, come accade in Skype Desktop."
+"Control+NVDA+fila dei numeri, utilizzato per leggere la cronologia delle "
+"chat recenti e per spostare il navigatore ad oggetti nelle varie voci della "
+"chat in Skype per Desktop, ora è anche disponibile in Skype UWP."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "You can now press Alt+number row to locate and move to conversations (1), "
-#| "contacts list (2), bots (3) and chat edit field if visible (4). Note that "
-#| "these commands will work properly if Skype update released in March 2017 "
-#| "is installed."
 msgid ""
 "You can press Alt+number row to locate and move to conversations (1), "
 "contacts list (2), bots (3) and chat edit field if visible (4). Note that "
@@ -622,11 +599,6 @@ msgstr ""
 "continuo quando se ne sta controllando uno"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "From message history list, pressing NVDA+D on a message item will now "
-#| "allow NVDA to announce detailed information about a message such as "
-#| "channel type, sent date and time and so on."
 msgid ""
 "From message history list, pressing NVDA+D on a message item will allow NVDA "
 "to announce detailed information about a message such as channel type, sent "
