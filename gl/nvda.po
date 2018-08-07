@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-03 19:07+1000\n"
-"PO-Revision-Date: 2018-06-28 16:55+0100\n"
+"PO-Revision-Date: 2018-08-07 11:53+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Equipo de tradución ao Galego <oprisniki@gmail.com>\n"
 "Language: gl_ES\n"
@@ -361,14 +361,12 @@ msgid "pwdedt"
 msgstr "pwdedt"
 
 #. Translators: Displayed in braille for an object which is deleted.
-#, fuzzy
 msgid "del"
-msgstr "dlg"
+msgstr "bor"
 
 #. Translators: Displayed in braille for an object which is inserted.
-#, fuzzy
 msgid "ins"
-msgstr "&Ligas"
+msgstr "ins"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -513,11 +511,11 @@ msgstr "Automático"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -589,14 +587,13 @@ msgid "to review"
 msgstr "á revisión"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
 msgid "Unknown braille display"
-msgstr "Liñas braille Seika"
+msgstr "Pantalla braille descoñecida"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "Bluetooth serie: {portName}"
+msgstr "Bluetooth Serie: {port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
@@ -668,9 +665,8 @@ msgstr "Braille de ordenador de 8 pontos Búlgaro"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Central Kurdish grade 1"
-msgstr "Sueco grao 1"
+msgstr "Curdo central grao 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -684,7 +680,6 @@ msgstr "Galés grao 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Czech 8 dot computer braille"
 msgstr "Sueco computerizado de 8 pontos"
 
@@ -790,9 +785,8 @@ msgstr "Inglés (U.S.) grao 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Esperanto grade 1"
-msgstr "Alemán grao 1"
+msgstr "Esperanto grao 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -901,9 +895,8 @@ msgstr "Húngaro grao 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Hungarian grade 2"
-msgstr "Húngaro grao 1"
+msgstr "Húngaro grao 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -3873,13 +3866,12 @@ msgid "No status line found"
 msgstr "Liña de estado non atopada"
 
 #. Translators: Reported when status line exist, but is empty.
-#, fuzzy
 msgid "no status bar information"
-msgstr "Sen información de localización"
+msgstr "non hai información da barra de estado"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
-msgstr ""
+msgstr "Imposible copiar o contido da barra de estado ao portapapeis"
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -4846,17 +4838,17 @@ msgstr "Aragonés"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr ""
+msgstr "Curdo Central"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr ""
+msgstr "Curdo Norteño"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "Birmán"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -7316,7 +7308,7 @@ msgstr "desactivada"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
-msgstr ""
+msgstr "Non hai emoji"
 
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
