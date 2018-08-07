@@ -31,7 +31,7 @@ msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Bullet: '*	 '
 msgid "download [development version][2]"
-msgstr "Изтегляне на [работна версия][2]"
+msgstr "Изтегляне на [тестова версия][2]"
 
 #. type: Plain text
 msgid ""
