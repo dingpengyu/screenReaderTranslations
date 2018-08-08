@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-06 04:01+1000\n"
-"PO-Revision-Date: 2018-07-29 22:54+0100\n"
+"PO-Revision-Date: 2018-08-08 11:43+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
@@ -26,10 +26,8 @@ msgid "Author: Joseph Lee"
 msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [stable version][1]"
 msgid "Download [prototype version][1]"
-msgstr "Descargar [versión estable][1]"
+msgstr "Descargar [versión prototipo][1]"
 
 #. type: Plain text
 msgid ""
@@ -81,53 +79,53 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
-#| "is included in NVDA, this add-on will be discontinued."
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
-"IMPORTANTE: éste é un complemento como proba de concepto. Unha vez a "
-"funcionalidad principal se inclúa no núcleo do NVDA, este complemento será "
-"descontinuado."
+"IMPORTANTE: éste é un complemento como proba de concepto. Unha vez [a "
+"característica en cuestión se inclúa no núcleo do NVDA][2], este complemento "
+"será descontinuado."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.08.5"
-msgstr "Versión 18.08"
+msgstr "Versión 18.08.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where Add-on Updater settings panel failed to show if one or "
 "more add-ons had badly formatted manifest data."
 msgstr ""
+"Solucionado un erro polo que o panel de configuración do Add-on Updater non "
+"se amosaba se un ou máis complementos tiña datos de manifest malformados."
 
 #. type: Bullet: '* '
 msgid ""
 "Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
 "for updates."
 msgstr ""
+"engadida a familia de complementos Nuance vocalizer aos complementos que non "
+"se verificarán para actualizacións."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.08.4"
-msgstr "Versión 18.08"
+msgstr "Versión 18.08.4"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
 "progress beep when trying to check for add-on updates."
 msgstr ""
+"Arranxada unha regresión introducida na 18.08.3 na que NVDA reproducía "
+"continuamente un pitido de progreso ao tentar verificar as actualizacións de "
+"complementos."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.08.3"
-msgstr "Versión 18.08"
+msgstr "Versión 18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -135,12 +133,14 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"Engadida capacidade para ixcluír complementos de seren actualizados mediante "
+"una caixa de lista de verificación localizable no panel de axustes de Add-on "
+"Updater. Os elementos verificados non se actualizarán."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.08.1"
-msgstr "Versión 18.08"
+msgstr "Versión 18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -148,6 +148,9 @@ msgid ""
 "24 hours). This is configured through a new Add-on Updater settings panel "
 "found in NVDA settings."
 msgstr ""
+"Agora é posible que NVDA verifique actualizacions automaticamente (cada 24 "
+"horas). Isto configúrase a través dun novo panel de configuración de Add-on "
+"Updater nas opcións do NVDA:"
 
 #. type: Title ##
 #, no-wrap
@@ -159,10 +162,9 @@ msgid "Initial version."
 msgstr "Versión inicial."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev stable]]\n"
+#, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
@@ -170,4 +172,4 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
