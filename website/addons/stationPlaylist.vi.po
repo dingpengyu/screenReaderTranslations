@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-30 14:57+1000\n"
-"PO-Revision-Date: 2018-08-06 20:32+0700\n"
+"PO-Revision-Date: 2018-08-07 09:59+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1117,12 +1117,17 @@ msgid ""
 "will present more appropriate messages instead of saying that another find "
 "dialog is open."
 msgstr ""
+"Khi mở một hộp thoại tìm kiếm từ Studio và xảy ra lỗi không mong muốn, NVDA "
+"sẽ trình bày thêm các thông điệp hợp lý thay vì chỉ nói rằng một hộp thoại "
+"tìm kiếm khác đang mở."
 
 #. type: Bullet: '* '
 msgid ""
 "In encoders window, NVDA will no longer play error tones or appear to do "
 "nothing when attempting to open encoder settings dialog (Alt+NVDA+0)."
 msgstr ""
+"Trong cửa sổ của các bộ mã hóa, NVDA sẽ không còn phát âm tanh báo lỗi hoặc "
+"không làm gì khi nỗ lực mở hộp thoại cài đặt mã hóa (Alt+NVDA+0)."
 
 #. type: Title ##
 #, no-wrap
@@ -1135,12 +1140,17 @@ msgid ""
 "applied to the currently selected and/or active profile without closing the "
 "dialog first. This feature is available for NVDA 2018.2 users."
 msgstr ""
+"Trong hộp thoại cài đặt add-on, thêm nút \"Áp dụng\" để có thể áp dụng các "
+"thay đổi cho hồ sơ hiện tại mà không đóng hộp thoại. Tính năng này hoạt động "
+"với NVDA 2018.2."
 
 #. type: Bullet: '* '
 msgid ""
 "Resolved an issue where NVDA would apply changes to Columns Explorer "
 "settings despite pressing Cancel button from add-on settings dialog."
 msgstr ""
+"Khắc phục lỗi NVDA áp dụng các thay đổi cho cài đặt khám phá cột mặc dù bấm "
+"nút hủy từ hộp thoại cài đặt add-on."
 
 #. type: Bullet: '* '
 msgid ""

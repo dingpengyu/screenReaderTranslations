@@ -3,37 +3,39 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-08 05:05+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-08 08:26+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Screen Curtain\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Screen Curtain\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Babbage B.V., Joseph Lee"
-msgstr ""
+msgstr "Tác giả: Babbage B.V., Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [development version][1]"
-msgstr ""
+msgstr "Tải về [phiên bản thử nghiệm][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 7857 to life: adding screen curtain "
 "functionality on Windows 8 and later."
 msgstr ""
+"Add-on này hiện thực hóa yêu cầu 7857 của NVDA: thêm tính năng screen "
+"curtain (làm mờ màn hình) của Windows 8 trở lên."
 
 #. type: Plain text
 msgid ""
@@ -43,41 +45,54 @@ msgid ""
 "feature, NVDA will announce a status message, and in case screen curtain is "
 "active when NVDA starts, a tone will be heard."
 msgstr ""
+"Để dùng add-on này, mở trình đơn NVDA/Công cụ/Screen Curtain. Nếu mục này "
+"được chọn, screen curtain sẽ được bật, ngược lại thì nó tắt. Bạn cũng có "
+"thể gán lệnh để bật / tắt tính năng này ở bất cứ đâu. Khi bật / tắt tính "
+"năng này, NVDA sẽ có một thông điệp thông báo trạng thái, và trong trường "
+"hợp nó đã được kích hoạt khi khởi động NVDA, sẽ có một âm thanh thông báo."
 
 #. type: Plain text
 msgid ""
-"To ask NVDA to turn on screen curtain while using it, go to NVDA "
-"menu/Preferences/Settings/Screen curtain. Check \"use screen curtain\" "
-"checkbox to enable screen curtain, uncheck to disable. You can also "
-"configure this setting while profiles other than normal configuration is "
-"active so you can use screen curtain while a profile is active (while using "
-"an app, for example)."
+"To ask NVDA to turn on screen curtain while using it, go to NVDA menu/"
+"Preferences/Settings/Screen curtain. Check \"use screen curtain\" checkbox "
+"to enable screen curtain, uncheck to disable. You can also configure this "
+"setting while profiles other than normal configuration is active so you can "
+"use screen curtain while a profile is active (while using an app, for "
+"example)."
 msgstr ""
+"Để NVDA bật screen curtain khi nó đang chạy, vào trình đơn NVDA/Tùy chọn/"
+"Cấu hình/Screen curtain. Đánh dấu hộp kiểm \"use screen curtain\" để bật "
+"screen curtain, bỏ chọn để tắt. Bạn cũng có thể cấu hình tính năng này khi "
+"đang kích hoạt một hồ sơ khác với hồ sơ cấu hình bình thường để bạn có thể "
+"bật nó khi kích hoạt một hồ sơ cấu hình (ví dụ như khi đang dùng một ứng "
+"dúngnào đó)."
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
+"Quan trọng: đây là nhóm add-on chữa cháy. khi [các tính năng thích hợp được "
+"bao gồm trong NVDA][2], add-on này sẽ bị khai tử."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Phiên bản 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Phiên bản đầu tiên."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/7857"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/7857"
