@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-30 14:57+1000\n"
-"PO-Revision-Date: 2018-08-07 09:59+0700\n"
+"PO-Revision-Date: 2018-08-08 21:10+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -185,8 +185,8 @@ msgid ""
 "Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
 "and Track Tool): Announce previous/next track column."
 msgstr ""
-"Control+Alt+mũi tên trái phải (khi focused ở một track trong Studio, "
-"Creator, và Track Tool): thông báo các cột trước / sau của track."
+"Control+Alt+mũi tên trái phải (khi đứng ở một track trong Studio, Creator, "
+"và Track Tool): thông báo các cột trước / sau của track."
 
 #. type: Bullet: '* '
 msgid ""
@@ -194,9 +194,9 @@ msgid ""
 "previous or next track and announce specific columns (unavailable in add-on "
 "15.x)."
 msgstr ""
-"Control+Alt+mũi tên lên / xuống (chỉ khi focused ở tại một track trong "
-"Studio): chuyển đến track trước hoặc kế và thông báo các cột cụ thể (không "
-"hỗ trợ cho các add-on phiên bản 15.x)."
+"Control+Alt+mũi tên lên / xuống (chỉ khi đứng ở tại một track trong Studio): "
+"chuyển đến track trước hoặc kế và thông báo các cột cụ thể (không hỗ trợ cho "
+"các add-on phiên bản 15.x)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -204,7 +204,7 @@ msgid ""
 "Track Tool): Announce column content for a specified column. Pressing this "
 "command twice will display column information on a browse mode window."
 msgstr ""
-"Control+NVDA+1 đến 0 (khi focused ở tại một track trong Studio, Creator và "
+"Control+NVDA+1 đến 0 (khi đứng ở tại một track trong Studio, Creator và "
 "Track Tool): thông báo nội dung cho một cột đã định. Bấm hai lần sẽ hiển thị "
 "thông tin trên cửa sổ duyệt tài liệu."
 
@@ -853,7 +853,7 @@ msgid ""
 "to present playlist snapshot information as a webpage so you can use browse "
 "mode to navigate (press escape to close)."
 msgstr ""
-"Bạn có thể bấm SPL Assistant, F8 khi focused ở tại một danh sách phát trong "
+"Bạn có thể bấm SPL Assistant, F8 khi đứng ở tại một danh sách phát trong "
 "Studio để thu thập nhiều thông tin thống kê về danh sách phát đó, bao gồm số "
 "track trong danh sách phát, track dài nhất, ca sĩ tiêu biểu và nhiều nữa. "
 "Sau khi gán một lệnh tùy chỉnh cho tính năng này, bấm phím lệnh đó hai lần "
@@ -1084,8 +1084,8 @@ msgid ""
 "When focused on a track in Creator and Track Tool, pressing Control+NVDA"
 "+number row twice will present column information on a browse mode window."
 msgstr ""
-"Khi focused ở tại một track trong Creator và Track Tool, bấm Control+NVDA"
-"+các phím số hai lần sẽ trình bày các cột thông tin trên một cửa sổ ở chế độ "
+"Khi đứng ở tại một track trong Creator và Track Tool, bấm Control+NVDA+các "
+"phím số hai lần sẽ trình bày các cột thông tin trên một cửa sổ ở chế độ "
 "duyệt."
 
 #. type: Bullet: '* '
@@ -1094,7 +1094,7 @@ msgid ""
 "Navigator to first or last column for the focused track."
 msgstr ""
 "Trong Creator và Track Tool, đã thêm các phím Control+Alt+Home/End để di "
-"chuyển đến cột đầu hay cuối cho track có focused."
+"chuyển đến cột đầu hay cuối cho track tại vị trí con trỏ."
 
 #. type: Title ##
 #, no-wrap
@@ -1158,34 +1158,45 @@ msgid ""
 "track, NVDA will display column information for a specific column on a "
 "browse mode window."
 msgstr ""
+"Trong Studio, bấm Control+NVDA+phím số hai lần khi đứng tại một track để "
+"hiển thị thông tin cho một cột cụ thể trên một cửa sổ chế độ duyệt."
 
 #. type: Bullet: '* '
 msgid ""
 "While focused on a track in Studio, pressing Control+NVDA+Dash will display "
 "data for all columns on a browse mode window."
 msgstr ""
+"Khi đứng ở một track trong Studio, bấm Control+NVDA+trừ sẽ hiển thị dữ liệu "
+"của tất cả các cột trên một cửa sổ chế độ duyệt."
 
 #. type: Bullet: '* '
 msgid ""
 "In StationPlaylist Creator, when focused on a track, pressing Control+NVDA"
 "+number row will announce data in specific column."
 msgstr ""
+"Trong StationPlaylist Creator, khi đứng ở một track, bấm Control+NVDA+phím "
+"số sẽ thông báo dữ liệu cho một cột cụ thể."
 
 #. type: Bullet: '* '
 msgid ""
 "Added a button in Studio add-on settings to configure Columns Explorer for "
 "SPL Creator."
 msgstr ""
+"Thêm một nút trong hộp thoại cài đặt Studio add-on để cấu hình khám phá các "
+"cột cho SPL Creator."
 
 #. type: Bullet: '* '
 msgid "Added Markdown table format as a playlist transcripts format."
 msgstr ""
+"Thêm định dạng Markdown như một định dạng cho bảng điểm của danh sách phát."
 
 #. type: Bullet: '* '
 msgid ""
 "The developer feedback email command has changed from Control+NVDA+dash to "
 "Alt+NVDA+dash."
 msgstr ""
+"Phím lệnh gửi thư điện tử cho nhóm phát triển đã được đổi từ Control+NVDA"
+"+trừ thành Alt+NVDA+trừ."
 
 #. type: Title ##
 #, no-wrap
@@ -1198,6 +1209,10 @@ msgid ""
 "defining analysis range (SPL Assistant, F9 at the start of the analysis "
 "range) and moving to another item and performing playlist snapshots command."
 msgstr ""
+"Thêm khả năng chụp nhanh một phần ảnh của danh sách phát. Có thể làm điều "
+"này bằng cách chỉ định khoảng phân tích (SPL Assistant, F9 ở điểm bắt đầu "
+"của khoảng cần phân tích) và chuyển một mục khác rồi thực hiện lệnh chụp ảnh "
+"danh sách phát."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1205,12 +1220,18 @@ msgid ""
 "number of formats (Shift+F8). These include plain text, an HTML table, or an "
 "HTML list."
 msgstr ""
+"Thêm một lệnh mới trong SPL Assistant để yêu cầu bảng điểm của danh sách "
+"phát ở một số định dạng (Shift+F8). Chúng bao gồm văn bản thô, bảng HTML hay "
+"danh sách HTML."
 
 #. type: Bullet: '* '
 msgid ""
 "Various playlist analysis features such as track time analysis and playlist "
 "snapshots are now grouped under the theme of \"Playlist Analyzer\"."
 msgstr ""
+"Nhiều tính năng phân tích danh sách phát như phân tích track theo thời gian "
+"và ảnh chụp danh sách phát giờ đây được liệt kê trong giao diện của \"Trình "
+"phân tích danh sách phát\"."
 
 #. type: Title ##
 #, no-wrap
@@ -1222,6 +1243,8 @@ msgid ""
 "NVDA will no longer fail to start countdown timer for time-based broadcast "
 "profiles if NVDA with wxPython 4 toolkit installed is in use."
 msgstr ""
+"NVDA sẽ không còn bị lỗi khi đếm ngược đến giờ hẹn cho một hồ sơ phát theo "
+"thời gian nếu NVDA được cài đặt và dùng với wxPython 4 toolkit."
 
 #. type: Title ##
 #, no-wrap
@@ -1233,24 +1256,32 @@ msgid ""
 "Changes were made to make add-on update check feature more reliable, "
 "particularly if automatic add-on update check is enabled."
 msgstr ""
+"Đã thực hiện các thay đổi để tính năng kiểm tra cập nhật add-on trở nên đáng "
+"tin cậy hơn, cụ thể là khi bật tính năng tự kiểm tra cập nhật."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will play a tone to indicate start of library scan when it is "
 "configured to play beeps for various announcements."
 msgstr ""
+"NVDA sẽ phát một âm thanh để biểu thị việc bắt đầu quét thư viện khi nó được "
+"cấu hình phát tiếng beep cho các thông báo khác nhau."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will start library scan in the background if library scan is started "
 "from Studio's Options dialog or at startup."
 msgstr ""
+"NVDA sẽ bắt đầu ngầm quét thư viện nếu nó được bắt đầu từ các hộp thoại tùy "
+"chọn của Studio hoặc bắt đầu khi khởi động."
 
 #. type: Bullet: '* '
 msgid ""
 "Double-tapping on a track on a touchscreen computer or performing default "
 "action command will now select the track and move system focus to it."
 msgstr ""
+"Chạm hai lần vào track trên màn hình cảm ứng hoặc thực hiện các lệnh mặc "
+"định sẽ chọn track và chuyển con trỏ hệ thống đến nó."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1258,6 +1289,9 @@ msgid ""
 "of hour markers only, resolves several issues where NVDA appeared to not "
 "take snapshots."
 msgstr ""
+"Khi chụp ảnh của danh sách phát (SPL Assistant, F8), nếu một danh sách phát "
+"chỉ bao gồm các điểm đánh dấu theo giờ, sửa vài lỗi làm cho NVDA không thực "
+"hiện chụp ảnh."
 
 #. type: Title ##
 #, no-wrap
@@ -1270,6 +1304,9 @@ msgid ""
 "starts, NVDA will honor this setting and no longer announce streaming status "
 "when switching to and from instant switch profiles."
 msgstr ""
+"Nếu được cấu hình để thông báo trạng thái metadata streaming khi khởi động "
+"Studio, NVDA sẽ tôn trọng thiết lập này và không thông báo trạng thái phát "
+"khi chuyển đến và chuyển đi khỏi các hồ sơ chuyển nhánh."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1278,12 +1315,18 @@ msgid ""
 "longer announce this information multiple times when switching profiles "
 "quickly."
 msgstr ""
+"Nếu chuyển đến hay chuyển đi khỏi một hồ sơ chuyển nhanh, và NVDA được cấu "
+"hình thông báo trạng thái metadata streaming khi nó xuất hiện, NVDA sẽ không "
+"còn đọc thông tin này nhiều lần khi chuyển nhanh đến các hồ sơ."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will remember to switch to the appropriate time-based profile (if "
 "defined for a show) after NVDA restarts multiple times during broadcasts."
 msgstr ""
+"NVDA sẽ nhớ chuyển đến các hồ sơ theo thời gian thích hợp (nếu chỉ định cho "
+"một chương trình) sau khi khởi động lại NVDA nhiều lần trong chương trình "
+"phát thanh."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1291,12 +1334,18 @@ msgid ""
 "settings dialog is opened and closed, NVDA will still switch back to the "
 "original profile once the time-based profile is finished."
 msgstr ""
+"Nếu một hồ sơ theo thời gian có thời lượng hoạt động đang chạy và khi hộp "
+"thoại cài đặt add-on được mở hay đóng, NVDA vẫn sẽ chuyển trở về hồ sơ "
+"nguyên thủy khi kết thúc hồ sơ theo thời gian."
 
 #. type: Bullet: '* '
 msgid ""
 "If a time-based profile is active (particularly during broadcasts), changing "
 "broadcast profile triggers via add-on settings dialog will not be possible."
 msgstr ""
+"Nếu một hồ sơ theo thời gian được kích hoạt (cụ thể là trong lúc phát "
+"thanh), sẽ không thay đổi được tác nhân hồ sơ phát thanh thông qua hộp thoại "
+"cài đặt ađd-on."
 
 #. type: Title ##
 #, no-wrap
@@ -1308,6 +1357,8 @@ msgid ""
 "18.02: Due to internal changes made to support extension points and other "
 "features, NVDA 2017.4 is required."
 msgstr ""
+"18.02: do các thay đổi bên trong để hỗ trợ các tính năng mở rộng nên yêu cầu "
+"NVDA 2017.4."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1315,12 +1366,17 @@ msgid ""
 "NVDA from source code or with secure mode turned on. Secure mode check is "
 "applicable to 15.13-LTS as well."
 msgstr ""
+"Việc cập nhật add-on sẽ không thực hiện được trong vài trường hợp bao gồm "
+"chạy NVDA từ mã nguồn hay chế độ bảo vệ đang bật. Việc kiểm tra chế độ bảo "
+"vệ cũng áp dụng cho 15.13-LTS."
 
 #. type: Bullet: '* '
 msgid ""
 "If errors occur while checking for updates, these will be logged and NVDA "
 "will advise you to read the NVDA log for details."
 msgstr ""
+"Nếu có lỗi xảy ra khi kiểm tra cập nhật, chúng sẽ được ghi lại và NVDA sẽ "
+"gợi ý bạn đọc nó để biết thêm chi tiết."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1328,6 +1384,9 @@ msgid ""
 "such as update interval will not be displayed if add-on updating is not "
 "supported."
 msgstr ""
+"Trong cài đặt add-on, nhiều cài đặt cập nhật trong phần cài đặt nâng cao như "
+"cập nhật theo thời gian sẽ không hiển thị nếu không được hỗ trợ cập nhật add-"
+"on."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1335,6 +1394,9 @@ msgid ""
 "instant switch profile or a time-based profile and NVDA is configured to "
 "announce metadata streaming status."
 msgstr ""
+"NVDA sẽ không còn tình trạng bị đóng băng hoặc không làm gì khi chuyển đến "
+"một hồ sơ chuyển nhanh hay hồ sơ theo thời gian và NVDA được cấu hình để "
+"thông báo trạng thái metadata streaming."
 
 #. type: Title ##
 #, no-wrap
@@ -1346,6 +1408,8 @@ msgid ""
 "When using JAWS layout for SPL Assistant, update check command (Control+Shift"
 "+U) now works correctly."
 msgstr ""
+"Khi dùng kiểu phím lệnh của JAWS cho SPL Assistant, lệnh kiểm tra cập nhật "
+"(Control+Shift+U) đã làm việc chính xác."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1353,6 +1417,9 @@ msgid ""
 "changes such as enabling alarm and changes to microphone alarm interval are "
 "applied when closing the dialog."
 msgstr ""
+"Khi thay đổi cài đặt báo động cho microphone thông qua hộp thoại báo động "
+"(Alt+NVDA+4), các thay đổi như bật báo động và thay đổi của báo động "
+"microphone theo giờ được áp dụng khi đóng hộp thoại."
 
 #. type: Title ##
 #, no-wrap
@@ -1369,30 +1436,41 @@ msgid ""
 "microphone alarm and metadata streaming feature to respond to changes in "
 "broadcast profiles. This requires NvDA 2017.4."
 msgstr ""
+"Vài tính năng của add-on đã được cải thiện. Điều này cho phép báo động "
+"microphone và metadata streaming phản hồi đến các thay đổi trong hồ sơ phát "
+"thanh. Yêu cầu NvDA 2017.4."
 
 #. type: Bullet: '* '
 msgid ""
 "When Studio exits, various add-on dialogs such as add-on settings, alarm "
 "dialogs and others will close automatically. This requires NVDA 2017.4."
 msgstr ""
+"Khi thoát Studio, nhiều hộp thoại của add-on như cài đặt add-on, hộp thoại "
+"báo động và nhiều nữa sẽ tự đóng lại. Yêu cầu NVDA 2017.4."
 
 #. type: Bullet: '* '
 msgid ""
 "Added a new command in SPL Controller layer to announce name of the upcoming "
 "track if any (Shift+C)."
 msgstr ""
+"Thêm một lệnh mới trong bộ điều khiển SPL để thông báo tên của track sắp tới "
+"nếu có (Shift+C)."
 
 #. type: Bullet: '* '
 msgid ""
 "You can now press cart keys (F1, for example) after entering SPl Controller "
 "layer to play assigned carts from anywhere."
 msgstr ""
+"Giờ bạn có thể bấm các phím của cart (ví dụ như F1) sau khi vào bộ điều "
+"khiển SPl để phát các cart được gán ở bất cứ đâu."
 
 #. type: Bullet: '* '
 msgid ""
 "Due to changes introduced in wxPython 4 GUI toolkit, stream label eraser "
 "dialog is now a combo box instead of a number entry field."
 msgstr ""
+"Do các thay đổi có trong wxPython 4 GUI toolkit, hộp thoại xóa nhãn phát "
+"thanh giờ đây là một hộp xổ thay vì là một trường nhập số."
 
 #. type: Title ##
 #, no-wrap
@@ -1405,12 +1483,17 @@ msgid ""
 "Service Pack 1. The next stable version for these Windows releases will be a "
 "15.x LTS release."
 msgstr ""
+"Đây là phiên bản chính thức cuối cùng  còn hỗ trợ Windows XP, Vista và 7 "
+"không có Service Pack 1. Phiên bản sắp tới cho các hệ điều hành này sẽ là "
+"bản phát hành 15.x LTS."
 
 #. type: Bullet: '* '
 msgid ""
 "If using Windows releases prior to Windows 7 Service Pack 1, you cannot "
 "switch to development channels."
 msgstr ""
+"Nếu dùng các bản phát hành Windows trước Windows 7 Service Pack 1, bạn không "
+"thể chuyển sang kênh thử nghiệm."
 
 #. type: Title ##
 #, no-wrap
@@ -1424,6 +1507,9 @@ msgid ""
 "with a track loaded. Because of this change, when using Studio 5.20, build "
 "48 or later is required."
 msgstr ""
+"NVDA sẽ không còn phát âm thanh báo lỗi hoặc không làm gì khi dùng các phím "
+"Control+Alt+mũi tên trái phải để điều hướng qua các cột trong Track Tool "
+"5.20 với một track đã mở. Thay đổi này yêu cầu Studio 5.20, build 48 trở lên."
 
 #. type: Title ##
 #, no-wrap
@@ -1440,6 +1526,9 @@ msgid ""
 "while microphone is on, NVDA will no longer play microphone alarm tone from "
 "everywhere."
 msgstr ""
+"Nếu báo động microphone hay báo giờ theo thời gian được bật, và nếu thoát "
+"Studio trong khi còn bật microphone, NVDA sẽ không còn phát âm báo động "
+"microphone từ mọi cửa sổ."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1447,23 +1536,31 @@ msgid ""
 "instant switch profile, instant switch flag won't be removed from the switch "
 "profile."
 msgstr ""
+"Khi xóa các hồ sơ phát thanh và nếu một hồ sơ khác trở thành hồ sơ chuyển "
+"nhanh, cờ báo chuyển nhanh sẽ không bị gỡ khỏi hồ sơ chuyển."
 
 #. type: Bullet: '* '
 msgid ""
 "If deleting an active profile that is not an instant switch or a time-based "
 "profile, NVDA will ask once more for confirmation before proceeding."
 msgstr ""
+"Nếu xóa một hồ sơ đang hoạt động mà không phải hồ sơ chuyển nhánh hay theo "
+"thời gian, NVDA sẽ hỏi một lần nữa để xác nhận trước khi thực hiện."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will apply correct settings for microphone alarm settings when "
 "switching profiles via add-on settings dialog."
 msgstr ""
+"NVDA sẽ áp dụng chính xác các cài đặt cho báo động microphone khi chuyển "
+"sang các hồ sơ thông qua hộp thoại cài đặt add-on."
 
 #. type: Bullet: '* '
 msgid ""
 "You can now press SPL Controller, H to obtain help for SPL Controller layer."
 msgstr ""
+"Giờ bạn có thể bấm SPL Controller, H để xem thông tin giúp đỡ cho bộ điều "
+"khiển SPL."
 
 #. type: Title ##
 #, no-wrap
@@ -1476,6 +1573,10 @@ msgid ""
 "switch to Test Drive Fast update channel. A future release of this add-on "
 "will move users of old Windows versions to a dedicated support channel."
 msgstr ""
+"Nếu dùng các bản phát hành Windows trước Windows 7 Service Pack 1, bạn không "
+"thể chuyển sang kênh cập nhật Test Drive Fast. Một bản phát hành trong tương "
+"lai của add-on này sẽ chuyển những người dùng các phiên bản Windows cũ sang "
+"một kênh hỗ trợ riêng."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1483,6 +1584,9 @@ msgid ""
 "of playlist notification and others are now located in the new general add-"
 "on settings dialog (accessed from a new button in add-on settings)."
 msgstr ""
+"Vài cài đặt chung như tiếng beep thông báo trạng thái, thông báo về đầu hay "
+"cuối danh sách phát và nhiều nữa giờ đây đã được lưu tại hộp thoại cài đặt "
+"add-on mới (truy cập từ một nút mới trong cài đặt add-on)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1490,6 +1594,10 @@ msgid ""
 "profile, or not load settings from disk when Studio starts. These are "
 "controlled by new command-line switches specific to this add-on."
 msgstr ""
+"Giờ đã có thể gán thuộc tính chỉ đọc (read-only) cho các tùy chọn của add-"
+"on, chỉ cần dùng hồ sơ bình thường, hoặc không gọi các cài đặt từ ổ đĩa khi "
+"khởi động Studio. Những điều này được điều khiển bởi một lệnh chuyển mới "
+"dành riêng cho add-on này."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1499,6 +1607,11 @@ msgid ""
 "\" (do not load settings from disk), and \"--spl-normalprofileonly\" (only "
 "use normal profile)."
 msgstr ""
+"Khi chạy NVDA từ hộp thoại Run (Windows+R), bạn có thể dùng thêm các dòng "
+"lệnh chuyển để thay đổi cách hoạt động của add-on. Chúng bao gồm \"--spl-"
+"configvolatile\" (thuộc tính chỉ đọc cho các cài đặt), \"--spl-configinmemory"
+"\" (không gọi các cài đặt từ ổ đĩa), và \"--spl-normalprofileonly\" (chỉ "
+"dùng hồ sơ bình thường)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1506,6 +1619,9 @@ msgid ""
 "NVDA will no longer give misleading announcement when switching to an "
 "instant switch profile when using Studio again."
 msgstr ""
+"Nếu thoát Studio (nhưng không thoát NVDA) khi một hồ sơ chuyển nhanh đang "
+"hoạt động, NVDA sẽ không còn đưa ra thông báo gây hiểu lầm khi chuyển đến "
+"một hồ sơ chuyển nhanh khi dùng lại Studio."
 
 #. type: Title ##
 #, no-wrap
@@ -1520,6 +1636,12 @@ msgid ""
 "Windows releases. End of support for old Windows releases from this add-on "
 "(via long-term support release) is scheduled for April 2018."
 msgstr ""
+"Như là kết quả của một thông báo từ NV Access rằng NVDA 2017.3 sẽ là phiên "
+"bản cuối cùng hỗ trợ các phiên bản Windows trước windows 7 Service Pack 1, "
+"Studio add-on sẽ hiện một thông điệp nhắc nhớ chuyện này nếu chạy từ các bản "
+"phát hành Windows cũ. Ngưng hỗ trợ cho các bản phát hành Windows cũ từ add-"
+"on này (thông qua bản phát hành hỗ trợ dài hạn) được lên lịch cho tháng tư "
+"2018."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1527,6 +1649,9 @@ msgid ""
 "if started with minimal (nvda -rm) flag set. The sole exception is the old "
 "Windows release reminder dialog."
 msgstr ""
+"NVDA sẽ không còn hiện hộp thoại startup hoặc thông báo phiên bản Studio nếu "
+"được chạy với lệnh chuyển minimal (nvda -rm). Chỉ ngoại lệ cho hộp thoại các "
+"bản phát hành Windows cũ."
 
 #. type: Title ##
 #, no-wrap
@@ -1584,6 +1709,8 @@ msgid ""
 "NVDA will no longer fail to check for add-on updates if update interval is "
 "set to 25 days or longer."
 msgstr ""
+"NVDA sẽ không còn tình trạng lỗi kiểm tra cập nhật add-on nếu cập nhật theo "
+"thời gian được thiết lập là 25 ngày trở lên."
 
 #. type: Bullet: '* '
 msgid ""
