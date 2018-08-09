@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-03 19:07+1000\n"
-"PO-Revision-Date: 2018-08-07 16:09+0800\n"
+"PO-Revision-Date: 2018-08-09 07:59+0800\n"
 "Last-Translator: 王建立 <wangjanli@gmail.com>\n"
 "Language-Team: Jerry Wang @ TDTB <wangjanli@gmail.com>\n"
 "Language: zh_TW\n"
@@ -551,25 +551,25 @@ msgstr "lv %s"
 #. Occurences of %s are replaced with the corresponding row numbers.
 #, python-brace-format
 msgid "r{rowNumber}-{rowSpan}"
-msgstr "從第 {rowNumber} 列向下合併了 {rowSpan} 列"
+msgstr "r{rowNumber}-{rowSpan}"
 
 #. Translators: Displayed in braille for a table cell row number.
 #. %s is replaced with the row number.
 #, python-brace-format
 msgid "r{rowNumber}"
-msgstr "第 {rowNumber} 列"
+msgstr "r{rowNumber}"
 
 #. Translators: Displayed in braille for the table cell column numbers when a cell spans multiple columns.
 #. Occurences of %s are replaced with the corresponding column numbers.
 #, python-brace-format
 msgid "c{columnNumber}-{columnSpan}"
-msgstr "從第 {columnNumber} 欄向右合併了 {columnSpan} 欄"
+msgstr "c{columnNumber}-{columnSpan}"
 
 #. Translators: Displayed in braille for a table cell column number.
 #. %s is replaced with the column number.
 #, python-brace-format
 msgid "c{columnNumber}"
-msgstr "第 {columnNumber} 欄"
+msgstr "c{columnNumber}"
 
 #. Translators: Displayed in braille at the end of a control field such as a list or table.
 #. %s is replaced with the control's role.
@@ -597,7 +597,7 @@ msgstr "未知的點顯器"
 #. Translators: Name of a Bluetooth serial communications port.
 #, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "藍牙串列：{portName} ({deviceName})"
+msgstr "藍牙串列：{port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
@@ -5884,7 +5884,7 @@ msgstr "第%s列"
 #. Translators: Speaks the column span added to the current column number (example output: through 5).
 #, python-format
 msgid "through %s"
-msgstr "跨越到"
+msgstr "跨越到第 %s"
 
 #. Translators: Speaks current column number (example output: column 3).
 #, python-format
@@ -5895,12 +5895,12 @@ msgstr "第%s欄"
 #. (example output: through row 5 column 3).
 #, python-brace-format
 msgid "through row {row} column {column}"
-msgstr "合併{row}個列儲存格{column}個欄儲存格"
+msgstr "合併到第 {row}  第 {column} 欄"
 
 #. Translators: Speaks number of columns and rows in a table (example output: with 3 rows and 2 columns).
 #, python-brace-format
 msgid "with {rowCount} rows and {columnCount} columns"
-msgstr "有{rowCount}列{columnCount}欄"
+msgstr "有{rowCount}列 {columnCount}欄"
 
 #. Translators: Speaks number of columns (example output: with 4 columns).
 #, python-format
@@ -9305,7 +9305,7 @@ msgstr "無法設定標題，請將文件格式設定中的讀出表格的「列
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
 msgid "Set row {rowNumber} column {columnNumber} as start of column headers"
-msgstr "設定第{rowNumber}列 第{columnNumber}欄為欄標題"
+msgstr "設定第{rowNumber}列 第{columnNumber}欄為欄標題的開頭"
 
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
@@ -9334,7 +9334,7 @@ msgstr ""
 #. Translators: a message reported in the SetRowHeader script for Microsoft Word.
 #, python-brace-format
 msgid "Set row {rowNumber} column {columnNumber} as start of row headers"
-msgstr "設定第{rowNumber}列 第{columnNumber}欄為列標題"
+msgstr "設定第{rowNumber}列 第{columnNumber}欄為列標題的開頭"
 
 #. Translators: a message reported in the SetRowHeader script for Microsoft Word.
 #, python-brace-format
