@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.13\n"
+"X-Generator: Poedit 1.7.6\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,1472,-1,-1,-1,-1,-1\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
@@ -516,11 +516,11 @@ msgstr "Automatisch"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -592,9 +592,8 @@ msgid "to review"
 msgstr "aan leescursor"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
 msgid "Unknown braille display"
-msgstr "Seika brailleleesregels"
+msgstr "Onbekende brailleleesregel"
 
 #. Translators: Name of a Bluetooth serial communications port.
 #, fuzzy, python-brace-format
@@ -671,9 +670,8 @@ msgstr "Bulgaars 8 punt computerbraille"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Central Kurdish grade 1"
-msgstr "Zweets graad 1"
+msgstr "Centraal Koerdisch graad 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -687,9 +685,8 @@ msgstr "Wels graad 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Czech 8 dot computer braille"
-msgstr "Spaans 8 punt computerbraille"
+msgstr "Tsjechisch 8 punts computerbraille"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -793,9 +790,8 @@ msgstr "Engels (V.S.) graad 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Esperanto grade 1"
-msgstr "Duits graad 1"
+msgstr "Esperanto graad 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -904,9 +900,8 @@ msgstr "Hongaars graad 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Hungarian grade 2"
-msgstr "Hongaars graad 1"
+msgstr "Hongaars graad 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -1090,9 +1085,8 @@ msgstr "Sanskriet graad 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Swedish 8 dot computer braille"
-msgstr "Spaans 8 punt computerbraille"
+msgstr "Zweeds 8 punts computerbraille"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -3878,13 +3872,12 @@ msgid "No status line found"
 msgstr "Geen statusregel gevonden"
 
 #. Translators: Reported when status line exist, but is empty.
-#, fuzzy
 msgid "no status bar information"
-msgstr "Locatie onbekend"
+msgstr "Geen informatie van statusbalk"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
-msgstr ""
+msgstr "Kon inhoud van statusbalk niet kopiëren naar klembord"
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -4851,17 +4844,17 @@ msgstr "Aragonees"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr ""
+msgstr "Centraal Koerdisch"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr ""
+msgstr "Noordelijk Koerdisch"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "Birmaans"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -7323,7 +7316,7 @@ msgstr "uit"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
-msgstr ""
+msgstr "Geen emoji"
 
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
