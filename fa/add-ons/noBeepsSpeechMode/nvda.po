@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: NoBeepsSpeechMode 1.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-13 22:00+0200\n"
-"PO-Revision-Date: 2018-04-06 19:59+0330\n"
+"PO-Revision-Date: 2018-08-09 05:36+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation team <nvda-translations@freelists.org>\n"
 "Language: fa\n"
@@ -32,10 +32,12 @@ msgid ""
 "You have installed an old and incompatible version of this add-on. Do you "
 "want to uninstall the old version?"
 msgstr ""
+"شما یک نسخه‌ی قدیمی و ناسازگار از این افزونه را نصب کرده‌اید. آیا میخواهید "
+"نسخه‌ی قدیمی را حذف کنید؟"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall old add-on"
-msgstr ""
+msgstr "حذفِ افزونه‌ی قدیمی"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
