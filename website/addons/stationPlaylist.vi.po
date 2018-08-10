@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-30 14:57+1000\n"
-"PO-Revision-Date: 2018-08-08 21:10+0700\n"
+"PO-Revision-Date: 2018-08-10 23:52+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1665,6 +1665,10 @@ msgid ""
 "NVDA will no longer present the channel and/or interval warning message when "
 "exitting this dialog."
 msgstr ""
+"Nếu người dùng mở hộp thoại tùy chọn nâng cao của add-on khi kênh cập nhật "
+"và thời gian cập nhật được thiết lập là Test Drive Fast và 0 ngày, NVDA sẽ "
+"không hiện thông điệp cảnh báo cho kênh cập nhật và thiờ gian cập nhật khi "
+"thoát hộp thoại."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1672,6 +1676,8 @@ msgid ""
 "playlist be loaded, and a more accurate error message will be presented "
 "otherwise."
 msgstr ""
+"Lệnh cho phần còn lại của danh sách phát và phân tích track theo thời gian "
+"giờ đây yêu cầu một danh sách phát được mở. Nếu không, sẽ hiện thông báo lỗi."
 
 #. type: Title ##
 #, no-wrap
@@ -1683,6 +1689,8 @@ msgid ""
 "NVDA will no longer fail to cause Studio to play the first track when an "
 "encoder is connected."
 msgstr ""
+"NVDA sẽ không còn bị lỗi khiến cho Studio phát track đầu tiên khi kết nối bộ "
+"mã hóa."
 
 #. type: Title ##
 #, no-wrap
@@ -1703,6 +1711,9 @@ msgid ""
 "check for updates when NVDA and/or SPL Studio starts. A confirmation will be "
 "required to change update interval to zero days."
 msgstr ""
+"Giờ đây, đã có thể thiết lập thời gian cập nhật là 0 ngày. Điều này cho phép "
+"add-on kiểm tra cập nhật khi khởi động NVDA hay SPL Studio. Sẽ có một yêu "
+"cầu xác nhận việc chọn thời gian cập nhật là 0 ngày."
 
 #. type: Bullet: '* '
 msgid ""
