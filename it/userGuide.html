@@ -2106,10 +2106,20 @@ Per ulteriori informazioni sulla modalità di navigazione e i caratteri singoli,
 <TD>control+shift+r</TD>
 <TD>Annuncia il tempo restante della traccia attualmente in esecuzione, se ve n'è una.</TD>
 </TR>
+<TR>
+<TD>Annuncia tempo trascorso</TD>
+<TD>control+shift+e</TD>
+<TD>Annuncia il tempo trascorso della traccia attualmente in esecuzione, se ve n'è una.</TD>
+</TR>
+<TR>
+<TD>Annuncia lunghezza traccia</TD>
+<TD>control+shift+t</TD>
+<TD>Annuncia la lunghezza della traccia attualmente in esecuzione, se ve n'è una.</TD>
+</TR>
 </TABLE>
 
 <P>
-Nota: Questo tasto caldo funziona soltanto se la barra di stato di Foobar ha il formato predefinito.
+Nota: Questi tasti caldi funzionano soltanto se la barra di stato di Foobar ha il formato predefinito.
 </P>
 
 <A NAME="MirandaIM"></A>
@@ -2370,7 +2380,42 @@ Se attivata, NVDA controllerà automaticamente la presenza di nuove versioni e n
 
 <P>
 Se la funzione è attivata, NVDA avviserà l'utente nel caso vi sia un aggiornamento in sospeso all'avvio, dando la possibilità di effettuare l'installazione.
-è anche possibile installare l'aggiornamento in sospeso manualmente dalla finestra di uscita di NVDA (se attivata), dal menu di NVDA, o quando si esegue un nuovo controllo dal menu aiuto..
+è anche possibile installare l'aggiornamento in sospeso manualmente dalla finestra di uscita di NVDA (se attivata), dal menu di NVDA, o quando si esegue un nuovo controllo dal menu aiuto.
+Durante il controllo della presenza di aggiornamenti, è necessario che NVDA invii al server alcune informazioni in modo da ottenere la versione più adeguata per il sistema operativo in uso.
+Vengono inviate le seguenti informazioni:
+</P>
+
+<UL>
+<LI>Versione in uso di NVDA
+<LI>Versione del sistema operativo
+<LI>Se il sistema operativo è a 64 o 32 bit
+</UL>
+
+<H5>Consenti al progetto NVDA di raccogliere statistiche sull'utilizzo dello screen reader</H5>
+
+<P>
+Se questa funzione è attivata, la Nv Access utilizzerà le informazioni provenienti dal server che gestisce gli aggiornamenti per raccogliere alcune informazioni di carattere demografico sugli utenti di NVDA, ossia sistema operativo e nazione d'origine.
+Si noti comunque che sebbene venga utilizzato l'indirizzo IP per calcolare lo stato di provenienza dell'utente, tale indirizzo IP non verrà mai salvato sui server.
+Oltre alle informazioni obbligatorie usate per controllare gli aggiornamenti, saranno inviati anche i seguenti dati:
+</P>
+
+<UL>
+<LI>Lingua dell'interfaccia di NVDA
+<LI>Se la copia attualmente in uso è installer o portable
+<LI>Nome della sintesi vocale in uso (compreso il nome del driver del componente aggiuntivo e la sua provenienza)
+<LI>Nome del Display braille in uso (compreso il nome del driver del componente aggiuntivo e la sua provenienza)
+<LI>Tabella di lettura corrente (solo se si usa il braille)
+</UL>
+
+<P>
+Queste informazioni risultano di grandissimo aiuto a Nv Access per dare priorità a specifici rami di sviluppo di NVDA
+</P>
+
+<A NAME="GeneralSettingsNotifyPendingUpdates"></A>
+<H5>Notifica la presenza di aggiornamenti in sospeso all'avvio</H5>
+
+<P>
+Se questa casella di controllo è attiva, NVDA notificherà l'utente della presenza di aggiornamenti in sospeso all'avvio dello screen reader, dando la possibilità di installarli.
 </P>
 
 <A NAME="SpeechSettings"></A>
