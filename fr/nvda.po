@@ -5650,13 +5650,13 @@ msgstr "Pentagone"
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Incomplete Pie with wedge missing"
-msgstr "Camembert incomplet sans coin"
+msgstr "Camembert incomplet avec secteur manquant"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Quarter Pie Wedge"
-msgstr "Coin de quart de camembert"
+msgstr "quart de camembert"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
