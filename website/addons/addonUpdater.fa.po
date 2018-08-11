@@ -3,37 +3,39 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-06 04:01+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-11 06:25+0330\n"
+"Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
+"Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Add-on Updater\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"ارتقادهنده‌ی افزونه‌ها (Add-on Updater)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
-msgstr ""
+msgstr "نویسنده: Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [prototype version][1]"
-msgstr ""
+msgstr "دانلود [نسخه‌ی پایدار][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 3208 to life: ability to check for, "
 "download, and apply add-on updates."
 msgstr ""
+"این افزونه، به NVDA توانایی بررسی، دانلود و اِعمال به‌روزرسانی‌های افزونه‌ها را "
+"میدهد. موضوعی که در مسأله‌ی #3208 مطرح شده بود."
 
 #. type: Plain text
 msgid ""
@@ -43,67 +45,82 @@ msgid ""
 "and the new version. Select Update, and NVDA will download and apply updates "
 "in sequence, with a prompt to restart your NVDA shown afterwards."
 msgstr ""
+"پس از نصب این افزونه، برای بررسی به‌روزرسانی افزونه‌ها، به مسیر منوی NVDA -> "
+"ابزارها -> Check for add-on updates بروید. چنانچه روزامدی موجود باشد، فهرستی "
+"از روزامدها را خواهید دید که هرکدام شامل  توضیحی مختصر، شماره‌ی نسخه‌ی فعلی و "
+"شماره‌ی نسخه‌ی جدید است. دکمه‌ی Update را بزنید. NVDA افزونه‌ها را پشت سر هم "
+"دانلود و اِعمال میکند و در نهایت اعلام میکند که باید دوباره راه‌اندازی شود."
 
 #. type: Plain text
 msgid ""
 "The following add-ons provide built-in update feature and thus updates will "
 "not be checked via this add-on:"
 msgstr ""
+"امکان به‌روزرسانی در افزونه‌های زیر از پیش تعبیه شده؛ بنا بر این با این افزونه "
+"به‌روزرسانی نمیشوند:"
 
 #. type: Bullet: '* '
 msgid "Braille Extender"
-msgstr ""
+msgstr "بریل‌گستران (Braille Extender)"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
-msgstr ""
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "WeatherPlus"
-msgstr ""
+msgstr "WeatherPlus"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
-msgstr ""
+msgstr "نیازمندی‌های حیاتی برنامک‌های ویندوز ۱۰ (Windows 10 App Essentials)"
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
+"نکته‌ی مهم: این افزونه، یک افزونه‌ی اثباتِ مفهومی است. هرگاه [ویژگی مربوط به "
+"این افزونه به NVDA افزوده شود][2]، توسعه و انتشار این افزونه متوقف میشود."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.5"
-msgstr ""
+msgstr "نسخه‌ی 18.08.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where Add-on Updater settings panel failed to show if one or "
 "more add-ons had badly formatted manifest data."
 msgstr ""
+"موردی که دسته‌ی تنظیمات Add-on Updater به خاطر رعایت نشدن قالب‌بندی یک یا چند "
+"افزونه نمایش داده نمیشد، برطرف شد."
 
 #. type: Bullet: '* '
 msgid ""
 "Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
 "for updates."
 msgstr ""
+"گروه افزونه‌های Nuance Vocalizer به فهرست افزونه‌هایی که به‌روزرسانیشان بررسی "
+"نمیشود، افزوده شد."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.4"
-msgstr ""
+msgstr "نسخه‌ی 18.08.4"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
 "progress beep when trying to check for add-on updates."
 msgstr ""
+"پس‌رفتی که در نسخه‌ی 18.08.3 ایجاد شده بود که باعث میشد NVDA هنگام تلاش برای "
+"بررسی به‌روزرسانی‌ها، بطور مداوم بوق‌های پیش‌رفت پخش کند، اصلاح شد."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.3"
-msgstr ""
+msgstr "نسخه‌ی 18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -111,11 +128,13 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"توانایی خارج کردن افزونه‌ها از به‌روز شدن، از طریق جعبه فهرستی علامت‌زدنی، "
+"موجود در دسته‌ی تنظیمات افزونه. موارد علامت‌دار به‌روز نمیشوند."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.1"
-msgstr ""
+msgstr "نسخه‌ی 18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -123,25 +142,28 @@ msgid ""
 "24 hours). This is configured through a new Add-on Updater settings panel "
 "found in NVDA settings."
 msgstr ""
+"حالا امکان بررسی افزونه‌ها، هر ۲۴ ساعت یک بار، توسط NVDA فراهم شد. این امکان "
+"توسط تنظیم جدیدی که در دسته‌ی تنظیمات Add-on Updater موجود است، قابل تنظیم "
+"است."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "نسخه‌ی 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "نسخه‌ی اول."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
