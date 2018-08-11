@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-30 14:57+1000\n"
-"PO-Revision-Date: 2018-08-10 23:52+0700\n"
+"PO-Revision-Date: 2018-08-12 00:09+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1704,6 +1704,9 @@ msgid ""
 "reserved for actual try builds that require users to manually install a test "
 "version."
 msgstr ""
+"Các thay đổi về kênh cập nhật: try build giờ đổi thành Test Drive Fast, "
+"development channel đổi thành Test Drive Slow. True \"try\" builds sẽ được "
+"bảo lưu cho các bản dùng thử có yêu cầu người dùng phải cài đặt thủ công."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1729,12 +1732,17 @@ msgid ""
 "requests arrive. To use this fully, requests window must pop up when "
 "requests arrive."
 msgstr ""
+"Trong cài đặt add-on, thêm hộp kiểm để NvDA phát âm thanh khi xuất hiện yêu "
+"cầu của người nghe. Để dùng tính năng này, cửa sổ yêu cầu phải hiển thị khi "
+"có yêu cầu."
 
 #. type: Bullet: '* '
 msgid ""
 "Pressing broadcaster time command (NVDA+Shift+F12) twice will now cause NVDA "
 "to announce minutes and seconds remaining in the current hour."
 msgstr ""
+"Bấm lệnh xem thời gian phát thanh (NVDA+Shift+F12) hai lần sẽ làm cho NVDA "
+"thông báo giờ và phút còn lại trong khung giờ hiện tại."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1742,6 +1750,9 @@ msgid ""
 "of tracks you've searched before by selecting a search term from a history "
 "of terms."
 msgstr ""
+"Giờ đã có thể dùng lệnh  tìm kiếm track (Control+NVDA+F) để tìm tên các "
+"track đã tìm trước đó bằng cách chọn một cụm từ tìm kiếm trong lịch sử từ đã "
+"nhập."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1749,18 +1760,24 @@ msgid ""
 "possible to include information about which Studio internal player will play "
 "the track (e.g. player 1)."
 msgstr ""
+"Khi thông báo tên track hiện tại và track kế qua SPL Assistant, giờ đã có "
+"thể bao gồm các thông tin về việc Studio nội bộ nào sẽ phát track."
 
 #. type: Bullet: '* '
 msgid ""
 "Added a setting in add-on settings under status announcements to include "
 "player information when announcing title of the current and the next track."
 msgstr ""
+"Thêm một thiết lập trong cài đặt add-on ở phần thông báo trạng thái để bao "
+"gồm thông tin phát khi thông báo tựa đề của track hiện tại và track kế."
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue in temporary cue and other dialogs where NVDA would not "
 "announce new values when manipulating time pickers."
 msgstr ""
+"Sửa lỗi trong hộp thoại gợi ý tạm cũng như các hộp thoại khác khiến NVDA "
+"không thông báo các giá trị mới khi thao tác với bộ chọn thời gian."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1768,18 +1785,25 @@ msgid ""
 "when reviewing tracks in playlist viewer. This is a broadcast profile "
 "specific setting."
 msgstr ""
+"NVDA có thể ngăn chặn việc thông báo tiêu đề cột như ca sĩ và phân loại khi "
+"xem lại track trong trình xem danh sách phát. Đây là thiết lập cho một hồ sơ "
+"phát thanh riêng biệt."
 
 #. type: Bullet: '* '
 msgid ""
 "Added a checkbox in add-on settings dialog to suppress announcement of "
 "column headers when reviewing tracks in playlist viewer."
 msgstr ""
+"Thêm một hộp kiểm trong hộp thoại cài đặt add-on để ngăn chặn thông báo các "
+"tiêu đề cột khi xem lại track trong trình xem danh sách phát."
 
 #. type: Bullet: '* '
 msgid ""
 "Added a command in SPL Controller layer to announce name and duration of the "
 "currently playing track from anywhere (C)."
 msgstr ""
+"Thêm một lệnh trong bộ điều khiển SPL để thông báo tên và thời lượng của "
+"track đang phát từ bất cứ đâu (C)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1787,6 +1811,10 @@ msgid ""
 "5.1x, information such as microphone status, cart edit mode and others will "
 "also be announced in addition to playback and automation."
 msgstr ""
+"Khi thu thập các thông tin trạng thái thông qua bộ điều khiển SPL (Q) trong "
+"khi dùng Studio 5.1x, các thông tin như trạng thái microphone, chế độ chỉnh "
+"sửa cart và các thông tin khác cũng được thông báo ngoài phát lại và tự động "
+"hóa."
 
 #. type: Title ##
 #, no-wrap
@@ -1798,6 +1826,8 @@ msgid ""
 "You can now perform Track Finder command (Control+NVDA+F) while a playlist "
 "is loaded but the first track isn't focused."
 msgstr ""
+"Giờ bạn có thể thực hiện lệnh tìm kiếm track (Control+NVDA+F) khi đã tải một "
+"danh sách phát nhưng con trỏ không đứng ở track đầu tiên."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1805,12 +1835,16 @@ msgid ""
 "track forward from the last track or backward from the first track, "
 "respectively."
 msgstr ""
+"NVDA sẽ không còn phát âm thanh báo lỗi hoặc không làm gì khi tìm kiếm một "
+"track tiếp theo từ track cuối hay track trước từ track đầu tiên."
 
 #. type: Bullet: '* '
 msgid ""
 "Pressing NVDA+Numpad Delete (NVDA+Delete in laptop layout) will now announce "
 "track position followed by number of items in a playlist."
 msgstr ""
+"Bấm NVDA+Delete bàn phím số (NVDA+Delete với kiểu bàn phím laptop) giờ đây "
+"sẽ thông báo vị trí track và số thứ tự của mục đó trong một danh sách phát."
 
 #. type: Title ##
 #, no-wrap
@@ -1822,6 +1856,8 @@ msgid ""
 "NVDA will no longer fail to save changes to alarm settings from various "
 "alarm dialogs (for example, Alt+NVDA+1 for end of track alarm)."
 msgstr ""
+"NVDA sẽ không còn bị lỗi khi lưu các thay đổi cho cài đặt báo động từ nhiều "
+"hộp thoại báo động (ví dụ, Alt+NVDA+1 cho báo động cuối track)."
 
 #. type: Title ##
 #, no-wrap
@@ -1833,12 +1869,16 @@ msgid ""
 "Update interval can now be set up to 180 days. For default installations, "
 "update check interval will be 30 days."
 msgstr ""
+"Giờ đây, thời gian cập nhật có thể thiết lập là 180 ngày. Mặc định, thời "
+"gian kiểm tra cập nhật là 30 ngày."
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where NVDA may play error tone if Studio exits while a time-"
 "based profile is active."
 msgstr ""
+"Sửa lỗi NVDA có thể phát âm thanh báo lỗi nếu thoát Studio khi một hồ sơ "
+"theo thời gian đang hoạt động."
 
 #. type: Title ##
 #, no-wrap
@@ -1858,6 +1898,8 @@ msgid ""
 "Improvements to presentation of various add-on dialogs thanks to NVDA 2016.4 "
 "features."
 msgstr ""
+"Cải thiện hiển thị cho nhiều hộp thoại của add-on. Cảm ơn tính năng của NVDA "
+"2016.4."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1865,6 +1907,9 @@ msgid ""
 "asked to update the add-on. Consequently, file download notifications from "
 "web browsers will no longer be shown."
 msgstr ""
+"NVDA sẽ ngầm tải cập nhật add-on về  nếu chọn \"yes\" khi được yêu cầu cập "
+"nhật add-on. Kết quả là sẽ không hiện thông báo tải tập tin về cỉa các trình "
+"duyệt web."
 
 #. type: Bullet: '* '
 msgid ""
