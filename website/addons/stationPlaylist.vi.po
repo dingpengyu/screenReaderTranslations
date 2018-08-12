@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -7,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-30 14:57+1000\n"
-"PO-Revision-Date: 2018-08-12 00:09+0700\n"
+"PO-Revision-Date: 2018-08-12 23:04+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1892,6 +1891,10 @@ msgid ""
 "and later). To use this, after installing NVDA 2017.1, from Exit NVDA "
 "dialog, choose \"restart with debug logging enabled\" option."
 msgstr ""
+"Đã thêm bản ghi dò lỗi cơ bản cho add-on bằng cách ghi lại nhiều thông tin "
+"khi add-on hoạt động với chế độ bản ghi dò lỗi của NVDA được bật (yêu cầu "
+"NVDA 2017.1 trở lên). Để dùng tính năng này, sau khi cài đặt NVDA 2017.1, từ "
+"hộp thoại thoát NVDA, chọn \"Khởi động lại với bản ghi dò lỗi được bật\"."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1916,6 +1919,8 @@ msgid ""
 "NVDA will no longer appear to freeze when checking for update at startup due "
 "to add-on update channel change."
 msgstr ""
+"NVDA sẽ không còn tình trạng bị đóng băng khi kiểm tra phiên bản mới lúc "
+"khởi động vì thay đổi kênh cập nhật add-on."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1923,24 +1928,33 @@ msgid ""
 "tracks (specifically, track columns) vertically just as one is moving to "
 "next or previous row in a table."
 msgstr ""
+"Thêm khả năng bấm Control+Alt+mũi tên lên xuống để di chuyển giữa các track "
+"(riêng biệt, các cột của track) theo hàng dọc như là di chuyển đến dòng kế "
+"và dòng trước trong bảng."
 
 #. type: Bullet: '* '
 msgid ""
 "Added a combo box in add-on settings dialog to set which column should be "
 "announced when moving through columns vertically."
 msgstr ""
+"Thêm một hộp xổ trong hộp thoại cài đặt add-on để thiết lập cột nào được "
+"thông báo khi di chuyển qua chúng theo hàng dọc."
 
 #. type: Bullet: '* '
 msgid ""
 "Moved end of track , intro and microphone alarm controls from add-on "
 "settings to the new Alarms Center."
 msgstr ""
+"Di chuyển các điều khiển cuối track , nhạc dạo và báo động microphone từ cài "
+"đặt add-on đến trung tâm báo động mới."
 
 #. type: Bullet: '* '
 msgid ""
 "In Alarms Center, end of track and track intro edit fields are always shown "
 "regardless of state of alarm notification checkboxes."
 msgstr ""
+"Trong trung tâm báo động, trường nhập liệu cuối track và track giới thiệu đã "
+"luôn hiển thị có đánh dấu chọn vào hộp kiểm thông báo báo động hay không."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1948,6 +1962,9 @@ msgid ""
 "of tracks, longest track, top artists and so on (F8). You can also add a "
 "custom command for this feature."
 msgstr ""
+"Thêm lệnh trong SPL Assistant để thu thập các ảnh chụp danh sách phát như số "
+"track, track dài nhất, ca sĩ tiêu biểu và nhiều nữa (F8). Bạn cũng có thể "
+"thêm lệnh tùy chỉnh cho tính năng này."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1956,6 +1973,10 @@ msgid ""
 "twice will cause NVDA to open a webpage containing a fuller playlist "
 "snapshot information. Press escape to close this webpage."
 msgstr ""
+"Bấm thao tác tùy chỉnh của lệnh chụp ảnh danh sách phát một lần sẽ cho phép "
+"NVDA đọc và hiện một thông tin ngắn về ảnh chụp trên màn hình nổi. Bấm hai "
+"lần để NVDA mở một trang web với đầy đủ thông tin hơn về ảnh chụp danh sách "
+"phát. Bấm escape để đóng trang web này."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1963,6 +1984,9 @@ msgid ""
 "Columns explorer and Column Navigator/table navigation commands). This "
 "affects Studio and Track Tool."
 msgstr ""
+"Gỡ bỏ lệnh Track Dial (phiên bản NVDA có cải tiến các phím mũi tên), thay "
+"thế bởi lệnh khám phá cột và điều hướng cột / lệnh điều hướng trong bảng). "
+"Điều này ảnh hưởng đến Studio và Trrack Tool."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1970,6 +1994,9 @@ msgid ""
 "is no longer required to press SPL Assistant, Shift+R to monitor scan "
 "progress."
 msgstr ""
+"Sau khi đóng hộp thoại chèn track trong lúc đang thực hiện quét thư viện, "
+"không còn yêu cầu phải bấm SPL Assistant, Shift+R để theo dõi tiến trình "
+"quét."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1978,12 +2005,19 @@ msgid ""
 "end prematurely when there are more tracks to be scanned, necessitating "
 "restarting library scan monitor."
 msgstr ""
+"Cải thiện độ chính xác khi phát hiện và báo cáo việc hoàn thành quét thư "
+"viện trong Studio 5.10 trở lên. Điều này sửa một lỗi làm cho việc theo dõi "
+"quét thư viện bị ngưng sớm khi có nhiều track để quét, cần phải khởi động "
+"lại việc theo dõi quét thư viện."
 
 #. type: Bullet: '* '
 msgid ""
 "Improved library scan status reporting via SPL Controller (Shift+R) by "
 "announcing scan count if scan is indeed happening."
 msgstr ""
+"Cải thiện khả năng thông báo trạng thái quét thư viện thông qua bộ điều "
+"khiển SPL (Shift+R) bằng cách thông báo số lượng quét nếu có diễn ra quá "
+"trình này."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1993,16 +2027,23 @@ msgid ""
 "be announced instead. Commands such as these will require Studio's main "
 "window handle to be present."
 msgstr ""
+"Trong studio bản dùng thử (Demo), khi màn hình đăng kí xuất hiện lúc khởi "
+"động Studio, các lệnh như xem thời gian còn lại của track sẽ không còn tình "
+"trạng làm cho NVDA không làm gì, phát âm thanh báo lỗi hay cung cấp sai "
+"thông tin. Thay vào đó, thông điệp báo lỗi sẽ được thông báo. Các lệnh như "
+"vầy yêu cầu trình bày handle cửa sổ chính của Studio."
 
 #. type: Bullet: '* '
 msgid "Initial support for StationPlaylist Creator."
-msgstr ""
+msgstr "Bắt đầu hỗ trợ cho StationPlaylist Creator."
 
 #. type: Bullet: '* '
 msgid ""
 "Added a new command in SPL Controller layer to announce Studio status such "
 "as track playback and microphone status (Q)."
 msgstr ""
+"Thêm lệnh mới trong bộ điều khiển SPL để thông báo trạng thái Studio như "
+"phát track và thông tin trạng thái microphone (Q)."
 
 #. type: Title ##
 #, no-wrap
@@ -2014,6 +2055,8 @@ msgid ""
 "NVDA will no longer appear to do anything or play an error tone when "
 "switching to a time-based broadcast profile."
 msgstr ""
+"NVDA sẽ không còn tình trạng không làm gì hoặc phát âm thanh báo lỗi khi "
+"chuyển đến một hồ sơ theo thời gian."
 
 #. type: Bullet: '* '
 msgid "Updated translations."
@@ -2029,12 +2072,16 @@ msgid ""
 "Note: 17.01.1/15.5A-LTS replaces 17.01 due to changes to location of new add-"
 "on files."
 msgstr ""
+"Lưu ý: 17.01.1/15.5A-LTS thay thế 17.01 vì lí do thay đổi đường dẫn của các "
+"tập tin add-on mới."
 
 #. type: Bullet: '* '
 msgid ""
 "17.01.1/15.5A-LTS: Changed where updates are downloaded from for long-term "
 "support releases. Installing this version is mandatory."
 msgstr ""
+"17.01.1/15.5A-LTS: thay đổi nơi tải các cập nhật cho các bản phát hành được "
+"hỗ trợ dài hạn. Cài đặt phiên bản này là bắt buộc."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2044,6 +2091,11 @@ msgid ""
 "If Studio is minimized, Studio window will be shown as unavailable. If so, "
 "restore Studio window from system tray."
 msgstr ""
+"Cải thiện khả năng phản hồi và độ tin cạy khi dùng add-on để chuyển sang "
+"Studio, bất kể là dùng lệnh chuyển con trỏ về Studio từ một chương trình "
+"khác hay khi một bộ mã hóa được kết nối và NVDA được yêu cầu chuyển sang "
+"Studio. Nếu Studio đang được thu nhỏ, cửa sổ Studio sẽ hiển thị là không sẵn "
+"sàng. Trường hợp này, hãy phục hồi cửa sổ Studio từ khay hệ thống."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2052,12 +2104,18 @@ msgid ""
 "is turned off. Consequently, Cart Explorer reentry message is no longer "
 "announced."
 msgstr ""
+"Nếu chỉnh sửa cart khi Cart Explorer đang hoạt động, không còn cần thiết "
+"phải vào lại Cart Explorer để xem các cập nhật đã gán cho cart khi tắt chế "
+"độ chỉnh sửa cart. Kết quả là sẽ không còn thông báo yêu cầu vào lại Cart "
+"explorer.."
 
 #. type: Bullet: '* '
 msgid ""
 "In add-on 15.5-LTS, corrected user interface presentation for SPL add-on "
 "settings dialog."
 msgstr ""
+"Trong add-on 15.5-LTS, chỉnh sửa giao diện người dùng cho hộp thoại cài đặt "
+"SPL add-on."
 
 #. type: Title ##
 #, no-wrap
@@ -2066,7 +2124,7 @@ msgstr "Phiên bản 16.12.1"
 
 #. type: Bullet: '* '
 msgid "Corrected user interface presentation for SPL add-on settings dialog."
-msgstr ""
+msgstr "Sửa giao diện người dùng của  hộp thoại cài đặt SPL add-on."
 
 #. type: Title ##
 #, no-wrap
@@ -2078,6 +2136,8 @@ msgid ""
 "More work on supporting Studio 5.20, including announcing cart insert mode "
 "status (if turned on) from SPL Assistant layer (T)."
 msgstr ""
+"Hỗ trợ nhiều hơn cho Studio 5.20, bao gồm thông báo trạng thái chế độ chèn "
+"cart (nếu được bật) từ SPL Assistant layer (T)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2085,10 +2145,13 @@ msgid ""
 "status announcement type settings (this status will always be announced via "
 "speech and/or braille)."
 msgstr ""
+"Bật tắt chế độ chỉnh sửa / chèn cart sẽ không còn bị ảnh hưởng bởi cấp độ "
+"đọc thông điệp và cài đặt kiểu thông báo trạng thái (trạng thái này sẽ luôn "
+"được thông báo qua bộ đọc và màn hình nổi)."
 
 #. type: Bullet: '* '
 msgid "It is no longer possible to add comments to timed break notes."
-msgstr ""
+msgstr "Không còn có thể thêm chú thích vào các lưu ý ngắt thời gian."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2096,6 +2159,8 @@ msgid ""
 "information is announced when using Columns Explorer commands to announce "
 "column information."
 msgstr ""
+"Hỗ trợ cho Track Tool 5.20, bao gồm sửa một lỗi thông báo sai thông tin khi "
+"dùng lệnh khám phá cột để xem các thông tin cột."
 
 #. type: Title ##
 #, no-wrap
@@ -2108,6 +2173,9 @@ msgid ""
 "responsiveness when obtaining status information such as automation status "
 "via SPL Assistant layer."
 msgstr ""
+"Bắt đầu hỗ trợ cho StationPlaylist Studio 5.20, bao gồm cải thiện khả năng "
+"phản hồi khi thu thập các thông tin trạng thái như tự động hóa thông qua SPL "
+"Assistant layer."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2115,18 +2183,24 @@ msgid ""
 "including inability to check or uncheck place marker track or a track found "
 "via time range finder dialog."
 msgstr ""
+"Sửa lỗi liên quan đến tìm kiếm và tương tác với track, bao gồm việc không có "
+"khả năng chọn hay không chọn track đánh dấu hay một track tìm thấy thông qua "
+"hộp thoại tìm kiếm theo thời gian."
 
 #. type: Bullet: '* '
 msgid ""
 "Column announcement order will no longer revert to default order after "
 "changing it."
 msgstr ""
+"Sắp xếp thông báo cột sẽ không còn bị trả về mặc định sau khi thay đổi nó."
 
 #. type: Bullet: '* '
 msgid ""
 "16.11: If broadcast profiles have errors, error dialog will no longer fail "
 "to show up."
 msgstr ""
+"16.11: nếu các hồ sơ phát thanh bị lỗi, hộp thoại báo lỗi sẽ không bị trục "
+"trặc và không hiển thị được."
 
 #. type: Title ##
 #, no-wrap
@@ -2138,6 +2212,8 @@ msgid ""
 "You can now interact with the track that was found via Track Finder (Control"
 "+NVDA+F) such as checking it for playback."
 msgstr ""
+"Giờ bạn có thể tương tác với track được tìm thấy qua tìm kiếm track (Control"
+"+NVDA+F) như là kiểm tra để phát lại."
 
 #. type: Title ##
 #, no-wrap
@@ -2153,6 +2229,12 @@ msgid ""
 "time you use add-on 8.0 with Studio 5.0x installed, asking you to use 15.x "
 "LTS version."
 msgstr ""
+"Phiên bản 8.0 (cũng được biết đến là 16.10) hỗ trợ SPL Studio 5.10 trở lên, "
+"với 15.0-LTS (trước kia là 7.x) được thiết kế để cung cấp vài tính năng mới "
+"từ 8.0 cho người dùng các phiên bản cũ của Studio. Cho đến khi có các ghi "
+"chú khác, các mục dưới đây áp dụng cho cả 8.0 và 7.x. Một hộp thoại cảnh báo "
+"sẽ hiển thị ở lần đầu sử dụng add-on 8.0 với Studio 5.0x được cài đặt, yêu "
+"cầu bạn dùng phiên bản 15.x LTS."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2161,12 +2243,18 @@ msgid ""
 "with version 16.10, with 7.x LTS being designated 15.0 due to incompatible "
 "changes."
 msgstr ""
+"Kiểu tên phiên bản đã được thay đổi để thể hiện năm, tháng phát hành thay vì "
+"là phiên bản chính, phụ. Trong quá trình chuyển đổi (đến giữa năm 2017), "
+"phiên bản 8.0 được xem như 16.10, với 7.x LTS đang được hiểu là 15.0 vì các "
+"thay đổi không tương thích."
 
 #. type: Bullet: '* '
 msgid ""
 "Add-on source code is now hosted on GitHub (repository located at https://"
 "github.com/josephsl/stationPlaylist)."
 msgstr ""
+"Mã nguồn Add-on giờ đây được lưu trên GitHub (tại https://github.com/"
+"josephsl/stationPlaylist)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2174,6 +2262,8 @@ msgid ""
 "add-on. A command (Alt+NvDA+F1) has been added to reopen this dialog once "
 "dismissed."
 msgstr ""
+"Thêm hộp thoại chào mừng sẽ chạy khi khởi động Studio sau khi cài đặt add-"
+"on. Lệnh (Alt+NvDA+F1) đã được thêm vào để mở lại hộp thoại này."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2202,6 +2292,8 @@ msgid ""
 "Added Control+Alt+Home/End to move Column Navigator to first or last column "
 "in Playlist Viewer."
 msgstr ""
+"Đã thêm Control+Alt+Home/End để chuyển con trỏ điều hướng đến cột đầu hay "
+"cuối trong trình xem danh sách phát."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2254,6 +2346,8 @@ msgid ""
 "You can now configure microphone alarm interval from microphone alarm dialog "
 "(Alt+NvDA+4)."
 msgstr ""
+"Giờ bạn có thể cấu hình thời gian báo động microphone từ hộp thoại báo động "
+"microphone (Alt+NvDA+4)."
 
 #. type: Title ##
 #, no-wrap
@@ -2265,10 +2359,12 @@ msgid ""
 "NVDA will no longer pop up update progress dialog if add-on update channel "
 "has just changed."
 msgstr ""
+"NVDA sẽ không còn hiện hộp thoại tiến trình cập nhật nếu vừa thay đổi kênh "
+"cập nhật add-on."
 
 #. type: Bullet: '* '
 msgid "NVDA will honor the selected update channel when downloading updates."
-msgstr ""
+msgstr "NVDA sẽ thông báo kênh cập nhật đã chọn khi đang tải cập nhật."
 
 #. type: Title ##
 #, no-wrap
@@ -2299,6 +2395,8 @@ msgid ""
 "SPL Controller command and the command to focus to Studio will not be "
 "available from secure screens."
 msgstr ""
+"Lệnh của bộ điều khiển SPL và lệnh đưa con trỏ về Studio sẽ không hoạt động "
+"ở màn hình bảo vệ."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2331,7 +2429,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Added a command in SPL Controller to report listener count (I)."
-msgstr ""
+msgstr "Thêm lệnh trong bộ điều khiển SPL để thông báo lượng người nghe (I)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2345,6 +2443,8 @@ msgid ""
 "In Track Tool, you can use Control+Alt+left or right arrow keys to navigate "
 "between columns."
 msgstr ""
+"Trong Track Tool, bạn có thể dùng Control+Alt+mũi tên trái phải để điều "
+"hướng giữa các cột."
 
 #. type: Bullet: '* '
 msgid ""
