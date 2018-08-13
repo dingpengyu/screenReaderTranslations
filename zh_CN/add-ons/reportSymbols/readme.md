@@ -1,7 +1,8 @@
-# Report Symbols #
+# 朗读符号 #
+
 *	作者: Noelia Ruiz Martínez.
-*	Download [stable version][1]
-*	Download [development version][2]
+*	下载 [稳定版][1]
+*	下载 [开发板][2]
 
 此插件允许听取输入的符号包括（非字母数字的字符），即使关闭了NVDA的输入字符朗读。
 
@@ -12,6 +13,11 @@
 
 注意: 需要修改插件快捷手势可以从NVDA菜单，首选项子菜单，输入手势对话框，来配置分配打开此对话框的手势。
 
+## 4.0更新日志 ##
+* reportSymbols的设置对话框已整合到NVDA通用设置中，你可以从相应类别找到他。
+* 需要NVDA 2018.2或更高版本。
+* 如果需要，您可以下载[与NVDA 2017.3兼容的最新版本] [3]。
+
 ## 3.0更新日志 ##
 * 增加了空格，回车和其他空白字符的复选框。
 
@@ -20,7 +26,14 @@
 *	需要NVDA 2016.4或更高版本。
 
 ## 1.0更新日志 ##
-*	发布初始版本。
+*	发布初始版本
+
+
+[[!tag dev stable]]
+
 [1]: http://addons.nvda-project.org/files/get.php?file=rsy
 
 [2]: http://addons.nvda-project.org/files/get.php?file=rsy-dev
+
+[3]:
+https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon
