@@ -1992,11 +1992,11 @@ Sau đây là danh sách các phím được gán của mẫu màn hình nổi n
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
 %kc:beginInclude
 || Tên | Phím |
-| Cuộn về trước | t1 hoặc etouch1 |
+| Cuộn về trước | t1, etouch1 |
 | Về dòng trước | t2 |
 | Chuyển đến focus hiện tại | t3 |
 | Chuyển đến dòng kế | t4 |
-| Cuộn tới | t5 hoặc etouch3 |
+| Cuộn tới | t5, etouch3 |
 | Rút về ô chữ nổi | routing |
 | Thông báo định dạng văn bản tại ô chữ nổi | secondary routing |
 | Bật tắt HID keyboard simulation | t1+spEnter |
@@ -2006,7 +2006,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Thông báo tiêu đề | etouch2 |
 | Thông báo thanh trạng thái | etouch4 |
 | Phím shift+tab | sp1 |
-| Phím alt | sp2 |
+| Phím alt | sp2, alt |
 | Phím escape | sp3 |
 | Phím tab | sp4 |
 | Phím mũi tên lên | spUp |
@@ -2024,7 +2024,6 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Phím control+end | t3+spDown |
 | Phím home | t3+spLeft |
 | Phím end | t3+spRight |
-| Phím alt | alt |
 | Phím control | control |
 %kc:endInclude
 
