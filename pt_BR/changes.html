@@ -36,15 +36,15 @@
 <H3>Alterações</H3>
 
 <UL>
-<LI>A lista de idiomas disponíveis na caixa de diálogo Configurações Gerais agora é ordenada com base nos nomes de idiomas em vez dos códigos ISO 639. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
-<LI>Adicionado gestos predefinidos para o alt shift tab e o windows tab com todas as linhas Braille da Freedom Scientific suportadas. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>A lista de idiomas disponíveis nas Configurações gerais do NVDA agora é ordenada com base nos nomes dos idiomas em vez dos códigos ISO 639. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
+<LI>Adicionado gestos padrões para Alt+Shift+Tab e Windows+Tab à todas as linhas braille da Freedom Scientific suportadas. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
 <LI>Para linhas ALVA BC680 e conversor de protocolo, agora é possível atribuir funções diferentes para a esquerda e direita do teclado inteligente, teclas thumb e etouch. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>Para linhas ALVA BC6, a combinação de teclas sp2+sp3 agora anunciará a data e a hora atuais, enquanto sp1+sp2 emula a tecla Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
-<LI>Agora, o usuário é perguntado uma vez na inicialização do NVDA, se está favorável em enviar estatísticas de uso para a NV Access ao verificar automaticamente as atualizações. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>É perguntado aos usuários uma vez quando o NVDA inicia se estão favoráveis em enviar estatísticas de uso para a NV Access ao verificar atualizações do NVDA. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
 <LI>Ao verificar atualizações, se o usuário concordou em permitir o envio de estatísticas de uso para a NV Access, agora o NVDA enviará o nome do atual driver de sintetizador e de linha braille em uso, para auxiliar na melhor priorização de trabalhos futuros nesses drivers. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
 <LI>Transcritor braille liblouis atualizado para a versão 3.6.0. (<A HREF="http://github.com/nvaccess/nvda/issues/8365">#8365</A>)
-<LI>Atualizado o caminho para a tabela Braille de oito pontos russa correta. (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
-<LI>Atualizado eSpeak-ng para a versão 1.49.3dev commit 910f4c2 (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
+<LI>Atualizado o caminho para a tabela Braille Russa de oito pontos correta. (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
+<LI>Atualizado eSpeak-ng para a versão 1.49.3dev commit 910f4c2. (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
 </UL>
 
 <H3>Correção de Falhas</H3>
@@ -52,7 +52,7 @@
 <UL>
 <LI>Os rótulos acessíveis para controles em Google Chrome quando o rótulo não aparece como conteúdo propriamente dito agora são mais facilmente anunciados no modo de navegação. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
 <LI>As notificações agora são suportadas no Zoom. Por exemplo, isso inclui o status de sem/com áudio e as mensagens recebidas. (<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
-<LI>A apresentação do contexto de alternância braille quando no modo de navegação não faz mais com que a saída braile pare de ser seguida. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>A apresentação do contexto de alternância braille quando no modo de navegação não faz mais com que a saída braille pare de seguir o cursor do modo de navegação. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
 <LI>Linha braille ALVA BC680 não falha mais intermitentemente ao inicializar. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
 <LI>Por padrão, a linha ALVA BC6 não executará mais as teclas do teclado do sistema emulado ao pressionar combinações de teclas envolvendo sp2+sp3 para acionar a funcionalidade interna. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>Pressionar sp2 numa linha ALVA BC6 para emular a tecla alt agora funciona como anunciado. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
@@ -61,7 +61,7 @@
 <LI>O NVDA reconhecerá mais diálogos no Windows 10 e em outras aplicações modernas. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
 <LI>Em Windows 10 Atualização de Outubro de 2018 e em Server 2019 e superiores, o NVDA não falha mais em rastrear o foco do sistema quando um aplicativo congela ou inunda o sistema com eventos. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
 <LI>Os usuários agora são informados ao tentar ler ou copiar uma barra de status vazia. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
-<LI>Corrigido um caso em que o estado "não marcado" nos controles não é informado por fala se o controle tiver sido meio marcado anteriormente. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>Corrigido um problema em que o estado "não marcado" nos controles não é informado por fala se o controle tiver sido meio marcado anteriormente. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
 <LI>Na lista de idiomas nas Configurações Gerais do NVDA, o nome do idioma para birmanês é exibido corretamente no Windows 7. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
 <LI>No Microsoft Edge, o NVDA anunciará notificações, como a disponibilidade de visualização de leitura e o progresso do carregamento da página. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
 <LI>Semelhante a outros campos de texto de múltiplas linhas, quando posicionado no início de um documento em Braille, a linha agora é movimentada de forma que o primeiro caractere do documento esteja no início da linha. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
@@ -70,6 +70,7 @@
 <LI>Agora é suportada a versão 64-bit do Media Player Classic. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
 <LI>Várias melhorias no suporte a braille no Microsoft Word com UI Automation [automação de interface do usuário] ativada:
  <UL>
+ <LI>Semelhante a outros campos de texto de múltiplas linhas, quando posicionado no início de um documento em Braille, a linha agora é movimentada de forma que o primeiro caractere do documento esteja no início da linha. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
  <LI>Reduzida apresentação de foco excessivamente verbosa em fala e braille ao focar um documento do Word. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
  <LI>Rolagem de cursor em braille agora funciona corretamente quando em uma lista em um documento do Word. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
  <LI>Os marcadores/números inseridos recentemente em um documento do Word são informados corretamente em fala e braille. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
@@ -706,7 +707,7 @@ Alguns itens ou termos desta seção não serão traduzidos, uma vez que são de
 <LI>No Microsoft Word, o NVDA agora anuncia apropriadamente quando se usa os comandos de navegação em tabelas do próprio Word (alt+home, alt+end, alt+pageUp e alt+pageDown) e os comandos de seleção em tabelas (shift em conjunto com os comandos de navegação). (<A HREF="http://github.com/nvaccess/nvda/issues/5961">#5961</A>)
 <LI>Nas caixas de diálogo do Microsoft Word, a navegação de objetos do NVDA foi significativamente melhorada. (<A HREF="http://github.com/nvaccess/nvda/issues/6036">#6036</A>)
 <LI>Em alguns aplicativos tais como o Visual Studio 2015, teclas de atalho (como control+c para Copiar) agora são anunciadas como o esperado. (<A HREF="http://github.com/nvaccess/nvda/issues/6021">#6021</A>)
-<LI>Corrigido um problema raro ao procurar portas seriais em alguns sistemas, que tornava certos drivers de linhas braile inutilizáveis. (<A HREF="http://github.com/nvaccess/nvda/issues/6015">#6015</A>)
+<LI>Corrigido um problema raro ao procurar portas seriais em alguns sistemas, que tornava certos drivers de linhas braille inutilizáveis. (<A HREF="http://github.com/nvaccess/nvda/issues/6015">#6015</A>)
 <LI>O anúncio das cores no Microsoft Word agora é mais acurado, de modo que as alterações nos temas do Microsoft Office sejam levadas em conta. (<A HREF="http://github.com/nvaccess/nvda/issues/5997">#5997</A>)
 <LI>O modo de navegação para o Microsoft Edge e o suporte às sugestões de pesquisa do Menu Iniciar estão novamente disponíveis em compilações do Windows 10 posteriores a abril de 2016. (<A HREF="http://github.com/nvaccess/nvda/issues/5955">#5955</A>)
 <LI>No Microsoft Word, a leitura automática dos cabeçalhos de tabelas funciona melhor ao encontrar células mescladas. (<A HREF="http://github.com/nvaccess/nvda/issues/5926">#5926</A>)
@@ -843,10 +844,10 @@ Os destaques desta versão incluem a possibilidade de reduzir opcionalmente o vo
 <LI>No Internet Explorer e outros controles MSHTML, a movimentação para níveis de cabeçalho específicos com a navegação por letra agora comporta-se como esperado quando o nível de um cabeçalho é ocultado para fins de acessibilidade (especificamente, quando o aria-level esconde o nível duma tag h). (<A HREF="http://github.com/nvaccess/nvda/issues/5434">#5434</A>)
 <LI>No Spotify, o foco não cai mais com frequência em objetos "unknown". (<A HREF="http://github.com/nvaccess/nvda/issues/5439">#5439</A>)
 <LI>O foco agora é restaurado corretamente ao retornar de outro aplicativo para o Spotify. (<A HREF="http://github.com/nvaccess/nvda/issues/5439">#5439</A>)
-<LI>Ao alternar do modo de navegação para o modo de foco, o modo é anunciado em braile e também em fala. (<A HREF="http://github.com/nvaccess/nvda/issues/5239">#5239</A>)
+<LI>Ao alternar do modo de navegação para o modo de foco, o modo é anunciado em braille e também em fala. (<A HREF="http://github.com/nvaccess/nvda/issues/5239">#5239</A>)
 <LI>O botão Iniciar da barra de tarefas não é mais anunciado como lista e/ou como selecionado em algumas versões de Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/5178">#5178</A>)
 <LI>Mensagens como "inserido" não são mais anunciadas ao escrever mensagens no Microsoft Outlook. (<A HREF="http://github.com/nvaccess/nvda/issues/5486">#5486</A>)
-<LI>Ao usar uma linha braile e um texto estiver selecionado na linha atual (ex.: ao buscar num editor de textos por um texto que aparece na mesma linha), a linha braile rolará o texto conforme apropriado. (<A HREF="http://github.com/nvaccess/nvda/issues/5410">#5410</A>)
+<LI>Ao usar uma linha braille e um texto estiver selecionado na linha atual (ex.: ao buscar num editor de textos por um texto que aparece na mesma linha), a linha braille rolará o texto conforme apropriado. (<A HREF="http://github.com/nvaccess/nvda/issues/5410">#5410</A>)
 <LI>O NVDA não mais se encerra silenciosamente ao fechar uma janela do prompt de comandos com alt+f4 no Windows 10. (<A HREF="http://github.com/nvaccess/nvda/issues/5343">#5343</A>)
 <LI>Na lista de elementos do modo de navegação, quando se altera o tipo de elemento, o campo "filtrar por" fica agora em branco. (<A HREF="http://github.com/nvaccess/nvda/issues/5511">#5511</A>)
 <LI>Em textos editáveis nos aplicativos Mozilla, voltar a mover o mouse lê a linha, palavra etc. apropriada como esperado ao invés de todo o conteúdo. (<A HREF="http://github.com/nvaccess/nvda/issues/5535">#5535</A>)
@@ -865,7 +866,7 @@ Os destaques desta versão incluem a possibilidade de reduzir opcionalmente o vo
 <LI>No Google Chrome, navegar numa composição de entrada enquanto se insere caracteres oriental-asiáticos agora funciona como esperado. (<A HREF="http://github.com/nvaccess/nvda/issues/4080">#4080</A>)
 <LI>Ao fazer uma busca na Apple Music no iTunes, o modo de navegação para o documento dos resultados da busca agora se atualiza como esperado. (<A HREF="http://github.com/nvaccess/nvda/issues/5659">#5659</A>)
 <LI>No Microsoft Excel, pressionar shift+f11 para criar uma nova planilha agora anuncia a nova posição ao invés de não anunciar nada. (<A HREF="http://github.com/nvaccess/nvda/issues/5689">#5689</A>)
-<LI>Corrigidos problemas com o que é mostrado em linhas braile ao inserir caracteres coreanos. (<A HREF="http://github.com/nvaccess/nvda/issues/5640">#5640</A>)
+<LI>Corrigidos problemas com o que é mostrado em linhas braille ao inserir caracteres coreanos. (<A HREF="http://github.com/nvaccess/nvda/issues/5640">#5640</A>)
 </UL>
 
 <H2>2015.4</H2>
@@ -1285,7 +1286,7 @@ Alguns itens ou termos desta seção não serão traduzidos, uma vez que são de
 <H3>Alterações</H3>
 
 <UL>
-<LI>Para as linhas braile Papenmeier, o comando mover para a revisão plana/foco foi removido. Os usuários poderão atribuir suas próprias teclas usando o Diálogo de Gestos de Entrada. (<A HREF="http://github.com/nvaccess/nvda/issues/3652">#3652</A>)
+<LI>Para as linhas braille Papenmeier, o comando mover para a revisão plana/foco foi removido. Os usuários poderão atribuir suas próprias teclas usando o Diálogo de Gestos de Entrada. (<A HREF="http://github.com/nvaccess/nvda/issues/3652">#3652</A>)
 <LI>O NVDA agora utiliza-se do Microsoft VC runtime versão 11, o que significa que já não é mais possível executá-lo em sistemas operacionais mais antigos que o Windows XP Service Pack 2 ou o Windows Server 2003 Service Pack 1.
 <LI>No nível de Pontuação pouco agora serão falados os caracteres asterisco (*) e mais (+). (<A HREF="http://github.com/nvaccess/nvda/issues/3614">#3614</A>)
 <LI>Atualizado o sintetizador eSpeak para a versão 1.48.04, o que inclui muitas correções nos idiomas e resolve vários problemas de instabilidades. (<A HREF="http://github.com/nvaccess/nvda/issues/3842">#3842</A>, <A HREF="http://github.com/nvaccess/nvda/issues/3739">#3739</A>), <A HREF="http://github.com/nvaccess/nvda/issues/3860">#3860</A>)
@@ -1311,10 +1312,10 @@ Alguns itens ou termos desta seção não serão traduzidos, uma vez que são de
 <LI>Os nomes de gestos táteis listados no diálogo de gestos para entrada do NVDA agora estão amigáveis e traduzidos. (<A HREF="http://github.com/nvaccess/nvda/issues/3624">#3624</A>)
 <LI>O NVDA já não faz com que certos programas travem ao mover o mouse por sobre seus controles de edição avançada (TRichEdit). Programas incluem o Jarte 5.1 e o BRFácil. (<A HREF="http://github.com/nvaccess/nvda/issues/3693">#3693</A>, <A HREF="http://github.com/nvaccess/nvda/issues/3603">#3603</A>, <A HREF="http://github.com/nvaccess/nvda/issues/3581">#3581</A>)
 <LI>No Internet Explorer e outros controles MSHTML, objetos que contém outros como as tabelas marcadas com ARIA como sendo de leiaute não são mais anunciadas ao usuário. (<A HREF="http://github.com/nvaccess/nvda/issues/3713">#3713</A>)
-<LI>No Microsoft Word, o NVDA já não repete inapropriadamente informações de linha e coluna de tabela para uma célula numa linha braile várias vezes. (<A HREF="http://github.com/nvaccess/nvda/issues/3702">#3702</A>)
+<LI>No Microsoft Word, o NVDA já não repete inapropriadamente informações de linha e coluna de tabela para uma célula numa linha braille várias vezes. (<A HREF="http://github.com/nvaccess/nvda/issues/3702">#3702</A>)
 <LI>Em idiomas que usam um espaço como indicador de grupo de algarismos/separador de milhar, como Francês e Alemão, números que pertençam a trechos separados de textos já não são pronunciados como um só número. Isso era particularmente problemático em tabelas contendo números. (<A HREF="http://github.com/nvaccess/nvda/issues/3698">#3698</A>)
-<LI>O Braile já não deixa de atualizar-se algumas vezes quando o cursor do sistema é movido no Microsoft Word 2013. (<A HREF="http://github.com/nvaccess/nvda/issues/3784">#3784</A>)
-<LI>Estando posicionado no primeiro caractere de um cabeçalho no Microsoft Word, o texto comunicando que se trata de um cabeçalho (incluindo o nível) já não desaparece numa linha braile. (<A HREF="http://github.com/nvaccess/nvda/issues/3701">#3701</A>)
+<LI>O braille já não deixa de atualizar-se algumas vezes quando o cursor do sistema é movido no Microsoft Word 2013. (<A HREF="http://github.com/nvaccess/nvda/issues/3784">#3784</A>)
+<LI>Estando posicionado no primeiro caractere de um cabeçalho no Microsoft Word, o texto comunicando que se trata de um cabeçalho (incluindo o nível) já não desaparece numa linha braille. (<A HREF="http://github.com/nvaccess/nvda/issues/3701">#3701</A>)
 <LI>Quando um perfil de configuração é disparado para um aplicativo e aquele aplicativo é fechado, o NVDA já não deixa algumas vezes de desativar o perfil. (<A HREF="http://github.com/nvaccess/nvda/issues/3732">#3732</A>)
 <LI>Ao inserir entradas Asiáticas num controle dentro do próprio NVDA (por exemplo no diálogo de procura do modo de navegação), "NVDA" já não é incorretamente anunciado no lugar da sugestão. (<A HREF="http://github.com/nvaccess/nvda/issues/3726">#3726</A>)
 <LI>As guias no diálogo de opções do Outlook 2013 agora são anunciadas. (<A HREF="http://github.com/nvaccess/nvda/issues/3826">#3826</A>)
@@ -1392,10 +1393,10 @@ Alguns itens ou termos desta seção não serão traduzidos, uma vez que são de
 <LI>Diálogo de opções de teclado: Se nenhuma tecla for escolhida para uso como tecla do NVDA, um erro é apresentado ao usuário ao fechar o diálogo. Deve ser escolhida pelo menos uma tecla para uso adequado do NVDA. (<A HREF="http://github.com/nvaccess/nvda/issues/2871">#2871</A>)
 <LI>No Microsoft Excel, o NVDA agora anuncia células mescladas de modo diferente de várias células selecionadas. (<A HREF="http://github.com/nvaccess/nvda/issues/3567">#3567</A>)
 <LI>O cursor do modo de navegação já não é posicionado incorretamente quando se encerra um diálogo ou aplicativo dentro do documento. (<A HREF="http://github.com/nvaccess/nvda/issues/3145">#3145</A>)
-<LI>Corrigido um problema no qual o driver da linha braile HumanWare Brailliant BI/B series não era apresentado como opção no diálogo de opções de braile em alguns sistemas, mesmo que essa linha estivesse conectada via USB.
+<LI>Corrigido um problema no qual o driver da linha braille HumanWare Brailliant BI/B series não era apresentado como opção no diálogo de opções de braille em alguns sistemas, mesmo que essa linha estivesse conectada via USB.
 <LI>O NVDA já não deixa de alternar para a exploração de tela quando o objeto de navegação atual não possui localização na tela. Nesse caso, o cursor de exploração agora é colocado no topo da tela. (<A HREF="http://github.com/nvaccess/nvda/issues/3454">#3454</A>)
 <LI>Resolvido um problema que fazia com que o driver para as linhas braille da Freedom Scientific falhasse quando a porta era definida para USB em algumas circunstâncias. (<A HREF="http://github.com/nvaccess/nvda/issues/3509">#3509</A>, <A HREF="http://github.com/nvaccess/nvda/issues/3662">#3662</A>)
-<LI>Resolvido um problema onde as teclas de linhas braile da Freedom Scientific não eram detectadas em algumas circunstâncias. (<A HREF="http://github.com/nvaccess/nvda/issues/3401">#3401</A>, <A HREF="http://github.com/nvaccess/nvda/issues/3662">#3662</A>)
+<LI>Resolvido um problema onde as teclas de linhas braille da Freedom Scientific não eram detectadas em algumas circunstâncias. (<A HREF="http://github.com/nvaccess/nvda/issues/3401">#3401</A>, <A HREF="http://github.com/nvaccess/nvda/issues/3662">#3662</A>)
 </UL>
 
 <H3>Alterações específicas para desenvolvedores</H3>
@@ -1419,14 +1420,14 @@ Alguns itens ou termos desta seção não serão traduzidos, uma vez que são de
 <LI>Nova variante de voz do ESpeak: Iven3.
 <LI>No Skype, mensagens novas de chat são anunciadas automaticamente quando a conversa está com foco. (<A HREF="http://github.com/nvaccess/nvda/issues/2298">#2298</A>)
 <LI>Suporte ao Tween, incluindo anúncio dos nomes de abas e menos verbosidade ao ler twites.
-<LI>Agora você pode desabilitar a exibição de mensagens do NVDA numa linha braile ajustando o tempo limite de mensagem para 0 na janela de Opções de braile. (<A HREF="http://github.com/nvaccess/nvda/issues/2482">#2482</A>)
+<LI>Agora você pode desabilitar a exibição de mensagens do NVDA numa linha braille ajustando o tempo limite de mensagem para 0 na janela de Opções de braille. (<A HREF="http://github.com/nvaccess/nvda/issues/2482">#2482</A>)
 <LI>No gestor de complementos existe agora um botão Baixar Complementos para abrir a página de complementos do NVDA, onde pode navegar e descarregar complementos. (<A HREF="http://github.com/nvaccess/nvda/issues/3209">#3209</A>)
 <LI>Na janela de boas vindas do NVDA, que aparece quando se executa o NVDA pela primeira vez, você agora pode determinar se o NVDA inicia automaticamente após fazer logon no Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/2234">#2234</A>)
 <LI>O modo dormir é ativado automaticamente ao usar o Dolphin Cicero. (<A HREF="http://github.com/nvaccess/nvda/issues/2055">#2055</A>)
 <LI>A versão x64 do Miranda IM/Miranda NG agora é suportada. (<A HREF="http://github.com/nvaccess/nvda/issues/3296">#3296</A>)
 <LI>As sugestões de pesquisa na tela inicial do Windows 8.1 agora são anunciadas. (<A HREF="http://github.com/nvaccess/nvda/issues/3322">#3322</A>)
 <LI>Suporte à navegação e edição de planilhas no Microsoft Excel 2013. (<A HREF="http://github.com/nvaccess/nvda/issues/3360">#3360</A>)
-<LI>As linhas braile Focus 14 Blue e Focus 80 Blue da Freedom Scientific, bem como a Focus 40 Blue em determinadas configurações que não eram suportadas antes, são agora suportadas quando conectada via bluetooth. (<A HREF="http://github.com/nvaccess/nvda/issues/3307">#3307</A>)
+<LI>As linhas braille Focus 14 Blue e Focus 80 Blue da Freedom Scientific, bem como a Focus 40 Blue em determinadas configurações que não eram suportadas antes, são agora suportadas quando conectada via bluetooth. (<A HREF="http://github.com/nvaccess/nvda/issues/3307">#3307</A>)
 <LI>As sugestões de auto completar agora são anunciadas no Outlook 2010. (<A HREF="http://github.com/nvaccess/nvda/issues/2816">#2816</A>)
 <LI>Novas tabelas de tradução braille: Inglês (U.K.) braille de computador, Coreano grau 2, código braille Russo para computador.
 <LI>Novo idioma: Persa. (<A HREF="http://github.com/nvaccess/nvda/issues/1427">#1427</A>)
@@ -1445,7 +1446,7 @@ Alguns itens ou termos desta seção não serão traduzidos, uma vez que são de
  <LI>Após mudar para o modo de exploração de tela, o NVDA permanecerá nesse modo até que você mude explicitamente para o modo de exploração de documento ou o de objeto.
  <LI>No modo de exploração de documento ou de objeto, o NVDA pode trocar entre esses dois modos dependendo se você estiver se movendo por um documento em modo de navegação ou não.
  </UL>
-<LI>Atualizado o transcritor braile liblouis para a versão 2.5.3. (<A HREF="http://github.com/nvaccess/nvda/issues/3371">#3371</A>)
+<LI>Atualizado o transcritor braille liblouis para a versão 2.5.3. (<A HREF="http://github.com/nvaccess/nvda/issues/3371">#3371</A>)
 </UL>
 
 <H3>Correção de falhas</H3>
@@ -1460,7 +1461,7 @@ Alguns itens ou termos desta seção não serão traduzidos, uma vez que são de
 <LI>Pressionar Alt+seta baixo ou Alt+seta cima para expandir uma caixa de combinação estando em modo de foco não alterna mais para modo de navegação. (<A HREF="http://github.com/nvaccess/nvda/issues/2340">#2340</A>)
 <LI>No internet Explorer 10, células de tabela não ativam mais o modo de foco a não ser que elas tenham sido explicitamente marcadas como focáveis pelo autor da página. (<A HREF="http://github.com/nvaccess/nvda/issues/3248">#3248</A>)
 <LI>O NVDA não se recusa mais a iniciar se a hora do sistema for anterior à última procura por atualizações. (<A HREF="http://github.com/nvaccess/nvda/issues/3260">#3260</A>)
-<LI>Caso uma barra de progresso seja mostrada numa linha braile, a linha é atualizada quando a barra é alterada. (<A HREF="http://github.com/nvaccess/nvda/issues/3258">#3258</A>)
+<LI>Caso uma barra de progresso seja mostrada numa linha braille, a linha é atualizada quando a barra é alterada. (<A HREF="http://github.com/nvaccess/nvda/issues/3258">#3258</A>)
 <LI>No modo de navegação em aplicativos Mozilla, legendas de tabelas não são mais renderizadas duas vezes. Além disso, renderiza-se o sumário quando há uma legenda. (<A HREF="http://github.com/nvaccess/nvda/issues/3196">#3196</A>)
 <LI>Ao trocar o idioma de entrada no Windows 8, o NVDA agora fala o idioma correto e não o anterior.
 <LI>O NVDA agora anuncia mudanças de modos de conversão de IME no Windows 8.
@@ -1476,7 +1477,7 @@ Alguns itens ou termos desta seção não serão traduzidos, uma vez que são de
 <LI>Os comandos de navegação em tabelas do NVDA (control+alt+setas) funcionam melhor em certas tabelas do Microsoft Word nas quais uma célula abrange várias linhas.
 <LI>Caso o gestor de complementos já esteja aberto, ativá-lo de novo (seja pelo menu ferramentas ou abrindo um arquivo de complemento) não mais causa falha nem torna impossível fechar o gestor de complementos. (<A HREF="http://github.com/nvaccess/nvda/issues/3351">#3351</A>)
 <LI>O NVDA não congela mais em certos diálogos quando o IME Chinês ou Japonês do Office 2010 está em uso. (<A HREF="http://github.com/nvaccess/nvda/issues/3064">#3064</A>)
-<LI>Vários espaços não são mais comprimidos para um só espaço em linhas braile. (<A HREF="http://github.com/nvaccess/nvda/issues/1366">#1366</A>)
+<LI>Vários espaços não são mais comprimidos para um só espaço em linhas braille. (<A HREF="http://github.com/nvaccess/nvda/issues/1366">#1366</A>)
 <LI>O Zend Eclipse PHP Developer Tools agora funciona da mesma forma que o Eclipse. (<A HREF="http://github.com/nvaccess/nvda/issues/3353">#3353</A>)
 <LI>No Internet Explorer, voltou a não ser necessário pressionar tab para interagir com um objeto embutido (como o conteúdo Flash) depois de pressionar Enter nele. (<A HREF="http://github.com/nvaccess/nvda/issues/3364">#3364</A>)
 <LI>Ao editar textos no Microsoft PowerPoint, a última linha não é mais anunciada como a linha acima se a linha final estiver em branco. (<A HREF="http://github.com/nvaccess/nvda/issues/3403">#3403</A>)
@@ -1878,7 +1879,7 @@ Alguns itens ou termos desta seção não serão traduzidos, uma vez que são de
 <LI>No Modo de Navegação, você agora pode ativar o objeto sob o cursor usando uma linha braille. Isso é feito pressionando a tecla do sensor onde o cursor está posicionado (o que significa que deve-se pressioná-lo duas vezes caso o cursor ainda não esteja neste local). (<A HREF="http://github.com/nvaccess/nvda/issues/1893">#1893</A>)
 <LI>Suporte básico para áreas da web em iTunes, tais como na loja. Outros aplicativos que usam WebKit 1 também podem ser suportados. (<A HREF="http://github.com/nvaccess/nvda/issues/734">#734</A>)
 <LI>Em edições digitais de livros da Adobe nas versões 1.8.1 e posteriores, as páginas agora são passadas automaticamente quando é efetuada a leitura contínua. (<A HREF="http://github.com/nvaccess/nvda/issues/1978">#1978</A>)
-<LI>Nova tabela de tradução braile: português grau 2. (<A HREF="http://github.com/nvaccess/nvda/issues/2014">#2014</A>)
+<LI>Nova tabela de tradução braille: português grau 2. (<A HREF="http://github.com/nvaccess/nvda/issues/2014">#2014</A>)
 <LI>Você agora pode configurar o anúncio de frames nos documentos através do Diálogo de Formatação de Documentos. (<A HREF="http://github.com/nvaccess/nvda/issues/1900">#1900</A>)
 <LI>O modo dormir agora é habilitado automaticamente ao usar o OpenBook. (<A HREF="http://github.com/nvaccess/nvda/issues/1209">#1209</A>)
 <LI>No Poedit, os tradutores agora podem ler comentários adicionados e automaticamente extraídos. Mensagens não traduzidas ou excluídas são marcadas com um asterisco e um beep é ouvido ao navegar por elas. (<A HREF="http://github.com/nvaccess/nvda/issues/1811">#1811</A>)
