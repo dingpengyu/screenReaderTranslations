@@ -1232,6 +1232,7 @@ Mikäli näytön ajurin lataamisessa ilmenee virheitä, NVDA ilmoittaa siitä, e
 ==== Pistenäyttö ====[SelectBrailleDisplayDisplay]
 Tämä yhdistelmäruutu sisältää useita vaihtoehtoja riippuen järjestelmään asennetuista pistenäyttöajureista.
 Vaihtoehtojen välillä liikutaan nuolinäppäimillä.
+
 Vaihtoehto "automaattinen" saa NVDA:n etsimään useita tuettuja pistenäyttöjä taustalla.
 Kun tämä ominaisuus on käytössä ja tietokoneeseen liitetään tuettu pistenäyttö USB:tä tai bluetoothia käyttäen, NVDA ottaa kyseisen näytön käyttöön.
 
