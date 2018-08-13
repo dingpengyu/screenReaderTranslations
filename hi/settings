@@ -36,6 +36,6 @@
   "addon.vocalizerDriver": "1", 
   "addon.wintenApps": "0", 
   "addon.word": "1", 
-  "nvda.branch": "master", 
+  "nvda.branch": "beta", 
   "nvda.lastSubmittedSvnRev": "36636"
 }

@@ -33,7 +33,7 @@
   "addon.vocalizerDriver": "1", 
   "addon.wintenApps": "1", 
   "addon.word": "1", 
-  "nvda.branch": "master", 
+  "nvda.branch": "beta", 
   "nvda.changes.lastFoundHash": "d58e1cd45985372c442e69bd281ffd96985d63d8", 
   "nvda.lastSubmittedSvnRev": "41359", 
   "nvda.symbols.lastFoundHash": "f6846e07236de4dde6745cf3d9304ab108446138", 
