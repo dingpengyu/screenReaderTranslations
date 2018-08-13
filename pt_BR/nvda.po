@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-13 15:58+1000\n"
-"PO-Revision-Date: 2018-08-13 10:03-0300\n"
+"PO-Revision-Date: 2018-08-13 19:25-0300\n"
 "Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -3876,8 +3876,7 @@ msgstr "sem informações na barra de status"
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
 msgstr ""
-"não é possível copiar o conteúdo da barra de status para a ârea de "
-"transferência"
+"impossível copiar o conteúdo da barra de status para a área de transferência"
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -4850,7 +4849,7 @@ msgstr "Curdo do Norte"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr "Burmês"
+msgstr "Birmanês"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
