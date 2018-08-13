@@ -19,7 +19,7 @@
   "addon.mp3DirectCut": "1", 
   "addon.noBeepsSpeechMode": "1", 
   "addon.placeMarkers": "0", 
-  "addon.readFeeds": "1", 
+  "addon.readFeeds": "0", 
   "addon.remote": "1", 
   "addon.reportSymbols": "1", 
   "addon.resourceMonitor": "1", 
