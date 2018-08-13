@@ -1,0 +1,16 @@
+commit 691b996c7d6a97d7ad0cf7fac068eb8d7a70b667
+Author: Joseph Lee <joseph.lee22590@gmail.com>
+Date:   Sun Aug 12 17:49:55 2018 -0700
+
+    What's new: beta-level entry changes and clarifications (#8618)
+    
+    * What's new: entry changes, capitalization, clarification.
+    
+    MS Word/UIA/braille panning bug fix entry is now part of related fixes for Word/UIA fixes.
+    Braille table path; russian > Russian.
+    Sending synth name and brialle display driver name: added a clarification statement that says this is for 2018.3 and later.
+    Half-checked state entry: 'fixed a case' > 'fixed an issue'.
+    Language list/ISO 639 sorting change: General Settings dialog > NVDA's General Settings.
+    Braille focus context presentation fix: clarified that this is related to browse mode cursor, as just saying 'stop following' is not relaly that clear.
+    
+    * What's new: revert usage stats entry and specify that this will happen when chekcing for updates.
