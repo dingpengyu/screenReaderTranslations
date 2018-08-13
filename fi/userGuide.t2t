@@ -2317,7 +2317,6 @@ Nämä näytöt eivät tue NVDA:n automaattista taustalla tapahtuvaa pistenäyt�
 
 NVDA käyttää BrxComia, mikäli se on asennettu.
 BrxCom on työkalu, joka mahdollistaa pistenäytön näppäimistösyötteen toimimisen itsenäisesti ruudunlukuohjelmasta riippumatta.
-Papenmeier julkaisee piakkoin tästä työkalusta NVDA:n kanssa toimivan version.
 Pistekirjoituksen syöttäminen on mahdollista Trio- ja BRAILLEX Live -malleissa.
 
 Useimmissa laitteissa on intuitiivisen ja nopean käytön mahdollistava helppokäyttönäppäin (EAB).
