@@ -16,7 +16,7 @@
 
 <UL>
 <LI>当Mozilla Firefox和Google Chrome中的网页正确显示时，NVDA将朗读语法错误。 (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
-<LI>标记为在网页中插入或删除的内容现在在Google Chrome中朗读。 (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
+<LI>现在标记为在网页中插入或删除的内容在Google Chrome中朗读。 (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
 <LI>当BrailleNote用作带NVDA的盲文显示器时，增加了对BrailleNote QT和Apex BT滚轮的支持。 (<A HREF="http://github.com/nvaccess/nvda/issues/6316">#6316</A>)- (<A HREF="http://github.com/nvaccess/nvda/issues/5992">#5992</A>, <A HREF="http://github.com/nvaccess/nvda/issues/5993">#5993</A>)
 <LI>在Foobar2000中添加了用于报告当前曲目的已用时间和总时间的脚本。 (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
 <LI>使用任何合成器读取文本时，现在会朗读Mac Command键。 (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
@@ -52,7 +52,7 @@
 <LI>当标签没有以内容本身的形式出现时，浏览模式下可以更容易地报告Google Chrome浏览器中控件的可访问标签。 (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
 <LI>Zoom现在支持通知。例如，包括静音/取消静音状态和传入消息。(<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
 <LI>在浏览模式下，切换盲文上下文显示不再导致盲文输出停止跟随。 (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
-<LI>修复ALVA BC680盲文点显器不再间歇性地无法初始化。 (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>修复ALVA BC680盲文点显器不再间歇性地无法初始化的BUG。 (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
 <LI>默认情况下，当按下涉及sp2 + sp3的键组合以触发内部功能时，ALVA BC6显示将不再执行模拟系统键盘键。 (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>按ALVA BC6显示屏上的sp2以模拟alt键现在可以像宣传的那样工作。 (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
 <LI>NVDA不再朗读冗余键盘布局更改。 (<A HREF="http://github.com/nvaccess/nvda/issues/7383">#7383</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
@@ -65,10 +65,11 @@
 <LI>在Microsoft Edge中，NVDA将朗读通知，例如读取视图可用性和页面加载进度。 (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
 <LI>修复与其他多行文本字段类似，当以盲文定位在文档的开头时，现在平移显示，使得文档的第一个字符位于显示的开头。 (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
 <LI>当导航到Web上的列表时，如果Web作者提供了标签，NVDA现在将朗读其标签。 (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
-<LI>当手动将功能分配给特定盲文点显器的手势时，这些手势现在总是显示为分配给该显示器。以前，它们显示为好像被分配到当前活动的点显器。 (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>当手动将功能分配给特定盲文点显器的手势时，这些手势现在总是显示为分配给该显示器。以前，它们显示为被分配到当前活动的点显器。 (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
 <LI>支持64位版本的Media Player Classic。 (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
 <LI>启用了UI自动化的Microsoft Word中对盲文支持的一些改进：
  <UL>
+ <LI>与其他多行文本字段类似，当以盲文定位在文档的开头时，显示现在已平移，使得文档的第一个字符位于显示的开头。 (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
  <LI>在聚焦Word文档时，减少语音和盲文中过于冗长的焦点显示。 (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
  <LI>盲文中的光标路由现在可以在Word文档的列表中正常工作。 (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
  <LI>在Word文档中新插入的项目符号/数字可以在语音和盲文中正确朗读。 (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
