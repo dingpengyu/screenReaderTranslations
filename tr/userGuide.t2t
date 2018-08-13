@@ -1993,11 +1993,11 @@ Aşağıda bu ekranla kullanılabilecek tuş kombinasyonları yer almaktadır.
 Lütfen bu tuşların nerede bulunacağıyla ilgili Braille ekran yardım belgelerine bakın.
 %kc:beginInclude
 || Ad | Kısayol Tuşu |
-| Scroll braille display back | t1 or etouch1 |
+| Scroll braille display back | t1, etouch1 |
 | Braille ekran önceki satır | t2 |
 | Move to current focus | t3 |
 | Braille ekran sonraki satır | t4 |
-| Scroll braille display forward | t5 or etouch3 |
+| Scroll braille display forward | t5, etouch3 |
 | Odağı braille konumuna taşı | routing |
 | braille hücre altındaki metin biçimlendirmesini bildir | secondary routing |
 | HID klavye simülasyonunu açıp kapama | t1+spEnter |
@@ -2007,14 +2007,14 @@ Lütfen bu tuşların nerede bulunacağıyla ilgili Braille ekran yardım belgel
 | Report title | etouch2 |
 | Report status bar | etouch4 |
 | shift+tab tuşu | sp1 |
-| alt tuşu | sp2 |
+| alt tuşu | sp2, alt |
 | esc tuşu | sp3 |
 | tab tuşu | sp4 |
 | Yukarı ok tuşu | spUp |
 | Aşağı ok tuşu | spDown |
 | Sol ok tuşu | spLeft |
 | Sağ ok tuşu | spRight |
-| enter tuşu | spEnter, enter|
+| enter tuşu | spEnter, enter |
 | Saat/tarih bilgisi | sp2+sp3 |
 | NVDA Menüsü | sp1+sp3 |
 | windows+d tuşu (Tüm uygulamaları küçült) | sp1+sp4 |
@@ -2025,7 +2025,6 @@ Lütfen bu tuşların nerede bulunacağıyla ilgili Braille ekran yardım belgel
 | control+end key | t3+spDown |
 | home key | t3+spLeft |
 | end key | t3+spRight |
-| alt key | alt |
 | control key | control |
 %kc:endInclude
 
