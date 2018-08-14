@@ -113,7 +113,7 @@ Tämän version merkittävimpiä uusia ominaisuuksia ovat tuki taulukoille Kindl
 - Korjattu Handy Techin Easy Braille- ja Braille Wave -pistenäyttöjen yhteyden vakauteen liittyviä ongelmia. (#8016)
 - NVDA ei enää ilmoita Windows 8:ssa ja uudemmissa  "tuntematon" pikalinkkivalikkoa (Windows+X) avattaessa ja valittaessa sen kohteita. (#8137)
 - HIMS-pistenäyttöjen mallikohtaiset painikkeiden syötekomennot toimivat nyt kuten käyttöohjeessa ilmoitetaan. (#8096)
-- NVDA yrittää nyt korjata järjestelmän COM-rekisteröinnin ongelmia, jotka aiheuttavat ohjelmien (kuten Firefox ja Internet Explorer) muuttumista esteellisiksi sekä NVDA:n "tuntematon"-ilmoituksia. (#2807)
+- NVDA yrittää nyt korjata järjestelmän COM-rekisteröintien ongelmia, jotka aiheuttavat ohjelmien (kuten Firefox ja Internet Explorer) muuttumista esteellisiksi sekä NVDA:n "tuntematon"-ilmoituksia. (#2807)
 - Kierretty Tehtävienhallinnan ongelma, joka esti NVDA:n käyttäjiä lukemasta prosessien yksityiskohtaisia tietoja. (#8147)
 - Uudet Microsoft SAPI5 -äänet reagoivat nyt nopeammin, mikä tekee niiden käyttämisestä sujuvampaa. (#8174)
 - NVDA ei enää puhu tai näytä pistenäytöllä vasemmalta oikealle ja oikealta vasemmalle osoittavia nuolimerkkejä käytettäessä kelloa Windowsin uusimmissa versioissa. (#5729)
