@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-13 15:58+1000\n"
-"PO-Revision-Date: 2018-07-05 12:48+0300\n"
+"PO-Revision-Date: 2018-08-14 19:27+0300\n"
 "Last-Translator: Volodymyr <vlodko@torba.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -361,14 +361,12 @@ msgid "pwdedt"
 msgstr "редпар"
 
 #. Translators: Displayed in braille for an object which is deleted.
-#, fuzzy
 msgid "del"
-msgstr "длг"
+msgstr "вид-но"
 
 #. Translators: Displayed in braille for an object which is inserted.
-#, fuzzy
 msgid "ins"
-msgstr "Посил&ання"
+msgstr "встав-но"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -513,11 +511,11 @@ msgstr "Автоматично"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -589,14 +587,13 @@ msgid "to review"
 msgstr "до переглядового курсора"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
 msgid "Unknown braille display"
-msgstr "Seika braille displays"
+msgstr "Невідомий брайлівський дисплей"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "Bluetooth порт: {portName}"
+msgstr "Серійний порт bluetooth: {port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
@@ -668,9 +665,8 @@ msgstr "Bulgarian 8 dot computer braille"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Central Kurdish grade 1"
-msgstr "Swedish grade 1"
+msgstr "Central Kurdish grade 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -684,9 +680,8 @@ msgstr "Welsh grade 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Czech 8 dot computer braille"
-msgstr "Swedish 8 dot computer braille"
+msgstr "Czech 8 dot computer braille"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -790,9 +785,8 @@ msgstr "English (U.S.) grade 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Esperanto grade 1"
-msgstr "German grade 1"
+msgstr "Esperanto grade 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -901,9 +895,8 @@ msgstr "Hungarian grade 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Hungarian grade 2"
-msgstr "Hungarian grade 1"
+msgstr "Hungarian grade 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -3869,13 +3862,12 @@ msgid "No status line found"
 msgstr "Рядок стану невиявлено"
 
 #. Translators: Reported when status line exist, but is empty.
-#, fuzzy
 msgid "no status bar information"
-msgstr "Немає інформації про розташування"
+msgstr "Немає інформації рядка стану"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
-msgstr ""
+msgstr "Неможливо скопіювати вміст рядка стану до буферу обміну"
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -4836,17 +4828,17 @@ msgstr "Aragonese"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr ""
+msgstr "Центральнокурдська"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr ""
+msgstr "Північнокурдська"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "Бірманська"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -7307,7 +7299,7 @@ msgstr "Вимкнено"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
-msgstr ""
+msgstr "Немає емодзі"
 
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
@@ -7830,7 +7822,7 @@ msgid ""
 "Do you wish to allow NV Access to periodically collect this data in order to "
 "improve NVDA?"
 msgstr ""
-"З метою подальших поліпшень NVDA NV Access хоче зібрати дані про "
+"З метою подальших поліпшень NVDA, NV Access хоче зібрати дані про "
 "використання запущених копій програми.\n"
 "\n"
 "Ці дані включають версію операційної системи, версію NVDA, мову, країну "
@@ -7838,7 +7830,7 @@ msgstr ""
 "синтезатор, брайлівський дисплей і брайлівську таблицю. При цьому те, що "
 "NVDA промовляє чи відображає на брайлівському дисплеї, до NV Access ніколи "
 "не надсилатиметься. Будь ласка, зверніться до посібника користувача для "
-"отримання списку даних,, які збираються.\n"
+"отримання списку даних, які збираються.\n"
 "\n"
 "Бажаєте дозволити NV Access періодично збирати ці дані з метою подальших "
 "поліпшень NVDA?"
