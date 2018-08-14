@@ -18,7 +18,7 @@
  - Bạn có thể bật tính năng này bằng cách chọn tùy chọn tự động từ danh sách màn hình nổi trong hộp thoại chọn màn hình nổi của NVDA.
  - Vui lòng xem tài liệu để biết thêm chi tiết.
 - Đã hỗ trợ cho nhiều tính năng nhập liệu mới được giới thiệu trong các bản phát hành gần đây của Windows 10. Các hỗ trợ bao gồm emoji panel - bản biểu tượng cảm xúc (Fall Creators Update), dictation (Fall Creators Update), hardware keyboard input suggestions (April 2018 Update), và cloud clipboard paste (October 2018 Update). (#7273)
- - Nội dung được đánh dấu là đoạn trích dẫn bằng ARIA (role blockquote) giờ đây đã được hỗ trợ trong Mozilla Firefox 63. (#8577)
+- Nội dung được đánh dấu là đoạn trích dẫn bằng ARIA (role blockquote) giờ đây đã được hỗ trợ trong Mozilla Firefox 63. (#8577)
 
  
 == Các thay đổi ==
