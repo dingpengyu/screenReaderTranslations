@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-13 15:58+1000\n"
-"PO-Revision-Date: 2018-08-13 19:25-0300\n"
+"PO-Revision-Date: 2018-08-15 09:26-0300\n"
 "Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -7534,7 +7534,7 @@ msgstr "Ferramenta de correção de registro COM completada"
 
 #. Translators: The label for the menu item to open NVDA Settings dialog.
 msgid "&Settings..."
-msgstr "Op&ções..."
+msgstr "Configura&ções..."
 
 #. Translators: The description for the menu item to open NVDA Settings dialog.
 msgid "NVDA settings"
@@ -7552,7 +7552,7 @@ msgstr ""
 
 #. Translators: The label for the menu item to open Voice specific speech dictionary dialog.
 msgid "&Voice dictionary..."
-msgstr "&Voz..."
+msgstr "Para &voz atual..."
 
 msgid ""
 "A dialog where you can set voice-specific dictionary by adding dictionary "
@@ -7574,15 +7574,15 @@ msgstr ""
 
 #. Translators: The label for a submenu under NvDA Preferences menu to select speech dictionaries.
 msgid "Speech &dictionaries"
-msgstr "&Dicionários de fala"
+msgstr "&Dicionários"
 
 #. Translators: The label for the menu item to open Punctuation/symbol pronunciation dialog.
 msgid "&Punctuation/symbol pronunciation..."
-msgstr "&Pronúncia de pontuação e sinais..."
+msgstr "&Pronúncia de pontuação e símbolos..."
 
 #. Translators: The label for the menu item to open the Input Gestures dialog.
 msgid "I&nput gestures..."
-msgstr "Gestos para e&ntrada..."
+msgstr "Defi&nir comandos..."
 
 #. Translators: The label for Preferences submenu in NVDA menu.
 msgid "&Preferences"
@@ -9375,7 +9375,7 @@ msgstr "Símbolo \"%s\" já está presente."
 
 #. Translators: The title of the Input Gestures dialog where the user can remap input gestures for commands.
 msgid "Input Gestures"
-msgstr "Gestos para entrada"
+msgstr "Definir comandos"
 
 #. Translators: The label of a text field to search for gestures in the Input Gestures dialog.
 msgctxt "inputGestures"
