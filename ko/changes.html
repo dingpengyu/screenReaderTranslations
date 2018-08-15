@@ -21,14 +21,14 @@
 <LI>Foobar2000에서 현재 재생 시간 및 전체 재생 시간 확인 명령 추가(핫키는 할당되어 잇지 않음). (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
 <LI>음성 엔진에 상관없이 Mac command key 기호(⌘)가 컨텐츠 읽을시 출력되도록 함. (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
 <LI>aria-roledescription 속성이 적용된 기타 요소 롤이 모든 웹브라우저에서 인식되도록 함. (<A HREF="http://github.com/nvaccess/nvda/issues/8448">#8448</A>)
-<LI>New braille tables: Czech 8 dot, Central Kurdish, Esperanto, Hungarian, Swedish 8 dot computer braille. (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
+<LI>점자 표기법: 체코어 8점 점자, 중앙 쿠르드어, 에스페란토어, 헝가리어, 스웨덴어 8점 컴퓨터 점자 추가. (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
 <LI>Support has been added to automatically detect braille displays in the background. (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
  <UL>
  <LI>ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, Handy Tech, Hims, SuperBraille and HumanWare BrailleNote and Brailliant BI/B displays are currently supported.
  <LI>You can enable this feature by selecting the automatic option from the list of braille displays in NVDA's braille display selection dialog.
  <LI>Please consult the documentation for additional details.
  </UL>
-<LI>Added support for various modern input features introduced in recent Windows 10 releases. These include emoji panel (Fall Creators Update), dictation (Fall Creators Update), hardware keyboard input suggestions (April 2018 Update), and cloud clipboard paste (October 2018 Update). (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
+<LI>최신 윈도우 10 버전에서 추가된 현대식 입력 기능 지원 추가(이모지 패널(Fall Creators Update), 음성 입력(Fall Creators Update), 하드웨어 입력 추천 단어 목록(April 2018 Update),, 클라우드 클립보드 붙여넣기(October 2018 Update) 등). (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
 <LI>파이어폭스 63 사용시 ARIA로 처리된 인용 문구(role blockquote) 탐색 지원 추가. (<A HREF="http://github.com/nvaccess/nvda/issues/8577">#8577</A>)
 </UL>
 
@@ -60,15 +60,15 @@
 <LI>윈도우 10 및 머던 앱 사용시 더 많은 대화상자가 인식되도록 함. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
 <LI>윈도우 10 October 2018 Update 및 Server 2019 이상 사용시 사용하던 앱이 다운되었거나 수많은 이벤트를 보낼때 시스템 포커스 추적이 먹통되던 문제 수정. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
 <LI>상태 표시줄 내용이 없을때 내용 탐색 및 복사 명령 실행시 오류 메시지가 출력되도록 함. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
-<LI>Fixed a case where the "not checked" state on controls is not reported in speech if the control has previously been half checked. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
-<LI>In the list of languages in NVDA's General Settings, language name for Burmese is displayed correctly on Windows 7. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>Fixed an issue where the "not checked" state on controls is not reported in speech if the control has previously been half checked. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>윈도우 7 사용시 NVDA 일반 설정내 언어 목록에서 버마어가 누락된 문제 수정. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
 <LI>In Microsoft Edge, NVDA will announce notifications such as reading view availability and page load progress. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
-<LI>Similar to other multiline text fields, When positioned at the start of a document in Braille, the display is now panned such that the first character of the document is at the start of the display. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
 <LI>When navigating into a list on the web, NVDA will now report its label if the web author has provided one. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
 <LI>When manually assigning functions to gestures for a particular braille display, these gestures now always show up as being assigned to that display. Previously, they showed up as if they were assigned to the currently active display. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
-<LI>The 64-bit version of Media Player Classic is now supported. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>Media Player Classic 64비트 버전 지원 추가. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
 <LI>Several improvements to braille support in Microsoft Word with UI Automation enabled:
  <UL>
+ <LI>Similar to other multiline text fields, When positioned at the start of a document in Braille, the display is now panned such that the first character of the document is at the start of the display. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
  <LI>Reduced overly verbose focus presentation in both speech and braille when focusing a Word document. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
  <LI>Cursor routing in braille now works correctly when in a list in a Word document. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
  <LI>Newly inserted bullets/numbers in a Word document are correctly reported in both speech and braille. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
