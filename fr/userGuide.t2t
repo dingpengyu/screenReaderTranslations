@@ -2021,8 +2021,8 @@ Veuillez consulter la documentation du terminal pour savoir où se situent ces t
 | Touche Windows | sp1+sp2, windows |
 | Touche alt+tab | sp2+sp4 |
 | Touche contrôle+début | t3+spUp |
-²| Touche contrôle+fin | t3+spDown |
-| Touche home | t3+spLeft |
+| Touche contrôle+fin | t3+spDown |
+| Touche début | t3+spLeft |
 | Touche fin | t3+spRight |
 | touche contrôle | control |
 %kc:endInclude
