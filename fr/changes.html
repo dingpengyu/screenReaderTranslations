@@ -36,7 +36,7 @@
 
 <UL>
 <LI>La liste des langues disponibles dans le dialogue Paramètres/Général est maintenant triée dans l'ordre alphabétique des noms des langues au lieu du code ISO 639. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
-<LI>Ajout d'un geste par défaut pour alt maj tab et windows tab pour les terminaux braille Freedom Scientific supportés. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>Ajout d'un geste par défaut pour alt+maj+tab et windows+tab pour les terminaux braille Freedom Scientific supportés. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
 <LI>Pour les terminaux ALVA BC680 et protocol converter, il est maintenant possible d'assigner différentes fonctions au smart pad gauche et droit, et aux touches pouce et etouch. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>Pour les terminaux ALVA BC6, la combinaison de touches sp2+sp3 annonce maintenant la date et l'heure courante, et sp1+sp2 émule la touche Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>Au premier démarrage de NVDA, il est maintenant demandé à l'utilisateur s'il souhaite envoyer des statistiques d'utilisation à NV Access lors de la vérification automatique de mises à jour. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
@@ -51,7 +51,7 @@
 <UL>
 <LI>Sous Google Chrome, les étiquettes accessibles des contrôles sont maintenant plus facilement annoncées en mode navigation quand l'étiquette n'apparaît pas elle-même comme un contenu. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
 <LI>Les notifications sont maintenant supportées dans Zoom. Par exemple, cela inclut le statut muet/non muet, et les messages entrants. (<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
-<LI>En mode navigation, changer de présentation contextuelle du braille ne provoque plus un arrêt du suivi de l'affichage braille. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>En mode navigation, changer de présentation contextuelle du braille ne provoque plus un arrêt du suivi ddu curseur de navigation. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
 <LI>Les terminaux braille ALVA BC680 n'échouent plus à s'initialiser de manière intermittente. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
 <LI>Par défaut, les terminaux ALVA BC6 n'exécuteront plus d'émulations du clavier système à l'appui de combinaisons contenant sp2+sp3 pour activer des fonctionnalités internes. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>L'appui sur sp2 sur un terminal ALVA BC6 pour émuler la touche alt fonctionne maintenant comme annoncé. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
@@ -63,12 +63,12 @@
 <LI>Correction d'un problème où l'état "non coché" des contrôles n'est pas annoncé quand l'état précédent était "semi-coché". (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
 <LI>Dans la liste des langues du dialogue Paramètres/Général, le nom de la langue birmane s'affiche correctement sous Windows 7. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
 <LI>Sous Microsoft Edge, NVDA annoncera les notifications telles que la disponibilité de la page en lecture et la progression du chargement de la page. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
-<LI>Comme dans les autres champs de texte multilignes, quand on se positionne au début d'un document en Braille, l'affichage est maintenant aligné pour que le premier caractère du document soit au début de l'affichage. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
 <LI>Quand on entre dans une liste sur le web, NVDA annonce maintenant son étiquette si l'auteur en a fourni une. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
 <LI>Quand on assigne manuellement une fonction à un geste pour un terminal braille particulier, ce geste apparaît maintenant toujours comme assigné à ce terminal. Avant, il apparaissait comme assigné au terminal en cours. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
 <LI>La version 64-bit de Media Player Classic est maintenant supportée. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
 <LI>Plusieurs améliorations du support braille sous Microsoft Word avec UI Automation activé:
  <UL>
+ <LI>Comme dans les autres champs de texte multilignes, quand on se positionne au début d'un document en Braille, l'affichage est maintenant aligné pour que le premier caractère du document soit au début de l'affichage. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
  <LI>Réduction de la présentation de focus trop verbeuse en vocal et en braille à la mise en focus d'un document Word. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
  <LI>Le routage de curseur en braille fonctionne maintenant correctement quand on se trouve dans une liste dans un document Word. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
  <LI>Les puces ou numérotations nouvellement insérées dans un document Word sont correctement signalées vocalement et en braille. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
