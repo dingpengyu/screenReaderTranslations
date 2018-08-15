@@ -2394,9 +2394,9 @@ Podprte so naslednje Brajeve vrstice:
 -
 
 Opozarjamo, da te vrstice lahko priključite samo prek serijskih vrat.
-Torej morate vrata, na katera je vrstica priključena, določiti potem, ko ste izbrali ta gonilnik v pogovornem oknu [Izberi Brajevo Vrstico #SelectBrailleDisplay].
 Zaradi tega te vrstice ne podpirajo funkcije samodejne zaznave brajeve vrstice v ozadju v NVDA.
-Izbrati morate vrata, prek katerih se vrstica povezuje po tem, ko ste izbrali ta gonilnik v pogovornem oknu [Izberi Brajevo Vrstico #SelectBrailleDisplay].
+Izbrati morate vrata, prek katerih se vrstica povezuje potem, ko ste izbrali ta gonilnik v pogovornem oknu [Izberi Brajevo Vrstico #SelectBrailleDisplay].
+
 Nekaj teh vrstic ima lahko dostopni trak (v Angleščini Easy Access Bar - EAB), ki omogoča hitro in intuitivno izvajanje operacij.
 Trak se lahko premakne v štiri smeri in vsaka smer ima v splošnem dve stikali.
 Pritisk in držanje tipk gor, dol, levo in desno, ali pritisk EAB, povzroči ponavljanje odgovarjajočega dejanja posamezni tipki.
