@@ -976,7 +976,6 @@ Ta možnost je na voljo samo v nameščenih kopijah NVDA.
 Če je ta možnost izbrana, bo NVDA samodejno preverjala, če obstajajo posodobitve. Če bodo na voljo, vas bo o tem tudi obvestila.
 Lahko pa obstoj posodobitev preverite tudi ročno z ukazom Preveri, če obstaja posodobitev v razdelku Pomoč NVDA menija.
 Neglede na to, ali ročno preverjate, če obstaja posodobitev ali pa to NVDA počne samodejno, je nujno, da NVDA pošlje nekaj informacij strežniku za nadgraditve zaradi tega, da lahko prejmete ustrezno posodobitev za vaš sistem.
-
 Vedno se pošiljajo te informacije:
 - Trenutna različica Nvda
 - različica Operacijskega Sistema
