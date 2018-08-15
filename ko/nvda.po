@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: NVDA master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-13 15:58+1000\n"
-"PO-Revision-Date: 2018-05-24 10:36-0700\n"
+"PO-Revision-Date: 2018-08-15 14:51-0700\n"
 "Last-Translator: Dong Hui Park <hi@aheu.org>\n"
 "Language-Team: NVDA Korean users and translations forum <joseph."
 "lee22590@gmail.com>\n"
@@ -365,14 +365,12 @@ msgid "pwdedt"
 msgstr "pwdedt"
 
 #. Translators: Displayed in braille for an object which is deleted.
-#, fuzzy
 msgid "del"
-msgstr "dlg"
+msgstr "del"
 
 #. Translators: Displayed in braille for an object which is inserted.
-#, fuzzy
 msgid "ins"
-msgstr "링크 (&K)"
+msgstr "ins"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -517,11 +515,11 @@ msgstr "자동 연결"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "블루투스"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -593,14 +591,13 @@ msgid "to review"
 msgstr "리뷰"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
 msgid "Unknown braille display"
-msgstr "Seika"
+msgstr "알 수 없는 점자디스플레이"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "블루투스 Serial: {portName}"
+msgstr "블루투스 Serial: {port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
@@ -672,9 +669,8 @@ msgstr "불가리아어 8종 컴퓨터 점자"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Central Kurdish grade 1"
-msgstr "스웨덴어 1종"
+msgstr "중앙 쿠르드어 1종"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -688,9 +684,8 @@ msgstr "웨일즈어 2종"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Czech 8 dot computer braille"
-msgstr "스페인어 8점 컴퓨터 점자"
+msgstr "체코어 8점 컴퓨터 점자"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -794,9 +789,8 @@ msgstr "영어 (미국) 2종"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Esperanto grade 1"
-msgstr "독일어 1종"
+msgstr "에스페란토어 1종"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -905,9 +899,8 @@ msgstr "헝가리어 1종 점자"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Hungarian grade 2"
-msgstr "헝가리어 1종 점자"
+msgstr "헝가리어 2종 점자"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -1091,9 +1084,8 @@ msgstr "산스크리트어 1종"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Swedish 8 dot computer braille"
-msgstr "스페인어 8점 컴퓨터 점자"
+msgstr "스웨덴어 8점 컴퓨터 점자"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -3847,13 +3839,12 @@ msgid "No status line found"
 msgstr "표시줄을 찾을 수 없음"
 
 #. Translators: Reported when status line exist, but is empty.
-#, fuzzy
 msgid "no status bar information"
-msgstr "위치 정보 없음"
+msgstr "상태 표시줄 정보 없음"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
-msgstr ""
+msgstr "상태 표시줄 내용을 클립보드에 복사할 수 없음"
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -4788,17 +4779,17 @@ msgstr "아라곤어"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr ""
+msgstr "중앙 쿠르드어"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr ""
+msgstr "북부 쿠르드어"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "버마어,"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -6661,7 +6652,7 @@ msgstr ""
 "비: 화면의 {width:.1f} 퍼센트; 높이: 화면의 {height:.1f} 퍼센트"
 
 #. Translators: a message announcing a candidate's character and description.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "{symbol} as in {description}"
 msgstr "{description}"
 
@@ -6900,7 +6891,7 @@ msgstr "Outlook 여는 중..."
 #. Translators: a message reporting the date of a all day Outlook calendar entry
 #, python-brace-format
 msgid "{date} (all day)"
-msgstr ""
+msgstr "{date} (전체 일정)"
 
 #. Translators: a message reporting the time range (i.e. start time to end time) of an Outlook calendar entry
 #, python-brace-format
@@ -7263,7 +7254,7 @@ msgstr "off"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
-msgstr ""
+msgstr "이모지 없음"
 
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
@@ -7756,7 +7747,7 @@ msgstr "잠시만 기다려 주십시오"
 
 #. Translators: The title of the dialog asking if usage data can be collected
 msgid "NVDA  Usage Data Collection"
-msgstr ""
+msgstr "NVDA 사용 통계 전송"
 
 #. Translators: A message asking the user if they want to allow usage stats gathering
 msgid ""
@@ -7772,14 +7763,23 @@ msgid ""
 "Do you wish to allow NV Access to periodically collect this data in order to "
 "improve NVDA?"
 msgstr ""
+"NV Access에서는 추후 NVDA 개발에 반영될 수 있는 데이터를 전송받고자 합니다.\n"
+"\n"
+"본 데이터는 운영체제 및 NVDA 버전, 사용 국가 및 언어와 음성 엔진 및 점자디스"
+"플레이 이름, 점자표와 같은 설정 정보입니다. 음성이나 점자로 출력되는 데이터"
+"는 전송되지 않습니다. 전송되는 데이터 목록은 사용설명서에서 확인하실 수 있습"
+"니다.\n"
+"\n"
+"정기적으로 NVDA 개발을 위해  본 데이터를 NV Access에 전송할 수 있도록 허락하"
+"시겠습니까?"
 
 #. Translators: The label of a Yes button in a dialog
 msgid "&Yes"
-msgstr ""
+msgstr "예 (&Y)"
 
 #. Translators: The label of a No button in a dialog
 msgid "&No"
-msgstr ""
+msgstr "아니요 (&N)"
 
 #. Translators: The title of the Addons Dialog
 msgid "Add-ons Manager"
@@ -8447,7 +8447,7 @@ msgstr "NVDA 실행시 설치 준비중인 업데이트 알림 (&P)"
 
 #. Translators: The label of a checkbox in general settings to toggle allowing of usage stats gathering
 msgid "Allow the NVDA project to gather NVDA usage statistics"
-msgstr ""
+msgstr "NVDA 프로잭트에 NVDA 사용 통계를 전송하도록 허용 (&A)"
 
 #. Translators: A message to warn the user when attempting to copy current settings to system settings.
 msgid ""
