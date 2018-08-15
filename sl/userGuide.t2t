@@ -1396,6 +1396,7 @@ Ta možnost vam omogoča izbiro poznavanja položaja predmeta (1 od 44), ko se p
 
 ==== Ugibaj Informacijo o Položaju Predmeta, ko ta ni na voljo ====[ObjectPresentationGuessPositionInfo]
 Če je poročanje o informaciji položaja predmeta vključeno, ta možnost omogoča NVDA ugibanje o informaciji položaja predmeta, če je drugače nedosegljiva za dan kontrolnik.
+
 Ko je možnost vključena, NVDA sporoča informacijo o položaju večih kontrolnikov, kot so meniji in orodne vrstice, čeprav dejanjsko stanje lahko malenkostno odstopa od sporočene informacije.
 
 ==== Sporočaj opise Predmeta ====[ObjectPresentationReportDescriptions]
