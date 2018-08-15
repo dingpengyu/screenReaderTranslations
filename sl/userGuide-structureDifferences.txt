@@ -1,4 +1,2 @@
 # Structural comparison of sl/userGuide.t2t against sl/userGuide-newRevisions/15056/userGuide.t2t
-en 14.13. start:2390 paragraphs:8, tables:4, lists:1
-sl 14.13. start:2390 paragraphs:7, tables:4, lists:1
-# end of comparison
+# files have identical structure
