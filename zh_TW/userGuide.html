@@ -226,25 +226,25 @@ NVDA是由<A HREF="https://www.nvaccess.org/">NV Access</A> 所開發，並包�
 <H3>1.1. 特色</H3>
 
 <P>
-NVDA 可提供視障者操作微軟視窗作業系統及其它應用程式。
+NVDA 可提供視障者操作微軟視窗作業系統及其它應用程式，
 </P>
 <P>
 主要特色包括:
 </P>
 
 <UL>
-<LI>支援多種熱門應用程式，包括網頁瀏覽器、郵件軟體、線上聊天軟體及Office套裝軟體。
+<LI>支援多種熱門應用程式，如網頁瀏覽器、郵件軟體、線上聊天軟體及Office套裝軟體等。
 <LI>內建的語音合成器支援超過80種語言。
 <LI>報讀文字格式。例如字型名稱、大小、樣式、拼字錯誤等。
-<LI>自動讀出鼠標所指的文字，並可透過聲音提示鼠標所在位置。
-<LI>支援多種點顯器，包括許多可被NVDA自動偵測到，以及具有點字輸入鍵盤的點顯器。
+<LI>自動讀出鼠標所指的文字，並可透過音調高低提示鼠標所在位置。
+<LI>支援多種點顯器，包括那些可被自動偵測到，或具有點字輸入鍵盤的點顯器。
 <LI>NVDA可以不需安裝就直接在USB隨身碟或其它可攜式儲存媒體上執行。
 <LI>提供簡單易用的語音提示功能。
 <LI>已翻譯成54種語言。
 <LI>支援新版的Windows作業系統，包含32及64位元的版本。
 <LI>可於Windows登入畫面及其他安全畫面運作。
-<LI>當使用觸控手勢時，報讀控制項和文字。
-<LI>支援常見的無障礙介面，例如Microsoft Active Accessibility, Java Access Bridge, IAccessible2 及 Windows7以後版本才有的UI Automation。
+<LI>當使用觸控手勢時，可報讀控制項和文字。
+<LI>支援常見的無障礙介面，例如Microsoft Active Accessibility, Java Access Bridge, IAccessible2 及 Windows7以後版本才有的使用者介面自動化。
 <LI>支援 Windows 命令提示字元和其它類似的文字介面應用程式 (console application)。
 </UL>
 
@@ -279,14 +279,14 @@ NVDA內嵌有語音引擎  <A HREF="https://github.com/espeak-ng/espeak-ng">eSpe
 關於支援的點顯器資訊，請參見<A HREF="#SupportedBrailleDisplays">支援的點顯器</A> 這個章節。
 </P>
 <P>
-NVDA 提供多語系，通常含括一級與二級點字碼、以及電腦點字。
+NVDA 提供多語系點字碼，通常含括一級、二級與電腦點字。
 </P>
 
 <A NAME="LicenseAndCopyright"></A>
 <H3>1.5. 授權與著作權</H3>
 
 <P>
-NVDA 著作權2006-2015 是歸屬於所有參與的開發者。
+NVDA 著作權2006-2018 是歸屬於所有參與的開發者。
 </P>
 <P>
 NVDA受到「GNU 通用公共授權條款（第二版）」所保護。
@@ -299,13 +299,13 @@ NVDA受到「GNU 通用公共授權條款（第二版）」所保護。
 <H2>2. 系統需求</H2>
 
 <UL>
-<LI>作業系統:32及64位元微軟Windows 7、Windows 8、Windows 8.1及Window 10，和Windows Server 2008 R2以上所有的伺服器作業系統。
+<LI>作業系統:32或64位元的微軟Windows 7、Windows 8、Windows 8.1及Window 10，及Windows Server 2008 R2以上所有的伺服器作業系統。
  <UL>
  <LI>使用Windows 7，NVDA需要SP 1以上的等級。
  <LI>使用Windows Server 2008 R2，NVDA需要SP 1以上的等級。
  </UL>
 <LI>RAM 記憶體:需要 256MB 以上
-<LI>CPU 速度:1.0Ghz或以上
+<LI>CPU 速度:1.0Ghz以上
 <LI>約需要90 MB 的儲存空間
 </UL>
 
@@ -4234,7 +4234,7 @@ Windows 10 含有新的語音，一般稱之為「OneCore」或「mobile」語�
 </TR>
 <TR>
 <TD>Scroll braille display back</TD>
-<TD>t1 or etouch1</TD>
+<TD>t1, etouch1</TD>
 </TR>
 <TR>
 <TD>Move braille display to previous line</TD>
@@ -4250,7 +4250,7 @@ Windows 10 含有新的語音，一般稱之為「OneCore」或「mobile」語�
 </TR>
 <TR>
 <TD>Scroll braille display forward</TD>
-<TD>t5 or etouch3</TD>
+<TD>t5, etouch3</TD>
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
@@ -4290,7 +4290,7 @@ Windows 10 含有新的語音，一般稱之為「OneCore」或「mobile」語�
 </TR>
 <TR>
 <TD>alt key</TD>
-<TD>sp2</TD>
+<TD>sp2, alt</TD>
 </TR>
 <TR>
 <TD>escape key</TD>
@@ -4318,7 +4318,7 @@ Windows 10 含有新的語音，一般稱之為「OneCore」或「mobile」語�
 </TR>
 <TR>
 <TD>enter key</TD>
-<TD>spEnter, enter|</TD>
+<TD>spEnter, enter</TD>
 </TR>
 <TR>
 <TD>Report date/time</TD>
@@ -4359,10 +4359,6 @@ Windows 10 含有新的語音，一般稱之為「OneCore」或「mobile」語�
 <TR>
 <TD>end key</TD>
 <TD>t3+spRight</TD>
-</TR>
-<TR>
-<TD>alt key</TD>
-<TD>alt</TD>
 </TR>
 <TR>
 <TD>control key</TD>
