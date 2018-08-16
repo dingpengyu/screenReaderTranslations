@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 23:42+1000\n"
+"POT-Creation-Date: 2018-08-16 23:36+1000\n"
 "PO-Revision-Date: 2017-07-11 18:14+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -83,9 +83,14 @@ msgid "Contact info"
 msgstr "連絡先"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This addon has been developed by Jose Manuel Delicado. If you want to "
+#| "contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on "
+#| "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgid ""
 "This addon has been developed by Jose Manuel Delicado. If you want to "
-"contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on "
+"contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
 "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgstr ""
 "このアドオンは、Jose Manuel Delicadoが開発しました。連絡を取りたい場合は、e"
@@ -96,6 +101,16 @@ msgstr ""
 #, no-wrap
 msgid "Changelog"
 msgstr "更新情報"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.2"
+msgid "Version 2.1"
+msgstr "バージョン1.2"
+
+#. type: Bullet: '* '
+msgid "Stability improvements"
+msgstr ""
 
 #. type: Title ###
 #, fuzzy, no-wrap

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-08-16 23:36+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,13 +71,22 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "This addon has been developed by Jose Manuel Delicado. If you want to "
-"contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on "
+"contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
 "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
 msgid "Changelog"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Stability improvements"
 msgstr ""
 
 #. type: Title ###
