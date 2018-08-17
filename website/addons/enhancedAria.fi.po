@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enhanced Aria\n"
 "POT-Creation-Date: 2018-08-16 23:36+1000\n"
-"PO-Revision-Date: 2018-06-13 19:14+0200\n"
+"PO-Revision-Date: 2018-08-17 13:28+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -83,19 +83,14 @@ msgid "Contact info"
 msgstr "Yhteystiedot"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "This addon has been developed by Jose Manuel Delicado. If you want to "
-#| "contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on "
-#| "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgid ""
 "This addon has been developed by Jose Manuel Delicado. If you want to "
 "contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
 "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgstr ""
 "Tämän lisäosan on kehittänyt Jose Manuel Delicado. Jos haluat ottaa yhteyttä "
-"tekijään, lähetä sähköpostia osoitteeseen jmdaweb@hotmail.com tai avaa "
-"kysymys GitHubiin osoitteessa https://github.com/jmdaweb/enhancedAria"
+"häneen, lähetä sähköpostia osoitteeseen jm.delicado@nvda.es tai avaa kysymys "
+"GitHubissa osoitteessa https://github.com/jmdaweb/enhancedAria"
 
 #. type: Title ##
 #, no-wrap
@@ -103,14 +98,13 @@ msgid "Changelog"
 msgstr "Muutosloki"
 
 #. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Version 2.0"
+#, no-wrap
 msgid "Version 2.1"
-msgstr "Versio 2.0"
+msgstr "Versio 2.1"
 
 #. type: Bullet: '* '
 msgid "Stability improvements"
-msgstr ""
+msgstr "Vakautta parannettu."
 
 #. type: Title ###
 #, no-wrap
