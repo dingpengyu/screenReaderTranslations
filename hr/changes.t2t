@@ -22,7 +22,7 @@
 
 
 == Izmjene ==
-- Popis dostupnih jezika u dijaloškom okviru općenitih postavki sada je sortiran po imenima jezika umjesto po ISO 639 kodovima. (#7284)
+- Popis dostupnih jezika u dijaloškom okviru općenitih postavki sada je sortiran po imenima jezika umjesto po ISO 639 kodovima. (#7284)
 - dodane podrazumijevane prečice za alt shift tab i windows tab za sve fokus freedomscientific brajične redke. (#7387)
 - For ALVA BC680 and protocol converter displays, it is now possible to assign different functions to the left and right smart pad, thumb and etouch keys. (#8230)
 - Pri pokretanju NVDA, korisniku se postavlja pitanje, želi li slati statistiku korištenja NV Accessu prilikom automatskog provjeravanja nadogradnji. (#8217)
