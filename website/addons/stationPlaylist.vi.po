@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-30 14:57+1000\n"
-"PO-Revision-Date: 2018-08-15 20:44+0700\n"
+"PO-Revision-Date: 2018-08-17 23:14+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2359,12 +2359,16 @@ msgid ""
 "Performance improvements when obtaining column information for the first "
 "time in Track Tool."
 msgstr ""
+"Cải thiện sự vận hành khi lần đầu tiên thu thập thông tin cột trong Track "
+"Tool."
 
 #. type: Bullet: '* '
 msgid ""
 "8.0: Added a dialog in add-on settings to configure Columns Explorer slots "
 "for Track Tool."
 msgstr ""
+"8.0: thêm một hộp thoại trong cài đặt add-on để cấu hình việc khám phá cột "
+"cho Track Tool."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2401,6 +2405,8 @@ msgid ""
 "Version 7.4 is also known as 16.08 following the year.month version number "
 "for stable releases."
 msgstr ""
+"Phiên bản 7.4 cũng được biết đến là 16.08 căn cứ vào số phiên bản phát hành "
+"chính thức theo năm.tháng."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2408,12 +2414,18 @@ msgid ""
 "options, to be removed later in 2017. For 7.4, available channels are beta, "
 "stable and long-term."
 msgstr ""
+"Việc có thể chọn kênh cập nhật add-on từ cài đặt add-on /tùy chọn nâng cao, "
+"sẽ bị gỡ bỏ trong năm 2017. Với 7.4, các kênh bao gồm beta, stable và long-"
+"term."
 
 #. type: Bullet: '* '
 msgid ""
 "Added a setting in add-on settings/Advanced options to configure update "
 "check interval between 1 and 30 days (default is 7 or weekly checks)."
 msgstr ""
+"Đã thêm một thiết lập trong  cài đặt add-on/tùy chọn nâng cao để cấu hình "
+"thời gian kiểm tra cập nhật trong khoảng 1 đến 30 ngày (mặc định là 7 hoặc "
+"kiểm tra mỗi tuần)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2439,6 +2451,8 @@ msgid ""
 "Slight performance improvements when looking up information such as "
 "automation via some SPL Assistant commands."
 msgstr ""
+"Cải thiện hiệu suất nhẹ khi tìm kiếm các thông tin như tự động hóa thông qua "
+"vài lệnh SPL Assistant."
 
 #. type: Title ##
 #, no-wrap
@@ -2451,6 +2465,8 @@ msgid ""
 "to install add-on 7.2. Once installed, you cannot go back to an earlier "
 "version of the add-on."
 msgstr ""
+"Do việc gỡ bỏ kiểu cấu hình định dạng nội bộ cũ, bắt buộc phải cài đặt add-"
+"on 7.2. Khi đã cài rồi, bạn không thể trở về một phiên bản cũ hơn của add-on."
 
 #. type: Bullet: '* '
 msgid "Added a command in SPL Controller to report listener count (I)."
@@ -2462,6 +2478,9 @@ msgid ""
 "pressing Alt+NVDA+0. You can still use Control+NVDA+0 to open these dialogs "
 "(to be removed in add-on 8.0)."
 msgstr ""
+"Giờ bạn có thể mở các hộp thoại cài đặt SPL add-on và cài đặt bộ mã hóa bằng "
+"cách bấm Alt+NVDA+0. Bạn vẫn có thể dùng Control+NVDA+0 để mở chúng (sẽ bị "
+"gỡ bỏ trong add-on 8.0)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2476,6 +2495,8 @@ msgid ""
 "Contents of various Studio dialogs such as About dialog in Studio 5.1x are "
 "now announced."
 msgstr ""
+"Nội dung của nhiều hộp thoại khác nhau trong Studio như hộp thoại About "
+"trong Studio 5.1x giờ đây đã được thông báo."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2483,6 +2504,9 @@ msgid ""
 "enabled and then turned off from encoder context menu while the selected "
 "encoder is connecting."
 msgstr ""
+"Trong các bộ mã hóa SPL, NVDA sẽ không phát âm thanh kết nối nếu bật tùy "
+"chọn tự kết nối rồi tắt từ trình đơn ngữ cảnh của bộ mã hóa khi nó đang được "
+"kết nối."
 
 #. type: Title ##
 #, no-wrap
@@ -2492,19 +2516,23 @@ msgstr "Các thay đổi cho phiên bản 7.1"
 #. type: Bullet: '* '
 msgid ""
 "Fixed erorrs encountered when upgrading from add-on 5.5 and below to 7.0."
-msgstr ""
+msgstr "Sửa các lỗi gặp phải  khi nâng cấp từ add-on 5.5 hay thấp hơn lên 7.0."
 
 #. type: Bullet: '* '
 msgid ""
 "When answering \"no\" when resetting add-on settings, you'll be returned to "
 "add-on settings dialog and NVDA will remember instant switch profile setting."
 msgstr ""
+"Trả lời \"không\" khi khôi phục các cài đặt add-on, bạn sẽ được đưa về hộp "
+"thoại cài đặt add-on và NVDA sẽ nhớ thiết lập cho hồ sơ chuyển nhanh."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will ask you to reconfigure stream labels and other encoder options if "
 "encoder configuration file becomes corrupted."
 msgstr ""
+"NVDA sẽ yêu cầu bạn cấu hình lại các nhãn phát thanh và các tùy chọn mã hóa "
+"khác nếu tập tin cấu hình mã hóa bị hư hỏng."
 
 #. type: Title ##
 #, no-wrap
@@ -2517,6 +2545,9 @@ msgid ""
 "Control+Shift+U) or automatically (configurable via advanced options dialog "
 "from add-on settings)."
 msgstr ""
+"Thêm tính năng kiểm tra cập nhật add-on. Tính năng này có thể thực hiện thủ "
+"công (SPL Assistant, Control+Shift+U) hoặc tự động (được cấu hình thông qua "
+"hộp thoại tùy chọn nâng cao từ cài đặt add-on)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -2524,6 +2555,9 @@ msgid ""
 "invoke most SPL Assistant layer commands or obtain time announcements such "
 "as remaining time for the track and broadcaster time."
 msgstr ""
+"Không còn yêu cầu phải đứng trong cửa sổ trình xem danh sách phát để gọi hầu "
+"hết các lệnh của SPL Assistant layer hoặc thu thập các thông báo về thời "
+"gian như thời gian còn lại của track và thời gian phát thanh."
 
 #. type: Bullet: '* '
 msgid ""
