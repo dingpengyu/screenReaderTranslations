@@ -3,37 +3,39 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-06 04:01+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-17 12:14+0200\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Add-on Updater\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Add-on Updater (Opdateringsværktøj til tilføjelsespakker) (tilføjelsespakke ikke oversat)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
-msgstr ""
+msgstr "Forfatter: Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [prototype version][1]"
-msgstr ""
+msgstr "Download [prototypeversion][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 3208 to life: ability to check for, "
 "download, and apply add-on updates."
 msgstr ""
+"Denne tilføjelse bringer NVDA Core-issue nummer 3208 til live: Giver evnen "
+"til at kontrollere, hente og anvende tilføjelsesopdateringer."
 
 #. type: Plain text
 msgid ""
@@ -43,67 +45,86 @@ msgid ""
 "and the new version. Select Update, and NVDA will download and apply updates "
 "in sequence, with a prompt to restart your NVDA shown afterwards."
 msgstr ""
+"For at søge efter opdateringer efter installation af denne tilføjelse, skal "
+"du gå til NVDA-menuen>Værktøjer/Check for add-on updates. Hvis opdateringer "
+"er tilgængelige, vises en liste over tilføjelsesopdateringer med hvert "
+"element bestående af en beskrivelse, nummeret på den aktuelle version samt "
+"den nye version. Vælg Opdater, og NVDA henter og opdaterer odateringer i "
+"rækkefølge, hvorefter en dialog fremkommer, hvor du skal tage stilling til "
+"om du ønsker at genstarte NVDA."
 
 #. type: Plain text
 msgid ""
 "The following add-ons provide built-in update feature and thus updates will "
 "not be checked via this add-on:"
 msgstr ""
+"Følgende tilføjelsesprogrammer indeholder en indbyggede opdateringsfunktion, "
+"og opdateringerne  bliver derfor ikke kontrolleret via denne tilføjelse:"
 
 #. type: Bullet: '* '
 msgid "Braille Extender"
-msgstr ""
+msgstr "Braille Extender"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
-msgstr ""
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "WeatherPlus"
-msgstr ""
+msgstr "WeatherPlus (Vejret Plus)"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
-msgstr ""
+msgstr "Vigtige forbedringer til Windows 10-apps"
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
+"VIGTIGT: Dette er et bevis på koncepttillæg. Når den [relevante funktion er "
+"inkluderet i NVDA][2], vil denne tilføjelse ikke længere være under "
+"udvikling."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.5"
-msgstr ""
+msgstr "Version 18.08.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where Add-on Updater settings panel failed to show if one or "
 "more add-ons had badly formatted manifest data."
 msgstr ""
+"Løst et problem, hvor Add-on Updater-indstillingspanelet ikke viste, om en "
+"eller flere tilføjelser havde dårligt formaterede manifestdata."
 
 #. type: Bullet: '* '
 msgid ""
 "Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
 "for updates."
 msgstr ""
+"Tilføjet Nuance Vocalizer-tilføjelsesprogrammer til tilføjelser, der ikke "
+"kontrolleres for opdateringer."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.4"
-msgstr ""
+msgstr "Version 18.08.4"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
 "progress beep when trying to check for add-on updates."
 msgstr ""
+"Rettede en regression introduceret i 18.08.3, hvor NVDA kontinuerligt "
+"afspillede bip i forhold til behandlingslinjen, når man forsøgte at tjekke "
+"for tilføjelsesopdateringer."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.3"
-msgstr ""
+msgstr "Version 18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -111,11 +132,14 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"Tilføjet evne til at udelukke tilføjelser fra at blive opdateret via en ny "
+"list boks med mulighed for at vælge flere emner, fundet i "
+"indstillingspanelet for Add-on Updater. Markerede tilføjelser opdateres ikke."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08.1"
-msgstr ""
+msgstr "Version 18.08.1"
 
 #. type: Bullet: '* '
 msgid ""
@@ -123,25 +147,28 @@ msgid ""
 "24 hours). This is configured through a new Add-on Updater settings panel "
 "found in NVDA settings."
 msgstr ""
+"Det er nu muligt at lade NVDA automatisk kontrollere for opdateringer (hver "
+"24 timer). Dette er konfigureret via et nyt Add-on Updater-indstillingspanel "
+"fundet i NVDA-indstillinger."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Version 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Første version."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"

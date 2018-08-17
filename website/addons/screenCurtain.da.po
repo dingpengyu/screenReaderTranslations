@@ -3,37 +3,39 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-08 05:05+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-17 12:13+0200\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Screen Curtain\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Screen Curtain (Skærmtæppe) (tilføjelsespakke ikke oversat)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Babbage B.V., Joseph Lee"
-msgstr ""
+msgstr "Forfattere: Babbage B.V., Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [development version][1]"
-msgstr ""
+msgstr "Download [udviklingsversion][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 7857 to life: adding screen curtain "
 "functionality on Windows 8 and later."
 msgstr ""
+"Denne tilføjelse bringer NVDA Core-problemet 7857 til livs: Tilføjelse af "
+"skærmtæppefunktionalitet i Windows 8 og senere."
 
 #. type: Plain text
 msgid ""
@@ -43,41 +45,56 @@ msgid ""
 "feature, NVDA will announce a status message, and in case screen curtain is "
 "active when NVDA starts, a tone will be heard."
 msgstr ""
+"For at bruge denne tilføjelse skal du gå til NVDA-menuen/Værktøjer/Screen "
+"Curtain. Hvis punktet er markeret, er Screen Curtain aktiv, ellers er "
+"funktionalitet slået fra. Du kan også tildele en kommando til at slå denne "
+"funktion til og fra. Når du slår denne funktion til og fra, vil NVDA "
+"annoncere en statusmeddelelse, og hvis Screen Curtain er aktiv, når NVDA "
+"starter, høres en tone."
 
 #. type: Plain text
 msgid ""
-"To ask NVDA to turn on screen curtain while using it, go to NVDA "
-"menu/Preferences/Settings/Screen curtain. Check \"use screen curtain\" "
-"checkbox to enable screen curtain, uncheck to disable. You can also "
-"configure this setting while profiles other than normal configuration is "
-"active so you can use screen curtain while a profile is active (while using "
-"an app, for example)."
+"To ask NVDA to turn on screen curtain while using it, go to NVDA menu/"
+"Preferences/Settings/Screen curtain. Check \"use screen curtain\" checkbox "
+"to enable screen curtain, uncheck to disable. You can also configure this "
+"setting while profiles other than normal configuration is active so you can "
+"use screen curtain while a profile is active (while using an app, for "
+"example)."
 msgstr ""
+"For at bede NVDA om at slå skærmtæppet til, mens du bruger det, skal du gå "
+"til NVDA-menuen/Indstillinger / Præferencer/Screen Curtain. Marker check "
+"boxen \"Use Screen Curtain\" for at aktivere skærmtæppet. Fjern markeringen "
+"for at deaktivere. Du kan også konfigurere denne indstilling, mens andre "
+"profiler end den normale konfiguration er aktive, så du kan bruge Screen "
+"Curtain, mens en profil er aktiv (når du f.eks. Bruger en app)."
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
+"VIGTIGT: Dette er et bevis på koncepttillæg. Når den [relevante funktion er "
+"inkluderet i NVDA][2], vil denne tilføjelse ikke længere være under "
+"udvikling."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Version 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Første version."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/7857"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/7857"
