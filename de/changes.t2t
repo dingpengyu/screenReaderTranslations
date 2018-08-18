@@ -55,7 +55,7 @@ Was ist neu in NVDA
  - Bei der Fokussierung eines Word-Dokuments wurde die Fokussierung für die Sprachausgabe und auf der braillezeile reduziert. (#8407)
  - Das Cursor-Routing auf der Braillezeile funktioniert nun auch in einer Liste in einem Word-Dokument korrekt. (#7971)
  - Neu eingefügte Aufzählungen / Zahlen in einem Word-Dokument werden von der Sprachausgabe und auf der Braillezeile korrekt dargestellt. (#7970)
- - Ähnlich wie bei anderen mehrzeiligen Textfeldern wird nun die Anzeige am Anfang eines Dokuments auf der Braillezeile so verschoben, dass das erste Zeichen des Dokuments am Anfang der Anzeige steht. (#8406)
+- Ab Windows 10 1803 ist es nun möglich, Erweiterungen zu installieren, wenn die Funktion "Unicode UTF-8 für weltweite Sprachunterstützung verwenden" aktiviert ist. (#8599)
 
 
 == Änderungen für Entwickler ==
