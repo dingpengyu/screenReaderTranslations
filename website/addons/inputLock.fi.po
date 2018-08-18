@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Input Lock\n"
 "POT-Creation-Date: 2018-08-17 02:47+1000\n"
-"PO-Revision-Date: 2018-08-18 17:27+0200\n"
+"PO-Revision-Date: 2018-08-18 17:31+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Input Lock\"]]\n"
-msgstr "[[!meta title=\"Syöttölukko\"]]\n"
+msgstr "[[!meta title=\"Syötönlukitus\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Jose Manuel Delicado"
@@ -47,8 +47,8 @@ msgstr ""
 "Onko kotonasi lapsia tai lemmikkieläimiä? Onko sinulla kissa, joka pitää "
 "pöydällesi kiipeilystä ja näppäimistölläsi kävelystä? Tuletko vahingossa "
 "siirtäneeksi hiirtä näytöllä satunnaisiin paikkoihin kannettavaa "
-"käyttäessäsi? Ratkaisu näihin kaikkiin on Syöttölukko. Voit huoletta jättää "
-"tietokoneesi käyntiin vartioimattomana."
+"käyttäessäsi? Ratkaisu näihin kaikkiin on Syötönlukitus. Voit huoletta "
+"jättää tietokoneesi käyntiin vartioimattomana."
 
 #. type: Plain text
 msgid ""
@@ -120,7 +120,7 @@ msgstr "Rajoitukset"
 
 #. type: Plain text
 msgid "Input Lock has the following limitations:"
-msgstr "Syöttölukossa on seuraavia rajoituksia:"
+msgstr "Syötönlukituksessa on seuraavia rajoituksia:"
 
 #. type: Bullet: '* '
 msgid ""
