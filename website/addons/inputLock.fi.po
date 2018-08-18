@@ -3,36 +3,38 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Input Lock\n"
 "POT-Creation-Date: 2018-08-17 02:47+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-18 17:27+0200\n"
+"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Input Lock\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Syöttölukko\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Jose Manuel Delicado"
-msgstr ""
+msgstr "Tekijä: Jose Manuel Delicado"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Lataa [vakaa versio][1]"
 
 #. type: Title ##
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Johdanto"
 
 #. type: Plain text
 msgid ""
@@ -42,17 +44,24 @@ msgid ""
 "Lock is for you! You will be able to leave your computer alone and turned on "
 "without risk."
 msgstr ""
+"Onko kotonasi lapsia tai lemmikkieläimiä? Onko sinulla kissa, joka pitää "
+"pöydällesi kiipeilystä ja näppäimistölläsi kävelystä? Tuletko vahingossa "
+"siirtäneeksi hiirtä näytöllä satunnaisiin paikkoihin kannettavaa "
+"käyttäessäsi? Ratkaisu näihin kaikkiin on Syöttölukko. Voit huoletta jättää "
+"tietokoneesi käyntiin vartioimattomana."
 
 #. type: Plain text
 msgid ""
 "Once installed, you will be able to lock your keyboard, touch screen, if "
 "your laptop has one, mouse and Braille display."
 msgstr ""
+"Kun tämä lisäosa on asennettuna, voit lukita näppäimistön, kosketusnäytön "
+"(mikäli kannettavassasi sellainen on), hiiren sekä pistenäytön."
 
 #. type: Title ##
 #, no-wrap
 msgid "Usage"
-msgstr ""
+msgstr "Käyttö"
 
 #. type: Plain text
 msgid ""
@@ -60,123 +69,151 @@ msgid ""
 "so you will have to configure them from Input gestures dialog. Read the NVDA "
 "User Guide for more information."
 msgstr ""
+"Tämä lisäosa lisää NVDA:han kaksi syötekomentoa. Niihin ei ole liitetty "
+"oletusarvoisesti näppäinkomentoja, joten ne on määritettävä Syötekomennot-"
+"valintaikkunasta. Katso lisätietoja NVDA:n käyttöoppaasta."
 
 #. type: Plain text
 msgid ""
-"When you press the toggle input lock gesture, NVDA will say \"Input "
-"locked\". Your input devices will be blocked until you press the same "
-"gesture again. In that moment, NVDA will say \"Input unlocked\" and "
-"everything will work as usual."
+"When you press the toggle input lock gesture, NVDA will say \"Input locked"
+"\". Your input devices will be blocked until you press the same gesture "
+"again. In that moment, NVDA will say \"Input unlocked\" and everything will "
+"work as usual."
 msgstr ""
+"Kun painat syöttölukon tilanvaihtokomentoa, NVDA sanoo \"Syöttö lukittu\". "
+"Syöttölaitteiden käyttö estetään, kunnes painat uudelleen samaa komentoa. "
+"Silloin NVDA sanoo \"Syöttölukko avattu\", ja kaikki toimii kuten "
+"tavallisesti."
 
 #. type: Plain text
 msgid ""
-"If you press the toggle mouse block gesture, your mouse will be "
-"locked. Press this command again to unlock it. While mouse is locked, you "
-"can use NVDA gestures to move it, and click with left and right buttons, but "
-"You can't move the mouse itself. Mouse clicks can also be disabled from "
-"Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from "
-"add-on settings dialog for older versions, available under preferences "
-"menu. In addition, from these settings you can control wether mouse locks "
-"when NVDA is started or not."
+"If you press the toggle mouse block gesture, your mouse will be locked. "
+"Press this command again to unlock it. While mouse is locked, you can use "
+"NVDA gestures to move it, and click with left and right buttons, but You "
+"can't move the mouse itself. Mouse clicks can also be disabled from Input "
+"lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on "
+"settings dialog for older versions, available under preferences menu. In "
+"addition, from these settings you can control wether mouse locks when NVDA "
+"is started or not."
 msgstr ""
+"Jos painat hiiren käytön estävää tilanvaihtokomentoa, hiiri lukitaan. Paina "
+"samaa komentoa uudelleen avataksesi lukituksen. Kun hiiri on lukittuna, voit "
+"käyttää NVDA-komentoja sen siirtämiseen sekä vasenta ja oikeaa painiketta "
+"napsauttamiseen, mutta itse hiirtä ei voi siirtää. Myös hiiren napsautukset "
+"voidaan poistaa käytöstä NVDA:n asetusvalintaikkunan Syöttölukko-"
+"kategoriasta (NVDA 2018.2 ja uudemmat) tai vanhemmissa versioissa lisäosan "
+"asetusikkunasta, johon pääsee Asetukset-valikosta. Asetuksista voi lisäksi "
+"määrittää, lukitaanko hiiri NVDA:n käynnistyessä vai ei."
 
 #. type: Plain text
 msgid ""
 "Note: when mouse clicks are blocked, you can't use any NVDA gestures to work "
 "with the mouse."
 msgstr ""
+"Huom: Kun hiiren napsautukset on estetty, mitkään NVDA:n hiirikomennot eivät "
+"toimi."
 
 #. type: Title ##
 #, no-wrap
 msgid "Limitations"
-msgstr ""
+msgstr "Rajoitukset"
 
 #. type: Plain text
 msgid "Input Lock has the following limitations:"
-msgstr ""
+msgstr "Syöttölukossa on seuraavia rajoituksia:"
 
 #. type: Bullet: '* '
-msgid "The shortcut control+alt+del can be used even when the keyboard is locked."
+msgid ""
+"The shortcut control+alt+del can be used even when the keyboard is locked."
 msgstr ""
+"Ctrl+Alt+Del-pikanäppäintä on mahdollista käyttää, vaikka näppäimistö on "
+"lukittu."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changelog"
-msgstr ""
+msgstr "Muutosloki"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.4"
-msgstr ""
+msgstr "Versio 1.4"
 
 #. type: Bullet: '* '
 msgid "The addon gestures are unassigned by default."
 msgstr ""
+"Lisäosan syötekomentoihin ei ole määritelty oletusarvoisesti "
+"näppäinkomentoja."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.3"
-msgstr ""
+msgstr "Versio 1.3"
 
 #. type: Bullet: '* '
 msgid ""
 "Added a configuration panel in settings dialog. For old NVDA versions, a "
 "menu item and a dialog have been added too."
 msgstr ""
+"Lisätty asetuspaneeli Asetukset-valintaikkunaan. Vanhoja NVDA-versioita "
+"varten on lisätty valintaikkuna ja sen avaava valikkokohde."
 
 #. type: Bullet: '* '
 msgid "Added a setting to lock the mouse when NVDA is started."
-msgstr ""
+msgstr "Lisätty asetus hiiren lukitsemiseksi NVDA:n käynnistyessä."
 
 #. type: Bullet: '* '
 msgid "Added a setting to block also mouse clicks while mouse is locked."
-msgstr ""
+msgstr "Lisätty asetus napsautusten estämiseksi hiiren ollessa lukittuna."
 
 #. type: Bullet: '* '
 msgid ""
 "Small bugs fixed, some code optimizations and less duplicated strings for "
 "translators"
 msgstr ""
+"Pieniä bugeja korjattu, koodia optimoitu ja vähemmän merkkijonojen "
+"kaksoiskappaleita kääntäjille."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.2"
-msgstr ""
+msgstr "Versio 1.2"
 
 #. type: Bullet: '* '
 msgid "Now the mouse can also be locked"
-msgstr ""
+msgstr "Nyt myös hiiri voidaan lukita."
 
 #. type: Bullet: '* '
 msgid "New command to lock and unlock only the mouse"
-msgstr ""
+msgstr "Uusi komento pelkän hiiren lukitsemiseen ja lukituksen avaamiseen."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.1"
-msgstr ""
+msgstr "Versio 1.1"
 
 #. type: Bullet: '* '
 msgid ""
 "If another addon has previously added a capture function to inputManager, it "
 "is restored when the input is unlocked."
 msgstr ""
+"Jos toinen lisäosa on aiemmin lisännyt kaappaustoiminnon syötönhallintaan, "
+"se palautetaan, kun syötön lukitus avataan."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.0"
-msgstr ""
+msgstr "Versio 1.0"
 
 #. type: Bullet: '* '
 msgid "Initial release"
-msgstr ""
+msgstr "Ensimmäinen versio."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=inputlock"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=inputlock"
