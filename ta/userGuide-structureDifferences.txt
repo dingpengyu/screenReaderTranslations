@@ -1,10 +1,10 @@
-# Structural comparison of ta/userGuide.t2t against ta/userGuide-newRevisions/15055/userGuide.t2t
+# Structural comparison of ta/userGuide.t2t against ta/userGuide-newRevisions/15056/userGuide.t2t
 en 11.2.2. start:1616 paragraphs:6, tables:0, lists:1
 ta 11.2.2. start:1616 paragraphs:7, tables:0, lists:1
-ta 17. start:2782 paragraphs:1, tables:0, lists:0
-ta 17.1. start:2785 paragraphs:0, tables:1, lists:0
-ta 17.2. start:2815 paragraphs:0, tables:1, lists:0
-ta 17.3. start:2834 paragraphs:0, tables:1, lists:0
-ta 17.4. start:2855 paragraphs:0, tables:1, lists:0
-ta 17.5. start:2863 paragraphs:2, tables:1, lists:0
+ta 17. start:2781 paragraphs:1, tables:0, lists:0
+ta 17.1. start:2784 paragraphs:0, tables:1, lists:0
+ta 17.2. start:2814 paragraphs:0, tables:1, lists:0
+ta 17.3. start:2833 paragraphs:0, tables:1, lists:0
+ta 17.4. start:2854 paragraphs:0, tables:1, lists:0
+ta 17.5. start:2862 paragraphs:2, tables:1, lists:0
 # end of comparison
