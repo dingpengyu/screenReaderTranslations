@@ -3,51 +3,55 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-19 11:42+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"VLC Media Player\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"VLC Media Player\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Javi Dominguez"
-msgstr ""
+msgstr "Tác giả: Javi Dominguez"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][2]"
-msgstr ""
+msgstr "Tải về [phiên bản chính thức][2]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][3]"
-msgstr ""
+msgstr "Tải về [phiên bản thử nghiệm][3]"
 
 #. type: Plain text
 msgid "This addon provides some accessibility features for VLC Media Player."
-msgstr ""
+msgstr "Add-on này cung cấp vài tính năng tiếp cận cho VLC Media Player."
 
 #. type: Bullet: '1. '
 msgid ""
 "Allows navigating through the playback controls using Tab and Shift+Tab. To "
 "activate a selected control press enter."
 msgstr ""
+"Cho phép điều hướng qua  các điều khiển phát nhạc bằng Tab và Shift+Tab. Để "
+"kích hoạt một điều khiển đã chọn, bấm enter."
 
 #. type: Bullet: '2. '
 msgid ""
 "Reads status bar information (press I). The gesture can be set up in NVDA "
 "preferences."
 msgstr ""
+"Đọc thông tin thanh trạng thái (bấm I). Thao tác có thể tùy chỉnh thông qua "
+"cấu hình NVDA."
 
 #. type: Bullet: '3. '
 msgid ""
@@ -56,17 +60,25 @@ msgid ""
 "skip 5 seconds. You can set the verbosity in the NVDA preferences. You can "
 "also assign a keyboard shortcut to toggle it."
 msgstr ""
+"Đọc thời gian đã trôi qua khi di chuyển tới / lui bằng phím tắt của VLC: "
+"Control plus mũi tên trái / phải để chuyển qua 1 phút và Shift plus mũi tên "
+"trái phải để chuyển qua 5 giây. Bạn có thể cài đặt cấp độ trong cấu hình "
+"NVDA. Bạn cũng có thể gán phím để bật / tắt nó."
 
 #. type: Bullet: '4. '
 msgid "Announces state when change random mode (key R) and repeat mode (key L)."
 msgstr ""
+"Thông báo trạng thái khi thay đổi chế độ ngẫu nhiên (phím R) và chế độ lặp "
+"lại (phím L)."
 
 #. type: Bullet: '5. '
 msgid ""
 "There are some layered windows and panels that NVDA is not able to focus it "
-"automatically when they are displayed. Press Control+Tab to try to bring "
-"them to the front."
+"automatically when they are displayed. Press Control+Tab to try to bring them "
+"to the front."
 msgstr ""
+"Có vài cửa sổ layer và bản mà NVDA không tự đứng ở đó khi được hiển thị. Bấm "
+"Control+Tab để cố gắng đưa nó lên phía trước."
 
 #. type: Bullet: '* '
 msgid ""
@@ -74,27 +86,32 @@ msgid ""
 "it will not work correctly with earlier versions. To use VLC 2.x [download "
 "the old version of the addon.][1]"
 msgstr ""
+"Lưu ý quan trọng: Add-on này là tối ưu cho các phiên bản VLC 3.0 trở lên; nó "
+"sẽ không làm việc chính xác với các phiên bản cũ hơn. Để dùng VLC 2.x [tải "
+"phiên bản cũ của add-on.][1]"
 
 #. type: Bullet: '* '
 msgid ""
-"Covered by the GNU General Public License. See the [file "
-"COPYING.txt](https://github.com/javidominguez/VLC/blob/master/COPYING.txt) "
-"for more details."
+"Covered by the GNU General Public License. See the [file COPYING.txt](https://"
+"github.com/javidominguez/VLC/blob/master/COPYING.txt) for more details."
 msgstr ""
+"Được bảo vệ bởi Giấy phép GNU General Public License. Xem [tập tin COPYING."
+"txt](https://github.com/javidominguez/VLC/blob/master/COPYING.txt) để biết "
+"thêm chi tiết."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 
 #. type: Plain text
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
-msgstr ""
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
