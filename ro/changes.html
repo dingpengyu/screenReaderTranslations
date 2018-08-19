@@ -52,12 +52,51 @@
 
 <UL>
 <LI>Etichetele accesibile pentru comenzile din Google Chrome sunt acum raportate cu ușurință în modul de navigare atunci când eticheta nu apare ca și conținut în sine. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
+<LI>Notificările sunt suportate acum în Zoom. De exemplu, aceasta include starea de activare/dezactivare și mesajele primite. .(<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
+<LI>Când sunteți în modul de navigare, commutarea prezentării contextului braille nu mai face ca ieșirea braille să oprească urmărirea. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>Afișajele braille ALVA BC680 nu mai eșuează să se inițializeze. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>În mod implicit, afișajele ALVA BC6 nu vor mai executa taste simulate ale tastaturii sistemului la apăsarea combinațiilor de taste care implică sp2+sp3 pentru declanșarea funcționalității interne. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Apăsarea sp2 pe un afișaj ALVA BC6 pentru simularea tastei alt funcționează acum ca anunțată. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
+<LI>NVDA nu mai anunță modificări redundante ale aspectului tastaturii. (<A HREF="http://github.com/nvaccess/nvda/issues/7383">#7383</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
+<LI>Urmărirea mausului este mult mai precisă în Notepad și în alte editoare de text într-un document care conține mai mult de 65535 de caractere. (<A HREF="http://github.com/nvaccess/nvda/issues/8397">#8397</A>)
+<LI>NVDA recunoaște mai multe dialoguri din Windows 10 și din alte aplicații moderne. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
+<LI>În Windows 10 October 2018 Update, Server 2019 și mai noi, NVDA nu mai eșuează să urmărească focalizarea sistemului atunci când o aplicație se blochează sau bombardează sistemul cu evenimente. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
+<LI>Acum, utilizatorii sunt informați atunci când încearcă să citească sau să copieze o bară de stare goală. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
+<LI>S-a reparat o eroare care făcea ca atunci când o casetă era nebifată, statutul acesteia să nu fie raportat în vorbire dacă respectiva casetă fusese parțial bifată anterior. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>În lista de limbi din dialogul setărilor NVDA, numele de limbă pentru birmană este afișat corect în Windows 7. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>În microsoft Edge, NVDA va anunța notificări precum disponibilitatea pentru vizualizarea lecturilor și progresul încărcării unei pagini. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
+<LI>Similar cu multe câmpuri de text multilinie, când este poziționat la începutul unui document în braille, afișajul este afișat astfel încât primul caracter al documentului să fie la începutul afișajului. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
+<LI>La navigarea într-o listă de pe un site web, NVDA va raporta eticheta acesteia dacă autorul site-ului respectiv a furnizat-o. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
+<LI>Când se atribuie manual funcții la gesturi pentru un afișaj braille particular, aceste gesturi le vor afișa întotdeauna ca fiind atribuite la acel afișaj. În trecut, funcțiile erau afișate ca și cum ar fi fost atribuite la afișajul braille care era activ în acel moment. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>Versiunea pe 64 de biți a Media Player Classic este suportată acum. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>Au fost activate câteva îmbunătățiri la suportul braille din Microsoft Word cu UI Automation:
+ <UL>
+ <LI>La focalizarea unui document Word, s-a redus prezentarea extrem de prolixă a focalizării atât în vorbire, cât și în braille. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>Acum, deplasarea cursorului în braille funcționează corect atunci când se află într-o listă dintr-un document Word. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ <LI>Bulinele sau numerele nou-inserate într-un document Word sunt raportate corect atât în vorbire, cât și în braille. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ <LI>În Windows 10 1803 sau mai nou, puteți să instalați suplimente dacă este activată caracteristica pentru suportul utilizării Unicode UTF-8 pentru limbile din lumea întreagă. (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+ </UL>
 </UL>
 
 <H3>Modificări pentru dezvoltatori</H3>
 
 <UL>
 <LI>S-a adăugat scriptHandler.script, care poate fi folosit pe post de decorator pentru scripturile de pe obiectele scriptabile. (<A HREF="http://github.com/nvaccess/nvda/issues/6266">#6266</A>)
+<LI>a fost introdus un test de sistem framework pentru NVDA. (<A HREF="http://github.com/nvaccess/nvda/issues/708">#708</A>)
+<LI>Au fost efectuate niște modificări la modulul hwPortUtils: (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>listUsbDevices oferă acum dicționare cu informații despre dispozitive, inclusiv hardwareID și devicePath.
+ <LI>Dicționarele oferite de listComPorts conțin și o intrare usbID pentru porturile COM cu informații despre USB VID/PID în ID-ul lor hardware.
+ </UL>
+<LI>S-a actualizat wxPython la 4.0.3. (<A HREF="http://github.com/nvaccess/nvda/issues/7077">#7077</A>)
+<LI>Actualmente, întrucât NVDA suportă doar Windows 7 SP1 și mai nou, tasta „minWindowsVersion”, folosită să verifice dacă UIA ar trebui să fie activat pentru o versiume particulară de Windows, a fost eliminată. (<A HREF="http://github.com/nvaccess/nvda/issues/8422">#8422</A>)
+<LI>Acum, vă puteți înregistra pentru a fi notificat cu privire la salvările configurațiilor sau la acțiunile de resetare prin noile config.pre_configSave, config.post_configSave, config.pre_configReset și prin acțiunile config.post_configReset. (<A HREF="http://github.com/nvaccess/nvda/issues/7598">#7598</A>)
+ <UL>
+ <LI>config.pre_configSave este folosit pentru ca dumneavoastră să fiți notificat atunci când configurația NVDA este pe punctul de a fi salvată, urmând ca după aceea să se apeleze la config.post_configSave.
+ <LI>config.pre_configReset și config.post_configReset includ steagul setărilor din fabrică pentru a specifica dacă setările sunt reîncărcate de pe disk (false) sau dacă resetarea la valorile implicite este necesară (true).
+ </UL>
+<LI>config.configProfileSwitch a fost redenumit la config.post_configProfileSwitch pentru a reflecta faptul că această acțiune este apelată după ce comutarea profilului are loc. (<A HREF="http://github.com/nvaccess/nvda/issues/7598">#7598</A>)
+<LI>Interfețele UI Automation au fost actualizate la Windows 10 October 2018 Update și Server 2019 (IUIAutomation6 / IUIAutomationElement9). (<A HREF="http://github.com/nvaccess/nvda/issues/8473">#8473</A>)
 </UL>
 
 <H2>2018.2</H2>
