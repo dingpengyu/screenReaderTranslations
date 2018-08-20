@@ -49,14 +49,14 @@
 - U popisu jezika u NVDA općim postavkama, naziv jezika za burmeški sada se ispravno prikazuje u Windowsima 7. (#8544)
 - U Microsoft Edgeu, NVDA će izgovarati obavijesti poput čidostupnog pregleda čitanja te stanja učitavanja stranice. (#8423)
 - Pri navigaciji lista na stranici, NVDA će izgovoriti oznaku ako je autor dao istu. (#7652)
-- When manually assigning functions to gestures for a particular braille display, these gestures now always show up as being assigned to that display. Previously, they showed up as if they were assigned to the currently active display. (#8108)
-- The 64-bit version of Media Player Classic is now supported. (#6066)
-- Several improvements to braille support in Microsoft Word with UI Automation enabled:
- - Similar to other multiline text fields, When positioned at the start of a document in Braille, the display is now panned such that the first character of the document is at the start of the display. (#8406)
- - Reduced overly verbose focus presentation in both speech and braille when focusing a Word document. (#8407)
- - Cursor routing in braille now works correctly when in a list in a Word document. (#7971)
- - Newly inserted bullets/numbers in a Word document are correctly reported in both speech and braille. (#7970)
-- In Windows 10 1803 and later, it is now possible to install add-ons if the "Use Unicode UTF-8 for worldwide language support" feature is enabled. (#8599)
+- Prilikom pridjeljivanja gesti funkcijama na određenom brajičnom redku, sada se prikazuju kao geste pridjeljene tom brajičnom redku. U prijašnjem stanju, iste su se pokazivale kao geste koje su bile pripisane aktivnom brajičnom redku. (#8108)
+- 64-bitna inačica Media Player Classic sada je podržana. (#6066)
+- Nekoliko poboljšanja u brajičnoj podršci za Microsoft Word sa uključenim UI Automation:
+ - Slično kao u drugim tekstualnim poljima sa više redaka, kada ste pozicionirani na početku dokumenta pomiću brajice, Prvi je znak pozicioniran tako da se nalazi na početku samog brajičnog retka. (#8406)
+ - Smanjena prevelika govorna prezentacija fokusa pri otvaranju Wordovih dokumenata. (#8407)
+ - Routing tipke sadda ponovno rade u Word dokumentima kada se nalazite u spisku nabrajanja. (#7971)
+ - Novoumetnute točkice ili brojevi sada se točno izgovaraju ili prenose u brajicu. (#7970)
+- U Windowsima 10 1803 i novijim, sada je moguće instalirati dodatke, ako je značajka "koristi unicode UTF'8 za međunarodnu jezičnu podršku" uključena. (#8599)
 
 
 == Izmjene za razvojne programere ==
