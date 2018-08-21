@@ -2522,14 +2522,14 @@ Monitory Iris i Esys  posiadają klawiaturę brajlowską z 10 klawiszami.
 Z dwóch klawiszy umieszczonych jak spacja, lewy klawisz odpowiada backspace, a prawy to spacja.
 
 Poniżej skróty klawiszowe NVDA dla tych monitorów.
-Informację na temat rozmieszczenia tych klawiszy, znajdują się w dokumentacji monitora.
+Informacje na temat rozmieszczenia tych klawiszy, znajdują się w dokumentacji monitora.
 %kc:beginInclude
 || Nazwa | Klawisz |
 | Przewiń wyświetlacz wstecz | switch1-6Lewo, l1 |
 | Przewiń wyświetlacz do przodu | switch1-6 Prawo, l8 |
 | Przejdź do punktu uwagi | switch1-6Lewo+switch1-6Prawo, l1+l8 |
 | Przywołaj do komórki brajla | routing |
-| Zgłoś formatowanie tekstu pod komórką brajla | podwójne naciśnięcie routinga |
+| Zgłoś formatowanie tekstu pod komórką brajla | podwójne naciśnięcie routingu |
 | Przejdź do poprzedniej linii w przeglądzie | joystick1Góra |
 | Przejdź do następnej linii w przeglądzie | joystick1Dół |
 | Przejdź do poprzedniego znaku w przeglądzie | joystick1Lewo |
