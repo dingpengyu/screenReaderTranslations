@@ -2702,6 +2702,7 @@ Kad podešavate brajični redak i priključak za korištenje, budite sigurni da 
 
 Za brajične retke koji imaju brajičnu tipkovnicu, BRLTTY trenutno rukuje unosom brajičnih znakova iz samog sebe.
 Stoga, postavka za ulaznu brajičnu tablicu u dijaloškom okviru Brajične postavke, je nebitna.
+
 BRLTTY ne sudjeluje u automatskom otkrivanju brajičnih redaka.
 
 Ovo su BRLTTY prečaci za NVDA.
