@@ -1992,11 +1992,11 @@ Sljede prečaci dodjeljeni za ovaj brajični redak za korištenje sa NVDA.
 Molimo pogledajte uputstvo za upotrebu brajičnog retka da biste pogledali opis i smještaj tipaka na brajičnom retku.
 %kc:beginInclude
 || Naziv | Prečac |
-| Pomakni brajični redak za redak u natrag | t1 ili etouch1 |
+| Pomakni brajični redak za redak u natrag | t1, etouch1 |
 | Premjesti brajični redak na prijašnji redak | t2 |
 | premjesti na trenutni fokus | t3 |
 | Premjesti brajični redak na slijedeći redak | t4 |
-| Pomakni brajični redak u naprijed za redak | t5 ili etouch 3|
+| Pomakni brajični redak u naprijed za redak | t5, etouch 3 |
 | Prebaci na brajičnu ćeliju | routing |
 | Izvjesti o oblikovanju teksta pod brajičnom ćelijom | secondary routing |
 | Uključi/isključi simulaciju tipkovnice | t1+spEnter |
@@ -2006,14 +2006,14 @@ Molimo pogledajte uputstvo za upotrebu brajičnog retka da biste pogledali opis 
 | pročitaj naslov | etouch2 |
 | pročitaj traku stanja | etouch4 |
 | shift+tab | sp1 |
-| alt | sp2 |
+| alt | sp2, alt |
 | escape | sp3 |
 | tab | sp4 |
 | strelicaGore | spUp |
 | strelicaDolje | spDown |
 | strelicaLijevo | spLeft |
 | strelicaDesno | spRight |
-| enter | spEnter, enter|
+| enter | spEnter, enter |
 | Izgovori datum/vrijeme | sp2+sp3 |
 | NVDA Izbornik | sp1+sp3 |
 | windows+d (minimiziraj sve aplikacije) | sp1+sp4 |
@@ -2024,7 +2024,6 @@ Molimo pogledajte uputstvo za upotrebu brajičnog retka da biste pogledali opis 
 | control+end | t3+spDown |
 | home | t3+spLeft |
 | end | t3+spRight |
-| alt | alt |
 | ctrl | control |
 %kc:endInclude
 
