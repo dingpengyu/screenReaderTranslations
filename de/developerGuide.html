@@ -129,7 +129,7 @@ Die Dokumentationen und weitere Materialien sind in einer oder mehreren der folg
 
 <P>
 Damit NVDA mehrere Sprachen bzw. Sprachräume unterstützt, müssen sie übersetzt und sprachspezifische Daten zur Verfügung gestellt werden.
-Dieser Abschnitt stellt lediglich Informationen über NVDA-Eigene Dateiformate bereit, die für Übersetzungen verwendet werden. 
+Dieser Abschnitt stellt lediglich Informationen über NVDA-Eigene Dateiformate bereit, die für Übersetzungen verwendet werden.
 Andere Teile von NVDA, wie zum Beispiel die Benutzeroberfläche oder die Dokumentation verwenden Standarddateiformate.
 Weitere Informationen über die Übersetzung von NVDA finden sie unter <A HREF="http://www.nvda-project.org/wiki/TranslatingNVDA">http://www.nvda-project.org/wiki/TranslatingNVDA</A>
 </P>
@@ -138,7 +138,7 @@ Weitere Informationen über die Übersetzung von NVDA finden sie unter <A HREF="
 <H3>2.1. Beschreibungen der Sonderzeichen</H3>
 
 <P>
-Manchmal kann es schwierig bis unmöglich sein, zwei Zeichen voneinander zu unterscheiden. 
+Manchmal kann es schwierig bis unmöglich sein, zwei Zeichen voneinander zu unterscheiden.
 Zwei Zeichen können beispielsweise identisch ausgesprochen werden, auch wenn es eigentlich völlig unterschiedliche Zeichen sind.
 Um dieses problem zu lösen, können Zeichenbeschreibungen bereitgestellt werden, die jedes Zeichen eindeutig beschreiben.
 </P>
@@ -153,9 +153,11 @@ zum Beispiel:
 </P>
 
 <PRE>
+
 # Dies ist eine Kommentarzeile
-a	Anton
-b	Berta
+a   Anton
+b   Berta
+
 </PRE>
 
 <P>
@@ -204,7 +206,7 @@ Zum Beispiel:
 </P>
 
 <PRE>
-. Satzende	(?&lt;=[^\s.])\.(?=[\"')\s]|$)
+. Satzende (?&lt;=[^\s.])\.(?=[\"')\s]|$)
 </PRE>
 
 <P>
@@ -215,7 +217,7 @@ Da jeder Sprachraum die komplexen Symbole des englischen Sprachraumes übernimmt
 <H4>2.2.2. Symbol-Informationen definieren</H4>
 
 <P>
-Der zweite Abschnitt enthält Informationen darüber, ob und wie Symbole ausgesprochen werden. 
+Der zweite Abschnitt enthält Informationen darüber, ob und wie Symbole ausgesprochen werden.
 Er beginnt mit der Zeile:
 </P>
 
@@ -243,7 +245,7 @@ Folgende Felder sind verfügbar:
  <LI>\#: #-Zeichen (benötigt einen Backslash, da dieses #-Zeichen sonst als Kommentar angesehen wird)
  </UL>
 <LI>Ersatztext: Der Text, der anstelle des Symbols ausgesprochen werden soll.
-<LI>Ebene: Die Symbolebene, ab der das Symbol gesprochen werden soll. Die Symbolebene kann vom Anwender konfiguriert werden und gibt die Menge an auszusprechenden Sonderzeichen an. Dieses Feld sollte einen der Werte  "none", "some", "most", "all" oder  "char" enthalten oder "-", um den Standardwert zu erzwingen. Die angabe "char" bedeutet, dass das Symbol nur bei der zeichenweisen Navigation verarbeitet wird. Standardmäßig wird hier der Wert aus dem englischen Sprachraum verwendet. Ist in der Symboldefinitionsdatei für den englischen Sprachraum kein Wert angegeben, so wird der Wert "all" angenommen.
+<LI>Ebene: Die Symbolebene, ab der das Symbol gesprochen werden soll. Die Symbolebene kann vom Anwender konfiguriert werden und gibt die Menge an auszusprechenden Sonderzeichen an. Dieses Feld sollte einen der Werte "none", "some", "most", "all" oder "char" enthalten oder "-", um den Standardwert zu erzwingen. Die angabe "char" bedeutet, dass das Symbol nur bei der zeichenweisen Navigation verarbeitet wird. Standardmäßig wird hier der Wert aus dem englischen Sprachraum verwendet. Ist in der Symboldefinitionsdatei für den englischen Sprachraum kein Wert angegeben, so wird der Wert "all" angenommen.
 <LI>Beibehalten: Dieses Feld muss immer dann belegt sein, wenn ein bestimmtes Symbol unverarbeitet an die Sprachausgabe weitergegeben werden soll, um eine korrekte Aussprache zu ermöglichen. Beispiele hierfür sind Sonderzeichen, die Sprechpausen verursachen, wie z.B. der Punkt, das Komma etc. Dieses Feld kann die folgenden Werte enthalten:
  <UL>
  <LI>never: Das Symbol wird nie beibehalten.
@@ -263,7 +265,7 @@ Hierzu einige Beispiele:
 </P>
 
 <PRE>
-(	Runde Klammer auf	most
+(   Runde Klammer auf   most
 </PRE>
 
 <P>
@@ -271,7 +273,7 @@ Dies bedeutet, dass das Zeichen "(" als "Runde Klammer auf" gesprochen werden so
 </P>
 
 <PRE>
-,	Komma	all	always
+,   Komma   all always
 </PRE>
 
 <P>
@@ -279,7 +281,7 @@ Dies bedeutet, dass das Zeichen "," als "Komma" gesprochen werden soll, wenn als
 </P>
 
 <PRE>
-. sentence ending	point	# . fin de phrase
+. sentence ending   point   # . fin de phrase
 </PRE>
 
 <P>
@@ -323,7 +325,7 @@ Es gibt zwei unterschiedliche Typen von Erweiterungen:
 
 <UL>
 <LI>Anwendungsmodule: Enthalten speziellen Code für eine bestimmte Anwendung. Ein Anwendungsmodul nimmt Ereignisse für eine bestimmte Anwendung entgegen, auch wenn die Anwendung momentan nicht fokussiert ist. Wenn eine Anwendung fokussiert ist, kann der Nutzer sämtliche Befehle ausführen, die im Anwendungsmodul definiert und an Eingabemethoden zugewiesen wurden.
-<LI>Allgemeine Erweiterungen: Enthalten Code, der in allen Anwendungen ausgeführt wird. Dabei nehmen Sie alle Ereignisse von allen Elementen im Betriebssystem entgegen. Befehle, die in allgemeinen Erweiterungen an Eingabemethoden zugewiesen wurden, können unabhängig davon ausgeführt werden, welche Anwendung grade aktiv ist. 
+<LI>Allgemeine Erweiterungen: Enthalten Code, der in allen Anwendungen ausgeführt wird. Dabei nehmen Sie alle Ereignisse von allen Elementen im Betriebssystem entgegen. Befehle, die in allgemeinen Erweiterungen an Eingabemethoden zugewiesen wurden, können unabhängig davon ausgeführt werden, welche Anwendung grade aktiv ist.
 </UL>
 
 <P>
@@ -348,7 +350,7 @@ Anwendungsmodule besitzen die Endung ".py" und haben den gleichen Namen wie die 
 Ein Anwendungsmodul für den Editor müsste zum Beispiel notepad.py heißen, weil die ausführbare Datei des Editors notepad.exe heißt.
 </P>
 <P>
-Anwendungsmodule müssen im Unterordner "appModules" der Benutzerkonfiguration von NVDA liegen. 
+Anwendungsmodule müssen im Unterordner "appModules" der Benutzerkonfiguration von NVDA liegen.
 Weitere Informationen über den Standort Ihres benutzerspezifischen Konfigurationsverzeichnisses finden Sie im Benutzerhandbuch von NVDA.
 </P>
 <P>
@@ -382,7 +384,6 @@ Wenn Sie sich jedoch außerhalb des Editors (z. B. im Explorer) befinden, sollte
 </P>
 
 <PRE>
---- Beginn ---
 # NVDA-Anwendungsmodul für den Editor
 # Beispiel 1 aus dem Entwicklerhandbuch
 
@@ -390,12 +391,10 @@ import appModuleHandler
 
 class AppModule(appModuleHandler.AppModule):
 
-	def event_gainFocus(self, obj, nextHandler):
-		import tones
-		tones.beep(550, 50)
-		nextHandler()
-
---- Ende ---
+    def event_gainFocus(self, obj, nextHandler):
+        import tones
+        tones.beep(550, 50)
+        nextHandler()
 </PRE>
 
 <P>
@@ -409,7 +408,7 @@ Als nächstes wird eine Klasse namens AppModule definiert, die von appModuleHand
 </P>
 <P>
 Innerhalb der Klasse werden ein oder mehr Ereignisse, skripte oder Eingabemethodenzuweisungen definiert.
-Dieses Beispiel definiert ein Ereignis namens gainfocus (event_gainFocus), das bei jeder Ausführung einen kurzen Signalton abspielt.
+Dieses Beispiel definiert ein Ereignis namens "gainfocus" (event_gainFocus), das bei jeder Ausführung einen kurzen Signalton abspielt.
 Die Implementierung des Ereignisses ist für dieses Beispiel noch nicht wichtig, wichtig ist lediglich die Definition der Klasse.
 </P>
 <P>
@@ -426,7 +425,7 @@ Denken Sie - wie bei anderen Beispielen in diesem handbuch - daran, das erstellt
 Globale Erweiterungen sollten die Endung ".py" besitzen und einen kurzen Namen haben, der ihren Zweck beschreibt.
 </P>
 <P>
-Globale Erweiterungen müssen im unterordner "GlobalErweiterungen" des benutzerspezifischen Konfigurationsverzeichnisses liegen. 
+Globale Erweiterungen müssen im unterordner "GlobalErweiterungen" des benutzerspezifischen Konfigurationsverzeichnisses liegen.
 Weitere Informationen darüber, wo Sie das benutzerspezifische Konfigurationsverzeichnis finden, finden Sie im NVDA-Benutzerhandbuch.
 </P>
 <P>
@@ -457,7 +456,6 @@ Von nun an können Sie NVDA+Umschalt+V drücken, um die NVDA-Version angesagt un
 </P>
 
 <PRE>
---- Beginn ---
 # Erweiterung zur Ausgabe der Versionsinformationen in NVDA
 # Beispiel 2 aus dem Entwicklerhandbuch
 
@@ -467,24 +465,22 @@ import versionInfo
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
-	def script_announceNVDAVersion(self, gesture):
-		ui.message(versionInfo.version)
+    def script_announceNVDAVersion(self, gesture):
+        ui.message(versionInfo.version)
 
-	__gestures={
-		"kb:NVDA+Shift+V": "announceNVDAVersion",
-	}
-
---- Ende ---
+    __gestures={
+        "kb:NVDA+Shift+V": "announceNVDAVersion",
+    }
 </PRE>
 
 <P>
 Diese globale Erweiterung beginnt mit zwei Kommentarzeilen, die den Zweck der Datei kurz beschreibt.
 </P>
 <P>
-Anschließend wird das Modul "globalPluginHandler" importiert, sodass die Erweiterung Zugriff auf die Basisklasse "globalPlugin" hat. 
+Anschließend wird das Modul "globalPluginHandler" importiert, sodass die Erweiterung Zugriff auf die Basisklasse "globalPlugin" hat.
 </P>
 <P>
-Außerdem werden noch die Module "UI" und "Versioninfo" importiert, damit die Erweiterung die Versionsinformationen ausgeben kann. 
+Außerdem werden noch die Module "UI" und "Versioninfo" importiert, damit die Erweiterung die Versionsinformationen ausgeben kann.
 </P>
 <P>
 Als nächstes wird eine Klasse "globalPlugin" definiert, die ein Nachkomme von "globalPluginHandler.GlobalPlugin" ist.
@@ -509,7 +505,7 @@ Die Schaltfläche "OK" in einem Dialogfeld wird beispielsweise den Namen "OK" un
 So ähnlich würde beispielsweise ein Kontrollkästchen mit der Beschriftung "Ich stimme zu" den Namen "Ich stimme zu", den Typ Kontrollkästchen und - falls aktiviert - den Status aktiviert besitzen.
 </P>
 <P>
-Auch wenn es unterschiedliche Komponentenbausätze für Benutzeroberflächen und Zugänglichkeitsschnittstellen gibt,  abstrahieren NVDA-Objekte diese unterschiede zu einer einheitlichen Form, gleichgültig, mit welchem Komponentenbausatz ein Steuerelement erzeugt wurde oder über welche Zugänglichkeitsschnittstelle darauf zugegriffen wird. 
+Auch wenn es unterschiedliche Komponentenbausätze für Benutzeroberflächen und Zugänglichkeitsschnittstellen gibt, abstrahieren NVDA-Objekte diese unterschiede zu einer einheitlichen Form, gleichgültig, mit welchem Komponentenbausatz ein Steuerelement erzeugt wurde oder über welche Zugänglichkeitsschnittstelle darauf zugegriffen wird.
 Der oben angesprochene Schalter "OK" könnte also beispielsweise ein Java-Objekt sein. Genauso gut könnte er aber auch ein MSAA-Objekt, ein iAccessible2-Objekt oder ein UIA-Element sein.
 </P>
 <P>
@@ -528,7 +524,7 @@ einige der nützlichsten sind:
 <LI>next: Das nächste Objekt in der logischen Reihenfolge
 <LI>previous: Das vorherige Objekt in der logischen Reihenfolge
 <LI>firstChild: Das erste direkt untergeordnete Objekt. das erste untergeordnete Objekt einer Liste ist beispielsweise deren erster Eintrag.
-<LI>lastChild: Das letzte untergeordnete Objekt  eines Objekts.
+<LI>lastChild: Das letzte untergeordnete Objekt eines Objekts.
 <LI>children: Eine Liste aller untergeordneten Objekte eines Objekts (beispielsweise alle Einträge eines Menüs).
 </UL>
 
@@ -547,7 +543,7 @@ Es gibt drei Möglichkeiten, wie Erweiterungen NVDA-Objekte verwenden können:
 </P>
 
 <UL>
-<LI>Die meisten Ereignisse verarbeiten ein Argument, das dasjenige Objekt angibt, auf das sich das Ereignis bezieht. Das Ereignis event_gainfocus übernimmt beispielsweise dasjenige Objekt als Parameter, das soeben den Fokus bekommen hat.
+<LI>Die meisten Ereignisse verarbeiten ein Argument, das dasjenige Objekt angibt, auf das sich das Ereignis bezieht. Das Ereignis "event_gainfocus" übernimmt beispielsweise dasjenige Objekt als Parameter, das soeben den Fokus bekommen hat.
 <LI>Skripte und Ereignisse können Objekte verarbeiten Wie z. B. das aktuell hervorgehobene Objekt, das aktuelle navigatorobjekt oder den Desktop. Anschließend könnte auf andere Objekte bezug genommen und Informationen von ihnen abgerufen werden.
 <LI>Die Erweiterung könnte auch eine eigene NVDA-Objektklasse definieren, um ein bestimmtes Steuerelement darin einzuschließen. Solche benutzerdefinierten NVDA-Objekte können einem NVDA-Objekt neue Funktionalität geben, dessen Eigenschaften umwandeln, etc.
 </UL>
@@ -579,7 +575,7 @@ Eine Skriptmethode verarbeitet zwei Argumente:
 Neben dem eigentlichen Skript muss noch ein Eingabemethoden-Objekt definiert werden, damit NVDA bekannt ist, durch welches Ereignis das Skript aufgerufen werden soll.
 </P>
 <P>
-Um eine Eingabemethode an ein Skript zuzuweisen,  kann ein spezielles Python-Wörterbuch namens "__gestures" als Klassenvariable definiert werden. Dies kann innerhalb eines anwendungsmoduls, einer globalen Erweiterung oder eines NVDA-Objekts geschehen.
+Um eine Eingabemethode an ein Skript zuzuweisen, kann ein spezielles Python-Wörterbuch namens "__gestures" als Klassenvariable definiert werden. Dies kann innerhalb eines anwendungsmoduls, einer globalen Erweiterung oder eines NVDA-Objekts geschehen.
 Diese Wörterbücher sollten Einträge mit den Eingabemethoden enthalten, die auf die entsprechenden Skripte zeigen. Der Name muss hierbei ohne das Präfix "script_" angegeben werden.
 </P>
 <P>
@@ -641,7 +637,6 @@ Starten Sie nach dem Speichern entweder NVDA neu oder wählen Sie im NVDA-Menü 
 </P>
 
 <PRE>
---- Beginn ---
 # Hilfs-Skript für NVDA
 # Beispiel 3 aus dem Entwicklerhandbuch
 
@@ -651,24 +646,22 @@ import api
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
-	def script_announceWindowClassName(self, gesture):
-		focusObj = api.getFocusObject()
-		name = focusObj.name
-		windowClassName = focusObj.windowClassName
-		ui.message("Das Fenster %s besitzt die Fensterklasse %s" % (name, windowClassName))
+    def script_announceWindowClassName(self, gesture):
+        focusObj = api.getFocusObject()
+        name = focusObj.name
+        windowClassName = focusObj.windowClassName
+        ui.message("Das Fenster %s besitzt die Fensterklasse %s" % (name, windowClassName))
 
-	def script_announceWindowControlID(self, gesture):
-		focusObj = api.getFocusObject()
-		name = focusObj.name
-		windowControlID = focusObj.windowControlID
-		ui.message("Das Fenster %s hat die Steuerelementnummer %d" % (name, windowControlID))
+    def script_announceWindowControlID(self, gesture):
+        focusObj = api.getFocusObject()
+        name = focusObj.name
+        windowControlID = focusObj.windowControlID
+        ui.message("Das Fenster %s hat die Steuerelementnummer %d" % (name, windowControlID))
 
-	__gestures = {
-		"kb:NVDA+leftArrow": "announceWindowClassName",
-		"kb:NVDA+rightArrow": "announceWindowControlID",
-	}
-
---- Ende ---
+    __gestures = {
+        "kb:NVDA+leftArrow": "announceWindowClassName",
+        "kb:NVDA+rightArrow": "announceWindowControlID",
+    }
 </PRE>
 
 <A NAME="toc19"></A>
@@ -678,7 +671,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 wenn NVDA ein Betriebssystemereignis erkennt, so wird dieses abstrahiert und ein eigenes Ereignis bei NVDA-Objekten ausgelöst.
 </P>
 <P>
-Wenngleich die meisten Ereignisse zu bestimmten NVDA-Objekten gehören  (wie z. B. Umbenennungen, Fokuserhalt, Statusänderung, etc.), können sie auf unterschiedlichen Ebenen verarbeitet werden.
+Wenn gleich die meisten Ereignisse zu bestimmten NVDA-Objekten gehören (wie z. B. Umbenennungen, Fokuserhalt, Statusänderung, etc.), können sie auf unterschiedlichen Ebenen verarbeitet werden.
 Wird ein Ereignis behandelt, so wird es nicht mehr weitergereicht.
 Das Weiterreichen des Ereignsses kann jedoch durch Code innerhalb der Ereignisbehandlungsroutine erzwungen werden, falls nötig.
 </P>
@@ -694,7 +687,7 @@ Ereignisse werden in folgender Reihenfolge abgearbeitet:
 </UL>
 
 <P>
-Ereignisse sind Python-Instanzmethoden, deren namen mit event_ beginnen, gefolgt von dem Namen des eigentlichen Ereignisses   (wie z. B. gainFocus).
+Ereignisse sind Python-Instanzmethoden, deren namen mit "event_" beginnen, gefolgt von dem Namen des eigentlichen Ereignisses (z. B. "gainFocus").
 </P>
 <P>
 Diese Ereignismethoden verarbeiten unterschiedliche Argumente, abhängig davon, auf welcher Ebene sie aufgerufen werden.
@@ -756,14 +749,11 @@ Die Datei muss die Endung ".py" erhalten.
 </P>
 
 <PRE>
---- Beginn ---
 import appModuleHandler
 
 class AppModule(appModuleHandler.AppModule):
 
-	sleepMode = True
-
---- Ende ---
+    sleepMode = True
 </PRE>
 
 <A NAME="toc22"></A>
@@ -779,7 +769,7 @@ die definition einer eigenen Objektklasse erfolgt in zwei Schritten:
 
 <UL>
 <LI>Definieren der NVDA-Objektklasse und deren Skripte, Ereignisse, Eigenschaften und Eingabemethoden-Zuweisungen
-<LI>NVDA mitteilen, dass diese Klasse in bestimmten Situationen zu verwenden ist, indem sie  sie mit Hilfe der Methode "chooseNVDAObjectOverlayClasses" auf Ebene einer Erweiterung einbinden.
+<LI>NVDA mitteilen, dass diese Klasse in bestimmten Situationen zu verwenden ist, indem Sie sie mit Hilfe der Methode "chooseNVDAObjectOverlayClasses" auf Ebene einer Erweiterung einbinden.
 </UL>
 
 <P>
@@ -789,7 +779,7 @@ Sie sollten in der benutzerdefinierten Objektklasse üblicherweise die höchste 
 Wenn Sie beispielsweise eine benutzerdefinierte Fensterklasse bei einem Steuerelement verwenden wollen, dessen Fensterklasse "edit" ist und dessen Steuerelement-ID 15 ist, werden Sie vermutlich von der Klasse "NVDAObjects.Window.Window" ableiten wollen, weil es sich bei dem besagten Objekt um ein Fenster handelt.
 so ähnlich werden Sie Ihr Objekt von der Klasse "NVDAObjects.IAccessible.IAccessible" ableiten, wenn Sie nach der Eigenschaft "accrole" suchen wollen.
 Außerdem sollten Sie genau wissen, welche Eigenschaften Sie bei Ihrer benutzerdefinierten Klasse überschreiben wollen.
-Wenn Sie beispielsweise eine iAccessible-spezifische Eigenschaft wie "shouldAllowIAccessibleFocusEvent" überschreiben wollen, müssen Sie Ihr Objekt von  "NVDAObjects.IAccessible.IAccessible" ableiten.
+Wenn Sie beispielsweise eine iAccessible-spezifische Eigenschaft wie "shouldAllowIAccessibleFocusEvent" überschreiben wollen, müssen Sie Ihr Objekt von "NVDAObjects.IAccessible.IAccessible" ableiten.
 </P>
 <P>
 Die Methode "chooseNVDAObjectOverlayClasses" kann in Anwendungsmodulen oder globalen Erweiterungen eingesetzt werden.
@@ -820,7 +810,6 @@ Speichern Sie den folgenden Code in einer Datei mit dem Namen notepad.py in ihre
 </P>
 
 <PRE>
---- Beginn ---
 import appModuleHandler
 from NVDAObjects.IAccessible import IAccessible
 import controlTypes
@@ -828,20 +817,18 @@ import ui
 
 class AppModule(appModuleHandler.AppModule):
 
-	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
-		if obj.windowClassName == "Edit" and obj.role == controlTypes.ROLE_EDITABLETEXT:
-			clsList.insert(0, EnhancedEditField)
+    def chooseNVDAObjectOverlayClasses(self, obj, clsList):
+        if obj.windowClassName == "Edit" and obj.role == controlTypes.ROLE_EDITABLETEXT:
+            clsList.insert(0, EnhancedEditField)
 
 class EnhancedEditField(IAccessible):
 
-	def script_reportLength(self, gesture):
-		ui.message("%d" % len(self.value))
+    def script_reportLength(self, gesture):
+        ui.message("%d" % len(self.value))
 
-	__gestures = {
-		"kb:NVDA+l": "reportLength",
-	}
-
---- Ende ---
+    __gestures = {
+        "kb:NVDA+l": "reportLength",
+    }
 </PRE>
 
 <A NAME="toc24"></A>
@@ -849,10 +836,10 @@ class EnhancedEditField(IAccessible):
 
 <P>
 Manchmal möchten Sie vielleicht nur kleine Änderungen an NVDA-Objekten vornehmen wie etwa den namen oder den Typ mit Festwerten überschreiben.
-In einem solchen Fall müssen sie nicht die Benutzerdefinierten NVDA-Objektklassen in vollem Umfang nutzen, sondern können stattdessen das Ereignis event_nvdaobject_init nutzen. 
+In einem solchen Fall müssen sie nicht die Benutzerdefinierten NVDA-Objektklassen in vollem Umfang nutzen, sondern können stattdessen das Ereignis event_nvdaobject_init nutzen.
 </P>
 <P>
-Die Methode  event_NVDAObject_init verarbeitet zwei Argumente:
+Die Methode "event_NVDAObject_init" verarbeitet zwei Argumente:
 </P>
 
 <OL>
@@ -876,23 +863,21 @@ Der folgende Code kann kopiert und in eine Textdatei eingefügt werden, welche d
 </P>
 
 <PRE>
---- Beginn ---
 import appModuleHandler
 from NVDAObjects.window import Window
 
 class AppModule(appModuleHandler.AppModule):
 
-	def event_NVDAObject_init(self, obj):
-		if isinstance(obj, Window) and obj.windowClassName == "Edit" and obj.windowControlID == 15:
-			obj.name = "Inhalt"
---- Ende ---
+    def event_NVDAObject_init(self, obj):
+        if isinstance(obj, Window) and obj.windowClassName == "Edit" and obj.windowControlID == 15:
+            obj.name = "Inhalt"
 </PRE>
 
 <A NAME="toc26"></A>
 <H3>3.17. Hervorhebungsfarben setzen mit Textinfo-Objekten</H3>
 
 <P>
-Manchmal können Sie NVDA-Objekte nicht anhand von Eigenschaften (wie etwa Name, Steuerelementnummer etc) ermitteln; z. B. wenn diese eigenschaften beim Navigieren innerhalb der Anwendung dynamisch erzeugt werden und eine eindeutige identifizierung eines objekts unmöglich wird. In einem solchen Fall können Sie versuchen, das hervorgehobene Objekt anhand von Textattributen (wie etwa Text- oder Hintergrundfarbe, Unterstreichungen etc). zu ermitteln. Zu diesem Zweck können Sie Textinfo-Objekte verwenden, die mittels der Funktion makeTextInfo() von NVDA-Objekten abgeleitet werden können.  
+Manchmal können Sie NVDA-Objekte nicht anhand von Eigenschaften (wie etwa Name, Steuerelementnummer etc) ermitteln; z. B. wenn diese eigenschaften beim Navigieren innerhalb der Anwendung dynamisch erzeugt werden und eine eindeutige identifizierung eines objekts unmöglich wird. In einem solchen Fall können Sie versuchen, das hervorgehobene Objekt anhand von Textattributen (wie etwa Text- oder Hintergrundfarbe, Unterstreichungen etc). zu ermitteln. Zu diesem Zweck können Sie Textinfo-Objekte verwenden, die mittels der Funktion makeTextInfo() von NVDA-Objekten abgeleitet werden können.
 </P>
 
 <A NAME="toc27"></A>
@@ -903,53 +888,55 @@ Das folgende Anwendungsmodul für Tuneup System Control 2012 zeigt, wie anhand v
 </P>
 
 <PRE>
---- Beginn ---
 #appModules/systemcontrol.py
 #A part of NonVisual Desktop Access (NVDA)
-#Copyright (C) 2006-2012 NVDA Contributors
+#Copyright (C) 2006-2019 NVDA Contributors
 #This file is covered by the GNU General Public License.
 #See the file COPYING for more details.
+
 import appModuleHandler
 import textInfos
 import controlTypes
 import apiimport ui
-class AppModule(appModuleHandler.AppModule):	def event_gainFocus(self, obj, nextHandler):
-		# wenn wir es mit einem Eintrag der Navigationsleiste zu tun haben
-		if obj.role == controlTypes.ROLE_UNKNOWN:
-			# die Navigationsleiste aufsuchen
-			navbar = obj.parent.parent.parent
-			# ein textinfo-Objekt mit dem gesamten Objektinhalt erzeugen
-			info = navbar.makeTextInfo(textInfos.POSITION_ALL)
-			# den Objektinhalt zeilenweise in Felder aufteilen
-			fields=info.getTextWithFields()
-			# in der Liste fields wechseln sich die einzelnen Zeilen der Navigationsleiste mit fieldcommand-Objekten ab, die Informationen ueber das jeweils folgende Objekt enthalten. fields[1] enthaelt beispielsweise Informationen ueber die Textzeile, die in fields[2] hinterlegt ist
-			# Anfangswerte entsprechend setzen
-			i=1
-			focus=2
-			# gesamte navigationsleiste durchlaufen
-			while i &lt;= len(fields):
-				# Da beim Durchlaufen der Liste Ausnahmefehler auftreten koennen, muessen diese abgefangen werden. Daher ...
-				try:
-					# Fieldcommand-Objekte enthalten ein Woerterbuch namens field, dessen Eintraege Informationen ueber Textformatierungen wie Farbe, Schriftschnitt, Schriftart usw. enthalten koennen, sofern nvda diese abrufen kann. Wenn nach einem Eintrag gesucht wird, den es nicht gibt, wird der Ausnahmefehler "keyerror" ausgeloest. In unserem Fall wird die Hintergrundfarbe (also der eintrag background-color ausgewertet.
-					# Der Eintrag background-color ist ein touple, dessen Werte die Rot-, Gruen- und Blauanteile der Hintergrundfarbe darstellen. Der Wertebereich umfasst die Werte 0 bis 255.
-					if (fields[i].field['background-color'][0] == 255 and fields[i].field['background-color'][1] == 255 and fields[i].field['background-color'][2] == 255):
-						# wurde ein passender Wert gefunden, den Index fuer die zugehoerige Zeile entsprechend setzen
-						focus = i+1;
-						# und die Schleife verlassen
-						break
-				# Tritt beim durchlauf ein Ausnahmefehler auf (z.B. wegen nicht existenter Formatierungsinformationen (siehe oben)
-				except:
-					# so wird dieser ignoriert
-					pass
-				# Zaehler weiterschalten
-				i = i + 2
-				# und den Schleifendurchlauf fortsetzen
-				continue
-			# den gefundenen Eintrag als Blitzmeldung ausgeben
-			ui.message(fields[focus])
-		# und die geerbte Ereignisbehandlungsroutine aufrufen, um die Bedienung des restlichen Programms nicht zu gefaehrden
-		nextHandler()
---- Ende ---
+
+class AppModule(appModuleHandler.AppModule):
+
+    def event_gainFocus(self, obj, nextHandler):
+        # wenn wir es mit einem Eintrag der Navigationsleiste zu tun haben
+        if obj.role == controlTypes.ROLE_UNKNOWN:
+            # die Navigationsleiste aufsuchen
+            navbar = obj.parent.parent.parent
+            # ein textinfo-Objekt mit dem gesamten Objektinhalt erzeugen
+            info = navbar.makeTextInfo(textInfos.POSITION_ALL)
+            # den Objektinhalt zeilenweise in Felder aufteilen
+            fields=info.getTextWithFields()
+            # in der Liste fields wechseln sich die einzelnen Zeilen der Navigationsleiste mit fieldcommand-Objekten ab, die Informationen ueber das jeweils folgende Objekt enthalten. fields[1] enthaelt beispielsweise Informationen ueber die Textzeile, die in fields[2] hinterlegt ist
+            # Anfangswerte entsprechend setzen
+            i=1
+            focus=2
+            # gesamte navigationsleiste durchlaufen
+            while i &lt;= len(fields):
+                # Da beim Durchlaufen der Liste Ausnahmefehler auftreten koennen, muessen diese abgefangen werden. Daher ...
+                try:
+                    # Fieldcommand-Objekte enthalten ein Woerterbuch namens field, dessen Eintraege Informationen ueber Textformatierungen wie Farbe, Schriftschnitt, Schriftart usw. enthalten koennen, sofern nvda diese abrufen kann. Wenn nach einem Eintrag gesucht wird, den es nicht gibt, wird der Ausnahmefehler "keyerror" ausgeloest. In unserem Fall wird die Hintergrundfarbe (also der eintrag background-color ausgewertet.
+                    # Der Eintrag background-color ist ein touple, dessen Werte die Rot-, Gruen- und Blauanteile der Hintergrundfarbe darstellen. Der Wertebereich umfasst die Werte 0 bis 255.
+                    if (fields[i].field['background-color'][0] == 255 and fields[i].field['background-color'][1] == 255 and fields[i].field['background-color'][2] == 255):
+                        # wurde ein passender Wert gefunden, den Index fuer die zugehoerige Zeile entsprechend setzen
+                        focus = i+1;
+                        # und die Schleife verlassen
+                        break
+                # Tritt beim durchlauf ein Ausnahmefehler auf (z.B. wegen nicht existenter Formatierungsinformationen (siehe oben)
+                except:
+                    # so wird dieser ignoriert
+                    pass
+                # Zaehler weiterschalten
+                i = i + 2
+                # und den Schleifendurchlauf fortsetzen
+                continue
+            # den gefundenen Eintrag als Blitzmeldung ausgeben
+            ui.message(fields[focus])
+        # und die geerbte Ereignisbehandlungsroutine aufrufen, um die Bedienung des restlichen Programms nicht zu gefaehrden
+        nextHandler()
 </PRE>
 
 <A NAME="toc28"></A>
@@ -986,30 +973,30 @@ Das folgende Beispiel zeigt, wie Sie die im Python-Modul "gui" mitgelieferte Fun
 </P>
 
 <PRE>
---- Beginn ---
 import globalPluginHandler
 import wx
 import config
 import gui
 import core
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-	__gestures = {
-		'kb:NVDA+Shift+R': 'resetconfig'
-	}
-	def script_resetconfig(self, gestures):
-		wx.CallAfter(self.resetconfig)
-	def resetconfig(self):
-		if gui.messageBox(caption='Konfiguration zurücksetzen', message='Möchten Sie wirklich die Konfiguration auf die Werkseinstellungen zurücksetzen und NVDA danach neu starten?', style=wx.YES|wx.NO)==wx.YES:
-			config.load(True)
-			core.restart()
---- Ende ---
+
+    __gestures = {
+        "kb:NVDA+Shift+R": "resetconfig"
+    }
+    def script_resetconfig(self, gestures):
+        wx.CallAfter(self.resetconfig)
+    def resetconfig(self):
+        if gui.messageBox(caption='Konfiguration zurücksetzen', message='Möchten Sie wirklich die Konfiguration auf die Werkseinstellungen zurücksetzen und NVDA danach neu starten?', style=wx.YES|wx.NO)==wx.YES:
+            config.load(True)
+            core.restart()
 </PRE>
 
 <A NAME="toc30"></A>
 <H4>3.20.1. Hinweise zur Funktion "wx.CallAfter"</H4>
 
 <UL>
-<LI>Problem: Technisch sind Eingabemethoden wie tastaturanschläge nichts anderes als Ereignisse, auf die innerhalb von NVDA mit Hilfe von Skripten reagiert wird. Es kann immer nur ein Ereignis zur selben Zeit abgearbeitet werden. Dies bedeutet, dass NVDA z.B. nicht auf Tastendrücke oder Braillezeilen-Aktionen reagieren kann, wenn ein an ein Ereignis gekoppeltes Skript stehen bleibt, weil es auf eine Benutzereingabe wartet. 
+<LI>Problem: Technisch sind Eingabemethoden wie tastaturanschläge nichts anderes als Ereignisse, auf die innerhalb von NVDA mit Hilfe von Skripten reagiert wird. Es kann immer nur ein Ereignis zur selben Zeit abgearbeitet werden. Dies bedeutet, dass NVDA z.B. nicht auf Tastendrücke oder Braillezeilen-Aktionen reagieren kann, wenn ein an ein Ereignis gekoppeltes Skript stehen bleibt, weil es auf eine Benutzereingabe wartet.
 <LI>Lösung: Mit Hilfe der in "wx" enthaltenen Funktion "CallAfter" kann (wie der Name verrät) Code ausgeführt werden, nachdem die Ereignisbehandlung abgearbeitet wurde. Die ausführung des mit CallAfter angegebenen codes wird gewissermaßen "vorgemerkt" und unmittelbar nach Abschluss der Ereignisbehandlungsroutine ausgeführt. Hierdurch ist es NVDA möglich, auf Braillezeilen-Navigationstasten zu reagieren, wenn der Anwender versucht, ein meldungsfenster auszulesen, das in ein Skript eingebunden war.
 </UL>
 
@@ -1021,7 +1008,7 @@ Die Funktion "CallAfter" akzeptiert den namen der "vorzumerkenden" Funktion und 
 <H2>4. Verpacken von Code als NVDA-Erweiterungen</H2>
 
 <P>
-Um das Verteilen und die Installation von Erweiterungen und Treibern zu erleichtern, können diese in einzelne Paketdateien verpackt werden, die dann mit Hilfe der Funktion "Erweiterungen verwalten" installiert werden können. Diese Funktion ist im Menü "Extras" zu finden. 
+Um das Verteilen und die Installation von Erweiterungen und Treibern zu erleichtern, können diese in einzelne Paketdateien verpackt werden, die dann mit Hilfe der Funktion "Erweiterungen verwalten" installiert werden können. Diese Funktion ist im Menü "Extras" zu finden.
 Erweiterungspakete werden nur von NVDA 2012.2 und neuer unterstützt.
 Ein Paket ist einfach eine Datei im Zip-Format mit der Erweiterung ".nvda-addon", die folgende Dateien und Verzeichnisse enthalten kann:
 </P>
@@ -1037,7 +1024,7 @@ Ein Paket ist einfach eine Datei im Zip-Format mit der Erweiterung ".nvda-addon"
 <H3>4.1. Nicht-ASCII-Dateinamen in Zip-Archiven</H3>
 
 <P>
-Wenn Ihr Archiv Dateien enthält, in deren Namen Zeichen vorkommen, die nicht zum Ascii-Zeichensatz gehören, muss das Archiv so erstellt werden, dass die Dateinamen utf-8-codiert werden. 
+Wenn Ihr Archiv Dateien enthält, in deren Namen Zeichen vorkommen, die nicht zum Ascii-Zeichensatz gehören, muss das Archiv so erstellt werden, dass die Dateinamen utf-8-codiert werden.
 Dies ermöglicht ein Entpacken des Archivs unabhängig davon, für welche Sprache das Zielsystem ausgelegt ist.
 Unglücklicherweise unterstützen viele Archivierungsprogramme (einschließlich Windows-Explorer) diese Methode nicht.
 Generell muss die UTF8-Kodierung von Dateinamen ausdrücklich aktiviert werden, auch wenn das Archivierungsprogramm dies von Hause aus unterstützt.
@@ -1074,14 +1061,12 @@ Anderenfalls wird das Paket nicht installiert.
 <H4>4.2.2. Beispiel für eine Manifest-Datei</H4>
 
 <PRE>
---- Beginn ---
 name = mentestpaket
 summary = Coole Erweiterung zum Testen
 version = 1.0
 description = Eine Beispielerweiterung die zeigt, wie Erweiterungen erstellt werden
 author = Michael Curran &lt;mick@kulgan.net&gt;
 url = http://www.nvda-project.org/wiki/Development
---- Ende ---
 </PRE>
 
 <A NAME="toc36"></A>
@@ -1223,7 +1208,7 @@ Diese Variablen sind:
 <H2>6. Die Remote-Python-Konsole</H2>
 
 <P>
-Für Situationen, in denen Fehler in NVDA über ein Netzwerk hinweg aus der Ferne korrigiert werden müssen, ist eine Remote-Python-Konsole verfügbar. 
+Für Situationen, in denen Fehler in NVDA über ein Netzwerk hinweg aus der Ferne korrigiert werden müssen, ist eine Remote-Python-Konsole verfügbar.
 Diese funktioniert ähnlich wie die weiter oben beschrieben <A HREF="#PythonConsole">lokale Python-Konsole</A>, der Zugriff erfolgt jedoch über TCP.
 </P>
 <P>
