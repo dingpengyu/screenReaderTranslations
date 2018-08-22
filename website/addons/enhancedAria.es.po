@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: add-ons website files\n"
 "POT-Creation-Date: 2018-08-22 18:34+1000\n"
-"PO-Revision-Date: 2018-08-16 15:39+0200\n"
+"PO-Revision-Date: 2018-08-22 10:41+0200\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: Spanish translation team <oprisniki@gmail.com>\n"
 "Language: es\n"
@@ -53,16 +53,12 @@ msgstr ""
 "Lee la Guía del Usuario de NVDA para más información."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The addon adds an extra landmark not included by default in NVDA, the "
-#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
 "article (abbreviated in Braille as art)."
 msgstr ""
 "El complemento añade un punto de referencia extra que no se incluye por "
-"defecto en NVDA, El artículo."
+"defecto en NVDA, El artículo (abreviado en Braille como art)."
 
 #. type: Title ##
 #, no-wrap
@@ -70,12 +66,6 @@ msgid "The configuration dialog"
 msgstr "El diálogo Configuración"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can enable or disable landmarks by going to NVDA, preferences, "
-#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
-#| "you disable a landmark, you won't be able to jump to it pressing the d "
-#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
 "Aria Settings or from the appropriate category in the NVDA options dialog. "
@@ -84,7 +74,8 @@ msgid ""
 "NVDA won't report it."
 msgstr ""
 "Puedes habilitar o deshabilitar puntos de referencia yendo a NVDA, "
-"preferencias, Opciones de Enhanced Aria. El diálogo tiene una casilla de "
+"preferencias, Ajustes de Aria mejorada o desde la categoría correspondiente "
+"del diálogo de opciones de NVDA. El diálogo tiene una casilla de "
 "verificación para cada punto de referencia. Si deshabilitas un punto de "
 "referencia, no podrás saltar a él pulsando la tecla d cuando navegues por "
 "una página web, y NVDA no lo anunciará."
@@ -110,16 +101,17 @@ msgid "Changelog"
 msgstr "Registro de cambios"
 
 #. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Version 2.1"
+#, no-wrap
 msgid "Version 2.2"
-msgstr "Versión 2.1"
+msgstr "Versión 2.2"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a fatal error when a Braille display was used and the article role was "
 "configured to be reported."
 msgstr ""
+"Se ha solucionado un error fatal que se producía al usar una pantalla "
+"Braille si la verbalización de artículos estaba activada."
 
 #. type: Title ###
 #, no-wrap
