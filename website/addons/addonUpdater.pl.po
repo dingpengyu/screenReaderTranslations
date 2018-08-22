@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-06 04:01+1000\n"
-"PO-Revision-Date: 2018-08-02 11:58+0200\n"
+"PO-Revision-Date: 2018-08-22 21:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
@@ -26,16 +26,17 @@ msgid "Author: Joseph Lee"
 msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [stable version][1]"
 msgid "Download [prototype version][1]"
-msgstr "Pobierz [wersja stabilna][1]"
+msgstr "Pobierz [wersja eksperymentalna][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 3208 to life: ability to check for, "
 "download, and apply add-on updates."
 msgstr ""
+"Ten dodatek powstał w odpowiedzi na problem głównej dystrybucji NVDA, o "
+"numerze 3208. Dodaje możliwość sprawdzenia, pobrania i zastosowania "
+"aktualizacji dodatków."
 
 #. type: Plain text
 msgid ""
@@ -45,70 +46,83 @@ msgid ""
 "and the new version. Select Update, and NVDA will download and apply updates "
 "in sequence, with a prompt to restart your NVDA shown afterwards."
 msgstr ""
+"Aby sprawdzić dostępne aktualizacje po zainstalowaniu tego dodatku, przejdź "
+"do menu NVDA/Narzędzia/Sprawdź aktualizacje dodatków. Jeśli jakieś "
+"aktualizacje będą dostępne, pojawią się w formie listy. Każda pozycja na "
+"liście jest opatrzona opisem zawierającym obecnie używaną wersję, i nową "
+"wersję. Po wybraniu Aktualizuj, NVDA pobierze i kolejno zastosuje "
+"aktualizacje , po czym wyświetli dialog restartu."
 
 #. type: Plain text
 msgid ""
 "The following add-ons provide built-in update feature and thus updates will "
 "not be checked via this add-on:"
 msgstr ""
+"Następujące dodatki posiadają wbudowaną funkcję aktualizacji, dlatego ich "
+"aktualizacje nie będą sprawdzane za pomocą Add-on Updater."
 
 #. type: Bullet: '* '
 msgid "Braille Extender"
-msgstr ""
+msgstr "Braille Extender"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
-msgstr ""
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "WeatherPlus"
-msgstr ""
+msgstr "WeatherPlus"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
-msgstr ""
+msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
+"Uwaga! Jest to dodatek eksperymentalny. Gdy [odpowiadająca mu funkcja "
+"zostanie dodana do NVDA][2], ten dodatek nie będzie już rozwijany.."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.1"
+#, no-wrap
 msgid "Version 18.08.5"
-msgstr "Wersja 18.08.1"
+msgstr "Wersja 18.08.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where Add-on Updater settings panel failed to show if one or "
 "more add-ons had badly formatted manifest data."
 msgstr ""
+"Naprawiono problem, przez który panel ustawień Add-on Updater nie pojawiał "
+"się, gdy jeden lub więcej dodatków miało źle sformatowane pliki manifest."
 
 #. type: Bullet: '* '
 msgid ""
 "Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
 "for updates."
 msgstr ""
+"Dodatki z rodziny Nuance Vocalizer zostały dodane do tych, których "
+"aktualizacje nie będą sprawdzane za pomocą Add-on Updater."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.1"
+#, no-wrap
 msgid "Version 18.08.4"
-msgstr "Wersja 18.08.1"
+msgstr "Wersja 18.08.4"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
 "progress beep when trying to check for add-on updates."
 msgstr ""
+"Naprawiono problem z wersji 18.08.3, gdzie NVDA ciągle odtwarzała dźwięk "
+"postępu podczas sprawdzania aktualizacji dodatków."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08.1"
+#, no-wrap
 msgid "Version 18.08.3"
-msgstr "Wersja 18.08.1"
+msgstr "Wersja 18.08.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -116,6 +130,9 @@ msgid ""
 "box found in Add-on Updater settings panel. Checked items will not be "
 "updated."
 msgstr ""
+"Dodano możliwość wyłączania dodatków z listy aktualizowanych poprzez nową "
+"listę z polami wyboru, która znajduje się w panelu ustawień Add-on Updater. "
+"Zaznaczone dodatki nie będą aktualizowane."
 
 #. type: Title ##
 #, no-wrap
@@ -142,10 +159,9 @@ msgid "Initial version."
 msgstr "Wersja pierwotna."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev stable]]\n"
+#, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
@@ -153,4 +169,4 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
