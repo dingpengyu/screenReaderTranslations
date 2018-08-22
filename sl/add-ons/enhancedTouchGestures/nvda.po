@@ -3,42 +3,42 @@
 # This file is distributed under the same license as the enhancedTouchGestures package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: enhancedTouchGestures 17.12\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-12-15 06:10+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-08-17 23:43+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: Reported when the object has no location for the mouse to move to it.
 msgid "object has no location"
-msgstr ""
+msgstr "predmet nima lokacije"
 
 #. Translators: This is the label for the touch interaction settings dialog.
 #. Add-on summary, usually the user visible name of the addon.
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Enhanced Touch Gestures"
-msgstr ""
+msgstr "Napredne Dotikabilne Kretnje"
 
 #. Translators: This is the label for a checkbox in the
 #. Enhanced Touch Gestures settings panel.
 msgid "Completely disable touch interaction support"
-msgstr ""
+msgstr "Popolnoma onemogoči podporo interakciji z dotikom"
 
 #. Translators: The label for a setting in Enhanced Touch Gestures settings panel to allow users to interact directly with touchscreens for specified duration in seconds.
 msgid "&Pause NVDA's touch support (duration in seconds)"
-msgstr ""
+msgstr "&Premor dotikabilne podpore v NVDA (dolžina v sekundah)"
 
 #. Translators: a checkbox to allow passthrough to be toggled manually.
 msgid "&Manually toggle touch passthrough"
-msgstr ""
+msgstr "&Ročno preklopi prezrtje dotika"
 
 msgid ""
 "You are about to turn off touch interaction support completely so the "
@@ -47,9 +47,15 @@ msgid ""
 "Settings and uncheck 'disable touch interaction support' checkbox. Are you "
 "sure you wish to completely disable touch interaction support?"
 msgstr ""
+"Ste pred tem, da popolnoma izključite podporo interakciji z dotikom tako, da "
+"bi se zaslon na dotik lahko uporabljal kot, da NVDA ne bi tekla. Za "
+"omogočitev podpore za dotik, se boste morali vrniti na ploščo Naprednih "
+"Dotikabilnih Kretenj v NVDA Nastavitvah in odznačiti izbirnik 'onemogoči "
+"podporo interakciji z dotikom'. Ste prepričani, da želite popolnoma "
+"onemogočiti podporo interakciji z dotikom?"
 
 msgid "Disable touch interaction support"
-msgstr ""
+msgstr "Onemogoči podporo interakciji z dotikom"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -59,3 +65,7 @@ msgid ""
 "\tRequires a touch-enabled computer with Windows 8.1 or later with NVDA "
 "2017.4 or later installed."
 msgstr ""
+"Skupek dodatnih dotikabilnih ukazov, vključno z ukazi za krmiljenje in "
+"pomoč.\n"
+"\tPotreben je računalnik z omogočeno interakcijo z dotiki z Windows 8.1 ali "
+"kasnejšimi z NVDA 2017.4 ali kasnejšo nameščeno."
