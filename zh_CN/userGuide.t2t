@@ -139,9 +139,9 @@ NVDA 受到《GNU 通用公共许可证条款(第二版)》的保护。
 您也可以在“开始菜单” 中的“运行”对话框中输入 NVDA，然后再按回车启动 NVDA。 
 您也可以使用一些[命令行选项 #CommandLineOptions]，他们允许您重启 NVDA(-r)、退出(-q)、停用插件(--disable-addons)等。
 
-NVDA安装版的配置再漫游应用程序配置文件夹 (比如 "C:\Users\<用户名>\AppData\Roaming").
-It is possible to change this in a way that NVDA loads its configuration from the local application data folder instead.
-请查看[系统级别配置#SystemWideParameters] ，了解更多信息。
+NVDA安装版的配置在“漫游”应用程序配置文件夹 (比如 "C:\Users\<用户名>\AppData\Roaming")。
+可以更改注册表把安装版的配置存放在“本地”应用程序配置文件夹(比如 "C:\Users\<用户名>\AppData\Local")。
+请查看[系统层面的配置#SystemWideParameters]这一节，了解更多信息。
 
 如果想启动便携版本的NVDA，您可以找到您的便携版本所在的文件夹，按“回车键”选择或双击 nvda.exe 即可。
 
@@ -166,7 +166,8 @@ It is possible to change this in a way that NVDA loads its configuration from th
 大多数 NVDA 键盘命令都是由一个被称之为 NVDA 组合键的特殊按键和另外的一个或者多个其他的按键组成。
  需要注意的是， NVDA 的台式机键盘方案中，进行文本浏览仅需使用小键盘的数字按键，但也有一些例外。
 
- NVDA 可设置使用数字键盘插入键(numpad0)、主键盘上的插入键(Insert)和或大小写锁定键(CapsLock)作为 NVDA 组合键。 
+ 
+根据配置， NVDA 可使用数字键盘插入键(numpad0)、主键盘上的插入键(Insert)和或大小写锁定键(CapsLock)作为 NVDA 组合键。 
 默认状态下，将主键盘上的插入键及数字键盘上的0设为 NVDA 组合键。
 
 假如你想在未运行 NVDA 时执行该按键的其中一个原有动作(举例来说，如果你已设置大小写锁定键作为 NVDA 键，但又要用它来转换大写锁定状态)，你可以快速连按此键两次。 
@@ -2720,11 +2721,11 @@ Please see the [BRLTTY key binding lists http://mielke.cc/brltty/doc/KeyBindings
 ++ 命令行选项 ++[CommandLineOptions]
 在 NVDA启动时，它可以接收一个或多个附加选项以改变它启动时的行为。
 选项数量不限。
-这些选项可以使用快捷方式(快捷方式属性)、运行对话框(开始菜单 -> 运行 或 Windows+r)或一个 Windows 命令控制台启动时传递。
-NVDA 可执行文件、选项及另外的选项之间需要用空格分开。
+这些选项可以通过快捷方式(快捷方式属性)、运行对话框(开始菜单 -> 运行 或 Windows+r)或一个 Windows 命令控制台启动时传给NVDA主程序。
+NVDA主程序文件名和选项之间以及每个选项之间需要用空格分开。
 如 在NVDA 安装时创建的快捷方式就有 -r 选项，告诉 NVDA 在启动新的 NVDA 前关闭当前运行的副本。
- 另外的实用选项还有 --disable-addons，它告诉 NVDA 暂停所有运行中的插件。
-这允许您判断遇到的问题是否由插件造成或从由插件造成的严重问题中恢复。
+另一个实用的选项是 --disable-addons，它告诉 NVDA 启动时不加载插件。
+用这个选项可以判断遇到的问题是否由插件造成，也可以用于从插件造成的严重问题中恢复。
 
 这里有一个例子，您可以在“运行”对话框键入下面的代码退出当前运行的 NVDA 副本：
 
@@ -2753,15 +2754,27 @@ nvda -q
 | -m | --minimal | 无声、无界面、无启动通知等。 |
 | -s | --secure | 安全模式 (禁用 Python 控制台)。 |
 | None | --disable-addons | 使插件无效。 |
+| None | --debug-logging | 开启调试日志 覆盖之前的日志等级设置( ""--loglevel"", -l) argument given. |
 | None | --no-sr-flag  | 不修改全局系统屏幕阅读器的标志。 |
 | None | --install | 安装 NVDA(启动最新安装的副本)。 |
 | None | --install-silent | 静默安装 NVDA(不启动最新安装的副本)。 |
-++ 整个系统所有用户都生效的配置 ++[SystemWideParameters]
-NVDA允许某些配置对整个系统的所有用户生效
+| None | --create-portable |创建一个便携版 (并且启动这个便携版). 必须和 --portable-path 一起用 |
+| None | --create-portable-silent | 创建一个便携版 (不启动这个便携版). 必须和 --portable-path 一起用 |
+| None | --portable-path=PORTABLEPATH | 创建便携版的目录 |
+
+++ 系统层面的配置 ++[SystemWideParameters]
+某些NVDA配置对整个系统的所有用户生效
 配置信息保存在注册表的这些键值内:
 - 32位系统: "HKEY_LOCAL_MACHINE\SOFTWARE\nvda"
 - 64位系统: "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\nvda"
-+ 更多信息 +
+-
+
+注册表接受下面这些配置:
+|| 名称 | 类型 | 数值 | 描述 |
+| configInLocalAppData | DWORD | 设为0 表示关闭此选项,设为 1 表示启用此选项 默认值为0 | 启用这个选项会让NVDA把配置保存到“本地”应用程序配置文件夹(比如 "C:\Users\<用户名>\AppData\Local") |
+| serviceDebug | DWORD | 设为0 表示关闭此选项,设为 1 表示启用此选项 默认值为0 | 启用这个选项，会让NVDA在Windows安全桌面下关闭安全模式，这意味着可以在安全桌面启用Python控制台和日志查看器。这会带来严重的安全隐患，不建议启用。 |
+
++ 更多信息 +[FurtherInformation]
  如果您希望获得更多信息或关于 NVDA 的帮助，可通过 NVDA_URL 访问 NVDA 官方网站。
-在这里，您可以找到附加文档、技术支持及社区资源。
-这个网站还提供了 NVDA 开发的信息和资源。
+在这里，您可以找到更多的文档、技术支持及社区资源。
+这个网站还提供了 NVDA 开发的相关信息。
