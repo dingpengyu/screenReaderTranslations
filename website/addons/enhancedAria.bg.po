@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-22 18:34+1000\n"
-"PO-Revision-Date: 2018-08-16 18:19+0300\n"
+"PO-Revision-Date: 2018-08-22 12:26+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -53,16 +53,13 @@ msgstr ""
 "браузъри. Прочетете потребителското ръководство на NVDA за повече информация."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The addon adds an extra landmark not included by default in NVDA, the "
-#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
 "article (abbreviated in Braille as art)."
 msgstr ""
 "Добавката добавя един допълнителен маркер, който не е включен по "
-"подразбиране в NVDA – този за статия (article)."
+"подразбиране в NVDA – този за статия (article), съкратено изписван на брайл "
+"като art (стт)."
 
 #. type: Title ##
 #, no-wrap
@@ -70,12 +67,6 @@ msgid "The configuration dialog"
 msgstr "Диалоговият прозорец за конфигуриране"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can enable or disable landmarks by going to NVDA, preferences, "
-#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
-#| "you disable a landmark, you won't be able to jump to it pressing the d "
-#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
 "Aria Settings or from the appropriate category in the NVDA options dialog. "
@@ -84,10 +75,11 @@ msgid ""
 "NVDA won't report it."
 msgstr ""
 "Можете да разрешите или забраните маркери, като отидете в менюто на NVDA -> "
-"Настройки -> Настройки на Разширена ARIA. В диалоговият прозорец има отделна "
-"отметка за всеки маркер. Ако забраните даден маркер, няма да можете да "
-"навигирате до него при натискане на клавиша D, когато посещавате дадена уеб "
-"страница и NVDA няма да го съобщава."
+"Настройки -> Настройки на Разширена ARIA или в съответния раздел в прозореца "
+"с настройките на NVDA. В диалоговият прозорец има отделна отметка за всеки "
+"маркер. Ако забраните даден маркер, няма да можете да навигирате до него при "
+"натискане на клавиша D, когато посещавате дадена уеб страница и NVDA няма да "
+"го съобщава."
 
 #. type: Title ##
 #, no-wrap
@@ -110,16 +102,18 @@ msgid "Changelog"
 msgstr "Списък на промените"
 
 #. type: Title ###
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 2.1"
 msgid "Version 2.2"
-msgstr "Версия 2.1"
+msgstr "Версия 2.2"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a fatal error when a Braille display was used and the article role was "
 "configured to be reported."
 msgstr ""
+"Отстранена е критична грешка при ползване на брайлов дисплей и конфигурирано "
+"докладването на ролята за статия."
 
 #. type: Title ###
 #, no-wrap
