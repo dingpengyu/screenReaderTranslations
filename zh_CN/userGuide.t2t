@@ -139,9 +139,9 @@ NVDA 受到《GNU 通用公共许可证条款(第二版)》的保护。
 您也可以在“开始菜单” 中的“运行”对话框中输入 NVDA，然后再按回车启动 NVDA。 
 您也可以使用一些[命令行选项 #CommandLineOptions]，他们允许您重启 NVDA(-r)、退出(-q)、停用插件(--disable-addons)等。
 
-NVDA 安装版configuration in the roaming application data folder of the current user by default (e.g. "C:\Users\<user>\AppData\Roaming").
+NVDA安装版的配置再漫游应用程序配置文件夹 (比如 "C:\Users\<用户名>\AppData\Roaming").
 It is possible to change this in a way that NVDA loads its configuration from the local application data folder instead.
-Consult the section about [system wide parameters #SystemWideParameters] for more details.
+请查看[系统级别配置#SystemWideParameters] ，了解更多信息。
 
 如果想启动便携版本的NVDA，您可以找到您的便携版本所在的文件夹，按“回车键”选择或双击 nvda.exe 即可。
 
@@ -2473,7 +2473,11 @@ nvda -q
 | None | --no-sr-flag  | 不修改全局系统屏幕阅读器的标志。 |
 | None | --install | 安装 NVDA(启动最新安装的副本)。 |
 | None | --install-silent | 静默安装 NVDA(不启动最新安装的副本)。 |
-
+++ 整个系统所有用户都生效的配置 ++[SystemWideParameters]
+NVDA允许某些配置对整个系统的所有用户生效
+配置信息保存在注册表的这些键值内:
+- 32-bit system: "HKEY_LOCAL_MACHINE\SOFTWARE\nvda"
+- 64-bit system: "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\nvda"
 + 更多信息 +
  如果您希望获得更多信息或关于 NVDA 的帮助，可通过 NVDA_URL 访问 NVDA 官方网站。
 在这里，您可以找到附加文档、技术支持及社区资源。
