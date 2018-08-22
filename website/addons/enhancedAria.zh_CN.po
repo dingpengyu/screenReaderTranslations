@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-16 23:36+1000\n"
+"POT-Creation-Date: 2018-08-22 18:34+1000\n"
 "PO-Revision-Date: 2018-06-13 23:19+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -48,9 +48,13 @@ msgstr ""
 "转，并在所有浏览器中按NVDA + f7列出它们。请阅读NVDA用户指南了解更多信息。"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The addon adds an extra landmark not included by default in NVDA, the "
+#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
-"article."
+"article (abbreviated in Braille as art)."
 msgstr "该插件增加了一个额外的地标，在NVDA文章中默认不包括在内。"
 
 #. type: Title ##
@@ -59,11 +63,18 @@ msgid "The configuration dialog"
 msgstr "配置"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "You can enable or disable landmarks by going to NVDA, preferences, "
+#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
+#| "you disable a landmark, you won't be able to jump to it pressing the d "
+#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
-"Aria Settings. The dialog has a checkbox for each landmark. If you disable a "
-"landmark, you won't be able to jump to it pressing the d key when browsing a "
-"webpage, and NVDA won't report it."
+"Aria Settings or from the appropriate category in the NVDA options dialog. "
+"The dialog has a checkbox for each landmark. If you disable a landmark, you "
+"won't be able to jump to it pressing the d key when browsing a webpage, and "
+"NVDA won't report it."
 msgstr ""
 "您可以通过转到NVDA，偏好设置，增强型aria设置来启用或禁用地标。该对话框每个地"
 "标都有一个复选框。如果您禁用某个地标，浏览网页时将无法按d键跳转到该地标，NVDA"
@@ -93,6 +104,18 @@ msgstr ""
 #, no-wrap
 msgid "Changelog"
 msgstr "更新日志"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 2.0"
+msgid "Version 2.2"
+msgstr "版本2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a fatal error when a Braille display was used and the article role was "
+"configured to be reported."
+msgstr ""
 
 #. type: Title ###
 #, fuzzy, no-wrap

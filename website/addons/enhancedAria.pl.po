@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-08-16 23:36+1000\n"
+"POT-Creation-Date: 2018-08-22 18:34+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
-"article."
+"article (abbreviated in Braille as art)."
 msgstr ""
 
 #. type: Title ##
@@ -58,9 +58,10 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
-"Aria Settings. The dialog has a checkbox for each landmark. If you disable a "
-"landmark, you won't be able to jump to it pressing the d key when browsing a "
-"webpage, and NVDA won't report it."
+"Aria Settings or from the appropriate category in the NVDA options dialog. "
+"The dialog has a checkbox for each landmark. If you disable a landmark, you "
+"won't be able to jump to it pressing the d key when browsing a webpage, and "
+"NVDA won't report it."
 msgstr ""
 
 #. type: Title ##
@@ -78,6 +79,17 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changelog"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a fatal error when a Braille display was used and the article role was "
+"configured to be reported."
 msgstr ""
 
 #. type: Title ###

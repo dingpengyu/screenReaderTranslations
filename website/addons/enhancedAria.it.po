@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-16 23:36+1000\n"
+"POT-Creation-Date: 2018-08-22 18:34+1000\n"
 "PO-Revision-Date: 2018-06-19 14:51+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: \n"
@@ -53,9 +53,13 @@ msgstr ""
 "NVDA consultare la documentazione."
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The addon adds an extra landmark not included by default in NVDA, the "
+#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
-"article."
+"article (abbreviated in Braille as art)."
 msgstr ""
 "Il componente aggiunge anche un nuovo tipo di punto di riferimento, chiamato "
 "\"Articolo\"."
@@ -66,11 +70,18 @@ msgid "The configuration dialog"
 msgstr "La finestra di configurazione"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "You can enable or disable landmarks by going to NVDA, preferences, "
+#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
+#| "you disable a landmark, you won't be able to jump to it pressing the d "
+#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
-"Aria Settings. The dialog has a checkbox for each landmark. If you disable a "
-"landmark, you won't be able to jump to it pressing the d key when browsing a "
-"webpage, and NVDA won't report it."
+"Aria Settings or from the appropriate category in the NVDA options dialog. "
+"The dialog has a checkbox for each landmark. If you disable a landmark, you "
+"won't be able to jump to it pressing the d key when browsing a webpage, and "
+"NVDA won't report it."
 msgstr ""
 "Puoi attivare o disattivare i punti di riferimento andando nel menu di NVDA, "
 "preferenze, Enhanced Aria Settings. Nella finestra esiste una casella di "
@@ -102,6 +113,18 @@ msgstr ""
 #, no-wrap
 msgid "Changelog"
 msgstr "Cambiamenti"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 2.0"
+msgid "Version 2.2"
+msgstr "Versione 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a fatal error when a Braille display was used and the article role was "
+"configured to be reported."
+msgstr ""
 
 #. type: Title ###
 #, fuzzy, no-wrap

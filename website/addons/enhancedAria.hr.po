@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-16 23:36+1000\n"
+"POT-Creation-Date: 2018-08-22 18:34+1000\n"
 "PO-Revision-Date: 2018-05-28 12:11+0100\n"
 "Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,9 +52,13 @@ msgstr ""
 "skočite do njih komandom NVDA+F7 u svim pretraživačima."
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The addon adds an extra landmark not included by default in NVDA, the "
+#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
-"article."
+"article (abbreviated in Braille as art)."
 msgstr ""
 "Dodatak dodaje novi orijentir koji nije po zadanom uključen u NVDA, a to je "
 "članak."
@@ -65,11 +69,18 @@ msgid "The configuration dialog"
 msgstr "Dijaloški okvir konfiguracije "
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "You can enable or disable landmarks by going to NVDA, preferences, "
+#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
+#| "you disable a landmark, you won't be able to jump to it pressing the d "
+#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
-"Aria Settings. The dialog has a checkbox for each landmark. If you disable a "
-"landmark, you won't be able to jump to it pressing the d key when browsing a "
-"webpage, and NVDA won't report it."
+"Aria Settings or from the appropriate category in the NVDA options dialog. "
+"The dialog has a checkbox for each landmark. If you disable a landmark, you "
+"won't be able to jump to it pressing the d key when browsing a webpage, and "
+"NVDA won't report it."
 msgstr ""
 "Možete onemogućiti i omogućiti orijentire iz NVDA menija, postavke, Enhanced "
 "Aria postavke."
@@ -98,6 +109,18 @@ msgstr ""
 #, no-wrap
 msgid "Changelog"
 msgstr "Promjene"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.2"
+msgid "Version 2.2"
+msgstr "Inačica 1.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a fatal error when a Braille display was used and the article role was "
+"configured to be reported."
+msgstr ""
 
 #. type: Title ###
 #, fuzzy, no-wrap
