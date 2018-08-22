@@ -158,28 +158,34 @@
     </UL>
   <LI><A HREF="#SupportedBrailleDisplays">14. Supported Braille Displays</A>
     <UL>
-    <LI><A HREF="#toc103">14.1. Freedom Scientific Focus/PAC Mate Series</A>
-    <LI><A HREF="#toc104">14.2. Optelec ALVA BC640/680</A>
-    <LI><A HREF="#toc105">14.3. Handy Tech Displays</A>
-    <LI><A HREF="#toc106">14.4. MDV Lilli</A>
-    <LI><A HREF="#toc107">14.5. Baum/Humanware/APH/Orbit Braille Displays</A>
-    <LI><A HREF="#toc108">14.6. hedo ProfiLine USB</A>
-    <LI><A HREF="#toc109">14.7. hedo MobilLine USB</A>
-    <LI><A HREF="#toc110">14.8. HumanWare Brailliant BI/B Series</A>
-    <LI><A HREF="#toc111">14.9. HIMS Braille Sense/Braille EDGE/Smart Beetle Series</A>
-    <LI><A HREF="#toc112">14.10. HIMS SyncBraille</A>
-    <LI><A HREF="#toc113">14.11. Seika Braille Displays</A>
-    <LI><A HREF="#toc114">14.12. Papenmeier BRAILLEX Newer Models</A>
-    <LI><A HREF="#toc115">14.13. Papenmeier Braille BRAILLEX Older Models</A>
-    <LI><A HREF="#toc116">14.14. HumanWare BrailleNote</A>
-    <LI><A HREF="#toc117">14.15. EcoBraille</A>
-    <LI><A HREF="#toc118">14.16. BRLTTY</A>
+    <LI><A HREF="#AutomaticDetection">14.1. Displays supporting automatic detection in the background</A>
+    <LI><A HREF="#FreedomScientificFocus">14.2. Freedom Scientific Focus/PAC Mate Series</A>
+    <LI><A HREF="#OptelecALVA">14.3. Optelec ALVA 6 series/protocol converter</A>
+    <LI><A HREF="#HandyTech">14.4. Handy Tech Displays</A>
+    <LI><A HREF="#MDVLilli">14.5. MDV Lilli</A>
+    <LI><A HREF="#Baum">14.6. Baum/Humanware/APH/Orbit Braille Displays</A>
+    <LI><A HREF="#HedoProfiLine">14.7. hedo ProfiLine USB</A>
+    <LI><A HREF="#HedoMobilLine">14.8. hedo MobilLine USB</A>
+    <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare Brailliant BI/B Series / BrailleNote Touch</A>
+      <UL>
+      <LI><A HREF="#toc112">14.9.1. Key assignments for All models</A>
+      <LI><A HREF="#toc113">14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</A>
+      <LI><A HREF="#toc114">14.9.3. Key assignments for Brailliant BI 14</A>
+      </UL>
+    <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
+    <LI><A HREF="#Seika">14.11. Seika Braille Displays</A>
+    <LI><A HREF="#Papenmeier">14.12. Papenmeier BRAILLEX Newer Models</A>
+    <LI><A HREF="#PapenmeierOld">14.13. Papenmeier Braille BRAILLEX Older Models</A>
+    <LI><A HREF="#HumanWareBrailleNote">14.14. HumanWare BrailleNote</A>
+    <LI><A HREF="#EcoBraille">14.15. EcoBraille</A>
+    <LI><A HREF="#SuperBraille">14.16. SuperBraille</A>
+    <LI><A HREF="#Eurobraille">14.17. Eurobraille Esys/Esytime/Iris displays</A>
+    <LI><A HREF="#BRLTTY">14.18. BRLTTY</A>
     </UL>
-  <LI><A HREF="#toc119">15. Braille control type and state abbreviations</A>
-  <LI><A HREF="#toc120">16. 高级主题</A>
+  <LI><A HREF="#AdvancedTopics">15. 进阶内容</A>
     <UL>
-    <LI><A HREF="#CommandLineOptions">16.1. 命令行选项</A>
-    <LI><A HREF="#SystemWideParameters">16.2. 整个系统所有用户都生效的配置</A>
+    <LI><A HREF="#CommandLineOptions">15.1. 命令行选项</A>
+    <LI><A HREF="#SystemWideParameters">15.2. 整个系统所有用户都生效的配置</A>
     </UL>
   </UL>
 
@@ -3576,8 +3582,31 @@ Nuance Vocalizer 是一个由 Nuance Communications, Inc. 开发、并由 Tiflot
 This section contains information about the Braille displays supported by NVDA.
 </P>
 
-<A NAME="toc103"></A>
-<H3>14.1. Freedom Scientific Focus/PAC Mate Series</H3>
+<A NAME="AutomaticDetection"></A>
+<H3>14.1. Displays supporting automatic detection in the background</H3>
+
+<P>
+NVDA has the ability to detect many braille displays in the background automatically, either via USB or bluetooth.
+This behavior is achieved by selecting the Automatic option as the preferred braille display from NVDA's <A HREF="#BrailleSettings">Braille Settings dialog</A>.
+This option is selected by default.
+</P>
+<P>
+The following displays support this automatic detection functionality.
+</P>
+
+<UL>
+<LI>Handy Tech displays
+<LI>Baum/Humanware/APH/Orbit braille displays
+<LI>HumanWare Brailliant BI/B series
+<LI>HumanWare BrailleNote
+<LI>SuperBraille
+<LI>Optelec ALVA 6 series
+<LI>HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series
+<LI>Eurobraille Esys/Esytime/Iris displays
+</UL>
+
+<A NAME="FreedomScientificFocus"></A>
+<H3>14.2. Freedom Scientific Focus/PAC Mate Series</H3>
 
 <P>
 All Focus and PAC Mate displays from <A HREF="http://www.freedomscientific.com/">Freedom Scientific</A> are supported when connected via USB or bluetooth.
@@ -3592,6 +3621,9 @@ However, when configuring the display, you can explicitly select "USB" or "Bluet
 This might be useful if you want to connect the focus display to NVDA using bluetooth, but still be able to charge it using USB power from your computer.
 </P>
 <P>
+These displays do not yet support NVDA's automatic background braille display detection functionality.
+</P>
+<P>
 Following are the key assignments for this display with NVDA.
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
@@ -3600,137 +3632,6 @@ Please see the display's documentation for descriptions of where these keys can 
 <TR>
 <TH>Name</TH>
 <TH>Key</TH>
-</TR>
-<TR>
-<TD>Scroll braille display back</TD>
-<TD>-{t1 or}- +{t1,}+ etouch1</TD>
-</TR>
-<TR>
-<TD>Move braille display to previous line</TD>
-<TD>t2</TD>
-</TR>
-<TR>
-<TD>Move to current focus</TD>
-<TD>t3</TD>
-</TR>
-<TR>
-<TD>Move braille display to next line</TD>
-<TD>t4</TD>
-</TR>
-</TABLE>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TD>Scroll braille display forward</TD>
-<TD>-{t5 or}- +{t5,}+ etouch3</TD>
-</TR>
-<TR>
-<TD>Route to braille cell</TD>
-<TD>routing</TD>
-</TR>
-<TR>
-<TD>Report text formatting under braille cell</TD>
-<TD>secondary routing</TD>
-</TR>
-<TR>
-<TD>Toggle HID keyboard simulation</TD>
-<TD>t1+spEnter</TD>
-</TR>
-</TABLE>
-
-<P>
-@@ -2006,14 +2006,14 @@ Please see the display's documentation for descriptions of where these keys can
-</P>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TD>Report title</TD>
-<TD>etouch2</TD>
-</TR>
-<TR>
-<TD>Report status bar</TD>
-<TD>etouch4</TD>
-</TR>
-<TR>
-<TD>shift+tab key</TD>
-<TD>sp1</TD>
-</TR>
-</TABLE>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TD>alt key</TD>
-<TD>-{sp2}- +{sp2, alt}+</TD>
-</TR>
-<TR>
-<TD>escape key</TD>
-<TD>sp3</TD>
-</TR>
-<TR>
-<TD>tab key</TD>
-<TD>sp4</TD>
-</TR>
-<TR>
-<TD>upArrow key</TD>
-<TD>spUp</TD>
-</TR>
-<TR>
-<TD>downArrow key</TD>
-<TD>spDown</TD>
-</TR>
-<TR>
-<TD>leftArrow key</TD>
-<TD>spLeft</TD>
-</TR>
-<TR>
-<TD>rightArrow key</TD>
-<TD>spRight</TD>
-</TR>
-</TABLE>
-
-<TABLE CELLPADDING="4">
-<TR>
-<TD>enter key</TD>
-<TD>spEnter, -{enter|}- +{enter |}+</TD>
-</TR>
-<TR>
-<TD>Report date/time</TD>
-<TD>sp2+sp3</TD>
-</TR>
-<TR>
-<TD>NVDA Menu</TD>
-<TD>sp1+sp3</TD>
-</TR>
-<TR>
-<TD>windows+d key (minimize all applications)</TD>
-<TD>sp1+sp4</TD>
-</TR>
-</TABLE>
-
-<P>
-@@ -2024,7 +2024,6 @@ Please see the display's documentation for descriptions of where these keys can
-</P>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TD>control+end key</TD>
-<TD>t3+spDown</TD>
-</TR>
-<TR>
-<TD>home key</TD>
-<TD>t3+spLeft</TD>
-</TR>
-<TR>
-<TD>end key</TD>
-<TD>t3+spRight -{|</TD>
-</TR>
-<TR>
-<TD>alt key</TD>
-<TD>alt}-</TD>
-</TR>
-<TR>
-<TD>control key</TD>
-<TD>control</TD>
 </TR>
 <TR>
 <TD>Scroll braille display back</TD>
@@ -3779,14 +3680,6 @@ Please see the display's documentation for descriptions of where these keys can 
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
-</TR>
-<TR>
-<TD>backspace key</TD>
-<TD>dot7</TD>
-</TR>
-<TR>
-<TD>enter key</TD>
-<TD>dot8</TD>
 </TR>
 <TR>
 <TD>shift+tab key</TD>
@@ -3845,11 +3738,19 @@ Please see the display's documentation for descriptions of where these keys can 
 <TD>brailleSpaceBar+dot2+dot3+dot4+dot5</TD>
 </TR>
 <TR>
+<TD>alt+shift+tab key</TD>
+<TD>brailleSpaceBar+dot1+dot2+dot5+dot6</TD>
+</TR>
+<TR>
+<TD>windows+tab key</TD>
+<TD>brailleSpaceBar+dot2+dot3+dot4</TD>
+</TR>
+<TR>
 <TD>escape key</TD>
 <TD>brailleSpaceBar+dot1+dot5</TD>
 </TR>
 <TR>
-<TD>Windows key</TD>
+<TD>windows key</TD>
 <TD>brailleSpaceBar+dot2+dot4+dot5+dot6</TD>
 </TR>
 <TR>
@@ -3857,7 +3758,7 @@ Please see the display's documentation for descriptions of where these keys can 
 <TD>brailleSpaceBar</TD>
 </TR>
 <TR>
-<TD>Windows+d key (minimize all applications)</TD>
+<TD>windows+d key (minimize all applications)</TD>
 <TD>brailleSpaceBar+dot1+dot2+dot3+dot4+dot5+dot6</TD>
 </TR>
 <TR>
@@ -3908,20 +3809,26 @@ For Focus 80 only:
 </TR>
 </TABLE>
 
-<A NAME="toc104"></A>
-<H3>14.2. Optelec ALVA BC640/680</H3>
+<A NAME="OptelecALVA"></A>
+<H3>14.3. Optelec ALVA 6 series/protocol converter</H3>
 
 <P>
 Both the ALVA BC640 and BC680 displays from <A HREF="http://www.optelec.com/">Optelec</A> are supported when connected via USB or bluetooth.
+Alternatively, you can connect an older Optelec display, such as a Braille Voyager, using a protocol converter supplied by Optelec.
 You do not need any specific drivers to be installed to use these displays.
 Just plug in the display and configure NVDA to use it.
 </P>
 <P>
-While these displays do have a braille keyboard, they handle translation from braille to text themselves.
-Therefore, NVDA's braille input table setting is not relevant.
+Note: NVDA might be unable to use an ALVA BC6 display over Bluetooth when it is paired using the ALVA Bluetooth utility.
+When you have paired your device using this utility and NVDA is unable to detect your device, we recommend you to pair your ALVA display the regular way using the Windows Bluetooth settings.
 </P>
 <P>
-Following are the key assignments for this display with NVDA.
+Note: while some of these displays do have a braille keyboard, they handle translation from braille to text themselves by default.
+This means that NVDA's braille input system is not in use in the default situation (i.e. the input braille table setting has no effect).
+For ALVA displays with recent firmware, it is possible to disable this HID keyboard simulation using an input gesture.
+</P>
+<P>
+Following are key assignments for this display with NVDA.
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
 
@@ -3932,7 +3839,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>Scroll braille display back</TD>
-<TD>t1 or etouch1</TD>
+<TD>t1, etouch1</TD>
 </TR>
 <TR>
 <TD>Move braille display to previous line</TD>
@@ -3948,11 +3855,19 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>Scroll braille display forward</TD>
-<TD>t5 or etouch3</TD>
+<TD>t5, etouch3</TD>
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>secondary routing</TD>
+</TR>
+<TR>
+<TD>Toggle HID keyboard simulation</TD>
+<TD>t1+spEnter</TD>
 </TR>
 <TR>
 <TD>Move to top line in review</TD>
@@ -3980,7 +3895,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>alt key</TD>
-<TD>sp2</TD>
+<TD>sp2, alt</TD>
 </TR>
 <TR>
 <TD>escape key</TD>
@@ -4008,22 +3923,22 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>enter key</TD>
-<TD>spEnter</TD>
+<TD>spEnter, enter</TD>
 </TR>
 <TR>
 <TD>Report date/time</TD>
-<TD>sp1+sp2</TD>
+<TD>sp2+sp3</TD>
 </TR>
 <TR>
 <TD>NVDA Menu</TD>
 <TD>sp1+sp3</TD>
 </TR>
 <TR>
-<TD>Windows+d key (minimize all applications)</TD>
+<TD>windows+d key (minimize all applications)</TD>
 <TD>sp1+sp4</TD>
 </TR>
 <TR>
-<TD>Windows+b key (focus system tray)</TD>
+<TD>windows+b key (focus system tray)</TD>
 <TD>sp3+sp4</TD>
 </TR>
 <TR>
@@ -4050,20 +3965,31 @@ Please see the display's documentation for descriptions of where these keys can 
 <TD>end key</TD>
 <TD>t3+spRight</TD>
 </TR>
+<TR>
+<TD>control key</TD>
+<TD>control</TD>
+</TR>
 </TABLE>
 
-<A NAME="toc105"></A>
-<H3>14.3. Handy Tech Displays</H3>
+<A NAME="HandyTech"></A>
+<H3>14.4. Handy Tech Displays</H3>
 
 <P>
-NVDA supports all displays from <A HREF="http://www.handytech.de/">Handy Tech</A> when connected via USB or bluetooth.
+NVDA supports most displays from <A HREF="http://www.handytech.de/">Handy Tech</A> when connected via USB, serial port or bluetooth.
 For older USB displays, you will need to install the USB drivers from Handy Tech on your system.
 </P>
 <P>
-Braille input is not yet supported.
+The following displays are not supported out of the box, but can be used via <A HREF="https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers">Handy Tech's universal driver</A> and NVDA add-on:
 </P>
+
+<UL>
+<LI>Braillino
+<LI>Bookworm
+<LI>Modular displays with firmware version 1.13 or lower. Please note that the firmware of this displays can be updated.
+</UL>
+
 <P>
-Following are the key assignments for this display with NVDA.
+Following are the key assignments for Handy Tech displays with NVDA.
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
 
@@ -4074,11 +4000,11 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>Scroll braille display back</TD>
-<TD>left, up</TD>
+<TD>left, up, b3</TD>
 </TR>
 <TR>
 <TD>Scroll braille display forward</TD>
-<TD>right, down</TD>
+<TD>right, down, b6</TD>
 </TR>
 <TR>
 <TD>Move braille display to previous line</TD>
@@ -4094,7 +4020,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>shift+tab key</TD>
-<TD>esc</TD>
+<TD>esc, left triple action key up+down</TD>
 </TR>
 <TR>
 <TD>alt key</TD>
@@ -4106,37 +4032,60 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>tab key</TD>
-<TD>enter</TD>
+<TD>enter, right triple action key up+down</TD>
 </TR>
 <TR>
 <TD>enter key</TD>
-<TD>esc+enter</TD>
+<TD>esc+enter, left+right triple action key up+down, joystickAction</TD>
 </TR>
 <TR>
 <TD>upArrow key</TD>
-<TD>leftSpace</TD>
+<TD>joystickUp</TD>
 </TR>
 <TR>
 <TD>downArrow key</TD>
-<TD>rightSpace</TD>
+<TD>joystickDown</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>joystickLeft</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>joystickRight</TD>
 </TR>
 <TR>
 <TD>NVDA Menu</TD>
 <TD>b2+b4+b5+b6</TD>
 </TR>
 <TR>
-<TD>Handy Tech configuration</TD>
-<TD>b4+b8</TD>
+<TD>Toggle braille tethered to</TD>
+<TD>b2</TD>
+</TR>
+<TR>
+<TD>Toggle the braille cursor</TD>
+<TD>b1</TD>
+</TR>
+<TR>
+<TD>Toggle focus context presentation</TD>
+<TD>b7</TD>
+</TR>
+<TR>
+<TD>Toggle braille input</TD>
+<TD>space+b1+b3+b4 (space+capital B)</TD>
 </TR>
 </TABLE>
 
-<A NAME="toc106"></A>
-<H3>14.4. MDV Lilli</H3>
+<A NAME="MDVLilli"></A>
+<H3>14.5. MDV Lilli</H3>
 
 <P>
 The Lilli braille display available from <A HREF="http://www.mdvbologna.it/">MDV</A> is supported.
 You do not need any specific drivers to be installed to use this display.
 Just plug in the display and configure NVDA to use it.
+</P>
+<P>
+This display does not support NVDA's automatic background braille display detection functionality.
 </P>
 <P>
 Following are the key assignments for this display with NVDA.
@@ -4186,8 +4135,8 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc107"></A>
-<H3>14.5. Baum/Humanware/APH/Orbit Braille Displays</H3>
+<A NAME="Baum"></A>
+<H3>14.6. Baum/Humanware/APH/Orbit Braille Displays</H3>
 
 <P>
 Several <A HREF="http://www.baum.de/cms/en/">Baum</A>, <A HREF="http://www.humanware.com/">HumanWare</A>, <A HREF="http://www.aph.org/">APH</A> and <A HREF="http://www.orbitresearch.com/">Orbit</A> displays are supported when connected via USB, bluetooth or serial.
@@ -4214,8 +4163,8 @@ The USB serial mode of the Orbit Reader 20 is currently only supported in Window
 USB HID should generally be used instead.
 </P>
 <P>
-Following are the key assignments for this display with NVDA.
-Please see the display's documentation for descriptions of where these keys can be found.
+Following are the key assignments for these displays with NVDA.
+Please see your display's documentation for descriptions of where these keys can be found.
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4276,14 +4225,17 @@ For displays which have a joystick:
 </TR>
 </TABLE>
 
-<A NAME="toc108"></A>
-<H3>14.6. hedo ProfiLine USB</H3>
+<A NAME="HedoProfiLine"></A>
+<H3>14.7. hedo ProfiLine USB</H3>
 
 <P>
 The hedo ProfiLine USB from <A HREF="http://www.hedo.de/">hedo Reha-Technik</A> is supported.
 You must first install the USB drivers provided by the manufacturer.
 </P>
 <P>
+This display does not yet support NVDA's automatic background braille display detection functionality.
+</P>
+<P>
 Following are the key assignments for this display with NVDA.
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
@@ -4323,14 +4275,17 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc109"></A>
-<H3>14.7. hedo MobilLine USB</H3>
+<A NAME="HedoMobilLine"></A>
+<H3>14.8. hedo MobilLine USB</H3>
 
 <P>
 The hedo MobilLine USB from <A HREF="http://www.hedo.de/">hedo Reha-Technik</A> is supported.
 You must first install the USB drivers provided by the manufacturer.
 </P>
 <P>
+This display does not yet support NVDA's automatic background braille display detection functionality.
+</P>
+<P>
 Following are the key assignments for this display with NVDA.
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
@@ -4370,18 +4325,24 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc110"></A>
-<H3>14.8. HumanWare Brailliant BI/B Series</H3>
+<A NAME="HumanWareBrailliant"></A>
+<H3>14.9. HumanWare Brailliant BI/B Series / BrailleNote Touch</H3>
 
 <P>
-The Brailliant BI and B series of displays from <A HREF="http://www.humanware.com/">HumanWare</A>, including the BI 32, BI 40 and B 80, are supported when connected via USB or bluetooth.
+The Brailliant BI and B series of displays  from <A HREF="http://www.humanware.com/">HumanWare</A>, including the BI 14, BI 32, BI 40 and B 80, are supported when connected via USB or bluetooth.
 If connecting via USB with the protocol set to HumanWare, you must first install the USB drivers provided by the manufacturer.
 USB drivers are not required if the protocol is set to OpenBraille.
 </P>
 <P>
-Following are the key assignments for this display with NVDA.
+The BrailleNote Touch is also supported, and does not require any drivers to be installed.
+</P>
+<P>
+Following are the key assignments for  the Brailliant BI/B and BrailleNote touch displays with NVDA.
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
+
+<A NAME="toc112"></A>
+<H4>14.9.1. Key assignments for All models</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -4429,10 +4390,6 @@ Please see the display's documentation for descriptions of where these keys can 
 <TD>space+dot6</TD>
 </TR>
 <TR>
-<TD>NVDA Menu</TD>
-<TD>c1+c3+c4+c5 (command n)</TD>
-</TR>
-<TR>
 <TD>shift+tab key</TD>
 <TD>space+dot1+dot3</TD>
 </TR>
@@ -4453,11 +4410,7 @@ Please see the display's documentation for descriptions of where these keys can 
 <TD>dot8</TD>
 </TR>
 <TR>
-<TD>Windows+d key (minimize all applications)</TD>
-<TD>c1+c4+c5 (command d)</TD>
-</TR>
-<TR>
-<TD>Windows key</TD>
+<TD>windows key</TD>
 <TD>space+dot3+dot4</TD>
 </TR>
 <TR>
@@ -4465,19 +4418,78 @@ Please see the display's documentation for descriptions of where these keys can 
 <TD>space+dot2+dot3+dot4+dot5 (space+t)</TD>
 </TR>
 <TR>
+<TD>NVDA Menu</TD>
+<TD>space+dot1+dot3+dot4+dot5 (space+n)</TD>
+</TR>
+<TR>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>space+dot1+dot4+dot5 (space+d)</TD>
+</TR>
+<TR>
+<TD>Say all</TD>
+<TD>space+dot1+dot2+dot3+dot4+dot5+dot6</TD>
+</TR>
+</TABLE>
+
+<A NAME="toc113"></A>
+<H4>14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>NVDA Menu</TD>
+<TD>c1+c3+c4+c5 (command n)</TD>
+</TR>
+<TR>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>c1+c4+c5 (command d)</TD>
+</TR>
+<TR>
 <TD>Say all</TD>
 <TD>c1+c2+c3+c4+c5+c6</TD>
 </TR>
 </TABLE>
 
-<A NAME="toc111"></A>
-<H3>14.9. HIMS Braille Sense/Braille EDGE/Smart Beetle Series</H3>
+<A NAME="toc114"></A>
+<H4>14.9.3. Key assignments for Brailliant BI 14</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>up arrow key</TD>
+<TD>joystick up</TD>
+</TR>
+<TR>
+<TD>down arrow key</TD>
+<TD>joystick down</TD>
+</TR>
+<TR>
+<TD>left arrow key</TD>
+<TD>joystick left</TD>
+</TR>
+<TR>
+<TD>right arrow key</TD>
+<TD>joystick right</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>joystick action</TD>
+</TR>
+</TABLE>
+
+<A NAME="Hims"></A>
+<H3>14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</H3>
 
 <P>
-NVDA supports Braille Sense and Braille EDGE displays from <A HREF="http://www.hims-inc.com/">Hims</A> when connected via USB or bluetooth. 
-NVDA supports Braille Sense, Braille EDGE and Smart Beetle displays from <A HREF="http://www.hims-inc.com/">Hims</A> when connected via USB or bluetooth. 
+NVDA supports Braille Sense, Braille EDGE, Smart Beetle and Sync Braille displays from <A HREF="http://www.hims-inc.com/">Hims</A> when connected via USB or bluetooth. 
 If connecting via USB, you will need to install the USB drivers from HIMS on your system.
-You can download these from this page: <A HREF="http://www.himsintl.com/?c=2/13&amp;uid=2319">http://www.himsintl.com/?c=2/13&amp;uid=2319</A>
+You can download these from here: <A HREF="http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip">http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip</A>
 </P>
 <P>
 Following are the key assignments for these displays with NVDA.
@@ -4490,92 +4502,116 @@ Please see the display's documentation for descriptions of where these keys can 
 <TH>Key</TH>
 </TR>
 <TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
 <TD>Scroll braille display back</TD>
-<TD>left side scroll down</TD>
+<TD>leftSideScrollUp, rightSideScrollUp, leftSideScroll</TD>
 </TR>
 <TR>
 <TD>Scroll braille display forward</TD>
-<TD>right side scroll down</TD>
+<TD>leftSideScrollDown, rightSideScrollDown, rightSideScroll</TD>
 </TR>
 <TR>
 <TD>Move braille display to previous line</TD>
-<TD>left side scroll up</TD>
+<TD>leftSideScrollUp+rightSideScrollUp</TD>
 </TR>
 <TR>
 <TD>Move braille display to next line</TD>
-<TD>right side scroll up</TD>
+<TD>leftSideScrollDown+rightSideScrollDown</TD>
 </TR>
 <TR>
-<TD>Route to braille cell</TD>
-<TD>routing</TD>
+<TD>Move to previous line in review</TD>
+<TD>rightSideUpArrow</TD>
+</TR>
+<TR>
+<TD>Move to next line in review</TD>
+<TD>rightSideDownArrow</TD>
+</TR>
+<TR>
+<TD>Move to previous character in review</TD>
+<TD>rightSideLeftArrow</TD>
+</TR>
+<TR>
+<TD>Move to next character in review</TD>
+<TD>rightSideRightArrow</TD>
+</TR>
+<TR>
+<TD>Move to current focus</TD>
+<TD>leftSideScrollUp+leftSideScrollDown, rightSideScrollUp+rightSideScrollDown, leftSideScroll+rightSideScroll</TD>
+</TR>
+<TR>
+<TD>control key</TD>
+<TD>smartbeetle:f1, brailleedge:f3</TD>
+</TR>
+<TR>
+<TD>windows key</TD>
+<TD>f7, smartbeetle:f2</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>dot1+dot3+dot4+space, f2, smartbeetle:f3, brailleedge:f4</TD>
+</TR>
+<TR>
+<TD>shift key</TD>
+<TD>f5</TD>
+</TR>
+<TR>
+<TD>insert key</TD>
+<TD>dot2+dot4+space, f6</TD>
+</TR>
+<TR>
+<TD>applications key</TD>
+<TD>dot1+dot2+dot3+dot4+space, f8</TD>
+</TR>
+<TR>
+<TD>capsLock key</TD>
+<TD>dot1+dot3+dot6+space</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>dot4+dot5+space, f3, brailleedge:f2</TD>
+</TR>
+<TR>
+<TD>shift+alt+tab key</TD>
+<TD>f2+f3+f1</TD>
+</TR>
+<TR>
+<TD>alt+tab key</TD>
+<TD>f2+f3</TD>
 </TR>
 <TR>
 <TD>shift+tab key</TD>
 <TD>dot1+dot2+space</TD>
 </TR>
 <TR>
-<TD>alt key</TD>
-<TD>dot1+dot3+dot4+Space</TD>
-</TR>
-<TR>
-<TD>escape key</TD>
-<TD>dot1+dot5+Space</TD>
-</TR>
-<TR>
-<TD>tab key</TD>
-<TD>dot4+dot5+Space</TD>
-</TR>
-<TR>
-<TD>enter key</TD>
-<TD>dot8</TD>
-</TR>
-<TR>
-<TD>backspace key</TD>
-<TD>dot7</TD>
-</TR>
-<TR>
-<TD>upArrow key</TD>
-<TD>dot1+Space</TD>
-</TR>
-<TR>
-<TD>downArrow key</TD>
-<TD>dot4+Space</TD>
-</TR>
-<TR>
-<TD>capsLock</TD>
-<TD>dot1+dot3+dot6+space</TD>
-</TR>
-<TR>
-<TD>shift+alt+tab key</TD>
-<TD>advance2+advance3+advance1</TD>
-</TR>
-<TR>
-<TD>alt+tab key</TD>
-<TD>advance2+advance3</TD>
-</TR>
-<TR>
 <TD>end key</TD>
 <TD>dot4+dot6+space</TD>
 </TR>
 <TR>
-<TD>Control+end key</TD>
+<TD>control+end key</TD>
 <TD>dot4+dot5+dot6+space</TD>
 </TR>
 <TR>
 <TD>home key</TD>
-<TD>dot1+dot3+space</TD>
+<TD>dot1+dot3+space, smartbeetle:f4</TD>
 </TR>
 <TR>
 <TD>control+home key</TD>
 <TD>dot1+dot2+dot3+space</TD>
 </TR>
 <TR>
+<TD>alt+f4 key</TD>
+<TD>dot1+dot3+dot5+dot6+space</TD>
+</TR>
+<TR>
 <TD>leftArrow key</TD>
-<TD>dot3+space</TD>
+<TD>dot3+space, leftSideLeftArrow</TD>
 </TR>
 <TR>
 <TD>control+shift+leftArrow key</TD>
-<TD>dot2+dot8+space+advance1</TD>
+<TD>dot2+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>control+leftArrow key</TD>
@@ -4583,7 +4619,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>shift+alt+leftArrow key</TD>
-<TD>dot2+dot7+advance1</TD>
+<TD>dot2+dot7+f1</TD>
 </TR>
 <TR>
 <TD>alt+leftArrow key</TD>
@@ -4591,11 +4627,11 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>rightArrow key</TD>
-<TD>dot6+space</TD>
+<TD>dot6+space, leftSideRightArrow</TD>
 </TR>
 <TR>
 <TD>control+shift+rightArrow key</TD>
-<TD>dot5+dot8+space+advance1</TD>
+<TD>dot5+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>control+rightArrow key</TD>
@@ -4603,7 +4639,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>shift+alt+rightArrow key</TD>
-<TD>dot5+dot7+advance1</TD>
+<TD>dot5+dot7+f1</TD>
 </TR>
 <TR>
 <TD>alt+rightArrow key</TD>
@@ -4618,8 +4654,12 @@ Please see the display's documentation for descriptions of where these keys can 
 <TD>dot1+dot2+dot6+dot8+space</TD>
 </TR>
 <TR>
+<TD>upArrow key</TD>
+<TD>dot1+space, leftSideUpArrow</TD>
+</TR>
+<TR>
 <TD>control+shift+upArrow key</TD>
-<TD>dot2+dot3+dot8+space+advance1</TD>
+<TD>dot2+dot3+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>control+upArrow key</TD>
@@ -4627,7 +4667,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>shift+alt+upArrow key</TD>
-<TD>dot2+dot3+dot7+advance1</TD>
+<TD>dot2+dot3+dot7+f1</TD>
 </TR>
 <TR>
 <TD>alt+upArrow key</TD>
@@ -4635,19 +4675,23 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>shift+upArrow key</TD>
-<TD>left side scroll down + space</TD>
+<TD>leftSideScrollDown+space</TD>
 </TR>
 <TR>
 <TD>pageDown key</TD>
 <TD>dot3+dot4+dot5+space</TD>
 </TR>
 <TR>
-<TD>control+pagedown key</TD>
+<TD>control+pageDown key</TD>
 <TD>dot3+dot4+dot5+dot8+space</TD>
 </TR>
 <TR>
+<TD>downArrow key</TD>
+<TD>dot4+space, leftSideDownArrow</TD>
+</TR>
+<TR>
 <TD>control+shift+downArrow key</TD>
-<TD>dot5+dot6+dot8+space+advance1</TD>
+<TD>dot5+dot6+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>control+downArrow key</TD>
@@ -4655,7 +4699,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>shift+alt+downArrow key</TD>
-<TD>dot5+dot6+dot7+advance1</TD>
+<TD>dot5+dot6+dot7+f1</TD>
 </TR>
 <TR>
 <TD>alt+downArrow key</TD>
@@ -4663,11 +4707,15 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>shift+downArrow key</TD>
-<TD>right side scroll down + space</TD>
+<TD>space+rightSideScrollDown</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>dot1+dot5+space, f4, brailleedge:f1</TD>
 </TR>
 <TR>
 <TD>delete key</TD>
-<TD>dot1+dot3+dot5+space</TD>
+<TD>dot1+dot3+dot5+space, dot1+dot4+dot5+space</TD>
 </TR>
 <TR>
 <TD>f1 key</TD>
@@ -4679,56 +4727,36 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 <TR>
 <TD>f4 key</TD>
-<TD>dot7+advance3</TD>
+<TD>dot7+f3</TD>
 </TR>
 <TR>
-<TD>Windows+b key</TD>
-<TD>dot1+dot2+advance1</TD>
+<TD>windows+b key</TD>
+<TD>dot1+dot2+f1</TD>
 </TR>
 <TR>
-<TD>Windows+d key</TD>
-<TD>dot1+dot4+dot5+advance1</TD>
+<TD>windows+d key</TD>
+<TD>dot1+dot4+dot5+f1</TD>
+</TR>
+<TR>
+<TD>control+insert key</TD>
+<TD>smartbeetle:f1+rightSideScroll</TD>
+</TR>
+<TR>
+<TD>alt+insert key</TD>
+<TD>smartbeetle:f3+rightSideScroll</TD>
 </TR>
 </TABLE>
 
-<A NAME="toc112"></A>
-<H3>14.10. HIMS SyncBraille</H3>
-
-<P>
-NVDA supports the SyncBraille Display from <A HREF="http://www.hims-inc.com/">HIMS</A>.
-You will need to install the USB drivers from HIMS on your system.
-</P>
-<P>
-Following are the key assignments for this display with NVDA.
-Please see the display's documentation for descriptions of where these keys can be found.
-</P>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TH>Name</TH>
-<TH>Key</TH>
-</TR>
-<TR>
-<TD>Scroll braille display back</TD>
-<TD>left side scroll down</TD>
-</TR>
-<TR>
-<TD>Scroll braille display forward</TD>
-<TD>right side scroll down</TD>
-</TR>
-<TR>
-<TD>Route to braille cell</TD>
-<TD>routing</TD>
-</TR>
-</TABLE>
-
-<A NAME="toc113"></A>
+<A NAME="Seika"></A>
 <H3>14.11. Seika Braille Displays</H3>
 
 <P>
 The Seika Version 3, 4 and 5 (40 cells) and Seika80 (80 cells) braille displays from <A HREF="http://www.nippontelesoft.com/">Nippon Telesoft</A> are supported.
 You can find more information about these displays at <A HREF="http://www.seika-braille.com/">http://www.seika-braille.com/</A>.
 You must first install the USB drivers provided by the manufacturer.
+</P>
+<P>
+These displays do not yet support NVDA's automatic background braille display detection functionality.
 </P>
 <P>
 Following are the key assignments for this display with NVDA.
@@ -4786,7 +4814,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc114"></A>
+<A NAME="Papenmeier"></A>
 <H3>14.12. Papenmeier BRAILLEX Newer Models</H3>
 
 <P>
@@ -4801,11 +4829,11 @@ The following Braille displays are supported:
 </UL>
 
 <P>
+These displays do not support NVDA's automatic background braille display detection functionality.
+</P>
+<P>
 If BrxCom is installed, NVDA will use BrxCom.
 BrxCom is a tool that allows keyboard input from the braille display to function independently from a screen reader.
-A new version of BrxCom which works with NVDA will be released by Papenmeier soon.
-Braille input is possible with the Trio, BRAILLEX Live 20 and Braillex Live devices without BrxCom.
-Braille input is also possible with the Live Plus model, but with BrxCom only.
 Keyboard input is possible with the Trio and BRAILLEX Live models.
 </P>
 <P>
@@ -4945,7 +4973,7 @@ Following are the Papenmeier command assignments for NVDA:
 <TD>right2</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
+<TD>Report text formatting under braille cell</TD>
 <TD>upper routing row</TD>
 </TR>
 </TABLE>
@@ -4971,14 +4999,6 @@ The inner keys are both mapped to space.
 <TR>
 <TH>Name</TH>
 <TH>Key</TH>
-</TR>
-<TR>
-<TD>backspace key</TD>
-<TD>dot 7</TD>
-</TR>
-<TR>
-<TD>enter key</TD>
-<TD>dot 8</TD>
 </TR>
 <TR>
 <TD>escape key</TD>
@@ -5018,7 +5038,7 @@ The inner keys are both mapped to space.
 </TR>
 </TABLE>
 
-<A NAME="toc115"></A>
+<A NAME="PapenmeierOld"></A>
 <H3>14.13. Papenmeier Braille BRAILLEX Older Models</H3>
 
 <P>
@@ -5032,7 +5052,8 @@ The following Braille displays are supported:
 
 <P>
 Note that these displays can only be connected via a serial port.
-Therefore, you should select the port to which the display is connected after you have chosen this driver in the Braille Settings dialogue.
+Due to this, these displays do not support NVDA's automatic background braille display detection functionality.
+You should select the port to which the display is connected after you have chosen this driver in the <A HREF="#SelectBrailleDisplay">Select Braille Display</A> dialog.
 </P>
 <P>
 Some of these devices have an Easy Access Bar (EAB) that allows intuitive and fast operation.
@@ -5164,8 +5185,8 @@ Devices with EAB:
 <TD>left2</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
-<TD>Upper routing strip</TD>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
 </TR>
 </TABLE>
 
@@ -5223,8 +5244,8 @@ BRAILLEX Tiny:
 <TD>r1+right</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
-<TD>reportf</TD>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
 </TR>
 <TR>
 <TD>Report title</TD>
@@ -5258,8 +5279,8 @@ BRAILLEX 2D Screen:
 <TD>r2</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
-<TD>reportf</TD>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
 </TR>
 <TR>
 <TD>Move braille display to previous line</TD>
@@ -5295,7 +5316,7 @@ BRAILLEX 2D Screen:
 </TR>
 </TABLE>
 
-<A NAME="toc116"></A>
+<A NAME="HumanWareBrailleNote"></A>
 <H3>14.14. HumanWare BrailleNote</H3>
 
 <P>
@@ -5311,14 +5332,27 @@ The following models are supported:
 </UL>
 
 <P>
+For BrailleNote Touch, please refer to  the <A HREF="HumanWareBrailliant">Brailliant BI Series / BrailleNote Touch</A> section.
+</P>
+<P>
+Except for BrailleNote PK, both braille (BT) and QWERTY (QT) keyboards are supported.
+For BrailleNote QT, PC keyboard emulation isn't supported.
+You can also enter braille dots using the QT keyboard.
+Please check the braille terminal section of the BrailleNote manual guide for details.
+</P>
+<P>
 If your device supports more than one type of connection, when connecting your BrailleNote to NVDA, you must set the braille terminal port in braille terminal options.
 Please check the BrailleNote manual for details.
-In NVDA, you may also need to set the port in the Braille Settings dialog.
+In NVDA, you may also need to set the port in the <A HREF="#SelectBrailleDisplay">Select Braille Display</A> dialog.
 If you are connecting via USB or bluetooth, you can set the port to "Automatic", "USB" or "Bluetooth", depending on the available choices.
 If connecting using a legacy serial port (or a USB to serial converter) or if none of the previous options appear, you must explicitly choose the communication port to be used from the list of hardware ports.
 </P>
 <P>
 Before connecting your BrailleNote Apex using its USB client interface, you must install the drivers provided by HumanWare.
+</P>
+<P>
+On the BrailleNote Apex BT, you can use the scroll wheel located between dots 1 and 4 for various NVDA commands.
+The wheel consists of four directional dots, a center click button, and a wheel that spins clockwise or counterclockwise.
 </P>
 <P>
 Following are the BrailleNote command assignments for NVDA.
@@ -5349,6 +5383,10 @@ Please check your BrailleNote's documentation to find where these keys are locat
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>NvDA menu</TD>
+<TD>space+dot1+dot3+dot4+dot5 (space+n)</TD>
 </TR>
 <TR>
 <TD>Toggle braille tethered to</TD>
@@ -5399,11 +5437,11 @@ Please check your BrailleNote's documentation to find where these keys are locat
 <TD>space</TD>
 </TR>
 <TR>
-<TD>Enter key</TD>
+<TD>Enter</TD>
 <TD>space+dot8</TD>
 </TR>
 <TR>
-<TD>Backspace key</TD>
+<TD>Backspace</TD>
 <TD>space+dot7</TD>
 </TR>
 <TR>
@@ -5428,7 +5466,129 @@ Please check your BrailleNote's documentation to find where these keys are locat
 </TR>
 </TABLE>
 
-<A NAME="toc117"></A>
+<P>
+Following are commands assigned to BrailleNote QT when it is not in braille input mode.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>NvDA menu</TD>
+<TD>read+n</TD>
+</TR>
+<TR>
+<TD>Up arrow key</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>Down arrow key</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>Left Arrow key</TD>
+<TD>leftArrow|</TD>
+</TR>
+<TR>
+<TD>Right arrow key</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Page up key</TD>
+<TD>function+upArrow</TD>
+</TR>
+<TR>
+<TD>Page down key</TD>
+<TD>function+downArrow</TD>
+</TR>
+<TR>
+<TD>Home key</TD>
+<TD>function+leftArrow</TD>
+</TR>
+<TR>
+<TD>End key</TD>
+<TD>function+rightArrow</TD>
+</TR>
+<TR>
+<TD>Control+home keys</TD>
+<TD>read+t</TD>
+</TR>
+<TR>
+<TD>Control+end keys</TD>
+<TD>read+b</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>enter</TD>
+</TR>
+<TR>
+<TD>Backspace key</TD>
+<TD>backspace</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>tab</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>shift+tab</TD>
+</TR>
+<TR>
+<TD>Windows key</TD>
+<TD>read+w</TD>
+</TR>
+<TR>
+<TD>Alt key</TD>
+<TD>read+m</TD>
+</TR>
+<TR>
+<TD>Toggle input help</TD>
+<TD>read+1</TD>
+</TR>
+</TABLE>
+
+<P>
+Following are commands assigned to the scroll wheel:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>Up arrow key</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>Down arrow key</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>Left Arrow key</TD>
+<TD>leftArrow</TD>
+</TR>
+<TR>
+<TD>Right arrow key</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>center button</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>scroll wheel clockwise</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>scroll wheel counterclockwise</TD>
+</TR>
+</TABLE>
+
+<A NAME="EcoBraille"></A>
 <H3>14.15. EcoBraille</H3>
 
 <P>
@@ -5444,7 +5604,8 @@ The following models are supported:
 </UL>
 
 <P>
-In NVDA, you can set the serial port to which the display is connected in the Braille Settings dialog.
+In NVDA, you can set the serial port to which the display is connected in the <A HREF="#SelectBrailleDisplay">Select Braille Display</A> dialog.
+These displays do not support NVDA's automatic background braille display detection functionality.
 </P>
 <P>
 Following are the key assignments for EcoBraille displays.
@@ -5526,12 +5687,334 @@ Please see the <A HREF="ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braille/EC
 </TR>
 </TABLE>
 
-<A NAME="toc118"></A>
-<H3>14.16. BRLTTY</H3>
+<A NAME="SuperBraille"></A>
+<H3>14.16. SuperBraille</H3>
 
 <P>
-<A HREF="http://mielke.cc/brltty/">BRLTTY</A> is a separate program which can be used to support many more braille displays.
-In order to use this, you need to install <A HREF="http://brl.thefreecat.org/brltty/">BRLTTY for Windows</A>.
+The SuperBraille device, mostly available in Taiwan, can be connected to by either USB or serial.
+As the SuperBraille does not have any physical typing keys or scrolling buttons, all input must be performed via a standard computer keyboard.
+Due to this, and to maintain compatibility with other screen readers in Taiwan, two key bindings for scrolling the braille display have been provided:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>Scroll braille display back</TD>
+<TD>numpadMinus</TD>
+</TR>
+<TR>
+<TD>Scroll braille display forward</TD>
+<TD>numpadPlus</TD>
+</TR>
+</TABLE>
+
+<A NAME="Eurobraille"></A>
+<H3>14.17. Eurobraille Esys/Esytime/Iris displays</H3>
+
+<P>
+The Esys, Esytime and Iris displays from <A HREF="http://www.eurobraille.fr/">Eurobraille</A> are supported by NVDA.
+Esys and Esytime-Evo devices are supported when connected via USB or bluetooth.
+Older Esytime devices only support USB.
+Iris displays can only be connected via a serial port.
+Therefore, for these displays, you should select the port to which the display is connected after you have chosen this driver in the Braille Settings dialog.
+</P>
+<P>
+Iris and Esys displays have a braille keyboard with 10 keys.
+Of the two keys placed like a space bar, the left key is corresponding to the backspace key and the right key to the space key.
+</P>
+<P>
+Following are the key assignments for these displays with NVDA.
+Please see the display's documentation for descriptions of where these keys can be found.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>Scroll braille display back</TD>
+<TD>switch1-6left, l1</TD>
+</TR>
+<TR>
+<TD>Scroll braille display forward</TD>
+<TD>switch1-6Right, l8</TD>
+</TR>
+<TR>
+<TD>Move to current focus</TD>
+<TD>switch1-6Left+switch1-6Right, l1+l8</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>doubleRouting</TD>
+</TR>
+<TR>
+<TD>Move to previous line in review</TD>
+<TD>joystick1Up</TD>
+</TR>
+<TR>
+<TD>Move to next line in review</TD>
+<TD>joystick1Down</TD>
+</TR>
+<TR>
+<TD>Move to previous character in review</TD>
+<TD>joystick1Left</TD>
+</TR>
+<TR>
+<TD>Move to next character in review</TD>
+<TD>joystick1Right</TD>
+</TR>
+<TR>
+<TD>Switch to previous review mode</TD>
+<TD>joystick1Left+joystick1Up</TD>
+</TR>
+<TR>
+<TD>Switch to next review mode</TD>
+<TD>joystick1Right+joystick1Down</TD>
+</TR>
+<TR>
+<TD>Erase the last entered braille cell or character</TD>
+<TD>backSpace</TD>
+</TR>
+<TR>
+<TD>Translate any braille input and press the enter key</TD>
+<TD>backSpace+space</TD>
+</TR>
+<TR>
+<TD>insert key</TD>
+<TD>dot3+dot5+space, l7</TD>
+</TR>
+<TR>
+<TD>delete key</TD>
+<TD>dot3+dot6+space</TD>
+</TR>
+<TR>
+<TD>home key</TD>
+<TD>dot1+dot2+dot3+space, joystick2Left+joystick2Up</TD>
+</TR>
+<TR>
+<TD>end key</TD>
+<TD>dot4+dot5+dot6+space, joystick2Right+joystick2Down</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>dot2+space, joystick2Left, leftArrow</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>dot5+space, joystick2Right, rightArrow</TD>
+</TR>
+<TR>
+<TD>upArrow key</TD>
+<TD>dot1+space, joystick2Up, upArrow</TD>
+</TR>
+<TR>
+<TD>downArrow key</TD>
+<TD>dot6+space, joystick2Down, downArrow</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>joystick2Center</TD>
+</TR>
+<TR>
+<TD>pageUp key</TD>
+<TD>dot1+dot3+space</TD>
+</TR>
+<TR>
+<TD>pageDown key</TD>
+<TD>dot4+dot6+space</TD>
+</TR>
+<TR>
+<TD>numpad1 key</TD>
+<TD>dot1+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad2 key</TD>
+<TD>dot1+dot2+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad3 key</TD>
+<TD>dot1+dot4+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad4 key</TD>
+<TD>dot1+dot4+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad5 key</TD>
+<TD>dot1+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad6 key</TD>
+<TD>dot1+dot2+dot4+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad7 key</TD>
+<TD>dot1+dot2+dot4+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad8 key</TD>
+<TD>dot1+dot2+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad9 key</TD>
+<TD>dot2+dot4+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpadInsert key</TD>
+<TD>dot3+dot4+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpadDecimal key</TD>
+<TD>dot2+backspace</TD>
+</TR>
+<TR>
+<TD>numpadDivide key</TD>
+<TD>dot3+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>numpadMultiply key</TD>
+<TD>dot3+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>numpadMinus key</TD>
+<TD>dot3+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpadPlus key</TD>
+<TD>dot2+dot3+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>numpadEnter key</TD>
+<TD>dot3+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>dot1+dot2+dot4+dot5+space, l2</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>dot2+dot5+dot6+space, l3</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>dot2+dot3+dot5+space</TD>
+</TR>
+<TR>
+<TD>printScreen key</TD>
+<TD>dot1+dot3+dot4+dot6+space</TD>
+</TR>
+<TR>
+<TD>pause key</TD>
+<TD>dot1+dot4+space</TD>
+</TR>
+<TR>
+<TD>applications key</TD>
+<TD>dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>f1 key</TD>
+<TD>dot1+backspace</TD>
+</TR>
+<TR>
+<TD>f2 key</TD>
+<TD>dot1+dot2+backspace</TD>
+</TR>
+<TR>
+<TD>f3 key</TD>
+<TD>dot1+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>f4 key</TD>
+<TD>dot1+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f5 key</TD>
+<TD>dot1+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f6 key</TD>
+<TD>dot1+dot2+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>f7 key</TD>
+<TD>dot1+dot2+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f8 key</TD>
+<TD>dot1+dot2+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f9 key</TD>
+<TD>dot2+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>f10 key</TD>
+<TD>dot2+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f11 key</TD>
+<TD>dot1+dot3+backspace</TD>
+</TR>
+<TR>
+<TD>f12 key</TD>
+<TD>dot1+dot2+dot3+backspace</TD>
+</TR>
+<TR>
+<TD>windows key</TD>
+<TD>dot1+dot2+dot3+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>capsLock key</TD>
+<TD>dot7+backspace, dot8+backspace</TD>
+</TR>
+<TR>
+<TD>numLock key</TD>
+<TD>dot3+backspace, dot6+backspace</TD>
+</TR>
+<TR>
+<TD>shift key</TD>
+<TD>dot7+space, l4</TD>
+</TR>
+<TR>
+<TD>Toggle shift key</TD>
+<TD>dot1+dot7+space, dot4+dot7+space</TD>
+</TR>
+<TR>
+<TD>control key</TD>
+<TD>dot7+dot8+space, l5</TD>
+</TR>
+<TR>
+<TD>Toggle control key</TD>
+<TD>dot1+dot7+dot8+space, dot4+dot7+dot8+space</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>dot8+space, l6</TD>
+</TR>
+<TR>
+<TD>Toggle alt key</TD>
+<TD>dot1+dot8+space, dot4+dot8+space</TD>
+</TR>
+<TR>
+<TD>ToggleHID keyboard input simulation</TD>
+<TD>esytime):l1+joystick1Down, esytime):l8+joystick1Down</TD>
+</TR>
+</TABLE>
+
+<A NAME="BRLTTY"></A>
+<H3>14.18. BRLTTY</H3>
+
+<P>
+<A HREF="http://www.brltty.com/">BRLTTY</A> is a separate program which can be used to support many more braille displays.
+In order to use this, you need to install <A HREF="http://www.brltty.com/download.html">BRLTTY for Windows</A>.
 You should download and install the latest installer package, which will be named, for example, brltty-win-4.2-2.exe.
 When configuring the display and port to use, be sure to pay close attention to the instructions, especially if you are using a USB display and already have the manufacturer's drivers installed.
 </P>
@@ -5540,8 +6023,11 @@ For displays which have a braille keyboard, BRLTTY currently handles braille inp
 Therefore, NVDA's braille input table setting is not relevant.
 </P>
 <P>
+BRLTYY is not involved in NVDA's automatic background braille display detection functionality.
+</P>
+<P>
 Following are the BRLTTY command assignments for NVDA.
-Please see the <A HREF="http://mielke.cc/brltty/doc/KeyTables/">BRLTTY key tables documentation</A> for information about how BRLTTY commands are mapped to controls on braille displays.
+Please see the <A HREF="http://mielke.cc/brltty/doc/KeyBindings/">BRLTTY key binding lists</A> for information about how BRLTTY commands are mapped to controls on braille displays.
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -5571,156 +6057,15 @@ Please see the <A HREF="http://mielke.cc/brltty/doc/KeyTables/">BRLTTY key table
 </TR>
 </TABLE>
 
-<A NAME="toc119"></A>
-<H2>15. Braille control type and state abbreviations</H2>
-
-<P>
-In order to fit as much information as possible on a braille display, The folowing abbreviations have been defined to indicate control type and state.
-</P>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TH>Abbreviation</TH>
-<TH>Control type</TH>
-</TR>
-<TR>
-<TD>btn</TD>
-<TD>button</TD>
-</TR>
-<TR>
-<TD>cbo</TD>
-<TD>combo box</TD>
-</TR>
-<TR>
-<TD>chk</TD>
-<TD>checkbox</TD>
-</TR>
-<TR>
-<TD>dlg</TD>
-<TD>dialog</TD>
-</TR>
-<TR>
-<TD>edt</TD>
-<TD>editable text field</TD>
-</TR>
-<TR>
-<TD>gra</TD>
-<TD>graphic</TD>
-</TR>
-<TR>
-<TD>cN</TD>
-<TD>table column number n, e.g. c1, c2.</TD>
-</TR>
-<TR>
-<TD>rN</TD>
-<TD>table row number n, e.g. r1, r2.</TD>
-</TR>
-<TR>
-<TD>hN</TD>
-<TD>heading at level n, e.g. h1, h2.</TD>
-</TR>
-<TR>
-<TD>lnk</TD>
-<TD>link</TD>
-</TR>
-<TR>
-<TD>lst</TD>
-<TD>list</TD>
-</TR>
-<TR>
-<TD>vlnk</TD>
-<TD>visited link</TD>
-</TR>
-<TR>
-<TD>mnu</TD>
-<TD>menu</TD>
-</TR>
-<TR>
-<TD>mnubar</TD>
-<TD>menu bar</TD>
-</TR>
-<TR>
-<TD>rbtn</TD>
-<TD>radio button</TD>
-</TR>
-<TR>
-<TD>tb</TD>
-<TD>table</TD>
-</TR>
-<TR>
-<TD>tv</TD>
-<TD>treeview</TD>
-</TR>
-<TR>
-<TD>lv N</TD>
-<TD>a tree view item has a hierarchical level N|</TD>
-</TR>
-<TR>
-<TD><CODE>-----</CODE></TD>
-<TD>seperator</TD>
-</TR>
-</TABLE>
-
-<P>
-The following state indicators are also defined:
-</P>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TH>Abbreviation</TH>
-<TH>Control state</TH>
-</TR>
-<TR>
-<TD>...</TD>
-<TD>displayed when an object supports autocompletion</TD>
-</TR>
-<TR>
-<TD>( )</TD>
-<TD>displayed when an object (e.g. a checkbox) is not checked</TD>
-</TR>
-<TR>
-<TD>(x)</TD>
-<TD>displayed when an object (e.g. a checkbox) is checked</TD>
-</TR>
-<TR>
-<TD>(-)</TD>
-<TD>displayed when an object (e.g. a checkbox) is half checked</TD>
-</TR>
-<TR>
-<TD>-</TD>
-<TD>displayed when an object (e.g. a tree view item) is collapsible</TD>
-</TR>
-<TR>
-<TD>+</TD>
-<TD>displayed when an object (e.g. a tree view item) is Expandable</TD>
-</TR>
-<TR>
-<TD>clk</TD>
-<TD>displayed when an object is clickable</TD>
-</TR>
-<TR>
-<TD>ro</TD>
-<TD>displayed when an object (e.g. an editable text field) is read-only</TD>
-</TR>
-<TR>
-<TD>sel</TD>
-<TD>displayed when an object is selected</TD>
-</TR>
-<TR>
-<TD>submnu</TD>
-<TD>displayed when an object has a popup (usually a sub-menu)</TD>
-</TR>
-</TABLE>
-
-<A NAME="toc120"></A>
-<H2>16. 高级主题</H2>
+<A NAME="AdvancedTopics"></A>
+<H2>15. 进阶内容</H2>
 
 <A NAME="CommandLineOptions"></A>
-<H3>16.1. 命令行选项</H3>
+<H3>15.1. 命令行选项</H3>
 
 <P>
-在 NVDA启动时，它可以接收一个或多个附加选项以改变它启动时的动作。
-您可以传递许多您需要的选项。
+在 NVDA启动时，它可以接收一个或多个附加选项以改变它启动时的行为。
+选项数量不限。
 这些选项可以使用快捷方式(快捷方式属性)、运行对话框(开始菜单 -&gt; 运行 或 Windows+r)或一个 Windows 命令控制台启动时传递。
 NVDA 可执行文件、选项及另外的选项之间需要用空格分开。
 如 在NVDA 安装时创建的快捷方式就有 -r 选项，告诉 NVDA 在启动新的 NVDA 前关闭当前运行的副本。
@@ -5847,7 +6192,7 @@ nvda -q
 </TABLE>
 
 <A NAME="SystemWideParameters"></A>
-<H3>16.2. 整个系统所有用户都生效的配置</H3>
+<H3>15.2. 整个系统所有用户都生效的配置</H3>
 
 <P>
 NVDA允许某些配置对整个系统的所有用户生效
@@ -5855,8 +6200,8 @@ NVDA允许某些配置对整个系统的所有用户生效
 </P>
 
 <UL>
-<LI>32-bit system: "HKEY_LOCAL_MACHINE\SOFTWARE\nvda"
-<LI>64-bit system: "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\nvda"
+<LI>32位系统: "HKEY_LOCAL_MACHINE\SOFTWARE\nvda"
+<LI>64位系统: "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\nvda"
 </UL>
 
 <OL>

@@ -1077,143 +1077,13 @@ Pressing dot 7 + dot 8 translates any braille input, but without adding a space 
 <A NAME="SupportedBrailleDisplays"></A>
 <H2>Supported Braille Displays</H2>
 
+<A NAME="FreedomScientificFocus"></A>
 <H3>Freedom Scientific Focus/PAC Mate Series</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Name</TH>
 <TH>Key</TH>
-</TR>
-<TR>
-<TD>Scroll braille display back</TD>
-<TD>-{t1 or}- +{t1,}+ etouch1</TD>
-</TR>
-<TR>
-<TD>Move braille display to previous line</TD>
-<TD>t2</TD>
-</TR>
-<TR>
-<TD>Move to current focus</TD>
-<TD>t3</TD>
-</TR>
-<TR>
-<TD>Move braille display to next line</TD>
-<TD>t4</TD>
-</TR>
-</TABLE>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TD>Scroll braille display forward</TD>
-<TD>-{t5 or}- +{t5,}+ etouch3</TD>
-</TR>
-<TR>
-<TD>Route to braille cell</TD>
-<TD>routing</TD>
-</TR>
-<TR>
-<TD>Report text formatting under braille cell</TD>
-<TD>secondary routing</TD>
-</TR>
-<TR>
-<TD>Toggle HID keyboard simulation</TD>
-<TD>t1+spEnter</TD>
-</TR>
-</TABLE>
-
-<P>
-@@ -2006,14 +2006,14 @@ Please see the display's documentation for descriptions of where these keys can
-</P>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TD>Report title</TD>
-<TD>etouch2</TD>
-</TR>
-<TR>
-<TD>Report status bar</TD>
-<TD>etouch4</TD>
-</TR>
-<TR>
-<TD>shift+tab key</TD>
-<TD>sp1</TD>
-</TR>
-</TABLE>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TD>alt key</TD>
-<TD>-{sp2}- +{sp2, alt}+</TD>
-</TR>
-<TR>
-<TD>escape key</TD>
-<TD>sp3</TD>
-</TR>
-<TR>
-<TD>tab key</TD>
-<TD>sp4</TD>
-</TR>
-<TR>
-<TD>upArrow key</TD>
-<TD>spUp</TD>
-</TR>
-<TR>
-<TD>downArrow key</TD>
-<TD>spDown</TD>
-</TR>
-<TR>
-<TD>leftArrow key</TD>
-<TD>spLeft</TD>
-</TR>
-<TR>
-<TD>rightArrow key</TD>
-<TD>spRight</TD>
-</TR>
-</TABLE>
-
-<TABLE CELLPADDING="4">
-<TR>
-<TD>enter key</TD>
-<TD>spEnter, -{enter|}- +{enter |}+</TD>
-</TR>
-<TR>
-<TD>Report date/time</TD>
-<TD>sp2+sp3</TD>
-</TR>
-<TR>
-<TD>NVDA Menu</TD>
-<TD>sp1+sp3</TD>
-</TR>
-<TR>
-<TD>windows+d key (minimize all applications)</TD>
-<TD>sp1+sp4</TD>
-</TR>
-</TABLE>
-
-<P>
-@@ -2024,7 +2024,6 @@ Please see the display's documentation for descriptions of where these keys can
-</P>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TD>control+end key</TD>
-<TD>t3+spDown</TD>
-</TR>
-<TR>
-<TD>home key</TD>
-<TD>t3+spLeft</TD>
-</TR>
-<TR>
-<TD>end key</TD>
-<TD>t3+spRight -{|</TD>
-</TR>
-<TR>
-<TD>alt key</TD>
-<TD>alt}-</TD>
-</TR>
-<TR>
-<TD>control key</TD>
-<TD>control</TD>
 </TR>
 <TR>
 <TD>Scroll braille display back</TD>
@@ -1262,14 +1132,6 @@ Pressing dot 7 + dot 8 translates any braille input, but without adding a space 
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
-</TR>
-<TR>
-<TD>backspace key</TD>
-<TD>dot7</TD>
-</TR>
-<TR>
-<TD>enter key</TD>
-<TD>dot8</TD>
 </TR>
 <TR>
 <TD>shift+tab key</TD>
@@ -1328,11 +1190,19 @@ Pressing dot 7 + dot 8 translates any braille input, but without adding a space 
 <TD>brailleSpaceBar+dot2+dot3+dot4+dot5</TD>
 </TR>
 <TR>
+<TD>alt+shift+tab key</TD>
+<TD>brailleSpaceBar+dot1+dot2+dot5+dot6</TD>
+</TR>
+<TR>
+<TD>windows+tab key</TD>
+<TD>brailleSpaceBar+dot2+dot3+dot4</TD>
+</TR>
+<TR>
 <TD>escape key</TD>
 <TD>brailleSpaceBar+dot1+dot5</TD>
 </TR>
 <TR>
-<TD>Windows key</TD>
+<TD>windows key</TD>
 <TD>brailleSpaceBar+dot2+dot4+dot5+dot6</TD>
 </TR>
 <TR>
@@ -1340,7 +1210,7 @@ Pressing dot 7 + dot 8 translates any braille input, but without adding a space 
 <TD>brailleSpaceBar</TD>
 </TR>
 <TR>
-<TD>Windows+d key (minimize all applications)</TD>
+<TD>windows+d key (minimize all applications)</TD>
 <TD>brailleSpaceBar+dot1+dot2+dot3+dot4+dot5+dot6</TD>
 </TR>
 <TR>
@@ -1391,7 +1261,8 @@ For Focus 80 only:
 </TR>
 </TABLE>
 
-<H3>Optelec ALVA BC640/680</H3>
+<A NAME="OptelecALVA"></A>
+<H3>Optelec ALVA 6 series/protocol converter</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -1400,7 +1271,7 @@ For Focus 80 only:
 </TR>
 <TR>
 <TD>Scroll braille display back</TD>
-<TD>t1 or etouch1</TD>
+<TD>t1, etouch1</TD>
 </TR>
 <TR>
 <TD>Move braille display to previous line</TD>
@@ -1416,11 +1287,19 @@ For Focus 80 only:
 </TR>
 <TR>
 <TD>Scroll braille display forward</TD>
-<TD>t5 or etouch3</TD>
+<TD>t5, etouch3</TD>
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>secondary routing</TD>
+</TR>
+<TR>
+<TD>Toggle HID keyboard simulation</TD>
+<TD>t1+spEnter</TD>
 </TR>
 <TR>
 <TD>Move to top line in review</TD>
@@ -1448,7 +1327,7 @@ For Focus 80 only:
 </TR>
 <TR>
 <TD>alt key</TD>
-<TD>sp2</TD>
+<TD>sp2, alt</TD>
 </TR>
 <TR>
 <TD>escape key</TD>
@@ -1476,22 +1355,22 @@ For Focus 80 only:
 </TR>
 <TR>
 <TD>enter key</TD>
-<TD>spEnter</TD>
+<TD>spEnter, enter</TD>
 </TR>
 <TR>
 <TD>Report date/time</TD>
-<TD>sp1+sp2</TD>
+<TD>sp2+sp3</TD>
 </TR>
 <TR>
 <TD>NVDA Menu</TD>
 <TD>sp1+sp3</TD>
 </TR>
 <TR>
-<TD>Windows+d key (minimize all applications)</TD>
+<TD>windows+d key (minimize all applications)</TD>
 <TD>sp1+sp4</TD>
 </TR>
 <TR>
-<TD>Windows+b key (focus system tray)</TD>
+<TD>windows+b key (focus system tray)</TD>
 <TD>sp3+sp4</TD>
 </TR>
 <TR>
@@ -1518,8 +1397,13 @@ For Focus 80 only:
 <TD>end key</TD>
 <TD>t3+spRight</TD>
 </TR>
+<TR>
+<TD>control key</TD>
+<TD>control</TD>
+</TR>
 </TABLE>
 
+<A NAME="HandyTech"></A>
 <H3>Handy Tech Displays</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -1529,11 +1413,11 @@ For Focus 80 only:
 </TR>
 <TR>
 <TD>Scroll braille display back</TD>
-<TD>left, up</TD>
+<TD>left, up, b3</TD>
 </TR>
 <TR>
 <TD>Scroll braille display forward</TD>
-<TD>right, down</TD>
+<TD>right, down, b6</TD>
 </TR>
 <TR>
 <TD>Move braille display to previous line</TD>
@@ -1549,7 +1433,7 @@ For Focus 80 only:
 </TR>
 <TR>
 <TD>shift+tab key</TD>
-<TD>esc</TD>
+<TD>esc, left triple action key up+down</TD>
 </TR>
 <TR>
 <TD>alt key</TD>
@@ -1561,30 +1445,51 @@ For Focus 80 only:
 </TR>
 <TR>
 <TD>tab key</TD>
-<TD>enter</TD>
+<TD>enter, right triple action key up+down</TD>
 </TR>
 <TR>
 <TD>enter key</TD>
-<TD>esc+enter</TD>
+<TD>esc+enter, left+right triple action key up+down, joystickAction</TD>
 </TR>
 <TR>
 <TD>upArrow key</TD>
-<TD>leftSpace</TD>
+<TD>joystickUp</TD>
 </TR>
 <TR>
 <TD>downArrow key</TD>
-<TD>rightSpace</TD>
+<TD>joystickDown</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>joystickLeft</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>joystickRight</TD>
 </TR>
 <TR>
 <TD>NVDA Menu</TD>
 <TD>b2+b4+b5+b6</TD>
 </TR>
 <TR>
-<TD>Handy Tech configuration</TD>
-<TD>b4+b8</TD>
+<TD>Toggle braille tethered to</TD>
+<TD>b2</TD>
+</TR>
+<TR>
+<TD>Toggle the braille cursor</TD>
+<TD>b1</TD>
+</TR>
+<TR>
+<TD>Toggle focus context presentation</TD>
+<TD>b7</TD>
+</TR>
+<TR>
+<TD>Toggle braille input</TD>
+<TD>space+b1+b3+b4 (space+capital B)</TD>
 </TR>
 </TABLE>
 
+<A NAME="MDVLilli"></A>
 <H3>MDV Lilli</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -1630,6 +1535,7 @@ For Focus 80 only:
 </TR>
 </TABLE>
 
+<A NAME="Baum"></A>
 <H3>Baum/Humanware/APH/Orbit Braille Displays</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -1690,6 +1596,7 @@ For displays which have a joystick:
 </TR>
 </TABLE>
 
+<A NAME="HedoProfiLine"></A>
 <H3>hedo ProfiLine USB</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -1727,6 +1634,7 @@ For displays which have a joystick:
 </TR>
 </TABLE>
 
+<A NAME="HedoMobilLine"></A>
 <H3>hedo MobilLine USB</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -1764,7 +1672,10 @@ For displays which have a joystick:
 </TR>
 </TABLE>
 
-<H3>HumanWare Brailliant BI/B Series</H3>
+<A NAME="HumanWareBrailliant"></A>
+<H3>HumanWare Brailliant BI/B Series / BrailleNote Touch</H3>
+
+<H4>Key assignments for All models</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -1812,10 +1723,6 @@ For displays which have a joystick:
 <TD>space+dot6</TD>
 </TR>
 <TR>
-<TD>NVDA Menu</TD>
-<TD>c1+c3+c4+c5 (command n)</TD>
-</TR>
-<TR>
 <TD>shift+tab key</TD>
 <TD>space+dot1+dot3</TD>
 </TR>
@@ -1836,11 +1743,7 @@ For displays which have a joystick:
 <TD>dot8</TD>
 </TR>
 <TR>
-<TD>Windows+d key (minimize all applications)</TD>
-<TD>c1+c4+c5 (command d)</TD>
-</TR>
-<TR>
-<TD>Windows key</TD>
+<TD>windows key</TD>
 <TD>space+dot3+dot4</TD>
 </TR>
 <TR>
@@ -1848,12 +1751,20 @@ For displays which have a joystick:
 <TD>space+dot2+dot3+dot4+dot5 (space+t)</TD>
 </TR>
 <TR>
+<TD>NVDA Menu</TD>
+<TD>space+dot1+dot3+dot4+dot5 (space+n)</TD>
+</TR>
+<TR>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>space+dot1+dot4+dot5 (space+d)</TD>
+</TR>
+<TR>
 <TD>Say all</TD>
-<TD>c1+c2+c3+c4+c5+c6</TD>
+<TD>space+dot1+dot2+dot3+dot4+dot5+dot6</TD>
 </TR>
 </TABLE>
 
-<H3>HIMS Braille Sense/Braille EDGE/Smart Beetle Series</H3>
+<H4>Key assignments for Brailliant BI 32, BI 40 and B 80</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -1861,92 +1772,167 @@ For displays which have a joystick:
 <TH>Key</TH>
 </TR>
 <TR>
-<TD>Scroll braille display back</TD>
-<TD>left side scroll down</TD>
+<TD>NVDA Menu</TD>
+<TD>c1+c3+c4+c5 (command n)</TD>
 </TR>
 <TR>
-<TD>Scroll braille display forward</TD>
-<TD>right side scroll down</TD>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>c1+c4+c5 (command d)</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
-<TD>left side scroll up</TD>
+<TD>Say all</TD>
+<TD>c1+c2+c3+c4+c5+c6</TD>
+</TR>
+</TABLE>
+
+<H4>Key assignments for Brailliant BI 14</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
-<TD>right side scroll up</TD>
+<TD>up arrow key</TD>
+<TD>joystick up</TD>
+</TR>
+<TR>
+<TD>down arrow key</TD>
+<TD>joystick down</TD>
+</TR>
+<TR>
+<TD>left arrow key</TD>
+<TD>joystick left</TD>
+</TR>
+<TR>
+<TD>right arrow key</TD>
+<TD>joystick right</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>joystick action</TD>
+</TR>
+</TABLE>
+
+<A NAME="Hims"></A>
+<H3>HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</H3>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
 </TR>
 <TR>
-<TD>shift+tab key</TD>
-<TD>dot1+dot2+space</TD>
+<TD>Scroll braille display back</TD>
+<TD>leftSideScrollUp, rightSideScrollUp, leftSideScroll</TD>
+</TR>
+<TR>
+<TD>Scroll braille display forward</TD>
+<TD>leftSideScrollDown, rightSideScrollDown, rightSideScroll</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>leftSideScrollUp+rightSideScrollUp</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>leftSideScrollDown+rightSideScrollDown</TD>
+</TR>
+<TR>
+<TD>Move to previous line in review</TD>
+<TD>rightSideUpArrow</TD>
+</TR>
+<TR>
+<TD>Move to next line in review</TD>
+<TD>rightSideDownArrow</TD>
+</TR>
+<TR>
+<TD>Move to previous character in review</TD>
+<TD>rightSideLeftArrow</TD>
+</TR>
+<TR>
+<TD>Move to next character in review</TD>
+<TD>rightSideRightArrow</TD>
+</TR>
+<TR>
+<TD>Move to current focus</TD>
+<TD>leftSideScrollUp+leftSideScrollDown, rightSideScrollUp+rightSideScrollDown, leftSideScroll+rightSideScroll</TD>
+</TR>
+<TR>
+<TD>control key</TD>
+<TD>smartbeetle:f1, brailleedge:f3</TD>
+</TR>
+<TR>
+<TD>windows key</TD>
+<TD>f7, smartbeetle:f2</TD>
 </TR>
 <TR>
 <TD>alt key</TD>
-<TD>dot1+dot3+dot4+Space</TD>
+<TD>dot1+dot3+dot4+space, f2, smartbeetle:f3, brailleedge:f4</TD>
 </TR>
 <TR>
-<TD>escape key</TD>
-<TD>dot1+dot5+Space</TD>
+<TD>shift key</TD>
+<TD>f5</TD>
 </TR>
 <TR>
-<TD>tab key</TD>
-<TD>dot4+dot5+Space</TD>
+<TD>insert key</TD>
+<TD>dot2+dot4+space, f6</TD>
 </TR>
 <TR>
-<TD>enter key</TD>
-<TD>dot8</TD>
+<TD>applications key</TD>
+<TD>dot1+dot2+dot3+dot4+space, f8</TD>
 </TR>
 <TR>
-<TD>backspace key</TD>
-<TD>dot7</TD>
-</TR>
-<TR>
-<TD>upArrow key</TD>
-<TD>dot1+Space</TD>
-</TR>
-<TR>
-<TD>downArrow key</TD>
-<TD>dot4+Space</TD>
-</TR>
-<TR>
-<TD>capsLock</TD>
+<TD>capsLock key</TD>
 <TD>dot1+dot3+dot6+space</TD>
 </TR>
 <TR>
+<TD>tab key</TD>
+<TD>dot4+dot5+space, f3, brailleedge:f2</TD>
+</TR>
+<TR>
 <TD>shift+alt+tab key</TD>
-<TD>advance2+advance3+advance1</TD>
+<TD>f2+f3+f1</TD>
 </TR>
 <TR>
 <TD>alt+tab key</TD>
-<TD>advance2+advance3</TD>
+<TD>f2+f3</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>dot1+dot2+space</TD>
 </TR>
 <TR>
 <TD>end key</TD>
 <TD>dot4+dot6+space</TD>
 </TR>
 <TR>
-<TD>Control+end key</TD>
+<TD>control+end key</TD>
 <TD>dot4+dot5+dot6+space</TD>
 </TR>
 <TR>
 <TD>home key</TD>
-<TD>dot1+dot3+space</TD>
+<TD>dot1+dot3+space, smartbeetle:f4</TD>
 </TR>
 <TR>
 <TD>control+home key</TD>
 <TD>dot1+dot2+dot3+space</TD>
 </TR>
 <TR>
+<TD>alt+f4 key</TD>
+<TD>dot1+dot3+dot5+dot6+space</TD>
+</TR>
+<TR>
 <TD>leftArrow key</TD>
-<TD>dot3+space</TD>
+<TD>dot3+space, leftSideLeftArrow</TD>
 </TR>
 <TR>
 <TD>control+shift+leftArrow key</TD>
-<TD>dot2+dot8+space+advance1</TD>
+<TD>dot2+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>control+leftArrow key</TD>
@@ -1954,7 +1940,7 @@ For displays which have a joystick:
 </TR>
 <TR>
 <TD>shift+alt+leftArrow key</TD>
-<TD>dot2+dot7+advance1</TD>
+<TD>dot2+dot7+f1</TD>
 </TR>
 <TR>
 <TD>alt+leftArrow key</TD>
@@ -1962,11 +1948,11 @@ For displays which have a joystick:
 </TR>
 <TR>
 <TD>rightArrow key</TD>
-<TD>dot6+space</TD>
+<TD>dot6+space, leftSideRightArrow</TD>
 </TR>
 <TR>
 <TD>control+shift+rightArrow key</TD>
-<TD>dot5+dot8+space+advance1</TD>
+<TD>dot5+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>control+rightArrow key</TD>
@@ -1974,7 +1960,7 @@ For displays which have a joystick:
 </TR>
 <TR>
 <TD>shift+alt+rightArrow key</TD>
-<TD>dot5+dot7+advance1</TD>
+<TD>dot5+dot7+f1</TD>
 </TR>
 <TR>
 <TD>alt+rightArrow key</TD>
@@ -1989,8 +1975,12 @@ For displays which have a joystick:
 <TD>dot1+dot2+dot6+dot8+space</TD>
 </TR>
 <TR>
+<TD>upArrow key</TD>
+<TD>dot1+space, leftSideUpArrow</TD>
+</TR>
+<TR>
 <TD>control+shift+upArrow key</TD>
-<TD>dot2+dot3+dot8+space+advance1</TD>
+<TD>dot2+dot3+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>control+upArrow key</TD>
@@ -1998,7 +1988,7 @@ For displays which have a joystick:
 </TR>
 <TR>
 <TD>shift+alt+upArrow key</TD>
-<TD>dot2+dot3+dot7+advance1</TD>
+<TD>dot2+dot3+dot7+f1</TD>
 </TR>
 <TR>
 <TD>alt+upArrow key</TD>
@@ -2006,19 +1996,23 @@ For displays which have a joystick:
 </TR>
 <TR>
 <TD>shift+upArrow key</TD>
-<TD>left side scroll down + space</TD>
+<TD>leftSideScrollDown+space</TD>
 </TR>
 <TR>
 <TD>pageDown key</TD>
 <TD>dot3+dot4+dot5+space</TD>
 </TR>
 <TR>
-<TD>control+pagedown key</TD>
+<TD>control+pageDown key</TD>
 <TD>dot3+dot4+dot5+dot8+space</TD>
 </TR>
 <TR>
+<TD>downArrow key</TD>
+<TD>dot4+space, leftSideDownArrow</TD>
+</TR>
+<TR>
 <TD>control+shift+downArrow key</TD>
-<TD>dot5+dot6+dot8+space+advance1</TD>
+<TD>dot5+dot6+dot8+space+f1</TD>
 </TR>
 <TR>
 <TD>control+downArrow key</TD>
@@ -2026,7 +2020,7 @@ For displays which have a joystick:
 </TR>
 <TR>
 <TD>shift+alt+downArrow key</TD>
-<TD>dot5+dot6+dot7+advance1</TD>
+<TD>dot5+dot6+dot7+f1</TD>
 </TR>
 <TR>
 <TD>alt+downArrow key</TD>
@@ -2034,11 +2028,15 @@ For displays which have a joystick:
 </TR>
 <TR>
 <TD>shift+downArrow key</TD>
-<TD>right side scroll down + space</TD>
+<TD>space+rightSideScrollDown</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>dot1+dot5+space, f4, brailleedge:f1</TD>
 </TR>
 <TR>
 <TD>delete key</TD>
-<TD>dot1+dot3+dot5+space</TD>
+<TD>dot1+dot3+dot5+space, dot1+dot4+dot5+space</TD>
 </TR>
 <TR>
 <TD>f1 key</TD>
@@ -2050,39 +2048,27 @@ For displays which have a joystick:
 </TR>
 <TR>
 <TD>f4 key</TD>
-<TD>dot7+advance3</TD>
+<TD>dot7+f3</TD>
 </TR>
 <TR>
-<TD>Windows+b key</TD>
-<TD>dot1+dot2+advance1</TD>
+<TD>windows+b key</TD>
+<TD>dot1+dot2+f1</TD>
 </TR>
 <TR>
-<TD>Windows+d key</TD>
-<TD>dot1+dot4+dot5+advance1</TD>
+<TD>windows+d key</TD>
+<TD>dot1+dot4+dot5+f1</TD>
+</TR>
+<TR>
+<TD>control+insert key</TD>
+<TD>smartbeetle:f1+rightSideScroll</TD>
+</TR>
+<TR>
+<TD>alt+insert key</TD>
+<TD>smartbeetle:f3+rightSideScroll</TD>
 </TR>
 </TABLE>
 
-<H3>HIMS SyncBraille</H3>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TH>Name</TH>
-<TH>Key</TH>
-</TR>
-<TR>
-<TD>Scroll braille display back</TD>
-<TD>left side scroll down</TD>
-</TR>
-<TR>
-<TD>Scroll braille display forward</TD>
-<TD>right side scroll down</TD>
-</TR>
-<TR>
-<TD>Route to braille cell</TD>
-<TD>routing</TD>
-</TR>
-</TABLE>
-
+<A NAME="Seika"></A>
 <H3>Seika Braille Displays</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -2136,6 +2122,7 @@ For displays which have a joystick:
 </TR>
 </TABLE>
 
+<A NAME="Papenmeier"></A>
 <H3>Papenmeier BRAILLEX Newer Models</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -2200,20 +2187,12 @@ For displays which have a joystick:
 <TD>right2</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
+<TD>Report text formatting under braille cell</TD>
 <TD>upper routing row</TD>
 </TR>
 </TABLE>
 
 <TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TD>backspace key</TD>
-<TD>dot 7</TD>
-</TR>
-<TR>
-<TD>enter key</TD>
-<TD>dot 8</TD>
-</TR>
 <TR>
 <TD>escape key</TD>
 <TD>space with dot 7</TD>
@@ -2252,6 +2231,7 @@ For displays which have a joystick:
 </TR>
 </TABLE>
 
+<A NAME="PapenmeierOld"></A>
 <H3>Papenmeier Braille BRAILLEX Older Models</H3>
 
 <P>
@@ -2316,8 +2296,8 @@ Devices with EAB:
 <TD>left2</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
-<TD>Upper routing strip</TD>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
 </TR>
 </TABLE>
 
@@ -2375,8 +2355,8 @@ BRAILLEX Tiny:
 <TD>r1+right</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
-<TD>reportf</TD>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
 </TR>
 <TR>
 <TD>Report title</TD>
@@ -2410,8 +2390,8 @@ BRAILLEX 2D Screen:
 <TD>r2</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
-<TD>reportf</TD>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
 </TR>
 <TR>
 <TD>Move braille display to previous line</TD>
@@ -2447,6 +2427,7 @@ BRAILLEX 2D Screen:
 </TR>
 </TABLE>
 
+<A NAME="HumanWareBrailleNote"></A>
 <H3>HumanWare BrailleNote</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -2473,6 +2454,10 @@ BRAILLEX 2D Screen:
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>NvDA menu</TD>
+<TD>space+dot1+dot3+dot4+dot5 (space+n)</TD>
 </TR>
 <TR>
 <TD>Toggle braille tethered to</TD>
@@ -2523,11 +2508,11 @@ BRAILLEX 2D Screen:
 <TD>space</TD>
 </TR>
 <TR>
-<TD>Enter key</TD>
+<TD>Enter</TD>
 <TD>space+dot8</TD>
 </TR>
 <TR>
-<TD>Backspace key</TD>
+<TD>Backspace</TD>
 <TD>space+dot7</TD>
 </TR>
 <TR>
@@ -2552,6 +2537,129 @@ BRAILLEX 2D Screen:
 </TR>
 </TABLE>
 
+<P>
+Following are commands assigned to BrailleNote QT when it is not in braille input mode.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>NvDA menu</TD>
+<TD>read+n</TD>
+</TR>
+<TR>
+<TD>Up arrow key</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>Down arrow key</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>Left Arrow key</TD>
+<TD>leftArrow|</TD>
+</TR>
+<TR>
+<TD>Right arrow key</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Page up key</TD>
+<TD>function+upArrow</TD>
+</TR>
+<TR>
+<TD>Page down key</TD>
+<TD>function+downArrow</TD>
+</TR>
+<TR>
+<TD>Home key</TD>
+<TD>function+leftArrow</TD>
+</TR>
+<TR>
+<TD>End key</TD>
+<TD>function+rightArrow</TD>
+</TR>
+<TR>
+<TD>Control+home keys</TD>
+<TD>read+t</TD>
+</TR>
+<TR>
+<TD>Control+end keys</TD>
+<TD>read+b</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>enter</TD>
+</TR>
+<TR>
+<TD>Backspace key</TD>
+<TD>backspace</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>tab</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>shift+tab</TD>
+</TR>
+<TR>
+<TD>Windows key</TD>
+<TD>read+w</TD>
+</TR>
+<TR>
+<TD>Alt key</TD>
+<TD>read+m</TD>
+</TR>
+<TR>
+<TD>Toggle input help</TD>
+<TD>read+1</TD>
+</TR>
+</TABLE>
+
+<P>
+Following are commands assigned to the scroll wheel:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>Up arrow key</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>Down arrow key</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>Left Arrow key</TD>
+<TD>leftArrow</TD>
+</TR>
+<TR>
+<TD>Right arrow key</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>center button</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>scroll wheel clockwise</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>scroll wheel counterclockwise</TD>
+</TR>
+</TABLE>
+
+<A NAME="EcoBraille"></A>
 <H3>EcoBraille</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -2629,6 +2737,307 @@ BRAILLEX 2D Screen:
 </TR>
 </TABLE>
 
+<A NAME="SuperBraille"></A>
+<H3>SuperBraille</H3>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>Scroll braille display back</TD>
+<TD>numpadMinus</TD>
+</TR>
+<TR>
+<TD>Scroll braille display forward</TD>
+<TD>numpadPlus</TD>
+</TR>
+</TABLE>
+
+<A NAME="Eurobraille"></A>
+<H3>Eurobraille Esys/Esytime/Iris displays</H3>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>Scroll braille display back</TD>
+<TD>switch1-6left, l1</TD>
+</TR>
+<TR>
+<TD>Scroll braille display forward</TD>
+<TD>switch1-6Right, l8</TD>
+</TR>
+<TR>
+<TD>Move to current focus</TD>
+<TD>switch1-6Left+switch1-6Right, l1+l8</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>doubleRouting</TD>
+</TR>
+<TR>
+<TD>Move to previous line in review</TD>
+<TD>joystick1Up</TD>
+</TR>
+<TR>
+<TD>Move to next line in review</TD>
+<TD>joystick1Down</TD>
+</TR>
+<TR>
+<TD>Move to previous character in review</TD>
+<TD>joystick1Left</TD>
+</TR>
+<TR>
+<TD>Move to next character in review</TD>
+<TD>joystick1Right</TD>
+</TR>
+<TR>
+<TD>Switch to previous review mode</TD>
+<TD>joystick1Left+joystick1Up</TD>
+</TR>
+<TR>
+<TD>Switch to next review mode</TD>
+<TD>joystick1Right+joystick1Down</TD>
+</TR>
+<TR>
+<TD>Erase the last entered braille cell or character</TD>
+<TD>backSpace</TD>
+</TR>
+<TR>
+<TD>Translate any braille input and press the enter key</TD>
+<TD>backSpace+space</TD>
+</TR>
+<TR>
+<TD>insert key</TD>
+<TD>dot3+dot5+space, l7</TD>
+</TR>
+<TR>
+<TD>delete key</TD>
+<TD>dot3+dot6+space</TD>
+</TR>
+<TR>
+<TD>home key</TD>
+<TD>dot1+dot2+dot3+space, joystick2Left+joystick2Up</TD>
+</TR>
+<TR>
+<TD>end key</TD>
+<TD>dot4+dot5+dot6+space, joystick2Right+joystick2Down</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>dot2+space, joystick2Left, leftArrow</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>dot5+space, joystick2Right, rightArrow</TD>
+</TR>
+<TR>
+<TD>upArrow key</TD>
+<TD>dot1+space, joystick2Up, upArrow</TD>
+</TR>
+<TR>
+<TD>downArrow key</TD>
+<TD>dot6+space, joystick2Down, downArrow</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>joystick2Center</TD>
+</TR>
+<TR>
+<TD>pageUp key</TD>
+<TD>dot1+dot3+space</TD>
+</TR>
+<TR>
+<TD>pageDown key</TD>
+<TD>dot4+dot6+space</TD>
+</TR>
+<TR>
+<TD>numpad1 key</TD>
+<TD>dot1+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad2 key</TD>
+<TD>dot1+dot2+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad3 key</TD>
+<TD>dot1+dot4+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad4 key</TD>
+<TD>dot1+dot4+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad5 key</TD>
+<TD>dot1+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad6 key</TD>
+<TD>dot1+dot2+dot4+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad7 key</TD>
+<TD>dot1+dot2+dot4+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad8 key</TD>
+<TD>dot1+dot2+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad9 key</TD>
+<TD>dot2+dot4+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpadInsert key</TD>
+<TD>dot3+dot4+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpadDecimal key</TD>
+<TD>dot2+backspace</TD>
+</TR>
+<TR>
+<TD>numpadDivide key</TD>
+<TD>dot3+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>numpadMultiply key</TD>
+<TD>dot3+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>numpadMinus key</TD>
+<TD>dot3+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpadPlus key</TD>
+<TD>dot2+dot3+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>numpadEnter key</TD>
+<TD>dot3+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>dot1+dot2+dot4+dot5+space, l2</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>dot2+dot5+dot6+space, l3</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>dot2+dot3+dot5+space</TD>
+</TR>
+<TR>
+<TD>printScreen key</TD>
+<TD>dot1+dot3+dot4+dot6+space</TD>
+</TR>
+<TR>
+<TD>pause key</TD>
+<TD>dot1+dot4+space</TD>
+</TR>
+<TR>
+<TD>applications key</TD>
+<TD>dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>f1 key</TD>
+<TD>dot1+backspace</TD>
+</TR>
+<TR>
+<TD>f2 key</TD>
+<TD>dot1+dot2+backspace</TD>
+</TR>
+<TR>
+<TD>f3 key</TD>
+<TD>dot1+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>f4 key</TD>
+<TD>dot1+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f5 key</TD>
+<TD>dot1+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f6 key</TD>
+<TD>dot1+dot2+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>f7 key</TD>
+<TD>dot1+dot2+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f8 key</TD>
+<TD>dot1+dot2+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f9 key</TD>
+<TD>dot2+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>f10 key</TD>
+<TD>dot2+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f11 key</TD>
+<TD>dot1+dot3+backspace</TD>
+</TR>
+<TR>
+<TD>f12 key</TD>
+<TD>dot1+dot2+dot3+backspace</TD>
+</TR>
+<TR>
+<TD>windows key</TD>
+<TD>dot1+dot2+dot3+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>capsLock key</TD>
+<TD>dot7+backspace, dot8+backspace</TD>
+</TR>
+<TR>
+<TD>numLock key</TD>
+<TD>dot3+backspace, dot6+backspace</TD>
+</TR>
+<TR>
+<TD>shift key</TD>
+<TD>dot7+space, l4</TD>
+</TR>
+<TR>
+<TD>Toggle shift key</TD>
+<TD>dot1+dot7+space, dot4+dot7+space</TD>
+</TR>
+<TR>
+<TD>control key</TD>
+<TD>dot7+dot8+space, l5</TD>
+</TR>
+<TR>
+<TD>Toggle control key</TD>
+<TD>dot1+dot7+dot8+space, dot4+dot7+dot8+space</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>dot8+space, l6</TD>
+</TR>
+<TR>
+<TD>Toggle alt key</TD>
+<TD>dot1+dot8+space, dot4+dot8+space</TD>
+</TR>
+<TR>
+<TD>ToggleHID keyboard input simulation</TD>
+<TD>esytime):l1+joystick1Down, esytime):l8+joystick1Down</TD>
+</TR>
+</TABLE>
+
+<A NAME="BRLTTY"></A>
 <H3>BRLTTY</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
