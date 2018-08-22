@@ -229,5 +229,5 @@ en 15.2. start:2765 paragraphs:2, tables:1, lists:1
 zh_CN 16. start:2435 paragraphs:0, tables:0, lists:0
 en 16. start:2777 paragraphs:1, tables:0, lists:0
 zh_CN 16.1. start:2437 paragraphs:6, tables:3, lists:0
-zh_CN 17. start:2477 paragraphs:1, tables:0, lists:0
+zh_CN 16.2. start:2476 paragraphs:1, tables:0, lists:2
 # end of comparison
