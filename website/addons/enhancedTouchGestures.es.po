@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons translation\n"
 "POT-Creation-Date: 2018-08-01 11:17+1000\n"
-"PO-Revision-Date: 2018-06-26 15:44+0100\n"
-"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
+"PO-Revision-Date: 2018-08-22 10:52+0200\n"
+"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: NVDA add-ons translation team <oprisniki@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Plain text
@@ -202,14 +202,13 @@ msgstr ""
 "casilla de verificación o activa manualmente dejar pasar toque."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.06"
+#, no-wrap
 msgid "Version 18.08"
-msgstr "Versión 18.06"
+msgstr "Versión 18.08"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 and future versions."
-msgstr ""
+msgstr "Compatible con NVDA 2018.3 y versiones futuras."
 
 #. type: Title ##
 #, no-wrap
