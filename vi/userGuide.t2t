@@ -941,7 +941,7 @@ NVDA sẽ sử dụng ngôn ngữ mà hệ điều hành đang sử dụng.
 
 Chú ý là NVDA cần được khởi động lại để có hiệu lực khi bạn thay đổi ngôn ngữ.
 NVDA sẽ thông báo khi bạn chấp nhận thay đổi ngôn ngữ mới.
-Nhấn nút Đồng ý là NVDA sẽ khởi động lại.
+Nhấn nút Đồng ý và NVDA sẽ khởi động lại.
 
 ==== Lưu cấu hình khi tắt NVDA ====[GeneralSettingsSaveConfig]
 Nếu được chọn, NVDA sẽ lưu các thay đổi của bạn ngay sau khi bạn tắt NVDA.
