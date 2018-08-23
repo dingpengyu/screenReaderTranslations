@@ -3,36 +3,36 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-17 02:47+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2018-08-23 16:34+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Input Lock\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Input Lock\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Jose Manuel Delicado"
-msgstr ""
+msgstr "Autor: Jose Manuel Delicado"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Descargar [versión estable][1]"
 
 #. type: Title ##
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Introdución"
 
 #. type: Plain text
 msgid ""
@@ -42,17 +42,23 @@ msgid ""
 "Lock is for you! You will be able to leave your computer alone and turned on "
 "without risk."
 msgstr ""
+"Tes nenos ou mascotas na casa? Tes un gato ao que lle gusta moito subirse á "
+"túa mesa e pasear sobre o teu teclado? Moves accidentalmente o rato a partes "
+"aleatorias da pantalla mentras usas o teu portátil? Entón Input Lock é para "
+"ti! Poderás deixar o teu computador só e acendido sen risco."
 
 #. type: Plain text
 msgid ""
 "Once installed, you will be able to lock your keyboard, touch screen, if "
 "your laptop has one, mouse and Braille display."
 msgstr ""
+"Unha vez instalado, poderás bloquear o teu teclado, pantalla táctil, se o "
+"teu portátil ten unha, rato e pantalla braille."
 
 #. type: Title ##
 #, no-wrap
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #. type: Plain text
 msgid ""
@@ -60,123 +66,153 @@ msgid ""
 "so you will have to configure them from Input gestures dialog. Read the NVDA "
 "User Guide for more information."
 msgstr ""
+"Este complemento engade dous xestos extra a NVDA. Por defecto non están "
+"asignados, de maneira que terás que configuralos dende o diálogo de Xestos "
+"de entrada. Le a Guía do Usuario do NVDA para máis información."
 
 #. type: Plain text
 msgid ""
-"When you press the toggle input lock gesture, NVDA will say \"Input "
-"locked\". Your input devices will be blocked until you press the same "
-"gesture again. In that moment, NVDA will say \"Input unlocked\" and "
-"everything will work as usual."
+"When you press the toggle input lock gesture, NVDA will say \"Input locked"
+"\". Your input devices will be blocked until you press the same gesture "
+"again. In that moment, NVDA will say \"Input unlocked\" and everything will "
+"work as usual."
 msgstr ""
+"Cando premas o xesto toggle input lock (alternar bloqueo de entrada), NVDA "
+"dirá \"Input locked\" (\"entrada bloqueada\"). Os teus dispositivos de "
+"entrada bloquearanse ata que premas o mesmo xesto de novo. Nese momento, "
+"NVDA dirá \"Input unlocked\" (\"Entrada desbloqueada\") e todo funcionará "
+"como de costume."
 
 #. type: Plain text
 msgid ""
-"If you press the toggle mouse block gesture, your mouse will be "
-"locked. Press this command again to unlock it. While mouse is locked, you "
-"can use NVDA gestures to move it, and click with left and right buttons, but "
-"You can't move the mouse itself. Mouse clicks can also be disabled from "
-"Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from "
-"add-on settings dialog for older versions, available under preferences "
-"menu. In addition, from these settings you can control wether mouse locks "
-"when NVDA is started or not."
+"If you press the toggle mouse block gesture, your mouse will be locked. "
+"Press this command again to unlock it. While mouse is locked, you can use "
+"NVDA gestures to move it, and click with left and right buttons, but You "
+"can't move the mouse itself. Mouse clicks can also be disabled from Input "
+"lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on "
+"settings dialog for older versions, available under preferences menu. In "
+"addition, from these settings you can control wether mouse locks when NVDA "
+"is started or not."
 msgstr ""
+"Se premes o xesto toggle mouse lock (alternar bloqueo do rato), bloquearase "
+"o teu rato. Preme este comando novamente para desbloquealo. Mentres o rato "
+"está bloqueado, podes utilizar xestos do NVDA para movelo, e facer click cos "
+"botóns esquerdo e dereito, pero non podes mover o propio rato. Os clicks do "
+"rato tamén poden deshabilitarse dende a categoría Input lock (\"Bloqueo de "
+"entrada\") no diálogo de axustes do NVDA (NVDA 2018.2 e superior) ou dende o "
+"diálogo de preferencias do complemento en versións máis antigas, dispoñible "
+"baixo o menú de preferencias. Ademais, con estes axustes podes controlar se "
+"o rato se bloqueará ou non cando NVDA se inicie."
 
 #. type: Plain text
 msgid ""
 "Note: when mouse clicks are blocked, you can't use any NVDA gestures to work "
 "with the mouse."
 msgstr ""
+"Nota: cando os clicks do rato están bloqueados, non podes utilizar ningún "
+"xesto de NVDA para traballar co rato."
 
 #. type: Title ##
 #, no-wrap
 msgid "Limitations"
-msgstr ""
+msgstr "Limitacións"
 
 #. type: Plain text
 msgid "Input Lock has the following limitations:"
-msgstr ""
+msgstr "Input Lock ten as seguintes limitacións:"
 
 #. type: Bullet: '* '
-msgid "The shortcut control+alt+del can be used even when the keyboard is locked."
+msgid ""
+"The shortcut control+alt+del can be used even when the keyboard is locked."
 msgstr ""
+"O atallo control+alt+supr pódese utilizar mesmo cando o teclado está "
+"bloqueado."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changelog"
-msgstr ""
+msgstr "Rexistro de trocos"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.4"
-msgstr ""
+msgstr "Versión 1.4"
 
 #. type: Bullet: '* '
 msgid "The addon gestures are unassigned by default."
-msgstr ""
+msgstr "Os xestos do complemento están sen asignar por defecto."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.3"
-msgstr ""
+msgstr "Versión 1.3"
 
 #. type: Bullet: '* '
 msgid ""
 "Added a configuration panel in settings dialog. For old NVDA versions, a "
 "menu item and a dialog have been added too."
 msgstr ""
+"Engadido un panel de configuración no diálogo de opcións do NVDA. Para "
+"versións antigas de NVDA, engadíronse tamén un elemento de menú e un diálogo."
 
 #. type: Bullet: '* '
 msgid "Added a setting to lock the mouse when NVDA is started."
-msgstr ""
+msgstr "Engadido unha opción para bloquear o rato cando NVDA se inicie."
 
 #. type: Bullet: '* '
 msgid "Added a setting to block also mouse clicks while mouse is locked."
 msgstr ""
+"Engadida unha opción para bloquear tamén clicks do rato mentres o rato estea "
+"bloqueado."
 
 #. type: Bullet: '* '
 msgid ""
 "Small bugs fixed, some code optimizations and less duplicated strings for "
 "translators"
 msgstr ""
+"Aranxados pequenos erros, algunhas optimizacións de código e menos cadeas "
+"duplicadas para tradutores"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.2"
-msgstr ""
+msgstr "Versión 1.2"
 
 #. type: Bullet: '* '
 msgid "Now the mouse can also be locked"
-msgstr ""
+msgstr "Agora o rato tamén pode bloquearse"
 
 #. type: Bullet: '* '
 msgid "New command to lock and unlock only the mouse"
-msgstr ""
+msgstr "Novo atallo para bloquear e desbloquear só o rato"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.1"
-msgstr ""
+msgstr "Versión 1.1"
 
 #. type: Bullet: '* '
 msgid ""
 "If another addon has previously added a capture function to inputManager, it "
 "is restored when the input is unlocked."
 msgstr ""
+"Se outro complemento xa engadiu una función capture ao inputManager, "
+"restáurase cando se desbloquea a entrada."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.0"
-msgstr ""
+msgstr "Versión 1.0"
 
 #. type: Bullet: '* '
 msgid "Initial release"
-msgstr ""
+msgstr "Liberación inicial"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=inputlock"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=inputlock"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: add-ons website files\n"
 "POT-Creation-Date: 2018-08-22 18:34+1000\n"
-"PO-Revision-Date: 2018-07-29 22:42+0100\n"
+"PO-Revision-Date: 2018-08-23 10:35+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Galician translation team <oprisniki@gmail.com>\n"
 "Language: gl\n"
@@ -54,16 +54,12 @@ msgstr ""
 "Guía do Usuario do NVDA para máis información."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The addon adds an extra landmark not included by default in NVDA, the "
-#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
 "article (abbreviated in Braille as art)."
 msgstr ""
 "O complemento engade un ponto de referencia extra que non se inclúe por "
-"defecto no NVDA, O artigo."
+"defecto no NVDA, o artigo (abreviado en braille como art)."
 
 #. type: Title ##
 #, no-wrap
@@ -71,12 +67,6 @@ msgid "The configuration dialog"
 msgstr "O diálogo Configuración"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can enable or disable landmarks by going to NVDA, preferences, "
-#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
-#| "you disable a landmark, you won't be able to jump to it pressing the d "
-#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
 "Aria Settings or from the appropriate category in the NVDA options dialog. "
@@ -85,10 +75,11 @@ msgid ""
 "NVDA won't report it."
 msgstr ""
 "Podes habilitar ou deshabilitar pontos de referencia indo cara NVDA, "
-"preferencias, Opcións de Enhanced Aria. O diálogo ten unha caixa de "
-"verificación para cada ponto de referencia. Se deshabilitas un ponto de "
-"referencia, non poderás saltar cara el premendo a tecla d cando navegues por "
-"unha páxina web, e o NVDA non o anunciará."
+"preferencias, Opcións de Enhanced Aria ou dende a categoría correspondente "
+"no diálogo de opcións do NVDA. O diálogo ten unha caixa de verificación para "
+"cada ponto de referencia. Se deshabilitas un ponto de referencia, non "
+"poderás saltar cara el premendo a tecla d cando navegues por unha páxina "
+"web, e o NVDA non o anunciará."
 
 #. type: Title ##
 #, no-wrap
@@ -96,18 +87,13 @@ msgid "Contact info"
 msgstr "Información de contacto"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "This addon has been developed by Jose Manuel Delicado. If you want to "
-#| "contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on "
-#| "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgid ""
 "This addon has been developed by Jose Manuel Delicado. If you want to "
 "contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
 "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgstr ""
 "Este complemento foi desenvolvido por José Manuel Delicado. Se queres "
-"contactalo, envía un correo electrónico a jmdaweb@hotmail.com, ou abre un "
+"contactalo, envía un correo electrónico a jm.delicado@nvda.es, ou abre un "
 "issue en GitHub en https://github.com/jmdaweb/enhancedAria"
 
 #. type: Title ##
@@ -116,26 +102,26 @@ msgid "Changelog"
 msgstr "Rexistro de cambios"
 
 #. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Version 2.0"
+#, no-wrap
 msgid "Version 2.2"
-msgstr "Versión 2.0"
+msgstr "Versión 2.2"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a fatal error when a Braille display was used and the article role was "
 "configured to be reported."
 msgstr ""
+"Arranxado un erro fatal ao estar en uso unha pantalla braille e configurado "
+"o roll artigo para ser reportado."
 
 #. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Version 2.0"
+#, no-wrap
 msgid "Version 2.1"
-msgstr "Versión 2.0"
+msgstr "Versión 2.1"
 
 #. type: Bullet: '* '
 msgid "Stability improvements"
-msgstr ""
+msgstr "Melloras de estabilidade"
 
 #. type: Title ###
 #, no-wrap

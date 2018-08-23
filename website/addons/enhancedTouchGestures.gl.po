@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons translation\n"
 "POT-Creation-Date: 2018-08-01 11:17+1000\n"
-"PO-Revision-Date: 2018-06-26 15:43+0100\n"
+"PO-Revision-Date: 2018-08-23 10:35+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA add-ons translation team <oprisniki@gmail.com>\n"
 "Language: gl\n"
@@ -199,14 +199,13 @@ msgstr ""
 "esta caixa de verificación ou activa manualmente deixar pasar toque."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.06"
+#, no-wrap
 msgid "Version 18.08"
-msgstr "Versión 18.06"
+msgstr "Versión 18.08"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 and future versions."
-msgstr ""
+msgstr "Compatible con NVDA 2018.3 e versións futuras."
 
 #. type: Title ##
 #, no-wrap
