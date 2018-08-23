@@ -19,6 +19,7 @@
   "addon.lambda": "0", 
   "addon.mp3DirectCut": "0", 
   "addon.noBeepsSpeechMode": "1", 
+  "addon.objPad": "0", 
   "addon.placeMarkers": "0", 
   "addon.readFeeds": "0", 
   "addon.reportSymbols": "1", 
