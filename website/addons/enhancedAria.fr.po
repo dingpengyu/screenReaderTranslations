@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enhanced Aria\n"
 "POT-Creation-Date: 2018-08-22 18:34+1000\n"
-"PO-Revision-Date: 2018-08-18 14:30+0200\n"
+"PO-Revision-Date: 2018-08-23 12:35+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: French NVDA add-ons translation team <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -55,16 +55,12 @@ msgstr ""
 "pour plus d'informations."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The addon adds an extra landmark not included by default in NVDA, the "
-#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
 "article (abbreviated in Braille as art)."
 msgstr ""
 "Le module complémentaire ajoute une région supplémentaire non inclus par "
-"défaut dans NVDA l'article."
+"défaut dans NVDA, l'article (abrégé en Braille comme art)."
 
 #. type: Title ##
 #, no-wrap
@@ -72,12 +68,6 @@ msgid "The configuration dialog"
 msgstr "Le dialogue de configuration"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can enable or disable landmarks by going to NVDA, preferences, "
-#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
-#| "you disable a landmark, you won't be able to jump to it pressing the d "
-#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
 "Aria Settings or from the appropriate category in the NVDA options dialog. "
@@ -86,10 +76,11 @@ msgid ""
 "NVDA won't report it."
 msgstr ""
 "Vous pouvez activer ou désactiver les régions en  allant dans NVDA, puis "
-"dans Préférences, puis dans Paramètres Enhanced Aria. Le dialogue comporte "
-"une case à cocher pour chaque région. Si vous désactivez une région, vous ne "
-"pourrez pas y accéder en appuyant sur la touche d lorsque vous naviguez sur "
-"une page Web, et NVDA ne le signale pas."
+"dans Préférences, puis dans Paramètres Enhanced Aria ou à partir de la "
+"catégorie appropriée dans le dialogue des options de NVDA. Le dialogue "
+"comporte une case à cocher pour chaque région. Si vous désactivez une "
+"région, vous ne pourrez pas y accéder en appuyant sur la touche d lorsque "
+"vous naviguez sur une page Web, et NVDA ne le signale pas."
 
 #. type: Title ##
 #, no-wrap
@@ -112,16 +103,18 @@ msgid "Changelog"
 msgstr "Journal des changements"
 
 #. type: Title ###
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 2.1"
 msgid "Version 2.2"
-msgstr "Version 2.1"
+msgstr "Version 2.2"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a fatal error when a Braille display was used and the article role was "
 "configured to be reported."
 msgstr ""
+"Correction d'une erreur fatale lors de l'utilisation de l'Afficheur  Braille "
+"et le rôle de l'article a été configuré pour être signalé."
 
 #. type: Title ###
 #, no-wrap
