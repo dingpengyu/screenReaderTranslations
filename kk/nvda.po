@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-17 00:10+1000\n"
-"PO-Revision-Date: 2018-08-14 13:56+0600\n"
+"PO-Revision-Date: 2018-08-23 16:46+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: kk\n"
@@ -25,7 +25,7 @@ msgstr "Бастапқы енгізу"
 
 #. Translators: a mode that lets you type in alpha numeric (roman/english) characters, rather than 'native' characters for the east-Asian input method  language currently selected.
 msgid "Alpha numeric input"
-msgstr ""
+msgstr "Әріптік-сандық енгізу"
 
 #. Translators: for East-Asian input methods, a mode that allows typing in full-shaped (full double-byte) characters, rather than the smaller half-shaped ones.
 msgid "Full shaped mode"
@@ -37,23 +37,23 @@ msgstr ""
 
 #. Translators: For Japanese character input: half-shaped (single-byte) alpha numeric (roman/english) mode.
 msgid "half alphanumeric"
-msgstr ""
+msgstr "жартылай әріптік-сандық"
 
 #. Translators: For Japanese character input: half-shaped (single-byte) Katacana input mode.
 msgid "half katakana"
-msgstr ""
+msgstr "жартылай катакана"
 
 #. Translators: For Japanese character input: alpha numeric (roman/english) mode.
 msgid "alphanumeric"
-msgstr ""
+msgstr "әріптік-сандық"
 
 #. Translators: For Japanese character input: Hiragana input mode.
 msgid "hiragana"
-msgstr ""
+msgstr "хирагана"
 
 #. Translators: For Japanese character input: Katacana input mode.
 msgid "katakana"
-msgstr ""
+msgstr "катакана"
 
 #. Translators: For Japanese character input: half katakana roman input mode.
 msgid "half katakana roman"
