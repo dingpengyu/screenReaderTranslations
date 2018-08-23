@@ -5,15 +5,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA source-master-55932c3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-17 00:10+1000\n"
-"PO-Revision-Date: 2018-06-06 14:46-0700\n"
-"Last-Translator: Kvark <kvark128@yandex.ru>\n"
+"POT-Creation-Date: 2018-05-25 00:10+1000\n"
+"PO-Revision-Date: 2018-08-23 09:52+0600\n"
+"Last-Translator: \n"
 "Language-Team: Bermet\n"
 "Language: ky\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -82,6 +82,11 @@ msgstr "белгисиз тил"
 #. Translators: The label for an unknown input method when switching input methods.
 msgid "unknown input method"
 msgstr "кирүүнүн белгисиз ыкмасы"
+
+#. Translators: the message announcing the language and keyboard layout when it changes
+#, python-brace-format
+msgid "{language} - {layout}"
+msgstr "{language} - {layout}"
 
 #. Translators: The label shown for a spelling and grammar error in the NVDA Elements List dialog in Microsoft Word.
 #. {text} will be replaced with the text of the spelling error.
@@ -361,16 +366,6 @@ msgstr "панель"
 msgid "pwdedt"
 msgstr "сыр сөздү өзгөртүү"
 
-#. Translators: Displayed in braille for an object which is deleted.
-#, fuzzy
-msgid "del"
-msgstr "диалог"
-
-#. Translators: Displayed in braille for an object which is inserted.
-#, fuzzy
-msgid "ins"
-msgstr "Шилтемелер"
-
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
 msgstr "тандалган"
@@ -508,18 +503,6 @@ msgstr "Ар дайым дисплейди толтуруу"
 msgid "Only when scrolling back"
 msgstr "Артка түрүлүткөндө гана"
 
-#. Translators: String representing automatic port selection for braille displays.
-msgid "Automatic"
-msgstr "Автоматтык түрдө"
-
-#. Translators: String representing the USB port selection for braille displays.
-msgid "USB"
-msgstr ""
-
-#. Translators: String representing the Bluetooth port selection for braille displays.
-msgid "Bluetooth"
-msgstr ""
-
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
 #, python-format
@@ -583,27 +566,15 @@ msgstr "автоматтык түрдө"
 
 #. Translators: The label for a braille setting indicating that braille should be tethered to focus.
 msgid "to focus"
-msgstr "Фокус алуу"
+msgstr "фокус алуу"
 
 #. Translators: The label for a braille setting indicating that braille should be tethered to the review cursor.
 msgid "to review"
-msgstr " карап чыгуу"
+msgstr "карап чыгуу"
 
-#. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
-msgid "Unknown braille display"
-msgstr "Seika Брайль көрсөтөт"
-
-#. Translators: Name of a Bluetooth serial communications port.
-#, fuzzy, python-brace-format
-msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "Сериалдуу: {portName}"
-
-#. Translators: Name of a serial communications port.
-#. Translators: Name of a serial communications port
-#, python-brace-format
-msgid "Serial: {portName}"
-msgstr "Сериалдуу: {portName}"
+#. Translators: String representing the automatic port selection for braille displays.
+msgid "Automatic"
+msgstr "Автоматтык түрдө"
 
 #. Translators: Reported when translation didn't succeed due to unsupported input.
 msgid "Unsupported input"
@@ -617,7 +588,7 @@ msgstr "{modifier}бошотулду"
 #. Translators: Reported when a braille input modifier is pressed.
 #, python-brace-format
 msgid "{modifier} pressed"
-msgstr "{modifier}басылган "
+msgstr "{modifier}басылган"
 
 #. Translators: Used when reporting braille dots to the user.
 #. Translators: Reported when braille dots are pressed in input help mode.
@@ -626,7 +597,7 @@ msgstr "чекит"
 
 #. Translators: Reported when braille space is pressed with dots in input help mode.
 msgid "space with dot"
-msgstr "чекит мененаралык менен аралык"
+msgstr "чекит менен аралык"
 
 #. Translators: Reported when braille space is pressed in input help mode.
 #. Translators: This is the name of a key on the keyboard.
@@ -635,7 +606,7 @@ msgstr "аралык"
 
 #. Translators: Used when describing keys on a braille keyboard.
 msgid "braille keyboard"
-msgstr "Брайль топбаскычы"
+msgstr "брайль топбаскычы"
 
 #. Translators: Used to describe the press of space
 #. along with any dots on a braille keyboard.
@@ -669,12 +640,6 @@ msgstr "Сегиз чекиттүү Болгардык"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
-msgid "Central Kurdish grade 1"
-msgstr "Шведциялык ( биринчи даража)"
-
-#. Translators: The name of a braille table displayed in the
-#. braille settings dialog.
 msgid "Welsh grade 1"
 msgstr "Валлийдик ( биринчи даража)"
 
@@ -682,12 +647,6 @@ msgstr "Валлийдик ( биринчи даража)"
 #. braille settings dialog.
 msgid "Welsh grade 2"
 msgstr "Валийдик (экинчи даража)"
-
-#. Translators: The name of a braille table displayed in the
-#. braille settings dialog.
-#, fuzzy
-msgid "Czech 8 dot computer braille"
-msgstr "Испаниялык 8 чекиттүү"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -791,12 +750,6 @@ msgstr "Америкалык англисче экинчи даража"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
-msgid "Esperanto grade 1"
-msgstr "Немецтик биринчи даража"
-
-#. Translators: The name of a braille table displayed in the
-#. braille settings dialog.
 msgid "Spanish 8 dot computer braille"
 msgstr "Испаниялык 8 чекиттүү"
 
@@ -868,7 +821,7 @@ msgstr "Гуджарати биринчи даража"
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 msgid "Koine Greek"
-msgstr "Кйоне Грекче"
+msgstr "Койне Грекче"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -898,12 +851,6 @@ msgstr "Венгриялык  сегизчекиттүү"
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 msgid "Hungarian grade 1"
-msgstr "Венгриялык  биринчи даража"
-
-#. Translators: The name of a braille table displayed in the
-#. braille settings dialog.
-#, fuzzy
-msgid "Hungarian grade 2"
 msgstr "Венгриялык  биринчи даража"
 
 #. Translators: The name of a braille table displayed in the
@@ -1085,12 +1032,6 @@ msgstr "Орусча биринчи даража"
 #. braille settings dialog.
 msgid "Sanskrit grade 1"
 msgstr "Санскрит ( биринчи даража)"
-
-#. Translators: The name of a braille table displayed in the
-#. braille settings dialog.
-#, fuzzy
-msgid "Swedish 8 dot computer braille"
-msgstr "Испаниялык 8 чекиттүү"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -2502,7 +2443,7 @@ msgstr "шрифттин көлөмү"
 #. Translators: Describes text formatting.
 #. Translators: Reported when text is bolded.
 msgid "bold"
-msgstr "калың жазуу "
+msgstr "калың жазуу"
 
 #. Translators: Describes text formatting.
 #. Translators: Reported when text is italicized.
@@ -2561,25 +2502,15 @@ msgstr "бармак аркылу башкаруу"
 msgid "calendar"
 msgstr "календарь"
 
+#. Translators: Identifies a chart element.
+msgid "chart element"
+msgstr "диаграмма элементи"
+
 msgid "video"
 msgstr "видео"
 
 msgid "audio"
 msgstr "аудио"
-
-#. Translators: Identifies a chart element.
-msgid "chart element"
-msgstr "диаграмма элементи"
-
-#. Translators: Identifies deleted content.
-#. Translators: Reported when text is marked as having been deleted
-msgid "deleted"
-msgstr "өчүрүлгөн"
-
-#. Translators: Identifies inserted content.
-#. Translators: Reported when text is marked as having been inserted
-msgid "inserted"
-msgstr "киргизилген"
 
 #. Translators: This is presented when a control or document is unavailable.
 msgid "unavailable"
@@ -3092,7 +3023,7 @@ msgid ""
 "current date"
 msgstr ""
 "Бир жолу басылса, учурдагы убакытты маалымдайт. Эки жолу басылса, учурдагы "
-"датаны айтат."
+"датаны айтат"
 
 #. Translators: Reported when there are no settings to configure in synth settings ring (example: when there is no setting for language).
 msgid "No settings"
@@ -3599,7 +3530,7 @@ msgid ""
 "sets the system caret to the position of the review cursor"
 msgstr ""
 "Навигатордун объектисине системдик фокусту орнотот. Эки жолуу басканда, "
-"системдик каретканы көөрүү курсоруна орноштурат."
+"системдик каретканы көөрүү курсоруна орноштурат"
 
 #. Translators: Reported when there is no containing (parent) object such as when focused on desktop.
 msgid "No containing object"
@@ -3702,7 +3633,7 @@ msgid ""
 msgstr ""
 "Көрүү курсорун учурдагы объекттеги сөзгө жылдырат жана аны окуйт, эгерде эки "
 "жолу басылса, аны символдоп окуйт,үч жолу басылса фонетикалык баяндоосун "
-"окуйт."
+"окуйт"
 
 #. Translators: Input help mode message for move review cursor to next word command.
 msgid ""
@@ -3739,7 +3670,7 @@ msgid ""
 msgstr ""
 "Көрүү курсорун учурдагы символго жылдырат, учурдагы навигатор жайгашкан  "
 "объектти окуйт, эгерде эки жолу басылса, фонетикалык баяндоосун окуйт, үч "
-"жолу басылса ондук жана он алтылык баяндоосун окуйт."
+"жолу басылса ондук жана он алтылык баяндоосун окуйт"
 
 #. Translators: a message reported when review cursor is at the rightmost character of the current navigator object's text.
 msgid "Right"
@@ -3751,7 +3682,7 @@ msgid ""
 "object and speaks it"
 msgstr ""
 "Көрүү курсорун киинки символго жылдырат, учурдагы  навигатор жайгашкан  "
-"объектти окуйт."
+"объектти окуйт"
 
 #. Translators: Input help mode message for move review cursor to end of current line command.
 msgid ""
@@ -3759,7 +3690,7 @@ msgid ""
 "situated in the current navigator object and speaks it"
 msgstr ""
 "Көрүү курсорун акыркы символго жылдырат, учурдагы  навигатор жайгашкан  "
-"объектти окуйт."
+"объектти окуйт"
 
 #. Translators: A speech mode which disables speech output.
 msgid "Speech mode off"
@@ -3825,7 +3756,7 @@ msgid ""
 "Reads from the system caret up to the end of the text, moving the caret as "
 "it goes"
 msgstr ""
-"Азыркы каретканын тексттин аягына чейин окуйт, каретканы жылдыруусу менен."
+"Азыркы каретканын тексттин аягына чейин окуйт, каретканы жылдыруусу менен"
 
 #. Translators: Reported when trying to obtain formatting information (such as font name, indentation and so on) but there is no formatting information for the text under cursor.
 msgid "No formatting information"
@@ -3846,20 +3777,11 @@ msgstr ""
 msgid "Reports the object with focus. If pressed twice, spells the information"
 msgstr ""
 "Объектти системдик фокустун ичинде окуйт. Эки жолуу басканда, маалыматты "
-"тамгалап окуйт."
+"тамгалап окуйт"
 
 #. Translators: Reported when there is no status line for the current program or window.
 msgid "No status line found"
 msgstr "Саптын абалы табылган жок"
-
-#. Translators: Reported when status line exist, but is empty.
-#, fuzzy
-msgid "no status bar information"
-msgstr "Жайгашуусу  жөнүндө маалымат жок"
-
-#. Translators: Reported when user attempts to copy content of the empty status line.
-msgid "unable to copy status bar content to clipboard"
-msgstr ""
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -3869,7 +3791,7 @@ msgid ""
 msgstr ""
 "Учурдагы тиркемедеги саптын абалын окуйт жана ага навигаторду алып келет. "
 "Эки жолу басканда аны тамгалап окуйт. Үч жолу басканда, саптын тексттин "
-"алмашуу буферине көчүрөт."
+"алмашуу буферине көчүрөт"
 
 #. Translators: presented when the mouse tracking is toggled.
 msgid "Mouse tracking off"
@@ -4119,7 +4041,7 @@ msgstr ""
 msgid "Activates the NVDA Python Console, primarily useful for development"
 msgstr ""
 "Python консолун NVDA дагы активдештирет. Маанилүү түрдө иштеп чыгаруучулар "
-"колдонот."
+"колдонот"
 
 #. Translators: Input help mode message for activate manage add-ons command.
 msgid ""
@@ -4249,7 +4171,7 @@ msgid ""
 msgstr ""
 "Эгерде бир жолу басылса, текстти фрагменттин башынан көрүүчү курсордун "
 "учурдагы турган жерине чейин белгилейт. Эгерде эки жолу басылса, аны алмашуу "
-"буферине көчүрөт."
+"буферине көчүрөт"
 
 #. Translators: Input help mode message for a braille command.
 msgid "Scrolls the braille display back"
@@ -4368,7 +4290,7 @@ msgid ""
 "your finger was last"
 msgstr ""
 "Эгерде бармак алдындагы маалыматтарда кандайдыр бир айырма болсо, бармагыңыз "
-"акыркы жайгашкан жерден маалыматты маалымдайт,"
+"акыркы жайгашкан жерден маалыматты маалымдайт"
 
 #. Translators: Describes the command to open the Configuration Profiles dialog.
 msgid "Shows the NVDA Configuration Profiles dialog"
@@ -4388,7 +4310,7 @@ msgid ""
 "in effect until NVDA is restarted"
 msgstr ""
 "Профилдин триггер тескөөлөрүн сактоодо катачылык - балким файлдык система "
-"үчүн гана."
+"үчүн гана"
 
 #. Translators: Reported when the user attempts math interaction
 #. with something that isn't math.
@@ -4551,7 +4473,7 @@ msgstr "windows"
 
 #. Translators: This is the name of a key on the keyboard.
 msgid "enter"
-msgstr "кирүү/энтер"
+msgstr "энтер"
 
 #. Translators: This is the name of a key on the keyboard.
 msgid "numpad enter"
@@ -4603,7 +4525,7 @@ msgstr "көрсөткүч ылдыйга"
 
 #. Translators: This is the name of a key on the keyboard.
 msgid "applications"
-msgstr "кыска жол менюсу"
+msgstr "контекст менюсу"
 
 #. Translators: This is the name of a key on the keyboard.
 msgid "num lock"
@@ -4764,7 +4686,7 @@ msgstr "табулатура"
 
 #. Translators: One of the keyboard layouts for NVDA.
 msgid "desktop"
-msgstr "иш такта "
+msgstr "иш такта"
 
 #. Translators: One of the keyboard layouts for NVDA.
 msgid "laptop"
@@ -4798,23 +4720,28 @@ msgstr "топбаскыч, бардык катмарлары"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
+msgid "Amharic"
+msgstr "Амхарча"
+
+#. Translators: The name of a language supported by NVDA.
+msgctxt "languageName"
 msgid "Aragonese"
 msgstr "Арагондук"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
-msgid "Central Kurdish"
-msgstr ""
+msgid "Arabic"
+msgstr "Арабча"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
-msgid "Northern Kurdish"
-msgstr ""
+msgid "Nepali"
+msgstr "Непалча"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
-msgid "Burmese"
-msgstr ""
+msgid "Serbian (Latin)"
+msgstr "Латынча"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -4889,7 +4816,7 @@ msgstr "8-пунктуу жылдыз"
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Arc"
-msgstr "ийилген"
+msgstr "Ийилген"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5243,7 +5170,7 @@ msgstr "Блок-схема: процесс"
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Punched tape flowchart symbol"
-msgstr "перфотасмалар"
+msgstr "Перфотасмалар"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5417,19 +5344,19 @@ msgstr "Чагылган"
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Line Callout"
-msgstr "сызык чыгуусу 1"
+msgstr "Сызык чыгуусу 1"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Callout with horizontal accent bar"
-msgstr "сызык чыгуусу (чек ара  жана чийим) 1"
+msgstr "Сызык чыгуусу (чек ара  жана чийим) 1"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Callout with border and horizontal accent bar"
-msgstr "сызык чыгуусу (чек арасыз) 1"
+msgstr "Сызык чыгуусу (чек арасыз) 1"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5640,7 +5567,7 @@ msgstr "Солго оңго өйдөгө жана ылдыйга караган 
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Callout with Arrows pointing left right up and down"
-msgstr "Солго оңго өйдөгө жана ылдыйга караган жебелери менен эскертмеси "
+msgstr "Солго оңго өйдөгө жана ылдыйга караган жебелери менен эскертмеси"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5676,7 +5603,7 @@ msgstr "Оң каша"
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Right bracket"
-msgstr "Оң тегерек каша "
+msgstr "Оң тегерек каша"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5891,13 +5818,13 @@ msgid "Sound"
 msgstr "Үн"
 
 msgid "Type help(object) to get help about object."
-msgstr "объект боюнча жардам алуу үчүн help (object) баскычын териңиз"
+msgstr "Объект боюнча жардам алуу үчүн help (object) баскычын териңиз."
 
 msgid "Type exit() to exit the console"
 msgstr "Консольдон чыгуу үчүн баскычын басыңыз"
 
 msgid "NVDA Python Console"
-msgstr "NVDA Python Консолу "
+msgstr "NVDA Python Консолу"
 
 #. Translators: One of the review modes.
 msgid "Object review"
@@ -5962,7 +5889,7 @@ msgstr "катар %s"
 #. Translators: Speaks the column span added to the current column number (example output: through 5).
 #, python-format
 msgid "through %s"
-msgstr "%s аркылуу"
+msgstr "% s аркылуу"
 
 #. Translators: Speaks current column number (example output: column 3).
 #, python-format
@@ -5995,7 +5922,7 @@ msgstr "%s катарлар менен"
 msgid "level %s"
 msgstr "даража %s"
 
-#. Translators: Number of items in a list (example output: list with 5 items).
+#. Translators: Speaks number of items in a list (example output: list with 5 items).
 #, python-format
 msgid "with %s items"
 msgstr "%s элементтер менен"
@@ -6106,9 +6033,17 @@ msgstr "арткы фондогу оймо  {pattern}"
 msgid "line %s"
 msgstr "сызык %s"
 
+#. Translators: Reported when text is marked as having been inserted
+msgid "inserted"
+msgstr "киргизилген"
+
 #. Translators: Reported when text is no longer marked as having been inserted.
 msgid "not inserted"
 msgstr "киргизилген эмес"
+
+#. Translators: Reported when text is marked as having been deleted
+msgid "deleted"
+msgstr "өчүрүлгөн"
 
 #. Translators: Reported when text is no longer marked as having been  deleted.
 msgid "not deleted"
@@ -6345,7 +6280,7 @@ msgstr "&Ылдамдык"
 #. Translators: Label for a setting in synth settings ring.
 msgctxt "synth setting"
 msgid "Rate"
-msgstr "Баалоо"
+msgstr "Ылдамдык"
 
 #. Translators: Label for a setting in voice settings dialog.
 msgid "V&olume"
@@ -6375,10 +6310,10 @@ msgid "Inflection"
 msgstr "Интонация"
 
 msgid "text mode"
-msgstr "Текст режими"
+msgstr "текст режими"
 
 msgid "object mode"
-msgstr "Объект режими"
+msgstr "объект режими"
 
 #. Translators: a touch screen action performed once
 #, python-brace-format
@@ -6534,7 +6469,7 @@ msgstr "Жаңылоонуу орнотуу"
 
 #. Translators: The label of a button to postpone an NVDA update.
 msgid "&Postpone update"
-msgstr "Жаңылоону кийинкиге калтыруу "
+msgstr "Жаңылоону кийинкиге калтыруу"
 
 #. Translators: The message when a downloaded update file could not be preserved.
 msgid "Unable to postpone update."
@@ -6718,20 +6653,8 @@ msgstr "Баштоо"
 msgid "No track playing"
 msgstr "Коюлган трек жок"
 
-#. Translators: The description of an NVDA command for reading the remaining time of the currently playing track in Foobar 2000.
+#. Translators: The description of an NVDA command for Foobar 2000.
 msgid "Reports the remaining time of the currently playing track, if any"
-msgstr ""
-"Коюлган учурдагы тректин бүтүшүнө канча калганын эскертет, эгерде бар болсо"
-
-#. Translators: The description of an NVDA command for reading the elapsed time of the currently playing track in Foobar 2000.
-#, fuzzy
-msgid "Reports the elapsed time of the currently playing track, if any"
-msgstr ""
-"Коюлган учурдагы тректин бүтүшүнө канча калганын эскертет, эгерде бар болсо"
-
-#. Translators: The description of an NVDA command for reading the length of the currently playing track in Foobar 2000.
-#, fuzzy
-msgid "Reports the length of the currently playing track, if any"
 msgstr ""
 "Коюлган учурдагы тректин бүтүшүнө канча калганын эскертет, эгерде бар болсо"
 
@@ -6800,7 +6723,7 @@ msgstr "Жаңылыктар группасы:"
 
 #. Translators: This is presented in outlook or live mail, email carbon copy
 msgid "CC:"
-msgstr "көчүрмөсүн коюу:"
+msgstr "Көчүрмөсүн коюу:"
 
 #. Translators: This is presented in outlook or live mail, email subject
 msgid "Subject:"
@@ -6820,7 +6743,7 @@ msgstr "Багыттоо:"
 
 #. Translators: This is presented in outlook or live mail
 msgid "Answer to:"
-msgstr "жооп берүү:"
+msgstr "Жооп берүү:"
 
 #. Translators: This is presented in outlook or live mail
 msgid "Organisation:"
@@ -7039,7 +6962,7 @@ msgstr "Слайд көрүү"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
 msgid "Slide Master view"
-msgstr "слайд Мастер менен слайд көрүү"
+msgstr "Слайд Мастер менен слайд көрүү"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
 msgid "Notes page"
@@ -7272,13 +7195,14 @@ msgctxt "repeat"
 msgid "off"
 msgstr "кайталоо өчүк"
 
-#. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
-msgid "No emoji"
-msgstr ""
-
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
 msgstr "Optelec жүрүүчү 6-сериясы / протокол которуусу"
+
+#. Translators: Name of a bluetooth serial communications port.
+#, python-brace-format
+msgid "Bluetooth serial: {portName}"
+msgstr "Сериалдуу: {portName}"
 
 #. Translators: Message when setting HID keyboard simulation failed.
 msgid "Setting HID keyboard simulation not supported"
@@ -7300,6 +7224,15 @@ msgstr "HID топбаскыч симуляциясын которот"
 msgid "Baum/HumanWare/APH/Orbit braille displays"
 msgstr "Baum/HumanWare/APH/Orbit Брайль дисплейлери"
 
+#. Translators: Name of a serial communications port.
+#. Translators: Name of a serial communications port
+#. Translators: Name of a serial communications port.
+#. Translators: Name of a serial communications port
+#. Translators: Name of a serial communications port.
+#, python-brace-format
+msgid "Serial: {portName}"
+msgstr "Сериалдуу: {portName}"
+
 #. Translators: Names of braille displays
 msgid "HumanWare BrailleNote"
 msgstr "HumanWare BrailleNote"
@@ -7318,7 +7251,7 @@ msgstr "Eurobraille Esys/Esytime/Iris displays"
 
 #. Translators: Message when HID keyboard simulation is unavailable.
 msgid "HID keyboard input simulation is unavailable."
-msgstr ""
+msgstr "NVDAверсиясы {version} жеткиликтүү эмес."
 
 #. Translators: Description of the script that toggles HID keyboard simulation.
 msgid "Toggle HID keyboard simulation"
@@ -7560,7 +7493,7 @@ msgstr "Python консоль"
 
 #. Translators: The label of a menu item to open the Add-ons Manager.
 msgid "Manage &add-ons..."
-msgstr "Башкаруу & курамдык кошуу ..."
+msgstr "Башкаруу & курамдык кошуу..."
 
 #. Translators: The label for the menu item to create a portable copy of NVDA from an installed or another portable version.
 msgid "Create portable copy..."
@@ -7611,7 +7544,7 @@ msgstr "Кош келдиңиз диалогу..."
 
 #. Translators: The label of a menu item to manually check for an updated version of NVDA.
 msgid "&Check for update..."
-msgstr "& Жаңылоолор үчүн текшерүү..."
+msgstr "&Жаңылоолор үчүн текшерүү..."
 
 #. Translators: The label for the menu item to open About dialog to get information about NVDA.
 msgid "About..."
@@ -7773,33 +7706,6 @@ msgstr "Күтүлгөн жаңылоонуу орнотуу"
 msgid "Please wait"
 msgstr "Сураныч күтүңүз"
 
-#. Translators: The title of the dialog asking if usage data can be collected
-msgid "NVDA  Usage Data Collection"
-msgstr ""
-
-#. Translators: A message asking the user if they want to allow usage stats gathering
-msgid ""
-"In order to improve NVDA in the future, NV Access wishes to collect usage "
-"data from running copies of NVDA.\n"
-"\n"
-"Data includes Operating System version, NVDA version, language, country of "
-"origin, plus certain NVDA configuration such as current synthesizer, braille "
-"display and braille table. No spoken or braille content will be ever sent to "
-"NV Access.  Please refer to the User Guide for a current list of all data "
-"collected.\n"
-"\n"
-"Do you wish to allow NV Access to periodically collect this data in order to "
-"improve NVDA?"
-msgstr ""
-
-#. Translators: The label of a Yes button in a dialog
-msgid "&Yes"
-msgstr ""
-
-#. Translators: The label of a No button in a dialog
-msgid "&No"
-msgstr ""
-
 #. Translators: The title of the Addons Dialog
 msgid "Add-ons Manager"
 msgstr "Кошумчалардв кошуу менеджери"
@@ -7850,7 +7756,6 @@ msgstr "&Орнотуу..."
 #. Translators: The label for a button to remove either:
 #. Remove the selected add-on in Add-ons Manager dialog.
 #. Remove a speech dictionary entry.
-#. Translators: The label for a button in speech dictionaries dialog to remove existing entries.
 #. Translators: The label of a button to remove a gesture in the Input Gestures dialog.
 msgid "&Remove"
 msgstr "& Ордун алмаштыруу"
@@ -8393,7 +8298,7 @@ msgstr "Жокко чыгаруу"
 
 #. Translators: The Apply button on a NVDA dialog. This button will accept any changes but will not dismiss the dialog.
 msgid "Apply"
-msgstr "Кайрыл"
+msgstr "Колдонуу"
 
 #. Translators: The label for the list of categories in a multi category settings dialog.
 msgid "&Categories:"
@@ -8470,10 +8375,6 @@ msgstr "NVDAнын жаңылоосун автоматтык түрдө текш
 msgid "Notify for &pending update on startup"
 msgstr "Орнотууда күтүлгөн жаңыртуулар  жөнүндө маалымдоо"
 
-#. Translators: The label of a checkbox in general settings to toggle allowing of usage stats gathering
-msgid "Allow the NVDA project to gather NVDA usage statistics"
-msgstr ""
-
 #. Translators: A message to warn the user when attempting to copy current settings to system settings.
 msgid ""
 "Add-ons were detected in your user settings directory. Copying these to the "
@@ -8542,7 +8443,7 @@ msgstr "&Синтезатор"
 #. Translators: This is the label for the button used to change braille display,
 #. it appears in the context of a braille display group on the braille settings panel.
 msgid "C&hange..."
-msgstr "Өзгөртүү"
+msgstr "Өзгөртүү..."
 
 #. Translators: This is the label for the synthesizer selection dialog
 msgid "Select Synthesizer"
@@ -8615,11 +8516,11 @@ msgstr "&Чоң тамгалар үчүн сигнал чыгаруу"
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel.
 msgid "Use &spelling functionality if supported"
-msgstr "Орфографияны аткаруу жана эгерде колдоо кылынса колдонуу "
+msgstr "Орфографияны аткаруу жана эгерде колдоо кылынса колдонуу"
 
 #. Translators: This is the label for the keyboard settings panel.
 msgid "Keyboard"
-msgstr " Топбаскыч"
+msgstr "Топбаскыч"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8718,7 +8619,7 @@ msgstr "& Жарыктык аудио координат көлөмүн көзө
 
 #. Translators: This is the label for the review cursor settings panel.
 msgid "Review Cursor"
-msgstr "Кароо  курсор "
+msgstr "Кароо курсор"
 
 #. Translators: This is the label for a checkbox in the
 #. review cursor settings panel.
@@ -8794,7 +8695,7 @@ msgstr "Сүйлөө жана гудок"
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
 msgid "Report &tooltips"
-msgstr " &кеңешме"
+msgstr "&кеңешме"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -9059,7 +8960,7 @@ msgstr "&Тизмелер"
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
 msgid "Block &quotes"
-msgstr "фразаларга бөгөт коюу"
+msgstr "Фразаларга бөгөт коюу"
 
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
@@ -9242,7 +9143,7 @@ msgstr "Көрсөтүү &белгисиз билдирүүлөрдү"
 
 #. Translators: The label for a setting in braille settings to set whether braille should be tethered to focus or review cursor.
 msgid "Tether B&raille:"
-msgstr "Супер Брайль"
+msgstr "Супер Брайль:"
 
 #. Translators: The label for a setting in braille settings to read by paragraph (if it is checked, the commands to move the display by lines moves the display by paragraphs instead).
 msgid "Read by &paragraph"
@@ -9359,7 +9260,7 @@ msgstr "эчбир"
 #. Translators: This is the name of the rate boost voice toggle
 #. which further increases the speaking rate when enabled.
 msgid "Rate boos&t"
-msgstr "Баалоонун жогорулашы"
+msgstr "Ылдамдыктын жогорулашы"
 
 #. Translators: Description for a speech synthesizer.
 msgid "Windows OneCore voices"
@@ -9552,10 +9453,10 @@ msgstr "Жорумдар :{comment} by {author} on {date}"
 #. Translators: The message reported for a comment in Microsoft Word
 #, python-brace-format
 msgid "{comment} by {author} on {date}"
-msgstr "{comment}  {author}дон  {date} "
+msgstr "{comment} {author}дон {date}"
 
 msgid "Desktop"
-msgstr "Иш стол "
+msgstr "Иш стол"
 
 #. Translators: A type of chart in Microsoft Office.
 #. See https://support.office.com/en-in/article/Available-chart-types-a019c053-ba7f-4c46-a09a-82e17f3ee5be
@@ -9750,7 +9651,7 @@ msgstr "Жарылган Doughnut"
 #. Translators: A type of chart in Microsoft Office.
 #. See https://support.office.com/en-in/article/Available-chart-types-a019c053-ba7f-4c46-a09a-82e17f3ee5be
 msgid "Line"
-msgstr "сызык"
+msgstr "Сызык"
 
 #. Translators: A type of chart in Microsoft Office.
 #. See https://support.office.com/en-in/article/Available-chart-types-a019c053-ba7f-4c46-a09a-82e17f3ee5be
@@ -10163,11 +10064,11 @@ msgstr "Кубаттуулук"
 
 #. Translators: Substitute superscript two by square for R square value
 msgid " square "
-msgstr "чарчы"
+msgstr " чарчы "
 
 #. Translators: Substitute - by minus in trendline equations.
 msgid " minus "
-msgstr "минус"
+msgstr " минус "
 
 #. Translators: This message gives trendline type and name for selected series
 #, python-brace-format
@@ -10876,25 +10777,6 @@ msgstr "Саптар арасы интервал"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5 сап арасы интервал"
-
-#~ msgid "{language} - {layout}"
-#~ msgstr "{language} - {layout}"
-
-#~ msgctxt "languageName"
-#~ msgid "Amharic"
-#~ msgstr "Амхарча"
-
-#~ msgctxt "languageName"
-#~ msgid "Arabic"
-#~ msgstr "Арабча"
-
-#~ msgctxt "languageName"
-#~ msgid "Nepali"
-#~ msgstr "Непалча"
-
-#~ msgctxt "languageName"
-#~ msgid "Serbian (Latin)"
-#~ msgstr "Латынча"
 
 #~ msgid "r%s"
 #~ msgstr "тилке%s"
