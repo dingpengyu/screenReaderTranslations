@@ -1,0 +1,5 @@
+commit 5e060a21ae40cec39cb201c4e24d3a4f8dccbdb9
+Author: Michael Curran <mick@nvaccess.org>
+Date:   Fri Aug 24 16:08:06 2018 +1000
+
+    Fix typo in changes.t2t
