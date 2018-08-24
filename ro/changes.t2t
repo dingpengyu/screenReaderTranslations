@@ -3,6 +3,7 @@ Ce este nou în NVDA
 
 %!includeconf: ../changes.t2tconf
 = 2018.3 =
+Caracteristicile principale ale acestei versiuni includ detectarea automată a multor afișaje braille, suport pentru noile caracteristici ale Windows 10 precum panoul de intrare Emoji al Windows 10, dar și multe reparări ale erorilor.
 
 == Noi funcționalități ==
 - NVDA raportează acum greșeli gramaticale la expunerea lor apropiată de către paginile web din Mozilla Firefox și Google Chrome. (#8280)
@@ -71,6 +72,10 @@ Ce este nou în NVDA
  - config.pre_configReset și config.post_configReset includ steagul setărilor din fabrică pentru a specifica dacă setările sunt reîncărcate de pe disk (false) sau dacă resetarea la valorile implicite este necesară (true).
 - config.configProfileSwitch a fost redenumit la config.post_configProfileSwitch pentru a reflecta faptul că această acțiune este apelată după ce comutarea profilului are loc. (#7598)
 - Interfețele UI Automation au fost actualizate la Windows 10 October 2018 Update și Server 2019 (IUIAutomation6 / IUIAutomationElement9). (#8473)
+
+
+= 2018.2.1 =
+Această versiune include actualizări ale traducerilor din cauza eliminării în ultimul moment a unei caracteristici care cauza probleme.
 
 
 = 2018.2 =
