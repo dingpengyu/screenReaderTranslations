@@ -22,7 +22,7 @@ NVDA는 [NV Access https://www.nvaccess.org/]와 커뮤니티의 후원을 받�
 - 80개국 언어 이상의 보이스를 내장한 음성엔진 탑제
 - 가능한 경우 글꼴 이름과 크기, 스타일, 맞춤법 오류와 같은 서식 정보 알림
 - 마우스가 위치한 곳의 글자와 들을 수 있는 부가적인 지시를 자동으로 읽기
-- 다양한 점자 디스플레이 지원 (디스플레이가 점자 키보드를 탑제한 경우 텍스트 입력도 가능)
+- 다양한 점자 디스플레이 지원 및 자동 인식 가능(디스플레이가 점자 키보드를 탑제한 경우 텍스트 입력도 가능)
 - 컴퓨터에 설치하지 않아도 USB 드라이브나 다른 휴대용 미디어에서 NVDA를 완벽하게 실행 가능
 - 손쉽게 사용할 수 있는 말하는 설치 과정
 - 54개국 언어로 번역됨
@@ -46,7 +46,8 @@ eSpeak NG 이외에 NVDA가 지원하는 음성 엔진에 대한 정보를 보�
 
 ++ 점자 디스플레이 지원 ++[BrailleSupport]
 점자 사용자라면 점자 디스플레이를 통해 NvDA가 제공하는 정보를 읽을 수 있습니다.
-또한 점자 키보드를 사용하여 정자 및 약자 입력도 가능합니다.
+그리고 점자 키보드를 사용하여 정자 및 약자 입력도 가능합니다.
+또한 NVDA는 수많은 디스플레이 모델을 자동으로 인식하여 연결할 수 있습니다.
 NVDA가 지원하는 점자 디스플레이에 대한 정보는 [지원하는 점자 디스플레이 #SupportedBrailleDisplays] 섹션을 참조하세요.
 
 NVDA는 다국어 점자 정자, 약자 및 컴퓨터 점자 코드를 지원합니다.
@@ -600,6 +601,7 @@ MathType가 설치되어 있어야 함. 임시 버전을 사용하셔도 됩니�
 또한 점자 키보드를 사용하여 정자 및 약자 입력도 가능합니다.
 
 NVDA가 지원하는 점자 디스플레이에 대한 정보는 [지원하는 점자 디스플레이 #SupportedBrailleDisplays] 섹션을 참조하세요.
+또한 본 섹션에서 자동 인식 가능한 점자디스플레이 관련 정보를 확인할 수 있습니다.
 점자 관련 설정에 대해서는 [NVDA 설정 #NVDASettings]의 [점자 설정 #BrailleSettings] 섹션을 참조하세요.
 
 ++ 컨트롤, 상태 및 랜드마크 표시용 점자 기호 목록 ++[BrailleAbbreviations]
@@ -1231,9 +1233,12 @@ NVDA 설정내 점자 페널에 있는 "변경" 버튼을 선택하면 점자디
 시스템에 어떤 점자 디스플레이가 사용가능한지에 따라서 몇가지 옵션들이 표시됩니다.
 방향키를 이용하여 각 옵션들로 이동합니다.
 
+만약 자동 연결(automatic) 옵션을 선택하면 NVDA는 사용할 수 있는 점자디스플레이를 계속 찾게 됩니다.
+본 기능을 사용하여 자동 연결이 지원되는 디스플레이를 USB나 블루투스로 연결하면 NVDA는 연결된 디스플레이를 사용하게 됩니다.
+
 점자 출력 끔(No braille)은 사용 가능한 점자 디스플레이가 없다는 의미입니다.
 
-NVDA가 지원하는 점자 디스플레이에 관한 더 상세한 정보를 원하시면 [지원하는 점자 디스플레이 #SupportedBrailleDisplays] 섹션을 참조하세요.
+NVDA가 지원하는 점자 디스플레이와 각 디스플레이의 자동 연결 지원에 대한 더 상세한 정보를 원하시면 [지원하는 점자 디스플레이 #SupportedBrailleDisplays] 섹션을 참조하세요.
 
 ==== 포트 (Port) ====[SelectBrailleDisplayPort]
 사용자가 선택한 점자디스플레이가 여러 연결 포트를 지원한다면 이 콤보박스에 나열된 포트 중 하나를 선택하여 특정 디스플레이와 연결하여 사용할 수 있습니다.
@@ -1891,6 +1896,22 @@ NVDA에서 이 음성 엔진을 사용하려면 반드시 시스템에 설치해
 + 지원하는 점자 디스플레이들 +[SupportedBrailleDisplays]
 이 섹션에서는 NVDA와 점자 디스플레이 기능키에 대한 정보를 수록합니다.
 
+++ 자동 인식 및 연결을 지원하는 디스플레이 ++[AutomaticDetection]
+NVDA는 자동으로 USB나 블루투스로 연결된 디스플레이를 인식 및 연결할 수 있습니다.
+본 기능을 사용하려면 [점자디스플레이 설정 대화상자 #BrailleSettings]에서 자동 연결을 선택합니다.
+자동 연결 옵션이 기본값으로 설정되어 있습니다.
+
+자동 인식 및 연결 기능을 지원하는 디스플레이는 다음과 같습니다.
+- Handy Tech
+- Baum/Humanware/APH/Orbit
+- HumanWare Brailliant BI/B
+- HumanWare BrailleNote
+- SuperBraille
+- Optelec ALVA 6
+- HIMS 한소네/Braille EDGE/스마트비틀/싱크브레일
+- Eurobraille Esys/Esytime/Iris
+-
+
 ++ Freedom Scientific Focus/PAC Mate ++
 [Freedom Scientific http://www.freedomscientific.com/]에서 출시한 Focus 및 PaC Mate 디스플레이를 지원합니다. 이 때 USB나 블루투스로 연결하여 사용하십시요.
 먼저 Freedom scientific 점자 디스플레이 드라이버를 설치하십시요.
@@ -1900,6 +1921,8 @@ NVDA에서 이 음성 엔진을 사용하려면 반드시 시스템에 설치해
 
 기본적으로 NVDA는 USB나 블루투스를 통해 이 디스플레이를 자동으로 인식 후 연결을 시도합니다.
 그러나 사용자는 특정 연결 방식 (포트)로만으로 연결하도록 (예: 블루투스로 사용하면서 USB로 충전할 경우) 포트를 지정할 수 있습니다.
+
+현재 본 디스플레이는 자동 인식 및 연결 기능을 지원하지 않습니다.
 
 다음은 이 디스플레이에 할당된 NVDA 기능키 목록입니다.
 각 키의 위치에 대해서는 디스플레이의 사용설명서를 참고하십시요.
@@ -1991,11 +2014,11 @@ Focus 80에만 해당:
 | 왼쪽 방향키 | spLeft |
 | 오른쪽 방향키 | spRight |
 | enter key | spEnter, enter|
-| 날자와 시각 확인 | sp1+sp2 |
+| 날자와 시각 확인 | sp2+sp3 |
 | NVDA 메뉴 | sp1+sp3 |
 | windows+d (모든 창 최소화) | sp1+sp4 |
 | windows+b 키 (알림 영역으로 포커스 옮김) | sp3+sp4 |
-| windows 키 | sp2+sp3, windows |
+| windows 키 | sp1+sp2, windows |
 | alt+tab 키  | sp2+sp4 |
 | control+home 키 | t3+spUp |
 | control+end 키 | t3+spDown |
@@ -2043,6 +2066,8 @@ Focus 80에만 해당:
 NVDA에서는 [MDV http://www.mdvbologna.it/]에서 출시한 Lilli 디스플레이를 지원합니다.
 별도의 점자 디스플레이 드라이버 설치는 않하셔도 됩니다.
 다만 디스플레이를 연결한 후 NVDA를 이 디스플레이를 사용하도록 설정하십시요.
+
+현재 본 디스플레이는 자동 인식 및 연결 기능을 지원하지 않습니다.
 
 다음은 이 디스플레이에 할당된 NVDA 기능키 목록입니다.
 각 키의 위치에 대해서는 디스플레이의 사용설명서를 참고하십시요.
@@ -2096,8 +2121,10 @@ Orbit Reader 20 사용시 USB 시리얼 모드를 사용하려면 윈도우 10�
 %kc:endInclude
 
 ++ hedo ProfiLine USB ++
- NVDA에서는 [hedo Reha-Technik http://www.hedo.de/]에서 출시한 hedo ProfiLine USB를 디스플레이로 지원합니다.
+NVDA에서는 [hedo Reha-Technik http://www.hedo.de/]에서 출시한 hedo ProfiLine USB를 디스플레이로 지원합니다.
 사용전 반드시 회사에서 제공한 USB 드라이버를 설치하십시요.
+
+현재 본 디스플레이는 자동 인식 및 연결 기능을 지원하지 않습니다.
 
 다음은 이 디스플레이에 할당된 NVDA 기능키 목록입니다.
 각 키의 위치에 대해서는 디스플레이의 사용설명서를 참고하십시요.
@@ -2115,6 +2142,8 @@ Orbit Reader 20 사용시 USB 시리얼 모드를 사용하려면 윈도우 10�
 ++ hedo MobilLine USB ++
 NVDA에서는  [hedo Reha-Technik http://www.hedo.de/] 에서 출시한 hedo MobilLine USB를 디스플레이로 지원합니다.
 사용전 반드시 회사에서 제공한 USB 드라이버를 설치하십시요.
+
+현재 본 디스플레이는 자동 인식 및 연결 기능을 지원하지 않습니다.
 
 다음은 이 디스플레이에 할당된 NVDA 기능키 목록입니다.
 각 키의 위치에 대해서는 디스플레이의 사용설명서를 참고하십시요.
@@ -2258,6 +2287,8 @@ NVDA에서는 [Nippon Telesoft http://www.nippontelesoft.com/] 에서 출시한 
 이 디스플레이에 대한 자세한 정보는 http://www.seika-braille.com에서 확인할 수 있습니다.
 NVDA와 사용하기 전 회사에서 제공한 USB 드라이버를 설치하십시요.
 
+현재 본 디스플레이는 자동 인식 및 연결 기능을 지원하지 않습니다.
+
 다음은 이 디스플레이에 할당된 NVDA 기능키 목록입니다.
 각 키의 위치에 대해서는 디스플레이의 사용설명서를 참고하십시요.
 %kc:beginInclude
@@ -2283,9 +2314,10 @@ NVDA와 사용하기 전 회사에서 제공한 USB 드라이버를 설치하십
 - BRAILLEX Live 20, BRAILLEX Live 및 BRAILLEX Live Plus (USB와 블루투스)
 -
 
+현재 본 디스플레이는 자동 인식 및 연결 기능을 지원하지 않습니다.
+
 만약 BrxCom이 설치된 경우 NVDA는 BrxCom을 사용하게 됩니다.
 BrxCom을 사용하여 스크린 리더 사용에 관계없이 점자디스플레이에 장착된 키보드로 텍스트를 입력할 수 있습니다.
-NVDA에서 사용이 가능한 BrxCom 버전을 페이펀마이어에서 출시할 예정입니다.
 Trio와 BRAILLEX Live 모델 사용시 키보드 입력이 가능합니다.
 
 대부분 모델은 Easy Access Bar (EAB)라는 하드웨어를 장착합니다.
@@ -2363,7 +2395,8 @@ Live 모델에서 두번째 스위치 명령을 실행하려면 EAB를 옮기고
 -
 
 참고로 이 디스플레이들은 시리얼 포트로만 연결이 가능합니다.
-따라서 본 디스플레이를 선택한 후 반드시 연결 포트를 선택하시기 바랍니다.
+그럼으로 자동 인식 및 연결 기능을 지원하지 않습니다.
+따라서 [점자디스플레이 선택 대화상자 #SelectBrailleDisplay]를 통해 본 디스플레이를 선택한 후 반드시 연결 포트를 선택하시기 바랍니다.
 
 여러 모델은 빠르고 손쉽게 NVDA 명령을 사용할 수 있는 Easy Access Bar (EAB)라는 하드웨어를 장착합니다.
 EAB를 위, 아래, 왼쪽 또는 오른쪽의 네개 방향으로 움직이고 또한 EAB 방향 스위치를  사용하여 NVDA 명령을 실행할 수 있습니다.
@@ -2541,6 +2574,7 @@ NvDA는 다음 EcoBraille 모델을 지원합니다:
 -
 
 NVDA 점자 설정 대화상자에서 본 디스플레이가 연결된 시리얼 포트를 지정하시기 바랍니다.
+현재 본 디스플레이는 자동 인식 및 연결 기능을 지원하지 않습니다.
 
 다음은 EcoBraille 디스플레이에 할당된 NVDA 기능키 목록입니다.
 각 키의 위치에 대해서는 [EcoBraille 사용설명서 ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braille/ECO/]를 참고하십시요.
@@ -2667,6 +2701,8 @@ Iris 및 Esys 디스플레이는 10개 키로 된 점자 키보드를 탑제하�
 점자 디스플레이와 연결 포트 설정시 주의하시기 바랍니다 - 특히 USB 디스플레이를 사용하고자 하실때 회사에서 보급한 드라이버를 설치하셨다면 더욱 주의하시기 바랍니다.
 
 BRLTTY 사용시 점자 키보드가 탑제된 디스플레이를 사용한다면 BRLTTY 자체에서 점자 입력을 지원함으로 NVDA의 점자 입력 설정을 무시하셔도 됩니다.
+
+BRLTTY는 NVDA의 디스플레이 자동 인식 및 연결 기능과는 상관이 없습니다.
 
 다음은 NVDA에 할당된 BRLTTY 기능키 목록입니다.
 밑 기능키가 사용하는 점자 디스플레이에 어떻게 적용되었는지 보시려면 [BRLTTY key tables documentation http://mielke.cc/brltty/doc/KeyBindings/]을 참조하십시요.
