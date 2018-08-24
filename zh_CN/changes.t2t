@@ -4,7 +4,7 @@
 %!includeconf: ../changes.t2tconf
 
 = 2018.3 =
-此版本的新特姓包括自动检测许多盲文显示器，支持新的Windows 10功能，包括Windows 10 Imoji输入面板，以及其他错误修复。
+此版本的新特姓包括支持许多盲文点显器的自动检测，支持新的Windows 10 Imoji输入面板，以及其他错误修复。
 
 == 新特性 ==
 - 当Mozilla Firefox和Google Chrome中的网页正确显示时，NVDA将朗读语法错误。 (#8280)
