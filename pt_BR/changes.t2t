@@ -5,6 +5,7 @@ Traduzido por: Marlin Rodrigues da Silva; Cleverson Casarin Uliana; Tiago Melo C
 %!PostProc(html): ^<HTML>$ <HTML LANG='pt_BR'>
 
 = 2018.3 =
+Os destaques desta versão incluem a detecção automática de muitas Linhas Braille, o suporte a novos recursos do Windows 10 incluindo o Painel de entrada de Emojis do Windows 10, e muitas outras correções de falhas.
 
 == Novas Características ==
 - O NVDA informará erros gramaticais quando exposto de maneira apropriada por páginas web no Mozilla Firefox e no Google Chrome. (#8280)
