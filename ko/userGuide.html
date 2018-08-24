@@ -2093,10 +2093,20 @@ Sheet의 이름을 변경하려면 sheet를 선택한 후 f2를 누르세요.
 <TD>control+shift+r</TD>
 <TD>재생중인 트랙의 남은 시간을 알립니다.</TD>
 </TR>
+<TR>
+<TD>재생 시간 알림</TD>
+<TD>control+shift+e</TD>
+<TD>현재 재생중인 트랙의 현재 재생 시간을 알려줍니다.</TD>
+</TR>
+<TR>
+<TD>트랙 전체 재생 시간 알림</TD>
+<TD>control+shift+t</TD>
+<TD>재생중인 트랙의 전체 재생 시간을 알려줍니다.</TD>
+</TR>
 </TABLE>
 
 <P>
-주의: 남은 시간 알림 기능은 Foobar의 상태 표시줄이 기본 형식으로 설정되어 있을때만 유효합니다.
+주의: 위에 나열된 명령들은 Foobar의 상태 표시줄이 기본 형식으로 설정되어 있을때만 유효합니다.
 </P>
 
 <A NAME="MirandaIM"></A>
@@ -2342,6 +2352,35 @@ OK를 누르면 NVDA가 재시작됩니다.
 <P>
 이 옵션을 선택하면 NVDA는 자동으로 업데이트 버전을 체크하며 업데이트가 있을때 업데이트 대화상자를 띄웁니다.
 또한 NVDA 메뉴 - 도움말 - 업데이트 확인을 선택하여 수동으로 업데이트를 체크할 수 있습니다.
+자동 또는 수동으로 업데이트 확인시 사용자의 시스템에 적절한 업데이트를 제공하기 위해 NVDA 관련 정보가 업데이트 서버에 전송됩니다.
+다음 정보는 항상 전송됩니다:
+</P>
+
+<UL>
+<LI>사용중인 NVDA 버전
+<LI>OS 버전
+<LI>32비트 또는 64비트 OS
+</UL>
+
+<A NAME="GeneralSettingsGatherUsageStats"></A>
+<H5>NVDA 프로잭트에 NVDA 사용 통계를 전송하도록 허용</H5>
+
+<P>
+본 옵션을 선택시 NVDA 업데이트 확인시 사용자 현황(사용 국가 등)이 NV Access에 전송됩니다.
+참고로 IP 주소를 통해 사용 국가는 확인할 수 있어도 IP 주소 자체는 업데이트 서버에 저장되지 않습니다.
+업데이트 확인에 필요한 정보 외에도 다음 데이터가 전송됩니다:
+</P>
+
+<UL>
+<LI>NVDA 인터페이스 언어
+<LI>NVDA 설치 여부(설치용 또는 휴대용)
+<LI>사용중인 음성 엔진(추가 기능 포함) 이름
+<LI>사용중인 점자디스플레이(추가 기능 포함) 이름
+<LI>점자 출력표(점자 사용중일때)
+</UL>
+
+<P>
+NV Access는 본 정보를 추후 개발 반영 목적으로 사용합니다.
 </P>
 
 <A NAME="GeneralSettingsNotifyPendingUpdates"></A>
@@ -5529,6 +5568,12 @@ NvDA는 다음 브레일노트 모델을 지원합니다:
 브레일노트 터치 명령에 대해서는 <A HREF="HumanWareBrailliant">Brailliant BI/브레일노트 터치</A> 섹션에서 확인할 수 있습니다.
 </P>
 <P>
+거의 모든 브레일노트 모델에 탑제된 점자 키보드(BT) 및 QWERTY 키보드(QT)를 통해 명령을 실행할 수 있습니다(브레일노트 PK는 제외).
+브레일노트 QT 사용시 PC 키보드 emulation 기능은 지원하지 않습니다.
+또한 QT 키보드를 통해 점자 입력이 가능합니다.
+브레일노트 사용설명서내 터미널 관련 섹션을 참고하세요.
+</P>
+<P>
 만약 사용자의 브레일노트가 하나 이상의 연결 방식을 지원한다면 터미널 연결 옵션에서 원하는 포트를 선택하시기 바랍니다 (이 옵션에 대해서는 브레일노트 사용설명서를 참조바람).
 또한 NVDA 점자 설정 대화상자에서 원하는 연결 방식을 선택하시기 바랍니다.
 만약 USB나 블루투스로 연결한다면 상황에 따라 자동 연결, USB 또는 블루투스를 선택하실 수 있습니다.
@@ -5536,6 +5581,10 @@ NvDA는 다음 브레일노트 모델을 지원합니다:
 </P>
 <P>
 만약 브레일노트 에이펙스 사용시 USB로 연결하고자 한다면 먼저 휴먼웨어에서 제공한 USB 드라이버를 설치하시기 바랍니다.
+</P>
+<P>
+브레일노트 에이펙스 BT 사용시 1점과 4점 사이에 위치한 스크롤 휠을 사용하여 NVDA 명령을 실행할 수 있습니다.
+본 휠은 4개의 방향키, 중앙의 클릭 버튼, 그리고 시계 또는 시계 반대 방향으로 도는 스크롤 휠로 구성되어 있습니다.
 </P>
 <P>
 다음은 브레일노트에 할당된 NVDA 기능키 목록입니다.
@@ -5566,6 +5615,10 @@ NvDA는 다음 브레일노트 모델을 지원합니다:
 <TR>
 <TD>점자 셀로 이동</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>NvDA 메뉴</TD>
+<TD>스페이스+1점+3점+4점+5점 (스페이스+n)</TD>
 </TR>
 <TR>
 <TD>점자 연계 커서</TD>
@@ -5642,6 +5695,128 @@ NvDA는 다음 브레일노트 모델을 지원합니다:
 <TR>
 <TD>입력 도움말 시작/종료</TD>
 <TD>space+2점+5점+6점</TD>
+</TR>
+</TABLE>
+
+<P>
+다음은 브레일노트 QT(점자 입력 모드 미사용시)에 할당된 NVDA 기능키 목록입니다.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>이름</TH>
+<TH>키</TH>
+</TR>
+<TR>
+<TD>NvDA 메뉴</TD>
+<TD>read+n</TD>
+</TR>
+<TR>
+<TD>위쪽 방향키</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>아래쪽 방향키</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>왼쪽 방향키</TD>
+<TD>leftArrow|</TD>
+</TR>
+<TR>
+<TD>오른쪽 방향키</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Page up key</TD>
+<TD>function+upArrow</TD>
+</TR>
+<TR>
+<TD>Page down key</TD>
+<TD>function+downArrow</TD>
+</TR>
+<TR>
+<TD>Home key</TD>
+<TD>function+leftArrow</TD>
+</TR>
+<TR>
+<TD>End key</TD>
+<TD>function+rightArrow</TD>
+</TR>
+<TR>
+<TD>Control+home keys</TD>
+<TD>read+t</TD>
+</TR>
+<TR>
+<TD>Control+end keys</TD>
+<TD>read+b</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>enter</TD>
+</TR>
+<TR>
+<TD>Backspace key</TD>
+<TD>backspace</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>tab</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>shift+tab</TD>
+</TR>
+<TR>
+<TD>windows 키</TD>
+<TD>read+w</TD>
+</TR>
+<TR>
+<TD>Alt 키</TD>
+<TD>read+m</TD>
+</TR>
+<TR>
+<TD>입력 도움말 시작/종료</TD>
+<TD>read+1</TD>
+</TR>
+</TABLE>
+
+<P>
+다음은 스크롤 휠에 할당된 NVDA 기능키 목록입니다.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>이름</TH>
+<TH>키</TH>
+</TR>
+<TR>
+<TD>위쪽 방향키</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>아래쪽 방향키</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>왼쪽 방향키</TD>
+<TD>leftArrow|</TD>
+</TR>
+<TR>
+<TD>오른쪽 방향키</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>중앙 버튼|</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>시계 방향으로 돌림</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>시계 반대 방향으로 돌림</TD>
 </TR>
 </TABLE>
 
