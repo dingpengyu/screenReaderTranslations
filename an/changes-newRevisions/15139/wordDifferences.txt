@@ -1,0 +1,13 @@
+diff --git a/user_docs/en/changes.t2t b/user_docs/en/changes.t2t
+index 793f5aa..b904197 100644
+-{-- a/user_docs/en/changes.t2t}-
++{++ b/user_docs/en/changes.t2t}+
+@@ -4,7 +4,7 @@ What's New in NVDA
+%!includeconf: ../changes.t2tconf
+
+= 2018.3 =
+
+Highlights of this release include automatic detection of many Braille displays, support for new Windows 10 features including the Windows 10 -{Imoji}- +{Emoji}+ input panel, and many other bug fixes.
+
+== New Features ==
+- NVDA will report grammar errors when appropriately exposed by web pages in Mozilla Firefox and Google Chrome. (#8280)
