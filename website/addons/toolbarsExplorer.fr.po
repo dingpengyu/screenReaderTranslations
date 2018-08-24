@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toolbarsExplorer\n"
 "POT-Creation-Date: 2018-08-24 05:59+1000\n"
-"PO-Revision-Date: 2018-08-24 12:34+0200\n"
+"PO-Revision-Date: 2018-08-24 14:25+0200\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +50,7 @@ msgid ""
 "(you can remap it via NVDA gesture manager, under Object navigation).\n"
 msgstr ""
 "* Alt+applications : début de l'exploration des barres d'outils<br/>\n"
-"(vous pouvez le remapper via NVDA Gestes de commandes, sous Navigation par objet).\n"
+"(vous pouvez le réaffecter via le dialogue Gestes de commandes de NVDA, sous Navigation par objet).\n"
 
 #. type: Plain text
 msgid "During exploration, following gestures are available:"
@@ -113,8 +113,8 @@ msgid ""
 "set it on view menu/toolbar position."
 msgstr ""
 "Dans LibreOffice, la meilleure configuration est probablement la barre "
-"d'outils par défaut ou unique, définissez-la sur le menu Affichage / "
-"Position barre d'outils."
+"d'outils par défaut ou unique, définissez-la dans le menu Affichage / "
+"Position des barre d'outils."
 
 #. type: Plain text
 #, no-wrap
