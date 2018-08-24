@@ -1,0 +1,5 @@
+commit 9888190a4bbb4a0be3fc212a374ce239eb2f96b8
+Author: Michael Curran <mick@nvaccess.org>
+Date:   Fri Aug 24 09:26:44 2018 +1000
+
+    Add release blurb
