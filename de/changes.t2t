@@ -4,6 +4,7 @@ Was ist neu in NVDA
 %!includeconf: ../changes.t2tconf
 
 = 2018.3 =
+Zu den Highlights dieser Version gehören die automatische Erkennung vieler Braillezeilen, die Unterstützung neuer Windows 10-Funktionen, einschließlich des Windows 10 Imoji-Eingabebereichs, und viele andere Fehlerbehebungen.
 
 == Neue Funktionen ==
 - NVDA meldet Grammatikfehler, wenn sie von Webseiten in Mozilla Firefox und Google Chrome angemessen dargestellt werden. (#8280)
