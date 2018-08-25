@@ -2548,13 +2548,13 @@ Voor de BrailleNote QT zijn de volgende commando's van toepassing als deze niet 
 | Home-toets | functie+Pijllinks |
 | End-toets | functie+Pijlrechts |
 | Control+home-toetsen | lezen+t |
-+| Control+end-toetsen | lezen+b |
+| Control+end-toetsen | lezen+b |
 | Enter-toets | enter |
 | Backspace-toets | backspace |
 | Tab-toets | tab |
 | Shift+tab-toetsen | shift+tab |
 | Windows-toets | lezen+w |
-+| Alt-toets | lezen+m |
+| Alt-toets | lezen+m |
 | Invoerhulp Aan/Uit | lezen+1 |
 
 Met het scrollwieltje kunnen de volgende commando's worden uitgevoerd:
@@ -2709,7 +2709,7 @@ Wanneer u de leesregel configureert en de te gebruiken poort instelt, moet u erv
 Het  Brltty-programma zorgt zelf voor de verwerking van brailleïnvoer van leesregels die over een brailletoetsenbord beschikken.
 Het is dan ook niet relevant dat een invoertabel in NVDA wordt ingesteld.
 
-DBRLTYY maakt geen deel uit van de op de achtergrond uitgevoerde automatische leesregelherkenning van NVDA.
+DBRLTYY blijft buiten de op de achtergrond uitgevoerde automatische leesregelherkenning van NVDA.
 
 De volgende brltty-commando's worden in NVDA ondersteund.
 Voor informatie over toetsenbordtabellen kunt u de  [BRLTTY-Documentatie op 
