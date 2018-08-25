@@ -250,7 +250,7 @@ nl 14.12. start:2317 paragraphs:9, tables:3, lists:2
 en 14.13. start:2365 paragraphs:4, tables:1, lists:1
 nl 14.13. start:2402 paragraphs:8, tables:4, lists:1
 en 14.14. start:2413 paragraphs:3, tables:1, lists:1
-nl 14.14. start:2483 paragraphs:9, tables:5, lists:3
+nl 14.14. start:2483 paragraphs:9, tables:3, lists:1
 en 14.15. start:2448 paragraphs:1, tables:1, lists:0
 nl 14.15. start:2572 paragraphs:4, tables:1, lists:1
 en 14.16. start:2458 paragraphs:3, tables:1, lists:0
