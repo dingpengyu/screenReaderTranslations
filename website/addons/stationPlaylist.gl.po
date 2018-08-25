@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA website files\n"
-"POT-Creation-Date: 2018-07-30 14:57+1000\n"
+"POT-Creation-Date: 2018-08-26 02:06+1000\n"
 "PO-Revision-Date: 2018-05-29 11:16+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA Translation team <LL@li.org>\n"
@@ -975,6 +975,21 @@ msgstr ""
 "realizar algunhas ordes do Studio dende a pantalla tactil. Primeiro usa un "
 "toque con tgres dedos para cambiar a modo SPL, logo usa as ordes tactiles "
 "listadas arriba para realizar ordes."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.04.1"
+msgid "Version 18.08.2"
+msgstr "Versión 18.04.1"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer check for Studio add-on updates if Add-on Updater (proof "
+"of concept) add-on is installed. Consequently, add-on settings will no "
+"longer include add-on update related settings if this is the case. If using "
+"Add-on Updater, users should use features provided by this add-on to check "
+"for Studio add-on updates."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-07-30 14:57+1000\n"
+"POT-Creation-Date: 2018-08-26 02:06+1000\n"
 "PO-Revision-Date: 2017-12-28 10:52-0800\n"
 "Last-Translator: Erion <rob.mail@freemail.hu>\n"
 "Language-Team: HU <LL@li.org>\n"
@@ -962,6 +962,21 @@ msgstr ""
 "újabb verzió alatt, NVDA 2012.3 vagy újabb verzióval, bizonyos Studio "
 "parancsokat végrehajthat az érintőképernyőn is. Először 3 ujjas koppintással "
 "váltson SPL módra, és utána már használhatók az alább felsorolt parancsok."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 5.0"
+msgid "Version 18.08.2"
+msgstr "Az 5.0 verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer check for Studio add-on updates if Add-on Updater (proof "
+"of concept) add-on is installed. Consequently, add-on settings will no "
+"longer include add-on update related settings if this is the case. If using "
+"Add-on Updater, users should use features provided by this add-on to check "
+"for Studio add-on updates."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
