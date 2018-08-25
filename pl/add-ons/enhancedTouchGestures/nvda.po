@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enhancedTouchGestures 17.12\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-12-15 06:10+1000\n"
-"PO-Revision-Date: 2018-07-28 19:13+0100\n"
+"PO-Revision-Date: 2018-08-23 19:50+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -30,7 +30,7 @@ msgstr "Enhanced Touch Gestures"
 #. Translators: This is the label for a checkbox in the
 #. Enhanced Touch Gestures settings panel.
 msgid "Completely disable touch interaction support"
-msgstr "Całkowicie wyłącza wsparcie interakcji dotykowej"
+msgstr "Całkowicie wyłącz wsparcie interakcji dotykowej"
 
 #. Translators: The label for a setting in Enhanced Touch Gestures settings panel to allow users to interact directly with touchscreens for specified duration in seconds.
 msgid "&Pause NVDA's touch support (duration in seconds)"
@@ -40,7 +40,6 @@ msgstr "&Zatrzymaj wsparcie interakcji dotykowej (w sekundach)"
 msgid "&Manually toggle touch passthrough"
 msgstr "&Ręczne przełączanie dotyku"
 
-#, fuzzy
 msgid ""
 "You are about to turn off touch interaction support completely so the "
 "touchscreen can be used as though NVDA is not running. To enable touch "
@@ -48,7 +47,7 @@ msgid ""
 "Settings and uncheck 'disable touch interaction support' checkbox. Are you "
 "sure you wish to completely disable touch interaction support?"
 msgstr ""
-"Zamykasz wsparcie interakcji dotykowej. Po jego zamknięciu, ekran dotykowy "
+"Zamykasz wsparcie interakcji dotykowej. Po jego wyłączeniu, ekran dotykowy "
 "można będzie obsługiwać tylko za pomocą standardowych gestów, niezależnych "
 "od NVDA. Aby włączyć wsparcie dotyku, należy powrócić do tego okna "
 "dialogowego i odznaczyć pole wyboru 'wyłącz wsparcie interakcji dotykowej'. "
@@ -59,17 +58,16 @@ msgstr "Wyłącz wsparcie interakcji dotykowej"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "A suite of additional touch commands, including navigation and help "
 "commands.\n"
 "\tRequires a touch-enabled computer with Windows 8.1 or later with NVDA "
 "2017.4 or later installed."
 msgstr ""
-"Jest to zestaw dodatkowych komend dotykowych, takich jak tabulator oraz "
-"komendy pomocy.\n"
+"Jest to zestaw dodatkowych komend dotykowych, takich jak komendy nawigacji i "
+"pomocy.\n"
 "\tWymaga włączonego interfejsu dotykowego, systemu Windows 8.0 lub nowszego "
-"oraz NVDA 2012.3 lub nowszej."
+"oraz NVDA 2012.3 lub nowszego."
 
 #~ msgid "&Touch Interaction..."
 #~ msgstr "&Ustawienia interakcji Dotykowej..."
