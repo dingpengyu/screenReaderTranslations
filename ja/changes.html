@@ -10,6 +10,103 @@
 </CENTER>
 
 
+<H2>2018.3</H2>
+
+<P>
+このリリースのハイライトは、点字ディスプレイの自動検出、Windows 10 絵文字パネルなどへの対応、多くのバグ修正です。
+</P>
+
+<H3>新機能</H3>
+
+<UL>
+<LI>Mozilla Firefox および Google Chrome と適切に作成された Web ページの組み合わせで、スペルミスの報告を行うようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>Google Chrome において、Webページの中で挿入や削除のマークアップを報告するようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
+<LI>点字ディスプレイ BrailleNote のドライバーを使用しているときに BrailleNote QT および Apex BT のスクロールホイールが利用できるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/5992">#5992</A>, <A HREF="http://github.com/nvaccess/nvda/issues/5993">#5993</A>)
+<LI>Foobar2000 アプリにおいて、現在のトラックの経過時間や合計時間を報告できるようにスクリプトが追加されました。 (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
+<LI>Mac コマンドキーの記号 (⌘) がすべての音声エンジンで読み上げられるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
+<LI>aria-roledescription 属性によるカスタムロールがすべてのWebブラウザで利用可能になりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8448">#8448</A>)
+<LI>新しい点字テーブル: チェコ語8点、中央クルド語、エスペラント、ハンガリー語、スウェーデン語8点コンピューター点字 (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
+<LI>バックグラウンド処理で自動的に点字ディプレイを検出できるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, Handy Tech, Hims, SuperBraille および HumanWare BrailleNote と Brailliant BI/B ディスプレイに現在は対応しています。
+ <LI>NVDA設定ダイアログの「点字ディスプレイ」選択ダイアログで「自動」を選ぶことでこの機能を利用できます。
+ <LI>詳細はユーザーガイドを参照してください。
+ </UL>
+<LI>Windows 10 の最近のリリースで導入されたさまざまな文字入力への対応。具体的には、絵文字パネル (Fall Creators Update)、ディクテーション (Fall Creators Update)、ハードウェアキーボード入力の予測候補 (April 2018 Update)、クラウドクリップボードの貼り付け (October 2018 Update)です。 (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
+<LI>ARIA (role blockquote) でブロッククォートとマークされた内容が Mozilla Firefox 63 で利用できるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8577">#8577</A>)
+</UL>
+
+<H3>変更点</H3>
+
+<UL>
+<LI>NVDA設定ダイアログの「一般」カテゴリーで利用可能な言語のリストが言語の名前の順に並ぶようになりました。従来は ISO 639 コードの順番に並んでいました。 (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
+<LI>Freedom Scientific の点字ディスプレイにおいて Alt+Shift+Tab および Windows+Tab のデフォルトジェスチャーを割り当てるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>ALVA BC680 およびプロトコルコンバーターによる点字ディスプレイ接続において、左右のスマートパッド、親指と etouch キーに異なるコマンドを割り当てられるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>ALVA BC6 点字ディスプレイにおいて、キーの組み合わせ sp2+sp3 は現在の日付と時刻の報告に割り当てられました。また sp1+sp1 は Windows キーのエミュレーションになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>NVDA 起動時に1回だけ、更新の確認で NV Access に情報を送ってもよいかどうかを質問するようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>更新の確認において、NV Access に利用統計情報を送ることを了承した場合に、NVDA は現在の音声エンジンと点字ディスプレイの種類を送るようになりました。これは今後のドライバー開発の方針を決めるために使われます。 (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>liblouis 点訳エンジンを 3.6.0 に更新しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8365">#8365</A>)
+<LI>ロシア語8点点字テーブルのパスを修正しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
+<LI>eSpeak-ng を 1.49.3dev commit 910f4c2 に更新しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
+</UL>
+
+<H3>バグ修正</H3>
+
+<UL>
+<LI>Google Chrome のブラウズモードにおいて、コントロールのアクセシブルラベル(aria-label)を報告するようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
+<LI>Zoom アプリの通知に対応しました。例えばミュート、ミュート解除、メッセージの受信などです。 (<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
+<LI>ブラウズモードで点字表示コンテクストを切り替えたときに点字ディスプレイでカーソル追跡の表示が止まる不具合を修正しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>ALVA BC680 点字ディスプレイで初期化に失敗することがある問題を修正しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>ALVA BC6 ディスプレイのデフォルト設定において、sp2+sp3 でシステムキーボードのエミュレーションをする内部機能の呼び出しを無効にしました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>ALVA BC6 ディスプレイの sp2 で Alt キーをエミュレートする機能が正しく動作するようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
+<LI>キーボード配列の切替における冗長な報告を控えるようになりました。(<A HREF="http://github.com/nvaccess/nvda/issues/7383">#7383</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
+<LI>メモ帳やプレインテキストを編集するコントロールにおいて、ドキュメントの大きさが65535文字を超える場合に、マウスの追跡が不正確になっていた問題を修正しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8397">#8397</A>)
+<LI>Windows 10 およびモダン UI アプリのダイアログをより適切に認識できるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
+<LI>Windows 10 October 2018 Update および Server 2019 およびそれ以降において、アプリのフリーズや大量のイベントが発生した場合に、システムフォーカスを追従できなくなっていた問題を修正しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
+<LI>ステータスバーの報告やクリップボードへのコピーにおいて、内容がなかった場合の報告が行われるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
+<LI>コントロールが「一部チェック」から「チェックなし」に変更されたときに音声で報告されなかった問題を修正しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>NVDA 設定ダイアログ「一般」の言語のリストにおいて「ミャンマー語」が Windows 7 で正しく表示されるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>Microsoft Edge において、読み取りビューが利用可能な場合や、ページ読み込みのプログレスなどを報告するようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
+<LI>Web コンテンツでリストの中の移動において、aria-label などのラベルがある場合に報告するようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
+<LI>点字ディスプレイの入力ジェスチャーへのコマンドの割り当てにおいて、特定の点字ディスプレイに割り当てたコマンドが常に表示されるようになりました。従来は、現在アクティブな点字ディスプレイに割り当てられたコマンドだけが表示されていました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>Media Player Classic の64ビット版に対応しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>Microsoft Word で UI Automation が有効の場合の点字ディスプレイ対応などの改善:
+ <UL>
+ <LI>複数行エディットフィールドの場合と同様に、ドキュメントの開始位置に移動する場合の点字ディスプレイの表示範囲が変更されました。具体的には、ドキュメントの最初の文字が点字ディスプレイの開始位置に表示されるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
+ <LI>Wordドキュメントにフォーカスを移動した場合の、音声および点字ディスプレイの両方についての冗長な報告を控えるようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>Wordドキュメントのリストにおいて、点字ディスプレイのタッチカーソルに関する処理を修正しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ <LI>Wordドキュメントの箇条書き挿入において、音声および点字ディスプレイのビュレットや番号に関する報告を修正しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ </UL>
+<LI>Windows 10 バージョン 1803 以降の「ワールドワイド言語サポートで Unicode UTF-8 を使用」が有効の場合に、アドオンのインストールで不具合が起こらないようになりました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+</UL>
+
+<H3>開発者向けの変更</H3>
+
+<UL>
+<LI>scriptHandler.script を追加しました。これは scriptable objects のスクリプトに対するデコレーターとして使えます。 (<A HREF="http://github.com/nvaccess/nvda/issues/6266">#6266</A>)
+<LI>NVDA のためのシステムテストフレームワークを導入しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/708">#708</A>)
+<LI>hwPortUtils モジュールの変更点: (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>listUsbDevices がディクショナリを yield します。これは hardwareID や devicePath などのデバイス情報を含みます。
+ <LI>hardware ID に USB VID/PID を含むような COM ポートの場合に、listComPorts が yield するディクショナリに usbID が含まれます。
+ </UL>
+<LI>wxPython を 4.0.3 に更新しました。 (<A HREF="http://github.com/nvaccess/nvda/issues/7077">#7077</A>)
+<LI>NVDA のサポート対象が Windows 7 SP1 またはそれ以降になったため "minWindowsVersion" キーによって Windows のバージョンで UIA の有効・無効を判断する処理は削除されました。 (<A HREF="http://github.com/nvaccess/nvda/issues/8422">#8422</A>)
+<LI>config の save や reset アクションで通知を受ける処理を登録できるようになりました。導入されたアクションは config.pre_configSave, config.post_configSave, config.pre_configReset, config.post_configReset です。 (<A HREF="http://github.com/nvaccess/nvda/issues/7598">#7598</A>)
+ <UL>
+ <LI>config.pre_configSave は NVDA の設定が保存される直前に呼ばれます。 config.post_configSave は保存の直後に呼ばれます。
+ <LI>config.pre_configReset と config.post_configReset には factory defaults flag があります。設定がディスクからリロードされた場合は False で、設定をデフォルトに戻した場合は True です。
+ </UL>
+<LI>config.configProfileSwitch の名前を config.post_configProfileSwitch に変更しました。これは実際にプロファイルの切替を実行したあとで呼ばれることを明確にするためです。 (<A HREF="http://github.com/nvaccess/nvda/issues/7598">#7598</A>)
+<LI>Windows 10 October 2018 Update および Server 2019 に対応させるために UI Automation インタフェースを更新しました。(IUIAutomation6 / IUIAutomationElement9) (<A HREF="http://github.com/nvaccess/nvda/issues/8473">#8473</A>)
+</UL>
+
+<H2>2018.2.1</H2>
+
+<P>
+このリリースの変更点は翻訳の更新です。不具合が発生したために取り消された機能に関する翻訳が正しく更新されました。
+</P>
+
 <H2>2018.2</H2>
 
 <P>
