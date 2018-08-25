@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-22 18:34+1000\n"
-"PO-Revision-Date: 2018-06-25 20:52+0300\n"
+"PO-Revision-Date: 2018-08-25 10:23+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -54,16 +54,12 @@ msgstr ""
 "informații."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The addon adds an extra landmark not included by default in NVDA, the "
-#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
 "article (abbreviated in Braille as art)."
 msgstr ""
 "Suplimentul adaugă un reper suplimentar, care nu este inclus implicit în "
-"NVDA."
+"NVDA, articolul (abreviat în braille ca art)."
 
 #. type: Title ##
 #, no-wrap
@@ -71,12 +67,6 @@ msgid "The configuration dialog"
 msgstr "Dialogul de configurare"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can enable or disable landmarks by going to NVDA, preferences, "
-#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
-#| "you disable a landmark, you won't be able to jump to it pressing the d "
-#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
 "Aria Settings or from the appropriate category in the NVDA options dialog. "
@@ -95,19 +85,14 @@ msgid "Contact info"
 msgstr "Informații de contact"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "This addon has been developed by Jose Manuel Delicado. If you want to "
-#| "contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on "
-#| "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgid ""
 "This addon has been developed by Jose Manuel Delicado. If you want to "
 "contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
 "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgstr ""
-"Acest supliment a fost dezvoltat de Jose Manuel Delicado. Dacă vreți să îl "
-"contactați, trimiteți un e-mail la jmdaweb@hotmail.com, sau începeți o "
-"discuție pe Github la https://github.com/jmdaweb/enhancedAria"
+"Acest supliment a fost dezvoltat de José Manuel Delicado. Dacă vreți să îl "
+"contactați, trimiteți un e-mail la jm.delicado@nvda.es, sau raportați un bug "
+"pe Github la https://github.com/jmdaweb/enhancedAria"
 
 #. type: Title ##
 #, no-wrap
@@ -115,26 +100,26 @@ msgid "Changelog"
 msgstr "Noutăți"
 
 #. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Version 2.0"
+#, no-wrap
 msgid "Version 2.2"
-msgstr "Versiunea 2.0"
+msgstr "Versiunea 2.2"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a fatal error when a Braille display was used and the article role was "
 "configured to be reported."
 msgstr ""
+"S-a reparat o eroare fatală care avea loc atunci când se utiliza un afișaj "
+"Braille. Mai exact, rolul articolului era configurat pentru a fi raportat."
 
 #. type: Title ###
-#, fuzzy, no-wrap
-#| msgid "Version 2.0"
+#, no-wrap
 msgid "Version 2.1"
-msgstr "Versiunea 2.0"
+msgstr "Versiunea 2.1"
 
 #. type: Bullet: '* '
 msgid "Stability improvements"
-msgstr ""
+msgstr "Îmbunătățiri de stabilitate"
 
 #. type: Title ###
 #, no-wrap

@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2017-11-29 11:42+0200\n"
+"PO-Revision-Date: 2018-08-25 10:43+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -89,16 +89,17 @@ msgstr ""
 "și cu NVDA 2014.1 sau mai nou."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.05"
+#, no-wrap
 msgid "Version 18.07"
-msgstr "Versiunea 17.05"
+msgstr "Versiunea 18.07"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where leading zeroes would not be displayed when trying to "
 "obtain remaining time for a track."
 msgstr ""
+"A fost rezolvată o problemă în care nu s-ar afișa zerouri de conducere "
+"atunci când se încearcă să se obțină timpul rămas pentru o piesă."
 
 #. type: Title ##
 #, no-wrap
@@ -241,7 +242,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.1"
-msgstr "Modificări aduse în versiunea 1.1."
+msgstr "Modificări aduse în versiunea 1.11"
 
 #. type: Bullet: '* '
 msgid "Support for message announcements in braille."

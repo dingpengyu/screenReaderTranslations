@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-05-11 15:47+1000\n"
-"PO-Revision-Date: 2017-06-03 14:39+0300\n"
+"PO-Revision-Date: 2018-08-25 10:38+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -49,8 +49,6 @@ msgid "The following colors are used by this addon:"
 msgstr "Culorile utilizate de către acest add-on sunt:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Green jagged line, to indicate the navigator object."
 msgid ""
 "Green thin dashed dotted line rectangle, to indicate the navigator object."
 msgstr "Linie verde zimțată pentru a indica obiectul navigatorului."
@@ -58,7 +56,7 @@ msgstr "Linie verde zimțată pentru a indica obiectul navigatorului."
 #. type: Bullet: '* '
 msgid "Red thin rectangle, to indicate the focused object/control."
 msgstr ""
-"dreptunghi roșu subțire, pentru a indica obiectul sau controlul focalizat."
+"Dreptunghi roșu subțire, pentru a indica obiectul sau controlul focalizat."
 
 #. type: Bullet: '* '
 msgid ""
@@ -69,49 +67,38 @@ msgstr ""
 "obiectul focalizat se suprapun."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Blue thick rectangle with thin slashes, to indicate NVDA is in focus "
-#| "mode, i.e. key types are passed to the control."
 msgid ""
 "Blue thick dotted line rectangle, to indicate NVDA is in focus mode, i.e. "
 "key types are passed to the control."
 msgstr ""
-"Dreptunghi gros albastru cu peruri subțiri, pentru a indica NVDA este în "
-"modul focalizare, adică tipurile de taste sunt transmise la control."
+"Dreptunghi gros albastru cu peruri subțiri, pentru a indica faptul că NVDA "
+"este în modul focalizare, adică tipurile de taste sunt transmise la control."
 
 #. type: Plain text
 msgid "To disable object tracking, uninstall the addon."
 msgstr "Pentru a dezactiva track obiect, dezinstalează add-on-ul."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 4.0"
+#, no-wrap
 msgid "Changes for 5.0"
-msgstr "Modificări aduse în versiunea 4.0."
+msgstr "Modificări aduse în versiunea 5.0"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Red thick rectangle, to indicate when navigator object and focused object "
-#| "are overlapping."
 msgid "Indicators of navigator object and focus mode were changed."
-msgstr ""
-"Dreptunghi roșu gros, pentru a indica când obiectul navigatorului și "
-"obiectul focalizat se suprapun."
+msgstr "Indicatorii obiectului navigator au fost modificați."
 
 #. type: Bullet: '* '
 msgid "Multiple monitors are supported."
-msgstr ""
+msgstr "Sunt suportate monitoare multiple."
 
 #. type: Bullet: '* '
 msgid "It now uses GDI Plus technology for drawing."
-msgstr ""
+msgstr "Acum, utilizează tehnologia GDI Plus pentru desen."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 4.0"
-msgstr "Modificări aduse în versiunea 4.0."
+msgstr "Modificări aduse în versiunea 4.0"
 
 #. type: Bullet: '* '
 msgid "Hide rectangle if current application is in sleep mode."
@@ -121,11 +108,11 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.0"
-msgstr "Modificări aduse în versiunea 3.0."
+msgstr "Modificări aduse în versiunea 3.0"
 
 #. type: Bullet: '* '
 msgid "Fixed issue regarding expanded combo box."
-msgstr ""
+msgstr "S-a rezolvat problema cu privire la casetele combinate extinse."
 
 #. type: Bullet: '* '
 msgid "Fixed issue with Windows Task Manager."
@@ -142,7 +129,7 @@ msgstr "Modificări aduse în versiunea 2.1"
 
 #. type: Bullet: '* '
 msgid "New and updated translations."
-msgstr "traduceri noi și actualizate"
+msgstr "Traduceri noi și actualizate."
 
 #. type: Title ##
 #, no-wrap
@@ -156,7 +143,7 @@ msgstr "Ajutorul suplimentului este valabil din managerul de add-on-uri."
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.1"
-msgstr "Modificări aduse în versiunea 1.1."
+msgstr "Modificări aduse în versiunea 1.1"
 
 #. type: Bullet: '* '
 msgid "Changed navigator object rectangle to jagged line."
@@ -169,7 +156,7 @@ msgstr "A fost rezolvată problema cu \"Reîncarcă plugin-urile\"."
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr "Modificări aduse în 1.0."
+msgstr "Modificări aduse în 1.0"
 
 #. type: Bullet: '* '
 msgid ""

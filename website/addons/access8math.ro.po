@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-25 07:04+1000\n"
-"PO-Revision-Date: 2018-07-16 11:04+0300\n"
+"PO-Revision-Date: 2018-08-24 22:51+0300\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -106,17 +106,20 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Settings dialog"
-msgstr ""
+msgstr "Dialogul de setări"
 
 #. type: Bullet: '* '
 msgid "Language: Access8Math reading language"
-msgstr ""
+msgstr "Limba: Limba de citire a Access8Math"
 
 #. type: Bullet: '* '
 msgid ""
 "Analyze the mathematical meaning of content: Semantically analyze the math "
 "content, in line with specific rules, read in mathematical meaning of that rules."
 msgstr ""
+"Analizează semnificația matematică a conținutului: Analizează semantic conținutul "
+"matematic, în linie cu regulile specifice, citește semnificația acelei reguli din "
+"punct de vedere matematic."
 
 #. type: Bullet: '* '
 msgid ""

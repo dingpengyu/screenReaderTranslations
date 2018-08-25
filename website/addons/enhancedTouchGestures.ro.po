@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-01 11:17+1000\n"
-"PO-Revision-Date: 2018-06-25 20:57+0300\n"
+"PO-Revision-Date: 2018-08-25 10:24+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -200,14 +200,13 @@ msgstr ""
 "debifați această casetă sau comutați manual la trecerea prin atingere."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.06"
+#, no-wrap
 msgid "Version 18.08"
-msgstr "Versiunea 18.06"
+msgstr "Versiunea 18.08"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 and future versions."
-msgstr ""
+msgstr "Compatibil cu NVDA 2018.3 și cu versiuni viitoare."
 
 #. type: Title ##
 #, no-wrap
