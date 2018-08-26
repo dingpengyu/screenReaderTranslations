@@ -10,6 +10,74 @@
 </CENTER>
 
 
+<H2>2018.3</H2>
+
+<P>
+Főbb újdonságok: több braille-kijelző automatikus felismerése, több új windows 10-es tulajdonság, mint pl. a windows 10 hangulatjel-beviteli panelének támogatása és még sok más hibajavítás.
+</P>
+
+<H3>Újdonságok</H3>
+
+<UL>
+<LI>Az NVDA már bejelenti a helyesírási hibákat, ha azokat a weboldalak megfelelően kijelzik a Firefoxban és Chrome-ban. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>A Google Chrome-ban már megfelelően bejelenti az NVDA, ha egy tartalom megjelölése beszúrt vagy törölt. (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
+<LI>Az NVDA már támogatja a BrailleNote QT és Apex BT görgőkerekének a használatát, ha a BrailleNote-t (braille jegyzetelőt) braille kijelzőként használják az NVDA-val. (<A HREF="http://github.com/nvaccess/nvda/issues/5992">#5992</A>, <A HREF="http://github.com/nvaccess/nvda/issues/5993">#5993</A>)
+<LI>Foobar2000: Hozzáadták azokat a szkripteket, melyek segítségével bemondatható a zeneszámból eltelt és hátralévő idő. (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
+<LI>Az NVDA már bármely beszédszintetizátorral fel tudja olvasni a Mac parancsbillentyűjének jelét egy szöveg olvasásakor. (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
+<LI>Minden böngészőben támogatottá váltak  a dokumentumokban az aria-roledescription attribútum segítségével definiált egyéni szerepek. (<A HREF="http://github.com/nvaccess/nvda/issues/8448">#8448</A>)
+<LI>Új braille táblák: Cseh 8 pontos, közép-Kurd, Eszperantó, magyar, Svéd 8 pontos számítógépes braille. (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
+<LI>Az NVDA már képes arra, hogy  a háttérben automatikusan felismerje a braille kijelzőket. (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>Az NVDA jelenleg az ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, Handy Tech, Hims, SuperBraille és HumanWare BrailleNote és Brailliant BI/B kijelzőket támogatja. Ezt a funkciót a braille kijelzők listájában az automatikus választási lehetőséggel lehet kiválasztani a braille kijelzők beállításai párbeszédpanelen. Kérjük, tanulmányozza a dokumentációt a további részletekért. 
+ </UL>
+<LI>Számos új, az utóbbi kiadásokban megjelent  windows 10-es beviteli lehetőséget és egyéb funkciót támogat az NVDA, mint az emoji beviteli panel (Fall Creators Update), a diktálás (Fall Creators Update), a hardveres billentyűzeti beviteli javaslatokat (2018 áprilisi frissítés), valamint a felhős vágólapos beillesztést (2018 .októberi frissítés). (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
+<LI>Firefox 63: Már támogatott az ARIA (role blockquote)segítségével idézetblokk megjelöléssel ellátott tartalom. (<A HREF="http://github.com/nvaccess/nvda/issues/8577">#8577</A>)
+</UL>
+
+<H3>Változások</H3>
+
+<UL>
+<LI>Az NVDA általános beállítások párbeszédpanelén a nyelvek már név szerint vannak sorba rendezve, nem pedig az ISO-639 kódok szerint. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
+<LI>Alapértelmezett vezérlőparancsokat adtak hozzá a Freedom Scientific braille kijelzőkhöz az alt+shift+tab és a windows+tab billentyűparancs működtetésére. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>ALVA BC680 és protocol converter kijelzők: Már lehetséges eltérő funkciókat rendelni a bal és jobb oldali smart pad, thumb és etouch gombokhoz. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>ALVA BC6 kijelzők: az sp2+sp3 billentyűkombinációval megjeleníthető az aktuális dátum és idő. Az sp1+sp2 kombináció a windows gomb lenyomását emulálja. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Az NVDA első indításakor a program megkérdezi a felhasználót, hogy szeretne-e használati statisztikákat küldeni az NV Access részére. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>Amennyiben a felhasználó engedélyezi a használati statisztikák küldését, az NVDA a frissítések keresése közben elküldi a használt beszédszintetizátor és braille kijelző nevét a fejlesztőknek, hogy jobban tudják rangsorolni a rájuk fordított munkát. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>Frissült a liblouis braille fordító a 3.6.0-s verzióra. (<A HREF="http://github.com/nvaccess/nvda/issues/8365">#8365</A>)
+<LI>Javították   az orosz nyolcpontos  Braille tábla elérési útját. (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
+<LI>Frissült az  eSpeak-ng az 1.49.3 verzióra (lásd 910f4c2.  számú fejlesztői bejelentés). (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
+</UL>
+
+<H3>Hibajavítások</H3>
+
+<UL>
+<LI>Googgle Chrome: Böngészőmódban  javult a vezérlők címkéinek bejelentése. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
+<LI>Zoom: már támogatott az értesítések bejelentése, pl. a némítás státusza, és bejövő üzenetek. (<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
+<LI>ha böngészőmódban megváltoztatja az aktív elemre vonatkozó információk bejelentési módját, a braille kimenet továbbra is a böngésző módú kurzort fogja követni. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>ALVA BC680 braille kijelzők azonosítása során már nem lép fel időszakos hiba. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>ALVA BC6 kijelzők: Alapértelmezés szerint a kijelző saját opcióit előhívó billentyűkombinációk, mint  sp2+sp3 már nem a rendszerbillentyűzet emulálására vannak beállítva. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>ALVA BC6 kijelzők: az alt gomb emulálására szolgáló sp2 gomb már az elvártaknak megfelelően működik. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
+<LI>Az NVDA már nem jelent be feleslegesen billentyűzetkiosztás változásokat. (<A HREF="http://github.com/nvaccess/nvda/issues/7383">#7383</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
+<LI>Az egérkurzor követése sokkal jobban működik  a Notepadnál és  más szerkeszthető szöveges vezérlőknél olyan dokumentumok esetén, amik több mint  65535 karaktert tartalmaznak. (<A HREF="http://github.com/nvaccess/nvda/issues/8397">#8397</A>)
+<LI>Az NVDA már több párbeszédpanelt ismer fel a Windows 10-ben és más modern alkalmazásokban. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
+<LI>Windows 10 2018 októberi frissítés és Server 2019 és újabb kiadások: az NVDA már nem veszti el a rendszerfókuszt, ha egy alkalmazás lefagy, vagy túlterheli a rendszert az eseményeivel. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
+<LI>Az NVDA értesíti a felhasználókat amennyiben egy üres állapotsort akarnak olvasni vagy másolni. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
+<LI>ha nincs bejelölve állapotúra változik egy korábban félig bejelölt állapotú vezérlő, az NVDA már bejelenti a nincs bejelölve állapotot új állapotként. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>Az NVDA általános beállítások párbeszédpanelén a nyelvek listájában már helyesen jelenik meg a burmai nyelv Windows 7 alatt. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>Microsoft Edge: az NVDA már bejelent olyan értesítéseket, mint az olvasási nézet lehetősége, vagy az oldal betöltésének állapota. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
+<LI>A webes dokumentumokban az NVDA már bejelenti a listák címkéjét, amennyiben a fejlesztő megadta a megfelelő attribútumot. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
+<LI>Ha egy adott braille kijelzőnél beállítunk beviteli parancsokat, azokat az NVDA már csak az adott kijelzőre tekinti érvényesnek, korábban az így beállított beviteli parancsokat úgy kezelte az NVDA, mintha azt az aktuálisan csatlakoztatott kijelzőhöz állították volna be, függetlenül attól, hogy az volt-e csatlakoztatva a beviteli parancsok beállításakor, vagy sem. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>Már támogatja az NVDA a MediaPlayer Classic 64 bites változatát. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>Számos fejlesztés a Microsoft Word braille támogatásában UI Automation engedélyezése esetén:
+ <UL>
+ <LI>hasonlóan más többsoros szerkeszthető szövegmezőkhöz, ha a dokumentum elejére navigál, a braille kijelző is úgy gördül, hogy a kijelző elején legyen a dokumentum kezdő karaktere. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
+ <LI>Reduced overly verbose focus presentation in both speech and braille when focusing a Word document. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>Word dokumentumokban listákon navigálás közben megfelelően működik a braille kijelzőn a kurzor vezetése. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ <LI>Microsoft Word: Az újonnan kijelölt  felsorolásjelek/számozások bejelentése már beszéd és braille visszajelzéssel is helyesen működik. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ </UL>
+<LI>Windows 10 1803 és újabb kiadások: már lehetséges bővítményeket telepíteni, amennyiben az "Unicode UTF-8 használata a nyelvek támogatásához" opció be van kapcsolva. (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+</UL>
+
 <H2>2018.2</H2>
 
 <P>
