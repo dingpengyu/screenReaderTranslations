@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: objPad\n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-03-12 21:09+0100\n"
+"PO-Revision-Date: 2018-08-26 21:01+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -75,8 +75,8 @@ msgid ""
 "Object nav: use arrow keys to move to next/previous/parent/first child "
 "objects."
 msgstr ""
-"Object nav : utiliser les touches fléchées pour se déplacer aux objets "
-"suivant/précédent/parent/premier enfant."
+"Navigation par objet : utiliser les touches fléchées pour se déplacer aux "
+"objets suivant/précédent/parent/premier enfant."
 
 #. type: Bullet: '* '
 msgid "Web: use arrow keys to cycle through elements and move between them."
@@ -89,14 +89,14 @@ msgid ""
 "Scan mode: use arrow keys to move through objects on screen regardless of "
 "hierarchy."
 msgstr ""
-"Mode scan : utiliser les touches fléchées pour naviguer dans les objets à "
-"l’écran quelle que soit la hiérarchie."
+"Mode balayage : utiliser les touches fléchées pour naviguer dans les objets "
+"à l’écran quelle que soit la hiérarchie."
 
 #. type: Plain text
 msgid "The following commands are available with arrow keys set to object nav:"
 msgstr ""
 "Les commandes suivantes sont disponibles avec les touches fléchées définie "
-"par object nav :"
+"par navigation par objet :"
 
 #. type: Bullet: '* '
 msgid "Right arrow: next object."
@@ -144,7 +144,7 @@ msgstr "Flèche bas : type d'élément suivant."
 
 #. type: Plain text
 msgid "With scan mode active:"
-msgstr "Avec le mode scan actif :"
+msgstr "Avec le mode balayage actif :"
 
 #. type: Bullet: '* '
 msgid "Down arrow: next object."
