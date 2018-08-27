@@ -1441,7 +1441,7 @@ Voor bepaalde invoervelden zoals zoekvakken in verrschillende Windows 10 apps, k
 De lijst met suggesties sluit zich wanneer u uit het invoerveld gaat. Voor sommige invoervelden kan NVDA hiervan melding maken.   
 
 +++ Invoersamenstelling +++[InputCompositionSettings]
-Met behulp van deze categorie instellingen  kunt u regelen hoe NVDA de karakters van  Aziatische talen weergeeft, wanneer u deze invoert. Dit geldt voor invoermethodes zoals IME en Text Service.
+Via  de categorie instellingen  Invoersamenstelling kunt u regelen hoe NVDA de karakters van  Aziatische talen weergeeft, wanneer u deze invoert. Dit geldt voor invoermethodes zoals IME en Text Service.
 N.B. Aangezien er grote verschillen bestaan tussen de invoermethodes wat betreft mogelijkheden en de wijze van informatieoverdracht, zal het wellicht nodig zijn de instellingen aan te passen aan de gebruikte invoermethode. Hierdoor wordt typen aangenamer en gemakkelijker.
 
 ==== Automatisch alle beschikbare kandidaten melden ====[InputCompositionReportAllCandidates]
