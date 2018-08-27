@@ -10,6 +10,89 @@
 </CENTER>
 
 
+<H2>2018.3</H2>
+
+<P>
+Najważniejsze zmiany w tej wersji to automatyczne wykrywanie wielu linijek brajlowskich, obsługa nowych funkcji Windows 10  (w tym panel wprowadzania EMOI) i wiele poprawek błędów.
+</P>
+<P>
+== Nowe funkcje =
+</P>
+
+<UL>
+<LI>NVDA będzie zgłaszać błędy pisowniw Mozilla Firefox, gdy są prawidłowo oznaczone przez strony internetowe. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>Treść oznaczona jako wstawiona lub usunięta na stronach internetowych, jest teraz zgłaszana w Google Chrome. (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
+<LI>Dodana obsługa kółka przewijania BrailleNote QT i Apex BT gdy BrailleNote  jest używany jako linijka brajlowska w NVDA. (<A HREF="http://github.com/nvaccess/nvda/issues/6316">#6316</A>)
+<LI>Dodane skrypty zgłaszania czasu całkowitego i czasu, który upłynął dla bieżącej ścieżki w Foobar2000. (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
+<LI>Symbol klawisza komendy Mac (⌘) jest wypowiadany podczas czytania tekstu dowolnym syntezatorem. (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
+<LI>Własne role zdefiniowane atrybutem aria-roledescription  są teraz obsługiwane we wszystkich przeglądarkach.
+<LI>Nowe tablice brajlowskie: czeski 8-punktowy, środkowo kurdyjski, Esperanto, węgierski, szwedzki 8-punktowy  brajl komputerowy. (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
+<LI>Dodana obsługa automatycznego wykrywania w tle linijek brajlowskich. (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>Obsługiwane są obecnie ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, Handy Tech, Hims, SuperBraille and HumanWare BrailleNote and Brailliant BI/B.
+ <LI>Można włączyć tę funkcję zaznaczając opcję automatyczny na liście linijek brajlowskich w oknie wyboru monitora brajlowskiego NVDA.
+ <LI>Więcej szczegółów w dokumentacji.
+ </UL>
+<LI>Dodana obsługa różnych nowych metod wprowadzania z ostatnich wersji Windows 10. Są to panel emoji (aktualizacja Fall Creators), dyktowanie (aktualizacja Fall Creators), sugestie wprowadzania klawiatury sprzętowej (aktualizacja kwiecień 2018), i wklejanie ze schowka w chmurze (aktualizacja październik 2018). (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
+<LI>Treść oznaczona jako blok cytatu przy użyciu ARIA (role blockquote) jest obsługiwana w Mozilla Firefox 63. (<A HREF="http://github.com/nvaccess/nvda/issues/8577">#8577</A>)
+</UL>
+
+<H3>Zmiany</H3>
+
+<UL>
+<LI>Lista dostępnych języków w ustawieniach ogólnych jest teraz sortowana  według nazw, zamiast ich kodu ISO 639. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
+<LI>Dodano domyślne zdarzenia wejścia dla alt shift tab i windows tab we wszystkich obsługiwanych linijkach brajlowskich Freedom Scientific. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>Dla linijek ALVA BC680 i protocol converter, można przypisać różne funkcje do lewego i prawego smart pada, oraz klawiszy thumb i etouch. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Dla linijek ALVA BC6, kombinacja klawiszy sp2+sp3 oznajmia aktualną datę i czas, natomiast sp1+sp2 emuluje klawisz Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Użytkownik jest teraz jednorazowo pytany przy starcie NVDA o zgodę na przesyłanie statystyk użycia do NV Access podczas automatycznego sprawdzania aktualizacji. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>Podczas sprawdzania aktualizacji, jeśli użytkownik zgodził się  na przesyłanie statystyk użycia do NV Access, NVDA prześle nazwę używanego sterownika syntezatora i linijki brajlowskiej, aby możliwe było lepsze oszacowanie priorytetu przyszłych prac nad tymi sterownikami. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>Translator brajlowski liblouis zaktualizowany do wersji 3.6.0. (<A HREF="http://github.com/nvaccess/nvda/issues/8365">#8365</A>)
+<LI>Zaktualizowana ścieżka do prawidłowej tablicy brajlowskiej rosyjski 8-punktowy. (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
+<LI>Zaktualizowany eSpeak-ng do 1.49.3dev commit 910f4c2 (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
+</UL>
+
+<H3>Poprawki błędów</H3>
+
+<UL>
+<LI>Etykiety dostępności dla kontrolek w Google Chrome są teraz bardziej czytelnie zgłaszane w trybie czytania, gdy etykieta nie pojawia się jako fragment treści. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
+<LI>Powiadomienia są obsługiwane w powiększeniu. Dla przykładu, obejmuje to stan wyciszenia i wiadomości przychodzące. (<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
+<LI>Przełączenie kontekstu prezentacji brajla w trybie czytania nie powoduje zatrzymania wyświetlania brajla. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>Linijki ALVA BC680 nie powodują sporadycznych problemów inicjalizacji. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>Domyślnie, linijki ALVA BC6 nie będą uruchamiać emulowanych klawiszy systemowych, gdy naciśnięto kombinacje zawierające sp2+sp3  dla uruchomienia wewnętrznych funkcji. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Naciśnięcie sp2 na linijce ALVA BC6  dla emulacji klawisza alt działa zgodnie z opisem. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
+<LI>NVDA nie oznajmia zbędnych zmian układu klawiatury. (<A HREF="http://github.com/nvaccess/nvda/issues/7383">#7383</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
+<LI>Śledzenie myszy jest teraz bardziej dokładne w notatniku i innych kontrolkach edycji zwykłego tekstu, jeśli długość treści przekracza 65535 znaków. (<A HREF="http://github.com/nvaccess/nvda/issues/8397">#8397</A>)
+<LI>NVDA rozpoznaje więcej okien dialogowych w Windows 10 i innych nowoczesnych aplikacjach. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
+<LI>W Windows 10 aktualizacja październik 2018 i Server 2019 lub nowszych, rozwiązany problem niepowodzenia śledzenia przez NVDA punktu uwagi, gdy aplikacja przestała odpowiadać, albo zasypuje system dużą ilością generowanych zdarzeń. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
+<LI>Użytkownicy są teraz informowani przy próbie czytania lub kopiowania pustego paska stanu. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
+<LI>Naprawiony przypadek, gdy stan "niezaznaczone"  na kontrolkach nie był zgłaszany mową jeśli kontrolka wcześniej była w stanie częściowego zaznaczenia. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>Na liście języków w ustawieniach ogólnych NVDA, nazwa języka birmańskiego jest wyświetlana prawidłowo w Windows 7. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>W Microsoft Edge, NVDA będzie oznajmiać powiadomienia takie jak dostępność widoku odczytu albo postęp wczytywania strony. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
+<LI>Po wejściu do listy na stronie internetowej, NVDA zgłosi etykietę listy, jeśli została zdefiniowana przez autora strony. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
+<LI>Podczas ręcznego przypisywania funkcji do zdarzeń wejścia dla konkretnej linijki brajlowskiej, te zdarzenia wejścia są wyświetlane jako przypisane do tej linijki. Wcześniej wyświetlały się jako przypisane do aktualnie używanej linijki. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>Obsługiwana jest 64-bitowa wersja Media Player Classic. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>Kilka poprawek obsługi brajla w Microsoft Word z włączoną UI Automation:
+ <UL>
+ <LI>Podobnie do innych wielowierszowych kontrolek tekstu, na początku dokumentu w brajlu linijka jest tak pozycjonowana, że pierwszy znak dokumentu znajduje się na początku linijki. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
+ <LI>Zmniejszona przesadna gadatliwość prezentacji punktu uwagi w mowie i brajlu podczas ustawiania punktu uwagi na dokumencie Word. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>Przywoływanie kursora brajlowskiego działa prawidłowo  na listach dokumentu Word. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ <LI>Nowo wstawiane punktory lub numery w dokumencie Word są prawidłowo oznajmiane mową i brajlem. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ </UL>
+<LI>W Windows 10 1803 i nowszych, możliwa jest teraz instalacja dodatków, gdy włączone jest używanie Unicode UTF-8 dla ogólnoświatowej obsługi języków. (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+</UL>
+
+<H3>Zmiany dla programistów</H3>
+
+<P>
+Informacje techniczne nie zostały przetłumaczone, proszę zajrzeć do <A HREF="../en/changes.html">Angielskiej listy zmian</A>, aby je przeczytać.
+</P>
+
+<H2>2018.2.1</H2>
+
+<P>
+To wydanie zawiera aktualizacje tłumaczeń związane  z usunięciem w ostatniej chwili funkcjonalności powodującej problemy.
+</P>
+
 <H2>2018.2</H2>
 
 <P>
@@ -34,7 +117,6 @@ Najważniejsze zmiany w tej wersji to obsługa tabel w Kindle dla PC, wsparcie l
  </UL>
 <LI>Przywrócona obsługa linijek brajlowskich Handy Tech Braillino i Modular (ze starym firmware). (<A HREF="http://github.com/nvaccess/nvda/issues/8016">#8016</A>)
 <LI>Data i czas obsługiwanych urządzeń Handy Tech (takich jak Active Braille i Active Star) będzie automatycznie synchronizowana przez NVDA , jeśli nastąpi rozsynchronizowanie dłuższe niż 5 sekund. (<A HREF="http://github.com/nvaccess/nvda/issues/8016">#8016</A>)
-<LI>Na liście wiadomości Microsoft Outlook, NVDA  zgłasza  czy wiadomość jest odpowiedziana, albo przesłana dalej. (<A HREF="http://github.com/nvaccess/nvda/issues/6911">#6911</A>)
 <LI>Można przypisać zdarzenie wejścia dla tymczasowego wyłączenia  wszystkich wyzwalaczy profili konfiguracji. (<A HREF="http://github.com/nvaccess/nvda/issues/4935">#4935</A>)
 </UL>
 
@@ -72,9 +154,7 @@ Najważniejsze zmiany w tej wersji to obsługa tabel w Kindle dla PC, wsparcie l
 <LI>NVDA próbuje teraz naprawiać problemy rejestracji  system COM powodujące niedostępność programów takich jak Firefox i Internet Explorer, skutkujące odczytywaniem  "nieznane" przez NVDA. (<A HREF="http://github.com/nvaccess/nvda/issues/2807">#2807</A>)
 <LI>Obejście błędu w managerze zadań, powodującego brak dostępu użytkownika  do określonych szczegółów dotyczących procesów. (<A HREF="http://github.com/nvaccess/nvda/issues/8147">#8147</A>)
 <LI>Nowsze głosy Microsoft SAPI5 nie powodują opóźnień na końcu mowy, co czyni pracę z użyciem tych głosów bardziej efektywną. (<A HREF="http://github.com/nvaccess/nvda/issues/8174">#8174</A>)
-<LI>NVDA nie zgłasza od teraz znaczników kierunku tekstu (od prawej do lewej, lub od lewej do prawej) w trybie czytania mową znakami, lub brajlem,  podczas odczytywania zegara w nowszych wersjach Windows . (<A HREF="http://github.com/nvaccess/nvda/issues/5729">#5729</A>)
-<LI>Naprawione wykrywanie klawiszy przewijania na linijkach Hims Smart Beetle. (<A HREF="http://github.com/nvaccess/nvda/issues/6086">#6086</A>)
-<LI>W niektórych kontrolkach tekstowych, szczególnie w aplikacjach Delphi, informacje o edycji i nawigacji są bardziej wiarygodne. (<A HREF="http://github.com/nvaccess/nvda/issues/636">#636</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8102">#8102</A>)
+<LI>W Windows 10 RS5, NVDA nie zgłasza nadmiarowych zbędnych informacji  podczas przełączania zadań przy użyciu alt+tab. (<A HREF="http://github.com/nvaccess/nvda/issues/8258">#8258</A>)
 </UL>
 
 <H3>Zmiany dla programistów</H3>
