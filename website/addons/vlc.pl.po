@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-29 21:16+1000\n"
-"PO-Revision-Date: 2018-08-04 21:08+0100\n"
+"PO-Revision-Date: 2018-08-27 20:33+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -36,14 +36,15 @@ msgstr "Pobierz [wersja rozwojowa][3]"
 #. type: Plain text
 msgid "This addon provides some accessibility features for VLC Media Player."
 msgstr ""
-"Ten dodatek dodaje niektóre dostępnościowe funkcje dla VLC Media Playera."
+"Ten dodatek wprowadza kilka funkcji dostępnościowych dla programu VLC Media "
+"Player."
 
 #. type: Bullet: '1. '
 msgid ""
 "Allows navigating through the playback controls using Tab and Shift+Tab. To "
 "activate a selected control press enter."
 msgstr ""
-"Umożliwia nawigację po kontrolkach używając klawiszy Tab lub Shift+Tab. Aby "
+"Umożliwia nawigację po kontrolkach za pomocą klawiszy Tab lub Shift+Tab. Aby "
 "aktywować wybraną kontrolkę, naciśnij enter."
 
 #. type: Bullet: '2. '
@@ -52,7 +53,7 @@ msgid ""
 "preferences."
 msgstr ""
 "Czyta pasek statusu (naciśnij literę I). zdarzenie wejścia jest "
-"konfigurowalne z pozionu ustawień NVDA"
+"konfigurowalne z poziomu ustawień NVDA"
 
 #. type: Bullet: '3. '
 msgid ""
@@ -63,9 +64,9 @@ msgid ""
 msgstr ""
 "Wymawia pozostały czas przy przemieszczaniu się w tył lub w przód używając "
 "skrótów klawiszowych VLC: Control plus lewo/prawo aby przeskakiwać co minutę "
-"Shift plus lewo/prawo aby przeskakiwać co 5 sekund. Gadatliwość można "
-"ustawić w preferencjach NVDA. Istnieje możliwość przydzielenia zdarzenia "
-"wejścia dla tych ustawie."
+"Shift plus lewo/prawo aby przeskakiwać co 5 sekund. Częstość wymawiania "
+"można ustawić w preferencjach NVDA. Istnieje możliwość przydzielenia "
+"zdarzenia wejścia dla tych ustawień."
 
 #. type: Bullet: '4. '
 msgid ""
@@ -80,6 +81,9 @@ msgid ""
 "automatically when they are displayed. Press Control+Tab to try to bring "
 "them to the front."
 msgstr ""
+"Niektórych okien i paneli wyświetlanych warstwowo NVDA nie jest w stanie "
+"automatycznie odczytać. Naciśnij Control+Tab aby spróbować przenieść je do "
+"najwyższej warstwy."
 
 #. type: Bullet: '* '
 msgid ""
@@ -87,9 +91,9 @@ msgid ""
 "it will not work correctly with earlier versions. To use VLC 2.x [download "
 "the old version of the addon.][1]"
 msgstr ""
-"Ważna informacja: Ten dodatek jest zoptymalizowany dla wersji VLC 3.0 lub "
-"wyższych; Ten dodatek nie jest zgodny z starszymi wersjami. Aby używać "
-"wersję VLC 2.x [proszę pobrać starszą wersję dodatku.][1]"
+"Ważna uwaga! Ten dodatek jest zoptymalizowany pod wersję VLC 3.0 i wyższe; "
+"Nie jest on zgodny ze starszymi wersjami. Aby używać wersji VLC 2.x [pobierz "
+"starszą wersję dodatku.][1]"
 
 #. type: Bullet: '* '
 msgid ""
@@ -97,6 +101,9 @@ msgid ""
 "(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) for more "
 "details."
 msgstr ""
+"Obięte przez GNU General Public License. Więcej informacji można znaleźć "
+"tutaj [file COPYING.txt](https://github.com/javidominguez/VLC/blob/master/"
+"COPYING.txt)"
 
 #. type: Plain text
 #, no-wrap
