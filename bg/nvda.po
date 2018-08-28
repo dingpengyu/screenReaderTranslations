@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5822\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-24 10:04+1000\n"
-"PO-Revision-Date: 2018-05-14 15:33+0300\n"
+"PO-Revision-Date: 2018-08-27 13:22+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7 FS\n"
+"X-Generator: Poedit 1.8.5\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
@@ -362,14 +362,12 @@ msgid "pwdedt"
 msgstr "рдпар"
 
 #. Translators: Displayed in braille for an object which is deleted.
-#, fuzzy
 msgid "del"
-msgstr "длг"
+msgstr "изтр"
 
 #. Translators: Displayed in braille for an object which is inserted.
-#, fuzzy
 msgid "ins"
-msgstr "&Връзки"
+msgstr "вмк"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -514,11 +512,11 @@ msgstr "Автоматично"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -590,14 +588,13 @@ msgid "to review"
 msgstr "С прегледа"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
 msgid "Unknown braille display"
-msgstr "Seika"
+msgstr "Непознат брайлов дисплей"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "Bluetooth сериен порт: {portName}"
+msgstr "Bluetooth сериен порт: {port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
@@ -669,9 +666,8 @@ msgstr "Български 8-точков компютърен брайл "
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Central Kurdish grade 1"
-msgstr "Шведски, ниво 1"
+msgstr "Централен кюрдски, ниво 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -685,9 +681,8 @@ msgstr "Уелски, ниво 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Czech 8 dot computer braille"
-msgstr "Испански 8-точков компютърен брайл"
+msgstr "Чешки 8-точков компютърен брайл"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -791,9 +786,8 @@ msgstr "Американски английски, ниво 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Esperanto grade 1"
-msgstr "Германски, ниво 1"
+msgstr "Есперанто, ниво 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -902,9 +896,8 @@ msgstr "Унгарски, ниво 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Hungarian grade 2"
-msgstr "Унгарски, ниво 1"
+msgstr "Унгарски, ниво 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -1088,9 +1081,8 @@ msgstr "Санскритски, ниво 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Swedish 8 dot computer braille"
-msgstr "Испански 8-точков компютърен брайл"
+msgstr "Шведски 8-точков компютърен брайл"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -3876,13 +3868,13 @@ msgid "No status line found"
 msgstr "Лентата на състоянието не е намерена"
 
 #. Translators: Reported when status line exist, but is empty.
-#, fuzzy
 msgid "no status bar information"
-msgstr "няма информация за местоположението"
+msgstr "Няма информация в лентата на състоянието"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
 msgstr ""
+"Съдържанието на лентата на състоянието не може да се копира в клипборда"
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -4845,17 +4837,17 @@ msgstr "Арагонски"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr ""
+msgstr "Централен кюрдски"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr ""
+msgstr "Северен кюрдски"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "Бирмански"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -6013,7 +6005,7 @@ msgstr "ред %s"
 #. Translators: Speaks the column span added to the current column number (example output: through 5).
 #, python-format
 msgid "through %s"
-msgstr "през %s"
+msgstr "до %s"
 
 #. Translators: Speaks current column number (example output: column 3).
 #, python-format
@@ -6024,7 +6016,7 @@ msgstr "колона %s"
 #. (example output: through row 5 column 3).
 #, python-brace-format
 msgid "through row {row} column {column}"
-msgstr "през ред {row}, колона {column}"
+msgstr "до ред {row}, колона {column}"
 
 #. Translators: Speaks number of columns and rows in a table (example output: with 3 rows and 2 columns).
 #, python-brace-format
@@ -6777,16 +6769,14 @@ msgstr ""
 "Докладва оставащо време на просвирвания в момента запис (ако има такъв)"
 
 #. Translators: The description of an NVDA command for reading the elapsed time of the currently playing track in Foobar 2000.
-#, fuzzy
 msgid "Reports the elapsed time of the currently playing track, if any"
 msgstr ""
-"Докладва оставащо време на просвирвания в момента запис (ако има такъв)"
+"Докладва изминалото време на просвирвания в момента запис (ако има такъв)"
 
 #. Translators: The description of an NVDA command for reading the length of the currently playing track in Foobar 2000.
-#, fuzzy
 msgid "Reports the length of the currently playing track, if any"
 msgstr ""
-"Докладва оставащо време на просвирвания в момента запис (ако има такъв)"
+"Докладва общото времетраене на просвирвания в момента запис (ако има такъв)"
 
 #. Translators: Describes a command.
 msgid "Shows options related to selected text or text at the cursor"
@@ -7327,7 +7317,7 @@ msgstr "изключено"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
-msgstr ""
+msgstr "Няма намерени емоджи"
 
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
@@ -7835,7 +7825,7 @@ msgstr "Моля, изчакайте..."
 
 #. Translators: The title of the dialog asking if usage data can be collected
 msgid "NVDA  Usage Data Collection"
-msgstr ""
+msgstr "Събиране на данни за употребата на NVDA"
 
 #. Translators: A message asking the user if they want to allow usage stats gathering
 msgid ""
@@ -7851,14 +7841,26 @@ msgid ""
 "Do you wish to allow NV Access to periodically collect this data in order to "
 "improve NVDA?"
 msgstr ""
+"С цел да подобри NVDA в бъдеще, NV Access желае да събира данни за "
+"употребата на работещите копия на NVDA.\n"
+"\n"
+"Данните включват версията на операционната система, версията на NVDA, езика, "
+"страната на произход, както и някои настройки на NVDA, като текущ "
+"синтезатор, брайлов дисплей и таблица за Брайлово писмо. Към NV Access няма "
+"да бъде изпратено никакво говоримо или брайлово съдържание. Моля, направете "
+"справка в ръководството за потребителя за актуален списък на всички събирани "
+"данни.\n"
+"\n"
+"Желаете ли да разрешите на NV Access периодично да събира тези данни, с цел "
+"да подобри NVDA?"
 
 #. Translators: The label of a Yes button in a dialog
 msgid "&Yes"
-msgstr ""
+msgstr "&Да"
 
 #. Translators: The label of a No button in a dialog
 msgid "&No"
-msgstr ""
+msgstr "&Не"
 
 #. Translators: The title of the Addons Dialog
 msgid "Add-ons Manager"
@@ -8540,6 +8542,7 @@ msgstr "Известявай за &чакащо обновяване при ст
 #. Translators: The label of a checkbox in general settings to toggle allowing of usage stats gathering
 msgid "Allow the NVDA project to gather NVDA usage statistics"
 msgstr ""
+"Позволи на NV Access да събира статистически данни за употребата на NVDA"
 
 #. Translators: A message to warn the user when attempting to copy current settings to system settings.
 msgid ""
