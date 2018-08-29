@@ -1579,12 +1579,12 @@ Essa caixa de combinação lhe permite escolher o idioma a ser usado para o reco
 ++ Configurações diversas ++[MiscSettings]
 Além da caixa de diálogo de [Configurações do NVDA #NVDASettings], o submenu Preferências do menu do NVDA contém vários outros itens que são descritos abaixo.
 
-+++ Dicionários de Fala +++[SpeechDictionaries]
-O menu dos Dicionários de fala (que se encontra no menu Preferências) contém diálogos que lhe permitem controlar o modo como o NVDA anuncia palavras ou expressões em particular.
++++ Dicionários +++[SpeechDictionaries]
+O menu dos Dicionários (que se encontra no menu Preferências) contém diálogos que lhe permitem controlar o modo como o NVDA anuncia palavras ou expressões em particular.
 Existem atualmente três tipos de dicionários de fala.
 São eles:
 - Padrão: as regras neste dicionário afetam todas as vozes no NVDA.
-- Voz: é um dicionário cujas regras afetam a voz para o sintetizador utilizado atualmente.
+- Para voz atual: é um dicionário cujas regras afetam a voz para o sintetizador utilizado atualmente.
 - Temporário: as regras neste dicionário afetam todas as vozes deste programa, mas apenas para a sessão atual. Estas regras são temporárias e perder-se-ão se o NVDA for reiniciado.
 -
 
