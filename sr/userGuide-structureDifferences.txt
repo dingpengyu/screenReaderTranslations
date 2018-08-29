@@ -1,2 +1,12 @@
 # Structural comparison of sr/userGuide.t2t against sr/userGuide-newRevisions/14575/userGuide.t2t
-# files have identical structure
+en 14.17. start:2567 paragraphs:3, tables:1, lists:0
+sr 14.17. start:2570 paragraphs:3, tables:1, lists:0
+en 15. start:2587 paragraphs:0, tables:0, lists:0
+sr 15. start:2590 paragraphs:0, tables:0, lists:0
+en 15.1. start:2589 paragraphs:6, tables:3, lists:0
+sr 15.1. start:2592 paragraphs:6, tables:3, lists:0
+en 15.2. start:2633 paragraphs:2, tables:1, lists:1
+sr 15.2. start:2636 paragraphs:2, tables:1, lists:1
+en 16. start:2645 paragraphs:1, tables:0, lists:0
+sr 16. start:2648 paragraphs:1, tables:0, lists:0
+# end of comparison

@@ -3,10 +3,10 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.org">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>NVDA 2018.1-dev korisničko uputstvo</TITLE>
+<TITLE>NVDA 2018.3-dev korisničko uputstvo</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
 <CENTER>
-<H2>NVDA 2018.1-dev korisničko uputstvo</H2>
+<H2>NVDA 2018.3-dev korisničko uputstvo</H2>
 </CENTER>
 
 
@@ -280,7 +280,7 @@ NVDA podržava brajeve kodove za puno jezika, uključujući skraćene, standardn
 <H3>1.5. Licenca i autorska prava</H3>
 
 <P>
-NVDA je pod autorskim pravima 2006-2017 NVDA saradnici.
+NVDA je pod autorskim pravima 2006-2018 NVDA saradnici.
 </P>
 <P>
 NVDA je zaštićen GNU General Public licencom(verzija 2).
@@ -470,7 +470,7 @@ Ako želite da koristite neki od ovih tastera kao da NVDA nije pokrenut(na prime
 
 <P>
 NVDA dolazi sa dva rasporeda komandi (poznati kao rasporedi tastature): Desktop raspored i laptop raspored.
-Po podrazumevanim podešavanjima, NVDA  je podešen da koristi desktop raspored, ali možete promeniti raspored u podešavanjima tastature, koja se nalaze u podešavanjima u NVDA meniu.
+Po podrazumevanim podešavanjima,   NVDA koristi desktop raspored tastature, međutim možete lako prebaciti NVDA na laptop raspored tastature u kategoriji tastatura [dijaloga NVDA podešavanja#NVDASettings], koji se dobija  izborom stavke opcije iz NVDA menija.
 </P>
 <P>
 Desktop raspored koristi numeričku tastaturu(sa numlock tasterom isključenim).
@@ -558,7 +558,7 @@ Da biste odbacili tastaturu, dodirnite ikonicu tastature na ekranu ili se pomeri
 </P>
 <P>
 Dok je tastatura na ekranu aktivna, da biste pronašli tastere na tastaturi, prebacite vaš prst na lokaciju tastature (obično na dnu ekrana ), a zatim se krećite po tastaturi jednim prstom.
-Kada pronađete taster koji želite da pritisnete, dodirnite taster dva puta ili podignite vaš prst, u zavisnosti od podešavanja izabranih u dijalogu <A HREF="dodir#TouchInteraction">interakcija sa ekranom osetljivim na</A>.
+Kada pronađete taster koji želite da pritisnete, dodirnite taster 2 puta ili otpustite prst, u zavisnosti od podešavanja izabranih u <A HREF="dodir#TouchInteraction">kategoriji podešavanja ekrana osetljivog na</A> NVDA podešavanja.
 </P>
 
 <A NAME="InputHelpMode"></A>
@@ -1164,7 +1164,7 @@ NVDA pruža način da saznate gde se miš nalazi tako što reprodukuje zvučne s
 </P>
 <P>
 Ove dodatne karakteristike miša nisu uključene po podrazumevanim podešavanjima u programu NVDA.
-Ako želite da iskoristite njihove prednosti, možete da ih podesite iz[podešavanja miša#MouseSettings], iz opcije podešavanja u NVDA meniu.
+Ako želite da iskoristite njihove prednosti, možete ih podesiti iz kategorije [podešavanja miša#MouseSettings] <A HREF="#NVDASettings">NVDA podešavanja</A>, koja se nalaze u NVDA meniju izborom stavke opcije.
 </P>
 <P>
 Iako bi trebalo koristiti fizički miš za navigaciju sa mišem, NVDA ima nekoliko glavnih komandi koje su vezane za miš:
@@ -1458,7 +1458,7 @@ Ako vaš brajev red ima tastaturu, takođe možete pisati u skraćenom i standar
 </P>
 <P>
 Molimo pročitajte <A HREF="redovi#SupportedBrailleDisplays">podržani brajevi</A> deo za informacije o posebnim komandama za brajeve redove.
-Možete podesiti brajev red korišćenjem dijaloga [brajeva podešavanja#BrailleSettings].
+Možete podesiti brajev red korišćenjem kategorije <A HREF="#BrailleSettings">brajev red</A> <A HREF="#NVDASettings">NVDA podešavanja</A>.
 </P>
 
 <A NAME="BrailleAbbreviations"></A>
@@ -5968,12 +5968,23 @@ Molimo pogledajte dokumentaciju brajevog reda za opis i raspored ovih tastera.
 <TD>tačka3+backspace, tačka6+backspace</TD>
 </TR>
 <TR>
-<TD>šift taster</TD>
-<TD>tačka7+razmak, l4</TD>
+<TD>Uključuje i isključuje taster šift</TD>
+<TD>tačka1+tačka7+razmak, tačka4+tačka7+razmak</TD>
 </TR>
 <TR>
 <TD>kontrol taster</TD>
-<TD>tačka7+tačka8+razmak, tačka1+tačka7+tačka8+razmak, tačka4+tačka7+tačka8+razmak, l5</TD>
+<TD>tačka7+tačka8+razmak, l5</TD>
+</TR>
+<TR>
+<TD>Uključuje i isključuje  kontrol taster</TD>
+<TD>tačka1+tačka7+tačka8+razmak, tačka4+tačka7+tačka8+razmak</TD>
+</TR>
+<TR>
+<TD>alt taster</TD>
+<TD>tačka8+razmak, l6</TD>
+</TR>
+<TR>
+<TD>Uključuje i isključuje alt taster| tačka1+tačka8+razmak, tačka4+tačka8+razmak</TD>
 </TR>
 <TR>
 <TD>alt taster</TD>
