@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-17 02:47+1000\n"
-"PO-Revision-Date: 2018-08-26 20:55+0100\n"
+"PO-Revision-Date: 2018-08-28 13:24+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -32,7 +32,7 @@ msgstr "Pobierz [wersja stabilna][1]"
 #. type: Title ##
 #, no-wrap
 msgid "Introduction"
-msgstr "Wstęp"
+msgstr "Opis"
 
 #. type: Plain text
 msgid ""
@@ -195,7 +195,7 @@ msgid ""
 "If another addon has previously added a capture function to inputManager, it "
 "is restored when the input is unlocked."
 msgstr ""
-"Jeżeli inny dodatek już wcześniej dodał funkcję przechwytywania do managera "
+"Jeżeli inny dodatek już wcześniej dodał funkcję przechwytywania do menedżera "
 "urządzeń wejścia, zostanie ona wznowiona gdy urządzenia wejścia zostaną "
 "odblokowane."
 
