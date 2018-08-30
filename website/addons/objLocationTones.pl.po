@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-06 02:19+1000\n"
-"PO-Revision-Date: 2017-06-25 14:09+0100\n"
+"PO-Revision-Date: 2018-08-30 14:40+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Object Location Tones\"]]\n"
-msgstr "[[!meta title=\"Object Location Tones /dżwięki obiektów\"]]\n"
+msgstr "[[!meta title=\"Object Location Tones\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
@@ -36,11 +36,10 @@ msgid ""
 "indicate where the object is located on screen. To turn object location "
 "tones off, uninstall or disable this add-on from add-ons manager."
 msgstr ""
-"Po instalacji tego dodatku i restartowaniu NVDA (oraz po włączeniu tego "
-"dodatku), jeżeli poruszamy się po różnych kontrolkach, będziemy słyszeć "
-"dżwięki, które nam dokładniej będą mówić gdzie ten obiekt dokładniej się "
-"znajduje na ekranie. Aby wyłączyć OBJ locations, konieczna jest reinstalacja "
-"lub jego wyłączenie w menedżerze dodatków."
+"Po instalacji tego dodatku i restarcie NVDA, lub po włączeniu dodatku), "
+"podczas poruszania się po różnych kontrolkach, odtwarzane będą dżwięki, "
+"które pomogą zlokalizować dany obiekt na ekranie. Aby wyłączyć OBJ "
+"locations, należy go odinstalować lub wyłączyć w menedżerze dodatków."
 
 #. type: Plain text
 msgid "Important notes:"
@@ -51,12 +50,12 @@ msgid ""
 "If using Audio Themes 3D or similar add-ons, it is advised to disable Object "
 "Location Tones add-on."
 msgstr ""
-"Jeżeli używany jest dodatek Audio Themes 3D lub dodatki o takiej samej "
-"funkcjonalności, rekomenduje się wyłączyć ten dodatek."
+"Jeżeli dodatek Audio Themes 3D lub inne dodatki o takiej samej "
+"funkcjonalności są już w użyciu, poleca się wyłączyć Object Location Tones."
 
 #. type: Bullet: '* '
 msgid "If a control is offscreen, tones will not be played."
-msgstr "Jeżeli kontrolka jest poza ekranem, dzwięki nie będą ottwarzane."
+msgstr "Jeżeli kontrolka jest poza ekranem, dźwięki nie będą ottwarzane."
 
 #. type: Plain text
 #, no-wrap
