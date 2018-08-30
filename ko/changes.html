@@ -12,6 +12,10 @@
 
 <H2>2018.3</H2>
 
+<P>
+이번 버전의 주 기능들: 점자디스플레이 자동 인식 및 연결, 이모지 패널과 같은 최신 윈도우 10 입력 기능 지원, 수많은 버그 수정 등입니다.
+</P>
+
 <H3>새로 추가된 기능</H3>
 
 <UL>
@@ -66,14 +70,14 @@
 <LI>웹브라우저에서 목록 탐색시 웹 개발자가 목록 레이블을 지정했을때 목록 레이블이 출력되도록 함. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
 <LI>특정 점자디스플레이에 명령 핫키를 할당할때 선택된 디스플레이에 핫키가 할당되었음을 표시하도록 함(이전에는 현재 사용중인 디스플레이에 할당되었다고 출력함). (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
 <LI>Media Player Classic 64비트 버전 지원 추가. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
-<LI>Several improvements to braille support in Microsoft Word with UI Automation enabled:
+<LI>마이크로소프트 워드에서의 UIA 관련 기능 향상:
  <UL>
- <LI>Similar to other multiline text fields, When positioned at the start of a document in Braille, the display is now panned such that the first character of the document is at the start of the display. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
- <LI>Reduced overly verbose focus presentation in both speech and braille when focusing a Word document. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
- <LI>Cursor routing in braille now works correctly when in a list in a Word document. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
- <LI>Newly inserted bullets/numbers in a Word document are correctly reported in both speech and braille. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ <LI>다른 다중 편집창과 마찬가지로 점자 커서가 문서 시작에 위치할때 줄 시작 위치 글자가 디스플레이의 맨 왼쪽에 출력되도록 함. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
+ <LI>문서로 전환시 불필요한 포커스 정보가 음성이나 점자로 출력되던 문제 수정. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>문서내 목록을 점자로 읽을시 라우팅 명령이 제대로 작동하지 않던 문제 수정. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ <LI>새로 삽입된 bullet/항목 숫자가 음성과 점자로 제대로 출력되도록 함. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
  </UL>
-<LI>In Windows 10 1803 and later, it is now possible to install add-ons if the "Use Unicode UTF-8 for worldwide language support" feature is enabled. (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+<LI>윈도우 10 1803 이상에서 "세계 언어 지원을 위해 Unicode UTF-8 사용" 기능이 선택된 경우 추가 기능을 설치할 수 없던 문제 수정. (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
 </UL>
 
 <H3>개발자를 위한 내용</H3>
