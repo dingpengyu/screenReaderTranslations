@@ -2006,14 +2006,14 @@ Focus 80에만 해당:
 | 제목 읽기 | etouch2 |
 | 상태 표시줄 읽기 | etouch4 |
 | shift+tab key | sp1 |
-| alt key | sp2 |
+| alt key | sp2, alt |
 | escape key | sp3 |
 | tab key | sp4 |
 | 위쪽 방향키 | spUp |
 | 아래쪽 방향키 | spDown |
 | 왼쪽 방향키 | spLeft |
 | 오른쪽 방향키 | spRight |
-| enter key | spEnter, enter|
+| enter key | spEnter, enter |
 | 날자와 시각 확인 | sp2+sp3 |
 | NVDA 메뉴 | sp1+sp3 |
 | windows+d (모든 창 최소화) | sp1+sp4 |
@@ -2024,7 +2024,6 @@ Focus 80에만 해당:
 | control+end 키 | t3+spDown |
 | home 키 | t3+spLeft |
 | end 키 | t3+spRight |
-| alt 키 | alt |
 | control 키 | control |
 %kc:endInclude
 
