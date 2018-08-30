@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-30 01:04+1000\n"
-"PO-Revision-Date: 2018-07-29 16:19+0300\n"
+"PO-Revision-Date: 2018-08-30 13:32+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -184,10 +184,6 @@ msgstr ""
 "aplicație al Microsoft Edge (Redstone 5)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain dialogs are now recognized as proper dialogs and reported as "
-#| "such, including Insider Preview dialog (settings app)."
 msgid ""
 "Certain dialogs are now recognized as proper dialogs and reported as such, "
 "including Insider Preview dialog (settings app). This will be part of NVDA "
@@ -195,7 +191,7 @@ msgid ""
 msgstr ""
 "Anumite dialoguri sunt acum recunoscute ca dialoguri corespunzătoare și sunt "
 "raportate ca atare. Acestea includ dialogul Insider Preview (aplicația "
-"setări)."
+"setări). Aceasta va face parte din NVDA 2018.3"
 
 #. type: Bullet: '* '
 msgid ""
@@ -244,11 +240,6 @@ msgstr ""
 "cea în dezvoltare vor căuta noi actualizări automat săptămânal sau zilnic."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "In some apps, live region text is announced. This includes alerts in Edge "
-#| "(including elements marked with aria-role=alert), results in Calculator "
-#| "and others. Note that this may result in double-speaking in some cases."
 msgid ""
 "In some apps, live region text is announced. This includes alerts in Edge "
 "(including elements marked with aria-role=alert), results in Calculator and "
@@ -258,20 +249,17 @@ msgstr ""
 "În unele aplicații, textul regiunii live este anunțat. Aceasta include "
 "alertele din Edge (incluzând elementele marcate cu aria-role=alert), "
 "rezultatele din Calculator și altele. Rețineți faptul că asta poate rezulta "
-"o dublă vorbire în unele cazuri."
+"o dublă vorbire în unele cazuri. Acum face parte din NVDA 2017.3 sau mai nou."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Notifications from newer app releases on Windows 10 Version 1709 (build "
-#| "16299) and later are announced."
 msgid ""
 "Notifications from newer app releases on Windows 10 Version 1709 (build "
 "16299) and later are announced. NVDA 2018.2 and later supports this, with "
 "2018.3 adding support for more notifications."
 msgstr ""
 "Sunt anunțate Notificările versiunilor mai noi ale aplicațiilor din Windows "
-"10 versiunea 1709 (compilare 16299) și mai nouă."
+"10 versiunea 1709 (compilare 16299) și mai nouă. NVDA 2018.2 suportă asta, "
+"iar 2018.3 vine cu suport pentru mai multe notificări."
 
 #. type: Bullet: '* '
 msgid ""
