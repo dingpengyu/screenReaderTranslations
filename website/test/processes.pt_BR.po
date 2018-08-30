@@ -1,42 +1,47 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Brazilian Portuguese translation of website/test/processes.pt_BR.po
+# Copyright (C) 2016-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: NVDA website/test/processes.pt_BR.po\n"
 "POT-Creation-Date: 2016-01-19 05:54+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-30 19:06-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
+"Language-Team: Equipe de Tradução do NVDA para Português do Brasil "
+"<clever97@gmail.com>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Processes\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Processos\"]]\n"
 
 #. type: Plain text
 msgid ""
 "The following describes processes to be followed by add-on authors, "
 "translators and reviewers in maintaing new and existing add-ons."
 msgstr ""
+"A seguir, descrevemos os processos a serem seguidos pelos autores de "
+"complementos, tradutores e revisores na manutenção de complementos novos e "
+"existentes."
 
 #. type: Title ##
 #, no-wrap
 msgid "For add-on authors"
-msgstr ""
+msgstr "Para autores de complementos"
 
 #. type: Bullet: '1. '
 msgid ""
 "An add-on author will write an add-on (workaroudn for apps, global pugins "
 "and so on)."
 msgstr ""
+"Um autor de complemento escreverá um complemento (solução alternativa para "
+"aplicativos, plug-ins globais e assim por diante)."
 
 #. type: Bullet: '2. '
 msgid ""
@@ -44,12 +49,18 @@ msgid ""
 "(currently Noelia Martinez and Joseph Lee) will be assigned to review an add-"
 "on"
 msgstr ""
+"O desenvolvedor envia o complemento para a comunidade para revisão. Pelo "
+"menos um revisor (atualmente Noelia Martinez e Joseph Lee) será designado "
+"para revisar um complemento"
 
 #. type: Bullet: '3. '
 msgid ""
 "Addon is placed on pending queue. During this time communication between add-"
 "on author(s), reviewer(s) and users/testers is important."
 msgstr ""
+"O complemento é colocado na fila de pendentes. Durante esse tempo, a "
+"comunicação entre o(s) autor(es) de complemento(s), revisor(es) e usuários/"
+"testadores é importante."
 
 #. type: Bullet: '4. '
 msgid ""
@@ -58,6 +69,11 @@ msgid ""
 "on. If an existing add-on is bein reviewed, only changes between this "
 "version and the previous version will be considered."
 msgstr ""
+"O processo de revisão consistirá em verificação de código para problemas de "
+"localização e segurança, um ou mais testadores testando o complemento na "
+"vida real e assim por diante. Se um complemento existente estiver sendo "
+"revisado, apenas as alterações entre esta versão e a versão anterior serão "
+"consideradas."
 
 #. type: Bullet: '5. '
 msgid ""
@@ -66,78 +82,99 @@ msgid ""
 "If no repository exists for the add-on, a Bitbucket repository (under "
 "nvdaaddonteam) will be created."
 msgstr ""
+"Se a comunidade considerar o addon útil, o aceita. O status do Addon agora é "
+"dev e estará disponível na seção de desenvolvimento do site de complementos "
+"da comunidade. Se não houver repositório para o complemento, um repositório "
+"Bitbucket (sob nvdaaddonteam) será criado."
 
 #. type: Bullet: '6. '
 msgid "Author code code code."
-msgstr ""
+msgstr "O autor codifica codifica codifica."
 
 #. type: Bullet: '7. '
 msgid "Author ask for feedback."
-msgstr ""
+msgstr "O autor pede retroalimentação — feedback —."
 
 #. type: Bullet: '8. '
 msgid ""
 "Community reviewers, other contributors give code feedback/string feedback."
 msgstr ""
+"Os revisores da comunidade, outros colaboradores fornecem feedback de código/"
+"feedback de mensagens — string —."
 
 #. type: Bullet: '9. '
 msgid ""
 "Author considers suggestions and implements the work, and ask again, until "
 "no more requested changes."
 msgstr ""
+"O autor considera sugestões e implementa o trabalho, e pergunta novamente, "
+"até que não haja mais alterações solicitadas."
 
 #. type: Bullet: '10. '
 msgid "Author requests release sign off by community reviewer."
 msgstr ""
+"O autor solicita a aprovação de lançamento para o revisor da comunidade."
 
 #. type: Bullet: '11. '
 msgid "Time passes,"
-msgstr ""
+msgstr "O tempo passa,"
 
 #. type: Bullet: '12. '
 msgid ""
 "Author merge stable into master, since stable contains language updates."
 msgstr ""
+"O autor mescla estável — merge stable — no master, desde que estável "
+"contenha atualizações de idioma."
 
 #. type: Bullet: '13. '
 msgid ""
 "Author continues, adds extra features on master or topic branches, goto 6."
 msgstr ""
+"O autor continua, adiciona recursos extras em ramificações master ou de "
+"tópicos, volta a 6."
 
 #. type: Title ##
 #, no-wrap
 msgid "For community add-on reviewers"
-msgstr ""
+msgstr "Para revisores de complemento da comunidade"
 
 #. type: Bullet: '1. '
 msgid "Community reviewer checks strings and readme a final time."
 msgstr ""
+"O revisor da comunidade verifica as mensagens — strings — e o leia-me — "
+"readme — uma última vez."
 
 #. type: Bullet: '2. '
 msgid "Community reviewer makes stable branch, bump version."
 msgstr ""
+"O revisor da comunidade faz um ramo — branch — estável, uma versão de "
+"impacto — bump —."
 
 #. type: Bullet: '3. '
 msgid "Copy readme.md to srt/website/addon/addonName.mdwn"
-msgstr ""
+msgstr "Copia readme.md para srt/website/addon/addonName.mdwn"
 
 #. type: Bullet: '4. '
 msgid "Run mr addon2settings."
-msgstr ""
+msgstr "Executa mr addon2settings."
 
 #. type: Bullet: '5. '
 msgid "System provides strings from stable branch to translators."
 msgstr ""
+"O sistema fornece mensagens — strings — do ramo estável para tradutores."
 
 #. type: Bullet: '6. '
 msgid "Translations are merged into stable branch by system, (every week)."
 msgstr ""
+"As traduções são mescladas no ramo estável pelo sistema, (toda semana)."
 
 #. type: Bullet: '7. '
 msgid ""
 "If two weeks pass and there are no new translations, reviewer makes a "
 "release from stable branch."
 msgstr ""
+"Se duas semanas passam e não há novas traduções, o revisor faz uma liberação "
+"do ramo estável."
 
 #. type: Bullet: '8. '
 msgid ""
@@ -145,11 +182,14 @@ msgid ""
 "released around end of January, April, July and October (currently managed "
 "by Joseph Lee)."
 msgstr ""
+"Versões trimestrais de manutenção, contendo atualizações de localização, "
+"serão divulgadas no final de janeiro, abril, julho e outubro (atualmente "
+"gerenciadas por Joseph Lee)."
 
 #. type: Title ###
 #, no-wrap
 msgid "Quarterly add-on updates"
-msgstr ""
+msgstr "Atualizações trimestrais de complementos"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -158,12 +198,20 @@ msgid ""
 "noted. This includes localization updates. The release date will be around "
 "end of January, April, July and October unless major issues arise."
 msgstr ""
+"Aproximadamente duas a três semanas antes da data de lançamento da "
+"atualização trimestral, o gerente de lançamento passará pelos complementos "
+"existentes procurando alterações a serem observadas. Isso inclui "
+"atualizações de localização. A data de lançamento será em torno do final do "
+"mês de janeiro, abril, julho e outubro, a menos que surjam problemas "
+"importantes."
 
 #. type: Bullet: '2. '
 msgid ""
 "Any add-ons that should be released as part of the quarterly update will be "
 "added to the release queue."
 msgstr ""
+"Quaisquer complementos que devem ser lançados como parte da atualização "
+"trimestral serão adicionados à fila de lançamentos."
 
 #. type: Bullet: '3. '
 msgid ""
@@ -171,6 +219,10 @@ msgid ""
 "quarterly update release will be added to the release queue. They can be "
 "removed if critical issues are found, at which review period resets."
 msgstr ""
+"Quaisquer novos complementos em que o período de revisão (duas semanas) "
+"terminará antes que a versão de atualização trimestral seja adicionada à "
+"fila de lançamentos.Eles podem ser removidos se forem encontrados problemas "
+"críticos, nos quais o período de revisão é redefinido."
 
 #. type: Bullet: '4. '
 msgid ""
@@ -178,17 +230,22 @@ msgid ""
 "in the release queue and will send out an announcement once the packages are "
 "ready."
 msgstr ""
+"No dia do lançamento, o gerente de lançamento criará pacotes de complementos "
+"para complementos na fila de liberação e enviará um anúncio assim que os "
+"pacotes estiverem prontos."
 
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #. type: Bullet: '1. '
 msgid ""
 "If the addon author is also a community reviewer, s/he can not be the "
 "community reviewer for his/her addon."
 msgstr ""
+"Se o autor do complemento também for um revisor da comunidade, ele/ela não "
+"poderá ser o revisor da comunidade para o complemento dele/dela."
 
 #. type: Bullet: '2. '
 msgid ""
@@ -196,3 +253,7 @@ msgid ""
 "testing purposes. Stable branch is considered to have had some testing and "
 "should be relatively error free/ok to run on your system."
 msgstr ""
+"Para complementos, o ramo master é equivalente ao NVDA next, ou seja, "
+"considerado para fins de teste. Considera-se que o ramo estável teve alguns "
+"testes e deve ser relativamente livre de erros/ok para executar em seu "
+"sistema."
