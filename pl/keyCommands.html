@@ -813,6 +813,16 @@ Aby przejść do zablokowanych komórek, przejdź do trybu czytania naciskając 
 <TD>Ctrl+Shift+R</TD>
 <TD>Podaje czas pozostały do końca aktualnie odtwarzanego utworu.</TD>
 </TR>
+<TR>
+<TD>Czas, który upłynął</TD>
+<TD>control+shift+e</TD>
+<TD>Podaje czas, który upłynął w aktualnie odtwarzanej ścieżce.</TD>
+</TR>
+<TR>
+<TD>Długość ścieżki</TD>
+<TD>control+shift+t</TD>
+<TD>Podaje długość aktualnie odtwarzanej ścieżki.</TD>
+</TR>
 </TABLE>
 
 <A NAME="MirandaIM"></A>
@@ -1271,6 +1281,14 @@ W widoku tabeli dodanych książek:
 <TD>Brajlowska spacja+Punkt 2+Punkt 3+Punkt 4+Punkt 5</TD>
 </TR>
 <TR>
+<TD>Klawisz alt+shift+tab</TD>
+<TD>brajlowska spacja +punkt1+punkt2+punkt5+punkt6</TD>
+</TR>
+<TR>
+<TD>Klawisz windows+tab</TD>
+<TD>brajlowska spacja +punkt2+punkt3+punkt4</TD>
+</TR>
+<TR>
 <TD>Klawisz Escape</TD>
 <TD>Brajlowska spacja+Punkt 1+Punkt 5</TD>
 </TR>
@@ -1344,7 +1362,7 @@ Tylko dla Focus 80:
 </TR>
 <TR>
 <TD>Przewiń brajl do tyłu</TD>
-<TD>T1 albo Etouch1</TD>
+<TD>T1, Etouch1</TD>
 </TR>
 <TR>
 <TD>Przenieś monitor do poprzedniej linii</TD>
@@ -1360,7 +1378,7 @@ Tylko dla Focus 80:
 </TR>
 <TR>
 <TD>Przewiń brajl do przodu</TD>
-<TD>T5 lub Etouch3</TD>
+<TD>T5, Etouch3</TD>
 </TR>
 <TR>
 <TD>Przywołaj do komórki brajla</TD>
@@ -1400,7 +1418,7 @@ Tylko dla Focus 80:
 </TR>
 <TR>
 <TD>Klawisz Alt</TD>
-<TD>Sp2</TD>
+<TD>Sp2, alt</TD>
 </TR>
 <TR>
 <TD>Klawisz Escape</TD>
@@ -1428,11 +1446,11 @@ Tylko dla Focus 80:
 </TR>
 <TR>
 <TD>Klawisz Enter</TD>
-<TD>Sp Enter, enter</TD>
+<TD>SpEnter, enter</TD>
 </TR>
 <TR>
 <TD>Odczytaj datę/czas</TD>
-<TD>Sp1+Sp2</TD>
+<TD>sp2+sp3</TD>
 </TR>
 <TR>
 <TD>Menu NVDA</TD>
@@ -1448,7 +1466,7 @@ Tylko dla Focus 80:
 </TR>
 <TR>
 <TD>Klawisz Windows</TD>
-<TD>Sp2+Sp3, windows</TD>
+<TD>sp1+sp2, windows</TD>
 </TR>
 <TR>
 <TD>Klawisz Alt+Tab</TD>
@@ -1469,10 +1487,6 @@ Tylko dla Focus 80:
 <TR>
 <TD>Klawisz End</TD>
 <TD>T3+Sp Right</TD>
-</TR>
-<TR>
-<TD>Klawisz alt</TD>
-<TD>alt</TD>
 </TR>
 <TR>
 <TD>Klawisz control</TD>
@@ -2532,6 +2546,10 @@ BRAILLEX 2D Screen:
 <TD>Routing</TD>
 </TR>
 <TR>
+<TD>Menu NVDA</TD>
+<TD>spacja+punkt1+punkt3+punkt4+punkt5 (spacja+n)</TD>
+</TR>
+<TR>
 <TD>Przełącz "Brajl związany z..."</TD>
 <TD>Previous+Next</TD>
 </TR>
@@ -2606,6 +2624,128 @@ BRAILLEX 2D Screen:
 <TR>
 <TD>Przełącz tryb pomocy</TD>
 <TD>Spacja+Punkt 2+Punkt 3+Punkt 6 (Spacja+obniżone h)</TD>
+</TR>
+</TABLE>
+
+<P>
+Poniżej komendy przypisane do BrailleNote QT, gdy nie jest on w trybie wprowadzania brajla.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Działanie</TH>
+<TH>Klawisz</TH>
+</TR>
+<TR>
+<TD>Menu NVDA</TD>
+<TD>read+n</TD>
+</TR>
+<TR>
+<TD>Klawisz strzałka w górę</TD>
+<TD>strzałka w górę</TD>
+</TR>
+<TR>
+<TD>Klawisz strzałka w dół</TD>
+<TD>strzałka w dół</TD>
+</TR>
+<TR>
+<TD>Klawisz strzałka w lewo</TD>
+<TD>strzałka w lewo|</TD>
+</TR>
+<TR>
+<TD>Klawisz strzałka w prawo</TD>
+<TD>strzałka w prawo</TD>
+</TR>
+<TR>
+<TD>Klawisz Page up</TD>
+<TD>function+strzałka w górę</TD>
+</TR>
+<TR>
+<TD>Klawisz Page down</TD>
+<TD>function+strzałka w dół</TD>
+</TR>
+<TR>
+<TD>Klawisz Home</TD>
+<TD>function+strzałka w lewo</TD>
+</TR>
+<TR>
+<TD>Klawisz End</TD>
+<TD>function+strzałka w prawo</TD>
+</TR>
+<TR>
+<TD>Klawisze Control+home</TD>
+<TD>read+t</TD>
+</TR>
+<TR>
+<TD>Control+end Klawisze</TD>
+<TD>read+b</TD>
+</TR>
+<TR>
+<TD>Klawisz Enter</TD>
+<TD>enter</TD>
+</TR>
+<TR>
+<TD>Klawisz Backspace</TD>
+<TD>backspace</TD>
+</TR>
+<TR>
+<TD>Klawisz Tab</TD>
+<TD>tab</TD>
+</TR>
+<TR>
+<TD>Klawisze Shift+tab</TD>
+<TD>shift+tab</TD>
+</TR>
+<TR>
+<TD>Klawisz Windows</TD>
+<TD>read+w</TD>
+</TR>
+<TR>
+<TD>Klawisz Alt</TD>
+<TD>read+m</TD>
+</TR>
+<TR>
+<TD>Przełącz tryb pomocy wprowadzania</TD>
+<TD>read+1</TD>
+</TR>
+</TABLE>
+
+<P>
+Poniżej komendy przypisane do kółka przewijania:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Działanie</TH>
+<TH>Klawisz</TH>
+</TR>
+<TR>
+<TD>Klawisz strzałka w górę</TD>
+<TD>strzałka w górę</TD>
+</TR>
+<TR>
+<TD>Klawisz strzałka w dół</TD>
+<TD>strzałka w dół</TD>
+</TR>
+<TR>
+<TD>Klawisz strzałka w lewo</TD>
+<TD>strzałka w lewo</TD>
+</TR>
+<TR>
+<TD>Klawisz strzałka w prawo</TD>
+<TD>strzałka w prawo</TD>
+</TR>
+<TR>
+<TD>Klawisz Enter</TD>
+<TD>środkowy przycisk</TD>
+</TR>
+<TR>
+<TD>Klawisz Tab</TD>
+<TD>obrót kółka przewijania  zgodnie z ruchem wskazówek zegara</TD>
+</TR>
+<TR>
+<TD>Klawisze Shift+tab</TD>
+<TD>obrót kółka przewijania przeciwnie do ruchu wskazówek zegara</TD>
 </TR>
 </TABLE>
 
