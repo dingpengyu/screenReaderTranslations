@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enhanced Touch gestures\n"
 "POT-Creation-Date: 2018-08-01 11:17+1000\n"
-"PO-Revision-Date: 2017-05-12 22:41+0100\n"
-"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"PO-Revision-Date: 2018-08-30 15:07+0100\n"
+"Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: polish <killer@tyflonet.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Enhanced Touch Gestures\"]]\n"
-msgstr "[[!meta title=\"Rozszerzone gesty dotykowe/ Enhanced Touch Gestures\"]]\n"
+msgstr "[[!meta title=\"Enhanced Touch Gestures\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clock\n"
 "POT-Creation-Date: 2018-05-01 14:49+1000\n"
-"PO-Revision-Date: 2018-07-29 20:51+0100\n"
-"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"PO-Revision-Date: 2018-08-30 15:16+0100\n"
+"Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: Polski <killer@tyflonet.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Clock and calendar Add-on for NVDA\"]]\n"
-msgstr "[[!meta title=\"Zegar i kalendarz dla NVDA\"]]\n"
+msgstr "[[!meta title=\"Clock and calendar Add-on for NVDA\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Hrvoje Katić."

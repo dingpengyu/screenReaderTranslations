@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Focus Highlight\n"
 "POT-Creation-Date: 2018-05-11 15:47+1000\n"
-"PO-Revision-Date: 2017-05-13 14:43+0100\n"
-"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"PO-Revision-Date: 2018-08-30 15:12+0100\n"
+"Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Focus Highlight\"]]\n"
-msgstr "[[!meta title=\"podświetlanie punktu uwagi / Focus Highlight\"]]\n"
+msgstr "[[!meta title=\"Focus Highlight\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Takuya Nishimoto"

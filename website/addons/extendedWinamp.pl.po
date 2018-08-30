@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
-"PO-Revision-Date: 2017-06-02 21:37+0100\n"
-"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"PO-Revision-Date: 2018-08-30 15:14+0100\n"
+"Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: Pl <LL@li.org>\n"
 "Language: pl_PL\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"extendedWinamp\"]]\n"
-msgstr "[[!meta title=\"Rozszerzone funkcje NVDA w Winamp /extendedWinamp\"]]\n"
+msgstr "[[!meta title=\"extendedWinamp\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Hrvoje Katic and NVDA-addon-team"

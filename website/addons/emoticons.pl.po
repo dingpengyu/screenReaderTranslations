@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Emoticon\n"
 "POT-Creation-Date: 2018-06-13 19:35+1000\n"
-"PO-Revision-Date: 2018-06-15 00:56+0100\n"
-"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"PO-Revision-Date: 2018-08-30 15:11+0100\n"
+"Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: pl <killer@tyflonet.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Emoticons\"]]\n"
-msgstr "[[!meta title=\"Emotikony / Emoticons\"]]\n"
+msgstr "[[!meta title=\"Emoticons\"]]\n"
 
 #. type: Bullet: '* '
 msgid ""
