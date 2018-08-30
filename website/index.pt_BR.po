@@ -1,14 +1,15 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of index.pt_BR.po (NVDA Community Addons website).
+# Copyright (C) 2012-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2012, 2013, 2017.
+# Marlin Rodrigues da Silva <marlinfilos@gmail.com>, 2012.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2017-12-07 05:59+1000\n"
-"PO-Revision-Date: 2017-09-15 21:18-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clcaul@live.com>\n"
+"PO-Revision-Date: 2018-08-29 22:30-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de Tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
@@ -32,7 +33,7 @@ msgid ""
 "everywhere, enhancing support for a program, or add support for a new "
 "braille display or a speech synthesizer."
 msgstr ""
-"[O NVDA][1] é um leitor de telas bastante flexível e extensível.  Os "
+"O [NVDA][1] é um leitor de telas bastante flexível e extensível.  Os "
 "complementos para NVDA são pacotes adicionais que se podem baixar e integrar "
 "à instalação local do NVDA com o fim de melhorar ou implementar recursos "
 "novos. Esses complementos podem incluir recursos extras e comandos que podem "
@@ -40,21 +41,16 @@ msgstr ""
 "suporte a uma nova linha braile ou um sintetizador de fala."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "On these pages, you will find add-ons that have been created and publicly "
-#| "reviewed by members of the community.  Please note that many of these add-"
-#| "ons are not provided by NV Access, so NV Access cannot be held "
-#| "responsible for these add-ons,"
 msgid ""
 "On these pages, you will find add-ons that have been created and publicly "
 "reviewed by members of the community.  Please note that many of these add-"
 "ons are not provided by NV Access, so NV Access cannot be held responsible "
 "for these add-ons."
 msgstr ""
-"Nesta página você encontra complementos criados por membros da comunidade. "
-"Por favor note que muitos dos complementos não são cedidos pela NV Access, "
-"daí que a mesma não pode ser responsabilizada por esses complementos."
+"Nessas páginas, você encontrará complementos que foram criados e revisados "
+"publicamente por membros da comunidade. Por favor, observe que muitos desses "
+"complementos não são fornecidos pela NV Access, portanto, a NV Access não "
+"pode ser responsabilizada por esses complementos."
 
 #. type: Plain text
 msgid ""
@@ -109,7 +105,7 @@ msgid ""
 "informed on when new add-ons or a new version of an add-on is made "
 "available.  The following community supported add-ons are available:"
 msgstr ""
-"Por favor sinta-se à vontade para inscrever-se nos fíds rss ou na lista "
+"Por favor sinta-se à vontade para inscrever-se nos feeds rss ou na lista "
 "sobre complementos a fim de manter-se informado sobre novos complementos ou "
 "versões novas de complementos.  Estão disponíveis os seguintes complementos "
 "suportados pela comunidade:"
