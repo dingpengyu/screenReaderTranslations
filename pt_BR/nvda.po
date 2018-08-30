@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-24 10:04+1000\n"
-"PO-Revision-Date: 2018-08-29 17:43-0300\n"
-"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
+"PO-Revision-Date: 2018-08-29 21:07-0300\n"
+"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
@@ -8654,7 +8654,7 @@ msgstr "Grau de &pontuação/símbolos:"
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel (if checked, text will be read using the voice for the language of the text).
 msgid "Trust voice's language when processing characters and symbols"
-msgstr "Usar o idioma da voz ao processar caracteres e símbolos"
+msgstr "Confiar no idioma da voz ao processar caracteres e símbolos"
 
 #. Translators: This is a label for a setting in voice settings (an edit box to change voice pitch for capital letters; the higher the value, the pitch will be higher).
 msgid "Capital pitch change percentage"
