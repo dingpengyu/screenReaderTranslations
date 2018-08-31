@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE
+﻿# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -152,7 +152,7 @@ msgid ""
 "or changes were made to apps that makes entries no longer applicable."
 msgstr ""
 "Với những thành phần không được liệt kê bên dưới, bạn có thể xem như các "
-"tính năng đó đã là một phần của NVDA, không phải áp dụng như add-on không hỗ "
+"tính năng đó đã là một phần tính năng của NVDA, không phải áp dụng như add-on không hỗ "
 "trợ Windows 10 phiên bản cũ hay các thay đổi của các ứng dụng làm cho chúng "
 "không còn tác dụng."
 
