@@ -1,31 +1,8 @@
 # Structural comparison of an/userGuide.t2t against an/userGuide-newRevisions/15056/userGuide.t2t
-en 14.9. start:2160 paragraphs:3, tables:0, lists:0
-an 14.9. start:2160 paragraphs:3, tables:1, lists:0
-en 14.9.1. start:2169 paragraphs:0, tables:1, lists:0
-an 14.9.1. start:2193 paragraphs:0, tables:1, lists:0
-en 14.9.2. start:2194 paragraphs:0, tables:1, lists:0
-an 14.9.2. start:2201 paragraphs:0, tables:1, lists:0
-en 14.9.3. start:2202 paragraphs:0, tables:1, lists:0
-en 14.10. start:2212 paragraphs:2, tables:1, lists:0
-an 14.10. start:2211 paragraphs:2, tables:1, lists:0
-en 14.11. start:2284 paragraphs:3, tables:1, lists:0
-an 14.11. start:2283 paragraphs:3, tables:1, lists:0
-en 14.12. start:2308 paragraphs:9, tables:3, lists:2
-an 14.12. start:2307 paragraphs:9, tables:3, lists:2
-en 14.13. start:2390 paragraphs:8, tables:4, lists:1
-an 14.13. start:2389 paragraphs:8, tables:4, lists:1
-en 14.14. start:2474 paragraphs:9, tables:3, lists:1
-an 14.14. start:2473 paragraphs:9, tables:3, lists:1
 en 14.15. start:2566 paragraphs:3, tables:1, lists:1
-an 14.15. start:2565 paragraphs:4, tables:1, lists:1
-en 14.18. start:2696 paragraphs:4, tables:1, lists:0
-an 14.18. start:2695 paragraphs:4, tables:1, lists:0
-en 15. start:2718 paragraphs:0, tables:0, lists:0
-an 15. start:2717 paragraphs:0, tables:0, lists:0
-en 15.1. start:2720 paragraphs:6, tables:3, lists:0
-an 15.1. start:2719 paragraphs:6, tables:3, lists:0
-en 15.2. start:2764 paragraphs:2, tables:1, lists:1
-an 15.2. start:2763 paragraphs:2, tables:1, lists:1
-en 16. start:2776 paragraphs:1, tables:0, lists:0
-an 16. start:2775 paragraphs:1, tables:0, lists:0
+an 14.15. start:2566 paragraphs:4, tables:1, lists:1
+en 14.16. start:2602 paragraphs:1, tables:1, lists:0
+an 14.16. start:2603 paragraphs:1, tables:1, lists:0
+en 14.17. start:2612 paragraphs:3, tables:1, lists:0
+an 14.17. start:2613 paragraphs:3, tables:1, lists:0
 # end of comparison
