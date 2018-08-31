@@ -3,36 +3,36 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-17 02:47+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-31 17:03+0330\n"
+"Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
+"Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Input Lock\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"قفل ورودی‌ها (Input Lock)\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Jose Manuel Delicado"
-msgstr ""
+msgstr "نویسنده: Jose Manuel Delicado"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "دانلود [نسخه‌ی پایدار][1]"
 
 #. type: Title ##
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "مقدمه"
 
 #. type: Plain text
 msgid ""
@@ -42,17 +42,24 @@ msgid ""
 "Lock is for you! You will be able to leave your computer alone and turned on "
 "without risk."
 msgstr ""
+"آیا توو خونتون بچه کوچولو دارین؟ آیا کوچولوتون دوست داره دستاشو بکوبه رو "
+"صفحه‌کلید؟ آیا وقتی با لپتاپتون کار میکنید، دستتون تصادفی میخوره به صفحه‌ی موس "
+"و بدون اینکه خواسته باشید موس جابجا میشه؟ دیگه تموم شد! این افزونه برای خودِ "
+"خودِ شماست! میتونید با خیال راحت کامپیوترتونو روشن، بدون اینکه خطری نرم‌افزاری "
+"تهدیدش کنه، تنها بذارین!"
 
 #. type: Plain text
 msgid ""
 "Once installed, you will be able to lock your keyboard, touch screen, if "
 "your laptop has one, mouse and Braille display."
 msgstr ""
+"به محض اینکه افزونه‌ی Input Lock را نصب کنید، میتوانید صفحه‌کلید، صفحه‌ی لمسی "
+"لپتاپ (در صورتی که داشته باشد)، موس و نمایشگر بریلتان را قفل کنید."
 
 #. type: Title ##
 #, no-wrap
 msgid "Usage"
-msgstr ""
+msgstr "نحوه استفاده"
 
 #. type: Plain text
 msgid ""
@@ -60,123 +67,150 @@ msgid ""
 "so you will have to configure them from Input gestures dialog. Read the NVDA "
 "User Guide for more information."
 msgstr ""
+"این افزونه، دو فرمان به NVDA اضافه میکند. بطور پیشفرض، کلیدی برای این "
+"فرمان‌ها اختصاص نیافته است؛ لذا باید از پنجره‌ی مدیریت فرمان‌های ورودی، "
+"کلیدهایی به این فرمان‌ها اختصاص دهید. برای کسب اطلاعات بیشتر، راهنمای کاربر "
+"را بخوانید."
 
 #. type: Plain text
 msgid ""
-"When you press the toggle input lock gesture, NVDA will say \"Input "
-"locked\". Your input devices will be blocked until you press the same "
-"gesture again. In that moment, NVDA will say \"Input unlocked\" and "
-"everything will work as usual."
+"When you press the toggle input lock gesture, NVDA will say \"Input locked"
+"\". Your input devices will be blocked until you press the same gesture "
+"again. In that moment, NVDA will say \"Input unlocked\" and everything will "
+"work as usual."
 msgstr ""
+"وقتی کلیدی را که به فرمان قفل ورودی‌ها اختصاص دادید بزنید، NVDA خواهد گفت: "
+"Input locked. دستگاه‌های ورودی قفل میشوند تا زمانی که دوباره آن کلید را "
+"بزنید. این بار NVDA خواهد گفت: Input unlocked، و همه چیز بطور معمول کار "
+"خواهد کرد."
 
 #. type: Plain text
 msgid ""
-"If you press the toggle mouse block gesture, your mouse will be "
-"locked. Press this command again to unlock it. While mouse is locked, you "
-"can use NVDA gestures to move it, and click with left and right buttons, but "
-"You can't move the mouse itself. Mouse clicks can also be disabled from "
-"Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from "
-"add-on settings dialog for older versions, available under preferences "
-"menu. In addition, from these settings you can control wether mouse locks "
-"when NVDA is started or not."
+"If you press the toggle mouse block gesture, your mouse will be locked. "
+"Press this command again to unlock it. While mouse is locked, you can use "
+"NVDA gestures to move it, and click with left and right buttons, but You "
+"can't move the mouse itself. Mouse clicks can also be disabled from Input "
+"lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on "
+"settings dialog for older versions, available under preferences menu. In "
+"addition, from these settings you can control wether mouse locks when NVDA "
+"is started or not."
 msgstr ""
+"چنانچه شما کلیدی را که به فرمان قفل موس اختصاص داده بودید بزنید، موس قفل "
+"خواهد شد. فرمان را دوباره اجرا کرده، تا قفل موس را باز کنید. وقتی که موس قفل "
+"است، میتوانید از فرمان‌های NVDA برای حرکت دادن مکان‌نمای موس استفاده کنید و با "
+"دکمه‌های راست و چپ موس کلیک کنید، ولی خود موس را نمیتوانید حرکت دهید. کلیک‌های "
+"موس را هم میتوانید با استفاده از دسته‌ی Input Lock در پنجره‌ی تنظیمات NVDA (در "
+"NVDA 2018.2 به بعد) یا پنجره‌ی تنظیمات افزونه در منوی تنظیمات (در نسخه‌های "
+"قدیمیتر NVDA) غیر فعال کنید. افزون بر این، میتوانید با استفاده از این "
+"تنظیمات، تعیین کنید که موس از ابتدای کار NVDA قفل شود یا نه."
 
 #. type: Plain text
 msgid ""
 "Note: when mouse clicks are blocked, you can't use any NVDA gestures to work "
 "with the mouse."
 msgstr ""
+"توجه: هنگامی که کلیک‌های موس قفل باشد، نمیتوانید از فرمان‌های NVDA برای کار با "
+"موس استفاده کنید."
 
 #. type: Title ##
 #, no-wrap
 msgid "Limitations"
-msgstr ""
+msgstr "محدودیت‌ها"
 
 #. type: Plain text
 msgid "Input Lock has the following limitations:"
-msgstr ""
+msgstr "محدودیت‌های Input Lock عبارتند از:"
 
 #. type: Bullet: '* '
-msgid "The shortcut control+alt+del can be used even when the keyboard is locked."
+msgid ""
+"The shortcut control+alt+del can be used even when the keyboard is locked."
 msgstr ""
+"کلید میانبر Ctrl+Alt+Del حتی هنگامی که صفحه‌کلید قفل باشد، قابل استفاده است."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changelog"
-msgstr ""
+msgstr "فهرست تغییرات"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.4"
-msgstr ""
+msgstr "نسخه‌ی ۱.۴"
 
 #. type: Bullet: '* '
 msgid "The addon gestures are unassigned by default."
-msgstr ""
+msgstr "بطور پیش‌فرض، کلیدی به فرمان‌های افزونه اختصاص داده نمیشود."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.3"
-msgstr ""
+msgstr "نسخه‌ی ۱.۳"
 
 #. type: Bullet: '* '
 msgid ""
 "Added a configuration panel in settings dialog. For old NVDA versions, a "
 "menu item and a dialog have been added too."
 msgstr ""
+"برای این افزونه، یک پنل تنظیمات به تنظیمات NVDA افزوده شد. برای نسخه‌های "
+"قدیمی NVDA، یک مورد منو و یک پنجره‌ی محاوره‌ای هم افزوده شده است."
 
 #. type: Bullet: '* '
 msgid "Added a setting to lock the mouse when NVDA is started."
-msgstr ""
+msgstr "تنظیمی برای قفل کردن موس هنگام آغاز کار NVDA اضافه شد."
 
 #. type: Bullet: '* '
 msgid "Added a setting to block also mouse clicks while mouse is locked."
 msgstr ""
+"تنظیمی هم برای مسدود کردن کلیک‌های موس هنگامی که موس قفل میشود افزوده شد."
 
 #. type: Bullet: '* '
 msgid ""
 "Small bugs fixed, some code optimizations and less duplicated strings for "
 "translators"
 msgstr ""
+"مشکلات کوچکی برطرف شد. اندکی بهینه‌سازی در کد افزونه و رشته های کمتر تکراری "
+"برای ترجمه‌کننده‌ها."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.2"
-msgstr ""
+msgstr "نسخه‌ی ۱.۲"
 
 #. type: Bullet: '* '
 msgid "Now the mouse can also be locked"
-msgstr ""
+msgstr "حالا موس را هم میتوانید قفل کنید."
 
 #. type: Bullet: '* '
 msgid "New command to lock and unlock only the mouse"
-msgstr ""
+msgstr "فرمان جدید برای قفل کردن و باز کردن فقط موس"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.1"
-msgstr ""
+msgstr "نسخه‌ی ۱.۱"
 
 #. type: Bullet: '* '
 msgid ""
 "If another addon has previously added a capture function to inputManager, it "
 "is restored when the input is unlocked."
 msgstr ""
+"اگر افزونه‌ی دیگری از پیش یک کارکرد Capture به مدیریت ورودی‌ها اضافه کرده "
+"باشد، هنگامی که قفل ورودی‌ها را باز میکنید، دوباره به وضعیت قبلی خود برمیگردد."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 1.0"
-msgstr ""
+msgstr "نسخه‌ی ۱.۰"
 
 #. type: Bullet: '* '
 msgid "Initial release"
-msgstr ""
+msgstr "انتشار نخست"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=inputlock"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=inputlock"
