@@ -3,35 +3,35 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-08-31 19:59+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Review Cursor Copier\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Review Cursor Copier\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Tuukka Ojala <tuukka.ojala@gmail.com>"
-msgstr ""
+msgstr "Autor: Tuukka Ojala <tuukka.ojala@gmail.com>"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Pobierz [wersja stabilna][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Pobierz [wersja rozwojowa][2]"
 
 #. type: Plain text
 msgid ""
@@ -39,30 +39,33 @@ msgid ""
 "review cursor to the clipboard. Currently, the following commands are "
 "implemented:"
 msgstr ""
+"Ten dodatek wprowadza do NVDA szereg poleceń, które umożliwiają kopiowanie "
+"tekstu pod kursorem przeglądu do schowka. Obecnie, dostępne są następujące "
+"polecenia:"
 
 #. type: Bullet: '* '
 msgid "Copy the line under the review cursor"
-msgstr ""
+msgstr "Skopiuj wiersz pod kursorem przeglądu"
 
 #. type: Bullet: '* '
 msgid "Copy the word under the review cursor"
-msgstr ""
+msgstr "Skopiuj słowo pod kursorem przeglądu"
 
 #. type: Bullet: '* '
 msgid "Copy from the start of the current line to the review cursor"
-msgstr ""
+msgstr "Kopiuj od początku aktualnego wiersza do kursora przeglądu"
 
 #. type: Bullet: '* '
 msgid "Copy from the review cursor to the end of the current line"
-msgstr ""
+msgstr "Kopiuj od kursora przeglądu do końca aktualnego wiersza"
 
 #. type: Bullet: '* '
 msgid "Copy from the start of the current word to the review cursor"
-msgstr ""
+msgstr "Kopiuj od początku aktualnego słowa do kursora przeglądu"
 
 #. type: Bullet: '* '
 msgid "Copy from the review cursor to the end of the current word"
-msgstr ""
+msgstr "Kopiuj od kursora przeglądu do końca aktualnego słowa"
 
 #. type: Plain text
 msgid ""
@@ -72,25 +75,31 @@ msgid ""
 "category. More information about setting and modifying input gestures can be "
 "found in the NVDA user guide."
 msgstr ""
+"Powyższe polecenia nie posiadają domyślnych skrótów klawiszowych. Aby "
+"ustawić własne skróty, proszę użyć dialogu \"zdarzenia wejścia\" "
+"znajdującego się w menu ustawień NVDA. Wszystkie polecenia wprowadzone przez "
+"ten dodatek są dostępne w kategorii \"przegląd tekstu\" Więcej informacji na "
+"temat ustawiania i zmiany zdarzeń wejścia można znaleźć w Podręczniku "
+"Użytkownika NVDA."
 
 #. type: Title ##
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Licencja"
 
 #. type: Plain text
 msgid "This work is licensed under the GNU General Public License, version 2."
-msgstr ""
+msgstr "Ten dodatek jest obięty licencją GNU General Public License, wersja 2."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"

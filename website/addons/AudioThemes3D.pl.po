@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: 2018-07-29 20:46+0100\n"
+"PO-Revision-Date: 2018-08-31 21:50+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -27,7 +27,7 @@ msgstr "Autorzy: Musharraf Omer i inni"
 
 #. type: Bullet: '*   '
 msgid "download [stable version][1]"
-msgstr "pobierz [stabilna wersja][1]"
+msgstr "pobierz [wersja stabilna][1]"
 
 #. type: Bullet: '*   '
 msgid "download [development version][2]"
@@ -41,9 +41,9 @@ msgid ""
 "display."
 msgstr ""
 "Ten dodatek tworzy wirtualny dźwiękowy wyświetlacz, który odtwarza dźwięki "
-"przy nawigacji lub najeżdżaniu na objekt (tak jak przyciski, linki itd...) "
-"dźwięk będzie ottworzony w lokalizacji, która odpowiada lokacji objektu na "
-"monitorze."
+"podczas nawigacji lub najeżdżania na obiekty, takie jak przyciski, linki "
+"itd. Dźwięk będzie ottworzony w lokalizacji, która odpowiada lokalizacji "
+"objektu na ekranie."
 
 #. type: Plain text
 msgid ""
@@ -51,12 +51,12 @@ msgid ""
 "distribute audio theme packages."
 msgstr ""
 "Dodatek umożliwia także aktywowanie, instalowanie, usuwanie, edytowanie, "
-"tworzenie, i dystrybucję pakietów tematów dźwiękowych."
+"tworzenie i dystrybucję pakietów tematów dźwiękowych."
 
 #. type: Title ##
 #, no-wrap
 msgid "Usage"
-msgstr "Używanie"
+msgstr "Użycie"
 
 #. type: Plain text
 msgid ""
@@ -64,30 +64,30 @@ msgid ""
 "your installed audio themes, editing the currently active audio theme, and "
 "creating a new audio theme."
 msgstr ""
-"Ten dodatek umożliwia wykonywanie następujących czynności, włączając w to "
-"instalowanie tematów dźwiękowych, edytowanie aktualnie używanego tematu "
-"dźwiękowego, a także tworzenie nowych tematów dźwiękowych."
+"Ten dodatek umożliwia wykonywanie następujących czynności: instalowanie "
+"tematów dźwiękowych, edytowanie aktualnie używanego tematu dźwiękowego oraz "
+"tworzenie nowych tematów dźwiękowych."
 
 #. type: Plain text
 msgid ""
 "You can access these functions from the add-on's menu which is found in the "
 "main NVDA menu."
 msgstr ""
-"Można się dostać do tych funkcji z meni dodatku, znajdującego się w głownym "
-"meni NVDA."
+"Funkcje te są dostępne w menu dodatku, które znajduje się w głównym menu "
+"NVDA."
 
 #. type: Title ###
 #, no-wrap
 msgid "Managing Your Audio Themes"
-msgstr "Zarżądzanie tematami dźwiękowymi"
+msgstr "Zarządzanie tematami dźwiękowymi"
 
 #. type: Bullet: '- '
 msgid ""
 "The 'Manage Audio Themes' dialogue enables you to activate or deactivate "
 "audio themes, in addition to installing and removing audio themes."
 msgstr ""
-"Okno dialogowe 'zarządzaj tematami dźwiękowymi' umożliwia aktywację, albo "
-"dezaktywację, oraz dodatku instalowanie lub usuwanie tematów dźwiękowych."
+"Okno dialogowe \"zarządzaj tematami dźwiękowymi\" umożliwia aktywację i "
+"dezaktywację oraz instalowanie i usuwanie tematów dźwiękowych."
 
 #. type: Plain text
 #, no-wrap
@@ -99,10 +99,10 @@ msgid ""
 " - Audio Theme Volume Slider: Alternatively you can set the volume for the add-on using this slider. Setting it to 0 will mute all sounds, and 100 is the maximum volume.\n"
 msgstr ""
 "- W tym oknie dialogowym znajdują się następujące opcje:\n"
-" - Odtwarzaj dźwięk w trybie 3D: Przy odznaczaniu tego pola wyboru, dodatek będzie odtwarzał dźwięki w trybie mono (Zawsze na środku wyświetlacza dźwiękowego) niezależnie od położenia obiektu.\n"
-" - Wymawiaj nazwy kontrolek, takie jak przycisk, pole do edycji, link itd.: Kiedy to pole do wyboru jest odznaczone, NVDA będzie oznajmiał nazwy kontrolek przy przemieszczaniu się nie ignorując ję (co jest domyślnym zachowaniem, gdy dodatek jest instalowany).\n"
-" - Używaj głośność syntezatora: Zaznaczając to pole do wyboru, ustawi ottwarzacz dźwięków tego dodatku aby używał dźwięk aktywnego głosu, czyniąc wyjście dźwięku wyrównanym przy każdym razie, gdy zmieniasz głośność syntezatora.\n"
-" - suwak głośności tematu dźwiękowego: alternatywnie, można zmienić głośność dodatku używając ten suwak. Setting it to 0 will mute all sounds, and 100 is the maximum volume.\n"
+" - Odtwarzaj dźwięk w trybie 3D: Po zaznaczeniu tego pola wyboru, dodatek będzie odtwarzał dźwięki w trybie mono (Zawsze na środku wyświetlacza dźwiękowego) niezależnie od położenia obiektu.\n"
+" - Wymawiaj nazwy kontrolek, takiich jak przycisk, pole edycyjne, link itd.: Kiedy to pole wyboru jest odznaczone, NVDA będzie oznajmiać nazwy kontrolek przy przemieszczaniu się nie ignorując ich (co jest domyślnym zachowaniem, gdy dodatek jest instalowany).\n"
+" - Używaj głośności syntezatora: Po zaznaczeniu tego pola wyboru, ottwarzacz dźwięków dodatku będzie używał dźwięku aktywnego głosu. Dzięki temu, dźwięki dodatku będą miały taką samą głośność jak aktywny głos, przy każdej zmianie głośności syntezatora.\n"
+" - suwak głośności tematu dźwiękowego: alternatywnie, można zmienić głośność dodatku używając tego suwaka. Ustawienie go na 0 wycisza wszystkie dźwięki dodatku, a 100 to maksymalna głośność.\n"
 
 #. type: Title ###
 #, no-wrap
@@ -115,10 +115,10 @@ msgid ""
 "open with a list containing all the sounds contained in the currently active "
 "theme. From this dialogue you can:"
 msgstr ""
-"Gdy klikniesz na przycisk 'edytuj aktywny temat dźwiękowy', zosanie otwarte "
-"okno dialogowe, zawierające wszystkie dostępne dźwięki znajdujące się w "
-"aktualnie aktywnym temacie dźwiękowym. Z tego okna dialogowego można wykonać "
-"następujące czynności:"
+"Gdy klikniesz na przycisk \"edytuj aktywny temat dźwiękowy\", otworzy się "
+"okno dialogowe, zawierające wszystkie dostępne dźwięki, które znajdują się w "
+"aktualnie aktywnym temacie dźwiękowym. Można tam wykonać następujące "
+"czynności:"
 
 #. type: Bullet: '- '
 msgid ""
@@ -127,18 +127,18 @@ msgid ""
 "from your file system to replace the selected sound, and click OK to "
 "complete the process."
 msgstr ""
-"Zmień oznaczone: zaznaczając dźwięk z listy naciśnięcie tego przycisku, "
-"otwiera standardowy dialog do otwierania pliku, zaznacz plik ogg lub wav z "
-"systemu plików, aby zamienić zaznaczony dźwięk, kliknij OK, aby zakończyć "
-"akcję."
+"Zmień oznaczone: po zaznaczeniu dźwięku z listy i naciśnięciu tego "
+"przycisku, otworzy się standardowy dialog otwierania pliku. Zaznacz plik ogg "
+"lub wav z systemu plików, aby zamienić zaznaczony dźwięk. Kliknij OK, aby "
+"zakończyć akcję."
 
 #. type: Bullet: '- '
 msgid ""
 "Remove Selected: This will remove the selected sound from the theme, click "
 "'Yes' to confirm the removal process, and the selected sound will be removed."
 msgstr ""
-"Usuń zaznaczenie: To usunie zaznaczony dźwięk z tematu, kliknij 'tak' aby "
-"potwierdzić proces usunięcia, a dźwięk zostanie usunięty."
+"Usuń zaznaczenie: usunie zaznaczony dźwięk z tematu. Kliknij \"tak\", aby "
+"potwierdzić proces usunięcia. Dźwięk zostanie usunięty."
 
 #. type: Plain text
 #, no-wrap
@@ -146,7 +146,7 @@ msgid ""
 "- Add New Sound: When clicking this button a new dialogue will be shown. From the first combo box in the newly opened dialogue select the object type you want to assign the sound to it, for example (button, link, tab, menu and so on), then click the 'Browse to an audio file' button to select the sound you want to assign for the previously selected object type. Optionally you can click the preview   button to preview the sound, and finally clicking the OK button will apply the changes and assign the selected sound to the selected object. \n"
 "- Close: Will  exit the dialogue without performing any action.\n"
 msgstr ""
-"- Dodaj nowy dźwięk: Po kliknięciu tego przycisku zostanie wyświetlone nowe okno dialogowe. Z pierwszego pola kombi w nowootwartym dialogu, zaznacz typ obiektu do którego chcesz przypisać dźwięk, na przykład (przycisk, link, tab, meni itd.), a następnie kliknij przycisk 'przeglądaj' aby wybrać plik dźwiękowy do przypisanego wcześniej obiektu. Opcjonalnie, możesz kliknąć przycisk posłuchaj, i na koniec kliknij OK, aby zastosować dźwięk do typu obiektu. \n"
+"- Dodaj nowy dźwięk: Po kliknięciu tego przycisku zostanie wyświetlone nowe okno dialogowe. W pierwszym polu kombi tego dialogu zaznacz typ obiektu do którego chcesz przypisać dźwięk, na przykład przycisk, link, tab, menu itd. Następnie kliknij przycisk \"przeglądaj\", aby wybrać plik dźwiękowy do przypisanego wcześniej obiektu. Opcjonalnie, możesz kliknąć przycisk posłuchaj. Kliknij OK, aby zastosować dźwięk do typu obiektu. \n"
 "- Zamknij: Zamyka dialog bez zastosowania żadnej akcji.\n"
 
 #. type: Title ###
