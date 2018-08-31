@@ -2164,8 +2164,9 @@ os controladors USB no se requieren si o protocolo ye establiu t'OpenBraille.
 
 Tamién se suporta la BrailleNote Touch, y no se requier garra controlador pa instalar-la.
 
-Seguidament van as asignacions de teclas pa las linias Brailliant BI/B y BrailleNote touch con o NVDA.
-Por favor mira-te a documentación d'a linia pa descripcions de do pueden trobar-sen istas teclas.
+Contino va las asignacions de teclas pa las linias Brailliant BI/B y BrailleNote touch con o NVDA.
+Por favor mira-te la documentación d'a linia pa descripcions de do puede trobar-sen istas teclas.
++++ Asignacions de teclas pa totz los modelos +++
 %kc:beginInclude
 || Nombre | Tecla |
 | Desplazar a linia braille enta zaga | cucha |
