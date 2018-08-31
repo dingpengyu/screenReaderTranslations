@@ -1,33 +1,35 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Brazilian Portuguese translation of website/addons/blindExtra.pt_BR.po
+# Copyright (C) 2016-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: NVDA website/addons/blindExtra.pt_BR.po\n"
 "POT-Creation-Date: 2016-11-12 08:51+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-08-30 21:52-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
+"Language-Team: Equipe de Tradução do NVDA para Português do Brasil "
+"<clever97@gmail.com>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Blind Extra\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Blind Extra\"]]\n"
 
 #. type: Bullet: '*   '
 msgid "Author: Ahmed Star"
-msgstr ""
+msgstr "Autor: Ahmed Star"
 
 #. type: Plain text
 msgid "This add-on claimed to allow access to certain extra software."
 msgstr ""
+"Esse complemento alegava permitir o acesso a determinados softwares "
+"opcionais."
 
 #. type: Plain text
 msgid ""
@@ -36,18 +38,26 @@ msgid ""
 "knowing it) by members of the NVDA add-ons community for the following "
 "reasons:"
 msgstr ""
+"Em novembro de 2016, esse complemento foi sinalizado como um cavalo de Troia "
+"de acesso remoto (acessando remotamente outro computador e danificando "
+"arquivos sem que os usuários soubessem) por membros da comunidade de "
+"complementos do NVDA pelos seguintes motivos:"
 
 #. type: Bullet: '* '
 msgid "Renaming files after using it for a while without users noticing it."
 msgstr ""
+"Renomear arquivos depois de usá-los por um tempo sem que os usuários "
+"percebam."
 
 #. type: Bullet: '* '
 msgid "Remote access, including sending Skype messages."
-msgstr ""
+msgstr "Acesso remoto, incluindo o envio de mensagens do Skype."
 
 #. type: Plain text
 msgid "Note: this add-on was never hosted on the community add-ons website."
 msgstr ""
+"Nota: esse complemento nunca foi hospedado no site de complementos da "
+"comunidade."
 
 #. type: Plain text
 msgid ""
@@ -60,8 +70,18 @@ msgid ""
 "things, but must be treated with care. Add-ons that do not come from this "
 "site are not checked by the Add-ons community.  Thank you."
 msgstr ""
+"A comunidade de complementos incita os usuários do NVDA a desinstalar esse "
+"complemento e a executar programas antivírus, bem como a formatar o seu "
+"disco, se as informações sensíveis estiverem nesse computador. A comunidade "
+"de complementos também gostaria de lembrar os usuários de terem cuidado ao "
+"instalar complementos de fontes não confiáveis, já que os complementos do "
+"NVDA podem executar várias ações, incluindo o acesso ao sistema de arquivos "
+"e à Internet. Os complementos do NVDA são poderosos softwares que podem "
+"fazer coisas incríveis, mas devem ser tratados com cuidado. Complementos que "
+"não vêm deste site não são verificados pela comunidade de Complementos. "
+"Obrigado."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag announcements]]\n"
-msgstr ""
+msgstr "[[!tag announcements]]\n"
