@@ -12,15 +12,28 @@
 
 <H2> ٢.0183</H2>
 
+<P>
+يتضمن هذا الإصدار العديد من المستجدات والتحسينات التي من بينها التعرف الآلي على العديد من الأسطر الإلكترونية, دعم ميزات ويندوز 10 الجديدة والتي من بينها لوحة إدخال الأشكال بونيدوز 10و معالجة العديد من الأخطاء.
+</P>
+
 <H3>المستجدات</H3>
 
 <UL>
-<LI>سيعلن NVDA عن الأخطاء النحوية إذا عرضت بشكل صحيح على صفحات الإنترنت بتطبيق Mozilla Firefox. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>سيعلن NVDA عن الأخطاء النحوية إذا عرضت بشكل صحيح على صفحات الإنترنت بتطبيق Mozilla Firefox و google chrome. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>سيعلن NVDA عما إذا كان المحتوى محذوف أو مدرج بصفحات الوب بتطبيق Google Chrome. (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
 <LI>دعم عجلة التمرير بكل من الأسطر الإلكترونية BrailleNote QT و Apex BT's عند استخدام BrailleNote كسطر إلكتروني مع nvda. (<A HREF="http://github.com/nvaccess/nvda/issues/6316">#6316</A>)
 <LI>إضافة اختصارات للإعلان عن الوقت المنقضي والوقت الإجمالي للمسار المشغل في تطبيق Foobar2000. (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
 <LI>أصبح رمز أمر مفتاح ماك ينطق عند قراءة نص بأي آلة نطق. (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
 <LI>دعم  القواعد المخصصة عبر خاصية aria-roledescription ب fire fox. Chrome و Internet Explorer.
-<LI>جدول ترجمة برايل جديد: سويدي حاسوب برايل 8 نقاط. (<A HREF="http://github.com/nvaccess/nvda/issues/8227">#8227</A>)
+<LI>جداول ترجمة برايل جديدة: تشيكي  8 نقاط, كردي رئيسي, مجري, وسويدي حاسوب برايل 8 نقاط.  (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
+<LI>دعم التعرف على الأسطر الإلكترونية في الخلفية. (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>وسيتم التعرف على كل من الاسطر الإلكترونية من طراز ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, Handy Tech, Hims, SuperBraille و HumanWare BrailleNote و Brailliant BI/B.
+ <LI>ويمكن تفعيل هذه الخاصية من خلال اختيار "آلي" من قائمة الأسطر الإلكترونية بمحاورة إعدادات الخط البارز.
+ <LI>يرجى الرجوع لدليل المستخدم للاطلاع على المزيد.
+ </UL>
+<LI>دعم العديد من الميزات الحديثة الموجودة بالإصدارات الأخيرة من ويندوز 10 ومن تلك الميزات لوحة الأشكال (تحديث المبدعين الكامل) والإملاء (تحديث المبدعين الكامل) ومقترحات إدخال لوحة المفاتيح (تحديث إبريل 2018) وحافظة اللصق السحابية (تحديث أكتوبر 2018). (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
+<LI>دعم المحتوى الذي يعرفه المصمم بأنه مقتبس   باستخدام خاصية ARIA (role blockquote) بتطبيق موزيلا فاير فوكس 63. (<A HREF="http://github.com/nvaccess/nvda/issues/8577">#8577</A>)
 </UL>
 
 <H3>التعديلات</H3>
@@ -28,15 +41,43 @@
 <UL>
 <LI>عرض قائمة اللغات بمحاورة الإعدادات العامة بناء على أسماء اللغات بدلا من عرضها بناء على تشفير ISO 639. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
 <LI>إضافة اختصارات افتراضية ل alt shift tab و windows tab لكل الأسطر الإلكترونية المدعومة من طراز Freedom Scientific. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>أصبح من الممكن تعيين مختلف الوظائف للوحة اليمين واليسار الذكية الرقمية سواء بالأصبع أو باللمس وذلك مع الأسطر الإلكترونية ALVA BC680 و protocol converter. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>سيعلن مفتاح الاختصار sp2+sp3 عن الوقت والتاريخ بينما سيحاكي مفتاح الاختصار sp1+sp2 مفتاح الويندوز وذلك بالأسطر الإلكترونية ALVA BC6. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>سيتم سؤال المستخدم عند بداياة تشغيل البرنامج عما إذا كان موافق على إرسال إحصائيات استخدام NVDA لمنظمة NV Access عند البحث عن التحديثات الآلية. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
 <LI>عند البحث عن التحديثات إذا وافق المستخدم على إرسال إحصائيات الاستخدام لمنظمة NV Access,, فإن NVDA سيرسل اسم آلة النطق والسطر الإلكتروني المستخدم للمساعدة في العمل على دعم هذه المحركات بشكل أفضل في المستقبل. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
 <LI>ترقية مترجم لبلويس برايل للإصدار 3.6.0. (<A HREF="http://github.com/nvaccess/nvda/issues/8365">#8365</A>)
+<LI>تحديث المسار الصحيح  للجدول البرايل  الروسي  8 نقاط. (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
+<LI>ترقية آلة النطق eSpeak-ng للإصدار 1.49.3dev commit 910f4c2 (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
 </UL>
 
 <H3>الإصلاحات</H3>
 
 <UL>
 <LI>أصبحت أسماء الكائنات المتوافقة مع قارآت الشاشة تقرأ بشكل دقيق في نمط التصفح عند عدم ظهور اسم الكائن كمحتوى في google chrome. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
+<LI>أصبحت الإشعارات مدعومة في تطبيق زوم ومن بينها حالة كتم الصوت والرسائل الواردة. (<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
+<LI>لم يعد يتسبب نقل سياق عرض البرايل عند وجودك في نمط التصفح في توقف متابعة مؤشر نمط التصفح. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>لم تعد تفشل الأسطر الإلكترونية ALVA BC680 في البدء. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>لم تعد تنفذ الأسطر الإلكترونية ALVA BC6  بشكل افتراضي مفاتيح تحاكي  لوحة مفاتيح النظام عند ضغط مفاتيح الاختصار التي تتضمن sp2+sp3 لتشغيل وظيفة داخلية. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>سيحاكي  المفتاح sp2 عند ضغطه على السطر الإلكتروني ALVA BC6 مفتاح ال alt كما هو مشار إليه. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
+<LI>لم يعد يكرر NVDA الإعلان عن نمط لوحة المفاتيح. <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
+<LI>أصبح تتبع مسار الفأرة أكثر دقة في note pad وتطبيقات تحرير النصوص البسيطة  الأخرى عندما تكون موجود بمستند أكثر من 65535 حرف. (<A HREF="http://github.com/nvaccess/nvda/issues/8397">#8397</A>)
+<LI>سيتعرف NVDA الآن على مزيد من المحاورات بويندوز 10 والتطبيقات الحديثة الأخرى. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
+<LI>لم يعد يفشل NVDA في تتبع مؤشر النظام بويندوز 10 تحديث أكتوبر 2018 والخوادم 2019 وما يليه عندم يتوقف تطبيق عن العمل أو يملء  النظام. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)بالأحداث
+<LI>سيخبر المستخدم عند قراءته أو نسخه لشريط حالة فارغ. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
+<LI>معالجة حالة عدم الإعلان عن أن العنصر محدد إذا تم تحديد العنصر من قبل. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>أصبحت اللغة البورمية تعرض بشكل صحيح في ويندوز 7 بقائمة اللغات بمحاورة الإعدادات العامة. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>سيعلن NVDA عن الإشعارات بتطبيق Microsoft Edge, مثل إمكانية عرض القراءة وشريط تقدم تحميل الصفحة. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
+<LI>عند الحركة على قائمة سردية على صفحات الوب, فإن NVDA سيعلن عن اسم تلك القائمة إذا كان المصمم قد وضع لها اسم. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
+<LI>عند تعيين اختصارات بشكل يدوي لسطر إلكتروني ما, فإن هذه الاختصارات ستعرض على أنها معينة لهذا السطر. حيث كانت من قبل تعرض على أنها منوطة بالسطر العامل حاليا. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>دعم الإصدار 64 بيت من تطبيق Media Player Classic. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>العديد من التحسينات للبرايل عند استخدامه مع microsoft word وتفعيل UIE automation:
+ <UL>
+ <LI>عند كتابة  حرف واحد بالمستند  فإنه سيظهر  على السطر الإلكتروني بدلا من وجود اسم المستند فقط شأنه في ذلك شأن المستند متعدد الأسطر. (<A HREF="http://github.com/nvaccess/nvda/issues/840">#840</A>h6)
+ <LI>تقليل الإطناب عند عرض المستند سواء بالنطق أو على البرايل. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>يعمل مؤشر البرايل بشكل صحيح الآن عند وجوده في قائمة سردية بمستند وورد. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ -سيعلن عن التنقيطات والأرقام المدرجة حديثا بمستند وورد بشكل صحيح بالنطق أو على البرايل. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ </UL>
+<LI>أصبح من الممكن تثبيت الإضافات إذا كانت خاصية "استخدام تشفير UTF-8 الموحد لدعم اللغة العالمية" مفعلة بويندوز 10 1803 وما بعده. (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
 </UL>
 
 <H3>تعديلات للمطورين</H3>
