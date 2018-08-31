@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -300,9 +300,8 @@ msgstr "knp"
 
 #. Translators: Displayed in braille for an object which is a
 #. document.
-#, fuzzy
 msgid "doc"
-msgstr "punkt"
+msgstr "dok"
 
 #. Translators: Displayed in braille for an object which is a
 #. application.
@@ -1201,7 +1200,7 @@ msgstr "Fokusmodus"
 #. that can be navigated with the cursor keys like in a text document
 #. Translators: The name of a category of NVDA commands.
 msgid "Browse mode"
-msgstr "Blamodus"
+msgstr "Nettmodus"
 
 #. Translators: Reported label in the elements list for an element which which has no name and value
 msgid "Unlabeled"
@@ -3530,7 +3529,7 @@ msgstr "Symbolnivå %s"
 msgid ""
 "Cycles through speech symbol levels which determine what symbols are spoken"
 msgstr ""
-"Blar gjennom tale symbol nivåer, som bestemmer hvilke symboler blir uttalt"
+"Blar gjennom talesymbolnivåer, som avgjør hvilke symboler som blir uttalt"
 
 #. Translators: Reported when the object has no location for the mouse to move to it.
 msgid "Object has no location"
@@ -4154,7 +4153,7 @@ msgstr "Viser NVDA objektpresentasjon innstillingsdialogen"
 #. Translators: Input help mode message for go to browse mode settings command.
 #, fuzzy
 msgid "Shows NVDA's browse mode settings"
-msgstr "Viser NVDA blamodus innstillingsdialogen"
+msgstr "Viser NVDAs innstillinger for nettmodus"
 
 #. Translators: Input help mode message for go to document formatting settings command.
 #, fuzzy
@@ -8424,7 +8423,7 @@ msgstr "Portabel &mappe:"
 
 #. Translators: The label of a button to browse for a directory.
 msgid "Browse..."
-msgstr "Bla gjennom..."
+msgstr "Bla gjennom ..."
 
 #. Translators: The title of the dialog presented when browsing for the
 #. destination directory when creating a portable copy of NVDA.
@@ -8963,7 +8962,7 @@ msgstr "Spill en lyd når &autoforslag dukker opp"
 
 #. Translators: This is the label for the browse mode settings panel.
 msgid "Browse Mode"
-msgstr "Blamodus"
+msgstr "Nettmodus"
 
 #. Translators: This is the label for a textfield in the
 #. browse mode settings panel.
@@ -9004,7 +9003,7 @@ msgstr "Automatisk fokusmodus ved markørflytting"
 #. Translators: This is the label for a checkbox in the
 #. browse mode settings panel.
 msgid "Audio indication of focus and browse modes"
-msgstr "Lydsignal ved fokus- og blamodus"
+msgstr "Lydsignal ved fokus- og nettmodus"
 
 #. Translators: This is the label for a checkbox in the
 #. browse mode settings panel.
@@ -11078,7 +11077,7 @@ msgstr "Linjeavstand 1,5"
 #~ msgstr "Endre rapportering av objekter"
 
 #~ msgid "&Browse mode..."
-#~ msgstr "&Blamodus..."
+#~ msgstr "&Nettmodus ..."
 
 #~ msgid "Change virtual buffers specific settings"
 #~ msgstr "Endre virtuelt buffer spesifike innstillinger"
