@@ -2627,6 +2627,7 @@ Por favor mira-te la documentación d'a pantalla pa descripcions d'do puede trob
 | Desplazar a linia braille entadebant | switch1-6Dreita, l8 |
 | Mover-se-ne t'o foco actual | switch1-6Zurda+switch1-6Dreita, l1+l8 |
 | Enrotar t'a celda braille | sensors |
+| Anunciar lo formato d'o texto baixo la celda braille | doble sensor |
 | Mover-se-ne t'a linia anterior en revisión | ceprén1Alto |
 | Mover-se-ne t'a siguient linia en revisión | ceprén1Baixo |
 | Mover-se-ne t'o caracter anterior en revisión | ceprén1Cucha |
