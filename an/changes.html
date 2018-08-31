@@ -10,6 +10,97 @@
 </CENTER>
 
 
+<H2>2018.3</H2>
+
+<P>
+Lo resinyable d'ista versión inclui la detección automatica de muitas linias Braille, l'admisión pa qualques caracteristicas nuevas d'o Windows 10 incluindo lo panel de dentrada d'emojis de Windows 10, y muitas atras correccions d'errors.
+</P>
+
+<H3>Nuevas Caracteristicas</H3>
+
+<UL>
+<LI>Lo NVDA anunciará las errors gramaticals quan las pachinas web en o Mozilla Firefox y lo Google Chrome las exposen apropiadament. (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>Lo conteniu que se marca como estando borrau u ficau en as pachinas web agora s'anuncia en o Google Chrome. (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
+<LI>S'ha adhibiu lo suporte pa las ruedas de desplazamiento d'o BrailleNote QT y l'Apex BT quan s'emplega lo BrailleNote como una linia braille con o NVDA. (<A HREF="http://github.com/nvaccess/nvda/issues/6316">#6316</A>)
+<LI>S'ha adhibiu programas pa anunciar lo tiempo trescorriu y lo tiempo total d'a pista actual en o Foobar2000. (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
+<LI>Lo simbolo d'a tecla de comando d'o Mac (⌘) agora s'anuncia en leyer texto con qualsiquier sintetizador. (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
+<LI>Agora s'admite los rols personalizaus a traviés de l'atributo aria-roledescription attribute en o Firefox, lo Chrome y l'Internet Explorer. (<A HREF="http://github.com/nvaccess/nvda/issues/8448">#8448</A>)
+<LI>Nuevas tablas braille: braille sueco computerizau de 8 puntos, Curdo central, Esperanto, Hungaro y checo. (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
+<LI>S'ha adhibiu lo suporte pa la detección automatica de linias braille en segundo plan. (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>Se suporta actualment las linias ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, Handy Tech, Hims, SuperBraille y HumanWare BrailleNote y Brailliant BI/B.
+ <LI>Puetz habilitar ista caracteristica trigando la opción d'automatico dende la lista de linias braille en o dialogo de seleccionar linia braille d'o NVDA.
+ <LI>Por favor mira-te la documentación pa detalles adicionals.
+ </UL>
+<LI>S'ha adhibiu lo suporte pa quantas caracteristicas de dentrada modernas introducidas en las versions recients d'o Windows 10. Istas incluyen lo panel d'emoji (actualización Fall Creators), dictau (actualización Fall Creators), sucherencias de dentrada d'o teclau fisico (actualización d'abril d'o 2018), y apegar en o portafuellas en a boira (actualización d'octubre d'o 2018). (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
+<LI>Lo conteniu marcau como bloque de cita fendo servir l'ARIA (role blockquote) agora se suporta en o Mozilla Firefox 63. (<A HREF="http://github.com/nvaccess/nvda/issues/8577">#8577</A>)
+</UL>
+
+<H3>Cambios</H3>
+
+<UL>
+<LI>La lista d'idiomas disponibles en o dialogo d'opcions chenerals agora s'ordena basando-se en os nombres d'os idiomas en cuenta d'en os codigos ISO 639. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
+<LI>S'ha adhibiu cenyos predeterminaus pa alt mayus tabulador y windows tabulador con totas las linias braille compatibles de Freedom Scientific. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>Pa l'ALVA BC680 y linias con conversor de protocolo, agora ye posible assignar funcions diferents a los smart pad cucho y dreito, a lo thumb y a las teclas etouch. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Pa las linias ALVA BC6, la combinación de teclas sp2+sp3 agora anunciará la hora y la calendata actuals, mientras que sp1+sp2 emula la tecla Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Agora se le pregunta a l'usuario una vez en o ranque d'o NVDA si ye d'alcuerdo en ninviar estatisticas d'uso ta NV Access quan se mire actualizacions automaticament. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>En mirar actualizacions, si l'usuario ye d'alcuerdo en permitir lo ninvio d'estatisticas d'uso ta NV Access, lo NVDA agora ninviará lo nombre d'o controlador d'o sintetizador actual y d'a linia braille en uso, pa aduyar a establir un millor orden de prioridatz pa lo treballo futuro d'ixos controladors. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>S'ha esviellau lo transcriptor braille liblouis t'a versión 3.6.0. (<A HREF="http://github.com/nvaccess/nvda/issues/8365">#8365</A>)
+<LI>S'ha esviellau la rota t'a tabla braille rusa de 8 puntos correcta. (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
+<LI>S'ha esviellau l'eSpeak-ng ta 1.49.3dev confirmación 910f4c2 (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
+</UL>
+
+<H3>Corrección d'Errors</H3>
+
+<UL>
+<LI>Las etiquetas accesibles pa los controls en o Google Chrome agora s'anuncian mas leyiblement en o modo de navegación quan la etiqueta no i amaneix como conteniu. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
+<LI>Agora se suporta las notificacions en o Zoom. Por eixemplo, ixo inclui silenciar u desilenciar o estau, y los mensaches dentrants. (<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
+<LI>Cambiar la presentación d'o contexto braille quan se siga en o modo de navegación ya no causa que la salida braille deixe de seguir lo cursor d'o modo de navegación. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>Las linias braille ALVA BC680 ya no fallan intermitentment en inicializar-sen. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>Por defecto, las linias ALVA BC6 ya no executarán teclas emuladas d'o sistema en pretar combinacions de teclas que tiengan a veyer con sp2+sp3 pa disparar funcionalidatz internas. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>En pretar lo sp2 en una linia ALVA BC6 pa emular la tecla alt agora funciona tal como s'anuncia. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
+<LI>Lo NVDA ya no anuncia cambios redundants d'a distribución de teclau. (<A HREF="http://github.com/nvaccess/nvda/issues/7383">#7383</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
+<LI>Lo seguimiento d'o churi agora ye muito mas preciso en o bloque de notas y en atros controls d'edición de texto sin formato quan se trobe en un documento con mas de 65535 caracters. (<A HREF="http://github.com/nvaccess/nvda/issues/8397">#8397</A>)
+<LI>Lo NVDA reconoixerá mas dialogos en o Windows 10 y atras aplicacions modernas. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
+<LI>En l'actualización d'octubre d'o 2018 d'o Windows 10 y d'o Server 2019 y posteriors lo NVDA ya no falla en seguir a lo foco d'o sistema quan una aplicación se conchela u engarona a lo sistema d'escayecimientos. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
+<LI>Agora s'informa a los usuarios quan miren de leyer u copiar una barra d'estau lasa. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
+<LI>S'ha correchiu un caso en do lo estau de "no marcau" en os controls no s'anunciaba en voz si lo control yera estau parcialment marcau anteriorment. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>En a lista d'idiomas en as opcions chenerals d'o NVDA lo nombre pa l'idioma birmano s'amuestra correctament en o Windows 7. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>En o Microsoft Edge lo NVDA anunciará notificacions tals como leyer la disponibilidat d'a envista y lo progreso d'a carga d'a pachina. (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
+<LI>En navegar por una lista en a web lo NVDA agora anunciará la suya etiqueta si l'autor d'a pachina en ha furniu una. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
+<LI>Quan s'asigna manualment funcions a cenyos pa una linia braille en particular, ixos cenyos agora siempre amaneixen como asignaus a ixa linia. Anteriorment s'amostraban como si estasen asignaus a la linia activa en ixe momento. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>Agora s'admite la versión de 64 bits d'o Meya Player Classic. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>Quantas milloras a lo suporte braille en o Microsoft Word con l'UI Automation enchegau:
+ <UL>
+ <LI>De traza semellant a atros campos de texto multilínea, quan se cale a lo comienzo d'un documento en Braille, la linia agora se desplaza de tal forma que lo primer caracter d'o documento se trobe a lo prencipio d'a linia. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
+ <LI>Reducción d'a presentación masiau ampla d'o foco tanto en voz como en braille quan s'enfoque bell documento d'o Word. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>Lo enrotamiento d'o cursor en braille agora funciona correctament quan se ye en una lista en un documento d'o Word. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ <LI>Las viñetas u numers ficaus recientment en un documento d'o Word s'anuncian correctament tanto en voz como en braille. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ </UL>
+<LI>En o Windows 10 1803 y posteriors, agora ye posible d'instalar complementos si ye enchegada la caracteristica d'"utilizar Unicode UTF-8 pa lo suporte d'idioma en totz". (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+</UL>
+
+<H3>Cambios pa los Desembolicadors</H3>
+
+<UL>
+<LI>S'ha adhibiu scriptHandler.script, lo qual puet funcionar como un decorador pa programas en os obchectos programables. (<A HREF="http://github.com/nvaccess/nvda/issues/6266">#6266</A>)
+<LI>S'ha ficau un marco de treballo de sistema de prebas pa lo NVDA. (<A HREF="http://github.com/nvaccess/nvda/issues/708">#708</A>)
+<LI>S'ha rializau qualques cambios en o modulo hwPortUtils: (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>Lo listUsbDevices agora chenera diccionarios con información de dispositivo incluindo hardwareID y devicePath.
+ <LI>Los diccionarios cheneraus por lo listComPorts agora tamién contienen una dentrada usbID pa los puertos COM con información USB VID/PID en o suyo ITZ d'hardware.
+ </UL>
+<LI>S'ha esviellau lo wxPython ta 4.0.3. (<A HREF="http://github.com/nvaccess/nvda/issues/7077">#7077</A>)
+<LI>Dau que lo NVDA agora nomás ye compatible con o Windows 7 SP1 y posteriors, s'ha eliminau la clau "minWindowsVersion" utilizada pa comprebar si l'UIA habría d'enchegar-se pa una versión en particular d'o Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/8422">#8422</A>)
+<LI>Agora te puetz rechistrar pa que se te notifique sobre accions d'alzar u reenchegar la configuración a traviés d'as nuevas accions config.pre_configSave, config.post_configSave, config.pre_configReset, y config.post_configReset. (<A HREF="http://github.com/nvaccess/nvda/issues/7598">#7598</A>)
+ <UL>
+ <LI>config.pre_configSave s'emplega pa que se te notifique quan la configuración d'o NVDA ye a pocas d'alzar-se, y config.post_configSave se clama dimpués que la configuración s'haiga alzada.
+ <LI>config.pre_configReset y config.post_configReset incluyen un indicador de valors predeterminadas  de fabrica pa especificar si las opcions se recargan dende lo disco (false) u se reestableixen t'as valors predeterminadas (true).
+ </UL>
+<LI>config.configProfileSwitch s'ha renombrau ta config.post_configProfileSwitch pa refleixar lo feito que ixa acción se clama dimpués que lo cambio de perfil tienga efecto. (<A HREF="http://github.com/nvaccess/nvda/issues/7598">#7598</A>)
+<LI>S'ha esviellau interficies d'UI Automation pa lactualización d'octubre d'o 2018 d'o Windows 10 y Server 2019 (IUIAutomation6 / IUIAutomationElement9). (<A HREF="http://github.com/nvaccess/nvda/issues/8473">#8473</A>)
+</UL>
+
 <H2>2018.2</H2>
 
 <P>
