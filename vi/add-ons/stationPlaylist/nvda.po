@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: stationPlaylist 17.02\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 19:00+1000\n"
-"PO-Revision-Date: 2018-08-31 21:20+0700\n"
+"PO-Revision-Date: 2018-09-01 17:08+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -747,8 +747,8 @@ msgstr "Đang tiến hành quét"
 #. Translators: reported when no playlist has been loaded when trying to perform playlist analysis.
 msgid "No playlist has been loaded, cannot perform playlist analysis."
 msgstr ""
-"Không có danh sách phát nào được tải, không thể thực hiện phân tích danh "
-"sách phát."
+"Không có danh sách phát nào được mở, không thể thực hiện phân tích danh sách "
+"phát."
 
 #. Translators: Presented when playlist analysis cannot be activated.
 msgid "No tracks are selected, cannot perform playlist analysis."
@@ -1313,7 +1313,7 @@ msgstr "Đây là hồ sơ chuyển nhanh"
 
 #. Translators: The label of a checkbox to toggle if selected profile is a time-based profile.
 msgid "This is a &time-based switch profile"
-msgstr "Đây là hồ sơ chuyển theo thời gian"
+msgstr "Đây là hồ sơ chuyển &theo thời gian"
 
 msgid "Day"
 msgstr "Ngày"
@@ -1335,7 +1335,7 @@ msgid ""
 "A profile trigger already exists for the entered time slot. Please choose a "
 "different date or time."
 msgstr ""
-"Đã có một tác nhân hồ sơ cho khung giờ đươc5 nhập. Vui lòng chọn thời gian "
+"Đã có một tác nhân hồ sơ cho khung giờ được nhập. Vui lòng chọn thời gian "
 "khác."
 
 #. Er, did you specify a date?
@@ -1556,7 +1556,7 @@ msgstr "Khi hồ sơ chuyển nhanh hoạt động"
 
 #. Translators: the label for a setting in SPL add-on settings to be notified that metadata streaming is enabled.
 msgid "&Metadata streaming notification and connection"
-msgstr "Thông báo và kết nối metadata streaming"
+msgstr "Thông báo và kết nối &metadata streaming"
 
 msgid "&Select the URL for metadata streaming upon request:"
 msgstr "&Chọn URL cho metadata streaming theo yêu cầu:"
@@ -2074,7 +2074,7 @@ msgstr ""
 #. Translators: The name of a layer command set for Station Playlist Studio.
 #. Hint: it is better to translate it as "SPL Control Panel."
 msgid "SPL Controller"
-msgstr "Bộ bộ điều khiển SPL"
+msgstr "Bộ điều khiển SPL"
 
 #. Translators: Input help mode message for a layer command in Station Playlist Studio.
 msgid "SPl Controller layer command. See add-on guide for available commands."
