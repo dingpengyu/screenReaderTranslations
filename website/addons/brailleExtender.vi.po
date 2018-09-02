@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-07 18:08+1000\n"
+"POT-Creation-Date: 2018-09-03 02:59+1000\n"
 "PO-Revision-Date: 2018-08-27 00:01+0700\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
@@ -100,8 +100,8 @@ msgid ""
 "Offer several keyboard configurations concerning the possibility to input "
 "dots 7 and 8, enter and backspace."
 msgstr ""
-"Đưa ra vài cấu hình bàn phím liên quan đến việc nhập bằng chấm 7 và 8, "
-"enter và backspace."
+"Đưa ra vài cấu hình bàn phím liên quan đến việc nhập bằng chấm 7 và 8, enter "
+"và backspace."
 
 #. type: Bullet: '* '
 msgid "Launch applications quickly."
@@ -118,10 +118,9 @@ msgid ""
 "The documentation is mainly generated automatically because it depends on "
 "the braille display in use."
 msgstr ""
-"Khi đã cài đặt add-on, xem tài liệu hướng dẫn và các cài đặt thông qua "
-"trình đơn của BrailleExtender (tại trình đơn gốc của NVDA). Tài liệu hướng "
-"dẫn chủ yếu được tạo tự động vì nó phụ thuộc vào màn hình nổi đang được sử "
-"dụng."
+"Khi đã cài đặt add-on, xem tài liệu hướng dẫn và các cài đặt thông qua trình "
+"đơn của BrailleExtender (tại trình đơn gốc của NVDA). Tài liệu hướng dẫn chủ "
+"yếu được tạo tự động vì nó phụ thuộc vào màn hình nổi đang được sử dụng."
 
 #. type: Plain text
 #, no-wrap

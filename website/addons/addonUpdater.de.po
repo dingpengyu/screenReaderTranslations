@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-06 04:01+1000\n"
+"POT-Creation-Date: 2018-09-03 02:58+1000\n"
 "PO-Revision-Date: 2018-08-06 02:24+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -26,7 +26,6 @@ msgid "Author: Joseph Lee"
 msgstr "Author: Joseph Lee"
 
 #. type: Bullet: '* '
-#| msgid "Download [stable version][1]"
 msgid "Download [prototype version][1]"
 msgstr "Herunterladen der [Vorabversion][1]"
 
@@ -79,11 +78,6 @@ msgid "Windows 10 App Essentials"
 msgstr "Windows 10 App Essentials"
 
 #. type: Plain text
-#| msgid ""
-#| "IMPORTANT: this is a proof of concept add-on. Once the relevant feature "
-#| "is included in NVDA, this add-on will be discontinued. Also, checkable "
-#| "list box comes from NVDA issue 7491 (credit: Derek Riemer and Babbage B."
-#| "V.)."
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
@@ -94,7 +88,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.08.3"
 msgid "Version 18.08.5"
 msgstr "Version 18.08.5"
 
@@ -117,7 +110,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.08.3"
 msgid "Version 18.08.4"
 msgstr "Version 18.08.4"
 
@@ -170,7 +162,6 @@ msgstr "Erstveröffentlichung."
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!tag dev stable]]\n"
 msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 

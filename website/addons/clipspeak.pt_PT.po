@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clipspeak\n"
-"POT-Creation-Date: 2018-07-20 14:56+1000\n"
+"POT-Creation-Date: 2018-09-03 02:58+1000\n"
 "PO-Revision-Date: 2018-07-20 10:57+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
@@ -24,7 +24,6 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
-#| msgid "Author: Damien Sykes-Lindley"
 msgid "Author: Damien Garwood"
 msgstr "Autor: Damien Garwood"
 
@@ -89,7 +88,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 

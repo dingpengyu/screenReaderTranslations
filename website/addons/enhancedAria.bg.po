@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-22 18:34+1000\n"
+"POT-Creation-Date: 2018-09-03 02:58+1000\n"
 "PO-Revision-Date: 2018-08-22 12:26+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
@@ -103,7 +103,6 @@ msgstr "Списък на промените"
 
 #. type: Title ###
 #, no-wrap
-#| msgid "Version 2.1"
 msgid "Version 2.2"
 msgstr "Версия 2.2"
 

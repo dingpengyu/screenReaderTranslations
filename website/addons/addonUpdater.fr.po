@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: addonUpdater Addons website for NVDA\n"
-"POT-Creation-Date: 2018-08-06 04:01+1000\n"
+"POT-Creation-Date: 2018-09-03 02:58+1000\n"
 "PO-Revision-Date: 2018-08-05 21:33+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
@@ -90,7 +90,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.08.3"
 msgid "Version 18.08.5"
 msgstr "Version 18.08.5"
 
@@ -113,7 +112,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.08.3"
 msgid "Version 18.08.4"
 msgstr "Version 18.08.4"
 
@@ -168,7 +166,6 @@ msgstr "Première version"
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!tag dev stable]]\n"
 msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 

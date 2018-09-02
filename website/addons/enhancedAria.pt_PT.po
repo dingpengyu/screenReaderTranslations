@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-22 18:34+1000\n"
+"POT-Creation-Date: 2018-09-03 02:58+1000\n"
 "PO-Revision-Date: 2018-08-22 20:25+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: \n"
@@ -53,9 +53,6 @@ msgstr ""
 "navegadores. Leia o Guia do Usuário do NVDA para mais informações."
 
 #. type: Plain text
-#| msgid ""
-#| "The addon adds an extra landmark not included by default in NVDA, the "
-#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
 "article (abbreviated in Braille as art)."

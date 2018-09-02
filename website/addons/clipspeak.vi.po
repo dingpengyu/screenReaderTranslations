@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-20 14:56+1000\n"
+"POT-Creation-Date: 2018-09-03 02:58+1000\n"
 "PO-Revision-Date: 2018-07-21 10:49+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
@@ -83,7 +83,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 

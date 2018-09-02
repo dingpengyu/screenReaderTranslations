@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-20 14:56+1000\n"
+"POT-Creation-Date: 2018-09-03 02:58+1000\n"
 "PO-Revision-Date: 2018-07-20 08:14+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -22,12 +22,10 @@ msgid "[[!meta title=\"Clipspeak\"]]\n"
 msgstr "[[!meta title=\"Clipspeak\"]]\n"
 
 #. type: Bullet: '* '
-#| msgid "Author: Damien Sykes-Lindley"
 msgid "Author: Damien Garwood"
 msgstr "Autor: Damien Garwood"
 
 #. type: Bullet: '* '
-#| msgid "download [development version][1]"
 msgid "download [stable version][1]"
 msgstr "Herunterladen der [stabilen Version][1]"
 
@@ -89,7 +87,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-22 18:34+1000\n"
+"POT-Creation-Date: 2018-09-03 02:58+1000\n"
 "PO-Revision-Date: 2018-08-22 10:57+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -54,9 +54,6 @@ msgstr ""
 "Informationen."
 
 #. type: Plain text
-#| msgid ""
-#| "The addon adds an extra landmark not included by default in NVDA, the "
-#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
 "article (abbreviated in Braille as art)."
@@ -70,11 +67,6 @@ msgid "The configuration dialog"
 msgstr "Das Einstellungsfenster"
 
 #. type: Plain text
-#| msgid ""
-#| "You can enable or disable landmarks by going to NVDA, preferences, "
-#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
-#| "you disable a landmark, you won't be able to jump to it pressing the d "
-#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
 "Aria Settings or from the appropriate category in the NVDA options dialog. "
@@ -95,10 +87,6 @@ msgid "Contact info"
 msgstr "Kontakt-Informationen"
 
 #. type: Plain text
-#| msgid ""
-#| "This addon has been developed by Jose Manuel Delicado. If you want to "
-#| "contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on "
-#| "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgid ""
 "This addon has been developed by Jose Manuel Delicado. If you want to "
 "contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
@@ -116,7 +104,6 @@ msgstr "Änderungsprotokoll"
 
 #. type: Title ###
 #, no-wrap
-#| msgid "Version 2.0"
 msgid "Version 2.2"
 msgstr "Version 2.2"
 
@@ -130,7 +117,6 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-#| msgid "Version 2.0"
 msgid "Version 2.1"
 msgstr "Version 2.1"
 
