@@ -2205,36 +2205,3 @@ msgid ""
 msgstr ""
 "تطوير دعم NVDA مع تطبيق Station Playlist Studio.\n"
 "فضلا عن إضافة مفاتيح اختصار للتحكم في الاستوديو من أي مكان."
-
-#~ msgid "Song pitch not available"
-#~ msgstr "حدة الأغنية غير متوفرة"
-
-#, fuzzy
-#~ msgid "General add-on settings"
-#~ msgstr "إعدادات إضافة الاستوديو"
-
-#, fuzzy
-#~ msgid "Playlist transcripts settings"
-#~ msgstr "هناك محاورة تنبيه أخرى مفتوحة"
-
-#, fuzzy
-#~ msgid "Switching to unstable channel"
-#~ msgstr "الانتقال بين الأوضاع"
-
-#, fuzzy
-#~ msgid "&General add-on settings..."
-#~ msgstr "إعادة الإعدادات الافتراضية"
-
-#~ msgid "Configure metadata &streaming connection options..."
-#~ msgstr "&خيارات إعدادات بيانات البث والاتصال"
-
-#, fuzzy
-#~ msgid "&Status announcements..."
-#~ msgstr "الإعلان عن الحالة بالصفير"
-
-#~ msgid "&Advanced options..."
-#~ msgstr "خيارات &متقدمة..."
-
-#, fuzzy
-#~ msgid "Studio Add-on Settings V2"
-#~ msgstr "إعدادات إضافة الاستوديو"

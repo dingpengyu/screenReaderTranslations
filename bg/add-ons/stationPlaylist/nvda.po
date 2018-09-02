@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: StationPlaylist 1.1-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2018-07-08 09:33-0700\n"
+"PO-Revision-Date: 2018-09-01 21:21-0700\n"
 "Last-Translator: Zahari Yurukov <zahari.yurukov@gmail.com>\n"
 "Language-Team: Български <>\n"
 "Language: bg_BG\n"
@@ -2246,36 +2246,3 @@ msgid ""
 msgstr ""
 "Подобрява достъпността на Station Playlist Studio.\n"
 "В допълнение предоставя инструменти за контрол на програмата отвсякъде."
-
-#~ msgid "Song pitch not available"
-#~ msgstr "Промяната на тона за песента не се предлага"
-
-#, fuzzy
-#~ msgid "General add-on settings"
-#~ msgstr "Настройки на добавката за Studio"
-
-#, fuzzy
-#~ msgid "Playlist transcripts settings"
-#~ msgstr "Отворен е друг диалог за аларма."
-
-#, fuzzy
-#~ msgid "Switching to unstable channel"
-#~ msgstr "Превключване на профили"
-
-#, fuzzy
-#~ msgid "&General add-on settings..."
-#~ msgstr "Връщане на настройките"
-
-#~ msgid "Configure metadata &streaming connection options..."
-#~ msgstr "Настройка на потоците от &метаданни и свързаност..."
-
-#, fuzzy
-#~ msgid "&Status announcements..."
-#~ msgstr "Известяване чрез звуков сигнал"
-
-#~ msgid "&Advanced options..."
-#~ msgstr "&Разширени настройки..."
-
-#, fuzzy
-#~ msgid "Studio Add-on Settings V2"
-#~ msgstr "Настройки на добавката за Studio"
