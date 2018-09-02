@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-09-03 03:38+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Screen Curtain\"]]\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Authors: Babbage B.V., Joseph Lee"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download [development version][1]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This add-on brings NVDA Core issue 7857 to life: adding screen curtain "
+"functionality on Windows 8 and later."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To use this add-on, go to NVDA menu/Tools/Screen Curtain. If the item is "
+"checked, screen curtain is active, otherwise it is off. You can also assign "
+"a command to toggle screen curtain from everywhere. When toggling this "
+"feature, NVDA will announce a status message, and in case screen curtain is "
+"active when NVDA starts, a tone will be heard."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To ask NVDA to turn on screen curtain while using it, go to NVDA "
+"menu/Preferences/Settings/Screen curtain. Check \"use screen curtain\" "
+"checkbox to enable screen curtain, uncheck to disable. You can also "
+"configure this setting while profiles other than normal configuration is "
+"active so you can use screen curtain while a profile is active (while using "
+"an app, for example)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
+"included in NVDA][2], this add-on will be discontinued."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.08"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
+msgstr ""
+
+#. type: Plain text
+msgid "[2]: https://github.com/nvaccess/nvda/issues/7857"
+msgstr ""

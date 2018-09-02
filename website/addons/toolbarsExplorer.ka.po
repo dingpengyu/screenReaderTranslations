@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-09-03 03:39+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"ToolbarsExplorer\"]]\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Author: Alberto Buffolino"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This add-on makes easier to use toolbars in applications, providing an "
+"exploration model derived by object navigation, with simplified gestures."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Alt+applications: starts toolbars exploration<br/>\n"
+"(you can remap it via NVDA gesture manager, under Object navigation).\n"
+msgstr ""
+
+#. type: Plain text
+msgid "During exploration, following gestures are available:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Left/right arrow: moves to previous/next toolbar;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Up/down arrow: scrolls up/down items in current toolbar;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Enter: activates toolbar or its item;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Space: simulates left mouse click on toolbar or its item;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Applications: simulates right mouse click on toolbar or its item;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Escape: exits from exploration."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Additionally, you can perform actions on toolbars or its items using any "
+"gesture provided by NVDA, as exactly as when you move to objects with "
+"standard object navigation."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes and suggestions"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Exploration terminates explicitly pressing escape, and implicitly performing "
+"an action on toolbar or its item;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In LibreOffice, best configuration is probably default or single toolbar, "
+"set it on view menu/toolbar position."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr ""
