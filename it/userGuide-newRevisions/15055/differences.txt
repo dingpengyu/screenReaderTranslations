@@ -57,7 +57,7 @@ index b328142..e87eda8 100644
 +- HumanWare BrailleNote
 +- SuperBraille
 +- Optelec ALVA 6 series
-+- HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series
++- HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series	
 +- Eurobraille Esys/Esytime/Iris displays
 +-
 +
