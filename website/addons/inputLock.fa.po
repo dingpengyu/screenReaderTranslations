@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-17 02:47+1000\n"
-"PO-Revision-Date: 2018-08-31 17:03+0330\n"
+"PO-Revision-Date: 2018-09-03 23:43+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
@@ -169,7 +169,7 @@ msgid ""
 "translators"
 msgstr ""
 "مشکلات کوچکی برطرف شد. اندکی بهینه‌سازی در کد افزونه و رشته های کمتر تکراری "
-"برای ترجمه‌کننده‌ها."
+"برای مترجم‌ها."
 
 #. type: Title ###
 #, no-wrap
