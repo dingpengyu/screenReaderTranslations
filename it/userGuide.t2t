@@ -820,7 +820,7 @@ Per spostarsi in una cella protetta, passare alla modalità navigazione premendo
 
 +++ Campi +++[ExcelFormFields]
 Le cartelle di lavoro di Excel possono includere i campi.
-è possibile accedervi  attraverso l'elenco elementi oppure premendo i tasti di navigazione rapida per lettera f o shift+f.
+è possibile accedervi attraverso l'elenco elementi oppure premendo i tasti di navigazione rapida per lettera f o shift+f.
 Una volta raggiunto un campo in modalità navigazione, premere invio o la barra spaziatrice per attivarlo o per interagire con esso in modalità focus.
 Per ulteriori informazioni sulla modalità di navigazione e i caratteri singoli, si veda la [sezione modalità navigazione #BrowseMode].
 
@@ -836,7 +836,6 @@ Per ulteriori informazioni sulla modalità di navigazione e i caratteri singoli,
 | Annuncia tempo rimanente | control+shift+r | Annuncia il tempo restante della traccia attualmente in esecuzione, se ve n'è una. |
 | Annuncia tempo trascorso | control+shift+e | Annuncia il tempo trascorso della traccia attualmente in esecuzione, se ve n'è una. |
 | Annuncia lunghezza traccia | control+shift+t | Annuncia la lunghezza della traccia attualmente in esecuzione, se ve n'è una. |
-
 %kc:endInclude
 
 Nota: Questi tasti caldi funzionano soltanto se la barra di stato di Foobar ha il formato predefinito.
@@ -976,15 +975,11 @@ Questa opzione è disponibile soltanto nelle versioni Installer.
 ==== Controlla automaticamente la presenza di aggiornamenti di NVDA ====[GeneralSettingsCheckForUpdates]
 Se attivata, NVDA controllerà automaticamente la presenza di nuove versioni e notificherà l'utente della loro disponibilità.
 è anche possibile controllare manualmente, selezionando la voce controllo presenza aggiornamenti, situata all'interno del menu aiuto.
-
-==== Notifica aggiornamenti in sospeso all'avvio ====[GeneralSettingsNotifyPendingUpdates]
-Se la funzione è attivata, NVDA avviserà l'utente nel caso vi sia un aggiornamento in sospeso all'avvio, dando la possibilità di effettuare l'installazione.
-è anche possibile installare l'aggiornamento in sospeso manualmente dalla finestra di uscita di NVDA (se attivata), dal menu di NVDA, o quando si esegue un nuovo controllo dal menu aiuto.
-Durante il controllo della presenza di aggiornamenti, è necessario che NVDA invii al server alcune informazioni in modo da ottenere la versione più adeguata per il sistema operativo in uso.
-Vengono inviate le seguenti informazioni:
-- Versione in uso di NVDA
-- Versione del sistema operativo
-- Se il sistema operativo è a 64 o 32 bit
+A prescindere dal metodo scelto per controllare la presenza di aggiornamenti, è necessario che NVDA invii al server alcune informazioni in modo da ricevere l'aggiornamento corretto per il proprio sistema.
+Verranno sempre inviate le seguenti informazioni:
+- Versione di NVDA
+- Versione del sistema operativo in uso
+- Se il sistema operativo è a 64 o a 32 bit
 
 
 ==== Consenti al progetto NVDA di raccogliere statistiche sull'utilizzo dello screen reader ====
@@ -1000,9 +995,9 @@ Oltre alle informazioni obbligatorie usate per controllare gli aggiornamenti, sa
 
 Queste informazioni risultano di grandissimo aiuto a Nv Access per dare priorità a rami specifici di sviluppo di NVDA
 
-
-==== Notifica la presenza di aggiornamenti in sospeso all'avvio ====[GeneralSettingsNotifyPendingUpdates]
-Se questa casella di controllo è attiva, NVDA notificherà l'utente della presenza di aggiornamenti in sospeso all'avvio dello screen reader, dando la possibilità di installarli.
+==== Notifica aggiornamenti in sospeso all'avvio ====[GeneralSettingsNotifyPendingUpdates]
+Se la funzione è attivata, NVDA avviserà l'utente nel caso vi sia un aggiornamento in sospeso all'avvio, dando la possibilità di effettuare l'installazione.
+è anche possibile installare l'aggiornamento in sospeso manualmente dalla finestra di uscita di NVDA (se attivata), dal menu di NVDA, o quando si esegue un nuovo controllo dal menu aiuto.
 
 +++ Impostazioni voce (NVDA+control+v) +++[SpeechSettings]
 La categoria voce nella finestra impostazioni di NVDA contiene  opzioni che permettono di modificare il sintetizzatore da utilizzare nonché le caratteristiche delle varie voci come tono, velocità, etc.
