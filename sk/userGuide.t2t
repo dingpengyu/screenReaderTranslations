@@ -930,7 +930,7 @@ Ak chcete vytvoriť skratku pre kategóriu, použite dialóg [Klávesové skratk
 
 Kategórie nastavení sú popísané na nasledujúcich riadkoch.
 
-+++  všeobecné (NVDA+ctrl+g) +++[GeneralSettings]
+++  všeobecné (NVDA+ctrl+g) +++[GeneralSettings]
 Tu môžete nastaviť základné správanie NVDA, vrátane jazyka rozhrania NVDA a tiež kontroly aktualizácii.
 Kategória Obsahuje tieto nastavenia:
 
@@ -982,7 +982,6 @@ Aby bolo možné poskytnúť aktualizáciu, zisťujeme:
 - Či používate 32 alebo 64 bitovú verziu
 
 
-
 ==== Zhromažďovanie údajov o používaní NVDA ====[GeneralSettingsGatherUsageStats]
 Ak začiarknete túto možnosť, NV Access využije tieto informácie na zisťovanie, koľko ľudí používa NVDA, z akých krajín pochádzajú. Informácie sú zasielané vždy pri kontrole dostupnosti novej verzie.
 Na zisťovanie krajiny, v ktorej sa nachádzate, využívame IP adresu. Vašu IP adresu si však ďalej neukladáme.
@@ -992,6 +991,7 @@ Okrem nevyhnutných údajov na získanie aktualizácie tiež po začiarknutí to
 - Aký hlasový výstup používate (vrátane názvu doplnku z ktorého je nainštalovaný ovládač)
 - Aký braillovský riadok používate (vrátane názvu doplnku z ktorého je nainštalovaný ovládač)
 - Akú braillovskú tabuľku používate (ak využívate rbaillovský výstup)
+
 
 Tieto údaje nám umožnia určiť ďalšie priority pri vývoji NVDA.
 
