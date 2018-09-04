@@ -10,6 +10,76 @@
 </CENTER>
 
 
+<H2>2018.3</H2>
+
+<P>
+Prednosti tejto verzie zahŕňajú automatické pripájanie k mnohým braillovským riadkom, podporu pre nové funkcie operačného systému Windows 10 vrátane panela pre zadávanie emoji, a ďalšie opravy.
+</P>
+
+<H3>Nové vlastnosti</H3>
+
+<UL>
+<LI>Ak sa na webovej stránke zobrazujú gramatické  chyby, NVDA ich dokáže oznamovať. Funguje v prehliadačoch Firefox a Chrome.  (<A HREF="http://github.com/nvaccess/nvda/issues/8280">#8280</A>)
+<LI>V prehliadači Google Chrome je oznamovaný obsah, ktorý je označený ako vložený alebo odstránený. (<A HREF="http://github.com/nvaccess/nvda/issues/8558">#8558</A>)
+<LI>Pridaná podpora pre skrolovacie koliesko so smerovými tlačidlami na riadkoch BrailleNote QT a Apex BT. (<A HREF="http://github.com/nvaccess/nvda/issues/5992">#5992</A>, <A HREF="http://github.com/nvaccess/nvda/issues/5993">#5993</A>)
+<LI>Pridané klávesové skratky na oznamovanie uplynutého času a celkovej dĺžky skladby v prehrávači Foobar 2000. (<A HREF="http://github.com/nvaccess/nvda/issues/6596">#6596</A>)
+<LI>Symbol pre kláves Command (na klávesnici MAC ⌘) je odteraz správne oznamovaný všetkými syntézami reči. (<A HREF="http://github.com/nvaccess/nvda/issues/8366">#8366</A>)
+<LI>Vlastné označenia rolí pri využití atribútu aria-roledescription sú  odteraz oznamované vo všetkých webových prehliadačoch. (<A HREF="http://github.com/nvaccess/nvda/issues/8448">#8448</A>)
+<LI>Nové braillovské tabuľky: Český 8-bodový počítačový braill, Stredná kurdčina, Esperanto, Maďarčina, Švédsky 8-bodový počítačový braill. (<A HREF="http://github.com/nvaccess/nvda/issues/8226">#8226</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8437">#8437</A>)
+<LI>Pridaná automatická detekcia braillovských riadkov na pozadí. (<A HREF="http://github.com/nvaccess/nvda/issues/1271">#1271</A>)
+ <UL>
+ <LI>Podporované sú riadky ALVA, Baum/HumanWare/APH/Orbit, Eurobraille, Handy Tech, Hims, SuperBraille a HumanWare BrailleNote a Brailliant BI/B.
+ <LI>Ak chcete využívať túto funkciu, ako braillovský riadok v nastaveniach zvoľte možnosť automatické.
+ <LI>Podrobnosti nájdete v používateľskej príručke.
+ </UL>
+<LI>Pridaná podpora pre rôzne metódy vstupu predstavené v systéme Windows 10. Jedná sa o panel na vkladanie Emoji (pridané v aktualizácii Fall Creators), diktovanie hlasom(slovenčina nie je podporovaná, funkcia bola pridaná vo verzii Windows 10 Fall Creators), automatické návrhy pre písanie na hardwarovej klávesnici (aktualizácia z Apríla 2018), a použitie zdieľanej schránky v cloude (aktualizácia október 2018). (<A HREF="http://github.com/nvaccess/nvda/issues/7273">#7273</A>)
+<LI>NVDA odteraz oznamuje Obsah označený ako citácia cez atribút aria role blockquote v prehliadači Mozilla Firefox 63. (<A HREF="http://github.com/nvaccess/nvda/issues/8577">#8577</A>)
+</UL>
+
+<H3>Zmeny</H3>
+
+<UL>
+<LI>Odteraz je zoznam jazykov v kategórii všeobecné nastavenia zoradený abecedne a nie podľa špecifikácie ISO 639. (<A HREF="http://github.com/nvaccess/nvda/issues/7284">#7284</A>)
+<LI>Pre všetky podporované riadky od spoločnosti Freedom scientific boli pridané emulácie skratiek alt+shift+tab a windows+tab. (<A HREF="http://github.com/nvaccess/nvda/issues/7387">#7387</A>)
+<LI>Na riadkoch ALVA BC680 a protocol converter je možné používať rozšírené klávesy umiestnené po stranách riadka a Etouch tlačidlá. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Upravené skratky na riadku ALVA BC6. Odteraz kombinácia sp2+sp3 oznamuje aktuálny čas a dátum, skratka sp1+sp2 emuluje kláves Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Po štarte sa vás NVDA pýta, či súhlasí so zasielaním a zhromažďovaním údajov z počítača. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>Ak odsúhlasíte   zhromažďovanie údajov, NVDA vždy pri kontrole aktualizácií odošle na server informáciu o používanom hlasovom výstupe a braillovskom riadku. Vývojári tak dokážu zistiť, ktoré ovládače majú mať pri vývoji prednosť. (<A HREF="http://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>Prekladová tabuľka  liblouis  aktualizovaná na verziu  3.6.0. (<A HREF="http://github.com/nvaccess/nvda/issues/8365">#8365</A>)
+<LI>Opravená cesta k tabuľke pre Ruský 8-bodový počítačový kód. (<A HREF="http://github.com/nvaccess/nvda/issues/8446">#8446</A>)
+<LI>Hlasový výstup eSpeak-ng aktualizovaný na verziu 1.49.3dev commit 910f4c2. (<A HREF="http://github.com/nvaccess/nvda/issues/8561">#8561</A>)
+</UL>
+
+<H3>opravy</H3>
+
+<UL>
+<LI>Prístupné Označenia prvkov sú lepšie oznamované v prehliadači Google chrome aj vtedy, ak nie sú priamo obsahom webovej stránky. (<A HREF="http://github.com/nvaccess/nvda/issues/4773">#4773</A>)
+<LI>Pridaná podpora pre upozornenia v programe Zoom. NVDA tak odteraz oznamuje prichádzajúce správy, stlmenie a zapnutie mikrofónu. (<A HREF="http://github.com/nvaccess/nvda/issues/7754">#7754</A>)
+<LI>Ak zmeníte prezentáciu kontextu v režime prehliadania, Braillovský kurzor správne sleduje prezerací kurzor. (<A HREF="http://github.com/nvaccess/nvda/issues/7741">#7741</A>)
+<LI>Opravená chyba s inicializáciou riadka ALVA BC680. (<A HREF="http://github.com/nvaccess/nvda/issues/8106">#8106</A>)
+<LI>Ak na riadku ALVA BC6 stlačíte kombináciu zahŕňajúcu tlačidlá sp2+sp3, riadok viac nebude emulovať skratky z počítačovej klávesnice. (<A HREF="http://github.com/nvaccess/nvda/issues/8230">#8230</A>)
+<LI>Skratka sp2 na riadku ALVA BC6 emuluje kláves alt tak, ako je uvedené v používateľskej príručke. (<A HREF="http://github.com/nvaccess/nvda/issues/8360">#8360</A>)
+<LI>NVDA viac zbytočne neoznamuje zmeny rozloženia klávesnice. (<A HREF="http://github.com/nvaccess/nvda/issues/7383">#7383</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8419">#8419</A>)
+<LI>Sledovanie myšky je odteraz oveľa presnejšie v poznámkovom bloku a editačných poliach obsahujúcich čistý text, v ktorých je viac ako 65535 znakov. (<A HREF="http://github.com/nvaccess/nvda/issues/8397">#8397</A>)
+<LI>NVDA dokáže rozpoznať viac dialógov v systéme Windows 10 a moderných aplikáciách. (<A HREF="http://github.com/nvaccess/nvda/issues/8405">#8405</A>)
+<LI>NVDA dokáže správne sledovať systémový fokus na systémoch Windows 10 (aktualizácia z októbra 2018, server 2019 a novších) aj v prípade, že aplikácia zamrzne alebo zahltí systém udalosťami. (<A HREF="http://github.com/nvaccess/nvda/issues/7345">#7345</A>, <A HREF="http://github.com/nvaccess/nvda/issues/8535">#8535</A>)
+<LI>NVDA oznámi, ak sa pokúsite prečítať alebo skopírovať do schránky prázdny stavový riadok. (<A HREF="http://github.com/nvaccess/nvda/issues/7789">#7789</A>)
+<LI>Odteraz NVDA správne hlasom oznamuje, ak odčiarknete začiarkávacie políčko, ktoré bolo predtým čiastočne začiarknuté. (<A HREF="http://github.com/nvaccess/nvda/issues/6946">#6946</A>)
+<LI>Vo všeobecných nastaveniach NVDA v systéme Windows 7 sa správne zobrazuje jazyk Barmčina. (<A HREF="http://github.com/nvaccess/nvda/issues/8544">#8544</A>)
+<LI>NVDA odteraz oznamuje upozornenia v prehliadači Microsoft Edge (napríklad načítanie stránky, dostupnosť zobrazenia na čítanie). (<A HREF="http://github.com/nvaccess/nvda/issues/8423">#8423</A>)
+<LI>Pri vstupe do zoznamu v režime prehliadania NVDA oznámi názov zoznamu, ak je uvedený. (<A HREF="http://github.com/nvaccess/nvda/issues/7652">#7652</A>)
+<LI>Ak priradíte skratky konkrétnemu braillovskému riadku, zobrazujú sa skutočne len pre tento braillovský riadok. Doteraz sa zobrazovali pre riadok, ktorý bol zvolený v nastaveniach. (<A HREF="http://github.com/nvaccess/nvda/issues/8108">#8108</A>)
+<LI>Pridaná podpora pre 64-bitovú verziu prehrávača Media player Classic. (<A HREF="http://github.com/nvaccess/nvda/issues/6066">#6066</A>)
+<LI>Vylepšená podpora pre braillovské riadky v aplikácii MS Word s použitím UI Automation:
+ <UL>
+ <LI>Ak sa vo viacriadkovom editačnom poli presuniete na začiatok riadka, prvý znak sa zobrazí na prvom znaku braillovského riadka. (<A HREF="http://github.com/nvaccess/nvda/issues/8406">#8406</A>)
+ <LI>NVDA neoznamuje nadbytočné informácie ak získa fokus dokument MS Word. (<A HREF="http://github.com/nvaccess/nvda/issues/8407">#8407</A>)
+ <LI>prechod na znak v brailly funguje aj v zoznamoch v dokumentoch MS Word. (<A HREF="http://github.com/nvaccess/nvda/issues/7971">#7971</A>)
+ <LI>Odteraz sú správne oznamované novopridané odrážky a položky v zoznamoch v dokumentoch MS Word. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
+ </UL>
+<LI>Odteraz je možné inštalovať doplnky do NVDA v systémoch Windows 10 od verzie 1803 aj v prípade, ak je začiarknutá možnosť použiť kódovanie unicode UTF-8 pre celosvetovú jazykovú podporu. (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+</UL>
+
 <H2>2018.2</H2>
 
 <P>
