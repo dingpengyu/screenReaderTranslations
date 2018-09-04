@@ -1,6 +1,0 @@
-commit d58e1cd45985372c442e69bd281ffd96985d63d8
-Merge: 4a75bfe 2909b20
-Author: Michael Curran <mick@nvaccess.org>
-Date:   Fri Aug 3 15:24:37 2018 +1000
-
-    Merge branch 'master' into beta
