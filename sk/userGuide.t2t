@@ -1396,6 +1396,7 @@ Táto voľba umožňuje prispôsobenie čítania informácií o pozícii objektu
 
 ==== Odhadnúť pozíciu objektu ak nie je dostupná ====[ObjectPresentationGuessPositionInfo]
 Ak je zapnuté oznamovanie pozícii objektu, táto voľba umožňuje NVDA odhadnúť pozíciu aktuálne zameraného objektu ak informácia o pozícii nie je štandardne dostupná.
+
 Ak je toto začiarknuté, NVDA bude oznamovať informácie o pozícii pre viacej prvkov, napr. položky v ponukách a panely nástrojov, aj keď tieto informácie nemusia vždy byť dostatočne presné.
  
 ==== Oznamovať popisky objektov ====[ObjectPresentationReportDescriptions]
@@ -2316,7 +2317,6 @@ NVDA sa v súčasnosti nedokáže automaticky pripájať k týmto riadkom.
 
 Ak máte nainštalovaný BrxCom, NVDA ho bude používať.
 Pomocou BrxCom môžete písať priamo cez braillovský riadok nezávisle od použitého čítača obrazovky.
-Nová verzia BrxComu od spoločnosti Papenmeier s podporou pre NVDA by mala byť vydaná čoskoro.
 Písanie je podporované na riadkoch Trio a BRAILLEX Live.
 
 Väčšina zariadení má tzv. panel rýchleho prístupu, ktorý umožňuje rýchle a intuitívne ovládanie.
