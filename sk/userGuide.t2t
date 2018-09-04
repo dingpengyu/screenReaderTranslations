@@ -602,7 +602,7 @@ Ak váš riadok podporuje písanie cez klávesnicu, môžete ho použiť na pís
 
 Informácie o podporovaných riadkoch nájdete v časti [Podporované braillovské zobrazovače #SupportedBrailleDisplays].
 Na tomto mieste tiež nájdete informácie o tom, ktoré riadky dokáže NVDA rozpoznať automaticky.
-Všetky nastavenia týkajúce sa braillovských riadkov a tabuliek nájdete v kategórii  [Nastavenia Braillu #BrailleSettings] v [nastaveniach #NVDASettings] dialog.
+Všetky nastavenia týkajúce sa braillovských riadkov a tabuliek nájdete v kategórii  [Braillovo písmo #BrailleSettings] v [nastaveniach #NVDASettings].
 
 ++ Skratky pre prvky, oblasti stránky a typy stavov v braillovskom zobrazení ++[BrailleAbbreviations]
 Aby sa na braillovský riadok dostalo čo najviac informácií, pre prvky, oblasti stránky a stavy sa používajú tieto skratky.
@@ -694,7 +694,7 @@ Pre oblasti stránky sa používajú tieto skratky:
 
 ++ Braillovský zápis ++[BrailleInput]
 NVDA podporuje písanie textu cez klávesnicu braillovského riadka v plnopise i skratkopise.
-Prekladovú tabuľku, ktorá sa použije na preklad textu, môžete určiť v [Nastaveniach #NVDASettings] v kategórii Braille nastavením [Vstupnej tabuľky #BrailleSettingsInputTable].
+Prekladovú tabuľku, ktorá sa použije na preklad textu, môžete určiť v [Nastaveniach #NVDASettings] v kategórii Braillovo písmo nastavením [Vstupnej tabuľky #BrailleSettingsInputTable].
 
 Keď píšete v plnopise, text sa vkladá okamžite.
 Ak píšete v skratkopise, text sa preloží a vloží po stlačení medzeri alebo klávesu enter na konci slova.
@@ -1118,7 +1118,7 @@ Ak chcete zmeniť niektoré vlastnosti reči bez nutnosti otvárať dialóg nast
 | Znížiť hodnotu nastavenia hlasu | NVDA+ctrl+šípka dolu | NVDA+ctrl+shift+šípka dolu | Zníži hodnotu aktuálne zameraného nastavenia hlasového výstupu. Napríklad spomalí tempo, vyberie predchádzajúci hlas, stíši hlasitosť. |
 %kc:endInclude
 
-+++  braille +++[BrailleSettings]
++++ brailovo písmo +++[BrailleSettings]
 Táto kategória obsahuje nastavenia ohľadom braillovských riadkov, braillovského vstupu a výstupu.
 Nájdete tu nasledujúce možnosti:
 
@@ -1898,7 +1898,7 @@ Táto sekcia obsahuje informácie o braillovských zobrazovačoch, ktoré môže
 
 ++ Riadky, ktoré NVDA dokáže automaticky rozpoznať ++[AutomaticDetection]
 NVDA dokáže rozpoznať a automaticky používať mnoho braillovských riadkov, ktoré pripojíte cez USB alebo Bluetooth.
-Stačí, ak ako braillovský riadok zvolíte možnosť "automaticky". Nastavenie vykonáte v dialógu [Braillovo písmo dialog #BrailleSettings].
+Stačí, ak ako braillovský riadok zvolíte možnosť "automaticky". Nastavenie vykonáte v dialógu [Braillovo písmo #BrailleSettings].
 NVDA predvolene automaticky vyhľadáva a pripája braillovské riadky na pozadí.
 
 Funkcia aktuálne funguje s týmito riadkami:
