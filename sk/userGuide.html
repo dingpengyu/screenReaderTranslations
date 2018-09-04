@@ -125,19 +125,20 @@
     <UL>
     <LI><A HREF="#NVDASettings">11.1. Nastavenia</A>
       <UL>
-      <LI><A HREF="#GeneralSettings">11.1.1. všeobecné (NVDA+ctrl+g)</A>
-      <LI><A HREF="#SynthSettingsRing">11.1.2. Kruh nastavení hlasového výstupu</A>
-      <LI><A HREF="#BrailleSettings">11.1.3. braille</A>
-      <LI><A HREF="#SelectBrailleDisplay">11.1.4. Nastavenie braillovského riadka (NVDA+ctrl+a)</A>
-      <LI><A HREF="#KeyboardSettings">11.1.5. Klávesnica (NVDA+ctrl+k)</A>
-      <LI><A HREF="#MouseSettings">11.1.6. myš (NVDA+ctrl+m)</A>
-      <LI><A HREF="#TouchInteraction">11.1.7. Dotyková obrazovka</A>
-      <LI><A HREF="#ReviewCursorSettings">11.1.8. Prezerací kurzor</A>
-      <LI><A HREF="#ObjectPresentationSettings">11.1.9. Prezentácia objektov (NVDA+ctrl+o)</A>
-      <LI><A HREF="#InputCompositionSettings">11.1.10. Nastavenia vstupu</A>
-      <LI><A HREF="#BrowseModeSettings">11.1.11. Režim prehliadania (NVDA+CTRL+b)</A>
-      <LI><A HREF="#DocumentFormattingSettings">11.1.12. Čítanie textu (NVDA+ctrl+d)</A>
-      <LI><A HREF="#Win10OcrSettings">11.1.13. rozpoznávanie textu OCR</A>
+      <LI><A HREF="#toc75">11.1.1. Reč (NVDA+ctrl+v)</A>
+      <LI><A HREF="#SelectSynthesizer">11.1.2. Nastavenie hlasového výstupu (NVDA+ctrl+s)</A>
+      <LI><A HREF="#SynthSettingsRing">11.1.3. Kruh nastavení hlasového výstupu</A>
+      <LI><A HREF="#BrailleSettings">11.1.4. braille</A>
+      <LI><A HREF="#SelectBrailleDisplay">11.1.5. Nastavenie braillovského riadka (NVDA+ctrl+a)</A>
+      <LI><A HREF="#KeyboardSettings">11.1.6. Klávesnica (NVDA+ctrl+k)</A>
+      <LI><A HREF="#MouseSettings">11.1.7. myš (NVDA+ctrl+m)</A>
+      <LI><A HREF="#TouchInteraction">11.1.8. Dotyková obrazovka</A>
+      <LI><A HREF="#ReviewCursorSettings">11.1.9. Prezerací kurzor</A>
+      <LI><A HREF="#ObjectPresentationSettings">11.1.10. Prezentácia objektov (NVDA+ctrl+o)</A>
+      <LI><A HREF="#InputCompositionSettings">11.1.11. Nastavenia vstupu</A>
+      <LI><A HREF="#BrowseModeSettings">11.1.12. Režim prehliadania (NVDA+CTRL+b)</A>
+      <LI><A HREF="#DocumentFormattingSettings">11.1.13. Čítanie textu (NVDA+ctrl+d)</A>
+      <LI><A HREF="#Win10OcrSettings">11.1.14. rozpoznávanie textu OCR</A>
       </UL>
     <LI><A HREF="#MiscSettings">11.2. Ďalšie nastavenia</A>
       <UL>
@@ -186,9 +187,9 @@
     <LI><A HREF="#HedoMobilLine">14.8. hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare Brailliant BI/B / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc124">14.9.1. Klávesové skratky spoločné pre všetky modely</A>
-      <LI><A HREF="#toc125">14.9.2. Klávesové skratky pre riadky Brailliant BI 32, BI 40 a B 80</A>
-      <LI><A HREF="#toc126">14.9.3. Klávesové skratky pre Brailliant BI 14</A>
+      <LI><A HREF="#toc125">14.9.1. Klávesové skratky spoločné pre všetky modely</A>
+      <LI><A HREF="#toc126">14.9.2. Klávesové skratky pre riadky Brailliant BI 32, BI 40 a B 80</A>
+      <LI><A HREF="#toc127">14.9.3. Klávesové skratky pre Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille</A>
     <LI><A HREF="#Seika">14.11. Braillovské riadky od spoločnosti Seika</A>
@@ -2295,11 +2296,8 @@ Ak chcete vytvoriť skratku pre kategóriu, použite dialóg <A HREF="#InputGest
 <P>
 Kategórie nastavení sú popísané na nasledujúcich riadkoch.
 </P>
-
-<A NAME="GeneralSettings"></A>
-<H4>11.1.1. všeobecné (NVDA+ctrl+g)</H4>
-
 <P>
+++  všeobecné (NVDA+ctrl+g) +++[GeneralSettings]
 Tu môžete nastaviť základné správanie NVDA, vrátane jazyka rozhrania NVDA a tiež kontroly aktualizácii.
 Kategória Obsahuje tieto nastavenia:
 </P>
@@ -2406,112 +2404,207 @@ Okrem nevyhnutných údajov na získanie aktualizácie tiež po začiarknutí to
 <LI>Aký hlasový výstup používate (vrátane názvu doplnku z ktorého je nainštalovaný ovládač)
 <LI>Aký braillovský riadok používate (vrátane názvu doplnku z ktorého je nainštalovaný ovládač)
 <LI>Akú braillovskú tabuľku používate (ak využívate rbaillovský výstup)
-<P></P>
+</UL>
+
+<P>
 Tieto údaje nám umožnia určiť ďalšie priority pri vývoji NVDA.
-<P></P>
-==== Upozorniť na čakajúcu aktualizáciu po štarte ====[GeneralSettingsNotifyPendingUpdates]
+</P>
+
+<A NAME="GeneralSettingsNotifyPendingUpdates"></A>
+<H5>Upozorniť na čakajúcu aktualizáciu po štarte</H5>
+
+<P>
 Ak je začiarknuté, NVDA po štarte upozorní, že máte stiahnuté aktualizácie a ponúkne možnosť inštalácie.
 Aktualizáciu môžete ručne nainštalovať z dialógu Ukončiť NVDA (ak ho máte aktívny), z menu NVDA alebo z pomocníka v menu NVDA.
-<P></P>
-+++ Reč (NVDA+ctrl+v) +++
+</P>
+
+<A NAME="toc75"></A>
+<H4>11.1.1. Reč (NVDA+ctrl+v)</H4>
+
+<P>
 táto kategória obsahuje nastavenia na  zmenu hlasového výstupu a úpravu reči.
 Pre rýchlejšiu alternatívu, ktorá umožňuje meniť parametre hlasu odkiaľkoľvek zo systému si prosím pozrite časť <A HREF="#SynthSettingsRing">Kruh nastavení hlasového výstupu</A>.
-<P></P>
+</P>
+<P>
 Táto kategória obsahuje tieto nastavenia:
-<P></P>
-==== Zmeniť hlasový výstup ====[SpeechSettingsChange]
+</P>
+
+<A NAME="SpeechSettingsChange"></A>
+<H5>Zmeniť hlasový výstup</H5>
+
+<P>
 V tejto kategórii je ako prvé tlačidlo Zmeniť... Po aktivovaní tohto tlačidla sa otvorí nové okno <A HREF="#SelectSynthesizer">Hlasový výstup</A>, v ktorom môžete vybrať hlasový výstup a výstupné zariadenie.
 Toto okno sa otvorí nad oknom s nastaveniami.
 Potvrdenie alebo zatvorenie tohto dialógu vás preto vráti späť do okna s nastaveniami.
-<P></P>
-==== Hlas ====[speechSettingsVoice]
+</P>
+
+<A NAME="speechSettingsVoice"></A>
+<H5>Hlas</H5>
+
+<P>
 Ide o zoznam obsahujúci všetky dostupné hlasy aktuálneho hlasového výstupu.
 Za pomoci šípok môžete tento zoznam prehliadať a vypočuť si všetky hlasy.
 Hornou a ľavou šípkou sa presuniete na predchádzajúci hlas, dolnou a pravou šípkou sa môžete presunúť na nasledujúci hlas.
-<P></P>
-==== Variant ====[speechSettingsVariant]
+</P>
+
+<A NAME="speechSettingsVariant"></A>
+<H5>Variant</H5>
+
+<P>
 Ak používate hlasový výstup eSpeak NG, toto je zoznamový rámik, ktorý nastavuje variant hlasu.
 Varianty hlasu výstupu eSpeak NG môžeme chápať takmer ako ďalšie hlasy, pretože dodávajú hlasu úplne iné vlastnosti.
 Niektoré varianty budú znieť ako mužský, iné ako ženský hlas a niektoré dokonca úplne inak.
-<P></P>
-==== Tempo ====[speechSettingsRate]
+</P>
+
+<A NAME="speechSettingsRate"></A>
+<H5>Tempo</H5>
+
+<P>
 Je to posuvník od nula po sto, ktorým nastavíte rýchlosť reči.
 Nula znamená najpomalšie tempo reči a sto najrýchlejšie.
-<P></P>
-==== Výška ====[speechSettingsPitch]
+</P>
+
+<A NAME="speechSettingsPitch"></A>
+<H5>Výška</H5>
+
+<P>
 Posuvník, ktorým nastavíte výšku od nula po sto.
 Nula je najnižší tón a sto najvyšší tón reči.
-<P></P>
-==== Hlasitosť ====[speechSettingsVolume]
+</P>
+
+<A NAME="speechSettingsVolume"></A>
+<H5>Hlasitosť</H5>
+
+<P>
 Posuvník, ktorým v rozmedzí od nula po sto nastavíte hlasitosť hlasu od najtichšieho po najhlasnejší.
-<P></P>
-==== Intonácia ====[speechSettingsInflection]
+</P>
+
+<A NAME="speechSettingsInflection"></A>
+<H5>Intonácia</H5>
+
+<P>
 Posuvník, ktorého hodnota hovorí hlasovému výstupu do akej miery má byť intonácia uplatnená smerom na hor i smerom na dol. V súčasnosti intonáciu podporuje len hlasový výstup eSpeak NG.
-<P></P>
-==== Automaticky prepínať jazyk ====[speechSettingsLanguageSwitching]
+</P>
+
+<A NAME="speechSettingsLanguageSwitching"></A>
+<H5>Automaticky prepínať jazyk</H5>
+
+<P>
 Ak je začiarknuté, NVDA bude automaticky počas čítania meniť jazyk. Jazyk určí podľa jazykových značiek v texte.
 Predvolene je toto začiarknuté.
 Automatické prepínanie jazyka momentálne podporuje len hlasový výstup eSpeak NG.
-<P></P>
-==== Automaticky prepínať dialekt ====[speechSettingsDialectSwitching]
+</P>
+
+<A NAME="speechSettingsDialectSwitching"></A>
+<H5>Automaticky prepínať dialekt</H5>
+
+<P>
 Ak je začiarknuté automaticky prepínať jazyk, toto umožňuje zmeny aj dialektu jazyka hlasového výstupu.
 Napríklad ak budete anglickým hlasom čítať  v jazyku Angličtina - spojené štáty a NVDA narazí na značku pre zmenu dialektu  na  Angličtina - Veľká Británia, hlasový výstup sa prepne na správny dialekt.
 Predvolene toto nie je začiarknuté.
-<P></P>
-==== Úroveň interpunkcie ====[speechSettingsSymbolLevel]
+</P>
+
+<A NAME="speechSettingsSymbolLevel"></A>
+<H5>Úroveň interpunkcie</H5>
+
+<P>
 Klávesová skratka: NVDA+p
-<P></P>
+</P>
+<P>
 Môžete nastaviť, či má NVDA slovne  oznamovať interpunkčné znamienka a symboly.
 Ak je toto napríklad nastavené na všetko, všetky symboly budú vyslovované ako slová.
 Nastavenie interpunkcie ovplyvňuje prejav NVDA pre všetky hlasové výstupy.
-<P></P>
-==== pri spracovaní textu sa riadiť jazykom hlasového výstupu ====[speechSettingsTrust]
+</P>
+
+<A NAME="speechSettingsTrust"></A>
+<H5>pri spracovaní textu sa riadiť jazykom hlasového výstupu</H5>
+
+<P>
 táto možnosť je predvolene začiarknutá a hovorí NVDA, že pri spracovaní textu sa má riadiť jazykom konkrétneho hlasu.
 Ak vám NVDA pri použití konkrétneho hlasu alebo hlasového výstupu nesprávne číta interpunkciu, odčiarknite túto možnosť, aby boli uprednostnené globálne nastavenia NVDA.
-<P></P>
-==== Zmeniť výšku hlasu pri čítaní veľkých písmen v percentách ====[speechSettingsCapPitchChange]
+</P>
+
+<A NAME="speechSettingsCapPitchChange"></A>
+<H5>Zmeniť výšku hlasu pri čítaní veľkých písmen v percentách</H5>
+
+<P>
 Do tohto editačného poľa je možné napísať hodnotu v percentách, ako sa zmení výška hlasu pri čítaní veľkých písmen.
 Záporné čísla znižujú a kladné čísla zvyšujú výšku hlasu.
 Ak si neželáte pri vyslovovaní veľkých písmen meniť výšku hlasu vložte do tohto poľa číslo 0.
-<P></P>
-==== Vysloviť "veľké" pred prečítaním veľkého písmena ====[speechSettingsSayCapBefore]
+</P>
+
+<A NAME="speechSettingsSayCapBefore"></A>
+<H5>Vysloviť "veľké" pred prečítaním veľkého písmena</H5>
+
+<P>
 Začiarkávacie políčko, ktoré nastaví NVDA tak, aby čítal slovo "veľké" vždy pred veľkým písmenom pri čítaní po znakoch.
 NVDA normálne pri takomto písmene zvýši hlas, ale niektoré hlasové výstupy majú so zmenou výšky problém, a v takýchto prípadoch je užitočná táto voľba.
-<P></P>
-==== Pípať pred hláskovaním veľkých písmen ====[speechSettingsBeepForCaps]
+</P>
+
+<A NAME="speechSettingsBeepForCaps"></A>
+<H5>Pípať pred hláskovaním veľkých písmen</H5>
+
+<P>
 Ak je toto začiarkavacie políčko začiarknuté, NVDA krátko zapípa vždy, keď sa pri hláskovaní objaví veľké písmeno.
 Tak ako voľba sprístupňujúca hovorenie veľké pri veľkých písmenách, je táto voľba dôležitá pri hlasoch, ktoré sami nemôžu meniť svoju výšku pri veľkých písmenách.
-<P></P>
-==== Hláskovanie riadi hlasový výstup (ak je podporované) ====[speechSettingsUseSpelling]
+</P>
+
+<A NAME="speechSettingsUseSpelling"></A>
+<H5>Hláskovanie riadi hlasový výstup (ak je podporované)</H5>
+
+<P>
 Existujú slová pozostávajúce len z jediného znaku. Výslovnosť tohto znaku sa líši od kontextu, napr. pri vyslovovaní jediného znaku sa obyčajne znak hláskuje a pri čítaní slova sa len prečíta.
 V slovenčine je príkladom takéhoto znaku písmeno k, ktoré znie ako "k" ak je použité ako predložka, ale "ká" ak je hláskované samostatne.
 Táto možnosť umožňuje na základe použitého hlasového výstupu rozlišovať medzi týmito dvoma možnosťami, ak to hlasový výstup podporuje.
 Väčšina hlasových výstupov to podporuje.
-<P></P>
+</P>
+<P>
 Odporúča sa nechať túto možnosť zapnutú.
 Žiaľ niektoré hlasové výstupy Microsoft Speech API toto nastavenie nepodporujú a môžu sa správať zvláštne, ak je to začiarknuté.
 Ak pozorujete problémy s vyslovovaním jednotlivých znakov, skúste túto voľbu odčiarknuť.
-<P></P>
-+++ Nastavenie hlasového výstupu (NVDA+ctrl+s) +++[SelectSynthesizer]
+</P>
+
+<A NAME="SelectSynthesizer"></A>
+<H4>11.1.2. Nastavenie hlasového výstupu (NVDA+ctrl+s)</H4>
+
+<P>
 Toto okno sa otvorí, ak v kategórii reč aktivujete tlačidlo zmeniť. Tu môžete následne nastaviť hlasový výstup a zvukovú kartu, ktorú chcete používať.
 Ak ste vybrali požadovaný hlasový výstup, stlačte tlačidlo OK a NVDA začne tento výstup automaticky používať.
 Ak pri načítaní hlasového výstupu dôjde k chybe, NVDA na to upozorní a vráti sa k používaniu aktuálneho hlasového výstuupu.
-<P></P>
-==== Hlasový výstup ====[SelectSynthesizerSynthesizer]
+</P>
+
+<A NAME="SelectSynthesizerSynthesizer"></A>
+<H5>Hlasový výstup</H5>
+
+<P>
 Tu môžete nastaviť hlasový výstup, ktorý chcete používať.
-<P></P>
+</P>
+<P>
 Zoznam podporovaných hlasových výstupov získate v časti <A HREF="#SupportedSpeechSynths">Podporované hlasové výstupy</A>.
-<P></P>
+</P>
+<P>
 V tomto zozname vždy nájdete aj jednu špeciálnu položku bez reči, čo umožní prevádzku NVDA úplne bez hlasového výstupu.
 Toto môže byť užitočné pre niekoho, kto chce používať NVDA len s braillovským výstupom alebo to môže byť užitočné vidiacim vývojárom, ktorí plánujú používať zobrazovač reči.
-<P></P>
-==== Výstupné zariadenie ====[SelectSynthesizerOutputDevice]
+</P>
+
+<A NAME="SelectSynthesizerOutputDevice"></A>
+<H5>Výstupné zariadenie</H5>
+
+<P>
 Toto nastavenie umožňuje vybrať zvukovú kartu, cez ktorú bude rozprávať hlasový výstup.
-<P></P>
-==== Režim automatického stíšenia zvuku ====[SelectSynthesizerDuckingMode]
+</P>
+
+<A NAME="SelectSynthesizerDuckingMode"></A>
+<H5>Režim automatického stíšenia zvuku</H5>
+
+<P>
 Klávesová skratka: NVDA+Shift+D
-<P></P>
+</P>
+<P>
 od verzie Windows 8 môžete určiť, či má NVDA stišovať zvuk ostatných aplikácií, keď rozpráva, alebo konštantne stíšiť zvuk z aplikácií, keď NVDA spustíte.
+</P>
+
+<UL>
 <LI>Nestíšiť: NVDA nebude stišovať zvuk z ostatných aplikácií.
 <LI>Stíšiť, keď NVDA hovorí a prehráva zvuky: NVDA bude stišovať zvuk z ostatných programov len vtedy, keď bude čítať alebo oznamovať udalosti zvukom. toto ale nemusí fungovať pre všetky syntézy reči.
 <LI>Vždy stíšiť: NVDA stíši všetky zvuky ostatných programov po štarte   až do ukončenia NVDA.
@@ -2523,7 +2616,7 @@ Nemôžete ju využiť, ak NVDA beží v portable režime alebo z dočasnej kóp
 </P>
 
 <A NAME="SynthSettingsRing"></A>
-<H4>11.1.2. Kruh nastavení hlasového výstupu</H4>
+<H4>11.1.3. Kruh nastavení hlasového výstupu</H4>
 
 <P>
 Ak chcete zmeniť niektoré vlastnosti reči bez nutnosti otvárať dialóg nastavenia hlasu, môžete použiť niektoré z klávesových skratiek dostupných kdekoľvek počas behu NVDA.
@@ -2563,7 +2656,7 @@ Ak chcete zmeniť niektoré vlastnosti reči bez nutnosti otvárať dialóg nast
 </TABLE>
 
 <A NAME="BrailleSettings"></A>
-<H4>11.1.3. braille</H4>
+<H4>11.1.4. braille</H4>
 
 <P>
 Táto kategória obsahuje nastavenia ohľadom braillovských riadkov, braillovského vstupu a výstupu.
@@ -2740,7 +2833,7 @@ Ak chcete toto nastavenie meniť kedykoľvek z klávesnice, môžete si k nemu p
 </P>
 
 <A NAME="SelectBrailleDisplay"></A>
-<H4>11.1.4. Nastavenie braillovského riadka (NVDA+ctrl+a)</H4>
+<H4>11.1.5. Nastavenie braillovského riadka (NVDA+ctrl+a)</H4>
 
 <P>
 Tento dialóg môžete otvoriť v nastaveniach NVDA v kategórii Braille stlačením tlačidla zmeniť... Tu následne môžete nastaviť braillovský riadok, ktorý chcete používať.
@@ -2786,7 +2879,7 @@ Pre podrobnejšie informácie si pozrite časť <A HREF="#SupportedBrailleDispla
 </P>
 
 <A NAME="KeyboardSettings"></A>
-<H4>11.1.5. Klávesnica (NVDA+ctrl+k)</H4>
+<H4>11.1.6. Klávesnica (NVDA+ctrl+k)</H4>
 
 <P>
 V tejto kategórii môžete nastaviť, ako sa NVDa správa pri používaní klávesnice.
@@ -2903,7 +2996,7 @@ predvolene je možnosť začiarknutá. Niektorí používatelia ju môžu chcie�
 </P>
 
 <A NAME="MouseSettings"></A>
-<H4>11.1.6. myš (NVDA+ctrl+m)</H4>
+<H4>11.1.7. myš (NVDA+ctrl+m)</H4>
 
 <P>
 Tu môžete nastaviť sledovane kurzora myši, oznamovanie polohy myši a ďalšie užitočné funkcie.
@@ -2961,7 +3054,7 @@ Táto  voľba je predvolene vypnutá.
 </P>
 
 <A NAME="TouchInteraction"></A>
-<H4>11.1.7. Dotyková obrazovka</H4>
+<H4>11.1.8. Dotyková obrazovka</H4>
 
 <P>
 Táto kategória je dostupná len v počítačoch s operačným systémom Windows od verzie 8. Môžete tu nastaviť, ako sa NVDA bude správať pri používaní dotykovej obrazovky.
@@ -2978,7 +3071,7 @@ Ak políčko odčiarknete, po nájdení znaku je potrebné dvakrát poklepať na
 </P>
 
 <A NAME="ReviewCursorSettings"></A>
-<H4>11.1.8. Prezerací kurzor</H4>
+<H4>11.1.9. Prezerací kurzor</H4>
 
 <P>
 Tu môžete nastaviť, ako sa bude správať prezerací kurzor.
@@ -3023,7 +3116,7 @@ jednoduchý režim môžete zapínať a vypínať aj klávesovou skratkou. Stač
 </P>
 
 <A NAME="ObjectPresentationSettings"></A>
-<H4>11.1.9. Prezentácia objektov (NVDA+ctrl+o)</H4>
+<H4>11.1.10. Prezentácia objektov (NVDA+ctrl+o)</H4>
 
 <P>
 Tu môžete nastaviť, aké informácie bude NVDA čítať o prvkoch, napríklad pozíciu, počet a podobne.
@@ -3126,7 +3219,7 @@ Zoznam s automatickými návrhmi sa zatvorí, keď opustíte editačné pole a N
 </P>
 
 <A NAME="InputCompositionSettings"></A>
-<H4>11.1.10. Nastavenia vstupu</H4>
+<H4>11.1.11. Nastavenia vstupu</H4>
 
 <P>
 Môžete tu nastaviť odozvu pri písaní ázijských znakov, ak je použitá textová služba alebo IME.
@@ -3180,7 +3273,7 @@ Táto možnosť je predvolene začiarknutá.
 </P>
 
 <A NAME="BrowseModeSettings"></A>
-<H4>11.1.11. Režim prehliadania (NVDA+CTRL+b)</H4>
+<H4>11.1.12. Režim prehliadania (NVDA+CTRL+b)</H4>
 
 <P>
 V tejto kategórii nastavení môžeme nastaviť správanie NVDA pri čítaní webových stránok a iných komplexných dokumentov.
@@ -3272,7 +3365,7 @@ Ak napríklad stlačíte písmeno j v dokumente programu MS Word, toto sa pri za
 </P>
 
 <A NAME="DocumentFormattingSettings"></A>
-<H4>11.1.12. Čítanie textu (NVDA+ctrl+d)</H4>
+<H4>11.1.13. Čítanie textu (NVDA+ctrl+d)</H4>
 
 <P>
 Väčšina začiarkavacých políčok slúži na nastavenie typu formátovania, ktorý bude automaticky oznamovaný pri pohybe kurzora v dokumentoch.
@@ -3373,7 +3466,7 @@ Tón sa zvyšuje pri každej medzere, pri každom tabulátore sa zvyšuje štvor
 </UL>
 
 <A NAME="Win10OcrSettings"></A>
-<H4>11.1.13. rozpoznávanie textu OCR</H4>
+<H4>11.1.14. rozpoznávanie textu OCR</H4>
 
 <P>
 Môžete tu  nastaviť parametre pre rozpoznávanie textu pomocou rozhrania <A HREF="#Win10Ocr">Windows 10 OCR</A>.
@@ -4652,7 +4745,7 @@ Nasleduje zoznam klávesových príkazov pre tieto typy riadkov.
 Prosím, prečítajte si dokumentáciu dodanú spolu so zariadením na zistenie rozmiestnenia klávesov.
 </P>
 
-<A NAME="toc124"></A>
+<A NAME="toc125"></A>
 <H4>14.9.1. Klávesové skratky spoločné pre všetky modely</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4742,7 +4835,7 @@ Prosím, prečítajte si dokumentáciu dodanú spolu so zariadením na zistenie 
 </TR>
 </TABLE>
 
-<A NAME="toc125"></A>
+<A NAME="toc126"></A>
 <H4>14.9.2. Klávesové skratky pre riadky Brailliant BI 32, BI 40 a B 80</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4764,7 +4857,7 @@ Prosím, prečítajte si dokumentáciu dodanú spolu so zariadením na zistenie 
 </TR>
 </TABLE>
 
-<A NAME="toc126"></A>
+<A NAME="toc127"></A>
 <H4>14.9.3. Klávesové skratky pre Brailliant BI 14</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
