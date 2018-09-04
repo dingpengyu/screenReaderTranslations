@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Mongolian Translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-31 00:10+1000\n"
-"PO-Revision-Date: 2018-05-22 20:16+0800\n"
+"PO-Revision-Date: 2018-08-07 13:23+0800\n"
 "Last-Translator: \n"
 "Language-Team: MongolianNVDATranslationTeam <mongoliannvdatranslation@gmail."
 "com>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -363,14 +363,12 @@ msgid "pwdedt"
 msgstr "pwdedt"
 
 #. Translators: Displayed in braille for an object which is deleted.
-#, fuzzy
 msgid "del"
-msgstr "Цнх"
+msgstr "del"
 
 #. Translators: Displayed in braille for an object which is inserted.
-#, fuzzy
 msgid "ins"
-msgstr "&Холбоосууд"
+msgstr "ins"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -515,11 +513,11 @@ msgstr "автомат "
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -591,14 +589,13 @@ msgid "to review"
 msgstr "Нарийвчлан үзэх"
 
 #. Translators: Displayed when the source driver of a braille display gesture is unknown.
-#, fuzzy
 msgid "Unknown braille display"
-msgstr "Seika брайль дэлгэцүүд"
+msgstr "Танигдаагүй брайль дэлгэц"
 
 #. Translators: Name of a Bluetooth serial communications port.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "Bluetooth serial: {portName}"
+msgstr "Bluetooth Serial: {port} ({deviceName})Bluetooth serial: {portName}"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
@@ -670,9 +667,8 @@ msgstr "Bulgarian 8 цэгийн компьютер  брайль"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Central Kurdish grade 1"
-msgstr "Swedish grade 1"
+msgstr "Central Kurdish grade 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -686,9 +682,8 @@ msgstr "Welsh grade 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Czech 8 dot computer braille"
-msgstr "Spanish 8 цэгийн компьютер  брайль"
+msgstr "Czech 8 цэгийн компьютер  брайль"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -792,9 +787,8 @@ msgstr "English (U.S.) grade 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Esperanto grade 1"
-msgstr "German grade 1"
+msgstr "Esperanto grade 1German grade 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -903,9 +897,8 @@ msgstr "Hungarian grade 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Hungarian grade 2"
-msgstr "Hungarian grade 1"
+msgstr "Hungarian grade 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -1089,9 +1082,8 @@ msgstr "Sanskrit grade 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Swedish 8 dot computer braille"
-msgstr "Spanish 8 цэгийн компьютер  брайль"
+msgstr "Swedish 8 цэгийн компьютер  брайль"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -3875,13 +3867,12 @@ msgid "No status line found"
 msgstr "Төлвийн мөр олдсонгүй"
 
 #. Translators: Reported when status line exist, but is empty.
-#, fuzzy
 msgid "no status bar information"
 msgstr "байршлын мэдээлэл алга"
 
 #. Translators: Reported when user attempts to copy content of the empty status line.
 msgid "unable to copy status bar content to clipboard"
-msgstr ""
+msgstr "unable to copy status bar content to clipboard"
 
 #. Translators: Input help mode message for report status line text command.
 msgid ""
@@ -6768,12 +6759,10 @@ msgid "Reports the remaining time of the currently playing track, if any"
 msgstr "Одоо тоглуулагдаж байгаа болон үлдсэн цаг минут сонсох"
 
 #. Translators: The description of an NVDA command for reading the elapsed time of the currently playing track in Foobar 2000.
-#, fuzzy
 msgid "Reports the elapsed time of the currently playing track, if any"
 msgstr "Одоо тоглуулагдаж байгаа болон үлдсэн цаг минут сонсох"
 
 #. Translators: The description of an NVDA command for reading the length of the currently playing track in Foobar 2000.
-#, fuzzy
 msgid "Reports the length of the currently playing track, if any"
 msgstr "Одоо тоглуулагдаж байгаа болон үлдсэн цаг минут сонсох"
 
@@ -7853,11 +7842,11 @@ msgstr ""
 
 #. Translators: The label of a Yes button in a dialog
 msgid "&Yes"
-msgstr ""
+msgstr "&Тийм"
 
 #. Translators: The label of a No button in a dialog
 msgid "&No"
-msgstr ""
+msgstr "&Үгүй"
 
 #. Translators: The title of the Addons Dialog
 msgid "Add-ons Manager"
@@ -8569,7 +8558,7 @@ msgstr "&Програм эхлэх үед хүлээгдэж байгаа шин
 
 #. Translators: The label of a checkbox in general settings to toggle allowing of usage stats gathering
 msgid "Allow the NVDA project to gather NVDA usage statistics"
-msgstr ""
+msgstr "Allow the NVDA project to gather NVDA usage statistics"
 
 #. Translators: A message to warn the user when attempting to copy current settings to system settings.
 msgid ""
