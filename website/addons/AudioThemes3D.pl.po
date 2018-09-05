@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: 2018-09-05 18:12+0100\n"
-"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"PO-Revision-Date: 2018-09-05 18:53+0100\n"
+"Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -34,12 +34,24 @@ msgid "download [development version][2]"
 msgstr "pobierz [wersja rozwojowa][2]"
 
 #. type: Plain text
-msgid "This add-on creates a virtual audio display that plays sounds when focusing or navigating objects (such as buttons, links etc...) the audio will be played in a location that corresponds to the object's location in the visual display."
-msgstr "Ten dodatek tworzy wirtualny dźwiękowy wyświetlacz, który odtwarza dźwięki podczas nawigacji lub najeżdżania na obiekty, takie jak przyciski, linki itd. Dźwięk będzie ottworzony w lokalizacji, która odpowiada lokalizacji objektu na ekranie."
+msgid ""
+"This add-on creates a virtual audio display that plays sounds when focusing "
+"or navigating objects (such as buttons, links etc...) the audio will be "
+"played in a location that corresponds to the object's location in the visual "
+"display."
+msgstr ""
+"Ten dodatek tworzy wirtualny dźwiękowy wyświetlacz, który odtwarza dźwięki "
+"podczas nawigacji lub najeżdżania na obiekty, takie jak przyciski, linki "
+"itd. Dźwięk będzie ottworzony w lokalizacji, która odpowiada lokalizacji "
+"objektu na ekranie."
 
 #. type: Plain text
-msgid "The add-on also enables you to activate, install, remove, edit, create, and distribute audio theme packages."
-msgstr "Dodatek umożliwia także aktywowanie, instalowanie, usuwanie, edytowanie, tworzenie i dystrybucję pakietów tematów dźwiękowych."
+msgid ""
+"The add-on also enables you to activate, install, remove, edit, create, and "
+"distribute audio theme packages."
+msgstr ""
+"Dodatek umożliwia także aktywowanie, instalowanie, usuwanie, edytowanie, "
+"tworzenie i dystrybucję pakietów tematów dźwiękowych."
 
 #. type: Title ##
 #, no-wrap
@@ -47,12 +59,22 @@ msgid "Usage"
 msgstr "Użycie"
 
 #. type: Plain text
-msgid "This add-on enables you to perform three distinct tasks, including managing your installed audio themes, editing the currently active audio theme, and creating a new audio theme."
-msgstr "Ten dodatek umożliwia wykonywanie następujących czynności: instalowanie tematów dźwiękowych, edytowanie aktualnie używanego tematu dźwiękowego oraz tworzenie nowych tematów dźwiękowych."
+msgid ""
+"This add-on enables you to perform three distinct tasks, including managing "
+"your installed audio themes, editing the currently active audio theme, and "
+"creating a new audio theme."
+msgstr ""
+"Ten dodatek umożliwia wykonywanie następujących czynności: instalowanie "
+"tematów dźwiękowych, edytowanie aktualnie używanego tematu dźwiękowego oraz "
+"tworzenie nowych tematów dźwiękowych."
 
 #. type: Plain text
-msgid "You can access these functions from the add-on's menu which is found in the main NVDA menu."
-msgstr "Funkcje te są dostępne w menu dodatku, które znajduje się w głównym menu NVDA."
+msgid ""
+"You can access these functions from the add-on's menu which is found in the "
+"main NVDA menu."
+msgstr ""
+"Funkcje te są dostępne w menu dodatku, które znajduje się w głównym menu "
+"NVDA."
 
 #. type: Title ###
 #, no-wrap
@@ -60,8 +82,12 @@ msgid "Managing Your Audio Themes"
 msgstr "Zarządzanie tematami dźwiękowymi"
 
 #. type: Bullet: '- '
-msgid "The 'Manage Audio Themes' dialogue enables you to activate or deactivate audio themes, in addition to installing and removing audio themes."
-msgstr "Okno dialogowe \"zarządzaj tematami dźwiękowymi\" umożliwia aktywację i dezaktywację oraz instalowanie i usuwanie tematów dźwiękowych."
+msgid ""
+"The 'Manage Audio Themes' dialogue enables you to activate or deactivate "
+"audio themes, in addition to installing and removing audio themes."
+msgstr ""
+"Okno dialogowe \"zarządzaj tematami dźwiękowymi\" umożliwia aktywację i "
+"dezaktywację oraz instalowanie i usuwanie tematów dźwiękowych."
 
 #. type: Plain text
 #, no-wrap
@@ -74,7 +100,7 @@ msgid ""
 msgstr ""
 "- W tym oknie dialogowym znajdują się następujące opcje:\n"
 " - Odtwarzaj dźwięk w trybie 3D: Po zaznaczeniu tego pola wyboru, dodatek będzie odtwarzał dźwięki w trybie mono (Zawsze na środku wyświetlacza dźwiękowego) niezależnie od położenia obiektu.\n"
-" - Wymawiaj nazwy kontrolek, takiich jak przycisk, pole edycyjne, link itd.: Kiedy to pole wyboru jest odznaczone, NVDA będzie oznajmiać nazwy kontrolek przy przemieszczaniu się nie ignorując ich (co jest domyślnym zachowaniem, gdy dodatek jest instalowany).\n"
+" - Wymawiaj nazwy kontrolek, takich jak przycisk, pole edycyjne, link itd.: Kiedy to pole wyboru jest odznaczone, NVDA będzie oznajmiać nazwy kontrolek przy przemieszczaniu się nie ignorując ich (co jest domyślnym zachowaniem, gdy dodatek jest instalowany).\n"
 " - Używaj głośności syntezatora: Po zaznaczeniu tego pola wyboru, ottwarzacz dźwięków dodatku będzie używał dźwięku aktywnego głosu. Dzięki temu, dźwięki dodatku będą miały taką samą głośność jak aktywny głos, przy każdej zmianie głośności syntezatora.\n"
 " - suwak głośności tematu dźwiękowego: alternatywnie, można zmienić głośność dodatku używając tego suwaka. Ustawienie go na 0 wycisza wszystkie dźwięki dodatku, a 100 to maksymalna głośność.\n"
 
@@ -84,16 +110,35 @@ msgid "Editing The Active Audio Theme:"
 msgstr "Edycja aktywnego tematu dźwiękowego:"
 
 #. type: Bullet: '- '
-msgid "When you click on the 'Edit the active audio theme' option, a dialogue will open with a list containing all the sounds contained in the currently active theme. From this dialogue you can:"
-msgstr "Gdy klikniesz na przycisk \"edytuj aktywny temat dźwiękowy\", otworzy się okno dialogowe, zawierające wszystkie dostępne dźwięki, które znajdują się w aktualnie aktywnym temacie dźwiękowym. Można tam wykonać następujące czynności:"
+msgid ""
+"When you click on the 'Edit the active audio theme' option, a dialogue will "
+"open with a list containing all the sounds contained in the currently active "
+"theme. From this dialogue you can:"
+msgstr ""
+"Gdy klikniesz na przycisk \"edytuj aktywny temat dźwiękowy\", otworzy się "
+"okno dialogowe, zawierające wszystkie dostępne dźwięki, które znajdują się w "
+"aktualnie aktywnym temacie dźwiękowym. Można tam wykonać następujące "
+"czynności:"
 
 #. type: Bullet: '- '
-msgid "Change Selected: Selecting a sound from the list and clicking this button, will open a standard open file dialogue, select an ogg or wave audio file from your file system to replace the selected sound, and click OK to complete the process."
-msgstr "Zmień oznaczone: po zaznaczeniu dźwięku z listy i naciśnięciu tego przycisku, otworzy się standardowy dialog otwierania pliku. Zaznacz plik ogg lub wav z systemu plików, aby zamienić zaznaczony dźwięk. Kliknij OK, aby zakończyć akcję."
+msgid ""
+"Change Selected: Selecting a sound from the list and clicking this button, "
+"will open a standard open file dialogue, select an ogg or wave audio file "
+"from your file system to replace the selected sound, and click OK to "
+"complete the process."
+msgstr ""
+"Zmień oznaczone: po zaznaczeniu dźwięku z listy i naciśnięciu tego "
+"przycisku, otworzy się standardowy dialog otwierania pliku. Zaznacz plik ogg "
+"lub wav z systemu plików, aby zamienić zaznaczony dźwięk. Kliknij OK, aby "
+"zakończyć akcję."
 
 #. type: Bullet: '- '
-msgid "Remove Selected: This will remove the selected sound from the theme, click 'Yes' to confirm the removal process, and the selected sound will be removed."
-msgstr "Usuń zaznaczenie: usunie zaznaczony dźwięk z tematu. Kliknij \"tak\", aby potwierdzić proces usunięcia. Dźwięk zostanie usunięty."
+msgid ""
+"Remove Selected: This will remove the selected sound from the theme, click "
+"'Yes' to confirm the removal process, and the selected sound will be removed."
+msgstr ""
+"Usuń zaznaczenie: usunie zaznaczony dźwięk z tematu. Kliknij \"tak\", aby "
+"potwierdzić proces usunięcia. Dźwięk zostanie usunięty."
 
 #. type: Plain text
 #, no-wrap
@@ -110,8 +155,44 @@ msgid "Creating A New Audio Theme"
 msgstr "Tworzenie nowego tematu dźwiękowego"
 
 #. type: Plain text
-msgid "- If you have a good sound production skills you can apply them here and create an audio theme of your own, rather than editing an existing one. To do this you can follow these steps.  - Collect your audio files in one place, they must be in ogg or wave format, and rename them to what ever make sense to you. For example when I was creating the default audio theme for this add-on, I grouped sounds according to interaction patterns, for example, the combo box, the drop down button, and the split button can all have the same sound, while the Check box, The toggle button, and the menu check item can have the same sound.  - From the add-on menu click 'Create a new audio theme' - A dialogue will be opened asking you for some information about your new audio theme, including: *\tTheme Name : The name of your theme which will be shown in the audio themes manager. This must be a valid windows folder name.  *\tYour Name: Enter your real name or a nick name.  *\tTheme description : A Brief description about your audio theme.  - Click OK to move to the next step.  - In the next step a dialogue similar to the 'Audio Themes Editor' will be shown, and from their the process is the same as the Theme editing process, so refer to 'Editing The Active Audio Theme' section."
-msgstr "- Jeżeli masz zdolności w zakresie produkcji dźwięku, możesz je tutaj wykorzystać i stworzyć swój własny temat dźwiękowy, zamiast edytować już istniejący. Aby to zrobić, wykonaj następujące kroki.  - Zbierz pliki dźwiękowe w jednym miejscu, (muszą być w formacie .wav lub .ogg) i zmień im nazwy tak, aby wiedzieć, do czego ma być użyty każdy z nich. Kiedy tworzyłem domyślny temat dźwiękowy dla tego dodatku, pogrupowałem dźwięki według wzorców interakcyjnych. na przykład, pole kombi, przycisk podzielony i przycisk rozdzielony mają jeden dźwięk, natomiast pole wyboru, przycisk przełączania i element zaznaczania mają kolejny dźwięk.  - Z menu dodatku, wybierz \"stwórz nowy temat dźwiękowy' - otworzy się dialog, w którym trzeba będzie podać kilka informacji o nowym temacie dźwiękowym, takich jak: *\tnazwa tematu: nazwa tematu która będzie wyświetlana w menedżerze tematów.  Musi to być poprawna nazwa katalogu w Windows.  *\Twoje imię: Wpisz swoje prawdziwe imię lub pseudonim.  *\tOpis tematu : krótki opis tematu.  - Kliknij OK, aby przejść do następnego kroku.  - W następnym kroku, pojawi się dialog podobny do dialogu 'edytora tematów dźwiękowych', dalsza część procesu jest taka sama jak proces edytowania tematu dźwiękowego. Zajrzyj do sekcji 'edytowanie tematu dźwiękowego'."
+msgid ""
+"- If you have a good sound production skills you can apply them here and "
+"create an audio theme of your own, rather than editing an existing one. To "
+"do this you can follow these steps.  - Collect your audio files in one "
+"place, they must be in ogg or wave format, and rename them to what ever make "
+"sense to you. For example when I was creating the default audio theme for "
+"this add-on, I grouped sounds according to interaction patterns, for "
+"example, the combo box, the drop down button, and the split button can all "
+"have the same sound, while the Check box, The toggle button, and the menu "
+"check item can have the same sound.  - From the add-on menu click 'Create a "
+"new audio theme' - A dialogue will be opened asking you for some information "
+"about your new audio theme, including: *\tTheme Name : The name of your "
+"theme which will be shown in the audio themes manager. This must be a valid "
+"windows folder name.  *\tYour Name: Enter your real name or a nick name.  *"
+"\tTheme description : A Brief description about your audio theme.  - Click "
+"OK to move to the next step.  - In the next step a dialogue similar to the "
+"'Audio Themes Editor' will be shown, and from their the process is the same "
+"as the Theme editing process, so refer to 'Editing The Active Audio Theme' "
+"section."
+msgstr ""
+"- Jeżeli masz zdolności w zakresie produkcji dźwięku, możesz je tutaj "
+"wykorzystać i stworzyć swój własny temat dźwiękowy, zamiast edytować już "
+"istniejący. Aby to zrobić, wykonaj następujące kroki.  - Zbierz pliki "
+"dźwiękowe w jednym miejscu, (muszą być w formacie .wav lub .ogg) i zmień im "
+"nazwy tak, aby wiedzieć, do czego ma być użyty każdy z nich. Kiedy tworzyłem "
+"domyślny temat dźwiękowy dla tego dodatku, pogrupowałem dźwięki według "
+"wzorców interakcyjnych. na przykład, pole kombi, przycisk podzielony i "
+"przycisk rozdzielony mają jeden dźwięk, natomiast pole wyboru, przycisk "
+"przełączania i element zaznaczania mają kolejny dźwięk.  - Z menu dodatku, "
+"wybierz \"stwórz nowy temat dźwiękowy' - otworzy się dialog, w którym trzeba "
+"będzie podać kilka informacji o nowym temacie dźwiękowym, takich jak: *"
+"\tNazwa tematu: nazwa tematu która będzie wyświetlana w menedżerze tematów.  "
+"Musi to być poprawna nazwa katalogu w Windows.  *\tTwoje imię: Wpisz swoje "
+"prawdziwe imię lub pseudonim.  *\tOpis tematu : krótki opis tematu.  - "
+"Kliknij OK, aby przejść do następnego kroku.  - W następnym kroku, pojawi "
+"się dialog podobny do dialogu 'edytora tematów dźwiękowych', dalsza część "
+"procesu jest taka sama jak proces edytowania tematu dźwiękowego. Zajrzyj do "
+"sekcji 'edytowanie tematu dźwiękowego'."
 
 #. type: Title ##
 #, no-wrap
@@ -123,8 +204,20 @@ msgid "Copyright (c) 2014-2016 Musharraf Omer and Others"
 msgstr "Prawa autorskie (c) 2014-2016 Musharraf Omer i inni"
 
 #. type: Plain text
-msgid "Although this add-on was started as an independent project, it evolved to be an enhanced version of the 'Unspoken' add-on by Austin Hicks and Bryan Smart. The majority of this add-on's development went into creating the tools to manage, edit and create audio theme packages. So a big thank you to them for creating such a wonderful add-on, and making it available for us to build on top of their work."
-msgstr "Chociaż ten dodatek pierwotnie był niezależnym projektem, z czasem stał się ulepszoną wersją dodatku 'Unspoken' napisanego przez Austina Hicksa i Bryana Smarta. Zaczęto skupiać się przede wszystkim na dodawaniu funkcji do edytowania i tworzenia pakietów tematów dźwiękowych. Bardzo dziękujemy pierwszym twórcom tego wspaniałego dodatku za to, że powierzyli nam efekt swojej pracy i jego dalszy rozwój."
+msgid ""
+"Although this add-on was started as an independent project, it evolved to be "
+"an enhanced version of the 'Unspoken' add-on by Austin Hicks and Bryan "
+"Smart. The majority of this add-on's development went into creating the "
+"tools to manage, edit and create audio theme packages. So a big thank you to "
+"them for creating such a wonderful add-on, and making it available for us to "
+"build on top of their work."
+msgstr ""
+"Chociaż ten dodatek pierwotnie był niezależnym projektem, z czasem stał się "
+"ulepszoną wersją dodatku 'Unspoken' napisanego przez Austina Hicksa i Bryana "
+"Smarta. Zaczęto skupiać się przede wszystkim na dodawaniu funkcji do "
+"edytowania i tworzenia pakietów tematów dźwiękowych. Bardzo dziękujemy "
+"pierwszym twórcom tego wspaniałego dodatku za to, że powierzyli nam efekt "
+"swojej pracy i jego dalszy rozwój."
 
 #. type: Title ##
 #, no-wrap
@@ -132,8 +225,16 @@ msgid "A Note on Third-party audio files:"
 msgstr "Uwaga na temat plików dźwiękowych trzeciej strony:"
 
 #. type: Plain text
-msgid "The **Default** audio theme package in this add-on uses sounds from several sources, here is a breakdown for them: - Unspoken 3D Audio: An add-on for NVDA - TWBlue: A free and open source twitter client - Mushy TalkBack: An alternative talkback with better sounds."
-msgstr "**Domyślny** pakiet tematów dźwiękowych tego dodatku zawiera dźwięki pochodzące z różnych źródeł, Poniżej spis źrudeł: - Unspoken 3D Audio: dodatek dla NVDA - TWBlue: Bespłatny i wolny klient twittera - Mushy TalkBack: alternatywny TAlkBack z lepszymi dźwiękami."
+msgid ""
+"The **Default** audio theme package in this add-on uses sounds from several "
+"sources, here is a breakdown for them: - Unspoken 3D Audio: An add-on for "
+"NVDA - TWBlue: A free and open source twitter client - Mushy TalkBack: An "
+"alternative talkback with better sounds."
+msgstr ""
+"**Domyślny** pakiet tematów dźwiękowych tego dodatku zawiera dźwięki "
+"pochodzące z różnych źródeł, Poniżej spis źrudeł: - Unspoken 3D Audio: "
+"dodatek dla NVDA - TWBlue: Bespłatny i wolny klient twittera - Mushy "
+"TalkBack: alternatywny TAlkBack z lepszymi dźwiękami."
 
 #. type: Title ##
 #, no-wrap
@@ -141,8 +242,12 @@ msgid "Licence"
 msgstr "Licencja"
 
 #. type: Plain text
-msgid "Licensed under the GNU General Public License. See the file **copying** for more details."
-msgstr "Licencjonowano na warunkach GNU General Public License. Więcej informacji w pliku **copying** ."
+msgid ""
+"Licensed under the GNU General Public License. See the file **copying** for "
+"more details."
+msgstr ""
+"Licencjonowano na warunkach GNU General Public License. Więcej informacji w "
+"pliku **copying** ."
 
 #. type: Plain text
 #, no-wrap
@@ -156,4 +261,3 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ath"
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ath-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ath-dev"
-
