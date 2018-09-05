@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Classic Selection\n"
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
-"PO-Revision-Date: 2018-07-29 20:48+0100\n"
+"PO-Revision-Date: 2018-09-05 19:03+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -27,14 +27,14 @@ msgstr "Autor: Tyler Spivey"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "Pobierz [stable version][1]"
+msgstr "Pobierz [wersja stabilna][1]"
 
 #. type: Plain text
 msgid ""
 "This addon reverts the behaviour of NVDA+f9 and NVDA+f10 that was introduced "
 "in NVDA 2016.3."
 msgstr ""
-"Dodatek ten przywraca zachowanie klawiszy NVDA + F9 i NVDA + F10 wprowadzone "
+"Ten dodatek przywraca zachowanie klawiszy NVDA + F9 i NVDA + F10 wprowadzone "
 "w wersji NVDA 2016.3."
 
 #. type: Plain text
@@ -55,8 +55,8 @@ msgid ""
 "The addon adds two new gestures under the Classic Selection category to "
 "start and end selection, which are bound to NVDA+f9 and NVDA+f10 by default."
 msgstr ""
-"Dodatek umieszcza dwa mapowalne skróty klawiszowe przypisane domyślnie do "
-"kombinacji NVDA+F9 i NVDA+F10."
+"Dodatek umieszcza w kategorii Classic Selection dwa mapowalne skróty "
+"klawiszowe przypisane domyślnie do kombinacji NVDA+F9 i NVDA+F10."
 
 #. type: Plain text
 #, no-wrap

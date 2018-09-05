@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-05-14 02:24+1000\n"
-"PO-Revision-Date: 2018-05-18 22:19+0100\n"
+"PO-Revision-Date: 2018-09-05 19:21+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -34,8 +34,8 @@ msgid ""
 "This plugin adds local temperature and forecasts to 24 hours up to 9 "
 "additional days for NVDA"
 msgstr ""
-"Ten dodatek dodaje temperaturę lokalną i 24 godzinną prognoze pogody do "
-"dziewięciu dodatkowych dni do NVDA"
+"Ta wtyczka dodaje do NVDA temperaturę lokalną i 24 godzinną prognoze pogody "
+"maksymalnie do dziewięciu dni"
 
 #. type: Plain text
 msgid ""
@@ -73,12 +73,13 @@ msgstr "Użycie"
 
 #. type: Bullet: '* '
 msgid "Press NVDA + w to the current temperature and weather conditions."
-msgstr "Naciśnij NVDA + w dla teraźniejszej temperatury i prognozy pogody."
+msgstr "Naciśnij NVDA + w aby sprawdzić  aktualną temperaturę i pogodę."
 
 #. type: Bullet: '* '
 msgid "Press NVDA + shift + W for 24 hours forecast and forecast up to 9 days."
 msgstr ""
-"Naciśnij NVDA + shift + W dla 24-godzinnej pogody, a także pogody do 9 dni."
+"Naciśnij NVDA + shift + W aby sprawdzić 24-godzinną prognozę pogody oraz "
+"prognozę do 9 dni."
 
 #. type: Bullet: '* '
 msgid "Press NVDA + shift + ctrl + w to set a temporary city."
@@ -88,14 +89,14 @@ msgstr "Naciśnij NVDA + shift + ctrl + w, aby ustawić tymczasowe miasto."
 msgid "Press NVDA + alt + w to know the last update of the weather report."
 msgstr ""
 "Naciśnij NVDA + alt + w, aby dowiedzieć się, kiedy biuletyn pogodowy był "
-"ostatnio zaktualizowany."
+"ostatnio aktualizowany."
 
 #. type: Bullet: '* '
 msgid ""
 "Press control + shift + w to toggle between Fahrenheit, Celsius or Kelvin."
 msgstr ""
-"Naciśnij ctrl + shift + w, Aby przełączać sie pomiędzy stopniami "
-"fahrenheita, celsiusza oraz kelwina."
+"Naciśnij ctrl + shift + w, Aby przełączać się pomiędzy stopniami "
+"Fahrenheita, Celsjusza oraz Kelwina."
 
 #. type: Bullet: '* '
 msgid ""
@@ -103,7 +104,7 @@ msgid ""
 "dialog."
 msgstr ""
 "Naciśnij NVDA + shift + control + alt + w, aby otworzyć okno dialogowe "
-"ustawień Weather plus."
+"ustawień Weather Plus."
 
 #. type: Title ##
 #, no-wrap
