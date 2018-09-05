@@ -2,7 +2,7 @@
 
 
 	%!includeconf: ../userGuide.t2tconf
-	%kc:title: NVDA NVDA_VERSION дэлгэц уншигч программын командын товч танилцуулга
+	%kc:title: NVDA дэлгэц уншигч программын командын товч танилцуулга NVDA_VERSION
 
 	= Гарчиг =[toc]
 	%%toc
