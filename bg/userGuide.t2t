@@ -1896,6 +1896,22 @@ Windows 10 включва нови гласове, познати като "OneC
 + Поддържани брайлови дисплеи +[SupportedBrailleDisplays]
 Този раздел съдържа информация за брайловите дисплеи, поддържани от NVDA.
 
+++ Дисплеи, поддържащи автоматично откриване на заден план ++[AutomaticDetection]
+NVDA има способността във фонов режим автоматично да открива множество брайлови дисплеи, свързани посредством USB или Bluetooth.
+Това поведение се постига, като се избере опцията "Автоматично" като предпочитан брайлов дисплей от [прозореца с настройките за брайл #BrailleSettings] на NVDA.
+Тази опция е избрана по подразбиране.
+
+Следните дисплеи поддържат функцията за автоматично откриване:
+- Дисплеите на Handy Tech
+- Брайловите дисплеи на Baum/Humanware/APH/Orbit
+- Сериите Brailliant BI/B на HumanWare
+- HumanWare BrailleNote
+- SuperBraille
+- Сериите ALVA 6 на Optelec
+- Сериите Braille Sense/Braille EDGE/Smart Beetle/Sync Braille на HIMS
+- Дисплеите Esys/Esytime/Iris на Eurobraille
+-
+
 ++ Freedom Scientific серии Focus/PAC Mate ++[FreedomScientificFocus]
 Всички Focus и PAC Mate дисплеи от [Freedom Scientific http://www.freedomscientific.com/] се поддържат, когато са свързани чрез USB или bluetooth.
 Ще трябва да имате инсталирани драйверите на Freedom Scientific за брайловите им дисплеи, за да ги използвате.
