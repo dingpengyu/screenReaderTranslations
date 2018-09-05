@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2018-08-31 14:05-0300\n"
+"PO-Revision-Date: 2018-09-05 19:29-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -521,7 +521,7 @@ msgstr "Mão fazendo Vitória"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "sorridente"
+msgstr "carinha sorridente"
 
 #. Translators: :( Sad face.
 msgid "Sad face"
