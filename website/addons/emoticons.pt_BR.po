@@ -1,21 +1,21 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/emoticons.pt_BR.po
+# Copyright (C) 2013-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013, 2014, 2015, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: Emoticons add-on\n"
 "POT-Creation-Date: 2018-06-13 19:35+1000\n"
-"PO-Revision-Date: 2017-09-24 15:32-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
+"PO-Revision-Date: 2018-09-05 21:05-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -52,8 +52,8 @@ msgid ""
 "For example: the sequence \":)\" will be spoken as \"smiling smiley\", or "
 "for example NVDA will recognize the meaning of each emoji."
 msgstr ""
-"Por exemplo: A seqüência \":)\" será falada como \"sorriso\", ou por exemplo "
-"o NVDA vai reconhecer o significado de cada emoji."
+"Por exemplo: A seqüência \":)\" será falada como \"carinha sorridente\", ou "
+"por exemplo o NVDA vai reconhecer o significado de cada emoji."
 
 #. type: Plain text
 msgid "You can take advantage of the following features:"
@@ -78,15 +78,14 @@ msgid ""
 "When you are unsure of the characters for a particular smiley, this addon "
 "enables you to select and insert it into your text such as in a chat."
 msgstr ""
-"Quando você não tiver certeza dos caracteres para uma cara em particular, "
+"Quando você não tiver certeza dos caracteres para uma carinha em particular, "
 "este complemento lhe possibilita selecionar e inseri-lo no texto, por "
 "exemplo num chat."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.\n"
+#, no-wrap
 msgid "Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.\n"
-msgstr "Pressione NVDA+I, ou no menu Preferências -> Gerir emoticons -> Inserir emoticon, para abrir um diálogo com os emoticons ou emojis fornecidos.\n"
+msgstr "Pressione NVDA+I, ou no menu Ferramentas -> Inserir emoticon, para abrir um diálogo com os emoticons ou emojis fornecidos.\n"
 
 #. type: Plain text
 msgid ""
@@ -134,37 +133,36 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Emoticons dictionary"
-msgstr ""
+msgstr "Dicionário de emoticons"
 
 #. type: Plain text
 msgid ""
 "Emoticons add-on allows to have differents speech-dictionaries using "
 "configuration profiles."
 msgstr ""
+"O Complemento Emoticons permite ter diferentes dicionários de fala usando "
+"perfis de configuração."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "This dialog allows you to save an emoticons speech dictionary with your "
-#| "customizations."
 msgid ""
 "This means that you can create or edit a specific speech-dictionary for each "
 "your custom profile."
 msgstr ""
-"Este diálogo possibilita salvar um dicionário de fala de emoticons com suas "
-"personalizações."
+"Isso significa que você pode criar ou editar um dicionário de fala "
+"específico para cada perfil personalizado."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.\n"
+#, no-wrap
 msgid "From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.\n"
-msgstr "No menu do NVDA, em Preferências -> Gerir emoticons -> personalizar emoticons, pode abrir um diálogo de opções para adicionar ou editar os emoticons disponíveis.\n"
+msgstr "No menu do NVDA, em Preferências -> Dicionários -> Dicionário de Emoticons, pode abrir um diálogo de opções para adicionar ou editar os emoticons disponíveis.\n"
 
 #. type: Plain text
 msgid ""
 "Saving your customizations, the new reading settings of emoticons will only "
 "apply to the profile you are currently editing."
 msgstr ""
+"Salvando suas personalizações, as novas configurações de leitura de "
+"emoticons só se aplicam ao perfil que você está editando no momento."
 
 #. type: Plain text
 msgid ""
@@ -174,21 +172,22 @@ msgid ""
 "Speech dictionaries menu, Emoticons dictionary option. See below for "
 "Emoticons settings in relation to the configuration profiles."
 msgstr ""
+"Por exemplo, você pode desejar que o NVDA fale emoticons personalizados "
+"apenas no programa XxChat, mas não em outros programas de bate-papo: você "
+"pode criar um perfil para o aplicativo XxChat e atribuir um dicionário de "
+"fala no menu Dicionários, opção de Dicionário de Emoticons. Veja abaixo as "
+"configurações dos Emoticons em relação aos perfis de configuração."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Pressing \"Save and export dictionary\" button, a file dictionary named "
-#| "emoticons.dic will be saved in your user config folder, speechDicts "
-#| "subfolder."
 msgid ""
 "You can also export each custom speech-dictionary pressing \"Save and export "
 "dictionary\" button: in this way your speech-dictionaries will be saved in "
 "your user config folder, speechDicts/emoticons subfolder."
 msgstr ""
-"Se pressionar o botão \"Salvar e exportar dicionário\", será salvo um "
-"arquivo de dicionário chamado emoticons.dic na pasta de configuração do "
-"usuário, subpasta speechDicts."
+"Você também pode exportar cada dicionário de fala personalizado pressionando "
+"o botão \"Salvar e exportar dicionário\": dessa forma, seus dicionários de "
+"fala serão salvos em sua pasta de configuração do usuário, subpasta "
+"speechDicts/emoticons."
 
 #. type: Plain text
 msgid ""
@@ -196,23 +195,24 @@ msgid ""
 "editing configuration profile, which will be shown in the title of the "
 "Emoticons dictionary dialog."
 msgstr ""
+"O nome e a localização exatos do arquivo de dicionário serão baseados no "
+"perfil de configuração em edição, que será mostrado no título do diálogo do "
+"dicionário de Emoticons."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Activation settings"
+#, no-wrap
 msgid "Emoticons settings"
-msgstr "Opções de ativação"
+msgstr "Configurações de emoticons"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.\n"
+#, no-wrap
 msgid "From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.\n"
-msgstr "No menu Preferências -> Gerir Emoticons -> Opções de ativação, você pode escolher se quer ativar o anúncio de emoticons quando o NVDA inicia. Por padrão, está desabilitado.\n"
+msgstr "No menu Preferências -> Configurações -> Emoticons abre um painel para configurar a ativação de seus dicionários de fala para cada perfil.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.\n"
-msgstr ""
+msgstr "No painel de configurações de Emoticons, você pode escolher se o dicionário de fala deve ou não ser ativado automaticamente quando o NVDA alterna para o perfil que você está editando no momento. Por padrão está desativado na configuração normal do NVDA e em todos os seus novos perfis.\n"
 
 #. type: Plain text
 msgid ""
@@ -220,6 +220,10 @@ msgid ""
 "is also possible to choose if dictionaries not used (associated with non "
 "existing profiles) will be removed from the add-on when it is unloaded."
 msgstr ""
+"Se você desejar manter limpas suas pastas de configuração, nesta caixa de "
+"diálogo também é possível escolher se os dicionários não utilizados "
+"(associados a perfis não existentes) serão removidos do complemento quando "
+"ele for descarregado."
 
 #. type: Title ##
 #, no-wrap
@@ -227,30 +231,21 @@ msgid "Key Commands:"
 msgstr "Teclas de comando:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "These are the key command available by default, you can edit those or add "
-#| "new key to open Activation settings dialog or Emoticon Dictionary dialog:"
 msgid ""
 "These are the key commands available by default, you can edit those or add "
 "new key to open Emoticons settings panel or Emoticon Dictionary dialog:"
 msgstr ""
-"Estas são as teclas de comando disponíveis por padrão; você pode editá-las "
-"ou acrescentar uma nova tecla para abrir o diálogo Opções de Ativação ou o "
-"Dicionário de Emoticons:"
+"Estes são os comandos de teclas disponíveis por padrão, você pode editá-los "
+"ou adicionar uma nova tecla para abrir o painel de configurações de "
+"Emoticons ou o diálogo Dicionário de Emoticons:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA+E: speaching emoticons on/off, toggles between speaking text as it "
-#| "is written, or with the emoticons replaced by the human description."
 msgid ""
 "NVDA+E: speaking emoticons on/off, toggles between speaking text as it is "
 "written, or with the emoticons replaced by the human description."
 msgstr ""
-"NVDA+E: Ligando e desligando a fala de emoticons, alterna entre falar o "
-"texto como está escrito ou com os emoticons substituídos por descrições "
-"amigáveis."
+"NVDA+E: Liga/desliga a fala de emoticons, alterna entre falar o texto como "
+"está escrito ou com os emoticons substituídos por descrições amigáveis."
 
 #. type: Bullet: '* '
 msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
@@ -258,10 +253,9 @@ msgstr ""
 "NVDA+I: mostra um diálogo para selecionar um emoticon que queira copiar."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 5.0"
+#, no-wrap
 msgid "Changes for 7.0"
-msgstr "Mudanças na 5.0"
+msgstr "Mudanças na 7.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -269,6 +263,9 @@ msgid ""
 "so that the current profile will be shown in the title of the NVDA settings "
 "dialog."
 msgstr ""
+"A caixa de diálogo Configurações de ativação foi movida para um painel nas "
+"configurações do NVDA, para que o perfil atual seja exibido no título da "
+"caixa de diálogo de configurações do NVDA."
 
 #. type: Bullet: '* '
 msgid ""
@@ -276,28 +273,30 @@ msgid ""
 "found under the Tools menu, and Customize Emoticons will be shown under "
 "Speech dictionaries like Emoticons dictionary."
 msgstr ""
+"O menu Gerir Emoticons foi removido: agora Inserir emoticon será encontrado "
+"no menu Ferramentas e Personalizar Emoticons será mostrado em dicionários "
+"como o dicionário de emoticons."
 
 #. type: Bullet: '* '
 msgid "Requires NVDA 2018.2 or later."
-msgstr ""
+msgstr "Requer o NVDA 2018.2 ou posterior."
 
 #. type: Bullet: '* '
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Se necessário, você pode fazer o download da [última versão compatível com o "
+"NVDA 2017.3][3]."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 5.0"
+#, no-wrap
 msgid "Changes for 6.0"
-msgstr "Mudanças na 5.0"
+msgstr "Mudanças na 6.0"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Added support for emojis."
 msgid "Added support for configuration profiles."
-msgstr "Adicionado suporte a emojis."
+msgstr "Adicionado suporte para perfis de configurações."
 
 #. type: Bullet: '* '
 msgid ""
@@ -306,12 +305,19 @@ msgid ""
 "earlier, you can apply changes by reloading plugins (pressing control+NVDA"
 "+f3)."
 msgstr ""
+"No NVDA 2017.4 ou posterior, as definições de configuração e os dicionários "
+"personalizados serão alterados automaticamente de acordo com os perfis "
+"selecionados. Em 2017.3 ou anterior, você pode aplicar alterações "
+"recarregando plugins (pressionando control+NVDA+f3)."
 
 #. type: Bullet: '* '
 msgid ""
 "If you choose to import settings when updating the add-on, deprecated files "
 "(emoticons.ini and emoticons.dic) will be removed or adapted to this version."
 msgstr ""
+"Se você optar por importar as configurações ao atualizar o complemento, os "
+"arquivos preteridos (emoticons.ini e emoticons.dic) serão removidos ou "
+"adaptados a esta versão."
 
 #. type: Title ##
 #, no-wrap
@@ -348,7 +354,7 @@ msgid ""
 "If the Insert smiley dialog is opened when another settings dialog is "
 "active, NVDA will show the corresponding error message."
 msgstr ""
-"Se o diálogo de inserir cara for aberto quando outro diálogo de opções "
+"Se o diálogo de inserir carinha for aberto quando outro diálogo de opções "
 "estiver ativo, o NVDA mostrará a mensagem de erro correspondente."
 
 #. type: Title ##
@@ -386,7 +392,7 @@ msgstr "Removido um emoticon duplicado."
 
 #. type: Bullet: '* '
 msgid "Added some smileys."
-msgstr "Adicionadas algumas caras."
+msgstr "Adicionadas algumas carinhas."
 
 #. type: Title ##
 #, no-wrap
@@ -403,22 +409,20 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
 msgid "[1]: http://addons.nvda-project.org/files/get.php?file=emo"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
+msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=emo"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 msgid "[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
+msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev"
 
 #. type: Plain text
 msgid ""
 "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5."
 "nvda-addon"
 msgstr ""
+"[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5."
+"nvda-addon"
 
 #~ msgid "Customize emoticons"
 #~ msgstr "Personalizar emoticons"
