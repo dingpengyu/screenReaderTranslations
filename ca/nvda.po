@@ -622,7 +622,7 @@ msgstr "Línies braille Seika"
 #. Translators: Name of a Bluetooth serial communications port.
 #, fuzzy, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "Port Bluetooth: {portName}"
+msgstr "Port Bluetooth: {port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
