@@ -9,12 +9,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 04:00+1000\n"
 "PO-Revision-Date: 2018-09-02 11:32+0700\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.1.1\n"
 
 #. Translators: The long label of the days field.
@@ -118,7 +118,8 @@ msgid "Allows you to find the day of the week corresponding to a chosen date."
 msgstr "Cho phép bạn tìm ngày trong tuần dựa theo ngày đã chọn."
 
 #. Translators: Message presented in input help mode.
-msgid "Allows you to open the dayOfTheWeek add-on settings dialog."
+#, fuzzy, python-brace-format
+msgid "Allows you to open the {0} add-on settings dialog."
 msgstr "Cho phép bạn mở hộp thoại cài đặt của add-on dayOfTheWeek."
 
 #. Add-on summary, usually the user visible name of the addon.
