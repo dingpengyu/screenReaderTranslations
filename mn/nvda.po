@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Mongolian Translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-07 00:10+1000\n"
-"PO-Revision-Date: 2018-09-06 22:24+0800\n"
+"PO-Revision-Date: 2018-09-06 22:30+0800\n"
 "Last-Translator: \n"
 "Language-Team: MongolianNVDATranslationTeam <mongoliannvdatranslation@gmail."
 "com>\n"
@@ -595,7 +595,7 @@ msgstr "Танигдаагүй брайль дэлгэц"
 #. Translators: Name of a Bluetooth serial communications port.
 #, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "Bluetooth Serial: {port} ({deviceName})Bluetooth serial: {portName}"
+msgstr "Bluetooth Serial: {port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
