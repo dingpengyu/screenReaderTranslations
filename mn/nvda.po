@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Mongolian Translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-07 00:10+1000\n"
-"PO-Revision-Date: 2018-08-07 13:23+0800\n"
+"PO-Revision-Date: 2018-09-06 22:24+0800\n"
 "Last-Translator: \n"
 "Language-Team: MongolianNVDATranslationTeam <mongoliannvdatranslation@gmail."
 "com>\n"
@@ -4826,17 +4826,17 @@ msgstr "Aragonese"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Central Kurdish"
-msgstr ""
+msgstr "Төв Күрд хэл"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Northern Kurdish"
-msgstr ""
+msgstr "Хойд Күрд хэл"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "Бирм хэл"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -7307,7 +7307,7 @@ msgstr "давтан тоглуулах хаагдлаа"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
-msgstr ""
+msgstr "Emoji алга"
 
 #. Translators: The name of a braille display.
 msgid "Optelec ALVA 6 series/protocol converter"
@@ -7823,7 +7823,7 @@ msgstr "Түр хүлээнэ үү"
 
 #. Translators: The title of the dialog asking if usage data can be collected
 msgid "NVDA  Usage Data Collection"
-msgstr ""
+msgstr "NVDA дэлгэц уншигч программын дата цуглуулга"
 
 #. Translators: A message asking the user if they want to allow usage stats gathering
 msgid ""
