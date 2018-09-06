@@ -6606,7 +6606,7 @@ msgstr "die Installation der Aktualisierung kann nicht verschoben werden."
 
 #. Translators: The title of the dialog displayed while downloading an NVDA update.
 msgid "Downloading Update"
-msgstr "Aktualisierung wird heruntergeladen"
+msgstr "Aktualisierung herunterladen"
 
 #. Translators: The progress message indicating that a connection is being established.
 msgid "Connecting"
@@ -6614,7 +6614,7 @@ msgstr "Verbindung wird hergestellt"
 
 #. Translators: The progress message indicating that a download is in progress.
 msgid "Downloading"
-msgstr "Download läuft."
+msgstr "Download läuft..."
 
 #. Translators: A message indicating that an error occurred while downloading an update to NVDA.
 msgid "Error downloading update."
@@ -7940,15 +7940,15 @@ msgstr "Autor"
 
 #. Translators: The label for a button in Add-ons Manager dialog to show information about the selected add-on.
 msgid "&About add-on..."
-msgstr "&Über diese Erweiterung..."
+msgstr "&Info zu dieser Erweiterung..."
 
 #. Translators: The label for a button in Add-ons Manager dialog to show the help for the selected add-on.
 msgid "Add-on &help"
-msgstr "Hilfe zu dieser &Erweiterung"
+msgstr "&Hilfe zu dieser Erweiterung"
 
 #. Translators: The label for a button in Add-ons Manager dialog to enable or disable the selected add-on.
 msgid "&Disable add-on"
-msgstr "Erweiterung &deaktivieren"
+msgstr "&Deaktivieren"
 
 #. Translators: The label for a button in Add-ons Manager dialog to install an add-on.
 msgid "&Install..."
