@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Station playlist studio\n"
-"POT-Creation-Date: 2018-08-26 02:06+1000\n"
+"POT-Creation-Date: 2018-09-08 01:38+1000\n"
 "PO-Revision-Date: 2017-12-28 10:54-0800\n"
 "Last-Translator: Grzegorz Zlotowicz <grzezlo@wp.pl>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
@@ -34,6 +34,10 @@ msgstr "Pobierz [wersja stabilna][1]"
 msgid "Download [development version][2]"
 msgstr "Pobierz [wersja rozwojowa][2]"
 
+#. type: Bullet: '* '
+msgid "Download [long-term support version][3] - for Studio 5.10/5.11 users"
+msgstr ""
+
 #. type: Plain text
 #, fuzzy
 #| msgid ""
@@ -60,7 +64,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 or "
-"later."
+"later. For best experience, NVDA 2018.3 and Studio 5.11 or later is "
+"recommended."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -931,6 +936,71 @@ msgid ""
 "and have NVDA 2012.3 or later installed, you can perform some Studio "
 "commands from the touchscreen. First use three finger tap to switch to SPL "
 "mode, then use the touch commands listed above to perform commands."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 18.09-LTS"
+msgstr "Zmiany dla wersji 3.0"
+
+#. type: Plain text
+msgid ""
+"Version 18.09.x is the last release series to support Studio 5.10 and based "
+"on old technologies, with 18.10 and later supporting Studio 5.11/5.20 and "
+"new features. Some new features will be backported to 18.09.x if needed."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA 2018.3 or later is recommended due to introduction of wxPython 4."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on settings screen is now fully based on multi-page interface derived "
+"from NVDA 2018.2 and later."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Test Drive Fast and Slow rings have been combined into \"development\" "
+"channel, with an option for development snapshot users to test pilot "
+"features by checking the new pilot features checkbox found in Advanced add-"
+"on settings panel. Users formerly on Test Drive Fast ring will continue to "
+"test pilot features."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The ability to select different add-on update channel from add-on settings "
+"has been removed. Users wishing to switch to a different release channel "
+"should visit NVDA community add-ons website (addons.nvda-project.org), "
+"select StationPlaylist Studio, then download the appropriate release."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Column inclusion checkboxes for column announcement and playlist "
+"transcripts, as well as metadata streams checkboxes have been converted to "
+"checkable list controls."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When switching between settings panels, NvDA will remember current settings "
+"for profile-specific settings (alarms, column announcements, metadata "
+"streaming settings)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added CSV (comma-separated values) format as a playlist transcripts format."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Pressing Control+NvDA+C to save settings will now also save Studio add-on "
+"settings (requires NVDA 2018.3)."
 msgstr ""
 
 #. type: Title ##
@@ -2934,8 +3004,7 @@ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=spl-dev"
 #. type: Plain text
 #, fuzzy
 #| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
-msgid ""
-"[3]: http://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=spl-lts18"
 msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
 
 #. type: Plain text
@@ -2955,3 +3024,9 @@ msgstr ""
 msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
 msgstr ""
 "[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/SPLAddonGuide"
+
+#, fuzzy
+#~| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid ""
+#~ "[3]: http://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+#~ msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
