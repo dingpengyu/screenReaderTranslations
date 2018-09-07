@@ -6,14 +6,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: objPad\n"
 "POT-Creation-Date: 2018-09-08 02:15+1000\n"
-"PO-Revision-Date: 2018-08-26 21:01+0200\n"
-"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"PO-Revision-Date: 2018-09-07 18:29+0200\n"
+"Last-Translator: Michel Such <michel.such@free.fr>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -89,14 +89,14 @@ msgid ""
 "Scan mode: use arrow keys to move through objects on screen regardless of "
 "hierarchy."
 msgstr ""
-"Mode balayage : utiliser les touches fléchées pour naviguer dans les objets "
-"à l’écran quelle que soit la hiérarchie."
+"Mode balayage : utiliser les touches fléchées pour naviguer parmi les objets "
+"à l’écran indépendamment de la hiérarchie."
 
 #. type: Plain text
 msgid "The following commands are available with arrow keys set to object nav:"
 msgstr ""
 "Les commandes suivantes sont disponibles avec les touches fléchées définie "
-"par navigation par objet :"
+"pour navigation par objet :"
 
 #. type: Bullet: '* '
 msgid "Right arrow: next object."
@@ -115,10 +115,8 @@ msgid "Down arrow: first child object."
 msgstr "Flèche bas : premier objet enfant."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "SPACE: activate."
 msgid "SPACE or ENTER: activate."
-msgstr "ESPACE : activer."
+msgstr "ESPACE ou entrer : activer."
 
 #. type: Plain text
 msgid ""
@@ -149,16 +147,12 @@ msgid "With scan mode active:"
 msgstr "Avec le mode balayage actif :"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Down arrow: next object."
 msgid "Down arrow: next object or the next line."
-msgstr "Flèche bas : objet suivant."
+msgstr "Flèche bas : objet suivant ou ligne suivante."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Up arrow: previous object."
 msgid "Up arrow: previous object or previous line."
-msgstr "Flèche haut : objet précédent."
+msgstr "Flèche haut : objet précédent ou ligne précédente."
 
 #. type: Bullet: '* '
 msgid "Right arrow: review next character."
@@ -169,30 +163,27 @@ msgid "Left arrow: previous character."
 msgstr "Flèche gauche : caractère précédent."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Right arrow: next object."
 msgid "Control+right arrow: next word."
-msgstr "Flèche droite : objet suivant."
+msgstr "Contrôle + flèche droite : mot suivant."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Left arrow: previous object."
 msgid "Control+left arrow: previous word."
-msgstr "Flèche gauche : objet précédent."
+msgstr "Contrôle + flèche gauche : mot précédent."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.03"
+#, no-wrap
 msgid "Version 18.09"
-msgstr "Version 18.03"
+msgstr "Version 18.09"
 
 #. type: Bullet: '* '
 msgid "Added localizations."
-msgstr ""
+msgstr "Ajout des traductions."
 
 #. type: Bullet: '* '
 msgid "Enter key (regular and Numpad) can be used to activate objects."
 msgstr ""
+"La touche Entrer (normale et du pavé numérique) peut être utilisée pour "
+"activer les objets."
 
 #. type: Title ##
 #, no-wrap
