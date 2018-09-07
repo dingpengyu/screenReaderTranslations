@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-09-08 02:15+1000\n"
 "PO-Revision-Date: 2018-03-23 22:58+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
@@ -115,7 +115,9 @@ msgid "Down arrow: first child object."
 msgstr "Pfeil nach unten: erstes Unterobjekt des Hauptobjektes."
 
 #. type: Bullet: '* '
-msgid "SPACE: activate."
+#, fuzzy
+#| msgid "SPACE: activate."
+msgid "SPACE or ENTER: activate."
 msgstr "Leertaste: Objekt aktivieren."
 
 #. type: Plain text
@@ -148,11 +150,15 @@ msgid "With scan mode active:"
 msgstr "Bei aktiviertem Scan-Modus:"
 
 #. type: Bullet: '* '
-msgid "Down arrow: next object."
+#, fuzzy
+#| msgid "Down arrow: next object."
+msgid "Down arrow: next object or the next line."
 msgstr "Pfeil nach unten: nächstes Objekt."
 
 #. type: Bullet: '* '
-msgid "Up arrow: previous object."
+#, fuzzy
+#| msgid "Up arrow: previous object."
+msgid "Up arrow: previous object or previous line."
 msgstr "Pfeil nach oben: vorheriges Objekt."
 
 #. type: Bullet: '* '
@@ -162,6 +168,32 @@ msgstr "Rechtspfeil: nächster Buchstabe."
 #. type: Bullet: '* '
 msgid "Left arrow: previous character."
 msgstr "Linkspfeil: vorheriger Buchstabe."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Right arrow: next object."
+msgid "Control+right arrow: next word."
+msgstr "Rechtspfeil: nächstes Objekt."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Left arrow: previous object."
+msgid "Control+left arrow: previous word."
+msgstr "Linkspfeil: vorheriges Objekt."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.03"
+msgid "Version 18.09"
+msgstr "Version 18.03"
+
+#. type: Bullet: '* '
+msgid "Added localizations."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Enter key (regular and Numpad) can be used to activate objects."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

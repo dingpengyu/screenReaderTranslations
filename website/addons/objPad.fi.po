@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ObjPad\n"
-"POT-Creation-Date: 2018-03-09 05:54+1000\n"
+"POT-Creation-Date: 2018-09-08 02:15+1000\n"
 "PO-Revision-Date: 2018-04-27 12:33+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
@@ -113,7 +113,9 @@ msgid "Down arrow: first child object."
 msgstr "Nuoli alas: ensimmäinen alemman tason objekti."
 
 #. type: Bullet: '* '
-msgid "SPACE: activate."
+#, fuzzy
+#| msgid "SPACE: activate."
+msgid "SPACE or ENTER: activate."
 msgstr "Väli: aktivoi."
 
 #. type: Plain text
@@ -146,11 +148,15 @@ msgid "With scan mode active:"
 msgstr "Skannaustilan ollessa aktiivisena:"
 
 #. type: Bullet: '* '
-msgid "Down arrow: next object."
+#, fuzzy
+#| msgid "Down arrow: next object."
+msgid "Down arrow: next object or the next line."
 msgstr "Nuoli alas: seuraava objekti."
 
 #. type: Bullet: '* '
-msgid "Up arrow: previous object."
+#, fuzzy
+#| msgid "Up arrow: previous object."
+msgid "Up arrow: previous object or previous line."
 msgstr "Nuoli ylös: edellinen objekti."
 
 #. type: Bullet: '* '
@@ -160,6 +166,32 @@ msgstr "Nuoli oikealle: seuraava merkki."
 #. type: Bullet: '* '
 msgid "Left arrow: previous character."
 msgstr "Nuoli vasemmalle: edellinen merkki."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Right arrow: next object."
+msgid "Control+right arrow: next word."
+msgstr "Nuoli oikealle: seuraava objekti."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Left arrow: previous object."
+msgid "Control+left arrow: previous word."
+msgstr "Nuoli vasemmalle: edellinen objekti."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.03"
+msgid "Version 18.09"
+msgstr "Versio 18.03"
+
+#. type: Bullet: '* '
+msgid "Added localizations."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Enter key (regular and Numpad) can be used to activate objects."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

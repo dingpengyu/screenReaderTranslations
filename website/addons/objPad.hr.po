@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-03-09 05:54+1000\n"
+"POT-Creation-Date: 2018-09-08 02:15+1000\n"
 "PO-Revision-Date: 2018-03-09 10:52+0100\n"
 "Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,7 +113,9 @@ msgid "Down arrow: first child object."
 msgstr "Strelica dolje: prvi objekt niže razine."
 
 #. type: Bullet: '* '
-msgid "SPACE: activate."
+#, fuzzy
+#| msgid "SPACE: activate."
+msgid "SPACE or ENTER: activate."
 msgstr "RAZMAK: aktiviranje."
 
 #. type: Plain text
@@ -146,11 +148,15 @@ msgid "With scan mode active:"
 msgstr "Ako je aktivan način skeniranja:"
 
 #. type: Bullet: '* '
-msgid "Down arrow: next object."
+#, fuzzy
+#| msgid "Down arrow: next object."
+msgid "Down arrow: next object or the next line."
 msgstr "Strelica dolje: sljedeći objekt."
 
 #. type: Bullet: '* '
-msgid "Up arrow: previous object."
+#, fuzzy
+#| msgid "Up arrow: previous object."
+msgid "Up arrow: previous object or previous line."
 msgstr "Strelica gore: prethodni objekt."
 
 #. type: Bullet: '* '
@@ -160,6 +166,32 @@ msgstr "Strelica desno: pregled sljedećeg znaka."
 #. type: Bullet: '* '
 msgid "Left arrow: previous character."
 msgstr "Strelica lijevo: prethodni znak."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Right arrow: next object."
+msgid "Control+right arrow: next word."
+msgstr "Strelica desno: sljedeći objekt."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Left arrow: previous object."
+msgid "Control+left arrow: previous word."
+msgstr "Strelica lijevo: prethodni objekt."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.03"
+msgid "Version 18.09"
+msgstr "Inačica 18.03"
+
+#. type: Bullet: '* '
+msgid "Added localizations."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Enter key (regular and Numpad) can be used to activate objects."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

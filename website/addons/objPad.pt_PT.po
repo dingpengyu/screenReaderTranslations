@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ObjPad\n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-09-08 02:15+1000\n"
 "PO-Revision-Date: 2018-04-04 17:35+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
@@ -111,7 +111,9 @@ msgid "Down arrow: first child object."
 msgstr "Seta para baixo: primeiro objecto filho."
 
 #. type: Bullet: '* '
-msgid "SPACE: activate."
+#, fuzzy
+#| msgid "SPACE: activate."
+msgid "SPACE or ENTER: activate."
 msgstr "ESPAÇO: activar."
 
 #. type: Plain text
@@ -143,11 +145,15 @@ msgid "With scan mode active:"
 msgstr "Com o modo de varredura activo:"
 
 #. type: Bullet: '* '
-msgid "Down arrow: next object."
+#, fuzzy
+#| msgid "Down arrow: next object."
+msgid "Down arrow: next object or the next line."
 msgstr "Seta para baixo: próximo objecto."
 
 #. type: Bullet: '* '
-msgid "Up arrow: previous object."
+#, fuzzy
+#| msgid "Up arrow: previous object."
+msgid "Up arrow: previous object or previous line."
 msgstr "Seta para cima: objecto anterior."
 
 #. type: Bullet: '* '
@@ -157,6 +163,32 @@ msgstr "Seta para a direita: ver o próximo caracter."
 #. type: Bullet: '* '
 msgid "Left arrow: previous character."
 msgstr "Left arrow: caracter anterior."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Right arrow: next object."
+msgid "Control+right arrow: next word."
+msgstr "Seta para a direita: próximo objecto."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Left arrow: previous object."
+msgid "Control+left arrow: previous word."
+msgstr "Seta para a esquerda: objecto anterior."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.03"
+msgid "Version 18.09"
+msgstr "Versão 18.03"
+
+#. type: Bullet: '* '
+msgid "Added localizations."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Enter key (regular and Numpad) can be used to activate objects."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
