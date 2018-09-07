@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-08 02:15+1000\n"
-"PO-Revision-Date: 2018-07-09 11:19+0800\n"
+"PO-Revision-Date: 2018-09-08 05:51+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -99,10 +99,8 @@ msgid "Down arrow: first child object."
 msgstr "下光标：第一个子对象。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "SPACE: activate."
 msgid "SPACE or ENTER: activate."
-msgstr "空格：激活。"
+msgstr "空格或回车：激活。"
 
 #. type: Plain text
 msgid ""
@@ -133,59 +131,50 @@ msgid "With scan mode active:"
 msgstr "扫描模式激活时："
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Down arrow: next element type."
 msgid "Down arrow: next object or the next line."
-msgstr "下光标：下一个元素类型。"
+msgstr "下光标：下一个对象或下一行。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Left arrow: previous object."
 msgid "Up arrow: previous object or previous line."
-msgstr "左光标：上一个对象。"
+msgstr "上光标：上一个对象或上一行。"
 
 #. type: Bullet: '* '
 msgid "Right arrow: review next character."
-msgstr ""
+msgstr "右光标：查看下一个字符。"
 
 #. type: Bullet: '* '
 msgid "Left arrow: previous character."
-msgstr ""
+msgstr "左光标：查看上一个字符。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Right arrow: next object."
 msgid "Control+right arrow: next word."
-msgstr "右光标：下一个对象。"
+msgstr "Control+right arrow: 下一个单词。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Left arrow: previous object."
 msgid "Control+left arrow: previous word."
-msgstr "左光标：上一个对象。"
+msgstr "Control+left arrow: 上一个单词。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 16.10"
+#, no-wrap
 msgid "Version 18.09"
-msgstr "版本16.10"
+msgstr "版本18.09"
 
 #. type: Bullet: '* '
 msgid "Added localizations."
-msgstr ""
+msgstr "添加本地化。"
 
 #. type: Bullet: '* '
 msgid "Enter key (regular and Numpad) can be used to activate objects."
-msgstr ""
+msgstr "回车键（常规和Numpad）可用于激活对象。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.03"
-msgstr ""
+msgstr "版本18.03"
 
 #. type: Bullet: '* '
 msgid "Better compatibility with NVDA 2018.1."
-msgstr ""
+msgstr "与NVDA 2018.1更好的兼容性。"
 
 #. type: Title ##
 #, no-wrap
@@ -203,12 +192,12 @@ msgstr "版本16.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable version."
-msgstr "发布初始版本"
+msgstr "发布初始版本。"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=objPad"
