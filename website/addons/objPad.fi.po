@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ObjPad\n"
 "POT-Creation-Date: 2018-09-08 02:15+1000\n"
-"PO-Revision-Date: 2018-04-27 12:33+0200\n"
+"PO-Revision-Date: 2018-09-08 11:07+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -113,10 +113,8 @@ msgid "Down arrow: first child object."
 msgstr "Nuoli alas: ensimmäinen alemman tason objekti."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "SPACE: activate."
 msgid "SPACE or ENTER: activate."
-msgstr "Väli: aktivoi."
+msgstr "Väli tai Enter: aktivoi."
 
 #. type: Plain text
 msgid ""
@@ -148,16 +146,12 @@ msgid "With scan mode active:"
 msgstr "Skannaustilan ollessa aktiivisena:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Down arrow: next object."
 msgid "Down arrow: next object or the next line."
-msgstr "Nuoli alas: seuraava objekti."
+msgstr "Nuoli alas: seuraava objekti tai rivi."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Up arrow: previous object."
 msgid "Up arrow: previous object or previous line."
-msgstr "Nuoli ylös: edellinen objekti."
+msgstr "Nuoli ylös: edellinen objekti tai rivi."
 
 #. type: Bullet: '* '
 msgid "Right arrow: review next character."
@@ -168,30 +162,27 @@ msgid "Left arrow: previous character."
 msgstr "Nuoli vasemmalle: edellinen merkki."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Right arrow: next object."
 msgid "Control+right arrow: next word."
-msgstr "Nuoli oikealle: seuraava objekti."
+msgstr "Ctrl+Nuoli oikealle: seuraava sana."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Left arrow: previous object."
 msgid "Control+left arrow: previous word."
-msgstr "Nuoli vasemmalle: edellinen objekti."
+msgstr "Ctrl+Nuoli vasemmalle: edellinen sana."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.03"
+#, no-wrap
 msgid "Version 18.09"
-msgstr "Versio 18.03"
+msgstr "Versio 18.09"
 
 #. type: Bullet: '* '
 msgid "Added localizations."
-msgstr ""
+msgstr "Lokalisointeja lisätty."
 
 #. type: Bullet: '* '
 msgid "Enter key (regular and Numpad) can be used to activate objects."
 msgstr ""
+"Tavallista ja laskinnäppäimistön Enter-näppäintä voi käyttää objektien "
+"aktivoimiseen."
 
 #. type: Title ##
 #, no-wrap
