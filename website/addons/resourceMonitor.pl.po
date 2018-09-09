@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2018-08-30 15:14+0100\n"
+"PO-Revision-Date: 2018-09-09 22:10+0100\n"
 "Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl_PL\n"
@@ -38,7 +38,7 @@ msgid ""
 "This add-on gives information about CPU load, memory usage and other "
 "resource usage information."
 msgstr ""
-"Ta wtyczka podaje informacje o obciązeniu procesora, użyciu pamięci RAM, a "
+"Ta wtyczka podaje informacje o obciążeniu procesora, użyciu pamięci RAM, a "
 "także wykorzystaniu innych zasobów."
 
 #. type: Title #
@@ -51,15 +51,15 @@ msgid ""
 "NVDA+Shift+E Presents used ram, average processor load, and battery info if "
 "available."
 msgstr ""
-"NVDA+Shift+E raportuje używaną pamięć, średnie obciążenie procesora, "
-"informacje o baterii jeśli dostępna."
+"NVDA+Shift+E podaje używaną pamięć, średnie obciążenie procesora, informacje "
+"o baterii jeśli jest dostępna."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+1 Presents the average processor load and if multicore CPU's are "
 "present the load of each core."
 msgstr ""
-"nvda+szift+1 podaje średnie obciążenie procesora i obciąrzenie każdego z "
+"nvda+shift+1 podaje średnie obciążenie procesora i obciążenie każdego z "
 "rdzeni, jeśli używany jest procesor wielordzeniowy."
 
 #. type: Bullet: '* '
@@ -90,7 +90,7 @@ msgid ""
 "NVDA+Shift+6 Presents CPU Architecture 32/64-bit and Windows version and "
 "service pack numbers."
 msgstr ""
-"NVDA+Shift+6 odczytuje wersję i servicepack systemu Windows, oraz bity "
+"NVDA+Shift+6 odczytuje wersję i pakiet serwisowy systemu Windows, oraz bity "
 "procesora (32 lub 64 bity)."
 
 #. type: Bullet: '* '
@@ -126,8 +126,8 @@ msgid ""
 "is twice the number of CPU cores."
 msgstr ""
 "Użycie CPU jest podawane dla procesorów logicznych, nie fizycznych rdzeni. "
-"Jest to zauważalne dla procesorów używających technologii Hyper Threading "
-"gdzie liczba CPU jest dwukrotnie większa od liczby rdzeni."
+"Jest to zauważalne w przypadku procesorów używających technologii Hyper "
+"Threading gdzie liczba CPU jest dwukrotnie większa od liczby rdzeni."
 
 #. type: Bullet: '* '
 msgid ""
@@ -135,46 +135,41 @@ msgid ""
 "delays when obtaining disk usage information."
 msgstr ""
 "Jeśli aktywność dysku jest za duża, tak jak na przykład kopiowanie wielkich "
-"plików, możliwe są opóźnienia przy pobieraniu informacji."
+"plików, możliwe są opóźnienia w trakcie pobierania informacji."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for Windows XP from this add-on will end on December 31, 2017. "
-#| "Support for Windows Server 2003 and Windows Vista will end on June 30, "
-#| "2018."
 msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
 "for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
 msgstr ""
-"Wsparcie dla Windows XP do tego dodatku skończy się 31 grudnia, 2017. "
-"Wsparcie dla Windows Server 2003 i Windows Vista skończy się 30. czerwca, "
-"2018."
+"Wsparcie dla Windowsa XP dla tego dodatku zakończyło się 31. grudnia, 2017. "
+"Wsparcie dla Windowsa Server 2003, Vista i Server 2008 zakończyło się 30. "
+"czerwca 2018."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.09"
+#, no-wrap
 msgid "Version 18.04"
-msgstr "Wersja 17.09"
+msgstr "Wersja 18.04"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Important: Version 17.09.x is the last version to support Windows XP."
 msgid ""
 "Version 18.04.x is the last release to support Windows releases earlier than "
 "7 SP1."
-msgstr "Ważne: Wersja 17.09.x jest ostatnią wersją wspierającą Windows XP."
+msgstr ""
+"Wersja 18.04.x jest ostatnim wydaniem wspierającym wydania windows wcześniej "
+"niż 7 SP1."
 
 #. type: Bullet: '* '
 msgid "Last release to support Windows Server 2003, Vista and Server 2008."
-msgstr ""
+msgstr "Ostatnia wersjawspierająca Windows Server 2003, Vista i Server 2008."
 
 #. type: Bullet: '* '
 msgid ""
 "Better detection of Windows 10 releases and distinguishing between public "
 "and Insider Preview builds."
 msgstr ""
+"Lepsze wykrywanie wydań Windowsa 10, a także rozróżnianie między wydaniami "
+"publicznymi i wydaniami niejawnego programu testów."
 
 #. type: Title ##
 #, no-wrap
@@ -243,10 +238,10 @@ msgid ""
 "some systems where a removable media is not properly recognized (such as "
 "when a card isn't inserted into a card reader).)"
 msgstr ""
-"przy sprawdzaniu użycia dysku, NVDA nigdy więcej nie będzie pokazywał dialog "
-"o błędzie na niektórymi systemami na którymi dyski wymienne nie są "
-"rospoznane prawidłowo (Tak jak naprzykład, kiedy karta SD nie jest włożona "
-"do karty pamięci).)"
+"przy sprawdzaniu użycia dysku, NVDA nigdy więcej nie będzie pokazywał "
+"dialogu o błędzie na niektórych systemach na których dyski wymienne nie są "
+"rospoznane prawidłowo (Tak jak na przykład, kiedy karta SD nie jest włożona "
+"doslotu karty pamięci).)"
 
 #. type: Title ##
 #, no-wrap
@@ -384,7 +379,7 @@ msgstr "zmiany dla wersji 2.3"
 
 #. type: Bullet: '* '
 msgid "Added Bulgarian translation."
-msgstr "Dodano tłumaczenie na bułgarski."
+msgstr "Dodano tłumaczenie bułgarskie."
 
 #. type: Title ##
 #, no-wrap
@@ -427,7 +422,7 @@ msgstr "zmiany dla wersji 2.0"
 
 #. type: Bullet: '* '
 msgid "added translation support and translation comments."
-msgstr "wsparcie dla wielojęzyczności"
+msgstr "wsparcie wielojęzyczności"
 
 #. type: Title ##
 #, no-wrap
