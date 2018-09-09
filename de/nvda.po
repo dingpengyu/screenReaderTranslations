@@ -2724,12 +2724,12 @@ msgstr "Angeheftet"
 
 #. Translators: a state that denotes the existance of a formula on a spreadsheet cell
 msgid "has formula"
-msgstr "Hat Formel"
+msgstr "Enthält Formel"
 
 #. Translators: a state that denotes the existance of a comment.
 #. Translators: Reported when text contains a comment.
 msgid "has comment"
-msgstr "Hat Kommentar"
+msgstr "Enthält Kommentar"
 
 #. Translators: a state that denotes that the object is covered partially or fully by another object
 msgid "obscured"
