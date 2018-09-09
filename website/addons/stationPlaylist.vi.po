@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-08 01:38+1000\n"
+"POT-Creation-Date: 2018-09-10 03:34+1000\n"
 "PO-Revision-Date: 2018-08-26 00:37+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
@@ -915,6 +915,18 @@ msgstr ""
 "NVDA 2012.3 trở lên, bạn có thể thực hiện vài lệnh của Studio từ mành hình "
 "cảm ứng. Trước tiên, dùng thao tác chạm ba ngón để chuyển sang chế độ SPL, "
 "và sử dụng các thao tác cảm ứng đã liệt kê ở trên để thực hiện các lệnh."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.03/15.14-LTS"
+msgid "Version 18.09.1-LTS"
+msgstr "Phiên bản 18.03/15.14-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining playlist transcripts in HTML table format, column headers are "
+"no longer rendered as a Python list string."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

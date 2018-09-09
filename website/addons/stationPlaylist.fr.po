@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Station Playlist Studio\n"
-"POT-Creation-Date: 2018-09-08 01:38+1000\n"
+"POT-Creation-Date: 2018-09-10 03:34+1000\n"
 "PO-Revision-Date: 2018-08-26 20:23+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
@@ -987,6 +987,18 @@ msgstr ""
 "un écran tactile. Tout d'abord utiliser une tape à trois doigts pour "
 "basculer en mode SPL, puis utilisez les commandes tactile énumérées ci-"
 "dessus pour exécuter des commandes."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.03/15.14-LTS"
+msgid "Version 18.09.1-LTS"
+msgstr "Version 18.03/15.14-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining playlist transcripts in HTML table format, column headers are "
+"no longer rendered as a Python list string."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: stationPlayList NVDA add-on\n"
-"POT-Creation-Date: 2018-09-08 01:38+1000\n"
+"POT-Creation-Date: 2018-09-10 03:34+1000\n"
 "PO-Revision-Date: 2018-08-30 22:02+0200\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: NVDA translation team <LL@li.org>\n"
@@ -972,6 +972,18 @@ msgstr ""
 "realizar algunas órdenes de Studio desde la pantalla táctil. Primero utiliza "
 "un toque con tres dedos para cambiar a modo SPL, entonces utiliza las "
 "órdenes táctiles listadas arriba para llevar a cabo tareas."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.03/15.14-LTS"
+msgid "Version 18.09.1-LTS"
+msgstr "Versión 18.03/15.14-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining playlist transcripts in HTML table format, column headers are "
+"no longer rendered as a Python list string."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

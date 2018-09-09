@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-09-08 01:38+1000\n"
+"POT-Creation-Date: 2018-09-10 03:34+1000\n"
 "PO-Revision-Date: 2018-05-06 04:05+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
@@ -991,6 +991,18 @@ msgstr ""
 "Studio-Befehle über den Touchscreen ausführen. Tippen Sie zunächst einmal "
 "mit drei Fingern, um in den SPL-Touchmodus zu wechseln. Verwenden Sie dann "
 "die oben aufgeführten Touch-Befehle, um Befehle auszuführen."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.03/15.14-LTS"
+msgid "Version 18.09.1-LTS"
+msgstr "Version 18.03/15.14-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining playlist transcripts in HTML table format, column headers are "
+"no longer rendered as a Python list string."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

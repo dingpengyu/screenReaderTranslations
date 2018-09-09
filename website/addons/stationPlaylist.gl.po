@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA website files\n"
-"POT-Creation-Date: 2018-09-08 01:38+1000\n"
+"POT-Creation-Date: 2018-09-10 03:34+1000\n"
 "PO-Revision-Date: 2018-05-29 11:16+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA Translation team <LL@li.org>\n"
@@ -980,6 +980,18 @@ msgstr ""
 "realizar algunhas ordes do Studio dende a pantalla tactil. Primeiro usa un "
 "toque con tgres dedos para cambiar a modo SPL, logo usa as ordes tactiles "
 "listadas arriba para realizar ordes."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.03/15.14-LTS"
+msgid "Version 18.09.1-LTS"
+msgstr "Versión 18.03/15.14-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining playlist transcripts in HTML table format, column headers are "
+"no longer rendered as a Python list string."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
