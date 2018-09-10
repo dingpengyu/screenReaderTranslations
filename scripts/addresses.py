@@ -116,13 +116,21 @@ addresses = {
         'lang': 'Georgian',
         'email': ['Beqa Gozalishvili <beqaprogger@gmail.com>', 'Goderdzi Gogoladze <goderdzigogoladze@gmail.com>'],
     },
+    'kk': {
+        'lang': 'Kazikh',
+        'email': ['Timati <timati_99999@mail.ru>'],
+    },
+    'kmr': {
+        'lang': 'Northern Kurdish',
+        'email': ['Imam Kahraman <imam.kahraman@googlemail.com>'],
+    },
     'kn': {
         'lang':'Kannada',
         'email': ['Siddalingeshwar Ingalagi <ingalagisiddu@gmail.com>'],
     },
     'ko': {
         'lang':'Korean',
-        'email': ['Joseph Lee <joseph.lee22590@gmail.com>', 'Chang-Hwan Jang <462356@gmail.com>', 'Dong Hee Park <hi@aheu.org>'],
+        'email': ['Joseph Lee <joseph.lee22590@gmail.com>', 'Chang-Hwan Jang <462356@gmail.com>', 'Dong Hee Park <hi@aheu.org>', 'Stanley Chung <stanley@mail.com>'],
     },
     'ky': {
         'lang':'Kyrgiz',
@@ -191,6 +199,10 @@ addresses = {
     'sl': {
         'lang':'Slovenian',
         'email': ['Jozko Gregorc <jozko.gregorc@gmail.com>'],
+    },
+    'so': {
+        'lang':'Somali',
+        'email': ['Othmanothman <othman82@hotmail.com>'],
     },
     'sr': {
         'lang':'Serbian',
