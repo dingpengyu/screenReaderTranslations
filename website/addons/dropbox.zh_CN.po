@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
-"PO-Revision-Date: 2018-07-06 18:28+0800\n"
+"PO-Revision-Date: 2018-09-10 08:31+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: Simplified Chinese translate team <vgjh2005@gmail.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -22,11 +22,9 @@ msgid "[[!meta title=\"dropbox\"]]\n"
 msgstr "[[!meta title=\"dropbox-NVDA支持插件\"]]\n"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Authors: Patrick ZAJDA, Filaos and other contributors"
 msgid ""
 "Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors"
-msgstr "作者：Patrick ZAJDA, Filaos和其他贡献者。"
+msgstr "作者： Patrick ZAJDA, Filaos和其他贡献者"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
@@ -44,10 +42,8 @@ msgstr ""
 "的各个标签中切换。也可通过按下“ESCAPE”键取消浏览。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Shortcut: NVDA+Shift+D"
 msgid "Shortcut: NVDA+Alt+D"
-msgstr "快捷键： NVDA+Shift+D"
+msgstr "快捷键: NVDA + Alt + D."
 
 #. type: Bullet: '* '
 msgid "Ctrl+Alt+T announce the active tab."
@@ -189,7 +185,5 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=dx"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=dx"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=dx"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=dx"

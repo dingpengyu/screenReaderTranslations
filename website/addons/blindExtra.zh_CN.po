@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-03 02:57+1000\n"
-"PO-Revision-Date: 2018-07-16 12:25+0800\n"
+"PO-Revision-Date: 2018-09-10 08:10+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -64,11 +64,11 @@ msgid ""
 msgstr ""
 "插件社区敦促NVDA用户卸载此插件，并运行防病毒程序，以及在此计算机上有敏感信息"
 "时格式化磁盘。插件社区还希望提醒用户在从不受信任的来源安装插件时要小心，因为"
-"NVDA插件可以执行各种操作，包括访问文件系统和Internet。 NVDA插件是功能强大的程"
-"序，可以做出惊人的事情，但必须小心对待。 Add-ons社区不会检查不是来自此站点的"
-"插件。谢谢。"
+"NVDA插件可以执行各种操作，包括访问文件系统和Internet。 NVDA插件是功能强大的"
+"程序，可以做出惊人的事情，但必须小心对待。 Add-ons社区不会检查不是来自此站点"
+"的插件。谢谢。"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag announcements]]\n"
-msgstr ""
+msgstr "[[!tag announcements]]\n"

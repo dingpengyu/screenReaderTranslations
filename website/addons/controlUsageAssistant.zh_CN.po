@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-07-06 18:24+0800\n"
+"PO-Revision-Date: 2018-09-10 08:25+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -45,7 +45,7 @@ msgstr "版本2.1"
 
 #. type: Bullet: '* '
 msgid "New and updated translations."
-msgstr "实时的翻译更新"
+msgstr "新的更新的翻译。"
 
 #. type: Title ##
 #, no-wrap
@@ -75,7 +75,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "New language: Danish."
-msgstr "新的丹麦语支持"
+msgstr "新语言：丹麦语。"
 
 #. type: Title ##
 #, no-wrap
@@ -84,7 +84,7 @@ msgstr "版本1.0"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr "初始版本"
+msgstr "发布初始版本。"
 
 #. type: Plain text
 #, no-wrap
@@ -92,7 +92,5 @@ msgid "[[!tag stable]]\n"
 msgstr "[[!tag stable]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=cua"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cua"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=cua"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cua"

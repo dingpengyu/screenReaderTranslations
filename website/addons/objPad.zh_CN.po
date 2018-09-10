@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-08 02:15+1000\n"
-"PO-Revision-Date: 2018-09-08 05:51+0800\n"
+"PO-Revision-Date: 2018-09-10 07:59+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"ObjPad\"]]\n"
-msgstr "[[!meta title=\"ObjPad-NVDA对象管理导航插件\"]]\n"
+msgstr "[[!meta title=\"ObjPad-NVDA简易导航器\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee, Cleverson Uliana and others"
@@ -47,7 +47,9 @@ msgstr "快捷键"
 #. type: Bullet: '* '
 msgid ""
 "Control+NVDA+TAB: Steps through arrow key modes (see below for details)."
-msgstr "Control + NVDA + TAB：逐步执行光标键模式（详见下文）。"
+msgstr ""
+"Control + NVDA + TAB：(在正常模式、对象导航模式、网页模式、扫描模式、正常模"
+"式、这五个模式之间进行切换)"
 
 #. type: Title ##
 #, no-wrap
@@ -70,7 +72,7 @@ msgstr "对象导航：使用光标键移动到下一个/上一个/父/第一个
 
 #. type: Bullet: '* '
 msgid "Web: use arrow keys to cycle through elements and move between them."
-msgstr "Web：使用光标键循环元素并在元素之间移动。"
+msgstr "网页模式：使用光标键循环元素并在元素之间移动。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -80,7 +82,7 @@ msgstr "扫描模式：使用光标键在屏幕上移动对象，而不管层次
 
 #. type: Plain text
 msgid "The following commands are available with arrow keys set to object nav:"
-msgstr "光标键设置为对象nav时，以下命令可用："
+msgstr "光标键设置为对象模式时，以下快捷键可用："
 
 #. type: Bullet: '* '
 msgid "Right arrow: next object."
@@ -183,7 +185,7 @@ msgstr "版本16.12"
 
 #. type: Bullet: '* '
 msgid "Added web mode."
-msgstr "添加了网络模式。"
+msgstr "添加了网页模式。"
 
 #. type: Title ##
 #, no-wrap

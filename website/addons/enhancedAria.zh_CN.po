@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-22 18:34+1000\n"
-"PO-Revision-Date: 2018-08-22 16:55+0800\n"
+"PO-Revision-Date: 2018-09-10 09:11+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -48,14 +48,10 @@ msgstr ""
 "转，并在所有浏览器中按NVDA + f7列出它们。请阅读NVDA用户指南了解更多信息。"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The addon adds an extra landmark not included by default in NVDA, the "
-#| "article."
 msgid ""
 "The addon adds an extra landmark not included by default in NVDA, the "
 "article (abbreviated in Braille as art)."
-msgstr "该插件增加了一个额外的地标，在NVDA文章中默认不包括在内。"
+msgstr "插件增加了NVDA中默认不包含的额外路标，文章（缩写为盲文作为艺术）。"
 
 #. type: Title ##
 #, no-wrap
@@ -63,12 +59,6 @@ msgid "The configuration dialog"
 msgstr "配置"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can enable or disable landmarks by going to NVDA, preferences, "
-#| "Enhanced Aria Settings. The dialog has a checkbox for each landmark. If "
-#| "you disable a landmark, you won't be able to jump to it pressing the d "
-#| "key when browsing a webpage, and NVDA won't report it."
 msgid ""
 "You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
 "Aria Settings or from the appropriate category in the NVDA options dialog. "
@@ -76,9 +66,9 @@ msgid ""
 "won't be able to jump to it pressing the d key when browsing a webpage, and "
 "NVDA won't report it."
 msgstr ""
-"您可以通过转到NVDA，偏好设置，增强型aria设置来启用或禁用地标。该对话框每个地"
-"标都有一个复选框。如果您禁用某个地标，浏览网页时将无法按d键跳转到该地标，NVDA"
-"将不会报告该地标。"
+"您可以通过转到NVDA，首选项，增强型Aria设置或NVDA选项对话框中的相应类别来启用"
+"或禁用地标。该对话框有一个每个地标的复选框。如果禁用地标，则在浏览网页时无法"
+"按d键跳转到该地标，NVDA将不会朗读。"
 
 #. type: Title ##
 #, no-wrap
@@ -86,19 +76,14 @@ msgid "Contact info"
 msgstr "联系信息"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "This addon has been developed by Jose Manuel Delicado. If you want to "
-#| "contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on "
-#| "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgid ""
 "This addon has been developed by Jose Manuel Delicado. If you want to "
 "contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
 "GitHub at https://github.com/jmdaweb/enhancedAria"
 msgstr ""
-"这个插件是由Jose Manuel Delicado开发。如果您想与我联系，请发送电子邮件至"
-"jmdaweb@hotmail.com，或通过https://github.com/jmdaweb/enhancedAria在GitHub上"
-"提交问题"
+"这个插件由Jose Manuel Delicado开发。如果您想与我联系，请发送电子邮件至jm."
+"delicado@nvda.es，或通过https://github.com/jmdaweb/enhancedAria在GitHub上提交"
+"问题"
 
 #. type: Title ##
 #, no-wrap
@@ -176,7 +161,7 @@ msgstr "修复了在恢复到NVDA保存配置时阻止打开插件设置对话�
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=earia"

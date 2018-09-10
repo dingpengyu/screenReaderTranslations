@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-01 11:17+1000\n"
-"PO-Revision-Date: 2018-08-01 10:46+0800\n"
+"PO-Revision-Date: 2018-09-10 09:13+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -258,7 +258,7 @@ msgid ""
 "active)."
 msgstr ""
 "在“触摸交互”对话框中添加了一个隐藏复选框，以完全禁用触摸支持（如果正常配置以"
-"外的配置文件处于活动状态"
+"外的配置文件处于活动状态。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -401,12 +401,12 @@ msgstr "版本16.06"
 
 #. type: Bullet: '* '
 msgid "Initial stable version."
-msgstr "发布初始稳定版"
+msgstr "发布初始版本。"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
