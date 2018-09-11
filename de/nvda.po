@@ -5981,7 +5981,7 @@ msgstr "Leer"
 #. Translators: cap will be spoken before the given letter when it is capitalized.
 #, python-format
 msgid "cap %s"
-msgstr "Dauergroßschreibung %s"
+msgstr "Großes %s"
 
 #. Translators: This is spoken when the given line has no indentation.
 msgid "no indent"
