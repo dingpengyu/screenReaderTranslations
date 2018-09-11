@@ -35,7 +35,7 @@ msgstr "Download [versione stabile][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "Download [versione in sviluppo][1]"
+msgstr "Download [versione in sviluppo][2]"
 
 #. type: Plain text
 msgid ""
