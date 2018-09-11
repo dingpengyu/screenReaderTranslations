@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-06-17 18:52+0800\n"
+"PO-Revision-Date: 2018-09-11 08:35+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -56,8 +56,8 @@ msgid ""
 "For now this add-on just announces the text of a comment when NVDA+shift+c "
 "is pressed.  Suggestions for new features are very welcome!"
 msgstr ""
-"当前这个插件只是在按下NVDA + shift + c时公布注释的文本。对新功能的建议非常欢"
-"迎！"
+"当前这个插件只是在按下NVDA + shift + c时公布注释的文本。对新功能的建议非常"
+"欢迎！"
 
 #. type: Bullet: '* '
 msgid "Shortcut: NVDA+Shift+c"
@@ -75,7 +75,7 @@ msgstr "发布初始版本"
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=wrd"

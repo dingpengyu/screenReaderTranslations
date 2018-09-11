@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-06-18 06:41+0800\n"
+"PO-Revision-Date: 2018-09-11 08:33+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -22,10 +22,8 @@ msgid "[[!meta title=\"Virtual Review\"]]\n"
 msgstr "[[!meta title=\"虚拟浏览\"]]\n"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Authors: Rui Batista and NVDA Addon Team"
 msgid "Authors: Rui Batista and NVDA Addon Team"
-msgstr "作者： Rui Batista 和 NVDA Addon 小组"
+msgstr "作者：Rui Batista和NVDA Addon团队"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
@@ -36,21 +34,15 @@ msgid "Download [development version][2]"
 msgstr "下载 [开发板][2]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "This Addon allows NVDA users to review a Window content in a text box, "
-#| "similar to window virtualization of JAWS for Windows. Note, however, that "
-#| "this is just a convenience for users and \"do not\" replace NVDA's "
-#| "excellent flat review and object navigation support."
 msgid ""
 "This Addon allows NVDA users to review a Window content in a text box, "
 "similar to window virtualization of JAWS for Windows.  Note, however, that "
 "this is just a convenience for users and does not replace NVDA's excellent "
 "review modes and object navigation support."
 msgstr ""
-"此插件允许用户使用 NVDA 在一个编辑框内查看窗口的内容，就像视窗 JAWS 的 "
-"window virtualization 。注意，或许这可以方便用户的使用，但是不能代替 NVDA 的"
-"屏幕浏览模式和对象导航支持。"
+"此Addon允许NVDA用户在文本框中查看Window内容，类似于JAWS for Windows的窗口虚拟"
+"化。但请注意，这只是为用户带来的便利，并不能取代NVDA出色的浏览模式和对象导航"
+"支持。"
 
 #. type: Title ##
 #, no-wrap
@@ -58,17 +50,13 @@ msgid "Usage"
 msgstr "用法"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Press nvda+control+w to open the virtual revision Window. Then simply "
-#| "navigate the shown textbox as you do in any other text content."
 msgid ""
 "Press NVDA+control+w to open the virtual revision Window.  Then simply "
 "navigate the shown textbox as you do in any other text content.  You can "
 "press Escape to close the virtual revision window."
 msgstr ""
-"按下 CTRL加NVDA加W 打开虚拟查看器窗口，您要做的只是在您希望查看这个弹出来的编"
-"辑框就可了解窗口上的文本内容。"
+"按下NVDA + control + w打开虚拟修订窗口。然后，像在任何其他文本内容中一样，只"
+"需导航显示的文本框。您可以按Escape关闭虚拟修订窗口。"
 
 #. type: Title ##
 #, no-wrap
@@ -141,7 +129,7 @@ msgstr "一些小调整。"
 
 #. type: Bullet: '* '
 msgid "Translations added."
-msgstr "补充翻译"
+msgstr "补充翻译。"
 
 #. type: Title ##
 #, no-wrap
@@ -171,10 +159,9 @@ msgid "Initial Release"
 msgstr "初始版本"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev]]\n"
+#, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\\n\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"

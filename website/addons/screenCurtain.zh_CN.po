@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-03 03:00+1000\n"
-"PO-Revision-Date: 2018-08-08 05:58+0800\n"
+"PO-Revision-Date: 2018-09-11 08:20+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -34,9 +34,9 @@ msgid ""
 "This add-on brings NVDA Core issue 7857 to life: adding screen curtain "
 "functionality on Windows 8 and later."
 msgstr ""
-"此插件主要是NVDA Core issue 7857的概念证明，主要实现了：在Windows 8及更高版本"
-"中添加屏幕幕布功能，这可以在运行NVDA的过程中让屏幕变黑，最终目的是保护用户的"
-"隐私不受侵犯。"
+"此插件主要是NVDA Core issue 7857的概念证明，主要实现了：在Windows 8及更高版"
+"本中添加屏幕幕布功能，这可以在运行NVDA的过程中让屏幕变黑，最终目的是保护用户"
+"的隐私不受侵犯。"
 
 #. type: Plain text
 msgid ""
@@ -60,9 +60,9 @@ msgid ""
 "example)."
 msgstr ""
 "要让NVDA在使用时打开屏幕幕布，请打开NVDA菜单/首选项/设置/屏幕幕布。选中“使用"
-"屏幕幕布”复选框以启用屏幕幕布，取消选中以禁用。您还可以在正常配置以外的配置文"
-"件处于活动状态时配置此设置，以便在配置文件处于活动状态时（例如，在使用应用程"
-"序时）使用屏幕幕布。"
+"屏幕幕布”复选框以启用屏幕幕布，取消选中以禁用。您还可以在正常配置以外的配置"
+"文件处于活动状态时配置此设置，以便在配置文件处于活动状态时（例如，在使用应用"
+"程序时）使用屏幕幕布。"
 
 #. type: Plain text
 msgid ""
@@ -79,12 +79,12 @@ msgstr "版本18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr "发布初始版本"
+msgstr "发布初始版本。"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
