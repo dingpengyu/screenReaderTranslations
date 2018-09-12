@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-30 16:06+1000\n"
-"PO-Revision-Date: 2018-01-24 20:24+0100\n"
-"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
+"PO-Revision-Date: 2018-09-13 00:11+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Day of the week\"]]\n"
-msgstr "[[!meta title=\"Tag der Woche\"]]\n"
+msgstr "[[!meta title=\"Wochentag\"]]\n"
 
 #. type: Bullet: '*	 '
 msgid "Authors: Abdel, Noelia."
@@ -27,7 +27,7 @@ msgstr "Autoren: Abdel, Noelia."
 
 #. type: Bullet: '*	 '
 msgid "download [stable version][1]"
-msgstr "[stabile Version herunterladen][1]"
+msgstr "[Stabile Version herunterladen][1]"
 
 #. type: Bullet: '*	 '
 msgid "download [development version][2]"
@@ -46,8 +46,8 @@ msgid ""
 "It adds a submenu in the NVDA Preferences menu named \"Day of the week\", "
 "containing 2 items:"
 msgstr ""
-"Es fügt ein Untermenü im NVDA-Einstellungsmenü mit dem Namen \"Tag der Woche"
-"\" hinzu, das 2 Einträge enthält:"
+"Es fügt ein Untermenü im NVDA-Einstellungsmenü mit dem Namen \"Wochentag\" "
+"hinzu, das 2 Einträge enthält:"
 
 #. type: Plain text
 #, no-wrap
@@ -87,15 +87,15 @@ msgstr "Anmerkungen"
 
 #. type: Bullet: '*	 '
 msgid "You can close these dialogs just by pressing Escape."
-msgstr "Sie können den Dialog auch durch Drücken der Taste ESC schließen."
+msgstr "Sie können den Dialog auch durch Drücken der Escape-Taste schließen."
 
 #. type: Bullet: '*	 '
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
 "and, more precisely, in the \"Day of the week\" category."
 msgstr ""
-"Über den NVDA-Einstellungsdialog \"Eingaben\" können Sie Tastenkombinationen "
-"zuweisen, um diese Dialoge zu öffnen."
+"Über den NVDA-Einstellungsdialog \"Eingaben...\" können Sie "
+"Tastenkombinationen zuweisen, um diese Dialoge zu öffnen."
 
 #. type: Title ##
 #, no-wrap
@@ -197,7 +197,7 @@ msgstr ""
 
 #. type: Bullet: '*	 '
 msgid "Added the GPL license to the addon;"
-msgstr "Die Erweiterung wurde unter der GPL lizensiert."
+msgstr "Die Erweiterung wurde unter der GPL lizenziert."
 
 #. type: Bullet: '*	 '
 msgid ""
@@ -220,7 +220,7 @@ msgstr "Änderungen in Version 1.0"
 
 #. type: Bullet: '*	 '
 msgid "Initial version."
-msgstr "anfängliche Version"
+msgstr "Erstversion"
 
 #. type: Plain text
 #, no-wrap
