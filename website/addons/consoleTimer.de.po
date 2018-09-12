@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-30 14:32+1000\n"
-"PO-Revision-Date: 2018-01-05 11:24+0100\n"
+"PO-Revision-Date: 2018-09-12 15:36+0200\n"
 "Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Console Timer\"]]\n"
-msgstr "[[!meta title=\"Konsolen Timer\"]]\n"
+msgstr "[[!meta title=\"Konsolen-Timer\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -140,21 +140,21 @@ msgstr ""
 "Anwendung von NVDA richtig als Terminal erkannt wird (Das Verhalten des "
 "Terminals wird zur Laufzeit korrekt injiziert), sollte diese Erweiterung "
 "einfach funktionieren. Sollte dies nicht der Fall sein, lassen Sie es mich "
-"bitte wissen. Das Schreiben eines App-Moduls ist in diesem Dokument nicht "
-"darstellbar, wird aber im [NVDA Entwicklerhandbuch](https://www.nvaccess.org/"
-"files/nvda/documentation/developerGuide.html) ausführlich dokumentiert. "
-"[Dieses Beispiel veranschaulicht ein appModul, um NVDA beizubringen, dass "
-"das Terminalfenster auf PuTTY ein Terminal ist](https://github.com/nvaccess/"
-"nvda/blob/master/source/appModules/putty.py). Außerdem, [Hier ist eine "
-"Beispielimplementierung für MinTTY](https://github.com/nvaccess/nvda/blob/"
-"master/source/appModules/mintty.py). Es ist sehr wichtig, dass NVDAObjects."
-"Behaviors.Terminal in die Klassenliste eingefügt wird."
+"bitte wissen. Das Schreiben eines Anwendungsmoduls ist in diesem Dokument "
+"nicht darstellbar, wird aber im [NVDA Entwicklerhandbuch](https://www."
+"nvaccess.org/files/nvda/documentation/developerGuide.html) ausführlich "
+"dokumentiert. [Dieses Beispiel veranschaulicht ein anwendungsmodul, um NVDA "
+"beizubringen, dass das Terminalfenster auf PuTTY ein Terminal ist](https://"
+"github.com/nvaccess/nvda/blob/master/source/appModules/putty.py). Außerdem, "
+"[Hier ist eine Beispielimplementierung für MinTTY](https://github.com/"
+"nvaccess/nvda/blob/master/source/appModules/mintty.py). Es ist sehr wichtig, "
+"dass NVDAObjects.Behaviors.Terminal in die Klassenliste eingefügt wird."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev stable]]\n"
 msgid "[[!tag dev]]\n"
-msgstr "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cont"
