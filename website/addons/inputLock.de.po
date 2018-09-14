@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-17 02:47+1000\n"
-"PO-Revision-Date: 2018-09-12 16:41+0200\n"
+"PO-Revision-Date: 2018-09-14 18:53+0200\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Input Lock\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Eingabesperre\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Jose Manuel Delicado"
@@ -27,7 +27,7 @@ msgstr "Autor: Jose Manuel Delicado"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "[stabile version][1] herunterladen"
+msgstr "[Stabile Version][1] herunterladen"
 
 #. type: Title ##
 #, no-wrap
@@ -45,7 +45,7 @@ msgstr ""
 "Haben Sie Kinder oder Haustiere zu Hause? Haben Sie eine Katze, die sehr gerne "
 "auf Ihren Tisch klettert und über Ihre Tastatur läuft? Bewegen Sie "
 "versehentlich die Maus in zufällige Bereiche auf dem Bildschirm, während Sie "
-"Ihren Laptop benutzen? Dann ist Input-Lock für Sie da! Sie können Ihren "
+"Ihren Laptop benutzen? Dann ist die Eingabesperre für Sie da! Sie können Ihren "
 "Computer ohne Risiko eingeschaltet lassen, sodass Sie diesen nicht "
 "beaufsichtigen müssen."
 
@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 "Diese Erweiterung fügt zwei zusätzliche Gesten für NVDA hinzu. Standardmäßig "
 "sind Sie nicht zugeordnet, so dass Sie diese im Dialog  Eingaben... "
-"konfigurieren müssen. Für weitere Informationen lesen Sie den NVDA-"
+"konfigurieren müssen. Für weitere Informationen lesen Sie das NVDA-"
 "Benutzerhandbuch."
 
 #. type: Plain text
@@ -79,10 +79,11 @@ msgid ""
 "Your input devices will be blocked until you press the same gesture again. In "
 "that moment, NVDA will say \"Input unlocked\" and everything will work as usual."
 msgstr ""
-"Wenn Sie die Tastenkombination zum ein/ausschalten von input-Lock drücken, sagt "
-"NVDA \"Input locked\". Es werden alle Eingabegeräte gesperrt, bis Sie die "
-"gleiche Tastenkombination erneut drücken. In diesem Moment sagt NVDA : \"Input "
-"unlocked\" und alles wird wie gewohnt funktionieren."
+"Wenn Sie die Tastenkombination zum Ein- / Ausschalten der Eingabesperre "
+"drücken, sagt NVDA \"Eingaben gesperrt\". Es werden alle Eingabegeräte "
+"gesperrt, bis Sie die gleiche Tastenkombination erneut drücken. In diesem "
+"Moment sagt NVDA \"Eingaben entsperrt\" und alles wird wie gewohnt "
+"funktionieren."
 
 #. type: Plain text
 msgid ""
@@ -120,18 +121,18 @@ msgstr "Einschränkungen"
 
 #. type: Plain text
 msgid "Input Lock has the following limitations:"
-msgstr "Input-Lock hat folgende Einschränkungen:"
+msgstr "Die Eingabesperre hat folgende Einschränkungen:"
 
 #. type: Bullet: '* '
 msgid "The shortcut control+alt+del can be used even when the keyboard is locked."
 msgstr ""
-"Die Tastenkombination Steuerung+Alt+Entfernen kann auch bei gesperrter Tastatur "
+"Die Tastenkombination Strg+Alt+Entfernen kann auch bei gesperrter Tastatur "
 "verwendet werden."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changelog"
-msgstr "Änderungsprotokoll"
+msgstr "Änderungen"
 
 #. type: Title ###
 #, no-wrap
@@ -174,7 +175,7 @@ msgid ""
 "Small bugs fixed, some code optimizations and less duplicated strings for "
 "translators"
 msgstr ""
-"Kleine Fehler behoben, einige Code-Optimierungen und weniger doppelte "
+"Kleinere Fehlerbehebungen, einige Code-Optimierungen und weniger doppelte "
 "Zeichenketten für Übersetzer"
 
 #. type: Title ###
@@ -184,11 +185,11 @@ msgstr "Version 1.2"
 
 #. type: Bullet: '* '
 msgid "Now the mouse can also be locked"
-msgstr "Nun kann die Maus auch gesperrt werden"
+msgstr "Nun kann die Maus auch gesperrt werden."
 
 #. type: Bullet: '* '
 msgid "New command to lock and unlock only the mouse"
-msgstr "Neuer Befehl, um die Maus zu sperren bzw. zu entsperren"
+msgstr "Neue Tastenkombination, um die Maus zu sperren oder zu entsperren"
 
 #. type: Title ###
 #, no-wrap
@@ -201,7 +202,7 @@ msgid ""
 "restored when the input is unlocked."
 msgstr ""
 "Wenn eine andere Erweiterung bereits auf die Eingabenverwaltung zugreift, wird "
-"der Zugriff wiederhergestellt, sobald die Eingabesperre aufgehoben wurde."
+"der Zugriff wiederhergestellt, sobald die Eingabesperre aufgehoben wird."
 
 #. type: Title ###
 #, no-wrap
