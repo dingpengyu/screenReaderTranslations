@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-16 03:01+1000\n"
-"PO-Revision-Date: 2018-09-14 09:26+0300\n"
+"PO-Revision-Date: 2018-09-15 20:21+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -86,17 +86,11 @@ msgid "Notes"
 msgstr "Забележки"
 
 #. type: Bullet: '*	 '
-#, fuzzy
-#| msgid "You can close these dialogs just by pressing Escape."
 msgid "You can close these dialogs just by pressing Escape;"
 msgstr ""
 "Можете да затворите тези прозорци и като просто натиснете клавиша Escape."
 
 #. type: Bullet: '*	 '
-#, fuzzy
-#| msgid ""
-#| "You can assign a shortcut to open these dialogs in \"Input gestures\" "
-#| "menu and, more precisely, in the \"Day of the week\" category.;"
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
 "and, more precisely, in the \"Day of the week\" category;"
