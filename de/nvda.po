@@ -4037,8 +4037,8 @@ msgid ""
 "The next key that is pressed will not be handled at all by NVDA, it will be "
 "passed directly through to Windows."
 msgstr ""
-"Die Nächste Taste, die Sie drücken, wird nicht von NVDA behandelt, sondern "
-"direkt an Windows weitergereicht."
+"Die nächste gedrückte Taste wird von NVDA überhaupt nicht behandelt, sie "
+"wird direkt an Windows weitergereicht."
 
 #. Translators: Indicates the name of the current program (example output: Currently running application is explorer.exe).
 #. Note that it does not give friendly name such as Windows Explorer; it presents the file name of the current application.
