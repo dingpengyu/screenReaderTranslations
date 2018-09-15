@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Day of the week\n"
-"POT-Creation-Date: 2018-09-14 08:18+1000\n"
+"POT-Creation-Date: 2018-09-16 03:01+1000\n"
 "PO-Revision-Date: 2017-06-02 22:32+0100\n"
 "Last-Translator: Nikola Jovic <wwenikola123@gmail.com>\n"
 "Language-Team: NVDA Serbian translation <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgstr "Napomene"
 #. type: Bullet: '*	 '
 #, fuzzy
 #| msgid "You can close this dialog just by pressing Escape."
-msgid "You can close these dialogs just by pressing Escape."
+msgid "You can close these dialogs just by pressing Escape;"
 msgstr "Možete zatvoriti dijalog sa escape tasterom"
 
 #. type: Bullet: '*	 '
@@ -89,7 +89,7 @@ msgstr "Možete zatvoriti dijalog sa escape tasterom"
 #| "and, more precisely, in the \"Tools\" category."
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
-"and, more precisely, in the \"Day of the week\" category.;"
+"and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
 "Možete podesiti prečicu da otvorite ovaj dijalog u \"ulaznim gestovima\" i, "
 "preciznije, u\"alati\" kategoriji."

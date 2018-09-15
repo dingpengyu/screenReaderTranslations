@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Dia da Semana, versão 5.0\n"
-"POT-Creation-Date: 2018-09-14 08:18+1000\n"
+"POT-Creation-Date: 2018-09-16 03:01+1000\n"
 "PO-Revision-Date: 2018-01-24 16:47+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
@@ -88,7 +88,9 @@ msgid "Notes"
 msgstr "Notas:"
 
 #. type: Bullet: '*	 '
-msgid "You can close these dialogs just by pressing Escape."
+#, fuzzy
+#| msgid "You can close these dialogs just by pressing Escape."
+msgid "You can close these dialogs just by pressing Escape;"
 msgstr "Pode fechar essas caixas de diálogo, pressionando Escape."
 
 #. type: Bullet: '*	 '
@@ -98,7 +100,7 @@ msgstr "Pode fechar essas caixas de diálogo, pressionando Escape."
 #| "menu and, more precisely, in the \"Day of the week\" category."
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
-"and, more precisely, in the \"Day of the week\" category.;"
+"and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
 "Pode atribuir um atalho para abrir essas caixas de diálogo no menu \"Definir "
 "comandos\" e, mais precisamente, na categoria \"Dia da semana\"."

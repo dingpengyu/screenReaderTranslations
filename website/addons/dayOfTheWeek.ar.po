@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-14 08:18+1000\n"
+"POT-Creation-Date: 2018-09-16 03:01+1000\n"
 "PO-Revision-Date: 2017-11-08 11:05+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -84,7 +84,9 @@ msgid "Notes"
 msgstr "ملاحظات"
 
 #. type: Bullet: '*	 '
-msgid "You can close these dialogs just by pressing Escape."
+#, fuzzy
+#| msgid "You can close these dialogs just by pressing Escape."
+msgid "You can close these dialogs just by pressing Escape;"
 msgstr "يمكنكم إغلاقُ هذه الحوارات بالضغط على زر escape."
 
 #. type: Bullet: '*	 '
@@ -94,7 +96,7 @@ msgstr "يمكنكم إغلاقُ هذه الحوارات بالضغط على ز
 #| "menu and, more precisely, in the \"Day of the week\" category."
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
-"and, more precisely, in the \"Day of the week\" category.;"
+"and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
 "يمكنكم تعيينُ مفتاح اختصار لفتح حِوارات الإضافة بالذهاب إلى مُحاورةِ \"تخصيص "
 "اختصارات NVDA\" و اختيار الفئة \"يوم الأسبوع\"."

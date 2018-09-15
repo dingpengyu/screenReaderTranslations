@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
-"POT-Creation-Date: 2018-09-14 08:18+1000\n"
+"POT-Creation-Date: 2018-09-16 03:01+1000\n"
 "PO-Revision-Date: 2018-06-25 19:14+0200\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Danish <LL@li.org>\n"
@@ -86,7 +86,9 @@ msgid "Notes"
 msgstr "Noter"
 
 #. type: Bullet: '*	 '
-msgid "You can close these dialogs just by pressing Escape."
+#, fuzzy
+#| msgid "You can close these dialogs just by pressing Escape."
+msgid "You can close these dialogs just by pressing Escape;"
 msgstr "Du kan lukke disse dialoger bare ved at trykke på Escape."
 
 #. type: Bullet: '*	 '
@@ -96,7 +98,7 @@ msgstr "Du kan lukke disse dialoger bare ved at trykke på Escape."
 #| "menu and, more precisely, in the \"Day of the week\" category."
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
-"and, more precisely, in the \"Day of the week\" category.;"
+"and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
 "Du kan tilknytte en genvejstast til at åbne dialogen under Inputbevægelser, "
 "nærmere bestemt under kategorien \"Ugedag\""

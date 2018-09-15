@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-14 08:18+1000\n"
+"POT-Creation-Date: 2018-09-16 03:01+1000\n"
 "PO-Revision-Date: 2018-06-19 11:47+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: \n"
@@ -73,7 +73,9 @@ msgid "Notes"
 msgstr "Note"
 
 #. type: Bullet: '*	 '
-msgid "You can close these dialogs just by pressing Escape."
+#, fuzzy
+#| msgid "You can close these dialogs just by pressing Escape."
+msgid "You can close these dialogs just by pressing Escape;"
 msgstr "è possibile chiudere queste finestre semplicemente premendo esc."
 
 #. type: Bullet: '*	 '
@@ -83,7 +85,7 @@ msgstr "è possibile chiudere queste finestre semplicemente premendo esc."
 #| "menu and, more precisely, in the \"Day of the week\" category."
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
-"and, more precisely, in the \"Day of the week\" category.;"
+"and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
 "È possibile assegnare una combinazione di tasti per aprire queste finestre "
 "di dialogo nel menu \"gesti e tasti di immissione\" e, più precisamente, "

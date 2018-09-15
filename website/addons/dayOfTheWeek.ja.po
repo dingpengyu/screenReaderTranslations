@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-14 08:18+1000\n"
+"POT-Creation-Date: 2018-09-16 03:01+1000\n"
 "PO-Revision-Date: 2016-12-29 13:18-0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -77,7 +77,7 @@ msgstr "備考"
 #. type: Bullet: '*	 '
 #, fuzzy
 #| msgid "You can close this dialog just by pressing Escape."
-msgid "You can close these dialogs just by pressing Escape."
+msgid "You can close these dialogs just by pressing Escape;"
 msgstr "Escapeキーを押すだけでダイアログを閉じることが出来ます。"
 
 #. type: Bullet: '*	 '
@@ -87,7 +87,7 @@ msgstr "Escapeキーを押すだけでダイアログを閉じることが出来
 #| "and, more precisely, in the \"Tools\" category."
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
-"and, more precisely, in the \"Day of the week\" category.;"
+"and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
 "ツールの中の「入力ジェスチャー」メニューで、このアドオンのダイアログを開く"
 "ショートカットキーを割り当てられます。"

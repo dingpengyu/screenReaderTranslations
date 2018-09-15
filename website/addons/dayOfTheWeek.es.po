@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons translation team\n"
-"POT-Creation-Date: 2018-09-14 08:18+1000\n"
+"POT-Creation-Date: 2018-09-16 03:01+1000\n"
 "PO-Revision-Date: 2018-01-26 10:35+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Spanish translation <Oprisniki@gmail.com>\n"
@@ -87,7 +87,9 @@ msgid "Notes"
 msgstr "Notas"
 
 #. type: Bullet: '*	 '
-msgid "You can close these dialogs just by pressing Escape."
+#, fuzzy
+#| msgid "You can close these dialogs just by pressing Escape."
+msgid "You can close these dialogs just by pressing Escape;"
 msgstr "Puedes cerrar este diálogo tan sólo pulsando Escape."
 
 #. type: Bullet: '*	 '
@@ -97,7 +99,7 @@ msgstr "Puedes cerrar este diálogo tan sólo pulsando Escape."
 #| "menu and, more precisely, in the \"Day of the week\" category."
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
-"and, more precisely, in the \"Day of the week\" category.;"
+"and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
 "Puedes asignar un atajo de teclado para abrir el diálogo en el menú \"Gestos "
 "de Entrada\" y, más concretamente, en la categoría \"Día de la semana\"."
