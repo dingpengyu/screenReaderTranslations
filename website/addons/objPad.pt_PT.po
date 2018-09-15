@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ObjPad\n"
 "POT-Creation-Date: 2018-09-08 02:15+1000\n"
-"PO-Revision-Date: 2018-04-04 17:35+0100\n"
+"PO-Revision-Date: 2018-09-15 13:20+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -111,10 +111,8 @@ msgid "Down arrow: first child object."
 msgstr "Seta para baixo: primeiro objecto filho."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "SPACE: activate."
 msgid "SPACE or ENTER: activate."
-msgstr "ESPAÇO: activar."
+msgstr "ESPAÇO ou enter: activar."
 
 #. type: Plain text
 msgid ""
@@ -145,16 +143,12 @@ msgid "With scan mode active:"
 msgstr "Com o modo de varredura activo:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Down arrow: next object."
 msgid "Down arrow: next object or the next line."
-msgstr "Seta para baixo: próximo objecto."
+msgstr "Seta para baixo: próximo objecto ou próxima linha."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Up arrow: previous object."
 msgid "Up arrow: previous object or previous line."
-msgstr "Seta para cima: objecto anterior."
+msgstr "Seta para cima: objecto anterior ou linha anterior."
 
 #. type: Bullet: '* '
 msgid "Right arrow: review next character."
@@ -165,30 +159,27 @@ msgid "Left arrow: previous character."
 msgstr "Left arrow: caracter anterior."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Right arrow: next object."
 msgid "Control+right arrow: next word."
-msgstr "Seta para a direita: próximo objecto."
+msgstr "CTRL+seta para a direita: próxima palavra."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Left arrow: previous object."
 msgid "Control+left arrow: previous word."
-msgstr "Seta para a esquerda: objecto anterior."
+msgstr "CTRL+seta para a esquerda: palavra anterior."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.03"
+#, no-wrap
 msgid "Version 18.09"
-msgstr "Versão 18.03"
+msgstr "Versão 18.09"
 
 #. type: Bullet: '* '
 msgid "Added localizations."
-msgstr ""
+msgstr "Adicionado localizações."
 
 #. type: Bullet: '* '
 msgid "Enter key (regular and Numpad) can be used to activate objects."
 msgstr ""
+"A tecla Enter (regular e bloco numérico) pode ser usada para activar "
+"objectos."
 
 #. type: Title ##
 #, no-wrap

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Windows 10 aplicações essenciais\n"
 "POT-Creation-Date: 2018-08-30 01:04+1000\n"
-"PO-Revision-Date: 2018-08-02 19:33+0100\n"
+"PO-Revision-Date: 2018-09-15 13:13+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -182,7 +182,6 @@ msgstr ""
 "aplicativos do Microsoft Edge (Redstone 5)."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "Certain dialogs are now recognized as proper dialogs and reported as "
 #| "such, including Insider Preview dialog (settings app)."
@@ -191,8 +190,9 @@ msgid ""
 "including Insider Preview dialog (settings app). This will be part of NVDA "
 "2018.3."
 msgstr ""
-"Certos diálogos agora são reconhecidos como diálogos adequados, incluindo a "
-"caixa de diálogo Insider Preview (aplicativo de configurações)."
+"Certos diálogos agora são reconhecidos como diálogos apropriados e relatados "
+"como tal, incluindo a caixa de diálogo Insider Preview (app de "
+"configurações). Isso fará parte do NVDA 2018.3."
 
 #. type: Bullet: '* '
 msgid ""
@@ -244,7 +244,6 @@ msgstr ""
 "diariamente, conforme determinado."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "In some apps, live region text is announced. This includes alerts in Edge "
 #| "(including elements marked with aria-role=alert), results in Calculator "
@@ -255,12 +254,12 @@ msgid ""
 "others. Note that this may result in double-speaking in some cases. This is "
 "now part of NVDA 2017.3 or later."
 msgstr ""
-"Em algumas aplicações, o texto da localização é anunciado. Isto inclui "
-"alertas no Edge, resultados na Calculadora e outros. Observe que isso pode "
-"resultar em fala dupla em alguns casos."
+"Em algumas aplicações, o texto da região ao vivo é anunciado. Isso inclui "
+"alertas no Edge (incluindo elementos marcados com aria-role = alert), "
+"resultados na Calculadora e outros. Observe que isto pode resultar em fala "
+"dupla em alguns casos. Isso agora faz parte do NVDA 2017.3 ou posterior."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "Notifications from newer app releases on Windows 10 Version 1709 (build "
 #| "16299) and later are announced."
@@ -269,8 +268,9 @@ msgid ""
 "16299) and later are announced. NVDA 2018.2 and later supports this, with "
 "2018.3 adding support for more notifications."
 msgstr ""
-"As notificações de versões mais recentes de aplicativos no Windows 10 Versão "
-"1709 (build 16299) e posteriores são anunciadas."
+"Notificações de versões mais recentes de aplicativos no Windows 10 Versão "
+"1709 (build 16299) e posteriores são anunciadas. O NVDA 2018.2 e posterior "
+"suportam isso, com 2018.3 adicionando suporte para mais notificações."
 
 #. type: Bullet: '* '
 msgid ""

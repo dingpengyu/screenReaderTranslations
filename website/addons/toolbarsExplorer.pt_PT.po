@@ -3,42 +3,45 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-24 05:59+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-09-15 13:08+0100\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"ToolbarsExplorer\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"exploradorBarrasFerramentas\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Alberto Buffolino"
-msgstr ""
+msgstr "Autor: Alberto Buffolino"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Baixar [versão de desenvolvimento][2]"
 
 #. type: Plain text
 msgid ""
 "This add-on makes easier to use toolbars in applications, providing an "
 "exploration model derived by object navigation, with simplified gestures."
 msgstr ""
+"Este extra facilita o uso das barras de ferramentas em aplicações em que "
+"elas existam, fornecendo um modelo de exploração derivado da navegação de "
+"objectos, com comandos simplificados."
 
 #. type: Title ##
 #, no-wrap
 msgid "Commands"
-msgstr ""
+msgstr "Comandos:"
 
 #. type: Plain text
 #, no-wrap
@@ -46,34 +49,43 @@ msgid ""
 "* Alt+applications: starts toolbars exploration<br/>\n"
 "(you can remap it via NVDA gesture manager, under Object navigation).\n"
 msgstr ""
+"* Alt+tecla de aplicações: Inicia a exploração das barras de ferramentas<br/>\n"
+"(Pode redefinir através do menu de entrada de comandos, navegação por objectos).\n"
 
 #. type: Plain text
 msgid "During exploration, following gestures are available:"
-msgstr ""
+msgstr "Durante a exploração, estão disponíveis os seguintes comandos:"
 
 #. type: Bullet: '* '
 msgid "Left/right arrow: moves to previous/next toolbar;"
 msgstr ""
+"Seta esquerda/direita: move entre barra de ferramentas anterior/seguinte"
 
 #. type: Bullet: '* '
 msgid "Up/down arrow: scrolls up/down items in current toolbar;"
 msgstr ""
+"Seta para cima/baixo: desloca para cima/para baixo na barra de ferramentas "
+"actual;"
 
 #. type: Bullet: '* '
 msgid "Enter: activates toolbar or its item;"
-msgstr ""
+msgstr "Enter: activa a barra de ferramentas ou um de seus itens;"
 
 #. type: Bullet: '* '
 msgid "Space: simulates left mouse click on toolbar or its item;"
 msgstr ""
+"Espaço: simula o clique esquerdo do rato na barra de ferramentas ou em um de "
+"seus itens;"
 
 #. type: Bullet: '* '
 msgid "Applications: simulates right mouse click on toolbar or its item;"
 msgstr ""
+"Tecla de aplicações: simula o clique direito do rato na barra de ferramentas "
+"ou em um de seus itens;"
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
-msgstr ""
+msgstr "Escape: sai da exploração."
 
 #. type: Plain text
 msgid ""
@@ -81,29 +93,38 @@ msgid ""
 "gesture provided by NVDA, as exactly as when you move to objects with "
 "standard object navigation."
 msgstr ""
+"Além disso, pode executar acções nas barras de ferramentas ou nos seus itens "
+"usando qualquer comando fornecido pelo NVDA, exactamente como quando se move "
+"para objectos, na navegação de objectos padrão."
 
 #. type: Title ##
 #, no-wrap
 msgid "Notes and suggestions"
-msgstr ""
+msgstr "Notas e sugestões:"
 
 #. type: Bullet: '* '
 msgid ""
 "Exploration terminates explicitly pressing escape, and implicitly performing "
 "an action on toolbar or its item;"
 msgstr ""
+"A exploração termina, explicitamente, ao pressionar escape ou ao executar "
+"implicitamente uma acção na barra de ferramentas ou em qualquer de seus "
+"itens;"
 
 #. type: Bullet: '* '
 msgid ""
 "In LibreOffice, best configuration is probably default or single toolbar, "
 "set it on view menu/toolbar position."
 msgstr ""
+"No LibreOffice, a melhor configuração é provavelmente a barra de ferramentas "
+"padrão ou única, configurada no menu de visualização / posição da barra de "
+"ferramentas."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"

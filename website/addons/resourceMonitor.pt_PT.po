@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Monitor de recursos\n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2018-04-04 16:57+0100\n"
+"PO-Revision-Date: 2018-09-15 13:26+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -141,7 +141,6 @@ msgstr ""
 "pode haver atrasos ao obter informações de uso do disco."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "Support for Windows XP from this add-on ended on December 31, 2017. "
 #| "Support for Windows Server 2003, Vista and Server 2008 will end on June "
@@ -150,9 +149,9 @@ msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
 "for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
 msgstr ""
-"O suporte deste extra para o Windows XP terminará em 31 de dezembro de 2017. "
-"O suporte para Windows Server 2003 e Windows Vista terminará em 30 de junho "
-"de 2018."
+"O suporte para o Windows XP deste complemento terminou em 31 de dezembro de "
+"2017. O suporte para o Windows Server 2003, Vista e Server 2008 terminou em "
+"30 de junho de 2018."
 
 #. type: Title ##
 #, no-wrap
