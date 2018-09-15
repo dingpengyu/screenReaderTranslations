@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dayOfTheWeek Addons website for NVDA\n"
 "POT-Creation-Date: 2018-09-16 03:01+1000\n"
-"PO-Revision-Date: 2018-09-14 22:12+0200\n"
+"PO-Revision-Date: 2018-09-15 20:03+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -86,23 +86,17 @@ msgid "Notes"
 msgstr "Notes"
 
 #. type: Bullet: '*	 '
-#, fuzzy
-#| msgid "You can close these dialogs just by pressing Escape."
 msgid "You can close these dialogs just by pressing Escape;"
-msgstr "Vous pouvez fermer cette boîte de dialogue en appuyant sur Échap."
+msgstr "Vous pouvez fermer cette boîte de dialogue en appuyant sur Échap;"
 
 #. type: Bullet: '*	 '
-#, fuzzy
-#| msgid ""
-#| "You can assign a shortcut to open these dialogs in \"Input gestures\" "
-#| "menu and, more precisely, in the \"Day of the week\" category.;"
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
 "and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
 "Vous pouvez assigner un raccourci pour ouvrir la boîte de dialogue dans le "
 "menu \"Gestes de Commandes\" et, plus précisément, dans la catégorie \"Jour "
-"de la semaine\"."
+"de la semaine\";"
 
 #. type: Bullet: '*	 '
 msgid ""
@@ -110,6 +104,10 @@ msgid ""
 "for searching your day, the add-on settings will be in the NVDA settings "
 "panel."
 msgstr ""
+"Si vous utilisez NVDA 2018.2 ou une version ultérieure, vous ne trouverez "
+"qu'un seul élément dans le menu Outil pour rechercher votre jour, les "
+"paramètres du module complémentaire se trouvent dans le panneau Paramètres "
+"NVDA."
 
 #. type: Title ##
 #, no-wrap
@@ -121,8 +119,8 @@ msgid ""
 "added the addon settings to the NVDA settings panel for NVDA 2018.2 and "
 "higher;"
 msgstr ""
-"ajout des paramètres module complémentaire au panneau Paramètres NVDA pour "
-"NVDA 2018.2 et les versions ultérieures;"
+"ajout des paramètres du module complémentaire au panneau Paramètres NVDA "
+"pour NVDA 2018.2 et les versions ultérieures;"
 
 #. type: Bullet: '*	 '
 msgid "Moved the item for searching a day to the tools menu;"
