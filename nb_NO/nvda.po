@@ -23,7 +23,7 @@ msgstr "Sikkert skrivebord"
 
 #. Translators: A mode  that allows typing in the actual 'native' characters for an east-Asian input method language currently selected, rather than alpha numeric (Roman/English) characters.
 msgid "Native input"
-msgstr "Native input"
+msgstr "Innfødt inndata"
 
 #. Translators: a mode that lets you type in alpha numeric (roman/english) characters, rather than 'native' characters for the east-Asian input method  language currently selected.
 msgid "Alpha numeric input"
@@ -59,15 +59,15 @@ msgstr "katakana"
 
 #. Translators: For Japanese character input: half katakana roman input mode.
 msgid "half katakana roman"
-msgstr "halv katakana roman"
+msgstr "halv katakana romersk"
 
 #. Translators: For Japanese character input: Hiragana Roman input mode.
 msgid "hiragana roman"
-msgstr "hiragana roman"
+msgstr "hiragana romersk"
 
 #. Translators: For Japanese character input: Katacana Roman input mode.
 msgid "katakana roman"
-msgstr "katakana roman"
+msgstr "katakana romersk"
 
 #. Translators: a message when the IME open status changes to opened
 msgid "IME opened"
@@ -106,7 +106,7 @@ msgstr "grammatikk: {text}"
 #. Translators: This is presented when errors are found in an appModule (example output: error in appModule explorer).
 #, python-format
 msgid "Error in appModule %s"
-msgstr "Feil i appModule %s"
+msgstr "Feil i appModul %s"
 
 #. Translators: Reported for the banner landmark, normally found on web pages.
 msgctxt "aria"
@@ -192,7 +192,7 @@ msgstr "rknp"
 #. Translators: Displayed in braille for an object which is an
 #. editable text field.
 msgid "edt"
-msgstr "rdg"
+msgstr "red"
 
 #. Translators: Displayed in braille for an object which is a
 #. button.
@@ -258,7 +258,7 @@ msgstr "tve"
 #. Translators: Displayed in braille for an object which is a
 #. tab control.
 msgid "tabctl"
-msgstr "fnktrl"
+msgstr "fktrl"
 
 #. Translators: Displayed in braille for an object which is a
 #. progress bar.
@@ -345,7 +345,7 @@ msgstr "del"
 #. Translators: Displayed in braille for an object which is a
 #. toggle button.
 msgid "tgbtn"
-msgstr "btknp"
+msgstr "bknp"
 
 #. Translators: Displayed in braille for an object which is a
 #. split button.
@@ -376,17 +376,17 @@ msgstr "panel"
 #. Translators: Displayed in braille for an object which is a
 #. password edit.
 msgid "pwdedt"
-msgstr "pordg"
+msgstr "pored"
 
 #. Translators: Displayed in braille for an object which is deleted.
 #, fuzzy
 msgid "del"
-msgstr "dlg"
+msgstr "slt"
 
 #. Translators: Displayed in braille for an object which is inserted.
 #, fuzzy
 msgid "ins"
-msgstr "&Lenker"
+msgstr "ins"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -394,7 +394,7 @@ msgstr "vlg"
 
 #. Translators: Displayed in braille when an object (e.g. an editable text field) is read-only.
 msgid "ro"
-msgstr "ro"
+msgstr "skrbsk"
 
 #. Translators: Displayed in braille when an object (e.g. a tree view item) is expanded.
 msgid "-"
@@ -414,7 +414,7 @@ msgstr "***"
 
 #. Translators: Displayed in braille when a required form field is encountered.
 msgid "req"
-msgstr "påkrevd"
+msgstr "pkrv"
 
 #. Translators: Displayed in braille when an invalid entry has been made.
 msgid "invalid"
@@ -434,11 +434,11 @@ msgstr "klk"
 
 #. Translators: Displayed in braille when an object is sorted ascending.
 msgid "sorted asc"
-msgstr "sortert stigende"
+msgstr "sort stig"
 
 #. Translators: Displayed in braille when an object is sorted descending.
 msgid "sorted desc"
-msgstr "sortert synkende"
+msgstr "sort synk"
 
 #. Translators: Displayed in braille when an object (usually a graphic) has a long description.
 msgid "ldesc"
@@ -454,22 +454,22 @@ msgstr "kmnt"
 
 #. Translators: Displayed in braille when an object is not selected.
 msgid "nsel"
-msgstr "ikvlgt"
+msgstr "ivlg"
 
 #. Translators: Displayed in braille for the banner landmark, normally found on web pages.
 msgctxt "braille landmark abbreviation"
 msgid "bnnr"
-msgstr ""
+msgstr "bnnr"
 
 #. Translators: Displayed in braille for the complementary landmark, normally found on web pages.
 msgctxt "braille landmark abbreviation"
 msgid "cmpl"
-msgstr ""
+msgstr "kmpl"
 
 #. Translators: Displayed in braille for the contentinfo landmark, normally found on web pages.
 msgctxt "braille landmark abbreviation"
 msgid "cinf"
-msgstr ""
+msgstr "iinf"
 
 #. Translators: Displayed in braille for the main landmark, normally found on web pages.
 #, fuzzy
@@ -534,11 +534,11 @@ msgstr "Automatisk"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -570,7 +570,7 @@ msgstr "lv %s"
 #. Occurences of %s are replaced with the corresponding row numbers.
 #, python-brace-format
 msgid "r{rowNumber}-{rowSpan}"
-msgstr ""
+msgstr "r{rowNumber}-{rowSpan}"
 
 #. Translators: Displayed in braille for a table cell row number.
 #. %s is replaced with the row number.
@@ -618,27 +618,27 @@ msgstr "Ukjent leselist"
 #. Translators: Name of a Bluetooth serial communications port.
 #, fuzzy, python-brace-format
 msgid "Bluetooth Serial: {port} ({deviceName})"
-msgstr "Bluetooth seriell: {portName}"
+msgstr "Bluetooth seriell: {port} ({deviceName})"
 
 #. Translators: Name of a serial communications port.
 #. Translators: Name of a serial communications port
 #, python-brace-format
 msgid "Serial: {portName}"
-msgstr "Serial: {portName}"
+msgstr "Seriell: {portName}"
 
 #. Translators: Reported when translation didn't succeed due to unsupported input.
 msgid "Unsupported input"
-msgstr ""
+msgstr "Ikke støttet inndata"
 
 #. Translators: Reported when a braille input modifier is released.
 #, python-brace-format
 msgid "{modifier} released"
-msgstr ""
+msgstr "{modifier} sluppet"
 
 #. Translators: Reported when a braille input modifier is pressed.
 #, fuzzy, python-brace-format
 msgid "{modifier} pressed"
-msgstr "ikke trykket"
+msgstr "{modifier} trykket"
 
 #. Translators: Used when reporting braille dots to the user.
 #. Translators: Reported when braille dots are pressed in input help mode.
@@ -3081,7 +3081,7 @@ msgstr "Venstreklikk"
 
 #. Translators: Input help mode message for left mouse click command.
 msgid "Clicks the left mouse button once at the current mouse position"
-msgstr "Utfør et venstre museklikk ved musepekerens posisjon.\""
+msgstr "Klikker én gang med venstre musknapp i gjeldende musposisjon"
 
 #. Translators: Reported when right mouse button is clicked.
 msgid "Right click"
@@ -3089,31 +3089,31 @@ msgstr "Høyreklikk"
 
 #. Translators: Input help mode message for right mouse click command.
 msgid "Clicks the right mouse button once at the current mouse position"
-msgstr "Utfør et høyre museklikk ved musepekerens posisjon.\""
+msgstr "Klikker én gang med høyre musknapp i gjeldende musposisjon"
 
 #. Translators: This is presented when the left mouse button lock is released (used for drag and drop).
 msgid "Left mouse button unlock"
-msgstr "Lås opp venstre museknapp"
+msgstr "Lås opp venstre musknapp"
 
 #. Translators: This is presented when the left mouse button is locked down (used for drag and drop).
 msgid "Left mouse button lock"
-msgstr "Lås venstre museknapp"
+msgstr "Lås venstre musknapp"
 
 #. Translators: Input help mode message for left mouse lock/unlock toggle command.
 msgid "Locks or unlocks the left mouse button"
-msgstr "Låser eller avlåser venstre museknapp"
+msgstr "Låser eller låser opp venstre musknapp"
 
 #. Translators: This is presented when the right mouse button lock is released (used for drag and drop).
 msgid "Right mouse button unlock"
-msgstr "Lås opp høyre museknapp"
+msgstr "Lås opp høyre musknapp"
 
 #. Translators: This is presented when the right mouse button is locked down (used for drag and drop).
 msgid "Right mouse button lock"
-msgstr "Lås høyre museknapp"
+msgstr "Lås høyre musknapp"
 
 #. Translators: Input help mode message for right mouse lock/unlock command.
 msgid "Locks or unlocks the right mouse button"
-msgstr "Låser eller avlåser høyre museknapp"
+msgstr "Låser eller låser opp høyre musknapp"
 
 #, python-format
 msgid "Selected %s"
@@ -3145,68 +3145,62 @@ msgstr "Øker gjeldende aktive innstilling i innstillingsringen for talesyntese"
 
 #. Translators: Input help mode message for decrease synth setting value command.
 msgid "Decreases the currently active setting in the synth settings ring"
-msgstr ""
-"Reduserer gjeldende aktive innstilling i innstillingsringen for talesyntese"
+msgstr "Reduserer gjeldende aktive innstilling i innstillingsringen for talesyntese"
 
 #. Translators: Input help mode message for next synth setting command.
 msgid "Moves to the next available setting in the synth settings ring"
-msgstr ""
-"Går til neste tilgjengelige innstilling i innstillingsringen for "
-"talesynteseGår til neste tilgjengelige innstilling i "
-"talesynteseinnstillingsringen"
+msgstr "Går til neste tilgjengelige innstilling i innstillingsringen for talesyntese"
 
 #. Translators: Input help mode message for previous synth setting command.
 msgid "Moves to the previous available setting in the synth settings ring"
 msgstr ""
-"Går til forrige tilgjengelige innstilling i innstillingsringen for "
-"talesynteseGår til forrige tilgjengelige innstilling i "
-"talesynteseinnstillingsringen"
+"Går til forrige tilgjengelige innstilling i innstillingsringen for talesyntese"
 
 #. Translators: The message announced when toggling the speak typed characters keyboard setting.
 msgid "speak typed characters off"
-msgstr "les skrevne bokstaver av"
+msgstr "si skrevne bokstaver av"
 
 #. Translators: The message announced when toggling the speak typed characters keyboard setting.
 msgid "speak typed characters on"
-msgstr "les skrevne bokstaver på"
+msgstr "si skrevne bokstaver på"
 
 #. Translators: Input help mode message for toggle speaked typed characters command.
 msgid "Toggles on and off the speaking of typed characters"
-msgstr "Slår på og av lesing av skrevne bokstaver"
+msgstr "Slår på og av uttale av skrevne bokstaver"
 
 #. Translators: The message announced when toggling the speak typed words keyboard setting.
 msgid "speak typed words off"
-msgstr "les skrevne ord av"
+msgstr "si skrevne ord av"
 
 #. Translators: The message announced when toggling the speak typed words keyboard setting.
 msgid "speak typed words on"
-msgstr "les skrevne ord på"
+msgstr "si skrevne ord på"
 
 #. Translators: Input help mode message for toggle speak typed words command.
 msgid "Toggles on and off the speaking of typed words"
-msgstr "Slår på og av lesing av skrevne ord"
+msgstr "Slår på og av uttale av skrevne ord"
 
 #. Translators: The message announced when toggling the speak typed command keyboard setting.
 msgid "speak command keys off"
-msgstr "les kommandotaster av"
+msgstr "si kommandotaster av"
 
 #. Translators: The message announced when toggling the speak typed command keyboard setting.
 msgid "speak command keys on"
-msgstr "les kommandotaster på"
+msgstr "si kommandotaster på"
 
 #. Translators: Input help mode message for toggle speak command keys command.
 msgid ""
 "Toggles on and off the speaking of typed keys, that are not specifically "
 "characters"
-msgstr "Slår på og av lesing av tastetrykk som ikke spesifikt er bokstaver "
+msgstr "Slår på og av lesing av tastetrykk som ikke spesifikt er bokstaver"
 
 #. Translators: The message announced when toggling the report font name document formatting setting.
 msgid "report font name off"
-msgstr "les fontnavn av"
+msgstr "si fontnavn av"
 
 #. Translators: The message announced when toggling the report font name document formatting setting.
 msgid "report font name on"
-msgstr "les fontnavn på"
+msgstr "si fontnavn på"
 
 #. Translators: Input help mode message for toggle report font name command.
 msgid "Toggles on and off the reporting of font changes"
@@ -3214,11 +3208,11 @@ msgstr "Slår på og av rapportering av skriftendringer"
 
 #. Translators: The message announced when toggling the report font size document formatting setting.
 msgid "report font size off"
-msgstr "les skriftstørrelse av"
+msgstr "si skriftstørrelse av"
 
 #. Translators: The message announced when toggling the report font size document formatting setting.
 msgid "report font size on"
-msgstr "les skriftstørrelse på"
+msgstr "si skriftstørrelse på"
 
 #. Translators: Input help mode message for toggle report font size command.
 msgid "Toggles on and off the reporting of font size changes"
@@ -3226,7 +3220,7 @@ msgstr "Slår på og av rapportering av endring i skriftstørrelse"
 
 #. Translators: The message announced when toggling the report font attributes document formatting setting.
 msgid "report font attributes off"
-msgstr "les skriftattributter av"
+msgstr "rapporter skriftattributter av"
 
 #. Translators: The message announced when toggling the report font attributes document formatting setting.
 msgid "report font attributes on"
@@ -3234,15 +3228,15 @@ msgstr "rapporter skriftattributter på"
 
 #. Translators: Input help mode message for toggle report font attributes command.
 msgid "Toggles on and off the reporting of font attributes"
-msgstr "Slår på og av lesing av skriftattributter"
+msgstr "Slår på og av rapportering av skriftattributter"
 
 #. Translators: The message announced when toggling the report revisions document formatting setting.
 msgid "report revisions off"
-msgstr "les revisjoner av"
+msgstr "rapporter revisjoner av"
 
 #. Translators: The message announced when toggling the report revisions document formatting setting.
 msgid "report revisions on"
-msgstr "les revisjoner på"
+msgstr "rapporter revisjoner på"
 
 #. Translators: Input help mode message for toggle report revisions command.
 msgid "Toggles on and off the reporting of revisions"
@@ -3295,7 +3289,7 @@ msgstr "rapporter stil på"
 #. Translators: Input help mode message for toggle report style command.
 #, fuzzy
 msgid "Toggles on and off the reporting of style changes"
-msgstr "Slår på og av lesing av stilendringer"
+msgstr "Slår på og av rapportering av stilendringer"
 
 #. Translators: The message announced when toggling the report spelling errors document formatting setting.
 msgid "report spelling errors off"
@@ -3308,7 +3302,7 @@ msgstr "rapporter stavefeil på"
 #. Translators: Input help mode message for toggle report spelling errors command.
 #, fuzzy
 msgid "Toggles on and off the reporting of spelling errors"
-msgstr "Slår på og av lesing av stavefeil"
+msgstr "Slår på og av rapportering av stavefeil"
 
 #. Translators: The message announced when toggling the report pages document formatting setting.
 msgid "report pages off"
@@ -3397,28 +3391,28 @@ msgstr "Slår på og av rapportering av tabeller"
 
 #. Translators: The message announced when toggling the report table row/column headers document formatting setting.
 msgid "report table row and column headers off"
-msgstr "les tabellrad- og kolonneoverskrifter av"
+msgstr "si tabellrad- og kolonneoverskrifter av"
 
 #. Translators: The message announced when toggling the report table row/column headers document formatting setting.
 msgid "report table row and column headers on"
-msgstr "les tabellrad- og kolonneoverskrifter på"
+msgstr "si tabellrad- og kolonneoverskrifter på"
 
 #. Translators: Input help mode message for toggle report table row/column headers command.
 msgid "Toggles on and off the reporting of table row and column headers"
-msgstr "Slår på og av lesing av rad- og kolonneoverskrifter i tabeller"
+msgstr "Slår på og av uttale av rad- og kolonneoverskrifter i tabeller"
 
 #. Translators: The message announced when toggling the report table cell coordinates document formatting setting.
 msgid "report table cell coordinates off"
-msgstr "rapporter tabellcellekoordinater av"
+msgstr "si tabellcellekoordinater av"
 
 #. Translators: The message announced when toggling the report table cell coordinates document formatting setting.
 msgid "report table cell coordinates on"
-msgstr "rapporter tabellcellekoordinater på"
+msgstr "si tabellcellekoordinater på"
 
 #. Translators: Input help mode message for toggle report table cell coordinates command.
 #, fuzzy
 msgid "Toggles on and off the reporting of table cell coordinates"
-msgstr "Slår på og av lesing av tabellcellekoordinater"
+msgstr "Slår på og av uttale av tabellcellekoordinater"
 
 #. Translators: The message announced when toggling the report links document formatting setting.
 msgid "report links off"
@@ -3430,7 +3424,7 @@ msgstr "rapporter lenker på"
 
 #. Translators: Input help mode message for toggle report links command.
 msgid "Toggles on and off the reporting of links"
-msgstr "Slår på og av lesing av lenker"
+msgstr "Slår på og av rapportering av lenker"
 
 #. Translators: The message announced when toggling the report comments document formatting setting.
 msgid "report comments off"
@@ -3442,7 +3436,7 @@ msgstr "rapporter kommentarer på"
 
 #. Translators: Input help mode message for toggle report comments command.
 msgid "Toggles on and off the reporting of comments"
-msgstr "Slår på og av lesing av kommentarer"
+msgstr "Slår på og av rapportering av kommentarer"
 
 #. Translators: The message announced when toggling the report lists document formatting setting.
 msgid "report lists off"
@@ -3466,7 +3460,7 @@ msgstr "rapporter overskrifter på"
 
 #. Translators: Input help mode message for toggle report headings command.
 msgid "Toggles on and off the reporting of headings"
-msgstr "Slår på og av lesing av overskrifter"
+msgstr "Slår på og av rapportering av overskrifter"
 
 #. Translators: The message announced when toggling the report block quotes document formatting setting.
 msgid "report block quotes off"
@@ -3479,7 +3473,7 @@ msgstr "rapporter blokksitater på"
 #. Translators: Input help mode message for toggle report block quotes command.
 #, fuzzy
 msgid "Toggles on and off the reporting of block quotes"
-msgstr "Slår på og av lesing av blokksitater"
+msgstr "Slår på og av rapportering av blokksitater"
 
 #. Translators: The message announced when toggling the report landmarks document formatting setting.
 msgid "report landmarks off"
@@ -3491,7 +3485,7 @@ msgstr "rapporter landemerker på"
 
 #. Translators: Input help mode message for toggle report landmarks command.
 msgid "Toggles on and off the reporting of landmarks"
-msgstr "Slår på og av lesing av landemerker"
+msgstr "Slår på og av rapportering av landemerker"
 
 #. Translators: The message announced when toggling the report frames document formatting setting.
 msgid "report frames off"
@@ -3547,7 +3541,7 @@ msgid ""
 "Sets the navigator object to the current object under the mouse pointer and "
 "speaks it"
 msgstr ""
-"Setter navigatorobjektet til det gjeldende objektet under musepekeren og "
+"Setter navigasjonsobjektet til det gjeldende objektet under muspekeren og "
 "sier det"
 
 #. Translators: reported when there are no other available review modes for this object
@@ -3593,7 +3587,7 @@ msgstr "Slår på og av enkel lesemodus"
 #. Translators: Reported when the user tries to perform a command related to the navigator object
 #. but there is no current navigator object.
 msgid "No navigator object"
-msgstr "Ikke noe navigatorobjekt"
+msgstr "Ikke noe navigasjonsobjekt"
 
 #. Translators: Indicates something has been copied to clipboard (example output: title text copied to clipboard).
 #. Translators: The message presented when the status bar is copied to the clipboard.
@@ -3945,11 +3939,11 @@ msgstr ""
 
 #. Translators: presented when the mouse tracking is toggled.
 msgid "Mouse tracking off"
-msgstr "Musesporing av"
+msgstr "Mussporing av"
 
 #. Translators: presented when the mouse tracking is toggled.
 msgid "Mouse tracking on"
-msgstr "Musesporing på"
+msgstr "Mussporing på"
 
 #. Translators: Input help mode message for toggle mouse tracking command.
 msgid "Toggles the reporting of information as the mouse moves"
@@ -3978,7 +3972,7 @@ msgid ""
 "Logs information about the current navigator object which is useful to "
 "developers and activates the log viewer so the information can be examined."
 msgstr ""
-"Logger informasjon om gjeldende navigatorobjekt som er nyttig for utviklere "
+"Logger informasjon om gjeldende navigasjonsobjekt som er nyttig for utviklere "
 "og aktiverer loggviseren, slik at informasjonen kan bli undersøkt."
 
 #. Translators: A mode where no progress bar updates are given.
@@ -4368,15 +4362,15 @@ msgstr "Flytter leselisten til gjeldende fokus"
 
 #. Translators: Input help mode message for a braille command.
 msgid "Erases the last entered braille cell or character"
-msgstr ""
+msgstr "Sletter sist skrevne punktskriftcelle eller bokstav"
 
 #. Translators: Input help mode message for a braille command.
 msgid "Translates any braille input and presses the enter key"
-msgstr ""
+msgstr "Oversetter innskrevet punktskrift og trykker på Enter-tasten"
 
 #. Translators: Input help mode message for a braille command.
 msgid "Translates any braille input"
-msgstr ""
+msgstr "Oversetter innskrevet punktskrift"
 
 #. Translators: Input help mode message for a braille command.
 msgid ""
@@ -4494,7 +4488,7 @@ msgstr "Windows 10 OCR ikke tilgjengelig"
 #. Translators: Describes a command.
 msgid ""
 "Recognizes the content of the current navigator object with Windows 10 OCR"
-msgstr "Gjenkjenner innholdet i gjeldende navigatorobjekt med Windows 10 OCR"
+msgstr "Gjenkjenner innholdet i gjeldende navigasjonsobjekt med Windows 10 OCR"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "Emulated system keyboard keys"
@@ -6698,7 +6692,7 @@ msgstr ""
 
 #. Translators: The title of the dialog requesting donations from users.
 msgid "Please Donate"
-msgstr "Vennligst Doner"
+msgstr "Vennligst doner"
 
 #. Translators: The label of the button to donate
 #. in the "Please Donate" dialog.
@@ -7045,7 +7039,7 @@ msgstr "Har avtale"
 
 #. Translators: the email is a meeting request
 msgid "meeting request"
-msgstr "møteinnkallelse"
+msgstr "møteforespørsel"
 
 #. Translators: this message is reported when there are no
 #. notes for translators to be presented to the user in Poedit.
@@ -8063,11 +8057,11 @@ msgstr "skal fjernes"
 
 #. Translators: The status shown for an addon when it requires a restart to become disabled
 msgid "Disabled after restart"
-msgstr ""
+msgstr "Avslått etter omstart"
 
 #. Translators: The status shown for an addon when it requires a restart to become enabled
 msgid "Enabled after restart"
-msgstr ""
+msgstr "Påslått etter omstart"
 
 #. Translators: The status shown for an addon when its currently suspended do to addons being disabled.
 #, fuzzy
@@ -8174,7 +8168,7 @@ msgstr "Feil ved aktivering av profil."
 
 #. Translators: The confirmation prompt displayed when the user requests to delete a configuration profile.
 msgid "This profile will be permanently deleted. This action cannot be undone."
-msgstr ""
+msgstr "Denne profilen vil bli permanent slettet. Denne handlingen kan ikke omgjøres."
 "Denne profilen vil bli permanent slettet. Denne handlingen kan ikke angres."
 
 #. Translators: The title of the confirmation dialog for deletion of a configuration profile.
@@ -8567,7 +8561,7 @@ msgstr "L&oggingsnivå:"
 #. Translators: The label for a setting in general settings to allow NVDA to come up in Windows login screen (useful if user needs to enter passwords or if multiple user accounts are present to allow user to choose the correct account).
 msgid ""
 "Use NVDA on the Windows logon screen (requires administrator privileges)"
-msgstr ""
+msgstr "Bruk NVDA i innloggingsskjermen i Windows (krever administratorrettigheter)"
 "Bruk NVDA på påloggingsskjermen i Windows (krever administratorrettigheter)"
 
 #. Translators: The label for a button in general settings to copy current user settings to system settings (to allow current settings to be used in secure screens such as User Account Control (UAC) dialog).
@@ -8813,7 +8807,7 @@ msgstr "Rapporter endringer i &musform"
 #. Translators: This is the label for a checkbox in the
 #. mouse settings panel.
 msgid "Enable mouse &tracking"
-msgstr "Slå på &musesporing"
+msgstr "Slå på &mussporing"
 
 #. Translators: This is the label for a combobox in the
 #. mouse settings panel.
@@ -9222,15 +9216,15 @@ msgstr "&Hvor som helst"
 
 #. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
 msgid "Whole &word"
-msgstr "Helt ord"
+msgstr "Helt &ord"
 
 #. Translators: This is a label for an Entry Type radio button in add dictionary entry dialog.
 msgid "Regular &expression"
-msgstr "R&egulært uttrykk"
+msgstr "&Regulært uttrykk"
 
 #. Translators: This is the label for the edit dictionary entry dialog.
 msgid "Edit Dictionary Entry"
-msgstr "Rediger Ordlisteoppføring"
+msgstr "Rediger ordlisteoppføring"
 
 #. Translators: This is a label for an edit field in add dictionary entry dialog.
 msgid "&Pattern"
@@ -9239,7 +9233,7 @@ msgstr "&Mønster"
 #. Translators: This is a label for an edit field in add dictionary entry dialog and in punctuation/symbol pronunciation dialog.
 #. Translators: The label for the edit field in symbol pronunciation dialog to change the replacement text of a symbol.
 msgid "&Replacement"
-msgstr "E&rstatning"
+msgstr "&Erstatning"
 
 #. Translators: This is a label for an edit field in add dictionary entry dialog.
 msgid "&Comment"
@@ -9264,7 +9258,7 @@ msgstr "Feil i regulært uttrykk: \"%s\"."
 
 #. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
 msgid "&Dictionary entries"
-msgstr "&Ordlisteoppføringer"
+msgstr "Or&dlisteoppføringer"
 
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 #. Translators: Title of a dialog edit an Excel comment
@@ -9391,7 +9385,7 @@ msgstr "NVDA"
 #. Translators: The profile name for normal configuration
 #, fuzzy
 msgid "normal configuration"
-msgstr "(normal-konfigurasjon)"
+msgstr "normalkonfigurasjon"
 
 #. Translators: This is the label for the add symbol dialog.
 msgid "Add Symbol"
@@ -9434,7 +9428,7 @@ msgstr "&Nivå"
 
 #. Translators: The label for the combo box in symbol pronunciation dialog to change when a symbol is sent to the synthesizer.
 msgid "&Send actual symbol to synthesizer"
-msgstr ""
+msgstr "&Send egentlig symbol til talesyntese"
 
 #. Translators: The label for a button in the Symbol Pronunciation dialog to remove a symbol.
 msgid "Re&move"
@@ -9447,7 +9441,7 @@ msgstr "Symbolet \"%s\" finnes allerede."
 
 #. Translators: The title of the Input Gestures dialog where the user can remap input gestures for commands.
 msgid "Input Gestures"
-msgstr ""
+msgstr "Gester for inndata"
 
 #. Translators: The label of a text field to search for gestures in the Input Gestures dialog.
 msgctxt "inputGestures"
@@ -9463,21 +9457,21 @@ msgstr "{main} ({source})"
 
 #. Translators: The prompt to enter a gesture in the Input Gestures dialog.
 msgid "Enter input gesture:"
-msgstr ""
+msgstr "Oppgi gest for inndata:"
 
 #. Translators: An error displayed when saving user defined input gestures fails.
 #, fuzzy
 msgid "Error saving user defined gestures - probably read only file system."
-msgstr "Kan ikke lagre konfigurasjon - mulig filsystem med kun lesetilgang"
+msgstr "Kan ikke lagre brukerdefinerte gester - sannsynlig skrivebeskyttet filsystem"
 
 #. Translators: Describes a command.
 msgid "Exit math interaction"
-msgstr "Avslutt matematikkinteraksjon"
+msgstr "Avslutt matematikksamhandling"
 
 #. Translators: Reported when the user attempts math interaction
 #. but math interaction is not supported.
 msgid "Math interaction not supported."
-msgstr "Matematikkinteraksjon støttes ikke."
+msgstr "Matematikksamhandling støttes ikke."
 
 #. Translators: name of the default espeak varient.
 msgctxt "espeakVarient"
@@ -9516,7 +9510,7 @@ msgstr "Oppfrisket"
 
 #. Translators: Reported while loading a document.
 msgid "Loading document..."
-msgstr "Laster dokument..."
+msgstr "Laster dokument ..."
 
 #. Translators: the description for the refreshBuffer script on virtualBuffers.
 msgid "Refreshes the document content"
@@ -9535,8 +9529,8 @@ msgid ""
 "Toggles on and off if the screen layout is preserved while rendering the "
 "document content"
 msgstr ""
-"Slår på og av hvis skjermoppsettet er bevart, mens rendering av dokumentets "
-"innhold"
+"Slår på og av hvis skjermoppsettet er bevart, mens dokumentets "
+"innhold blir rendered"
 
 msgid "Taskbar"
 msgstr "Oppgavelinje"
@@ -9564,7 +9558,7 @@ msgstr ""
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
 msgid "Set row {rowNumber} column {columnNumber} as start of column headers"
-msgstr ""
+msgstr "Sett rad {rowNumber} kolonne {columnNumber} som start på kolonneoverskrifter"
 
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
@@ -9575,8 +9569,7 @@ msgstr ""
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
 msgid "Removed row {rowNumber} column {columnNumber}  from column headers"
-msgstr ""
-"Fjernet rad {rowNumber}  kolonne {columnNumber} fra kolonneoverskrifter"
+msgstr "Fjernet rad {rowNumber} kolonne {columnNumber}  fra kolonneoverskrifter"
 
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
@@ -9593,7 +9586,7 @@ msgstr ""
 #. Translators: a message reported in the SetRowHeader script for Microsoft Word.
 #, python-brace-format
 msgid "Set row {rowNumber} column {columnNumber} as start of row headers"
-msgstr ""
+msgstr "Sett rad {rowNumber} kolonne {columnNumber} som start på radoverskrifter"
 
 #. Translators: a message reported in the SetRowHeader script for Microsoft Word.
 #, python-brace-format
@@ -10341,7 +10334,7 @@ msgstr ""
 
 #. Translators: Indicates the plot area of a Microsoft Office chart.
 msgid "Plot area "
-msgstr ""
+msgstr "Plotområde "
 
 #. Translators: a message for the legend entry of a chart in MS Office
 #, python-brace-format
@@ -10625,7 +10618,7 @@ msgstr ""
 #. Translators: border positions in Microsoft Excel.
 #, fuzzy
 msgid "horizontal borders except outside"
-msgstr "vannrett stripe"
+msgstr ""
 
 #. Translators: border positions in Microsoft Excel.
 msgid "vertical borders except outside"
@@ -10661,7 +10654,7 @@ msgstr ""
 
 #. Translators: border styles in Microsoft Excel.
 msgid "hair"
-msgstr ""
+msgstr "hår"
 
 #. Translators: border styles in Microsoft Excel.
 msgid "thin"
@@ -10838,7 +10831,7 @@ msgstr "kommentar: {text} av {author} den {date}"
 #. {text}, {author} and {date} will be replaced by the corresponding details about the revision.
 #, python-brace-format
 msgid "{revisionType} {description}: {text} by {author} on {date}"
-msgstr ""
+msgstr "{revisionType} {description}: {text} av {author} den {date}"
 
 #. Translators: single line spacing
 msgctxt "line spacing value"
@@ -10959,7 +10952,7 @@ msgstr ""
 #. Translators: a measurement in Microsoft Word
 #, python-brace-format
 msgid "{offset:.3g} characters"
-msgstr "{offset:.3g} characters"
+msgstr "{offset:.3g} tegn"
 
 #. Translators: a measurement in Microsoft Word
 #, python-brace-format
@@ -10979,7 +10972,7 @@ msgstr "{offset:.3g} millimeter"
 #. Translators: a measurement in Microsoft Word
 #, python-brace-format
 msgid "{offset:.3g} points"
-msgstr ""
+msgstr "{offset:.3g} punkter"
 
 #. Translators: a measurement in Microsoft Word
 #. See http://support.microsoft.com/kb/76388 for details.
