@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-16 03:01+1000\n"
-"PO-Revision-Date: 2018-09-14 10:00+0800\n"
+"PO-Revision-Date: 2018-09-16 16:49+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -83,22 +83,16 @@ msgid "Notes"
 msgstr "注意"
 
 #. type: Bullet: '*	 '
-#, fuzzy
-#| msgid "You can close these dialogs just by pressing Escape."
 msgid "You can close these dialogs just by pressing Escape;"
-msgstr "您只需按Escape即可关闭这些对话框。"
+msgstr "你可以通过按“Escape”来关闭这些对话框；"
 
 #. type: Bullet: '*	 '
-#, fuzzy
-#| msgid ""
-#| "You can assign a shortcut to open these dialogs in \"Input gestures\" "
-#| "menu and, more precisely, in the \"Day of the week\" category.;"
 msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
 "and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
-"您可以在“输入手势”菜单中指定快捷键以打开这些对话框，更准确地说，在“星期几”类"
-"别中;"
+"您可以在“输入手势”菜单中分配一个快捷手势来打开这些对话框，更确切地说，在“星期"
+"几”类别中指定一个快捷手势。"
 
 #. type: Bullet: '*	 '
 msgid ""
