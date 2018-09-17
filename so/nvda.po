@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-07 00:10+1000\n"
-"PO-Revision-Date: 2018-09-17 10:57+0100\n"
+"PO-Revision-Date: 2018-09-17 20:15+0100\n"
 "Language: so\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
-msgstr "Mashiinka Ammaanka"
+msgstr "Machiinka Ammaanka"
 
 #. Translators: A mode  that allows typing in the actual 'native' characters for an east-Asian input method language currently selected, rather than alpha numeric (Roman/English) characters.
 msgid "Native input"
@@ -454,7 +454,7 @@ msgstr "macjir"
 #. Translators: Displayed in braille for the main landmark, normally found on web pages.
 msgctxt "braille landmark abbreviation"
 msgid "main"
-msgstr ""
+msgstr "uguweyn"
 
 #. Translators: Displayed in braille for the navigation landmark, normally found on web pages.
 msgctxt "braille landmark abbreviation"
@@ -2778,7 +2778,8 @@ msgid "not %s"
 msgstr ""
 
 #. Translators: A message informing the user that there are errors in the configuration file.
-msgid "Your configuration file contains errors. Your configuration has been reset to factory defaults.\n"
+msgid ""
+"Your configuration file contains errors. Your configuration has been reset to factory defaults.\n"
 "More details about the errors can be found in the log file."
 msgstr ""
 
@@ -2786,7 +2787,8 @@ msgstr ""
 msgid "Configuration File Error"
 msgstr ""
 
-msgid "Your gesture map file contains errors.\n"
+msgid ""
+"Your gesture map file contains errors.\n"
 "More details about the errors can be found in the log file."
 msgstr ""
 
@@ -6295,7 +6297,8 @@ msgstr ""
 msgid "Error downloading update."
 msgstr ""
 
-msgid "We need your help in order to continue to improve NVDA.\n"
+msgid ""
+"We need your help in order to continue to improve NVDA.\n"
 "This project relies primarily on donations and grants. By donating, you are helping to fund full time development.\n"
 "If even $10 is donated for every download, we will be able to cover all of the ongoing costs of the project.\n"
 "All donations are received by NV Access, the non-profit organisation which develops NVDA.\n"
@@ -6332,7 +6335,8 @@ msgid "Copyright (C) {years} NVDA Contributors"
 msgstr ""
 
 #, python-brace-format
-msgid "{longName} ({name})\n"
+msgid ""
+"{longName} ({name})\n"
 "Version: {version}\n"
 "URL: {url}\n"
 "{copyright}\n"
@@ -6347,7 +6351,8 @@ msgstr ""
 
 #. Translators: the message that is shown when the user tries to install an add-on from windows explorer and NVDA is not running.
 #, python-brace-format
-msgid "Cannot install NVDA add-on from {path}.\n"
+msgid ""
+"Cannot install NVDA add-on from {path}.\n"
 "You must be running NVDA to be able to install add-ons."
 msgstr ""
 
@@ -7321,7 +7326,8 @@ msgstr ""
 msgid "Exit NVDA"
 msgstr ""
 
-msgid "Most commands for controlling NVDA require you to hold down the NVDA key while pressing other keys.\n"
+msgid ""
+"Most commands for controlling NVDA require you to hold down the NVDA key while pressing other keys.\n"
 "By default, the numpad Insert and main Insert keys may both be used as the NVDA key.\n"
 "You can also configure NVDA to use the CapsLock as the NVDA key.\n"
 "Press NVDA+n at any time to activate the NVDA menu.\n"
@@ -7416,7 +7422,8 @@ msgid "NVDA  Usage Data Collection"
 msgstr ""
 
 #. Translators: A message asking the user if they want to allow usage stats gathering
-msgid "In order to improve NVDA in the future, NV Access wishes to collect usage data from running copies of NVDA.\n"
+msgid ""
+"In order to improve NVDA in the future, NV Access wishes to collect usage data from running copies of NVDA.\n"
 "\n"
 "Data includes Operating System version, NVDA version, language, country of origin, plus certain NVDA configuration such as current synthesizer, braille display and braille table. No spoken or braille content will be ever sent to NV Access.  Please refer to the User Guide for a current list of all data collected.\n"
 "\n"
@@ -7503,7 +7510,8 @@ msgstr ""
 
 #. Translators: A message asking the user if they really wish to install an addon.
 #, python-brace-format
-msgid "Are you sure you want to install this add-on? Only install add-ons from trusted sources.\n"
+msgid ""
+"Are you sure you want to install this add-on? Only install add-ons from trusted sources.\n"
 "Addon: {summary} {version}\n"
 "Author: {author}"
 msgstr ""
@@ -7582,7 +7590,8 @@ msgstr ""
 
 #. Translators: message shown in the Addon Information dialog.
 #, python-brace-format
-msgid "{summary} ({name})\n"
+msgid ""
+"{summary} ({name})\n"
 "Version: {version}\n"
 "Author: {author}\n"
 "Description: {description}\n"
@@ -7740,7 +7749,8 @@ msgstr ""
 
 #. Translators: The confirmation prompt presented when creating a new configuration profile
 #. and the selected trigger is already associated.
-msgid "This trigger is already associated with another profile. If you continue, it will be removed from that profile and associated with this one.\n"
+msgid ""
+"This trigger is already associated with another profile. If you continue, it will be removed from that profile and associated with this one.\n"
 "Are you sure you want to continue?"
 msgstr ""
 
@@ -7750,7 +7760,8 @@ msgstr ""
 
 #. Translators: The prompt asking the user whether they wish to
 #. manually activate a configuration profile that has just been created.
-msgid "To edit this profile, you will need to manually activate it. Once you have finished editing, you will need to manually deactivate it to resume normal usage.\n"
+msgid ""
+"To edit this profile, you will need to manually activate it. Once you have finished editing, you will need to manually deactivate it to resume normal usage.\n"
 "Do you wish to manually activate it now?"
 msgstr ""
 
@@ -10339,4 +10350,3 @@ msgstr ""
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr ""
-
