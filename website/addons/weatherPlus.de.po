@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:08+1000\n"
-"PO-Revision-Date: 2018-05-13 18:46+0200\n"
-"Last-Translator: Karl Eick <hozosch@web.de>\n"
+"PO-Revision-Date: 2018-09-18 00:34+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -34,14 +34,14 @@ msgid ""
 "This plugin adds local temperature and forecasts to 24 hours up to 9 "
 "additional days for NVDA"
 msgstr ""
-"Dieses Plugin fügt lokale Temperaturen und Vorhersagen bis zu 24 Stunden und "
-"bis zu 9 zusätzlichen Tagen für NVDA hinzu."
+"Diese Erweiterung fügt lokale Temperaturen und Vorhersagen bis zu 24 Stunden "
+"und bis zu neun zusätzlichen Tagen für NVDA hinzu."
 
 #. type: Plain text
 msgid ""
 "Weather Plus works through the use and presence of the following services::"
 msgstr ""
-"Weather Plus funktioniert durch die Nutzung und Verfügbarkeit der folgenden "
+"Wetter Plus funktioniert durch die Nutzung und Verfügbarkeit der folgenden "
 "Dienste::"
 
 #. type: Bullet: '* '
@@ -76,40 +76,40 @@ msgstr "Aufruf"
 #. type: Bullet: '* '
 msgid "Press NVDA + w to the current temperature and weather conditions."
 msgstr ""
-"Drücken Sie NVDA + w, um die aktuellen Temperatur- und Wetterbedingungen "
+"Drücken Sie NVDA+W, um die aktuellen Temperatur- und Wetterbedingungen "
 "anzuzeigen."
 
 #. type: Bullet: '* '
 msgid "Press NVDA + shift + W for 24 hours forecast and forecast up to 9 days."
 msgstr ""
-"Drücken Sie NVDA + Shift + W für 24-Stunden-Prognose und für Vorhersage bis "
+"Drücken Sie NVDA+Umschalt+W für 24-Stunden-Prognose und für Vorhersage bis "
 "zu 9 Tagen."
 
 #. type: Bullet: '* '
 msgid "Press NVDA + shift + ctrl + w to set a temporary city."
 msgstr ""
-"Drücken Sie NVDA + Shift + Strg + w, um eine temporäre Stadt einzustellen."
+"Drücken Sie NVDA+Strg+Umschalt+W, um eine temporäre Stadt einzustellen."
 
 #. type: Bullet: '* '
 msgid "Press NVDA + alt + w to know the last update of the weather report."
 msgstr ""
-"Drücken Sie NVDA + alt + w, um die letzte Aktualisierung des Wetterberichts "
-"zu erfahren."
+"Drücken Sie NVDA+Alt+W, um die letzte Aktualisierung des Wetterberichts zu "
+"erfahren."
 
 #. type: Bullet: '* '
 msgid ""
 "Press control + shift + w to toggle between Fahrenheit, Celsius or Kelvin."
 msgstr ""
-"Drücken Sie Steuerung + Umschalt + w, um zwischen Fahrenheit, Celsius oder "
-"Kelvin umzuschalten."
+"Drücken Sie Strg+Umschalt+W, um zwischen Fahrenheit, Celsius oder Kelvin "
+"umzuschalten."
 
 #. type: Bullet: '* '
 msgid ""
 "Press NVDA + shift + control + alt + w to open the Weather Plus settings "
 "dialog."
 msgstr ""
-"Drücken Sie NVDA + Umschalt + Steuerung + Alt + W, um den Einstellungsdialog "
-"von Weather Plus zu öffnen."
+"Drücken Sie NVDA+Strg+Umschalt+Alt+W, um den Einstellungsdialog von Wetter "
+"Plus zu öffnen."
 
 #. type: Title ##
 #, no-wrap
