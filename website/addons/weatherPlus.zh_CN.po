@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:08+1000\n"
-"PO-Revision-Date: 2018-06-24 10:38+0800\n"
+"PO-Revision-Date: 2018-09-17 15:42+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -34,7 +34,8 @@ msgid ""
 "This plugin adds local temperature and forecasts to 24 hours up to 9 "
 "additional days for NVDA"
 msgstr ""
-"这个插件增加了当地的温度和预测，测试范围在24小时内，预测最常可以多达9天"
+"这个插件给NVDA增加了当地的温度和天气预报功能，有24小时内天气预报，预报时间多"
+"达9天"
 
 #. type: Plain text
 msgid ""
@@ -76,7 +77,7 @@ msgstr "按NVDA + w报告当前温度和天气状况。"
 
 #. type: Bullet: '* '
 msgid "Press NVDA + shift + W for 24 hours forecast and forecast up to 9 days."
-msgstr "按NVDA + shift + W进行24小时预测并使用最常预测上线时间。"
+msgstr "按NVDA + shift + W 24小时以及8天以内的天气预报"
 
 #. type: Bullet: '* '
 msgid "Press NVDA + shift + ctrl + w to set a temporary city."
@@ -84,7 +85,7 @@ msgstr "NVDA + shift + ctrl + w设置临时城市。"
 
 #. type: Bullet: '* '
 msgid "Press NVDA + alt + w to know the last update of the weather report."
-msgstr "NVDA + alt + w了解天气预报的最新更新。"
+msgstr "NVDA + alt + w 播报天气预报的更新时间。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -104,7 +105,7 @@ msgstr "设置Weather Plus"
 
 #. type: Plain text
 msgid "Read the file: Weather Plus First Settings.html."
-msgstr "Read the file: Weather Plus First Settings.html."
+msgstr "阅读文件: Weather Plus First Settings.html。"
 
 #. type: Plain text
 #, no-wrap
