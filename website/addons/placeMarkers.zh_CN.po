@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-09-11 08:14+0800\n"
+"PO-Revision-Date: 2018-09-19 05:54+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -164,20 +164,19 @@ msgstr ""
 "注意：书签位置基于字符数量;因此，在动态页面中，最好使用特定搜索，而不是书签。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 11.0"
-msgstr "版本1.0"
+msgstr "版本11.0"
 
 #. type: Bullet: '*	'
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "兼容NVDA 2018.3或更高版本（必需）。"
 
 #. type: Bullet: '*	'
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
-msgstr ""
+msgstr "如果需要，您可以下载[与NVDA 2017.3兼容的最新版本] [3]。"
 
 #. type: Title ##
 #, no-wrap
@@ -401,6 +400,9 @@ msgid ""
 "github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
 "addon"
 msgstr ""
+"[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
+"github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
+"addon"
 
 #~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
 #~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"

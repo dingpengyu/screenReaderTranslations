@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-09-10 08:56+0800\n"
+"PO-Revision-Date: 2018-09-19 05:55+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -204,6 +204,8 @@ msgid ""
 "recommended). This is intended to disable settings changes in case of speed "
 "issues when switching profiles."
 msgstr ""
+"此外，可以仅在正常配置中启用“设置”（不推荐）。这是为了在切换配置文件时禁用速"
+"度问题时的设置更改。"
 
 #. type: Title ##
 #, no-wrap
@@ -229,14 +231,13 @@ msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr "NVDA + I：显示对话框，用于选择要复制的表情。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 7.0"
+#, no-wrap
 msgid "Changes for 8.0"
-msgstr "版本7.0"
+msgstr "版本8.0"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "兼容NVDA 2018.3或更高版本（必需）。"
 
 #. type: Title ##
 #, no-wrap

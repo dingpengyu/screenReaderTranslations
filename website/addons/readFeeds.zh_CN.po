@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-09-11 08:15+0800\n"
+"PO-Revision-Date: 2018-09-19 05:58+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -94,11 +94,6 @@ msgid "A list of the saved feeds."
 msgstr "已保存的feed列表。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "List of articles: Opens a dialog which presents the articles list from "
-#| "your current feed. Select the article you want to read and press OK "
-#| "button to open the corresponding page in your browser."
 msgid ""
 "List of articles: Opens a dialog which presents the articles list from your "
 "current feed. Select the article you want to read and press Enter or Open "
@@ -108,7 +103,9 @@ msgid ""
 "to the clipboard."
 msgstr ""
 "文章列表：打开一个对话框，显示当前Feed中的文章列表。选择要阅读的文章，然后按"
-"OK按钮在浏览器中打开相应的页面。"
+"Enter或打开所选文章的网页按钮，在浏览器中打开相应的页面。按关于文章按钮打开一"
+"个对话框，显示所选文章的标题和链接;在此对话框中，您将能够将此信息复制到剪贴"
+"板。"
 
 #. type: Bullet: '* '
 msgid "Open feed: Opens the selected feed in the default application."
@@ -251,24 +248,23 @@ msgid ""
 msgstr "“文章列表”对话框的标题显示所选的源名称和可用项目数。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 4.0"
+#, no-wrap
 msgid "Changes for 5.0"
-msgstr "版本4.0"
+msgstr "版本5.0"
 
 #. type: Bullet: '* '
 msgid "The articles list dialog has been enhanced."
-msgstr ""
+msgstr "文章列表对话框已得到增强。"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "兼容NVDA 2018.3或更高版本（必需）。"
 
 #. type: Bullet: '* '
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
-msgstr ""
+msgstr "如果需要，您可以下载[与NVDA 2017.3兼容的最新版本] [3]。"
 
 #. type: Title ##
 #, no-wrap
@@ -339,6 +335,8 @@ msgid ""
 "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
 "github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 msgstr ""
+"[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
+"github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 
 #~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
 #~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
