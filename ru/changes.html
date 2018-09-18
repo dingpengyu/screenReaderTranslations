@@ -10,6 +10,47 @@
 </CENTER>
 
 
+<H2>2018.4</H2>
+
+<H3>Новое</H3>
+
+<UL>
+<LI>Добавлены новые брайлевские таблицы: Китайский (КНР, Мандарин) первой и второй ступени. (<A HREF="http://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+</UL>
+
+<H3>Изменения</H3>
+
+<UL>
+<LI>Для более точного определения всплывающих уведомлений появившихся в Windows 8, флажок "Читать всплывающие системные сообщения" в категории "Представление объекта" диалога настроек NVDA был переименован в "Читать системные уведомления". (<A HREF="http://github.com/nvaccess/nvda/issues/5789">#5789</A>)
+<LI>В категории "Клавиатура" диалога настроек NVDA, флажки определяющие использование клавиш-модификаторов NVDA, теперь представлены в виде списка, а не как отдельные элементы.
+<LI>NVDA на некоторых версиях Windows больше не сообщает избыточную информацию при чтении часов в системном трее. (<A HREF="http://github.com/nvaccess/nvda/issues/4364">#4364</A>)
+<LI>Liblouis braille translator обновлён до версии 3.7.0. (<A HREF="http://github.com/nvaccess/nvda/issues/8697">#8697</A>)
+</UL>
+
+<H3>Исправления</H3>
+
+<UL>
+<LI>Для сообщений в Outlook 2016/365, теперь читается категория и состояние установленных флажков. (<A HREF="http://github.com/nvaccess/nvda/issues/8603">#8603</A>)
+<LI>NVDA при своём запуске больше не показывает сообщение о неподдерживаемости операционной системой выбранного языка, если языком NVDA являются киргизский, монгольский или македонский. (<A HREF="http://github.com/nvaccess/nvda/issues/8064">#8064</A>)
+<LI>В Mozilla Firefox, Google Chrome и Acrobat Reader DC, приведение указателя мыши к объекту навигатора теперь более точно перемещает мышь к позиции курсора режима обзора. (<A HREF="http://github.com/nvaccess/nvda/issues/6460">#6460</A>)
+<LI>На web-страницах в Mozilla Firefox, Google Chrome и Internet Explorer, улучшено взаимодействие с комбинированными списками. (<A HREF="http://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+</UL>
+
+<H3>Изменения для разработчиков</H3>
+
+<UL>
+<LI>Модуль configobj обновлён до версии 5.1.0dev (коммит 5b5de48a). (<A HREF="http://github.com/nvaccess/nvda/issues/4470">#4470</A>)
+<LI>В модуль gui.nvdaControls добавлены два класса для создания доступных списков с элементами-флажками. (<A HREF="http://github.com/nvaccess/nvda/issues/7325">#7325</A>)
+ <UL>
+ <LI>CustomCheckListBox является доступным подклассом wx.CheckListBox.
+ <LI>AutoWidthColumnCheckListCtrl добавляет доступные флажки к AutoWidthColumnListCtrl, который сам наследуется от wx.ListCtrl.
+ </UL>
+<LI>Если вам необходимо реализовать доступность для недоступного wx-виджета, то это можно сделать с помощью экземпляра gui.accPropServer.IAccPropServer_impl. (<A HREF="http://github.com/nvaccess/nvda/issues/7491">#7491</A>)
+ <UL>
+ <LI>Для получения дополнительной информации, обратитесь к реализации gui.nvdaControls.ListCtrlAccPropServer.
+ </UL>
+</UL>
+
 <H2>2018.3</H2>
 
 <P>
@@ -78,6 +119,7 @@
  <LI>Набираемые в документе Word маркеры-цифры теперь сообщаются корректно как через речевой, так и через брайлевский вывод. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
  </UL>
 <LI>На Windows 10 1803 и более поздних версиях Windows, теперь возможно устанавливать дополнения даже если включена функция "Use Unicode UTF-8 for worldwide language support". (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+<LI>NVDA теперь корректно работает с iTunes версии 12.9. (<A HREF="http://github.com/nvaccess/nvda/issues/8744">#8744</A>)
 </UL>
 
 <H3>Изменения для разработчиков</H3>
