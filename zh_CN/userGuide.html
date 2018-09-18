@@ -39,22 +39,24 @@
   <LI><A HREF="#GettingStartedWithNVDA">4. 开始使用 NVDA</A>
     <UL>
     <LI><A HREF="#LaunchingNVDA">4.1. 运行 NVDA</A>
-    <LI><A HREF="#WelcomeDialog">4.2. 欢迎对话框</A>
-    <LI><A HREF="#toc19">4.3. 关于 NVDA 的键盘命令</A>
       <UL>
-      <LI><A HREF="#toc20">4.3.1. NVDA 键</A>
-      <LI><A HREF="#toc21">4.3.2. 键位布局</A>
+      <LI><A HREF="#WelcomeDialog">4.1.1. 欢迎对话框</A>
       </UL>
-    <LI><A HREF="#toc22">4.4. NVDA 触摸手势</A>
+    <LI><A HREF="#AboutNVDAKeyboardCommands">4.2. 关于 NVDA 的键盘命令</A>
       <UL>
-      <LI><A HREF="#toc23">4.4.1. 浏览屏幕</A>
-      <LI><A HREF="#toc24">4.4.2. 触摸手势</A>
-      <LI><A HREF="#toc25">4.4.3. 触摸模式</A>
+      <LI><A HREF="#TheNVDAModifierKey">4.2.1. NVDA 键</A>
+      <LI><A HREF="#KeyboardLayouts">4.2.2. 键盘布局</A>
       </UL>
-    <LI><A HREF="#InputHelpMode">4.5. 输入帮助模式</A>
-    <LI><A HREF="#TheNVDAMenu">4.6. NVDA 菜单</A>
-    <LI><A HREF="#BasicNVDACommands">4.7. 基本的 NVDA 命令</A>
-    <LI><A HREF="#ReportingSystemInformation">4.8. 朗读系统信息</A>
+    <LI><A HREF="#NVDATouchGestures">4.3. NVDA 触摸手势</A>
+      <UL>
+      <LI><A HREF="#ExploringTheScreen">4.3.1. 浏览屏幕</A>
+      <LI><A HREF="#TouchGestures">4.3.2. 触摸手势</A>
+      <LI><A HREF="#TouchGestures">4.3.3. 触摸模式</A>
+      </UL>
+    <LI><A HREF="#InputHelpMode">4.4. 输入帮助模式</A>
+    <LI><A HREF="#TheNVDAMenu">4.5. NVDA 菜单</A>
+    <LI><A HREF="#BasicNVDACommands">4.6. 基本的 NVDA 命令</A>
+    <LI><A HREF="#ReportingSystemInformation">4.7. 朗读系统信息</A>
     </UL>
   <LI><A HREF="#NavigatingWithNVDA">5. 使用 NVDA 进行导航</A>
     <UL>
@@ -414,22 +416,23 @@ NVDA安装版的配置在“漫游”应用程序配置文件夹 (比如 "C:\Use
 </P>
 
 <A NAME="WelcomeDialog"></A>
-<H3>4.2. 欢迎对话框</H3>
+<H4>4.1.1. 欢迎对话框</H4>
 
 <P>
 当您首次启动 NVDA 时会跳出一个“欢迎”对话框，其内包含了如何设置 NVDA 键及其菜单的基本信息。
 请参见以下章节以进一步了解此主题。
-此对话框包含三个复选框。
+此对话框包含一个组合框和三个复选框。
+组合框用于选择键盘布局
 第一个允许您选择是否使用(大小写锁定键)作为 NVDA 键。
 第二个选择是否允许在 Windows 启动时启动 NVDA。
 第三个允许您选择是否希望在每次启动 NVDA 时显示此对话框。
 </P>
 
-<A NAME="toc19"></A>
-<H3>4.3. 关于 NVDA 的键盘命令</H3>
+<A NAME="AboutNVDAKeyboardCommands"></A>
+<H3>4.2. 关于 NVDA 的键盘命令</H3>
 
-<A NAME="toc20"></A>
-<H4>4.3.1. NVDA 键</H4>
+<A NAME="TheNVDAModifierKey"></A>
+<H4>4.2.1. NVDA 键</H4>
 
 <P>
 大多数 NVDA 键盘命令都是由一个被称之为 NVDA 组合键的特殊按键和另外的一个或者多个其他的按键组成。
@@ -443,21 +446,21 @@ NVDA安装版的配置在“漫游”应用程序配置文件夹 (比如 "C:\Use
 假如你想在未运行 NVDA 时执行该按键的其中一个原有动作(举例来说，如果你已设置大小写锁定键作为 NVDA 键，但又要用它来转换大写锁定状态)，你可以快速连按此键两次。 
 </P>
 
-<A NAME="toc21"></A>
-<H4>4.3.2. 键位布局</H4>
+<A NAME="KeyboardLayouts"></A>
+<H4>4.2.2. 键盘布局</H4>
 
 <P>
-NVDA 目前共有两套被称为按键布局的键盘命令：一套台式机按键布局，另一套是笔记本按键布局。
+NVDA 目前共有两套被称为键盘布局的快捷键配置：一套台式机按键布局，另一套是笔记本按键布局。
 默认情况下， NVDA 使用的是台式机键盘布局，如果您希望切换到笔记本键盘布局，只需要在 NVDA 的“选项”菜单下打开“键盘设置”。
 </P>
 <P>
-台式机键盘侧重使用关闭的数字键盘。
+台式机键盘的快捷键大量使用关闭的数字小键盘。
 虽然大多数笔记本电脑都没有实体的数字键盘，但有些电脑可以通过按下 FN 键加上键盘右边的字母和数字来模拟他们(例如789UIOJKL等等)。
 如果您的笔记本不能这样做或者不允许关闭数字键盘，您或许会希望切换到笔记本键盘布局来代替。
 </P>
 
-<A NAME="toc22"></A>
-<H3>4.4. NVDA 触摸手势</H3>
+<A NAME="NVDATouchGestures"></A>
+<H3>4.3. NVDA 触摸手势</H3>
 
 <P>
 如果您正在使用的设备带有触摸屏并且运行在 Windows8 或者更高版本的操作系统，您也可以通过触摸屏来控制 NVDA。
@@ -465,8 +468,8 @@ NVDA 目前共有两套被称为按键布局的键盘命令：一套台式机按
 因而，所有在没有 NVDA 时通常能执行的动作都将失效。
 </P>
 
-<A NAME="toc23"></A>
-<H4>4.4.1. 浏览屏幕</H4>
+<A NAME="ExploringTheScreen"></A>
+<H4>4.3.1. 浏览屏幕</H4>
 
 <P>
 您能使用触摸屏执行的最普通的动作就是，朗读在屏幕任意一个点上的文本和控件。
@@ -474,8 +477,8 @@ NVDA 目前共有两套被称为按键布局的键盘命令：一套台式机按
 您也可以把手指保持在屏幕上移动以查看手指下所包含的控件或者文本。
 </P>
 
-<A NAME="toc24"></A>
-<H4>4.4.2. 触摸手势</H4>
+<A NAME="TouchGestures"></A>
+<H4>4.3.2. 触摸手势</H4>
 
 <P>
 当 NVDA 命令在后面的用户指南被讲述的同时，将为每个动作列出其在触摸屏上的触摸手势。
@@ -511,8 +514,8 @@ NVDA 目前共有两套被称为按键布局的键盘命令：一套台式机按
 因而，如双指尚华和四指左滑这样的动作都是可行的。
 </P>
 
-<A NAME="toc25"></A>
-<H4>4.4.3. 触摸模式</H4>
+<A NAME="TouchGestures"></A>
+<H4>4.3.3. 触摸模式</H4>
 
 <P>
 因为 NVDA 拥有的命令比可能的触摸手势还要多，NVDA 拥有可切换的专用模式，每个模式各自拥有自己的一小套命令。
@@ -537,7 +540,7 @@ NVDA 目前共有两套被称为按键布局的键盘命令：一套台式机按
 </P>
 
 <A NAME="InputHelpMode"></A>
-<H3>4.5. 输入帮助模式</H3>
+<H3>4.4. 输入帮助模式</H3>
 
 <P>
 剩余的文档中会陆续提及许多 NVDA 命令，但更方便的快速了解所有不同命令的方法，就是打开“输入帮助”模式。
@@ -550,7 +553,7 @@ NVDA 目前共有两套被称为按键布局的键盘命令：一套台式机按
 </P>
 
 <A NAME="TheNVDAMenu"></A>
-<H3>4.6. NVDA 菜单</H3>
+<H3>4.5. NVDA 菜单</H3>
 
 <P>
 NVDA 菜单允许您控制 NVDA 设置、访问帮助、保存或者恢复您的配置、定义语音字典、访问额外的工具和退出 NVDA。 
@@ -563,7 +566,7 @@ NVDA 菜单允许您控制 NVDA 设置、访问帮助、保存或者恢复您的
 </P>
 
 <A NAME="BasicNVDACommands"></A>
-<H3>4.7. 基本的 NVDA 命令</H3>
+<H3>4.6. 基本的 NVDA 命令</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -632,7 +635,7 @@ NVDA 菜单允许您控制 NVDA 设置、访问帮助、保存或者恢复您的
 </TABLE>
 
 <A NAME="ReportingSystemInformation"></A>
-<H3>4.8. 朗读系统信息</H3>
+<H3>4.7. 朗读系统信息</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
