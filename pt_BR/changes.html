@@ -11,6 +11,52 @@
 </CENTER>
 
 
+<H2>2018.4</H2>
+
+<H3>Novas Características</H3>
+
+<UL>
+<LI>Novas tabelas braille: Chinês (China, Mandarim), grau 1 e grau 2. (<A HREF="http://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+</UL>
+
+<H3>Alterações</H3>
+
+<UL>
+<LI>"Anunciar balões de ajuda" na caixa de diálogo "Apresentações de objetos" foi renomeado para "Anunciar notificações" para incluir anúncios de notificações do sistema no Windows 8 e versões posteriores. (<A HREF="http://github.com/nvaccess/nvda/issues/5789">#5789</A>)
+<LI>Nas configurações do teclado do NVDA, as caixas de seleção para ativar ou desativar as teclas modificadoras do NVDA agora são exibidas em uma lista, e não como caixas de seleção separadas.
+<LI>O NVDA não apresentará mais informações redundantes ao ler o relógio da bandeja do sistema [system tray] em algumas versões do Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/4364">#4364</A>)
+<LI>Atualizado o transcritor braille liblouis para a versão 3.7.0. (<A HREF="http://github.com/nvaccess/nvda/issues/8697">#8697</A>)
+</UL>
+
+<H3>Correção de Falhas</H3>
+
+<UL>
+<LI>No Outlook 2016/365, a categoria e o status do sinalizador são informados para mensagens. (<A HREF="http://github.com/nvaccess/nvda/issues/8603">#8603</A>)
+<LI>Quando o NVDA está configurado para idiomas como o Quirguiz, o Mongol ou o Macedônio, ele não exibe mais uma caixa de diálogo no aviso de inicialização de que o idioma não é suportado pelo sistema operacional. (<A HREF="http://github.com/nvaccess/nvda/issues/8064">#8064</A>)
+<LI>Mover o mouse para o objeto de navegação agora moverá com muito mais precisão o mouse para a posição do modo de navegação no Mozilla Firefox, Google Chrome e Acrobat Reader DC. (<A HREF="http://github.com/nvaccess/nvda/issues/6460">#6460</A>)
+<LI>Interação com caixas de combinação na Web no Firefox, no Chrome e no Internet Explorer foi aprimorada. (<A HREF="http://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+</UL>
+
+<H3>Alterações Específicas para Desenvolvedores</H3>
+
+<UL>
+<LI>O gui.nvdaControls agora contém duas classes para criar listas acessíveis com caixas de seleção. (<A HREF="http://github.com/nvaccess/nvda/issues/7325">#7325</A>)
+ <UL>
+ <LI>CustomCheckListBox é uma subclasse acessível de wx.CheckListBox.
+ <LI>AutoWidthColumnCheckListCtrl adiciona caixas de seleção acessíveis a um AutoWidthColumnListCtrl, que em si é baseado em wx.ListCtrl.
+ </UL>
+<LI>Se você precisar tornar um widget wx acessível que ainda não esteja, é possível fazer isso usando uma instância de gui.accPropServer.IAccPropServer_impl. (<A HREF="http://github.com/nvaccess/nvda/issues/7491">#7491</A>)
+ <UL>
+ <LI>Veja a implementação do gui.nvdaControls.ListCtrlAccPropServer para mais informações.
+ </UL>
+</UL>
+
+<H3>Alterações Específicas para Desenvolvedores</H3>
+
+<UL>
+<LI>Configobj atualizado para 5.1.0dev commit 5b5de48a. (<A HREF="http://github.com/nvaccess/nvda/issues/4470">#4470</A>)
+</UL>
+
 <H2>2018.3</H2>
 
 <P>
@@ -79,6 +125,7 @@ Os destaques desta versão incluem a detecção automática de muitas Linhas Bra
  <LI>Os marcadores/números inseridos recentemente em um documento do Word são informados corretamente em fala e braille. (<A HREF="http://github.com/nvaccess/nvda/issues/7970">#7970</A>)
  </UL>
 <LI>Em Windows 10 1803 e posteriores, agora é possível instalar complementos se o recurso "Usar Unicode UTF-8 para suporte de linguagem mundial" estiver ativado. (<A HREF="http://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+<LI>O NVDA não irá mais tornar o iTunes 12.9 e mais recente completamente inutilizável para interagir. (<A HREF="http://github.com/nvaccess/nvda/issues/8744">#8744</A>)
 </UL>
 
 <H3>Alterações Específicas para Desenvolvedores</H3>
