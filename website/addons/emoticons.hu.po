@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-06-13 19:35+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2015-08-14 09:33+0100\n"
 "Last-Translator: OAron <oaron@nvda.hu>\n"
 "Language-Team: HU <LL@li.org>\n"
@@ -208,6 +208,13 @@ msgid ""
 "existing profiles) will be removed from the add-on when it is unloaded."
 msgstr ""
 
+#. type: Plain text
+msgid ""
+"Also, it's possible to enable Settings only in normal configuration (not "
+"recommended). This is intended to disable settings changes in case of speed "
+"issues when switching profiles."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -235,6 +242,16 @@ msgstr "NVDA+E: Be és kikapcsolható a hangulatjel szöveges bemondása."
 msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr ""
 "NVDA+I: Megjeleníti a hangulatjel beszúrására szolgáló párbeszédablakot."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 8.0"
+msgstr "A 4.0 változásai"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

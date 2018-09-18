@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: website placeMarkers\n"
-"POT-Creation-Date: 2018-06-02 21:25+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2018-06-02 21:27+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: fr <remyruiz@gmail.com>\n"
@@ -193,6 +193,22 @@ msgstr ""
 "Note : la position du marqueur est basé sur le nombre de caractères. Dans "
 "les pages au contenu dynamique, il vaut mieux utiliser la recherche de texte "
 "spécifique, pas les marqueurs."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 11.0"
+msgstr "Changements pour la version 1.0"
+
+#. type: Bullet: '*	'
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
+
+#. type: Bullet: '*	'
+msgid ""
+"If needed, you can download the [last version compatible with NVDA 2017.3]"
+"[3]."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -445,8 +461,14 @@ msgid "[1]: http://addons.nvda-project.org/files/get.php?file=pm"
 msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=pm"
 
 #. type: Plain text
-msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
+msgid ""
+"[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
+"github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
+"addon"
+msgstr ""
+
+#~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
+#~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #~ msgid ""
 #~ "This addon is based on SpecificSearch and Bookmark&Search, developed by "

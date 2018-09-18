@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Website\n"
-"POT-Creation-Date: 2018-06-02 21:25+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2018-01-21 14:57+0100\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Danish <LL@li.org>\n"
@@ -187,6 +187,22 @@ msgstr ""
 "Bemærk: Positionen for et bogmærke er baseret på antallet af tegn. På "
 "dynamiske sider er det derfor bedre at bruge specifikke søgninger og ikke "
 "bogmærker, som gemmer en præcis position."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 11.0"
+msgstr "Ændringer i 1.0"
+
+#. type: Bullet: '*	'
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
+
+#. type: Bullet: '*	'
+msgid ""
+"If needed, you can download the [last version compatible with NVDA 2017.3]"
+"[3]."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -431,8 +447,14 @@ msgid "[1]: http://addons.nvda-project.org/files/get.php?file=pm"
 msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=pm"
 
 #. type: Plain text
-msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
+msgid ""
+"[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
+"github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
+"addon"
+msgstr ""
+
+#~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
+#~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #~ msgid ""
 #~ "This addon is based on SpecificSearch and Bookmark&Search, developed by "

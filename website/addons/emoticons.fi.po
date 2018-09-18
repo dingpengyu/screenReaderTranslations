@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
-"POT-Creation-Date: 2018-06-13 19:35+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2018-06-13 14:41+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
@@ -216,6 +216,13 @@ msgstr ""
 "mahdollista valita, poistetaanko käyttämättömät (ei-olemassa oleviin "
 "profiileihin liitetyt) puhesanastot lisäosasta, kun se poistetaan muistista."
 
+#. type: Plain text
+msgid ""
+"Also, it's possible to enable Settings only in normal configuration (not "
+"recommended). This is intended to disable settings changes in case of speed "
+"issues when switching profiles."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -242,6 +249,16 @@ msgstr ""
 msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr ""
 "NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän hymiön."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 7.0"
+msgid "Changes for 8.0"
+msgstr "Muutokset versiossa 7.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

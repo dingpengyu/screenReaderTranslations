@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 19:35+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2014-10-03 14:59+0545\n"
 "Last-Translator: Him Prasad Gautam <drishtibachak@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -209,6 +209,13 @@ msgid ""
 "existing profiles) will be removed from the add-on when it is unloaded."
 msgstr ""
 
+#. type: Plain text
+msgid ""
+"Also, it's possible to enable Settings only in normal configuration (not "
+"recommended). This is intended to disable settings changes in case of speed "
+"issues when switching profiles."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -237,6 +244,16 @@ msgstr ""
 #| msgid "NVDA+I: show a dialog to select a smiley you want to paste."
 msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr "नेत्रवाणी+I: तपाइले चाहेको मुस्कान टास्ने पातो देखाउँछ ।"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 8.0"
+msgstr "१.० मा गरिएका परिवर्तनहरू"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

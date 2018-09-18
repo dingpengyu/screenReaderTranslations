@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-13 19:35+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2015-02-21 16:50+0200\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: turkish <cagrid@hotmail.com>\n"
@@ -212,6 +212,13 @@ msgid ""
 "existing profiles) will be removed from the add-on when it is unloaded."
 msgstr ""
 
+#. type: Plain text
+msgid ""
+"Also, it's possible to enable Settings only in normal configuration (not "
+"recommended). This is intended to disable settings changes in case of speed "
+"issues when switching profiles."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -242,6 +249,16 @@ msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr ""
 "NVDA + I: yapıştırmak istediğiniz bir ifade seçmek için bir iletişim kutusu "
 "açar."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 8.0"
+msgstr "3.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

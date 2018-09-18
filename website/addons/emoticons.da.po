@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
-"POT-Creation-Date: 2018-06-13 19:35+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2018-06-28 19:55+0200\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Danish <LL@li.org>\n"
@@ -22,8 +22,12 @@ msgid "[[!meta title=\"Emoticons\"]]\n"
 msgstr "[[!meta title=\"Emoticons (Humørikoner)\"]]\n"
 
 #. type: Bullet: '* '
-msgid "Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez"
-msgstr "Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez"
+msgid ""
+"Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier "
+"Estrada Martínez"
+msgstr ""
+"Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier "
+"Estrada Martínez"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
@@ -34,12 +38,20 @@ msgid "Download [development version][2]"
 msgstr "Download [udviklingsversion][2]"
 
 #. type: Plain text
-msgid "Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description."
-msgstr "Med dette tilføjelsesprogram vil du få udtalt humørikoner i tekster på en mere brugervenlig måde."
+msgid ""
+"Using this add-on, spoken text containing emoticon characters will be "
+"replaced by its more human friendly description."
+msgstr ""
+"Med dette tilføjelsesprogram vil du få udtalt humørikoner i tekster på en "
+"mere brugervenlig måde."
 
 #. type: Plain text
-msgid "For example: the sequence \":)\" will be spoken as \"smiling smiley\", or for example NVDA will recognize the meaning of each emoji."
-msgstr "F.eks. vil \":)\" blive udtalt som \"smilende smiley\", og NVDA vil også være i stand til at genkende og udtale emojis."
+msgid ""
+"For example: the sequence \":)\" will be spoken as \"smiling smiley\", or "
+"for example NVDA will recognize the meaning of each emoji."
+msgstr ""
+"F.eks. vil \":)\" blive udtalt som \"smilende smiley\", og NVDA vil også "
+"være i stand til at genkende og udtale emojis."
 
 #. type: Plain text
 msgid "You can take advantage of the following features:"
@@ -51,12 +63,20 @@ msgid "Insert Emoticon"
 msgstr "Indsæt humørikon"
 
 #. type: Plain text
-msgid "Sometimes an image is worth a 1000 words: use the new emoji to liven up your instant message and to let your friends know how you’re feeling."
-msgstr "Nogle gange er et billede 1000 ord værd: Brug de nye emoji og lade dine venner vide, hvordan du føler, og til at sætte fut i dine chatbeskeder."
+msgid ""
+"Sometimes an image is worth a 1000 words: use the new emoji to liven up your "
+"instant message and to let your friends know how you’re feeling."
+msgstr ""
+"Nogle gange er et billede 1000 ord værd: Brug de nye emoji og lade dine "
+"venner vide, hvordan du føler, og til at sætte fut i dine chatbeskeder."
 
 #. type: Plain text
-msgid "When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat."
-msgstr "Når du er usikker på tegn for en særlig smiley, giver denne tilføjelse dig mulighed for at vælge og indsætte den i din tekst som i en chat."
+msgid ""
+"When you are unsure of the characters for a particular smiley, this addon "
+"enables you to select and insert it into your text such as in a chat."
+msgstr ""
+"Når du er usikker på tegn for en særlig smiley, giver denne tilføjelse dig "
+"mulighed for at vælge og indsætte den i din tekst som i en chat."
 
 #. type: Plain text
 #, no-wrap
@@ -64,29 +84,48 @@ msgid "Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog wit
 msgstr "Tryk på NVDA + I, eller fra menuen værktøjer-> Indsæt humørikon, kan du åbne en dialog med de medfølgende humørikoner eller emoji.\n"
 
 #. type: Plain text
-msgid "This dialog allows you to choose an emoticon and to view the emoticons that interest you:"
-msgstr "Denne dialog lader dig vælge et humørikon og vise de humørikoner, der interesserer dig:"
-
-#. type: Bullet: '*	'
-msgid "An editable field allows you to filter the search for the desired emoticon among the emoticons available."
-msgstr "Et redigeringsfelt lader dig filtrere søgning af de humørikoner, som du ønsker."
-
-#. type: Bullet: '*	'
 msgid ""
-"Through a set of radio buttons, you can choose to view only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A)."
-msgstr "Ved brug af et sæt af radioknapper kan du vælge at se kun emoji (alt+E) eller se kun standardhumørikoner (alt+S) eller se alle tilgængelige humørikoner (alt+A)."
-
-#. type: Bullet: '*	'
-msgid ""
-"In the list of emoticons (alt+L) are displayed on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the corresponding "
-"character."
+"This dialog allows you to choose an emoticon and to view the emoticons that "
+"interest you:"
 msgstr ""
-"I listen over humørikoner (Alt+L) kan du se tre kolonner: Disse viser henholdsvis navnet på humørikonet, typen af humørikon (standard eller emoji), og til sidst det "
-"pågældende tegn for humørikonet."
+"Denne dialog lader dig vælge et humørikon og vise de humørikoner, der "
+"interesserer dig:"
+
+#. type: Bullet: '*	'
+msgid ""
+"An editable field allows you to filter the search for the desired emoticon "
+"among the emoticons available."
+msgstr ""
+"Et redigeringsfelt lader dig filtrere søgning af de humørikoner, som du "
+"ønsker."
+
+#. type: Bullet: '*	'
+msgid ""
+"Through a set of radio buttons, you can choose to view only emoji category "
+"(alt+E) or view only standard emoticon category (alt+s) or view all "
+"emoticons available (alt+A)."
+msgstr ""
+"Ved brug af et sæt af radioknapper kan du vælge at se kun emoji (alt+E) "
+"eller se kun standardhumørikoner (alt+S) eller se alle tilgængelige "
+"humørikoner (alt+A)."
+
+#. type: Bullet: '*	'
+msgid ""
+"In the list of emoticons (alt+L) are displayed on three columns "
+"respectively: the name of emoticon, the type of emoticon (standard emoticon "
+"or emoji), the corresponding character."
+msgstr ""
+"I listen over humørikoner (Alt+L) kan du se tre kolonner: Disse viser "
+"henholdsvis navnet på humørikonet, typen af humørikon (standard eller "
+"emoji), og til sidst det pågældende tegn for humørikonet."
 
 #. type: Plain text
-msgid "When you press OK, the characters for the chosen emoticon will be copied to your clipboard, ready for pasting."
-msgstr "Når du trykker på OK, vil det valge humørikon blive indsat i udklipsholderen, klar til at indsætte."
+msgid ""
+"When you press OK, the characters for the chosen emoticon will be copied to "
+"your clipboard, ready for pasting."
+msgstr ""
+"Når du trykker på OK, vil det valge humørikon blive indsat i "
+"udklipsholderen, klar til at indsætte."
 
 #. type: Title ##
 #, no-wrap
@@ -94,12 +133,20 @@ msgid "Emoticons dictionary"
 msgstr "Humørikonordbog"
 
 #. type: Plain text
-msgid "Emoticons add-on allows to have differents speech-dictionaries using configuration profiles."
-msgstr "Tilføjelsespakken til humørikoner lader dig tildele forskellige udtaleordbøger ved brug af indstillingsprofiler."
+msgid ""
+"Emoticons add-on allows to have differents speech-dictionaries using "
+"configuration profiles."
+msgstr ""
+"Tilføjelsespakken til humørikoner lader dig tildele forskellige "
+"udtaleordbøger ved brug af indstillingsprofiler."
 
 #. type: Plain text
-msgid "This means that you can create or edit a specific speech-dictionary for each your custom profile."
-msgstr "Dette betyder, at du kan oprette eller redigere en bestemt udtaleordbog for en særlig indstillingsprofil."
+msgid ""
+"This means that you can create or edit a specific speech-dictionary for each "
+"your custom profile."
+msgstr ""
+"Dette betyder, at du kan oprette eller redigere en bestemt udtaleordbog for "
+"en særlig indstillingsprofil."
 
 #. type: Plain text
 #, no-wrap
@@ -107,31 +154,47 @@ msgid "From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionar
 msgstr "Fra NVDA-menuen>Præferencer>Udtaleordbøger>Emoticons kan du åbne en indstillingsdialog, hvor du kan tilføje eller rette eksisterende humørikoner.\n"
 
 #. type: Plain text
-msgid "Saving your customizations, the new reading settings of emoticons will only apply to the profile you are currently editing."
-msgstr "Ved at gemme dine tilpasninger, vil dine nye læseindstillinger kun blive anvendt på den indstillingsprofil, som du er i færd med at redigere."
-
-#. type: Plain text
 msgid ""
-"For example, you may wish that NVDA spoken custom emoticons only in XxChat program, but not in other chat programs: you can do this by creating a profile for the XxChat "
-"application and assign to it a speech dictionary from Speech dictionaries menu, Emoticons dictionary option. See below for Emoticons settings in relation to the "
-"configuration profiles."
+"Saving your customizations, the new reading settings of emoticons will only "
+"apply to the profile you are currently editing."
 msgstr ""
-"F.eks. ønsker du måske, at NVDA kun udtaler tilpassede humørikoner i XXChat-programmet, men ikke i andre chatprogrammer: Du kan gøre dette ved at oprette en "
-"indstillingsprofil for applikationen XXChat, og derefter tildele en udtaleordbog til profilen fra menuen \"udtaleordbøger\" og ved at vælge Emoticons. Se herunder for "
-"Emoticons-indstillinger i henhold til indstillingsprofiler."
+"Ved at gemme dine tilpasninger, vil dine nye læseindstillinger kun blive "
+"anvendt på den indstillingsprofil, som du er i færd med at redigere."
 
 #. type: Plain text
 msgid ""
-"You can also export each custom speech-dictionary pressing \"Save and export dictionary\" button: in this way your speech-dictionaries will be saved in your user config "
-"folder, speechDicts/emoticons subfolder."
+"For example, you may wish that NVDA spoken custom emoticons only in XxChat "
+"program, but not in other chat programs: you can do this by creating a "
+"profile for the XxChat application and assign to it a speech dictionary from "
+"Speech dictionaries menu, Emoticons dictionary option. See below for "
+"Emoticons settings in relation to the configuration profiles."
 msgstr ""
-"Du kan også eksportere dine tilpassede udtaleordbøger ved at trykke på \"Gem og eksporter ordbog\". Dine ordbøger vil blive gemt i din mappe med din egen "
-"brugerkonfiguration (user config) for NVDA i undermappen speechDicts/emoticons."
+"F.eks. ønsker du måske, at NVDA kun udtaler tilpassede humørikoner i XXChat-"
+"programmet, men ikke i andre chatprogrammer: Du kan gøre dette ved at "
+"oprette en indstillingsprofil for applikationen XXChat, og derefter tildele "
+"en udtaleordbog til profilen fra menuen \"udtaleordbøger\" og ved at vælge "
+"Emoticons. Se herunder for Emoticons-indstillinger i henhold til "
+"indstillingsprofiler."
 
 #. type: Plain text
 msgid ""
-"The exact name and location of the dictionary file will be based on the editing configuration profile, which will be shown in the title of the Emoticons dictionary dialog."
-msgstr "Det nøjagtige navn og placering af ordbogsfilen baseres på den redigerede indstillingsprofil, og vil blive vist i titlen på dialogen for Emoticons."
+"You can also export each custom speech-dictionary pressing \"Save and export "
+"dictionary\" button: in this way your speech-dictionaries will be saved in "
+"your user config folder, speechDicts/emoticons subfolder."
+msgstr ""
+"Du kan også eksportere dine tilpassede udtaleordbøger ved at trykke på \"Gem "
+"og eksporter ordbog\". Dine ordbøger vil blive gemt i din mappe med din egen "
+"brugerkonfiguration (user config) for NVDA i undermappen speechDicts/"
+"emoticons."
+
+#. type: Plain text
+msgid ""
+"The exact name and location of the dictionary file will be based on the "
+"editing configuration profile, which will be shown in the title of the "
+"Emoticons dictionary dialog."
+msgstr ""
+"Det nøjagtige navn og placering af ordbogsfilen baseres på den redigerede "
+"indstillingsprofil, og vil blive vist i titlen på dialogen for Emoticons."
 
 #. type: Title ##
 #, no-wrap
@@ -150,11 +213,20 @@ msgstr "I indstillingspanelet for Emoticons kan du vælge, om NVDA automatisk sk
 
 #. type: Plain text
 msgid ""
-"If you may wish to keep clean your configuration folders, in this dialog it is also possible to choose if dictionaries not used (associated with non existing profiles) "
-"will be removed from the add-on when it is unloaded."
+"If you may wish to keep clean your configuration folders, in this dialog it "
+"is also possible to choose if dictionaries not used (associated with non "
+"existing profiles) will be removed from the add-on when it is unloaded."
 msgstr ""
-"Hvis du ønsker at holde konfigurationsmapperne rene, vil det også være muligt i denne dialog at vælge om ubrugte ordbøger (tilhørende ikke-eksisterende profiler) skal "
-"fjernes fra tilføjelsen når den udlæses."
+"Hvis du ønsker at holde konfigurationsmapperne rene, vil det også være "
+"muligt i denne dialog at vælge om ubrugte ordbøger (tilhørende ikke-"
+"eksisterende profiler) skal fjernes fra tilføjelsen når den udlæses."
+
+#. type: Plain text
+msgid ""
+"Also, it's possible to enable Settings only in normal configuration (not "
+"recommended). This is intended to disable settings changes in case of speed "
+"issues when switching profiles."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -162,18 +234,36 @@ msgid "Key Commands:"
 msgstr "Tastaturkommandoer:"
 
 #. type: Plain text
-msgid "These are the key commands available by default, you can edit those or add new key to open Emoticons settings panel or Emoticon Dictionary dialog:"
+msgid ""
+"These are the key commands available by default, you can edit those or add "
+"new key to open Emoticons settings panel or Emoticon Dictionary dialog:"
 msgstr ""
-"Disse er de vigtigste kommandoer tilgængelige som standard, du kan redigere dem eller tilføje nye tastetryk for at åbne indstillingspanelet for Emoticons eller dialogen "
-"til styrelse af Emoticons-ordbøger."
+"Disse er de vigtigste kommandoer tilgængelige som standard, du kan redigere "
+"dem eller tilføje nye tastetryk for at åbne indstillingspanelet for "
+"Emoticons eller dialogen til styrelse af Emoticons-ordbøger."
 
 #. type: Bullet: '* '
-msgid "NVDA+E: speaking emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description."
-msgstr "NVDA+e: Skifter mellem at udtale tekst, som den er skrevet, eller med humørikonerne erstattet med den brugervenlige beskrivelse."
+msgid ""
+"NVDA+E: speaking emoticons on/off, toggles between speaking text as it is "
+"written, or with the emoticons replaced by the human description."
+msgstr ""
+"NVDA+e: Skifter mellem at udtale tekst, som den er skrevet, eller med "
+"humørikonerne erstattet med den brugervenlige beskrivelse."
 
 #. type: Bullet: '* '
 msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
-msgstr "NVDA+i: Viser en dialog, hvor du kan vælge et humørikon, du vil kopiere."
+msgstr ""
+"NVDA+i: Viser en dialog, hvor du kan vælge et humørikon, du vil kopiere."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 7.0"
+msgid "Changes for 8.0"
+msgstr "Ændringer i7.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -181,26 +271,36 @@ msgid "Changes for 7.0"
 msgstr "Ændringer i7.0"
 
 #. type: Bullet: '* '
-msgid "The Activation settings dialog has been moved to a panel in NVDA settings, so that the current profile will be shown in the title of the NVDA settings dialog."
+msgid ""
+"The Activation settings dialog has been moved to a panel in NVDA settings, "
+"so that the current profile will be shown in the title of the NVDA settings "
+"dialog."
 msgstr ""
-"Dialogboksen med indstillinger for aktivering er blevet flyttet til et panel i NVDAs indstillinger, således den aktuelle profil vil blive vist i titlen på "
-"indstillingsdialogen."
+"Dialogboksen med indstillinger for aktivering er blevet flyttet til et panel "
+"i NVDAs indstillinger, således den aktuelle profil vil blive vist i titlen "
+"på indstillingsdialogen."
 
 #. type: Bullet: '* '
 msgid ""
-"The Manage Emoticons menu has been removed: now Insert emoticon will be found under the Tools menu, and Customize Emoticons will be shown under Speech dictionaries like "
-"Emoticons dictionary."
+"The Manage Emoticons menu has been removed: now Insert emoticon will be "
+"found under the Tools menu, and Customize Emoticons will be shown under "
+"Speech dictionaries like Emoticons dictionary."
 msgstr ""
-"Menuen til håndtering af humørikoner er blevet fjernet. Nu kan du finde \"Indsæt humørikon\" under menuen Værktøjer, og \"Tilpas humørikoner\" vil blive vist under "
-"\"Udtaleordbøger\" ligesom humørikoner-ordbøger."
+"Menuen til håndtering af humørikoner er blevet fjernet. Nu kan du finde "
+"\"Indsæt humørikon\" under menuen Værktøjer, og \"Tilpas humørikoner\" vil "
+"blive vist under \"Udtaleordbøger\" ligesom humørikoner-ordbøger."
 
 #. type: Bullet: '* '
 msgid "Requires NVDA 2018.2 or later."
 msgstr "Kræver NVDA 2018.2 eller nyere."
 
 #. type: Bullet: '* '
-msgid "If needed, you can download the [last version compatible with NVDA 2017.3][3]."
-msgstr "Hvis nødvendigt, kan du hente [den sidste version kompatibel med NVDA 2017.3][3]."
+msgid ""
+"If needed, you can download the [last version compatible with NVDA 2017.3]"
+"[3]."
+msgstr ""
+"Hvis nødvendigt, kan du hente [den sidste version kompatibel med NVDA 2017.3]"
+"[3]."
 
 #. type: Title ##
 #, no-wrap
@@ -213,17 +313,24 @@ msgstr "Tilføjede understøttelse for indstillingsprofiler."
 
 #. type: Bullet: '* '
 msgid ""
-"In NVDA 2017.4 or later, the configuration settings and custom dictionaries will change automatically according with the selected profiles. In 2017.3 or earlier, you can "
-"apply changes by reloading plugins (pressing control+NVDA+f3)."
+"In NVDA 2017.4 or later, the configuration settings and custom dictionaries "
+"will change automatically according with the selected profiles. In 2017.3 or "
+"earlier, you can apply changes by reloading plugins (pressing control+NVDA"
+"+f3)."
 msgstr ""
-"I NVDA 2017.4 og nyere, vil konfigurationsindstillinger samt tilppassede ordbøger ændre sig, afhængigt af hvilken indstillingsprofil der er aktiv. I NVDA 2017.3 kan du "
-"anvende ændringer ved at genindlæse plug-ins ved brug af NVDA+Ctrl+F3."
+"I NVDA 2017.4 og nyere, vil konfigurationsindstillinger samt tilppassede "
+"ordbøger ændre sig, afhængigt af hvilken indstillingsprofil der er aktiv. I "
+"NVDA 2017.3 kan du anvende ændringer ved at genindlæse plug-ins ved brug af "
+"NVDA+Ctrl+F3."
 
 #. type: Bullet: '* '
-msgid "If you choose to import settings when updating the add-on, deprecated files (emoticons.ini and emoticons.dic) will be removed or adapted to this version."
+msgid ""
+"If you choose to import settings when updating the add-on, deprecated files "
+"(emoticons.ini and emoticons.dic) will be removed or adapted to this version."
 msgstr ""
-"Hvis du vælger at importere indstillinger, når du opdaterer tilføjelse, vil forældede filer (emoticons.ini og emoticons.dic) blive fjernet eller tilpasset til denne "
-"version."
+"Hvis du vælger at importere indstillinger, når du opdaterer tilføjelse, vil "
+"forældede filer (emoticons.ini og emoticons.dic) blive fjernet eller "
+"tilpasset til denne version."
 
 #. type: Title ##
 #, no-wrap
@@ -235,12 +342,20 @@ msgid "Added support for emojis."
 msgstr "Tilføjet understøttelse af emojis."
 
 #. type: Bullet: '* '
-msgid "Improvements for Insert Emoticon dialog with a filter field and radio buttons to choose displayed emoticons."
-msgstr "Forbedringer for Indsæt humørikon dialog med et felt til filtrering af humørikoner og radioknapper til at vælge viste humørikoner."
+msgid ""
+"Improvements for Insert Emoticon dialog with a filter field and radio "
+"buttons to choose displayed emoticons."
+msgstr ""
+"Forbedringer for Indsæt humørikon dialog med et felt til filtrering af "
+"humørikoner og radioknapper til at vælge viste humørikoner."
 
 #. type: Bullet: '* '
-msgid "Using guiHelper for Activation settings dialog and Insert Emoticon dialog: requires NVDA 2016.4 or higher versions"
-msgstr "Benytter GuiHelper for dialogen til aktiveringsindstillinger og \"Indsæt humørikoner\". Dette kræver NVDA 2016.4 og nyere versioner."
+msgid ""
+"Using guiHelper for Activation settings dialog and Insert Emoticon dialog: "
+"requires NVDA 2016.4 or higher versions"
+msgstr ""
+"Benytter GuiHelper for dialogen til aktiveringsindstillinger og \"Indsæt "
+"humørikoner\". Dette kræver NVDA 2016.4 og nyere versioner."
 
 #. type: Title ##
 #, no-wrap
@@ -248,8 +363,12 @@ msgid "Changes for 4.0"
 msgstr "Ændringer i4.0"
 
 #. type: Bullet: '* '
-msgid "If the Insert smiley dialog is opened when another settings dialog is active, NVDA will show the corresponding error message."
-msgstr "Hvis du åbner dialogen \"Indsæt smiley\",mens en anden indstillingsdialog er åben, vil NVDA vise en tilsvarende fejlmeddelelse."
+msgid ""
+"If the Insert smiley dialog is opened when another settings dialog is "
+"active, NVDA will show the corresponding error message."
+msgstr ""
+"Hvis du åbner dialogen \"Indsæt smiley\",mens en anden indstillingsdialog er "
+"åben, vil NVDA vise en tilsvarende fejlmeddelelse."
 
 #. type: Title ##
 #, no-wrap
@@ -258,10 +377,13 @@ msgstr "Ændringer i 3.0"
 
 #. type: Bullet: '* '
 msgid ""
-"In the Customize emoticons dialog, it is now possible to specify that a pattern should only match if it is a whole word, according to speech dictionaries of NVDA 2014.4."
+"In the Customize emoticons dialog, it is now possible to specify that a "
+"pattern should only match if it is a whole word, according to speech "
+"dictionaries of NVDA 2014.4."
 msgstr ""
-"I dialogen til tilpasning af humørikoner er det nu muligt at specificere, at et mønster kun skal matche, hvis der er tale om et helt ord i overensstemmelse med "
-"udtaleordbøgerne i NVDA 2014.4."
+"I dialogen til tilpasning af humørikoner er det nu muligt at specificere, at "
+"et mønster kun skal matche, hvis der er tale om et helt ord i "
+"overensstemmelse med udtaleordbøgerne i NVDA 2014.4."
 
 #. type: Title ##
 #, no-wrap
@@ -270,7 +392,9 @@ msgstr "Ændringer i 2.0"
 
 #. type: Bullet: '* '
 msgid "Add-on help is available from the Add-ons Manager."
-msgstr "Hjælp til tilføjelsesprogram er til rådighed fra styring af tilføjelsesprogrammer."
+msgstr ""
+"Hjælp til tilføjelsesprogram er til rådighed fra styring af "
+"tilføjelsesprogrammer."
 
 #. type: Title ##
 #, no-wrap
@@ -308,18 +432,29 @@ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev"
 msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev"
 
 #. type: Plain text
-msgid "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon"
-msgstr "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon"
+msgid ""
+"[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5."
+"nvda-addon"
+msgstr ""
+"[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5."
+"nvda-addon"
 
 #~ msgid "Customize emoticons"
 #~ msgstr "Tilpas humørikoner"
 
 #~ msgid ""
-#~ "When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.\n"
-#~ "Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert smiley, to open a dialog \n"
+#~ "When you are unsure of the characters for a particular smiley, this addon "
+#~ "enables you to select and insert it into your text such as in a chat.\n"
+#~ "Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert "
+#~ "smiley, to open a dialog \n"
 #~ "with the provided smilies.\n"
-#~ "When you press OK, the characters for the chosen smiley will be copied to your clipboard, ready for pasting.\n"
+#~ "When you press OK, the characters for the chosen smiley will be copied to "
+#~ "your clipboard, ready for pasting.\n"
 #~ msgstr ""
-#~ "Når du er usikker på tegnene for en bestemt smiley, kan du med dette tilføjelsesprogram vælge og derefter indsætte den i din tekst, f.eks. en chat.\n"
-#~ "Tryk NVDA+i eller vælg menuen Indstillinger -> Styring af humørikoner -> Indsæt smiley for at åbne en dialog med de smileys, der er til rådighed.\n"
-#~ "Når du trykker OK, vil tegnene for den valgte smiley blive kopieret til udklipsholderen, så de er parate til at blive indsat.\n"
+#~ "Når du er usikker på tegnene for en bestemt smiley, kan du med dette "
+#~ "tilføjelsesprogram vælge og derefter indsætte den i din tekst, f.eks. en "
+#~ "chat.\n"
+#~ "Tryk NVDA+i eller vælg menuen Indstillinger -> Styring af humørikoner -> "
+#~ "Indsæt smiley for at åbne en dialog med de smileys, der er til rådighed.\n"
+#~ "Når du trykker OK, vil tegnene for den valgte smiley blive kopieret til "
+#~ "udklipsholderen, så de er parate til at blive indsat.\n"

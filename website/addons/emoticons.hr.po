@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 19:35+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2018-03-05 14:32+0100\n"
 "Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -251,6 +251,13 @@ msgstr ""
 "Ako želite izbrisati mape s konfiguracijom, možete odabrati da se rječnici "
 "neće koristiti (nepostojeći profili će biti uklonjeni iz dodatka)."
 
+#. type: Plain text
+msgid ""
+"Also, it's possible to enable Settings only in normal configuration (not "
+"recommended). This is intended to disable settings changes in case of speed "
+"issues when switching profiles."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -288,6 +295,16 @@ msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr ""
 "NVDA+I: Prikazuje dijaloški okvir u kojem  odabirete lijepljenje emotikona "
 "za chat ili bilo koji drugi tekstualni okvir."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 8.0"
+msgstr "Promjene u inačici 3.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

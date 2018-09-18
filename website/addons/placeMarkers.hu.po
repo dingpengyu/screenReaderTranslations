@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-06-02 21:25+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2016-12-29 15:14-0800\n"
 "Last-Translator: Ócsvári Áron <oaron1@gmail.com>\n"
 "Language-Team: HU <LL@li.org>\n"
@@ -182,6 +182,22 @@ msgid ""
 msgstr ""
 "Megjegyzés: A könyvjelzők karakterszámot használnak. Dinamikus oldalak "
 "esetén eredményesebb a Speciális Keresés funkció használata."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 11.0"
+msgstr "Az 1.0 verzió változásai"
+
+#. type: Bullet: '*	'
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
+
+#. type: Bullet: '*	'
+msgid ""
+"If needed, you can download the [last version compatible with NVDA 2017.3]"
+"[3]."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -414,10 +430,16 @@ msgid "[1]: http://addons.nvda-project.org/files/get.php?file=pm"
 msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=pm"
 
 #. type: Plain text
+msgid ""
+"[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
+"github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
+"addon"
+msgstr ""
+
 #, fuzzy
-#| msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
-msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
+#~| msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
+#~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
+#~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #~ msgid ""
 #~ "This addon is based on SpecificSearch and Bookmark&Search, developed by "

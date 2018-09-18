@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-03 03:00+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2018-07-19 18:14+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
@@ -222,6 +222,13 @@ msgstr ""
 "thể chọn nếu từ điển không còn được dùng (tích hợp vào một hồ sơ không tồn "
 "tại) sẽ bị xóa khỏi add-on khi nó bị tắt."
 
+#. type: Plain text
+msgid ""
+"Also, it's possible to enable Settings only in normal configuration (not "
+"recommended). This is intended to disable settings changes in case of speed "
+"issues when switching profiles."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -247,6 +254,16 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr "NVDA+I: hiển thị hộp thoại  để chọn biểu tượng muốn sao chép."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 7.0"
+msgid "Changes for 8.0"
+msgstr "Các thay đổi cho phiên bản 7.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

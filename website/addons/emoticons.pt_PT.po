@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emoticons, versão 7\n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
 "PO-Revision-Date: 2018-06-13 18:25+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
@@ -225,6 +225,13 @@ msgstr ""
 "(associados a perfis não existentes) serão removidos do extra quando "
 "estiverem descarregados."
 
+#. type: Plain text
+msgid ""
+"Also, it's possible to enable Settings only in normal configuration (not "
+"recommended). This is intended to disable settings changes in case of speed "
+"issues when switching profiles."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -252,6 +259,16 @@ msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr ""
 "NVDA + I: mostra uma caixa de diálogo para seleccionar um emoticon que "
 "deseja copiar."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 7.0"
+msgid "Changes for 8.0"
+msgstr "Alterações para 7.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
