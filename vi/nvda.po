@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Vietnamese Language for NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 14:57+1000\n"
-"PO-Revision-Date: 2018-08-30 22:40+0700\n"
+"PO-Revision-Date: 2018-09-18 12:16+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai Center for the Blind <danghoaiphuc@gmail.com>\n"
 "Language: vi_VN\n"
@@ -1141,15 +1141,13 @@ msgstr "Việt Nam cấp 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Tiếng Trung Quốc (Đài Loan, Quan Thoại)"
+msgstr "Tiếng Trung Quốc (Đài Loan, Quan Thoại) cấp 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Tiếng Trung Quốc (Đài Loan, Quan Thoại)"
+msgstr "Tiếng Trung Quốc (Đài Loan, Quan Thoại) cấp 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -8574,9 +8572,8 @@ msgstr "Bàn phím"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "Sử dụng phím Khóa Hoa làm phím bổ trợ NVDA"
+msgstr "&Chọn các phím làm phím bổ trợ NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8739,9 +8736,8 @@ msgstr "Đọc các thông báo trên đối tượng"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Đọc các thông báo trên đối tượng"
+msgstr "Đọc các &thông báo"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
