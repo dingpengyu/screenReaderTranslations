@@ -10,6 +10,47 @@
 </CENTER>
 
 
+<H2>2018.4</H2>
+
+<H3>Novas Características</H3>
+
+<UL>
+<LI>Novas táboas braille: Chinés (China, Mandarín) grao 1 e grao 2. (<A HREF="http://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+</UL>
+
+<H3>Cambios</H3>
+
+<UL>
+<LI>"Anunciar globos de axuda" no diálogo Presentación de Obxectos renomeouse como "Anunciar notificacións" para incluir o anunciado de notificacións do sistema en Windows 8 e posteriores. (<A HREF="http://github.com/nvaccess/nvda/issues/5789">#5789</A>)
+<LI>Nas opcións de teclado do NVDA, as caixas de verificación para activar ou desactivar as teclas modificadoras do NVDA agora amósanse nunha listaxe en lugar de en caixas de verificación separadas.
+<LI>O NVDA xa non presenta información redundante ao ler o reloxo da bandexa do sistema nalgunhas versións de Windows. (<A HREF="http://github.com/nvaccess/nvda/issues/4364">#4364</A>)
+<LI>Actualizado o transcriptor braille liblouis á versión 3.7.0. (<A HREF="http://github.com/nvaccess/nvda/issues/8697">#8697</A>)
+</UL>
+
+<H3>Coreción de Erros</H3>
+
+<UL>
+<LI>En Outlook 2016/365, anúncianse a categoría e o estado da marca para as mensaxes. (<A HREF="http://github.com/nvaccess/nvda/issues/8603">#8603</A>)
+<LI>Cando o NVDA se configure para idiomas coma Kirgyz, Mongol ou Macedonio, xa non amosa un diálogo nun aviso ao arrancar que a lingua non se admite polo sistema operativo. (<A HREF="http://github.com/nvaccess/nvda/issues/8064">#8064</A>)
+<LI>Ao mover o rato ao navegador de obxectos agora será moito máis preciso mover o rato á posición dol modo exploración en Mozilla Firefox, Google Chrome e Acrobat Reader DC. (<A HREF="http://github.com/nvaccess/nvda/issues/6460">#6460</A>)
+<LI>Mellorouse interactuar coas caixas combinadas na web en Firefox, Chrome e Internet Explorer. (<A HREF="http://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+</UL>
+
+<H3>Cambios para Desenvolvedores</H3>
+
+<UL>
+<LI>gui.nvdaControls agora contén dúas clases para crear listaxes accesibles con caixas de verificación. (<A HREF="http://github.com/nvaccess/nvda/issues/7325">#7325</A>)
+ <UL>
+ <LI>CustomCheckListBox é unha sub-clase accesible de wx.CheckListBox.
+ <LI>AutoWidthColumnCheckListCtrl engade caixas de verificación accesibles a un AutoWidthColumnListCtrl, o que está baseado en si mesmo en wx.ListCtrl.
+ </UL>
+<LI>Se necesitas facer un wx widget accesible que non o é aínda, é posible facelo usando unha instancia de gui.accPropServer.IAccPropServer_impl. (<A HREF="http://github.com/nvaccess/nvda/issues/7491">#7491</A>)
+ <UL>
+ <LI>Consulta a implementación de gui.nvdaControls.ListCtrlAccPropServer para máis información.
+ </UL>
+<LI>Actualizado configobj a 5.1.0dev commit 5b5de48a. (<A HREF="http://github.com/nvaccess/nvda/issues/4470">#4470</A>)
+</UL>
+
 <H2>2018.3</H2>
 
 <P>
