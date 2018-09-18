@@ -2,7 +2,7 @@
 en 5.4. start:321 paragraphs:7, tables:1, lists:0
 vi 5.4. start:321 paragraphs:8, tables:1, lists:0
 en 11.1.7. start:1255 paragraphs:16, tables:0, lists:1
-vi 11.1.7. start:1255 paragraphs:15, tables:0, lists:0
+vi 11.1.7. start:1255 paragraphs:15, tables:0, lists:1
 en 13.4. start:1863 paragraphs:2, tables:0, lists:1
 vi 13.4. start:1863 paragraphs:4, tables:0, lists:1
 en 13.5. start:1876 paragraphs:3, tables:0, lists:0
