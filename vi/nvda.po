@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Vietnamese Language for NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 14:57+1000\n"
-"PO-Revision-Date: 2018-09-18 12:16+0700\n"
+"PO-Revision-Date: 2018-09-18 20:37+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai Center for the Blind <danghoaiphuc@gmail.com>\n"
 "Language: vi_VN\n"
@@ -8573,7 +8573,7 @@ msgstr "Bàn phím"
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
 msgid "&Select NVDA Modifier Keys"
-msgstr "&Chọn các phím làm phím bổ trợ NVDA"
+msgstr "&Chọn các phím bổ trợ NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
