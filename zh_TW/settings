@@ -38,8 +38,8 @@
   "addon.wintenApps": "1", 
   "addon.word": "1", 
   "nvda.branch": "beta", 
-  "nvda.changes.lastFoundHash": "5e060a21ae40cec39cb201c4e24d3a4f8dccbdb9", 
+  "nvda.changes.lastFoundHash": "8e7233424f969f2697f412f7d8919e30d8887580", 
   "nvda.lastSubmittedSvnRev": "43832", 
   "nvda.symbols.lastFoundHash": "f6846e07236de4dde6745cf3d9304ab108446138", 
-  "nvda.userGuide.lastFoundHash": "6d72e9297bea37a5ce772a09ae26ff61b99b0f64"
+  "nvda.userGuide.lastFoundHash": "8e7233424f969f2697f412f7d8919e30d8887580"
 }
