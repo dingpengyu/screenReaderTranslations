@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 14:57+1000\n"
-"PO-Revision-Date: 2018-08-06 11:08+0300\n"
+"PO-Revision-Date: 2018-09-18 13:53+0300\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: NVDA_TR <cagrid@hotmail.com>\n"
 "Language: tr_TR\n"
@@ -1140,15 +1140,13 @@ msgstr "Vietnam derece 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Çince (Taiwan, Mandarin)"
+msgstr "Çince (Çin, Mandarin) Derece 1 "
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Çince (Taiwan, Mandarin)"
+msgstr "Çince (Çin, Mandarin) Derece 2 "
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -8608,9 +8606,8 @@ msgstr "Klavye"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "Büyük harf kilidini NVDA t&uşu olarak kullan"
+msgstr "&NVDA değişken tuşlarını seçin"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8774,9 +8771,8 @@ msgstr "ip&uçlarını bildir"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "ip&uçlarını bildir"
+msgstr "Bildirimleri a&nons et"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
