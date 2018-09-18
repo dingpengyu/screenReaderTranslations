@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Rubén Alcaraz <rubenalcarazmartinez@gmail.com>\n"
 "Language-Team: Dr. Mireia Ribera<mireia.ribera@gmail.com , Ruben "
@@ -1172,6 +1172,18 @@ msgstr "Braille Unicode"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Vietnamita grau 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Xinès (Taiwan, Mandarí)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Xinès (Taiwan, Mandarí)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6942,36 +6954,6 @@ msgstr "per llegir"
 msgid "Editing profile {profile}"
 msgstr "S'està editant el perfil {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "marca porpra"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Marca taronja"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Marca verda"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Marca groga"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Marca blava"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Marca vermella"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "prioritat alta"
@@ -8740,24 +8722,11 @@ msgstr ""
 msgid "Keyboard"
 msgstr "Teclat"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "Utilitza Bloq Maj com a tecla modificadora de NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr ""
-"Utilitza la tecla d'inserció del teclat numèric com a tecla modificadora de "
-"NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr ""
-"Utilitza la tecla d'inserció del teclat expandit com a tecla modificadora de "
-"NVDA"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&Utilitza Bloq Maj com a tecla modificadora de NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8923,8 +8892,9 @@ msgstr "Informa dels &indicadors de funció"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Informa dels &indicadors de funció d'ajuda"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Informa dels &indicadors de funció"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -11019,6 +10989,40 @@ msgstr "Doble interlineat"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "interlineat de 1.5"
+
+#~ msgid "purple flag"
+#~ msgstr "marca porpra"
+
+#~ msgid "Orange flag"
+#~ msgstr "Marca taronja"
+
+#~ msgid "Green flag"
+#~ msgstr "Marca verda"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Marca groga"
+
+#~ msgid "Blue flag"
+#~ msgstr "Marca blava"
+
+#~ msgid "Red flag"
+#~ msgstr "Marca vermella"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Utilitza Bloq Maj com a tecla modificadora de NVDA"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr ""
+#~ "Utilitza la tecla d'inserció del teclat numèric com a tecla modificadora "
+#~ "de NVDA"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr ""
+#~ "Utilitza la tecla d'inserció del teclat expandit com a tecla modificadora "
+#~ "de NVDA"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Informa dels &indicadors de funció d'ajuda"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

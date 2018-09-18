@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA source-master-57432f4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-09-02 11:58+0100\n"
 "Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: мк <LL@li.org>\n"
@@ -1138,6 +1138,18 @@ msgstr "унифицирано брајово писмо"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Виетнамски прв степен"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "кинески (Тајван) мандарински"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "кинески (Тајван) мандарински"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6938,36 +6950,6 @@ msgstr "непрочитана"
 msgid "Editing profile {profile}"
 msgstr ""
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "виолетово знаменце"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "портокалово знаменце"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "зелено знаменце"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "жолто знаменце"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "сино знаменце"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "црвено знаменце"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "од големо значење"
@@ -8748,20 +8730,11 @@ msgstr "изговарај &буква по буква доколку тоа е 
 msgid "Keyboard"
 msgstr "%s распоред на тастатура"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "користи го капслокот како помошно копче за НВДА"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "користи го инсертот од бројчаникот како помошно копче за нвда"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "користи го регуларниот инсерт како помошно копче за нвда"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&Користи го капслок како помошно нвда копче"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8930,8 +8903,9 @@ msgstr "соопштувај го &појаснувањето за алатка�
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "соопштувај ги &балончињата за помош"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "соопштувај го &појаснувањето за алатката"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -11028,6 +11002,36 @@ msgstr "дволинијски prored"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5линијски проред"
+
+#~ msgid "purple flag"
+#~ msgstr "виолетово знаменце"
+
+#~ msgid "Orange flag"
+#~ msgstr "портокалово знаменце"
+
+#~ msgid "Green flag"
+#~ msgstr "зелено знаменце"
+
+#~ msgid "Yellow flag"
+#~ msgstr "жолто знаменце"
+
+#~ msgid "Blue flag"
+#~ msgstr "сино знаменце"
+
+#~ msgid "Red flag"
+#~ msgstr "црвено знаменце"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "користи го капслокот како помошно копче за НВДА"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "користи го инсертот од бројчаникот како помошно копче за нвда"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "користи го регуларниот инсерт како помошно копче за нвда"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "соопштувај ги &балончињата за помош"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

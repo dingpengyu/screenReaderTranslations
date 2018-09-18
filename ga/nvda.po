@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA 2017.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-05-26 18:10+0100\n"
 "Last-Translator: Ronan McGuirk <ronan.mcguirk@gmail.com>\n"
 "Language-Team: Gaeilge <ga@li.org>\n"
@@ -1156,6 +1156,18 @@ msgstr "Braille Unicode"
 #, fuzzy
 msgid "Vietnamese grade 1"
 msgstr "Assaiméis grád 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Sínis (An Téaváin, Mandairínis)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Sínis (An Téaváin, Mandairínis)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6912,36 +6924,6 @@ msgstr "gan léamh"
 msgid "Editing profile {profile}"
 msgstr "Próifíl Eagarthóireachta {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "bratach chorcra"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "bratach oráiste"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "bratach uaine"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "bratach bhuí"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "bratach ghorm"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "bratach dhearg"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "ard-tábhachacht"
@@ -8700,20 +8682,11 @@ msgstr "Bain úsáid asfeidhm an &litriúithe má tá sé tacaithe.H1."
 msgid "Keyboard"
 msgstr "méarchlár"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "Úsáid CapsLock mar eochair mhionathraithe in NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Úsáid Insert ón uimhircheap mar eochair mhionathraithe NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "Úsáid Insert breisithe mar eochair mhionathraithe NVDA"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&Úsáid CapsLock mar eochair mhionathraithe in NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8880,8 +8853,9 @@ msgstr "Leid uirlise"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Léig&h balúin chabhrach"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Leid uirlise"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10957,6 +10931,36 @@ msgstr "spásáil línte dúbalta"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "spásáil línte 1.5"
+
+#~ msgid "purple flag"
+#~ msgstr "bratach chorcra"
+
+#~ msgid "Orange flag"
+#~ msgstr "bratach oráiste"
+
+#~ msgid "Green flag"
+#~ msgstr "bratach uaine"
+
+#~ msgid "Yellow flag"
+#~ msgstr "bratach bhuí"
+
+#~ msgid "Blue flag"
+#~ msgstr "bratach ghorm"
+
+#~ msgid "Red flag"
+#~ msgstr "bratach dhearg"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Úsáid CapsLock mar eochair mhionathraithe in NVDA"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "Úsáid Insert ón uimhircheap mar eochair mhionathraithe NVDA"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "Úsáid Insert breisithe mar eochair mhionathraithe NVDA"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Léig&h balúin chabhrach"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

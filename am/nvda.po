@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2017-10-30 22:08-0700\n"
 "Last-Translator: haftamu <haftshtop7@gmail.com>\n"
 "Language-Team: Amharic <nvda-translations@freelists.org>\n"
@@ -1243,6 +1243,18 @@ msgstr "ብረይል የለም"
 #, fuzzy
 msgid "Vietnamese grade 1"
 msgstr "ራሽያን ክፍል 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "ፍረንች (ካናዳ) ክፍል 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "ፍረንች (ካናዳ) ክፍል 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -7156,36 +7168,6 @@ msgstr "ያልተነበበ"
 msgid "Editing profile {profile}"
 msgstr ""
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr ""
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr ""
@@ -8930,19 +8912,9 @@ msgstr ""
 msgid "Keyboard"
 msgstr ""
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr ""
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr ""
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+msgid "&Select NVDA Modifier Keys"
 msgstr ""
 
 #. Translators: This is the label for a checkbox in the
@@ -9112,8 +9084,9 @@ msgstr "ሪፖርት &ጠቃሚ መሳርያ"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "ሪፖርት &አገዛ ፍኛዎች"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "ሪፖርት &ጠቃሚ መሳርያ"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -11279,6 +11252,9 @@ msgstr ""
 msgid "1.5 line spacing"
 msgstr ""
 
+#~ msgid "Report &help balloons"
+#~ msgstr "ሪፖርት &አገዛ ፍኛዎች"
+
 #, fuzzy
 #~ msgctxt "languageName"
 #~ msgid "Arabic"
@@ -11306,12 +11282,6 @@ msgstr ""
 
 #~ msgid "Braille Settings"
 #~ msgstr "ብረይል ቅንብር"
-
-#~ msgid "French (Canada) grade 1"
-#~ msgstr "ፍረንች (ካናዳ) ክፍል 1"
-
-#~ msgid "French (Canada) grade 2"
-#~ msgstr "ፍረንች (ካናዳ) ክፍል 2"
 
 #, fuzzy
 #~ msgid "Route to and report formatting"

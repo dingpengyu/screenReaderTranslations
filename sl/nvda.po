@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-08-15 14:06+0100\n"
 "Last-Translator: Jožef Gregorc <jozko.gregorc@gmail.com>\n"
 "Language-Team: Sl <nvda_slo[@]googlegroups.com>\n"
@@ -1142,6 +1142,18 @@ msgstr "Unicode brajica"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Vijetnamska razvrstitev 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Kitajska (Tajvanska in Mandarinska)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Kitajska (Tajvanska in Mandarinska)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6917,36 +6929,6 @@ msgstr "neprebrano"
 msgid "Editing profile {profile}"
 msgstr "Urejanje profila {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "vijolična zastavica"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Oranžna zastavica"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Zelena zastavica"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Rumena zastavica"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Modra zastavica"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Rdeča zastavica"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "visoka pomembnost"
@@ -8732,20 +8714,11 @@ msgstr "Uporabljaj funkcijo &črkovanja, če je podprta."
 msgid "Keyboard"
 msgstr "Tipkovnica"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "Uporabljaj CapsLock kot prikrojevalno tipko NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Uporabljaj številski Insert kot prikrojevalno tipko NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "Uporabljaj glavni Insert kot prikrojevalno tipko NVDA"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&Uporabljaj CapsLock kot prikrojevalno tipko NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8909,8 +8882,9 @@ msgstr "Sporočaj &zaslonske namige"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Sporočaj oblačke po&moči"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Sporočaj &zaslonske namige"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -11014,6 +10988,36 @@ msgstr "Dvojni razmik med vrsticami"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1,5 razmik med vrsticami"
+
+#~ msgid "purple flag"
+#~ msgstr "vijolična zastavica"
+
+#~ msgid "Orange flag"
+#~ msgstr "Oranžna zastavica"
+
+#~ msgid "Green flag"
+#~ msgstr "Zelena zastavica"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Rumena zastavica"
+
+#~ msgid "Blue flag"
+#~ msgstr "Modra zastavica"
+
+#~ msgid "Red flag"
+#~ msgstr "Rdeča zastavica"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Uporabljaj CapsLock kot prikrojevalno tipko NVDA"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "Uporabljaj številski Insert kot prikrojevalno tipko NVDA"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "Uporabljaj glavni Insert kot prikrojevalno tipko NVDA"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Sporočaj oblačke po&moči"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

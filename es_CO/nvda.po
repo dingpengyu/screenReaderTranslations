@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2017-10-31 19:59-0700\n"
 "Last-Translator: Slann tonich <reydelasmaquinas@outlook.com>\n"
 "Language-Team: equipo de traducción al español de NVDA <oprisniki@gmail."
@@ -1199,6 +1199,18 @@ msgstr "Sin braille"
 #, fuzzy
 msgid "Vietnamese grade 1"
 msgstr "Asamés grado 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Chino (Taiwan, Mandarín)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Chino (Taiwan, Mandarín)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -7036,37 +7048,6 @@ msgstr "no leído"
 msgid "Editing profile {profile}"
 msgstr ""
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-#, fuzzy
-msgid "purple flag"
-msgstr "púrpura"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr ""
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "importancia alta"
@@ -8847,21 +8828,11 @@ msgstr "Utilizar funcionalidad de &deletreo si está soportada"
 msgid "Keyboard"
 msgstr "teclado %s"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
 msgstr "Utilizar BloqueoMayúsculas como tecla modificadora de NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Utilizar Insertar del teclado numérico como tecla modificadora de NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr ""
-"Utilizar Insertar del teclado extendido como tecla modificadora de NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -9029,8 +9000,9 @@ msgstr "Anunciar &consejos"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Anunciar &globos de ayuda"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Anunciar &consejos"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -11140,6 +11112,24 @@ msgstr "Espaciado doble"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "Espaciado de 1.5"
+
+#, fuzzy
+#~ msgid "purple flag"
+#~ msgstr "púrpura"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Utilizar BloqueoMayúsculas como tecla modificadora de NVDA"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr ""
+#~ "Utilizar Insertar del teclado numérico como tecla modificadora de NVDA"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr ""
+#~ "Utilizar Insertar del teclado extendido como tecla modificadora de NVDA"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Anunciar &globos de ayuda"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA source-master-1af787b\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2017-10-31 20:49-0700\n"
 "Last-Translator: Dinesh Mittal and Maheshinder Singh <punjabimaster259@gmail."
 "com>\n"
@@ -1223,6 +1223,18 @@ msgstr "ਬ੍ਰੇਲ"
 #, fuzzy
 msgid "Vietnamese grade 1"
 msgstr "ਰੂਸੀ ਦਰਜਾ ੧"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "ਚੀਨੀ (ਤਾਈਵਾਨ, ਮਾਂਡਰੀਨ)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "ਚੀਨੀ (ਤਾਈਵਾਨ, ਮਾਂਡਰੀਨ)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -7005,37 +7017,6 @@ msgstr "ਅਣਪੜਿਆ"
 msgid "Editing profile {profile}"
 msgstr ""
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-#, fuzzy
-msgid "purple flag"
-msgstr "ਜਾਮਣੀ"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr ""
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "ਜ਼ਿਆਦਾ ਜ਼ਰੂਰੀ"
@@ -8755,20 +8736,11 @@ msgstr ""
 msgid "Keyboard"
 msgstr "%s ਕੁੰਜੀ ਪਟਲ"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
 msgstr "ਵੱਡਾ ਅੱਖਰ ਕੁੰਜੀ ਨੂੰ ਬਤੌਰ ਐੰਨਵੀਡੀਏ ਮੌਡੀਫ਼ਾਇਅਰ ਕੁੰਜੀ ਵਰਤੋ"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "ਨੰਬਰ ਪੈਡ ਇਨਸਰਟ ਕੀ ਐੱਨਵੀਡੀਏ ਕੁੰਜੀ ਦੇ ਤੌਰ ਤੇ ਵਰਤੀ ਜਾਵੇ"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "ਐਕਸਟੈਂਡਿਡ insert ਕੁੰਜੀ ਨੂੰ ਬਤੌਰ ਐੰਨਵੀਡੀਏ ਮੌਡੀਫ਼ਾਇਰ ਕੁੰਜੀ ਵਰਤੋ."
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8933,8 +8905,9 @@ msgstr ""
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "ਜਾਣਕਾਰੀ &ਸਹਾਇਤਾ ਗ਼ੁੱਬਾਰੇ."
+#, fuzzy
+msgid "Report &notifications"
+msgstr "ਐਡ-ਆਨ ਦੀ ਜਾਣਕਾਰੀ"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -11041,6 +11014,22 @@ msgstr ""
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr ""
+
+#, fuzzy
+#~ msgid "purple flag"
+#~ msgstr "ਜਾਮਣੀ"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "ਵੱਡਾ ਅੱਖਰ ਕੁੰਜੀ ਨੂੰ ਬਤੌਰ ਐੰਨਵੀਡੀਏ ਮੌਡੀਫ਼ਾਇਅਰ ਕੁੰਜੀ ਵਰਤੋ"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "ਨੰਬਰ ਪੈਡ ਇਨਸਰਟ ਕੀ ਐੱਨਵੀਡੀਏ ਕੁੰਜੀ ਦੇ ਤੌਰ ਤੇ ਵਰਤੀ ਜਾਵੇ"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "ਐਕਸਟੈਂਡਿਡ insert ਕੁੰਜੀ ਨੂੰ ਬਤੌਰ ਐੰਨਵੀਡੀਏ ਮੌਡੀਫ਼ਾਇਰ ਕੁੰਜੀ ਵਰਤੋ."
+
+#~ msgid "Report &help balloons"
+#~ msgstr "ਜਾਣਕਾਰੀ &ਸਹਾਇਤਾ ਗ਼ੁੱਬਾਰੇ."
 
 #, fuzzy
 #~ msgid "{language} - {layout}"

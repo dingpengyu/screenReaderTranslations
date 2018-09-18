@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-08-31 15:26+0100\n"
 "Last-Translator: Imam <imam.kahraman@gmail.com>\n"
 "Language-Team: \n"
@@ -1139,6 +1139,18 @@ msgstr "Braille ya koda gerdûnî"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Vîetnamî asta 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Çînî (Taywan, Mandarîn)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Çînî (Taywan, Mandarîn)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6703,36 +6715,6 @@ msgstr ""
 msgid "Editing profile {profile}"
 msgstr ""
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr ""
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr ""
@@ -8399,19 +8381,9 @@ msgstr ""
 msgid "Keyboard"
 msgstr "klavye"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr ""
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr ""
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+msgid "&Select NVDA Modifier Keys"
 msgstr ""
 
 #. Translators: This is the label for a checkbox in the
@@ -8575,8 +8547,9 @@ msgstr "&Amûren şîretan rapor bike"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Balonên &alîkariyê rapor bike"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "&Amûren şîretan rapor bike"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10642,6 +10615,9 @@ msgstr ""
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr ""
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Balonên &alîkariyê rapor bike"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1181,6 +1181,18 @@ msgstr "Unicode punktskrift"
 #, fuzzy
 msgid "Vietnamese grade 1"
 msgstr "Vietnamesisk nivå 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Kinesisk (Taiwan, Mandarin)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Kinesisk (Taiwan, Mandarin)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -3145,16 +3157,19 @@ msgstr "Øker gjeldende aktive innstilling i innstillingsringen for talesyntese"
 
 #. Translators: Input help mode message for decrease synth setting value command.
 msgid "Decreases the currently active setting in the synth settings ring"
-msgstr "Reduserer gjeldende aktive innstilling i innstillingsringen for talesyntese"
+msgstr ""
+"Reduserer gjeldende aktive innstilling i innstillingsringen for talesyntese"
 
 #. Translators: Input help mode message for next synth setting command.
 msgid "Moves to the next available setting in the synth settings ring"
-msgstr "Går til neste tilgjengelige innstilling i innstillingsringen for talesyntese"
+msgstr ""
+"Går til neste tilgjengelige innstilling i innstillingsringen for talesyntese"
 
 #. Translators: Input help mode message for previous synth setting command.
 msgid "Moves to the previous available setting in the synth settings ring"
 msgstr ""
-"Går til forrige tilgjengelige innstilling i innstillingsringen for talesyntese"
+"Går til forrige tilgjengelige innstilling i innstillingsringen for "
+"talesyntese"
 
 #. Translators: The message announced when toggling the speak typed characters keyboard setting.
 msgid "speak typed characters off"
@@ -3972,8 +3987,8 @@ msgid ""
 "Logs information about the current navigator object which is useful to "
 "developers and activates the log viewer so the information can be examined."
 msgstr ""
-"Logger informasjon om gjeldende navigasjonsobjekt som er nyttig for utviklere "
-"og aktiverer loggviseren, slik at informasjonen kan bli undersøkt."
+"Logger informasjon om gjeldende navigasjonsobjekt som er nyttig for "
+"utviklere og aktiverer loggviseren, slik at informasjonen kan bli undersøkt."
 
 #. Translators: A mode where no progress bar updates are given.
 msgid "No progress bar updates"
@@ -6957,36 +6972,6 @@ msgstr "ulest"
 msgid "Editing profile {profile}"
 msgstr ""
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "purpurfarget flagg"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Oransje flagg"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Grønt flagg"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Gult flagg"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Blått flagg"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Rødt flagg"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "høy viktighet"
@@ -8168,7 +8153,8 @@ msgstr "Feil ved aktivering av profil."
 
 #. Translators: The confirmation prompt displayed when the user requests to delete a configuration profile.
 msgid "This profile will be permanently deleted. This action cannot be undone."
-msgstr "Denne profilen vil bli permanent slettet. Denne handlingen kan ikke omgjøres."
+msgstr ""
+"Denne profilen vil bli permanent slettet. Denne handlingen kan ikke omgjøres."
 "Denne profilen vil bli permanent slettet. Denne handlingen kan ikke angres."
 
 #. Translators: The title of the confirmation dialog for deletion of a configuration profile.
@@ -8561,8 +8547,10 @@ msgstr "L&oggingsnivå:"
 #. Translators: The label for a setting in general settings to allow NVDA to come up in Windows login screen (useful if user needs to enter passwords or if multiple user accounts are present to allow user to choose the correct account).
 msgid ""
 "Use NVDA on the Windows logon screen (requires administrator privileges)"
-msgstr "Bruk NVDA i innloggingsskjermen i Windows (krever administratorrettigheter)"
-"Bruk NVDA på påloggingsskjermen i Windows (krever administratorrettigheter)"
+msgstr ""
+"Bruk NVDA i innloggingsskjermen i Windows (krever "
+"administratorrettigheter)Bruk NVDA på påloggingsskjermen i Windows (krever "
+"administratorrettigheter)"
 
 #. Translators: The label for a button in general settings to copy current user settings to system settings (to allow current settings to be used in secure screens such as User Account Control (UAC) dialog).
 msgid ""
@@ -8735,20 +8723,11 @@ msgstr "Bruk &stavefunksjonalitet dersom støttet"
 msgid "Keyboard"
 msgstr "Tastatur"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "Bruk CapsLock som NVDA-tast"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Bruk Insert på talltastaturet som NVDA-tast"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "Bruk utvidet Insert som NVDA-tast"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&Bruk CapsLock som en NVDA-tast"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8912,8 +8891,9 @@ msgstr "Rapporter verktøy&tips"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Rapporter &hjelpeballonger"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Rapporter verktøy&tips"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -9462,7 +9442,8 @@ msgstr "Oppgi gest for inndata:"
 #. Translators: An error displayed when saving user defined input gestures fails.
 #, fuzzy
 msgid "Error saving user defined gestures - probably read only file system."
-msgstr "Kan ikke lagre brukerdefinerte gester - sannsynlig skrivebeskyttet filsystem"
+msgstr ""
+"Kan ikke lagre brukerdefinerte gester - sannsynlig skrivebeskyttet filsystem"
 
 #. Translators: Describes a command.
 msgid "Exit math interaction"
@@ -9529,8 +9510,8 @@ msgid ""
 "Toggles on and off if the screen layout is preserved while rendering the "
 "document content"
 msgstr ""
-"Slår på og av hvis skjermoppsettet er bevart, mens dokumentets "
-"innhold blir rendered"
+"Slår på og av hvis skjermoppsettet er bevart, mens dokumentets innhold blir "
+"rendered"
 
 msgid "Taskbar"
 msgstr "Oppgavelinje"
@@ -9558,7 +9539,8 @@ msgstr ""
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
 msgid "Set row {rowNumber} column {columnNumber} as start of column headers"
-msgstr "Sett rad {rowNumber} kolonne {columnNumber} som start på kolonneoverskrifter"
+msgstr ""
+"Sett rad {rowNumber} kolonne {columnNumber} som start på kolonneoverskrifter"
 
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
@@ -9569,7 +9551,8 @@ msgstr ""
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
 msgid "Removed row {rowNumber} column {columnNumber}  from column headers"
-msgstr "Fjernet rad {rowNumber} kolonne {columnNumber}  fra kolonneoverskrifter"
+msgstr ""
+"Fjernet rad {rowNumber} kolonne {columnNumber}  fra kolonneoverskrifter"
 
 #. Translators: a message reported in the SetColumnHeader script for Microsoft Word.
 #, python-brace-format
@@ -9586,7 +9569,8 @@ msgstr ""
 #. Translators: a message reported in the SetRowHeader script for Microsoft Word.
 #, python-brace-format
 msgid "Set row {rowNumber} column {columnNumber} as start of row headers"
-msgstr "Sett rad {rowNumber} kolonne {columnNumber} som start på radoverskrifter"
+msgstr ""
+"Sett rad {rowNumber} kolonne {columnNumber} som start på radoverskrifter"
 
 #. Translators: a message reported in the SetRowHeader script for Microsoft Word.
 #, python-brace-format
@@ -10616,7 +10600,6 @@ msgid "down-right diagonal line"
 msgstr ""
 
 #. Translators: border positions in Microsoft Excel.
-#, fuzzy
 msgid "horizontal borders except outside"
 msgstr ""
 
@@ -10991,6 +10974,36 @@ msgstr "Dobbel linjeavstand"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "Linjeavstand 1,5"
+
+#~ msgid "purple flag"
+#~ msgstr "purpurfarget flagg"
+
+#~ msgid "Orange flag"
+#~ msgstr "Oransje flagg"
+
+#~ msgid "Green flag"
+#~ msgstr "Grønt flagg"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Gult flagg"
+
+#~ msgid "Blue flag"
+#~ msgstr "Blått flagg"
+
+#~ msgid "Red flag"
+#~ msgstr "Rødt flagg"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Bruk CapsLock som NVDA-tast"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "Bruk Insert på talltastaturet som NVDA-tast"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "Bruk utvidet Insert som NVDA-tast"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Rapporter &hjelpeballonger"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2017-10-31 20:14-0700\n"
 "Last-Translator: Hinni Hreinsson <hm.hreinsson@gmail.com>\n"
 "Language-Team: \n"
@@ -1226,6 +1226,18 @@ msgstr "Ekkert punktaletur"
 #, fuzzy
 msgid "Vietnamese grade 1"
 msgstr "Rússneska (1. stig)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Kínverska (Mandaríska)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Kínverska (Mandaríska)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -7185,37 +7197,6 @@ msgstr "Ólesið"
 msgid "Editing profile {profile}"
 msgstr ""
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-#, fuzzy
-msgid "purple flag"
-msgstr "fjólublár"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr ""
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr ""
@@ -8992,20 +8973,11 @@ msgstr "nota innbyggða &stafsetningarhjálp ef hún er til staðar "
 msgid "Keyboard"
 msgstr "&Útlitssnið lyklaborðs"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
 msgstr "Nota hástafalás sem NVDAlykil"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "nota innsetningarhnapp talnalyklaborðs sem breytilykil NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "nota framlengdan innsetningarhnapp sem NVDa breytihnapp"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -9172,8 +9144,9 @@ msgstr "lesa á&bendingu"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "lesa h&jálparbelgi"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "lesa á&bendingu"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -11333,6 +11306,22 @@ msgstr ""
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr ""
+
+#, fuzzy
+#~ msgid "purple flag"
+#~ msgstr "fjólublár"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Nota hástafalás sem NVDAlykil"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "nota innsetningarhnapp talnalyklaborðs sem breytilykil NVDA"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "nota framlengdan innsetningarhnapp sem NVDa breytihnapp"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "lesa h&jálparbelgi"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

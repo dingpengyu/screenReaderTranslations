@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-08-28 11:10+0800\n"
 "Last-Translator: 王建立 <wangjanli@gmail.com>\n"
 "Language-Team: Jerry Wang @ TDTB <wangjanli@gmail.com>\n"
@@ -1144,6 +1144,18 @@ msgstr "Unicode"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "越南文一級"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "中文（台灣）注音"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "中文（台灣）注音"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6757,36 +6769,6 @@ msgstr "未閱讀"
 msgid "Editing profile {profile}"
 msgstr "編輯設定 {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "紫色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "橘色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "綠色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "黃色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "藍色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "紅色"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "高"
@@ -8500,20 +8482,11 @@ msgstr "啟用拼字功能（若有支援）(&S)"
 msgid "Keyboard"
 msgstr "鍵盤"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
 msgstr "將 Caps Lock 鍵設為 NVDA 鍵"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "將數字鍵盤的 Insert 鍵設為 NVDA 鍵"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "將主鍵盤的 Insert 鍵設為 NVDA 鍵"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8676,8 +8649,9 @@ msgstr "讀出工具提示(&T)"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "讀出氣泡提示(&H)"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "讀出工具提示(&T)"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10730,6 +10704,36 @@ msgstr "2倍行高"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5倍行高"
+
+#~ msgid "purple flag"
+#~ msgstr "紫色"
+
+#~ msgid "Orange flag"
+#~ msgstr "橘色"
+
+#~ msgid "Green flag"
+#~ msgstr "綠色"
+
+#~ msgid "Yellow flag"
+#~ msgstr "黃色"
+
+#~ msgid "Blue flag"
+#~ msgstr "藍色"
+
+#~ msgid "Red flag"
+#~ msgstr "紅色"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "將 Caps Lock 鍵設為 NVDA 鍵"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "將數字鍵盤的 Insert 鍵設為 NVDA 鍵"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "將主鍵盤的 Insert 鍵設為 NVDA 鍵"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "讀出氣泡提示(&H)"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{layout} - {language}"

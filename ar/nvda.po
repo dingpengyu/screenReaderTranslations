@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master-10703,53a09c4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-08-17 04:30+0200\n"
 "Last-Translator: \n"
 "Language-Team: AR <arabictranslationteam@googlegroups.com>\n"
@@ -1138,6 +1138,18 @@ msgstr "برايل بتشفير موحد"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "فيتنامية بدون اختصاراتإسامية بدون اختصارات"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "صيني (تيوان, مندرين)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "صيني (تيوان, مندرين)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6791,36 +6803,6 @@ msgstr "غير مقروء"
 msgid "Editing profile {profile}"
 msgstr "تحرير الوضع {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "علامة أرجوانية"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "علامة برتقالية"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "علامة خضراء"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "علامة صفراء"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "علامة زرقاء"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "علامة حمراء"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "أهمية قصوى"
@@ -8558,20 +8540,11 @@ msgstr "استخدام خاصية &تصحيح الهجاء إن كانت مدع�
 msgid "Keyboard"
 msgstr "لوحة المفاتيح"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "استخدام مفتاح تكبير الحروف كمفتاح مصاحب للبرنامج"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "استخدام مفتاح الإدراج في لوحة الأرقام كمفتاح مصاحب للبرنامج"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "استخدام مفتاح الإدراج الممتد كمفتاح مصاحب للبرنامج"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "استخدام &مفتاح تكبير الحروف كمفتاح مصاحب للبرنامج"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8735,8 +8708,9 @@ msgstr "الإعلان عن رسالة إر&شادية"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "الإعلان عن رسائل ال&تعليمات"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "الإعلان عن رسالة إر&شادية"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10795,6 +10769,36 @@ msgstr "تباعد الأسطر بمسافة مزدوجة"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5 تباعد السطر"
+
+#~ msgid "purple flag"
+#~ msgstr "علامة أرجوانية"
+
+#~ msgid "Orange flag"
+#~ msgstr "علامة برتقالية"
+
+#~ msgid "Green flag"
+#~ msgstr "علامة خضراء"
+
+#~ msgid "Yellow flag"
+#~ msgstr "علامة صفراء"
+
+#~ msgid "Blue flag"
+#~ msgstr "علامة زرقاء"
+
+#~ msgid "Red flag"
+#~ msgstr "علامة حمراء"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "استخدام مفتاح تكبير الحروف كمفتاح مصاحب للبرنامج"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "استخدام مفتاح الإدراج في لوحة الأرقام كمفتاح مصاحب للبرنامج"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "استخدام مفتاح الإدراج الممتد كمفتاح مصاحب للبرنامج"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "الإعلان عن رسائل ال&تعليمات"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

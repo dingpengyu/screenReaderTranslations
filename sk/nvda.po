@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-09-04 19:36+0200\n"
 "Last-Translator: Ondrej rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: sk <http://nvda.venik.org>\n"
@@ -1137,6 +1137,18 @@ msgstr "Tabuľka unicode"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Vietnamčina plnopis"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Mandarínska čínština (Taiwan)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Mandarínska čínština (Taiwan)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6858,36 +6870,6 @@ msgstr "Neprečítané"
 msgid "Editing profile {profile}"
 msgstr "Upravovaný profil {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "purpurový príznak"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Oranžový príznak"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Zelený príznak"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Žltý príznak"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Modrý príznak"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Červený príznak"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "veľmi dôležitá"
@@ -8647,20 +8629,11 @@ msgstr "&Hláskovanie riadi hlasový výstup (ak je podporované)"
 msgid "Keyboard"
 msgstr "Klávesnica"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
 msgstr "Používať &Capslock ako kláves NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Používať &numerický Insert ako kláves NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "Používať &Insert ako kláves NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8823,8 +8796,9 @@ msgstr "Oznamovať kon&textovú nápovedu"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Oznamovať &bublinkovú nápovedu"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Oznamovať kon&textovú nápovedu"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10897,6 +10871,36 @@ msgstr "dvojité riadkovanie"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1,5 riadka"
+
+#~ msgid "purple flag"
+#~ msgstr "purpurový príznak"
+
+#~ msgid "Orange flag"
+#~ msgstr "Oranžový príznak"
+
+#~ msgid "Green flag"
+#~ msgstr "Zelený príznak"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Žltý príznak"
+
+#~ msgid "Blue flag"
+#~ msgstr "Modrý príznak"
+
+#~ msgid "Red flag"
+#~ msgstr "Červený príznak"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Používať &Capslock ako kláves NVDA"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "Používať &numerický Insert ako kláves NVDA"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "Používať &Insert ako kláves NVDA"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Oznamovať &bublinkovú nápovedu"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

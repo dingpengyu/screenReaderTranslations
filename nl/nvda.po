@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Bart Simons <bart@bartsimons.be>\n"
 "Language-Team: \n"
@@ -1140,6 +1140,18 @@ msgstr "Unicode braille"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Viëtnamees graad 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Chinees (Taiwan, Mandarijn)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Chinees (Taiwan, Mandarijn)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6887,36 +6899,6 @@ msgstr "ongelezen"
 msgid "Editing profile {profile}"
 msgstr "Bewerkt profiel {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "Paarse flag"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Oranje vlag"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Groene vlag"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Gele vlag"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Blauwe vlag"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Rode vlag"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "Hoge prioriteit"
@@ -8693,20 +8675,11 @@ msgstr "&Spellingfunctionaliteit gebruiken (wanneer ondersteund)"
 msgid "Keyboard"
 msgstr "Toetsenbord"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "CapsLock als NVDA-toets gebruiken"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Nummerieke insert-toets als NVDA-toets gebruiken"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "Uitgebreide Insert-toets als NVDA-toets gebruiken"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&CapsLock als NVDA-toets gebruiken"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8869,8 +8842,9 @@ msgstr "Flits&berichten melden"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "&Helpballonnen melden"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Flits&berichten melden"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10942,6 +10916,36 @@ msgstr "Dubbele regelafstand"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1,5 regelafstand"
+
+#~ msgid "purple flag"
+#~ msgstr "Paarse flag"
+
+#~ msgid "Orange flag"
+#~ msgstr "Oranje vlag"
+
+#~ msgid "Green flag"
+#~ msgstr "Groene vlag"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Gele vlag"
+
+#~ msgid "Blue flag"
+#~ msgstr "Blauwe vlag"
+
+#~ msgid "Red flag"
+#~ msgstr "Rode vlag"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "CapsLock als NVDA-toets gebruiken"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "Nummerieke insert-toets als NVDA-toets gebruiken"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "Uitgebreide Insert-toets als NVDA-toets gebruiken"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "&Helpballonnen melden"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

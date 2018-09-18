@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5822\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-08-27 13:22+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
@@ -1138,6 +1138,18 @@ msgstr "Уникод Брайл"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Виетнамски, ниво 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Китайски (Тайван, Мандарин)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Китайски (Тайван, Мандарин)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6890,36 +6902,6 @@ msgstr "непрочетено"
 msgid "Editing profile {profile}"
 msgstr "Редактиране на профил {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "Лилав флаг"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Оранжев флаг"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Зелен флаг"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Жълт флаг"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Син флаг"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Червен флаг"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "висок приоритет"
@@ -8691,20 +8673,11 @@ msgstr "Използвай възможността за спелуване, а�
 msgid "Keyboard"
 msgstr "Клавиатура"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "Използвай CapsLock като NVDA клавиш"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Използвай INSERT от цифровия блок като NVDA клавиш"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "Използвай основния INSERT като NVDA клавиш"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&Използвай CapsLock като NVDA клавиш"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8868,8 +8841,9 @@ msgstr "Докладвай &подсказките\t"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Докладвай помощните &балони"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Докладвай &подсказките\t"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10955,6 +10929,36 @@ msgstr "Двойна редова разредка"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1,5 редова разредка"
+
+#~ msgid "purple flag"
+#~ msgstr "Лилав флаг"
+
+#~ msgid "Orange flag"
+#~ msgstr "Оранжев флаг"
+
+#~ msgid "Green flag"
+#~ msgstr "Зелен флаг"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Жълт флаг"
+
+#~ msgid "Blue flag"
+#~ msgstr "Син флаг"
+
+#~ msgid "Red flag"
+#~ msgstr "Червен флаг"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Използвай CapsLock като NVDA клавиш"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "Използвай INSERT от цифровия блок като NVDA клавиш"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "Използвай основния INSERT като NVDA клавиш"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Докладвай помощните &балони"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

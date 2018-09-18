@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: NVDA portuguese team <rui.fontes@tiflotecnia.com>; "
@@ -1138,6 +1138,18 @@ msgstr "Braille Unicode"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Vietnamita grau 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Chinês (Taiwan, Mandarin)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Chinês (Taiwan, Mandarin)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6886,36 +6898,6 @@ msgstr "não lida"
 msgid "Editing profile {profile}"
 msgstr "A editar o perfil {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "Bandeira púrpura"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Bandeira laranja"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Bandeira verde"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Bandeira amarela"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Bandeira azul"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Bandeira vermelha"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "Importância alta"
@@ -8688,21 +8670,11 @@ msgstr "Utilizar funcionalidade de &soletrar se suportada"
 msgid "Keyboard"
 msgstr "Teclado"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "Utilizar CapsLock como uma tecla modificadora do NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Utilizar Insert do bloco numérico como uma tecla modificadora do NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr ""
-"Utilizar Insert do bloco intermédio como uma tecla modificadora do NVDA"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&Utilizar CapsLock como uma tecla modificadora do NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8866,8 +8838,9 @@ msgstr "Anunciar &sugestões"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Anunciar &balões de ajuda"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Anunciar &sugestões"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10952,6 +10925,38 @@ msgstr "espaçamento duplo"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "espaçamento  1,5 linhas"
+
+#~ msgid "purple flag"
+#~ msgstr "Bandeira púrpura"
+
+#~ msgid "Orange flag"
+#~ msgstr "Bandeira laranja"
+
+#~ msgid "Green flag"
+#~ msgstr "Bandeira verde"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Bandeira amarela"
+
+#~ msgid "Blue flag"
+#~ msgstr "Bandeira azul"
+
+#~ msgid "Red flag"
+#~ msgstr "Bandeira vermelha"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Utilizar CapsLock como uma tecla modificadora do NVDA"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr ""
+#~ "Utilizar Insert do bloco numérico como uma tecla modificadora do NVDA"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr ""
+#~ "Utilizar Insert do bloco intermédio como uma tecla modificadora do NVDA"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Anunciar &balões de ajuda"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

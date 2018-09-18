@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2018.3Beta4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-09-06 17:20+0800\n"
 "Last-Translator: Eric Yip <cyeric20@yahoo.com.hk>\n"
 "Language-Team: Eric Yip@ HKBU <cyeric20@yahoo.com.hk>\n"
@@ -1140,6 +1140,18 @@ msgstr "Unicode 點字"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "越南語一級點字"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "中文台灣注音點字"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "中文台灣注音點字"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6744,36 +6756,6 @@ msgstr "未讀"
 msgid "Editing profile {profile}"
 msgstr "正在修改 {profile} 組態設定"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "紫色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "橙色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "綠色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "黃色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "藍色"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "紅色"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "重要"
@@ -8483,20 +8465,11 @@ msgstr "有支援時啟用拼字功能(&S)"
 msgid "Keyboard"
 msgstr "K 鍵盤"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "將 Caps Lock 鍵設為 NVDA 鍵(&L)"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "將數字鍵盤的 Insert 鍵設為 NVDA 鍵(&U)"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "將主鍵盤的 Insert 鍵設為 NVDA 鍵(&E)"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "將 Caps Lock 鍵設為 NVDA 鍵(&U)"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8659,8 +8632,9 @@ msgstr "報出工具提示(&T)"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "報出氣泡提示(&H)"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "報出工具提示(&T)"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10703,6 +10677,36 @@ msgstr "2倍行高"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5倍行高"
+
+#~ msgid "purple flag"
+#~ msgstr "紫色"
+
+#~ msgid "Orange flag"
+#~ msgstr "橙色"
+
+#~ msgid "Green flag"
+#~ msgstr "綠色"
+
+#~ msgid "Yellow flag"
+#~ msgstr "黃色"
+
+#~ msgid "Blue flag"
+#~ msgstr "藍色"
+
+#~ msgid "Red flag"
+#~ msgstr "紅色"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "將 Caps Lock 鍵設為 NVDA 鍵(&L)"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "將數字鍵盤的 Insert 鍵設為 NVDA 鍵(&U)"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "將主鍵盤的 Insert 鍵設為 NVDA 鍵(&E)"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "報出氣泡提示(&H)"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

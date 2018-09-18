@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA source-master-a989f5e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2017-10-31 20:49-0700\n"
 "Last-Translator: Verners Šteinbergs <verners_lnb@inbox.lv>\n"
 "Language-Team: \n"
@@ -1184,6 +1184,16 @@ msgstr "Bez braila displeja"
 #, fuzzy
 msgid "Vietnamese grade 1"
 msgstr "Latviešu 1. kategorijas"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr ""
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr ""
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6829,36 +6839,6 @@ msgstr ""
 msgid "Editing profile {profile}"
 msgstr ""
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr ""
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr ""
@@ -8576,20 +8556,11 @@ msgstr "Lietot &pareizrakstības funkciju, ja atbalstīta"
 msgid "Keyboard"
 msgstr "&Tastatūras izkārtojums:"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
 msgstr "Lietot CapsLock kā NVDA regulēšanas taustiņu"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Lietot ciparu tastatūras Insert kā NVDA regulēšanas taustiņu"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "Lietot paplašināto Insert kā NVDA regulēšanas taustiņu"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8754,8 +8725,9 @@ msgstr "Atskaņot &darbarīku ieteikumus"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Atskaņot &palīdzības balonus"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "Atskaņot &darbarīku ieteikumus"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10838,6 +10810,18 @@ msgstr "Dubulta rindstarpa"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "Pusotra rindstarpa"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "Lietot CapsLock kā NVDA regulēšanas taustiņu"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "Lietot ciparu tastatūras Insert kā NVDA regulēšanas taustiņu"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "Lietot paplašināto Insert kā NVDA regulēšanas taustiņu"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Atskaņot &palīdzības balonus"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

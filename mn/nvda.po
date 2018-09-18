@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mongolian Translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-09-06 22:30+0800\n"
 "Last-Translator: \n"
 "Language-Team: MongolianNVDATranslationTeam <mongoliannvdatranslation@gmail."
@@ -1139,6 +1139,18 @@ msgstr "Unicode брайль"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Vietnamese grade 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Chinese (Taiwan, Mandarin)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Chinese (Taiwan, Mandarin)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6880,36 +6892,6 @@ msgstr "уншаагүй "
 msgid "Editing profile {profile}"
 msgstr "Профайл засварлах {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "хөх ягаан далбаа"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Улбар шар далбаа"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Ногоон далбаа"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Шар далбаа"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Цэнхэр далбаа"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Улаан далбаа"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "өндөр ач холбогдолтой"
@@ -8710,23 +8692,13 @@ msgstr "Зөв бичих &дүрэм шалгах үйлдэл хэрвээ а
 msgid "Keyboard"
 msgstr "Компьютерийн гар"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
 msgstr ""
-"Том үсгийн товчыг Дэлгэц уншигч програмыг удирдах товчоор давхар ашиглах"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr ""
-"Тооны Insert товчыг Дэлгэц уншигч програмыг удирдах товчоор давхар ашиглах"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr ""
-"Extended Insert товчыг Дэлгэц уншигч програмыг удирдах товчоор давхар ашиглах"
+"&Том үсгийн товчыг Дэлгэц уншигч програмыг удирдах товч болгон давхар "
+"ашиглана уу"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8890,8 +8862,9 @@ msgstr "&Зөвлөмжүүд сонсох"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Туслах &анхааруулгууд сонсох"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "&Зөвлөмжүүд сонсох"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10954,6 +10927,40 @@ msgstr "Давхар мөр хоорондын зай"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5 мөр хоорондын зай"
+
+#~ msgid "purple flag"
+#~ msgstr "хөх ягаан далбаа"
+
+#~ msgid "Orange flag"
+#~ msgstr "Улбар шар далбаа"
+
+#~ msgid "Green flag"
+#~ msgstr "Ногоон далбаа"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Шар далбаа"
+
+#~ msgid "Blue flag"
+#~ msgstr "Цэнхэр далбаа"
+
+#~ msgid "Red flag"
+#~ msgstr "Улаан далбаа"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr ""
+#~ "Том үсгийн товчыг Дэлгэц уншигч програмыг удирдах товчоор давхар ашиглах"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr ""
+#~ "Тооны Insert товчыг Дэлгэц уншигч програмыг удирдах товчоор давхар ашиглах"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr ""
+#~ "Extended Insert товчыг Дэлгэц уншигч програмыг удирдах товчоор давхар "
+#~ "ашиглах"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Туслах &анхааруулгууд сонсох"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

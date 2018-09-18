@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1863\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2017-10-31 20:51-0700\n"
 "Last-Translator: Eakachai Charoenchaimonkon <eakachai_bo@hotmail.com>\n"
 "Language-Team: TAB Team <eakachai@gmail.com>\n"
@@ -1238,6 +1238,18 @@ msgstr "ไม่มีเบรลล์"
 #, fuzzy
 msgid "Vietnamese grade 1"
 msgstr "ลัดเชียนระดับ 1"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "จีน (ไต้หวัน จีนกลาง)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "จีน (ไต้หวัน จีนกลาง)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -7185,37 +7197,6 @@ msgstr "ยังไม่ได้อ่าน"
 msgid "Editing profile {profile}"
 msgstr ""
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-#, fuzzy
-msgid "purple flag"
-msgstr "ม่วง"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr ""
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr ""
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr ""
@@ -8976,20 +8957,11 @@ msgstr "ใช้&ความสามารถในการสะกดห�
 msgid "Keyboard"
 msgstr "เค้าโครง&แป้นพิมพ์"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
 msgstr "ใช้ปุ่ม CapsLock เป็นแป้นทดแทนของ NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "ใช้ปุ่ม Insert เป็นปุ่มทดแทนของปุ่ม NVDA"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "ใช้ปุ่ม extended Insert เป็นปุ่มทดแทนของปุ่ม NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -9160,8 +9132,9 @@ msgstr "รายงาน &tooltip"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "รายงาน&บอลลูนช่วยเหลือ"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "รายงาน &tooltip"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -11334,6 +11307,22 @@ msgstr ""
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr ""
+
+#, fuzzy
+#~ msgid "purple flag"
+#~ msgstr "ม่วง"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "ใช้ปุ่ม CapsLock เป็นแป้นทดแทนของ NVDA"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "ใช้ปุ่ม Insert เป็นปุ่มทดแทนของปุ่ม NVDA"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "ใช้ปุ่ม extended Insert เป็นปุ่มทดแทนของปุ่ม NVDA"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "รายงาน&บอลลูนช่วยเหลือ"
 
 #, fuzzy
 #~ msgctxt "languageName"

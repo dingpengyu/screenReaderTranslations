@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA source-master-55932c3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-08-23 09:52+0600\n"
 "Last-Translator: \n"
 "Language-Team: Bermet\n"
@@ -1146,6 +1146,18 @@ msgstr "Брайлевтик Unicode"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Ассам ( биринчи даража)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Кытайча ( Тайвань,Мандарин)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Кытайча ( Тайвань,Мандарин)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6848,36 +6860,6 @@ msgstr "окула элек"
 msgid "Editing profile {profile}"
 msgstr "Профильди тууралоо {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "кочкул кызыл желек"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Кочкул сарыжелек"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Жашыл желек"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Кочкул сарыжелек"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Көк желек"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Кызыл желек"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "жогорку денгээлде керектүү"
@@ -8621,20 +8603,11 @@ msgstr "Орфографияны аткаруу жана эгерде колдо
 msgid "Keyboard"
 msgstr "Топбаскыч"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "NVDA модификатору үчүн CapsLock баскычын колдонуу"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "NVDA модификатору үчүн numpad Инсерт баскычын колдонуу"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "NVDA модификатору үчүн numpad Инсерт баскычын колдонуу"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&NVDA өзгөртүү ачкычы катары CapsLock баскычын колдонуңуз"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8798,8 +8771,9 @@ msgstr "&кеңешме"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "Отчет &жардам"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "&кеңешме"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10876,6 +10850,36 @@ msgstr "Саптар арасы интервал"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5 сап арасы интервал"
+
+#~ msgid "purple flag"
+#~ msgstr "кочкул кызыл желек"
+
+#~ msgid "Orange flag"
+#~ msgstr "Кочкул сарыжелек"
+
+#~ msgid "Green flag"
+#~ msgstr "Жашыл желек"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Кочкул сарыжелек"
+
+#~ msgid "Blue flag"
+#~ msgstr "Көк желек"
+
+#~ msgid "Red flag"
+#~ msgstr "Кызыл желек"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "NVDA модификатору үчүн CapsLock баскычын колдонуу"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "NVDA модификатору үчүн numpad Инсерт баскычын колдонуу"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "NVDA модификатору үчүн numpad Инсерт баскычын колдонуу"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "Отчет &жардам"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

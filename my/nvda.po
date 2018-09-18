@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA source-master-d9b0092\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: 2018-08-19 10:44+0630\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1140,6 +1140,18 @@ msgstr "ယူနီကုတ်ဘရေးလ်"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "ဗီယက်နန် ဂရိတ် ၁"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "တရုတ်(ထိုင်ဝမ်၊မန်ဒရင်း)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "တရုတ်(ထိုင်ဝမ်၊မန်ဒရင်း)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6832,36 +6844,6 @@ msgstr "မဖတ်ရသေး"
 msgid "Editing profile {profile}"
 msgstr "Profile အားပြင်ဆင်ခြင်း {profile}"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "ခရမ်းရောင် အလံ"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "လိမ္မော်ရောင် အလံ"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "အစိမ်းရောင် အလံ"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "အဝါရောင် အလံ"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "အပြာရောင် အလံ"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "အနီရောင် အလံ"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "အရေးကြီးမှုအဆင့်မြင့်"
@@ -8653,20 +8635,11 @@ msgstr "အထောက်အပံ့ပေးထားလျှင်စာလ
 msgid "Keyboard"
 msgstr "ကီးဘုတ်"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
-msgstr "စာလုံးအကြီးခလုတ်ကို NVDA အပြောင်းခလုတ်အဖြစ်သုံးရန်"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "NVDA အပြောင်းခလုတ်အဖြစ် နမ်းပက်ဒ်ကြားထိုးထည့်သွင်း အင်းဆတ်ခလုတ်ကိုသုံးရန်"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "NVDA အပြောင်းခလုတ်အဖြစ် တိုးချဲ့ကြားထိုးထည့်သွင်း အင်းဆတ်ခလုတ်ကိုသုံးရန်"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
+msgstr "&စာလုံးအကြီးခလုတ်ကို NVDA အပြောင်းခလုတ်အဖြစ်သုံးရန်"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8829,8 +8802,9 @@ msgstr "ကိရိယာအညွှန်းအကြောင်းပြန
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "အကူအညီစကားပြောဘောင်ကွက်အကြောင်းပြန်ရန်"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "ကိရိယာအညွှန်းအကြောင်းပြန်ရန်"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -10891,6 +10865,36 @@ msgstr "လိုင်းအစိတ်အကျဲတန်ဖိုး ၂ �
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "လိုင်းအစိတ်အကျဲတန်ဖိုး ၁.၅ ဆ"
+
+#~ msgid "purple flag"
+#~ msgstr "ခရမ်းရောင် အလံ"
+
+#~ msgid "Orange flag"
+#~ msgstr "လိမ္မော်ရောင် အလံ"
+
+#~ msgid "Green flag"
+#~ msgstr "အစိမ်းရောင် အလံ"
+
+#~ msgid "Yellow flag"
+#~ msgstr "အဝါရောင် အလံ"
+
+#~ msgid "Blue flag"
+#~ msgstr "အပြာရောင် အလံ"
+
+#~ msgid "Red flag"
+#~ msgstr "အနီရောင် အလံ"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "စာလုံးအကြီးခလုတ်ကို NVDA အပြောင်းခလုတ်အဖြစ်သုံးရန်"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "NVDA အပြောင်းခလုတ်အဖြစ် နမ်းပက်ဒ်ကြားထိုးထည့်သွင်း အင်းဆတ်ခလုတ်ကိုသုံးရန်"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "NVDA အပြောင်းခလုတ်အဖြစ် တိုးချဲ့ကြားထိုးထည့်သွင်း အင်းဆတ်ခလုတ်ကိုသုံးရန်"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "အကူအညီစကားပြောဘောင်ကွက်အကြောင်းပြန်ရန်"
 
 #~ msgid "{language} - {layout}"
 #~ msgstr "{language} - {layout}"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 00:10+1000\n"
+"POT-Creation-Date: 2018-09-18 14:57+1000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -1140,6 +1140,18 @@ msgstr "Unicode-Braille"
 #. braille settings dialog.
 msgid "Vietnamese grade 1"
 msgstr "Vietnamesischee Vollschrift"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 1"
+msgstr "Chinesisch (Taiwan, Mandarin)"
+
+#. Translators: The name of a braille table displayed in the
+#. braille settings dialog.
+#, fuzzy
+msgid "Chinese (China, Mandarin) grade 2"
+msgstr "Chinesisch (Taiwan, Mandarin)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6914,36 +6926,6 @@ msgstr "Ungelesen"
 msgid "Editing profile {profile}"
 msgstr "Profiel {profile} in Bearbeitung"
 
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "purple flag"
-msgstr "Lilafarbene Kennzeichnung"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Orange flag"
-msgstr "Orangefarbene Kennzeichnung"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Green flag"
-msgstr "Grüne Kennzeichnung"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Yellow flag"
-msgstr "Gelbe Kennzeichnung"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Blue flag"
-msgstr "Blaue Kennzeichnung"
-
-#. Translators: a flag for a Microsoft Outlook message
-#. See https://msdn.microsoft.com/en-us/library/office/aa211991(v=office.11).aspx
-msgid "Red flag"
-msgstr "Rote Kennzeichnung"
-
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "Hohe Priorität"
@@ -8746,20 +8728,11 @@ msgstr "&Buchstabierfunktion verwenden (falls verfügbar)"
 msgid "Keyboard"
 msgstr "Tastatur"
 
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use CapsLock as an NVDA modifier key"
+#. Translators: This is the label for a list of checkboxes
+#. controlling which keys are NVDA modifier keys.
+#, fuzzy
+msgid "&Select NVDA Modifier Keys"
 msgstr "&Dauergroßschreibtaste als NVDA-Taste verwenden"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use numpad Insert as an NVDA modifier key"
-msgstr "Einfügetaste des &Nummernblocks als NVDA-Taste verwenden"
-
-#. Translators: This is the label for a checkbox in the
-#. keyboard settings panel.
-msgid "Use extended Insert as an NVDA modifier key"
-msgstr "Einfüge-Taste der &erweiterten Tastatur als NVDA-Taste verwenden"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8925,8 +8898,9 @@ msgstr "&Minihilfen (Tooltipps) ausgeben"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-msgid "Report &help balloons"
-msgstr "&Hilfesprechblasen ausgeben"
+#, fuzzy
+msgid "Report &notifications"
+msgstr "&Minihilfen (Tooltipps) ausgeben"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -11022,3 +10996,33 @@ msgstr "Doppelter Zeilenabstand"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1,5 Zeilenabstand"
+
+#~ msgid "purple flag"
+#~ msgstr "Lilafarbene Kennzeichnung"
+
+#~ msgid "Orange flag"
+#~ msgstr "Orangefarbene Kennzeichnung"
+
+#~ msgid "Green flag"
+#~ msgstr "Grüne Kennzeichnung"
+
+#~ msgid "Yellow flag"
+#~ msgstr "Gelbe Kennzeichnung"
+
+#~ msgid "Blue flag"
+#~ msgstr "Blaue Kennzeichnung"
+
+#~ msgid "Red flag"
+#~ msgstr "Rote Kennzeichnung"
+
+#~ msgid "Use CapsLock as an NVDA modifier key"
+#~ msgstr "&Dauergroßschreibtaste als NVDA-Taste verwenden"
+
+#~ msgid "Use numpad Insert as an NVDA modifier key"
+#~ msgstr "Einfügetaste des &Nummernblocks als NVDA-Taste verwenden"
+
+#~ msgid "Use extended Insert as an NVDA modifier key"
+#~ msgstr "Einfüge-Taste der &erweiterten Tastatur als NVDA-Taste verwenden"
+
+#~ msgid "Report &help balloons"
+#~ msgstr "&Hilfesprechblasen ausgeben"
