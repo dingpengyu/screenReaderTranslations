@@ -1143,15 +1143,13 @@ msgstr "Vietnamesischee Vollschrift"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Chinesisch (Taiwan, Mandarin)"
+msgstr "Chinesische Vollschrift (China, Mandarin)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Chinesisch (Taiwan, Mandarin)"
+msgstr "Chinesische Kurzschrift (China, Mandarin)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -8730,9 +8728,8 @@ msgstr "Tastatur"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "&Dauergroßschreibtaste als NVDA-Taste verwenden"
+msgstr "NVDA-Taste auswählen"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8898,9 +8895,8 @@ msgstr "&Minihilfen (Tooltipps) ausgeben"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "&Minihilfen (Tooltipps) ausgeben"
+msgstr "&Benachrichtigungen mitteilen"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
