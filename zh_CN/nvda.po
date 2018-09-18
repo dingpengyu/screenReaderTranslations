@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 14:57+1000\n"
-"PO-Revision-Date: 2018-09-11 08:46+0800\n"
+"PO-Revision-Date: 2018-09-18 19:19+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers < Copyright (C) "
 "2010-2018>\n"
@@ -1143,15 +1143,13 @@ msgstr "越南语一级点字"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "中文台湾国语点字"
+msgstr "中文中国汉语现行点字"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "中文台湾国语点字"
+msgstr "中文中国汉语双拼点字"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -8463,9 +8461,8 @@ msgstr "键盘"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "将“大小写锁定”键设为“NVDA”键(&U)"
+msgstr "选择NVDA键(&S)"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8628,9 +8625,8 @@ msgstr "读出工具提示(&T)"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "读出工具提示(&T)"
+msgstr "朗读通知(&R)"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
