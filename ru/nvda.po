@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Russian translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 14:57+1000\n"
-"PO-Revision-Date: 2018-09-05 13:54+0800\n"
+"PO-Revision-Date: 2018-09-18 15:36+0800\n"
 "Last-Translator: Kvark <kvark128@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -1141,15 +1141,13 @@ msgstr "Вьетнамский (первая ступень)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Китайский (Тайвань, Мандарин)"
+msgstr "Китайский (Китай, Мандарин) (первая ступень)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Китайский (Тайвань, Мандарин)"
+msgstr "Китайский (Китай, Мандарин) (вторая ступень)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -8687,9 +8685,8 @@ msgstr "Клавиатура"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "&Использовать CapsLock как клавишу-модификатор NVDA"
+msgstr "Клавиши-&модификаторы NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8854,9 +8851,8 @@ msgstr "Читать всплывающие &подсказки"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Читать всплывающие &подсказки"
+msgstr "Читать системные &уведомления"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
@@ -9427,7 +9423,7 @@ msgid "No speech"
 msgstr "Нет речи"
 
 msgid "word"
-msgstr "Слово"
+msgstr "слово"
 
 #. Translators: current position in a document as a percentage of the document length
 #, python-brace-format
