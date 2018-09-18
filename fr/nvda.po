@@ -8678,7 +8678,7 @@ msgstr "Clavier"
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
 msgid "&Select NVDA Modifier Keys"
-msgstr "&Choisir les touches de modification de NVDA"
+msgstr "&Choisir les touches NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
