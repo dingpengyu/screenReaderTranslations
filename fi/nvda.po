@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 14:57+1000\n"
-"PO-Revision-Date: 2018-08-26 13:02+0200\n"
+"PO-Revision-Date: 2018-09-18 09:59+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: fi <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -1141,15 +1141,13 @@ msgstr "vietnam, taso 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "mandariinikiina (Taiwan)"
+msgstr "mandariinikiina (Kiina), taso 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "mandariinikiina (Taiwan)"
+msgstr "mandariinikiina (Kiina), taso 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6617,7 +6615,7 @@ msgid ""
 "develops NVDA.\n"
 "Thank you for your support."
 msgstr ""
-"Tarvitsemme apuasi voidaksemme jatkaa NVDA:n parantelua.\n"
+"Tarvitsemme apuasi voidaksemme jatkaa NVDA:n kehittämistä.\n"
 "Tämä projekti perustuu etupäässä lahjoituksiin ja avustuksiin. "
 "Lahjoittamalla autat rahoittamaan täysipäiväistä kehitystä.\n"
 "Jos kutakin latausta kohti lahjoitettaisiin edes 10 dollaria, kykenisimme "
@@ -8653,9 +8651,8 @@ msgstr "Näppäimistö"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "Käytä &Caps Lockia  NVDA-näppäimenä"
+msgstr "V&alitse NVDA-toimintonäppäimet"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8819,9 +8816,8 @@ msgstr "Lue &työkaluvihjeet"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Lue &työkaluvihjeet"
+msgstr "Lue &ilmoitukset"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.

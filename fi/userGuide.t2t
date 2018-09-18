@@ -1259,18 +1259,15 @@ Kategoria sisältää seuraavat asetukset:
 ==== Näppäimistöasettelu ====[KeyboardSettingsLayout]
 Tästä yhdistelmäruudusta voit valita, mitä näppäimistöasettelua NVDA käyttää. Tällä hetkellä käytettävissä olevat kaksi vaihtoehtoaovat Pöytäkone ja Kannettava.
 
-==== Käytä Capslockia NVDA-näppäimenä ====[KeyboardSettingsCapsModifier]
-Jos tämä valintaruutu on valittuna, Capslock-näppäintä voidaan käyttää NVDA-näppäimenä.
-
-==== Käytä laajennettua Insertiä NVDA-näppäimenä ====[KeyboardSettingsExtendedInsert]
-Jos tämä valintaruutu on valittuna, laajennettua Insert-näppäintä (löytyy yleensä nuolinäppäinten yläpuolelta Home- ja End-näppäinten läheltä) voidaan käyttää NVDA-näppäimenä.
-
-==== Käytä numeronäppäimistön Insertiä NVDA-näppäimenä ====[KeyboardSettingsNumpadInsert]
-Jos tämä valintaruutu on valittuna, numeronäppäimistön Insertiä voidaan käyttää NVDA-näppäimenä.
-
++==== Select NVDA Modifier Keys ====[KeyboardSettingsModifiers]
++The checkboxes in this list control what keys can be used as [NVDA modifier keys #TheNVDAModifierKey]. The following keys are available to choose from:
++- The caps lock key
++- The insert key on the number pad
++- The extended insert key (usually found above the arrow keys, near home and end)
++-
+ 
 Jos NVDA-näppäimeksi ei ole valittu mitään, tiettyjen NVDA-komentojen käyttäminen voi olla mahdotonta.
-Tämän vuoksi Asetukset-valintaikkuna näyttää virheilmoituksen, mikäli näppäimiä ei ole valittuna OK-painiketta painettaessa.
-Kun virheilmoitus on kuitattu, vähintään yksi näppäin on valittava ennen kuin tehdyt muutokset voidaan hyväksyä ja valintaikkuna sulkea asianmukaisesti OK-painiketta painamalla.
+Tämän vuoksi Asetukset-valintaikkuna näyttää virheilmoituksen, mikäli näppäimiä ei ole valittuna OK- tai Käytä-painiketta painettaessa.
 
 %kc:setting
 ==== Puhu kirjoitetut merkit ====[KeyboardSettingsSpeakTypedCharacters]
