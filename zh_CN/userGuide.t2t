@@ -1010,62 +1010,62 @@ NVDA更新服务器只根据您的IP判断用户在哪国使用NVDA，并不会�
 这个对话框会出现在NVDA设置对话框之上
 保存或者更改合成器设置之后，会回到NVDA设置对话框。
 
-==== 语音 ====
+==== 语音 ====[SpeechSettingsVoice]
 这个选项是一个组合框列举了当前合成器安装的所有语音。
 您可以使用光标键聆听所有的不同声音。
 左光标和上光标允许您向上查看列表，右光标和下光标则允许您向下查看列表。
 
-==== 变声 ====
+==== 变声 ====[SpeechSettingsVariant]
 如果您正在使用和 NVDA 捆绑安装的 Espeak NG，您可以使用此组合框来选择语音输出时采用的声音。
 只要给 Espeak NG，您可以使用此组合框来选择语音输出时采用的声音。少许的属性改动，就可以令它的声音效果非常接近真人。
 有些声音听起来像女性，有些声音听起来像男性，有的听起来甚至像蛙鸣。
 
-====速度 ====
+====速度 ====[SpeechSettingsRate]
 此选项允许您更改语音的速度。
 这是一个从0到100的滑块，0的时候最慢，100的时候最快。
 
-====语调 ====
+====语调 ====[SpeechSettingsPitch]
 此选项允许您更改当前语音的语调。
 这是一个从0到100的滑块，0的时候最低，100的时候最高。
 
-==== 音量 ====
+==== 音量 ====[SpeechSettingsVolume]  
 这是一个从0到100的滑块，0的时候音量最小，100的时候最大。
 
-==== 变调 ====
+==== 变调 ====[SpeechSettingsInflection]
 此选项是一个滑块，允许您选择合成器进行语音输出时使用的语调的变化(最高和最低音调之差的大小)( 在目前提供此选项的合成器仅有 eSpeak NG)
 
-==== 自动语言切换 ====
+==== 自动语言切换 ====[SpeechSettingsLanguageSwitching]
  此复选框允许您切换在朗读定义了自己语言的文字时是否自动切换合成器的语言。
 默认情况下此选项被启用。
 当前，只有 ESpeak NG，您可以使用此组合框来选择语音输出时采用的声音。 支持自动语言切换。
 
-==== 自动方言切换 ====
+==== 自动方言切换 ====[SpeechSettingsDialectSwitching]
 此复选框允许您定义是否自动的进行方言切换，而不是语言。
 例如，如果您正在使用一个美国英语的合成器语音进行阅读，而文档指定某些文字是英国英语的，口音就会被改变，前提是此选项被启用。
 默认情况下此选项被停用。
 
 %kc:setting
-==== 标点/符号 级别 ====
+==== 标点/符号 级别 ====[SpeechSettingsSymbolLevel]
 按键: NVDA+p
 
 此选项允许您定义朗读时，标点和符号朗读的数量。
 例如，设置成“全部”，朗读时所有标点都会被读出。
 此选项应用于所有的合成器，而并不仅用于当前激活的合成器。
 
-==== 处理字符和标点时信任语音的语言 ====
+==== 处理字符和标点时信任语音的语言 ====[SpeechSettingsTrust]
 默认启用，该选项告诉 NVDA 在处理字符和标点时当前语音语言是否可信。
 如果您发现 NVDA 在使用特定的合成器或声音读出某标点时使用了错误的语言，您可能希望把它关闭并强制 NVDA 使用其自身的本地设置来代替语音语言译者注：对于vocalizer和vocalizer express的语音库而言此设置无效。
 
-==== 大写时音高变化的百分比 ====
+==== 大写时音高变化的百分比 ====[SpeechSettingsCapPitchChange]
 这是一个编辑框，允许您定义在遇到大写字母时，语音语调变化的数值。
 此数值是一个百分数，负数语调降低，正数语调升高。
 设置为0的时候语调不变。
 
-==== 遇到大写字母时先提示“大写” ====
+==== 遇到大写字母时先提示“大写” ====[SpeechSettingsSayCapBefore]
 此设置是一个复选框，如果选择，告诉 NVDA，在读出单独的大写字母之前提示“大写”字样。
 通常，NVDA 会为任何的大写字母轻微地升高语调，但是一些合成器并不能很好地支持此选项，所以提供这个可能有用的选项。
 
-==== 遇到大写字母时发出提示音 ====
+==== 遇到大写字母时发出提示音 ====[SpeechSettingsBeepForCaps]
 如果此复选框被选中，每次遇到大写字母时，NVDA 会自行发出一个小小的提示音。
 和“遇到大写字母时先提示大写”的复选框一样，当合成器无法正常地改变语调时，这会是一个实用的选择。
 
@@ -1092,11 +1092,11 @@ NVDA 支持的合成器列表可以在[支持的语音合成器 #SupportedSpeech
 出现在列表中的一个特殊的项目“关闭语音”，允许您在没有语音输出的情况下使用 NVDA。
 此选项可能对那些只想用点字输出的用户或者只想用“语音查看器”查看语音内容的开发者来说非常有用。
 
-==== 输出设备 ====
+==== 输出设备 ====[SelectSynthesizerOutputDevice]
 此选项允许您选择 NVDA 控制合成器进行语音输出时使用的声卡。
 
 %kc:setting
-==== 音频闪避模式 ====
+==== 音频闪避模式 ====[SelectSynthesizerDuckingMode]
 按键: NVDA+shift+d
 
 在 Windows 8 或以上版本的操作系统中，此选项允许您选择，是否在 NVDA 朗读时，亦或是在 NVDA 运行时，减小其他程序的声音。
@@ -1282,123 +1282,126 @@ NVDA设置对话框中的“键盘设置”部分包含一些选项，用于设�
 
 如果启用，NVDA 会读出所有在键盘上键入的单词。
 
-==== 输入时中断朗读 ====
+==== 输入时中断朗读 ====[KeyboardSettingsSpeechInteruptForCharacters]
 如果打开，此选项会导致在每次进行输入时朗读被中断。此选项默认情况下启用。
 
-==== 按下回车键(enter)时中断朗读 ====
+==== 按下回车键(enter)时中断朗读 ====[KeyboardSettingsSpeechInteruptForEnter]
 如果打开，此选项会导致在每次按下回车键(enter)时朗读被中断。此选项默认情况下启用。
 
-==== 在全文朗读模式下启用快捷键导航 ====
+==== 在全文朗读模式下启用快捷键导航 ====[KeyboardSettingsSpeechInteruptForEnter]
 如果启用，某些导航命令(例如浏览模式下的快速导航或者按照行和段落移动)不会中断全文朗读，而会让其跳到下一个位置继续朗读。
  
-==== 若大小写锁定键(capslock)打开，输入小写字母时发出提示音 ====
+==== 若大小写锁定键(capslock)打开，输入小写字母时发出提示音 ====[KeyboardSettingsBeepLowercase]
 如果启用，在大小写锁定建(capslock)打开时使用 Shift 键进行小写字母输入，您会听到一个警告提示音。
 通常，使用大小写锁定建输入转译字符是无意识的，使用此键进行转译字符输入通常是由于未能意识到大小写锁定建已经被打开。
 因而，在这种情况下发出警告是非常实用的。
 
 %kc:setting
-==== 朗读命令键 ====
+==== 朗读命令键 ====[KeyboardSettingsSpeakCommandKeys]
 按键: NVDA+4
 
 如果启用，NVDA 将读出您在键盘上键入的所有飞字符按键，这也包括组合键，例如 control 加其他字母。
 
-==== 若键入时包含拼写错误则发出提示音 ====
+==== 若键入时包含拼写错误则发出提示音 ====[KeyboardSettingsAlertForSpellingErrors]
 如果启用，您的键入若包含拼写错误时，将可播放一个短促的时蜂鸣音。
 仅当[文档格式设置的 #DocumentFormattingSettings]对话框的“朗读拼写错误”选项启用时才生效。
 
-==== 从其他程序获取键盘控制权 ====
+==== 从其他程序获取键盘控制权 ====[KeyboardSettingsHandleKeys]
 此选项允许您选择，是否希望 NVDA 接管其他程序(如屏幕键盘或语音识别程序)的键盘动作。
 默认情况下，此选项启用，某些特定的用户可能希望将其关闭，如使用 unikey 进行越南语输入会造成错误的字符输入。
 
 +++鼠标设置 (NVDA+control+m) +++[MouseSettings]
-
-193/5000
-NVDA设置对话框中的“鼠标设置”允许NVDA跟踪鼠标，嘟嘟声表示鼠标坐标并设置其他鼠标使用选项。
-
+NVDA设置对话框中的“鼠标设置”分类允许NVDA跟踪鼠标，用嘟嘟声表示鼠标坐标并设置其他鼠标使用选项。
 它包括以下选项：
 
-==== 朗读鼠标形状改变 ====
+==== 朗读鼠标形状改变 ====[MouseSettingsShape]
 这是一个复选框，选中则意味着在每次鼠标指针形状发生改变时朗读出鼠标指针的形状。
 在 Windows 下，指针形状的改变传送着某些信息，如某些东西可编辑或某些东西正在加载等等。
 
 %kc:setting
-==== 启用鼠标导航 ====
+==== 启用鼠标导航 ====[MouseSettingsTracking]
 按键: NVDA+m
 
 如果启用，NVDA 会在您移动鼠标浏览屏幕时，朗读当前指针所指的文本，这允许您通过移动物理鼠标来寻找某个东西，而不是使用浏览对象。
 
-==== 文本识别单元 ====
+==== 文本识别单元 ====[MouseSettingsTextUnit]
 如果设置 NVDA 在鼠标经过时朗读文本，此选项允许您设置朗读文本的多少。
 选项分别为字符、单词和段落。
 
-==== 读出鼠标所进入对象的类型 ====
+==== 读出鼠标所进入对象的类型 ====[MouseSettingsRole]
 如果此复选框被选中，NVDA 将读出鼠标所进入的对象的类型。
 
-==== 鼠标移动时播放音频坐标 ====
+==== 鼠标移动时播放音频坐标 ====[MouseSettingsAudio]
 选择此复选框，NVDA 会在鼠标移动时播放提示音，结合屏幕的尺寸，用户可以计算出鼠标的位置。
 鼠标所在的屏幕高度越大，音调越高。
 鼠标越靠左或者靠右，声音也越靠左或者靠右(假设用户有立体声喇叭或者耳机)。
 
-==== 亮度控制音频坐标的音量 ====
+==== 亮度控制音频坐标的音量 ====[MouseSettingsBrightness]
 如果“鼠标移动时播放音频坐标”复选框被选中之后，选中此复选框意味着，播放音频坐标的音量由鼠标下的屏幕亮度的大小来决定。
 此设置默认情况下不选中。
 
-+++ 浏览光标设置 +++
++++ 使用触摸屏与系统交互 +++[TouchInteraction]
+这个部分只有在设备有触摸屏并且系统是Windows 8或者更高的版本才可用。
+这个分类包含以下选项这个分类包含以下选项
+
+==== Touch typing mode ====[TouchTypingMode]
+This checkbox allows you to specify the method you wish to use when entering text using the touch keyboard.
+If this checkbox is checked, when you locate a key on the touch keyboard, you can lift your finger and the selected key will be pressed.
+If this is unchecked, you need to double-tap on the touch keyboard key to press the key.
+
++++ 浏览光标设置 +++[ReviewCursorSettings]
 可以再“选项”菜单下的“浏览光标...”找到。
 此对话框包含以下选项：
 
 %kc:setting
-==== 跟随系统焦点 ====
+==== 跟随系统焦点 ====[ReviewCursorFollowFocus]
 按键: NVDA+7
 
 如果启用，浏览光标无论什么时候都会与系统焦点处于相同的对象上，即使系统焦点进行了移动。
 
 %kc:setting
-==== 跟随系统输入焦点 ====
+==== 跟随系统输入焦点 ====[ReviewCursorFollowCaret]
 按键: NVDA+6
 
 如果启用，浏览光标将在每次系统输入焦点移动时自动地移动到它所在的位置上。
 
-==== 跟随鼠标 ====
+==== 跟随鼠标 ====[ReviewCursorFollowMouse]
 如果启用，浏览光标会随着鼠标的移动而移动。
 
-==== 简易浏览模式 ====
+==== 简易浏览模式 ====[ReviewCursorSimple]
 如果启用，NVDA 会通过过滤可被浏览到的层级对象(例如隐藏对象或者仅起到布局作用的对象)，达到排除用户不感兴趣的对象的目的。
 
 要想随时随地切换浏览模式，您可在[输入手势 dialog #InputGestures]增加新的自定义快捷键。
 
-+++ 对象查看设置 (NVDA+control+o) +++
-可以再“选项”菜单下的“对象查看...”找到。
-此对话框包涵下面的选项：
++++ 对象查看设置 (NVDA+control+o) +++[ObjectPresentationSettings]
+“对象查看...”这个部分控制NVDA展示的对象信息，例如对象的描述和位置信息。
+这个分类包含以下选项
 
-==== 读出工具提示 ====
+==== 读出工具提示 ====[ObjectPresentationReportToolTips]
 一个复选框，如果选中则告诉 NVDA 朗读出现在屏幕的工具提示。
 当您的鼠标指针经过某些窗口和对象，或在有的时候把焦点放在他们上面时，这些窗口或控件都会显示短消息(或称工具提示)。
 
-==== 读出气球提示 ====
+==== 读出气球提示 ====[ObjectPresentationReportBalloons]
 当此复选框被选中时，告诉 NVDA 在气球提示出现时朗读。
 气球提示就像工具提示，但尺寸通常比较大，提示的一般是系统事件。比如网络电缆没有插好、或向您指出 Windows 系统可能存在安全问题等。
 
-==== 读出对象的快捷键 ====
+==== 读出对象的快捷键 ====[ObjectPresentationShortcutKeys]
 如果此复选框被选中，NVDA 会在朗读某些对象或控件时包含与其有关联的快捷键。
 例如，菜单栏的“文件”菜单就可能包含快捷键 alt+f。
 
-==== 读出对象的位置信息 ====
+==== 读出对象的位置信息 ====[ObjectPresentationPositionInfo]
 此选项允许您选择是否在浏览到焦点对象或者浏览对象时，获取对象的位置信息(例如4之1项)
 
-==== 在对象的位置信息不可用时进行推测 ====
+==== 在对象的位置信息不可用时进行推测 ====[ObjectPresentationGuessPositionInfo]
 如果“读出对象的位置信息”复选框启用，此选项允许 NVDA 为位置信息不可用的特殊控件推断位置。
 
 如果启用，NVDA 会为更多的、如菜单、工具栏等控件读出位置信息，然而，这些信息可能会包含少许的错误。
 
-==== 用声音表示当前对象的位置 ====[ObjectPresentationObjectCoordinates]
-当此复选框被选中时，你会听到描述当前对象位置的滴声。使用触摸屏手势时比较有用。
-
-==== 读出对象描述 ====
+==== 读出对象描述 ====[ObjectPresentationReportDescriptions]
 如果您不希望了解和对象一起提供的描述，取消选中此复选框。
 
 %kc:setting
-==== 进度栏更新提示 ====
+==== 进度栏更新提示 ====[ObjectPresentationProgressBarOutput]
 按键: NVDA+u
 
 此选项控制 NVDA 如何向您报告进度栏的更新。
@@ -1410,101 +1413,106 @@ NVDA设置对话框中的“鼠标设置”允许NVDA跟踪鼠标，嘟嘟声表
 - 朗读并以提示音表示进度栏更新：此选项告诉 NVDA，在进度栏更新时发出提示音并朗读。
 -
 
-==== 报告后台进度栏更新 ====
+==== 报告后台进度栏更新 ====[ObjectPresentationReportBackgroundProgressBars]
 此选项如果选中则告诉 NVDA，保持进度栏更新的报告，即使它并未完全处于前台。
 即使您最小化或者离开了包含进度栏的窗口，，NVDA 仍然会继续跟踪它，并允许您继续完成其他事情。
 
 %kc:setting
-==== 读出动态内容更新 ====
+==== 读出动态内容更新 ====[ObjectPresentationReportDynamicContent]
 按键: NVDA+5
 
 切换是否朗读某些特殊控件的内容更新，例如终端或者聊天程序的历史控件。
 
-+++ 输入法设置 +++
-“输入法设置”对话框可以在“选项”菜单找到。
-此对话框允许您控制 NVDA 用何种方式朗读亚洲字符的输入，例如 IME 或 Text Service 的输入法。
+==== Play a sound when auto-suggestions appear ====[ObjectPresentationSuggestionSounds]
+Toggles announcement of appearance of auto-suggestions, and if enabled, NVDA will play a sound to indicate this.
+Auto-suggestions are lists of suggested entries based on text entered into certain edit fields and documents.
+For example, when you enter text into the search box in Start menu in Windows Vista and later, Windows displays a list of suggestions based on what you typed.
+For some edit fields such as search fields in various Windows 10 apps, NVDA can notify you that a list of suggestions has appeared when you type text.
+The auto-suggestions list will close once you move away from the edit field, and for some fields, NVDA can notify you of this when this happens.
+
++++ 输入法设置 +++[InputCompositionSettings]
+“输入法设置”这个分类允许您控制 NVDA 用何种方式朗读亚洲国家语言中字符的输入方式，例如 IME 或 TSF框架的输入法。
  请注意，现在的输入法之间在特性上和信息传递上都有着很大的差异，想获得更高效的输入体验，为每个输入法进行不同的设置在大多数时候看来是必须的。
  
-==== 自动朗读所有可用的候选 ====
+==== 自动朗读所有可用的候选 ====[InputCompositionReportAllCandidates]
 此选项默认情况下启用，允许您选择是否在候选列表出现时或他的页面被滚动时，自动朗读所有候选列表上的可见候选。
 对于如新仓颉或無蝦米等中文笔画输入法而言，拥有此选项是非常实用的。您可以迅速地听到所有的标点和编号，并正确的作出选择。
 然而，对于中国的新注音输入法等拼音输入法而言，关闭此选项可能更为实用。当所有候选听起来都相同的时候，您必须使用光标键在候选列表之中逐一进行浏览，从而在每个字符的字符描述中获取更多的信息。
 
-==== 朗读选中的候选 ====
+==== 朗读选中的候选 ====[InputCompositionAnnounceSelectedCandidate]
 此选项默认情况下启用，允许您选择，在候选列表出现时或在选择的候选发生变动时，是否朗读选择的候选。
 对于那些可以使用光标键更改选择的输入法(如中文的新注音输入法)而言，这是必须的。但是，对于一些输入法来说，可能关闭此选项后，输入效率反而能够提高。
  请注意，即使此选项被关闭，浏览光标仍然会停留在选择的候选上，并允许您使用导航对象(即浏览光标)来手动读取选择的或者其他的候选。
 
-==== 朗读候选时总包含短字符描述 ====
+==== 朗读候选时总包含短字符描述 ====[InputCompositionCandidateIncludesShortCharacterDescription]
 这个选项默认时启用，允许您选择是否希望在候选列表出现后，在选择的候选发生改变时或自动朗读候选时，为每一个候选字符分别读出它的短描述。
 请注意，在某些区域设置，此选项中朗读选择的候选包含的短字符描述这一特性无效。
 此选项对于韩语或者日语输入法也许很有用。
  
-==== 朗读预上屏字串的更新 ====
+==== 朗读预上屏字串的更新 ====[InputCompositionReadingStringChanges]
 一些输入法，例如中文的新注音或新仓颉输入法拥有 Reading 字串(有时也被认为是预上屏字串)。
 您可以使用此选项选择是否允许 NVDA 朗读被输入到预上屏字串的新字符。
 此选项默认启用
 请注意，一些旧的输入法，如中文仓颉输入法，可能不会使用 Reading 字串存放预上屏字串，取而代之的是直接使用上屏字串。请查看下一个选项获取更多上屏字串配置的信息。
 
-==== 朗读上屏字串 ====
+==== 朗读上屏字串 ====[InputCompositionCompositionStringChanges]
 在完成预上屏之后，数据已经被组合成一个笔画图形，在他们最终被输入到文档之前，大多数输入法将这些图形放入上屏(conposition)字串之内暂时存储。
 此选项允许您选择是否允许 NVDA 读取存放在上屏(composition)字串内的新图形。
 此选项默认情况下启用。
 
-+++ 浏览模式设置 (NVDA+control+b) +++
-“浏览模式设置”对话框可以在“选项”菜单下的“浏览模式”找到。
++++ 浏览模式设置 (NVDA+control+b) +++[BrowseModeSettings]
+“浏览模式设置”分类包含用NVDA浏览文档比如网页时的选项
+这个分类包含以下选项
 
-这个对话框包含下列的选项：
-
-==== 每行最大字符数 ====
+==== 每行最大字符数 ====[BrowseModeSettingsMaxLength]
 此区域设置浏览模式下每行的最大长度(以字符为单位)。
 
-==== 每页最大行数 ====
+==== 每页最大行数 ====[BrowseModeSettingsPageLines]
 此区域设置在浏览模式下，定义在您使用上翻页或者下翻页移动时的行数。
 
 %kc:setting
-==== 使用屏幕真实布局 ====
+==== 使用屏幕真实布局 ====[BrowseModeSettingsScreenLayout]
 按键: NVDA+v
 
  此选项允许您定义是否把内容(如链接、表单)独立成为一行，或者象视觉所看到的，保持文字的布局不变。如果此选项启用，文字的布局就会与视觉同步，如果此选项被关闭，每个不同的区域就会独立成为一行。
 
-==== 页面加载完成后朗读所有内容 ====
+==== 页面加载完成后朗读所有内容 ====[BrowseModeSettingsAutoSayAll]
 此复选框用来切换在浏览模式下，页面加载完成之后自动朗读所有内容的开关。
 此选项默认情况下启用。
 
-==== 包含布局表格 ====
+==== 包含布局表格 ====[BrowseModeSettingsIncludeLayoutTables]
 此选项用于控制仅用作布局的列表的获取。
 如果启用，NVDA 会把他们当作普通的列表对待，依照[文档格式设置 #DocumentFormattingSettings]来朗读，并可使用快捷命令进行快速定位。
 如果停用，它将不会被朗读，且用快捷键也无法跳转。
 不管怎样，列表的内容都会作为文本被包含在阅读的进程中。
 此选项默认情况下是关闭的。
 
-==== 配置区域的朗读(如链接、标题) ====
-请查看[文档格式设置对话框 #DocumentFormattingSettings]的选项，获取配置区域(如链接、标题和表格等)的朗读方式。
+要想在任何地方切换包含布局表格设置，可在[输入手势对话框 #InputGestures]设置一个自定义手势
 
-==== 焦点改变时切换到焦点模式 ====
+==== 配置区域的朗读(如链接、标题) ====[BrowseModeLinksAndHeadings]
+请查看[文档格式设置 #DocumentFormattingSettings]的选项，获取配置区域(如链接、标题和表格等)的朗读方式。
+
+==== 焦点改变时切换到焦点模式 ====[BrowseModeSettingsAutoPassThroughOnFocusChange]
 此选项允许在焦点被更改时调用焦点模式。
  例如，您在一个网页上，你通过按 tab 键，使焦点落在表单区域，如果此选项被启用，焦点模式将被自动地调用。
 
-==== 输入焦点移动时的自动焦点模式 ====
+==== 输入焦点移动时的自动焦点模式 ====[BrowseModeSettingsAutoPassThroughOnCaretMove]
 此选项如果选中，允许 NVDA 在您使用光标键时进入或者离开焦点模式。
 例如，正在用光标浏览网页，遇到一个编辑框，NVDA 会自动地带您到焦点模式，如果光标离开编辑框，NVDA 就返回浏览模式。
 
-==== 用音效提示焦点模式或浏览模式 ====
+==== 用音效提示焦点模式或浏览模式 ====[BrowseModeSettingsPassThroughAudioIndication]
 如果此选项被启用，NVDA 会在切换浏览模式或者焦点模式时播放一个特别的声音，而不是用语音提示更改。
 
-==== 拦截所有非命令手势，以防止意外的文档写入 ====
+==== 拦截所有非命令手势，以防止意外的文档写入 ====[BrowseModeSettingsTrapNonCommandGestures]
 默认启用，此选项允许您选择手势输入(如按下一个按键)是否不作为 NVDA 命令或一般的命令键，命令将被拦截，以防止其通过所聚焦的文档。
 举一个例子，如果启用，当您按下字母“j”后，它会被阻拦在所聚焦的文档，极它既不会作为 NVDA 的跳转热键，也不会作为程序自身的命令(译者注：就上面的例子来说，假设我们现在聚焦在word文档里，当按j的时候，他不会跳转文档，也不会当成字母j输入到文档，就是j就无效了)。
 
 +++ 文档格式设置 (NVDA+control+d) +++[DocumentFormattingSettings]
-此对话框可以在“选项”菜单下的“文档格式...”找到。
-
-此对话框的大多数复选框都是用来配置，在您用光标浏览整个文档时朗读什么类型的格式信息。
+“文档格式...”这个分类下面的大多数复选框都是用来配置，在您用光标浏览整个文档时朗读什么类型的格式信息。
 例如，如果您选择了“朗读字体名称”复选框，每次您用光标进入拥有不同字体的文本时，字体名称就会被读出。
 
-文档格式信息已经被编成群组了。
-您可以配置的朗读有：
+文档格式信息已经被编成组了。
+您可以配置的选项有：
 - 字体
  - 字体名称
  - 字体大小
@@ -1517,8 +1525,8 @@ NVDA设置对话框中的“鼠标设置”允许NVDA跟踪鼠标，嘟嘟声表
  - 编辑者修订
  - 拼写错误
 - 页面和间距
- - Page numbers
- - 行数
+ - 页码
+ - 行号
  - 行首缩进提示方式 [(关闭，语音，声音，语音和声音) #lineIndentationOptions]
  - 段落缩进 (例如悬挂式缩进，首行缩进)
  - 行间距 (单行行间距，双倍行间距等)
@@ -1526,32 +1534,29 @@ NVDA设置对话框中的“鼠标设置”允许NVDA跟踪鼠标，嘟嘟声表
 - 表格信息
  - 表格
  - 行/列标题
- - 单元坐标
+ - 单元格坐标
+ - 单元格边框[(关闭, 边框样式, 边框颜色和样式等)]
 - 元素
  - 标题
  - 链接
  - 列表
- - 引用去
- - 地标
+ - 引用区域
+ - 路标
  - 框架
  - 可点击
  -
 -
 
-
--如果某些东西可点击
--
-
 要想在任何地方切换这些设置，可在[输入手势对话框 #InputGestures]设置一个自定义手势
 
-==== 朗读光标经过时的文本格式变化 ====
+==== 朗读光标经过时的文本格式变化 ====[DocumentFormattingDetectFormatAfterCursor]
 如果启用，此设置告诉 NVDA 尝试去检测正在朗读的行的所有格式信息的变动，即使这样做会导致 NVDA 执行效率降低。
 
  默认情况下，NVDA 会检测系统输入焦点或者浏览光标所在位置的格式信息，某些情况也会检测这一行的剩余部分，前提是这样做不会降低执行效率。
 
-在文档校对时为某些程序(如 Wordpa	d)启用此选项非常实用，因为格式信息很重要。
+在文档校对时为某些程序(如 Wordpad)启用此选项非常实用，因为格式信息很重要。
 
-==== 行缩进的提示方式 ====
+==== 行缩进的提示方式 ====[DocumentFormattingSettingsLineIndentation]
 此选项允许您定义如何提示行首位置的缩进。
 “行缩进的提示方式为”组合框包含四个选项：
 
