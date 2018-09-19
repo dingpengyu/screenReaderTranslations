@@ -598,66 +598,66 @@ NVDA 支持下列类型的数学内容：
 
 + 盲文 +[Braille]
 如果你有一个盲文显示器，NVDA可以以盲文的形式显示屏幕上的信息
-If your braille display has a Perkins-style keyboard, you can also enter contracted or uncontracted braille.
+如果你的点显器有 Perkins 键盘，你还可以键入简写或非简写点字。
 
-Please see the [Supported Braille Displays #SupportedBrailleDisplays] section for information about the supported braille displays.
-This section also contains information about what displays support NVDA's automatic background braille display detection functionality.
-You can configure braille using the [Braille category #BrailleSettings] of the [NVDA Settings #NVDASettings] dialog.
+有关支持的盲文显示器的信息，请参阅[支持的盲文显示器#SupportedBrailleDisplays]部分。
+本节还包含有关支持NVDA自动背景盲文显示检测功能的显示器的信息。
+您可以使用[NVDA设置#NVDASettings]对话框的[盲文类别#BrailleSettings]配置盲文。
 
-++ Control Type, State and Landmark abbreviations ++[BrailleAbbreviations]
-In order to fit as much information as possible on a braille display, the following abbreviations have been defined to indicate control type and state as well as landmarks.
+++ 控件类型/状态和路标缩写 ++ [BrailleAbbreviations]
+为了在盲文显示器上安装尽可能多的信息，已经定义了以下缩写来指示控制类型和状态以及界标。
 
-|| Abbreviation | Control type |
-| app | application |
-| bqt | block quote |
-| btn | button |
-| drbtn | drop down button |
-| spnbtn | spin button |
-| splbtn | split button |
-| tgbtn | toggle button |
-| cbo | combo box |
-| chk | checkbox |
-| dlg | dialog |
-| doc | document |
-| edt | editable text field |
-| pwdedt | password edit |
-| embedded | embedded object |
-| enote | end note |
-| fnote | foot note |
-| gra | graphic |
-| grp | grouping |
-| hN | heading at level n, e.g. h1, h2. |
-| hlp | help baloon |
-| lmk | landmark |
-| lnk | link |
-| vlnk | visited link |
-| lst | list |
-| mnu | menu |
-| mnubar | menu bar |
-| mnubtn | menu button |
-| mnuitem | menu item |
-| pnl | panel |
-| prgbar | progress bar |
-| rbtn | radio button |
-| scrlbar | scroll bar |
-| sect | section |
-| stbar | status bar |
-| tabctl | tab control |
-| tbl | table |
-| cN | table column number n, e.g. c1, c2. |
-| rN | table row number n, e.g. r1, r2. |
-| term | terminal |
-| tlbar | tool bar |
-| tltip | tool tip |
-| tv | tree view |
-| tvbtn | tree view button |
-| tvitem | tree view item |
-| lv N | a tree view item has a hierarchical level N|
-| wnd | window |
-| ⠤⠤⠤⠤⠤ | separator |
+|| 缩写 | 控件类型 |
+| app | 应用程序 |
+| bqt | 引用 |
+| btn | 按钮 |
+| drbtn | 下拉按钮 |
+| spnbtn | 调整按钮 |
+| splbtn | 分割按钮 |
+| tgbtn | 切换按钮 |
+| cbo | 组合框 |
+| chk | 复选框 |
+| dlg | 对话框 |
+| doc | 文档 |
+| edt | 编辑栏 |
+| pwdedt | 密码编辑区 |
+| embedded | 嵌入式对象 |
+| enote | 章节附注 |
+| fnote | 注脚 |
+| gra | 图片 |
+| grp | 群组 |
+| hN | 标题层级，例如，1级标题 H1、2级标题 H2。 |
+| hlp | 气泡帮助 |
+| lmk | 地标 |
+| lnk | 链接 |
+| vlnk | 已访问链接 |
+| lst | 清单 |
+| mnu | 功能表 |
+| mnubar | 菜单 |
+| mnubtn | 菜单栏 |
+| mnuitem | 菜单按钮 |
+| pnl | 面板 |
+| prgbar | 进度栏 |
+| rbtn | 单选按钮 |
+| scrlbar | 滚动条 |
+| sect | 区域 |
+| stbar | 状态栏 |
+| tabctl | 标签页 |
+| tbl | 表格 |
+| cN | 表格行数，例如，第1行C1、第2行C2。 |
+| rN | 表格列数，例如，第1列R1、第2列R2。 |
+| term | 终端 |
+| tlbar | 工 |
+| tltip | 工具提示 |
+| tv | 树状查看 |
+| tvbtn | 树视图按钮 |
+| tvitem | 树视图项目 |
+| lv N | 树视图第N个级项目 |
+| wnd | 窗口 |
+| ⠤⠤⠤⠤⠤ | 分隔线 |
 
-下面是NVDA定义的对象信息标识:
-|| Abbreviation | Control state |
+下面是NVDA定义的控件状态的缩写:
+|| 缩写 | 控件状态 |
 | ... | displayed when an object supports autocompletion |
 | ⢎⣿⡱ | displayed when an object (e.g. a toggle button) is pressed |
 | ⢎⣀⡱ | displayed when an object (e.g. a toggle button) is not pressed |
@@ -692,19 +692,19 @@ Finally, the following abbreviations for landmarks are defined:
 | srch | search |
 | rgn | region |
 
-++ Braille Input ++[BrailleInput]
-NVDA supports entry of both uncontracted and contracted braille via a braille keyboard.
-You can select the translation table used to translate braille into text using the [Input table #BrailleSettingsInputTable] setting in the Braille category of the [NVDA Settings #NVDASettings] dialog.
+++ 点字输入 ++[BrailleInput]
+NVDA支持从点显器输入简写以及非简写点字。
+您可以使用 [NVDA设置 #NVDASettings] 对话框中“点字”类别的 [输入转译表 #BrailleSettingsInputTable] 将点字转成文本。
 
-When uncontracted braille is being used, text is inserted as soon as it is entered.
-When using contracted braille, text is inserted when you press space or enter at the end of a word.
-Note that translation can only reflect the braille word you are typing and cannot consider existing text.
-For example, if you are using a braille code that begins numbers with a number sign and you press backspace to move to the end of a number, you will need to type the number sign again to enter additional numbers.
+当使用的是非简写的点字，则在输入后立即转成文本。
+当使用的是简写的点字，则于一个字输入后按空格键或Enter，才会将文本输入。 
+值得注意的是:点字转译仅可视为翻译您输入的点字，而非现有的文本。
+例如:如果您要使用点字来打一个带头有数字符号"#"的数字，当您使用退格键倒退到这个数字的尾端，则您需要再打一次数字符号才可以将数字输入。
 
 %kc:beginInclude
-Pressing dot 7 erases the last entered braille cell or character.
-Dot 8 translates any braille input and presses the enter key.
-Pressing dot 7 + dot 8 translates any braille input, but without adding a space or pressing enter.
+按第7点 删除最后输入的点字或字符。
+按第8点 翻译任何点字输入且按Enter。
+按第7与第8点 转译任何点字的输入，但没有加空格或按Enter。
 %kc:endInclude
 
 + 图像内容识别 +[ContentRecognition]
@@ -1423,7 +1423,7 @@ NVDA设置对话框中的“鼠标设置”分类允许NVDA跟踪鼠标，用嘟
 
 切换是否朗读某些特殊控件的内容更新，例如终端或者聊天程序的消息历史控件。
 
-==== Play a sound when auto-suggestions appear ====[ObjectPresentationSuggestionSounds]
+==== 出现输入建议时播放声音 ====[ObjectPresentationSuggestionSounds]
 切换是否朗读自动弹出的建议，如果启用，NVDA将播放声音以指示此情况。
 自动建议是基于输入到某些编辑字段和文档中的文本的建议条目列表。
 例如，当您在Windows Vista及更高版本的“开始”菜单的搜索框中输入文本时，Windows会根据您键入的内容显示建议列表。
