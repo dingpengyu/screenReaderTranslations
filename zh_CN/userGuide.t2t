@@ -224,7 +224,7 @@ NVDA 目前共有两套被称为键盘布局的快捷键配置：一套台式机
 三个手指点击屏幕即可切换触摸模式。
 %kc:endInclude
 
-+++ 触摸键盘 +++ [TouchKeyboard]
++++ 触摸键盘 +++[TouchKeyboard]
 触摸键盘用于从触摸屏输入文本和命令。
 焦点位于编辑区域时，您可以通过双击屏幕底部的触摸键盘图标来调出触摸键盘。
 对于Surface Pro等平板电脑，当键盘断开连接时，触摸键盘始终可用。
@@ -533,7 +533,6 @@ NVDA 使用浏览模式来浏览复杂的只读文档，如 web 页面。
 要想在当前文档中切换单键导航功能的开关，请使用“NVDA+shift+空格键”。
 %kc:endInclude
 
-
 ++ 元素列表 ++[ElementsList]
 元素列表提供一个允许您访问当前文档的链接、标题或者路标的列表。
 元素列表依照不同的程序文档来显示多种类型元素的列表。
@@ -546,7 +545,7 @@ NVDA 使用浏览模式来浏览复杂的只读文档，如 web 页面。
 | 浏览模式元素列表 | NVDA+f7 | 列举当前文档的各种元素。 |
 %kc:endInclude
 
-++ 嵌入式对象 ++
+++ 嵌入式对象 ++[ImbeddedObjects]
 使用 Adobe Flash 和 Sun Java 的技术可以使得页面的内容变得很丰富，甚至可以包含应用程序和对话框。
 使用浏览模式遇到“嵌入式对象”、“应用程序”或者“对话框”时，NVDA 都会作出相应的提示。
 您可以在此对象上按下“回车键”与之进行交互。
@@ -565,14 +564,17 @@ MathPlayer可免费从 http://www.dessci.com/en/products/mathplayer/ 处下载�
 
 NVDA 支持下列类型的数学内容：
 - Mozilla Firefox 和 Microsoft Internet Explorer 的 MathML。
-- Microsoft Word 和 PowerPoint 中的 Design Science MathType 。您必须安装 MathType 才可使本功能得以正常运作，该软件的适用版本已经发行。
-- Adobe Reader 的 MathML。请注意，这仍不是一个官方标准，所以目前还没有可用的公开软件制作这些内容。
+- Microsoft Word 和 PowerPoint 中的 Design Science MathType 。
+您必须安装 MathType 才可使本功能得以正常运作，该软件的试用版本就有阅读数学内容的功能。
+- Adobe Reader 的 MathML。
+请注意，这仍不是一个官方标准，所以目前制作这些内容的软件没有可用的公开版本。
+- Kindle For PC 内有无障碍支持的数学内容
 -
 
 当阅读一个文档时， NVDA 将会把所有支持的数学内容读出来。
 如果您正在使用点显器，这也将会被用点字显示。
 
-++ 交互式浏览 ++
+++ 交互式浏览 ++[InteractiveNavigation]
 如果您主要使用语音进行工作，在大多数情况下，您或许希望可以采用更小的浏览单位检查表达式，而不是马上读出整个表达式。
 
 如果您正处于浏览模式中，您可以移动光标到数学内容上然后按下“回车”键。
@@ -599,6 +601,7 @@ If you own a braille display, NVDA can display information in braille.
 If your braille display has a Perkins-style keyboard, you can also enter contracted or uncontracted braille.
 
 Please see the [Supported Braille Displays #SupportedBrailleDisplays] section for information about the supported braille displays.
+This section also contains information about what displays support NVDA's automatic background braille display detection functionality.
 You can configure braille using the [Braille category #BrailleSettings] of the [NVDA Settings #NVDASettings] dialog.
 
 ++ Control Type, State and Landmark abbreviations ++[BrailleAbbreviations]
@@ -704,25 +707,37 @@ Dot 8 translates any braille input and presses the enter key.
 Pressing dot 7 + dot 8 translates any braille input, but without adding a space or pressing enter.
 %kc:endInclude
 
-+ 内容识别 +
-当开发者没有为屏幕阅读软件的用户提供足够信息来确认内容时，可以使用各种工具来尝试从图像中识别其内容。 NVDA 支持 Windows 10内置的光学字符识别（OCR）功能，以便将图像识别成为文本。 NVDA的插件也有提供额外的内容识别器。
++ 图像内容识别 +[ContentRecognition]
+当开发者没有为屏幕阅读软件的用户提供足够信息来确认内容时，可以使用各种工具来尝试从图像中识别其内容。
+NVDA 支持 Windows 10内置的光学字符识别（OCR）功能，以便将图像识别成为文本。 
+NVDA的插件也有提供额外的内容识别器。
 
-当您使用内容识别指令时，NVDA会从目前的导航对象识别内容。默认设置下，导航对象会跟随系统焦点或浏览模式光标，因此需要OCR时，通常您只需移动焦点或浏览模式光标即可。 例如，如果将浏览模式光标移动到图形上，在默认设置下，识别器会开始从图形中识别其内容。 然而，您可能希望直接使用对象导航。例如，识别整个应用程序窗口的内容。
+当您使用内容识别指令时，NVDA会从目前的[导航对象#ObjectNavigation]识别内容。
+默认设置下，导航对象会跟随系统焦点或浏览模式光标，因此需要OCR时，通常您只需移动焦点或浏览模式光标即可。 
+例如，如果将浏览模式光标移动到图形上，在默认设置下，识别器会开始从图形中识别其内容。 
+您可能希望直接使用对象导航。例如，识别整个应用程序窗口的内容。
 
-一旦识别完成，结果会显示在一个类似于浏览模式下的文档中，它允许使用光标键或其他键来阅读。 在光标上的文本按 enter 或空格键就可以选中对应文本（相当于单击）。 按 escape 键退出识别结果文档。
-++ Windows 10 OCR ++
+一旦识别完成，结果会显示在一个类似于浏览模式下的文档中，它允许使用光标键或其他键来阅读。
+在光标上的文本按 enter 或空格键就可以选中对应文本（相当于单击）。
+按 escape 键退出识别结果文档。
+
+++ Windows 10 OCR ++[Win10Ocr]
 Windows 10包含许多语言的OCR。
 NVDA可以使用它来识别来自图像或无障碍支持差的应用程序的文本。
 
 您可以在[NVDA设置#NVDASettings]对话框的[Windows 10 OCR部分#Win10OcrSettings]中设置用于文本识别的语言。
 您可以打开开始菜单，选择设置，选择时间和语言 - >地区和语言，然后选择添加语言来安装其他语言。
 
-+ 特定应用程序的 NVDA命令 +
+%kc:beginInclude
+按 NVDA加r 使用Windows 10 OCR 识别当前导航对象内包含的文本。
+%kc:endInclude
+
++ 特定应用程序的 NVDA命令 +[ApplicationSpecificFeatures]
 NVDA 为某些特定的程序提供了自家的额外特性，让某些任务变得更加容易，还令某些其他屏幕阅读器用户无法访问的功能可用。
 
-++ Microsoft Word ++
+++ Microsoft Word ++[MicrosoftWord]
 
-+++ 自动行列标题朗读 +++
++++ 自动行列标题朗读 +++[WordAutomaticColumnAndRowHeaderReading]
 NVDA 可在您使用 Microsoft Word 浏览表格时自动读出恰当的行列标题。
 这一特性首先要求启用 NVDA “文档格式”对话框的“朗读行列标题”选项。
 其次，NVDA 需要知道，在给定的表格里，哪一行或哪一列包含正确的行列标题。
@@ -735,29 +750,28 @@ NVDA 可在您使用 Microsoft Word 浏览表格时自动读出恰当的行列�
 此设置将会以书签的形式存储在文档，能与其他屏幕阅读器如JAWS兼容。
 这样意味着，屏幕阅读器用户在后期打开这个文档时，使用其他屏幕阅读器也同样拥有设置好的行列标题。
 
-+++ Microsoft Word 的浏览模式 +++
-
-与 web 页面相似，您可在 Microsoft Word 中使用浏览模式的特性，诸如快速导航、元素列表等。
++++ Microsoft Word 的浏览模式 +++[BrowseModeInMicrosoftWord]
+与网页相似，您可在 Microsoft Word 中使用浏览模式的特性，诸如快速导航、元素列表等。
 %kc:beginInclude
 要想在 Microsoft Word 切换浏览模式的开关，可使用 NVDA+空格键。
 %kc:endInclude
-更多有关于浏览模式和快速导航的信息，请查看[浏览模式章节 #BrowseMode]。
+更多有关于浏览模式和快速导航的信息，请查看[浏览模式章节 #BrowseMode]
 
-++++ 元素列表 ++++
+++++ 元素列表 ++++[WordElementsList]
 %kc:beginInclude
 当处于 Microsoft Word 的浏览模式时，您可以通过按下“NVDA+F7”访问元素列表。
 %kc:endInclude
 元素列表可以列举标题、链接和批注(可能包含注解和修改跟踪记录)。
 
-+++ 朗读注释 +++
++++ 朗读注释 +++[WordReportingComments]
 %kc:beginInclude
  按下“NVDA+alt+c”可以查看系统输入焦点所在处的任何注释。
 %kc:endInclude
  文档的所有注释都可以在元素列表中进行查看，只要把类型选择为“标注”即可。
  
-++ Microsoft Excel ++
+++ Microsoft Excel ++[MicrosoftExcel]
 
-+++ 自动行列标题朗读 +++
++++ 自动朗读表格的行列标题 +++[ExcelAutomaticColumnAndRowHeaderReading]
 NVDA 可在您浏览 Excel 工作表时自动读出恰当的行列标题。
 这一特性首先要求启用 NVDA “文档格式”对话框的“朗读行列标题”选项。
 其次，NVDA 需要知道，在给定的工作表里，哪一行或哪一列包含正确的行列标题。
@@ -770,9 +784,8 @@ NVDA 可在您浏览 Excel 工作表时自动读出恰当的行列标题。
 此设置将会以定名为 ranges 的形式存储在文档当中，能与其他屏幕阅读器如JAWS兼容。
 这样意味着，屏幕阅读器用户在后期打开这个工作簿时，使用其他屏幕阅读器也同样拥有设置好的行列标题。
 
-+++ 元素列表 +++
-
-与 web 相似，NVDA 也有为 Microsoft Excel 开发的元素列表，在此允许您列举和访问一些种类的信息。
++++ 元素列表 +++[ExcelElementsList]
+与网页相似，NVDA 也有为 Microsoft Excel 开发的元素列表，在此允许您列举和访问一些种类的信息。
 %kc:beginInclude
 要想访问 Excel 的元素列表，请按下“NVDA+F7”
 %kc:endInclude
@@ -791,82 +804,137 @@ NVDA 可在您浏览 Excel 工作表时自动读出恰当的行列标题。
 - 表单： 这里将列举所有工作表内所包含的表单
 对于每一个表单，元素列表将显示每一个地址所覆盖的单元格的替代文本
 选择一个表单项目之后按下“回车”或点击“移动到”按钮即可跳转到该表单项目。
- -
+-
 
-+++ 朗读注释 +++
++++ 朗读注释 +++[ExcelReportingComments]
 %kc:beginInclude
 要想朗读当前聚焦单元的所有注释，请按下“NVDA+alt+C”。
 %kc:endInclude
 所有工作簿的注释也可以在元素列表中访问
 
-+++ 朗读受保护的单元 +++
++++ 朗读受保护的单元格 +++[ExcelReadingProtectedCells]
 如果工作簿已经被保护了起来，移动焦点到特定单元也许将变得不可能。
 %kc:beginInclude
 要想允许锁定单元移动，可使用“NVDA+空格键”切换到浏览模式后，使用标准的 Excel 移动命令如光标键可在当前工作表的所有单元中移动。
 %kc:endInclude
 
-+++ 表单 +++
++++ 表单 +++[ExcelFormFields]
 Excel 工作簿可包含表单。
 您可以使用“元素列表”对话框查看他们或字母F 和 shift+F 来跳转。
 当您使用浏览模式移动到某个表单项后，您可以使用“回车”键或“空格”键切换到焦点模式，您可以与之交互，方法取决于当前所在处的控件。
 更多有关于浏览模式或单键导航使用方面的信息，请查阅[浏览模式张节 #BrowseMode]。
 
-++ Microsoft PowerPoint ++
+++ Microsoft PowerPoint ++[MicrosoftPowerPoint]
 %kc:beginInclude
 || 名称 | 按键 | 描述 |
 | 切换大纲朗读 | control+shift+s | 当进行幻灯片播放时，此命令将在幻灯片或者幻灯片内容的大纲之间切换。此命令仅作用于 NVDA 所朗读的内容，而不能作用于显示的内容。 | 
 %kc:endInclude
 
-++ foobar2000 ++
+++ foobar2000 ++[Foobar2000]
 %kc:beginInclude
 || 名称 | 按键 | 描述 |
 | 朗读剩余时间 | control+shift+r | 如果正在播放音乐 朗读当前播放的曲目的剩余时间 |
 | 朗读已播放时间 | control+shift+e | 如果正在播放音乐 朗读当前曲目已经播放的时间长度 |
 | 朗读总时长 | control+shift+t | 如果正在播放音乐 朗读当前曲目总时长 |
- 
 %kc:endInclude
 
 请注意，这几个朗读时间的快捷键仅可工作在采用默认格式字串的 Foobar2000 状态栏下。
 
-++ Miranda IM ++
+++ Miranda IM ++[MirandaIM]
 %kc:beginInclude
 || 名称 | 按键 | 描述 |
 | 朗读最近的消息 | NVDA+control+1-4 | 根据按下数字的不同朗读最近的消息中的一条，例如 NVDA+control+2 朗读第二条最近的消息。 |
 %kc:endInclude
 
-++ Poedit ++
+++ Poedit ++[Poedit]
 %kc:beginInclude
 || 名称 | 按键 | 描述 |
 | 朗读注释窗口 | control+shift+c | 朗读注释窗口的所有注释。 |
 | 朗读翻译者注释 | control+shift+a | 为翻译者朗读注释。 |
 %kc:endInclude
 
-++ Skype ++
+++ Skype ++[Skype]
 %kc:beginInclude
 当在一个会话框里：
 || 名称 | 按键 | 描述 |
 | 查看消息 | NVDA+control+1-0 | 根据您按下的数字，朗读并切换浏览光标到最近的消息。如“NVDA+control+2”朗读第二条最近的消息。 |
 %kc:endInclude
 
-+ 配置 NVDA +
+++ Kindle for PC ++[Kindle]
+NVDA supports reading and navigating books in Amazon Kindle for PC.
+This functionality is only available in Kindle books designated with "Screen Reader: Supported" which you can check on the details page for the book.
 
-++ 选项 ++
+Browse mode is used to read books.
+It is enabled automatically when you open a book or focus the book area.
+The page will be turned automatically as appropriate when you move the cursor or use the say all command.
+%kc:beginInclude
+You can manually turn to the next page with the pageDown key and turn to the previous page with the pageUp key.
+%kc:endInclude
+
+Single letter navigation is supported for links and graphics, but only within the current page.
+Navigating by link also includes footnotes.
+
+NVDA provides early support for reading and interactive navigation of mathematical content for books with accessible math.
+Please see the [Reading Mathematical Content #ReadingMath] section for further information.
+
++++ Text Selection +++[KindleTextSelection]
+Kindle allows you to perform various functions on selected text, including obtaining a dictionary definition, adding notes and highlights, copying the text to the clipboard and searching the web.
+To do this, first select text as you normally would in browse mode; e.g. by using shift and the cursor keys.
+%kc:beginInclude
+Once you have selected text, press the applications key or shift+f10 to show the available options for working with the selection.
+%kc:endInclude
+If you do this with no text selected, options will be shown for the word at the cursor.
+
++++ User Notes +++[KindleUserNotes]
+You can add a note regarding a word or passage of text.
+To do this, first select the relevant text and access the selection options as described above.
+Then, choose Add Note.
+
+When reading in browse mode, NVDA refers to these notes as comments.
+
+To view, edit or delete a note:
+
++ Move the cursor to the text containing the note.
++ Access the options for the selection as described above.
++ Choose Edit Note.
++
+
+++ Azardi ++[Azardi]
+%kc:beginInclude
+When in the table view of added books:
+|| Name | Key | Description |
+| Enter | enter | Opens the selected book. |
+| Context menu | applications | Opens the context menu for the selected book. |
+%kc:endInclude
+
++ 配置 NVDA +[ConfiguringNVDA]
+大部分配置可以在NVDA菜单里面的选项子菜单内进行。
+[NVDA 设置对话框 #NVDASettings]里面有很多设置选项，这些选项被分成很多类别。
+在这些对话框里面，按确定按钮保存设置并关闭对话框。
+按取消按钮或者ESC键撤销更改并关闭对话框。
+有的对话框有个应用按钮，点击它可以在不关闭对话框的情况下应用设置。
+有的设置可以用快捷键更改，下面相应章节有说明。
+
+++ NVDA设置对话框 ++[NVDASettings]
 %kc:settingsSection: || 名称 | 台式机键盘 | 笔记本键盘 | 描述 |
-大多数设置都可以通过访问 NVDA 菜单的子菜单“选项”的[NVDA设置对话框#NVDASettings]来更改。
-在 NVDA 设置对话框中，点击“确认”按钮接受所有您作过的更改。
-要取消任何修改，只需要点击“取消”按钮或者按下“ESC”。
-在某些对话框里也可以按”应用“按钮，立即应用设置而不用关闭对话框。
-一些设置也可以通过下面章节所列举的快捷键来修改。
+[NVDA设置对话框#NVDASettings]里面有很多设置选项。
+这个对话框有一个列表，里面有设置选项的分类。
+选中一个分类，这一类的设置就在对话框里显示出来。
+按”应用“按钮，立即应用设置而不用关闭对话框。
+点击“确认”按钮，保存所有您作过的更改，并且关闭对话框。
 
+有的分类有快捷键。
+按下对应快捷键可以打开NVDA设置对话框，并显示对应分类的设置。
 请注意：默认情况下不是所有的选项都可以使用输入手势进行访问(键盘命令、触摸手势等)
 如果您想访问的选项没有专用的快捷键，使用[输入手势对话框 #InputGestures] 可给该选项添加自定义手势。
 
-+++ 常规设置 (NVDA+control+g) +++
-在“选项”菜单可以找到“常规设置”对话框。
-包含了界面语言是否检查更新等NVDA的全局设置。
+下面列出NVDA设置对话框里面的各个分类
+
++++ 常规设置 (NVDA+control+g) +++[GeneralSettings]
+常规设置这一分类，包含了界面语言是否检查更新等NVDA的全局设置。
 它包含以下选项：
 
-==== 语言 ====
+==== 语言 ====[GeneralSettingsLanguage]
 一个可以允许您选择 NVDA 界面和消息显示时使用语言的组合框。
 这里有很多语言，或许默认选项是“用户默认”。
 此选项告诉 NVDA，使用 Windows 当前设置的语言。
@@ -875,31 +943,31 @@ Excel 工作簿可包含表单。
  如果您做出了不同的选择，NVDA 将询问您是否要重新启动。
 点击“确定”按钮，NVDA 将重新启动。
 
-==== 退出时保存设置 ====
+==== 退出时保存设置 ====[GeneralSettingsSaveConfig]
 此选项是一个复选框，告诉 NVDA 在您退出时自动地保存当前的配置。
 
-==== 退出 NVDA 前显示退出选项 ====
+==== 退出 NVDA 前显示退出选项 ====[GeneralSettingsShowExitOptions]
 此选项是一个复选框，允许您选择在 NVDA 退出前是否弹出询问选择希望执行什么动作的对话框。
 当此选项被选中后，您视图退出 NVDA 时就会出现一个对话框询问您是要退出、重新启动或是停用插件并重启。
 如果没有选中，NVDA 会立即退出。
 
-==== 启动或退出 NVDA 时播放声音 ====
+==== 启动或退出 NVDA 时播放声音 ====[GeneralSettingsPlaySounds]
 此选项是一个复选框，如果被选中，告诉 NVDA 在启动或退出时播放声音。
 
-==== 日志记录级别 ====
+==== 日志记录级别 ====[GeneralSettingsLogLevel]
 这是一个组合框，允许您指定在 NVDA 运行时日志记录的数量。
-一般用户不必与这些日志接触，因而也不需要记录太多。
+用户一般不用更改这一设置，以免日志太多。
 然而，如果您希望在报告 Bug 时提供信息，这个选项或许是有用的。
 
-==== 系统启动后自动运行 NVDA ====
+==== 系统启动后自动运行 NVDA ====[GeneralSettingsStartAfterLogOn]
 如果此选项被选中，NVDA 将在 Windows 登陆后尽快启动。
 此选项仅可用于 NVDA 的安装版。
 
-==== 在欢迎界面启用 NVDA (需要管理员权限) ====
+==== 在欢迎界面启用 NVDA (需要管理员权限) ====[GeneralSettingsStartOnLogOnScreen]
 如果您通过使用密码和用户登陆 Windows，此选项将使 NVDA 在Windows 启动时自动运行。
 此选项仅可用于 NVDA 的安装版。
 
-==== 应用以保存的配置到欢迎界面和其他安全界面 ====
+==== 应用当前配置到欢迎界面和其他安全界面 ====[GeneralSettingsCopySettings]
 按下此按钮，NVDA 会将您当前保存的用户配置拷贝到 NVDA 的系统配置目录，他们会应用在 Windows 欢迎屏幕、UAC 账户控制和其他的安全界面。
 想确认您所有的配置都会被传送，请先使用“NVDA加control加c”或者 NVDA 菜单下的“保存设置”事先保存您的当前配置。
 此选项仅可用于 NVDA 的安装版。
@@ -914,7 +982,6 @@ Excel 工作簿可包含表单。
 - 操作系统版本
 - 操作系统是 64 位还是 32 位
 
-
 ==== 允许NVDA获取用户统计信息 ====[GeneralSettingsGatherUsageStats]
 选中这一项之后，NV Access 会在检查更新时获取您的信息，以便统计NVDA用户的分布。比如使用的操作系统和所在国家的比例。
 NVDA更新服务器只根据您的IP判断用户在哪国使用NVDA，并不会记录您的IP地址。
@@ -925,14 +992,23 @@ NVDA更新服务器只根据您的IP判断用户在哪国使用NVDA，并不会�
 - 当前使用的点显器名称(包括点显器驱动插件名称)
 - 当前使用的盲文表(使用点显器时才会上传)
 
-+++ 语音合成器选择 (NVDA+control+s) +++
-在“选项”菜单下的“语音合成器...”菜单项目可以打开“语音合成器”对话框，允许您选择 NVDA 应该用来输出语音的合成器。
+
+这些信息有助于 NV Access 决定NVDA开发的侧重点。
+
+==== NVDA启动时提醒有未完成的更新 ====[GeneralSettingsNotifyPendingUpdates]
+开启这个选项NVDA，如果有未完成的更新，NVDA启动时会提醒用户。
+如果开启了退出对话框，可以手动在那里安装未完成的更新，在帮助菜单里面检查更新时也有手动安装的选项。
+
++++ 语音 (NVDA+control+v) +++[SpeechSettings]
+语音这个分类，允许您选择 NVDA 应该用来输出语音的合成器，并且更改合成器的设置。
+希望在任何地方使用另外一种更快的方式切换语音参数，请查看[循环切换合成器设置 #SynthSettingsRing]章节。
+
+这个分类包含以下选项
+
+==== 更改 按钮 ====[SpeechSettingsChange]
+这个分类第一个选项就是 更改 按钮 点击它可以打开 [选择语音合成器 #SelectSynthesizer]对话框，你可以在里面更改语音合成器以及语音输出设备。
+这个对话框会出现在NVDA设置对话框之上
 当您选择完您希望的合成器之后，点击“确认”按钮，NVDA 将载入您选择的合成器。
-如果载入时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的合成器。
-
-==== 语音合成器 ====
-此选项允许您选择 NVDA 进行语音输出的合成器。
-
 NVDA 支持的合成器列表可以在[支持的语音合成器 #SupportedSpeechSynths]章节查看。
 
 出现在列表中的那一个特殊的项目“关闭语音”，允许您在没有语音输出的情况下使用 NVDA。
@@ -956,7 +1032,7 @@ NVDA 支持的合成器列表可以在[支持的语音合成器 #SupportedSpeech
 
 +++ 语音设置 (NVDA+control+v) +++[VoiceSettings]
 在“选项”菜单的“语音设置”对话框，包含着允许您定义语音变声的选项。
-希望在任何地方使用另外一种更快的方式切换语音参数，请查看[循环切换合成器设置 #SynthSettingsRing]章节。
+
 
 “语音设置”对话框包含下列选项：
 
@@ -1743,88 +1819,6 @@ Nuance Vocalizer 是一个由 Nuance Communications, Inc. 开发、并由 Tiflot
 
 您可以在它的网站[www.vocalizer-nvda.com http://www.vocalizer-nvda.com/]获取更多有关于 NVDA 的 Nuance Vocalizer 和如何购买的信息。
 此产品的部分销售额会捐赠给 NV Access ，从而支持屏幕阅读器 NVDA 的可持续开发。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
