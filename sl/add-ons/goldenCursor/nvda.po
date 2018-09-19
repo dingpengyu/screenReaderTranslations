@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2016-09-06 12:16+0100\n"
+"PO-Revision-Date: 2018-08-22 17:15+0100\n"
 "Last-Translator: Jožef Gregorc <jozko.gregorc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -17,68 +17,58 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Mouse positions for %s"
-msgstr "tukaj ni nobenih položajev za %s."
+msgstr "Položaji miške za %s"
 
-#, fuzzy
 msgid "New mouse position"
-msgstr "shrani položaj"
+msgstr "Nov položaj miške"
 
 #. Translators: The label for the combo box of the mouse positions in the current application.
-#, fuzzy
 msgid "&Saved mouse positions"
-msgstr "shrani položaj"
+msgstr "&Shranjeni položaji miške"
 
 #. Translators: the column in mouse positions list to identify the position name.
 msgid "Name"
-msgstr ""
+msgstr "Ime"
 
 #. Translators: the column in mouse positions list to identify the X coordinate.
-#, fuzzy
 msgid "Position X"
-msgstr "Seznam položajev"
+msgstr "Položaj X"
 
 #. Translators: the column in mouse positions list to identify the Y coordinate.
-#, fuzzy
 msgid "Position Y"
-msgstr "Seznam položajev"
+msgstr "Položaj Y"
 
 #. Translators: the button to jump to the selected position.
 msgid "&Jump"
-msgstr ""
+msgstr "&Skoči"
 
 #. Translators: the button to rename a mouse position.
-#, fuzzy
 msgid "&Rename"
-msgstr "Preimenuj"
+msgstr "&Preimenuj"
 
 #. Translators: the button to delete the selected mouse position.
-#, fuzzy
 msgid "&Delete"
-msgstr "&izbriši"
+msgstr "&Izbriši"
 
 #. Translators: the button to clear all mouse positions for the focused app.
-#, fuzzy
 msgid "C&lear positions"
-msgstr "shrani položaj"
+msgstr "Po&čisti položaje"
 
 #. Translators: The label of a button to close the mouse positions dialog.
 msgid "&Close"
-msgstr ""
+msgstr "&Zapri"
 
-#, fuzzy
 msgid "&X position"
-msgstr "shrani položaj"
+msgstr "&X položaj"
 
-#, fuzzy
 msgid "&Y position"
-msgstr "shrani položaj"
+msgstr "&Y položaj"
 
 #. Translators: The label of a field to enter a new name for a mouse position/tag.
-#, fuzzy
 msgid "New name"
-msgstr "Preimenuj"
+msgstr "Novo ime"
 
 #. Translators: The title of the dialog to rename a mouse position.
 msgid "Rename"
@@ -95,31 +85,26 @@ msgid "Error"
 msgstr "Napaka"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
-#, python-brace-format
 msgid ""
 "Are you sure you want to delete the position named {name}? This cannot be "
 "undone."
 msgstr ""
 
 #. Translators: The title of the confirmation dialog for deletion of selected position.
-#, fuzzy
 msgid "Delete position"
-msgstr "shrani položaj"
+msgstr "Izbriši položaj"
 
 #. Translators: The confirmation prompt displayed when the user is about to clear positions.
-#, python-brace-format
 msgid ""
 "Are you sure you want to clear mouse positions for the current application "
 "({appName})? This cannot be undone."
 msgstr ""
 
 #. Translators: The title of the confirmation dialog for clearing mouse positions.
-#, fuzzy
 msgid "Clear mouse positions"
-msgstr "shrani položaj"
+msgstr "Počisti položaje miške"
 
 #. Translators: A dialog message shown when tags for the application is cleared.
-#, python-brace-format
 msgid "All mouse positions for the application {appName} has been deleted."
 msgstr ""
 
@@ -149,19 +134,17 @@ msgid "Opens a dialog listing mouse positions for the current application"
 msgstr ""
 
 #. Translators: edit field label for new mouse position.
-#, python-brace-format
 msgid "Enter the name for the current mouse position (x: {x}, Y: {y}"
 msgstr ""
 
 #. Translators: title for save mouse position dialog.
-#, fuzzy
 msgid "Save mouse position"
-msgstr "shrani položaj"
+msgstr "Shrani položaj miške"
 
 #. Translators: presented when position (tag) has been saved.
-#, fuzzy, python-format
+#, python-format
 msgid "Position has been saved in %s."
-msgstr "položaj se je shranil na %s."
+msgstr "Položaj se je shranil na %s."
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid "Opens a dialog to label the current mouse position and saves it"
@@ -200,24 +183,20 @@ msgid "Toggles mouse arrows to move the mouse with the arrow keys"
 msgstr ""
 
 #. Translators: Input help message for a Golden Cursor command.
-#, fuzzy
 msgid "Moves the Mouse pointer to the right"
-msgstr "Premakne miškin kazalec v desno."
+msgstr "Premakne Miškin kazalec v desno"
 
 #. Translators: Input help message for a Golden Cursor command.
-#, fuzzy
 msgid "Moves the Mouse pointer to the left"
-msgstr "Premakne miškin kazalec v levo."
+msgstr "Premakne Miškin kazalec v levo"
 
 #. Translators: Input help message for a Golden Cursor command.
-#, fuzzy
 msgid "Moves the Mouse pointer down"
-msgstr "Premakne miškin kazalec navzdol."
+msgstr "Premakne Miškin kazalec navzdol"
 
 #. Translators: Input help message for a Golden Cursor command.
-#, fuzzy
 msgid "Moves the Mouse pointer up"
-msgstr "Premakne miškin kazalec navzgor."
+msgstr "Premakne Miškin kazalec navzgor"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid ""
