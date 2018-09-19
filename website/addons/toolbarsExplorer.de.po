@@ -3,42 +3,45 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-24 05:59+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-09-19 04:56+0200\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"ToolbarsExplorer\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Symbolleisten erkunden\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Alberto Buffolino"
-msgstr ""
+msgstr "Autor: Alberto Buffolino"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Herunterladen der [Entwicklerversion][2]"
 
 #. type: Plain text
 msgid ""
 "This add-on makes easier to use toolbars in applications, providing an "
 "exploration model derived by object navigation, with simplified gestures."
 msgstr ""
+"Diese Erweiterung erleichtert die Verwendung von Symbolleisten in "
+"Anwendungen und bietet ein Erkundungsmodell, das durch Objektnavigation mit "
+"vereinfachten Gesten abgeleitet wird."
 
 #. type: Title ##
 #, no-wrap
 msgid "Commands"
-msgstr ""
+msgstr "Befehle"
 
 #. type: Plain text
 #, no-wrap
@@ -46,34 +49,41 @@ msgid ""
 "* Alt+applications: starts toolbars exploration<br/>\n"
 "(you can remap it via NVDA gesture manager, under Object navigation).\n"
 msgstr ""
+"Alt+Anwendungen: Startet die Erkundung der Symbolleisten<br/>.\n"
+"(Sie können es über die NVDA-Gesten, unter Objekt-Navigation, neu zuordnen).\n"
 
 #. type: Plain text
 msgid "During exploration, following gestures are available:"
-msgstr ""
+msgstr "Während der Erkundung stehen folgende Gesten zur Verfügung:"
 
 #. type: Bullet: '* '
 msgid "Left/right arrow: moves to previous/next toolbar;"
-msgstr ""
+msgstr "Pfeil nach links/rechts: Zur nächsten/vorherigen Symbolleiste bewegen."
 
 #. type: Bullet: '* '
 msgid "Up/down arrow: scrolls up/down items in current toolbar;"
 msgstr ""
+"Pfeil nach oben/unten: Geht durch die Einträge in der aktuellen Symbolleiste."
 
 #. type: Bullet: '* '
 msgid "Enter: activates toolbar or its item;"
-msgstr ""
+msgstr "Eingabetaste: Aktiviert die Symbolleiste oder den Eintrag."
 
 #. type: Bullet: '* '
 msgid "Space: simulates left mouse click on toolbar or its item;"
 msgstr ""
+"Leertaste: Simuliert einen Mausklick mit der linken Taste auf der "
+"Symbolleiste oder auf dem Element."
 
 #. type: Bullet: '* '
 msgid "Applications: simulates right mouse click on toolbar or its item;"
 msgstr ""
+"Anwendung: Simuliert einen Mausklick mit der rechten Taste auf der "
+"Symbolleiste oder auf dem Element."
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
-msgstr ""
+msgstr "Escape: Beendet das Erkunden der Symbolleisten."
 
 #. type: Plain text
 msgid ""
@@ -81,29 +91,36 @@ msgid ""
 "gesture provided by NVDA, as exactly as when you move to objects with "
 "standard object navigation."
 msgstr ""
+"Darüber hinaus können Sie Aktionen auf Symbolleisten oder deren Elementen "
+"mit jeder von NVDA bereit gestellten Geste ausführen, genau so wie beim "
+"Bewegen zu Objekten mit Objekt-Navigation."
 
 #. type: Title ##
 #, no-wrap
 msgid "Notes and suggestions"
-msgstr ""
+msgstr "Anmerkungen und Vorschläge"
 
 #. type: Bullet: '* '
 msgid ""
 "Exploration terminates explicitly pressing escape, and implicitly performing "
 "an action on toolbar or its item;"
 msgstr ""
+"Beendet die Erkundung und führt die Aktion auf der Symbolleiste oder dem "
+"Element aus."
 
 #. type: Bullet: '* '
 msgid ""
 "In LibreOffice, best configuration is probably default or single toolbar, "
 "set it on view menu/toolbar position."
 msgstr ""
+"In LibreOffice ist die beste Konfiguration wahrscheinlich die Standard- oder "
+"klassische Symbolleiste, setzen Sie sie im Menü Ansicht / Werkzeugleisten."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"

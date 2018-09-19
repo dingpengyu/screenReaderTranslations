@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-01-01 16:45+0100\n"
-"Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
+"PO-Revision-Date: 2018-09-19 04:05+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -102,7 +102,6 @@ msgid "A list of the saved feeds."
 msgstr "Eine Liste der gespeicherten RSS-Feeds."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "List of articles: Opens a dialog which presents the articles list from "
 #| "your current feed. Select the article you want to read and press OK "
@@ -115,9 +114,13 @@ msgid ""
 "of the selected article; from this dialog, you'll be able to copy this info "
 "to the clipboard."
 msgstr ""
-"Artikelliste: Öffnet einen Dialog mit der Artikelliste des aktuellen Feeds. "
-"Wählen Sie den gewünschten Artikel aus und drücken Sie die OK-Taste, um die "
-"entsprechende Seite in Ihrem Browser zu öffnen."
+"Liste der Artikel: Öffnet einen Dialog, der die Artikelliste aus Ihrem "
+"aktuellen Feed anzeigt. Wählen Sie den Artikel, den Sie lesen möchten, und "
+"drücken Sie die Eingabetaste oder die Schaltfläche Webseite des ausgewählten "
+"Artikels öffnen, um die entsprechende Seite in Ihrem Browser zu öffnen. "
+"Klicken Sie auf die Schaltfläche Info-Artikel, um einen Dialog mit Titel und "
+"Link des ausgewählten Artikels zu öffnen; von diesem Dialog aus können Sie "
+"diese Informationen in die Zwischenablage kopieren."
 
 #. type: Bullet: '* '
 msgid "Open feed: Opens the selected feed in the default application."
@@ -182,7 +185,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "####Copy feeds folder... ####\n"
-msgstr "####Artikelordner kopieren... ####\n"
+msgstr "####Artikelordner kopieren...####\n"
 
 #. type: Plain text
 msgid ""
@@ -218,7 +221,7 @@ msgid ""
 "Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice will "
 "open the web page."
 msgstr ""
-"STRG+Umschalt+NVDA+Leertaste: sagt die aktuelle Adresse des Artikels an. "
+"STRG+Umschalt+NVDA+Leertaste: Sagt die aktuelle Adresse des Artikels an. "
 "Zweimaliges Drücken öffnet die Webseite des Artikels."
 
 #. type: Bullet: '* '
@@ -226,7 +229,7 @@ msgid ""
 "Ctrl+Shift+NVDA+8: Refreshes the selected feed and announces its most recent "
 "title."
 msgstr ""
-"STRG+Umschalt+NVDA+8: das ausgewählte RSS-Feed wir neugeladen und der "
+"STRG+Umschalt+NVDA+8: Das ausgewählte RSS-Feed wir neugeladen und der "
 "aktuellste Titel wird angesagt."
 
 #. type: Bullet: '* '
@@ -234,17 +237,17 @@ msgid ""
 "Ctrl+Shift+NVDA+I: Announces current feed title and link. Pressing twice "
 "will copy the title and related link to clipboard."
 msgstr ""
-"Strg+Umschalt+NVDA+I: sagt den aktuellen Feed-Titel und -Link an. Durch "
+"Strg+Umschalt+NVDA+I: Sagt den aktuellen Feed-Titel und -Link an. Durch "
 "zweimaliges Drücken wird der Titel und der zugehörige Link in die "
 "Zwischenablage kopiert."
 
 #. type: Bullet: '* '
 msgid "Ctrl+Shift+NVDA+U: Announces previous feed title."
-msgstr "STRG+Umschalt+NVDA+U: sagt den Titel des vorherigen RSS-Feeds an."
+msgstr "STRG+Umschalt+NVDA+U: Sagt den Titel des vorherigen RSS-Feeds an."
 
 #. type: Bullet: '* '
 msgid "Ctrl+Shift+NVDA+O: Announces next feed title."
-msgstr "STRG+Umschalt+NVDA+O: sagt den Titel des nächsten RSS-Feeds an."
+msgstr "STRG+Umschalt+NVDA+O: Sagt den Titel des nächsten RSS-Feeds an."
 
 #. type: Title ##
 #, no-wrap
@@ -280,24 +283,26 @@ msgstr ""
 "Feeds und die Anzahl der verfügbaren Artikel angezeigt."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Changes for 4.0"
 msgid "Changes for 5.0"
-msgstr "Änderungen in 4.0"
+msgstr "Änderungen für 5.0"
 
 #. type: Bullet: '* '
 msgid "The articles list dialog has been enhanced."
-msgstr ""
+msgstr "Der Dialog der Artikelliste wurde erweitert."
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Kompatibel mit NVDA 2018.3 oder neuer (erforderlich)."
 
 #. type: Bullet: '* '
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Bei Bedarf können Sie die [letzte Version][3], die mit NVDA 2017.3 "
+"kompatibel ist herunterladen."
 
 #. type: Title ##
 #, no-wrap
@@ -377,6 +382,8 @@ msgid ""
 "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
 "github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 msgstr ""
+"[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
+"github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 
 #~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
 #~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-16 03:01+1000\n"
-"PO-Revision-Date: 2018-09-14 19:07+0200\n"
+"PO-Revision-Date: 2018-09-19 04:12+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -86,13 +86,12 @@ msgid "Notes"
 msgstr "Anmerkungen"
 
 #. type: Bullet: '*	 '
-#, fuzzy
 #| msgid "You can close these dialogs just by pressing Escape."
 msgid "You can close these dialogs just by pressing Escape;"
-msgstr "Sie können den Dialog auch durch Drücken der Escape-Taste schließen."
+msgstr ""
+"Sie können diese Dialoge einfach durch Drücken der Escape-Taste schließen."
 
 #. type: Bullet: '*	 '
-#, fuzzy
 #| msgid ""
 #| "You can assign a shortcut to open these dialogs in \"Input gestures\" "
 #| "menu and, more precisely, in the \"Day of the week\" category.;"
@@ -100,8 +99,8 @@ msgid ""
 "You can assign a shortcut to open these dialogs in \"Input gestures\" menu "
 "and, more precisely, in the \"Day of the week\" category;"
 msgstr ""
-"Sie können diese Dialoge im Menü \"Eingabegesten\" und genauer gesagt in der "
-"Kategorie \"Wochentag\" eine Verknüpfung zuweisen."
+"Im Menü \"Eingabegesten\" und genauer gesagt in der Kategorie \"Wochentag\" "
+"können Sie diesen Dialogen eine Verknüpfung zuweisen."
 
 #. type: Bullet: '*	 '
 msgid ""

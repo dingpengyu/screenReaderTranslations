@@ -3,37 +3,39 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-08 05:05+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-09-19 04:37+0200\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Screen Curtain\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Bildschirmvorhang\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Babbage B.V., Joseph Lee"
-msgstr ""
+msgstr "Autoren: Babbage B.V., Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [development version][1]"
-msgstr ""
+msgstr "Herunterladen der [Entwicklerversion][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on brings NVDA Core issue 7857 to life: adding screen curtain "
 "functionality on Windows 8 and later."
 msgstr ""
+"Diese Erweiterung ruft NVDA-Fehlermeldung #7857 ins Leben: Die Einführung "
+"der Funktionalität des Bildschirmvorhangs unter Windows 8 und höher."
 
 #. type: Plain text
 msgid ""
@@ -43,41 +45,57 @@ msgid ""
 "feature, NVDA will announce a status message, and in case screen curtain is "
 "active when NVDA starts, a tone will be heard."
 msgstr ""
+"Um diese Erweiterung zu verwenden, gehen Sie ins NVDA-Menü / Extras / "
+"Bildschirmvorhang. Wenn das Element markiert ist, ist er aktiv, andernfalls "
+"ist er ausgeschaltet. Sie können auch einen Befehl zum Umschalten des "
+"Vorhangs von überall aus zuweisen. Beim Umschalten dieser Funktion meldet "
+"NVDA eine Statusmeldung und wenn der Bildschirmvorhang beim Start des NVDA "
+"aktiv ist, ertönt ein Signalton."
 
 #. type: Plain text
 msgid ""
-"To ask NVDA to turn on screen curtain while using it, go to NVDA "
-"menu/Preferences/Settings/Screen curtain. Check \"use screen curtain\" "
-"checkbox to enable screen curtain, uncheck to disable. You can also "
-"configure this setting while profiles other than normal configuration is "
-"active so you can use screen curtain while a profile is active (while using "
-"an app, for example)."
+"To ask NVDA to turn on screen curtain while using it, go to NVDA menu/"
+"Preferences/Settings/Screen curtain. Check \"use screen curtain\" checkbox "
+"to enable screen curtain, uncheck to disable. You can also configure this "
+"setting while profiles other than normal configuration is active so you can "
+"use screen curtain while a profile is active (while using an app, for "
+"example)."
 msgstr ""
+"Um NVDA aufzufordern, den Vorhang einzuschalten, während Sie ihn benutzen, "
+"gehen Sie zum NVDA-Menü / Einstellungen / Bildschirmvorhang. Aktivieren Sie "
+"das Kontrollkästchen \"Bildschirmvorhang verwenden\", um ihn zu aktivieren, "
+"deaktivieren Sie das Kontrollkästchen zum Deaktivieren. Sie können diese "
+"Einstellung auch konfigurieren, während andere Profile als die normale "
+"Konfiguration aktiv sind, so dass Sie den Bildschirmvorhang verwenden "
+"können, während ein Profil aktiv ist (z. B. bei Verwendung einer App)."
 
 #. type: Plain text
 msgid ""
 "IMPORTANT: this is a proof of concept add-on. Once the [relevant feature is "
 "included in NVDA][2], this add-on will be discontinued."
 msgstr ""
+"WICHTIG: Dies ist eine \"Proof of Concept\"-Erweiterung. Sobald das "
+"[relevante Merkmal in NVDA][2] enthalten ist, wird diese Erweiterung "
+"eingestellt."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.08"
-msgstr ""
+msgstr "Version 18.08"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Erstveröffentlichung."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
 
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/7857"
-msgstr ""
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/7857"

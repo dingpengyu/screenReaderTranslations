@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-08 02:15+1000\n"
-"PO-Revision-Date: 2018-03-23 22:58+0100\n"
-"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
+"PO-Revision-Date: 2018-09-19 04:23+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -115,10 +115,9 @@ msgid "Down arrow: first child object."
 msgstr "Pfeil nach unten: erstes Unterobjekt des Hauptobjektes."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "SPACE: activate."
 msgid "SPACE or ENTER: activate."
-msgstr "Leertaste: Objekt aktivieren."
+msgstr "Leertaste or Eingabetaste: Aktivieren."
 
 #. type: Plain text
 msgid ""
@@ -150,16 +149,12 @@ msgid "With scan mode active:"
 msgstr "Bei aktiviertem Scan-Modus:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Down arrow: next object."
 msgid "Down arrow: next object or the next line."
-msgstr "Pfeil nach unten: nächstes Objekt."
+msgstr "Pfeil nach unten: Nächstes Objekt oder nächste Zeile."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Up arrow: previous object."
 msgid "Up arrow: previous object or previous line."
-msgstr "Pfeil nach oben: vorheriges Objekt."
+msgstr "Pfeil nach oben: Vorheriges Objekt oder vorherige Zeile."
 
 #. type: Bullet: '* '
 msgid "Right arrow: review next character."
@@ -170,30 +165,28 @@ msgid "Left arrow: previous character."
 msgstr "Linkspfeil: vorheriger Buchstabe."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Right arrow: next object."
 msgid "Control+right arrow: next word."
-msgstr "Rechtspfeil: nächstes Objekt."
+msgstr "Strg+Pfeil nach rechts: Nächstes Wort."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Left arrow: previous object."
 msgid "Control+left arrow: previous word."
-msgstr "Linkspfeil: vorheriges Objekt."
+msgstr "Strg+Pfeil nach links: Vorheriges Wort."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.03"
 msgid "Version 18.09"
-msgstr "Version 18.03"
+msgstr "Version 18.09"
 
 #. type: Bullet: '* '
 msgid "Added localizations."
-msgstr ""
+msgstr "Lokalisierungen wurden hinzugefügt."
 
 #. type: Bullet: '* '
 msgid "Enter key (regular and Numpad) can be used to activate objects."
 msgstr ""
+"Eingabetaste (normal und Numpad) kann zum Aktivieren von Objekten verwendet "
+"werden."
 
 #. type: Title ##
 #, no-wrap
