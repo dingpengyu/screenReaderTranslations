@@ -520,6 +520,7 @@ NVDA 使用浏览模式来浏览复杂的只读文档，如 web 页面。
 - o: 嵌入式对象
 - 1 到 6: 分别表示1到6级的标题
 - a: 注释 (评论、编辑者修订等)。
+- w: 拼写错误
 -
 要想在如列表、表格等容器控件的开始或者结尾之间切换：
 || 名称 | 按键 | 描述 |
@@ -556,9 +557,8 @@ NVDA 使用浏览模式来浏览复杂的只读文档，如 web 页面。
 | 移动到浏览模式文档容器 | NVDA+control+空格 | 移动焦点到此嵌入对象之外，返回到包含此对象的文档。 |
 %kc:endInclude
 
-
 + 阅读数学内容 +[ReadingMath]
- 使用来自 Design Science的 MathPlayer 4， NVDA 可以阅读并有交互性的浏览数学内容。
+使用Design Science发行的 MathPlayer 4， NVDA 可以阅读并有交互性的浏览数学内容。
 这要求 MathPlayer 4 已经安装在了电脑上。
 MathPlayer可免费从 http://www.dessci.com/en/products/mathplayer/ 处下载。
 
