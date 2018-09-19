@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-07-19 18:14+0700\n"
+"PO-Revision-Date: 2018-09-19 13:22+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -228,6 +228,9 @@ msgid ""
 "recommended). This is intended to disable settings changes in case of speed "
 "issues when switching profiles."
 msgstr ""
+"Cũng có thể chỉ bật thiết lập trong cấu hình bình thường (không khuyến "
+"khích). Điều này nhằm vô hiệu hóa các thay đổi thiết lập trong trường hợp "
+"xảy ra vấn đề về tốc độ đọc khi chuyển hồ sơ."
 
 #. type: Title ##
 #, no-wrap
@@ -256,14 +259,13 @@ msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr "NVDA+I: hiển thị hộp thoại  để chọn biểu tượng muốn sao chép."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 7.0"
+#, no-wrap
 msgid "Changes for 8.0"
-msgstr "Các thay đổi cho phiên bản 7.0"
+msgstr "Các thay đổi cho phiên bản 8.0"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Tương thích với NVDA 2018.3 hay cao hơn (yêu cầu)."
 
 #. type: Title ##
 #, no-wrap
