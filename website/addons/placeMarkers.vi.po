@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-07-19 18:22+0700\n"
+"PO-Revision-Date: 2018-09-19 14:56+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -27,7 +27,7 @@ msgstr "Tác giả: Noelia, Chris."
 
 #. type: Bullet: '* '
 msgid "download [stable version][1]"
-msgstr "Tải về [phiên bản chính thức][1]"
+msgstr "tải về [phiên bản chính thức][1]"
 
 #. type: Bullet: '* '
 msgid "download [development version][2]"
@@ -180,20 +180,21 @@ msgstr ""
 "động thì dùng tìm kiếm cụ thể tốt hơn dấu trang."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 11.0"
-msgstr "Các thay đổi cho phiên bản 1.0"
+msgstr "Các thay đổi cho phiên bản 11.0"
 
 #. type: Bullet: '*	'
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Tương thích với NVDA 2018.3 hay cao hơn (yêu cầu)."
 
 #. type: Bullet: '*	'
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Nếu cần, bạn có thể tải về [phiên bản cuối cùng tương thích với NVDA 2017.3]"
+"[3]."
 
 #. type: Title ##
 #, no-wrap
@@ -439,6 +440,9 @@ msgid ""
 "github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
 "addon"
 msgstr ""
+"[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
+"github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
+"addon"
 
 #~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
 #~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
