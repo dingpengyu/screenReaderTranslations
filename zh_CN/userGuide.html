@@ -21,7 +21,7 @@
     <LI><A HREF="#GeneralFeatures">1.1. 主要功能</A>
     <LI><A HREF="#Internationalization">1.2. 国际化</A>
     <LI><A HREF="#SpeechSynthesizerSupport">1.3. 支持的语音合成器</A>
-    <LI><A HREF="#BrailleSupport">1.4. 盲文显示器支持</A>
+    <LI><A HREF="#BrailleSupport">1.4. 点显器支持</A>
     <LI><A HREF="#LicenseAndCopyright">1.5. 许可证与著作权</A>
     </UL>
   <LI><A HREF="#SystemRequirements">2. 系统需求</A>
@@ -114,10 +114,6 @@
     <LI><A HREF="#Poedit">10.6. Poedit</A>
     <LI><A HREF="#Skype">10.7. Skype</A>
     <LI><A HREF="#Kindle">10.8. Kindle for PC</A>
-      <UL>
-      <LI><A HREF="#KindleTextSelection">10.8.1. Text Selection</A>
-      <LI><A HREF="#KindleUserNotes">10.8.2. User Notes</A>
-      </UL>
     <LI><A HREF="#Azardi">10.9. Azardi</A>
     </UL>
   <LI><A HREF="#ConfiguringNVDA">11. 配置 NVDA</A>
@@ -129,7 +125,7 @@
       <LI><A HREF="#SelectSynthesizer">11.1.3. 选择语音合成器对话框 (NVDA+control+s)</A>
       <LI><A HREF="#SynthSettingsRing">11.1.4. 循环切换合成器设置</A>
       <LI><A HREF="#BrailleSettings">11.1.5. 盲文</A>
-      <LI><A HREF="#SelectBrailleDisplay">11.1.6. 选择盲文显示器(NVDA+control+a)</A>
+      <LI><A HREF="#SelectBrailleDisplay">11.1.6. 选择点显器(NVDA+control+a)</A>
       <LI><A HREF="#KeyboardSettings">11.1.7. 键盘设置 (NVDA+control+k)</A>
       <LI><A HREF="#MouseSettings">11.1.8. 鼠标设置 (NVDA+control+m)</A>
       <LI><A HREF="#TouchInteraction">11.1.9. 使用触摸屏与系统交互</A>
@@ -175,9 +171,9 @@
     <LI><A HREF="#OneCore">13.5. Windows OneCore Voices</A>
     <LI><A HREF="#Audiologic">13.6. Audiologic Tts3</A>
     </UL>
-  <LI><A HREF="#SupportedBrailleDisplays">14. 支持的盲文显示器</A>
+  <LI><A HREF="#SupportedBrailleDisplays">14. 支持的点显器</A>
     <UL>
-    <LI><A HREF="#AutomaticDetection">14.1. 后台自动检测盲文显示器</A>
+    <LI><A HREF="#AutomaticDetection">14.1. 后台自动检测点显器</A>
     <LI><A HREF="#FreedomScientificFocus">14.2. Freedom Scientific Focus/PAC Mate Series</A>
     <LI><A HREF="#OptelecALVA">14.3. Optelec ALVA 6 series/protocol converter</A>
     <LI><A HREF="#HandyTech">14.4. Handy Tech Displays</A>
@@ -187,12 +183,12 @@
     <LI><A HREF="#HedoMobilLine">14.8. hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare Brailliant BI/B Series / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc125">14.9.1. Key assignments for All models</A>
-      <LI><A HREF="#toc126">14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</A>
-      <LI><A HREF="#toc127">14.9.3. Key assignments for Brailliant BI 14</A>
+      <LI><A HREF="#toc123">14.9.1. Key assignments for All models</A>
+      <LI><A HREF="#toc124">14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</A>
+      <LI><A HREF="#toc125">14.9.3. Key assignments for Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
-    <LI><A HREF="#Seika">14.11. 清华盲文显示器</A>
+    <LI><A HREF="#Seika">14.11. 清华点显器</A>
     <LI><A HREF="#Papenmeier">14.12. Papenmeier BRAILLEX Newer Models</A>
     <LI><A HREF="#PapenmeierOld">14.13. Papenmeier Braille BRAILLEX Older Models</A>
     <LI><A HREF="#HumanWareBrailleNote">14.14. HumanWare BrailleNote</A>
@@ -236,7 +232,7 @@ NVDA允许盲人和低视力人群访问 Windows 操作系统以及与许多第�
 <LI>内建的语音合成器支持超过80种语言。
 <LI>支持文档格式的朗读，如字体名称或大小、样式和拼写错误。
 <LI>可自动朗读鼠标指向的文本，还包括用声音提示鼠标所在位置的选项。
-<LI>支持许多种可刷新盲文显示器，并且支持自动检测部分品牌的盲文显示器，实现即插即用，支持带点字键盘的盲文显示器的电脑盲文输入。
+<LI>支持许多种可刷新点显器，并且支持自动检测部分品牌的点显器，实现即插即用，支持带点字键盘的点显器的电脑盲文输入。
 <LI>无需安装，可完全运行在U盘或者其他可携式存储设备上。
 <LI>便于使用的语音安装程序。
 <LI>已翻译为54种语言。
@@ -269,13 +265,13 @@ NVDA捆绑的<A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak NG</A>是�
 </P>
 
 <A NAME="BrailleSupport"></A>
-<H3>1.4. 盲文显示器支持</H3>
+<H3>1.4. 点显器支持</H3>
 
 <P>
-对于拥有可刷新盲文显示器的用户，NVDA 可将信息以点字形式输出到盲文显示器上。
+对于拥有可刷新点显器的用户，NVDA 可将信息以点字形式输出到点显器上。
 NVDA 支持简写或非简写点字输入。
-NVDA 还可以自动检测某些型号的盲文显示器。
-请参看<A HREF="#SupportedBrailleDisplays">支持的盲文显示器</A>章节，查看有关于盲文显示器支持方面的信息。
+NVDA 还可以自动检测某些型号的点显器。
+请参看<A HREF="#SupportedBrailleDisplays">支持的点显器</A>章节，查看有关于点显器支持方面的信息。
 </P>
 <P>
 NVDA 支持显示多种语言的简写或非简写点字以及电脑点字。
@@ -1464,7 +1460,7 @@ NVDA 支持下列类型的数学内容：
 
 <P>
 当阅读一个文档时， NVDA 将会把所有支持的数学内容读出来。
-如果您正在使用盲文显示器，这也将会被用点字显示。
+如果您正在使用点显器，这也将会被用点字显示。
 </P>
 
 <A NAME="InteractiveNavigation"></A>
@@ -1512,17 +1508,17 @@ NVDA 支持下列类型的数学内容：
 <H2>8. 盲文</H2>
 
 <P>
-如果你有一个盲文显示器，NVDA可以以盲文的形式显示屏幕上的信息
+如果你有一个点显器，NVDA可以以盲文的形式显示屏幕上的信息
 如果你的点显器有 Perkins 键盘，你还可以键入简写或非简写点字。
 </P>
 <P>
-有关支持的盲文显示器的信息，请参阅[支持的盲文显示器#SupportedBrailleDisplays]部分。
+有关支持的点显器的信息，请参阅[支持的点显器#SupportedBrailleDisplays]部分。
 本节还包含有关支持NVDA自动背景盲文显示检测功能的显示器的信息。
 您可以使用[NVDA设置#NVDASettings]对话框的[盲文类别#BrailleSettings]配置盲文。
 </P>
 <P>
 ++ 控件类型/状态和路标缩写 ++ [BrailleAbbreviations]
-为了在盲文显示器上安装尽可能多的信息，已经定义了以下缩写来指示控制类型和状态以及界标。
+为了在点显器上安装尽可能多的信息，已经定义了以下缩写来指示控制类型和状态以及界标。
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -2179,54 +2175,52 @@ Excel 工作簿可包含表单。
 <H3>10.8. Kindle for PC</H3>
 
 <P>
-NVDA supports reading and navigating books in Amazon Kindle for PC.
-This functionality is only available in Kindle books designated with "Screen Reader: Supported" which you can check on the details page for the book.
+NVDA支持在亚马逊Kindle for PC上阅读和导航书籍。
+此功能仅适用于使用“支持屏幕阅读器”的Kindle书籍，您可以在该书的详细信息页面上查看。
 </P>
 <P>
-Browse mode is used to read books.
-It is enabled automatically when you open a book or focus the book area.
-The page will be turned automatically as appropriate when you move the cursor or use the say all command.
-You can manually turn to the next page with the pageDown key and turn to the previous page with the pageUp key.
+阅读书籍用浏览模式。
+当您打开书本或聚焦书籍区域时，它会自动启用。
+移动光标或使用全文朗读命令时，页面将根据需要自动旋转。
+％KC：beginInclude
+您可以使用下翻页键手动转到下一页，然后使用上翻页键转到上一页。
+％KC：endInclude
 </P>
 <P>
-Single letter navigation is supported for links and graphics, but only within the current page.
-Navigating by link also includes footnotes.
+链接和图形支持单键导航，但仅限于当前页面。
+通过链接导航还包括脚注。
 </P>
 <P>
-NVDA provides early support for reading and interactive navigation of mathematical content for books with accessible math.
-Please see the <A HREF="#ReadingMath">Reading Mathematical Content</A> section for further information.
-</P>
-
-<A NAME="KindleTextSelection"></A>
-<H4>10.8.1. Text Selection</H4>
-
-<P>
-Kindle allows you to perform various functions on selected text, including obtaining a dictionary definition, adding notes and highlights, copying the text to the clipboard and searching the web.
-To do this, first select text as you normally would in browse mode; e.g. by using shift and the cursor keys.
-Once you have selected text, press the applications key or shift+f10 to show the available options for working with the selection.
-If you do this with no text selected, options will be shown for the word at the cursor.
-</P>
-
-<A NAME="KindleUserNotes"></A>
-<H4>10.8.2. User Notes</H4>
-
-<P>
-You can add a note regarding a word or passage of text.
-To do this, first select the relevant text and access the selection options as described above.
-Then, choose Add Note.
+NVDA为具有数学内容无障碍支持的书籍提供数学内容的阅读和交互式导航的早期支持。
+有关详细信息，请参阅[阅读数学内容#ReadingMath]部分。
 </P>
 <P>
-When reading in browse mode, NVDA refers to these notes as comments.
++++ 文本选择 +++ [KindleTextSelection]
+Kindle允许您对所选文本执行各种功能，包括获取字典定义，添加注释和突出显示，将文本复制到剪贴板以及搜索Web。
+为此，首先像在浏览模式下一样选择文本; 例如 通过使用shift和光标键。
+％KC：beginInclude
+选择文本后，按应用程序键或Shift + f10以显示使用选择的可用选项。
+％KC：endInclude
+如果在未选择文本的情况下执行此操作，将在光标处显示单词的选项。
 </P>
 <P>
-To view, edit or delete a note:
++++ 用户注释 +++ [KindleUserNotes]
+您可以添加关于文字的单词或段落的注释。
+要执行此操作，请首先选择相关文本并访问上述选择选项。
+然后，选择添加注释。
 </P>
-
-<OL>
-<LI>Move the cursor to the text containing the note.
-<LI>Access the options for the selection as described above.
-<LI>Choose Edit Note.
-</OL>
+<P>
+在浏览模式下阅读时，NVDA将把这些笔记做为注释处理。
+</P>
+<P>
+查看，编辑或删除笔记的流程：
+</P>
+<P>
++将光标移动到包含笔记的文本。
++如上所述访问选择选项。
++选择编辑笔记。
++
+</P>
 
 <A NAME="Azardi"></A>
 <H3>10.9. Azardi</H3>
@@ -2393,8 +2387,8 @@ NVDA更新服务器只根据您的IP判断用户在哪国使用NVDA，并不会�
 <LI>NVDA 界面语言
 <LI>NVDA 是便携版还是安装版本
 <LI>当前使用的语音合成器名称(包括合成器插件名称)
-<LI>当前使用的盲文显示器名称(包括盲文显示器驱动插件名称)
-<LI>当前使用的盲文表(使用盲文显示器时才会上传)
+<LI>当前使用的点显器名称(包括点显器驱动插件名称)
+<LI>当前使用的盲文表(使用点显器时才会上传)
 </UL>
 
 <P>
@@ -2650,17 +2644,17 @@ NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框
 <H4>11.1.5. 盲文</H4>
 
 <P>
-你可以在NVDA设置对话框的盲文分类，更改盲文显示器相关的设置。
+你可以在NVDA设置对话框的盲文分类，更改点显器相关的设置。
 这个分类包含以下选项
 </P>
 
 <A NAME="BrailleSettingsChange"></A>
-<H5>更改盲文显示器</H5>
+<H5>更改点显器</H5>
 
 <P>
 按下盲文分类内的更改按钮，就会打开<A HREF="#SelectBrailleDisplay">Select Braille Display</A>对话框
 这个对话框会出现在NVDA设置对话框之上
-保存或者更改盲文显示器设置之后，会回到NVDA设置对话框。
+保存或者更改点显器设置之后，会回到NVDA设置对话框。
 </P>
 
 <A NAME="BrailleSettingsOutputTable"></A>
@@ -2669,7 +2663,7 @@ NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框
 <P>
 这个分类的下一个选项就是“点字输出表”组合框。
 在此组合框之内，您可以找到不同语言的标准级别或其他级别的点字输出表。
-选择的列表将用来进行盲文翻译并输出到盲文显示器。
+选择的列表将用来进行盲文翻译并输出到点显器。
 您可以使用光标键在点字表的列表之间移动。
 </P>
 
@@ -2678,12 +2672,12 @@ NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框
 
 <P>
 和上一个选项对应，您将找到的下一个选项是“点字输入表”组合框。
-选择的表格将用来把使用盲文显示器的 Perkins style 键盘输入的文本进行翻译。NVDA现在只支持电脑盲文点字的输入，因此，只有八点点字表才会被显示。
+选择的表格将用来把使用点显器的 Perkins style 键盘输入的文本进行翻译。NVDA现在只支持电脑盲文点字的输入，因此，只有八点点字表才会被显示。
 您可以使用光标键在点字表的列表之间移动。
 </P>
 <P>
- 请注意，只有当您的盲文显示器带有 Perkins-style 键盘且盲文显示器驱动支持此特性时，此选项才可用。
-如果某个带有盲文输入键盘的盲文显示器确实不能支持输入，它将被记录在<A HREF="#SupportedBrailleDisplays">支持的盲文显示器</A>章节。
+ 请注意，只有当您的点显器带有 Perkins-style 键盘且点显器驱动支持此特性时，此选项才可用。
+如果某个带有盲文输入键盘的点显器确实不能支持输入，它将被记录在<A HREF="#SupportedBrailleDisplays">支持的点显器</A>章节。
 </P>
 
 <A NAME="BrailleSettingsExpandToComputerBraille"></A>
@@ -2726,10 +2720,10 @@ If blinking is turned off, the braille cursor will constantly be in the "up" pos
 </P>
 
 <A NAME="BrailleSettingsCursorShapeForReview"></A>
-<H5>Cursor Shape for Review</H5>
+<H5>跟随浏览光标时点字光标的形状</H5>
 
 <P>
-This option allows you to choose the shape (dot pattern) of the braille cursor when braille is tethered to review.
+此选项允许您在点字光标跟随浏览光标时，选择盲文光标的形状（哪些点）。
 选择指示器不受影响,它一直在 7 8 两点 而且不会闪烁.
 </P>
 
@@ -2737,15 +2731,15 @@ This option allows you to choose the shape (dot pattern) of the braille cursor w
 <H5>消息显示时间(以秒为单位)</H5>
 
 <P>
-这是一个数字区域，允许您控制 NVDA 的消息在盲文显示器显示的时间长度。
+这是一个数字区域，允许您控制 NVDA 的消息在点显器上显示的时间长度。
 特别的，设置为0将完全停用这些消息。
 </P>
 
 <A NAME="BrailleSettingsNoMessageTimeout"></A>
-<H5>Show Messages Indefinitely</H5>
+<H5>无限期地显示消息</H5>
 
 <P>
-This option allows NVDA messages to be displayed on the braille display indefinitely.
+此选项允许NVDA消息无限期地显示在点显器上，也就是消息不会自动消失。
 </P>
 
 <A NAME="BrailleTether"></A>
@@ -2755,7 +2749,7 @@ This option allows NVDA messages to be displayed on the braille display indefini
 按键: NVDA+control+t
 </P>
 <P>
-此选项允许您选择是否希望盲文显示器跟随系统焦点或浏览对象(即浏览光标)。
+此选项允许您选择是否希望点显器跟随系统焦点或浏览对象(即浏览光标)。
 如果选中了“自动”点字光标会跟随系统焦点或浏览对象(即浏览光标)
 此时，如果用户操作改变了浏览对象，NVDA会让点字光标暂时跟随浏览对象，知道系统焦点或者输入焦点改变为止。
 </P>
@@ -2766,8 +2760,8 @@ This option allows NVDA messages to be displayed on the braille display indefini
 <P>
 如果启用，盲文将用段落显示方式来代替逐行显示方式。
 上一行和下一行的命令将相应的用来按段落移动。
-这样的意思就是您不必在每一行的末尾进行盲文显示器滚动
-实际上，更多的文本将会显示在盲文显示器上面。
+这样的意思就是您不必在每一行的末尾进行点显器滚动
+实际上，更多的文本将会显示在点显器上面。
 这样做将提高在阅读更大数量的文本时的效率。
 默认情况下，它是禁用的。
 </P>
@@ -2776,46 +2770,46 @@ This option allows NVDA messages to be displayed on the braille display indefini
 <H5>避免拆分单词()如果可能)</H5>
 
 <P>
-如果它被启用，对于盲文显示器行尾而言太大的单词将不会被拆分。取而代之的是一些空白格子。
-当您滚动盲文显示器，您可以查看整个单词。
+如果它被启用，对于点显器行尾而言太大的单词将不会被拆分。取而代之的是一些空白格子。
+当您滚动点显器，您可以查看整个单词。
 有时候这被称为“自动换行”。
-请注意：如果单词对于整个盲文显示器本身而言过大，单词仍然会被拆分。
+请注意：如果单词对于整个点显器本身而言过大，单词仍然会被拆分。
 </P>
 <P>
-如果此选项被停用，尽可能多的字符会被显示在盲文显示器上，但单词后面的部分将被切分开。
-当您滚动盲文显示器时，您将查看到单词的剩余部分。
+如果此选项被停用，尽可能多的字符会被显示在点显器上，但单词后面的部分将被切分开。
+当您滚动点显器时，您将查看到单词的剩余部分。
 </P>
 <P>
-启用此选项可能令阅读变的更加流畅，但通常也会要求您进行更多次数的盲文显示器滚动。
+启用此选项可能令阅读变的更加流畅，但通常也会要求您进行更多次数的点显器滚动。
 </P>
 
 <A NAME="BrailleSettingsFocusContextPresentation"></A>
 <H5>焦点上下文信息</H5>
 
 <P>
-此选项允许您选择当对象获得焦点时NVDA将在盲文显示器上显示的上下文信息。
+此选项允许您选择当对象获得焦点时NVDA将在点显器上显示的上下文信息。
 上下文信息是指包含焦点的对象的层次结构。
 例如，当您关注列表项时，此列表项是列表的一部分。
 该列表可能包含在对话框等中。
 有关适用于NVDA中对象的层次结构的更多信息，请参阅有关[对象导航#ObjectNavigation]的部分。
 </P>
 <P>
-当设置为填充显示以进行上下文更改时，NVDA将尝试在盲文显示器上显示尽可能多的上下文信息，但仅针对已更改的上下文部分。
-对于上面的示例，这意味着当将焦点更改为列表时，NVDA将在盲文显示器上显示列表项。
-此外，如果盲文显示器上留有足够的空间，NVDA将尝试显示列表项是列表的一部分。
+当设置为填充显示以进行上下文更改时，NVDA将尝试在点显器上显示尽可能多的上下文信息，但仅针对已更改的上下文部分。
+对于上面的示例，这意味着当将焦点更改为列表时，NVDA将在点显器上显示列表项。
+此外，如果点显器上留有足够的空间，NVDA将尝试显示列表项是列表的一部分。
 如果您随后使用箭头键开始在列表中移动，则假定您知道您仍在列表中。
 因此，对于您关注的其余列表项，NVDA将仅在显示屏上显示焦点列表项。
 为了让您再次阅读上下文（即您在列表中并且列表是对话框的一部分），您将不得不向后滚动盲文显示。
 </P>
 <P>
-当此选项设置为始终填充显示时，NVDA将尝试在盲文显示器上显示尽可能多的上下文信息，无论您之前是否看过相同的上下文信息。
+当此选项设置为始终填充显示时，NVDA将尝试在点显器上显示尽可能多的上下文信息，无论您之前是否看过相同的上下文信息。
 这样做的好处是NVDA可以在显示屏上显示尽可能多的信息。
-然而，缺点是焦点在盲文显示器上开始的位置总是存在差异。
+然而，缺点是焦点在点显器上开始的位置总是存在差异。
 这可能会使浏览很长的项目列表变得困难，例如，因为您需要不断移动手指以找到项目的开头。
 这是NVDA 2017.2及之前的默认行为。
 </P>
 <P>
-当您将焦点上下文显示选项设置为仅在向后滚动时显示上下文信息时，NVDA默认情况下不会在您的盲文显示器上显示上下文信息。
+当您将焦点上下文显示选项设置为仅在向后滚动时显示上下文信息时，NVDA默认情况下不会在您的点显器上显示上下文信息。
 因此，在上面的示例中，NVDA将显示您关注列表项。
 但是，为了让您阅读上下文（即您在列表中并且列表是对话框的一部分），您将不得不向后滚动盲文显示。
 </P>
@@ -2824,49 +2818,49 @@ This option allows NVDA messages to be displayed on the braille display indefini
 </P>
 
 <A NAME="SelectBrailleDisplay"></A>
-<H4>11.1.6. 选择盲文显示器(NVDA+control+a)</H4>
+<H4>11.1.6. 选择点显器(NVDA+control+a)</H4>
 
 <P>
-在盲文分类里面点击更改...按钮，就会打开这个对话框。你可以在这里更改NVDA使用的盲文显示器。
-当您选中想用的合成器之后，点击“确认”按钮，NVDA 将载入您选择的盲文显示器。
-如果载入时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的盲文显示器。
+在盲文分类里面点击更改...按钮，就会打开这个对话框。你可以在这里更改NVDA使用的点显器。
+当您选中想用的合成器之后，点击“确认”按钮，NVDA 将载入您选择的点显器。
+如果载入时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的点显器。
 </P>
 
 <A NAME="SelectBrailleDisplayDisplay"></A>
-<H5>盲文显示器</H5>
+<H5>点显器</H5>
 
 <P>
-这个组合框依照您系统内可用的盲文显示器驱动来展示一些选项。
+这个组合框依照您系统内可用的点显器驱动来展示一些选项。
 使用光标键在这些选项之间移动。
 </P>
 <P>
-自动选项将允许NVDA在后台搜索部分支持自动搜索的的盲文盲文显示器。
-启用此功能并使用USB或蓝牙连接支持的盲文显示器时，NVDA将自动连接此盲文显示器。
+自动选项将允许NVDA在后台搜索部分支持自动搜索的的盲文点显器。
+启用此功能并使用USB或蓝牙连接支持的点显器时，NVDA将自动连接此点显器。
 </P>
 <P>
-“无盲文显示器”意味着您不使用点字输出。
+“无点显器”意味着您不使用点字输出。
 </P>
 <P>
-请查看<A HREF="#SupportedBrailleDisplays">支持的盲文显示器</A>章节获得更多与盲文显示器支持相关的信息。
+请查看<A HREF="#SupportedBrailleDisplays">支持的点显器</A>章节获得更多与点显器支持相关的信息。
 </P>
 
 <A NAME="SelectBrailleDisplayPort"></A>
 <H5>端口</H5>
 
 <P>
-此选项如果可用，可允许您为您选择的盲文显示器指定与之交互的端口类型。
-这是一个组合框，包含您的盲文显示器中所有可能的选择。
+此选项如果可用，可允许您为您选择的点显器指定与之交互的端口类型。
+这是一个组合框，包含您的点显器中所有可能的选择。
 </P>
 <P>
 默认情况下，NVDA 使用自动端口检测，这样做意味着，将通过自动扫描系统上可用的 USB 或蓝牙设备的方式来确定连接的点字设备。
-或许，对于一些盲文显示器，您可能可以明确选择需要使用的端口。
+或许，对于一些点显器，您可能可以明确选择需要使用的端口。
 通常的选项是“自动”(告诉 NVDA 执行默认的自动端口选择过程)、“USB”、“蓝牙”或者老式的串行端口，前提是您的设备支持此种类型的通讯。
 </P>
 <P>
 如果您的设备只支持自动端口检测，这些选项将不可用。
 </P>
 <P>
-您或许可以在<A HREF="#SupportedBrailleDisplays">支持的盲文显示器</A>章节中查阅您的盲文显示器设备的文档，已了解支持的可用端口的通讯类型的更多信息。 
+您或许可以在<A HREF="#SupportedBrailleDisplays">支持的点显器</A>章节中查阅您的点显器设备的文档，已了解支持的可用端口的通讯类型的更多信息。 
 </P>
 
 <A NAME="KeyboardSettings"></A>
@@ -3553,7 +3547,7 @@ NVDA 的语音字典比之单词替换更为强大。
 <H4>11.2.3. 输入手势</H4>
 
 <P>
-“输入手势”这个对话框里面，您可以为 NVDA 的命令自定义输入手势(如键盘上的按键、盲文显示器上的按钮等等)。
+“输入手势”这个对话框里面，您可以为 NVDA 的命令自定义输入手势(如键盘上的按键、点显器上的按钮等等)。
 </P>
 <P>
 仅显示在此对话框被打开之前仍旧可用的命令。
@@ -3566,7 +3560,7 @@ NVDA 的语音字典比之单词替换更为强大。
 </P>
 <P>
 要想为一个命令创建手势，选择该命令并点击“添加”按钮。
-然后，执行您希望与该命令关联的手势，如按下键盘的按键或者盲文显示器的按钮。
+然后，执行您希望与该命令关联的手势，如按下键盘的按键或者点显器的按钮。
 通常，一个手势可以用多种方式进行理解。
 例如，如您按下一个键盘的按键，您可能希望指定其用于当前的键盘布局(如台式机键盘或笔记本键盘)或希望应用于所有的键盘布局。
 在此种情况下，出现的菜单允许您选择期望的选项。
@@ -3793,7 +3787,7 @@ NVDA 的语音字典比之单词替换更为强大。
 
 <P>
 您可以通过 NVDA 的“工具”菜单的“插件管理器”访问插件管理器，插件管理器允许您安装、移除、启用或停用 NVDA 的插件。
-您可以在社区找到这些插件包，它们包含定制的代码，为您添加或更改 NVDA 甚至是额外的盲文显示器和语音合成器的特性。
+您可以在社区找到这些插件包，它们包含定制的代码，为您添加或更改 NVDA 甚至是额外的点显器和语音合成器的特性。
 </P>
 <P>
 插件管理器包含 NVDA 当前用户配置中安装的所有插件的列表。
@@ -3954,22 +3948,22 @@ Windows 10包括称为“OneCore”或“移动”语音的新语音。
 </P>
 
 <A NAME="SupportedBrailleDisplays"></A>
-<H2>14. 支持的盲文显示器</H2>
+<H2>14. 支持的点显器</H2>
 
 <P>
-本节包含有关NVDA支持的盲文显示器的信息。
+本节包含有关NVDA支持的点显器的信息。
 </P>
 
 <A NAME="AutomaticDetection"></A>
-<H3>14.1. 后台自动检测盲文显示器</H3>
+<H3>14.1. 后台自动检测点显器</H3>
 
 <P>
-NVDA能够通过USB或蓝牙自动检测后台的许多盲文显示器。
+NVDA能够通过USB或蓝牙自动检测后台的许多点显器。
 通过从NVDA的[盲文设置对话框#BrailleSettings]中选择自动选项作为首选盲文显示，可以实现此行为。
 默认情况下此选项是开启的。
 </P>
 <P>
-以下盲文显示器支持此自动检测功能。
+以下点显器支持此自动检测功能。
 </P>
 
 <UL>
@@ -4719,7 +4713,7 @@ Following are the key assignments for  the Brailliant BI/B and BrailleNote touch
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
 
-<A NAME="toc125"></A>
+<A NAME="toc123"></A>
 <H4>14.9.1. Key assignments for All models</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4809,7 +4803,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc126"></A>
+<A NAME="toc124"></A>
 <H4>14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4831,7 +4825,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc127"></A>
+<A NAME="toc125"></A>
 <H4>14.9.3. Key assignments for Brailliant BI 14</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -5126,10 +5120,10 @@ Please see the display's documentation for descriptions of where these keys can 
 </TABLE>
 
 <A NAME="Seika"></A>
-<H3>14.11. 清华盲文显示器</H3>
+<H3>14.11. 清华点显器</H3>
 
 <P>
-支持来自的清华V3,V4和V5（40方）和80（80方）盲文显示器。
+支持来自的清华V3,V4和V5（40方）和80（80方）点显器。
 您可以在<A HREF="http://qhqmx.com.cn/dianziji.html">http://qhqmx.com.cn/dianziji.html</A>上找到有关这些显示的更多信息。
 您必须先安装制造商提供的USB驱动程序。
 </P>

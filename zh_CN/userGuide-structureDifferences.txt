@@ -4,4 +4,8 @@ zh_CN 8. start:599 paragraphs:5, tables:3, lists:0
 en 8.1. start:607 paragraphs:3, tables:3, lists:0
 zh_CN 8.1. start:695 paragraphs:3, tables:0, lists:0
 en 8.2. start:695 paragraphs:3, tables:0, lists:0
+en 10.8. start:863 paragraphs:4, tables:0, lists:0
+zh_CN 10.8. start:863 paragraphs:9, tables:0, lists:0
+en 10.8.1. start:880 paragraphs:1, tables:0, lists:0
+en 10.8.2. start:888 paragraphs:3, tables:0, lists:1
 # end of comparison
