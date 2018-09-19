@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Romanian translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 14:57+1000\n"
-"PO-Revision-Date: 2018-08-23 19:35+0300\n"
+"PO-Revision-Date: 2018-09-19 16:32+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: mihai.craciun@gmail.com, dan.punga@gmail.com, "
 "florianionascu@hotmail.com, nicusoruntila@yahoo.com\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -1141,15 +1141,13 @@ msgstr "Vietnameză grad 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Chineză (Taiwan, Mandarină)"
+msgstr "Chineză (China, Mandarină) grad 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Chineză (Taiwan, Mandarină)"
+msgstr "Chineză (China, Mandarină) grad 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -8471,7 +8469,7 @@ msgstr "Categoria de setări %s"
 
 #. Translators: This is the label for the general settings panel.
 msgid "General"
-msgstr "general"
+msgstr "General"
 
 #. Translators: One of the log levels of NVDA (the info mode shows info as NVDA runs).
 msgid "info"
@@ -8689,9 +8687,8 @@ msgstr "Tastatură"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "Folosește &CapsLock ca tastă de modificare NVDA"
+msgstr "&Utilizează tastele modificatoare ale NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8857,9 +8854,8 @@ msgstr "Anunță &indicii"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Anunță &indicii"
+msgstr "Anunță N&otificări"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
