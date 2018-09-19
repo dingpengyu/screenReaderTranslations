@@ -22,7 +22,7 @@ NVDA允许盲人和低视力人群访问 Windows 操作系统以及与许多第�
 - 内建的语音合成器支持超过80种语言。
 - 支持文档格式的朗读，如字体名称或大小、样式和拼写错误。
 - 可自动朗读鼠标指向的文本，还包括用声音提示鼠标所在位置的选项。
-- 支持许多种可刷新盲文显示器，并且支持自动检测部分品牌的盲文显示器，实现即插即用，支持带点字键盘的盲文显示器的电脑盲文输入。
+- 支持许多种可刷新点显器，并且支持自动检测部分品牌的点显器，实现即插即用，支持带点字键盘的点显器的电脑盲文输入。
 - 无需安装，可完全运行在U盘或者其他可携式存储设备上。
 - 便于使用的语音安装程序。
 - 已翻译为54种语言。
@@ -44,11 +44,11 @@ NVDA捆绑的[eSpeak NG https://github.com/espeak-ng/espeak-ng]是一个免费�
 
 有关于 NVDA 所支持的语音合成器的信息，可参看[支持的语音合成器 #SupportedSpeechSynths]章节。
 
-++ 盲文显示器支持 ++[BrailleSupport]
-对于拥有可刷新盲文显示器的用户，NVDA 可将信息以点字形式输出到盲文显示器上。
+++ 点显器支持 ++[BrailleSupport]
+对于拥有可刷新点显器的用户，NVDA 可将信息以点字形式输出到点显器上。
 NVDA 支持简写或非简写点字输入。
-NVDA 还可以自动检测某些型号的盲文显示器。
-请参看[支持的盲文显示器 #SupportedBrailleDisplays]章节，查看有关于盲文显示器支持方面的信息。
+NVDA 还可以自动检测某些型号的点显器。
+请参看[支持的点显器 #SupportedBrailleDisplays]章节，查看有关于点显器支持方面的信息。
 
 NVDA 支持显示多种语言的简写或非简写点字以及电脑点字。
 
@@ -572,7 +572,7 @@ NVDA 支持下列类型的数学内容：
 -
 
 当阅读一个文档时， NVDA 将会把所有支持的数学内容读出来。
-如果您正在使用盲文显示器，这也将会被用点字显示。
+如果您正在使用点显器，这也将会被用点字显示。
 
 ++ 交互式浏览 ++[InteractiveNavigation]
 如果您主要使用语音进行工作，在大多数情况下，您或许希望可以采用更小的浏览单位检查表达式，而不是马上读出整个表达式。
@@ -597,15 +597,15 @@ NVDA 支持下列类型的数学内容：
 当您希望返回到文档时，简单的按下“esc”键即可。"
 
 + 盲文 +[Braille]
-如果你有一个盲文显示器，NVDA可以以盲文的形式显示屏幕上的信息
+如果你有一个点显器，NVDA可以以盲文的形式显示屏幕上的信息
 如果你的点显器有 Perkins 键盘，你还可以键入简写或非简写点字。
 
-有关支持的盲文显示器的信息，请参阅[支持的盲文显示器#SupportedBrailleDisplays]部分。
+有关支持的点显器的信息，请参阅[支持的点显器#SupportedBrailleDisplays]部分。
 本节还包含有关支持NVDA自动背景盲文显示检测功能的显示器的信息。
 您可以使用[NVDA设置#NVDASettings]对话框的[盲文类别#BrailleSettings]配置盲文。
 
 ++ 控件类型/状态和路标缩写 ++ [BrailleAbbreviations]
-为了在盲文显示器上安装尽可能多的信息，已经定义了以下缩写来指示控制类型和状态以及界标。
+为了在点显器上安装尽可能多的信息，已经定义了以下缩写来指示控制类型和状态以及界标。
 
 || 缩写 | 控件类型 |
 | app | 应用程序 |
@@ -861,42 +861,42 @@ Excel 工作簿可包含表单。
 %kc:endInclude
 
 ++ Kindle for PC ++[Kindle]
-NVDA supports reading and navigating books in Amazon Kindle for PC.
-This functionality is only available in Kindle books designated with "Screen Reader: Supported" which you can check on the details page for the book.
+NVDA支持在亚马逊Kindle for PC上阅读和导航书籍。
+此功能仅适用于使用“支持屏幕阅读器”的Kindle书籍，您可以在该书的详细信息页面上查看。
 
-Browse mode is used to read books.
-It is enabled automatically when you open a book or focus the book area.
-The page will be turned automatically as appropriate when you move the cursor or use the say all command.
-%kc:beginInclude
-You can manually turn to the next page with the pageDown key and turn to the previous page with the pageUp key.
-%kc:endInclude
+阅读书籍用浏览模式。
+当您打开书本或聚焦书籍区域时，它会自动启用。
+移动光标或使用全文朗读命令时，页面将根据需要自动旋转。
+％KC：beginInclude
+您可以使用下翻页键手动转到下一页，然后使用上翻页键转到上一页。
+％KC：endInclude
 
-Single letter navigation is supported for links and graphics, but only within the current page.
-Navigating by link also includes footnotes.
+链接和图形支持单键导航，但仅限于当前页面。
+通过链接导航还包括脚注。
 
-NVDA provides early support for reading and interactive navigation of mathematical content for books with accessible math.
-Please see the [Reading Mathematical Content #ReadingMath] section for further information.
+NVDA为具有数学内容无障碍支持的书籍提供数学内容的阅读和交互式导航的早期支持。
+有关详细信息，请参阅[阅读数学内容#ReadingMath]部分。
 
-+++ Text Selection +++[KindleTextSelection]
-Kindle allows you to perform various functions on selected text, including obtaining a dictionary definition, adding notes and highlights, copying the text to the clipboard and searching the web.
-To do this, first select text as you normally would in browse mode; e.g. by using shift and the cursor keys.
-%kc:beginInclude
-Once you have selected text, press the applications key or shift+f10 to show the available options for working with the selection.
-%kc:endInclude
-If you do this with no text selected, options will be shown for the word at the cursor.
++++ 文本选择 +++ [KindleTextSelection]
+Kindle允许您对所选文本执行各种功能，包括获取字典定义，添加注释和突出显示，将文本复制到剪贴板以及搜索Web。
+为此，首先像在浏览模式下一样选择文本; 例如 通过使用shift和光标键。
+％KC：beginInclude
+选择文本后，按应用程序键或Shift + f10以显示使用选择的可用选项。
+％KC：endInclude
+如果在未选择文本的情况下执行此操作，将在光标处显示单词的选项。
 
-+++ User Notes +++[KindleUserNotes]
-You can add a note regarding a word or passage of text.
-To do this, first select the relevant text and access the selection options as described above.
-Then, choose Add Note.
++++ 用户注释 +++ [KindleUserNotes]
+您可以添加关于文字的单词或段落的注释。
+要执行此操作，请首先选择相关文本并访问上述选择选项。
+然后，选择添加注释。
 
-When reading in browse mode, NVDA refers to these notes as comments.
+在浏览模式下阅读时，NVDA将把这些笔记做为注释处理。
 
-To view, edit or delete a note:
+查看，编辑或删除笔记的流程：
 
-+ Move the cursor to the text containing the note.
-+ Access the options for the selection as described above.
-+ Choose Edit Note.
++将光标移动到包含笔记的文本。
++如上所述访问选择选项。
++选择编辑笔记。
 +
 
 ++ Azardi ++[Azardi]
@@ -989,8 +989,8 @@ NVDA更新服务器只根据您的IP判断用户在哪国使用NVDA，并不会�
 - NVDA 界面语言
 - NVDA 是便携版还是安装版本
 - 当前使用的语音合成器名称(包括合成器插件名称)
-- 当前使用的盲文显示器名称(包括盲文显示器驱动插件名称)
-- 当前使用的盲文表(使用盲文显示器时才会上传)
+- 当前使用的点显器名称(包括点显器驱动插件名称)
+- 当前使用的盲文表(使用点显器时才会上传)
 
 
 这些信息有助于 NV Access 决定NVDA开发的侧重点。
@@ -1119,27 +1119,27 @@ NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框
 %kc:endInclude
 
 +++ 盲文 +++[BrailleSettings]
-你可以在NVDA设置对话框的盲文分类，更改盲文显示器相关的设置。
+你可以在NVDA设置对话框的盲文分类，更改点显器相关的设置。
 这个分类包含以下选项
 
-==== 更改盲文显示器 ====[BrailleSettingsChange]
+==== 更改点显器 ====[BrailleSettingsChange]
 按下盲文分类内的更改按钮，就会打开[Select Braille Display #SelectBrailleDisplay]对话框
 这个对话框会出现在NVDA设置对话框之上
-保存或者更改盲文显示器设置之后，会回到NVDA设置对话框。
+保存或者更改点显器设置之后，会回到NVDA设置对话框。
 
 ==== 输出表 ====[BrailleSettingsOutputTable]
 这个分类的下一个选项就是“点字输出表”组合框。
 在此组合框之内，您可以找到不同语言的标准级别或其他级别的点字输出表。
-选择的列表将用来进行盲文翻译并输出到盲文显示器。
+选择的列表将用来进行盲文翻译并输出到点显器。
 您可以使用光标键在点字表的列表之间移动。
 
 ==== 输入表 ====[BrailleSettingsInputTable]
 和上一个选项对应，您将找到的下一个选项是“点字输入表”组合框。
-选择的表格将用来把使用盲文显示器的 Perkins style 键盘输入的文本进行翻译。NVDA现在只支持电脑盲文点字的输入，因此，只有八点点字表才会被显示。
+选择的表格将用来把使用点显器的 Perkins style 键盘输入的文本进行翻译。NVDA现在只支持电脑盲文点字的输入，因此，只有八点点字表才会被显示。
 您可以使用光标键在点字表的列表之间移动。
 
- 请注意，只有当您的盲文显示器带有 Perkins-style 键盘且盲文显示器驱动支持此特性时，此选项才可用。
-如果某个带有盲文输入键盘的盲文显示器确实不能支持输入，它将被记录在[支持的盲文显示器 #SupportedBrailleDisplays]章节。
+ 请注意，只有当您的点显器带有 Perkins-style 键盘且点显器驱动支持此特性时，此选项才可用。
+如果某个带有盲文输入键盘的点显器确实不能支持输入，它将被记录在[支持的点显器 #SupportedBrailleDisplays]章节。
 
 ==== 将光标所在单词转换为电脑点字 ====[BrailleSettingsExpandToComputerBraille]
 此选项允许把光标下面的单词用没有缩写的电脑盲文点字进行显示。
@@ -1160,97 +1160,97 @@ If blinking is turned off, the braille cursor will constantly be in the "up" pos
 此选项允许您选择点字光标的形状(即点字样式)。
 此选项对选择指示器无效。
 
-==== Cursor Shape for Review ====[BrailleSettingsCursorShapeForReview]
-This option allows you to choose the shape (dot pattern) of the braille cursor when braille is tethered to review.
+==== 跟随浏览光标时点字光标的形状 ====[BrailleSettingsCursorShapeForReview]
+此选项允许您在点字光标跟随浏览光标时，选择盲文光标的形状（哪些点）。
 选择指示器不受影响,它一直在 7 8 两点 而且不会闪烁.
 
 ==== 消息显示时间(以秒为单位) ====[BrailleSettingsMessageTimeout]
-这是一个数字区域，允许您控制 NVDA 的消息在盲文显示器显示的时间长度。
+这是一个数字区域，允许您控制 NVDA 的消息在点显器上显示的时间长度。
 特别的，设置为0将完全停用这些消息。
 
-==== Show Messages Indefinitely ====[BrailleSettingsNoMessageTimeout]
-This option allows NVDA messages to be displayed on the braille display indefinitely.
+==== 无限期地显示消息 ====[BrailleSettingsNoMessageTimeout]
+此选项允许NVDA消息无限期地显示在点显器上，也就是消息不会自动消失。
 
 %kc:setting
 ==== 点字光标跟随 ====[BrailleTether]
 按键: NVDA+control+t
 
-此选项允许您选择是否希望盲文显示器跟随系统焦点或浏览对象(即浏览光标)。
+此选项允许您选择是否希望点显器跟随系统焦点或浏览对象(即浏览光标)。
 如果选中了“自动”点字光标会跟随系统焦点或浏览对象(即浏览光标)
 此时，如果用户操作改变了浏览对象，NVDA会让点字光标暂时跟随浏览对象，知道系统焦点或者输入焦点改变为止。
 
 ==== 按段落阅读 ====[BrailleSettingsReadByParagraph]
 如果启用，盲文将用段落显示方式来代替逐行显示方式。
 上一行和下一行的命令将相应的用来按段落移动。
-这样的意思就是您不必在每一行的末尾进行盲文显示器滚动
-实际上，更多的文本将会显示在盲文显示器上面。
+这样的意思就是您不必在每一行的末尾进行点显器滚动
+实际上，更多的文本将会显示在点显器上面。
 这样做将提高在阅读更大数量的文本时的效率。
 默认情况下，它是禁用的。
 
 ==== 避免拆分单词()如果可能) ====[BrailleSettingsWordWrap]
-如果它被启用，对于盲文显示器行尾而言太大的单词将不会被拆分。取而代之的是一些空白格子。
-当您滚动盲文显示器，您可以查看整个单词。
+如果它被启用，对于点显器行尾而言太大的单词将不会被拆分。取而代之的是一些空白格子。
+当您滚动点显器，您可以查看整个单词。
 有时候这被称为“自动换行”。
-请注意：如果单词对于整个盲文显示器本身而言过大，单词仍然会被拆分。
+请注意：如果单词对于整个点显器本身而言过大，单词仍然会被拆分。
 
-如果此选项被停用，尽可能多的字符会被显示在盲文显示器上，但单词后面的部分将被切分开。
-当您滚动盲文显示器时，您将查看到单词的剩余部分。
+如果此选项被停用，尽可能多的字符会被显示在点显器上，但单词后面的部分将被切分开。
+当您滚动点显器时，您将查看到单词的剩余部分。
 
-启用此选项可能令阅读变的更加流畅，但通常也会要求您进行更多次数的盲文显示器滚动。
+启用此选项可能令阅读变的更加流畅，但通常也会要求您进行更多次数的点显器滚动。
 
 ==== 焦点上下文信息 ====[BrailleSettingsFocusContextPresentation]
-此选项允许您选择当对象获得焦点时NVDA将在盲文显示器上显示的上下文信息。
+此选项允许您选择当对象获得焦点时NVDA将在点显器上显示的上下文信息。
 上下文信息是指包含焦点的对象的层次结构。
 例如，当您关注列表项时，此列表项是列表的一部分。
 该列表可能包含在对话框等中。
 有关适用于NVDA中对象的层次结构的更多信息，请参阅有关[对象导航#ObjectNavigation]的部分。
 
-当设置为填充显示以进行上下文更改时，NVDA将尝试在盲文显示器上显示尽可能多的上下文信息，但仅针对已更改的上下文部分。
-对于上面的示例，这意味着当将焦点更改为列表时，NVDA将在盲文显示器上显示列表项。
-此外，如果盲文显示器上留有足够的空间，NVDA将尝试显示列表项是列表的一部分。
+当设置为填充显示以进行上下文更改时，NVDA将尝试在点显器上显示尽可能多的上下文信息，但仅针对已更改的上下文部分。
+对于上面的示例，这意味着当将焦点更改为列表时，NVDA将在点显器上显示列表项。
+此外，如果点显器上留有足够的空间，NVDA将尝试显示列表项是列表的一部分。
 如果您随后使用箭头键开始在列表中移动，则假定您知道您仍在列表中。
 因此，对于您关注的其余列表项，NVDA将仅在显示屏上显示焦点列表项。
 为了让您再次阅读上下文（即您在列表中并且列表是对话框的一部分），您将不得不向后滚动盲文显示。
 
-当此选项设置为始终填充显示时，NVDA将尝试在盲文显示器上显示尽可能多的上下文信息，无论您之前是否看过相同的上下文信息。
+当此选项设置为始终填充显示时，NVDA将尝试在点显器上显示尽可能多的上下文信息，无论您之前是否看过相同的上下文信息。
 这样做的好处是NVDA可以在显示屏上显示尽可能多的信息。
-然而，缺点是焦点在盲文显示器上开始的位置总是存在差异。
+然而，缺点是焦点在点显器上开始的位置总是存在差异。
 这可能会使浏览很长的项目列表变得困难，例如，因为您需要不断移动手指以找到项目的开头。
 这是NVDA 2017.2及之前的默认行为。
 
-当您将焦点上下文显示选项设置为仅在向后滚动时显示上下文信息时，NVDA默认情况下不会在您的盲文显示器上显示上下文信息。
+当您将焦点上下文显示选项设置为仅在向后滚动时显示上下文信息时，NVDA默认情况下不会在您的点显器上显示上下文信息。
 因此，在上面的示例中，NVDA将显示您关注列表项。
 但是，为了让您阅读上下文（即您在列表中并且列表是对话框的一部分），您将不得不向后滚动盲文显示。
 
 要想在任何地方切换焦点上下文信息的显示方法，请在[输入手势对话框 #InputGestures]定义一个自定义手势。
 
-+++ 选择盲文显示器(NVDA+control+a) +++[SelectBrailleDisplay]
-在盲文分类里面点击更改...按钮，就会打开这个对话框。你可以在这里更改NVDA使用的盲文显示器。
-当您选中想用的合成器之后，点击“确认”按钮，NVDA 将载入您选择的盲文显示器。
-如果载入时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的盲文显示器。
++++ 选择点显器(NVDA+control+a) +++[SelectBrailleDisplay]
+在盲文分类里面点击更改...按钮，就会打开这个对话框。你可以在这里更改NVDA使用的点显器。
+当您选中想用的合成器之后，点击“确认”按钮，NVDA 将载入您选择的点显器。
+如果载入时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的点显器。
 
-==== 盲文显示器 ====[SelectBrailleDisplayDisplay]
-这个组合框依照您系统内可用的盲文显示器驱动来展示一些选项。
+==== 点显器 ====[SelectBrailleDisplayDisplay]
+这个组合框依照您系统内可用的点显器驱动来展示一些选项。
 使用光标键在这些选项之间移动。
 
-自动选项将允许NVDA在后台搜索部分支持自动搜索的的盲文盲文显示器。
-启用此功能并使用USB或蓝牙连接支持的盲文显示器时，NVDA将自动连接此盲文显示器。
+自动选项将允许NVDA在后台搜索部分支持自动搜索的的盲文点显器。
+启用此功能并使用USB或蓝牙连接支持的点显器时，NVDA将自动连接此点显器。
 
-“无盲文显示器”意味着您不使用点字输出。
+“无点显器”意味着您不使用点字输出。
 
-请查看[支持的盲文显示器 #SupportedBrailleDisplays]章节获得更多与盲文显示器支持相关的信息。
+请查看[支持的点显器 #SupportedBrailleDisplays]章节获得更多与点显器支持相关的信息。
 
 ==== 端口 ====[SelectBrailleDisplayPort]
-此选项如果可用，可允许您为您选择的盲文显示器指定与之交互的端口类型。
-这是一个组合框，包含您的盲文显示器中所有可能的选择。
+此选项如果可用，可允许您为您选择的点显器指定与之交互的端口类型。
+这是一个组合框，包含您的点显器中所有可能的选择。
 
 默认情况下，NVDA 使用自动端口检测，这样做意味着，将通过自动扫描系统上可用的 USB 或蓝牙设备的方式来确定连接的点字设备。
-或许，对于一些盲文显示器，您可能可以明确选择需要使用的端口。
+或许，对于一些点显器，您可能可以明确选择需要使用的端口。
 通常的选项是“自动”(告诉 NVDA 执行默认的自动端口选择过程)、“USB”、“蓝牙”或者老式的串行端口，前提是您的设备支持此种类型的通讯。
 
 如果您的设备只支持自动端口检测，这些选项将不可用。
 
-您或许可以在[支持的盲文显示器 #SupportedBrailleDisplays]章节中查阅您的盲文显示器设备的文档，已了解支持的可用端口的通讯类型的更多信息。 
+您或许可以在[支持的点显器 #SupportedBrailleDisplays]章节中查阅您的点显器设备的文档，已了解支持的可用端口的通讯类型的更多信息。 
 
 +++ 键盘设置 (NVDA+control+k) +++[KeyboardSettings]
 NVDA设置对话框中的“键盘设置”部分包含一些选项，用于设置NVDA在您使用键盘时的行为。
@@ -1641,7 +1641,7 @@ NVDA 的语音字典比之单词替换更为强大。
 当您完成之后，您可以点击“确认”按钮保存设置或者点击“取消”按钮放弃对他们的修改。
 
 +++ 输入手势 +++[InputGestures]
-“输入手势”这个对话框里面，您可以为 NVDA 的命令自定义输入手势(如键盘上的按键、盲文显示器上的按钮等等)。
+“输入手势”这个对话框里面，您可以为 NVDA 的命令自定义输入手势(如键盘上的按键、点显器上的按钮等等)。
 
 仅显示在此对话框被打开之前仍旧可用的命令。
 例如说，您如果想修改浏览模式的命令，您必须在处于浏览模式的情况下，打开“输入手势”对话框。
@@ -1651,7 +1651,7 @@ NVDA 的语音字典比之单词替换更为强大。
 任何与命令相关的手势都会被列举在该命令之下。
 
 要想为一个命令创建手势，选择该命令并点击“添加”按钮。
-然后，执行您希望与该命令关联的手势，如按下键盘的按键或者盲文显示器的按钮。
+然后，执行您希望与该命令关联的手势，如按下键盘的按键或者点显器的按钮。
 通常，一个手势可以用多种方式进行理解。
 例如，如您按下一个键盘的按键，您可能希望指定其用于当前的键盘布局(如台式机键盘或笔记本键盘)或希望应用于所有的键盘布局。
 在此种情况下，出现的菜单允许您选择期望的选项。
@@ -1786,7 +1786,7 @@ NVDA 的语音字典比之单词替换更为强大。
 
 ++ 插件管理器 ++[AddonsManager]
 您可以通过 NVDA 的“工具”菜单的“插件管理器”访问插件管理器，插件管理器允许您安装、移除、启用或停用 NVDA 的插件。
-您可以在社区找到这些插件包，它们包含定制的代码，为您添加或更改 NVDA 甚至是额外的盲文显示器和语音合成器的特性。
+您可以在社区找到这些插件包，它们包含定制的代码，为您添加或更改 NVDA 甚至是额外的点显器和语音合成器的特性。
 
 插件管理器包含 NVDA 当前用户配置中安装的所有插件的列表。
 每个插件都显示了她的包名称、版本和作者，可以通过选中插件后点击“关于”插件的按钮来查看更详细的描述或 URL(地址)。
@@ -1891,15 +1891,15 @@ Windows 10包括称为“OneCore”或“移动”语音的新语音。
 
 此合成器不支持[拼写功能 #VoiceSpellingFunctionality]。
 
-+ 支持的盲文显示器 +[SupportedBrailleDisplays]
-本节包含有关NVDA支持的盲文显示器的信息。
++ 支持的点显器 +[SupportedBrailleDisplays]
+本节包含有关NVDA支持的点显器的信息。
 
-++ 后台自动检测盲文显示器 ++[AutomaticDetection]
-NVDA能够通过USB或蓝牙自动检测后台的许多盲文显示器。
+++ 后台自动检测点显器 ++[AutomaticDetection]
+NVDA能够通过USB或蓝牙自动检测后台的许多点显器。
 通过从NVDA的[盲文设置对话框#BrailleSettings]中选择自动选项作为首选盲文显示，可以实现此行为。
 默认情况下此选项是开启的。
 
-以下盲文显示器支持此自动检测功能。
+以下点显器支持此自动检测功能。
 - Handy Tech displays
 - Baum/Humanware/APH/Orbit braille displays
 - HumanWare Brailliant BI/B series
@@ -2279,8 +2279,8 @@ Please see the display's documentation for descriptions of where these keys can 
 | alt+insert key | smartbeetle:f3+rightSideScroll |
 %kc:endInclude
 
-++ 清华盲文显示器 ++[Seika]
-支持来自的清华V3,V4和V5（40方）和80（80方）盲文显示器。
+++ 清华点显器 ++[Seika]
+支持来自的清华V3,V4和V5（40方）和80（80方）点显器。
 您可以在http://qhqmx.com.cn/dianziji.html上找到有关这些显示的更多信息。
 您必须先安装制造商提供的USB驱动程序。
 
