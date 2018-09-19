@@ -1421,7 +1421,7 @@ If this is unchecked, you need to double-tap on the touch keyboard key to press 
 ==== 读出动态内容更新 ====[ObjectPresentationReportDynamicContent]
 按键: NVDA+5
 
-切换是否朗读某些特殊控件的内容更新，例如终端或者聊天程序的历史控件。
+切换是否朗读某些特殊控件的内容更新，例如终端或者聊天程序的消息历史控件。
 
 ==== Play a sound when auto-suggestions appear ====[ObjectPresentationSuggestionSounds]
 Toggles announcement of appearance of auto-suggestions, and if enabled, NVDA will play a sound to indicate this.
@@ -1567,7 +1567,17 @@ The auto-suggestions list will close once you move away from the edit field, and
 - 语音和声音：此选项将使用上述两种方式来提示缩进。
 -
 
-+++ 语音字典 +++
++++ Windows 10 OCR 设置 +++[Win10OcrSettings]
+The settings in this category allow you to configure [Windows 10 OCR #Win10Ocr].
+This category contains the following options:
+
+==== Recognition language ====[Win10OcrSettingsRecognitionLanguage]
+This combo box allows you to choose the language to be used for text recognition.
+
+++ 杂项设置 ++[MiscSettings]
+Besides the [NVDA Settings #NVDASettings] dialog, The Preferences sub-menu of the NVDA Menu contains several other items which are outlined below.
+
++++ 语音字典 +++[SpeechDictionaries]
 “语音字典”对话框，可用来为特定词语或者短语指定特殊的朗读方法，他可以再“选项”菜单下的“语音字典”找到。
 目前，存在三种类型的字典。
 他们是：
@@ -1631,8 +1641,7 @@ NVDA 的语音字典比之单词替换更为强大。
 当您完成之后，您可以点击“确认”按钮保存设置或者点击“取消”按钮放弃对他们的修改。
 
 +++ 输入手势 +++[InputGestures]
-在NVDA设置对话框中的“输入手势”部分里，您可以为 NVDA 的命令自定义输入手势(如键盘上的按键、点显器上的按钮等等)。
-它包括以下选项：
+“输入手势”这个对话框里面，您可以为 NVDA 的命令自定义输入手势(如键盘上的按键、点显器上的按钮等等)。
 
 仅显示在此对话框被打开之前仍旧可用的命令。
 例如说，您如果想修改浏览模式的命令，您必须在处于浏览模式的情况下，打开“输入手势”对话框。
@@ -1651,7 +1660,7 @@ NVDA 的语音字典比之单词替换更为强大。
 
 当您完成修改之后，点击“确认”保存设置或点击“取消”按钮放弃。
 
-++ 保存或重新加载配置 ++
+++ 保存或重新加载配置 ++[SavingAndReloading]
 默认情况下，NVDA 会在退出时保存您的设置。
 请注意，此设置可以在“选项”菜单下的“常规设置”修改。
 任何时候想手动保存配置，可选择 NVDA 菜单的“保存配置”项目。
@@ -1666,7 +1675,7 @@ NVDA 的语音字典比之单词替换更为强大。
 | 恢复配置 | NVDA+control+r | NVDA+control+r | 按一次恢复重置您的设置到上一次保存的状态，连按三次恢复到默认的出厂设置。 |
 %kc:endInclude
 
-++ 配置文件 ++
+++ 配置文件 ++[ConfigurationProfiles]
 有些时候，您可能希望在不同的场景下拥有不同的设置。
 例如，您可能希望在编辑文档的时候启用缩进的朗读，在校对的时候启用字体属性朗读。
 通过使用配置，NVDA 允许您这样做。
@@ -1677,7 +1686,7 @@ NVDA 的语音字典比之单词替换更为强大。
 配置文件也可手动激活。
 它也可由一些触发条件自动的激活，如切换到特定的程序。
 
-+++ 基本管理 +++
++++ 基本配置管理 +++[ProfilesBasicManagement]
 您可以通过选择 NVDA 的“管理配置”菜单来管理配置文件。
 您也可以通过一个键盘命令来这样做：
 %kc:beginInclude
@@ -1693,7 +1702,7 @@ NVDA 的语音字典比之单词替换更为强大。
 
 点击“关闭”按钮关闭对话框。
 
-+++ 创建配置 +++
++++ 创建配置 +++[ProfilesCreating]
 要想创建配置，点击“新建”按钮。
 
 在“新建配置”对话框，您可以为配置键入名称。
@@ -1726,7 +1735,7 @@ NVDA 的语音字典比之单词替换更为强大。
 
 点击“关闭”按钮返回“配置管理”对话框。
 
-+++ 编辑配置 +++
++++ 编辑配置 +++[ConfigProfileEditing]
 如果您手动激活了一个配置，任何设置都会自动保存在这个配置里。
 否则，您进行的任何设置将会被保存在最近关联的配置之内。
 例如，如果您最近为应用程序“记事本”关联了一个配置，您切换到“记事本”时进行的修改，都会被保存在此关联的配置之内。
@@ -1734,12 +1743,14 @@ NVDA 的语音字典比之单词替换更为强大。
 
 要想编辑与“全文朗读”进行了关联的配置，您必须[手动激活 #ConfigProfileManual]那个配置。
 
-+++ 临时停用关联 +++
++++ 临时停用关联 +++[ConfigProfileDisablingTriggers]
 有些时候，临时停用所有关联是非常实用的。
 例如，您可能希望在不受到其他关联配置影响的情况下，对手动激活的配置或者通用配置进行修改。
 您可以在“管理配置”对话框中选中“临时停用所有关联”复选框达到此目的。
 
-++ 配置文件的所在 ++
+To toggle disabling triggers from anywhere, please assign a custom gesture using the [Input Gestures dialog #InputGestures].
+
+++ 配置文件保存的位置 ++[LocationOfConfigurationFiles]
 便携版本的 NVDA 设置(包括自定义程序模块、自定义驱动)都被直接存放在 NVDA 的 userConfig 目录下。
 
 安装版本的 NVDA 的所有配置(自定义程序模块和自定义驱动)都被放在您的 Windows 用户配置的特殊 NVDA 目录之下。
@@ -1750,15 +1761,15 @@ NVDA 的语音字典比之单词替换更为强大。
 通常情况下，不要接触这些配置文件。
 要想更改 NVDA 在欢迎屏幕和 UAC 屏幕时的配置，在登陆 Windows 之后修改您的 NVDA 配置，保存您的配置，然后按下“常规设置”对话框的“应用以保存的配置到欢迎界面和其他安全界面”按钮。
 
-+ 附加工具 +
++ 附加工具 +[ExtraTools]
 
-++ 日志查看器 ++
+++ 日志查看器 ++[LogViewer]
 在 NVDA 的“工具”菜单下能找到“日志查看器”，允许您查看所有自上次启动 NVDA 开始到现在的所有日志输出。
 
 除了阅读内容，您还可以保存日志文件的副本，或刷新查看器，因为日志查看器只会显示在该对话框被打开之前的最近输出。
 此动作可在日志查看器的“日志”菜单下找到。
 
-++ 朗读查看器 ++
+++ 朗读查看器 ++[SpeechViewer]
  对于明眼的软件开发者或希望向明眼观众演示 NVDA 的人们，有一个浮动的窗口可以查看 NVDA 所有的语音输出文本。
 
 要想起用朗读查看器，可以再 NVDA 的“工具”菜单选中。
@@ -1773,7 +1784,7 @@ NVDA 的语音字典比之单词替换更为强大。
 
 要想在任何地方切换朗读查看器的开关，请在[输入手势对话框 #InputGestures]定义一个自定义手势。
 
-++ 插件管理器 ++
+++ 插件管理器 ++[AddonsManager]
 您可以通过 NVDA 的“工具”菜单的“插件管理器”访问插件管理器，插件管理器允许您安装、移除、启用或停用 NVDA 的插件。
 您可以在社区找到这些插件包，它们包含定制的代码，为您添加或更改 NVDA 甚至是额外的点显器和语音合成器的特性。
 
@@ -1791,7 +1802,7 @@ NVDA 的语音字典比之单词替换更为强大。
 当您点击打开时，安装进程将随之开始。
 
 当一个插件正在被安装的时候，NVDA 首先会向您确认是否真的要安装。
-这些附加的插件理论上可以执行的动作是无限制的，如果您正在使用安装版本，从来源可靠的地方获取插件是非常重要的，它们可以访问您的用户数据甚至整个系统。
+这些附加的插件可以执行的操作理论上是没有限制的，如果您正在使用安装版本，从来源可靠的地方获取插件是非常重要的，它们可以访问您的用户数据甚至整个系统。
 插件安装完成之后， NVDA 必须重新启动已使得插件可以开始运行。
 待这些都完成之后，插件的“安装”状态就会显示在列表内。
 
@@ -1804,6 +1815,7 @@ NVDA 会询问您是否真的要这样做。
 要想启用先前停用的插件，点击“启用”按钮。
 当插件状态显示为“正在运行”或“已启用”时，您可以停用该插件；当状态显示为“挂起”或“已停用”时，您可以启用该插件。
 每次点击“启用”和“停用”按钮后，插件状态栏都能实时地显示在下次 NVDA 重新启动时会发生什么变化。
+如果之前停用了插件，状态一栏会显示“重启后启用”。如果之前插件是启用的，状态一栏会显示“重启后禁用”。
 就像是添加或删除插件一样，您必须重新启动 NVDA 才能使之生效。
 
 管理器也包含“关闭”按钮，使用它可以关闭对话框。
@@ -1815,18 +1827,18 @@ NVDA 会询问您是否真的要这样做。
 
 要想在任何地方访问插件管理器，请在[输入手势对话框 #InputGestures]定义一个自定义手势。
 
-++ Python 控制台 ++
+++ Python 控制台 ++[PythonConsole]
 NVDA Python 控制台可以再 NVDA 的“工具”菜单找到，他是一个开发工具，他可用来进行调试，一般的内部检查和程序可访问程度的检查。
 更多信息，可从[NVDA 网站的开发部分 http://community.nvda-project.org/wiki/Development]查看可用的开发文档。
 
-++ 重新加载插件 ++
+++ 重新加载插件 ++[ReloadPlugins]
 一旦此项目被激活，即可在不重新启动 NVDA 的情况下重新加载程序模块和全局插件，此功能对于开发者非常有用。
 
 + 支持的语音合成器 +[SupportedSpeechSynths]
 此章节包含 NVDA 支持的合成器的信息。
 要想查看更多您可以购买或下载的、可用于 NVDA 的免费或商业语音合成器的列表，请查看页面[http://www.nvda-project.org/wiki/ExtraVoices http://www.nvda-project.org/wiki/ExtraVoices](译者注：更多的语音合成器资源也可访问：[NVDA语音合成器集中下载 http://www.nvdacn.com/vd/]页获取)。
 
-++ eSpeak NG++
+++ eSpeak NG++[eSpeakNG]
 [eSpeak NG https://github.com/espeak-ng/espeak-ng] 语音合成器预装在 NVDA 之中，不需要安装特别的驱动或者组件。
 在默认情况下，NVDA 使用 eSpeak NG 启动。
 作为 NVDA 的预装合成器，对于在其他系统通过 U 盘驱动器运行 NVDA来说，这是一个很好的选择。
@@ -1836,19 +1848,19 @@ eSpeak NG 支持超过43种不同的语言。
 
 它还包含许多可供选择的、能作用于语音声音的变体。
 
-++ Microsoft Speech API version 4 (SAPI 4) ++
+++ Microsoft Speech API version 4 (SAPI 4) ++[SAPI4]
 SAPI 4 是一个很有历史的微软软件语音合成器标准。
 许多在此标准下编译的语音合成器可以在各种各样的公司或网站购买或免费下载。
 当在 NVDA 使用此合成器时，“可用的语音”(访问[语音设置对话框 #VoiceSettings]或者通过 [循环切换合成器设置 #SynthSettingsRing])将包含所有安装在系统的 SAPI4 的语音合成器引擎的所有语音。
 
 如果您已经安装了 SAPI 4语音，但合成器并未出现在 NVDA 的合成器列表，请安装 SAPI 4运行接口，请访问 http://activex.microsoft.com/activex/controls/sapi/spchapi.exe 。
 
-++ Microsoft Speech API version 5 (SAPI 5) ++
+++ Microsoft Speech API version 5 (SAPI 5) ++[SAPI5]
 SAPI 5 是一个微软软件语音合成器标准。
 许多在此标准下编译的语音合成器可以在各种各样的公司或网站购买或免费下载。您的系统可能已经预装有最少一个 SAPI 5 语音。
 当在 NVDA 使用此合成器时，“可用的语音”(访问[语音设置对话框 #VoiceSettings]或者通过 [循环切换合成器设置 #SynthSettingsRing])将包含所有安装在系统的 SAPI5 的语音合成器引擎的所有语音。
 
-++ Microsoft Speech Platform ++
+++ Microsoft Speech Platform ++[MicrosoftSpeechPlatform]
 Microsoft Speech Platform (微软语音平台)包含许多语言的声音，它通常用来进行基础语音应用程序服务的开发。
 此语音也可用于 NVDA。
 
@@ -1861,91 +1873,23 @@ Microsoft Speech Platform (微软语音平台)包含许多语言的声音，它�
  -
 -
 
-++ Audiologic Tts3 ++
+++ Windows OneCore Voices ++[OneCore]
+Windows 10 includes new voices known as "OneCore" or "mobile" voices.
+Voices are provided for many languages, and they are more responsive than the Microsoft voices available using Microsoft Speech API version 5.
+
+Please see this Microsoft article for a list of available voices and instructions to install them: https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices
+
+Please note that the faster rates available with Narrator are not currently available with NVDA.
+Also, the speed you select in the Windows Settings affects the rate set in NVDA.
+These are issues we cannot resolve without changes to Windows.
+We are hopeful that these will be addressed in a future Windows update.
+
+++ Audiologic Tts3 ++[Audiologic]
 这是一个意大利语的付费语音合成器。
 要想在 NVDA 使用此合成器，您必须先在系统进行安装。
- 更多信息，请查看 Audiologic 网站 www.audiologic.it。
+想了解更多信息，请查看 Audiologic 网站 www.audiologic.it。
 
 此合成器不支持[拼写功能 #VoiceSpellingFunctionality]。
-
-++ NVDA 的 Nuance Vocalizer ++
-Nuance Vocalizer 是一个由 Nuance Communications, Inc. 开发、并由 Tiflotecnia, Lda. 特别为 NVDA 封装的高质量商业合成器。 
-它包含超过五十个不同的语音，三十种不同的语言。
- 所有合成器都被打包成插件包的形式，允许完全地运行在便携版本的 NVDA。
-
-您可以在它的网站[www.vocalizer-nvda.com http://www.vocalizer-nvda.com/]获取更多有关于 NVDA 的 Nuance Vocalizer 和如何购买的信息。
-此产品的部分销售额会捐赠给 NV Access ，从而支持屏幕阅读器 NVDA 的可持续开发。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 + Supported Braille Displays +[SupportedBrailleDisplays]
 This section contains information about the Braille displays supported by NVDA.
