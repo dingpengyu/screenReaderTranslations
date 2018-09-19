@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-09-19 14:56+0700\n"
+"PO-Revision-Date: 2018-09-19 18:38+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -186,7 +186,7 @@ msgstr "Các thay đổi cho phiên bản 11.0"
 
 #. type: Bullet: '*	'
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr "Tương thích với NVDA 2018.3 hay cao hơn (yêu cầu)."
+msgstr "Tương thích với NVDA 2018.3 trở lên (yêu cầu)."
 
 #. type: Bullet: '*	'
 msgid ""
