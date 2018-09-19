@@ -1,6 +1,6 @@
 # Structural comparison of zh_CN/userGuide.t2t against zh_CN/userGuide-newRevisions/15243/userGuide.t2t
-en 6.2. start:537 paragraphs:1, tables:1, lists:0
-zh_CN 6.2. start:536 paragraphs:1, tables:1, lists:0
+en 6.3. start:548 paragraphs:1, tables:1, lists:0
+zh_CN 6.3. start:549 paragraphs:1, tables:1, lists:0
 en 7.1. start:577 paragraphs:5, tables:1, lists:1
 zh_CN 7.1. start:577 paragraphs:5, tables:1, lists:0
 en 11.1.1. start:933 paragraphs:14, tables:0, lists:2
