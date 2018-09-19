@@ -21,7 +21,7 @@
     <LI><A HREF="#GeneralFeatures">1.1. 主要功能</A>
     <LI><A HREF="#Internationalization">1.2. 国际化</A>
     <LI><A HREF="#SpeechSynthesizerSupport">1.3. 支持的语音合成器</A>
-    <LI><A HREF="#BrailleSupport">1.4. 点显器支持</A>
+    <LI><A HREF="#BrailleSupport">1.4. 盲文显示器支持</A>
     <LI><A HREF="#LicenseAndCopyright">1.5. 许可证与著作权</A>
     </UL>
   <LI><A HREF="#SystemRequirements">2. 系统需求</A>
@@ -91,7 +91,7 @@
     </UL>
   <LI><A HREF="#ContentRecognition">9. 图像内容识别</A>
     <UL>
-    <LI><A HREF="#Win10Ocr">9.1. Windows 10 OCR</A>
+    <LI><A HREF="#Win10Ocr">9.1. Windows 10 光学字符识别</A>
     </UL>
   <LI><A HREF="#ApplicationSpecificFeatures">10. 特定应用程序的 NVDA命令</A>
     <UL>
@@ -130,7 +130,7 @@
       <LI><A HREF="#SelectSynthesizer">11.1.3. 选择语音合成器对话框 (NVDA+control+s)</A>
       <LI><A HREF="#SynthSettingsRing">11.1.4. 循环切换合成器设置</A>
       <LI><A HREF="#BrailleSettings">11.1.5. 盲文</A>
-      <LI><A HREF="#SelectBrailleDisplay">11.1.6. Select Braille Display (NVDA+control+a)</A>
+      <LI><A HREF="#SelectBrailleDisplay">11.1.6. 选择盲文显示器(NVDA+control+a)</A>
       <LI><A HREF="#KeyboardSettings">11.1.7. 键盘设置 (NVDA+control+k)</A>
       <LI><A HREF="#MouseSettings">11.1.8. 鼠标设置 (NVDA+control+m)</A>
       <LI><A HREF="#TouchInteraction">11.1.9. 使用触摸屏与系统交互</A>
@@ -139,7 +139,7 @@
       <LI><A HREF="#InputCompositionSettings">11.1.12. 输入法设置</A>
       <LI><A HREF="#BrowseModeSettings">11.1.13. 浏览模式设置 (NVDA+control+b)</A>
       <LI><A HREF="#DocumentFormattingSettings">11.1.14. 文档格式设置 (NVDA+control+d)</A>
-      <LI><A HREF="#Win10OcrSettings">11.1.15. Windows 10 OCR 设置</A>
+      <LI><A HREF="#Win10OcrSettings">11.1.15. Windows 10 光学字符识别 设置</A>
       </UL>
     <LI><A HREF="#MiscSettings">11.2. 杂项设置</A>
       <UL>
@@ -176,7 +176,7 @@
     <LI><A HREF="#OneCore">13.5. Windows OneCore Voices</A>
     <LI><A HREF="#Audiologic">13.6. Audiologic Tts3</A>
     </UL>
-  <LI><A HREF="#SupportedBrailleDisplays">14. Supported Braille Displays</A>
+  <LI><A HREF="#SupportedBrailleDisplays">14. 支持的盲文显示器</A>
     <UL>
     <LI><A HREF="#AutomaticDetection">14.1. Displays supporting automatic detection in the background</A>
     <LI><A HREF="#FreedomScientificFocus">14.2. Freedom Scientific Focus/PAC Mate Series</A>
@@ -193,7 +193,7 @@
       <LI><A HREF="#toc128">14.9.3. Key assignments for Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
-    <LI><A HREF="#Seika">14.11. Seika Braille Displays</A>
+    <LI><A HREF="#Seika">14.11. 清华盲文显示器</A>
     <LI><A HREF="#Papenmeier">14.12. Papenmeier BRAILLEX Newer Models</A>
     <LI><A HREF="#PapenmeierOld">14.13. Papenmeier Braille BRAILLEX Older Models</A>
     <LI><A HREF="#HumanWareBrailleNote">14.14. HumanWare BrailleNote</A>
@@ -237,7 +237,7 @@ NVDA允许盲人和低视力人群访问 Windows 操作系统以及与许多第�
 <LI>内建的语音合成器支持超过80种语言。
 <LI>支持文档格式的朗读，如字体名称或大小、样式和拼写错误。
 <LI>可自动朗读鼠标指向的文本，还包括用声音提示鼠标所在位置的选项。
-<LI>支持许多种可刷新点字显示器，并且支持自动检测部分品牌的点字显示器，实现即插即用，支持带点字键盘的点字显示器的电脑盲文输入。
+<LI>支持许多种可刷新盲文显示器，并且支持自动检测部分品牌的盲文显示器，实现即插即用，支持带点字键盘的盲文显示器的电脑盲文输入。
 <LI>无需安装，可完全运行在U盘或者其他可携式存储设备上。
 <LI>便于使用的语音安装程序。
 <LI>已翻译为54种语言。
@@ -270,13 +270,13 @@ NVDA捆绑的<A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak NG</A>是�
 </P>
 
 <A NAME="BrailleSupport"></A>
-<H3>1.4. 点显器支持</H3>
+<H3>1.4. 盲文显示器支持</H3>
 
 <P>
-对于拥有可刷新点显器的用户，NVDA 可将信息以点字形式输出到点显器上。
+对于拥有可刷新盲文显示器的用户，NVDA 可将信息以点字形式输出到盲文显示器上。
 NVDA 支持简写或非简写点字输入。
-NVDA 还可以自动检测某些型号的点显器。
-请参看<A HREF="#SupportedBrailleDisplays">支持的点显器</A>章节，查看有关于点显器支持方面的信息。
+NVDA 还可以自动检测某些型号的盲文显示器。
+请参看<A HREF="#SupportedBrailleDisplays">支持的盲文显示器</A>章节，查看有关于盲文显示器支持方面的信息。
 </P>
 <P>
 NVDA 支持显示多种语言的简写或非简写点字以及电脑点字。
@@ -1465,7 +1465,7 @@ NVDA 支持下列类型的数学内容：
 
 <P>
 当阅读一个文档时， NVDA 将会把所有支持的数学内容读出来。
-如果您正在使用点显器，这也将会被用点字显示。
+如果您正在使用盲文显示器，这也将会被用点字显示。
 </P>
 
 <A NAME="InteractiveNavigation"></A>
@@ -1513,7 +1513,7 @@ NVDA 支持下列类型的数学内容：
 <H2>8. 盲文</H2>
 
 <P>
-If you own a braille display, NVDA can display information in braille.
+如果你有一个盲文显示器，NVDA可以以盲文的形式显示屏幕上的信息
 If your braille display has a Perkins-style keyboard, you can also enter contracted or uncontracted braille.
 </P>
 <P>
@@ -1725,7 +1725,7 @@ In order to fit as much information as possible on a braille display, the follow
 </TABLE>
 
 <P>
-The following state indicators are also defined:
+下面是NVDA定义的对象信息标识:
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -1906,10 +1906,10 @@ NVDA的插件也有提供额外的内容识别器。
 </P>
 
 <A NAME="Win10Ocr"></A>
-<H3>9.1. Windows 10 OCR</H3>
+<H3>9.1. Windows 10 光学字符识别</H3>
 
 <P>
-Windows 10包含许多语言的OCR。
+Windows 10包含许多语言的光学字符识别功能。
 NVDA可以使用它来识别来自图像或无障碍支持差的应用程序的文本。
 </P>
 <P>
@@ -2236,7 +2236,7 @@ To view, edit or delete a note:
 <H3>10.9. Azardi</H3>
 
 <P>
-When in the table view of added books:
+在添加书目的表格里面，可以使用这些快捷键。
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -2248,12 +2248,12 @@ When in the table view of added books:
 <TR>
 <TD>Enter</TD>
 <TD>enter</TD>
-<TD>Opens the selected book.</TD>
+<TD>打开选定的书.</TD>
 </TR>
 <TR>
 <TD>Context menu</TD>
 <TD>applications</TD>
-<TD>Opens the context menu for the selected book.</TD>
+<TD>打开选定的书的上下文菜单.</TD>
 </TR>
 </TABLE>
 
@@ -2397,8 +2397,8 @@ NVDA更新服务器只根据您的IP判断用户在哪国使用NVDA，并不会�
 <LI>NVDA 界面语言
 <LI>NVDA 是便携版还是安装版本
 <LI>当前使用的语音合成器名称(包括合成器插件名称)
-<LI>当前使用的点显器名称(包括点显器驱动插件名称)
-<LI>当前使用的盲文表(使用点显器时才会上传)
+<LI>当前使用的盲文显示器名称(包括盲文显示器驱动插件名称)
+<LI>当前使用的盲文表(使用盲文显示器时才会上传)
 </UL>
 
 <P>
@@ -2654,17 +2654,17 @@ NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框
 <H4>11.1.5. 盲文</H4>
 
 <P>
-你可以在NVDA设置对话框的盲文分类，更改点显器相关的设置。
+你可以在NVDA设置对话框的盲文分类，更改盲文显示器相关的设置。
 这个分类包含以下选项
 </P>
 
 <A NAME="BrailleSettingsChange"></A>
-<H5>更改点显器</H5>
+<H5>更改盲文显示器</H5>
 
 <P>
 按下盲文分类内的更改按钮，就会打开<A HREF="#SelectBrailleDisplay">Select Braille Display</A>对话框
 这个对话框会出现在NVDA设置对话框之上
-保存或者更改点显器设置之后，会回到NVDA设置对话框。
+保存或者更改盲文显示器设置之后，会回到NVDA设置对话框。
 </P>
 
 <A NAME="BrailleSettingsOutputTable"></A>
@@ -2673,7 +2673,7 @@ NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框
 <P>
 这个分类的下一个选项就是“点字输出表”组合框。
 在此组合框之内，您可以找到不同语言的标准级别或其他级别的点字输出表。
-选择的列表将用来进行盲文翻译并输出到点显器。
+选择的列表将用来进行盲文翻译并输出到盲文显示器。
 您可以使用光标键在点字表的列表之间移动。
 </P>
 
@@ -2682,12 +2682,12 @@ NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框
 
 <P>
 和上一个选项对应，您将找到的下一个选项是“点字输入表”组合框。
-选择的表格将用来把使用点显器的 Perkins style 键盘输入的文本进行翻译。NVDA现在只支持电脑盲文点字的输入，因此，只有八点点字表才会被显示。
+选择的表格将用来把使用盲文显示器的 Perkins style 键盘输入的文本进行翻译。NVDA现在只支持电脑盲文点字的输入，因此，只有八点点字表才会被显示。
 您可以使用光标键在点字表的列表之间移动。
 </P>
 <P>
- 请注意，只有当您的点显器带有 Perkins-style 键盘且点显器驱动支持此特性时，此选项才可用。
-如果某个带有盲文输入键盘的点显器确实不能支持输入，它将被记录在<A HREF="#SupportedBrailleDisplays">支持的点显器</A>章节。
+ 请注意，只有当您的盲文显示器带有 Perkins-style 键盘且盲文显示器驱动支持此特性时，此选项才可用。
+如果某个带有盲文输入键盘的盲文显示器确实不能支持输入，它将被记录在<A HREF="#SupportedBrailleDisplays">支持的盲文显示器</A>章节。
 </P>
 
 <A NAME="BrailleSettingsExpandToComputerBraille"></A>
@@ -2711,7 +2711,7 @@ NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框
 <P>
 选中这个选项开启点字光标闪烁。
 If blinking is turned off, the braille cursor will constantly be in the "up" position.
-The selection indicator is not affected by this option, it is always dots 7 and 8 without blinking.
+选择指示器不受影响,它一直在 7 8 两点 而且不会闪烁.
 </P>
 
 <A NAME="BrailleSettingsBlinkRate"></A>
@@ -2734,14 +2734,14 @@ The selection indicator is not affected by this option, it is always dots 7 and 
 
 <P>
 This option allows you to choose the shape (dot pattern) of the braille cursor when braille is tethered to review.
-The selection indicator is not affected by this option, it is always dots 7 and 8 without blinking.
+选择指示器不受影响,它一直在 7 8 两点 而且不会闪烁.
 </P>
 
 <A NAME="BrailleSettingsMessageTimeout"></A>
 <H5>消息显示时间(以秒为单位)</H5>
 
 <P>
-这是一个数字区域，允许您控制 NVDA 的消息在点显器显示的时间长度。
+这是一个数字区域，允许您控制 NVDA 的消息在盲文显示器显示的时间长度。
 特别的，设置为0将完全停用这些消息。
 </P>
 
@@ -2759,9 +2759,9 @@ This option allows NVDA messages to be displayed on the braille display indefini
 按键: NVDA+control+t
 </P>
 <P>
-此选项允许您选择是否希望点显器跟随系统焦点或浏览对象(即浏览光标)。
-When "automatically" is selected, NVDA will follow the system focus and caret by default.
-In this case, when the navigator object or the review cursor position is changed by means of explicit user interaction, NVDA will tether to review temporarily, until the focus or the caret changes.
+此选项允许您选择是否希望盲文显示器跟随系统焦点或浏览对象(即浏览光标)。
+如果选中了“自动”点字光标会跟随系统焦点或浏览对象(即浏览光标)
+此时，如果用户操作改变了浏览对象，NVDA会让点字光标暂时跟随浏览对象，知道系统焦点或者输入焦点改变为止。
 </P>
 
 <A NAME="BrailleSettingsReadByParagraph"></A>
@@ -2770,8 +2770,8 @@ In this case, when the navigator object or the review cursor position is changed
 <P>
 如果启用，盲文将用段落显示方式来代替逐行显示方式。
 上一行和下一行的命令将相应的用来按段落移动。
-这样的意思就是您不必在每一行的末尾进行点显器滚动
-实际上，更多的文本将会显示在点显器上面。
+这样的意思就是您不必在每一行的末尾进行盲文显示器滚动
+实际上，更多的文本将会显示在盲文显示器上面。
 这样做将提高在阅读更大数量的文本时的效率。
 默认情况下，它是禁用的。
 </P>
@@ -2780,97 +2780,97 @@ In this case, when the navigator object or the review cursor position is changed
 <H5>避免拆分单词()如果可能)</H5>
 
 <P>
-如果它被启用，对于点显器行尾而言太大的单词将不会被拆分。取而代之的是一些空白格子。
-当您滚动点显器，您可以查看整个单词。
+如果它被启用，对于盲文显示器行尾而言太大的单词将不会被拆分。取而代之的是一些空白格子。
+当您滚动盲文显示器，您可以查看整个单词。
 有时候这被称为“自动换行”。
-请注意：如果单词对于整个点显器本身而言过大，单词仍然会被拆分。
+请注意：如果单词对于整个盲文显示器本身而言过大，单词仍然会被拆分。
 </P>
 <P>
-如果此选项被停用，尽可能多的字符会被显示在点显器上，但单词后面的部分将被切分开。
-当您滚动点显器时，您将查看到单词的剩余部分。
+如果此选项被停用，尽可能多的字符会被显示在盲文显示器上，但单词后面的部分将被切分开。
+当您滚动盲文显示器时，您将查看到单词的剩余部分。
 </P>
 <P>
-启用此选项可能令阅读变的更加流畅，但通常也会要求您进行更多次数的点显器滚动。
+启用此选项可能令阅读变的更加流畅，但通常也会要求您进行更多次数的盲文显示器滚动。
 </P>
 
 <A NAME="BrailleSettingsFocusContextPresentation"></A>
-<H5>Focus context presentation</H5>
+<H5>焦点上下文信息</H5>
 
 <P>
-This option allows you to choose what context information NVDA will show on the braille display when an object gets focus.
-Context information refers to the hierarchy of objects containing the focus.
-For example, when you focus a list item, this list item is part of a list.
-This list might be contained by a dialog, etc.
-Please consult the section about <A HREF="#ObjectNavigation">object navigation</A> for more information about the hierarchy that applies to objects in NVDA.
+此选项允许您选择当对象获得焦点时NVDA将在盲文显示器上显示的上下文信息。
+上下文信息是指包含焦点的对象的层次结构。
+例如，当您关注列表项时，此列表项是列表的一部分。
+该列表可能包含在对话框等中。
+有关适用于NVDA中对象的层次结构的更多信息，请参阅有关[对象导航#ObjectNavigation]的部分。
 </P>
 <P>
-When set to fill display for context changes, NVDA will try to display as much context information as possible on the braille display, but only for the parts of the context that have changed.
-For the example above, this means that when changing focus to the list, NVDA will show the list item on the braille display.
-Furthermore, if there is enough space left on the braille display, NVDA will try to show that the list item is part of a list.
-If you then start moving through the list with your arrow keys, it is assumed that you are aware that you are still in the list.
-Thus, for the remaining list items you focus, NVDA will only show the focused list item on the display.
-In order for you to read the context again (i.e. that you are in a list and that the list is part of a dialog), you will have to scroll your braille display back.
+当设置为填充显示以进行上下文更改时，NVDA将尝试在盲文显示器上显示尽可能多的上下文信息，但仅针对已更改的上下文部分。
+对于上面的示例，这意味着当将焦点更改为列表时，NVDA将在盲文显示器上显示列表项。
+此外，如果盲文显示器上留有足够的空间，NVDA将尝试显示列表项是列表的一部分。
+如果您随后使用箭头键开始在列表中移动，则假定您知道您仍在列表中。
+因此，对于您关注的其余列表项，NVDA将仅在显示屏上显示焦点列表项。
+为了让您再次阅读上下文（即您在列表中并且列表是对话框的一部分），您将不得不向后滚动盲文显示。
 </P>
 <P>
-When this option is set to always fill the display, NVDA will try to show as much context information as possible on the braille display, regardless of whether you have seen the same context information before.
-This has the advantage that NVDA will fit as much information as possible on the display.
-However, the downside is that there is always a difference in the position where the focus starts on the braille display.
-This can make it difficult to skim a long list of items, for example, as you will need to continually move your finger to find the start of the item.
-This was the default behavior for NVDA 2017.2 and before.
+当此选项设置为始终填充显示时，NVDA将尝试在盲文显示器上显示尽可能多的上下文信息，无论您之前是否看过相同的上下文信息。
+这样做的好处是NVDA可以在显示屏上显示尽可能多的信息。
+然而，缺点是焦点在盲文显示器上开始的位置总是存在差异。
+这可能会使浏览很长的项目列表变得困难，例如，因为您需要不断移动手指以找到项目的开头。
+这是NVDA 2017.2及之前的默认行为。
 </P>
 <P>
-When you set the focus context presentation option to only show the context information when scrolling back, NVDA never shows context information on your braille display by default.
-Thus, in the example above, NVDA will display that you focused a list item.
-However, in order for you to read the context (i.e. that you are in a list and that the list is part of a dialog), you will have to scroll your braille display back.
+当您将焦点上下文显示选项设置为仅在向后滚动时显示上下文信息时，NVDA默认情况下不会在您的盲文显示器上显示上下文信息。
+因此，在上面的示例中，NVDA将显示您关注列表项。
+但是，为了让您阅读上下文（即您在列表中并且列表是对话框的一部分），您将不得不向后滚动盲文显示。
 </P>
 <P>
-To toggle focus context presentation from anywhere, please assign a custom gesture using the <A HREF="#InputGestures">Input Gestures dialog</A>.
+要想在任何地方切换焦点上下文信息的显示方法，请在<A HREF="#InputGestures">输入手势对话框</A>定义一个自定义手势。
 </P>
 
 <A NAME="SelectBrailleDisplay"></A>
-<H4>11.1.6. Select Braille Display (NVDA+control+a)</H4>
+<H4>11.1.6. 选择盲文显示器(NVDA+control+a)</H4>
 
 <P>
-The Select Braille Display dialog, which can be opened by activating the Change... button in the Braille category of the NVDA settings dialog, allows you to select which Braille display NVDA should use for braille output.
-Once you have selected your braille display of choice, you can press Ok and NVDA will load the selected display.
-If there is an error loading the display driver, NVDA will notify you with a message, and continue using the previous display, if any.
+在盲文分类里面点击更改...按钮，就会打开这个对话框。你可以在这里更改NVDA使用的盲文显示器。
+当您选中想用的合成器之后，点击“确认”按钮，NVDA 将载入您选择的盲文显示器。
+如果载入时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的盲文显示器。
 </P>
 
 <A NAME="SelectBrailleDisplayDisplay"></A>
-<H5>Braille Display</H5>
+<H5>盲文显示器</H5>
 
 <P>
-这个组合框依照您系统内可用的点显器驱动来展示一些选项。
+这个组合框依照您系统内可用的盲文显示器驱动来展示一些选项。
 使用光标键在这些选项之间移动。
 </P>
 <P>
-The automatic option will allow NVDA to search for many supported braille displays in the background.
-When this feature is enabled and you connect a supported display using USB or bluetooth, NVDA will automatically connect with this display.
+自动选项将允许NVDA在后台搜索部分支持自动搜索的的盲文盲文显示器。
+启用此功能并使用USB或蓝牙连接支持的盲文显示器时，NVDA将自动连接此盲文显示器。
 </P>
 <P>
-“无点显器”意味着您不使用点字输出。
+“无盲文显示器”意味着您不使用点字输出。
 </P>
 <P>
-请查看<A HREF="#SupportedBrailleDisplays">支持的点字显示器</A>章节获得更多与点显器支持相关的信息。
+请查看<A HREF="#SupportedBrailleDisplays">支持的盲文显示器</A>章节获得更多与盲文显示器支持相关的信息。
 </P>
 
 <A NAME="SelectBrailleDisplayPort"></A>
 <H5>端口</H5>
 
 <P>
-此选项如果可用，可允许您为您选择的点显器指定与之交互的端口类型。
-这是一个组合框，包含您的点显器中所有可能的选择。
+此选项如果可用，可允许您为您选择的盲文显示器指定与之交互的端口类型。
+这是一个组合框，包含您的盲文显示器中所有可能的选择。
 </P>
 <P>
 默认情况下，NVDA 使用自动端口检测，这样做意味着，将通过自动扫描系统上可用的 USB 或蓝牙设备的方式来确定连接的点字设备。
-或许，对于一些点显器，您可能可以明确选择需要使用的端口。
+或许，对于一些盲文显示器，您可能可以明确选择需要使用的端口。
 通常的选项是“自动”(告诉 NVDA 执行默认的自动端口选择过程)、“USB”、“蓝牙”或者老式的串行端口，前提是您的设备支持此种类型的通讯。
 </P>
 <P>
 如果您的设备只支持自动端口检测，这些选项将不可用。
 </P>
 <P>
-您或许可以在<A HREF="#SupportedBrailleDisplays">支持的点显器</A>章节中查阅您的点显器设备的文档，已了解支持的可用端口的通讯类型的更多信息。 
+您或许可以在<A HREF="#SupportedBrailleDisplays">支持的盲文显示器</A>章节中查阅您的盲文显示器设备的文档，已了解支持的可用端口的通讯类型的更多信息。 
 </P>
 
 <A NAME="KeyboardSettings"></A>
@@ -3049,12 +3049,12 @@ NVDA设置对话框中的“鼠标设置”分类允许NVDA跟踪鼠标，用嘟
 </P>
 
 <A NAME="TouchTypingMode"></A>
-<H5>Touch typing mode</H5>
+<H5>触摸输入模式</H5>
 
 <P>
-This checkbox allows you to specify the method you wish to use when entering text using the touch keyboard.
-If this checkbox is checked, when you locate a key on the touch keyboard, you can lift your finger and the selected key will be pressed.
-If this is unchecked, you need to double-tap on the touch keyboard key to press the key.
+使用此复选框可以指定使用触摸键盘输入文本时要使用的方法。
+如果选中此复选框，则当您在触摸键盘上找到某个键时，可以抬起手指并按下所选键。
+如果未选中此选项，则需要双击触摸键盘键才能按键。
 </P>
 
 <A NAME="ReviewCursorSettings"></A>
@@ -3200,11 +3200,11 @@ If this is unchecked, you need to double-tap on the touch keyboard key to press 
 <H5>Play a sound when auto-suggestions appear</H5>
 
 <P>
-Toggles announcement of appearance of auto-suggestions, and if enabled, NVDA will play a sound to indicate this.
-Auto-suggestions are lists of suggested entries based on text entered into certain edit fields and documents.
-For example, when you enter text into the search box in Start menu in Windows Vista and later, Windows displays a list of suggestions based on what you typed.
-For some edit fields such as search fields in various Windows 10 apps, NVDA can notify you that a list of suggestions has appeared when you type text.
-The auto-suggestions list will close once you move away from the edit field, and for some fields, NVDA can notify you of this when this happens.
+切换是否朗读自动弹出的建议，如果启用，NVDA将播放声音以指示此情况。
+自动建议是基于输入到某些编辑字段和文档中的文本的建议条目列表。
+例如，当您在Windows Vista及更高版本的“开始”菜单的搜索框中输入文本时，Windows会根据您键入的内容显示建议列表。
+对于某些编辑字段（如各种Windows 10应用程序中的搜索字段），NVDA可以告诉您在键入文本时出现了一系列建议。
+离开编辑字段后，自动建议列表将关闭，对于某些字段，NVDA会在发生这种情况时通知您。
 </P>
 
 <A NAME="InputCompositionSettings"></A>
@@ -3443,18 +3443,18 @@ The auto-suggestions list will close once you move away from the edit field, and
 </UL>
 
 <A NAME="Win10OcrSettings"></A>
-<H4>11.1.15. Windows 10 OCR 设置</H4>
+<H4>11.1.15. Windows 10 光学字符识别 设置</H4>
 
 <P>
-The settings in this category allow you to configure <A HREF="#Win10Ocr">Windows 10 OCR</A>.
-This category contains the following options:
+这个部分允许你设置 <A HREF="#Win10Ocr">Windows 10 光学字符识别</A>.
+这个分类包含以下选项
 </P>
 
 <A NAME="Win10OcrSettingsRecognitionLanguage"></A>
-<H5>Recognition language</H5>
+<H5>识别用语言</H5>
 
 <P>
-This combo box allows you to choose the language to be used for text recognition.
+此组合框允许您选择用于光学字符识别的语言。
 </P>
 
 <A NAME="MiscSettings"></A>
@@ -3557,7 +3557,7 @@ NVDA 的语音字典比之单词替换更为强大。
 <H4>11.2.3. 输入手势</H4>
 
 <P>
-“输入手势”这个对话框里面，您可以为 NVDA 的命令自定义输入手势(如键盘上的按键、点显器上的按钮等等)。
+“输入手势”这个对话框里面，您可以为 NVDA 的命令自定义输入手势(如键盘上的按键、盲文显示器上的按钮等等)。
 </P>
 <P>
 仅显示在此对话框被打开之前仍旧可用的命令。
@@ -3570,7 +3570,7 @@ NVDA 的语音字典比之单词替换更为强大。
 </P>
 <P>
 要想为一个命令创建手势，选择该命令并点击“添加”按钮。
-然后，执行您希望与该命令关联的手势，如按下键盘的按键或者点显器的按钮。
+然后，执行您希望与该命令关联的手势，如按下键盘的按键或者盲文显示器的按钮。
 通常，一个手势可以用多种方式进行理解。
 例如，如您按下一个键盘的按键，您可能希望指定其用于当前的键盘布局(如台式机键盘或笔记本键盘)或希望应用于所有的键盘布局。
 在此种情况下，出现的菜单允许您选择期望的选项。
@@ -3735,7 +3735,7 @@ NVDA 的语音字典比之单词替换更为强大。
 您可以在“管理配置”对话框中选中“临时停用所有关联”复选框达到此目的。
 </P>
 <P>
-To toggle disabling triggers from anywhere, please assign a custom gesture using the <A HREF="#InputGestures">Input Gestures dialog</A>.
+要想在任何地方切换是否临时停用所有关联，请在<A HREF="#InputGestures">输入手势对话框</A>定义一个自定义手势。
 </P>
 
 <A NAME="LocationOfConfigurationFiles"></A>
@@ -3797,7 +3797,7 @@ To toggle disabling triggers from anywhere, please assign a custom gesture using
 
 <P>
 您可以通过 NVDA 的“工具”菜单的“插件管理器”访问插件管理器，插件管理器允许您安装、移除、启用或停用 NVDA 的插件。
-您可以在社区找到这些插件包，它们包含定制的代码，为您添加或更改 NVDA 甚至是额外的点显器和语音合成器的特性。
+您可以在社区找到这些插件包，它们包含定制的代码，为您添加或更改 NVDA 甚至是额外的盲文显示器和语音合成器的特性。
 </P>
 <P>
 插件管理器包含 NVDA 当前用户配置中安装的所有插件的列表。
@@ -3932,17 +3932,17 @@ Microsoft Speech Platform (微软语音平台)包含许多语言的声音，它�
 <H3>13.5. Windows OneCore Voices</H3>
 
 <P>
-Windows 10 includes new voices known as "OneCore" or "mobile" voices.
-Voices are provided for many languages, and they are more responsive than the Microsoft voices available using Microsoft Speech API version 5.
+Windows 10包括称为“OneCore”或“移动”语音的新语音。
+为多种语言提供了语音，它们比使用Microsoft Speech API第5版提供的Microsoft语音响应更快。
 </P>
 <P>
-Please see this Microsoft article for a list of available voices and instructions to install them: <A HREF="https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices">https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices</A>
+请参阅此Microsoft文章，获取可用语音列表和安装说明：https：//support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices
 </P>
 <P>
-Please note that the faster rates available with Narrator are not currently available with NVDA.
-Also, the speed you select in the Windows Settings affects the rate set in NVDA.
-These are issues we cannot resolve without changes to Windows.
-We are hopeful that these will be addressed in a future Windows update.
+请注意，NVDA目前不提供Narrator可用的更快语速。
+此外，您在Windows设置中选择的速度会影响NVDA中设置的语速。
+这些是我们无法在不更改Windows的情况下解决的问题。
+我们希望这些将在未来的Windows更新中得到解决。
 </P>
 
 <A NAME="Audiologic"></A>
@@ -3958,10 +3958,10 @@ We are hopeful that these will be addressed in a future Windows update.
 </P>
 
 <A NAME="SupportedBrailleDisplays"></A>
-<H2>14. Supported Braille Displays</H2>
+<H2>14. 支持的盲文显示器</H2>
 
 <P>
-This section contains information about the Braille displays supported by NVDA.
+本节包含有关NVDA支持的盲文显示器的信息。
 </P>
 
 <A NAME="AutomaticDetection"></A>
@@ -5130,15 +5130,15 @@ Please see the display's documentation for descriptions of where these keys can 
 </TABLE>
 
 <A NAME="Seika"></A>
-<H3>14.11. Seika Braille Displays</H3>
+<H3>14.11. 清华盲文显示器</H3>
 
 <P>
-The Seika Version 3, 4 and 5 (40 cells) and Seika80 (80 cells) braille displays from <A HREF="http://www.nippontelesoft.com/">Nippon Telesoft</A> are supported.
-You can find more information about these displays at <A HREF="http://www.seika-braille.com/">http://www.seika-braille.com/</A>.
-You must first install the USB drivers provided by the manufacturer.
+支持来自的清华V3,V4和V5（40方）和80（80方）盲文显示器。
+您可以在<A HREF="http://qhqmx.com.cn/dianziji.html">http://qhqmx.com.cn/dianziji.html</A>上找到有关这些显示的更多信息。
+您必须先安装制造商提供的USB驱动程序。
 </P>
 <P>
-These displays do not yet support NVDA's automatic background braille display detection functionality.
+这些显示器尚不支持NVDA的自动后台检测盲文显示检测功能。
 </P>
 <P>
 Following are the key assignments for this display with NVDA.
