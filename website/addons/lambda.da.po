@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-09-20 04:45+1000\n"
 "PO-Revision-Date: 2018-06-28 07:46+0200\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: \n"
@@ -492,6 +492,26 @@ msgstr ""
 "kasseres som kandidat."
 
 #. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.2.1 (stable)"
+msgid "Version 1.2.2 (stable)"
+msgstr "Version 1.2.1 (stabil)"
+
+#. type: Bullet: '* '
+msgid ""
+"Improved compatibility with WX Python version 4 (introduced with NVDA "
+"2018.3). Warning related with wx.NewId() is no longer displayed in debug log."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Implemented guiHelper to enhance dialogs's appearance."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New languages. Updated translations."
+msgstr "Nye sprog. Opdaterede oversættelser."
+
+#. type: Title ###
 #, no-wrap
 msgid "Version 1.2.1a (stable)"
 msgstr "Version 1.2.1a (stabil)"
@@ -508,10 +528,6 @@ msgstr ""
 "blive frigivet en version der er ligeså stabil. Vi gør det for at give de "
 "studerende maksimal stabilitet og for at minimere ændringerne i løbet af "
 "skoleåret."
-
-#. type: Bullet: '* '
-msgid "New languages. Updated translations."
-msgstr "Nye sprog. Opdaterede oversættelser."
 
 #. type: Title ###
 #, no-wrap

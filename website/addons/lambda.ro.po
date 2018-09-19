@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-11-14 06:49+1000\n"
+"POT-Creation-Date: 2018-09-20 04:45+1000\n"
 "PO-Revision-Date: 2017-11-18 10:59+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -500,6 +500,26 @@ msgstr ""
 "urmând ca mai apoi să primească statutul d versiune candidată."
 
 #. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.2.1 (stable)"
+msgid "Version 1.2.2 (stable)"
+msgstr "Versiunea 1.2.1 (stabilă)"
+
+#. type: Bullet: '* '
+msgid ""
+"Improved compatibility with WX Python version 4 (introduced with NVDA "
+"2018.3). Warning related with wx.NewId() is no longer displayed in debug log."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Implemented guiHelper to enhance dialogs's appearance."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New languages. Updated translations."
+msgstr "Limbi noi. Traduceri actualizate."
+
+#. type: Title ###
 #, no-wrap
 msgid "Version 1.2.1a (stable)"
 msgstr "Versiunea 1.2.1a (stabilă)"
@@ -515,10 +535,6 @@ msgstr ""
 "înseamnă că până cel puțin în iunie 2018, nu va mai fi lansată o versiune "
 "stabilă. Facem asta pentru a le oferi elevilor și studenților o stabilitate "
 "maximă și pentru a minimiza modificările pe durata anului academic."
-
-#. type: Bullet: '* '
-msgid "New languages. Updated translations."
-msgstr "Limbi noi. Traduceri actualizate."
 
 #. type: Title ###
 #, no-wrap

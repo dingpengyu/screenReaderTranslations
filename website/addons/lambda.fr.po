@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: lambda\n"
-"POT-Creation-Date: 2018-01-24 03:57+1000\n"
+"POT-Creation-Date: 2018-09-20 04:45+1000\n"
 "PO-Revision-Date: 2017-11-23 09:34+0100\n"
 "Last-Translator: Bachir BENANOU <ben_bach@yahoo.fr>\n"
 "Language-Team: French NVDA add-ons translation team\n"
@@ -508,6 +508,26 @@ msgstr ""
 "marquée comme stable ou rejetée en tant que candidate."
 
 #. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.2.1 (stable)"
+msgid "Version 1.2.2 (stable)"
+msgstr "Version 1.2.1 (stable)"
+
+#. type: Bullet: '* '
+msgid ""
+"Improved compatibility with WX Python version 4 (introduced with NVDA "
+"2018.3). Warning related with wx.NewId() is no longer displayed in debug log."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Implemented guiHelper to enhance dialogs's appearance."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New languages. Updated translations."
+msgstr "Nouvelles régions. Traductions mises à jour."
+
+#. type: Title ###
 #, no-wrap
 msgid "Version 1.2.1a (stable)"
 msgstr "Version 1.2.1a (stable)"
@@ -520,10 +540,6 @@ msgid ""
 "changes during the academical year."
 msgstr ""
 "Cette mise à jour est destinée à être une version de support à long terme."
-
-#. type: Bullet: '* '
-msgid "New languages. Updated translations."
-msgstr "Nouvelles régions. Traductions mises à jour."
 
 #. type: Title ###
 #, no-wrap
