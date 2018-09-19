@@ -82,7 +82,7 @@ Glavne karakteristike ove verzije uključuju automatsko prepoznavanje puno braje
  - Prebacivanje kursora sada ispravno radi kada ste u listi u Word dokumentu. (#7971)
  - Novo ubačena nabrajanja /brojevi u Word dokumentu se sada ispravno izgovaraju i prikazuju na brajevom redu. (#7970)
 - Na  Windowsu 10 1803 i novijim, moguće je instalirati dodatke ako je opcija "Koristi Unicode UTF-8 za podršku jezika širom sveta" omogućena. (#8599)
--  ITunes 12.9 i novije verzije se  ponovo mogu koristiti. (#8744)
+- ITunes 12.9 i novije verzije se  ponovo mogu koristiti. (#8744)
 
 
 == Promene za programere ==
