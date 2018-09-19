@@ -86,8 +86,7 @@
     </UL>
   <LI><A HREF="#Braille">8. 盲文</A>
     <UL>
-    <LI><A HREF="#BrailleAbbreviations">8.1. Control Type, State and Landmark abbreviations</A>
-    <LI><A HREF="#BrailleInput">8.2. Braille Input</A>
+    <LI><A HREF="#BrailleInput">8.1. 点字输入</A>
     </UL>
   <LI><A HREF="#ContentRecognition">9. 图像内容识别</A>
     <UL>
@@ -188,9 +187,9 @@
     <LI><A HREF="#HedoMobilLine">14.8. hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare Brailliant BI/B Series / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc126">14.9.1. Key assignments for All models</A>
-      <LI><A HREF="#toc127">14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</A>
-      <LI><A HREF="#toc128">14.9.3. Key assignments for Brailliant BI 14</A>
+      <LI><A HREF="#toc125">14.9.1. Key assignments for All models</A>
+      <LI><A HREF="#toc126">14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</A>
+      <LI><A HREF="#toc127">14.9.3. Key assignments for Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
     <LI><A HREF="#Seika">14.11. 清华盲文显示器</A>
@@ -1514,224 +1513,221 @@ NVDA 支持下列类型的数学内容：
 
 <P>
 如果你有一个盲文显示器，NVDA可以以盲文的形式显示屏幕上的信息
-If your braille display has a Perkins-style keyboard, you can also enter contracted or uncontracted braille.
+如果你的点显器有 Perkins 键盘，你还可以键入简写或非简写点字。
 </P>
 <P>
-Please see the <A HREF="#SupportedBrailleDisplays">Supported Braille Displays</A> section for information about the supported braille displays.
-This section also contains information about what displays support NVDA's automatic background braille display detection functionality.
-You can configure braille using the <A HREF="#BrailleSettings">Braille category</A> of the <A HREF="#NVDASettings">NVDA Settings</A> dialog.
+有关支持的盲文显示器的信息，请参阅[支持的盲文显示器#SupportedBrailleDisplays]部分。
+本节还包含有关支持NVDA自动背景盲文显示检测功能的显示器的信息。
+您可以使用[NVDA设置#NVDASettings]对话框的[盲文类别#BrailleSettings]配置盲文。
 </P>
-
-<A NAME="BrailleAbbreviations"></A>
-<H3>8.1. Control Type, State and Landmark abbreviations</H3>
-
 <P>
-In order to fit as much information as possible on a braille display, the following abbreviations have been defined to indicate control type and state as well as landmarks.
+++ 控件类型/状态和路标缩写 ++ [BrailleAbbreviations]
+为了在盲文显示器上安装尽可能多的信息，已经定义了以下缩写来指示控制类型和状态以及界标。
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
-<TH>Abbreviation</TH>
-<TH>Control type</TH>
+<TH>缩写</TH>
+<TH>控件类型</TH>
 </TR>
 <TR>
 <TD>app</TD>
-<TD>application</TD>
+<TD>应用程序</TD>
 </TR>
 <TR>
 <TD>bqt</TD>
-<TD>block quote</TD>
+<TD>引用</TD>
 </TR>
 <TR>
 <TD>btn</TD>
-<TD>button</TD>
+<TD>按钮</TD>
 </TR>
 <TR>
 <TD>drbtn</TD>
-<TD>drop down button</TD>
+<TD>下拉按钮</TD>
 </TR>
 <TR>
 <TD>spnbtn</TD>
-<TD>spin button</TD>
+<TD>调整按钮</TD>
 </TR>
 <TR>
 <TD>splbtn</TD>
-<TD>split button</TD>
+<TD>分割按钮</TD>
 </TR>
 <TR>
 <TD>tgbtn</TD>
-<TD>toggle button</TD>
+<TD>切换按钮</TD>
 </TR>
 <TR>
 <TD>cbo</TD>
-<TD>combo box</TD>
+<TD>组合框</TD>
 </TR>
 <TR>
 <TD>chk</TD>
-<TD>checkbox</TD>
+<TD>复选框</TD>
 </TR>
 <TR>
 <TD>dlg</TD>
-<TD>dialog</TD>
+<TD>对话框</TD>
 </TR>
 <TR>
 <TD>doc</TD>
-<TD>document</TD>
+<TD>文档</TD>
 </TR>
 <TR>
 <TD>edt</TD>
-<TD>editable text field</TD>
+<TD>编辑栏</TD>
 </TR>
 <TR>
 <TD>pwdedt</TD>
-<TD>password edit</TD>
+<TD>密码编辑区</TD>
 </TR>
 <TR>
 <TD>embedded</TD>
-<TD>embedded object</TD>
+<TD>嵌入式对象</TD>
 </TR>
 <TR>
 <TD>enote</TD>
-<TD>end note</TD>
+<TD>章节附注</TD>
 </TR>
 <TR>
 <TD>fnote</TD>
-<TD>foot note</TD>
+<TD>注脚</TD>
 </TR>
 <TR>
 <TD>gra</TD>
-<TD>graphic</TD>
+<TD>图片</TD>
 </TR>
 <TR>
 <TD>grp</TD>
-<TD>grouping</TD>
+<TD>群组</TD>
 </TR>
 <TR>
 <TD>hN</TD>
-<TD>heading at level n, e.g. h1, h2.</TD>
+<TD>标题层级，例如，1级标题 H1、2级标题 H2。</TD>
 </TR>
 <TR>
 <TD>hlp</TD>
-<TD>help baloon</TD>
+<TD>气泡帮助</TD>
 </TR>
 <TR>
 <TD>lmk</TD>
-<TD>landmark</TD>
+<TD>地标</TD>
 </TR>
 <TR>
 <TD>lnk</TD>
-<TD>link</TD>
+<TD>链接</TD>
 </TR>
 <TR>
 <TD>vlnk</TD>
-<TD>visited link</TD>
+<TD>已访问链接</TD>
 </TR>
 <TR>
 <TD>lst</TD>
-<TD>list</TD>
+<TD>清单</TD>
 </TR>
 <TR>
 <TD>mnu</TD>
-<TD>menu</TD>
+<TD>功能表</TD>
 </TR>
 <TR>
 <TD>mnubar</TD>
-<TD>menu bar</TD>
+<TD>菜单</TD>
 </TR>
 <TR>
 <TD>mnubtn</TD>
-<TD>menu button</TD>
+<TD>菜单栏</TD>
 </TR>
 <TR>
 <TD>mnuitem</TD>
-<TD>menu item</TD>
+<TD>菜单按钮</TD>
 </TR>
 <TR>
 <TD>pnl</TD>
-<TD>panel</TD>
+<TD>面板</TD>
 </TR>
 <TR>
 <TD>prgbar</TD>
-<TD>progress bar</TD>
+<TD>进度栏</TD>
 </TR>
 <TR>
 <TD>rbtn</TD>
-<TD>radio button</TD>
+<TD>单选按钮</TD>
 </TR>
 <TR>
 <TD>scrlbar</TD>
-<TD>scroll bar</TD>
+<TD>滚动条</TD>
 </TR>
 <TR>
 <TD>sect</TD>
-<TD>section</TD>
+<TD>区域</TD>
 </TR>
 <TR>
 <TD>stbar</TD>
-<TD>status bar</TD>
+<TD>状态栏</TD>
 </TR>
 <TR>
 <TD>tabctl</TD>
-<TD>tab control</TD>
+<TD>标签页</TD>
 </TR>
 <TR>
 <TD>tbl</TD>
-<TD>table</TD>
+<TD>表格</TD>
 </TR>
 <TR>
 <TD>cN</TD>
-<TD>table column number n, e.g. c1, c2.</TD>
+<TD>表格行数，例如，第1行C1、第2行C2。</TD>
 </TR>
 <TR>
 <TD>rN</TD>
-<TD>table row number n, e.g. r1, r2.</TD>
+<TD>表格列数，例如，第1列R1、第2列R2。</TD>
 </TR>
 <TR>
 <TD>term</TD>
-<TD>terminal</TD>
+<TD>终端</TD>
 </TR>
 <TR>
 <TD>tlbar</TD>
-<TD>tool bar</TD>
+<TD>工</TD>
 </TR>
 <TR>
 <TD>tltip</TD>
-<TD>tool tip</TD>
+<TD>工具提示</TD>
 </TR>
 <TR>
 <TD>tv</TD>
-<TD>tree view</TD>
+<TD>树状查看</TD>
 </TR>
 <TR>
 <TD>tvbtn</TD>
-<TD>tree view button</TD>
+<TD>树视图按钮</TD>
 </TR>
 <TR>
 <TD>tvitem</TD>
-<TD>tree view item</TD>
+<TD>树视图项目</TD>
 </TR>
 <TR>
 <TD>lv N</TD>
-<TD>a tree view item has a hierarchical level N|</TD>
+<TD>树视图第N个级项目</TD>
 </TR>
 <TR>
 <TD>wnd</TD>
-<TD>window</TD>
+<TD>窗口</TD>
 </TR>
 <TR>
 <TD>⠤⠤⠤⠤⠤</TD>
-<TD>separator</TD>
+<TD>分隔线</TD>
 </TR>
 </TABLE>
 
 <P>
-下面是NVDA定义的对象信息标识:
+下面是NVDA定义的控件状态的缩写:
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
-<TH>Abbreviation</TH>
-<TH>Control state</TH>
+<TH>缩写</TH>
+<TH>控件状态</TH>
 </TR>
 <TR>
 <TD>...</TD>
@@ -1867,22 +1863,22 @@ Finally, the following abbreviations for landmarks are defined:
 </TABLE>
 
 <A NAME="BrailleInput"></A>
-<H3>8.2. Braille Input</H3>
+<H3>8.1. 点字输入</H3>
 
 <P>
-NVDA supports entry of both uncontracted and contracted braille via a braille keyboard.
-You can select the translation table used to translate braille into text using the <A HREF="#BrailleSettingsInputTable">Input table</A> setting in the Braille category of the <A HREF="#NVDASettings">NVDA Settings</A> dialog.
+NVDA支持从点显器输入简写以及非简写点字。
+您可以使用 <A HREF="#NVDASettings">NVDA设置</A> 对话框中“点字”类别的 <A HREF="#BrailleSettingsInputTable">输入转译表</A> 将点字转成文本。
 </P>
 <P>
-When uncontracted braille is being used, text is inserted as soon as it is entered.
-When using contracted braille, text is inserted when you press space or enter at the end of a word.
-Note that translation can only reflect the braille word you are typing and cannot consider existing text.
-For example, if you are using a braille code that begins numbers with a number sign and you press backspace to move to the end of a number, you will need to type the number sign again to enter additional numbers.
+当使用的是非简写的点字，则在输入后立即转成文本。
+当使用的是简写的点字，则于一个字输入后按空格键或Enter，才会将文本输入。 
+值得注意的是:点字转译仅可视为翻译您输入的点字，而非现有的文本。
+例如:如果您要使用点字来打一个带头有数字符号"#"的数字，当您使用退格键倒退到这个数字的尾端，则您需要再打一次数字符号才可以将数字输入。
 </P>
 <P>
-Pressing dot 7 erases the last entered braille cell or character.
-Dot 8 translates any braille input and presses the enter key.
-Pressing dot 7 + dot 8 translates any braille input, but without adding a space or pressing enter.
+按第7点 删除最后输入的点字或字符。
+按第8点 翻译任何点字输入且按Enter。
+按第7与第8点 转译任何点字的输入，但没有加空格或按Enter。
 </P>
 
 <A NAME="ContentRecognition"></A>
@@ -3197,7 +3193,7 @@ NVDA设置对话框中的“鼠标设置”分类允许NVDA跟踪鼠标，用嘟
 </P>
 
 <A NAME="ObjectPresentationSuggestionSounds"></A>
-<H5>Play a sound when auto-suggestions appear</H5>
+<H5>出现输入建议时播放声音</H5>
 
 <P>
 切换是否朗读自动弹出的建议，如果启用，NVDA将播放声音以指示此情况。
@@ -4723,7 +4719,7 @@ Following are the key assignments for  the Brailliant BI/B and BrailleNote touch
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
 
-<A NAME="toc126"></A>
+<A NAME="toc125"></A>
 <H4>14.9.1. Key assignments for All models</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4813,7 +4809,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc127"></A>
+<A NAME="toc126"></A>
 <H4>14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4835,7 +4831,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc128"></A>
+<A NAME="toc127"></A>
 <H4>14.9.3. Key assignments for Brailliant BI 14</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">

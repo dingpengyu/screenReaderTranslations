@@ -1,2 +1,7 @@
 # Structural comparison of zh_CN/userGuide.t2t against zh_CN/userGuide-newRevisions/15243/userGuide.t2t
-# files have identical structure
+en 8. start:599 paragraphs:2, tables:0, lists:0
+zh_CN 8. start:599 paragraphs:5, tables:3, lists:0
+en 8.1. start:607 paragraphs:3, tables:3, lists:0
+zh_CN 8.1. start:695 paragraphs:3, tables:0, lists:0
+en 8.2. start:695 paragraphs:3, tables:0, lists:0
+# end of comparison
