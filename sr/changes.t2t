@@ -3,6 +3,30 @@
 
 %!includeconf: ../changes.t2tconf
 
+= 2018.4 =
+
+== Nove karakteristike ==
+- Nove brajeve tabele: Kineska(Kina, Mandarinski) stepen 1 i stepen 2. (#5553)
+
+
+== Promene ==
+- "Prijavi pomoćne balone" u dijalogu predstavljanje objekata se sada zove "Prijavi obaveštenja" kako bi uključilo prijavljivanje obaveštenja u Windowsu 8 i novijim. (#5789)
+- U dijalogu podešavanja tastature, izborna polja za izbor NVDA tastera su sada u listi, i više nisu prikazana kao posebno izborno polje za svaki taster.
+- NVDA više neće prikazivati bespotrebne informacije kada se čita sat u sistemskoj traci na određenim verzijama Windowsa. (#4364)
+- Ažuriran liblouis brajev prevodilac  na verziju 3.7.0. (#8697)
+
+
+== Ispravljene greške ==
+- U programu Outlook 2016/365, kategorija i status zastave se prijavljuju za poruke. (#8603)
+- Kada je NVDA podešen da koristi jezike kao što su Kirgijški, Mongolski ili Makedonski, više ne prikazuje dijalog pri pokretanju koji obaveštava da operativni sistem ne podržava trenutni jezik. (#8064)
+- Pomeranje miša na navigacioni objekat će sada puno preciznije pomerati miš u režimu pretraživanja programa Mozilla Firefox, Google Chrome i Acrobat Reader DC. (#6460)
+- Interakcija sa izbornim okvirima na Webu u programima Firefox, Chrome i Internet Explorer je poboljšana. (#8664)
+
+
+== Promene za programere ==
+Ove promene nisu prevedene. Za više informacija, pogledajte[Englesku verziju ovog dokumenta ../en/changes.html].
+
+
 = 2018.3 =
 Glavne karakteristike ove verzije uključuju automatsko prepoznavanje puno brajevih redova, podrška za nove Windows 10 karakteristike uključujući Windows 10 panel za unos emotikona, i puno ispravljenih grešaka.
 
@@ -58,6 +82,7 @@ Glavne karakteristike ove verzije uključuju automatsko prepoznavanje puno braje
  - Prebacivanje kursora sada ispravno radi kada ste u listi u Word dokumentu. (#7971)
  - Novo ubačena nabrajanja /brojevi u Word dokumentu se sada ispravno izgovaraju i prikazuju na brajevom redu. (#7970)
 - Na  Windowsu 10 1803 i novijim, moguće je instalirati dodatke ako je opcija "Koristi Unicode UTF-8 za podršku jezika širom sveta" omogućena. (#8599)
+-  ITunes 12.9 i novije verzije se  ponovo mogu koristiti. (#8744)
 
 
 == Promene za programere ==
