@@ -52,6 +52,7 @@
       <LI><A HREF="#ExploringTheScreen">4.3.1. 浏览屏幕</A>
       <LI><A HREF="#TouchGestures">4.3.2. 触摸手势</A>
       <LI><A HREF="#TouchGestures">4.3.3. 触摸模式</A>
+      <LI><A HREF="#TouchKeyboard">4.3.4. 触摸键盘</A>
       </UL>
     <LI><A HREF="#InputHelpMode">4.4. 输入帮助模式</A>
     <LI><A HREF="#TheNVDAMenu">4.5. NVDA 菜单</A>
@@ -77,83 +78,94 @@
     <UL>
     <LI><A HREF="#SingleLetterNavigation">6.1. 单键导航</A>
     <LI><A HREF="#ElementsList">6.2. 元素列表</A>
-    <LI><A HREF="#toc44">6.3. 嵌入式对象</A>
+    <LI><A HREF="#ImbeddedObjects">6.3. 嵌入式对象</A>
     </UL>
   <LI><A HREF="#ReadingMath">7. 阅读数学内容</A>
     <UL>
-    <LI><A HREF="#toc46">7.1. 交互式浏览</A>
+    <LI><A HREF="#InteractiveNavigation">7.1. 交互式浏览</A>
     </UL>
   <LI><A HREF="#Braille">8. Braille</A>
     <UL>
     <LI><A HREF="#BrailleAbbreviations">8.1. Control Type, State and Landmark abbreviations</A>
     <LI><A HREF="#BrailleInput">8.2. Braille Input</A>
     </UL>
-  <LI><A HREF="#toc50">9. 内容识别</A>
+  <LI><A HREF="#ContentRecognition">9. 图像内容识别</A>
     <UL>
-    <LI><A HREF="#toc51">9.1. Windows 10 OCR</A>
+    <LI><A HREF="#Win10Ocr">9.1. Windows 10 OCR</A>
     </UL>
-  <LI><A HREF="#toc52">10. 特定应用程序的 NVDA命令</A>
+  <LI><A HREF="#ApplicationSpecificFeatures">10. 特定应用程序的 NVDA命令</A>
     <UL>
-    <LI><A HREF="#toc53">10.1. Microsoft Word</A>
+    <LI><A HREF="#MicrosoftWord">10.1. Microsoft Word</A>
       <UL>
-      <LI><A HREF="#toc54">10.1.1. 自动行列标题朗读</A>
-      <LI><A HREF="#toc55">10.1.2. Microsoft Word 的浏览模式</A>
-      <LI><A HREF="#toc56">10.1.3. 朗读注释</A>
+      <LI><A HREF="#WordAutomaticColumnAndRowHeaderReading">10.1.1. 自动行列标题朗读</A>
+      <LI><A HREF="#BrowseModeInMicrosoftWord">10.1.2. Microsoft Word 的浏览模式</A>
+      <LI><A HREF="#WordReportingComments">10.1.3. 朗读注释</A>
       </UL>
-    <LI><A HREF="#toc57">10.2. Microsoft Excel</A>
+    <LI><A HREF="#MicrosoftExcel">10.2. Microsoft Excel</A>
       <UL>
-      <LI><A HREF="#toc58">10.2.1. 自动行列标题朗读</A>
-      <LI><A HREF="#toc59">10.2.2. 元素列表</A>
+      <LI><A HREF="#ExcelAutomaticColumnAndRowHeaderReading">10.2.1. 自动朗读表格的行列标题</A>
+      <LI><A HREF="#ExcelElementsList">10.2.2. 元素列表</A>
+      <LI><A HREF="#ExcelReportingComments">10.2.3. 朗读注释</A>
+      <LI><A HREF="#ExcelReadingProtectedCells">10.2.4. 朗读受保护的单元格</A>
+      <LI><A HREF="#ExcelFormFields">10.2.5. 表单</A>
       </UL>
-    <LI><A HREF="#toc60">10.3. foobar2000</A>
-    <LI><A HREF="#toc61">10.4. Miranda IM</A>
-    <LI><A HREF="#toc62">10.5. Poedit</A>
-    <LI><A HREF="#toc63">10.6. Skype</A>
+    <LI><A HREF="#MicrosoftPowerPoint">10.3. Microsoft PowerPoint</A>
+    <LI><A HREF="#Foobar2000">10.4. foobar2000</A>
+    <LI><A HREF="#MirandaIM">10.5. Miranda IM</A>
+    <LI><A HREF="#Poedit">10.6. Poedit</A>
+    <LI><A HREF="#Skype">10.7. Skype</A>
+    <LI><A HREF="#Kindle">10.8. Kindle for PC</A>
+      <UL>
+      <LI><A HREF="#KindleTextSelection">10.8.1. Text Selection</A>
+      <LI><A HREF="#KindleUserNotes">10.8.2. User Notes</A>
+      </UL>
+    <LI><A HREF="#Azardi">10.9. Azardi</A>
     </UL>
-  <LI><A HREF="#toc64">11. 配置 NVDA</A>
+  <LI><A HREF="#ConfiguringNVDA">11. 配置 NVDA</A>
     <UL>
-    <LI><A HREF="#toc65">11.1. 选项</A>
+    <LI><A HREF="#NVDASettings">11.1. NVDA设置对话框</A>
       <UL>
-      <LI><A HREF="#toc66">11.1.1. 常规设置 (NVDA+control+g)</A>
-      <LI><A HREF="#VoiceSettings">11.1.2. 语音设置 (NVDA+control+v)</A>
-      <LI><A HREF="#SynthSettingsRing">11.1.3. 循环切换合成器设置</A>
-      <LI><A HREF="#toc69">11.1.4. 点字设置</A>
-      <LI><A HREF="#toc70">11.1.5. 键盘设置 (NVDA+control+k)</A>
-      <LI><A HREF="#toc71">11.1.6. 输入法设置</A>
-      <LI><A HREF="#toc72">11.1.7. 浏览模式设置 (NVDA+control+b)</A>
-      <LI><A HREF="#DocumentFormattingSettings">11.1.8. 文档格式设置 (NVDA+control+d)</A>
-      <LI><A HREF="#toc74">11.1.9. 语音字典</A>
-      <LI><A HREF="#SymbolPronunciation">11.1.10. 标点符号发音</A>
-      <LI><A HREF="#InputGestures">11.1.11. 输入手势</A>
+      <LI><A HREF="#GeneralSettings">11.1.1. 常规设置 (NVDA+control+g)</A>
+      <LI><A HREF="#SpeechSettings">11.1.2. 语音 (NVDA+control+v)</A>
+      <LI><A HREF="#VoiceSettings">11.1.3. 语音设置 (NVDA+control+v)</A>
+      <LI><A HREF="#SynthSettingsRing">11.1.4. 循环切换合成器设置</A>
+      <LI><A HREF="#toc79">11.1.5. 点字设置</A>
+      <LI><A HREF="#toc80">11.1.6. 键盘设置 (NVDA+control+k)</A>
+      <LI><A HREF="#toc81">11.1.7. 输入法设置</A>
+      <LI><A HREF="#toc82">11.1.8. 浏览模式设置 (NVDA+control+b)</A>
+      <LI><A HREF="#DocumentFormattingSettings">11.1.9. 文档格式设置 (NVDA+control+d)</A>
+      <LI><A HREF="#toc84">11.1.10. 语音字典</A>
+      <LI><A HREF="#SymbolPronunciation">11.1.11. 标点符号发音</A>
+      <LI><A HREF="#InputGestures">11.1.12. 输入手势</A>
       </UL>
-    <LI><A HREF="#toc77">11.2. 保存或重新加载配置</A>
-    <LI><A HREF="#toc78">11.3. 配置文件</A>
+    <LI><A HREF="#toc87">11.2. 保存或重新加载配置</A>
+    <LI><A HREF="#toc88">11.3. 配置文件</A>
       <UL>
-      <LI><A HREF="#toc79">11.3.1. 基本管理</A>
-      <LI><A HREF="#toc80">11.3.2. 创建配置</A>
+      <LI><A HREF="#toc89">11.3.1. 基本管理</A>
+      <LI><A HREF="#toc90">11.3.2. 创建配置</A>
       <LI><A HREF="#ConfigProfileManual">11.3.3. 手动激活</A>
       <LI><A HREF="#ConfigProfileTriggers">11.3.4. 关联</A>
-      <LI><A HREF="#toc83">11.3.5. 编辑配置</A>
-      <LI><A HREF="#toc84">11.3.6. 临时停用关联</A>
+      <LI><A HREF="#toc93">11.3.5. 编辑配置</A>
+      <LI><A HREF="#toc94">11.3.6. 临时停用关联</A>
       </UL>
-    <LI><A HREF="#toc85">11.4. 配置文件的所在</A>
+    <LI><A HREF="#toc95">11.4. 配置文件的所在</A>
     </UL>
-  <LI><A HREF="#toc86">12. 附加工具</A>
+  <LI><A HREF="#toc96">12. 附加工具</A>
     <UL>
-    <LI><A HREF="#toc87">12.1. 日志查看器</A>
-    <LI><A HREF="#toc88">12.2. 朗读查看器</A>
-    <LI><A HREF="#toc89">12.3. 插件管理器</A>
-    <LI><A HREF="#toc90">12.4. Python 控制台</A>
-    <LI><A HREF="#toc91">12.5. 重新加载插件</A>
+    <LI><A HREF="#toc97">12.1. 日志查看器</A>
+    <LI><A HREF="#toc98">12.2. 朗读查看器</A>
+    <LI><A HREF="#toc99">12.3. 插件管理器</A>
+    <LI><A HREF="#toc100">12.4. Python 控制台</A>
+    <LI><A HREF="#toc101">12.5. 重新加载插件</A>
     </UL>
   <LI><A HREF="#SupportedSpeechSynths">13. 支持的语音合成器</A>
     <UL>
-    <LI><A HREF="#toc93">13.1. eSpeak NG</A>
-    <LI><A HREF="#toc94">13.2. Microsoft Speech API version 4 (SAPI 4)</A>
-    <LI><A HREF="#toc95">13.3. Microsoft Speech API version 5 (SAPI 5)</A>
-    <LI><A HREF="#toc96">13.4. Microsoft Speech Platform</A>
-    <LI><A HREF="#toc97">13.5. Audiologic Tts3</A>
-    <LI><A HREF="#toc98">13.6. NVDA 的 Nuance Vocalizer</A>
+    <LI><A HREF="#toc103">13.1. eSpeak NG</A>
+    <LI><A HREF="#toc104">13.2. Microsoft Speech API version 4 (SAPI 4)</A>
+    <LI><A HREF="#toc105">13.3. Microsoft Speech API version 5 (SAPI 5)</A>
+    <LI><A HREF="#toc106">13.4. Microsoft Speech Platform</A>
+    <LI><A HREF="#toc107">13.5. Audiologic Tts3</A>
+    <LI><A HREF="#toc108">13.6. NVDA 的 Nuance Vocalizer</A>
     </UL>
   <LI><A HREF="#SupportedBrailleDisplays">14. Supported Braille Displays</A>
     <UL>
@@ -167,9 +179,9 @@
     <LI><A HREF="#HedoMobilLine">14.8. hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare Brailliant BI/B Series / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc109">14.9.1. Key assignments for All models</A>
-      <LI><A HREF="#toc110">14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</A>
-      <LI><A HREF="#toc111">14.9.3. Key assignments for Brailliant BI 14</A>
+      <LI><A HREF="#toc119">14.9.1. Key assignments for All models</A>
+      <LI><A HREF="#toc120">14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</A>
+      <LI><A HREF="#toc121">14.9.3. Key assignments for Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
     <LI><A HREF="#Seika">14.11. Seika Braille Displays</A>
@@ -527,8 +539,11 @@ NVDA 目前共有两套被称为键盘布局的快捷键配置：一套台式机
 <P>
 三个手指点击屏幕即可切换触摸模式。
 </P>
+
+<A NAME="TouchKeyboard"></A>
+<H4>4.3.4. 触摸键盘</H4>
+
 <P>
-+++ 触摸键盘 +++ [TouchKeyboard]
 触摸键盘用于从触摸屏输入文本和命令。
 焦点位于编辑区域时，您可以通过双击屏幕底部的触摸键盘图标来调出触摸键盘。
 对于Surface Pro等平板电脑，当键盘断开连接时，触摸键盘始终可用。
@@ -1393,7 +1408,7 @@ NVDA 使用浏览模式来浏览复杂的只读文档，如 web 页面。
 </TR>
 </TABLE>
 
-<A NAME="toc44"></A>
+<A NAME="ImbeddedObjects"></A>
 <H3>6.3. 嵌入式对象</H3>
 
 <P>
@@ -1431,8 +1446,11 @@ NVDA 支持下列类型的数学内容：
 
 <UL>
 <LI>Mozilla Firefox 和 Microsoft Internet Explorer 的 MathML。
-<LI>Microsoft Word 和 PowerPoint 中的 Design Science MathType 。您必须安装 MathType 才可使本功能得以正常运作，该软件的适用版本已经发行。
-<LI>Adobe Reader 的 MathML。请注意，这仍不是一个官方标准，所以目前还没有可用的公开软件制作这些内容。
+<LI>Microsoft Word 和 PowerPoint 中的 Design Science MathType 。
+您必须安装 MathType 才可使本功能得以正常运作，该软件的试用版本就有阅读数学内容的功能。
+<LI>Adobe Reader 的 MathML。
+请注意，这仍不是一个官方标准，所以目前制作这些内容的软件没有可用的公开版本。
+<LI>Kindle For PC 内有无障碍支持的数学内容
 </UL>
 
 <P>
@@ -1440,7 +1458,7 @@ NVDA 支持下列类型的数学内容：
 如果您正在使用点显器，这也将会被用点字显示。
 </P>
 
-<A NAME="toc46"></A>
+<A NAME="InteractiveNavigation"></A>
 <H3>7.1. 交互式浏览</H3>
 
 <P>
@@ -1487,6 +1505,7 @@ If your braille display has a Perkins-style keyboard, you can also enter contrac
 </P>
 <P>
 Please see the <A HREF="#SupportedBrailleDisplays">Supported Braille Displays</A> section for information about the supported braille displays.
+This section also contains information about what displays support NVDA's automatic background braille display detection functionality.
 You can configure braille using the <A HREF="#BrailleSettings">Braille category</A> of the <A HREF="#NVDASettings">NVDA Settings</A> dialog.
 </P>
 
@@ -1853,20 +1872,27 @@ Dot 8 translates any braille input and presses the enter key.
 Pressing dot 7 + dot 8 translates any braille input, but without adding a space or pressing enter.
 </P>
 
-<A NAME="toc50"></A>
-<H2>9. 内容识别</H2>
+<A NAME="ContentRecognition"></A>
+<H2>9. 图像内容识别</H2>
 
 <P>
-当开发者没有为屏幕阅读软件的用户提供足够信息来确认内容时，可以使用各种工具来尝试从图像中识别其内容。 NVDA 支持 Windows 10内置的光学字符识别（OCR）功能，以便将图像识别成为文本。 NVDA的插件也有提供额外的内容识别器。
+当开发者没有为屏幕阅读软件的用户提供足够信息来确认内容时，可以使用各种工具来尝试从图像中识别其内容。
+NVDA 支持 Windows 10内置的光学字符识别（OCR）功能，以便将图像识别成为文本。 
+NVDA的插件也有提供额外的内容识别器。
 </P>
 <P>
-当您使用内容识别指令时，NVDA会从目前的导航对象识别内容。默认设置下，导航对象会跟随系统焦点或浏览模式光标，因此需要OCR时，通常您只需移动焦点或浏览模式光标即可。 例如，如果将浏览模式光标移动到图形上，在默认设置下，识别器会开始从图形中识别其内容。 然而，您可能希望直接使用对象导航。例如，识别整个应用程序窗口的内容。
+当您使用内容识别指令时，NVDA会从目前的[导航对象#ObjectNavigation]识别内容。
+默认设置下，导航对象会跟随系统焦点或浏览模式光标，因此需要OCR时，通常您只需移动焦点或浏览模式光标即可。 
+例如，如果将浏览模式光标移动到图形上，在默认设置下，识别器会开始从图形中识别其内容。 
+您可能希望直接使用对象导航。例如，识别整个应用程序窗口的内容。
 </P>
 <P>
-一旦识别完成，结果会显示在一个类似于浏览模式下的文档中，它允许使用光标键或其他键来阅读。 在光标上的文本按 enter 或空格键就可以选中对应文本（相当于单击）。 按 escape 键退出识别结果文档。
+一旦识别完成，结果会显示在一个类似于浏览模式下的文档中，它允许使用光标键或其他键来阅读。
+在光标上的文本按 enter 或空格键就可以选中对应文本（相当于单击）。
+按 escape 键退出识别结果文档。
 </P>
 
-<A NAME="toc51"></A>
+<A NAME="Win10Ocr"></A>
 <H3>9.1. Windows 10 OCR</H3>
 
 <P>
@@ -1877,18 +1903,21 @@ NVDA可以使用它来识别来自图像或无障碍支持差的应用程序的�
 您可以在[NVDA设置#NVDASettings]对话框的[Windows 10 OCR部分#Win10OcrSettings]中设置用于文本识别的语言。
 您可以打开开始菜单，选择设置，选择时间和语言 - &gt;地区和语言，然后选择添加语言来安装其他语言。
 </P>
+<P>
+按 NVDA加r 使用Windows 10 OCR 识别当前导航对象内包含的文本。
+</P>
 
-<A NAME="toc52"></A>
+<A NAME="ApplicationSpecificFeatures"></A>
 <H2>10. 特定应用程序的 NVDA命令</H2>
 
 <P>
 NVDA 为某些特定的程序提供了自家的额外特性，让某些任务变得更加容易，还令某些其他屏幕阅读器用户无法访问的功能可用。
 </P>
 
-<A NAME="toc53"></A>
+<A NAME="MicrosoftWord"></A>
 <H3>10.1. Microsoft Word</H3>
 
-<A NAME="toc54"></A>
+<A NAME="WordAutomaticColumnAndRowHeaderReading"></A>
 <H4>10.1.1. 自动行列标题朗读</H4>
 
 <P>
@@ -1921,15 +1950,16 @@ NVDA 可在您使用 Microsoft Word 浏览表格时自动读出恰当的行列�
 这样意味着，屏幕阅读器用户在后期打开这个文档时，使用其他屏幕阅读器也同样拥有设置好的行列标题。
 </P>
 
-<A NAME="toc55"></A>
+<A NAME="BrowseModeInMicrosoftWord"></A>
 <H4>10.1.2. Microsoft Word 的浏览模式</H4>
 
 <P>
-与 web 页面相似，您可在 Microsoft Word 中使用浏览模式的特性，诸如快速导航、元素列表等。
+与网页相似，您可在 Microsoft Word 中使用浏览模式的特性，诸如快速导航、元素列表等。
 要想在 Microsoft Word 切换浏览模式的开关，可使用 NVDA+空格键。
-更多有关于浏览模式和快速导航的信息，请查看<A HREF="#BrowseMode">浏览模式章节</A>。
+更多有关于浏览模式和快速导航的信息，请查看<A HREF="#BrowseMode">浏览模式章节</A>
 </P>
 
+<A NAME="WordElementsList"></A>
 <H5>10.1.2.1. 元素列表</H5>
 
 <P>
@@ -1937,7 +1967,7 @@ NVDA 可在您使用 Microsoft Word 浏览表格时自动读出恰当的行列�
 元素列表可以列举标题、链接和批注(可能包含注解和修改跟踪记录)。
 </P>
 
-<A NAME="toc56"></A>
+<A NAME="WordReportingComments"></A>
 <H4>10.1.3. 朗读注释</H4>
 
 <P>
@@ -1945,11 +1975,11 @@ NVDA 可在您使用 Microsoft Word 浏览表格时自动读出恰当的行列�
  文档的所有注释都可以在元素列表中进行查看，只要把类型选择为“标注”即可。
 </P>
 
-<A NAME="toc57"></A>
+<A NAME="MicrosoftExcel"></A>
 <H3>10.2. Microsoft Excel</H3>
 
-<A NAME="toc58"></A>
-<H4>10.2.1. 自动行列标题朗读</H4>
+<A NAME="ExcelAutomaticColumnAndRowHeaderReading"></A>
+<H4>10.2.1. 自动朗读表格的行列标题</H4>
 
 <P>
 NVDA 可在您浏览 Excel 工作表时自动读出恰当的行列标题。
@@ -1981,11 +2011,11 @@ NVDA 可在您浏览 Excel 工作表时自动读出恰当的行列标题。
 这样意味着，屏幕阅读器用户在后期打开这个工作簿时，使用其他屏幕阅读器也同样拥有设置好的行列标题。
 </P>
 
-<A NAME="toc59"></A>
+<A NAME="ExcelElementsList"></A>
 <H4>10.2.2. 元素列表</H4>
 
 <P>
-与 web 相似，NVDA 也有为 Microsoft Excel 开发的元素列表，在此允许您列举和访问一些种类的信息。
+与网页相似，NVDA 也有为 Microsoft Excel 开发的元素列表，在此允许您列举和访问一些种类的信息。
 要想访问 Excel 的元素列表，请按下“NVDA+F7”
 可在元素列表下访问的信息种类有：
 </P>
@@ -2005,24 +2035,36 @@ NVDA 可在您浏览 Excel 工作表时自动读出恰当的行列标题。
 <LI>表单： 这里将列举所有工作表内所包含的表单
 对于每一个表单，元素列表将显示每一个地址所覆盖的单元格的替代文本
 选择一个表单项目之后按下“回车”或点击“移动到”按钮即可跳转到该表单项目。
- -
-<P></P>
-+++ 朗读注释 +++
+</UL>
+
+<A NAME="ExcelReportingComments"></A>
+<H4>10.2.3. 朗读注释</H4>
+
+<P>
 要想朗读当前聚焦单元的所有注释，请按下“NVDA+alt+C”。
 所有工作簿的注释也可以在元素列表中访问
-<P></P>
-+++ 朗读受保护的单元 +++
+</P>
+
+<A NAME="ExcelReadingProtectedCells"></A>
+<H4>10.2.4. 朗读受保护的单元格</H4>
+
+<P>
 如果工作簿已经被保护了起来，移动焦点到特定单元也许将变得不可能。
 要想允许锁定单元移动，可使用“NVDA+空格键”切换到浏览模式后，使用标准的 Excel 移动命令如光标键可在当前工作表的所有单元中移动。
-<P></P>
-+++ 表单 +++
+</P>
+
+<A NAME="ExcelFormFields"></A>
+<H4>10.2.5. 表单</H4>
+
+<P>
 Excel 工作簿可包含表单。
 您可以使用“元素列表”对话框查看他们或字母F 和 shift+F 来跳转。
 当您使用浏览模式移动到某个表单项后，您可以使用“回车”键或“空格”键切换到焦点模式，您可以与之交互，方法取决于当前所在处的控件。
 更多有关于浏览模式或单键导航使用方面的信息，请查阅<A HREF="#BrowseMode">浏览模式张节</A>。
-<P></P>
-++ Microsoft PowerPoint ++
-</UL>
+</P>
+
+<A NAME="MicrosoftPowerPoint"></A>
+<H3>10.3. Microsoft PowerPoint</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -2037,8 +2079,8 @@ Excel 工作簿可包含表单。
 </TR>
 </TABLE>
 
-<A NAME="toc60"></A>
-<H3>10.3. foobar2000</H3>
+<A NAME="Foobar2000"></A>
+<H3>10.4. foobar2000</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -2067,8 +2109,8 @@ Excel 工作簿可包含表单。
 请注意，这几个朗读时间的快捷键仅可工作在采用默认格式字串的 Foobar2000 状态栏下。
 </P>
 
-<A NAME="toc61"></A>
-<H3>10.4. Miranda IM</H3>
+<A NAME="MirandaIM"></A>
+<H3>10.5. Miranda IM</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -2083,8 +2125,8 @@ Excel 工作簿可包含表单。
 </TR>
 </TABLE>
 
-<A NAME="toc62"></A>
-<H3>10.5. Poedit</H3>
+<A NAME="Poedit"></A>
+<H3>10.6. Poedit</H3>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -2104,8 +2146,8 @@ Excel 工作簿可包含表单。
 </TR>
 </TABLE>
 
-<A NAME="toc63"></A>
-<H3>10.6. Skype</H3>
+<A NAME="Skype"></A>
+<H3>10.7. Skype</H3>
 
 <P>
 当在一个会话框里：
@@ -2124,33 +2166,125 @@ Excel 工作簿可包含表单。
 </TR>
 </TABLE>
 
-<A NAME="toc64"></A>
-<H2>11. 配置 NVDA</H2>
-
-<A NAME="toc65"></A>
-<H3>11.1. 选项</H3>
+<A NAME="Kindle"></A>
+<H3>10.8. Kindle for PC</H3>
 
 <P>
-大多数设置都可以通过访问 NVDA 菜单的子菜单“选项”的[NVDA设置对话框#NVDASettings]来更改。
-在 NVDA 设置对话框中，点击“确认”按钮接受所有您作过的更改。
-要取消任何修改，只需要点击“取消”按钮或者按下“ESC”。
-在某些对话框里也可以按”应用“按钮，立即应用设置而不用关闭对话框。
-一些设置也可以通过下面章节所列举的快捷键来修改。
+NVDA supports reading and navigating books in Amazon Kindle for PC.
+This functionality is only available in Kindle books designated with "Screen Reader: Supported" which you can check on the details page for the book.
 </P>
 <P>
+Browse mode is used to read books.
+It is enabled automatically when you open a book or focus the book area.
+The page will be turned automatically as appropriate when you move the cursor or use the say all command.
+You can manually turn to the next page with the pageDown key and turn to the previous page with the pageUp key.
+</P>
+<P>
+Single letter navigation is supported for links and graphics, but only within the current page.
+Navigating by link also includes footnotes.
+</P>
+<P>
+NVDA provides early support for reading and interactive navigation of mathematical content for books with accessible math.
+Please see the <A HREF="#ReadingMath">Reading Mathematical Content</A> section for further information.
+</P>
+
+<A NAME="KindleTextSelection"></A>
+<H4>10.8.1. Text Selection</H4>
+
+<P>
+Kindle allows you to perform various functions on selected text, including obtaining a dictionary definition, adding notes and highlights, copying the text to the clipboard and searching the web.
+To do this, first select text as you normally would in browse mode; e.g. by using shift and the cursor keys.
+Once you have selected text, press the applications key or shift+f10 to show the available options for working with the selection.
+If you do this with no text selected, options will be shown for the word at the cursor.
+</P>
+
+<A NAME="KindleUserNotes"></A>
+<H4>10.8.2. User Notes</H4>
+
+<P>
+You can add a note regarding a word or passage of text.
+To do this, first select the relevant text and access the selection options as described above.
+Then, choose Add Note.
+</P>
+<P>
+When reading in browse mode, NVDA refers to these notes as comments.
+</P>
+<P>
+To view, edit or delete a note:
+</P>
+
+<OL>
+<LI>Move the cursor to the text containing the note.
+<LI>Access the options for the selection as described above.
+<LI>Choose Edit Note.
+</OL>
+
+<A NAME="Azardi"></A>
+<H3>10.9. Azardi</H3>
+
+<P>
+When in the table view of added books:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+<TH>Description</TH>
+</TR>
+<TR>
+<TD>Enter</TD>
+<TD>enter</TD>
+<TD>Opens the selected book.</TD>
+</TR>
+<TR>
+<TD>Context menu</TD>
+<TD>applications</TD>
+<TD>Opens the context menu for the selected book.</TD>
+</TR>
+</TABLE>
+
+<A NAME="ConfiguringNVDA"></A>
+<H2>11. 配置 NVDA</H2>
+
+<P>
+大部分配置可以在NVDA菜单里面的选项子菜单内进行。
+<A HREF="#NVDASettings">NVDA 设置对话框</A>里面有很多设置选项，这些选项被分成很多类别。
+在这些对话框里面，按确定按钮保存设置并关闭对话框。
+按取消按钮或者ESC键撤销更改并关闭对话框。
+有的对话框有个应用按钮，点击它可以在不关闭对话框的情况下应用设置。
+有的设置可以用快捷键更改，下面相应章节有说明。
+</P>
+
+<A NAME="NVDASettings"></A>
+<H3>11.1. NVDA设置对话框</H3>
+
+<P>
+[NVDA设置对话框#NVDASettings]里面有很多设置选项。
+这个对话框有一个列表，里面有设置选项的分类。
+选中一个分类，这一类的设置就在对话框里显示出来。
+按”应用“按钮，立即应用设置而不用关闭对话框。
+点击“确认”按钮，保存所有您作过的更改，并且关闭对话框。
+</P>
+<P>
+有的分类有快捷键。
+按下对应快捷键可以打开NVDA设置对话框，并显示对应分类的设置。
 请注意：默认情况下不是所有的选项都可以使用输入手势进行访问(键盘命令、触摸手势等)
 如果您想访问的选项没有专用的快捷键，使用<A HREF="#InputGestures">输入手势对话框</A> 可给该选项添加自定义手势。
 </P>
+<P>
+下面列出NVDA设置对话框里面的各个分类
+</P>
 
-<A NAME="toc66"></A>
+<A NAME="GeneralSettings"></A>
 <H4>11.1.1. 常规设置 (NVDA+control+g)</H4>
 
 <P>
-在“选项”菜单可以找到“常规设置”对话框。
-包含了界面语言是否检查更新等NVDA的全局设置。
+常规设置这一分类，包含了界面语言是否检查更新等NVDA的全局设置。
 它包含以下选项：
 </P>
 
+<A NAME="GeneralSettingsLanguage"></A>
 <H5>语言</H5>
 
 <P>
@@ -2164,12 +2298,14 @@ Excel 工作簿可包含表单。
 点击“确定”按钮，NVDA 将重新启动。
 </P>
 
+<A NAME="GeneralSettingsSaveConfig"></A>
 <H5>退出时保存设置</H5>
 
 <P>
 此选项是一个复选框，告诉 NVDA 在您退出时自动地保存当前的配置。
 </P>
 
+<A NAME="GeneralSettingsShowExitOptions"></A>
 <H5>退出 NVDA 前显示退出选项</H5>
 
 <P>
@@ -2178,20 +2314,23 @@ Excel 工作簿可包含表单。
 如果没有选中，NVDA 会立即退出。
 </P>
 
+<A NAME="GeneralSettingsPlaySounds"></A>
 <H5>启动或退出 NVDA 时播放声音</H5>
 
 <P>
 此选项是一个复选框，如果被选中，告诉 NVDA 在启动或退出时播放声音。
 </P>
 
+<A NAME="GeneralSettingsLogLevel"></A>
 <H5>日志记录级别</H5>
 
 <P>
 这是一个组合框，允许您指定在 NVDA 运行时日志记录的数量。
-一般用户不必与这些日志接触，因而也不需要记录太多。
+用户一般不用更改这一设置，以免日志太多。
 然而，如果您希望在报告 Bug 时提供信息，这个选项或许是有用的。
 </P>
 
+<A NAME="GeneralSettingsStartAfterLogOn"></A>
 <H5>系统启动后自动运行 NVDA</H5>
 
 <P>
@@ -2199,6 +2338,7 @@ Excel 工作簿可包含表单。
 此选项仅可用于 NVDA 的安装版。
 </P>
 
+<A NAME="GeneralSettingsStartOnLogOnScreen"></A>
 <H5>在欢迎界面启用 NVDA (需要管理员权限)</H5>
 
 <P>
@@ -2206,7 +2346,8 @@ Excel 工作簿可包含表单。
 此选项仅可用于 NVDA 的安装版。
 </P>
 
-<H5>应用以保存的配置到欢迎界面和其他安全界面</H5>
+<A NAME="GeneralSettingsCopySettings"></A>
+<H5>应用当前配置到欢迎界面和其他安全界面</H5>
 
 <P>
 按下此按钮，NVDA 会将您当前保存的用户配置拷贝到 NVDA 的系统配置目录，他们会应用在 Windows 欢迎屏幕、UAC 账户控制和其他的安全界面。
@@ -2230,44 +2371,71 @@ Excel 工作簿可包含表单。
 <LI>当前 NVDA 版本
 <LI>操作系统版本
 <LI>操作系统是 64 位还是 32 位
-</UL>
-
-<A NAME="GeneralSettingsGatherUsageStats"></A>
-<H5>允许NVDA获取用户统计信息</H5>
-
-<P>
+<P></P>
+==== 允许NVDA获取用户统计信息 ====[GeneralSettingsGatherUsageStats]
 选中这一项之后，NV Access 会在检查更新时获取您的信息，以便统计NVDA用户的分布。比如使用的操作系统和所在国家的比例。
 NVDA更新服务器只根据您的IP判断用户在哪国使用NVDA，并不会记录您的IP地址。
 除了上面提到的检查更新时发送的信息之外，还包括：
-</P>
-
-<UL>
 <LI>NVDA 界面语言
 <LI>NVDA 是便携版还是安装版本
 <LI>当前使用的语音合成器名称(包括合成器插件名称)
 <LI>当前使用的点显器名称(包括点显器驱动插件名称)
 <LI>当前使用的盲文表(使用点显器时才会上传)
-<P></P>
-+++ 语音合成器选择 (NVDA+control+s) +++
-在“选项”菜单下的“语音合成器...”菜单项目可以打开“语音合成器”对话框，允许您选择 NVDA 应该用来输出语音的合成器。
+</UL>
+
+<P>
+这些信息有助于 NV Access 决定NVDA开发的侧重点。
+</P>
+
+<A NAME="GeneralSettingsNotifyPendingUpdates"></A>
+<H5>NVDA启动时提醒有未完成的更新</H5>
+
+<P>
+开启这个选项NVDA，如果有未完成的更新，NVDA启动时会提醒用户。
+如果开启了退出对话框，可以手动在那里安装未完成的更新，在帮助菜单里面检查更新时也有手动安装的选项。
+</P>
+
+<A NAME="SpeechSettings"></A>
+<H4>11.1.2. 语音 (NVDA+control+v)</H4>
+
+<P>
+语音这个分类，允许您选择 NVDA 应该用来输出语音的合成器，并且更改合成器的设置。
+希望在任何地方使用另外一种更快的方式切换语音参数，请查看<A HREF="#SynthSettingsRing">循环切换合成器设置</A>章节。
+</P>
+<P>
+这个分类包含以下选项
+</P>
+
+<A NAME="SpeechSettingsChange"></A>
+<H5>更改 按钮</H5>
+
+<P>
+这个分类第一个选项就是 更改 按钮 点击它可以打开 <A HREF="#SelectSynthesizer">选择语音合成器</A>对话框，你可以在里面更改语音合成器以及语音输出设备。
+这个对话框会出现在NVDA设置对话框之上
 当您选择完您希望的合成器之后，点击“确认”按钮，NVDA 将载入您选择的合成器。
-如果载入时发生错误，NVDA 会向您显示一条通知消息，继续使用上一次选择的合成器。
-<P></P>
-==== 语音合成器 ====
-此选项允许您选择 NVDA 进行语音输出的合成器。
-<P></P>
 NVDA 支持的合成器列表可以在<A HREF="#SupportedSpeechSynths">支持的语音合成器</A>章节查看。
-<P></P>
+</P>
+<P>
 出现在列表中的那一个特殊的项目“关闭语音”，允许您在没有语音输出的情况下使用 NVDA。
 此选项可能对那些纸想用点字输出的用户或者只想用“语音查看器”查看语音内容的开发者来说非常有用。
-<P></P>
-==== 输出设备 ====
+</P>
+
+<H5>输出设备</H5>
+
+<P>
 此选项允许您选择 NVDA 控制合成器进行语音输出时使用的声卡。
-<P></P>
-==== 音频闪避模式 ====
+</P>
+
+<H5>音频闪避模式</H5>
+
+<P>
 按键: NVDA+shift+d
-<P></P>
+</P>
+<P>
 在 Windows 8 或以上版本的操作系统中，此选项允许您选择，是否在 NVDA 朗读时，亦或是在 NVDA 运行时，减小其他程序的声音。
+</P>
+
+<UL>
 <LI>从不闪避： NVDA 将不会减小其他声音的音量。
 <LI>输出语音或声音时闪避：仅当在 NVDA 朗读或播放声音时减小其他声音的音量。这可能不能作用于所有合成器。
 <LI>总是闪避：在 NVDA 运行的全过程中，其他音频音量会被保持在一个较低的水平上。
@@ -2279,11 +2447,10 @@ NVDA 支持的合成器列表可以在<A HREF="#SupportedSpeechSynths">支持的
 </P>
 
 <A NAME="VoiceSettings"></A>
-<H4>11.1.2. 语音设置 (NVDA+control+v)</H4>
+<H4>11.1.3. 语音设置 (NVDA+control+v)</H4>
 
 <P>
 在“选项”菜单的“语音设置”对话框，包含着允许您定义语音变声的选项。
-希望在任何地方使用另外一种更快的方式切换语音参数，请查看<A HREF="#SynthSettingsRing">循环切换合成器设置</A>章节。
 </P>
 <P>
 “语音设置”对话框包含下列选项：
@@ -2403,7 +2570,7 @@ NVDA 支持的合成器列表可以在<A HREF="#SupportedSpeechSynths">支持的
 </P>
 
 <A NAME="SynthSettingsRing"></A>
-<H4>11.1.3. 循环切换合成器设置</H4>
+<H4>11.1.4. 循环切换合成器设置</H4>
 
 <P>
 NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框的情况下对最常用的语音选项在任何地方进行修改，可以使用下面提供的快捷键：
@@ -2442,8 +2609,8 @@ NVDA 正在运行的时候，如果您想在不进入“语音设置”对话框
 </TR>
 </TABLE>
 
-<A NAME="toc69"></A>
-<H4>11.1.4. 点字设置</H4>
+<A NAME="toc79"></A>
+<H4>11.1.5. 点字设置</H4>
 
 <P>
 “点字设置”对话框可以通过进入“选项”菜单后点击“点字设置”选项调用。
@@ -2574,8 +2741,8 @@ NVDA现在只支持电脑盲文点字的输入，因此，只有八点点字表�
 启用此选项可能令阅读变的更加流畅，但通常也会要求您进行更多次数的点显器滚动。
 </P>
 
-<A NAME="toc70"></A>
-<H4>11.1.5. 键盘设置 (NVDA+control+k)</H4>
+<A NAME="toc80"></A>
+<H4>11.1.6. 键盘设置 (NVDA+control+k)</H4>
 
 <P>
 NVDA设置对话框中的“键盘设置”部分包含一些选项，用于设置NVDA在您使用键盘时的行为。
@@ -2755,8 +2922,8 @@ NVDA设置对话框中的“鼠标设置”允许NVDA跟踪鼠标，嘟嘟声表
 切换是否朗读某些特殊控件的内容更新，例如终端或者聊天程序的历史控件。
 </P>
 
-<A NAME="toc71"></A>
-<H4>11.1.6. 输入法设置</H4>
+<A NAME="toc81"></A>
+<H4>11.1.7. 输入法设置</H4>
 
 <P>
 “输入法设置”对话框可以在“选项”菜单找到。
@@ -2805,8 +2972,8 @@ NVDA设置对话框中的“鼠标设置”允许NVDA跟踪鼠标，嘟嘟声表
 此选项默认情况下启用。
 </P>
 
-<A NAME="toc72"></A>
-<H4>11.1.7. 浏览模式设置 (NVDA+control+b)</H4>
+<A NAME="toc82"></A>
+<H4>11.1.8. 浏览模式设置 (NVDA+control+b)</H4>
 
 <P>
 “浏览模式设置”对话框可以在“选项”菜单下的“浏览模式”找到。
@@ -2887,7 +3054,7 @@ NVDA设置对话框中的“鼠标设置”允许NVDA跟踪鼠标，嘟嘟声表
 </P>
 
 <A NAME="DocumentFormattingSettings"></A>
-<H4>11.1.8. 文档格式设置 (NVDA+control+d)</H4>
+<H4>11.1.9. 文档格式设置 (NVDA+control+d)</H4>
 
 <P>
 此对话框可以在“选项”菜单下的“文档格式...”找到。
@@ -2979,8 +3146,8 @@ NVDA设置对话框中的“鼠标设置”允许NVDA跟踪鼠标，嘟嘟声表
 <LI>语音和声音：此选项将使用上述两种方式来提示缩进。
 </UL>
 
-<A NAME="toc74"></A>
-<H4>11.1.9. 语音字典</H4>
+<A NAME="toc84"></A>
+<H4>11.1.10. 语音字典</H4>
 
 <P>
 “语音字典”对话框，可用来为特定词语或者短语指定特殊的朗读方法，他可以再“选项”菜单下的“语音字典”找到。
@@ -3028,7 +3195,7 @@ NVDA 的语音字典比之单词替换更为强大。
 </P>
 
 <A NAME="SymbolPronunciation"></A>
-<H4>11.1.10. 标点符号发音</H4>
+<H4>11.1.11. 标点符号发音</H4>
 
 <P>
 此对话框允许您修改标点符号的发音，并指定语音输出标点符号的级别。
@@ -3069,7 +3236,7 @@ NVDA 的语音字典比之单词替换更为强大。
 </P>
 
 <A NAME="InputGestures"></A>
-<H4>11.1.11. 输入手势</H4>
+<H4>11.1.12. 输入手势</H4>
 
 <P>
 在NVDA设置对话框中的“输入手势”部分里，您可以为 NVDA 的命令自定义输入手势(如键盘上的按键、点显器上的按钮等等)。
@@ -3098,7 +3265,7 @@ NVDA 的语音字典比之单词替换更为强大。
 当您完成修改之后，点击“确认”保存设置或点击“取消”按钮放弃。
 </P>
 
-<A NAME="toc77"></A>
+<A NAME="toc87"></A>
 <H3>11.2. 保存或重新加载配置</H3>
 
 <P>
@@ -3135,7 +3302,7 @@ NVDA 的语音字典比之单词替换更为强大。
 </TR>
 </TABLE>
 
-<A NAME="toc78"></A>
+<A NAME="toc88"></A>
 <H3>11.3. 配置文件</H3>
 
 <P>
@@ -3152,7 +3319,7 @@ NVDA 的语音字典比之单词替换更为强大。
 它也可由一些触发条件自动的激活，如切换到特定的程序。
 </P>
 
-<A NAME="toc79"></A>
+<A NAME="toc89"></A>
 <H4>11.3.1. 基本管理</H4>
 
 <P>
@@ -3176,7 +3343,7 @@ NVDA 的语音字典比之单词替换更为强大。
 点击“关闭”按钮关闭对话框。
 </P>
 
-<A NAME="toc80"></A>
+<A NAME="toc90"></A>
 <H4>11.3.2. 创建配置</H4>
 
 <P>
@@ -3229,7 +3396,7 @@ NVDA 的语音字典比之单词替换更为强大。
 点击“关闭”按钮返回“配置管理”对话框。
 </P>
 
-<A NAME="toc83"></A>
+<A NAME="toc93"></A>
 <H4>11.3.5. 编辑配置</H4>
 
 <P>
@@ -3242,7 +3409,7 @@ NVDA 的语音字典比之单词替换更为强大。
 要想编辑与“全文朗读”进行了关联的配置，您必须<A HREF="#ConfigProfileManual">手动激活</A>那个配置。
 </P>
 
-<A NAME="toc84"></A>
+<A NAME="toc94"></A>
 <H4>11.3.6. 临时停用关联</H4>
 
 <P>
@@ -3251,7 +3418,7 @@ NVDA 的语音字典比之单词替换更为强大。
 您可以在“管理配置”对话框中选中“临时停用所有关联”复选框达到此目的。
 </P>
 
-<A NAME="toc85"></A>
+<A NAME="toc95"></A>
 <H3>11.4. 配置文件的所在</H3>
 
 <P>
@@ -3268,10 +3435,10 @@ NVDA 的语音字典比之单词替换更为强大。
 要想更改 NVDA 在欢迎屏幕和 UAC 屏幕时的配置，在登陆 Windows 之后修改您的 NVDA 配置，保存您的配置，然后按下“常规设置”对话框的“应用以保存的配置到欢迎界面和其他安全界面”按钮。
 </P>
 
-<A NAME="toc86"></A>
+<A NAME="toc96"></A>
 <H2>12. 附加工具</H2>
 
-<A NAME="toc87"></A>
+<A NAME="toc97"></A>
 <H3>12.1. 日志查看器</H3>
 
 <P>
@@ -3282,7 +3449,7 @@ NVDA 的语音字典比之单词替换更为强大。
 此动作可在日志查看器的“日志”菜单下找到。
 </P>
 
-<A NAME="toc88"></A>
+<A NAME="toc98"></A>
 <H3>12.2. 朗读查看器</H3>
 
 <P>
@@ -3305,7 +3472,7 @@ NVDA 的语音字典比之单词替换更为强大。
 要想在任何地方切换朗读查看器的开关，请在<A HREF="#InputGestures">输入手势对话框</A>定义一个自定义手势。
 </P>
 
-<A NAME="toc89"></A>
+<A NAME="toc99"></A>
 <H3>12.3. 插件管理器</H3>
 
 <P>
@@ -3360,7 +3527,7 @@ NVDA 会询问您是否真的要这样做。
 要想在任何地方访问插件管理器，请在<A HREF="#InputGestures">输入手势对话框</A>定义一个自定义手势。
 </P>
 
-<A NAME="toc90"></A>
+<A NAME="toc100"></A>
 <H3>12.4. Python 控制台</H3>
 
 <P>
@@ -3368,7 +3535,7 @@ NVDA Python 控制台可以再 NVDA 的“工具”菜单找到，他是一个�
 更多信息，可从<A HREF="http://community.nvda-project.org/wiki/Development">NVDA 网站的开发部分</A>查看可用的开发文档。
 </P>
 
-<A NAME="toc91"></A>
+<A NAME="toc101"></A>
 <H3>12.5. 重新加载插件</H3>
 
 <P>
@@ -3383,7 +3550,7 @@ NVDA Python 控制台可以再 NVDA 的“工具”菜单找到，他是一个�
 要想查看更多您可以购买或下载的、可用于 NVDA 的免费或商业语音合成器的列表，请查看页面<A HREF="http://www.nvda-project.org/wiki/ExtraVoices">http://www.nvda-project.org/wiki/ExtraVoices</A>(译者注：更多的语音合成器资源也可访问：<A HREF="http://www.nvdacn.com/vd/">NVDA语音合成器集中下载</A>页获取)。
 </P>
 
-<A NAME="toc93"></A>
+<A NAME="toc103"></A>
 <H3>13.1. eSpeak NG</H3>
 
 <P>
@@ -3399,7 +3566,7 @@ eSpeak NG 支持超过43种不同的语言。
 它还包含许多可供选择的、能作用于语音声音的变体。
 </P>
 
-<A NAME="toc94"></A>
+<A NAME="toc104"></A>
 <H3>13.2. Microsoft Speech API version 4 (SAPI 4)</H3>
 
 <P>
@@ -3411,7 +3578,7 @@ SAPI 4 是一个很有历史的微软软件语音合成器标准。
 如果您已经安装了 SAPI 4语音，但合成器并未出现在 NVDA 的合成器列表，请安装 SAPI 4运行接口，请访问 <A HREF="http://activex.microsoft.com/activex/controls/sapi/spchapi.exe">http://activex.microsoft.com/activex/controls/sapi/spchapi.exe</A> 。
 </P>
 
-<A NAME="toc95"></A>
+<A NAME="toc105"></A>
 <H3>13.3. Microsoft Speech API version 5 (SAPI 5)</H3>
 
 <P>
@@ -3420,7 +3587,7 @@ SAPI 5 是一个微软软件语音合成器标准。
 当在 NVDA 使用此合成器时，“可用的语音”(访问<A HREF="#VoiceSettings">语音设置对话框</A>或者通过 <A HREF="#SynthSettingsRing">循环切换合成器设置</A>)将包含所有安装在系统的 SAPI5 的语音合成器引擎的所有语音。
 </P>
 
-<A NAME="toc96"></A>
+<A NAME="toc106"></A>
 <H3>13.4. Microsoft Speech Platform</H3>
 
 <P>
@@ -3440,7 +3607,7 @@ Microsoft Speech Platform (微软语音平台)包含许多语言的声音，它�
  -
 </UL>
 
-<A NAME="toc97"></A>
+<A NAME="toc107"></A>
 <H3>13.5. Audiologic Tts3</H3>
 
 <P>
@@ -3452,7 +3619,7 @@ Microsoft Speech Platform (微软语音平台)包含许多语言的声音，它�
 此合成器不支持<A HREF="#VoiceSpellingFunctionality">拼写功能</A>。
 </P>
 
-<A NAME="toc98"></A>
+<A NAME="toc108"></A>
 <H3>13.6. NVDA 的 Nuance Vocalizer</H3>
 
 <P>
@@ -4231,7 +4398,7 @@ Following are the key assignments for  the Brailliant BI/B and BrailleNote touch
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
 
-<A NAME="toc109"></A>
+<A NAME="toc119"></A>
 <H4>14.9.1. Key assignments for All models</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4321,7 +4488,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc110"></A>
+<A NAME="toc120"></A>
 <H4>14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4343,7 +4510,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc111"></A>
+<A NAME="toc121"></A>
 <H4>14.9.3. Key assignments for Brailliant BI 14</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
