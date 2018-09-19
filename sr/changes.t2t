@@ -62,7 +62,7 @@ Glavne karakteristike ove verzije uključuju automatsko prepoznavanje puno braje
 - Pristupačne oznake za kontrole u programu  Google Chrome se sada češće prijavljuju u režimu pretraživanja   kada se oznaka  ne pojavljuje kao deo sadržaja. (#4773)
 - Obaveštenja su sada podržana u aplikaciji  Zoom. Na primer, ovo uključuje status mikrofona, i primljene poruke. (#7754)
 - Menjanje predstavljanja sadržaja na brajevom redu u režimu pretraživanja više ne izaziva prestanak praćenja kursora. (#7741)
-- ALVA BC680 se sada ispravno inicializuju. (#8106)
+- ALVA BC680 brajevi redovi se sada ispravno inicializuju. (#8106)
 - Po podrazumevanim podešavanjima, ALVA BC6 redovi više neće koristiti emulirane sistemske tastere kada se pritiskaju kombinacije sa tasterima sp2+sp3. (#8230)
 - Taster sp2 na ALVA BC6 brajevom redu za emuliranje alt tastera sada radi ispravno. (#8360)
 - NVDA više ne izgovara bespotrebne promene izgleda tastature. (#7383, #8419)
@@ -75,7 +75,7 @@ Glavne karakteristike ove verzije uključuju automatsko prepoznavanje puno braje
 - U programu  Microsoft Edge, NVDA će izgovarati obaveštenja kao što su dostupnost čitača i napredak učitavanja stranice. (#8423)
 - Kada se nalazite na Web listi, NVDA će prijaviti njenu oznaku ako je Web autor odredio oznaku. (#7652)
 - Kada ručno određujete funkcije za komande na brajevom redu, te komande se sada ispravno uvek prikazuju za taj red. Ranije, one su se prikazivale kao određene za trenutni brajev red. (#8108)
--  64-bitna verzija programa   Media Player Classic je sada podržana. (#6066)
+- 64-bitna verzija programa   Media Player Classic je sada podržana. (#6066)
 - Nekoliko poboljšanja za podršku sa brajevim redom u programu  Microsoft Word sa UI Automation omogućenom:
  - Slično kao i u drugim višelinijskim poljima za uređivanje, kada se nalazite na početku dokumenta na brajevom redu, red se pomera tako da  je prvi znak dokumenta na  početku reda. (#8406)
  - Smanjena količina sadržaja  predstavljanja fokusa kada se fokusirate  na Word dokument. (#8407)
