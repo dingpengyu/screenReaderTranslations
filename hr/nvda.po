@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 00:10+1000\n"
-"PO-Revision-Date: 2018-08-31 14:18+0100\n"
+"PO-Revision-Date: 2018-09-20 20:33+0100\n"
 "Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: Hr Mario Percinic<mario.percinic@gmail.com and Hrvoje "
 "Katic<hrvojekatic@gmail.com> <nvda_hr@googlegroups.com>\n"
@@ -1144,15 +1144,13 @@ msgstr "Vijetnamsko puno pismo"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Kineski (Taiwan, Mandarinski)"
+msgstr "Kineski (Kina, Mandarinski) s tonovima"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Kineski (Taiwan, Mandarinski)"
+msgstr "Kineski (Kina, Mandarinski) bez tonova"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -8660,9 +8658,8 @@ msgstr "Tipkovnica"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "&Koristi Caps Lock kao NVDA modifikacijsku tipku"
+msgstr "Odaberite NVDA modifikacijske tipke"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8825,9 +8822,8 @@ msgstr "Izvijesti o &alatnim savjetnicima"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Izvijesti o &alatnim savjetnicima"
+msgstr "Izvijesti o &obavijestima"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
