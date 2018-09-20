@@ -1,0 +1,6 @@
+commit b546db6191a46cf1c10bbd55e86e3012bd617947
+Merge: 57e63d4 4323a48
+Author: Michael Curran <mick@nvaccess.org>
+Date:   Thu Sep 20 09:56:31 2018 +1000
+
+    Merge branch 'rc' into beta
