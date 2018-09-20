@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: website files\n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-06-26 15:37+0100\n"
+"PO-Revision-Date: 2018-09-20 20:29+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
 "Language: es\n"
@@ -229,6 +229,9 @@ msgid ""
 "recommended). This is intended to disable settings changes in case of speed "
 "issues when switching profiles."
 msgstr ""
+"También, es posible habilitar Opciones sólo en configuración normal (no "
+"recomendado). Esto sirve para desactivar los cambios de opciones en caso de "
+"problemas de velocidad al cambiar perfiles."
 
 #. type: Title ##
 #, no-wrap
@@ -260,14 +263,13 @@ msgstr ""
 "quieras pegar."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 7.0"
+#, no-wrap
 msgid "Changes for 8.0"
-msgstr "Cambios para 7.0"
+msgstr "Cambios para 8.0"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Compatible con NVDA 2018.3 o posterior (requerido)."
 
 #. type: Title ##
 #, no-wrap

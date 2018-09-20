@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Add-on Website files\n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-01-03 23:19+0100\n"
+"PO-Revision-Date: 2018-09-20 20:54+0100\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
 "Language: es\n"
@@ -101,11 +101,6 @@ msgid "A list of the saved feeds."
 msgstr "Una lista de los feeds guardados."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "List of articles: Opens a dialog which presents the articles list from "
-#| "your current feed. Select the article you want to read and press OK "
-#| "button to open the corresponding page in your browser."
 msgid ""
 "List of articles: Opens a dialog which presents the articles list from your "
 "current feed. Select the article you want to read and press Enter or Open "
@@ -115,8 +110,12 @@ msgid ""
 "to the clipboard."
 msgstr ""
 "Lista de artículos: abre un diálogo que presenta la lista de artículos de tu "
-"feed actual. Selecciona el artículo que quieras leer y pulsa el botón "
-"Aceptar para abrir la página correspondiente en tu navegador."
+"feed actual. Selecciona el artículo que desees leer y pulsa Intro o el botón "
+"Abrir página web del artículo seleccionado para abrir la página "
+"correspondiente en tu navegador. Presiona el botón Acerca del artículo para "
+"abrir un diálogo que muestre el título y el enlace del artículo "
+"seleccionado; desde este diálogo, podrás copiar esta información al "
+"portapapeles."
 
 #. type: Bullet: '* '
 msgid "Open feed: Opens the selected feed in the default application."
@@ -281,24 +280,25 @@ msgstr ""
 "seleccionado y el número de elementos disponibles."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 4.0"
+#, no-wrap
 msgid "Changes for 5.0"
-msgstr "Cambios para 4.0"
+msgstr "Cambios para 5.0"
 
 #. type: Bullet: '* '
 msgid "The articles list dialog has been enhanced."
-msgstr ""
+msgstr "El diálogo lista de artículos se ha mejorado."
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Compatible con NVDA 2018.3 o posterior (requerido)."
 
 #. type: Bullet: '* '
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Si fuese necesario, puedes descargar la [última  versión compatible con NVDA "
+"2017.3][3]."
 
 #. type: Title ##
 #, no-wrap
@@ -377,6 +377,8 @@ msgid ""
 "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
 "github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 msgstr ""
+"[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
+"github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 
 #~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
 #~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
