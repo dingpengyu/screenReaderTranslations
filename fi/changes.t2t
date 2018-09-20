@@ -27,6 +27,10 @@
 Katso muutokset tämän dokumentin [englanninkielisestä versiosta. ../en/changes.html]
 
 
+= 2018.3.1 =
+Tämä versio korjaa kriittisen ohjelmavirheen, joka aiheutti Mozilla Firefoxin 32-bittisten versioiden kaatumisen. (#8759)
+
+
 = 2018.3 =
 Tämän version merkittävimpiä uusia ominaisuuksia ovat useiden pistenäyttöjen automaattinen tunnistaminen, tuki uusille Windows 10:n ominaisuuksille kuten emojinsyöttöpaneelille, sekä monet muut bugikorjaukset.
 
