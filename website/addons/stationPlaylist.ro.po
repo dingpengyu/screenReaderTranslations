@@ -2541,18 +2541,18 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
 
 #. type: Plain text
-#| msgid "[3]: http://josephsl.net/files/nvdaaddons/get.php?file=spl-lts16"
+#| msgid "[3]: https://josephsl.net/files/nvdaaddons/get.php?file=spl-lts16"
 msgid ""
-"[3]: http://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+"[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
 msgstr ""
-"[3]: http://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+"[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
 
 #. type: Plain text
 msgid "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"

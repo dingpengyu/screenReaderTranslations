@@ -52,7 +52,7 @@ msgid ""
 "is accompanied by the license and you make all source code available to "
 "anyone who wants it. This applies to both original and modified copies of "
 "this software, plus any derivative works.  For further details, you can view "
-"the license online at: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+"the license online at: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
 msgstr ""
 
 #. type: Title ##
@@ -124,20 +124,20 @@ msgstr ""
 msgid ""
 "The synthesis engine itself is written in C++ using modern idioms, but "
 "closely following the implementation of klsyn-88, found at "
-"http://linguistics.berkeley.edu/phonlab/resources/"
+"https://linguistics.berkeley.edu/phonlab/resources/"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "eSpeak is used to parse text into phonemes represented in IPA, making use of "
 "existing eSpeak dictionary processing. eSpeak can be found at: "
-"http://espeak.sourceforge.net/"
+"https://espeak.sourceforge.net/"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "The Klatt formant data for each individual phoneme was collected mostly from "
-"a project called PyKlatt: http://code.google.com/p/pyklatt/ However it has "
+"a project called PyKlatt: https://code.google.com/p/pyklatt/ However it has "
 "been further tweaked based on testing and matching with eSpeak's own data."
 msgstr ""
 
@@ -155,8 +155,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You will need: - Python 2.7: http://www.python.org - SCons 2.3.0: "
-"http://www.scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+"You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+"https://www.scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
 msgstr ""
 
 #. type: Plain text

@@ -43,6 +43,6 @@ Web模式激活时：
 * ctrl+左光标：上一个单词。
 * 空格：激活。
 
-[1]: http://addons.nvda-project.org/files/get.php?file=objPad
+[1]: https://addons.nvda-project.org/files/get.php?file=objPad
 
-[2]: http://addons.nvda-project.org/files/get.php?file=objPad-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev

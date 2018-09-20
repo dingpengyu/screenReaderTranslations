@@ -18,7 +18,7 @@ The following commands switch between review modes:
 %kc:endInclude
 
 ++ Eurobraille Esys/Esytime/Iris displays ++[Eurobraille]
-The Esys, Esytime and Iris displays from [Eurobraille http://www.eurobraille.fr/] are supported by NVDA.
+The Esys, Esytime and Iris displays from [Eurobraille https://www.eurobraille.fr/] are supported by NVDA.
 Esys and Esytime-Evo devices are supported when connected via USB or bluetooth.
 Older Esytime devices only support USB.
 Iris displays can only be connected via a serial port.
@@ -98,5 +98,5 @@ Please see the display's documentation for descriptions of where these keys can 
 %kc:endInclude
 
 ++ BRLTTY ++[BRLTTY]
-[BRLTTY http://www.brltty.com/] is a separate program which can be used to support many more braille displays.
-In order to use this, you need to install [BRLTTY for Windows http://www.brltty.com/download.html].
+[BRLTTY https://www.brltty.com/] is a separate program which can be used to support many more braille displays.
+In order to use this, you need to install [BRLTTY for Windows https://www.brltty.com/download.html].

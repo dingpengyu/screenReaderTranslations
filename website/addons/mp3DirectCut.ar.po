@@ -421,15 +421,15 @@ msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[2]: http://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=mp3dc"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[2]: http://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
 
 #~ msgid ""
 #~ "This addon offers the following commands, which you can change by going "

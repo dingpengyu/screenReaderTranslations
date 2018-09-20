@@ -50,7 +50,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
+msgid "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
 msgstr ""
 
 #. type: Title ##
@@ -66,5 +66,5 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "[localSupportList]: http://updateThisUrl.com"
+msgid "[localSupportList]: https://updateThisUrl.com"
 msgstr ""

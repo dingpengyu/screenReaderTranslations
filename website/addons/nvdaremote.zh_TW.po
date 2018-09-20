@@ -38,5 +38,5 @@ msgid "[[!tag stable]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "[1]: http://nvdaremote.com/"
+msgid "[1]: https://nvdaremote.com/"
 msgstr ""

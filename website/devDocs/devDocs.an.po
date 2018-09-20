@@ -1964,6 +1964,6 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"[1]: http://community.nvda-project.org/wiki/Development [2]: http://"
+"[1]: https://community.nvda-project.org/wiki/Development [2]: https://"
 "community.nvda-project.org/documentation/developerGuide.html"
 msgstr ""

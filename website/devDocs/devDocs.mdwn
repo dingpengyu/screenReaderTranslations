@@ -500,5 +500,5 @@ A chapter devoted to driver development.
 
 Includes Bitbucket repo, add-ons lisst, other topics and contact information.
 
-[1]: http://community.nvda-project.org/wiki/Development
-[2]: http://community.nvda-project.org/documentation/developerGuide.html
+[1]: https://community.nvda-project.org/wiki/Development
+[2]: https://community.nvda-project.org/documentation/developerGuide.html

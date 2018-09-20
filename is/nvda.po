@@ -2315,7 +2315,7 @@ msgstr "málsgrein"
 
 #. Translators: Presented for a section in a document which is a block quotation;
 #. i.e. a long quotation in a separate paragraph distinguished by indentation, etc.
-#. See http://en.wikipedia.org/wiki/Block_quotation
+#. See https://en.wikipedia.org/wiki/Block_quotation
 msgid "block quote"
 msgstr "tilvitnun"
 
@@ -4676,7 +4676,7 @@ msgstr ""
 #. This should normally be left as is, but might be changed for some locales
 #. if the default key causes problems for the normal locale keyboard layout.
 #. The key must be formatted as described in this article:
-#. http://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
+#. https://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
 msgid "CTRL+ALT+N"
 msgstr ""
 
@@ -6477,18 +6477,18 @@ msgid "no italic"
 msgstr "engin skáletrun"
 
 #. Translators: Reported when text is formatted with double strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 #, fuzzy
 msgid "double strikethrough"
 msgstr "ekkert gegnumstrik"
 
 #. Translators: Reported when text is formatted with strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "strikethrough"
 msgstr "gegnumstrik"
 
 #. Translators: Reported when text is formatted without strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "no strikethrough"
 msgstr "ekkert gegnumstrik"
 
@@ -6518,12 +6518,12 @@ msgid "align right"
 msgstr "aðlaga á hægri brún"
 
 #. Translators: Reported when text is justified.
-#. See http://en.wikipedia.org/wiki/Typographic_alignment#Justified
+#. See https://en.wikipedia.org/wiki/Typographic_alignment#Justified
 msgid "align justify"
 msgstr "aðlögun"
 
 #. Translators: Reported when text is justified with character spacing (Japanese etc)
-#. See http://kohei.us/2010/01/21/distributed-text-justification/
+#. See https://kohei.us/2010/01/21/distributed-text-justification/
 #, fuzzy
 msgid "align distributed"
 msgstr "aðlaga á hægri brún"
@@ -6970,7 +6970,7 @@ msgid ""
 "who wants it. This applies to both original and modified copies of this "
 "software, plus any derivative works.\n"
 "For further details, you can view the license from the Help menu.\n"
-"It can also be viewed online at: http://www.gnu.org/licenses/old-licenses/"
+"It can also be viewed online at: https://www.gnu.org/licenses/old-licenses/"
 "gpl-2.0.html\n"
 "\n"
 "{name} is developed by NV Access, a non-profit organisation committed to "
@@ -6991,7 +6991,7 @@ msgstr ""
 "sem hluti af hugbúnaðinum.Þetta gildir bæði um þessa útgáfu hugbúnaðarins "
 "jafnt sem allar aðrar útgáfur af honum.Frekari upplýsingar má nálgast með "
 "því að lesa leyfistextann í heild sinni úr hjálparvalmyndinne.\n"
-"Einnig má skoða það á vefsíðunni: http://www.gnu.org/licenses/old-licenses/"
+"Einnig má skoða það á vefsíðunni: https://www.gnu.org/licenses/old-licenses/"
 "gpl-2.0.html\n"
 "\n"
 "{name} er þróað með umsjá NV Access, g´poðgerðarstofnun sem er hefur það að "
@@ -11290,7 +11290,7 @@ msgid "{offset:.3g} points"
 msgstr ""
 
 #. Translators: a measurement in Microsoft Word
-#. See http://support.microsoft.com/kb/76388 for details.
+#. See https://support.microsoft.com/kb/76388 for details.
 #, python-brace-format
 msgid "{offset:.3g} picas"
 msgstr ""

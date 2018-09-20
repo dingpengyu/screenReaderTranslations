@@ -5,7 +5,7 @@
 
 该项目是LAMBDA软件的appModule。它的灵感来自于Comenius大学Peter Lecky的作品。
 LAMBDA（用于盲文设备和音频合成的数学线性访问工具），可帮助盲人使用盲文点显器和语音合成器读写数学。
-LAMBDA是欧盟项目的成果。有关LAMBDA的更多信息，请访问[http://www.lambdaproject.org/](http://www.lambdaproject.org/）。
+LAMBDA是欧盟项目的成果。有关LAMBDA的更多信息，请访问[https://www.lambdaproject.org/](https://www.lambdaproject.org/）。
 当前版本的插件有意大利语和西班牙语的盲文表，其界面以大多数NVDA的官方语言提供，因为它是由NVDA翻译社区翻译的。
 如果您是LAMBDA的非意大利用户，并且您希望以您的语言移植盲文表，请随时联系作者（见下文）或订阅项目邮件列表。
 
@@ -124,6 +124,6 @@ Where :
 
 * 发布初始版本
 
-[1]: http://addons.nvda-project.org/files/get.php?file=lambda
+[1]: https://addons.nvda-project.org/files/get.php?file=lambda
 
-[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev

@@ -8,7 +8,7 @@ index 07797b8..8e639fc 100644
 
 
 ++ Optelec ALVA -{BC640/680}- +{6 series/protocol converter}+ ++[OptelecALVA]
-Both the ALVA BC640 and BC680 displays from [Optelec http://www.optelec.com/] are supported when connected via USB or bluetooth.
+Both the ALVA BC640 and BC680 displays from [Optelec https://www.optelec.com/] are supported when connected via USB or bluetooth.
 +{Alternatively, you can connect an older Optelec display, such as a Braille Voyager, using a protocol converter supplied by Optelec.}+
 You do not need any specific drivers to be installed to use these displays.
 Just plug in the display and configure NVDA to use it.

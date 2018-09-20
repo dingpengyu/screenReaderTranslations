@@ -199,4 +199,4 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=dx"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=dx"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=dx"

@@ -119,9 +119,9 @@ msgid "[[!tag dev stable]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "[1]: http://addons.nvda-project.org/files/get.php?file=gsr"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=gsr"
 msgstr ""
 
 #. type: Plain text
-msgid "[2]: http://addons.nvda-project.org/files/get.php?file=gsr-dev"
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=gsr-dev"
 msgstr ""

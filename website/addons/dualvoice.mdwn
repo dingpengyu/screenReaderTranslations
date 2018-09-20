@@ -6,6 +6,6 @@ This add-on allows you to use two synthesizers or voices to read text in your ch
 
 [[!tag dev stable]]
 
-[1]: http://sourceforge.net/projects/dualvoice/files/latest/download
+[1]: https://sourceforge.net/projects/dualvoice/files/latest/download
 
-[2]: http://superb-dca2.dl.sourceforge.net/project/dualvoice/ReadMe.txt
+[2]: https://superb-dca2.dl.sourceforge.net/project/dualvoice/ReadMe.txt

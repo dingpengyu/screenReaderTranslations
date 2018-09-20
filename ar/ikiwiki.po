@@ -193,7 +193,7 @@ msgstr "جاري إنشاء صفحة الكشاف %s"
 
 #: ../IkiWiki/Plugin/blogspam.pm:119
 msgid ""
-"Sorry, but that looks like spam to <a href=\"http://blogspam.net/"
+"Sorry, but that looks like spam to <a href=\"https://blogspam.net/"
 "\">blogspam</a>: "
 msgstr ""
 

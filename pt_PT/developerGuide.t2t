@@ -561,7 +561,7 @@ summary = Um bom teste de Add-on
 version = 1.0
 description = Um exemplo de Add-on mostrando como se criam Add-ons!
 author = Michael Curran <mick@kulgan.net>
-url = http://www.nvda-project.org/wiki/Development
+url = https://www.nvda-project.org/wiki/Development
 --- fim ---
 ``` 
 
@@ -604,7 +604,7 @@ Cada uma das directorias de  idioma deve conter  informação gettext, que é o 
 Tal como no NVDA, um ficheiro gettext database compilado, nvda.mo, deve ser colocado na directoria LC_MESSAGES da pasta respeitante a cada idioma.
 Para permitir que os plugins do Add-on acedam às mensagens gettext, via chamadas às funções _(), deve inicializar as traduções no início de cada módulo Python chamando addonHandler.initTranslations().
 Para mais informações sobre gettext e tradução do NVDA em geral, por favor, consulte
-http://www.nvda-project.org/wiki/TranslatingNVDA
+https://www.nvda-project.org/wiki/TranslatingNVDA
 
 + Consola Python do NVDA +[PythonConsole]
 A consola Python do NVDA simula o interpretador  interactivo Python a partir do NVDA.

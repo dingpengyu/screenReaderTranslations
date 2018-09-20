@@ -1490,7 +1490,7 @@ Highlights of this release include support for Asian character input; experiment
  - This is supported for both NVDA itself and add-ons.
  - xgettext and msgfmt from GNU gettext must be used to create any PO and MO files. The Python tools do not support message contexts.
  - For xgettext, pass the --keyword=pgettext:1c,2 command line argument to enable inclusion of message contexts.
- - See http://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts for more information.
+ - See https://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts for more information.
 - It is now possible to access built-in NVDA modules where they have been overridden by third party modules. See the nvdaBuiltin module for details.
 - Add-on translation support can now be used within the add-on installTasks module. (#2715)
 
@@ -2413,9 +2413,9 @@ This release fixes several security and other important issues found in NVDA 201
 
 
 = 0.5 =
-- NVDA now has a built-in synthesizer called eSpeak, developed by Jonathan Duddington.It is very responsive and lite-weight, and has support for many different languages. Sapi synthesizers can still be used, but eSpeak will  be used by default. eSpeak does not depend on any special software to be installed, so it can be used with NVDA on any computer, on a USB thumb drive, or anywhere. For more info on eSpeak, or to find other versions, go to http://espeak.sourceforge.net/.
+- NVDA now has a built-in synthesizer called eSpeak, developed by Jonathan Duddington.It is very responsive and lite-weight, and has support for many different languages. Sapi synthesizers can still be used, but eSpeak will  be used by default. eSpeak does not depend on any special software to be installed, so it can be used with NVDA on any computer, on a USB thumb drive, or anywhere. For more info on eSpeak, or to find other versions, go to https://espeak.sourceforge.net/.
  - eSpeak does not depend on any special software to be installed, so it can be used with NVDA on any computer, on a USB thumb drive, or anywhere. 
- - For more info on eSpeak, or to find other versions, go to http://espeak.sourceforge.net/.
+ - For more info on eSpeak, or to find other versions, go to https://espeak.sourceforge.net/.
 - Fix bug where the wrong character was being announced when pressing delete in Internet Explorer / Outlook Express editable panes.
 - Added support for more edit fields in Skype.
 - VirtualBuffers only get loaded when focus is on the window that needs to be loaded. This fixes some problems when the preview pane is turned on in Outlook Express.

@@ -190,6 +190,6 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=st"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=st"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=st"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=st"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=st"

@@ -10,5 +10,5 @@ Some links can also be included as normal, [google][3].
 
 [[!inline pages="./addon1_meta" raw=yes]]
 
-[3]: http://www.google.com
+[3]: https://www.google.com
 

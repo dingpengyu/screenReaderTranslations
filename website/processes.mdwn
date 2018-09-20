@@ -34,6 +34,6 @@
 7. Authors and reviewers are strongly encouraged to follow our [guidelines][2], to ensure the quality of community add-ons. 
 8. If add-on authors can't continue a required work, they can be replaced by another maintainer three months after the first request. 
 
-[1]: http://www.freelists.org/list/nvda-addons
+[1]: https://www.freelists.org/list/nvda-addons
 
-[2]: http://addons.nvda-project.org/files/get.php?file=gl
+[2]: https://addons.nvda-project.org/files/get.php?file=gl

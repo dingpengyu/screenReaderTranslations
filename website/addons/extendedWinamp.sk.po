@@ -9,7 +9,7 @@ msgstr ""
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
 "PO-Revision-Date: 2013-09-30 10:39+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
-"Language-Team: sk <http://nvda.venik.org>\n"
+"Language-Team: sk <https://nvda.venik.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -139,6 +139,6 @@ msgstr "[[!tag stable]]\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=ew"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ew"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ew"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=ew"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ew"

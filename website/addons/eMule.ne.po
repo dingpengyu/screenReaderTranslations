@@ -256,7 +256,7 @@ msgstr ""
 "प्राणको सुरुको वा परिवर्तित दुबै प्रतिमा एवम् यसका कुनै पनि सह-उत्पादनमा उतिकै रूपमा लागू "
 "हुन्छ ।\n"
 "विस्तृत जानकारीका लागि सहयोग मेनु मार्फत इजाजत सम्बन्धी पाठ हेर्नु होला ।\n"
-"यो इजाजत अनलाइनमा हेर्न : http://www.gnu.org/licenses/old-licenses/gpl-2.0."
+"यो इजाजत अनलाइनमा हेर्न : https://www.gnu.org/licenses/old-licenses/gpl-2.0."
 "html मा भ्रमण गर्नु होला ।\n"
 "\n"
 "{name}- एउटा NV Access नामक नाफा नलिई दृश्य विहीन तथा देख्न कठिनाइ भएका "
@@ -287,16 +287,16 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=em"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=em"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=em"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=em"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=em"
 
 #. type: Plain text
-msgid "[2]: http://www.emule-project.net"
-msgstr "[2]: http://www.emule-project.net"
+msgid "[2]: https://www.emule-project.net"
+msgstr "[2]: https://www.emule-project.net"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[3]: http://addons.nvda-project.org/files/get.php?file=em-dev"
+#| msgid "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
-msgstr "[3]: http://addons.nvda-project.org/files/get.php?file=em-dev"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"

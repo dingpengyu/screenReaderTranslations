@@ -46,8 +46,8 @@ msgid "[[!inline pages=\"./addon1_meta\" raw=yes]]\n"
 msgstr "[[!inline pages=\"./addon1_meta\" raw=yes]]\n"
 
 #. type: Plain text
-msgid "[3]: http://www.google.com"
-msgstr "[3]: http://www.google.com"
+msgid "[3]: https://www.google.com"
+msgstr "[3]: https://www.google.com"
 
 #, fuzzy
 #~| msgid "[[!inline pages=\"./download_inc and currentlang()\" raw=yes]]\n"

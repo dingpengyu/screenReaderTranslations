@@ -21,5 +21,5 @@
 ## 版本 1.2 ##
 *	 发布初始版本.
 
-[1]: http://addons.nvda-project.org/files/get.php?file=nb
+[1]: https://addons.nvda-project.org/files/get.php?file=nb
 

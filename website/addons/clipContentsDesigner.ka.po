@@ -245,11 +245,11 @@ msgid "[[!tag dev stable]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "[1]: http://addons.nvda-project.org/files/get.php?file=ccd"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ccd"
 msgstr ""
 
 #. type: Plain text
-msgid "[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev"
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev"
 msgstr ""
 
 #. type: Plain text

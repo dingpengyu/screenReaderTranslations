@@ -26,8 +26,8 @@
 ## 版本 1.0 ##
 *	 发布初始版本.
 
-[1]: http://addons.nvda-project.org/files/get.php?file=tv
+[1]: https://addons.nvda-project.org/files/get.php?file=tv
 
-[2]: http://addons.nvda-project.org/files/get.php?file=tv-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=tv-dev
 
-[3]: http://www.teamviewer.com
+[3]: https://www.teamviewer.com

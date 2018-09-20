@@ -1,6 +1,6 @@
 [[!tag dev]]
 
-[1]: http://addons.nvda-project.org
+[1]: https://addons.nvda-project.org
 
-[2]: http://dev.blabla.com/
+[2]: https://dev.blabla.com/
 

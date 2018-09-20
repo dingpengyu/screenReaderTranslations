@@ -3182,21 +3182,21 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[2]: http://addons.nvda-project.org/files/get.php?file=spl-dev"
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=spl-dev [2]: "
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev [2]: "
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=spl-lts18"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
 
 #. type: Plain text
 #, fuzzy
@@ -3204,7 +3204,7 @@ msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
 #| "[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/"
 #| "SPLAddonGuide"
 msgid "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
-msgstr "[3]: http://addons.nvda-project.org/files/get.php?file=spl-dev [2]: "
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=spl-dev [2]: "
 
 #. type: Plain text
 #, fuzzy
@@ -3212,10 +3212,10 @@ msgstr "[3]: http://addons.nvda-project.org/files/get.php?file=spl-dev [2]: "
 #| "[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/"
 #| "SPLAddonGuide"
 msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
-msgstr "[3]: http://addons.nvda-project.org/files/get.php?file=spl-dev [2]: "
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=spl-dev [2]: "
 
 #, fuzzy
-#~| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
 #~ msgid ""
-#~ "[3]: http://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
-#~ msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"

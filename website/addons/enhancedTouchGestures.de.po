@@ -465,7 +465,7 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=ets"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 
 #~ msgid "Download [development version][2]"
 #~ msgstr "[Testversion herunterladen][2]"
@@ -489,7 +489,7 @@ msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=ets"
 #~ "Kontrollkästchen für das Tippen auf Berührung einschalten."
 
 #~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ets-dev"
-#~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 
 #~ msgid "Screen orientation"
 #~ msgstr "Bildschirmorientierung"

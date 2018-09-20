@@ -12,7 +12,7 @@ Velkommen til NVDA!
 
 NonVisual Desktop Access (NVDA) er en gratis skjermleser for Microsoft Windows-operativsystemet. Den er laget med åpen kildekode.
 NVDA gir tilbakemeldinger via syntetisk tale og punktskrift, og gjør blinde og svaksynte personer i stand til å bruke datamaskiner som kjører Windows til samme pris som det seende personer betaler.
-NVDA er utviklet av [NV Access http://www.nvaccess.org/], med bidrag fra fellesskapet.
+NVDA er utviklet av [NV Access https://www.nvaccess.org/], med bidrag fra fellesskapet.
 
 ++ Generelle funksjoner ++[GeneralFeatures]
 NVDA lar blinde og svaksynte få tilgang til og bruke Windows operativsystem og mange tredjeparts applikasjoner.
@@ -57,7 +57,7 @@ NVDA er kopibeskyttet NVDA_COPYRIGHT_YEARS NVDA bidragsytere.
 NVDA dekkes av GNU General Public License (versjon 2).
 Du er fri til å dele eller endre denne programvaren på alle måter du vil så lenge lisensen medfølger, og du gjør all kildekode tilgjengelig for alle som ønsker den.
 Dette gjelder både originale og modifiserte eksemplarer av denne programvaren, samt eventuelle avledede verk.
-For ytterligere opplysninger, kan du [se den fullstendige lisensen. http://www.gnu.org/licenses/old-licenses/gpl-2.0.html]
+For ytterligere opplysninger, kan du [se den fullstendige lisensen. https://www.gnu.org/licenses/old-licenses/gpl-2.0.html]
 
 + Systemkrav +[SystemRequirements]
 - Operativsystem: Alle 32- og 64-bits versjoner av Windows 7, Windows 8, Windows 8.1 og Windows 10, og alle serveroperativsystemer fra og med Windows Server 2008 R2.
@@ -551,7 +551,7 @@ En tastekommando er tilgjengelig for å gå tilbake til den opprinnelige siden s
 + Lese matematisk innhold +[ReadingMath]
 Ved hjelp av MathPlayer 4 fra Design Science kan NVDA lese og interaktivt navigere i matematisk innhold som støttes. Dette forutsetter at MathPlayer 4 er installert på PC-en.
 
-MathPlayer er tilgjengelig som en gratis nedlasting fra: http://www.dessci.com/en/products/mathplayer/
+MathPlayer er tilgjengelig som en gratis nedlasting fra: https://www.dessci.com/en/products/mathplayer/
 
 NVDA støtter følgende typer matematisk innhold:
 - MathML i Mozilla Firefox, Microsoft Internet Explorer og Google Chrome.

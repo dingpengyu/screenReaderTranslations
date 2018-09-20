@@ -19,7 +19,7 @@ fi
 
 commitMsg=""
 
-#snapUrl='http://nvda.sourceforge.net/snapshots/.index.html'
+#snapUrl='https://nvda.sourceforge.net/snapshots/.index.html'
 #url=`$ELINKS --dump $snapUrl | grep -i '.pot' | head -n 1 | awk '{ print \$2 }'`
 ## if the content of the var end in pot then we have the url.
 #exist="${url##*.}"

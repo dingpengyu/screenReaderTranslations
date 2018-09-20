@@ -505,15 +505,15 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=w10"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=w10"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=w10"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=w10"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=w10"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[2]: http://addons.nvda-project.org/files/get.php?file=w10-dev"
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=w10-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
 
 #. type: Plain text
 msgid "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"

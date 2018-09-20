@@ -181,15 +181,15 @@ msgstr "To spletno mesto vzdržuje tim NVDA prevajalcev."
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://www.nvaccess.org"
+#| msgid "[1]: https://www.nvaccess.org"
 msgid "[1]: https://www.nvaccess.org"
-msgstr "[1]: http://www.nvaccess.org"
+msgstr "[1]: https://www.nvaccess.org"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[2]: http://www.freelists.org/list/nvda-addons"
+#| msgid "[2]: https://www.freelists.org/list/nvda-addons"
 msgid "[2]: https://nvda-addons.groups.io/g/nvda-addons"
-msgstr "[2]: http://www.freelists.org/list/nvda-addons"
+msgstr "[2]: https://www.freelists.org/list/nvda-addons"
 
 #~ msgid ""
 #~ "If you would like to submit an add-on for inclusion here or update "

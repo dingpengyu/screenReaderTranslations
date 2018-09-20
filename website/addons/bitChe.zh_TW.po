@@ -158,7 +158,7 @@ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=bc"
 msgstr ""
 
 #. type: Plain text
-msgid "[2]: http://www.convivea.com"
+msgid "[2]: https://www.convivea.com"
 msgstr ""
 
 #. type: Plain text

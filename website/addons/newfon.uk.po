@@ -45,6 +45,6 @@ msgstr "[[!tag stable synth]]\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://files.nvaccess.org/nvda-addons/newfon.nvda-addon"
-msgid "[1]: http://files.nvaccess.org/nvda-addons/newfon.nvda-addon"
-msgstr "[1]: http://files.nvaccess.org/nvda-addons/newfon.nvda-addon"
+#| msgid "[1]: https://files.nvaccess.org/nvda-addons/newfon.nvda-addon"
+msgid "[1]: https://files.nvaccess.org/nvda-addons/newfon.nvda-addon"
+msgstr "[1]: https://files.nvaccess.org/nvda-addons/newfon.nvda-addon"

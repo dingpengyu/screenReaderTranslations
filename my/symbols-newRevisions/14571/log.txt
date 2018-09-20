@@ -12,7 +12,7 @@ Date:   Wed Mar 28 05:41:37 2018 +0200
     * Reorder and clean up the mapPUAToUnicode dict.
     * More consistent code style in _normalizeFormatField().
     * Update U+F0E8 to use the same mapping as Word uses when saving to plain text.
-    * Update U+F0FC based on http://www.alanwood.net/demos/wingdings.html.
+    * Update U+F0FC based on https://www.alanwood.net/demos/wingdings.html.
     * Update description for U+21E8 to more closely match the Unicode name.
     * Add U+F0A7, used for bullets on level 3,
       based on https://en.wikipedia.org/wiki/Symbol_(typeface)#Encoding.

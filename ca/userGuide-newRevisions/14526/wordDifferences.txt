@@ -9,7 +9,7 @@ index 3087e10..8a1fbd2 100644
 
 
 ++ HumanWare Brailliant BI/B Series +{/ BrailleNote Touch}+  ++[HumanWareBrailliant]
-The Brailliant BI and B series of displays  from [HumanWare http://www.humanware.com/], including the BI +{14, BI}+ 32, BI 40 and B 80, are supported when connected via USB or bluetooth.
+The Brailliant BI and B series of displays  from [HumanWare https://www.humanware.com/], including the BI +{14, BI}+ 32, BI 40 and B 80, are supported when connected via USB or bluetooth.
 If connecting via USB with the protocol set to HumanWare, you must first install the USB drivers provided by the manufacturer.
 USB drivers are not required if the protocol is set to OpenBraille.
 
@@ -60,7 +60,7 @@ Please see the display's documentation for descriptions of where these keys can 
 %kc:endInclude
 
 ++ HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series ++[Hims]
-NVDA supports Braille Sense, Braille EDGE, Smart Beetle and Sync Braille displays from [Hims http://www.hims-inc.com/] when connected via USB or bluetooth. 
+NVDA supports Braille Sense, Braille EDGE, Smart Beetle and Sync Braille displays from [Hims https://www.hims-inc.com/] when connected via USB or bluetooth. 
 If connecting via USB, you will need to install the USB drivers from HIMS on your system.
 @@ -2371,6 +2392,8 @@ The following models are supported:
 - BrailleNote Apex (USB and Bluetooth connections)

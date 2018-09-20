@@ -38,8 +38,8 @@ msgid "- NVDA Support: problems related to NVDA, or other programs while using N
 msgstr "- NVDA Support: Otázky súvisiace s používaním NVDA a s používaním konkrétnych aplikácii s NVDA. - Viac informácií, archív a prihlásenie [NVDA Support][nvdaSupportList]"
 
 #. type: Plain text
-msgid "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
-msgstr "[nvdaSupport]: http://lists.nvaccess.org/listinfo/nvda-support"
+msgid "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
+msgstr "[nvdaSupport]: https://lists.nvaccess.org/listinfo/nvda-support"
 
 #. type: Title ##
 #, no-wrap
@@ -51,6 +51,6 @@ msgid "- local NVDA list: discuss with other NVDA users in your own language.  -
 msgstr "- Regionálna konferencia: Diskutujte o NVDA vo vašom jazyku. - Viac informácií, archív a prihlásenie [testovacia konferencia][localSupportList]"
 
 #. type: Plain text
-msgid "[localSupportList]: http://updateThisUrl.com"
-msgstr "[Testovacia stránka]: http://updateThisUrl.com"
+msgid "[localSupportList]: https://updateThisUrl.com"
+msgstr "[Testovacia stránka]: https://updateThisUrl.com"
 

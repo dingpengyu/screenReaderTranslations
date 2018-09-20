@@ -202,12 +202,12 @@ msgstr ""
 "درخواست، جایگزین کرد."
 
 #. type: Plain text
-msgid "[1]: http://www.freelists.org/list/nvda-addons"
-msgstr "[1]: http://www.freelists.org/list/nvda-addons"
+msgid "[1]: https://www.freelists.org/list/nvda-addons"
+msgstr "[1]: https://www.freelists.org/list/nvda-addons"
 
 #. type: Plain text
-msgid "[2]: http://addons.nvda-project.org/files/get.php?file=gl"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=gl"
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=gl"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=gl"
 
 #~ msgid "Maintenance"
 #~ msgstr "حفظ و نگهداری یک افزونه"

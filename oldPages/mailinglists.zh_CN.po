@@ -38,8 +38,8 @@ msgid "- NVDA Support: problems related to NVDA, or other programs while using N
 msgstr "- NVDA 支持： NVDA 程序相关的及在运用 NVDA 操作其他程序时的问题。 更多信息请登陆并查看列表索引及其中的信息。[nvdaSupportList]"
 
 #. type: Plain text
-msgid "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
-msgstr "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
+msgid "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
+msgstr "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
 
 #. type: Title ##
 #, no-wrap
@@ -51,6 +51,6 @@ msgid "- local NVDA list: discuss with other NVDA users in your own language.  -
 msgstr "本地 NVDA 列表: 和与你使用相同语言的用户讨论关于 NVDA 的话题，详情请登陆并查看“NVDA 支持列表索引”。[localSupportList]"
 
 #. type: Plain text
-msgid "[localSupportList]: http://updateThisUrl.com"
-msgstr "[localSupportList]: http://updateThisUrl.com"
+msgid "[localSupportList]: https://updateThisUrl.com"
+msgstr "[localSupportList]: https://updateThisUrl.com"
 

@@ -62,7 +62,7 @@ index b328142..e87eda8 100644
 +-
 +
  ++ Freedom Scientific Focus/PAC Mate Series ++[FreedomScientificFocus]
- All Focus and PAC Mate displays from [Freedom Scientific http://www.freedomscientific.com/] are supported when connected via USB or bluetooth.
+ All Focus and PAC Mate displays from [Freedom Scientific https://www.freedomscientific.com/] are supported when connected via USB or bluetooth.
  You will need the Freedom Scientific braille display drivers installed on your system.
 @@ -1902,6 +1923,8 @@ By default, NVDA can automatically detect and connect to these displays either v
  However, when configuring the display, you can explicitly select "USB" or "Bluetooth" ports to restrict the connection type to be used.
@@ -87,7 +87,7 @@ index b328142..e87eda8 100644
  | alt+tab key | sp2+sp4 |
  | control+home key | t3+spUp |
  | control+end key | t3+spDown |
-@@ -2044,6 +2067,8 @@ The Lilli braille display available from [MDV http://www.mdvbologna.it/] is supp
+@@ -2044,6 +2067,8 @@ The Lilli braille display available from [MDV https://www.mdvbologna.it/] is supp
  You do not need any specific drivers to be installed to use this display.
  Just plug in the display and configure NVDA to use it.
  
@@ -97,7 +97,7 @@ index b328142..e87eda8 100644
  Please see the display's documentation for descriptions of where these keys can be found.
  %kc:beginInclude
 @@ -2099,6 +2124,8 @@ For displays which have a joystick:
- The hedo ProfiLine USB from [hedo Reha-Technik http://www.hedo.de/] is supported.
+ The hedo ProfiLine USB from [hedo Reha-Technik https://www.hedo.de/] is supported.
  You must first install the USB drivers provided by the manufacturer.
  
 +This display does not yet support NVDA's automatic background braille display detection functionality.
@@ -106,7 +106,7 @@ index b328142..e87eda8 100644
  Please see the display's documentation for descriptions of where these keys can be found.
  %kc:beginInclude
 @@ -2116,6 +2143,8 @@ Please see the display's documentation for descriptions of where these keys can
- The hedo MobilLine USB from [hedo Reha-Technik http://www.hedo.de/] is supported.
+ The hedo MobilLine USB from [hedo Reha-Technik https://www.hedo.de/] is supported.
  You must first install the USB drivers provided by the manufacturer.
  
 +This display does not yet support NVDA's automatic background braille display detection functionality.
@@ -115,7 +115,7 @@ index b328142..e87eda8 100644
  Please see the display's documentation for descriptions of where these keys can be found.
  %kc:beginInclude
 @@ -2258,6 +2287,8 @@ The Seika Version 3, 4 and 5 (40 cells) and Seika80 (80 cells) braille displays
- You can find more information about these displays at http://www.seika-braille.com/.
+ You can find more information about these displays at https://www.seika-braille.com/.
  You must first install the USB drivers provided by the manufacturer.
  
 +These displays do not yet support NVDA's automatic background braille display detection functionality.
@@ -160,5 +160,5 @@ index b328142..e87eda8 100644
 +BRLTYY is not involved in NVDA's automatic background braille display detection functionality.
 +
  Following are the BRLTTY command assignments for NVDA.
- Please see the [BRLTTY key binding lists http://mielke.cc/brltty/doc/KeyBindings/] for information about how BRLTTY commands are mapped to controls on braille displays.
+ Please see the [BRLTTY key binding lists https://mielke.cc/brltty/doc/KeyBindings/] for information about how BRLTTY commands are mapped to controls on braille displays.
  %kc:beginInclude

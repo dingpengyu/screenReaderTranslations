@@ -45,4 +45,4 @@
 
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

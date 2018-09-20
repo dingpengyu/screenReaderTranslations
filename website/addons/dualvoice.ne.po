@@ -44,10 +44,10 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: http://sourceforge.net/projects/dualvoice/files/latest/download"
-msgstr "[1]: http://sourceforge.net/projects/dualvoice/files/latest/download"
+msgid "[1]: https://sourceforge.net/projects/dualvoice/files/latest/download"
+msgstr "[1]: https://sourceforge.net/projects/dualvoice/files/latest/download"
 
 #. type: Plain text
-msgid "[2]: http://superb-dca2.dl.sourceforge.net/project/dualvoice/ReadMe.txt"
+msgid "[2]: https://superb-dca2.dl.sourceforge.net/project/dualvoice/ReadMe.txt"
 msgstr ""
-"[2]: http://superb-dca2.dl.sourceforge.net/project/dualvoice/ReadMe.txt"
+"[2]: https://superb-dca2.dl.sourceforge.net/project/dualvoice/ReadMe.txt"

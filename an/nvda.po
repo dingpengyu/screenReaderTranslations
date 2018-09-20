@@ -2197,7 +2197,7 @@ msgstr "paragrafo"
 
 #. Translators: Presented for a section in a document which is a block quotation;
 #. i.e. a long quotation in a separate paragraph distinguished by indentation, etc.
-#. See http://en.wikipedia.org/wiki/Block_quotation
+#. See https://en.wikipedia.org/wiki/Block_quotation
 msgid "block quote"
 msgstr "cita en bloque"
 
@@ -4477,7 +4477,7 @@ msgstr "Miscelania"
 #. This should normally be left as is, but might be changed for some locales
 #. if the default key causes problems for the normal locale keyboard layout.
 #. The key must be formatted as described in this article:
-#. http://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
+#. https://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
 msgid "CTRL+ALT+N"
 msgstr "CTRL+ALT+N"
 
@@ -6211,17 +6211,17 @@ msgid "no italic"
 msgstr "no bi ha garra cursiva"
 
 #. Translators: Reported when text is formatted with double strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "double strikethrough"
 msgstr "dople rayadura"
 
 #. Translators: Reported when text is formatted with strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "strikethrough"
 msgstr "rayau"
 
 #. Translators: Reported when text is formatted without strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "no strikethrough"
 msgstr "no bi ha garra rayadura"
 
@@ -6251,12 +6251,12 @@ msgid "align right"
 msgstr "aliniación t'a dreita"
 
 #. Translators: Reported when text is justified.
-#. See http://en.wikipedia.org/wiki/Typographic_alignment#Justified
+#. See https://en.wikipedia.org/wiki/Typographic_alignment#Justified
 msgid "align justify"
 msgstr "aliniación chustificada"
 
 #. Translators: Reported when text is justified with character spacing (Japanese etc)
-#. See http://kohei.us/2010/01/21/distributed-text-justification/
+#. See https://kohei.us/2010/01/21/distributed-text-justification/
 msgid "align distributed"
 msgstr "aliniación distribuida"
 
@@ -6671,7 +6671,7 @@ msgid ""
 "who wants it. This applies to both original and modified copies of this "
 "software, plus any derivative works.\n"
 "For further details, you can view the license from the Help menu.\n"
-"It can also be viewed online at: http://www.gnu.org/licenses/old-licenses/"
+"It can also be viewed online at: https://www.gnu.org/licenses/old-licenses/"
 "gpl-2.0.html\n"
 "\n"
 "{name} is developed by NV Access, a non-profit organisation committed to "
@@ -6692,7 +6692,7 @@ msgstr ""
 "disponible pa qui lo quiera. Isto s'aplica tanto a la copia orichinal como a "
 "la modificada d'iste programa, y a qualsiquier treballo derivau d'ell.\n"
 "Pa mas detalles, puetz veyer a licencia dende o menú Aduya.\n"
-"Tamién se puet veyer en linia en: http://www.gnu.org/licenses/old-licenses/"
+"Tamién se puet veyer en linia en: https://www.gnu.org/licenses/old-licenses/"
 "gpl-2.0.html\n"
 "\n"
 "{name} ye desembolicau por NV Access, una organización sin animo de lucro "
@@ -10916,7 +10916,7 @@ msgid "{offset:.3g} points"
 msgstr "{offset:.3g} puntos"
 
 #. Translators: a measurement in Microsoft Word
-#. See http://support.microsoft.com/kb/76388 for details.
+#. See https://support.microsoft.com/kb/76388 for details.
 #, python-brace-format
 msgid "{offset:.3g} picas"
 msgstr "{offset:.3g} picas"

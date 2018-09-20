@@ -270,11 +270,11 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=dw"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=dw"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=dw"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=dw-dev"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=dw-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=dw-dev"
 
 #~ msgid "A listbox to choose or type your date."
 #~ msgstr "Ein Datumsfeld um das Datum einzugeben oder auszuwählen."

@@ -8,11 +8,11 @@ This plugin adds local temperature and forecasts to 24 hours up to 9 additional 
 Weather Plus works through the use and presence of the following services::
 
 * https://developer.yahoo.com/weather/
-* http://woeid.rosselliot.co.nz/lookup/
-* http://www.geonames.org/
-* http://www.nvda.it/
+* https://woeid.rosselliot.co.nz/lookup/
+* https://www.geonames.org/
+* https://www.nvda.it/
 * https://www.timeanddate.com/
-* http://veloroutes.org/elevation/
+* https://veloroutes.org/elevation/
 
 ## Usage
 

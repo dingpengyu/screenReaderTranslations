@@ -9,4 +9,4 @@ This add-on enhances support for Ventrilo chat client. For more information on V
 
 [2]: https://addons.nvda-project.org/files/get.php?file=vent
 
-[3]: http://www.ventrilo.com/
+[3]: https://www.ventrilo.com/

@@ -41,11 +41,11 @@ msgstr "Preuzmi[razvojnu verziju][2]"
 msgid ""
 "This project is an appModule for the LAMBDA Software. It has been inspired by the work of Peter Lecky at the Comenius University. \n"
 "LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) is a software that helps blind people to read and write math using a braille display and/or a speech synthesizer.\n"
-"LAMBDA is the result of an EU-Project. For more information about LAMBDA please visit [http://www.lambdaproject.org/](http://www.lambdaproject.org/).  \n"
+"LAMBDA is the result of an EU-Project. For more information about LAMBDA please visit [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  \n"
 msgstr ""
 "Ovaj projekat je dodatak za LAMBDA aplikaciju. Inspirisan je radom Peter Lecky u Comenius univerzitetu. \n"
 "LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) je program koji pomaže slepim osobama u pisanju i čitanju matematičkog sadržaja korišćenjem brajevog reda ili sintetizatora govora.\n"
-"LAMBDA je rezultat EU-projekta. Za više informacija o aplikaciji LAMBDA posetite[http://www.lambdaproject.org/](http://www.lambdaproject.org/).  \n"
+"LAMBDA je rezultat EU-projekta. Za više informacija o aplikaciji LAMBDA posetite[https://www.lambdaproject.org/](https://www.lambdaproject.org/).  \n"
 
 #. type: Plain text
 #, fuzzy
@@ -551,11 +551,11 @@ msgstr "[[!tag dev]]\n"
 #. type: Plain text
 #, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=lambda"
-msgid "[1]: http://addons.nvda-project.org/files/get.php?file=lambda"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=lambda"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=lambda"
 
 #. type: Plain text
 #, fuzzy
 #| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev"
-msgid "[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev"
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev"

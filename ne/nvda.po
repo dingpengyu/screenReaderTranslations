@@ -2283,7 +2283,7 @@ msgstr "अनुच्छेद"
 
 #. Translators: Presented for a section in a document which is a block quotation;
 #. i.e. a long quotation in a separate paragraph distinguished by indentation, etc.
-#. See http://en.wikipedia.org/wiki/Block_quotation
+#. See https://en.wikipedia.org/wiki/Block_quotation
 msgid "block quote"
 msgstr "खण्ड उद्धरण"
 
@@ -4541,7 +4541,7 @@ msgstr "विविध"
 #. This should normally be left as is, but might be changed for some locales
 #. if the default key causes problems for the normal locale keyboard layout.
 #. The key must be formatted as described in this article:
-#. http://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
+#. https://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
 msgid "CTRL+ALT+N"
 msgstr "CTRL+ALT+N"
 
@@ -6321,18 +6321,18 @@ msgid "no italic"
 msgstr "ढल्केको होइन"
 
 #. Translators: Reported when text is formatted with double strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 #, fuzzy
 msgid "double strikethrough"
 msgstr "नकाटिएको"
 
 #. Translators: Reported when text is formatted with strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "strikethrough"
 msgstr "काटिएको"
 
 #. Translators: Reported when text is formatted without strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "no strikethrough"
 msgstr "नकाटिएको"
 
@@ -6362,12 +6362,12 @@ msgid "align right"
 msgstr "दायाँ पङ्‌क्ति "
 
 #. Translators: Reported when text is justified.
-#. See http://en.wikipedia.org/wiki/Typographic_alignment#Justified
+#. See https://en.wikipedia.org/wiki/Typographic_alignment#Justified
 msgid "align justify"
 msgstr "तटस्थ पङ्‌क्ति"
 
 #. Translators: Reported when text is justified with character spacing (Japanese etc)
-#. See http://kohei.us/2010/01/21/distributed-text-justification/
+#. See https://kohei.us/2010/01/21/distributed-text-justification/
 msgid "align distributed"
 msgstr "ठाडो पङ्‌क्तिबद्धता - वितरित"
 
@@ -6787,7 +6787,7 @@ msgid ""
 "who wants it. This applies to both original and modified copies of this "
 "software, plus any derivative works.\n"
 "For further details, you can view the license from the Help menu.\n"
-"It can also be viewed online at: http://www.gnu.org/licenses/old-licenses/"
+"It can also be viewed online at: https://www.gnu.org/licenses/old-licenses/"
 "gpl-2.0.html\n"
 "\n"
 "{name} is developed by NV Access, a non-profit organisation committed to "
@@ -6808,7 +6808,7 @@ msgstr ""
 "प्राणको सुरुको वा परिवर्तित दुबै प्रतिमा एवम् यसका कुनै पनि सह-उत्पादनमा उतिकै रूपमा लागू "
 "हुन्छ ।\n"
 "विस्तृत जानकारीका लागि सहयोग मेनु मार्फत इजाजत सम्बन्धी पाठ हेर्नु होला ।\n"
-"यो इजाजत अनलाइनमा हेर्न : http://www.gnu.org/licenses/old-licenses/gpl-2.0."
+"यो इजाजत अनलाइनमा हेर्न : https://www.gnu.org/licenses/old-licenses/gpl-2.0."
 "html मा भ्रमण गर्नु होला ।\n"
 "\n"
 "{name}- एउटा NV Access नामक नाफा नलिई दृश्य विहीन तथा देख्न कठिनाइ भएका "
@@ -11056,7 +11056,7 @@ msgid "{offset:.3g} points"
 msgstr "{offset:.3g} विन्दु"
 
 #. Translators: a measurement in Microsoft Word
-#. See http://support.microsoft.com/kb/76388 for details.
+#. See https://support.microsoft.com/kb/76388 for details.
 #, python-brace-format
 msgid "{offset:.3g} picas"
 msgstr "{offset:.3g} पिकास"

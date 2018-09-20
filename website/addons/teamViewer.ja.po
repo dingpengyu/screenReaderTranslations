@@ -106,5 +106,5 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tv-dev"
 msgstr ""
 
 #. type: Plain text
-msgid "[3]: http://www.teamviewer.com"
-msgstr "[3]: http://www.teamviewer.com"
+msgid "[3]: https://www.teamviewer.com"
+msgstr "[3]: https://www.teamviewer.com"

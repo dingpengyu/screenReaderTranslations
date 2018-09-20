@@ -1462,7 +1462,7 @@ Les apports majeurs de cette version incluent le support de la saisie des caract
  - Ceci est supporté aussi bien pour NVDA que pour les modules complémentaires.
  - xgettext et msgfmt de GNU Gettext doivent être utiliser pour créer tout fichier po ou mo. Les outils Python ne supportent pas les messages de contextes.
  - Pour xgettext, passez le paramètre de ligne de commande --keyword=pgettext:1c,2 pour activer l'inclusion des messages de contextes.
- - Visitez http://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts pour plus d'informations.
+ - Visitez https://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts pour plus d'informations.
 - Il est maintenant possible d'accéder aux modules intégrés de NVDA afin d'en étendre les fonctionnalités. Reportez-vous au module nvdaBuiltin pour plus de détails.
 - Le support de traduction dans les Modules complémentaires est maintenant supporté dans le module installTask du module complémentaire. (#2715)
 
@@ -2120,7 +2120,7 @@ Les points forts principaux de cette version comprennent le support des édition
 - La touche retour-arrière est maintenant traitées correctement en mode écho clavier par mots. (#306)
 - Ne pas dire de manière incorrecte "Menu Démarrer" en présence des menus contextuels dans l'Explorateur Windows / le shell Windows. (#257)
 - NVDA gère désormais correctement les étiquettes ARIA dans Mozilla Gecko lorsqu'il n'y a pas d'autres contenus utiles. (#156)
-- NVDA ne passe plus automatiquement en mode formulaire de façon incorrecte dans les champs modifiables qui mettent à jour leur valeur lors des changements de focus, comme c’était le cas pour http://tigerdirect.com/. (#220)
+- NVDA ne passe plus automatiquement en mode formulaire de façon incorrecte dans les champs modifiables qui mettent à jour leur valeur lors des changements de focus, comme c’était le cas pour https://tigerdirect.com/. (#220)
 - NVDA tentera, désormais, de se remettre de certaines situations qui, auparavant, provoquaient son gel complet. Cela peut prendre jusqu'à 10 secondes avant que NVDA ne détecte et récupère d'un tel gel.
 - Quand la langue NVDA est réglée sur "User-Default", utiliser la langue d'affichage de l’utilisateur Windows au lieu de la configuration locale Windows. (#353)
 - NVDA reconnaît maintenant l'existence des contrôles dans AOL Instant Messenger 7.
@@ -2387,7 +2387,7 @@ Accès au contenu web grâce aux nouveaux tampons virtuels en développement (pr
 = 0.5 =
 - NVDA dispose maintenant d'une synthèse vocale intégrée appelée eSpeak, développée par Jonathan Duddington. Elle est très réactive, légère et elle prend en charge beaucoup de langues différentes. Les synthèses vocales Sapi peuvent encore être utilisées, mais eSpeak sera utilisée par défaut.
  - eSpeak ne dépend d'aucun logiciel spécial pour être installée, elle peut donc être utilisée avec NVDA sur n'importe quel ordinateur, sur une clef USB, ou partout.
- - Pour plus d'informations au sujet d'eSpeak, où pour trouver d'autres versions, aller à http://espeak.sourceforge.net/.
+ - Pour plus d'informations au sujet d'eSpeak, où pour trouver d'autres versions, aller à https://espeak.sourceforge.net/.
 - Correction d'un bogue où le mauvais caractère était annoncé lors de l'appui sur supprime dans les volets éditables dans Internet Explorer / Outlook Express.
 - Ajout du support pour plus de champs d'édition dans Skype.
 - Les tampons virtuels ne sont chargés que lorsque le focus es sur la fenêtre qui a besoin d'être chargée. Ceci corrige quelques problèmes quand le volet de visualisation est actifdans Outlook Express.

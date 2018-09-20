@@ -67,8 +67,8 @@ msgstr ""
 "Listenarchiv und Anmeldeinformationen [NVDA Support][nvdaSupportList]"
 
 #. type: Plain text
-msgid "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
-msgstr "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
+msgid "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
+msgstr "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
 
 #. type: Title ##
 #, no-wrap
@@ -90,9 +90,9 @@ msgstr ""
 "Registrierungsinformationen [local support][localSupportList]"
 
 #. type: Plain text
-#| msgid "[localSupportList]: http://updateThisUrl.com"
-msgid "[localSupportList]: http://updateThisUrl.com"
+#| msgid "[localSupportList]: https://updateThisUrl.com"
+msgid "[localSupportList]: https://updateThisUrl.com"
 msgstr ""
-"[localSupportList]: http://www.ml4free.de/mailman/listinfo/nvda-german \n"
+"[localSupportList]: https://www.ml4free.de/mailman/listinfo/nvda-german \n"
 "                               https://www.facebook.com/"
 "groups/1899444343635975/?fref=nf"

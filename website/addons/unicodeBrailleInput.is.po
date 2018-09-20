@@ -148,12 +148,12 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=ubi"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=ubi"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=ubi"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ubi-dev"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=ubi"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"

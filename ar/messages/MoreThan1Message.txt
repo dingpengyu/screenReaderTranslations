@@ -2,5 +2,5 @@
 ÚÒםÒם ÇבÚÖז
 Êד ÑÝÖ ÑÓÇבÊ‗ בÃהוÇ ÊÍÊזם Úבל Ã‗ËÑ דה דזÖזÚ ÝםÑÌל ÅÑÓÇב ‗ב דזÖזÚ Ýם ÑÓÇבÉ דהÝÕבÉ דÚ ÇבÃÎÐ Ýם ÇבÇÚÊÈÇÑ זÖÚ ÚהזÇה זÇÖÍ םÚÈÑ Úה דÍÊזל ‗ב ÑÓÇבÉ Úבל ÍÏÉ. 
 םÑÌל ÞÑÇÁÉ ÞזÇÚÏ ÇבדÔÇÑ‗É דה ÎבÇב ÇבÑÇÈØ:
-http://www.arabic-nvda.org/rules
+https://www.arabic-nvda.org/rules
 דÚ ÊÍםÇÊ ÝÑםÞ NVDA ÇבÚÑÈם

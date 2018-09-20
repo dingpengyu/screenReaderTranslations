@@ -16,6 +16,6 @@ Please be aware that this process may take some time.
 
 [2]: https://nvda-addons.groups.io/g/nvda-addons
 
-[3]: http://addons.nvda-project.org/files/get.php?file=gl
+[3]: https://addons.nvda-project.org/files/get.php?file=gl
 
-[4]: http://addons.nvda-project.org/processes
+[4]: https://addons.nvda-project.org/processes

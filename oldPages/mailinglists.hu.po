@@ -63,8 +63,8 @@ msgstr ""
 "listáról a lista archívumában talál [NVDA felhasználóilista][nvdaSupportList]"
 
 #. type: Plain text
-msgid "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
-msgstr "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
+msgid "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
+msgstr "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
 
 #. type: Title ##
 #, no-wrap
@@ -87,6 +87,6 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[localSupportList]: http://updateThisUrl.com"
-msgid "[localSupportList]: http://updateThisUrl.com"
-msgstr "[localSupportList]: http://nvda.hu/mailman/listinfo/lista_nvda.hu"
+#| msgid "[localSupportList]: https://updateThisUrl.com"
+msgid "[localSupportList]: https://updateThisUrl.com"
+msgstr "[localSupportList]: https://nvda.hu/mailman/listinfo/lista_nvda.hu"

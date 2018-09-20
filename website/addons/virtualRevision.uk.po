@@ -178,12 +178,12 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=VR"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=VR"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=VR"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=VR"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=VR"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=VR"

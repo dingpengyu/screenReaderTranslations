@@ -39,11 +39,11 @@ msgstr "Télécharger [version de développement][2]"
 msgid ""
 "This project is an appModule for the LAMBDA Software. It has been inspired by the work of Peter Lecky at the Comenius University. \n"
 "LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) is a software that helps blind people to read and write math using a braille display and/or a speech synthesizer.\n"
-"LAMBDA is the result of an EU-Project. For more information about LAMBDA please visit [http://www.lambdaproject.org/](http://www.lambdaproject.org/).  \n"
+"LAMBDA is the result of an EU-Project. For more information about LAMBDA please visit [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  \n"
 msgstr ""
 "Ce projet est un module complémentaire pour le logiciel LAMBDA. Il s'inspire du travail de Peter Lecky de l'Université Comenius. \n"
 "LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) est un logiciel qui aide les personnes aveugles à lire et écrire les mathématiques en utilisant un afficheur braille et/ou un synthétiseur vocal.\n"
-"LAMBDA est le résultat d'un EU-Project. Pour plus d'informations sur LAMBDA veuillez visiter [http://www.lambdaproject.org/](http://www.lambdaproject.org/).  \n"
+"LAMBDA est le résultat d'un EU-Project. Pour plus d'informations sur LAMBDA veuillez visiter [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  \n"
 
 #. type: Plain text
 msgid ""
@@ -590,9 +590,9 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: http://addons.nvda-project.org/files/get.php?file=lambda"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=lambda"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=lambda"
 
 #. type: Plain text
-msgid "[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev"
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev"

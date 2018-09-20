@@ -99,16 +99,16 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=tv"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tv"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tv"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=tv"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tv"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[2]: http://addons.nvda-project.org/files/get.php?file=tv-dev"
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tv-dev"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tv-dev"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=tv-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tv-dev"
 
 #. type: Plain text
-msgid "[3]: http://www.teamviewer.com"
-msgstr "[3]: http://www.teamviewer.com"
+msgid "[3]: https://www.teamviewer.com"
+msgstr "[3]: https://www.teamviewer.com"

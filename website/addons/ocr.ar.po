@@ -57,6 +57,6 @@ msgstr "[[!tag stable]]\n"
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=ocr"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ocr"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ocr"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=ocr"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ocr"

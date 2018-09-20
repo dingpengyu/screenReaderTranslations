@@ -3580,6 +3580,6 @@ msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
 msgstr "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
 
 #~ msgid ""
-#~ "[3]: http://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
 #~ msgstr ""
-#~ "[3]: http://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"

@@ -61,8 +61,8 @@ msgstr ""
 "- 詳しい情報、アーカイブ、登録方法などは [NVDA Support][nvdaSupportList]\n"
 
 #. type: Plain text
-msgid "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
-msgstr "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
+msgid "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
+msgstr "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
 
 #. type: Title ##
 #, no-wrap
@@ -86,6 +86,6 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "[localSupportList]: http://updateThisUrl.com"
-msgid "[localSupportList]: http://updateThisUrl.com"
-msgstr "[localSupportList]: http://www.nvda.jp"
+#| msgid "[localSupportList]: https://updateThisUrl.com"
+msgid "[localSupportList]: https://updateThisUrl.com"
+msgstr "[localSupportList]: https://www.nvda.jp"

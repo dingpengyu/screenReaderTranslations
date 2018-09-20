@@ -45,15 +45,15 @@ msgid "https://developer.yahoo.com/weather/"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "http://woeid.rosselliot.co.nz/lookup/"
+msgid "https://woeid.rosselliot.co.nz/lookup/"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "http://www.geonames.org/"
+msgid "https://www.geonames.org/"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "http://www.nvda.it/"
+msgid "https://www.nvda.it/"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -61,7 +61,7 @@ msgid "https://www.timeanddate.com/"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "http://veloroutes.org/elevation/"
+msgid "https://veloroutes.org/elevation/"
 msgstr ""
 
 #. type: Title ##

@@ -41,8 +41,8 @@ msgid "- NVDA Support: problems related to NVDA, or other programs while using N
 msgstr "- NVDA Support: Problemas com o NVDA ou outros programas ao usar o NVDA.  - Para mais informações, arquivos da lista e como ingressar, [NVDA Support][nvdaSupportList]"
 
 #. type: Plain text
-msgid "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
-msgstr "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
+msgid "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
+msgstr "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
 
 #. type: Title ##
 #, no-wrap
@@ -54,6 +54,6 @@ msgid "- local NVDA list: discuss with other NVDA users in your own language.  -
 msgstr "- lista local do NVDA: para discutir com outros usuários de NVDA em seu próprio idioma.  - Para mais informações, arquivos da lista e como ingressar, [local support][localSupportList]"
 
 #. type: Plain text
-msgid "[localSupportList]: http://updateThisUrl.com"
-msgstr "[localSupportList]: http://updateThisUrl.com"
+msgid "[localSupportList]: https://updateThisUrl.com"
+msgstr "[localSupportList]: https://updateThisUrl.com"
 

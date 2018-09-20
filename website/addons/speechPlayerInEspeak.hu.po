@@ -44,11 +44,11 @@ msgstr "[[!tag dev synth]]\n"
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "[1]: http://files.nvaccess.org/nvda-addons/speechPlayerInEspeak-0.3.nvda-"
+#| "[1]: https://files.nvaccess.org/nvda-addons/speechPlayerInEspeak-0.3.nvda-"
 #| "addon"
 msgid ""
 "[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4."
 "nvda-addon"
 msgstr ""
-"[1]: http://files.nvaccess.org/nvda-addons/speechPlayerInEspeak-0.3.nvda-"
+"[1]: https://files.nvaccess.org/nvda-addons/speechPlayerInEspeak-0.3.nvda-"
 "addon"

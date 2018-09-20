@@ -75,6 +75,6 @@
 ## 版本 1.0 ##
 * 发布初始版本
 
-[1]: http://addons.nvda-project.org/files/get.php?file=it
+[1]: https://addons.nvda-project.org/files/get.php?file=it
 
-[2]: http://addons.nvda-project.org/files/get.php?file=it-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=it-dev

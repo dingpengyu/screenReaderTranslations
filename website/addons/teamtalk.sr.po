@@ -47,9 +47,9 @@ msgid "[[!tag stable]]\n"
 msgstr "[[!tag stable]]\n"
 
 #. type: Plain text
-msgid "[1]: http://www.dlee.org/teamtalk/NVDA/TeamTalk%20Classic.nvda-addon"
-msgstr "[1]: http://www.dlee.org/teamtalk/NVDA/TeamTalk%20Classic.nvda-addon"
+msgid "[1]: https://www.dlee.org/teamtalk/NVDA/TeamTalk%20Classic.nvda-addon"
+msgstr "[1]: https://www.dlee.org/teamtalk/NVDA/TeamTalk%20Classic.nvda-addon"
 
 #. type: Plain text
-msgid "[2]: http://www.dlee.org/teamtalk/NVDA/"
-msgstr "[2]: http://www.dlee.org/teamtalk/NVDA/"
+msgid "[2]: https://www.dlee.org/teamtalk/NVDA/"
+msgstr "[2]: https://www.dlee.org/teamtalk/NVDA/"

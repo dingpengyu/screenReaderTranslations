@@ -17,8 +17,8 @@ Dieses Handbuch stellt Informationen zur Entwicklung von NVDA und dessen Kompone
 NVDA und dessen Erweiterungen werden in der Programmiersprache Python geschrieben.
 Das Ziel dieses Handbuches ist nicht, Ihnen Python beizubringen. Es stellt lediglich Beispiele zur Veranschaulichung der Syntax von Python bereit.
 Die Dokumentationen und weitere Materialien sind in einer oder mehreren der folgenden Bezugsquellen zu finden:
-- Einen guten Einstieg in Python bietet das Buch [Python 2.5 http://gwise.itwelzel.biz/Books/Openbook%20GalileoComputing/python/index.htm] von Galileo computing.
-- Ein sehr gutes Nachschlagewerk bietet ausserdem das [deutsche Python-Wiki http://wiki.python.de/]
+- Einen guten Einstieg in Python bietet das Buch [Python 2.5 https://gwise.itwelzel.biz/Books/Openbook%20GalileoComputing/python/index.htm] von Galileo computing.
+- Ein sehr gutes Nachschlagewerk bietet ausserdem das [deutsche Python-Wiki https://wiki.python.de/]
 - Mit Hilfe der Python-Konsole können weitere Informationen über ein bestimmtes Objekt gewonnen werden. Wenn Sie den Navigator auf das fragliche Objekt gesetzt und die Python-Konsole aufgerufen haben, können Sie mit den folgenden Befehlen weitere Informationen über dieses Objekt erhalten:
  - Um die Code-Dokumentation und die Online-Hilfe zu dem aktuellen Navigator-Objekt anzuzeigen, verwenden Sie den folgenden Befehl: help(nav) Die ausgabe des Befehls kann sehr umfangreich sein, weil nicht nur Informationen über das Navigator-Objekt selbst, sondern auch über alle seine Vorfahren angezeigt werden. Es ist daher zu empfehlen, sich den Inhalt des ausgabefensters in einer Textdatei zu speichern, um bei der weiteren Entwicklungsarbeit darauf zurückgreifen zu können.
  - Um alle Eigenschaften und Methoden des aktuellen Navigator-Objekts als Python-Liste anzuzeigen, verwenden Sie den folgenden Befehl: dir(nav)
@@ -36,7 +36,7 @@ Die Dokumentationen und weitere Materialien sind in einer oder mehreren der folg
 Damit NVDA mehrere Sprachen bzw. Sprachräume unterstützt, müssen sie übersetzt und sprachspezifische Daten zur Verfügung gestellt werden.
 Dieser Abschnitt stellt lediglich Informationen über NVDA-Eigene Dateiformate bereit, die für Übersetzungen verwendet werden. 
 Andere Teile von NVDA, wie zum Beispiel die Benutzeroberfläche oder die Dokumentation verwenden Standarddateiformate.
-Weitere Informationen über die Übersetzung von NVDA finden sie unter http://www.nvda-project.org/wiki/TranslatingNVDA
+Weitere Informationen über die Übersetzung von NVDA finden sie unter https://www.nvda-project.org/wiki/TranslatingNVDA
 
 ++ Beschreibungen der Sonderzeichen ++
 Manchmal kann es schwierig bis unmöglich sein, zwei Zeichen voneinander zu unterscheiden. 
@@ -686,7 +686,7 @@ Wenn Ihr Archiv Dateien enthält, in deren Namen Zeichen vorkommen, die nicht zu
 Dies ermöglicht ein Entpacken des Archivs unabhängig davon, für welche Sprache das Zielsystem ausgelegt ist.
 Unglücklicherweise unterstützen viele Archivierungsprogramme (einschliesslich Windows-Explorer) diese Methode nicht.
 Generell muss die UTF8-Kodierung von Dateinamen ausdrücklich aktiviert werden, auch wenn das Archivierungsprogramm dies von Hause aus unterstützt.
-In [[http://www.7-zip.org/ 7-zip]] können Sie die UTF8-Kodierung von Dateinamen beispielsweise durch Angabe des Parameters "cu=on" beim Erstellen des Archivs einschalten.
+In [[https://www.7-zip.org/ 7-zip]] können Sie die UTF8-Kodierung von Dateinamen beispielsweise durch Angabe des Parameters "cu=on" beim Erstellen des Archivs einschalten.
 
 
 ++ Manifest-Dateien ++
@@ -713,7 +713,7 @@ summary = Coole Erweiterung zum Testen
 version = 1.0
 description = Eine Beispielerweiterung die zeigt, wie Erweiterungen erstellt werden
 author = Michael Curran <mick@kulgan.net>
-url = http://www.nvda-project.org/wiki/Development
+url = https://www.nvda-project.org/wiki/Development
 --- Ende ---
 ``` 
 
@@ -755,7 +755,7 @@ Jedes sprachverzeichnis kann auch GetText-kompatible Kataloge mit Übersetzungen
 Wie bei den NVDA-Kernkomponenten auch, sollten Sie die Meldungsdatei in kompilierter Form unter dem Namen "nvda.mo" im Unterverzeichnis LC_MEssAGES des Sprachenverzeichnisses ablegen.
 Um Ihren Erweiterungen zu erlauben, mittels der Funktion _() auf GetText-Katalogdateien zuzugreifen, müssen Sie die Übersetzung am Beginn eines jeden Python-Moduls initialisieren. Rufen Sie hierzu die Funktion addonHandler.initTranslations() auf.
 Weitere Informationen über GetText und allgemeine Informationen über die Übersetzung von NVDA finden Sie in folgendem Artikel:
-http://www.nvda-project.org/wiki/TranslatingNVDA
+https://www.nvda-project.org/wiki/TranslatingNVDA
 
 + Die Python-Konsole von NVDA +
 Die Python-Konsole emuliert innerhalb von NVDA den interaktiven Python-Interpreter.

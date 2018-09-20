@@ -58,7 +58,7 @@ msgid ""
 "is accompanied by the license and you make all source code available to "
 "anyone who wants it. This applies to both original and modified copies of "
 "this software, plus any derivative works.  For further details, you can view "
-"the license online at: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+"the license online at: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
 msgstr ""
 "NV Speech Player es Copyright (c) 2014 Colaboradores de NV Speech Player NV "
 "Speech Player está cubierto por la GNU General Public License (Versión 2).  "
@@ -67,7 +67,7 @@ msgstr ""
 "fuente disponible para quien lo quiera. Esto se aplica tanto a las copias "
 "originales como a las modificadas de este software, más cualquier trabajo "
 "derivado.  Para detalles adicionales, puedes ver la licencia en línea: "
-"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
 
 #. type: Title ##
 #, no-wrap
@@ -176,31 +176,31 @@ msgstr "Implementación"
 #. type: Plain text
 msgid ""
 "The synthesis engine itself is written in C++ using modern idioms, but "
-"closely following the implementation of klsyn-88, found at http://"
+"closely following the implementation of klsyn-88, found at https://"
 "linguistics.berkeley.edu/phonlab/resources/"
 msgstr ""
 "El motor de síntesis de voz mismo está escrito en C++ utilizando idiomas "
 "modernos, pero siguiendo de cerca la implementación de klsyn-88, que se "
-"encuentra en http://linguistics.berkeley.edu/phonlab/resources/"
+"encuentra en https://linguistics.berkeley.edu/phonlab/resources/"
 
 #. type: Plain text
 msgid ""
 "eSpeak is used to parse text into phonemes represented in IPA, making use of "
-"existing eSpeak dictionary processing. eSpeak can be found at: http://espeak."
+"existing eSpeak dictionary processing. eSpeak can be found at: https://espeak."
 "sourceforge.net/"
 msgstr ""
 "se utiliza eSpeak para interpretar texto en fonemas representados en IPA, "
 "haciendo uso del procesamiento de diccionarios existente de eSpeak.  eSpeak "
-"puede encontrarse en: http://espeak.sourceforge.net/"
+"puede encontrarse en: https://espeak.sourceforge.net/"
 
 #. type: Plain text
 msgid ""
 "The Klatt formant data for each individual phoneme was collected mostly from "
-"a project called PyKlatt: http://code.google.com/p/pyklatt/ However it has "
+"a project called PyKlatt: https://code.google.com/p/pyklatt/ However it has "
 "been further tweaked based on testing and matching with eSpeak's own data."
 msgstr ""
 "Los datos formantes de Klatt para cada fonema individual fueron recolectados "
-"en su mayor parte de un proyecto llamado PyKlatt: http://code.google.com/p/"
+"en su mayor parte de un proyecto llamado PyKlatt: https://code.google.com/p/"
 "pyklatt/ Asimismo ha sido modificado aún más basándose en las pruebas y la "
 "comparación con los propios datos de eSpeak."
 
@@ -221,10 +221,10 @@ msgstr "Compilando NV Speech Player"
 
 #. type: Plain text
 msgid ""
-"You will need: - Python 2.7: http://www.python.org - SCons 2.3.0: http://www."
+"You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: https://www."
 "scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
 msgstr ""
-"Necesitarás: - Python 2.7: http://www.python.org - SCons 2.3.0: http://www."
+"Necesitarás: - Python 2.7: https://www.python.org - SCons 2.3.0: https://www."
 "scons.org/ - Visual Studio 2012 Desktop (Express o professional)"
 
 #. type: Plain text

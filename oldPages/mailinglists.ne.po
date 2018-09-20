@@ -63,8 +63,8 @@ msgstr ""
 "थप जानकारी, सुचीको ढड्डा र साइनअप सुचना [NVDA Support][नेत्रवानी टेवासुची]"
 
 #. type: Plain text
-msgid "[nvdaSupportList]: http://lists.nvaccess.org/listinfo/nvda-support"
-msgstr "[नेत्रवानी टेवासुची]: http://lists.nvaccess.org/listinfo/nvda-support"
+msgid "[nvdaSupportList]: https://lists.nvaccess.org/listinfo/nvda-support"
+msgstr "[नेत्रवानी टेवासुची]: https://lists.nvaccess.org/listinfo/nvda-support"
 
 #. type: Title ##
 #, no-wrap
@@ -81,5 +81,5 @@ msgstr ""
 "[localSupportList]"
 
 #. type: Plain text
-msgid "[localSupportList]: http://updateThisUrl.com"
-msgstr "[आपसी टेवा सुची]: http://updateThisUrl.com"
+msgid "[localSupportList]: https://updateThisUrl.com"
+msgstr "[आपसी टेवा सुची]: https://updateThisUrl.com"

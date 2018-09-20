@@ -7,6 +7,6 @@ This add-on improves usage of TeamTalk with NVDA. For more information about thi
 
 [[!tag stable]]
 
-[1]: http://www.dlee.org/teamtalk/NVDA/TeamTalk%20Classic.nvda-addon
+[1]: https://www.dlee.org/teamtalk/NVDA/TeamTalk%20Classic.nvda-addon
 
-[2]: http://www.dlee.org/teamtalk/NVDA/
+[2]: https://www.dlee.org/teamtalk/NVDA/

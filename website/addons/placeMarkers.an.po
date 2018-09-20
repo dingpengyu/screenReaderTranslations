@@ -361,12 +361,12 @@ msgid "[[!tag dev stable]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "[1]: http://addons.nvda-project.org/files/get.php?file=pm"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
+"[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
 "github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
 "addon"
 msgstr ""

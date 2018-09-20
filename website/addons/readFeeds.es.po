@@ -369,19 +369,19 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: http://addons.nvda-project.org/files/get.php?file=rf"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=rf"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 
 #. type: Plain text
 msgid ""
-"[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
+"[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
 "github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 msgstr ""
-"[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
+"[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
 "github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 
-#~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
-#~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 
 #~ msgid ""
 #~ "- Filter by: An edit box to search previously saved feeds.  - A list of "

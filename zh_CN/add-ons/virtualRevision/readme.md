@@ -45,6 +45,6 @@ Press NVDA+control+w 打开虚拟浏览窗口.
 
 * 发布初始版本
 
-[1]: http://addons.nvda-project.org/files/get.php?file=VR
+[1]: https://addons.nvda-project.org/files/get.php?file=VR
 
-[2]: http://addons.nvda-project.org/files/get.php?file=VR
+[2]: https://addons.nvda-project.org/files/get.php?file=VR

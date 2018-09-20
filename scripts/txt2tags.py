@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # txt2tags - generic text conversion tool
-# http://txt2tags.org
+# https://txt2tags.org
 #
 # Copyright 2001-2010 Aurelio Jargas
 #
-# License: http://www.gnu.org/licenses/gpl-2.0.txt
-# Subversion: http://svn.txt2tags.org
-# Bug tracker: http://bugs.txt2tags.org
+# License: https://www.gnu.org/licenses/gpl-2.0.txt
+# Subversion: https://svn.txt2tags.org
+# Bug tracker: https://bugs.txt2tags.org
 #
 ########################################################################
 #
@@ -103,7 +103,7 @@ except ImportError:
 	csv = None
 
 # Program information
-my_url = 'http://txt2tags.org'
+my_url = 'https://txt2tags.org'
 my_name = 'txt2tags'
 my_email = 'verde@aurelio.net'
 my_version = '2.6'
@@ -313,7 +313,7 @@ Fake template to respect the general process.
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 <HEAD>
-<META NAME="generator" CONTENT="http://txt2tags.org">
+<META NAME="generator" CONTENT="https://txt2tags.org">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=%(ENCODING)s">
 <LINK REL="stylesheet" TYPE="text/css" HREF="%(STYLE)s">
 <TITLE>%(HEADER1)s</TITLE>
@@ -329,7 +329,7 @@ Fake template to respect the general process.
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 <HEAD>
-<META NAME="generator" CONTENT="http://txt2tags.org">
+<META NAME="generator" CONTENT="https://txt2tags.org">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=%(ENCODING)s">
 <LINK REL="stylesheet" TYPE="text/css" HREF="%(STYLE)s">
 <TITLE>%(HEADER1)s</TITLE>
@@ -348,11 +348,11 @@ Fake template to respect the general process.
       encoding="%(ENCODING)s"
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+ "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <title>%(HEADER1)s</title>
-<meta name="generator" content="http://txt2tags.org" />
+<meta name="generator" content="https://txt2tags.org" />
 <link rel="stylesheet" type="text/css" href="%(STYLE)s" />
 </head>
 <body bgcolor="white" text="black">
@@ -368,11 +368,11 @@ Fake template to respect the general process.
       encoding="%(ENCODING)s"
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+ "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <title>%(HEADER1)s</title>
-<meta name="generator" content="http://txt2tags.org" />
+<meta name="generator" content="https://txt2tags.org" />
 <link rel="stylesheet" type="text/css" href="%(STYLE)s" />
 </head>
 <body>
@@ -728,8 +728,8 @@ def getTags(config):
 	},
 	
 	#TIP xhtml inherits all HTML definitions (lowercased)
-	#TIP http://www.w3.org/TR/xhtml1/#guidelines
-	#TIP http://www.htmlref.com/samples/Chapt17/17_08.htm
+	#TIP https://www.w3.org/TR/xhtml1/#guidelines
+	#TIP https://www.htmlref.com/samples/Chapt17/17_08.htm
 	'xhtml': {
 		'listItemClose'        : '</li>'          ,
 		'numlistItemClose'     : '</li>'          ,
@@ -997,7 +997,7 @@ def getTags(config):
 		'EOD'                  : '@End @Text'
 	},
 	
-	# http://moinmo.in/SyntaxReference
+	# https://moinmo.in/SyntaxReference
 	'moin': {
 		'title1'                : '= \a ='        ,
 		'title2'                : '== \a =='      ,
@@ -1039,7 +1039,7 @@ def getTags(config):
 		'TOC'                   : '[[TableOfContents]]'
 	},
 
-	# http://code.google.com/p/support/wiki/WikiSyntax
+	# https://code.google.com/p/support/wiki/WikiSyntax
 	'gwiki': {
 		'title1'               : '= \a ='        ,
 		'title2'               : '== \a =='      ,
@@ -1069,7 +1069,7 @@ def getTags(config):
 		'tableCellSep'         : ' || '          ,
 	},
 
-	# http://powerman.name/doc/asciidoc
+	# https://powerman.name/doc/asciidoc
 	'adoc': {
 		'title1'               : '== \a'         ,
 		'title2'               : '=== \a'        ,
@@ -1094,7 +1094,7 @@ def getTags(config):
 		'img'                  : 'image::\a[]'   ,
 	},
 
-	# http://wiki.splitbrain.org/wiki:syntax
+	# https://wiki.splitbrain.org/wiki:syntax
 	# Hint: <br> is \\ $
 	# Hint: You can add footnotes ((This is a footnote))
 	'doku': {
@@ -1140,7 +1140,7 @@ def getTags(config):
 		# TOC is automatic
 	},
 	
-	# http://www.pmwiki.org/wiki/PmWiki/TextFormattingRules
+	# https://www.pmwiki.org/wiki/PmWiki/TextFormattingRules
 	'pmw': {
 		'title1'               : '~A~! \a '      ,
 		'title2'               : '~A~!! \a '     ,
@@ -1199,7 +1199,7 @@ def getTags(config):
 		'tableCellSep'         : ' ||'           ,
 	},
 	
-	# http://en.wikipedia.org/wiki/Help:Editing
+	# https://en.wikipedia.org/wiki/Help:Editing
 	'wiki': {
 		'title1'                : '== \a =='        ,
 		'title2'                : '=== \a ==='      ,
@@ -1248,8 +1248,8 @@ def getTags(config):
 		'TOC'                   : '__TOC__'         ,
 	},
 	
-	# http://www.inference.phy.cam.ac.uk/mackay/mgp/SYNTAX
-	# http://en.wikipedia.org/wiki/MagicPoint
+	# https://www.inference.phy.cam.ac.uk/mackay/mgp/SYNTAX
+	# https://en.wikipedia.org/wiki/MagicPoint
 	'mgp': {
 		'paragraphOpen'         : '%font "normal", size 5'     ,
 		'title1'                : '%page\n\n\a\n'              ,
@@ -1362,7 +1362,7 @@ def getTags(config):
 		'emailMark'             : '\a \a'         ,
 		'img'                   : '\a'
 	},
-	# http://www.wikicreole.org/wiki/AllMarkup
+	# https://www.wikicreole.org/wiki/AllMarkup
 	'creole': {
 		'title1'               : '= \a ='        ,
 		'title2'               : '== \a =='      ,
@@ -1396,7 +1396,7 @@ def getTags(config):
 		'tableRowClose'        : ' |'            ,
 		'tableCellSep'         : ' | '           ,
 		# TODO: placeholder (mark for unknown syntax)
-		# if possible: http://www.wikicreole.org/wiki/Placeholder
+		# if possible: https://www.wikicreole.org/wiki/Placeholder
 	}
 	}
 	
@@ -2000,7 +2000,7 @@ def getRegexes():
 	patt_img = r'\[([\w_,.+%$#@!?+~/-]+\.(png|jpe?g|gif|eps|bmp))\]'
 	
 	# Link things
-	# http://www.gbiv.com/protocols/uri/rfc/rfc3986.html
+	# https://www.gbiv.com/protocols/uri/rfc/rfc3986.html
 	# pchar: A-Za-z._~- / %FF / !$&'()*+,;= / :@
 	# Recomended order: scheme://user:pass@domain/path?query=foo#anchor
 	# Also works      : scheme://user:pass@domain/path#anchor?query=foo
@@ -2019,7 +2019,7 @@ def getRegexes():
 	# username [ :password ] @
 	patt_url_login = r'([%s]+(:%s)?@)?'%(urlskel['login'],urlskel['pass'])
 	
-	# [ http:// ] [ username:password@ ] domain.com [ / ]
+	# [ https:// ] [ username:password@ ] domain.com [ / ]
 	#     [ #anchor | ?form=data ]
 	retxt_url = r'\b(%s%s|%s)[%s]+\b/*(\?[%s]+)?(#[%s]*)?'%(
 		urlskel['proto'],patt_url_login, urlskel['guess'],
@@ -2195,7 +2195,7 @@ def showdic(dic):
 def dotted_spaces(txt=''):
 	return txt.replace(' ', '.')
 
-# TIP: win env vars http://www.winnetmag.com/Article/ArticleID/23873/23873.html
+# TIP: win env vars https://www.winnetmag.com/Article/ArticleID/23873/23873.html
 def get_rc_path():
 	"Return the full path for the users' RC file"
 	# Try to get the path from an env var. if yes, we're done
@@ -4639,7 +4639,7 @@ def get_tagged_link(label, url):
 	guessurl = ''
 	if linktype == 'url' and \
 	   re.match('(?i)'+regex['_urlskel']['guess'], url):
-		if url[0] in 'Ww': guessurl = 'http://' +url
+		if url[0] in 'Ww': guessurl = 'https://' +url
 		else             : guessurl =  'ftp://' +url
 		
 		# Not link aware targets -> protocol is useless
@@ -4726,8 +4726,8 @@ def get_image_align(line):
 	return align
 
 
-# Reference: http://www.iana.org/assignments/character-sets
-# http://www.drclue.net/F1.cgi/HTML/META/META.html
+# Reference: https://www.iana.org/assignments/character-sets
+# https://www.drclue.net/F1.cgi/HTML/META/META.html
 def get_encoding_string(enc, target):
 	if not enc: return ''
 	# Target specific translation table
@@ -5529,8 +5529,8 @@ def convert(bodylines, config, firstlinenr=1):
 ################################### GUI ######################################
 ##############################################################################
 #
-# Tk help: http://python.org/topics/tkinter/
-#    Tuto: http://ibiblio.org/obp/py4fun/gui/tkPhone.html
+# Tk help: https://python.org/topics/tkinter/
+#    Tuto: https://ibiblio.org/obp/py4fun/gui/tkPhone.html
 #          /usr/lib/python*/lib-tk/Tkinter.py
 #
 # grid table : row=0, column=0, columnspan=2, rowspan=2

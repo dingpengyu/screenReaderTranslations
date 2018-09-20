@@ -6,4 +6,4 @@ This add-on provides ability to control a computer running NVDA from another com
 
 [[!tag stable]]
 
-[1]: http://nvdaremote.com/
+[1]: https://nvdaremote.com/

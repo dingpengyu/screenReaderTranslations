@@ -38,10 +38,10 @@ msgstr "[Testversion herunterladen][2]"
 msgid ""
 "This project is an appModule for the LAMBDA Software. It has been inspired by the work of Peter Lecky at the Comenius University. \n"
 "LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) is a software that helps blind people to read and write math using a braille display and/or a speech synthesizer.\n"
-"LAMBDA is the result of an EU-Project. For more information about LAMBDA please visit [http://www.lambdaproject.org/](http://www.lambdaproject.org/).  \n"
+"LAMBDA is the result of an EU-Project. For more information about LAMBDA please visit [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  \n"
 msgstr ""
 "Dieses Projekt ist ein AppModul für die LAMBDA-Software. Es wurde durch die Arbeit von Peter Lecky an der Comenius Universität inspiriert.\n"
-"LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) ist eine Software, die blinden Menschen das Lesen und Schreiben mathematischer Inhalte mit Hilfe einer Braillezeile und/oder eines Bildschirmlesers ermöglicht. LAMBDA ist das Ergebnis eines durch Fördermittel der EU durchgeführten Projektes. Weitere Informationen über LAMBDA finden Sie unter [http://www.lambdaproject.org/](http://www.lambdaproject.org/).  \n"
+"LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) ist eine Software, die blinden Menschen das Lesen und Schreiben mathematischer Inhalte mit Hilfe einer Braillezeile und/oder eines Bildschirmlesers ermöglicht. LAMBDA ist das Ergebnis eines durch Fördermittel der EU durchgeführten Projektes. Weitere Informationen über LAMBDA finden Sie unter [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  \n"
 
 #. type: Plain text
 msgid ""
@@ -583,9 +583,9 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: http://addons.nvda-project.org/files/get.php?file=lambda"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=lambda"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=lambda"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=lambda"
 
 #. type: Plain text
-msgid "[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev"
-msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=lambda-dev"
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=lambda-dev"

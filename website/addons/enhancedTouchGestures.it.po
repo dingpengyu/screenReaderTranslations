@@ -430,9 +430,9 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 #~ msgstr "Download [versione stabile][1]"
 
 #, fuzzy
-#~| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=ets"
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 #~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ets-dev"
-#~ msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=ets"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 
 #~ msgid "Screen orientation"
 #~ msgstr "Orientamento schermo"

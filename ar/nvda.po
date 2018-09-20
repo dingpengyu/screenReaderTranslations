@@ -1,5 +1,5 @@
 # Arabic interface messages for NVDA.
-# Copyright (C) 2008-2015 NVDA contributors <http://www.nvda-project.org/>
+# Copyright (C) 2008-2015 NVDA contributors <https://www.nvda-project.org/>
 msgid ""
 msgstr ""
 "Project-Id-Version: master-10703,53a09c4\n"
@@ -2195,7 +2195,7 @@ msgstr "فقرة"
 
 #. Translators: Presented for a section in a document which is a block quotation;
 #. i.e. a long quotation in a separate paragraph distinguished by indentation, etc.
-#. See http://en.wikipedia.org/wiki/Block_quotation
+#. See https://en.wikipedia.org/wiki/Block_quotation
 msgid "block quote"
 msgstr "اقتباس"
 
@@ -4381,7 +4381,7 @@ msgstr "أوامر متنوعة"
 #. This should normally be left as is, but might be changed for some locales
 #. if the default key causes problems for the normal locale keyboard layout.
 #. The key must be formatted as described in this article:
-#. http://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
+#. https://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
 msgid "CTRL+ALT+N"
 msgstr "CTRL+ALT+N"
 
@@ -6115,17 +6115,17 @@ msgid "no italic"
 msgstr "ليس مائلا"
 
 #. Translators: Reported when text is formatted with double strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "double strikethrough"
 msgstr "يتوسطه خط مزدوج"
 
 #. Translators: Reported when text is formatted with strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "strikethrough"
 msgstr "يتوسط"
 
 #. Translators: Reported when text is formatted without strikethrough.
-#. See http://en.wikipedia.org/wiki/Strikethrough
+#. See https://en.wikipedia.org/wiki/Strikethrough
 msgid "no strikethrough"
 msgstr "لا يتوسط"
 
@@ -6155,12 +6155,12 @@ msgid "align right"
 msgstr "محاذاة لليمين"
 
 #. Translators: Reported when text is justified.
-#. See http://en.wikipedia.org/wiki/Typographic_alignment#Justified
+#. See https://en.wikipedia.org/wiki/Typographic_alignment#Justified
 msgid "align justify"
 msgstr "محاذاة منضبطة"
 
 #. Translators: Reported when text is justified with character spacing (Japanese etc)
-#. See http://kohei.us/2010/01/21/distributed-text-justification/
+#. See https://kohei.us/2010/01/21/distributed-text-justification/
 msgid "align distributed"
 msgstr "محاذاة مضبوطة لمسافات الأحرف"
 
@@ -6575,7 +6575,7 @@ msgid ""
 "who wants it. This applies to both original and modified copies of this "
 "software, plus any derivative works.\n"
 "For further details, you can view the license from the Help menu.\n"
-"It can also be viewed online at: http://www.gnu.org/licenses/old-licenses/"
+"It can also be viewed online at: https://www.gnu.org/licenses/old-licenses/"
 "gpl-2.0.html\n"
 "\n"
 "{name} is developed by NV Access, a non-profit organisation committed to "
@@ -6588,7 +6588,7 @@ msgstr ""
 "{longName} ({name})\n"
 "إصدار: {version}\n"
 "URL: {url}\n"
-"URL: http://www.arabic-nvda.org\n"
+"URL: https://www.arabic-nvda.org\n"
 "{copyright}\n"
 "\n"
 "يخضع برنامج {name} للإصدار الثاني من رخصة جي أن يو العمومية GNU General "
@@ -6599,15 +6599,15 @@ msgstr ""
 "البرنامج.\n"
 "ولمزيد من المعلومات يمكنكم الاطلاع على الرخصة من خلال قائمة المساعدة\n"
 "كما يمكنكم الاطلاع عليها عبر الإنترنت فللترجمة باللغة العربية (لنصّ رخصة جينو "
-"العمومية http://www.linuxfuture.org/download/Arabic_GPL_2.0.htm)  وللاطلاع "
-"على الرخصة باللغة الانكليزية  (GNU General Public License Version 2 http://"
+"العمومية https://www.linuxfuture.org/download/Arabic_GPL_2.0.htm)  وللاطلاع "
+"على الرخصة باللغة الانكليزية  (GNU General Public License Version 2 https://"
 "www.gnu.org/licenses/old-licenses/gpl-2.0.html\n"
 "\n"
 "والمؤسسة التي تقوم بتطوير {name} هي مؤسسة NV Access وهي مؤسسة غير ربحية تهدف "
 "إلى العمل على تطوير حلول مفتوحة المصدر للمكفوفين وضعاف البصر.\n"
 "إذا كنت ممن يهمهم أمر البرنامج وتطويره برجاء التبرع لمؤسسة NV Access وذلك "
 "باختيار العنصر تبرع من قائمة NVDA الرئيسية.\n"
-"وللتبرع ل NVDA العربي يرجى زيارة موقعنا http://www.arabic-nvda.org"
+"وللتبرع ل NVDA العربي يرجى زيارة موقعنا https://www.arabic-nvda.org"
 
 #. Translators: the message that is shown when the user tries to install an add-on from windows explorer and NVDA is not running.
 #, python-brace-format
@@ -10753,7 +10753,7 @@ msgid "{offset:.3g} points"
 msgstr "{offset:.3g} نقطة"
 
 #. Translators: a measurement in Microsoft Word
-#. See http://support.microsoft.com/kb/76388 for details.
+#. See https://support.microsoft.com/kb/76388 for details.
 #, python-brace-format
 msgid "{offset:.3g} picas"
 msgstr "{offset:.3g} بيكا"

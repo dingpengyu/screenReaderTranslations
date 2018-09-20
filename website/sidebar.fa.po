@@ -29,5 +29,5 @@ msgid "[[Community announcements|announcements]]"
 msgstr "[[اطلاعیه‌های انجمن|announcements]]"
 
 #. type: Bullet: '* '
-msgid "[Translation status](http://addons.nvda-project.org/poStatus.html)"
-msgstr "[وضعیت ترجمه](http://addons.nvda-project.org/poStatus.html)"
+msgid "[Translation status](https://addons.nvda-project.org/poStatus.html)"
+msgstr "[وضعیت ترجمه](https://addons.nvda-project.org/poStatus.html)"

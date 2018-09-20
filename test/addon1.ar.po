@@ -44,8 +44,8 @@ msgid "[[!inline pages=\"./addon1_meta\" raw=yes]]\n"
 msgstr "[[!inline pages=\"./addon1_meta\"]]\n"
 
 #. type: Plain text
-msgid "[3]: http://www.google.com"
-msgstr "[3]: http://www.google.com"
+msgid "[3]: https://www.google.com"
+msgstr "[3]: https://www.google.com"
 
 #, fuzzy
 #~| msgid "[[!inline pages=\"./addon1_meta\"]]\n"

@@ -9,5 +9,5 @@
 2.读取状态栏信息（快捷键可以按字母I键）.
 3.VLC快进退：ctrl加左/右光标跳过1分钟，Shift加左/右光标跳过5秒.
 
-[2]: http://addons.nvda-project.org/files/get.php?file=vlc
+[2]: https://addons.nvda-project.org/files/get.php?file=vlc
 
