@@ -32,6 +32,10 @@ Was ist neu in NVDA
 - Paket "configobj" auf 5.1.0dev Commit 5b5de48a aktualisiert. (#4470)
 
 
+= 2018.3.1 =
+Dies ist ein kleineres Update, in dem ein kritischer Fehler in NVDA behoben wurde, der zum Absturz von 32-Bit-Versionen von Mozilla Firefox führte. (#8759)
+ 
+
 = 2018.3 =
 Zu den Highlights dieser Version gehören die automatische Erkennung vieler Braillezeilen, die Unterstützung neuer Windows 10-Funktionen, einschließlich des Windows 10 Emoji-Eingabebereichs und viele andere Fehlerbehebungen.
 
