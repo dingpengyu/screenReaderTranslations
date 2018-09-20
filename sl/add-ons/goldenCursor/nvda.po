@@ -24,7 +24,7 @@ msgstr "Položaji miške za %s"
 msgid "New mouse position"
 msgstr "Nov položaj miške"
 
-#. Translators: The label for the combo box of the mouse positions in the current application.
+#. Translators: The label for the list view of the mouse positions in the current application.
 msgid "&Saved mouse positions"
 msgstr "&Shranjeni položaji miške"
 
@@ -85,6 +85,7 @@ msgid "Error"
 msgstr "Napaka"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
+#, python-brace-format
 msgid ""
 "Are you sure you want to delete the position named {name}? This cannot be "
 "undone."
@@ -95,6 +96,7 @@ msgid "Delete position"
 msgstr "Izbriši položaj"
 
 #. Translators: The confirmation prompt displayed when the user is about to clear positions.
+#, python-brace-format
 msgid ""
 "Are you sure you want to clear mouse positions for the current application "
 "({appName})? This cannot be undone."
@@ -105,7 +107,8 @@ msgid "Clear mouse positions"
 msgstr "Počisti položaje miške"
 
 #. Translators: A dialog message shown when tags for the application is cleared.
-msgid "All mouse positions for the application {appName} has been deleted."
+#, python-brace-format
+msgid "All mouse positions for the application {appName} have been deleted."
 msgstr ""
 
 #. Translators: Title of the tag clear confirmation dialog.
@@ -113,6 +116,7 @@ msgstr ""
 msgid "Mouse positions cleared"
 msgstr "shrani položaj"
 
+#. Translators: This is the label for the Golden Cursor settings category in NVDA Settings screen.
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Golden Cursor"
@@ -134,7 +138,8 @@ msgid "Opens a dialog listing mouse positions for the current application"
 msgstr ""
 
 #. Translators: edit field label for new mouse position.
-msgid "Enter the name for the current mouse position (x: {x}, Y: {y}"
+#, python-brace-format
+msgid "Enter the name for the current mouse position (x: {x}, Y: {y})"
 msgstr ""
 
 #. Translators: title for save mouse position dialog.
@@ -142,8 +147,8 @@ msgid "Save mouse position"
 msgstr "Shrani položaj miške"
 
 #. Translators: presented when position (tag) has been saved.
-#, python-format
-msgid "Position has been saved in %s."
+#, fuzzy, python-format
+msgid "Position saved in %s."
 msgstr "Položaj se je shranil na %s."
 
 #. Translators: Input help message for a Golden Cursor command.
@@ -217,10 +222,6 @@ msgid ""
 "unrestricted"
 msgstr ""
 
-#. Translators: This is the label for the Golden Cursor settings dialog.
-msgid "Golden Cursor Settings"
-msgstr ""
-
 #. Translators: This is the label for a checkbox in the
 #. Golden Cursor settings dialog.
 msgid "&Announce new mouse coordinates when mouse moves"
@@ -228,6 +229,10 @@ msgstr ""
 
 #. Translators: The label for a setting in Golden Cursor settings dialog to change mouse movement units.
 msgid "Mouse movement &unit (in pixels)"
+msgstr ""
+
+#. Translators: This is the label for the Golden Cursor settings dialog.
+msgid "Golden Cursor Settings"
 msgstr ""
 
 #. Add-on description
