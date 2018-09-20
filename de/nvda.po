@@ -2897,17 +2897,17 @@ msgstr ""
 
 #. Translators: Reported when there is no text selected (for copying).
 msgid "No selection"
-msgstr "Keine Auswahl."
+msgstr "Keine Auswahl"
 
 #. Translators: Message presented when text has been copied to clipboard.
 msgid "Copied to clipboard"
-msgstr "In die Zwischenablage kopiert."
+msgstr "In die Zwischenablage kopiert"
 
 #. Translators: The message reported when a user attempts to use a table movement command
 #. when the cursor is not within a table.
 #. Translators: a message when trying to perform an action on a cell when not in one in Microsoft word
 msgid "Not in a table cell"
-msgstr "Nicht in einer Tabellenzelle."
+msgstr "Nicht in einer Tabellenzelle"
 
 #. Translators: The message reported when a user attempts to use a table movement command
 #. but the cursor can't be moved in that direction because it is at the edge of the table.
@@ -3115,7 +3115,7 @@ msgstr ""
 
 #. Translators: Reported when there are no settings to configure in synth settings ring (example: when there is no setting for language).
 msgid "No settings"
-msgstr "Keine Einstellungen."
+msgstr "Keine Einstellungen"
 
 #. Translators: Input help mode message for increase synth setting value command.
 msgid "Increases the currently active setting in the synth settings ring"
@@ -3579,7 +3579,7 @@ msgstr ""
 
 #. Translators: message when there is no location information for the review cursor
 msgid "No location information"
-msgstr "Keine Standortinformationen"
+msgstr "Keine Standort-Informationen"
 
 #. Translators: Description for report review cursor location command.
 msgid ""
@@ -4016,7 +4016,7 @@ msgstr "Schaltet die Kopplung des Navigators an den Fokus um."
 
 #. Translators: This is presented when there is no battery such as desktop computers and laptops with battery pack removed.
 msgid "No system battery"
-msgstr "Kein System-Akkumulator"
+msgstr "Kein Akku"
 
 #. Translators: This is presented to inform the user of the current battery percentage.
 #, python-format
@@ -4249,7 +4249,7 @@ msgstr "Liest den Inhalt der Zwischenablage vor."
 
 #. Translators: Indicates start of review cursor text to be copied to clipboard.
 msgid "Start marked"
-msgstr "Startmarke gesetzt."
+msgstr "Startmarke gesetzt"
 
 #. Translators: Input help mode message for mark review cursor position for a select or copy command (that is, marks the current review cursor position as the starting point for text to be selected).
 msgid ""
@@ -4259,7 +4259,7 @@ msgstr "Setzt eine Startmarke an die aktuelle Cursor-Position."
 
 #. Translators: Presented when attempting to copy some review cursor text but there is no start marker.
 msgid "No start marker set"
-msgstr "Keine Startmarke gesetzt."
+msgstr "Keine Startmarke gesetzt"
 
 #. Translators: Presented when text has already been marked for selection, but not yet copied.
 msgid "Press twice to copy or reset the start marker"
@@ -4271,7 +4271,7 @@ msgstr "Kein Text zum Kopieren markiert"
 
 #. Translators: Presented when unable to select the marked text.
 msgid "Can't select text, press twice to copy"
-msgstr "Kein Text zum Auswählen vorhanden, zweimal drücken, für Kopieren."
+msgstr "Kein Text zum Auswählen vorhanden, zweimal drücken, um zu kopieren."
 
 #. Translators: Presented when some review text has been copied to clipboard.
 msgid "Review selection copied to clipboard"
@@ -10992,33 +10992,3 @@ msgstr "Doppelter Zeilenabstand"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1,5 Zeilenabstand"
-
-#~ msgid "purple flag"
-#~ msgstr "Lilafarbene Kennzeichnung"
-
-#~ msgid "Orange flag"
-#~ msgstr "Orangefarbene Kennzeichnung"
-
-#~ msgid "Green flag"
-#~ msgstr "Grüne Kennzeichnung"
-
-#~ msgid "Yellow flag"
-#~ msgstr "Gelbe Kennzeichnung"
-
-#~ msgid "Blue flag"
-#~ msgstr "Blaue Kennzeichnung"
-
-#~ msgid "Red flag"
-#~ msgstr "Rote Kennzeichnung"
-
-#~ msgid "Use CapsLock as an NVDA modifier key"
-#~ msgstr "&Dauergroßschreibtaste als NVDA-Taste verwenden"
-
-#~ msgid "Use numpad Insert as an NVDA modifier key"
-#~ msgstr "Einfügetaste des &Nummernblocks als NVDA-Taste verwenden"
-
-#~ msgid "Use extended Insert as an NVDA modifier key"
-#~ msgstr "Einfüge-Taste der &erweiterten Tastatur als NVDA-Taste verwenden"
-
-#~ msgid "Report &help balloons"
-#~ msgstr "&Hilfesprechblasen ausgeben"
