@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0N\n"
-"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"POT-Creation-Date: 2018-09-21 07:51+1000\n"
 "PO-Revision-Date: 2018-09-19 03:56+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -261,7 +261,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 7.0"
 msgid "Changes for 8.0"
 msgstr "Änderungen für 8.0"
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"POT-Creation-Date: 2018-09-21 07:51+1000\n"
 "PO-Revision-Date: 2018-09-19 09:40+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
@@ -190,7 +190,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 1.0"
 msgid "Changes for 11.0"
 msgstr "Промени във версия 11.0"
 

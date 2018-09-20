@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"POT-Creation-Date: 2018-09-21 07:51+1000\n"
 "PO-Revision-Date: 2018-09-19 04:05+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -102,10 +102,6 @@ msgid "A list of the saved feeds."
 msgstr "Eine Liste der gespeicherten RSS-Feeds."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "List of articles: Opens a dialog which presents the articles list from "
-#| "your current feed. Select the article you want to read and press OK "
-#| "button to open the corresponding page in your browser."
 msgid ""
 "List of articles: Opens a dialog which presents the articles list from your "
 "current feed. Select the article you want to read and press Enter or Open "
@@ -284,7 +280,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 4.0"
 msgid "Changes for 5.0"
 msgstr "Änderungen für 5.0"
 
