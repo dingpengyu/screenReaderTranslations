@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community website\n"
-"POT-Creation-Date: 2018-06-30 02:55+1000\n"
+"POT-Creation-Date: 2018-09-21 09:49+1000\n"
 "PO-Revision-Date: 2018-06-28 19:26+0200\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Danish <LL@li.org>\n"
@@ -149,6 +149,39 @@ msgstr ""
 "Understøttelse af Windows XP fra denne tilføjelse endte d. 31 December 2017. "
 "Understøttelse af Windows Server 2003, Vista og Server 2008 vil ende på 30 "
 "juni 2018."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.04"
+msgid "Version 18.10"
+msgstr "Version 18.04"
+
+#. type: Bullet: '* '
+msgid "Code has been made more compatible with Python 3."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 5.0.1."
+msgid "Updated psutil dependency to 5.4.7."
+msgstr "Opdateret psutil afhængighed til 5.0.1."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining disk capacity and memory usage, NVDA will no longer give "
+"errors if using a computer or a service with more than a petabyte of RAM or "
+"disk size."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Values for memory and disk usage are shown with up to two decimal places (e."
+"g. 4.00 GB instead of 4.0 GB)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Improved detection of Windows Insider Preview builds."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

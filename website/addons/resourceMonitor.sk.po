@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-06-30 02:55+1000\n"
+"POT-Creation-Date: 2018-09-21 09:49+1000\n"
 "PO-Revision-Date: 2017-11-09 21:58-0800\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: sk <https://nvda.venik.org>\n"
@@ -148,6 +148,39 @@ msgstr ""
 msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
 "for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 18.10"
+msgstr "Verzia: [3.1][1]Version: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "Code has been made more compatible with Python 3."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 1.2.1."
+msgid "Updated psutil dependency to 5.4.7."
+msgstr "Aktualizovaná knižnica psutil na verziu 1.2.1."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining disk capacity and memory usage, NVDA will no longer give "
+"errors if using a computer or a service with more than a petabyte of RAM or "
+"disk size."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Values for memory and disk usage are shown with up to two decimal places (e."
+"g. 4.00 GB instead of 4.0 GB)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Improved detection of Windows Insider Preview builds."
 msgstr ""
 
 #. type: Title ##

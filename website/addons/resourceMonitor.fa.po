@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-30 02:55+1000\n"
+"POT-Creation-Date: 2018-09-21 09:49+1000\n"
 "PO-Revision-Date: 2018-07-13 01:39+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
@@ -144,6 +144,39 @@ msgid ""
 msgstr ""
 "پشتیبانی این افزونه از ویندوز XP در ۱۰ دی‌ماه ۱۳۹۶ پایان یافت. پشتیبانی این "
 "افزونه از ویندوز سِروِر 2003، ویستا و سِروِر 2008 در ۹ تیرماه ۱۳۹۷ پایان یافت."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.04"
+msgid "Version 18.10"
+msgstr "نسخه‌ی 18.04"
+
+#. type: Bullet: '* '
+msgid "Code has been made more compatible with Python 3."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 5.0.1."
+msgid "Updated psutil dependency to 5.4.7."
+msgstr "متعلقات psutil به نسخه‌ی 5.0.1 به‌روز شد."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining disk capacity and memory usage, NVDA will no longer give "
+"errors if using a computer or a service with more than a petabyte of RAM or "
+"disk size."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Values for memory and disk usage are shown with up to two decimal places (e."
+"g. 4.00 GB instead of 4.0 GB)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Improved detection of Windows Insider Preview builds."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

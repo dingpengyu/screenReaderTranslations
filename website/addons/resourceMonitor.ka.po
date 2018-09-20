@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-03 03:38+1000\n"
+"POT-Creation-Date: 2018-09-21 09:49+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,6 +120,36 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
+msgid "Version 18.10"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Code has been made more compatible with Python 3."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.4.7."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining disk capacity and memory usage, NVDA will no longer give "
+"errors if using a computer or a service with more than a petabyte of RAM or "
+"disk size."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Values for memory and disk usage are shown with up to two decimal places (e."
+"g. 4.00 GB instead of 4.0 GB)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Improved detection of Windows Insider Preview builds."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
 msgid "Version 18.04"
 msgstr ""
 
@@ -183,7 +213,8 @@ msgid "Version 17.05"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Announcement of system uptime (time passed since last boot; NVDA+Shift+7)."
+msgid ""
+"Announcement of system uptime (time passed since last boot; NVDA+Shift+7)."
 msgstr ""
 
 #. type: Title ##
@@ -209,8 +240,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Starting with version 16.08, add-on releases will be shown as "
-"year.month.revision."
+"Starting with version 16.08, add-on releases will be shown as year.month."
+"revision."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -236,8 +267,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Add-on repository has moved to GitHub (can be found at "
-"https://github.com/josephsl/resourcemonitor)."
+"Add-on repository has moved to GitHub (can be found at https://github.com/"
+"josephsl/resourcemonitor)."
 msgstr ""
 
 #. type: Bullet: '* '

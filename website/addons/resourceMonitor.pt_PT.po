@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Monitor de recursos\n"
-"POT-Creation-Date: 2018-06-30 02:55+1000\n"
+"POT-Creation-Date: 2018-09-21 09:49+1000\n"
 "PO-Revision-Date: 2018-09-15 13:26+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
@@ -141,10 +141,6 @@ msgstr ""
 "pode haver atrasos ao obter informações de uso do disco."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "Support for Windows XP from this add-on ended on December 31, 2017. "
-#| "Support for Windows Server 2003, Vista and Server 2008 will end on June "
-#| "30, 2018."
 msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
 "for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
@@ -152,6 +148,39 @@ msgstr ""
 "O suporte para o Windows XP deste complemento terminou em 31 de dezembro de "
 "2017. O suporte para o Windows Server 2003, Vista e Server 2008 terminou em "
 "30 de junho de 2018."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.04"
+msgid "Version 18.10"
+msgstr "Versão 18.04"
+
+#. type: Bullet: '* '
+msgid "Code has been made more compatible with Python 3."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 5.0.1."
+msgid "Updated psutil dependency to 5.4.7."
+msgstr "Dependência psutil actualizada para 5.0.1."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining disk capacity and memory usage, NVDA will no longer give "
+"errors if using a computer or a service with more than a petabyte of RAM or "
+"disk size."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Values for memory and disk usage are shown with up to two decimal places (e."
+"g. 4.00 GB instead of 4.0 GB)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Improved detection of Windows Insider Preview builds."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
