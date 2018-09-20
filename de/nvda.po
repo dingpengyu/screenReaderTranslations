@@ -2853,7 +2853,7 @@ msgstr "Batterie wird nicht aufgeladen: %d Prozent"
 
 #. Translators: This is shown on a braille display (if one is connected) when NVDA starts.
 msgid "NVDA started"
-msgstr "NVDA ist bereit."
+msgstr "NVDA ist bereit"
 
 #. Translators: Title of a dialog to find text.
 msgid "Find"
@@ -2861,12 +2861,12 @@ msgstr "Suchen"
 
 #. Translators: Dialog text for NvDA's find command.
 msgid "Type the text you wish to find"
-msgstr "Geben Sie die zu suchende Zeichenkette ein."
+msgstr "Geben Sie den zu suchenden Text ein."
 
 #. Translators: An option in find dialog to perform case-sensitive search.
 #. Translators: This is a label for a checkbox in add dictionary entry dialog.
 msgid "Case &sensitive"
-msgstr "Groß- / Kleinschreibung &beachten"
+msgstr "Groß- / Kleinschreibung &berücksichtigen"
 
 #, python-format
 msgid "text \"%s\" not found"
@@ -2877,23 +2877,23 @@ msgstr "Fehler beim Suchen"
 
 #. Translators: Input help message for NVDA's find command.
 msgid "find a text string from the current cursor position"
-msgstr "Sucht die Zeichenkette ab der aktuellen Cursorposition."
+msgstr "Sucht nach dem eingegebenen Text ab der aktuellen Cursor-Position."
 
 #. Translators: Input help message for find next command.
 msgid ""
 "find the next occurrence of the previously entered text string from the "
 "current cursor's position"
 msgstr ""
-"Sucht das nächste Vorkommen der zuvor eingegebenen Zeichenkette ab der "
-"aktuellen Cursorposition."
+"Sucht das nächste Vorkommen des zuvor eingegebenen Textes ab der "
+"aktuellen Cursor-Position."
 
 #. Translators: Input help message for find previous command.
 msgid ""
 "find the previous occurrence of the previously entered text string from the "
 "current cursor's position"
 msgstr ""
-"Sucht das vorherige Vorkommen der zuvor eingegebenen Zeichenkette ab der "
-"aktuellen Cursorposition."
+"Sucht das vorherige Vorkommen des zuvor eingegebenen Textes ab der "
+"aktuellen Cursor-Position."
 
 #. Translators: Reported when there is no text selected (for copying).
 msgid "No selection"
@@ -4841,13 +4841,13 @@ msgid "unknown %s"
 msgstr "Unbekannt %s"
 
 msgid "on"
-msgstr "ein"
+msgstr "eingeschaltet"
 
 #. Translators: An option for progress bar output in the Object Presentation dialog
 #. which disables reporting of progress bars.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
 msgid "off"
-msgstr "aus"
+msgstr "ausgeschaltet"
 
 #. Translators: Used when describing keys on the system keyboard with a particular layout.
 #. %s is replaced with the layout name.
@@ -7808,7 +7808,7 @@ msgstr "&Portable Kopie erstellen"
 
 #. Translators: The label of the button in NVDA installation program to continue using the installation program as a temporary copy of NVDA.
 msgid "&Continue running"
-msgstr "Weite&rhin ausführen"
+msgstr "&Fortsetzen"
 
 #. Translators: A message in the exit Dialog shown when all add-ons are disabled.
 msgid ""
