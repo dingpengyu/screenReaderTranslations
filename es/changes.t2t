@@ -29,8 +29,11 @@
  - AutoWidthColumnCheckListCtrl añade casillas de verificación accesibles a un AutoWidthColumnListCtrl, el cual está basado en si mísmo en wx.ListCtrl.
 - Si necesitas hacer un wx widget accesible que no lo es todavía, es posible hacerlo utilizando una instancia de gui.accPropServer.IAccPropServer_impl. (#7491)
  - Consulta la implementación de gui.nvdaControls.ListCtrlAccPropServer para más información.
-- Actualizado configobj a 5.1.0dev commit 5b5de48a. (#4470)
 
+
+= 2018.3.1 =
+Esta es una versión menor para corregir un error crítico en NVDA que causaba que las versiones de 32 bits de Mozilla Firefox se colgasen. (#8759)
+ 
 
 = 2018.3 =
 Lo subrayable de esta versión incluye la detección automática de muchas pantallas Braille, la admisión para algunas características nuevas de Windows 10 incluyendo el panel de entrada de emojis de Windows 10, y muchas otras correcciones de fallos.
