@@ -6,13 +6,15 @@ Ce este nou în NVDA
 = 2018.4 =
 
 == Noi Funcționalități ==
-Noi tabele braille: chineză (China, mandarină) gradele 1 și 2. (#5553)
+- Noi tabele braille: chineză (China, mandarină) gradele 1 și 2. (#5553)
+
 
 == Modificări ==
 - Opțiunea „Anunță baloane de ajutor” din dialogul de prezentare a obiectelor a fost redenumită în „Anunță notificări”, pentru a include notificările toast din Windows 8 și mai nou. (#5789)
 - În setările tastaturii din NVDA, casetele de bifat pentru activarea sau dezactivarea tastelor modificatoare ale acestui cititor de ecran sunt afișate acum într-o listă, mai degrabă decât separat.
 - NVDA nu va mai prezenta informații redundante la citirea ceasului din zona de notificare (system tray) pe unele versiuni de windows. (#4364)
 - S-a actualizat traducătorul braille liblouis la versiunea 3.7.0. (#8697)
+
 
 == Defecte Rezolvate ==
 - În Outlook 2016/365, categoria și starea flag sunt raportate pentru mesaje. (#8603)
@@ -28,6 +30,7 @@ Noi tabele braille: chineză (China, mandarină) gradele 1 și 2. (#5553)
 - Dacă aveți nevoie să faceți un widget wx accesibil care să nu existe deja, puteți face astfel utilizând o instanță a gui.accPropServer.IAccPropServer_impl. (#7491)
  - Vedeți implementarea gui.nvdaControls.ListCtrlAccPropServer pentru mai multe informații.
 
+ 
 == Alte câteva modificări pentru Dezvoltatori ==
 - S-a actualizat configobj la 5.1.0dev commit 5b5de48a. (#4470)
 
