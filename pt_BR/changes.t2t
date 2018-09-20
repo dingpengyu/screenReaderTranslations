@@ -30,10 +30,11 @@ Traduzido por: Marlin Rodrigues da Silva; Cleverson Casarin Uliana; Tiago Melo C
  - AutoWidthColumnCheckListCtrl adiciona caixas de seleção acessíveis a um AutoWidthColumnListCtrl, que em si é baseado em wx.ListCtrl.
 - Se você precisar tornar um widget wx acessível que ainda não esteja, é possível fazer isso usando uma instância de gui.accPropServer.IAccPropServer_impl. (#7491)
  - Veja a implementação do gui.nvdaControls.ListCtrlAccPropServer para mais informações.
-
-
-== Alterações Específicas para Desenvolvedores ==
 - Configobj atualizado para 5.1.0dev commit 5b5de48a. (#4470)
+
+
+= 2018.3.1 =
+Esta é uma versão menor para corrigir um bug crítico no NVDA que causou falhas nas versões de 32 bit do Mozilla Firefox. (#8759)
 
 
 = 2018.3 =
