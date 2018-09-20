@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-04-27 12:36+0200\n"
+"PO-Revision-Date: 2018-09-20 07:27+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -99,11 +99,6 @@ msgid "A list of the saved feeds."
 msgstr "Tallennettujen syötteiden luettelo."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "List of articles: Opens a dialog which presents the articles list from "
-#| "your current feed. Select the article you want to read and press OK "
-#| "button to open the corresponding page in your browser."
 msgid ""
 "List of articles: Opens a dialog which presents the articles list from your "
 "current feed. Select the article you want to read and press Enter or Open "
@@ -113,8 +108,11 @@ msgid ""
 "to the clipboard."
 msgstr ""
 "Artikkeliluettelo: Avaa valintaikkunan, joka näyttää luettelon nykyisen "
-"syötteesi artikkeleista. Valitse artikkeli, jonka haluat lukea ja paina OK-"
-"painiketta avataksesi vastaavan sivun selaimessasi."
+"syötteen artikkeleista. Valitse artikkeli, jonka haluat lukea, ja paina "
+"Enter tai Avaa valitun artikkelin verkkosivu -painiketta avataksesi "
+"vastaavan sivun selaimessa. Paina Tietoa artikkelista -painiketta avataksesi "
+"valintaikkunan, jossa näytetään valitun artikkelin otsikko ja linkki. Tiedot "
+"on myös mahdollista kopioida leikepöydälle."
 
 #. type: Bullet: '* '
 msgid "Open feed: Opens the selected feed in the default application."
@@ -187,7 +185,7 @@ msgid ""
 "directory of your feeds. By default the selected folder is the NVDA's "
 "configuration directory, which will create the personalFeeds directory."
 msgstr ""
-"Avaa valintaikkunan, josta voit valita, minne syötteesi sisältävä "
+"Avaa valintaikkunan, josta voit valita, minne syötteet sisältävä "
 "personalFeeds-kansio luodaan. Kansiona on oletusarvoisesti NVDA:n "
 "asetushakemisto."
 
@@ -276,24 +274,24 @@ msgstr ""
 "Artikkeliluettelo-valintaikkunan otsikossa."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 4.0"
+#, no-wrap
 msgid "Changes for 5.0"
-msgstr "Muutokset versiossa 4.0"
+msgstr "Muutokset versiossa 5.0"
 
 #. type: Bullet: '* '
 msgid "The articles list dialog has been enhanced."
-msgstr ""
+msgstr "Artikkeliluettelovalintaikkunaa on paranneltu."
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Yhteensopiva NVDA 2018.3:n tai uudemman kanssa (vaaditaan)."
 
 #. type: Bullet: '* '
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Viimeisen NVDA 2017.3:n kanssa yhteensopivan version voi ladata [tästä. ][3]"
 
 #. type: Title ##
 #, no-wrap
@@ -369,6 +367,8 @@ msgid ""
 "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
 "github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 msgstr ""
+"[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
+"github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
 
 #~ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
 #~ msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"

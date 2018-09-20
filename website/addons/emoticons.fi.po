@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-06-13 14:41+0200\n"
+"PO-Revision-Date: 2018-09-20 09:08+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -222,6 +222,10 @@ msgid ""
 "recommended). This is intended to disable settings changes in case of speed "
 "issues when switching profiles."
 msgstr ""
+"Asetukset on lisäksi mahdollista ottaa käyttöön vain NVDA:n normaalissa "
+"kokoonpanossa (ei suositella). Tämän tarkoituksena on asetusten käytöstä "
+"poistaminen siinä tapauksessa, että profiilia vaihdettaessa ilmenee "
+"hidastumista."
 
 #. type: Title ##
 #, no-wrap
@@ -251,14 +255,13 @@ msgstr ""
 "NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän hymiön."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 7.0"
+#, no-wrap
 msgid "Changes for 8.0"
-msgstr "Muutokset versiossa 7.0"
+msgstr "Muutokset versiossa 8.0"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Yhteensopiva NVDA 2018.3:n tai uudemman kanssa (vaaditaan)."
 
 #. type: Title ##
 #, no-wrap
