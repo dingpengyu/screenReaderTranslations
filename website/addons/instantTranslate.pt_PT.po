@@ -3,62 +3,69 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-01-24 03:56+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: Tradutor instantâneo\n"
+"POT-Creation-Date: 2017-06-03 04:37+1000\n"
+"PO-Revision-Date: 2018-09-21 17:03+0100\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: Equipa Portuguesa do NVDA <ampa4374@gmail.com; rui."
+"fontes@tiflotecnia.pt>\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"instantTranslate\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"tradutorInstantâneo\"]]\n"
 
 #. type: Bullet: '* '
 msgid ""
 "Authors: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino "
 "and other NVDA contributors."
 msgstr ""
+"Autores: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino e "
+"outros colaboradores do NVDA."
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Baixar [versão estável][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Baixar [versão de desenvolvimento][2]"
 
 #. type: Plain text
 msgid ""
 "This add-on is used to translate selected and/or clipboard text from one "
 "language to another.  This is done using an external service."
 msgstr ""
+"Este extra serve para traduzir um texto seleccionado e/ou da área de "
+"transferência dum idioma para outro. Isso é feito por meio de um serviço "
+"externo."
 
 #. type: Title ##
 #, no-wrap
 msgid "Configuring languages"
-msgstr ""
+msgstr "Configurar idiomas"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"To configure source, target and in case swap language, go to: NVDA Menu >> "
-"Preferences >> Instant Translate Settings.\n"
-msgstr ""
+msgid "To configure source, target and in case swap language, go to: NVDA Menu >> Preferences >> Instant Translate Settings.\n"
+msgstr "Para configurar os idiomas de origem, de destino e, em alguns casos, de alternância, vá para: Menu do NVDA >> Preferências >> configurações << tradutor instantânio.\n"
 
 #. type: Plain text
 msgid ""
-"There are two comboboxes labeled \"Source language\" and \"Target "
-"language\", and a checkbox to decide if it must copy the translation to "
-"clipboard."
+"There are two comboboxes labeled \"Source language\" and \"Target language"
+"\", and a checkbox to decide if it must copy the translation to clipboard."
 msgstr ""
+"Nas configurações, pode encontrar duas caixas de combinação denominadas "
+"\"Idioma de origem\" e \"Idioma de destino\", e uma caixa de selecção para "
+"indicar se deve ser copiada a tradução para a área de transferência."
 
 #. type: Plain text
 msgid ""
@@ -66,6 +73,10 @@ msgid ""
 "language\" combobox, there are also a combobox labeled \"Language for "
 "swapping\" and a checkbox about the auto-swap."
 msgstr ""
+"Além disso, caso tenha seleccionado a opção \"auto\" (como escolha na caixa "
+"de combinação \"Idioma de origem\", haverá também uma caixa de combinação "
+"chamada \"Idioma para alternância\" e uma caixa de selecção para alternância "
+"automática."
 
 #. type: Plain text
 msgid ""
@@ -73,6 +84,10 @@ msgid ""
 "words about the rest are necessary. Remember always that the explanations "
 "below assume the source language set on the auto option."
 msgstr ""
+"O significado das duas primeiras caixas e da caixa de selecção de \"copiar "
+"para a área de transferência\" é claro, mas tornam-se necessárias algumas "
+"palavras sobre o restante. Lembre-se, sempre, que a explicação abaixo "
+"pressupõe que o idioma de origem está configurado para a opção \"auto\"."
 
 #. type: Plain text
 msgid ""
@@ -81,6 +96,11 @@ msgid ""
 "on the auto option has no sense, so the addon sets it to value of combobox "
 "above."
 msgstr ""
+"A caixa de combinação \"Idioma para alternância\" é útil, quando faz a "
+"troca, por script (ver abaixo) dos idiomas de origem e de destino; com "
+"efeito, um idioma de destino configurado na opção \"auto\" não faz sentido, "
+"portanto o extra configura-o para o valor da caixa de combinação de "
+"alternância."
 
 #. type: Plain text
 msgid ""
@@ -88,10 +108,17 @@ msgid ""
 "language), but sometimes (for example, when you write a document) you need "
 "to translate into Italian (your second language, suppose); you can set "
 "\"Language for swapping\" combobox to Italian, so you will translate from "
-"English to Italian without accessing directly to the addon "
-"settings. Obviously this function has a major or minor utility according to "
-"your more frequent needs."
+"English to Italian without accessing directly to the addon settings. "
+"Obviously this function has a major or minor utility according to your more "
+"frequent needs."
 msgstr ""
+"Assim, imagine a seguinte situação: geralmente, traduz para Inglês (que é o "
+"seu idioma principal), mas às vezes (por exemplo quando escreve um "
+"documento) necessita traduzi-lo para Italiano (digamos que seria o seu "
+"segundo idioma); você pode colocar a caixa de combinação \"Idioma para "
+"alternância\" para Italiano, de modo que traduzirá de Inglês para Italiano, "
+"sem aceder directamente as configurações do extra. Obviamente, essa função "
+"será mais ou menos útil, conforme as suas necessidades deste artifício."
 
 #. type: Plain text
 msgid ""
@@ -104,6 +131,14 @@ msgid ""
 "extremely useful if the source language of the text you want translate is "
 "the target language."
 msgstr ""
+"Nesse caso, surge a caixa de seleção \"alternância automática\": ela aparece "
+"somente se se seleciona a opção \"auto\", na caixa de combinação \"Idioma de "
+"origem\" e está directamente conectada à caixa de combinação \"Idioma de "
+"alternância\". Caso a active, o extra tenta comutar automaticamente da atual "
+"configuração de origem e destino para uma configuração na qual o idioma de "
+"destino se torna o de origem e o idioma escolhido na caixa de combinação "
+"\"Idioma  de alternância\" é o novo idioma de destino; isto é útil se o "
+"idioma de origem do texto que quer traduzir é o idioma de destino."
 
 #. type: Plain text
 msgid ""
@@ -116,6 +151,14 @@ msgid ""
 "Italian, the addon commutes automatically the target language to Italian, so "
 "it returns a valid translation."
 msgstr ""
+"Um exemplo simples: Parta da situação imaginada antes; se traduz um texto "
+"num idioma diferente do Inglês, não há problemas, pois obtém a tradução "
+"correcta em Inglês. Agora se precisar de traduzir um texto do Inglês, "
+"normalmente obtém uma tradução para Inglês idêntica ao texto original e isso "
+"é inútil. Graças a opção de \"alternância automática\", porém, supondo que "
+"você queira saber como o texto fica em Italiano, o extra comuta "
+"automaticamente o idioma de destino para Italiano e portanto devolve uma "
+"tradução válida."
 
 #. type: Plain text
 msgid ""
@@ -127,15 +170,23 @@ msgid ""
 "script, so to force the source language to be the previous target language "
 "(English in our example)."
 msgstr ""
+"Em todo o caso, estamos perante uma configuração temporária; se a opção não "
+"tiver efeito (dado que é experimental), tente comutar manualmente para uma "
+"configuração estável usando o gesto de alternância descrito abaixo. Ela é "
+"experimental porque, em certas situações (principalmente em textos curtos), "
+"o Google não reconhece correctamente o verdadeiro idioma de origem e é "
+"preciso alternar os idiomas manualmente via script, de modo a forçar o "
+"idioma de origem a ser o anterior idioma de destino (Inglês, no nosso "
+"exemplo)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Using"
-msgstr ""
+msgstr "Como Usar"
 
 #. type: Plain text
 msgid "You can use this add-on in two ways:"
-msgstr ""
+msgstr "Pode usar este extra de duas formas:"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -143,76 +194,85 @@ msgid ""
 "example) and press associated key to translate. translation result willbe "
 "read with synthesizer which you are using."
 msgstr ""
+"Seleccione um texto, usando os comandos de selecção (shift+setas, por "
+"exemplo). depois, pressione a tecla atribuída para traduzir o texto "
+"seleccionado. A tradução resultante será lida pelo sintetizador que está a "
+"usar."
 
 #. type: Bullet: '2. '
 msgid "You can also translate text from the Clipboard."
-msgstr ""
+msgstr "Também pode traduzir o texto da área de transferência."
 
 #. type: Title ##
 #, no-wrap
 msgid "Shortcuts"
-msgstr ""
+msgstr "Teclas de atalho:"
 
 #. type: Plain text
-msgid "All following commands must be pressed after modifier key \"NVDA+Shift+t\":"
+msgid ""
+"All following commands must be pressed after modifier key \"NVDA+Shift+t\":"
 msgstr ""
+"Estes comandos só são válidos após ter sido pressionada a tecla modificadora "
+"\"NVDA+Shift+t\":"
 
 #. type: Bullet: '* '
 msgid "T: Translate selected text,"
-msgstr ""
+msgstr "T: Traduz o texto seleccionado,"
 
 #. type: Bullet: '* '
 msgid "Shift+t: translate text from the Clipboard,"
-msgstr ""
+msgstr "Shift+t: Traduz o texto da área de transferência,"
 
 #. type: Bullet: '* '
 msgid "S: swap source and target languages,"
-msgstr ""
+msgstr "S: Alterna os idiomas de origem e destino,"
 
 #. type: Bullet: '* '
 msgid "A: announce current configuration,"
-msgstr ""
+msgstr "A: indica a configuração atual,"
 
 #. type: Bullet: '* '
 msgid "C: copy last result to clipboard,"
-msgstr ""
+msgstr "C: Copia o último resultado para a área de transferência,"
 
 #. type: Bullet: '* '
 msgid "I: identify the language of selected text,"
-msgstr ""
+msgstr "I: identifica o idioma do texto seleccionado,"
 
 #. type: Bullet: '* '
 msgid "H: announces all available commands to user."
-msgstr ""
+msgstr "H: fornece todos os comandos disponíveis."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 4.1"
-msgstr ""
+msgstr "Mudanças para a 4.1"
 
 #. type: Bullet: '* '
 msgid ""
 "InstantTranslate is working again, now with Yandex translator service "
 "instead of Google."
 msgstr ""
+"O Tradutor Instantâneo está novamente a funcionar, agora com o serviço "
+"Yandex translator em vez do Google."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 4.0"
-msgstr ""
+msgstr "Mudanças para a 4.0"
 
 #. type: Bullet: '* '
 msgid "Translation is automatically performed after swapping."
-msgstr ""
+msgstr "A tradução é executada automaticamente após a alternância."
 
 #. type: Bullet: '* '
 msgid "Cache bug fixed."
-msgstr ""
+msgstr "Problema de cache corrigido."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.0"
-msgstr ""
+msgstr "Mudanças para a 3.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -220,10 +280,14 @@ msgid ""
 "modifier key \"NVDA+Shift+t\", and then single letter key to perform some "
 "action (see all Commands in the \"Shortcuts\" section)."
 msgstr ""
+"Foi modificado o modo como as teclas de atalho são usadas, agora pode "
+"pressionar a tecla modificadora do InstantTranslate \"NVDA+Shift+t\" e então "
+"uma tecla única para executar uma acção (veja todos os comandos na secção "
+"\"atalhos\")."
 
 #. type: Bullet: '* '
 msgid "Implemented swapping languages."
-msgstr ""
+msgstr "Implementado \"idiomas de alternância\"."
 
 #. type: Bullet: '* '
 msgid ""
@@ -231,85 +295,105 @@ msgid ""
 "if we are in readonly pane, but remember that this will work before first "
 "restart of NVDA."
 msgstr ""
+"Foi modificado o formato das configurações; agora podem alterar-se as opções "
+"do Tradutor Instantâneo estando no painel somente leitura, mas lembre que as "
+"mesmas terão efeito antes da primeira reinicialização do NVDA."
 
 #. type: Bullet: '* '
 msgid "Removed limit on amount of text that can be translated."
-msgstr ""
+msgstr "Foi removido o limite da quantidade de texto que se pode traduzir."
 
 #. type: Bullet: '* '
 msgid "Added shortcut t to the Instant Translate Settings menu item"
 msgstr ""
+"Adicionada a tecla de atalho \"t\" para o item de menu do Tradutor "
+"Instantâneo"
 
 #. type: Bullet: '* '
 msgid ""
 "The auto option is now in first position in source combo, and absent in "
 "target combo."
 msgstr ""
+"A opção \"automático\", agora, encontra-se em primeiro lugar na caixa de "
+"combinação origem e desapareceu da caixa de combinação destino."
 
 #. type: Bullet: '* '
 msgid "Added a checkbox for configuring copying translation results."
 msgstr ""
+"Adicionada uma caixa de selecção para configurar a cópia dos resultados de "
+"traduções."
 
 #. type: Bullet: '* '
 msgid "Store config file in the root of settings folder."
 msgstr ""
+"Passou a armazenar o ficheiro de configuração na raíz da pasta de opções."
 
 #. type: Bullet: '* '
 msgid ""
 "Source and target languages syncronized with what Google Translate currently "
 "exposes (22 Apr 2015)."
 msgstr ""
+"Idiomas de origem e destino sincronizados com o que o Google Translate expõe "
+"atualmente (22 de abril de 2015)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.1"
-msgstr ""
+msgstr "Mudanças para a 2.1"
 
 #. type: Bullet: '* '
 msgid "Now addon can translate text from clipboard when pressing nvda+shift+y."
 msgstr ""
+"Agora, o extra pode traduzir o texto da área de transferência, ao pressionar "
+"NVDA+SHIFT+y."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.0"
-msgstr ""
+msgstr "Mudanças para a 2.0"
 
 #. type: Bullet: '* '
-msgid "Added gui configurator where you can choose source and target languages."
+msgid ""
+"Added gui configurator where you can choose source and target languages."
 msgstr ""
+"Adicionado configurador gráfico onde se podem escolher os idiomas de origem "
+"e de destino."
 
 #. type: Bullet: '* '
 msgid "Added addon menu item found under preferences menu."
-msgstr ""
+msgstr "Adicionado item de menu do extra, no menu Preferências."
 
 #. type: Bullet: '* '
 msgid "Settings now is written in separate config file."
 msgstr ""
+"As configurações agora são registadas num ficheiro de configuração separado."
 
 #. type: Bullet: '* '
 msgid ""
 "Translation results now automatically copies into the clipboard for future "
 "manipulations."
 msgstr ""
+"Agora, os resultados das traduções são colocados automaticamente na área de "
+"transferência para futuras manipulações."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr ""
+msgstr "Mudanças para a 1.0"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Versão inicial."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=it"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=it"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=it-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=it-dev"

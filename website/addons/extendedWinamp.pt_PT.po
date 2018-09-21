@@ -3,61 +3,63 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-24 03:57+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-09-21 12:59+0100\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"extendedWinamp\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"extendedWinamp\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Hrvoje Katic and NVDA-addon-team"
-msgstr ""
+msgstr "Autores: Hrvoje Katic and NVDA-addon-team"
 
 #. type: Bullet: '* '
 msgid "Download: [version 1.1][1]"
-msgstr ""
+msgstr "Baixar: [versão 1.1][1]"
 
 #. type: Plain text
 msgid ""
 "This extended appModule extends the original Winamp appModule found in NVDA "
 "with some extra functionality."
 msgstr ""
+"Este appModule adiciona algumas funcionalidades extras ao Winamp appModule "
+"original, encontrado no NVDA. "
 
 #. type: Bullet: '* '
 msgid "s togle shuffle on/off"
-msgstr ""
+msgstr "s liga ou desliga o modo aleatório"
 
 #. type: Bullet: '* '
 msgid "r togle repeat on/off"
-msgstr ""
+msgstr "R liga ou desliga o modo de repetição"
 
 #. type: Bullet: '* '
 msgid "F5 mute playback"
-msgstr ""
+msgstr "f5 silencia o play back"
 
 #. type: Bullet: '* '
 msgid "F6 set playback volume to 25%"
-msgstr ""
+msgstr "f6 define o volume do play back para 25"
 
 #. type: Bullet: '* '
 msgid "F7 set playback volume to 50%"
-msgstr ""
+msgstr "f7 define o volume do play back para 50"
 
 #. type: Bullet: '* '
 msgid "F8 set playback volume to 100%"
-msgstr ""
+msgstr "f8 define o volume do play back para 100"
 
 #. type: Bullet: '* '
 msgid "Shift+LeftArrow pan Left"

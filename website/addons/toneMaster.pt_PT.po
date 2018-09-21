@@ -3,60 +3,71 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-24 03:57+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-09-19 15:15+0100\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tone Master\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tone Master\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Hrvoje Katić"
-msgstr ""
+msgstr "Autor: Hrvoje Katić"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Baixar [versão estável][1]"
 
 #. type: Plain text
 msgid ""
-"Welcome to Tone Master! I've created this little NVDA add-on just for fun, "
-"but also for you to have fun while using it."
+"Welcome to Tone Master! I've created this little NVDA add-on just for fun, but "
+"also for you to have fun while using it."
 msgstr ""
+"Bem-vindo ao mestre de tom! Eu criei este pequeno extra do NVDA apenas por "
+"diversão, mas também para que se possa divertir enquanto o usa."
 
 #. type: Plain text
 msgid ""
-"I always wanted to create musical tunes with NVDA, rather than just "
-"listening to NVDA's progress and error beeps. However, it's not too easy to "
-"do, so first I wanted to make it easier. That's why I wrote Tone "
-"Master. Just imagine how it could be for you to hear NVDA playing song by "
-"Mozzart or Beethoven, or may be greatest hits by Rolling Stones. Although "
-"the final result sounds like those ringtones on old mobile phones, it may "
-"still be funny."
+"I always wanted to create musical tunes with NVDA, rather than just listening "
+"to NVDA's progress and error beeps. However, it's not too easy to do, so first "
+"I wanted to make it easier. That's why I wrote Tone Master. Just imagine how "
+"it could be for you to hear NVDA playing song by Mozzart or Beethoven, or may "
+"be greatest hits by Rolling Stones. Although the final result sounds like "
+"those ringtones on old mobile phones, it may still be funny."
 msgstr ""
+"Eu sempre quis criar aspectos musicais com o NVDA, em vez de apenas ouvir os "
+"seus bips de progresso e erro. No entanto, não é muito fácil fazer isto, então "
+"primeiro eu queria facilitar. É por isso que escrevi Tone Master. Imagine como "
+"seria ouvir o NVDA tocando música de Mozzart ou Beethoven, ou pode ser o maior "
+"sucesso dos Rolling Stones. Embora o resultado final soe como aqueles toques "
+"em celulares antigos, ainda pode ser engraçado."
 
 #. type: Plain text
 msgid ""
-"Tone Master simplifies process of playing tone sequences by implementing "
-"tone data files. These files can be edited with your favorite text editor "
-"and then saved for playback with NVDA. Read on for instructions!"
+"Tone Master simplifies process of playing tone sequences by implementing tone "
+"data files. These files can be edited with your favorite text editor and then "
+"saved for playback with NVDA. Read on for instructions!"
 msgstr ""
+"O Tom Master simplifica o processo de execução de seqüências de tons, "
+"implementando arquivos de dados de tom. Estes arquivos podem ser editados com "
+"o seu editor de texto favorito e depois salvos para reprodução com o NVDA. "
+"Leia para instruções!"
 
 #. type: Title ##
 #, no-wrap
 msgid "Tone data files"
-msgstr ""
+msgstr "Ficheiros de dados de tom"
 
 #. type: Plain text
 msgid ""
@@ -64,54 +75,72 @@ msgid ""
 "create and load your tone data file first. Tone data files are simply text "
 "files with .tdf extension. Tone Master uses these files for processing and "
 "playing back tone sequences. To create tone data file for Tone Master to be "
-"able to play it successfully, you have to follow simple rules described "
-"below."
+"able to play it successfully, you have to follow simple rules described below."
 msgstr ""
+"Antes de tocar a sua primeira música com o Tone Master, deve primeiro criar e "
+"carregar o seu ficheiro de dados de tom. Ficheiros de dados de tom são "
+"simplesmente ficheiros de texto com extensão .tdf. O Tom Master usa esses "
+"ficheiiros para processar e reproduzir seqüências de tons. Para criar um "
+"ficheiro de dados de tom para que o Tone Master possa reproduzi-lo com "
+"sucesso, deve seguir as regras simples descritas abaixo."
 
 #. type: Bullet: '1. '
 msgid ""
-"Each line in .tdf file *must* contain three parameters separated by colon "
-"(:). The first parameter is tone pitch, the second parameter is tone "
-"duration, and the third one is the time of silence between each tone. All "
-"three parameters are necessary to specify, otherwise Tone Master will not be "
-"able to play your tone data."
+"Each line in .tdf file *must* contain three parameters separated by colon (:). "
+"The first parameter is tone pitch, the second parameter is tone duration, and "
+"the third one is the time of silence between each tone. All three parameters "
+"are necessary to specify, otherwise Tone Master will not be able to play your "
+"tone data."
 msgstr ""
+"Cada linha no ficheiro .tdf * deve * conter três parâmetros separados por dois "
+"pontos (:). O primeiro parâmetro é o tom do tom, o segundo parâmetro é a "
+"duração do som e o terceiro é o tempo de silêncio entre cada tom. Todos os "
+"três parâmetros são necessários para especificar, caso contrário, o Tom Master "
+"não poderá reproduzir os seus dados de tom."
 
 #. type: Bullet: '2. '
 msgid ""
 "Pitch and duration parameters must be specified as signed integers, and the "
 "silence must be specified as floating point real value."
 msgstr ""
+"Os parâmetros de entoação e duração devem ser especificados como inteiros , e "
+"o silêncio deve ser especificado como valor real de ponto flutuante."
 
 #. type: Bullet: '3. '
 msgid ""
-"A hash sign (#) at the beginning of any line in .tdf file will be treeted as "
-"a comment and will be ignored by Tone Master."
+"A hash sign (#) at the beginning of any line in .tdf file will be treeted as a "
+"comment and will be ignored by Tone Master."
 msgstr ""
+"Um sinal de cardinal (#) no início de qualquer linha no ficheiro.tdf será "
+"mostrado como um comentário e será ignorado."
 
 #. type: Plain text
 msgid "Example: Play a sequence of 3 tones"
-msgstr ""
+msgstr "Exemplo: reproduz uma sequência de 3 tons"
 
 #. type: Plain text
 msgid "1500:100:0.5"
-msgstr ""
+msgstr "1500:100:0.5"
 
 #. type: Plain text
 msgid "1000:100:0.09"
-msgstr ""
+msgstr "1000:100:0.09"
 
 #. type: Plain text
 msgid "500:100:0.7"
-msgstr ""
+msgstr "500:100:0.7"
 
 #. type: Plain text
 msgid ""
-"In this example, the first tone in a sequence has a pitch of 1500, duration "
-"of 100 and 0.5 silence. The second tone's pitch is 1000, duration is 100, "
-"and the silence is 0.09. The last tone in a sequence has pitch 500, duration "
-"100, and the silence is 0.7."
+"In this example, the first tone in a sequence has a pitch of 1500, duration of "
+"100 and 0.5 silence. The second tone's pitch is 1000, duration is 100, and the "
+"silence is 0.09. The last tone in a sequence has pitch 500, duration 100, and "
+"the silence is 0.7."
 msgstr ""
+"Neste exemplo, o primeiro tom em uma sequência tem um tom de 1500, duração de "
+"100 e 0,5 silêncio. O pitch do segundo tom é 1000, a duração é 100 e o "
+"silêncio é de 0,09. O último tom em uma sequência tem pitch 500, duração 100 e "
+"o silêncio é 0.7."
 
 #. type: Plain text
 msgid ""
@@ -120,98 +149,138 @@ msgid ""
 "the next one, and you will get unexpectable results. That's why I made it to "
 "be necessary."
 msgstr ""
+"Note que o parâmetro silêncio é necessário para especificar mesmo que ache que "
+"não é, porque se não for especificado, o NVDA irá sobrescrever o tom anterior "
+"pelo próximo, e você obterá resultados inesperados. É por isso que eu fiz isso "
+"para ser necessário."
 
 #. type: Plain text
 msgid ""
-"To get more familiar with tone data files syntax, please view and try "
-"editing the example file included with this add-on. It's located in the "
-"\"tones\" subfolder, where all your .tdf files must be located as well."
+"To get more familiar with tone data files syntax, please view and try editing "
+"the example file included with this add-on. It's located in the \"tones\" "
+"subfolder, where all your .tdf files must be located as well."
 msgstr ""
+"Para se familiarizar com a sintaxe dos ficheiros de dados de tom, veja e tente "
+"editar o ficheiro de exemplo incluído neste complemento. Ele está localizado "
+"na subpasta \"tons\", onde todos os seus arquivos .tdf devem estar localizados "
+"também."
 
 #. type: Title ##
 #, no-wrap
 msgid "Shortcut keys"
-msgstr ""
+msgstr "Teclas de atalho:"
 
 #. type: Bullet: '* '
 msgid "Alt+NVDA+T: Plays currently loaded tone data if everything is ok."
 msgstr ""
+"Alt+NVDA+T: Reproduz dados de tom carregados no momento, se tudo estiver ok."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+Shift+NVDA+T: Stops playback for currently loaded tone data if any tone "
 "data is playing."
 msgstr ""
+"Alt+Shift+NVDA+T: Pára a reprodução dos dados de tom carregados actualmente se "
+"algum dado de tom estiver a ser reproduzido."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+N: Creates and opens a new blank tone data file in Notepad for "
 "editing."
 msgstr ""
+"Alt+NVDA+N: Cria e abre um novo ficheiro de dados de tom em branco no Bloco de "
+"Notas para edição."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+L: Opens a dialog that lets you choose one of your available tone "
 "data files to be loaded for playback."
 msgstr ""
+"Alt+NVDA+L: Abre uma caixa de diálogo que permite escolher um dos ficheiros de "
+"dados de tom disponíveis para serem carregados para reprodução."
 
 #. type: Bullet: '* '
 msgid "Alt+NVDA+E: Opens currently loaded tone data file in Notepad for editing."
 msgstr ""
+"Alt+NVDA+E: Abre o ficheiro de dados de tom carregado actualmente no Bloco de "
+"Notas para edição."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+O: Opens a folder with tone data files where you should also save "
 "them in order to be located by Tone Master."
 msgstr ""
+"Alt+NVDA+O: Abre uma pasta com ficheiros de dados de tom, onde também deve "
+"guardá-los para serem localizados pelo extra."
 
 #. type: Title ##
 #, no-wrap
 msgid "Other notes"
-msgstr ""
+msgstr "Outras notas"
 
 #. type: Plain text
 msgid ""
-"You can also create, edit and load tone data files, or open tones folder "
-"where these files are located by going into the NVDA menu, Tools SubMenu, "
-"Tone Master SubMenu."
+"You can also create, edit and load tone data files, or open tones folder where "
+"these files are located by going into the NVDA menu, Tools SubMenu, Tone "
+"Master SubMenu."
 msgstr ""
+"Também pode criar, editar e carregar ficheiros de dados de tons ou abrir a "
+"pasta de tons onde esses ficheiros estão localizados indo para o menu do NVDA, "
+"submenu de ferramentas, submenu de mestre de tons."
 
 #. type: Plain text
 msgid ""
 "When the dialog for creating new tone data file is displayed, type the name "
 "without .tdf extension. The extension will be automatically added by Tone "
 "Master. If no name was specified, Tone Master will use the default name "
-"\"untitled.tdf\". Tone Master will automatically create and load new file "
-"for you, and it will also be opened in Notepad for editing. Press Escape at "
-"the file name prompt to cancel new file creation."
+"\"untitled.tdf\". Tone Master will automatically create and load new file for "
+"you, and it will also be opened in Notepad for editing. Press Escape at the "
+"file name prompt to cancel new file creation."
 msgstr ""
+"Quando a caixa de diálogo para criar o novo ficheiro de dados de tom for "
+"mostrada, escreva o nome sem a extensão .tdf. A extensão será adicionada "
+"automaticamente pelo Tom Master. Se nenhum nome for especificado, o Mestre de "
+"Tom usará o nome padrão \"untitled.tdf\". O Tone Master irá criar e carregar "
+"automaticamente novos ficheiros para si, e também será aberto no Bloco de "
+"Notas para edição. Pressione Escape no prompt do nome do ficheiro para "
+"cancelar a criação de novos ficheiros."
 
 #. type: Plain text
 msgid ""
 "Note: Tone Master uses Notepad for editing tone data files, since it comes "
 "with Windows by default and therefore any computer should have it available."
 msgstr ""
+"Nota: O Tom Master usa o Notepad para editar ficheiros de dados de tom, já que "
+"ele vem com o Windows por padrão e, portanto, qualquer computador deve tê-lo "
+"disponível."
 
 #. type: Plain text
 msgid ""
 "When the dialog for loading tone data file is open, use the arrow keys to "
 "select a file to load and then press Enter. Press Escape to cancel loading."
 msgstr ""
+"Quando a caixa de diálogo para carregar o ficheiro de dados de tom estiver "
+"aberta, use as teclas de seta para seleccionar um ficheiro para carregar e, em "
+"seguida, pressione Enter. Pressione Escape para cancelar o carregamento."
 
 #. type: Plain text
 msgid ""
 "When you open a folder with .tdf files, you can then load them in your text "
 "editor for viewing or editing. However, in order to hear your results on the "
 "fly, I highly recommend you to load the file into Tone Master first if "
-"possible. Then you can edit the file, save your progress, and after each "
-"save you can use play command to hear your last result."
+"possible. Then you can edit the file, save your progress, and after each save "
+"you can use play command to hear your last result."
 msgstr ""
+"Quando abre uma pasta com ficheiros.tdf, pode carregá-los no seu editor de "
+"texto para visualização ou edição. No entanto, para ouvir os seus resultados "
+"em tempo real, recomendo que carregue o ficheiro no Tone Master primeiro, se "
+"possível. Então pode editar o ficheiro, guardar o seu progresso, e após cada "
+"arquivamento pode usar o comando play para ouvir o seu último resultado."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.2"
-msgstr ""
+msgstr "Mudanças para 1.2"
 
 #. type: Bullet: '* '
 msgid ""
@@ -219,54 +288,68 @@ msgid ""
 "selecting another one and trying to play it results in tone data not being "
 "played."
 msgstr ""
+"Corrigido: Um Problema importante resolvido, em que seleccionar um dado de tom "
+"vazio e, em seguida, seleccionar outro e tentar reproduzi-lo resultava em "
+"dados de tom que não eram reproduzidos."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.1"
-msgstr ""
+msgstr "Mudanças para 1.1"
 
 #. type: Bullet: '* '
 msgid ""
 "Added: An option to create new tone data file and open it in Notepad for "
 "editing."
 msgstr ""
+"Adicionado: uma opção para criar um novo ficheiro de dados de tom e abri-lo no "
+"Bloco de Notas para edição."
 
 #. type: Bullet: '* '
 msgid "Added: An option to edit currently loaded tone data file in Notepad."
 msgstr ""
+"Adicionado: uma opção para editar o ficheiro de dados de tom carregado "
+"actualmente no Bloco de Notas."
 
 #. type: Bullet: '* '
 msgid "Improved: Error messages are now more user-friendly."
-msgstr ""
+msgstr "Aprimorado: as mensagens de erro agora são mais fáceis de usar."
 
 #. type: Bullet: '* '
 msgid ""
-"Improved: Certain addon features such as opening tones folder or editing "
-"tone data files in Notepad are now disallowed on secure screens."
+"Improved: Certain addon features such as opening tones folder or editing tone "
+"data files in Notepad are now disallowed on secure screens."
 msgstr ""
+"Aprimorado: Certos recursos adicionais, como a abertura de pasta de tons ou a "
+"edição de ficheiros de dados de tom no Bloco de notas, agora não são "
+"permitidos em ecrãs seguros."
 
 #. type: Bullet: '* '
 msgid "Improved: User will be notified by NVDA if tone data playback is stopped."
 msgstr ""
+"Melhorado: O utilizador será notificado pelo NVDA se a reprodução dos dados de "
+"tom for interrompida."
 
 #. type: Bullet: '* '
 msgid "Fixed: Disallowed playback of tone data while the one is already playing."
 msgstr ""
+"Corrigido: não permitia a reprodução de dados de tom enquanto o outro já "
+"estava sendo reproduzido."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr ""
+msgstr "Mudanças para 1.0"
 
 #. type: Bullet: '* '
 msgid "Initial release."
-msgstr ""
+msgstr "Versão inicial"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tmast"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tmast"

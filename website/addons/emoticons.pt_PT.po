@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Emoticons, versão 7\n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-06-13 18:25+0100\n"
+"PO-Revision-Date: 2018-09-21 12:45+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -231,6 +231,10 @@ msgid ""
 "recommended). This is intended to disable settings changes in case of speed "
 "issues when switching profiles."
 msgstr ""
+"Além disso, é possível activar apenas as Configurações em configuração "
+"normal (não recomendado). Este destina-se a desactivar alterações de "
+"configurações no caso de problemas de velocidade quando alternar entre "
+"perfis. "
 
 #. type: Title ##
 #, no-wrap
@@ -261,14 +265,13 @@ msgstr ""
 "deseja copiar."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 7.0"
+#, no-wrap
 msgid "Changes for 8.0"
-msgstr "Alterações para 7.0"
+msgstr "Alterações para 8.0"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Compatível com o NVDA 2018.3 ou posterior"
 
 #. type: Title ##
 #, no-wrap
