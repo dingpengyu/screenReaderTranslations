@@ -69,9 +69,9 @@ msgid "Feeds restored"
 msgstr "Carpeta no restaurada"
 
 #. Translators: The title of a dialog.
-#, fuzzy
-msgid "Feeds"
-msgstr "Read Feeds"
+#, python-brace-format
+msgid "Feeds: {defaultFeed} ({configProfile})"
+msgstr ""
 
 #. Label of a dialog (message translated in NVDA core in different contexts).
 msgid "&Filter by:"
@@ -102,10 +102,6 @@ msgstr ""
 msgid "S&et default"
 msgstr ""
 
-#. Translators: the label of a single choice dialog.
-msgid "Open web page of selected article."
-msgstr "Abrir la página web del artículo seleccionado."
-
 #. Translators: The label of a field to enter an address for a new feed.
 msgid "Address of a new feed:"
 msgstr ""
@@ -127,17 +123,39 @@ msgstr ""
 msgid "Rename feed"
 msgstr "Administrar feeds."
 
+#. Translators: The label of the articles list in the articles dialog.
+msgid "List of articles"
+msgstr ""
+
+#. Translators: The label of a button to open the selected article of a feed.
+#, fuzzy
+msgid "Open &web page of selected article."
+msgstr "Abrir la página web del artículo seleccionado."
+
+#. Translators: The label of a button to show information of a feed article.
+msgid "&About article..."
+msgstr ""
+
+#. Translators: the label of a message box dialog.
+#, python-format
+msgid ""
+"%s\r\n"
+"\r\n"
+"Do you want to copy article title and link to the clipboard?"
+msgstr ""
+
+#. Translators: the title of a message box dialog.
+msgid "Article information"
+msgstr ""
+
 #. Translators: The title of the Copy dialog.
 msgid "Copy feeds"
 msgstr ""
 
 #. Translators: An informational message displayed in the Copy dialog.
-#, python-format
-msgid ""
-"Select a folder to save a backup of your current feeds.\n"
-"\n"
-"\t\tThey will be copied from %s."
-msgstr ""
+#, fuzzy
+msgid "Select a folder to save a backup of your current feeds"
+msgstr "Selecciona la carpeta donde tus feeds personales serán respaldados."
 
 #. Translators: The label of a grouping containing controls to select the destination directory in the Copy dialog.
 msgid "directory for backup:"
@@ -153,11 +171,8 @@ msgid "Restore feeds"
 msgstr "R&estaurar feeds personales..."
 
 #. Translators: An informational message displayed in the Restore dialog.
-#, fuzzy, python-format
-msgid ""
-"Select a folder to restore a backup of your previous copied feeds.\n"
-"\n"
-"\t\tThey will be copied to %s."
+#, fuzzy
+msgid "Select a folder to restore a backup of your previous copied feeds"
 msgstr "Selecciona la carpeta donde tus feeds personales serán respaldados."
 
 #. Translators: The label of a grouping containing controls to select the destination directory in the Restore dialog.
@@ -216,11 +231,6 @@ msgid "Refreshes the current feed and announces the most recent article title."
 msgstr ""
 "Actualiza el feed actual y anuncia el título del artículo más reciente."
 
-#. Translators: message presented when the information about an article of a feed is copied to the clipboard.
-#, python-format
-msgid "Copied to clipboard %s"
-msgstr "%s copiado al portapapeles"
-
 #. Translators: message presented in input mode.
 msgid ""
 "Announces the title of the current article. Pressed two times, copies title "
@@ -228,6 +238,11 @@ msgid ""
 msgstr ""
 "Anuncia el título del artículo actual. Presionado dos veces, copia el título "
 "y el enlace relacionado al portapapeles."
+
+#. Translators: message presented when the information about an article of a feed is copied to the clipboard.
+#, python-format
+msgid "Copied to clipboard %s"
+msgstr "%s copiado al portapapeles"
 
 #. Translators: message presented in input mode.
 msgid "Announces the title of the next article."
@@ -256,6 +271,10 @@ msgstr "Read Feeds"
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid "Add-on for using NVDA as a feed reader."
 msgstr "Complemento para el uso de NVDA como un lector de feeds."
+
+#, fuzzy
+#~ msgid "Feeds"
+#~ msgstr "Read Feeds"
 
 #~ msgid "Manage feeds."
 #~ msgstr "Administrar feeds."
