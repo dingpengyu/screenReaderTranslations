@@ -96,10 +96,6 @@ msgstr ""
 msgid "S&et default"
 msgstr ""
 
-#. Translators: the label of a single choice dialog.
-msgid "Open web page of selected article."
-msgstr ""
-
 #. Translators: The label of a field to enter an address for a new feed.
 msgid "Address of a new feed:"
 msgstr ""
@@ -120,6 +116,30 @@ msgstr ""
 #, fuzzy
 msgid "Rename feed"
 msgstr "سازمان دادن به خوراک‌ها"
+
+#. Translators: The label of the articles list in the articles dialog.
+msgid "List of articles"
+msgstr ""
+
+#. Translators: The label of a button to open the selected article of a feed.
+msgid "Open &web page of selected article."
+msgstr ""
+
+#. Translators: The label of a button to show information of a feed article.
+msgid "&About article..."
+msgstr ""
+
+#. Translators: the label of a message box dialog.
+#, python-format
+msgid ""
+"%s\r\n"
+"\r\n"
+"Do you want to copy article title and link to the clipboard?"
+msgstr ""
+
+#. Translators: the title of a message box dialog.
+msgid "Article information"
+msgstr ""
 
 #. Translators: The title of the Copy dialog.
 msgid "Copy feeds"
@@ -201,15 +221,15 @@ msgstr ""
 msgid "Refreshes the current feed and announces the most recent article title."
 msgstr ""
 
-#. Translators: message presented when the information about an article of a feed is copied to the clipboard.
-#, python-format
-msgid "Copied to clipboard %s"
-msgstr ""
-
 #. Translators: message presented in input mode.
 msgid ""
 "Announces the title of the current article. Pressed two times, copies title "
 "and related link to the clipboard."
+msgstr ""
+
+#. Translators: message presented when the information about an article of a feed is copied to the clipboard.
+#, python-format
+msgid "Copied to clipboard %s"
 msgstr ""
 
 #. Translators: message presented in input mode.
