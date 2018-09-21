@@ -39,6 +39,32 @@ msgstr ""
 "Przełącza tryb ObjPad pomiędzy standardowym, nawigacji obiektowej i "
 "skanowania"
 
+#. Web navigation:
+#. Web elements list:
+msgid "normal"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Form field"
+msgstr ""
+
+msgid "Heading"
+msgstr ""
+
+msgid "Frame"
+msgstr ""
+
+msgid "Table"
+msgstr ""
+
+msgid "List"
+msgstr ""
+
+msgid "Landmark"
+msgstr ""
+
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
 msgstr "Brak następnego"
