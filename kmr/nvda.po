@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 00:10+1000\n"
-"PO-Revision-Date: 2018-09-21 14:32+0100\n"
+"PO-Revision-Date: 2018-09-21 15:45+0100\n"
 "Last-Translator: Imam <imam.kahraman@gmail.com>\n"
 "Language-Team: \n"
 "Language: kmr\n"
@@ -7420,7 +7420,7 @@ msgstr ""
 
 #. Translators: The label of a menu item to open NVDA user guide.
 msgid "&User Guide"
-msgstr ""
+msgstr "&"
 
 #. Translators: The label of a menu item to open the Commands Quick Reference document.
 msgid "Commands &Quick Reference"
