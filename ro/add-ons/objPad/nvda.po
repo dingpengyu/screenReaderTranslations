@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: objPad 18.03\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-08-25 15:36+0300\n"
+"PO-Revision-Date: 2018-09-21 11:05+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -35,37 +35,37 @@ msgstr "Mod normal"
 
 #. Translators: input help mode message for ObjPad toggle command.
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
-msgstr "Comută între modurile normal, scanare și navigare obiect."
+msgstr "Comută între modurile normal, scanare și navigare obiect"
 
 #. Web navigation:
 #. Web elements list:
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 msgid "Form field"
-msgstr ""
+msgstr "Câmp formular"
 
 msgid "Heading"
-msgstr ""
+msgstr "Rubrică"
 
 msgid "Frame"
-msgstr ""
+msgstr "Cadru"
 
 msgid "Table"
-msgstr ""
+msgstr "Tabel"
 
 msgid "List"
-msgstr ""
+msgstr "Listă"
 
 msgid "Landmark"
-msgstr ""
+msgstr "Reper"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
-msgstr "nu există următor"
+msgstr "Nu există următor"
 
 #. Translators: a message when there is no previous object when navigating
 msgid "No previous"
