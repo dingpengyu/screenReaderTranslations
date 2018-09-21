@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: objPad 18.03\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-08-25 12:22+0200\n"
-"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"PO-Revision-Date: 2018-09-21 07:03+0200\n"
+"Last-Translator: Karl Eick <hozosch@web.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -40,28 +40,28 @@ msgstr "Schaltet zwischen Normal-, Objektnavigations- und Erkundungsmodus um."
 #. Web navigation:
 #. Web elements list:
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 msgid "Form field"
-msgstr ""
+msgstr "Formularfeld"
 
 msgid "Heading"
-msgstr ""
+msgstr "überschrift"
 
 msgid "Frame"
-msgstr ""
+msgstr "Rahmen"
 
 msgid "Table"
-msgstr ""
+msgstr "Tabelle"
 
 msgid "List"
-msgstr ""
+msgstr "liste"
 
 msgid "Landmark"
-msgstr ""
+msgstr "Sprungmarke"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
