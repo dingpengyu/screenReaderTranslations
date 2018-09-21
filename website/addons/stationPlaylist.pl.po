@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Station playlist studio\n"
 "POT-Creation-Date: 2018-09-10 03:34+1000\n"
-"PO-Revision-Date: 2017-12-28 10:54-0800\n"
-"Last-Translator: Grzegorz Zlotowicz <grzezlo@wp.pl>\n"
+"PO-Revision-Date: 2018-09-14 13:41+0200\n"
+"Last-Translator: Piotr Rakowski <piter.9521@wp.pl>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -37,6 +37,8 @@ msgstr "Pobierz [wersja rozwojowa][2]"
 #. type: Bullet: '* '
 msgid "Download [long-term support version][3] - for Studio 5.10/5.11 users"
 msgstr ""
+"Pobierz [długoterminową wersję pomocy] [3] - dla użytkowników Studio 5.10 / "
+"5.11"
 
 #. type: Plain text
 #, fuzzy
@@ -56,10 +58,14 @@ msgid ""
 "developers seeking to know how to build the add-on, see buildInstructions."
 "txt located at the root of the add-on source code repository."
 msgstr ""
+"Aby uzyskać więcej informacji na temat dodatku, przeczytaj [podręcznik "
+"dodatku] [4]. Dla programistów, którzy chcą wiedzieć, jak zbudować ten "
+"dodatek, zobacz buildInstructions.txt znajdujący się w katalogu głównym "
+"repozytorium kodu źródłowego dodatku."
 
 #. type: Plain text
 msgid "IMPORTANT NOTES:"
-msgstr ""
+msgstr "WAŻNE INFORMACJE:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -67,29 +73,41 @@ msgid ""
 "later. For best experience, NVDA 2018.3 and Studio 5.11 or later is "
 "recommended."
 msgstr ""
+"Ten dodatek wymaga NVDA 2018.2 lub nowszego oraz StationPlaylist Studio 5.10 "
+"lub nowszego. Dla uzyskania najlepszej jakości, zalecane są NVDA 2018.3 i "
+"Studio 5.11 lub nowsze."
 
 #. type: Bullet: '* '
 msgid ""
 "If using Windows 8 or later, for best experience, disable audio ducking mode."
 msgstr ""
+"Jeśli korzystasz z systemu Windows 8 lub nowszego, dla uzyskania najlepszej "
+"jakości, wyłącz tryb autoregulacji głośności."
 
 #. type: Bullet: '* '
 msgid ""
 "Starting from 2018, [changelogs for old add-on releases][5] will be found on "
 "GitHub. This add-on readme will list changes from version 5.0 (2015 onwards)."
 msgstr ""
+"Począwszy od 2018 r. Na GitHubie znajdą się [informacje o zmianach dla "
+"starszych wersji dodatków] [5]. Ten plik readme z dodatkiem wyświetli zmiany "
+"od wersji 5.0 (od 2015 r.)."
 
 #. type: Bullet: '* '
 msgid ""
 "Certain add-on features (notably add-on updating) won't work under some "
 "conditions, including running NVDA in secure mode."
 msgstr ""
+"Niektóre funkcje dodatkowe (w szczególności aktualizacje dodatków) nie będą "
+"działać w pewnych sytuacjach, w tym w NVDA w trybie bezpiecznym."
 
 #. type: Bullet: '* '
 msgid ""
 "Due to tecnical limitations, you cannot install or use this add-on on "
 "Windows Store version of NVDA."
 msgstr ""
+"Ze względu na ograniczenia techniczne nie można zainstalować ani używać tego "
+"dodatku w wersji NVDA dla Sklepu Windows."
 
 #. type: Title ##
 #, no-wrap
@@ -98,7 +116,7 @@ msgstr "Skróty klawiszowe"
 
 #. type: Plain text
 msgid "Most of these will work in Studio only unless otherwise specified."
-msgstr ""
+msgstr "Większość z nich działa tylko w Studio, chyba że określono inaczej."
 
 #. type: Bullet: '* '
 msgid ""
@@ -198,6 +216,8 @@ msgid ""
 "Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
 "and Track Tool): Announce previous/next track column."
 msgstr ""
+"Control+Alt+strzałka lewo/prawo (gdy kursor ustawiony na ścieżce w Studio, "
+"Creator i Track Tool): Ogłoś poprzednią / następną kolumnę ścieżki."
 
 #. type: Bullet: '* '
 msgid ""
@@ -205,6 +225,9 @@ msgid ""
 "previous or next track and announce specific columns (unavailable in add-on "
 "15.x)."
 msgstr ""
+"Control+Alt+strzałka w górę/w dół (gdy kursor ustawiony na ścieżce tylko w "
+"Studio): Przejdź do poprzedniej lub następnej ścieżki i ogłoś określone "
+"kolumny (niedostępne w dodatku 15.x)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -212,18 +235,26 @@ msgid ""
 "Track Tool): Announce column content for a specified column. Pressing this "
 "command twice will display column information on a browse mode window."
 msgstr ""
+"Control+NVDA+1 do 0 (gdy kursor ustawiony na ścieżce w Studio, Creator i "
+"Track Tool): Ogłoś zawartość określonej kolumny. Dwukrotne naciśnięcie tego "
+"polecenia spowoduje wyświetlenie informacji o kolumnie w oknie trybu "
+"przeglądania."
 
 #. type: Bullet: '* '
 msgid ""
 "Control+NVDA+- (hyphen in Studio): display data for all columns in a track "
 "on a browse mode window."
 msgstr ""
+"Control+NVDA+- (minus w Studio): wyświetl dane wszystkich kolumn ścieżki w "
+"oknie trybu przeglądania."
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+C while focused on a track (Studio only): announces track comments "
 "if any."
 msgstr ""
+"Alt+NVDA+C, gdy kursor ustawiony na ścieżce (tylko Studio): ogłoś komentarze "
+"dotyczące ścieżek, jeśli takie istnieją."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -244,7 +275,7 @@ msgstr "Control+NVDA+2 w oknie studia: otwiera ustawienie końca ścieżki."
 
 #. type: Bullet: '* '
 msgid "Alt+NVDA+F1: Open welcome dialog."
-msgstr ""
+msgstr "Alt+NVDA+F1: Otwórz okno powitalne."
 
 #. type: Title ##
 #, no-wrap
@@ -274,6 +305,8 @@ msgstr "Warstwa kontrolera SPL."
 #. type: Bullet: '* '
 msgid "Announcing Studio status such as track playback from other programs."
 msgstr ""
+"Ogłoś status programu Studio, na przykład odtwarzanie ścieżki z innych "
+"programów."
 
 #. type: Bullet: '* '
 msgid "SPL Assistant layer from SPL Studio."
@@ -285,11 +318,11 @@ msgstr "Oznajmia czas z uwzględnieniem sekund ze studia SPL."
 
 #. type: Bullet: '* '
 msgid "Announcing temperature."
-msgstr ""
+msgstr "Oznajmianie  temperatury."
 
 #. type: Bullet: '* '
 msgid "Announcing title of next track if scheduled."
-msgstr ""
+msgstr "Oznajmianie  tytułu następnego utworu, jeśli jest zaplanowany."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -300,29 +333,31 @@ msgstr "Naciśnij R aby usłyszeć pozostały czas aktualnie odtwarzanej ścież
 
 #. type: Bullet: '* '
 msgid "Marking current track for start of track time analysis."
-msgstr ""
+msgstr "Oznaczanie bieżącej ścieżki w celu rozpoczęcia analizy czasu ."
 
 #. type: Bullet: '* '
 msgid "Performing track time analysis."
-msgstr ""
+msgstr "Przeprowadzanie analizy czasu utworu."
 
 #. type: Bullet: '* '
 msgid "Take playlist snapshots."
-msgstr ""
+msgstr "Wykonuj migawki playlisty."
 
 #. type: Bullet: '* '
 msgid "Find text in specific columns."
-msgstr ""
+msgstr "Znajdź tekst w określonych kolumnach."
 
 #. type: Bullet: '* '
 msgid ""
 "Find tracks with duration that falls within a given range via time range "
 "finder."
 msgstr ""
+"Znajdź ścieżki o czasie trwania mieszczącym się w danym zakresie za pomocą "
+"wyszukiwarki zakresu czasu."
 
 #. type: Bullet: '* '
 msgid "Quickly enable or disable metadata streaming."
-msgstr ""
+msgstr "Szybkie włączanie i wyłączanie przesyłania strumieniowego metadanych."
 
 #. type: Title ##
 #, no-wrap
@@ -347,6 +382,8 @@ msgid ""
 "Control+F9/Control+F10 (SAM encoder only): Connect or disconnect all "
 "encoders, respectivley."
 msgstr ""
+"Control+F9/Control+F10 (tylko enkoder SAM): Podłącz lub odłącz wszystkie "
+"enkodery, odpowiednio."
 
 #. type: Bullet: '* '
 msgid ""
@@ -366,7 +403,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Control+F11: Toggles background monitoring of the selected encoder."
-msgstr ""
+msgstr "Control+F11: Włącza monitorowanie wybranego enkodera w tle."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -395,19 +432,19 @@ msgstr ""
 msgid ""
 "Alt+NVDA+0: Opens encoder settings dialog to configure options such as "
 "stream label."
-msgstr ""
+msgstr "Alt+NVDA+0: Otwiera okno ustawień enkodera, np. etykieta strumienia."
 
 #. type: Plain text
 msgid "In addition, column review commands are available, including:"
-msgstr ""
+msgstr "Ponadto dostępne są polecenia służące do przeglądania kolumn, w tym:"
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+1: Encoder position."
-msgstr ""
+msgstr "Control+NVDA+1: Pozycja enkodera."
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+2: stream label."
-msgstr ""
+msgstr "Control+NVDA+2: etykieta strumienia."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -417,19 +454,20 @@ msgstr "Control+NVDA+4 w oknie studia: otwiera ustawienie alarmu mikrofonu."
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+3 from SPL Encoder: Encoder settings."
-msgstr ""
+msgstr "Control+NVDA+3 z enkodera SPL: Ustawienia enkodera."
 
 #. type: Bullet: '* '
 msgid "Control+NvDA+4 from SAM Encoder: Encoder connection status."
-msgstr ""
+msgstr "Control+NvDA+4 z enkodera SAM: status połączenia enkodera."
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+4 from SPL Encoder: Transfer rate or connection status."
 msgstr ""
+"Control+NVDA+4 z enkodera SPL: Szybkość przesyłania lub stan połączenia."
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+5 from SAM Encoder: Connection status description."
-msgstr ""
+msgstr "Control+NVDA+5 z enkodera SAM: opis statusu połączenia."
 
 #. type: Title ##
 #, no-wrap
@@ -483,12 +521,17 @@ msgid ""
 "C (JAWS and Window-Eyes layouts): Toggle cart explorer (playlist viewer "
 "only)."
 msgstr ""
+"C (Układy JAWS i Window-Eyes): Przełącz eksplorator koszyka (tylko widok "
+"listy odtwarzania)."
 
 #. type: Bullet: '* '
 msgid ""
 "D (R in JAWS layout): Remaining duration for the playlist (if an error "
 "message is given, move to playlist viewer and then issue this command)."
 msgstr ""
+"D (R w układzie JAWS): pozostały czas trwania listy odtwarzania (jeśli "
+"podano komunikat o błędzie, przejdź do widoku listy odtwarzania, a następnie "
+"wydaj to polecenie)."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -501,6 +544,8 @@ msgid ""
 "Shift+1 through Shift+4, Shift+0: Status for individual metadata streaming "
 "URL's (0 is for DSP encoder)."
 msgstr ""
+"Shift+1 through Shift+4, Shift+0: Status przesyłania strumieniowego "
+"metadanych dla poszczególnych adresów URL (0 jest dla enkodera DSP)."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -514,7 +559,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "F: Find track (playlist viewer only)."
-msgstr ""
+msgstr "F: Znajdź utwór (tylko widok listy odtwarzania)."
 
 #. type: Bullet: '* '
 msgid "H: Duration of music for the current hour slot."
@@ -522,25 +567,27 @@ msgstr "H: czas trwania muzyki dla aktualnego slotu godzinowego."
 
 #. type: Bullet: '* '
 msgid "Shift+H: Remaining track duration for the hour slot."
-msgstr ""
+msgstr "Shift+H: Pozostały czas trwania utworu dla przedziału godzinowego."
 
 #. type: Bullet: '* '
 msgid "I (L in JAWS or Window-Eyes layouts): Listener count."
-msgstr ""
+msgstr "I (L w układzie JAWS lub Window-Eyes): Liczba słuchaczy."
 
 #. type: Bullet: '* '
 msgid "K: Move to the marked track (playlist viewer only)."
-msgstr ""
+msgstr "K: Przejdź do zaznaczonego utworu (tylko widok listy odtwarzania)."
 
 #. type: Bullet: '* '
 msgid ""
 "Control+K: Set the current track as the place marker track (playlist viewer "
 "only)."
 msgstr ""
+"Control+K: Ustaw bieżący utwór jako miejsce znacznika utworu (tylko widok "
+"listy odtwarzania)."
 
 #. type: Bullet: '* '
 msgid "L (Shift+L in JAWS and Window-Eyes layouts): Line in."
-msgstr ""
+msgstr "L (Shift+L w układach JAWS i Window-Eyes): wejście liniowe."
 
 #. type: Bullet: '* '
 msgid "M: Microphone."
@@ -579,7 +626,7 @@ msgstr "S: ścieżka rozpocznie się za (zaplanowane)."
 
 #. type: Bullet: '* '
 msgid "Shift+S: Time until selected track will play (track starts in)."
-msgstr ""
+msgstr "Shift+S: Czas do odtworzenia wybranego utworu (rozpoczyna się utwór)."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -593,7 +640,7 @@ msgstr "U: czas pracy studia."
 
 #. type: Bullet: '* '
 msgid "Control+Shift+U: Check for add-on updates."
-msgstr ""
+msgstr "Control+Shift+U: Sprawdź aktualizacje dodatku."
 
 #. type: Bullet: '* '
 msgid "W: Weather and temperature if configured."
@@ -610,23 +657,27 @@ msgid ""
 "1 through 0 (6 for Studio 5.0x): Announce column content for a specified "
 "column."
 msgstr ""
+"1 do 0 (6 dla Studio 5.0x): Ogłaszaj zawartość kolumny dla określonej "
+"kolumny."
 
 #. type: Bullet: '* '
 msgid "F8: Take playlist snapshots (number of tracks, longest track, etc.)."
-msgstr ""
+msgstr "F8: Zrób Zżut z playlisty (liczba utworów, najdłuższa ścieżka itp.)."
 
 #. type: Bullet: '* '
 msgid "Shift+F8: Request playlist transcripts in numerous formats."
-msgstr ""
+msgstr "Shift+F8: odpytaj o transkrypcję listy odtwarzania w wielu formatach."
 
 #. type: Bullet: '* '
 msgid ""
 "F9: Mark current track for start of playlist analysis (playlist viewer only)."
 msgstr ""
+"F9: Zaznacz bieżący utwór w celu rozpoczęcia analizy listy odtwarzania "
+"(tylko widok listy odtwarzania)."
 
 #. type: Bullet: '* '
 msgid "F10: Perform track time analysis (playlist viewer only)."
-msgstr ""
+msgstr "F10: Wykonaj analizę czasu utworu(tylko widok list odtwarzania)."
 
 #. type: Bullet: '* '
 msgid "F12: Switch between current and a predefined profile."
@@ -3014,28 +3065,32 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
 
 #. type: Plain text
+<<<<<<< .mine
+||||||| .r43785
+#, fuzzy
+#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+=======
 #, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+>>>>>>> .r44084
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=spl-lts18"
+<<<<<<< .mine
+msgstr "[3]: http://addons.nvda-project.org/files/get.php?file=spl"
+||||||| .r43785
+msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=spl"
+=======
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+>>>>>>> .r44084
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/"
-#| "SPLAddonGuide"
 msgid "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
 msgstr ""
-"[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/SPLAddonGuide"
+"[4]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/SPLAddonGuide"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/"
-#| "SPLAddonGuide"
 msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
 msgstr ""
-"[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/SPLAddonGuide"
+"[5]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/SPLAddonGuide"
 
 #, fuzzy
 #~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
