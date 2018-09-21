@@ -67,12 +67,13 @@ msgstr "TeamViewer"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves the accessibility of TeamViewer with NVDA.\n"
 "TeamViewer can be used to hold online meetings as well as provide remote "
 "support/access.\n"
 "For more information about the TeamViewer application, see:\n"
-"https://www.teamviewer.com"
+"http://www.teamviewer.com"
 msgstr ""
 "Verbessert die Zugänglichkeit von TeamViewer mit NVDA.\n"
 "Mit TeamViewer können Sie gemeinsam über ein Netzwerk auf andere PCs "
