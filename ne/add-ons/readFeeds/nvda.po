@@ -68,9 +68,9 @@ msgid "Feeds restored"
 msgstr "घर्रालाई बहाली गरिएको छैन ।"
 
 #. Translators: The title of a dialog.
-#, fuzzy
-msgid "Feeds"
-msgstr "पोषणवाचन"
+#, python-brace-format
+msgid "Feeds: {defaultFeed} ({configProfile})"
+msgstr ""
 
 #. Label of a dialog (message translated in NVDA core in different contexts).
 msgid "&Filter by:"
@@ -101,10 +101,6 @@ msgstr ""
 msgid "S&et default"
 msgstr ""
 
-#. Translators: the label of a single choice dialog.
-msgid "Open web page of selected article."
-msgstr "चयनित आलेखको वेभ पृष्ठ पल्टाउ ।"
-
 #. Translators: The label of a field to enter an address for a new feed.
 msgid "Address of a new feed:"
 msgstr ""
@@ -126,17 +122,39 @@ msgstr ""
 msgid "Rename feed"
 msgstr "पोषण व्यबस्थापन गर"
 
+#. Translators: The label of the articles list in the articles dialog.
+msgid "List of articles"
+msgstr ""
+
+#. Translators: The label of a button to open the selected article of a feed.
+#, fuzzy
+msgid "Open &web page of selected article."
+msgstr "चयनित आलेखको वेभ पृष्ठ पल्टाउ ।"
+
+#. Translators: The label of a button to show information of a feed article.
+msgid "&About article..."
+msgstr ""
+
+#. Translators: the label of a message box dialog.
+#, python-format
+msgid ""
+"%s\r\n"
+"\r\n"
+"Do you want to copy article title and link to the clipboard?"
+msgstr ""
+
+#. Translators: the title of a message box dialog.
+msgid "Article information"
+msgstr ""
+
 #. Translators: The title of the Copy dialog.
 msgid "Copy feeds"
 msgstr ""
 
 #. Translators: An informational message displayed in the Copy dialog.
-#, python-format
-msgid ""
-"Select a folder to save a backup of your current feeds.\n"
-"\n"
-"\t\tThey will be copied from %s."
-msgstr ""
+#, fuzzy
+msgid "Select a folder to save a backup of your current feeds"
+msgstr "तपाइको निजी पोषण थन्क्याइने घर्रालाई चयन गर्नु होस् ।"
 
 #. Translators: The label of a grouping containing controls to select the destination directory in the Copy dialog.
 msgid "directory for backup:"
@@ -152,11 +170,8 @@ msgid "Restore feeds"
 msgstr "&वैयक्तिक पोषण घर्रालाइ बहाली गर"
 
 #. Translators: An informational message displayed in the Restore dialog.
-#, fuzzy, python-format
-msgid ""
-"Select a folder to restore a backup of your previous copied feeds.\n"
-"\n"
-"\t\tThey will be copied to %s."
+#, fuzzy
+msgid "Select a folder to restore a backup of your previous copied feeds"
 msgstr "तपाइको निजी पोषण थन्क्याइने घर्रालाई चयन गर्नु होस् ।"
 
 #. Translators: The label of a grouping containing controls to select the destination directory in the Restore dialog.
@@ -214,17 +229,17 @@ msgstr ""
 msgid "Refreshes the current feed and announces the most recent article title."
 msgstr "ताजकि चालू पोषण हो र सबै भन्दा नया आलेख शिर्षकको घोषणा गर्छ ।"
 
-#. Translators: message presented when the information about an article of a feed is copied to the clipboard.
-#, python-format
-msgid "Copied to clipboard %s"
-msgstr " %s लाई क्लीपपाटीमा उतारियो ।"
-
 #. Translators: message presented in input mode.
 msgid ""
 "Announces the title of the current article. Pressed two times, copies title "
 "and related link to the clipboard."
 msgstr ""
 "चालू आलेखको शिर्षक बताउने छ ।दुइपटक दबाएमा आलेखको शिर्षक र लिङ्क क्लिपपाटीमा उतार्ने छ ।"
+
+#. Translators: message presented when the information about an article of a feed is copied to the clipboard.
+#, python-format
+msgid "Copied to clipboard %s"
+msgstr " %s लाई क्लीपपाटीमा उतारियो ।"
 
 #. Translators: message presented in input mode.
 msgid "Announces the title of the next article."
@@ -251,6 +266,10 @@ msgstr "पोषणवाचन"
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid "Add-on for using NVDA as a feed reader."
 msgstr "नेत्रवाणिमा पोषण वाचन गर्ने उपकर्मी ।"
+
+#, fuzzy
+#~ msgid "Feeds"
+#~ msgstr "पोषणवाचन"
 
 #~ msgid "Manage feeds."
 #~ msgstr "पोषण व्यबस्थापन गर"
