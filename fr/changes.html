@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 <HEAD>
-<META NAME="generator" CONTENT="https://txt2tags.org">
+<META NAME="generator" CONTENT="http://txt2tags.org">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <TITLE>Quoi de Neuf dans NVDA</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
@@ -9,6 +9,47 @@
 <H2>Quoi de Neuf dans NVDA</H2>
 </CENTER>
 
+
+<H2>2018.4</H2>
+
+<H3>Nouvelles Fonctionnalités</H3>
+
+<UL>
+<LI>Nouvelles tables braille : Chinois (Chine, Mandarin) intégral et abrégé. (<A HREF="https://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+</UL>
+
+<H3>Changements</H3>
+
+<UL>
+<LI>"Annoncer les bulles d'aide" dans le dialogue de Présentation des Objets a été renommé en "Annoncer les notifications" pour inclure l'annonce notifications toast sous Windows 8 et au-delà. (<A HREF="https://github.com/nvaccess/nvda/issues/5789">#5789</A>)
+<LI>Dans les paramètres clavier de NVDA, les cases à cocher permettant d'activer ou désactiver les touches NVDA sont maintenant affichées dans une liste plutôt que comme des cases à cocher séparées.
+<LI>NVDA n'annoncera plus d'informations redondantes à la lecture de l'horloge de la barre des tâches système sous certaines versions de Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/4364">#4364</A>)
+<LI>mise à jour du traducteur braille liblouis à la version  3.7.0. (<A HREF="https://github.com/nvaccess/nvda/issues/8697">#8697</A>)
+</UL>
+
+<H3>Corrections de bogues</H3>
+
+<UL>
+<LI>Sous Outlook 2016/365, la catégorie et l'indicateur d'état sont annoncés pour les messages. (<A HREF="https://github.com/nvaccess/nvda/issues/8603">#8603</A>)
+<LI>Quand NVDA est configuré pour des langues telles que Kirgiz, Mongol ou Macédonien, il n'affiche plus au démarrage un dialogue avertissant que la langue n'est pas supportée par le système d'exploitation. (<A HREF="https://github.com/nvaccess/nvda/issues/8064">#8064</A>)
+<LI>Sous Mozilla Firefox, Google Chrome et Acrobat Reader DC, amener la souris à l'objet de navigation amènera maintenant la souris à la position en mode navigation. (<A HREF="https://github.com/nvaccess/nvda/issues/6460">#6460</A>)
+<LI>L'interaction avec les listes déroulantes sous Firefox, Chrome et Internet Explorer a été améliorée. (<A HREF="https://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+</UL>
+
+<H3>Changements pour les Développeurs</H3>
+
+<UL>
+<LI>gui.nvdaControls contient maintenant deux classes pour créer des listes accessibles avec des cases à cocher. (<A HREF="https://github.com/nvaccess/nvda/issues/7325">#7325</A>)
+ <UL>
+ <LI>CustomCheckListBox est une sous-classe accessible de wx.CheckListBox.
+ <LI>AutoWidthColumnCheckListCtrl ajoute des cases à cocher accessibles à un contrôle AutoWidthColumnListCtrl, qui est lui-même basé sur wx.ListCtrl.
+ </UL>
+<LI>Si vous avez besoin de rendre accessible un widget wx qui ne l'est pas déjà, il est possible de le faire en utilisant une instance de gui.accPropServer.IAccPropServer_impl. (<A HREF="https://github.com/nvaccess/nvda/issues/7491">#7491</A>)
+ <UL>
+ <LI>Consultez  l'implementation de gui.nvdaControls.ListCtrlAccPropServer pour plus d'informations.
+ </UL>
+<LI>configobj mis à jour à la version 5.1.0dev commit 5b5de48a. (<A HREF="https://github.com/nvaccess/nvda/issues/4470">#4470</A>)
+</UL>
 
 <H2>2018.3</H2>
 
@@ -44,7 +85,7 @@ Les points forts de cette version incluent la détection automatique de beaucoup
 <LI>Pour les terminaux ALVA BC680 et protocol converter, il est maintenant possible d'assigner différentes fonctions au smart pad gauche et droit, et aux touches pouce et etouch. (<A HREF="https://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>Pour les terminaux ALVA BC6, la combinaison de touches sp2+sp3 annonce maintenant la date et l'heure courante, et sp1+sp2 émule la touche Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/8230">#8230</A>)
 <LI>Au premier démarrage de NVDA, il est maintenant demandé à l'utilisateur s'il souhaite envoyer des statistiques d'utilisation à NV Access lors de la vérification automatique de mises à jour. (<A HREF="https://github.com/nvaccess/nvda/issues/8217">#8217</A>)
-<LI>Lors de la vérification de mises à jour, si l'utilisateur a accepté d'envoyer des données statistiques à NV Access, NVDA enverra maintenant le nom du synthétiseur et le terminal braille en cours, pour permettre une meilleure prioritisation du travail futur sur ces pilotes. (<A HREF="https://github.com/nvaccess/nvda/issues/8217">#8217</A>)
+<LI>Lors de la vérification de mises à jour, si l'utilisateur a accepté d'envoyer des données statistiques à NV Access, NVDA enverra maintenant le nom du synthétiseur et le terminal braille en cours, pour permettre une meilleure priorisation du travail futur sur ces pilotes. (<A HREF="https://github.com/nvaccess/nvda/issues/8217">#8217</A>)
 <LI>Mise à jour du convertisseur braille Liblouis à la version 3.6.0. (<A HREF="https://github.com/nvaccess/nvda/issues/8365">#8365</A>)
 <LI>Mise à jour du chemin vers la bonne table braille russe 8 points. (<A HREF="https://github.com/nvaccess/nvda/issues/8446">#8446</A>)
 <LI>Mise à jour de eSpeak-ng au niveau 1.49.3dev commit 910f4c2 (<A HREF="https://github.com/nvaccess/nvda/issues/8561">#8561</A>)
@@ -78,6 +119,7 @@ Les points forts de cette version incluent la détection automatique de beaucoup
  <LI>Les puces ou numérotations nouvellement insérées dans un document Word sont correctement signalées vocalement et en braille. (<A HREF="https://github.com/nvaccess/nvda/issues/7970">#7970</A>)
  </UL>
 <LI>Sous Windows 10 1803 et au-delà, il est maintenant possible d'installer des modules complémentaires si la fonctionnalité "Utiliser Unicode UTF-8 pour le support mondial des langues" est activé. (<A HREF="https://github.com/nvaccess/nvda/issues/8599">#8599</A>)
+<LI>Il n'est plus impossible d'interagir avec iTunes 12.9 et au-delà avec NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/8744">#8744</A>)
 </UL>
 
 <H3>Changements pour les Développeurs</H3>
@@ -1674,7 +1716,7 @@ Veuillez lire le document <A HREF="keyCommands.html">Résumé des commandes</A> 
 <LI>Le pilote de synthèse vocale espeak supporte mieux le mode épellation (ex : annonce la valeur de la lettre plutôt que sa phonéthique). (<A HREF="https://github.com/nvaccess/nvda/issues/3106">#3106</A>)
 <LI>NVDA n'échoue plus lors de la copie de la configuration utilisateur pour utilisation à l'écran de connexion et les autres écrans sécurisés lorsque le chemin du profil contient des caractères non ASCII. (<A HREF="https://github.com/nvaccess/nvda/issues/3092">#3092</A>)
 <LI>NVDA ne se fige plus lorsque l'on saisi des caractères asiatiques dans certaines applications .NET. (<A HREF="https://github.com/nvaccess/nvda/issues/3005">#3005</A>)
-<LI>Il est maintenant possible d'utiliser le mode navigation pour les pages sous Internet Explorer 10 lorsque l'on est en mode standard ; Ex : la page de connexion de <A HREF="https://www.gmail.com">www.gmail.com</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/3151">#3151</A>)
+<LI>Il est maintenant possible d'utiliser le mode navigation pour les pages sous Internet Explorer 10 lorsque l'on est en mode standard ; Ex : la page de connexion de <A HREF="http://www.gmail.com">www.gmail.com</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/3151">#3151</A>)
 </UL>
 
 <H3>Changements pour les développeurs</H3>
@@ -2964,6 +3006,6 @@ Accès au contenu web grâce aux nouveaux tampons virtuels en développement (pr
 <P></P>
 </UL>
 
-<!-- html code generated by txt2tags 2.6 (https://txt2tags.org) -->
+<!-- html code generated by txt2tags 2.6 (http://txt2tags.org) -->
 <!-- cmdline: txt2tags -q changes.t2t -->
 </BODY></HTML>
