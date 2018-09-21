@@ -31,6 +31,7 @@ Ce este nou în NVDA
  - Vedeți implementarea gui.nvdaControls.ListCtrlAccPropServer pentru mai multe informații.
 - S-a actualizat configobj la 5.1.0dev commit 5b5de48a. (#4470)
 
+
 = 2018.3.1 =
 Aceasta este o versiune minoră care repară un defect critic din NVDA, defect care făcea ca versiunile de Mozilla Firefox bazate pe 32 de biți să dea rateuri. (#8759)
 
