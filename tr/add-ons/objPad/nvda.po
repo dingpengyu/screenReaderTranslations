@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: objPad 18.03\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-09-07 13:48+0300\n"
+"PO-Revision-Date: 2018-09-21 09:03+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: tr\n"
@@ -40,28 +40,28 @@ msgstr "Nesne dolaşımı, web, tarama ve normal modlar arasında geçiş yapar"
 #. Web navigation:
 #. Web elements list:
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 msgid "Link"
-msgstr ""
+msgstr "link"
 
 msgid "Form field"
-msgstr ""
+msgstr "form alanı"
 
 msgid "Heading"
-msgstr ""
+msgstr "başlık"
 
 msgid "Frame"
-msgstr ""
+msgstr "çerçeve"
 
 msgid "Table"
-msgstr ""
+msgstr "tablo"
 
 msgid "List"
-msgstr ""
+msgstr "liste"
 
 msgid "Landmark"
-msgstr ""
+msgstr "sınır imi"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
