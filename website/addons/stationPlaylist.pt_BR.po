@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-10 03:34+1000\n"
+"POT-Creation-Date: 2018-09-22 04:49+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,9 +56,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 or "
-"later. For best experience, NVDA 2018.3 and Studio 5.11 or later is "
-"recommended."
+"This add-on requires NVDA 2018.3 or later and StationPlaylist Studio 5.11 or "
+"later."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -761,6 +760,32 @@ msgid ""
 "and have NVDA 2012.3 or later installed, you can perform some Studio "
 "commands from the touchscreen. First use three finger tap to switch to SPL "
 "mode, then use the touch commands listed above to perform commands."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.10.1/18.09.3-LTS"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Resolved several issues related to encoder connection announcement feature, "
+"including not announcing status messages, failing to play the first selected "
+"track, or not switching to Studio window when connected. These bugs are "
+"caused by wxPython 4 (NVDA 2018.3 or later)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.10"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA 2018.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Internal changes to make the add-on more compatible with Python 3."
 msgstr ""
 
 #. type: Title ##

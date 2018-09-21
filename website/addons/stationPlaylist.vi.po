@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-10 03:34+1000\n"
+"POT-Creation-Date: 2018-09-22 04:49+1000\n"
 "PO-Revision-Date: 2018-09-10 12:25+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
@@ -59,10 +59,14 @@ msgid "IMPORTANT NOTES:"
 msgstr "CÁC LƯU Ý QUAN TRỌNG:"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 "
+#| "or later. For best experience, NVDA 2018.3 and Studio 5.11 or later is "
+#| "recommended."
 msgid ""
-"This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 or "
-"later. For best experience, NVDA 2018.3 and Studio 5.11 or later is "
-"recommended."
+"This add-on requires NVDA 2018.3 or later and StationPlaylist Studio 5.11 or "
+"later."
 msgstr ""
 "Add-on này yêu cầu NVDA 2018.2 trở lên và StationPlaylist Studio 5.10 trở "
 "lên. Để có trải nghiệm tốt nhất, NVDA 2018.3 và Studio 5.11 trở lên được "
@@ -914,8 +918,37 @@ msgstr ""
 "và sử dụng các thao tác cảm ứng đã liệt kê ở trên để thực hiện các lệnh."
 
 #. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 16.10.1/15.2-LTS"
+msgid "Version 18.10.1/18.09.3-LTS"
+msgstr "Phiên bản 16.10.1/15.2-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"Resolved several issues related to encoder connection announcement feature, "
+"including not announcing status messages, failing to play the first selected "
+"track, or not switching to Studio window when connected. These bugs are "
+"caused by wxPython 4 (NVDA 2018.3 or later)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08"
+msgid "Version 18.10"
+msgstr "Phiên bản 18.08"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 Service Pack 1 or later is required."
+msgid "NVDA 2018.3 or later is required."
+msgstr "Yêu cầu Windows 7 Service Pack 1 trở lên."
+
+#. type: Bullet: '* '
+msgid "Internal changes to make the add-on more compatible with Python 3."
+msgstr ""
+
+#. type: Title ##
 #, no-wrap
-#| msgid "Version 18.03/15.14-LTS"
 msgid "Version 18.09.1-LTS"
 msgstr "Phiên bản 18.09.1-LTS"
 
@@ -929,7 +962,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.03/15.14-LTS"
 msgid "Version 18.09-LTS"
 msgstr "Phiên bản 18.09-LTS"
 
@@ -3567,7 +3599,6 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
 
 #. type: Plain text
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=spl-lts18"
 msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=spl-lts18"
 
@@ -3580,6 +3611,8 @@ msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
 msgstr "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
 
 #~ msgid ""
-#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-"
+#~ "lts16"
 #~ msgstr ""
-#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-"
+#~ "lts16"

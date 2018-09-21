@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: stationPlayList NVDA add-on\n"
-"POT-Creation-Date: 2018-09-10 03:34+1000\n"
+"POT-Creation-Date: 2018-09-22 04:49+1000\n"
 "PO-Revision-Date: 2018-08-30 22:02+0200\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: NVDA translation team <LL@li.org>\n"
@@ -67,9 +67,8 @@ msgstr "NOTAS IMPORTANTES:"
 #| "This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 "
 #| "or later."
 msgid ""
-"This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 or "
-"later. For best experience, NVDA 2018.3 and Studio 5.11 or later is "
-"recommended."
+"This add-on requires NVDA 2018.3 or later and StationPlaylist Studio 5.11 or "
+"later."
 msgstr ""
 "Este complemento requiere de NVDA 2018.2 o posterior y StationPlaylist "
 "Studio 5.10 o posterior."
@@ -972,6 +971,36 @@ msgstr ""
 "realizar algunas órdenes de Studio desde la pantalla táctil. Primero utiliza "
 "un toque con tres dedos para cambiar a modo SPL, entonces utiliza las "
 "órdenes táctiles listadas arriba para llevar a cabo tareas."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 16.10.1/15.2-LTS"
+msgid "Version 18.10.1/18.09.3-LTS"
+msgstr "Versión 16.10.1/15.2-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"Resolved several issues related to encoder connection announcement feature, "
+"including not announcing status messages, failing to play the first selected "
+"track, or not switching to Studio window when connected. These bugs are "
+"caused by wxPython 4 (NVDA 2018.3 or later)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.08"
+msgid "Version 18.10"
+msgstr "Versión 18.08"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 Service Pack 1 or later is required."
+msgid "NVDA 2018.3 or later is required."
+msgstr "Se requiere Windows 7 Service Pack 1 o posterior."
+
+#. type: Bullet: '* '
+msgid "Internal changes to make the add-on more compatible with Python 3."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -3735,7 +3764,8 @@ msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
 msgstr "[5]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
 
 #~ msgid ""
-#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-"
+#~ "lts16"
 #~ msgstr "[3]: https://josephsl.net/files/nvdaaddons/get.php?file=spl-lts16"
 
 #~ msgid ""

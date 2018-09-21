@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Station playlist studio\n"
-"POT-Creation-Date: 2018-09-10 03:34+1000\n"
+"POT-Creation-Date: 2018-09-22 04:49+1000\n"
 "PO-Revision-Date: 2018-09-21 14:44+0200\n"
 "Last-Translator: Piotr Rakowski <piter.9521@wp.pl>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
@@ -40,8 +40,8 @@ msgstr ""
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "This add-on package provides improved usage of Station Playlist Studio, as "
-#| "well as providing utilities to control the Studio from anywhere."
+#| "This add-on package provides improved usage of Station Playlist Studio, "
+#| "as well as providing utilities to control the Studio from anywhere."
 msgid ""
 "This add-on package provides improved usage of StationPlaylist Studio, as "
 "well as providing utilities to control the Studio from anywhere."
@@ -52,8 +52,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "For more information about the add-on, read the [add-on guide][4]. For "
-"developers seeking to know how to build the add-on, see buildInstructions.txt "
-"located at the root of the add-on source code repository."
+"developers seeking to know how to build the add-on, see buildInstructions."
+"txt located at the root of the add-on source code repository."
 msgstr ""
 
 #. type: Plain text
@@ -62,9 +62,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 or "
-"later. For best experience, NVDA 2018.3 and Studio 5.11 or later is "
-"recommended."
+"This add-on requires NVDA 2018.3 or later and StationPlaylist Studio 5.11 or "
+"later."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -86,8 +85,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Due to tecnical limitations, you cannot install or use this add-on on Windows "
-"Store version of NVDA."
+"Due to tecnical limitations, you cannot install or use this add-on on "
+"Windows Store version of NVDA."
 msgstr ""
 
 #. type: Title ##
@@ -132,18 +131,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 #, fuzzy
-#| msgid "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
+#| msgid ""
+#| "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
 msgid ""
-"Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens end "
-"of track setting dialog."
+"Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+"end of track setting dialog."
 msgstr "Control+NVDA+2 w oknie studia: otwiera ustawienie końca ścieżki."
 
 #. type: Bullet: '* '
 #, fuzzy
-#| msgid "Alt+NVDA+2 from Studio window: Opens song intro alarm setting dialog."
+#| msgid ""
+#| "Alt+NVDA+2 from Studio window: Opens song intro alarm setting dialog."
 msgid ""
-"Alt+NVDA+2 (two finger flick left in SPL mode) from Studio window: Opens song "
-"intro alarm setting dialog."
+"Alt+NVDA+2 (two finger flick left in SPL mode) from Studio window: Opens "
+"song intro alarm setting dialog."
 msgstr "Alt+NVDA+2 w oknie studia: otwiera ustawienie alarmu intra ścieżki."
 
 #. type: Bullet: '* '
@@ -204,8 +205,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Control+NVDA+- (hyphen in Studio): display data for all columns in a track on "
-"a browse mode window."
+"Control+NVDA+- (hyphen in Studio): display data for all columns in a track "
+"on a browse mode window."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -216,14 +217,16 @@ msgstr ""
 
 #. type: Bullet: '* '
 #, fuzzy
-#| msgid "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
+#| msgid ""
+#| "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
 msgid ""
 "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog."
 msgstr "Control+NVDA+2 w oknie studia: otwiera ustawienie końca ścieżki."
 
 #. type: Bullet: '* '
 #, fuzzy
-#| msgid "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
+#| msgid ""
+#| "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
 msgid ""
 "Alt+NVDA+- (hyphen) from Studio window: Send feedback to add-on developer "
 "using the default email client."
@@ -375,8 +378,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Alt+NVDA+0: Opens encoder settings dialog to configure options such as stream "
-"label."
+"Alt+NVDA+0: Opens encoder settings dialog to configure options such as "
+"stream label."
 msgstr ""
 
 #. type: Plain text
@@ -427,11 +430,11 @@ msgstr ""
 #| "command, then press one of the keys from the list below."
 msgid ""
 "This layer command set allows you to obtain various status on SPL Studio, "
-"such as whether a track is playing, total duration of all tracks for the hour "
-"and so on. From any SPL Studio window, press the SPL Assistant layer command, "
-"then press one of the keys from the list below (one or more commands are "
-"exclusive to playlist viewer). You can also configure NvDA to emulate "
-"commands from other screen readers."
+"such as whether a track is playing, total duration of all tracks for the "
+"hour and so on. From any SPL Studio window, press the SPL Assistant layer "
+"command, then press one of the keys from the list below (one or more "
+"commands are exclusive to playlist viewer). You can also configure NvDA to "
+"emulate commands from other screen readers."
 msgstr ""
 "Ta warstwa komend pozwala uzyskać różne informacje o statusie SPL Studio, "
 "takie jak to czy aktualnie jest odtwarzana ścieżka, całkowity czas ścieżek "
@@ -462,7 +465,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"C (JAWS and Window-Eyes layouts): Toggle cart explorer (playlist viewer only)."
+"C (JAWS and Window-Eyes layouts): Toggle cart explorer (playlist viewer "
+"only)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -654,8 +658,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Press M or Shift+M to turn on or off the microphone, respectively, or press N "
-"to enable microphone without fade."
+"Press M or Shift+M to turn on or off the microphone, respectively, or press "
+"N to enable microphone without fade."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -682,7 +686,8 @@ msgstr ""
 #| msgid ""
 #| "Press R to hear remaining time for the currently playing track in seconds."
 msgid ""
-"Press C to let NVDA announce name and duration of the currently playing track."
+"Press C to let NVDA announce name and duration of the currently playing "
+"track."
 msgstr "Naciśnij R aby usłyszeć pozostały czas aktualnie odtwarzanej ścieżki."
 
 #. type: Bullet: '* '
@@ -690,8 +695,8 @@ msgstr "Naciśnij R aby usłyszeć pozostały czas aktualnie odtwarzanej ścież
 #| msgid ""
 #| "Press R to hear remaining time for the currently playing track in seconds."
 msgid ""
-"Press Shift+C to let NVDA announce name and duration of the upcoming track if "
-"any."
+"Press Shift+C to let NVDA announce name and duration of the upcoming track "
+"if any."
 msgstr "Naciśnij R aby usłyszeć pozostały czas aktualnie odtwarzanej ścieżki."
 
 #. type: Bullet: '* '
@@ -706,8 +711,8 @@ msgstr "I: liczba słuchaczy."
 
 #. type: Bullet: '* '
 msgid ""
-"Press Q to obtain various status information about Studio including whether a "
-"track is playing, microphone is on and others."
+"Press Q to obtain various status information about Studio including whether "
+"a track is playing, microphone is on and others."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -733,10 +738,11 @@ msgstr "Wyszukiwanie ścieżek"
 #. type: Plain text
 msgid ""
 "By default, NvDA will play a beep if five seconds are left in the track "
-"(outro) and/or intro. To configure this value as well as to enable or disable "
-"them, press Alt+NVDA+1 or Alt+NVDA+2 to open end of track and song ramp "
-"dialogs, respectively. In addition, use Studio add-on settings dialog to "
-"configure if you'll hear a beep, a message or both when alarms are turned on."
+"(outro) and/or intro. To configure this value as well as to enable or "
+"disable them, press Alt+NVDA+1 or Alt+NVDA+2 to open end of track and song "
+"ramp dialogs, respectively. In addition, use Studio add-on settings dialog "
+"to configure if you'll hear a beep, a message or both when alarms are turned "
+"on."
 msgstr ""
 
 #. type: Title ##
@@ -748,11 +754,11 @@ msgstr ""
 #, fuzzy
 #| msgid ""
 #| "You can ask NVDA to play a sound when microphone has been active for a "
-#| "while. Press Control+NVDA+4 to configure alarm time in seconds (0 disables "
-#| "it)."
+#| "while. Press Control+NVDA+4 to configure alarm time in seconds (0 "
+#| "disables it)."
 msgid ""
-"You can ask NVDA to play a sound when microphone has been active for a while. "
-"Press Alt+NVDA+4 to configure alarm time in seconds (0 disables it)."
+"You can ask NVDA to play a sound when microphone has been active for a "
+"while. Press Alt+NVDA+4 to configure alarm time in seconds (0 disables it)."
 msgstr ""
 "Możesz poprosić NVDA o odtworzenie dźwięku, gdy mikrofon był aktywny przez "
 "chwilę. Naciśnij Control+NVDA+4 by skonfigurować czas alarmu w sekundach (0 "
@@ -774,9 +780,9 @@ msgstr ""
 #| "backward."
 msgid ""
 "If you wish to quickly find a song by an artist or by song name, from track "
-"list, press Control+NVDA+F. Type or choose the name of the artist or the song "
-"name. NVDA will either place you at the song if found or will display an "
-"error if it cannot find the song you're looking for. To find a previously "
+"list, press Control+NVDA+F. Type or choose the name of the artist or the "
+"song name. NVDA will either place you at the song if found or will display "
+"an error if it cannot find the song you're looking for. To find a previously "
 "entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or "
 "backward."
 msgstr ""
@@ -805,9 +811,9 @@ msgstr ""
 #. type: Plain text
 #, fuzzy
 #| msgid ""
-#| "To learn cart assignments, from SPL Studio, press Control+NVDA+3. Pressing "
-#| "the cart command once will tell you which jingle is assigned to the "
-#| "command. Pressing the cart command twice will play the jingle. Press "
+#| "To learn cart assignments, from SPL Studio, press Control+NVDA+3. "
+#| "Pressing the cart command once will tell you which jingle is assigned to "
+#| "the command. Pressing the cart command twice will play the jingle. Press "
 #| "Control+NvDA+3 to exit cart explorer. See the add-on guide for more "
 #| "information on cart explorer."
 msgid ""
@@ -859,8 +865,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "You can press SPL Assistant, F8 while focused on a playlist in Studio to "
-"obtain various statistics about a playlist, including number of tracks in the "
-"playlist, longest track, top artists and so on. After assigning a custom "
+"obtain various statistics about a playlist, including number of tracks in "
+"the playlist, longest track, top artists and so on. After assigning a custom "
 "command for this feature, pressing the custom command twice will cause NVDA "
 "to present playlist snapshot information as a webpage so you can use browse "
 "mode to navigate (press escape to close)."
@@ -885,9 +891,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"From studio window, you can press Alt+NVDA+0 to open the add-on configuration "
-"dialog. Alternatively, go to NVDA's preferences menu and select SPL Studio "
-"Settings item. This dialog is also used to manage broadcast profiles."
+"From studio window, you can press Alt+NVDA+0 to open the add-on "
+"configuration dialog. Alternatively, go to NVDA's preferences menu and "
+"select SPL Studio Settings item. This dialog is also used to manage "
+"broadcast profiles."
 msgstr ""
 
 #. type: Title ##
@@ -898,9 +905,37 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "If you are using Studio on a touchscreen computer running Windows 8 or later "
-"and have NVDA 2012.3 or later installed, you can perform some Studio commands "
-"from the touchscreen. First use three finger tap to switch to SPL mode, then "
-"use the touch commands listed above to perform commands."
+"and have NVDA 2012.3 or later installed, you can perform some Studio "
+"commands from the touchscreen. First use three finger tap to switch to SPL "
+"mode, then use the touch commands listed above to perform commands."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 18.10.1/18.09.3-LTS"
+msgstr "Zmiany dla wersji 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Resolved several issues related to encoder connection announcement feature, "
+"including not announcing status messages, failing to play the first selected "
+"track, or not switching to Studio window when connected. These bugs are "
+"caused by wxPython 4 (NVDA 2018.3 or later)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 18.10"
+msgstr "Zmiany dla wersji 3.0"
+
+#. type: Bullet: '* '
+msgid "NVDA 2018.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Internal changes to make the add-on more compatible with Python 3."
 msgstr ""
 
 #. type: Title ##
@@ -924,8 +959,8 @@ msgstr "Zmiany dla wersji 3.0"
 #. type: Plain text
 msgid ""
 "Version 18.09.x is the last release series to support Studio 5.10 and based "
-"on old technologies, with 18.10 and later supporting Studio 5.11/5.20 and new "
-"features. Some new features will be backported to 18.09.x if needed."
+"on old technologies, with 18.10 and later supporting Studio 5.11/5.20 and "
+"new features. Some new features will be backported to 18.09.x if needed."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -941,25 +976,25 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Test Drive Fast and Slow rings have been combined into \"development\" "
-"channel, with an option for development snapshot users to test pilot features "
-"by checking the new pilot features checkbox found in Advanced add-on settings "
-"panel. Users formerly on Test Drive Fast ring will continue to test pilot "
-"features."
+"channel, with an option for development snapshot users to test pilot "
+"features by checking the new pilot features checkbox found in Advanced add-"
+"on settings panel. Users formerly on Test Drive Fast ring will continue to "
+"test pilot features."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "The ability to select different add-on update channel from add-on settings "
 "has been removed. Users wishing to switch to a different release channel "
-"should visit NVDA community add-ons website (addons.nvda-project.org), select "
-"StationPlaylist Studio, then download the appropriate release."
+"should visit NVDA community add-ons website (addons.nvda-project.org), "
+"select StationPlaylist Studio, then download the appropriate release."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Column inclusion checkboxes for column announcement and playlist transcripts, "
-"as well as metadata streams checkboxes have been converted to checkable list "
-"controls."
+"Column inclusion checkboxes for column announcement and playlist "
+"transcripts, as well as metadata streams checkboxes have been converted to "
+"checkable list controls."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -989,10 +1024,10 @@ msgstr "Zmiany dla wersji 3.0"
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer check for Studio add-on updates if Add-on Updater (proof "
-"of concept) add-on is installed. Consequently, add-on settings will no longer "
-"include add-on update related settings if this is the case. If using Add-on "
-"Updater, users should use features provided by this add-on to check for "
-"Studio add-on updates."
+"of concept) add-on is installed. Consequently, add-on settings will no "
+"longer include add-on update related settings if this is the case. If using "
+"Add-on Updater, users should use features provided by this add-on to check "
+"for Studio add-on updates."
 msgstr ""
 
 #. type: Title ##
@@ -1002,7 +1037,8 @@ msgid "Version 18.08.1"
 msgstr "Zmiany dla wersji 3.0"
 
 #. type: Bullet: '* '
-msgid "Fixed yet another wxPython 4 compatibility issue seen when Studio exits."
+msgid ""
+"Fixed yet another wxPython 4 compatibility issue seen when Studio exits."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1035,8 +1071,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Added a new section (button/panel) in add-on settings to configure playlist "
-"transcripts options, which is used to configure column inclusion and ordering "
-"for this feature and other settings."
+"transcripts options, which is used to configure column inclusion and "
+"ordering for this feature and other settings."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1107,8 +1143,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Added an option in Playlist Transcripts dialog to have transcripts saved to a "
-"file (all formats) or copied to the clipboard (text and Markdown table "
+"Added an option in Playlist Transcripts dialog to have transcripts saved to "
+"a file (all formats) or copied to the clipboard (text and Markdown table "
 "formats only) in addition to viewing transcripts on screen. When transcripts "
 "are saved, they are saved to user's Documents folder under "
 "\"nvdasplPlaylistTranscripts\" subfolder."
@@ -1173,15 +1209,15 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Resolved an issue where NVDA would apply changes to Columns Explorer settings "
-"despite pressing Cancel button from add-on settings dialog."
+"Resolved an issue where NVDA would apply changes to Columns Explorer "
+"settings despite pressing Cancel button from add-on settings dialog."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "In Studio, when pressing Control+NVDA+number row twice while focused on a "
-"track, NVDA will display column information for a specific column on a browse "
-"mode window."
+"track, NVDA will display column information for a specific column on a "
+"browse mode window."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1208,8 +1244,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"The developer feedback email command has changed from Control+NVDA+dash to Alt"
-"+NVDA+dash."
+"The developer feedback email command has changed from Control+NVDA+dash to "
+"Alt+NVDA+dash."
 msgstr ""
 
 #. type: Title ##
@@ -1264,8 +1300,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"NVDA will play a tone to indicate start of library scan when it is configured "
-"to play beeps for various announcements."
+"NVDA will play a tone to indicate start of library scan when it is "
+"configured to play beeps for various announcements."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1282,9 +1318,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When taking playlist snapshots (SPL Assistant, F8), if a playlist consists of "
-"hour markers only, resolves several issues where NVDA appeared to not take "
-"snapshots."
+"When taking playlist snapshots (SPL Assistant, F8), if a playlist consists "
+"of hour markers only, resolves several issues where NVDA appeared to not "
+"take snapshots."
 msgstr ""
 
 #. type: Title ##
@@ -1303,8 +1339,9 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "If switching to and from an instant switch profile and NVDA is configured to "
-"announce metadata streaming status whenever this happens, NVDA will no longer "
-"announce this information multiple times when switching profiles quickly."
+"announce metadata streaming status whenever this happens, NVDA will no "
+"longer announce this information multiple times when switching profiles "
+"quickly."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1353,8 +1390,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"In add-on settings, various update settings in advanced settings section such "
-"as update interval will not be displayed if add-on updating is not supported."
+"In add-on settings, various update settings in advanced settings section "
+"such as update interval will not be displayed if add-on updating is not "
+"supported."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1459,8 +1497,8 @@ msgstr "Zmiany dla wersji 3.0"
 msgid ""
 "NVDA will no longer play error tones or appear to do nothing when using "
 "Control+Alt+left or right arrow keys to navigate columns in Track Tool 5.20 "
-"with a track loaded. Because of this change, when using Studio 5.20, build 48 "
-"or later is required."
+"with a track loaded. Because of this change, when using Studio 5.20, build "
+"48 or later is required."
 msgstr ""
 
 #. type: Title ##
@@ -1495,8 +1533,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"NVDA will apply correct settings for microphone alarm settings when switching "
-"profiles via add-on settings dialog."
+"NVDA will apply correct settings for microphone alarm settings when "
+"switching profiles via add-on settings dialog."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1519,9 +1557,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Several general settings such as status announcement beeps, top and bottom of "
-"playlist notification and others are now located in the new general add-on "
-"settings dialog (accessed from a new button in add-on settings)."
+"Several general settings such as status announcement beeps, top and bottom "
+"of playlist notification and others are now located in the new general add-"
+"on settings dialog (accessed from a new button in add-on settings)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1533,18 +1571,18 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When running NVDA from Run dialog (Windows+R), you can now pass in additional "
-"command-line switches to change how the add-on works. These include \"--spl-"
-"configvolatile\" (read-only settings), \"--spl-configinmemory\" (do not load "
-"settings from disk), and \"--spl-normalprofileonly\" (only use normal "
-"profile)."
+"When running NVDA from Run dialog (Windows+R), you can now pass in "
+"additional command-line switches to change how the add-on works. These "
+"include \"--spl-configvolatile\" (read-only settings), \"--spl-configinmemory"
+"\" (do not load settings from disk), and \"--spl-normalprofileonly\" (only "
+"use normal profile)."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"If exitting Studio (not NVDA) while an instant switch profile is active, NVDA "
-"will no longer give misleading announcement when switching to an instant "
-"switch profile when using Studio again."
+"If exitting Studio (not NVDA) while an instant switch profile is active, "
+"NVDA will no longer give misleading announcement when switching to an "
+"instant switch profile when using Studio again."
 msgstr ""
 
 #. type: Title ##
@@ -1556,16 +1594,16 @@ msgstr "Zmiany dla wersji 3.0"
 #. type: Bullet: '* '
 msgid ""
 "As a result of announcement from NV Access that NVDA 2017.3 will be the last "
-"version to support Windows versions prior to windows 7 Service Pack 1, Studio "
-"add-on will present a reminder message about this if running from old Windows "
-"releases. End of support for old Windows releases from this add-on (via long-"
-"term support release) is scheduled for April 2018."
+"version to support Windows versions prior to windows 7 Service Pack 1, "
+"Studio add-on will present a reminder message about this if running from old "
+"Windows releases. End of support for old Windows releases from this add-on "
+"(via long-term support release) is scheduled for April 2018."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"NVDA will no longer display startup dialogs and/or announce Studio version if "
-"started with minimal (nvda -rm) flag set. The sole exception is the old "
+"NVDA will no longer display startup dialogs and/or announce Studio version "
+"if started with minimal (nvda -rm) flag set. The sole exception is the old "
 "Windows release reminder dialog."
 msgstr ""
 
@@ -1578,8 +1616,8 @@ msgstr "Zmiany dla wersji 3.0"
 #. type: Bullet: '* '
 msgid ""
 "If a user enters advanced options dialog under add-on settings while the "
-"update channel and interval was set to Test Drive Fast and/or zero days, NVDA "
-"will no longer present the channel and/or interval warning message when "
+"update channel and interval was set to Test Drive Fast and/or zero days, "
+"NVDA will no longer present the channel and/or interval warning message when "
 "exitting this dialog."
 msgstr ""
 
@@ -1638,8 +1676,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "In add-on settings, added a checkbox to let NvDA play a sound when listener "
-"requests arrive. To use this fully, requests window must pop up when requests "
-"arrive."
+"requests arrive. To use this fully, requests window must pop up when "
+"requests arrive."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1651,8 +1689,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "It is now possible to use Track Finder (Control+NVDA+F) to search for names "
-"of tracks you've searched before by selecting a search term from a history of "
-"terms."
+"of tracks you've searched before by selecting a search term from a history "
+"of terms."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1683,8 +1721,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Added a checkbox in add-on settings dialog to suppress announcement of column "
-"headers when reviewing tracks in playlist viewer."
+"Added a checkbox in add-on settings dialog to suppress announcement of "
+"column headers when reviewing tracks in playlist viewer."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1714,14 +1752,15 @@ msgstr "Zmiany dla wersji 3.0"
 
 #. type: Bullet: '* '
 msgid ""
-"You can now perform Track Finder command (Control+NVDA+F) while a playlist is "
-"loaded but the first track isn't focused."
+"You can now perform Track Finder command (Control+NVDA+F) while a playlist "
+"is loaded but the first track isn't focused."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"NVDA will no longer play error tones or do nothing when searching for a track "
-"forward from the last track or backward from the first track, respectively."
+"NVDA will no longer play error tones or do nothing when searching for a "
+"track forward from the last track or backward from the first track, "
+"respectively."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1738,8 +1777,8 @@ msgstr "Zmiany dla wersji 3.0"
 
 #. type: Bullet: '* '
 msgid ""
-"NVDA will no longer fail to save changes to alarm settings from various alarm "
-"dialogs (for example, Alt+NVDA+1 for end of track alarm)."
+"NVDA will no longer fail to save changes to alarm settings from various "
+"alarm dialogs (for example, Alt+NVDA+1 for end of track alarm)."
 msgstr ""
 
 #. type: Title ##
@@ -1769,9 +1808,9 @@ msgstr "Zmiany dla wersji 3.0"
 #. type: Bullet: '* '
 msgid ""
 "Added a basic add-on debugging support by logging various information while "
-"the add-on is active with NVDA set to debug logging (requires NVDA 2017.1 and "
-"later). To use this, after installing NVDA 2017.1, from Exit NVDA dialog, "
-"choose \"restart with debug logging enabled\" option."
+"the add-on is active with NVDA set to debug logging (requires NVDA 2017.1 "
+"and later). To use this, after installing NVDA 2017.1, from Exit NVDA "
+"dialog, choose \"restart with debug logging enabled\" option."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1796,8 +1835,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Added ability to press Control+Alt+up or down arrow keys to move between "
-"tracks (specifically, track columns) vertically just as one is moving to next "
-"or previous row in a table."
+"tracks (specifically, track columns) vertically just as one is moving to "
+"next or previous row in a table."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1808,8 +1847,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Moved end of track , intro and microphone alarm controls from add-on settings "
-"to the new Alarms Center."
+"Moved end of track , intro and microphone alarm controls from add-on "
+"settings to the new Alarms Center."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1827,10 +1866,10 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Pressing the custom gesture for playlist snapshots command once will let NVDA "
-"speak and braile a short snapshot information. Pressing the command twice "
-"will cause NVDA to open a webpage containing a fuller playlist snapshot "
-"information. Press escape to close this webpage."
+"Pressing the custom gesture for playlist snapshots command once will let "
+"NVDA speak and braile a short snapshot information. Pressing the command "
+"twice will cause NVDA to open a webpage containing a fuller playlist "
+"snapshot information. Press escape to close this webpage."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1842,8 +1881,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"After closing Insert Tracks dialog while a library scan is in progress, it is "
-"no longer required to press SPL Assistant, Shift+R to monitor scan progress."
+"After closing Insert Tracks dialog while a library scan is in progress, it "
+"is no longer required to press SPL Assistant, Shift+R to monitor scan "
+"progress."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1879,8 +1919,8 @@ msgstr ""
 #| "Added a command in SPL Controller to report remaining time for the "
 #| "currently playing track (R)."
 msgid ""
-"Added a new command in SPL Controller layer to announce Studio status such as "
-"track playback and microphone status (Q)."
+"Added a new command in SPL Controller layer to announce Studio status such "
+"as track playback and microphone status (Q)."
 msgstr ""
 "Dodane polecenie w kontrolerze SPL  wypowiadania pozostałego czasu aktualnie "
 "odtwarzanej ścieżki (R)."
@@ -1903,7 +1943,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Version 17.01/15.5-LTS"
 msgstr ""
 
@@ -1931,8 +1970,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "If editing carts while Cart Explorer is active, it is no longer necessary to "
-"reenter Cart Explorer to view updated cart assignments when Cart Edit mode is "
-"turned off. Consequently, Cart Explorer reentry message is no longer "
+"reenter Cart Explorer to view updated cart assignments when Cart Edit mode "
+"is turned off. Consequently, Cart Explorer reentry message is no longer "
 "announced."
 msgstr ""
 
@@ -1944,7 +1983,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Version 16.12.1"
 msgstr ""
 
@@ -1954,7 +1992,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Version 16.12/15.4-LTS"
 msgstr ""
 
@@ -1977,14 +2014,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Support for Track Tool 5.20, including fixed an issue where wrong information "
-"is announced when using Columns Explorer commands to announce column "
-"information."
+"Support for Track Tool 5.20, including fixed an issue where wrong "
+"information is announced when using Columns Explorer commands to announce "
+"column information."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Version 16.11/15.3-LTS"
 msgstr ""
 
@@ -2010,13 +2046,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"16.11: If broadcast profiles have errors, error dialog will no longer fail to "
-"show up."
+"16.11: If broadcast profiles have errors, error dialog will no longer fail "
+"to show up."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Version 16.10.1/15.2-LTS"
 msgstr ""
 
@@ -2028,7 +2063,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Version 8.0/16.10/15.0-LTS"
 msgstr ""
 
@@ -2036,9 +2070,10 @@ msgstr ""
 msgid ""
 "Version 8.0 (also known as 16.10) supports SPL Studio 5.10 and later, with "
 "15.0-LTS (formerly 7.x) designed to provide some new features from 8.0 for "
-"users using earlier versions of Studio. Unless otherwise noted, entries below "
-"apply to both 8.0 and 7.x. A warning dialog will be shown the first time you "
-"use add-on 8.0 with Studio 5.0x installed, asking you to use 15.x LTS version."
+"users using earlier versions of Studio. Unless otherwise noted, entries "
+"below apply to both 8.0 and 7.x. A warning dialog will be shown the first "
+"time you use add-on 8.0 with Studio 5.0x installed, asking you to use 15.x "
+"LTS version."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2092,10 +2127,10 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"You can now add, view, change or delete track comments (notes). Press Alt+NVDA"
-"+C from a track in the playlist viewer to hear track comments if defined, "
-"press twice to copy comment to clipboard or three times to open a dialog to "
-"edit comments."
+"You can now add, view, change or delete track comments (notes). Press Alt"
+"+NVDA+C from a track in the playlist viewer to hear track comments if "
+"defined, press twice to copy comment to clipboard or three times to open a "
+"dialog to edit comments."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2113,9 +2148,9 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "When resetting add-on settings, you can now specify what gets reset. By "
-"default, add-on settings will be reset, with checkboxes for resetting instant "
-"switch profile, time-based profile, encoder settings and erasing track "
-"comments added to reset settings dialog."
+"default, add-on settings will be reset, with checkboxes for resetting "
+"instant switch profile, time-based profile, encoder settings and erasing "
+"track comments added to reset settings dialog."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2126,8 +2161,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Performance improvements when obtaining column information for the first time "
-"in Track Tool."
+"Performance improvements when obtaining column information for the first "
+"time in Track Tool."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2177,8 +2212,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Added a setting in add-on settings/Advanced options to configure update check "
-"interval between 1 and 30 days (default is 7 or weekly checks)."
+"Added a setting in add-on settings/Advanced options to configure update "
+"check interval between 1 and 30 days (default is 7 or weekly checks)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2195,7 +2230,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 7.3"
 msgstr ""
 
@@ -2207,29 +2241,25 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 7.2"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Due to removal of old-style internal configuration format, it is mandatory to "
-"install add-on 7.2. Once installed, you cannot go back to an earlier version "
-"of the add-on."
+"Due to removal of old-style internal configuration format, it is mandatory "
+"to install add-on 7.2. Once installed, you cannot go back to an earlier "
+"version of the add-on."
 msgstr ""
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "Added a command in SPL Controller to report remaining time for the "
-#| "currently playing track (R)."
 msgid "Added a command in SPL Controller to report listener count (I)."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"You can now open SPL add-on settings and encoder settings dialogs by pressing "
-"Alt+NVDA+0. You can still use Control+NVDA+0 to open these dialogs (to be "
-"removed in add-on 8.0)."
+"You can now open SPL add-on settings and encoder settings dialogs by "
+"pressing Alt+NVDA+0. You can still use Control+NVDA+0 to open these dialogs "
+"(to be removed in add-on 8.0)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2246,14 +2276,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"In SPL Encoders, NVDA will silence connection tone if auto-connect is enabled "
-"and then turned off from encoder context menu while the selected encoder is "
-"connecting."
+"In SPL Encoders, NVDA will silence connection tone if auto-connect is "
+"enabled and then turned off from encoder context menu while the selected "
+"encoder is connecting."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 7.1"
 msgstr ""
 
@@ -2276,7 +2305,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 7.0"
 msgstr ""
 
@@ -2290,8 +2318,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "It is no longer required to stay in the playlist viewer window in order to "
-"invoke most SPL Assistant layer commands or obtain time announcements such as "
-"remaining time for the track and broadcaster time."
+"invoke most SPL Assistant layer commands or obtain time announcements such "
+"as remaining time for the track and broadcaster time."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2336,8 +2364,8 @@ msgstr ""
 msgid ""
 "It is now possible to use a different screen reader command layout for SPL "
 "Assistant commands. Go to advanced options dialog from add-on settings to "
-"configure this option between NVDA, JAWS and Window-Eyes layouts. See the SPL "
-"Assistant commands above for details."
+"configure this option between NVDA, JAWS and Window-Eyes layouts. See the "
+"SPL Assistant commands above for details."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2354,7 +2382,8 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Moved instant switch toggle (now a checkbox) to the new triggers dialog."
+msgid ""
+"Moved instant switch toggle (now a checkbox) to the new triggers dialog."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2394,8 +2423,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Attempting to open metadata configuration option in add-on settings dialog "
-"while quick metadata streaming dialog is open will no longer cause NVDA to do "
-"nothing or play an error tone. NvDA will now ask you to close metadata "
+"while quick metadata streaming dialog is open will no longer cause NVDA to "
+"do nothing or play an error tone. NvDA will now ask you to close metadata "
 "streaming dialog before you can open add-on settings."
 msgstr ""
 
@@ -2414,9 +2443,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"In encoders, pressing Control+NVDA+0 will present encoder settings dialog for "
-"configuring various options such as stream label, focusing to Studio when "
-"connected and so on."
+"In encoders, pressing Control+NVDA+0 will present encoder settings dialog "
+"for configuring various options such as stream label, focusing to Studio "
+"when connected and so on."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2427,7 +2456,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 6.4"
 msgstr ""
 
@@ -2442,7 +2470,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 6.3"
 msgstr ""
 
@@ -2452,8 +2479,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When add-on 6.3 or later is first launched on a computer running Windows 8 or "
-"later with NVDA 2016.1 or later installed, an alert dialog will be shown "
+"When add-on 6.3 or later is first launched on a computer running Windows 8 "
+"or later with NVDA 2016.1 or later installed, an alert dialog will be shown "
 "asking you to disable audio ducking mode (NVDA+Shift+D). Select the checkbox "
 "to suppress this dialog in the future."
 msgstr ""
@@ -2466,7 +2493,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 6.2"
 msgstr ""
 
@@ -2474,14 +2500,14 @@ msgstr ""
 msgid ""
 "Fixed an issue with playlist remainder command (SPL Assistant, D (R if "
 "compatibility mode is on)) where the duration for the current hour was "
-"announced as opposed to the entire playlist (the behavior of this command can "
-"be configured from advanced settings found in add-on settings dialog)."
+"announced as opposed to the entire playlist (the behavior of this command "
+"can be configured from advanced settings found in add-on settings dialog)."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"NvDA can now announce name of the currently playing track while using another "
-"program (configurable from add-on settings)."
+"NvDA can now announce name of the currently playing track while using "
+"another program (configurable from add-on settings)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2504,7 +2530,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 6.1"
 msgstr ""
 
@@ -2547,7 +2572,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 6.0"
 msgstr ""
 
@@ -2582,8 +2606,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "You can now ask NVDA to report total length of a range of tracks via track "
-"time analysis feature. Press SPL Assistant, F9 to mark current track as start "
-"marker, move to end of track range and press SPL Assistant, F10. These "
+"time analysis feature. Press SPL Assistant, F9 to mark current track as "
+"start marker, move to end of track range and press SPL Assistant, F10. These "
 "commands can be reassigned so one doesn't have to invoke SPL Assistant layer "
 "to perform track time analysis."
 msgstr ""
@@ -2640,8 +2664,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"It is now possible to configure microphone alarm between 0 (disabled) and two "
-"hours (7200 seconds) and to use up and down arrow keys to configure this "
+"It is now possible to configure microphone alarm between 0 (disabled) and "
+"two hours (7200 seconds) and to use up and down arrow keys to configure this "
 "setting."
 msgstr ""
 
@@ -2694,7 +2718,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 5.6"
 msgstr ""
 
@@ -2713,7 +2736,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 5.5"
 msgstr ""
 
@@ -2725,7 +2747,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 5.4"
 msgstr ""
 
@@ -2738,14 +2759,13 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 5.3"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"The fix for SAM Encoder (not playing the next track if a track is playing and "
-"when the encoder connects) is now available for SPL Encoder users."
+"The fix for SAM Encoder (not playing the next track if a track is playing "
+"and when the encoder connects) is now available for SPL Encoder users."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2756,15 +2776,14 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 5.2"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer allow both settings and alarm dialogs to be opened. A "
-"warning will be shown asking you to close the previously opened dialog before "
-"opening another dialog."
+"warning will be shown asking you to close the previously opened dialog "
+"before opening another dialog."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2775,8 +2794,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"NVDA supports connect/disconnect all commands (Control+F9/Control+F10) in SAM "
-"encoders."
+"NVDA supports connect/disconnect all commands (Control+F9/Control+F10) in "
+"SAM encoders."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2788,7 +2807,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 5.1"
 msgstr ""
 
@@ -2814,13 +2832,12 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "If a custom command is assigned for an SPL Assistant layer command and this "
-"command is pressed right after entering SPL Assistant, NvDA will now promptly "
-"exit SPL Assistant."
+"command is pressed right after entering SPL Assistant, NvDA will now "
+"promptly exit SPL Assistant."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 5.0"
 msgstr ""
 
@@ -2837,8 +2854,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"If some of the settings have errors, only the affected settings will be reset "
-"to factory defaults."
+"If some of the settings have errors, only the affected settings will be "
+"reset to factory defaults."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2850,9 +2867,9 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Changes to SPL Assistant layer include addition of layer help command (F1) "
-"and removal of commands to toggle listener count (Shift+I) and scheduled time "
-"announcement (Shift+S). You can configure these settings in add-on settings "
-"dialog."
+"and removal of commands to toggle listener count (Shift+I) and scheduled "
+"time announcement (Shift+S). You can configure these settings in add-on "
+"settings dialog."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2883,8 +2900,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Added a checkbox in end of track and song intro alarm dialogs to enable or "
-"disable these alarms (check to enable). These can also be \"configured\" from "
-"add-on settings."
+"disable these alarms (check to enable). These can also be \"configured\" "
+"from add-on settings."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -2922,9 +2939,6 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "Added a command in SPL Controller to report remaining time for the "
-#| "currently playing track (R)."
 msgid ""
 "Added a command in SPL Controller layer to announce status of encoders being "
 "monitored (E)."
@@ -2934,13 +2948,12 @@ msgstr ""
 msgid ""
 "A workaround is now available to fix an issue where NvDA was announcing "
 "stream labels for the wrong encoders, especially after deleting an encoder "
-"(to realign stream labels, press Control+F12, then select the position of the "
-"encoder you have removed)."
+"(to realign stream labels, press Control+F12, then select the position of "
+"the encoder you have removed)."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Initial release."
 msgid "Older releases"
 msgstr ""
 
@@ -2976,5 +2989,6 @@ msgstr ""
 #, fuzzy
 #~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
 #~ msgid ""
-#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-lts16"
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-"
+#~ "lts16"
 #~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
