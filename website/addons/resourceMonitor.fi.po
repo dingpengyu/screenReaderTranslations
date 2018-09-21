@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2018-06-29 22:54+0200\n"
+"PO-Revision-Date: 2018-09-21 11:57+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -148,20 +148,17 @@ msgstr ""
 "2003:n, Vistan ja Server 2008:n tuki päättyi 30. kesäkuuta 2018."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.04"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versio 18.04"
+msgstr "Versio 18.10"
 
 #. type: Bullet: '* '
 msgid "Code has been made more compatible with Python 3."
-msgstr ""
+msgstr "Koodista on tehty yhteensopivampaa Python 3:n kanssa."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Updated psutil dependency to 5.0.1."
 msgid "Updated psutil dependency to 5.4.7."
-msgstr "Päivitetty psutil-riippuvuus versioksi 5.0.1."
+msgstr "Päivitetty psutil-riippuvuus versioksi 5.4.7."
 
 #. type: Bullet: '* '
 msgid ""
@@ -169,16 +166,21 @@ msgid ""
 "errors if using a computer or a service with more than a petabyte of RAM or "
 "disk size."
 msgstr ""
+"NVDA ei enää ilmoita virheistä haettaessa tietoa levyn kapasiteetista ja "
+"muistin käytöstä , mikäli käytetään  tietokonetta tai palvelua, jossa RAM-"
+"muistin määrä tai levyn koko ylittää yhden petatavun."
 
 #. type: Bullet: '* '
 msgid ""
 "Values for memory and disk usage are shown with up to two decimal places (e."
 "g. 4.00 GB instead of 4.0 GB)."
 msgstr ""
+"Muistin ja levyn käytön arvot näytetään enintään kahdella desimaalilla "
+"(esim. 4.00 Gt aiemman 4.0 Gt sijaan)."
 
 #. type: Bullet: '* '
 msgid "Improved detection of Windows Insider Preview builds."
-msgstr ""
+msgstr "Windows Insider -esiversioiden tunnistusta paranneltu."
 
 #. type: Title ##
 #, no-wrap
