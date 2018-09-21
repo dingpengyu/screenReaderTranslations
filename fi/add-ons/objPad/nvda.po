@@ -39,6 +39,32 @@ msgstr "Normaali tila"
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "Vaihtaa normaalin, objektinavigointi- ja skannaustilan välillä."
 
+#. Web navigation:
+#. Web elements list:
+msgid "normal"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Form field"
+msgstr ""
+
+msgid "Heading"
+msgstr ""
+
+msgid "Frame"
+msgstr ""
+
+msgid "Table"
+msgstr ""
+
+msgid "List"
+msgstr ""
+
+msgid "Landmark"
+msgstr ""
+
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
 msgstr "Ei seuraavaa"
