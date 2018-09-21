@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 00:10+1000\n"
-"PO-Revision-Date: 2018-09-21 02:02+0100\n"
+"PO-Revision-Date: 2018-09-21 02:31+0100\n"
 "Last-Translator: Imam <imam.kahraman@gmail.com>\n"
 "Language-Team: \n"
 "Language: kmr\n"
@@ -533,7 +533,7 @@ msgstr ""
 #. {number} is replaced with the number of the item in the group.
 #. {total} is replaced with the total number of items in the group.
 msgid "{number} of {total}"
-msgstr ""
+msgstr "{number} a {total}"
 
 #. Translators: Displayed in braille when an object (e.g. a tree view item) has a hierarchical level.
 #. %s is replaced with the level.
@@ -565,7 +565,7 @@ msgstr ""
 #. %s is replaced with the control's role.
 #, python-format
 msgid "%s end"
-msgstr ""
+msgstr "%s dawî"
 
 #. Translators: The label for a braille setting indicating that braille should be
 #. tethered to focus or review cursor automatically.
@@ -3167,87 +3167,87 @@ msgstr "ragihandina nîtelîka fontan wekî vekirî an girtî bigûhere"
 
 #. Translators: The message announced when toggling the report revisions document formatting setting.
 msgid "report revisions off"
-msgstr ""
+msgstr "agahiya sererastkirinan bide girtî"
 
 #. Translators: The message announced when toggling the report revisions document formatting setting.
 msgid "report revisions on"
-msgstr ""
+msgstr "agahiya sererastkirinan bide vekirî"
 
 #. Translators: Input help mode message for toggle report revisions command.
 msgid "Toggles on and off the reporting of revisions"
-msgstr ""
+msgstr "agahdarkirina sererastkirinan a vekirin û girtinê veke"
 
 #. Translators: The message announced when toggling the report emphasis document formatting setting.
 msgid "report emphasis off"
-msgstr ""
+msgstr "agahdarkirina bingehîn girtî"
 
 #. Translators: The message announced when toggling the report emphasis document formatting setting.
 msgid "report emphasis on"
-msgstr ""
+msgstr "agahdarkirina bingehîn vekirî"
 
 #. Translators: Input help mode message for toggle report emphasis command.
 msgid "Toggles on and off the reporting of emphasis"
-msgstr ""
+msgstr "agahdarkirina bingehîn a vekirin û girtinê veke"
 
 #. Translators: The message announced when toggling the report colors document formatting setting.
 msgid "report colors off"
-msgstr ""
+msgstr "agahiya rengan girtî"
 
 #. Translators: The message announced when toggling the report colors document formatting setting.
 msgid "report colors on"
-msgstr ""
+msgstr "agahiya rengan vekirî"
 
 #. Translators: Input help mode message for toggle report colors command.
 msgid "Toggles on and off the reporting of colors"
-msgstr ""
+msgstr "agahdarkirina rengan a vekirin û girtinê veke"
 
 #. Translators: The message announced when toggling the report alignment document formatting setting.
 msgid "report alignment off"
-msgstr ""
+msgstr "rêzkirina agahdarkirinê girtî"
 
 #. Translators: The message announced when toggling the report alignment document formatting setting.
 msgid "report alignment on"
-msgstr ""
+msgstr "rêzkirina agahdarkirinê vekirî"
 
 #. Translators: Input help mode message for toggle report alignment command.
 msgid "Toggles on and off the reporting of text alignment"
-msgstr ""
+msgstr "agahdarkirina rêzenivîsê a vekirin û girtinê veke"
 
 #. Translators: The message announced when toggling the report style document formatting setting.
 msgid "report style off"
-msgstr ""
+msgstr "agahdarkirina şeweyê girtî"
 
 #. Translators: The message announced when toggling the report style document formatting setting.
 msgid "report style on"
-msgstr ""
+msgstr "agahdarkirina şeweyê vekirî"
 
 #. Translators: Input help mode message for toggle report style command.
 msgid "Toggles on and off the reporting of style changes"
-msgstr ""
+msgstr "agahdarkirina guhertinên şêweyê ya vekirin û girtinê veke"
 
 #. Translators: The message announced when toggling the report spelling errors document formatting setting.
 msgid "report spelling errors off"
-msgstr ""
+msgstr "agahdarkirina şaşitiyên heceyan girtî"
 
 #. Translators: The message announced when toggling the report spelling errors document formatting setting.
 msgid "report spelling errors on"
-msgstr ""
+msgstr "agahdarkirina şaşitiyên heceyan vekirî"
 
 #. Translators: Input help mode message for toggle report spelling errors command.
 msgid "Toggles on and off the reporting of spelling errors"
-msgstr ""
+msgstr "agahdarkirina şaşitiyên heceyan a vekirin û girtinê veke"
 
 #. Translators: The message announced when toggling the report pages document formatting setting.
 msgid "report pages off"
-msgstr ""
+msgstr "agahiya pelan girtî"
 
 #. Translators: The message announced when toggling the report pages document formatting setting.
 msgid "report pages on"
-msgstr ""
+msgstr "agahiya pelan vekirî"
 
 #. Translators: Input help mode message for toggle report pages command.
 msgid "Toggles on and off the reporting of pages"
-msgstr ""
+msgstr "agahdarkirina pelan a vekirin û girtinê veke"
 
 #. Translators: The message announced when toggling the report line numbers document formatting setting.
 msgid "report line numbers off"
@@ -3283,166 +3283,166 @@ msgstr "di mîhengên navbera rêzê re digere"
 
 #. Translators: The message announced when toggling the report paragraph indentation document formatting setting.
 msgid "report paragraph indentation off"
-msgstr ""
+msgstr "destpêka paragrafê agahdarkirin girtî"
 
 #. Translators: The message announced when toggling the report paragraph indentation document formatting setting.
 msgid "report paragraph indentation on"
-msgstr ""
+msgstr "destpêka paragrafê agahdarkirin vekirî"
 
 #. Translators: Input help mode message for toggle report paragraph indentation command.
 msgid "Toggles on and off the reporting of paragraph indentation"
-msgstr ""
+msgstr "agahdarkirina destpêka paragrafê ya vekirin û girtin veke"
 
 #. Translators: The message announced when toggling the report line spacing document formatting setting.
 msgid "report line spacing off"
-msgstr ""
+msgstr "agahdarkirina navbera rêzan girtî"
 
 #. Translators: The message announced when toggling the report line spacing document formatting setting.
 msgid "report line spacing on"
-msgstr ""
+msgstr "agahdarkirina navbera rêzan vekirî"
 
 #. Translators: Input help mode message for toggle report line spacing command.
 msgid "Toggles on and off the reporting of line spacing"
-msgstr ""
+msgstr "vekirin û girtina agahdarkirina navbera rêzan veke"
 
 #. Translators: The message announced when toggling the report tables document formatting setting.
 msgid "report tables off"
-msgstr ""
+msgstr "agahdarkirina tabloyan girtî"
 
 #. Translators: The message announced when toggling the report tables document formatting setting.
 msgid "report tables on"
-msgstr ""
+msgstr "agahdarkirina tabloyan vekirî"
 
 #. Translators: Input help mode message for toggle report tables command.
 msgid "Toggles on and off the reporting of tables"
-msgstr ""
+msgstr "vekirin û girtina agahdarkirina tabloyan veke"
 
 #. Translators: The message announced when toggling the report table row/column headers document formatting setting.
 msgid "report table row and column headers off"
-msgstr ""
+msgstr "agahdarkirina sernivîsên rêz û kolonan girtî"
 
 #. Translators: The message announced when toggling the report table row/column headers document formatting setting.
 msgid "report table row and column headers on"
-msgstr ""
+msgstr "agahdarkirina sernivîsên rêz û kolonan vekirî"
 
 #. Translators: Input help mode message for toggle report table row/column headers command.
 msgid "Toggles on and off the reporting of table row and column headers"
-msgstr ""
+msgstr "vekirin û girtina agahdarkirina sernivîsên rêz û kolonan veke"
 
 #. Translators: The message announced when toggling the report table cell coordinates document formatting setting.
 msgid "report table cell coordinates off"
-msgstr ""
+msgstr "agahdarkirina koordîneyên rêzên tabloyan girtî"
 
 #. Translators: The message announced when toggling the report table cell coordinates document formatting setting.
 msgid "report table cell coordinates on"
-msgstr ""
+msgstr "agahdarkirina koordîneyên rêzên tabloyan vekirî"
 
 #. Translators: Input help mode message for toggle report table cell coordinates command.
 msgid "Toggles on and off the reporting of table cell coordinates"
-msgstr ""
+msgstr "vekirin û girtina gahdarkirina koordîneyên rêzên tabloyan veke"
 
 #. Translators: The message announced when toggling the report links document formatting setting.
 msgid "report links off"
-msgstr ""
+msgstr "agahdarkirina lînkan girtî"
 
 #. Translators: The message announced when toggling the report links document formatting setting.
 msgid "report links on"
-msgstr ""
+msgstr "agahdarkirina lînkan vekirî"
 
 #. Translators: Input help mode message for toggle report links command.
 msgid "Toggles on and off the reporting of links"
-msgstr ""
+msgstr "vekirin û girtina agahdarkirina lînkan veke"
 
 #. Translators: The message announced when toggling the report comments document formatting setting.
 msgid "report comments off"
-msgstr ""
+msgstr "agahdarkirina nirxandinan girtî"
 
 #. Translators: The message announced when toggling the report comments document formatting setting.
 msgid "report comments on"
-msgstr ""
+msgstr "agahdarkirina nirxandinan vekirî"
 
 #. Translators: Input help mode message for toggle report comments command.
 msgid "Toggles on and off the reporting of comments"
-msgstr ""
+msgstr "vekirin û girtina agahdarkirina nirxandinan veke"
 
 #. Translators: The message announced when toggling the report lists document formatting setting.
 msgid "report lists off"
-msgstr ""
+msgstr "agahdarkirina lîsteyan girtî"
 
 #. Translators: The message announced when toggling the report lists document formatting setting.
 msgid "report lists on"
-msgstr ""
+msgstr "agahdarkirina lîsteyan vekirî"
 
 #. Translators: Input help mode message for toggle report lists command.
 msgid "Toggles on and off the reporting of lists"
-msgstr ""
+msgstr "vekirin û girtina agahdarkirina lîsteyan veke"
 
 #. Translators: The message announced when toggling the report headings document formatting setting.
 msgid "report headings off"
-msgstr ""
+msgstr "agahdarkirina sernivîsan girtî"
 
 #. Translators: The message announced when toggling the report headings document formatting setting.
 msgid "report headings on"
-msgstr ""
+msgstr "agahdarkirina sernivîsan vekirî"
 
 #. Translators: Input help mode message for toggle report headings command.
 msgid "Toggles on and off the reporting of headings"
-msgstr ""
+msgstr "vekirin û girtina agahdarkirina sernivîsan veke"
 
 #. Translators: The message announced when toggling the report block quotes document formatting setting.
 msgid "report block quotes off"
-msgstr ""
+msgstr "agahdarkirina wergirtinên ji blockan girtî"
 
 #. Translators: The message announced when toggling the report block quotes document formatting setting.
 msgid "report block quotes on"
-msgstr ""
+msgstr "agahdarkirina wergirtinên ji blockan vekirî"
 
 #. Translators: Input help mode message for toggle report block quotes command.
 msgid "Toggles on and off the reporting of block quotes"
-msgstr ""
+msgstr "vekirin û girtinên agahdarkirina wergirtinên ji blockan veke"
 
 #. Translators: The message announced when toggling the report landmarks document formatting setting.
 msgid "report landmarks off"
-msgstr ""
+msgstr "agahdarkirina nîşaneya cih girtî"
 
 #. Translators: The message announced when toggling the report landmarks document formatting setting.
 msgid "report landmarks on"
-msgstr ""
+msgstr "agahdarkirina nîşaneya cih vekirî"
 
 #. Translators: Input help mode message for toggle report landmarks command.
 msgid "Toggles on and off the reporting of landmarks"
-msgstr ""
+msgstr "vekirin û girtina agahdarkirina nîşaneya cih veke"
 
 #. Translators: The message announced when toggling the report frames document formatting setting.
 msgid "report frames off"
-msgstr ""
+msgstr "agahdarkirina çarçoveyan girtî"
 
 #. Translators: The message announced when toggling the report frames document formatting setting.
 msgid "report frames on"
-msgstr ""
+msgstr "agahdarkirina çarçoveyan vekirî"
 
 #. Translators: Input help mode message for toggle report frames command.
 msgid "Toggles on and off the reporting of frames"
-msgstr ""
+msgstr "vekirin û girtina agahdarkirina çarçoveyan veke"
 
 #. Translators: The message announced when toggling the report if clickable document formatting setting.
 msgid "report if clickable off"
-msgstr ""
+msgstr "heke pêlêkirin pêkan be agahdarkirin girtî"
 
 #. Translators: The message announced when toggling the report if clickable document formatting setting.
 msgid "report if clickable on"
-msgstr ""
+msgstr "heke pêlêkirin pêkan be agahdarkirin vekirî"
 
 #. Translators: Input help mode message for toggle report if clickable command.
 msgid "Toggles on and off reporting if clickable"
-msgstr ""
+msgstr "vekirin û girtina pêlêkirina pecan veke"
 
 #. Translators: Reported when the user cycles through speech symbol levels
 #. which determine what symbols are spoken.
 #. %s will be replaced with the symbol level; e.g. none, some, most and all.
 #, python-format
 msgid "Symbol level %s"
-msgstr ""
+msgstr "Asta sembolan ji %s"
 
 #. Translators: Input help mode message for cycle speech symbol level command.
 msgid ""
@@ -3460,7 +3460,7 @@ msgstr ""
 
 #. Translators: Reported when attempting to move the navigator object to the object under mouse pointer.
 msgid "Move navigator object to mouse"
-msgstr ""
+msgstr "objeya navîgasyonê ber bi mişk ve bibe"
 
 #. Translators: Input help mode message for move navigator object to mouse command.
 msgid ""
