@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Emoticon\n"
 "POT-Creation-Date: 2018-09-19 07:00+1000\n"
-"PO-Revision-Date: 2018-09-22 15:49+0200\n"
+"PO-Revision-Date: 2018-09-22 18:53+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: fr <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -276,7 +276,7 @@ msgstr "Changements pour la version 8.0"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr "Compatible avec NVDA 2018.3 ou une version ultérieure (obligatoire)."
+msgstr "Compatible avec NVDA 2018.3 ou version ultérieure (requis)."
 
 #. type: Title ##
 #, no-wrap
