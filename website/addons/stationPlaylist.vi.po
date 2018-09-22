@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-22 04:49+1000\n"
-"PO-Revision-Date: 2018-09-10 12:25+0700\n"
-"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"PO-Revision-Date: 2018-09-22 08:37+0700\n"
+"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -59,18 +59,12 @@ msgid "IMPORTANT NOTES:"
 msgstr "CÁC LƯU Ý QUAN TRỌNG:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "This add-on requires NVDA 2018.2 or later and StationPlaylist Studio 5.10 "
-#| "or later. For best experience, NVDA 2018.3 and Studio 5.11 or later is "
-#| "recommended."
 msgid ""
 "This add-on requires NVDA 2018.3 or later and StationPlaylist Studio 5.11 or "
 "later."
 msgstr ""
-"Add-on này yêu cầu NVDA 2018.2 trở lên và StationPlaylist Studio 5.10 trở "
-"lên. Để có trải nghiệm tốt nhất, NVDA 2018.3 và Studio 5.11 trở lên được "
-"khuyên dùng."
+"Add-on này yêu cầu NVDA 2018.3 trở lên và StationPlaylist Studio 5.11 trở "
+"lên."
 
 #. type: Bullet: '* '
 msgid ""
@@ -918,10 +912,10 @@ msgstr ""
 "và sử dụng các thao tác cảm ứng đã liệt kê ở trên để thực hiện các lệnh."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 16.10.1/15.2-LTS"
 msgid "Version 18.10.1/18.09.3-LTS"
-msgstr "Phiên bản 16.10.1/15.2-LTS"
+msgstr "Phiên bản 18.10.1/18.09.3-LTS"
 
 #. type: Bullet: '* '
 msgid ""
@@ -930,22 +924,24 @@ msgid ""
 "track, or not switching to Studio window when connected. These bugs are "
 "caused by wxPython 4 (NVDA 2018.3 or later)."
 msgstr ""
+"Giải quyết vài trục trặc liên quan đến tính năng thông báo kết nối bộ mã "
+"hóa, bao gồm việc không thông báo thông điệp trạng thái, không phát track "
+"đầu tiên được chọn hoặc không chuyển đến cửa sổ Studio khi đã kết nối. Những "
+"lỗi này gây ra bởi wxPython 4 (NVDA 2018.3 trở lên)."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.08"
 msgid "Version 18.10"
-msgstr "Phiên bản 18.08"
+msgstr "Phiên bản 18.10"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Windows 7 Service Pack 1 or later is required."
 msgid "NVDA 2018.3 or later is required."
-msgstr "Yêu cầu Windows 7 Service Pack 1 trở lên."
+msgstr "Yêu cầu NVDA 2018.3 trở lên."
 
 #. type: Bullet: '* '
 msgid "Internal changes to make the add-on more compatible with Python 3."
-msgstr ""
+msgstr "Những thay đổi bên trong để add-on tương thích hơn với Python 3."
 
 #. type: Title ##
 #, no-wrap
