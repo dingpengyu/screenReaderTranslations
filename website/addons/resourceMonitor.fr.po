@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2018-06-30 22:17+0200\n"
+"PO-Revision-Date: 2018-09-22 20:22+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -152,20 +152,18 @@ msgstr ""
 "Server 2008 a pris fin le 30 juin 2018."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.04"
 msgid "Version 18.10"
-msgstr "Version 18.04"
+msgstr "Version 18.10"
 
 #. type: Bullet: '* '
 msgid "Code has been made more compatible with Python 3."
-msgstr ""
+msgstr "Le code a été rendu plus compatible avec Python 3."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Updated psutil dependency to 5.0.1."
 msgid "Updated psutil dependency to 5.4.7."
-msgstr "Mise à jour de la dépendance psutil vers la version 5.0.1."
+msgstr "Mise à jour de la dépendance psutil vers la version 5.4.7."
 
 #. type: Bullet: '* '
 msgid ""
@@ -173,16 +171,21 @@ msgid ""
 "errors if using a computer or a service with more than a petabyte of RAM or "
 "disk size."
 msgstr ""
+"Lors de l’obtention de la capacité des disques et l’utilisation de la "
+"mémoire, NVDA ne donne plus erreurs si vous utilisez un ordinateur ou un "
+"service contenant plus d’un pétaoctet de RAM ou un disque de taille."
 
 #. type: Bullet: '* '
 msgid ""
 "Values for memory and disk usage are shown with up to two decimal places (e."
 "g. 4.00 GB instead of 4.0 GB)."
 msgstr ""
+"La valeurs pour l’utilisation de la mémoire et le disque sont montrées avec "
+"jusqu'à deux décimales (par exemple 4.00 Go au lieu de 4.0 Go)."
 
 #. type: Bullet: '* '
 msgid "Improved detection of Windows Insider Preview builds."
-msgstr ""
+msgstr "Amélioration de la détection  des builds de Windows Insider Preview."
 
 #. type: Title ##
 #, no-wrap
