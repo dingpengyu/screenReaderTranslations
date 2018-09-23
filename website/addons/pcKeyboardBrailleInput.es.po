@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-24 00:53+1000\n"
-"PO-Revision-Date: 2017-06-06 17:38+0100\n"
-"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-09-23 17:04+0200\n"
+"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.1.1\n"
+"Language-Team: \n"
 
 #. type: Plain text
 #, no-wrap
@@ -23,19 +23,19 @@ msgstr "[[!meta title=\"PC Keyboard Braille Input for NVDA\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: NV Access Limited"
-msgstr ""
+msgstr "Autor: NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "Copyright: 2012-2014 NV Access Limited"
-msgstr ""
+msgstr "Copyright: 2012-2014 NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "License: GNU General Public License version 2.0"
-msgstr ""
+msgstr "Licencia: GNU General Public License versión 2.0"
 
 #. type: Bullet: '* '
 msgid "Download: [version 2014.1][1]"
-msgstr ""
+msgstr "Descargar: [versión 2014.1][1]"
 
 #. type: Plain text
 msgid ""
@@ -56,15 +56,7 @@ msgid "Press NVDA+z to enable braille input."
 msgstr "Pulsa NVDA+z para habilitar la entrada braille."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
-#| "\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
-#| "\t- Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
-#| "\t- Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
-#| "\t- You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
-#| "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
-#| "4. Press NVDA+z to disable braille input.\n"
+#, no-wrap
 msgid ""
 "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
 "\t* Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
@@ -75,10 +67,10 @@ msgid ""
 "4. Press NVDA+z to disable braille input.\n"
 msgstr ""
 "2. Teclea braille pulsando las teclas juntas en el teclado del PC como si fuese un teclado braille.\n"
-"\t- Utiliza las teclas s, d y f para los puntos 1, 2 y 3 respectivamente.\n"
-"\t- Utiliza las teclas j, k y l para los puntos 4, 5 y 6 respectivamente.\n"
-"\t- Utiliza las teclas a y ; (punto y coma) para los puntos 7 y 8, respectivamente.\n"
-"\t- Puedes también utilizar las teclas en la fila superior; es decir, q, w, e, r, u, i, o y p.\n"
+"\t* Utiliza las teclas s, d y f para los puntos 1, 2 y 3 respectivamente.\n"
+"\t* Utiliza las teclas j, k y l para los puntos 4, 5 y 6 respectivamente.\n"
+"\t* Utiliza las teclas a y ; (punto y coma) para los puntos 7 y 8, respectivamente.\n"
+"\t* Puedes también utilizar las teclas en la fila superior; es decir, q, w, e, r, u, i, o y p.\n"
 "3. También puedes pulsar la mayoría de las otras teclas habituales, incluyendo espacio, retroceso, intro y teclas de función.\n"
 "4. Pulsa NVDA+z para deshabilitar la entrada braille.\n"
 
@@ -115,7 +107,7 @@ msgstr ""
 "hacer para solucionar este problema, ya que las teclas simplemente nunca son "
 "recibidas por Windows o NVDA.  En algunos casos, utilizando la fila superior "
 "de teclas con una o ambas manos puede ayudar, ya que el teclado puede "
-"permitir estas teclas"
+"permitir estas teclas."
 
 #. type: Title ##
 #, no-wrap
@@ -123,10 +115,8 @@ msgid "Contributors"
 msgstr "Colaboradores"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "- James Teh"
 msgid "James Teh"
-msgstr "- James Teh"
+msgstr "James Teh"
 
 #. type: Plain text
 #, no-wrap
