@@ -6,11 +6,12 @@
 This add-on   makes it possible to use NVDA with the Intuit Quickbooks 2014 accounting software.
 
 ## Features
-- Automatic enabling of QuickBooks accessibility mode.
-- Labeling of many input fields.
-- Tracking of focus and highlighting for lists such as the Chart of Accounts.
-- Correct control type identification of custom check boxes, radio buttons and buttons.
-- Automatic reporting of messages in custom message dialogs.
+
+* Automatic enabling of QuickBooks accessibility mode.
+* Labeling of many input fields.
+* Tracking of focus and highlighting for lists such as the Chart of Accounts.
+* Correct control type identification of custom check boxes, radio buttons and buttons.
+* Automatic reporting of messages in custom message dialogs.
 
 [[!tag dev]]
 
