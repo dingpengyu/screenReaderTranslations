@@ -1,21 +1,21 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/enhancedTouchGestures.pt_BR.po
+# Copyright (C) 2016-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2016, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: Gestos táteis aprimorados\n"
 "POT-Creation-Date: 2018-08-01 11:17+1000\n"
-"PO-Revision-Date: 2017-09-24 16:58-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
+"PO-Revision-Date: 2018-09-23 19:14-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -41,16 +41,12 @@ msgstr ""
 "navegação."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Note: this add-on requires NVDA 2017.1 or later running on a touchscreen "
-#| "computer with Windows 8 or later installed."
 msgid ""
 "Note: this add-on requires NVDA 2018.2 or later running on a touchscreen "
 "computer with Windows 8.1 or 10."
 msgstr ""
-"Nota: Este complemento requer o NVDA 2017.1 ou posterior rodando num "
-"computador de tela tátil com Windows 8 ou posterior instalado."
+"Nota: este complemento requer o NVDA 2018.2 ou posterior executando num "
+"computador com tela de toque com Windows 8.1 ou 10."
 
 #. type: Title ##
 #, no-wrap
@@ -120,9 +116,8 @@ msgstr ""
 "num documento de navegação, dê um toque com 3 dedos. Neste modo, deslizar "
 "acima ou abaixo com 1 dedo alterna o modo de navegação entre os elementos "
 "disponíveis, ao passo que deslizar à direita ou à esquerda com 1 dedo move "
-"para o elemento escolhidod seguinte ou anterior, respectivamente. Uma vez "
-"que você saia de um documento de navegação, o modo tátil para objetos é "
-"usado."
+"para o elemento escolhido seguinte ou anterior, respectivamente. Uma vez que "
+"você saia de um documento de navegação, o modo tátil para objetos é usado."
 
 #. type: Title ##
 #, no-wrap
@@ -183,7 +178,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Disable touch support in profiles"
-msgstr ""
+msgstr "Desativar o suporte tátil nos perfis"
 
 #. type: Plain text
 msgid ""
@@ -194,22 +189,27 @@ msgid ""
 "their own touch commands. To restore touch functionality, either uncheck "
 "this checkbox or manually toggle touch passthrough."
 msgstr ""
+"Se perfis diferentes da configuração normal estiverem ativos e se você for "
+"para a caixa de diálogo Interação por Toque, você verá uma caixa de seleção "
+"chamada \"desativar completamente o suporte por toque\". Marcar esta caixa e "
+"responder sim, se solicitado, desligará completamente o suporte tátil para "
+"esse perfil. Isso é útil em aplicativos que fornecem seus próprios comandos "
+"de toque. Para restaurar a funcionalidade de toque, desmarque esta caixa de "
+"seleção ou alterne manualmente a passagem tátil."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.07"
+#, no-wrap
 msgid "Version 18.08"
-msgstr "Versão 17.07"
+msgstr "Versão 18.08"
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 and future versions."
-msgstr ""
+msgstr "Compatível com o NVDA 2018.3 e versões futuras."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.07"
+#, no-wrap
 msgid "Version 18.06"
-msgstr "Versão 17.07"
+msgstr "Versão 18.06"
 
 #. type: Bullet: '* '
 msgid ""
@@ -217,56 +217,65 @@ msgid ""
 "under \"Enhanced Touch Gestures\" category. As a result, NVDA 2018.2 is "
 "required."
 msgstr ""
+"As configurações do complemento agora são encontradas na nova tela "
+"multicategoria Configurações do NVDA, na categoria \"Gestos Táteis "
+"Aprimorados\". Como resultado, o NVDA 2018.2 é necessário."
 
 #. type: Bullet: '* '
 msgid "Fixed compatibility issues with wxPython 4."
-msgstr ""
+msgstr "Corrigidos problemas de compatibilidade com o wxPython 4."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.07"
+#, no-wrap
 msgid "Version 18.04"
-msgstr "Versão 17.07"
+msgstr "Versão 18.04"
 
 #. type: Bullet: '* '
 msgid ""
 "Resolves an issue where touch interaction category in NVDA Settings panel "
 "may cause error sounds to be heard due to changes made from this add-on."
 msgstr ""
+"Resolve um problema em que a categoria de interação por toque no painel "
+"Configurações do NVDA pode causar sons de erro a serem ouvidos devido a "
+"alterações feitas neste complemento."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.07"
+#, no-wrap
 msgid "Version 18.03"
-msgstr "Versão 17.07"
+msgstr "Versão 18.03"
 
 #. type: Bullet: '* '
 msgid "NVDA 2018.1 is required."
-msgstr ""
+msgstr "O NVDA 2018.1 é requerido."
 
 #. type: Bullet: '* '
 msgid ""
 "Because NVDA 2018.1 comes with touch typing checkbox, the checkbox is no "
 "longer included in this add-on."
 msgstr ""
+"Como o NVDA 2018.1 vem com a caixa de seleção digitação tátil, a caixa de "
+"seleção não está mais incluída neste complemento."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.07.1"
+#, no-wrap
 msgid "Version 17.12"
-msgstr "Versão 17.07.1"
+msgstr "Versão 17.12"
 
 #. type: Bullet: '* '
 msgid ""
 "Requires NVDA 2017.4. Specifically, this add-on can now handle configuration "
 "profile switches."
 msgstr ""
+"Requer o NVDA 2017.4. Especificamente, este complemento agora pode manipular "
+"interruptores de perfil de configuração."
 
 #. type: Bullet: '* '
 msgid ""
 "As NVDA 2017.4 includes screen orientation announcement, this feature is no "
 "longer part of this add-on."
 msgstr ""
+"Como o NVDA 2017.4 inclui anúncio de orientação de tela, este recurso não "
+"faz mais parte deste complemento."
 
 #. type: Bullet: '* '
 msgid ""
@@ -274,6 +283,9 @@ msgid ""
 "touch support (available if profiles other than normal configuration is "
 "active)."
 msgstr ""
+"Adicionada uma caixa de seleção oculta na caixa de diálogo Interação por "
+"toque para desativar completamente o suporte ao toque (disponível se outros "
+"perfis além da configuração normal estiverem ativos)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -281,30 +293,38 @@ msgid ""
 "under NvDA's preferences menu. The second item is the dialog that comes with "
 "the add-on."
 msgstr ""
+"Se estiver usando o NVDA 2018.1 ou posterior, a caixa de diálogo Interação "
+"por Toque será listada duas vezes no menu de preferências do NvDA. O segundo "
+"item é o diálogo que vem com o complemento."
 
 #. type: Bullet: '* '
 msgid ""
 "In Touch Interaction dialog for the add-on, touch typing mode is no longer "
 "shown if using NVDA 2018.1 or later."
 msgstr ""
+"Na caixa de diálogo Interação por toque do complemento, o modo de digitação "
+"não é mais exibido se você usar o NVDA 2018.1 ou posterior."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.07"
+#, no-wrap
 msgid "Version 17.10"
-msgstr "Versão 17.07"
+msgstr "Versão 17.10"
 
 #. type: Bullet: '* '
 msgid ""
 "Due to support policy from Microsoft, Windows 8 (original release) is no "
 "longer supported."
 msgstr ""
+"Devido à política de suporte da Microsoft, o Windows 8 (versão original) não "
+"é mais suportado."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer announce screen orientation twice when running NVDA "
 "2017.4 development snapshots."
 msgstr ""
+"O NVDA deixará de anunciar a orientação da tela duas vezes quando executar "
+"os snapshots de desenvolvimento do NVDA 2017.4."
 
 #. type: Title ##
 #, no-wrap
