@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-09-21 21:24+0700\n"
+"PO-Revision-Date: 2018-09-23 11:50+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,6 +62,8 @@ msgid ""
 "* If you switch between tabs using the shortcuts, when you'll close the preferences window, NVDA won't be able to know the windows doesn't exist anymore.\n"
 "It is a known issue on NVDA and cannot be fixed.\n"
 msgstr ""
+"* Nếu chuyển giữa các thẻ bằng phím tắt, khi đóng cửa sổ preferences, NVDA không nhận biết được rằng cửa sổ đó không còn tồn tại nữa.\n"
+"Đây là lỗi của NVDA và không thể khắc phục.\n"
 
 #. type: Title ##
 #, no-wrap
@@ -70,13 +72,15 @@ msgstr "Các thay đổi cho 4.0"
 
 #. type: Bullet: '* '
 msgid "Add-on help is available from the Add-ons Manager."
-msgstr ""
+msgstr "Đã có trợ giúp cho add-on từ trình quản lý Add-ons."
 
 #. type: Bullet: '* '
 msgid ""
 "The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid "
 "conflict with audio ducking support."
 msgstr ""
+"Phím tắt xem trạng thái của Dropbox đã thay đổi thành Alt+NVDA+D để tránh "
+"xung đột với lệnh giảm âm thanh."
 
 #. type: Title ##
 #, no-wrap
@@ -88,6 +92,8 @@ msgid ""
 "Use another way to get cancel button and page tab. Now we don't have to focus "
 "them before using shortcuts."
 msgstr ""
+"Dùng cách khác để nhận biết nút cancel và các thẻ. giờ chúng ta không cần "
+"phải c ó focus trước khi dùng phím tắt."
 
 #. type: Bullet: '* '
 msgid ""
@@ -95,16 +101,21 @@ msgid ""
 "tab, the first item of the tab is activated instead of staying to the "
 "previous used tab even if it is not activated anymore."
 msgstr ""
+"Khi chuyển sang thẻ khác, con trỏ di chuyển đến danh sách các thẻ nên khi bấm "
+"tab, thành phần đầu tiên của thẻ được kích hoạt thay vì đứng ở thành phần của "
+"thẻ đã dùng trước đó, thậm chí khi nó không còn được kích hoạt nữa."
 
 #. type: Bullet: '* '
 msgid ""
 "In the preferences dialog, it is now possible to press control+page up/down "
 "to switch between tabs. Control+tab and control+shift+tab still work."
 msgstr ""
+"Trong hộp thoại preferences, giờ đây đã có thể bấm control+page up/down để "
+"chuyển giữa các thẻ. Control+tab và control+shift+tab vẫn hoạt động."
 
 #. type: Bullet: '* '
 msgid "All localized manifest files should now be OK."
-msgstr ""
+msgstr "Tất cả các tập tin manifest được bản địa hóa giờ đây hoạt động tốt."
 
 #. type: Bullet: '* '
 msgid "Minor corrections."
@@ -118,25 +129,28 @@ msgstr "Các thay đổi cho 3.0"
 #. type: Bullet: '* '
 msgid ""
 "Minor correction in the main manifest file (authors are correctly displayed)."
-msgstr ""
+msgstr "Vài chỉnh sửa trong tập tin manifest chính (hiển thị đúng tên tác giả)."
 
 #. type: Bullet: '* '
 msgid "Improved context menu detection when pressing Shift+NVDA+D three times."
 msgstr ""
+"Cải thiện khả năng nhận dạng trình đơn ngữ cảnh khi bấm  Shift+NVDA+D ba lần."
 
 #. type: Bullet: '* '
 msgid ""
 "The escape button now works (only when using Dropbox in the same language "
 "NVDA uses)."
 msgstr ""
+"Nút escape giờ đã hoạt động (chỉ khi dùng Dropbox bằng ngôn ngữ giống với "
+"ngôn ngữ của NVDA)."
 
 #. type: Bullet: '* '
 msgid "A lot of corrections in the code."
-msgstr ""
+msgstr "Nhiều chỉnh sửa trong cho mã nguồn."
 
 #. type: Bullet: '* '
 msgid "Added/updated documentations of all scripts."
-msgstr ""
+msgstr "Thêm / cập nhật tài liệu cho tất cả kịch bản."
 
 #. type: Bullet: '* '
 msgid ""
@@ -144,6 +158,9 @@ msgid ""
 "German, Hungarian, Japanese, Nepali, Polish, Russian, Spanish, Slovak, Tamil, "
 "Turkish."
 msgstr ""
+"Các ngôn ngữ mới: Arabic, Brazilian Portuguese, Czech, Dutch, Finnish, "
+"Galician, German, Hungarian, Japanese, Nepali, Polish, Russian, Spanish, "
+"Slovak, Tamil, Turkish."
 
 #. type: Title ##
 #, no-wrap
@@ -159,6 +176,8 @@ msgid ""
 "Pressing the shortcut three times or more when already being in the context "
 "menu doesn't cause problem anymore."
 msgstr ""
+"Bấm phím tắt ba lần trở lên khi đã đứng ở trình đơn ngữ cảnh không còn gây ra "
+"lỗi nữa."
 
 #. type: Title ##
 #, no-wrap
