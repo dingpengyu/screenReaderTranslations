@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2018-07-29 22:22+0100\n"
-"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
+"PO-Revision-Date: 2018-09-23 13:15+0200\n"
+"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: NVDA ÇSpanish translation team <oprisniki@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -52,7 +52,7 @@ msgid ""
 "available."
 msgstr ""
 "NVDA+Shift+E Presenta la ram utilizada, la carga promedio del procesador, e "
-"información de la batería si está disponible,"
+"información de la batería si está disponible."
 
 #. type: Bullet: '* '
 msgid ""
@@ -60,7 +60,7 @@ msgid ""
 "present the load of each core."
 msgstr ""
 "NVDA+Shift+1 Presenta la carga promedio del procesador y el promedio de la "
-"carga de cada uno de los núcleos si los hay"
+"carga de cada uno de los núcleos si los hay."
 
 #. type: Bullet: '* '
 msgid ""
@@ -68,7 +68,7 @@ msgid ""
 "virtual ram."
 msgstr ""
 "NVDA+Shift+2/5 Presenta el espacio utilizado y total de la RAM física y "
-"virtual,"
+"virtual."
 
 #. type: Bullet: '* '
 msgid ""
@@ -148,20 +148,17 @@ msgstr ""
 "2008 finalizó el 30 de junio de 2018."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.04"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versión 18.04"
+msgstr "Versión 18.10"
 
 #. type: Bullet: '* '
 msgid "Code has been made more compatible with Python 3."
-msgstr ""
+msgstr "El código se ha hecho más compatible con Python 3."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Updated psutil dependency to 5.0.1."
 msgid "Updated psutil dependency to 5.4.7."
-msgstr "Actualizado psutil dependency a 5.0.1."
+msgstr "Actualizada la dependencia psutil a 5.4.7."
 
 #. type: Bullet: '* '
 msgid ""
@@ -169,16 +166,21 @@ msgid ""
 "errors if using a computer or a service with more than a petabyte of RAM or "
 "disk size."
 msgstr ""
+"Al obtener la capacidad de disco o el uso de la memoria, NVDA ya no dará "
+"errores si se utiliza un ordenador o servicio con más de un petabyte de ram "
+"o disco."
 
 #. type: Bullet: '* '
 msgid ""
 "Values for memory and disk usage are shown with up to two decimal places (e."
 "g. 4.00 GB instead of 4.0 GB)."
 msgstr ""
+"Los valores de uso de la memoria y de disco se muestran con hasta dos cifras "
+"decimales (por ejemplo, 4.00 GB en vez de 4.0 GB)."
 
 #. type: Bullet: '* '
 msgid "Improved detection of Windows Insider Preview builds."
-msgstr ""
+msgstr "Se ha mejorado la detección de compilaciones de Windows Insider."
 
 #. type: Title ##
 #, no-wrap
