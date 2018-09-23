@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-06-03 04:37+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2015-10-11 07:21+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -43,19 +43,28 @@ msgstr "このアドオンはNVDAでIntuit Quickbooks 2014 会計ソフトを使
 msgid "Features"
 msgstr "機能"
 
-#. type: Plain text
-msgid ""
-"- Automatic enabling of QuickBooks accessibility mode.  - Labeling of many "
-"input fields.  - Tracking of focus and highlighting for lists such as the "
-"Chart of Accounts.  - Correct control type identification of custom check "
-"boxes, radio buttons and buttons.  - Automatic reporting of messages in "
-"custom message dialogs."
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
 msgstr ""
-"- 自動的にQuickBooksのアクセシビリティーモードを有効にします。  - 入力フィー"
-"ルドにラベルを張ります。  - フォーカスを追跡して会計チャートなどのリストをハ"
-"イライトします。  - カスタムチェックボックス、ラジオボタン、ボタンなどのコン"
-"トロールの種類の認識を修正します。  - 自動的にカスタムメッセージダイアログの"
-"メッセージを報告します。"
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -65,3 +74,16 @@ msgstr ""
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgstr ""
+
+#~ msgid ""
+#~ "- Automatic enabling of QuickBooks accessibility mode.  - Labeling of "
+#~ "many input fields.  - Tracking of focus and highlighting for lists such "
+#~ "as the Chart of Accounts.  - Correct control type identification of "
+#~ "custom check boxes, radio buttons and buttons.  - Automatic reporting of "
+#~ "messages in custom message dialogs."
+#~ msgstr ""
+#~ "- 自動的にQuickBooksのアクセシビリティーモードを有効にします。  - 入力"
+#~ "フィールドにラベルを張ります。  - フォーカスを追跡して会計チャートなどのリ"
+#~ "ストをハイライトします。  - カスタムチェックボックス、ラジオボタン、ボタン"
+#~ "などのコントロールの種類の認識を修正します。  - 自動的にカスタムメッセージ"
+#~ "ダイアログのメッセージを報告します。"

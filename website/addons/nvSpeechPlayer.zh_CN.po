@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-21 07:51+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2018-09-11 08:11+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -189,12 +189,20 @@ msgid "Building NV Speech Player"
 msgstr "构建NV语音合成器"
 
 #. type: Plain text
-msgid ""
-"You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: https://"
-"www.scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+msgid "You will need:"
 msgstr ""
-"您将需要： -  Python 2.7：http：//www.python.org  -  SCons 2.3.0：http：//"
-"www.scons.org/  -  Visual Studio 2012桌面（快速或专业）"
+
+#. type: Bullet: '* '
+msgid "Python 2.7: https://www.python.org"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SCons 2.3.0: https://www.scons.org/"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Visual Studio 2012 Desktop (Express or professional)"
+msgstr ""
 
 #. type: Plain text
 msgid "To build: run scons"
@@ -216,3 +224,11 @@ msgstr ""
 #, no-wrap
 msgid "[[!tag dev synth]]\n"
 msgstr "[[!tag dev synth]]\n"
+
+#~ msgid ""
+#~ "You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+#~ "https://www.scons.org/ - Visual Studio 2012 Desktop (Express or "
+#~ "professional)"
+#~ msgstr ""
+#~ "您将需要： -  Python 2.7：http：//www.python.org  -  SCons 2.3.0：http：//"
+#~ "www.scons.org/  -  Visual Studio 2012桌面（快速或专业）"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-05-31 14:35+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2014-10-02 17:35+0545\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,8 +135,8 @@ msgstr "यन्त्र"
 #. type: Plain text
 msgid ""
 "eSpeak is used to parse text into phonemes represented in IPA, making use of "
-"existing eSpeak dictionary processing. eSpeak can be found at: https://espeak."
-"sourceforge.net/"
+"existing eSpeak dictionary processing. eSpeak can be found at: https://"
+"espeak.sourceforge.net/"
 msgstr ""
 
 #. type: Plain text
@@ -161,12 +161,20 @@ msgid "Building NV Speech Player"
 msgstr "NV Speech Player तयार गरिदै..."
 
 #. type: Plain text
-msgid ""
-"You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: https://www."
-"scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+msgid "You will need:"
 msgstr ""
-"तपाइलाई चाहिनेछ: - Python 2.7: https://www.python.org - SCons 2.3.0: https://"
-"www.scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+
+#. type: Bullet: '* '
+msgid "Python 2.7: https://www.python.org"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SCons 2.3.0: https://www.scons.org/"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Visual Studio 2012 Desktop (Express or professional)"
+msgstr ""
 
 #. type: Plain text
 msgid "To build: run scons"
@@ -186,3 +194,12 @@ msgstr ""
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev synth]]\n"
 msgstr "[[!tag dev]]\n"
+
+#~ msgid ""
+#~ "You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+#~ "https://www.scons.org/ - Visual Studio 2012 Desktop (Express or "
+#~ "professional)"
+#~ msgstr ""
+#~ "तपाइलाई चाहिनेछ: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+#~ "https://www.scons.org/ - Visual Studio 2012 Desktop (Express or "
+#~ "professional)"

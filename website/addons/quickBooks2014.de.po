@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-01-24 03:56+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2017-12-19 00:26+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
@@ -44,20 +44,28 @@ msgstr "Diese Erweiterung ermöglicht Ihnen, die Buchhaltungssoftware Intuit Qui
 msgid "Features"
 msgstr "Funktionen"
 
-#. type: Plain text
-msgid ""
-"- Automatic enabling of QuickBooks accessibility mode.  - Labeling of many "
-"input fields.  - Tracking of focus and highlighting for lists such as the "
-"Chart of Accounts.  - Correct control type identification of custom check "
-"boxes, radio buttons and buttons.  - Automatic reporting of messages in "
-"custom message dialogs."
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
 msgstr ""
-"- Automatische Aktivierung der barrierefreiheit von Quickbooks.\n"
-"- Benennung der  meisten Eingabefeldern.\n"
-"- Verfolgung des Fokus und Hervorhebung von Listen wie der Konten-Liste.\n"
-"- Richtige Identifizierung der Steuertypen wie benutzerdefinierte "
-"Kontrollkästchen, Auswahlschalter und Schaltflächen.\n"
-"- Automatische Ansage von Meldungen in benutzerdefinierte Meldungsdialoge."
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -67,3 +75,17 @@ msgstr "[[!tag dev]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
+
+#~ msgid ""
+#~ "- Automatic enabling of QuickBooks accessibility mode.  - Labeling of "
+#~ "many input fields.  - Tracking of focus and highlighting for lists such "
+#~ "as the Chart of Accounts.  - Correct control type identification of "
+#~ "custom check boxes, radio buttons and buttons.  - Automatic reporting of "
+#~ "messages in custom message dialogs."
+#~ msgstr ""
+#~ "- Automatische Aktivierung der barrierefreiheit von Quickbooks.\n"
+#~ "- Benennung der  meisten Eingabefeldern.\n"
+#~ "- Verfolgung des Fokus und Hervorhebung von Listen wie der Konten-Liste.\n"
+#~ "- Richtige Identifizierung der Steuertypen wie benutzerdefinierte "
+#~ "Kontrollkästchen, Auswahlschalter und Schaltflächen.\n"
+#~ "- Automatische Ansage von Meldungen in benutzerdefinierte Meldungsdialoge."

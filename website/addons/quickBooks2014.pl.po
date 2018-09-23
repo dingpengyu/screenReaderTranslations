@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Quick books\n"
-"POT-Creation-Date: 2017-06-03 04:37+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2017-06-02 21:21+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
@@ -43,19 +43,28 @@ msgstr "Ten dodatek umożliwia używanie NVDA z oprogramowaniem księgowym Intui
 msgid "Features"
 msgstr "Cechy"
 
-#. type: Plain text
-msgid ""
-"- Automatic enabling of QuickBooks accessibility mode.  - Labeling of many "
-"input fields.  - Tracking of focus and highlighting for lists such as the "
-"Chart of Accounts.  - Correct control type identification of custom check "
-"boxes, radio buttons and buttons.  - Automatic reporting of messages in "
-"custom message dialogs."
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
 msgstr ""
-"- Automatyczne włączanie trybu dostępności QuickBooks .  - Etykietowanie "
-"wielu pól wprowadzania.  - Śledzenie punktu uwagi i podświetlenia dla list "
-"takich jak karta kont.  - Prawidłowe identyfikowanie typu kontrolek własnych "
-"pól wyboru, przycisków i przycisków opcji.  - Automatyczne odczytywanie "
-"wiadomości we własnych oknach wiadomości programu."
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -65,3 +74,16 @@ msgstr "[[!tag dev]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
+
+#~ msgid ""
+#~ "- Automatic enabling of QuickBooks accessibility mode.  - Labeling of "
+#~ "many input fields.  - Tracking of focus and highlighting for lists such "
+#~ "as the Chart of Accounts.  - Correct control type identification of "
+#~ "custom check boxes, radio buttons and buttons.  - Automatic reporting of "
+#~ "messages in custom message dialogs."
+#~ msgstr ""
+#~ "- Automatyczne włączanie trybu dostępności QuickBooks .  - Etykietowanie "
+#~ "wielu pól wprowadzania.  - Śledzenie punktu uwagi i podświetlenia dla "
+#~ "list takich jak karta kont.  - Prawidłowe identyfikowanie typu kontrolek "
+#~ "własnych pól wyboru, przycisków i przycisków opcji.  - Automatyczne "
+#~ "odczytywanie wiadomości we własnych oknach wiadomości programu."

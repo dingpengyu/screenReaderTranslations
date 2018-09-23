@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nvSpeechPlayer\n"
-"POT-Creation-Date: 2016-05-31 14:35+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2016-12-29 14:55-0800\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
@@ -187,8 +187,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "eSpeak is used to parse text into phonemes represented in IPA, making use of "
-"existing eSpeak dictionary processing. eSpeak can be found at: https://espeak."
-"sourceforge.net/"
+"existing eSpeak dictionary processing. eSpeak can be found at: https://"
+"espeak.sourceforge.net/"
 msgstr ""
 "eSpeak est utilisé pour analyser le texte en phonèmes représentés dans "
 "l'IPA, faisant usage du traitement de dictionnaire eSpeak existants. eSpeak "
@@ -221,12 +221,20 @@ msgid "Building NV Speech Player"
 msgstr "Construction NV Speech Player"
 
 #. type: Plain text
-msgid ""
-"You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: https://www."
-"scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+msgid "You will need:"
 msgstr ""
-"Vous aurez besoin: - Python 2.7: https://www.python.org - SCons 2.3.0: https://"
-"www.scons.org/ - Visual Studio 2012 Desktop (Express ou professional)"
+
+#. type: Bullet: '* '
+msgid "Python 2.7: https://www.python.org"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SCons 2.3.0: https://www.scons.org/"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Visual Studio 2012 Desktop (Express or professional)"
+msgstr ""
 
 #. type: Plain text
 msgid "To build: run scons"
@@ -251,3 +259,12 @@ msgstr ""
 #, no-wrap
 msgid "[[!tag dev synth]]\n"
 msgstr "[[!tag dev synth]]\n"
+
+#~ msgid ""
+#~ "You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+#~ "https://www.scons.org/ - Visual Studio 2012 Desktop (Express or "
+#~ "professional)"
+#~ msgstr ""
+#~ "Vous aurez besoin: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+#~ "https://www.scons.org/ - Visual Studio 2012 Desktop (Express ou "
+#~ "professional)"

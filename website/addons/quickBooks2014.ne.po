@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-06-03 04:37+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2014-08-14 18:11+0545\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,18 +42,28 @@ msgstr "यो उपकर्मीले नेत्रवाणी चला
 msgid "Features"
 msgstr "सुविधाहरू"
 
-#. type: Plain text
-msgid ""
-"- Automatic enabling of QuickBooks accessibility mode.  - Labeling of many "
-"input fields.  - Tracking of focus and highlighting for lists such as the "
-"Chart of Accounts.  - Correct control type identification of custom check "
-"boxes, radio buttons and buttons.  - Automatic reporting of messages in "
-"custom message dialogs."
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
 msgstr ""
-"- QuickBooks पहुँच मुद्राको स्वचालित सक्रियता ।  - धेरै लगानी भूमीको नामाकरण ।  - "
-"लेखामा प्रयोग हुने चित्रपट जस्ता सुचीको खोज तलास र प्रकास ।  - रिवाजी चेक बाकस, रेडियो "
-"टाँक र टाँकहरू  जस्ता नियन्त्रकहरूको पहिचानमा शुद्धता - रिवाजी सन्देस पातोका सन्देसहरूको "
-"स्वचालित जानकारी ।"
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -65,3 +75,15 @@ msgstr "[[!tag dev]]\n"
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
+
+#~ msgid ""
+#~ "- Automatic enabling of QuickBooks accessibility mode.  - Labeling of "
+#~ "many input fields.  - Tracking of focus and highlighting for lists such "
+#~ "as the Chart of Accounts.  - Correct control type identification of "
+#~ "custom check boxes, radio buttons and buttons.  - Automatic reporting of "
+#~ "messages in custom message dialogs."
+#~ msgstr ""
+#~ "- QuickBooks पहुँच मुद्राको स्वचालित सक्रियता ।  - धेरै लगानी भूमीको नामाकरण ।  - "
+#~ "लेखामा प्रयोग हुने चित्रपट जस्ता सुचीको खोज तलास र प्रकास ।  - रिवाजी चेक बाकस, "
+#~ "रेडियो टाँक र टाँकहरू  जस्ता नियन्त्रकहरूको पहिचानमा शुद्धता - रिवाजी सन्देस पातोका "
+#~ "सन्देसहरूको स्वचालित जानकारी ।"

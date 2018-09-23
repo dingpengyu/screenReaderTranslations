@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-03 02:59+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2018-09-11 08:13+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -21,14 +21,21 @@ msgstr ""
 msgid "[[!meta title=\"PC Keyboard Braille Input for NVDA\"]]\n"
 msgstr "[[!meta title=\"NVDAPC键盘盲文输入\"]]\n"
 
-#. type: Plain text
-msgid ""
-"- Author: NV Access Limited - Copyright: 2012-2014 NV Access Limited - "
-"License: GNU General Public License version 2.0 - Download: [version 2014.1]"
-"[1]"
+#. type: Bullet: '* '
+msgid "Author: NV Access Limited"
 msgstr ""
-"- 作者：NV Access Limited  - 版权所有：2012-2014 NV Access Limited  - 许可"
-"证：GNU通用公共许可证2.0版 - 下载地址：[2014.1版] [1]"
+
+#. type: Bullet: '* '
+msgid "Copyright: 2012-2014 NV Access Limited"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "License: GNU General Public License version 2.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download: [version 2014.1][1]"
+msgstr ""
 
 #. type: Plain text
 msgid ""
@@ -46,13 +53,21 @@ msgid "Press NVDA+z to enable braille input."
 msgstr "按NVDA + z启用盲文输入。"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
+#| "\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
+#| "\t- Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
+#| "\t- Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
+#| "\t- You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
+#| "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
+#| "4. Press NVDA+z to disable braille input.\n"
 msgid ""
 "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
-"\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
-"\t- Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
-"\t- Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
-"\t- You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
+"\t* Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
+"\t* Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
+"\t* Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
+"\t* You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
 "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
 "4. Press NVDA+z to disable braille input.\n"
 msgstr "2.通过在PC键盘上按键一起键入盲文，就像它是盲文键盘一样。 ％9-分别使用键s，d和f表示点1,2和3。 ％9-分别使用键j，k和l表示点4,5和6。 ％9-使用键a和; （分号）分别表示点7和8。 ％9-你也可以使用上面一行的键;即q，w，e，r，u，i，o和p。 3.您可以正常按下大多数其他键，包括空格，退格键，输入键和功能键。 4.按NVDA + z禁用盲文输入。\n"
@@ -82,17 +97,19 @@ msgid ""
 "your keyboard may allow these keys."
 msgstr ""
 "某些键盘，尤其是笔记本电脑键盘，无法处理按下的某些键组合。发生这种情况时，会"
-"忽略某些键。不幸的是，没有什么可以解决这个问题，因为Windows或NVDA从未接收到"
-"密钥。在某些情况下，用一只或两只手使用上排键可能会有所帮助，因为键盘可能允许"
-"这些键。"
+"忽略某些键。不幸的是，没有什么可以解决这个问题，因为Windows或NVDA从未接收到密"
+"钥。在某些情况下，用一只或两只手使用上排键可能会有所帮助，因为键盘可能允许这"
+"些键。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Contributors"
 msgstr "贡献者"
 
-#. type: Plain text
-msgid "- James Teh"
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "- James Teh"
+msgid "James Teh"
 msgstr "- 詹姆斯特"
 
 #. type: Plain text
@@ -103,3 +120,11 @@ msgstr "[[!tag dev]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pckbbrl"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pckbbrl"
+
+#~ msgid ""
+#~ "- Author: NV Access Limited - Copyright: 2012-2014 NV Access Limited - "
+#~ "License: GNU General Public License version 2.0 - Download: [version "
+#~ "2014.1][1]"
+#~ msgstr ""
+#~ "- 作者：NV Access Limited  - 版权所有：2012-2014 NV Access Limited  - 许可"
+#~ "证：GNU通用公共许可证2.0版 - 下载地址：[2014.1版] [1]"

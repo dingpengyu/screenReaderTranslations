@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-01-30 16:06+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,15 +123,15 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "The synthesis engine itself is written in C++ using modern idioms, but "
-"closely following the implementation of klsyn-88, found at "
-"https://linguistics.berkeley.edu/phonlab/resources/"
+"closely following the implementation of klsyn-88, found at https://"
+"linguistics.berkeley.edu/phonlab/resources/"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "eSpeak is used to parse text into phonemes represented in IPA, making use of "
-"existing eSpeak dictionary processing. eSpeak can be found at: "
-"https://espeak.sourceforge.net/"
+"existing eSpeak dictionary processing. eSpeak can be found at: https://"
+"espeak.sourceforge.net/"
 msgstr ""
 
 #. type: Plain text
@@ -154,9 +154,19 @@ msgid "Building NV Speech Player"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: "
-"https://www.scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+msgid "You will need:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Python 2.7: https://www.python.org"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SCons 2.3.0: https://www.scons.org/"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Visual Studio 2012 Desktop (Express or professional)"
 msgstr ""
 
 #. type: Plain text

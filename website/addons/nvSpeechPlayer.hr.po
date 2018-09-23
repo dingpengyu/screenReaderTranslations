@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-05-31 14:35+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2018-03-14 16:36+0100\n"
 "Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,8 +65,8 @@ msgstr ""
 "način dok god ga prati ova licenca i dok učinite izvorni kod dostupnim "
 "svakome tko to zatraži. Ovo važi za originalne i izmijenjene kopije ovog "
 "programa, plus kao i svaki drugi rad.  Za dodatne informacije, možete "
-"pročitati licencu online na adresi: https://www.gnu.org/licenses/old-licenses/"
-"gpl-2.0.html"
+"pročitati licencu online na adresi: https://www.gnu.org/licenses/old-"
+"licenses/gpl-2.0.html"
 
 #. type: Title ##
 #, no-wrap
@@ -169,14 +169,14 @@ msgid ""
 "linguistics.berkeley.edu/phonlab/resources/"
 msgstr ""
 "Sintetizator je napisan u jeziku C++ korištenjem modernih idioma, ali više "
-"prateći implementaciju klsyn-88, koju možete pronaći na adresi https://espeak."
-"sourceforge.net/"
+"prateći implementaciju klsyn-88, koju možete pronaći na adresi https://"
+"espeak.sourceforge.net/"
 
 #. type: Plain text
 msgid ""
 "eSpeak is used to parse text into phonemes represented in IPA, making use of "
-"existing eSpeak dictionary processing. eSpeak can be found at: https://espeak."
-"sourceforge.net/"
+"existing eSpeak dictionary processing. eSpeak can be found at: https://"
+"espeak.sourceforge.net/"
 msgstr ""
 "eSpeak se koristi za analizu teksta u foneme koji su prikazani u IPA, "
 "koristeći postojeću obradu eSpeak rječnika. eSpeak možete pronaći na adresi: "
@@ -189,8 +189,8 @@ msgid ""
 "been further tweaked based on testing and matching with eSpeak's own data."
 msgstr ""
 "Klatt podaci za svaki pojedini fonem prikupljeni su uglavnom iz projekta "
-"PyKlatt: https://code.google.com/p/pyklatt/ Međutim, dalje se sve baziralo na "
-"testiranju i uspoređivanju s podacima za eSpeak."
+"PyKlatt: https://code.google.com/p/pyklatt/ Međutim, dalje se sve baziralo "
+"na testiranju i uspoređivanju s podacima za eSpeak."
 
 #. type: Plain text
 msgid ""
@@ -208,12 +208,20 @@ msgid "Building NV Speech Player"
 msgstr "Izrada NV Speech Playera "
 
 #. type: Plain text
-msgid ""
-"You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: https://www."
-"scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+msgid "You will need:"
 msgstr ""
-"Trebat će vam: - Python 2.7: https://www.python.org - SCons 2.3.0: https://www."
-"scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+
+#. type: Bullet: '* '
+msgid "Python 2.7: https://www.python.org"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SCons 2.3.0: https://www.scons.org/"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Visual Studio 2012 Desktop (Express or professional)"
+msgstr ""
 
 #. type: Plain text
 msgid "To build: run scons"
@@ -237,3 +245,12 @@ msgstr ""
 #, no-wrap
 msgid "[[!tag dev synth]]\n"
 msgstr "[[!tag dev synth]]\n"
+
+#~ msgid ""
+#~ "You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+#~ "https://www.scons.org/ - Visual Studio 2012 Desktop (Express or "
+#~ "professional)"
+#~ msgstr ""
+#~ "Trebat će vam: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+#~ "https://www.scons.org/ - Visual Studio 2012 Desktop (Express or "
+#~ "professional)"

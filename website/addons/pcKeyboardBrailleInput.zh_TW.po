@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-01-30 16:06+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,20 @@ msgstr ""
 msgid "[[!meta title=\"PC Keyboard Braille Input for NVDA\"]]\n"
 msgstr ""
 
-#. type: Plain text
-msgid ""
-"- Author: NV Access Limited - Copyright: 2012-2014 NV Access Limited - "
-"License: GNU General Public License version 2.0 - Download: [version "
-"2014.1][1]"
+#. type: Bullet: '* '
+msgid "Author: NV Access Limited"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Copyright: 2012-2014 NV Access Limited"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "License: GNU General Public License version 2.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download: [version 2014.1][1]"
 msgstr ""
 
 #. type: Plain text
@@ -46,15 +55,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"2. Type braille by pressing keys together on the PC keyboard as if it were a "
-"braille keyboard.\n"
-"\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
-"\t- Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
-"\t- Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
-"\t- You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and "
-"p.\n"
-"3. You can press most other keys as normal, including space, backspace, "
-"enter and function keys.\n"
+"2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
+"\t* Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
+"\t* Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
+"\t* Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
+"\t* You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
+"3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
 "4. Press NVDA+z to disable braille input.\n"
 msgstr ""
 
@@ -86,8 +92,8 @@ msgstr ""
 msgid "Contributors"
 msgstr ""
 
-#. type: Plain text
-msgid "- James Teh"
+#. type: Bullet: '* '
+msgid "James Teh"
 msgstr ""
 
 #. type: Plain text

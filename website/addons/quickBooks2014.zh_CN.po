@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-03 03:00+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2018-09-11 08:15+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -42,17 +42,28 @@ msgstr "此插件可以将NVDA与Intuit Quickbooks 2014会计软件配合使用�
 msgid "Features"
 msgstr "功能"
 
-#. type: Plain text
-msgid ""
-"- Automatic enabling of QuickBooks accessibility mode.  - Labeling of many "
-"input fields.  - Tracking of focus and highlighting for lists such as the "
-"Chart of Accounts.  - Correct control type identification of custom check "
-"boxes, radio buttons and buttons.  - Automatic reporting of messages in "
-"custom message dialogs."
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
 msgstr ""
-"- 自动启用QuickBooks辅助功能模式。 - 标记许多输入字段。 - 跟踪焦点和突出显"
-"示列表，如会计科目表。 - 正确控制类型识别自定义复选框，单选按钮和按钮。 - "
-"自定义消息对话框中的消息报告。"
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -62,3 +73,14 @@ msgstr "[[!tag dev]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
+
+#~ msgid ""
+#~ "- Automatic enabling of QuickBooks accessibility mode.  - Labeling of "
+#~ "many input fields.  - Tracking of focus and highlighting for lists such "
+#~ "as the Chart of Accounts.  - Correct control type identification of "
+#~ "custom check boxes, radio buttons and buttons.  - Automatic reporting of "
+#~ "messages in custom message dialogs."
+#~ msgstr ""
+#~ "- 自动启用QuickBooks辅助功能模式。 - 标记许多输入字段。 - 跟踪焦点和突出显"
+#~ "示列表，如会计科目表。 - 正确控制类型识别自定义复选框，单选按钮和按钮。 - "
+#~ "自定义消息对话框中的消息报告。"

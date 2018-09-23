@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pcKeyboardBrailleInput\n"
-"POT-Creation-Date: 2017-06-03 04:37+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2017-07-04 00:51+0400\n"
 "Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
 "Language-Team: Translators <LL@li.org>\n"
@@ -21,15 +21,21 @@ msgstr ""
 msgid "[[!meta title=\"PC Keyboard Braille Input for NVDA\"]]\n"
 msgstr "[[!meta title=\"PC Keyboard Braille Input for NVDA\"]]\n"
 
-#. type: Plain text
-msgid ""
-"- Author: NV Access Limited - Copyright: 2012-2014 NV Access Limited - "
-"License: GNU General Public License version 2.0 - Download: [version 2014.1]"
-"[1]"
+#. type: Bullet: '* '
+msgid "Author: NV Access Limited"
 msgstr ""
-"- Автор: NV Access Limited - Авторское право: 2012-2014 NV Access Limited - "
-"Лицензия: GNU General Public License версия 2.0 - Загрузить: [версию 2014.1]"
-"[1]"
+
+#. type: Bullet: '* '
+msgid "Copyright: 2012-2014 NV Access Limited"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "License: GNU General Public License version 2.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download: [version 2014.1][1]"
+msgstr ""
 
 #. type: Plain text
 msgid ""
@@ -49,13 +55,21 @@ msgid "Press NVDA+z to enable braille input."
 msgstr "Нажмите NVDA+z, чтобы включить ввод брайля."
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
+#| "\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
+#| "\t- Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
+#| "\t- Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
+#| "\t- You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
+#| "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
+#| "4. Press NVDA+z to disable braille input.\n"
 msgid ""
 "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
-"\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
-"\t- Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
-"\t- Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
-"\t- You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
+"\t* Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
+"\t* Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
+"\t* Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
+"\t* You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
 "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
 "4. Press NVDA+z to disable braille input.\n"
 msgstr ""
@@ -105,8 +119,10 @@ msgstr ""
 msgid "Contributors"
 msgstr "Авторы"
 
-#. type: Plain text
-msgid "- James Teh"
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "- James Teh"
+msgid "James Teh"
 msgstr "- James Teh"
 
 #. type: Plain text
@@ -117,3 +133,12 @@ msgstr "[[!tag dev]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pckbbrl"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pckbbrl"
+
+#~ msgid ""
+#~ "- Author: NV Access Limited - Copyright: 2012-2014 NV Access Limited - "
+#~ "License: GNU General Public License version 2.0 - Download: [version "
+#~ "2014.1][1]"
+#~ msgstr ""
+#~ "- Автор: NV Access Limited - Авторское право: 2012-2014 NV Access Limited "
+#~ "- Лицензия: GNU General Public License версия 2.0 - Загрузить: [версию "
+#~ "2014.1][1]"

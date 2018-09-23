@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons spanish and galician Traslation\n"
-"POT-Creation-Date: 2016-05-31 14:35+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2016-12-29 14:55-0800\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: NVDA add-ons Traslation <LL@li.org>\n"
@@ -184,8 +184,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "eSpeak is used to parse text into phonemes represented in IPA, making use of "
-"existing eSpeak dictionary processing. eSpeak can be found at: https://espeak."
-"sourceforge.net/"
+"existing eSpeak dictionary processing. eSpeak can be found at: https://"
+"espeak.sourceforge.net/"
 msgstr ""
 "Utilízase eSpeak para interpretar texto en fonemas representados en IPA, "
 "facendo uso do procesamento de diccionarios existente de eSpeak.  eSpeak "
@@ -198,8 +198,8 @@ msgid ""
 "been further tweaked based on testing and matching with eSpeak's own data."
 msgstr ""
 "Os dados formantes de Klatt para cada fonema individual foron recolectados "
-"na súa meirande parte dun proxecto chamado PyKlatt: https://code.google.com/p/"
-"pyklatt/ Asimesmo foi modificado aínda máis baseándose nas probas e na "
+"na súa meirande parte dun proxecto chamado PyKlatt: https://code.google.com/"
+"p/pyklatt/ Asimesmo foi modificado aínda máis baseándose nas probas e na "
 "comparación cos proprios dados de eSpeak."
 
 #. type: Plain text
@@ -218,12 +218,20 @@ msgid "Building NV Speech Player"
 msgstr "Compilando NV Speech Player"
 
 #. type: Plain text
-msgid ""
-"You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: https://www."
-"scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+msgid "You will need:"
 msgstr ""
-"Necesitarás: - Python 2.7: https://www.python.org - SCons 2.3.0: https://www."
-"scons.org/ - Visual Studio 2012 Desktop (Express ou professional)"
+
+#. type: Bullet: '* '
+msgid "Python 2.7: https://www.python.org"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SCons 2.3.0: https://www.scons.org/"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Visual Studio 2012 Desktop (Express or professional)"
+msgstr ""
 
 #. type: Plain text
 msgid "To build: run scons"
@@ -247,3 +255,11 @@ msgstr ""
 #, no-wrap
 msgid "[[!tag dev synth]]\n"
 msgstr "[[!tag dev synth]]\n"
+
+#~ msgid ""
+#~ "You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+#~ "https://www.scons.org/ - Visual Studio 2012 Desktop (Express or "
+#~ "professional)"
+#~ msgstr ""
+#~ "Necesitarás: - Python 2.7: https://www.python.org - SCons 2.3.0: https://"
+#~ "www.scons.org/ - Visual Studio 2012 Desktop (Express ou professional)"

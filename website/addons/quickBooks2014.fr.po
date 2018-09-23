@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quickBooks2014\n"
-"POT-Creation-Date: 2018-01-24 03:56+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2017-06-03 16:17+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
@@ -43,20 +43,28 @@ msgstr "Ce module complémentaire fait possible l'utilisation de NVDA avec le lo
 msgid "Features"
 msgstr "Caractéristiques"
 
-#. type: Plain text
-msgid ""
-"- Automatic enabling of QuickBooks accessibility mode.  - Labeling of many "
-"input fields.  - Tracking of focus and highlighting for lists such as the "
-"Chart of Accounts.  - Correct control type identification of custom check "
-"boxes, radio buttons and buttons.  - Automatic reporting of messages in "
-"custom message dialogs."
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
 msgstr ""
-"- Activation automatique du mode accessibilité QuickBooks.  - Étiquetage de "
-"nombreux champs d'entrée.  - Suivi du focus et mise en évidence des listes "
-"telles que le Plan Comptable Général.  - Correct identification du type de "
-"contrôle des cases à cocher personnalisés, radio boutons et boutons.  - "
-"Notification automatique des messages dans les boîtes de dialogue de message "
-"personnalisé."
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -66,3 +74,17 @@ msgstr "[[!tag dev]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
+
+#~ msgid ""
+#~ "- Automatic enabling of QuickBooks accessibility mode.  - Labeling of "
+#~ "many input fields.  - Tracking of focus and highlighting for lists such "
+#~ "as the Chart of Accounts.  - Correct control type identification of "
+#~ "custom check boxes, radio buttons and buttons.  - Automatic reporting of "
+#~ "messages in custom message dialogs."
+#~ msgstr ""
+#~ "- Activation automatique du mode accessibilité QuickBooks.  - Étiquetage "
+#~ "de nombreux champs d'entrée.  - Suivi du focus et mise en évidence des "
+#~ "listes telles que le Plan Comptable Général.  - Correct identification du "
+#~ "type de contrôle des cases à cocher personnalisés, radio boutons et "
+#~ "boutons.  - Notification automatique des messages dans les boîtes de "
+#~ "dialogue de message personnalisé."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-06-03 04:37+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2017-06-03 15:18+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -43,19 +43,28 @@ msgstr "Acest add-on face posibilă utilizarea NVDA cu Intuit Quickbooks 2014.\n
 msgid "Features"
 msgstr "Caracteristici"
 
-#. type: Plain text
-msgid ""
-"- Automatic enabling of QuickBooks accessibility mode.  - Labeling of many "
-"input fields.  - Tracking of focus and highlighting for lists such as the "
-"Chart of Accounts.  - Correct control type identification of custom check "
-"boxes, radio buttons and buttons.  - Automatic reporting of messages in "
-"custom message dialogs."
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
 msgstr ""
-"- Activarea automată a accesibilității modului QuickBooks.  - Etichetarea "
-"multor casete de intrare.  - Urmărirea focalizării și îmbunătățirea pentru "
-"liste cum ar fi Chart of Accounts.  - Identificarea corectă a tipului de "
-"control pentru căsuțe de bifat, butoane rotative și butoane. - Raportarea "
-"automată a mesajelor în casetele de dialog personalizate a mesajelor."
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -65,3 +74,17 @@ msgstr "[[!tag dev]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
+
+#~ msgid ""
+#~ "- Automatic enabling of QuickBooks accessibility mode.  - Labeling of "
+#~ "many input fields.  - Tracking of focus and highlighting for lists such "
+#~ "as the Chart of Accounts.  - Correct control type identification of "
+#~ "custom check boxes, radio buttons and buttons.  - Automatic reporting of "
+#~ "messages in custom message dialogs."
+#~ msgstr ""
+#~ "- Activarea automată a accesibilității modului QuickBooks.  - Etichetarea "
+#~ "multor casete de intrare.  - Urmărirea focalizării și îmbunătățirea "
+#~ "pentru liste cum ar fi Chart of Accounts.  - Identificarea corectă a "
+#~ "tipului de control pentru căsuțe de bifat, butoane rotative și butoane. - "
+#~ "Raportarea automată a mesajelor în casetele de dialog personalizate a "
+#~ "mesajelor."

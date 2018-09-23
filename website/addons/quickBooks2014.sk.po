@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-06-03 04:37+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2014-06-06 19:24+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,19 +43,28 @@ msgstr "Tento doplnok umožňuje používať účtovný program Intuit Quickbook
 msgid "Features"
 msgstr "Vlastnosti"
 
-#. type: Plain text
-msgid ""
-"- Automatic enabling of QuickBooks accessibility mode.  - Labeling of many "
-"input fields.  - Tracking of focus and highlighting for lists such as the "
-"Chart of Accounts.  - Correct control type identification of custom check "
-"boxes, radio buttons and buttons.  - Automatic reporting of messages in "
-"custom message dialogs."
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
 msgstr ""
-"- Automatické aktivovanie podpory prístupnosti v programe QuickBooks.- "
-"Správne popísané editačné polia.- Sledovanie fokusu v zoznamoch ako "
-"napríklad graf účtov.- Správna identifikácia vlastných začiarkávacích polí, "
-"prepínačov a tlačidiel.- automatické - Oznamovanie správ v dialógu vlastné "
-"správy."
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -67,3 +76,16 @@ msgstr "[[!tag dev]]\n"
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
+
+#~ msgid ""
+#~ "- Automatic enabling of QuickBooks accessibility mode.  - Labeling of "
+#~ "many input fields.  - Tracking of focus and highlighting for lists such "
+#~ "as the Chart of Accounts.  - Correct control type identification of "
+#~ "custom check boxes, radio buttons and buttons.  - Automatic reporting of "
+#~ "messages in custom message dialogs."
+#~ msgstr ""
+#~ "- Automatické aktivovanie podpory prístupnosti v programe QuickBooks.- "
+#~ "Správne popísané editačné polia.- Sledovanie fokusu v zoznamoch ako "
+#~ "napríklad graf účtov.- Správna identifikácia vlastných začiarkávacích "
+#~ "polí, prepínačov a tlačidiel.- automatické - Oznamovanie správ v dialógu "
+#~ "vlastné správy."

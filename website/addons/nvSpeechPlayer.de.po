@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2016-05-31 14:35+1000\n"
+"POT-Creation-Date: 2018-09-24 00:53+1000\n"
 "PO-Revision-Date: 2018-01-11 13:08+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
@@ -69,8 +69,8 @@ msgstr ""
 "möchte. Dies gilt sowohl für Original- als auch für modifizierte Kopien "
 "dieser Software sowie für alle davon abgeleiteten Werke.  Für weitere "
 "Details können Sie die Lizenz online einsehen unter: [https://www.gnu.org/"
-"licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/"
-"gpl-2.0.html)"
+"licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-"
+"licenses/gpl-2.0.html)"
 
 #. type: Title ##
 #, no-wrap
@@ -190,8 +190,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "eSpeak is used to parse text into phonemes represented in IPA, making use of "
-"existing eSpeak dictionary processing. eSpeak can be found at: https://espeak."
-"sourceforge.net/"
+"existing eSpeak dictionary processing. eSpeak can be found at: https://"
+"espeak.sourceforge.net/"
 msgstr ""
 "eSpeak wird verwendet, um Text in Phoneme zu parsen, die in IPA dargestellt "
 "werden. Dabei wird die bestehende eSpeak Wörterbuchverarbeitung genutzt. "
@@ -205,9 +205,9 @@ msgid ""
 "been further tweaked based on testing and matching with eSpeak's own data."
 msgstr ""
 "Die Klatt-Formant-Daten für jedes einzelne Phonem stammen größtenteils aus "
-"dem Projekt PyKlatt: [https://code.google.com/p/pyklatt/](https://code.google."
-"com/p/pyklatt/) Es wurden jedoch weitere Optimierungen vorgenommen, die auf "
-"Tests und dem Abgleich mit den eSpeak-eigenen Daten beruhen."
+"dem Projekt PyKlatt: [https://code.google.com/p/pyklatt/](https://code."
+"google.com/p/pyklatt/) Es wurden jedoch weitere Optimierungen vorgenommen, "
+"die auf Tests und dem Abgleich mit den eSpeak-eigenen Daten beruhen."
 
 #. type: Plain text
 msgid ""
@@ -225,13 +225,20 @@ msgid "Building NV Speech Player"
 msgstr "Building von NV Speech Player"
 
 #. type: Plain text
-msgid ""
-"You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: https://www."
-"scons.org/ - Visual Studio 2012 Desktop (Express or professional)"
+msgid "You will need:"
 msgstr ""
-"Sie benötigen: - Python 2.7: [https://www.python.org](https://www.python.org) "
-"- SCons 2.3.0: [https://www.scons.org/](https://www.scons.org/) - Visual "
-"Studio 2012 Desktop (Express oder professional)"
+
+#. type: Bullet: '* '
+msgid "Python 2.7: https://www.python.org"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SCons 2.3.0: https://www.scons.org/"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Visual Studio 2012 Desktop (Express or professional)"
+msgstr ""
 
 #. type: Plain text
 msgid "To build: run scons"
@@ -256,3 +263,12 @@ msgstr ""
 #, no-wrap
 msgid "[[!tag dev synth]]\n"
 msgstr "[[!tag dev synth]]\n"
+
+#~ msgid ""
+#~ "You will need: - Python 2.7: https://www.python.org - SCons 2.3.0: "
+#~ "https://www.scons.org/ - Visual Studio 2012 Desktop (Express or "
+#~ "professional)"
+#~ msgstr ""
+#~ "Sie benötigen: - Python 2.7: [https://www.python.org](https://www.python."
+#~ "org) - SCons 2.3.0: [https://www.scons.org/](https://www.scons.org/) - "
+#~ "Visual Studio 2012 Desktop (Express oder professional)"
