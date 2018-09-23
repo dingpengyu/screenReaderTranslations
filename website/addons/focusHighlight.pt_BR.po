@@ -1,14 +1,14 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/focusHighlight.pt_BR.po
+# Copyright (C) 2016-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013-2015, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-05-11 15:47+1000\n"
-"PO-Revision-Date: 2017-09-24 17:00-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
+"PO-Revision-Date: 2018-09-23 19:35-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
@@ -50,11 +50,11 @@ msgid "The following colors are used by this addon:"
 msgstr "O complemento usa as seguintes cores:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Green jagged line, to indicate the navigator object."
 msgid ""
 "Green thin dashed dotted line rectangle, to indicate the navigator object."
-msgstr "Linha destacada de verde, para indicar objeto de navegação."
+msgstr ""
+"Retângulo com linha pontilhada tracejado verde fino, para indicar o objeto "
+"de navegação."
 
 #. type: Bullet: '* '
 msgid "Red thin rectangle, to indicate the focused object/control."
@@ -69,44 +69,34 @@ msgstr ""
 "objeto em foco estão sobrepostos."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Blue thick rectangle with thin slashes, to indicate NVDA is in focus "
-#| "mode, i.e. key types are passed to the control."
 msgid ""
 "Blue thick dotted line rectangle, to indicate NVDA is in focus mode, i.e. "
 "key types are passed to the control."
 msgstr ""
-"Um retângulo azul grosso com barras finas, para indicar que o NVDA está em "
-"modo de foco, isto é, as teclas digitadas são passadas para o controle."
+"Retângulo azul grosso com linha pontilhada, para indicar que o NVDA está no "
+"modo de foco, ou seja, as teclas digitadas são passadas para o controle."
 
 #. type: Plain text
 msgid "To disable object tracking, uninstall the addon."
 msgstr "Para desabilitar o realse de objetos, desinstale o complemento."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 4.0"
+#, no-wrap
 msgid "Changes for 5.0"
-msgstr "Mudanças na 4.0"
+msgstr "Mudanças na 5.0"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Red thick rectangle, to indicate when navigator object and focused object "
-#| "are overlapping."
 msgid "Indicators of navigator object and focus mode were changed."
 msgstr ""
-"Um retângulo vermelho grosso, para indicar quando o objeto de navegação e o "
-"objeto em foco estão sobrepostos."
+"Os indicadores do objeto de navegação e do modo de foco foram alterados."
 
 #. type: Bullet: '* '
 msgid "Multiple monitors are supported."
-msgstr ""
+msgstr "Múltiplos monitores são suportados."
 
 #. type: Bullet: '* '
 msgid "It now uses GDI Plus technology for drawing."
-msgstr ""
+msgstr "Agora ele usa a tecnologia GDI Plus para desenho."
 
 #. type: Title ##
 #, no-wrap
@@ -124,7 +114,7 @@ msgstr "Mudanças na 3.0"
 
 #. type: Bullet: '* '
 msgid "Fixed issue regarding expanded combo box."
-msgstr ""
+msgstr "Corrigido problema em relação à caixa de combinação expandida."
 
 #. type: Bullet: '* '
 msgid "Fixed issue with Windows Task Manager."
@@ -159,8 +149,7 @@ msgstr "Mudanças na 1.1"
 
 #. type: Bullet: '* '
 msgid "Changed navigator object rectangle to jagged line."
-msgstr ""
-"Alterado retângulo do objeto de navegação para uma linha destacada de verde"
+msgstr "Alterado retângulo do objeto de navegação para uma linha entalhada."
 
 #. type: Bullet: '* '
 msgid "Fixed issue with 'Reload plugins'."
