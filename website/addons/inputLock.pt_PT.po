@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bloqueio de Entrada\n"
 "POT-Creation-Date: 2018-09-03 03:00+1000\n"
-"PO-Revision-Date: 2018-08-16 19:21+0100\n"
+"PO-Revision-Date: 2018-09-23 21:17+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <ampa4374@gmail.com; rui."
 "fontes@tiflotecnia.com>\n"
@@ -162,8 +162,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Added a setting to lock the mouse when NVDA is started."
 msgstr ""
-"Added a setting to lock the mouse when NVDA is started.Adicionada uma "
-"configuração para bloquear o rato, quando o NVDA é iniciado."
+"Adicionada uma configuração para bloquear o rato, quando o NVDA é iniciado."
 
 #. type: Bullet: '* '
 msgid "Added a setting to block also mouse clicks while mouse is locked."
