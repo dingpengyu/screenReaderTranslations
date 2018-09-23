@@ -3,235 +3,278 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-09-23 12:46+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"eMule\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"eMule\"]]\n"
 
 #. type: Bullet: '*	'
 msgid "Authors: Noelia, Chris, Alberto."
-msgstr ""
+msgstr "Tác giả: Noelia, Chris, Alberto."
 
 #. type: Bullet: '*	'
 msgid "download [stable version][1]"
-msgstr ""
+msgstr "tải về [phiên bản chính thức][1]"
 
 #. type: Bullet: '*	'
 msgid "download [development version][3]"
-msgstr ""
+msgstr "tải về [phiên bản thử nghiệm][3]"
 
 #. type: Plain text
 msgid ""
-"This add-on helps to improve accessibility of eMule with nVDA.  Also "
-"provides additional keyboard commands for moving in different windows and "
-"gives Useful information of eMule."
+"This add-on helps to improve accessibility of eMule with nVDA.  Also provides "
+"additional keyboard commands for moving in different windows and gives Useful "
+"information of eMule."
 msgstr ""
+"Add-on này giúp cải thiện khả năng tiếp cận của eMule với NVDA.  Đồng thời cung "
+"cấp thêm các phím lệnh để chuyển đến các cửa sổ khác nhau và cung cấp các thông "
+"tin hữu ích của eMule."
 
 #. type: Plain text
 msgid ""
-"It's based on eMuleNVDASupport add-on, developed by the same author. You "
-"should uninstall that old add-on to use this one, since both have common "
-"keystrokes and features."
+"It's based on eMuleNVDASupport add-on, developed by the same author. You should "
+"uninstall that old add-on to use this one, since both have common keystrokes and "
+"features."
 msgstr ""
+"Add-on này dựa trên add-on eMuleNVDASupport, phát triển bởi cùng tác giả. Bạn "
+"nên gỡ bỏ add-on đó để dùng add-on này vì chúng có cùng các phím tắt và tính "
+"năng phổ biến."
 
 #. type: Plain text
 msgid "Tested on [eMule][2] 0.50a."
-msgstr ""
+msgstr "Đã thử nghiệm trên [eMule][2] 0.50a."
 
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
-msgstr ""
+msgstr "Các phím lệnh:"
 
 #. type: Bullet: '*	'
 msgid "control+shift+h: Moves focus and mouse to main toolbar."
-msgstr ""
+msgstr "control+shift+h: chuyển focus hệ thống và chuột đến thanh công cụ chính."
 
 #. type: Bullet: '*	'
 msgid "control+shift+t: Reads the current window."
-msgstr ""
+msgstr "control+shift+t: thông báo cửa sổ hiện tại."
 
 #. type: Bullet: '*	'
 msgid "control+shift+n: Moves the focus to the Name field in the Find window."
 msgstr ""
+"control+shift+n: chuyển focus hệ thống đến trường Name (tên) trong cửa sổ tìm "
+"kiếm."
 
 #. type: Bullet: '*	'
 msgid ""
 "control+shift+p: In the Search window, moves focus and mouse to the list of "
 "search parameters, or edit field options."
 msgstr ""
+"control+shift+p: trong cửa sổ tìm kiếm, chuyển focus hệ thống và  chuột đến danh "
+"sách các tham số tìm kiếm hoặc trường nhập liệu cho mỗi tùy chọn trong cửa sổ "
+"tìm kiếm."
 
 #. type: Bullet: '*	'
 msgid ""
-"control+shift+b: Move the focus to the list in the current window. For "
-"example usable in the Search window, downloads in Transfer window, etc."
+"control+shift+b: Move the focus to the list in the current window. For example "
+"usable in the Search window, downloads in Transfer window, etc."
 msgstr ""
+"control+shift+b: chuyển focus đến danh sách trong cửa sổ hiện tại. Ví dụ trong "
+"cửa sổ tìm kiếm, cửa sổ các dữ liệu đang tải về, v...v..."
 
 #. type: Bullet: '*	'
 msgid ""
-"control+shift+o: Move the focus to read-only edit boxes in the current "
-"window. For example the IRC received messages, available Servers, etc."
+"control+shift+o: Move the focus to read-only edit boxes in the current window. "
+"For example the IRC received messages, available Servers, etc."
 msgstr ""
+"control+shift+o: chuyển focus hệ thống đến các hộp có thuộc tính chỉ đọc trong "
+"cửa sổ hiện tại. Ví dụ như các thông điệp IRC, các máy chủ đang hoạt động, v..."
+"v..."
 
 #. type: Bullet: '*	'
 msgid ""
-"control+NVDA+f: If the caret is located in a read only edit box, opens a "
-"find dialog to use the commands for searching text available in NVDA."
+"control+NVDA+f: If the caret is located in a read only edit box, opens a find "
+"dialog to use the commands for searching text available in NVDA."
 msgstr ""
+"control+NVDA+f: nếu dấu nháy hệ thống đứng tại một trường nhập liệu có thuộc "
+"tính chỉ đọc, mở một hộp thoại tìm kiếm để dùng các phím lệnh của NVDA cho việc "
+"tìm kiếm văn bản."
 
 #. type: Bullet: '*	'
 msgid ""
 "control+shift+l: Moves the navigator object and mouse to the headers of the "
 "current list."
 msgstr ""
+"control+shift+l: chuyển đối tượng điều hướng và chuột đến các tiêu đề của danh "
+"sách hiện tại."
 
 #. type: Bullet: '*	'
 msgid ""
-"control+shift+q: Reads the first object in the status bar; provides "
-"information about recent activity."
+"control+shift+q: Reads the first object in the status bar; provides information "
+"about recent activity."
 msgstr ""
+"control+shift+q: Thông báo đối tượng thứ nhất của thanh trạng thái; cung cấp "
+"thông tin về các hoạt động gần đây."
 
 #. type: Bullet: '*	'
 msgid ""
-"control+shift+w: Reads the second object of the status bar; contains "
-"information about files and users on the current server."
+"control+shift+w: Reads the second object of the status bar; contains information "
+"about files and users on the current server."
 msgstr ""
+"control+shift+w: thông báo đối tượng thứ hai của thanh trạng thái; bao gồm thông "
+"tin về những tập tin và người dùng trên máy chủ hiện tại."
 
 #. type: Bullet: '*	'
 msgid ""
-"control+shift+e: Reads the third object of the status bar; useful to know "
-"the UpLoad/DownLoad speed."
+"control+shift+e: Reads the third object of the status bar; useful to know the "
+"UpLoad/DownLoad speed."
 msgstr ""
+"control+shift+e: Thông báo đối tượng thứ ba của thanh trạng thái; hữu ích khi "
+"muốn biết tốc độ tải lên / tải xuống."
 
 #. type: Bullet: '*	'
 msgid ""
 "control+shift+r: Reads The fourth object of the status bar; reports on "
 "connecting of eD2K and Kad network."
 msgstr ""
+"control+shift+r: thông báo đối tượng thứ tư của thanh trạng thái; thông báo kết "
+"nối của mạng eD2K và Kad."
 
 #. type: Title ##
 #, no-wrap
 msgid "Managing columns."
-msgstr ""
+msgstr "Quản lý các cột."
 
 #. type: Plain text
 msgid ""
-"When within a list, you can move the caret between the rows and columns "
-"using alt+control+ Arrows.  In this Add-on the following key commands are "
-"also available:"
+"When within a list, you can move the caret between the rows and columns using alt"
+"+control+ Arrows.  In this Add-on the following key commands are also available:"
 msgstr ""
+"Khi ở trong một danh sách, bạn có thể di chuyển dấu nháy giữa các dòng và cột "
+"bằng alt+control+ các phím mũi tên.  Trong Add-on này cũng có các lệnh sau:"
 
 #. type: Bullet: '*	'
 msgid "nvda+control+1-0: Reads the first 10 columns."
-msgstr ""
+msgstr "nvda+control+1-0: thông báo các cột từ 1 đến 10.."
 
 #. type: Bullet: '*	'
 msgid "nvda+shift+1-0: Reads columns 11 to 20."
-msgstr ""
+msgstr "nvda+shift+1-0: thông báo các cột từ 11 đến 20."
 
 #. type: Bullet: '*	'
 msgid "nvda+shift+C: Copies the contents of the last read column to the clipboard."
-msgstr ""
+msgstr "nvda+shift+C: chép cột cuối cùng được đọc vào bộ nhớ tạm."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.0"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 3.0"
 
 #. type: Bullet: '*	 '
 msgid ""
-"To search text in readonly edit boxes, now we can use the dialog and "
-"commands available in NVDA."
+"To search text in readonly edit boxes, now we can use the dialog and commands "
+"available in NVDA."
 msgstr ""
+"Để tìm kiếm văn bản trong các trường nhập liệu có thuộc tính chỉ đọc, giờ chúng "
+"ta có thể dùng hộp thoại và phím lệnh của NVDA."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.0"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 2.0"
 
 #. type: Bullet: '*	 '
 msgid "Add-on help is available from the Add-ons Manager."
-msgstr ""
+msgstr "Đã có trợ giúp cho add-on trong trình quản lý add-on."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.2"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 1.2"
 
 #. type: Bullet: '*	 '
 msgid "When moving to the IRC messages, the selected text is reported properly."
 msgstr ""
+"Khi di chuyển đến các thông điệp IRC, văn bản được chọn is được thông báo chính "
+"xác."
 
 #. type: Bullet: '*	 '
 msgid ""
-"The keystroke used for moving to the Search results list has been "
-"generalized to be able to move focus to any available list in the current "
-"window."
+"The keystroke used for moving to the Search results list has been generalized to "
+"be able to move focus to any available list in the current window."
 msgstr ""
+"Phím tắt để di chuyển đến danh sách kết quả tìm kiếm đã được thiết kế lại để di "
+"chuyển focus đến bất cứ danh sách nào đang có trong cửa sổ hiện tại."
 
 #. type: Bullet: '*	 '
 msgid ""
-"The command used to focus the IRC messages has been generalized to move to "
-"any read-only edit box, making it possible to review connection information "
-"in the Servers window."
+"The command used to focus the IRC messages has been generalized to move to any "
+"read-only edit box, making it possible to review connection information in the "
+"Servers window."
 msgstr ""
+"Lệnh để đưa focus đến các thông điệp IRC đã được thiết kế lại để chuyển đến "
+"trường nhập liệu bất kì có thuộc tính chỉ đọc, làm cho có thể xem lại thông tin "
+"kết nối trong cửa sổ các máy chủ."
 
 #. type: Bullet: '*	 '
 msgid ""
 "When moving mouse and focus to the toolbar, in some cases it was announced "
 "twice. This has been fixed."
 msgstr ""
+"Khi di chuyển chuột hay focus đến các thanh công cụ, trong vài trường hợp, thông "
+"tin bị đọc lại hai lần. Lỗi này đã được sửa."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.1"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 1.1"
 
 #. type: Bullet: '*	 '
 msgid ""
-"Fixed bug in eMule item under NVDA's help menu, when the user config folder "
-"name contains non latin characters."
+"Fixed bug in eMule item under NVDA's help menu, when the user config folder name "
+"contains non latin characters."
 msgstr ""
+"Sửa lỗi cho mục eMule trong trình đơn trợ giúp của NVDA, khi tên của thư mục "
+"user config có chứa các kí tự không phải kí tự latin."
 
 #. type: Bullet: '*	 '
 msgid "Shortcuts can now be reassigned using the NVDA gesture input dialog."
 msgstr ""
+"Có thể gán lại các phím tắt thông qua hộp thoại quản lý các cử chỉ của NVDA."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 1.0"
 
 #. type: Bullet: '*	 '
 msgid "Initial version."
-msgstr ""
+msgstr "Phiên bản đầu tiên."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=em"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=em"
 
 #. type: Plain text
 msgid "[2]: https://www.emule-project.net"
-msgstr ""
+msgstr "[2]: https://www.emule-project.net"
 
 #. type: Plain text
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
-msgstr ""
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
