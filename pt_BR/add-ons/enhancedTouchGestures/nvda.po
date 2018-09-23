@@ -1,44 +1,45 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the enhancedTouchGestures package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Brazilian Portuguese translation of enhancedTouchGestures.
+# Copyright (C) 2016-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2016, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: enhancedTouchGestures 17.12\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-12-15 06:10+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-09-23 18:45-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
+"Language-Team: Equipe de tradução do NVDA para Português do Brasil "
+"<clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. Translators: Reported when the object has no location for the mouse to move to it.
 msgid "object has no location"
-msgstr ""
+msgstr "objeto sem localização"
 
 #. Translators: This is the label for the touch interaction settings dialog.
 #. Add-on summary, usually the user visible name of the addon.
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Enhanced Touch Gestures"
-msgstr ""
+msgstr "Gestos Táteis Aprimorados"
 
 #. Translators: This is the label for a checkbox in the
 #. Enhanced Touch Gestures settings panel.
 msgid "Completely disable touch interaction support"
-msgstr ""
+msgstr "Desativar completamente o suporte à interação por toque"
 
 #. Translators: The label for a setting in Enhanced Touch Gestures settings panel to allow users to interact directly with touchscreens for specified duration in seconds.
 msgid "&Pause NVDA's touch support (duration in seconds)"
-msgstr ""
+msgstr "&Pausar o suporte do NVDA à toque (duração em segundos)"
 
 #. Translators: a checkbox to allow passthrough to be toggled manually.
 msgid "&Manually toggle touch passthrough"
-msgstr ""
+msgstr "Alternar &manualmente a passagem tátil"
 
 msgid ""
 "You are about to turn off touch interaction support completely so the "
@@ -47,9 +48,15 @@ msgid ""
 "Settings and uncheck 'disable touch interaction support' checkbox. Are you "
 "sure you wish to completely disable touch interaction support?"
 msgstr ""
+"Você está prestes a desativar completamente o suporte à interação por toque "
+"para que a tela de toque possa ser usada como se o NVDA não estivesse em "
+"execução. Para ativar o suporte por toque, você precisa retornar ao painel "
+"Gestos Táteis Aprimorados nas Configurações do NVDA e desmarcar a caixa de "
+"seleção 'desabilitar o suporte à interação por toque'. Tem certeza de que "
+"deseja desativar completamente o suporte à interação por toque?"
 
 msgid "Disable touch interaction support"
-msgstr ""
+msgstr "Desativar suporte à interação por toque"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -59,3 +66,7 @@ msgid ""
 "\tRequires a touch-enabled computer with Windows 8.1 or later with NVDA "
 "2017.4 or later installed."
 msgstr ""
+"Um conjunto de comandos de toque adicionais, incluindo comandos de navegação "
+"e ajuda.\n"
+"\tRequer um computador habilitado para toque com o Windows 8.1 ou posterior "
+"com o NVDA 2017.4 ou posterior instalado."
