@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2018-09-10 08:20+0800\n"
+"PO-Revision-Date: 2018-09-25 05:47+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -263,10 +263,8 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ccd"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ccd"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o"
 
 #~ msgid ""
 #~ "[3]: https://github.com/nvdaes/clipContentsDesigner/releases/download/7.2/"
