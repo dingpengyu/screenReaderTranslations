@@ -1,5 +1,5 @@
 # Brazilian Portuguese translation of website/addons/focusHighlight.pt_BR.po
-# Copyright (C) 2016-2018 NVDA Contributors.
+# Copyright (C) 2013-2018 NVDA Contributors.
 # This file is distributed under the same license as the NVDA package.
 # Cleverson Casarin Uliana <clever97@gmail.com>, 2013-2015, 2017.
 # Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-05-11 15:47+1000\n"
-"PO-Revision-Date: 2018-09-23 19:35-0300\n"
+"PO-Revision-Date: 2018-09-24 15:48-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
