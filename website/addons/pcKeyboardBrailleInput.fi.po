@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PC Keyboard Braille Input\n"
 "POT-Creation-Date: 2018-09-24 00:53+1000\n"
-"PO-Revision-Date: 2017-06-03 08:36+0200\n"
+"PO-Revision-Date: 2018-09-24 11:29+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -24,19 +24,19 @@ msgstr "[[!meta title=\"Pistekirjoituksen syöttäminen tietokoneen näppäimist
 
 #. type: Bullet: '* '
 msgid "Author: NV Access Limited"
-msgstr ""
+msgstr "Tekijä: NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "Copyright: 2012-2014 NV Access Limited"
-msgstr ""
+msgstr "Tekijänoikeus: 2012-2014 NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "License: GNU General Public License version 2.0"
-msgstr ""
+msgstr "Lisenssi: GNU General Public License versio 2.0"
 
 #. type: Bullet: '* '
 msgid "Download: [version 2014.1][1]"
-msgstr ""
+msgstr "Lataa: [versio 2014.1][1]"
 
 #. type: Plain text
 msgid ""
@@ -57,15 +57,7 @@ msgid "Press NVDA+z to enable braille input."
 msgstr "Ota pistekirjoituksen syöttö käyttöön painamalla NVDA+Z."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
-#| "\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
-#| "\t- Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
-#| "\t- Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
-#| "\t- You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
-#| "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
-#| "4. Press NVDA+z to disable braille input.\n"
+#, no-wrap
 msgid ""
 "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
 "\t* Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
@@ -76,11 +68,11 @@ msgid ""
 "4. Press NVDA+z to disable braille input.\n"
 msgstr ""
 "2. Kirjoita pistekirjoitusta painamalla yhtaikaa näppäimiä tietokoneen näppäimistöltä aivan kuin se olisi pistenäppäimistö.\n"
-"\t- Käytä näppäimiä s, d ja f pisteinä 1, 2 ja 3.\n"
-"\t- Käytä näppäimiä j, k ja l pisteinä 4, 5 ja 6.\n"
-"\t- Käytä näppäimiä a ja ; (puolipiste) pisteinä 7 ja 8.\n"
-"\t- Voit käyttää myös ylärivin näppäimiä, ts. q, w, e, r, u, i, o ja p.\n"
-"3. Useimpia muita näppäimiä voit painaa tavalliseen tapaan, välilyönti, askelpalautin, Enter sekä toimintonäppäimet mukaan lukien.\n"
+"\t* Käytä näppäimiä S, D ja F pisteinä 1, 2 ja 3.\n"
+"\t* Käytä näppäimiä J, K ja L pisteinä 4, 5 ja 6.\n"
+"\t* Käytä näppäimiä A ja ; (puolipiste) pisteinä 7 ja 8.\n"
+"\t* Voit käyttää myös yläpuolella olevan rivin näppäimiä, ts. Q, W, E, R, U, I, O ja P.\n"
+"3. Useimpia muita näppäimiä voit painaa tavalliseen tapaan, väli, askelpalautin, Enter ja toimintonäppäimet mukaan lukien.\n"
 "4. Poista pistekirjoituksen syöttö käytöstä painamalla NVDA+Z.\n"
 
 #. type: Title ##
@@ -123,10 +115,8 @@ msgid "Contributors"
 msgstr "Avustajat"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "- James Teh"
 msgid "James Teh"
-msgstr "- James Teh"
+msgstr "James Teh"
 
 #. type: Plain text
 #, no-wrap
