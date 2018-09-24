@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-07 00:10+1000\n"
-"PO-Revision-Date: 2018-09-21 11:09+0100\n"
+"PO-Revision-Date: 2018-09-24 15:58+0100\n"
 "Language: so\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1150,362 +1150,362 @@ msgstr "Shiine (Taiwan, Mandarin)"
 
 #. Translators: The mode to interact with controls in documents
 msgid "Focus mode"
-msgstr ""
+msgstr "diiradda mawd"
 
 #. Translators: The mode that presents text in a flat representation
 #. that can be navigated with the cursor keys like in a text document
 #. Translators: The name of a category of NVDA commands.
 msgid "Browse mode"
-msgstr ""
+msgstr "qoraalka mawd"
 
 #. Translators: Reported label in the elements list for an element which which has no name and value
 msgid "Unlabeled"
-msgstr ""
+msgstr "magac la'aan"
 
 #. Translators: Reported when single letter navigation in browse mode is turned off.
 msgid "Single letter navigation off"
-msgstr ""
+msgstr "hal xaraf naafigeeshin wa off"
 
 #. Translators: Reported when single letter navigation in browse mode is turned on.
 msgid "Single letter navigation on"
-msgstr ""
+msgstr "hal xaraf naafigeeshin wa on"
 
 #. Translators: the description for the toggleSingleLetterNavigation command in browse mode.
 msgid "Toggles single letter navigation on and off. When on, single letter keys in browse mode jump to various kinds of elements on the page. When off, these keys are passed to the application"
-msgstr ""
+msgstr "isbeddel hal xaraf navigation on iyo off. Marka on ay tahay, hal xaraf furayaasha oo ah ah qabka qoraalka ku dhufo noocyo kala duwan oo isdabajoog ah bogga. Markad off, furahaas ayaa loo gudbin doonaa abblikeeshanka."
 
 #. Translators: a message when a particular quick nav command is not supported in the current document.
 #. Translators: Reported when a user tries to use a find command when it isn't supported.
 msgid "Not supported in this document"
-msgstr ""
+msgstr "Kuma taageerin dokumentigan"
 
 #. Translators: the description for the Elements List command in browse mode.
 msgid "Lists various types of elements in this document"
-msgstr ""
+msgstr "Liisaska noocyada kala duwan ee walxaha dokumentigan"
 
 #. Translators: the description for the activatePosition script on browseMode documents.
 msgid "Activates the current object in the document"
-msgstr ""
+msgstr "dhaqaajiso objaktiga hadda oo ku jirta dukumintiga"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next heading"
-msgstr ""
+msgstr "u gudub cinwaanka soo socda"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next heading"
-msgstr ""
+msgstr "Ma jiro cinwaan kale"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous heading"
-msgstr ""
+msgstr "u gudub cinwaanka hore"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous heading"
-msgstr ""
+msgstr "ma jirto cinwaan hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next heading at level 1"
-msgstr ""
+msgstr "u gudub cinwaanka xigta ee heerka 1aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next heading at level 1"
-msgstr ""
+msgstr "Ma jiro cinwaan kale ee heerka 1aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous heading at level 1"
-msgstr ""
+msgstr "u gudub cinwaanka hore ee heerka 1aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous heading at level 1"
-msgstr ""
+msgstr "ma jirto cinwaan hore ee heerka 1aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next heading at level 2"
-msgstr ""
+msgstr "u gudub cinwaanka xigta ee heerka 2aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next heading at level 2"
-msgstr ""
+msgstr "Ma jiro cinwaan kale ee heerka 2aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous heading at level 2"
-msgstr ""
+msgstr "u gudub cinwaanka hore ee heerka 2aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous heading at level 2"
-msgstr ""
+msgstr "ma jirto cinwaan hore ee heerka 2aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next heading at level 3"
-msgstr ""
+msgstr "u gudub cinwaanka xigta ee heerka 3aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next heading at level 3"
-msgstr ""
+msgstr "Ma jiro cinwaan kale ee heerka 3aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous heading at level 3"
-msgstr ""
+msgstr "u gudub cinwaanka hore ee heerka 3aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous heading at level 3"
-msgstr ""
+msgstr "ma jirto cinwaan hore ee heerka 3aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next heading at level 4"
-msgstr ""
+msgstr "u gudub cinwaanka xigta ee heerka 4aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next heading at level 4"
-msgstr ""
+msgstr "Ma jiro cinwaan kale ee heerka 4aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous heading at level 4"
-msgstr ""
+msgstr "u gudub cinwaanka hore ee heerka 4aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous heading at level 4"
-msgstr ""
+msgstr "ma jirto cinwaan hore ee heerka 4aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next heading at level 5"
-msgstr ""
+msgstr "u gudub cinwaanka xigta ee heerka 5aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next heading at level 5"
-msgstr ""
+msgstr "Ma jiro cinwaan kale ee heerka 5aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous heading at level 5"
-msgstr ""
+msgstr "u gudub cinwaanka hore ee heerka 5aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous heading at level 5"
-msgstr ""
+msgstr "ma jirto cinwaan hore ee heerka 5aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next heading at level 6"
-msgstr ""
+msgstr "u gudub cinwaanka xigta ee heerka 6aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next heading at level 6"
-msgstr ""
+msgstr "Ma jiro cinwaan kale ee heerka 6aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous heading at level 6"
-msgstr ""
+msgstr "u gudub cinwaanka hore ee heerka 6aad"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous heading at level 6"
-msgstr ""
+msgstr "ma jirto cinwaan hore ee heerka 6aad"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next table"
-msgstr ""
+msgstr "u gudub miiska xigta"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next table"
-msgstr ""
+msgstr "Ma jirto mees xigta "
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous table"
-msgstr ""
+msgstr "u gudub meeska hore "
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous table"
-msgstr ""
+msgstr "Ma jirto miiska hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next link"
-msgstr ""
+msgstr "u gudub link xigta"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next link"
-msgstr ""
+msgstr "Ma jirto link xigta "
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous link"
-msgstr ""
+msgstr "u gudub linkida hore "
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous link"
-msgstr ""
+msgstr "Ma jirto linkida hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next visited link"
-msgstr ""
+msgstr "u gudub link xigta u booqday "
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next visited link"
-msgstr ""
+msgstr "Ma jirto link xigta u booqday"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous visited link"
-msgstr ""
+msgstr "u gudub linkida hore u booqday"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous visited link"
-msgstr ""
+msgstr "Ma jirto linkida hore u booqday"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next unvisited link"
-msgstr ""
+msgstr "u gudub link xigta ma booqan"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next unvisited link"
-msgstr ""
+msgstr "Ma jirto link xigta ma booqan"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous unvisited link"
-msgstr ""
+msgstr "u gudub linkida hore ma booqan"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous unvisited link"
-msgstr ""
+msgstr "Ma jirto linkida hore ma booqan"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next form field"
-msgstr ""
+msgstr "u gudub foomka labajibbaaran xigta "
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next form field"
-msgstr ""
+msgstr "Ma jirto foomka labajibbaaran xigta "
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous form field"
-msgstr ""
+msgstr "u gudub foomka labajibbaaran hore "
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous form field"
-msgstr ""
+msgstr "Ma jirto foomka labajibbaaran hore "
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next list"
-msgstr ""
+msgstr "u gudub liiska ka xigta"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next list"
-msgstr ""
+msgstr "Ma jirto liiska xigta"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous list"
-msgstr ""
+msgstr "u gudub liiska hore"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous list"
-msgstr ""
+msgstr "Ma jirto liiska hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next list item"
-msgstr ""
+msgstr "u gudub liiska sheyga ku xiga"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next list item"
-msgstr ""
+msgstr "Ma jirto liiska sheyga ku xiga"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous list item"
-msgstr ""
+msgstr "u gudub liiska sheyga hore "
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous list item"
-msgstr ""
+msgstr "Ma jirto liiska sheyga hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next button"
-msgstr ""
+msgstr "u gudub badhanka xigta"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next button"
-msgstr ""
+msgstr "Ma jirto badhanka xigta"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous button"
-msgstr ""
+msgstr "u gudub badhanka hore"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous button"
-msgstr ""
+msgstr "Ma jirto badhanka hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next edit field"
-msgstr ""
+msgstr "u gudub qoralka labajibbaran xigta"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next edit field"
-msgstr ""
+msgstr "Ma jirto qoralka labajibbaran xigta"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous edit field"
-msgstr ""
+msgstr "u gudub qoralka labajibbaran hore"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous edit field"
-msgstr ""
+msgstr "Ma jirto qoralka labajibbaran hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next frame"
-msgstr ""
+msgstr "u gudub freemka xigta"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next frame"
-msgstr ""
+msgstr "Ma jirto freemka xigta"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous frame"
-msgstr ""
+msgstr "u gudub freemka hore"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous frame"
-msgstr ""
+msgstr "Ma jirto freemka hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next separator"
-msgstr ""
+msgstr "u gudub goo goyn xigta"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next separator"
-msgstr ""
+msgstr "Ma jirto goo goyn xigta"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous separator"
-msgstr ""
+msgstr "u gudub goo goyn hore"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous separator"
-msgstr ""
+msgstr "Ma jirto goo goyn hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next radio button"
-msgstr ""
+msgstr "u gudub badhanka raadiyaha xiga"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next radio button"
-msgstr ""
+msgstr "Ma jirto badhanka raadiyaha xigta"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous radio button"
-msgstr ""
+msgstr "u gudub badhanka raadiyaha hore"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous radio button"
-msgstr ""
+msgstr "Ma jirto badhanka raadiyaha hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next combo box"
-msgstr ""
+msgstr "u gudub doorasho labajibbaaran xiga"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next combo box"
-msgstr ""
+msgstr "Ma jirto doorasho labajibbaaran xigta"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous combo box"
-msgstr ""
+msgstr "u gudub doorasho labajibbaaran hore"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous combo box"
-msgstr ""
+msgstr "Ma jirto doorasho labajibbaaran hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next check box"
