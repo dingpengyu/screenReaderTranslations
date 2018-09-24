@@ -1,21 +1,21 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/goldwave.pt_BR.po
+# Copyright (C) 2013-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013-2015, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: Módulo para Goldwave\n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2017-09-24 17:06-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
+"PO-Revision-Date: 2018-09-24 15:54-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -89,34 +89,35 @@ msgstr ""
 "o NVDA 2014.1 ou posterior para usar o complemento 2.0."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 16.12"
+#, no-wrap
 msgid "Version 18.07"
-msgstr "Versão 16.12"
+msgstr "Versão 18.07"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where leading zeroes would not be displayed when trying to "
 "obtain remaining time for a track."
 msgstr ""
+"Corrigido um problema em que os zeros iniciais não seriam exibidos ao tentar "
+"obter tempo restante para uma faixa."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 16.12"
+#, no-wrap
 msgid "Version 17.05"
-msgstr "Versão 16.12"
+msgstr "Versão 17.05"
 
 #. type: Bullet: '* '
 msgid ""
 "Added ability to provide debug information when NVDA is running with debug "
 "logging enabled (NVDA 2017.1 or later)."
 msgstr ""
+"Adicionada capacidade de fornecer informações de depuração quando o NVDA "
+"está sendo executado com o log de depuração ativado (NVDA 2017.1 ou "
+"posterior)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "New and updated translations."
 msgid "Updated translations."
-msgstr "Novas e atualizadas traduções."
+msgstr "Traduções atualizadas."
 
 #. type: Title ##
 #, no-wrap
