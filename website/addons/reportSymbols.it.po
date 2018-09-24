@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-14 00:49+1000\n"
+"POT-Creation-Date: 2018-09-25 06:19+1000\n"
 "PO-Revision-Date: 2018-05-21 15:19+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: \n"
@@ -151,7 +151,7 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev"
 
 #. type: Plain text
-msgid ""
-"[3]: https://github.com/nvdaes/reportSymbols/releases/download/3.6/"
-"reportSymbols-3.6.nvda-addon"
-msgstr ""
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rsy"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=rsy-o"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rsy"

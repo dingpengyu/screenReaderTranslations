@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: emoticons\n"
-"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"POT-Creation-Date: 2018-09-25 06:19+1000\n"
 "PO-Revision-Date: 2017-12-20 17:14+0400\n"
 "Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
 "Language-Team: Translators <LL@li.org>\n"
@@ -418,10 +418,10 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 
 #. type: Plain text
-msgid ""
-"[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5."
-"nvda-addon"
-msgstr ""
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
 
 #~ msgid "Customize emoticons"
 #~ msgstr "Настройки смайликов"

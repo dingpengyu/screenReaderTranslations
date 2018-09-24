@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emoticons, versão 7\n"
-"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"POT-Creation-Date: 2018-09-25 06:19+1000\n"
 "PO-Revision-Date: 2018-09-21 12:45+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
@@ -439,12 +439,17 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 
 #. type: Plain text
-msgid ""
-"[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5."
-"nvda-addon"
-msgstr ""
-"[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5."
-"nvda-addon"
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
+
+#~ msgid ""
+#~ "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/"
+#~ "emoticons-6.5.nvda-addon"
+#~ msgstr ""
+#~ "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/"
+#~ "emoticons-6.5.nvda-addon"
 
 #~ msgid "Customize emoticons"
 #~ msgstr "Personalizar emoticons"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-09-25 06:19+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,8 +42,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"It's based on the old ReportSymbols add-on, developed by the same "
-"author. You should uninstall it to use this version."
+"It's based on the old ReportSymbols add-on, developed by the same author. "
+"You should uninstall it to use this version."
 msgstr ""
 
 #. type: Title ##
@@ -80,8 +80,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"If needed, you can download the [last version compatible with NVDA "
-"2017.3][3]."
+"If needed, you can download the [last version compatible with NVDA 2017.3]"
+"[3]."
 msgstr ""
 
 #. type: Title ##
@@ -133,7 +133,5 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"[3]: "
-"https://github.com/nvdaes/reportSymbols/releases/download/3.6/reportSymbols-3.6.nvda-addon"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=rsy-o"
 msgstr ""

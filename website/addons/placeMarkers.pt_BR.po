@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Página do complemento Marcadores\n"
-"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"POT-Creation-Date: 2018-09-25 06:19+1000\n"
 "PO-Revision-Date: 2017-09-27 11:58-0300\n"
 "Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
@@ -450,14 +450,14 @@ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 
 #. type: Plain text
-msgid ""
-"[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
-"github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
-"addon"
-msgstr ""
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 
-#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
-#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 
 #~ msgid ""
 #~ "This addon is based on SpecificSearch and Bookmark&Search, developed by "

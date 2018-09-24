@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"POT-Creation-Date: 2018-09-25 06:19+1000\n"
 "PO-Revision-Date: 2016-12-29 15:33-0800\n"
 "Last-Translator: Dr. Simon Gergely <dr.simon.gergely@gmail.com>\n"
 "Language-Team: HU <LL@li.org>\n"
@@ -346,15 +346,16 @@ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rf"
 
 #. type: Plain text
-msgid ""
-"[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev [3]: https://"
-"github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5.nvda-addon"
-msgstr ""
-
 #, fuzzy
-#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
-#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
-#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rf"
 
 #, fuzzy
 #~| msgid ""

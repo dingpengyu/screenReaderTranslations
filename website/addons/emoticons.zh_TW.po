@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"POT-Creation-Date: 2018-09-25 06:19+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -356,7 +356,5 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5."
-"nvda-addon"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
 msgstr ""
