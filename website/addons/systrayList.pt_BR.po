@@ -1,14 +1,14 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/systrayList.pt_BR.po
+# Copyright (C) 2012-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2012-2015, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2017-11-20 05:50+1000\n"
-"PO-Revision-Date: 2017-09-27 14:03-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
+"PO-Revision-Date: 2018-09-24 20:43-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
@@ -50,14 +50,6 @@ msgstr ""
 "aplicativos em execução no momento."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Note that you can access the windows system tray in any screenreader "
-#| "software using the windows+b shortcut key, and the task bar by pressing "
-#| "tab from the start button. This plugin is only useful to make the "
-#| "transition from JAWS for Windows smoother and to avoid some tooltips that "
-#| "may pop-up when cycling through the system tray with the windows keyboard "
-#| "means."
 msgid ""
 "Note that you can access the windows system tray in any screenreader "
 "software using the Windows+B, and the task bar by pressing Windows+T. This "
@@ -65,11 +57,12 @@ msgid ""
 "and to avoid some tooltips that may pop-up when cycling through the system "
 "tray with the windows keyboard means."
 msgstr ""
-"Note que você pode acessar a área de notificação do Windows com qualquer "
-"leitor de telas usando a tecla windows+b e a barra de tarefas pressionando "
-"tab a partir do botão iniciar. Este plug-in só é útil para facilitar a "
-"migração do JAWS for Windows e para fugir de dicas de ferramentas que possam "
-"surgir ao percorrer a área de notificação com a tecla nativa do Windows."
+"Note que você pode acessar a bandeja do sistema — área de notificação — do "
+"Windows em qualquer software de leitor de tela usando o Windows+B e a barra "
+"de tarefas pressionando Windows+T. Este plug-in é útil apenas para fazer a "
+"transição do JAWS para Windows mais suave e para evitar algumas dicas de "
+"ferramentas que podem aparecer ao percorrer a bandeja do sistema do Windows "
+"por meio do teclado."
 
 #. type: Title ##
 #, no-wrap
@@ -133,7 +126,7 @@ msgid ""
 msgstr ""
 "Novas traduções: Árabe, Búlgaro, Chinês Tradicional de Hong Kong, Coreano, "
 "Eslovaco, Holandês, Finlandês, Galego, Grego, Húngaro, Italiano, Japonês, "
-"Nepalês, Norueguês, Polonês, Português do Brasil, Russo, Tâmil."
+"Nepalês, Norueguês, Polonês, Português Brasileiro, Russo, Tâmil."
 
 #. type: Title ##
 #, no-wrap
