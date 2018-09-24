@@ -1,14 +1,14 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/placeMarkers.pt_BR.po
+# Copyright (C) 2013-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013-2015, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: Página do complemento Marcadores\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2017-09-27 11:58-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
+"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"PO-Revision-Date: 2018-09-24 17:52-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"placeMarkers\"]]\n"
-msgstr "[[!meta title=\"marcadores\"]]\n"
+msgstr "[[!meta title=\"marcadores de lugar\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Noelia, Chris."
@@ -117,44 +117,41 @@ msgid ""
 "saved to the clipboard, without an extension."
 msgstr ""
 "control+shift+k: Copia para a área de transferência o nome do arquivo no "
-"qual serão salvos os dados dos marcadores, sem a extensão."
+"qual serão salvos os dados de marcadores de lugar, sem a extensão."
 
 #. type: Bullet: '*	'
-#, fuzzy
-#| msgid ""
-#| "alt+NVDA+k: Opens a dialog with the bookmarks saved for this document. "
-#| "You can write a note for each bookmark; press Save note to save changes. "
-#| "Pressing OK you can move to the selected position."
 msgid ""
 "alt+NVDA+k: Opens a dialog with the bookmarks saved for this document. You "
 "can write a note for each bookmark; press Save note to save changes. "
 "Pressing Delete you can remove the selected bookmark. Pressing OK you can "
 "move to the selected position."
 msgstr ""
-"alt+NVDA+k: Abre um diálogo com os marcadores salvos para este documento. "
-"Pode escrever uma nota para cada marcador; pressione salvar notas para "
-"salvar as alterações. Pressionando OK você pode mover para a posição "
+"alt+NVDA+k: Abre uma caixa de diálogo com os marcadores salvos para este "
+"documento. Você pode escrever uma nota para cada marcador; pressione Salvar "
+"nota para salvar as alterações. Pressionando Excluir você pode remover o "
+"marcador selecionado. Pressionando OK você pode se mover para a posição "
 "selecionada."
 
 #. type: Bullet: '*	'
 msgid "Not assigned: Saves a position as a temporary bookmark."
-msgstr ""
+msgstr "Não atribuído: salva uma posição como um marcador temporário."
 
 #. type: Bullet: '*	'
 msgid "Not assigned: Moves to the temporary bookmark for the current document."
-msgstr ""
+msgstr "Não atribuído: Move para o marcador temporário do documento atual."
 
 #. type: Title ##
 #, no-wrap
 msgid "Place markers Submenu (NVDA+N)"
-msgstr "Submenu Marcadores (NVDA+N)"
+msgstr "Submenu Marcadores de lugar (NVDA+N)"
 
 #. type: Plain text
 msgid ""
 "Using the Place markers submenu under NVDA's Preferences menu, you can "
 "access:"
 msgstr ""
-"Ao usar o submenu Marcadores no menu Preferências do NVDA, pode acessar:"
+"Ao usar o submenu Marcadores de lugar no menu Preferências do NVDA, pode "
+"acessar:"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -170,15 +167,16 @@ msgstr "Pasta de marcadores: Abre uma pasta com os marcadores salvos."
 #. type: Bullet: '*	'
 msgid "Copy placeMarkers folder: You can save a copy of the bookmarks folder."
 msgstr ""
-"Copiar pasta de marcadores: Pode salvar uma cópia da pasta de marcadores."
+"Copiar pasta de marcadores de lugar: Pode salvar uma cópia da pasta de "
+"marcadores."
 
 #. type: Bullet: '*	'
 msgid ""
 "Restore placeMarkers: You can restore your bookmarks from a previously saved "
 "placeMarkers folder."
 msgstr ""
-"Restaurar marcadores: Pode restaurar os marcadores a partir de uma pasta de "
-"marcadores anteriormente salva."
+"Restaurar marcadores de lugar: Pode restaurar os marcadores a partir de uma "
+"pasta de marcadores de lugar anteriormente salva."
 
 #. type: Plain text
 msgid ""
@@ -191,26 +189,26 @@ msgstr ""
 "marcadores."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 11.0"
-msgstr "Mudanças na 1.0"
+msgstr "Mudanças na 11.0"
 
 #. type: Bullet: '*	'
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Compatível com o NVDA 2018.3 ou posterior (requerido)."
 
 #. type: Bullet: '*	'
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Se necessário, você pode fazer o download da [última versão compatível com o "
+"NVDA 2017.3] [3]."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 10.0"
-msgstr "Mudanças na 1.0"
+msgstr "Mudanças na 10.0"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -218,42 +216,45 @@ msgid ""
 "+shift+k or NVDA+alt+k, will be sent to the application instead of trying to "
 "move the cursor to bookmarks, to avoid errors, especially in long documents."
 msgstr ""
+"No Edge, os gestos associados à seleção de favoritos, como NVDA+k, NVDA+shift"
+"+k ou NVDA+alt+k, serão enviados para o aplicativo em vez de tentar mover o "
+"cursor para marcadores, para evitar erros, especialmente em documentos "
+"longos."
 
 #. type: Bullet: '*	'
 msgid "Now specific search is supported in Edge."
-msgstr ""
+msgstr "Agora, a pesquisa específica é suportada no Edge."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 8.0"
+#, no-wrap
 msgid "Changes for 9.0"
-msgstr "Mudanças na 8.0"
+msgstr "Mudanças na 9.0"
 
 #. type: Bullet: '*	'
 msgid ""
 "When moving to a bookmark from the Notes dialog, the review cursor follows "
 "the system cursor."
 msgstr ""
+"Ao mover para um marcador da caixa de diálogo Notas, o cursor de exploração "
+"segue o cursor do sistema."
 
 #. type: Bullet: '*	'
 msgid "The command to select the previous bookmark works properly again."
 msgstr ""
+"O comando para selecionar o marcador anterior funciona corretamente "
+"novamente."
 
 #. type: Bullet: '*	'
 msgid "Bookmarks can be deleted from the Notes dialog."
-msgstr ""
+msgstr "Os marcadores podem ser excluídos da caixa de diálogo de Notas."
 
 #. type: Bullet: '*	'
-#, fuzzy
-#| msgid ""
-#| "Now you can assign gestures to open the Copy and Restore place markers "
-#| "dialogs."
 msgid ""
 "Now you can assign gestures to save and move to a temporary bookmark for "
 "each document."
 msgstr ""
-"Agora você pode atribuir gestos para abrir os diálogos de copiar e restaurar "
-"marcadores."
+"Agora você pode atribuir gestos para salvar e mover para um marcador "
+"temporário para cada documento."
 
 #. type: Title ##
 #, no-wrap
@@ -318,15 +319,15 @@ msgid ""
 "dialogs."
 msgstr ""
 "Agora você pode atribuir gestos para abrir os diálogos de copiar e restaurar "
-"marcadores."
+"marcadores de lugar."
 
 #. type: Bullet: '*	'
 msgid ""
 "NVDA will present a message to notify when place markers have been copied or "
 "restored with the corresponding dialogs."
 msgstr ""
-"O NVDA apresentará uma mensagem para notificar quando marcadores forem "
-"copiados ou restaurados, com os respectivos diálogos."
+"O NVDA apresentará uma mensagem para notificar quando marcadores de lugar "
+"forem copiados ou restaurados, com os respectivos diálogos."
 
 #. type: Title ##
 #, no-wrap
@@ -353,7 +354,8 @@ msgstr "Adicionada busca com diferenciação de maiúsculas."
 #. type: Bullet: '* '
 msgid "Removed option to open documentation from Place markers menu."
 msgstr ""
-"Removida a opção de abrir a documentação a partir do menu dos marcadores."
+"Removida a opção de abrir a documentação a partir do menu de marcadores de "
+"lugar."
 
 #. type: Bullet: '* '
 msgid "More intuitive key commands."
@@ -437,7 +439,7 @@ msgid ""
 "Slovenian, Tamil."
 msgstr ""
 "Traduzido para: Alemão, Coreano, Eslovaco, Esloveno, Espanhol, Finlandês, "
-"Francês, Galego, Italiano, Japonês, Persa, Português, Português do Brasil, "
+"Francês, Galego, Italiano, Japonês, Persa, Português, Português Brasileiro, "
 "Tâmil."
 
 #. type: Plain text
@@ -450,14 +452,17 @@ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 
 #. type: Plain text
-msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
+msgid ""
+"[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
+"github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
+"addon"
+msgstr ""
+"[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev [3]: https://"
+"github.com/nvdaes/placeMarkers/releases/download/10.2/placeMarkers-10.2.nvda-"
+"addon"
 
-#. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
-msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #~ msgid ""
 #~ "This addon is based on SpecificSearch and Bookmark&Search, developed by "
