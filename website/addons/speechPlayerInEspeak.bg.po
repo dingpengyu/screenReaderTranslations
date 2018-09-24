@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-06-03 04:36+1000\n"
+"POT-Creation-Date: 2018-09-24 19:10+1000\n"
 "PO-Revision-Date: 2018-06-29 23:10+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,16 @@ msgstr ""
 msgid "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
 msgstr "[[!meta title=\"SpeechPlayer в eSpeak\"]]\n"
 
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* Author: NV Access Limited\n"
-"*   Download [SpeechPlayer in Espeak][1]\n"
+#. type: Bullet: '* '
+msgid "Author: NV Access Limited"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "* Author: NV Access Limited\n"
+#| "*   Download [SpeechPlayer in Espeak][1]\n"
+msgid "Download [SpeechPlayer in Espeak][1]"
 msgstr ""
 "* Автор: NV Access Limited\n"
 "*   Изтегляне на [SpeechPlayer в eSpeak][1]\n"

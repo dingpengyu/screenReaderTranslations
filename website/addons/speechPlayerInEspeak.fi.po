@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SpeechPlayer in eSpeak\n"
-"POT-Creation-Date: 2017-06-03 04:36+1000\n"
+"POT-Creation-Date: 2018-09-24 19:10+1000\n"
 "PO-Revision-Date: 2017-06-03 08:34+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
@@ -22,11 +22,16 @@ msgstr ""
 msgid "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
 msgstr "[[!meta title=\"SpeechPlayer in eSpeak\"]]\n"
 
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* Author: NV Access Limited\n"
-"*   Download [SpeechPlayer in Espeak][1]\n"
+#. type: Bullet: '* '
+msgid "Author: NV Access Limited"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "* Author: NV Access Limited\n"
+#| "*   Download [SpeechPlayer in Espeak][1]\n"
+msgid "Download [SpeechPlayer in Espeak][1]"
 msgstr ""
 "* Tekijä: NV Access Limited\n"
 "*   Lataa [SpeechPlayer in eSpeak][1]\n"

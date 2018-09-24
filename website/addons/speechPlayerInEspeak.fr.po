@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SpeechPlayerInESpeak\n"
-"POT-Creation-Date: 2018-01-24 03:57+1000\n"
+"POT-Creation-Date: 2018-09-24 19:10+1000\n"
 "PO-Revision-Date: 2017-06-03 20:55+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: French add-ons translation team <remyruiz@gmail.com>\n"
@@ -20,11 +20,16 @@ msgstr ""
 msgid "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
 msgstr "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
 
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* Author: NV Access Limited\n"
-"*   Download [SpeechPlayer in Espeak][1]\n"
+#. type: Bullet: '* '
+msgid "Author: NV Access Limited"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "* Author: NV Access Limited\n"
+#| "*   Download [SpeechPlayer in Espeak][1]\n"
+msgid "Download [SpeechPlayer in Espeak][1]"
 msgstr ""
 "* Auteur : NV Access Limited\n"
 "*   Télécharger [SpeechPlayer in Espeak][1]\n"

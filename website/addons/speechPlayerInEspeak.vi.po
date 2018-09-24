@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-09-24 19:10+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,12 @@ msgstr ""
 msgid "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
 msgstr ""
 
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* Author: NV Access Limited\n"
-"*   Download [SpeechPlayer in Espeak][1]\n"
+#. type: Bullet: '* '
+msgid "Author: NV Access Limited"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download [SpeechPlayer in Espeak][1]"
 msgstr ""
 
 #. type: Plain text
@@ -39,6 +40,6 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"[1]: "
-"https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4.nvda-addon"
+"[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4."
+"nvda-addon"
 msgstr ""

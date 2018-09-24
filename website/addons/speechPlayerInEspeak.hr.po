@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-06-03 04:36+1000\n"
+"POT-Creation-Date: 2018-09-24 19:10+1000\n"
 "PO-Revision-Date: 2016-12-20 21:44+0100\n"
 "Last-Translator: Zvonimir Stanečić <zvonimirek222@yandex.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,16 @@ msgstr ""
 msgid "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
 msgstr "[[!meta title=\"speechplayer u espeaku\"]]\n"
 
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* Author: NV Access Limited\n"
-"*   Download [SpeechPlayer in Espeak][1]\n"
+#. type: Bullet: '* '
+msgid "Author: NV Access Limited"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "* Author: NV Access Limited\n"
+#| "*   Download [SpeechPlayer in Espeak][1]\n"
+msgid "Download [SpeechPlayer in Espeak][1]"
 msgstr ""
 "* Autor: NV Access Limited\n"
 "*   Preuzmi [SpeechPlayer in Espeak][1]\n"
@@ -48,5 +53,5 @@ msgid ""
 "[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4."
 "nvda-addon"
 msgstr ""
-"[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4.nvda-"
-"addon"
+"[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4."
+"nvda-addon"
