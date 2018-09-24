@@ -1259,14 +1259,12 @@ NVDA設定ダイアログのキーボードカテゴリでは、NVDAでのキー
 ==== キーボード配列 ====[KeyboardSettingsLayout]
 このコンボボックスでは、NVDAでどのキーボード配列を使用するかを選ぶことができます。現在、NVDAにあるのはデスクトップ配列とラップトップ配列です。
 
-==== 英語キーボードのCapsLockキーをNVDA制御キーとして使用 ====[KeyboardSettingsCapsModifier]
-チェックされている場合、CapsLockキーがNVDA制御キーとして動作します。ただし日本語キーボードではCapsLockキーをNVDA制御キーとして使用できません。
-
-==== InsertキーをNVDA制御キーとして使用 ====[KeyboardSettingsExtendedInsert]
-チェックされている場合、Insertキー (通常は矢印キーの上のHomeキーやEndキーの近くにあります) をNVDA制御キーとして使用することができます。
-
-==== テンキーのInsertキーをNVDA制御キーとして使用 ====[KeyboardSettingsNumpadInsert]
-チェックされている場合、テンキー上のInsertキーをNVDA制御キーとして使用することができます。
+==== NVDA制御キーの選択 ====[KeyboardSettingsModifiers]
+このリストコントロールにはチェックボックスがあり、どのキーを [NVDA制御キー #TheNVDAModifierKey] として使用するかを選択できます。以下のキーから選択できます:
+- CapsLock キー（日本語キーボードでは使用できません）
+- テンキー Insert キー（NumLock がオフの場合の数字0のキー）
+- メイン Insert キー（矢印キーの上の Home キーや End キーの近くにあります）
+-
 
 NVDA制御キーがどのキーにも割り当てられていないと、NVDAの機能を呼び出すことができなくなります。
 そこで、どのキーもNVDA制御キーに選択されないまま、NVDA設定ダイアログで OK または適用ボタンを押すと、エラーメッセージを表示します。
