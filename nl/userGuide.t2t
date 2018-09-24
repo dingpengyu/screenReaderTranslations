@@ -1259,14 +1259,12 @@ In deze categorie treft u de volgende keuzemogelijkheden aan:
 ==== Toetsenbordindeling ====[KeyboardSettingsLayout]
 Dit is een vervolgkeuzelijst waarin u het type toetsenbordindeling kiest dat u wilt gebruiken. Momenteel zijn er in NVDA twee types beschikbaar: desktop en laptop. 
 
-==== CapsLock als NVDA-toets gebruiken ====[KeyboardSettingsCapsModifier]
-Als dit selectievakje wordt ingeschakeld, is CapsLock als NVDA-toets ingesteld. 
+==== NVDA-programmatoetsen selecteren ====[KeyboardSettingsModifiers]
+Met de selectievakjes in deze lijst bepaalt u welke toetsen als [NVDA-programmatoetsen kunnen worden gebruikt #TheNVDAModifierKey]. U hebt de keuze uit de volgende  toetsen :
+- De caps lock-toets
+- De insert-toets op het numerieke toetsenblok
+- De uitgebreide insert-toets die meestal boven de pijltjestoetsen zit vlakbij home en end)
 
-==== Uitgebreide Insertt-toets als NVDA-toets gebruiken ====[KeyboardSettingsExtendedInsert]
-Door dit selectievakje in te schakelen wordt de uitgebreide Insert- (INS-) toets als NVDA-toets gebruikt. De uitgebreide INS-toets zit meestal boven de pijltjestoetsen bij de Home en End-toetsen 
-
-==== Numerieke Insert-toets als NVDA-toets gebruiken ====[KeyboardSettingsNumpadInsert]
-Door het selectievakje in te schakelen wordt de Insert-toets op het numerieke toetsenbord als NVDA-toets ingesteld.
 
 Als er geen toets als NVDA-toets wordt gekozen, zijn bepaalde 
 commando's mogelijk niet beschikbaar.
