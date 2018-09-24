@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2018-06-29 22:44+0200\n"
+"PO-Revision-Date: 2018-09-24 22:06+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
 "Language: bg\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -153,20 +153,18 @@ msgstr ""
 "2018 г."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.04"
 msgid "Version 18.10"
-msgstr "Версия 18.04"
+msgstr "Версия 18.10"
 
 #. type: Bullet: '* '
 msgid "Code has been made more compatible with Python 3."
-msgstr ""
+msgstr "Кодът е по-съвместим с Python 3."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Updated psutil dependency to 5.0.1."
 msgid "Updated psutil dependency to 5.4.7."
-msgstr "Външната библиотека psutil е обновена до версия 5.0.1."
+msgstr "Външната библиотека psutil е обновена до версия 5.4.7."
 
 #. type: Bullet: '* '
 msgid ""
@@ -174,16 +172,21 @@ msgid ""
 "errors if using a computer or a service with more than a petabyte of RAM or "
 "disk size."
 msgstr ""
+"При получаване на капацитета на диска и употребата на паметта, NVDA няма "
+"повече да дава грешки, ако се използва компютър или услуга с повече от един "
+"петабайт RAM или твърд диск."
 
 #. type: Bullet: '* '
 msgid ""
 "Values for memory and disk usage are shown with up to two decimal places (e."
 "g. 4.00 GB instead of 4.0 GB)."
 msgstr ""
+"Стойностите за употребата на памет и на твърдия диск се показват с до два "
+"десетични знака (например 4,00 GB вместо 4,0 GB)."
 
 #. type: Bullet: '* '
 msgid "Improved detection of Windows Insider Preview builds."
-msgstr ""
+msgstr "Подобрено е откриването на компилациите на Windows Insider Preview."
 
 #. type: Title ##
 #, no-wrap
