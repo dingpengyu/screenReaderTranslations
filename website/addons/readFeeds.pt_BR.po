@@ -1,27 +1,27 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/readFeeds.pt_BR.po
+# Copyright (C) 2013-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013-2014, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: ReadFeeds page\n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2017-09-15 21:50-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clcaul@live.com>\n"
+"PO-Revision-Date: 2018-09-24 19:26-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Read Feeds\"]]\n"
-msgstr "[[!meta title=\"Leitor de fíds\"]]\n"
+msgstr "[[!meta title=\"Leitor de feeds\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed"
@@ -41,9 +41,9 @@ msgid ""
 "formats using NVDA.  The feeds will not be refreshed automatically.  Below "
 "when we mention feeds, we mean both RSS and ATOM feeds."
 msgstr ""
-"Este complemento fornece uma maneira direta de ler fíds em formato Atom ou "
-"RSS usando o NVDA. Os fíds não são atualizados automaticamente.  Ao "
-"mencionarmos fíds abaixo, referimo-nos tanto a fíds RSS como ATOM."
+"Este complemento fornece uma maneira direta de ler feeds em formato Atom ou "
+"RSS usando o NVDA. Os feeds não são atualizados automaticamente.  Ao "
+"mencionarmos feeds abaixo, referimo-nos tanto a feeds RSS como ATOM."
 
 #. type: Title ##
 #, no-wrap
@@ -51,13 +51,6 @@ msgid "Installation or Update:"
 msgstr "Instalar ou atualizar:"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "If you used a previous version of this addon, and there is an RSS or "
-#| "personalFeeds folder in your personal NVDA configuration folder, when "
-#| "installing version 6.0 or later, a dialog will ask if you want to upgrade "
-#| "or install.  Choose update to preserve your saved feeds and to continue "
-#| "using them in the new installed version of readFeeds."
 msgid ""
 "If you used a previous version of this addon, and there is an RSS or "
 "personalFeeds folder in your personal NVDA configuration folder, when "
@@ -65,11 +58,11 @@ msgid ""
 "install.  Choose update to preserve your saved feeds and to continue using "
 "them in the new installed version of readFeeds."
 msgstr ""
-"Caso já tenha usado uma versão anterior deste complemento e houver uma pasta "
-"RSS ou personalFeeds na pasta pessoal de opções do NVDA, ao instalar a "
-"versão 6.0 ou superior, um diálogo vai perguntar se você quer atualizar ou "
-"instalar.  Escolha atualizar para preservar os fíds salvos e continuá-los "
-"usando na nova versão instalada do Leitor de Fíds."
+"Se você usou uma versão anterior deste addon, e há uma pasta RSS ou "
+"personalFeeds na sua pasta pessoal de configuração do NVDA, ao instalar a "
+"versão atual, uma caixa de diálogo perguntará se você deseja atualizar ou "
+"instalar. Escolha atualizar para preservar seus feeds salvos e continuar "
+"usando-os na nova versão instalada do Leitor de Feeds."
 
 #. type: Title ##
 #, no-wrap
@@ -79,20 +72,20 @@ msgstr "Comandos:"
 #. type: Title ###
 #, no-wrap
 msgid "Read Feeds menu"
-msgstr "Menu Leitor de Fíds"
+msgstr "Menu Leitor de Feeds"
 
 #. type: Plain text
 msgid ""
 "You can access the Read Feeds submenu from the nvda menu, Tools submenu, "
 "where the following menu options are available:"
 msgstr ""
-"Você pode acessar o submenu do Leitor de Fíds a partir do menu do NVDA, "
-"submenu Ferramentas, onde são disponíveis as opções de menu a seguir:"
+"Você pode acessar o submenu do Leitor de Feeds a partir do menu do NVDA, "
+"submenu Ferramentas, onde estão disponíveis as opções de menu a seguir:"
 
 #. type: Title ####
 #, no-wrap
 msgid "Feeds..."
-msgstr "Fíds..."
+msgstr "Feeds..."
 
 #. type: Plain text
 msgid "Opens a dialog with the following controls:"
@@ -101,11 +94,11 @@ msgstr "Abre um diálogo com os seguintes controles:"
 #. type: Bullet: '* '
 msgid "Filter by: An edit box to search previously saved feeds."
 msgstr ""
-"Filtrar por: Um campo de edição para procurar fíds anteriormente salvos."
+"Filtrar por: Um campo de edição para procurar feeds anteriormente salvos."
 
 #. type: Bullet: '* '
 msgid "A list of the saved feeds."
-msgstr "Uma lista com os fíds salvos."
+msgstr "Uma lista com os feeds salvos."
 
 #. type: Bullet: '* '
 msgid ""
@@ -116,14 +109,17 @@ msgid ""
 "of the selected article; from this dialog, you'll be able to copy this info "
 "to the clipboard."
 msgstr ""
+"Lista de artigos: abre uma caixa de diálogo que apresenta a lista de artigos "
+"do seu feed atual. Selecione o artigo que deseja ler e pressione Enter ou o "
+"botão Abrir página da web do artigo selecionado para abrir a página "
+"correspondente no seu navegador. Pressione o botão Sobre o artigo para abrir "
+"uma caixa de diálogo mostrando o título e o link do artigo selecionado; "
+"desta caixa de diálogo, você poderá copiar essa informação para a área de "
+"transferência."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Delete: Opens a dialog to delete the selected feed after confirmation."
 msgid "Open feed: Opens the selected feed in the default application."
-msgstr ""
-"Excluir: Abre um diálogo para excluir o fíd selecionado após confirmação."
+msgstr "Abrir feed: abre o feed selecionado no aplicativo padrão."
 
 #. type: Bullet: '* '
 msgid ""
@@ -131,27 +127,33 @@ msgid ""
 "the address is valid and the feed can be saved, its name, based on the feed "
 "title, will appear at the bottom of the feeds list."
 msgstr ""
+"Novo: abre uma caixa de diálogo com uma caixa de edição para inserir o "
+"endereço de um novo feed. Se o endereço for válido e o feed puder ser salvo, "
+"seu nome, com base no título do feed, aparecerá na parte inferior da lista "
+"de feeds."
 
 #. type: Bullet: '* '
 msgid "Rename: Opens a dialog with an edit box to rename the selected feed."
 msgstr ""
-"Renomear: Abre um diálogo com um campo de edição para renomear o fíd "
+"Renomear: Abre um diálogo com um campo de edição para renomear o feed "
 "selecionado."
 
 #. type: Bullet: '* '
 msgid "Delete: Opens a dialog to delete the selected feed after confirmation."
 msgstr ""
-"Excluir: Abre um diálogo para excluir o fíd selecionado após confirmação."
+"Excluir: Abre um diálogo para excluir o feed selecionado após confirmação."
 
 #. type: Bullet: '* '
 msgid ""
 "Set default: Sets the selected feed as the default, so that its articles can "
 "be accessed with NVDA's gestures."
 msgstr ""
+"Definir padrão: define o feed selecionado como padrão, para que seus artigos "
+"possam ser acessados com os gestos — comandos — do NVDA."
 
 #. type: Bullet: '* '
 msgid "Close: Closes the Feeds dialog."
-msgstr "Fechar: Fecha o diálogo fíds."
+msgstr "Fechar: Fecha o diálogo feeds."
 
 #. type: Title #####
 #, no-wrap
@@ -163,17 +165,22 @@ msgid ""
 "If a feed named tempFeed is created, please rename it, as this file could be "
 "replaced when needed to create a feed whose name already exists."
 msgstr ""
+"Se um feed chamado tempFeed for criado, renomeie-o, pois esse arquivo pode "
+"ser substituído quando necessário para criar um feed cujo nome já exista."
 
 #. type: Bullet: '* '
 msgid ""
 "The feed set as the default can't be removed. The addressFile feed will be "
 "use as the default when the configuration is reset, so it can't be deleted."
 msgstr ""
+"O feed definido como padrão não pode ser removido. O endereço addressFile "
+"feed será usado como padrão quando a configuração for redefinida, por isso "
+"não pode ser excluída."
 
 #. type: Plain text
 #, no-wrap
 msgid "####Copy feeds folder... ####\n"
-msgstr ""
+msgstr "####Copiar pasta de feeds... ####\n"
 
 #. type: Plain text
 msgid ""
@@ -181,17 +188,23 @@ msgid ""
 "directory of your feeds. By default the selected folder is the NVDA's "
 "configuration directory, which will create the personalFeeds directory."
 msgstr ""
+"Abre uma caixa de diálogo para escolher uma pasta onde você pode salvar o "
+"diretório personalFeeds dos seus feeds. Por padrão, a pasta selecionada é o "
+"diretório de configuração do NVDA, em que criará o diretório personalFeeds."
 
 #. type: Title ####
 #, no-wrap
 msgid "Restore feeds..."
-msgstr "Restaurar fíds..."
+msgstr "Restaurar feeds..."
 
 #. type: Plain text
 msgid ""
 "Opens a dialog to select a folder which replaces your feeds in the "
 "personalFeeds folder. Make sure you load a folder containing feeds URLs."
 msgstr ""
+"Abre uma caixa de diálogo para selecionar uma pasta que sobrescreve seus "
+"feeds na pasta personalFeeds. Certifique-se de carregar uma pasta contendo "
+"URLs de feeds."
 
 #. type: Title ###
 #, no-wrap
@@ -203,26 +216,32 @@ msgid ""
 "Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice will "
 "open the web page."
 msgstr ""
+"Ctrl+Shift+NVDA+Espaço: Anuncia o URL do artigo atual. Pressionar duas vezes "
+"abrirá a página web."
 
 #. type: Bullet: '* '
 msgid ""
 "Ctrl+Shift+NVDA+8: Refreshes the selected feed and announces its most recent "
 "title."
 msgstr ""
+"Ctrl+Shift+NVDA+8: Atualiza o feed selecionado e anuncia seu título mais "
+"recente."
 
 #. type: Bullet: '* '
 msgid ""
 "Ctrl+Shift+NVDA+I: Announces current feed title and link. Pressing twice "
 "will copy the title and related link to clipboard."
 msgstr ""
+"Ctrl+Shift+NVDA+I: Anuncia o título e o link do feed atual. Pressionar duas "
+"vezes copiará o título e o link relacionado para a área de transferência."
 
 #. type: Bullet: '* '
 msgid "Ctrl+Shift+NVDA+U: Announces previous feed title."
-msgstr ""
+msgstr "Ctrl+Shift+NVDA+U: Anuncia o título do feed anterior."
 
 #. type: Bullet: '* '
 msgid "Ctrl+Shift+NVDA+O: Announces next feed title."
-msgstr ""
+msgstr "Ctrl+Shift+NVDA+O: Anuncia o próximo título do feed."
 
 #. type: Title ##
 #, no-wrap
@@ -231,13 +250,15 @@ msgstr "Notificações:"
 
 #. type: Bullet: '* '
 msgid "When the title or URL have been copied."
-msgstr ""
+msgstr "Quando o título ou URL foram copiados."
 
 #. type: Bullet: '* '
 msgid ""
 "When unable to connect/refresh a feed, or the URL does not correspond to a "
 "valid feed."
 msgstr ""
+"Quando não é possível conectar/atualizar um feed ou o URL não corresponde a "
+"um feed válido."
 
 #. type: Bullet: '* '
 msgid ""
@@ -252,38 +273,39 @@ msgid ""
 "The title of the articles list dialog displays the selected feed name and "
 "number of items available."
 msgstr ""
-"O título do diálogo Lista de artigos mostra o nome do fíd selecionado e o "
+"O título do diálogo Lista de artigos mostra o nome do feed selecionado e o "
 "número de itens disponíveis."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 3.0"
+#, no-wrap
 msgid "Changes for 5.0"
-msgstr "Mudanças na 3.0"
+msgstr "Mudanças na 5.0"
 
 #. type: Bullet: '* '
 msgid "The articles list dialog has been enhanced."
-msgstr ""
+msgstr "A caixa de diálogo da lista de artigos foi aprimorada."
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Compatível com o NVDA 2018.3 ou posterior (requerido)."
 
 #. type: Bullet: '* '
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Se necessário, você pode fazer o download da [última versão compatível com o "
+"NVDA 2017.3][3]."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 3.0"
+#, no-wrap
 msgid "Changes for 4.0"
-msgstr "Mudanças na 3.0"
+msgstr "Mudanças na 4.0"
 
 #. type: Bullet: '* '
 msgid "Added a button to open the selected feed from the Feeds dialog."
 msgstr ""
+"Adicionado um botão para abrir o feed selecionado na caixa de diálogo Feeds."
 
 #. type: Title ##
 #, no-wrap
@@ -295,8 +317,8 @@ msgid ""
 "The dialogs to manage feed files have been removed. Now their functionality "
 "is included in the Feeds dialog."
 msgstr ""
-"Os diálogos para gerir arquivos de fíds foram removidos. Agora a "
-"funcionalidade dos mesmos está inclusa no diálogo fíds."
+"Os diálogos para gerir arquivos de feeds foram removidos. Agora a "
+"funcionalidade dos mesmos está inclusa no diálogo feeds."
 
 #. type: Bullet: '* '
 msgid ""
@@ -311,8 +333,8 @@ msgid ""
 "The default feed is saved on the NVDA's configuration. Therefore, it's "
 "possible to set different default feeds in configuration profiles."
 msgstr ""
-"O fíd padrão é salvo nas configurações do NVDA. Assim, é possível "
-"especificar diferentes fíds padrão em perfis de configurações."
+"O feed padrão é salvo nas configurações do NVDA. Assim, é possível "
+"especificar diferentes feeds padrão em perfis de configurações."
 
 #. type: Bullet: '* '
 msgid "Requires NVDA 2016.4."
@@ -342,22 +364,16 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
 
 #, fuzzy
 #~| msgid ""
