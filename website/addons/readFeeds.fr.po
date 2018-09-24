@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Read Feeds\n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2018-09-22 20:03+0200\n"
+"PO-Revision-Date: 2018-09-24 23:01+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -382,10 +382,9 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
 
 #~ msgid ""
 #~ "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev [3]: "
