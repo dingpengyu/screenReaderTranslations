@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Website\n"
-"POT-Creation-Date: 2018-09-22 04:49+1000\n"
+"POT-Creation-Date: 2018-09-25 01:06+1000\n"
 "PO-Revision-Date: 2016-01-30 18:44+0100\n"
 "Last-Translator: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
 "Language-Team: Danish <LL@li.org>\n"
@@ -761,6 +761,17 @@ msgid ""
 "and have NVDA 2012.3 or later installed, you can perform some Studio "
 "commands from the touchscreen. First use three finger tap to switch to SPL "
 "mode, then use the touch commands listed above to perform commands."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.10.2/18.09.4-LTS"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed inability to close the add-on settings screen if Apply button was "
+"pressed and subsequently OK or Cancel buttons were pressed."
 msgstr ""
 
 #. type: Title ##

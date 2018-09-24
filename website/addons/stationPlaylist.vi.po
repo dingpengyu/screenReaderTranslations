@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-22 04:49+1000\n"
+"POT-Creation-Date: 2018-09-25 01:06+1000\n"
 "PO-Revision-Date: 2018-09-22 08:37+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
@@ -912,8 +912,19 @@ msgstr ""
 "và sử dụng các thao tác cảm ứng đã liệt kê ở trên để thực hiện các lệnh."
 
 #. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.10.1/18.09.3-LTS"
+msgid "Version 18.10.2/18.09.4-LTS"
+msgstr "Phiên bản 18.10.1/18.09.3-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed inability to close the add-on settings screen if Apply button was "
+"pressed and subsequently OK or Cancel buttons were pressed."
+msgstr ""
+
+#. type: Title ##
 #, no-wrap
-#| msgid "Version 16.10.1/15.2-LTS"
 msgid "Version 18.10.1/18.09.3-LTS"
 msgstr "Phiên bản 18.10.1/18.09.3-LTS"
 
@@ -931,7 +942,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.08"
 msgid "Version 18.10"
 msgstr "Phiên bản 18.10"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Station playlist studio\n"
-"POT-Creation-Date: 2018-09-22 04:49+1000\n"
+"POT-Creation-Date: 2018-09-25 01:06+1000\n"
 "PO-Revision-Date: 2018-09-21 14:44+0200\n"
 "Last-Translator: Piotr Rakowski <piter.9521@wp.pl>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
@@ -908,6 +908,18 @@ msgid ""
 "and have NVDA 2012.3 or later installed, you can perform some Studio "
 "commands from the touchscreen. First use three finger tap to switch to SPL "
 "mode, then use the touch commands listed above to perform commands."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 18.10.2/18.09.4-LTS"
+msgstr "Zmiany dla wersji 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed inability to close the add-on settings screen if Apply button was "
+"pressed and subsequently OK or Cancel buttons were pressed."
 msgstr ""
 
 #. type: Title ##
