@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SpeechPlayerInESpeak\n"
 "POT-Creation-Date: 2018-09-24 19:10+1000\n"
-"PO-Revision-Date: 2017-06-03 20:55+0200\n"
+"PO-Revision-Date: 2018-09-24 16:21+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: French add-ons translation team <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -22,17 +22,11 @@ msgstr "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: NV Access Limited"
-msgstr ""
+msgstr "Auteur : NV Access Limited"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "* Author: NV Access Limited\n"
-#| "*   Download [SpeechPlayer in Espeak][1]\n"
 msgid "Download [SpeechPlayer in Espeak][1]"
-msgstr ""
-"* Auteur : NV Access Limited\n"
-"*   Télécharger [SpeechPlayer in Espeak][1]\n"
+msgstr "Télécharger [SpeechPlayer in Espeak][1]"
 
 #. type: Plain text
 msgid "A hybrid of speechPlayer and eSpeak, containing the Edward voice."
