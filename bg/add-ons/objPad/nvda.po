@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: objPad 18.03\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2018-08-25 15:05+1000\n"
-"PO-Revision-Date: 2018-08-31 08:55+0300\n"
+"PO-Revision-Date: 2018-09-24 22:10+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -42,28 +42,28 @@ msgstr ""
 #. Web navigation:
 #. Web elements list:
 msgid "normal"
-msgstr ""
+msgstr "Нормално"
 
 msgid "Link"
-msgstr ""
+msgstr "Връзки"
 
 msgid "Form field"
-msgstr ""
+msgstr "Полета от формуляри"
 
 msgid "Heading"
-msgstr ""
+msgstr "Заглавия"
 
 msgid "Frame"
-msgstr ""
+msgstr "Рамки"
 
 msgid "Table"
-msgstr ""
+msgstr "Таблици"
 
 msgid "List"
-msgstr ""
+msgstr "Списъци"
 
 msgid "Landmark"
-msgstr ""
+msgstr "Маркери"
 
 #. Translators: a message when there is no next object when navigating
 msgid "No next"
