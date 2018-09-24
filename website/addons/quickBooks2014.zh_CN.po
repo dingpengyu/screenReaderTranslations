@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-24 00:53+1000\n"
-"PO-Revision-Date: 2018-09-11 08:15+0800\n"
+"PO-Revision-Date: 2018-09-24 06:24+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -44,26 +44,26 @@ msgstr "功能"
 
 #. type: Bullet: '* '
 msgid "Automatic enabling of QuickBooks accessibility mode."
-msgstr ""
+msgstr "自动启用QuickBooks辅助功能模式。"
 
 #. type: Bullet: '* '
 msgid "Labeling of many input fields."
-msgstr ""
+msgstr "标记许多输入编辑框。"
 
 #. type: Bullet: '* '
 msgid ""
 "Tracking of focus and highlighting for lists such as the Chart of Accounts."
-msgstr ""
+msgstr "跟踪焦点并突出显示诸如会计科目表之类的列表。"
 
 #. type: Bullet: '* '
 msgid ""
 "Correct control type identification of custom check boxes, radio buttons and "
 "buttons."
-msgstr ""
+msgstr "正确控制类型识别自定义复选框，单选按钮和按钮。"
 
 #. type: Bullet: '* '
 msgid "Automatic reporting of messages in custom message dialogs."
-msgstr ""
+msgstr "在自定义消息对话框中自动朗读消息。"
 
 #. type: Plain text
 #, no-wrap
