@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2018-09-20 07:26+0200\n"
+"PO-Revision-Date: 2018-09-25 09:51+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -451,10 +451,8 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
 
 #~ msgid ""
 #~ "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev [3]: "

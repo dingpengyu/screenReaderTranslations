@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SpeechPlayer in eSpeak\n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2017-06-03 08:34+0200\n"
+"PO-Revision-Date: 2018-09-25 09:50+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -24,21 +24,15 @@ msgstr "[[!meta title=\"SpeechPlayer in eSpeak\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: NV Access Limited"
-msgstr ""
+msgstr "Tekijä: NV Access Limited"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "* Author: NV Access Limited\n"
-#| "*   Download [SpeechPlayer in Espeak][1]\n"
 msgid "Download [SpeechPlayer in Espeak][1]"
-msgstr ""
-"* Tekijä: NV Access Limited\n"
-"*   Lataa [SpeechPlayer in eSpeak][1]\n"
+msgstr "Lataa [SpeechPlayer in Espeak][1]"
 
 #. type: Plain text
 msgid "A hybrid of speechPlayer and eSpeak, containing the Edward voice."
-msgstr "SpeechPlayerin ja eSpeakin hybridi, joka sisältää Edward-puheäänen."
+msgstr "SpeechPlayerin ja eSpeakin hybridi, joka sisältää Edward-äänen."
 
 #. type: Plain text
 #, no-wrap
@@ -47,7 +41,7 @@ msgstr "[[!tag dev synth]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spie"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spie"
 
 #~ msgid ""
 #~ "[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4."
