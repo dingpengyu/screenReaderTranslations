@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Leitor de RSS\n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2018-01-30 18:55+0000\n"
+"PO-Revision-Date: 2018-09-26 15:42+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -101,7 +101,6 @@ msgid "A list of the saved feeds."
 msgstr "Uma lista dos feeds guardados;"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "List of articles: Opens a dialog which presents the articles list from "
 #| "your current feed. Select the article you want to read and press OK "
@@ -114,9 +113,13 @@ msgid ""
 "of the selected article; from this dialog, you'll be able to copy this info "
 "to the clipboard."
 msgstr ""
-"Lista de artigos: Abre um diálogo que apresenta a lista de artigos do seu "
-"feed actual. Seleccione o artigo que deseja ler e pressione o botão OK para "
-"abrir a página correspondente no seu navegador."
+"Lista de artigos: abre uma caixa de diálogo que apresenta a lista de artigos "
+"do seu feed actual. Seleccione o artigo que deseja ler e pressione Enter ou "
+"o botão Abrir página da web do artigo seleccionado para abrir a página "
+"correspondente no seu navegador. Pressione o botão Sobre o artigo para abrir "
+"uma caixa de diálogo que mostra o título e o link do artigo seleccionado; "
+"nesta caixa de diálogo, poderá copiar essa informação para a área de "
+"transferência."
 
 #. type: Bullet: '* '
 msgid "Open feed: Opens the selected feed in the default application."
@@ -281,24 +284,25 @@ msgstr ""
 "selecionado e o número de itens disponíveis."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 4.0"
+#, no-wrap
 msgid "Changes for 5.0"
-msgstr "Alterações para 4.0:"
+msgstr "Alterações para 5.0:"
 
 #. type: Bullet: '* '
 msgid "The articles list dialog has been enhanced."
-msgstr ""
+msgstr "A caixa de diálogo da lista de artigos foi melhorada."
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Compatível com o NVDA 2018.3 ou posterior (requerido)."
 
 #. type: Bullet: '* '
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Se necessário, pode fazer o download da [última versão compatível com o NVDA "
+"2017.3] [3]."
 
 #. type: Title ##
 #, no-wrap
@@ -377,7 +381,6 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"

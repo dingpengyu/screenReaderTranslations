@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Entrada de Braille pelo teclado do computador\n"
 "POT-Creation-Date: 2018-09-24 00:53+1000\n"
-"PO-Revision-Date: 2018-01-29 18:26+0000\n"
+"PO-Revision-Date: 2018-09-26 16:59+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -25,19 +25,19 @@ msgstr "[[!meta title=\"PC Keyboard Braille Input for NVDA\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: NV Access Limited"
-msgstr ""
+msgstr "Autor: NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "Copyright: 2012-2014 NV Access Limited"
-msgstr ""
+msgstr "Copyright: 2012-2014 NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "License: GNU General Public License version 2.0"
-msgstr ""
+msgstr "Licença: GNU General Public License version 2.0"
 
 #. type: Bullet: '* '
 msgid "Download: [version 2014.1][1]"
-msgstr ""
+msgstr "Baixar: [versão 2014.1][1]"
 
 #. type: Plain text
 msgid ""
@@ -58,15 +58,7 @@ msgid "Press NVDA+z to enable braille input."
 msgstr "Pressione NVDA+z para habilitar a entrada em braille."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
-#| "\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
-#| "\t- Use the keys j, k and l for dots 4, 5 and 6 respectively.\n"
-#| "\t- Use the keys a and ; (semi-colon) for dots 7 and 8, respectively.\n"
-#| "\t- You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p.\n"
-#| "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
-#| "4. Press NVDA+z to disable braille input.\n"
+#, no-wrap
 msgid ""
 "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
 "\t* Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
@@ -76,7 +68,7 @@ msgid ""
 "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
 "4. Press NVDA+z to disable braille input.\n"
 msgstr ""
-"2. Digite braille pressionando as teclas juntas no teclado do PC como se fosse um teclado braille.\n"
+"2.  Digite braille pressionando as teclas juntas no teclado do PC como se fosse um teclado braille.\n"
 "- Use as teclas s, d e f para os pontos 1, 2 e 3, respectivamente.\n"
 "- Use as teclas j, k e l para os pontos 4, 5 e 6, respectivamente.\n"
 "- Use as teclas a e; (ponto e ponto) para os pontos 7 e 8, respectivamente.\n"
@@ -124,10 +116,8 @@ msgid "Contributors"
 msgstr "Colaboradores:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "- James Teh"
 msgid "James Teh"
-msgstr "- James Teh"
+msgstr "James Teh"
 
 #. type: Plain text
 #, no-wrap
