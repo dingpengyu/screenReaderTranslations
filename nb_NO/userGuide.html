@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 <HEAD>
-<META NAME="generator" CONTENT="https://txt2tags.org">
+<META NAME="generator" CONTENT="http://txt2tags.org">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <TITLE>NVDA 2018.4-dev Brukermanual</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
@@ -122,8 +122,86 @@
     <LI><A HREF="#NVDASettings">12.1. NVDA-innstillinger</A>
       <UL>
       <LI><A HREF="#GeneralSettings">12.1.1. Generelt (NVDA+Ctrl+g)</A>
+      <LI><A HREF="#SelectSynthesizer">12.1.2. Velg talesyntese (NVDA+Ctrl+s)</A>
+      <LI><A HREF="#SynthSettingsRing">12.1.3. Innstillingsringen for talesyntese</A>
+      <LI><A HREF="#BrailleSettings">12.1.4. Punktskrift</A>
+      <LI><A HREF="#SelectBrailleDisplay">12.1.5. Velg leselist (NVDA+Ctrl+a)</A>
+      <LI><A HREF="#KeyboardSettings">12.1.6. Tastatur (NVDA+Ctrl+k)</A>
+      <LI><A HREF="#MouseSettings">12.1.7. Mus (NVDA+Ctrl+m)</A>
+      <LI><A HREF="#TouchInteraction">12.1.8. Touch Interaction</A>
+      <LI><A HREF="#ReviewCursorSettings">12.1.9. Lesemarkør</A>
+      <LI><A HREF="#ObjectPresentationSettings">12.1.10. Objektpresentasjon (NVDA+Ctrl+o)</A>
+      <LI><A HREF="#InputCompositionSettings">12.1.11. Input Composition</A>
+      <LI><A HREF="#BrowseModeSettings">12.1.12. Browse Mode (NVDA+Ctrl+b)</A>
+      <LI><A HREF="#DocumentFormattingSettings">12.1.13. Dokumentformatering (NVDA+Ctrl+d)</A>
+      <LI><A HREF="#Win10OcrSettings">12.1.14. Innstillinger for OCR i Windows 10</A>
       </UL>
+    <LI><A HREF="#MiscSettings">12.2. Diverse innstillinger</A>
+      <UL>
+      <LI><A HREF="#SpeechDictionaries">12.2.1. Taleordlister</A>
+      <LI><A HREF="#SymbolPronunciation">12.2.2. Uttale av tegnsetting/symboler</A>
+      <LI><A HREF="#InputGestures">12.2.3. Input Gestures</A>
+      </UL>
+    <LI><A HREF="#SavingAndReloading">12.3. Saving and Reloading the configuration</A>
+    <LI><A HREF="#ConfigurationProfiles">12.4. Konfigurasjonsprofiler</A>
+      <UL>
+      <LI><A HREF="#ProfilesBasicManagement">12.4.1. Basic Management</A>
+      <LI><A HREF="#ProfilesCreating">12.4.2. Creating a Profile</A>
+      <LI><A HREF="#ConfigProfileManual">12.4.3. Manual Activation</A>
+      <LI><A HREF="#ConfigProfileTriggers">12.4.4. Triggers</A>
+      <LI><A HREF="#ConfigProfileEditing">12.4.5. Editing a Profile</A>
+      <LI><A HREF="#ConfigProfileDisablingTriggers">12.4.6. Temporarily Disabling Triggers</A>
+      </UL>
+    <LI><A HREF="#LocationOfConfigurationFiles">12.5. Location of Configuration files</A>
     </UL>
+  <LI><A HREF="#ExtraTools">13. Ekstra verktøy</A>
+    <UL>
+    <LI><A HREF="#LogViewer">13.1. Log Viewer</A>
+    <LI><A HREF="#SpeechViewer">13.2. Speech Viewer</A>
+    <LI><A HREF="#AddonsManager">13.3. Add-ons Manager</A>
+    <LI><A HREF="#PythonConsole">13.4. Python-konsoll</A>
+    <LI><A HREF="#ReloadPlugins">13.5. Reload plugins</A>
+    </UL>
+  <LI><A HREF="#SupportedSpeechSynths">14. Støttede talesynteser</A>
+    <UL>
+    <LI><A HREF="#eSpeakNG">14.1. eSpeak NG</A>
+    <LI><A HREF="#SAPI4">14.2. Microsoft Speech API version 4 (SAPI 4)</A>
+    <LI><A HREF="#SAPI5">14.3. Microsoft Speech API version 5 (SAPI 5)</A>
+    <LI><A HREF="#MicrosoftSpeechPlatform">14.4. Microsoft Speech Platform</A>
+    <LI><A HREF="#OneCore">14.5. Windows OneCore Voices</A>
+    <LI><A HREF="#Audiologic">14.6. Audiologic Tts3</A>
+    </UL>
+  <LI><A HREF="#SupportedBrailleDisplays">15. Støttede leselister</A>
+    <UL>
+    <LI><A HREF="#FreedomScientificFocus">15.1. Freedom Scientific Focus/PAC Mate-serien</A>
+    <LI><A HREF="#OptelecALVA">15.2. Optelec ALVA 6-serien/protokollkonverter</A>
+    <LI><A HREF="#HandyTech">15.3. Handy Tech-leselister</A>
+    <LI><A HREF="#MDVLilli">15.4. MDV Lilli</A>
+    <LI><A HREF="#Baum">15.5. Baum/Humanware/APH/Orbit-leselister</A>
+    <LI><A HREF="#HedoProfiLine">15.6. hedo ProfiLine USB</A>
+    <LI><A HREF="#HedoMobilLine">15.7. hedo MobilLine USB</A>
+    <LI><A HREF="#HumanWareBrailliant">15.8. HumanWare Brailliant BI/B Series / BrailleNote Touch</A>
+      <UL>
+      <LI><A HREF="#toc122">15.8.1. Key assignments for All models</A>
+      <LI><A HREF="#toc123">15.8.2. Tastetilordninger for Brailliant BI 32, BI 40 og B 80</A>
+      <LI><A HREF="#toc124">15.8.3. Tastetilordninger for Brailliant BI 14</A>
+      </UL>
+    <LI><A HREF="#Hims">15.9. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille-serien</A>
+    <LI><A HREF="#Seika">15.10. Seika leselister</A>
+    <LI><A HREF="#Papenmeier">15.11. Papenmeier BRAILLEX nyere modeller</A>
+    <LI><A HREF="#PapenmeierOld">15.12. Papenmeier Braille BRAILLEX eldre modeller</A>
+    <LI><A HREF="#HumanWareBrailleNote">15.13. HumanWare BrailleNote</A>
+    <LI><A HREF="#EcoBraille">15.14. EcoBraille</A>
+    <LI><A HREF="#SuperBraille">15.15. SuperBraille</A>
+    <LI><A HREF="#Eurobraille">15.16. Eurobraille Esys/Esytime/Iris leselister</A>
+    <LI><A HREF="#BRLTTY">15.17. BRLTTY</A>
+    </UL>
+  <LI><A HREF="#AdvancedTopics">16. Avanserte temaer</A>
+    <UL>
+    <LI><A HREF="#CommandLineOptions">16.1. Kommandolinjevalg</A>
+    <LI><A HREF="#SystemWideParameters">16.2. Systeminnstillinger</A>
+    </UL>
+  <LI><A HREF="#FurtherInformation">17. Mer informasjon</A>
   </UL>
 
 <A NAME="Introduction"></A>
@@ -169,7 +247,7 @@ Blant de viktigste funksjonene er:
 
 <P>
 Det er viktig at mennesker hvor som helst i verden, uansett hvilket språk de snakker, får lik tilgang til teknologi.
-Foruten engelsk, har NVDA blitt oversatt til 54 språk, inkludert: afrikaans, albansk, amharisk, arabisk, aragonsk, bulgarsk, burmansk, dansk, farsi, finsk, fransk, galisisk, georgisk, gresk, hebraisk, hindi, irsk, islandsk, italiensk, japansk, kannada, katalansk, kinesisk (tradisjonell og forenklet), kirgisisk, kroatisk, kurdisk, litauisk, makedonsk, mongolsk, nederlandsk, nepali, norsk, polsk, portugisisk (Brasil og Portugal), punjabi, rumensk, russisk, serbisk, slovakisk, slovensk, spansk (Colombia og Spania), svensk, tamil, thai, tsjekkisk, tyrkisk, tysk (Tyskland og Sveits), ukrainsk ungarsk og vietnamesisk.
+Foruten engelsk, har NVDA blitt oversatt til 54 språk, inkludert: afrikaans, albansk, amharisk, arabisk, aragonsk, bulgarsk, burmansk, dansk, farsi, finsk, fransk, galisisk, georgisk, gresk, hebraisk, hindi, irsk, islandsk, italiensk, japansk, kannada, katalansk, kinesisk (tradisjonell og forenklet), kirgisisk, kroatisk, kurdisk, litauisk, makedonsk, mongolsk, nederlandsk, nepali, norsk, polsk, portugisisk (Brasil og Portugal), punjabi, rumensk, russisk, serbisk, slovakisk, slovensk, spansk (Colombia og Spania), svensk, tamil, thai, tsjekkisk, tyrkisk, tysk (Tyskland og Sveits), ukrainsk, ungarsk og vietnamesisk.
 </P>
 
 <A NAME="SpeechSynthesizerSupport"></A>
@@ -179,7 +257,7 @@ Foruten engelsk, har NVDA blitt oversatt til 54 språk, inkludert: afrikaans, al
 Foruten å formidle meldinger og brukergrensesnitt på flere språk, kan NVDA også la brukeren lese innhold på alle språk, så lenge hun/han har en talesyntese som kan snakke det språket.
 </P>
 <P>
-Med NVDA følger <A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak NG</A>, en flerspråklig talesyntese som er gratis og med åpen kildekode.
+Med NVDA følger <A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak NG</A>, en flerspråklig talesyntese som er gratis og laget med åpen kildekode.
 </P>
 <P>
 Informasjon om andre talesynteser som NVDA støtter finnes i <A HREF="#SupportedSpeechSynths">Støttede talesynteser</A>-seksjonen.
@@ -402,10 +480,10 @@ Den tredje avkryssingsboksen lar deg kontrollere om denne velkomstdialogen skal 
 <H4>5.2.1. NVDA-tasten</H4>
 
 <P>
-NVDA-spesifikke tastaturkommandoer utføres vanligvis ved å trykke en spesiell tast kalt NVDA-tasten, sammen med én eller flere andre taster. Unntak fra dette er først og fremst kommandoer for tekstlesing med stasjonært tastaturoppsett, der en bare bruker tastene på nummertastaturet, men det finnes noen andre unntak også.
+NVDA-spesifikke tastaturkommandoer utføres vanligvis ved å trykke en spesiell tast kalt NVDA-tasten, sammen med én eller flere andre taster. Unntak fra dette er først og fremst kommandoer for tekstlesing med stasjonært tastaturoppsett, der en bare bruker tastene på det numeriske tastaturet, men det finnes noen andre unntak også.
 </P>
 <P>
-NVDA kan konfigureres slik at enten insert-tasten på nummertastaturet, den utvidede insert-tasten eller CapsLock-tasten kan brukes som NVDA-tast.
+NVDA kan konfigureres slik at enten insert-tasten på det numeriske tastaturet, den utvidede insert-tasten eller CapsLock-tasten kan brukes som NVDA-tast.
 </P>
 <P>
 Som standard er begge insert-tastene definert som NVDA-taster.
@@ -427,7 +505,7 @@ Som standard er NVDA satt opp til å bruke stasjonært tastaturoppsett. Du kan e
 Stasjonært tastaturoppsett gjør omfattende bruk av insert-tastene (med NumLock av).
 </P>
 <P>
-Selv om mange bærbare PC-er ikke har noe fysisk numerisk tast, er det vanlig at de kan emulere et ved å holde nede FN-tasten mens en trykker bokstaver, tall og tegn på høyre side av tastaturet (7, 8, 9, u, i, o, j, k, l osv.). Om dette ikke lar seg gjøre på din bærbare PC, eller om du ikke får slått av NumLock, kan det være lurt av deg å bytte til bærbart tastaturoppsett i stedet.
+Selv om mange bærbare PC-er ikke har noe fysisk numerisk tastatur, er det vanlig at de kan emulere numerisk tastatur ved å holde nede FN-tasten mens en trykker bokstaver, tall og tegn på høyre side av tastaturet (7, 8, 9, u, i, o, j, k, l osv.). Om dette ikke lar seg gjøre på din bærbare PC, eller om du ikke får slått av NumLock, kan det være lurt av deg å bytte til bærbart tastaturoppsett i stedet.
 </P>
 
 <A NAME="NVDATouchGestures"></A>
@@ -511,7 +589,7 @@ For å bytte mellom modi, trykker du med tre fingrer.
 Skjermtastaturet brukes til å skrive tekst og kommandoer fra en berøringsskjerm. Når du har fokus på et skrivefelt, henter du fram skjermtastaturet ved å dobbelttrykke på ikonet for skjermtastaturet nederst på skjermen. For nettbrett som Microsoft Surface Pro er skjermtastaturet alltid tilgjengelig så lenge et tastatur ikke er tilkoblet. For å ta bort skjermtastaturet kan du dobbelttrykke på ikonet for skjermtastatur eller flytte bort fra skrivefeltet.
 </P>
 <P>
-For å finne taster på skjermtastaturet når skjermtastaturet er aktivt, flytter du fingeren til der skjermtastaturet er (normalt nederst på skjermen). Der bruker du én finger til å navigere omkring på skrivebordet. Når du finner tasten du vil trykke på, dobbelttrykker du eller løfter fingeren, avhengig av hvilket valg du har gjort i <A HREF="#TouchInteraction">kategorien Innstillinger for berøringsinteraksjon</A> i NVDA-innstillingene.  
+For å finne taster på skjermtastaturet når skjermtastaturet er aktivt, flytter du fingeren til der skjermtastaturet er (normalt nederst på skjermen). Der bruker du én finger til å navigere omkring på skrivebordet. Når du finner tasten du vil trykke på, dobbelttrykker du eller løfter fingeren, avhengig av hvilket valg du har gjort i <A HREF="#TouchInteraction">kategorien Innstillinger for berøringsinteraksjon</A> i NVDA-innstillingene.
 </P>
 
 <A NAME="InputHelpMode"></A>
@@ -912,7 +990,7 @@ Ved objektnavigering bruker du følgende taster:
 </TABLE>
 
 <P>
-Merk: NUMPAD-taster (taster på det numeriske tastaturet) krever at NumLock-tasten er slått av for å fungere.
+Merk: NumPad-taster (taster på det numeriske tastaturet) krever at NumLock-tasten er slått av for å fungere.
 </P>
 
 <A NAME="ReviewingText"></A>
@@ -1111,7 +1189,7 @@ Følgende kommandoer veksler mellom lesemodi:
 </TR>
 <TR>
 <TD>Bytt til neste lesemodus</TD>
-<TD>NVDA+numpad7</TD>
+<TD>NVDA+numerisk 7</TD>
 <TD>NVDA+PageUp</TD>
 <TD>bla opp med to fingrer</TD>
 <TD>Bytter til neste tilgjengelige</TD>
@@ -1125,7 +1203,7 @@ lesemodus |
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TD>Bytt til forrige lesemodus</TD>
-<TD>NVDA+numpad1</TD>
+<TD>NVDA+numerisk 1</TD>
 <TD>NVDA+PageDown</TD>
 <TD>bla ned med to fingrer</TD>
 <TD>Bytter til forrige tilgjengelige lesemodus</TD>
@@ -1364,7 +1442,7 @@ For å gå til begynnelsen eller slutten av beholderelementer som lister og tabe
 </TABLE>
 
 <P>
-Noen nettapplikasjoner som Gmail, Twitter og Facebook bruker enkeltbokstaver som hurtigtaster. Hvis du vil benytte disse mens du fortsatt vil bruke piltastene for å lese i nettmodus, kan du deaktivere kommandoene for enkeltbokstavnavigasjon i NVDA midlertidig. 
+Noen nettapplikasjoner som Gmail, Twitter og Facebook bruker enkeltbokstaver som hurtigtaster. Hvis du ønsker å benytte disse mens du fortsatt vil bruke piltastene for å lese i nettmodus, kan du deaktivere kommandoene for enkeltbokstavnavigasjon i NVDA midlertidig. 
 For å slå enkeltbokstavnavigasjon på eller av for gjeldende dokument, trykker du NVDA+Skift+Mellomrom.
 </P>
 
@@ -1372,7 +1450,7 @@ For å slå enkeltbokstavnavigasjon på eller av for gjeldende dokument, trykker
 <H3>7.2. Elementlisten</H3>
 
 <P>
-Elementlisten gir tilgang til en liste over ulike typer elementer i dokumentet som er relevant i programmet. For eksempel kan listen i en nettleser liste lenker, overskrifter, skjemafelt, knapper eller landemerker.  
+Elementlisten gir tilgang til en liste over ulike typer elementer i dokumentet som er relevant i programmet. For eksempel kan listen i en nettleser liste lenker, overskrifter, skjemafelt, knapper eller landemerker.
 </P>
 <P>
 Radioknapper lar deg bytte mellom de ulike elementtypene. Det er også et redigeringsfelt i dialogen som lar deg filtrere listen for å hjelpe deg å søke etter et bestemt element på siden. Når du har valgt et element, kan du bruke knappene i dialogboksen for å flytte til eller aktivere dette elementet.
@@ -1444,7 +1522,7 @@ Om du arbeider primært med tale, vil du antakelig i de fleste tilfeller ønske 
 <P></P>
 Hvis du er i nettmodus, kan du gjøre dette ved å flytte markøren til det matematiske innholdet og trykke Enter.
 <P></P>
-Om du ikke er i nettmodus:  
+Om du ikke er i nettmodus:
 </UL>
 
 <OL>
@@ -1474,7 +1552,7 @@ Vennligst se [dokumentasjonen for MathPlayer om navigasjonskommandoer
 <A HREF="https://www.dessci.com/en/products/mathplayer/navigation_commands.htm">https://www.dessci.com/en/products/mathplayer/navigation_commands.htm</A>] for mer informasjon.
 </P>
 <P>
-Når du ønsker å returnere til dokumentet, trykker du rett og slett på Escape-tasten.      
+Når du ønsker å returnere til dokumentet, trykker du rett og slett på Escape-tasten.
 </P>
 
 <A NAME="Braille"></A>
@@ -1835,7 +1913,7 @@ Til slutt er følgende forkortinger for landemerker definert:
 NVDA støtter skriving av både uforkortet og forkortet punktskrift via et punktskrifttastatur.
 </P>
 <P>
-Du kan velge oversettingstabellen som oversetter fra punktskrift til tekst ved hjelp av innstillingen <A HREF="#BrailleSettingsInputTable">inndatatabell</A> i kategorien Punktskrift som du finner i <A HREF="#NVDASettings">NVDAs Innstillinger</A>-dialog.        
+Du kan velge oversettingstabellen som oversetter fra punktskrift til tekst ved hjelp av innstillingen <A HREF="#BrailleSettingsInputTable">inndatatabell</A> i kategorien Punktskrift som du finner i <A HREF="#NVDASettings">NVDAs Innstillinger</A>-dialog.
 Skriver du uforkortet punktskrift, settes teksten inn så snart den er skrevet. Skriver du forkortet punktskrift, settes teksten inn så snart du trykker mellomrom eller Enter når du har skrevet et ord.
 </P>
 <P>
@@ -1860,7 +1938,7 @@ NVDA støtter funksjonaliteten for optisk tegngjenkjenning (OCR) som er bygd inn
 Når du bruker en kommando for innholdsgjenkjenning, gjenkjenner NVDA innholdet fra gjeldende <A HREF="#ObjectNavigation">navigasjonsobjekt</A>.
 </P>
 <P>
-Som standard følger navigasjonsobjektet systemfokus eller markøren i nettmodus, så du kan vanligvis bare flytte fokus eller nettmodusmarkøren slik du vil. Hvis du for eksempel flytter  nettmodusmarkøren til en grafikk, vil gjenkjenningsverktøyet gjenkjenne innholdet fra grafikken som standard. Imidlertid ønsker du kanskje å kunne bruke objektnavigasjon direkte for å eksempelvis gjenkjenne innholdet i et helt programvindu.  
+Som standard følger navigasjonsobjektet systemfokus eller markøren i nettmodus, så du kan vanligvis bare flytte fokus eller nettmodusmarkøren slik du vil. Hvis du for eksempel flytter nettmodusmarkøren til en grafikk, vil gjenkjenningsverktøyet gjenkjenne innholdet fra grafikken som standard. Imidlertid ønsker du kanskje å kunne bruke objektnavigasjon direkte for å eksempelvis gjenkjenne innholdet i et helt programvindu.
 </P>
 <P>
 Så snart gjenkjenning er fullført, vil resultatet bli vist i et dokument tilsvarende nettmodus, slik at du kan lese innholdet ved hjelp av piltastene etc.
@@ -2285,7 +2363,7 @@ Når du velger en kategori, vil flere innstillinger knyttet til denne kategorien
 Vil du lagre innstillingene dine og lukke innstillingsdialogen, kan du trykke på OK-knappen.
 </P>
 <P>
-Noen innstillingskategorier har tilordnede hurtigtaster. Trykker du på en slik hurtigtast, blir NVDAs innstillingsdialog åpnet i nettopp den kategorien du har valgt.  
+Noen innstillingskategorier har tilordnede hurtigtaster. Trykker du på en slik hurtigtast, blir NVDAs innstillingsdialog åpnet i nettopp den kategorien du har valgt.
 </P>
 <P>
 Som standard kan du ikke nå alle kategorier med hurtigtastkommandoer.
@@ -2324,7 +2402,7 @@ Trykk på OK, og NVDA vil starte på nytt.
 <H5>Lagre konfigurasjon ved avslutning</H5>
 
 <P>
-Denne innstillingen er en avkryssingsboks som, hvis den er avkrysset, vil be NVDA lagre  gjeldende konfigurasjon automatisk når du avslutter NVDA.
+Denne innstillingen er en avkryssingsboks som, hvis den er avkrysset, vil be NVDA lagre gjeldende konfigurasjon automatisk når du avslutter NVDA.
 </P>
 
 <A NAME="GeneralSettingsShowExitOptions"></A>
@@ -2382,7 +2460,7 @@ Dette valget er bare tilgjengelig i installerte kopier av NVDA.
 Ved å trykke på denne knappen kopieres de gjeldende lagrede brukerinnstillingene i NVDA til NVDAs mappe for systeminnstillinger. NVDA vil da benytte disse innstillingene når NVDA kjøres i innloggingsvinduet, i dialogen for brukerkontokontroll og på andre sikre skjermer i Windows. 
 </P>
 <P>
-For å være sikker på at alle innstillinger dine blir overført, bør du først lagre innstillingene ved enten å trykke NVDA+Ctrl+c eller velge Lagre innstillinger i NVDA-menyen.   
+For å være sikker på at alle innstillinger dine blir overført, bør du først lagre innstillingene ved enten å trykke NVDA+Ctrl+c eller velge Lagre innstillinger i NVDA-menyen. 
 </P>
 <P>
 Dette valget er bare tilgjengelig i installerte kopier av NVDA.
@@ -2430,177 +2508,4353 @@ Kategorien Tale i NVDAs innstillingsdialog inneholder valg som lar deg endre bå
 <P></P>
 Kategorien Taleinnstillinger inneholder følgende valg:
 <P></P>
-==== Change synthesizer ====[SpeechSettingsChange]
-Det første valget i kategorien Taleinnstillinger er knappen Endre ... Med denne knappen aktiverer du dialogen <A HREF="#SelectSynthesizer">Velg talesyntese</A> which allows you to select the active speech synthesizer and output
-   device.
-   This dialog opens on top of the NVDA Settings dialog.
-   Saving or dismissing the settings in the Select Synthesizer dialog will return you to the NVDA Settings
-   dialog.
-   ==== Voice ====[SpeechSettingsVoice]
-   The Voice option is a combo box listing all the voices of the current synthesizer that you have installed.
-   You can use the arrow keys to listen to all the various choices.
-   Left and Up arrow take you up in the list, while right and down arrow move you down in the list.
-   ==== Variant ====[SpeechSettingsVariant]
-   If you are using the Espeak NG synthesizer that is packaged with NVDA, this is a combo box that lets you
-   select the Variant the synthesizer should speak with.
-   ESpeak NG's Variants are rather like voices, as they provide slightly different attributes to the eSpeak NG
-   voice.
-   Some variants will sound like a male, some like a female, and some even like a frog.
-   ==== Rate ====[SpeechSettingsRate]
-   This option allows you to change the rate of your voice.
-   This is a slider that goes from 0 to 100, (0 being the slowest, 100 being the fastest).
-   ==== Pitch ====[SpeechSettingsPitch]
-   This option allows you to change the pitch of the current voice.
-   It is a slider which goes from 0 to 100, (0 being the lowest pitch and 100 being the highest).
-   ==== Volume ====[SpeechSettingsVolume]
-   This option is a slider which goes from 0 to 100, (0 being the lowest volume and 100 being the highest).
-   ==== Inflection ====[SpeechSettingsInflection]
-   This option is a slider that lets you choose how much inflection (rise and fall in pitch) the synthesizer
-   should use to speak with. (The only synthesizer that provides this option at the present time is eSpeak NG).
-   ==== Automatic Language switching ====[SpeechSettingsLanguageSwitching]
-   This checkbox allows you to toggle whether NVDA should switch speech synthesizer languages automatically if
-   the text being read specifies its language.
-   This option is enabled by default.
-   Currently only the eSpeak NG synthesizer supports automatic language switching.
-   ==== Automatic Dialect switching ====[SpeechSettingsDialectSwitching]
-   This checkbox allows you to toggle whether or not dialect changes should be made, rather than just actual
-   language changes.
-   For example, if reading in an English U.S. voice but a document specifies that some text is in English U.K.,
-   then the synthesizer will switch accents if this option is enabled.
-   This option is disabled by default.
-   %kc:setting
-   ==== Punctuation/Symbol Level ====[SpeechSettingsSymbolLevel]
-   Key: NVDA+p
-   This allows you to choose the amount of punctuation and other symbols that should be spoken as words.
-   For example, when set to all, all symbols will be spoken as words.
-   This option applies to all synthesizers, not just the currently active synthesizer.
-   ==== Trust voice's language for processing symbols and characters ====[SpeechSettingsTrust]
-   On by default, this option tells NVDA if the current voice's language can be trusted when processing symbols
-   and characters.
-   If you find that NVDA is reading punctuation in the wrong language for a particular synthesizer or voice, you
-   may wish to turn this off to force NVDA to use its global language setting instead.
-   ==== Capital pitch change percentage ====[SpeechSettingsCapPitchChange]
-   This edit field allows you to type the amount that the pitch of the voice will change when speaking a capital
-   letter.
-   This value is a percentage, where a negative value lowers the pitch and a positive value raises it.
-   For no pitch change you would use 0.
-   ==== Say "cap" before capitals ====[SpeechSettingsSayCapBefore]
-   This setting is a checkbox that, when checked, tells NVDA to say the word "cap" before any capital letter when
-   spoken as an individual character such as when spelling.
-   Usually, NVDA raises the pitch slightly for any capital letter, but some synthesizers may not support this
-   well, so perhaps this option may be of use.
-   ==== Beep for capitals ====[SpeechSettingsBeepForCaps]
-   If this checkbox is checked, NVDA will make a small beep each time it encounters a capitalized character by
-   itself.
-   Like the "say cap for capitals" checkbox, this is useful for Synthesizers that can't change their pitch for
-   capital letters.
-   ==== Use spelling functionality if supported ====[SpeechSettingsUseSpelling]
-   Some words consist of only one character, but the pronunciation is different depending on whether the
-   character is being spoken as an individual character (such as when spelling) or a word.
-   For example, in English, "a" is both a letter and a word and is pronounced differently in each case.
-   This option allows the synthesizer to differentiate between these two cases if the synthesizer supports this.
-   Most synthesizers do support it.
-   This option should generally be enabled.
-   However, some Microsoft Speech API synthesizers do not implement this correctly and behave strangely when it
-   is enabled.
-   If you are having problems with the pronunciation of individual characters, try disabling this option.
-   +++ Select Synthesizer (NVDA+control+s) +++[SelectSynthesizer]
-   The Synthesizer dialog, which can be opened by activating the Change... button in the speech category of the
-   NVDA settings dialog, allows you to select which Synthesizer NVDA should use to speak with.
-   Once you have selected your synthesizer of choice, you can press Ok and NVDA will load the selected
-   Synthesizer.
-   If there is an error loading the synthesizer, NVDA will notify you with a message, and continue using the
-   previous synthesizer.
-   ==== Synthesizer ====[SelectSynthesizerSynthesizer]
-   This option allows you to choose the synthesizer you wish NVDA to use for speech output.
-   For a list of the Synthesizers that NVDA supports, please see the [Supported Speech Synthesizers
-   #SupportedSpeechSynths] section.
-   One special item that will always appear in this list is "No speech", which allows you to use NVDA with no
-   speech output whatsoever.
-   This may be useful for someone who wishes to only use NVDA with braille, or perhaps to sighted developers who
-   only wish to use the Speech Viewer.
-   ==== Output device ====[SelectSynthesizerOutputDevice]
-   This option allows you to choose the sound card that NVDA should instruct the selected synthesizer to speak
-   through.
-   %kc:setting
-   ==== Audio Ducking Mode ====[SelectSynthesizerDuckingMode]
-   Key: NVDA+shift+d
-   On Windows 8 and above, this option allows you to choose if NVDA should lower the volume of other applications
-   while NVDA is speaking, or all the time while NVDA is running.
-   <UL>
-   <LI>No Ducking: NVDA will never lower the volume of other audio.
-   <LI>Duck when outputting speech and sounds: NVDA will only lower the volume of other audio when NVDA is speaking
-   or playing sounds. This may not work for all synthesizers.
-   <LI>Always duck: NVDA will keep the volume of other audio lower the whole time NVDA is running.
-   </UL>
-   This option is only available if NVDA has been installed.
-   It is not possible to support audio ducking for portable and temporary copies of NVDA.
-   +++ Synth settings ring +++[SynthSettingsRing]
-   If you wish to quickly change speech settings without going to the Speech category of the NVDA settings
-   dialog, there are some NVDA key commands that allow you to move through the most common speech settings from
-   anywhere while running NVDA:
-   %kc:beginInclude
+==== Velg talesyntese ====[SpeechSettingsChange]
+Det første valget i kategorien Taleinnstillinger er knappen Endre ... Med denne knappen aktiverer du dialogen <A HREF="#SelectSynthesizer">Velg talesyntese</A>, der du kan velge aktiv talesyntese og enhet for utdata.
+<P></P>
+Denne dialogen åpnes oppå innstillingsdialogen i NVDA.
+<P></P>
+Når du lagrer eller avbryter innstillingene i Velg talesyntese, går du tilbake til NVDAs innstillingsdialog.
+<P></P>
+==== Stemme ====[SpeechSettingsVoice]
+Stemmevalget er en kombinasjonsboks som lister alle stemmene i gjeldende talesyntese som du har installert.
+<P></P>
+Du kan bruke piltastene for å lytte til alle tilgjengelige stemmer. Pil venstre og pil opp bringer deg oppover i listen, mens pil høyre og pil ned bringer deg nedover.
+<P></P>
+==== Variant ====[SpeechSettingsVariant]
+Hvis du benytter talesyntesen eSpeak NG som leveres som del av NvDA, er dette en kombinasjonsboks som lar deg velge varianten talesyntesen skal snakke med.
+eSpeak NG sine varianter ligner ganske mye på stemmer, i det at de tilbyr litt ulike attributter til stemmen i eSpeak NG.
+<P></P>
+Noen varianter vil høres ut som en mann, noen som en kvinne, og noen vil til og med høres ut som en frosk.
+<P></P>
+==== Hastighet ====[SpeechSettingsRate]
+Dette valget vil la deg endre hastigheten på talen.
+<P></P>
+Dette er en glidebryter som går fra 0 til 100, der 0 er langsomst, og 100 hurtigst.
+<P></P>
+==== Tonehøyde ====[SpeechSettingsPitch]
+Dette valget lar deg endre tonehøyden - stemmeleiet - til den gjeldende stemmen.
+<P></P>
+Dette er en glidebryter som går fra 0 til 100, der 0 er laveste tonehøyde og 100 det høyeste.
+<P></P>
+==== Lydnivå ====[SpeechSettingsVolume]
+Dette er en glidebryter som går fra 0 til 100, der 0 er laveste volum, og 100 det høyeste.
+<P></P>
+==== Bøyning ====[SpeechSettingsInflection]
+Dette valget er en skyvebryter som lar deg velge hvor mye bøyning (stigning og fall i tonehøyde) du ønsker at talesyntesen skal snakke med. (Den eneste talesyntesen som tilbyr denne funksjonen nå, er eSpeak NG.)
+<P></P>
+==== Skift språk automatisk ====[SpeechSettingsLanguageSwitching]
+Denne avkryssingsboksen lar deg avgjøre om NVDA skal skifte talesyntesespråk automatisk hvis teksten som lesess, spesifiserer språket sitt. 
+<P></P>
+Denne funksjonen er slått på som standard.
+<P></P>
+For tiden er det bare eSpeak NG som støtter automatisk språkskifte.
+<P></P>
+==== Skift dialekt automatisk ====[SpeechSettingsDialectSwitching]
+Denne avkryssingsboksen lar deg avgjøre hvorvidt endringer i dialekt skal gjøres, og ikke bare skifte av språk.
+<P></P>
+Om du for eksempel leser med amerikansk engelsk, men dokumentet ditt spesifiserer at noe av teksten er på britisk engelsk, vil talesyntesen bytte aksent dersom dette valget er slått på.
+<P></P>
+Dette valget er slått av som standard.
 </UL>
+
+<A NAME="SpeechSettingsSymbolLevel"></A>
+<H5>Nivå for tegnsetting/symbol</H5>
+
+<P>
+Tast: NVDA+p
+Dette lar deg velge nivå for tegnsetting og andre symboler som skal uttales som ord.
+</P>
+<P>
+Eksempel: Om "alle" er valgt, vil samtlige symboler bli uttalt som ord.
+</P>
+<P>
+Dette valget gjelder for samtlige talesynteser, ikke bare for den som er aktiv for øyeblikket.
+</P>
+
+<A NAME="SpeechSettingsTrust"></A>
+<H5>Stol på stemmens språk ved behandling av tegn og symboler</H5>
+
+<P>
+Dette valget forteller NVDA hvorvidt NVDA skal stole på språket til gjeldende stemme ved behandling av symboler og bokstaver. Valget er slått på som standard.
+</P>
+<P>
+Finner du ut at NVDA leser tegnsetting på feil språk for en bestemt talesyntese eller stemme, kan det være du vil slå av dette valget for å tvinge NVDA til å bruke den globale språkinnstillingen sin i stedet.
+</P>
+
+<A NAME="SpeechSettingsCapPitchChange"></A>
+<H5>Tonehøydeendring for stor bokstav i prosent</H5>
+
+<P>
+Dette redigeringsfeltet lar deg skrive inn verdien stemmen vil endre tonehøyden med når stor bokstav uttales. 
+</P>
+<P>
+Verdien er en prosentverdi, der en negativ verdi reduserer tonehøyden og en positiv verdi øker den. 
+</P>
+<P>
+Vil du ikke ha noen tonehøydeendring, bør du la verdien være 0.
+</P>
+
+<A NAME="SpeechSettingsSayCapBefore"></A>
+<H5>Si "stor" før store bokstaver</H5>
+
+<P>
+Dette valget er en avkryssingsboks som, når den er avkrysset, gjør at NVDA sier ordet "stor" før en stor bokstav. Dette gjelder når bokstavene uttales individuelt, som ved staving.
+</P>
+<P>
+Normalt øker NVDA tonehøyden litt for stor bokstav, men noen talesynteser støtter ikke dette helt godt. I slike tilfeller kan dette valget kanskje være nyttig.
+</P>
+
+<A NAME="SpeechSettingsBeepForCaps"></A>
+<H5>Pip for store bokstaver</H5>
+
+<P>
+Hvis denne avkryssingsboksen er avkrysset, vil NVDA lage et lite pip hver gang den oppdager en stor bokstav for seg selv.
+</P>
+<P>
+Som med avkryssingsboksen "Si "stor" før store bokstaver" kan dette være nyttig for talesynteser som ikke klarer å endre tonehøyde ved store bokstaver.
+</P>
+
+<A NAME="SpeechSettingsUseSpelling"></A>
+<H5>Bruk stavefunksjonalitet dersom støttet</H5>
+
+<P>
+Noen ord består av bare én bokstav, men uttalen kan være forskjellig ut fra om bokstaven uttales som en sparat bokstav (som ved staving) eller som et ord.
+</P>
+<P>
+For eksempel er "a" på engelsk både en bokstav og et ord, og det uttales forskjellig i hvert tilfelle.
+</P>
+<P>
+Dette valget lar talesyntesen differensiere mellom disse to tilfellene dersom talesyntesen har støtte for dette. De fleste talesynteser har det.
+</P>
+<P>
+Dette valget bør normalt være slått på. 
+</P>
+<P>
+Imidlertid håndterer ikke enkelte talesynteser basert på Microsoft Speech API dette korrekt, og de kan oppføre seg rart når dette valget er slått på. 
+</P>
+<P>
+Har du problemer med uttalen av enkeltbokstaver, kan du forsøke å slå av dette valget.
+</P>
+
+<A NAME="SelectSynthesizer"></A>
+<H4>12.1.2. Velg talesyntese (NVDA+Ctrl+s)</H4>
+
+<P>
+Talesyntese-dialogen, som kan åpnes ved å aktivere knappen Endre ... i talekategorien i NVDAs innstillingsdialog, lar deg velge hvilken talesyntese NVDA skal snakke med.
+</P>
+<P>
+Så snart du har valgt den talesyntesen du ønsker å bruke, kan du trykke på OK, og NVDA laster umiddelbart inn den valgte talesyntesen. 
+Skulle det oppstå en feil ved innlasting av den nye talesyntesen, vil NVDA varsle deg med en melding, og deretter fortsette å bruke den gamle talesyntesen.
+</P>
+
+<A NAME="SelectSynthesizerSynthesizer"></A>
+<H5>Talesyntese</H5>
+
+<P>
+Dette valget lar deg avgjøre hvilken talesyntese du vil at NVDA skal bruke for taleutdata.
+</P>
+<P>
+Se i delen <A HREF="#SupportedSpeechSynths">Støttede talesynteser</A> for å finne en liste over talesynteser NVDA støtter..
+</P>
+<P>
+Et spesielt element som alltid vil være til stede i denne listen, er "Ingen tale". Dette vil la deg bruke NVDA uten noen som helst form for tale.
+</P>
+<P>
+Dette valget kan være nyttig for en som ønsker å bruke NVDA bare med punktskrift, eller for utviklere som bare vil benytte taleviseren.
+</P>
+
+<A NAME="SelectSynthesizerOutputDevice"></A>
+<H5>Enhet for utdata</H5>
+
+<P>
+Dette valget lar deg velge hvilket lydkort NVDA skal instruere den valgte talesyntesen om å snakke gjennom. 
+</P>
+
+<A NAME="SelectSynthesizerDuckingMode"></A>
+<H5>Modus for lyddemping</H5>
+
+<P>
+Tast: NVDA+Skift+d
+</P>
+<P>
+I Windows 8 og nyere, lar dette valget deg velge om NVDA skal senke lydnivået på andre programmer når NVDA snakker, eller hele tiden mens NVDA er i gang. 
+</P>
+
+<UL>
+<LI>Ingen lyddemping: NVDA vil aldri senke lydnivået på annen lyd.
+<LI>Demp annen lyd ved tale og lyd fra NVDA: NVDA vil bare senke nivået på annen lyd når NVDA snakker eller spiller av lyd. Dette fungerer kanskje ikke for alle talesynteser.
+<LI>Demp alltid annen lyd: NVDA vil holde lydnivået på annen lyd lavere så lenge NVDA er i gang.
+</UL>
+
+<P>
+Dette valget er bare tilgjengelig dersom NVDA er installert. Det er ikke mulig å støtte lyddemping i flyttbare eller midlertidige kopier av NVDA.
+</P>
+
+<A NAME="SynthSettingsRing"></A>
+<H4>12.1.3. Innstillingsringen for talesyntese</H4>
+
+<P>
+Hvis du ønsker å endre taleinnstillingene raskt, uten å gå via talekategorien i NVDAs innstillingsdialog, finnes det noen tastekommandoer i NVDA som lar deg bevege deg gjennom de vanligste taleinnstillingene. Disse kommandoene er tilgjengelige uansett hvor du er, så lenge NVDA kjører:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Stasjonær tast</TH>
+<TH>Bærbar tast</TH>
+<TH>Beskrivelse</TH>
+</TR>
+<TR>
+<TD>Gå til neste talesynteseinnstilling</TD>
+<TD>NVDA+Ctrl+PilHøyre</TD>
+<TD>NVDA+Skift+Ctrl+PilHøyre</TD>
+<TD>Går til neste tilgjengelige talesynteseinnstilling etter den gjeldende, og begynner fra begynnelsen igjen etter den siste</TD>
+</TR>
+<TR>
+<TD>Gå til forrige talesynteseinnstilling</TD>
+<TD>NVDA+Ctrl+PilVenstre</TD>
+<TD>NVDA+Skift+Ctrl+PilVenstre</TD>
+<TD>Går til neste tilgjengelige talesynteseinnstilling før den gjeldende, og begynner fra slutten igjen etter den første</TD>
+</TR>
+<TR>
+<TD>Øk gjeldende talesynteseinnstilling</TD>
+<TD>NVDA+Ctrl+PilOpp</TD>
+<TD>NVDA+Skift+Ctrl+PilOpp</TD>
+<TD>øker den gjeldende talesynteseinnstillingen du er på, f.eks. øker talehastigheten, velger neste stemme, øker lydnivået</TD>
+</TR>
+<TR>
+<TD>Reduser gjeldende talesynteseinnstilling</TD>
+<TD>NVDA+Ctrl+PilNed</TD>
+<TD>NVDA+Skift+Ctrl+PilNed</TD>
+<TD>reduserer den gjeldende talesynteseinnstillingen du er på, f.eks. reduserer talehastigheten, velger forrige stemme, reduserer lydnivået</TD>
+</TR>
+</TABLE>
+
+<A NAME="BrailleSettings"></A>
+<H4>12.1.4. Punktskrift</H4>
+
+<P>
+Kategorien Punktskrift i NVDAs innstillingsdialog inneholder valg som lar deg endre flere aspekter ved bruk av punktskrift for inn- og utdata.
+</P>
+<P>
+Denne kategorien inneholder disse valgene:
+</P>
+
+<A NAME="BrailleSettingsChange"></A>
+<H5>Endre leselist</H5>
+
+<P>
+Knappen Endre ... i kategorien Punktskrift i NVDAs innstillingsdialog aktiverer dialogen <A HREF="#SelectBrailleDisplay">Velg leselist</A>. Denne dialogen lar deg velge den aktive leselisten.
+</P>
+<P>
+Denne dialogen åpner seg over NVDAs innstillingsdialog. 
+::Lagrer eller avbryter du innstillingene i dialogen Velg leselist, vil du gå tilbake til NVDAs innstillingsdialog.
+</P>
+
+<A NAME="BrailleSettingsOutputTable"></A>
+<H5>Utdatatabell</H5>
+
+<P>
+Det neste valget du kommer til i denne kategorien er kombinasjonsboksen for utdatatabell i punktskrift. 
+</P>
+<P>
+I denne kombinasjonsboksen vil du finne punktskrifttabeller for en rekke språk, punktskriftstandarder og nivåer. Den valgte tabellen vil bli brukt til å oversette punktskrift for visning på leselisten din.
+</P>
+<P>
+Du kan flytte deg mellom punktskrifttabellene i listen ved å bruke piltastene.
+</P>
+
+<A NAME="BrailleSettingsInputTable"></A>
+<H5>Inndatatabell</H5>
+
+<P>
+Som et slags supplement til forrige valg, er den neste innstillingen du finner kombinasjonsboksen for inndatatabell i punktskrift.
+</P>
+<P>
+Den valgte tabellen vil bli brukt til å oversette punktskriften du skriver på punktskrifttastaturet på leselisten din til tekst.
+</P>
+<P>
+Du kan flytte deg mellom punktskrifttabellene i listen ved å bruke piltastene.
+</P>
+<P>
+Legg merke til at dette valget bare vil være nyttig for deg hvis leselisten din har et punktskrifttastatur, og denne funksjonen støttes at leselistdriveren.
+</P>
+<P>
+Om inndata ikke støttes på en leselist som har punktskrifttastatur, vil dette være omtalt i delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A>.
+</P>
+
+<A NAME="BrailleSettingsExpandToComputerBraille"></A>
+<H5>Utvid ordet under markøren til datapunktskrift</H5>
+
+<P>
+Dette valget lar ordet som vises under punktskriftmarkøren bli vist i uforkortet datapunktskrift.
+</P>
+<P>
+Innstillingen er nyttig særlig hvis du har valgt å vise punktskriften som forkortet 6-punkts punktskrift.
+</P>
+
+<A NAME="BrailleSettingsShowCursor"></A>
+<H5>Vis markør</H5>
+
+<P>
+Dette valget lar deg slå punktskriftmarkøren på og av.
+</P>
+<P>
+Dette gjelder for systemmarkør og lesemarkør, men ikke for valgindikator.
+</P>
+
+<A NAME="BrailleSettingsBlinkCursor"></A>
+<H5>Blinkende markør</H5>
+
+<P>
+Dette valget tillater punktskriftmarkøren å blinke.
+</P>
+<P>
+Hvis blinking er slått av, vil punktskriftmarkøren være i konstant "oppe"-posisjon.
+</P>
+<P>
+Valgindikatoren berøres ikke av dette valget. Den vises alltid som punkt 7 og 8 uten blinking.
+</P>
+
+<A NAME="BrailleSettingsBlinkRate"></A>
+<H5>Blinkehastighet for markør (ms)</H5>
+
+<P>
+Dette valget er et numerisk felt som lar deg endre markørens blinkehastighet i millisekunder.
+</P>
+
+<A NAME="BrailleSettingsCursorShapeForFocus"></A>
+<H5>Markørutseende for fokus</H5>
+
+<P>
+Dette valget lar deg endre utseendet (punktmønsteret) på punktskriftmarkøren når punktskrift er knyttet til fokus.
+</P>
+<P>
+Valgindikatoren er ikke berørt av dette valget. Den er alltid punkt 7 og 8 uten blinking.
+</P>
+
+<A NAME="BrailleSettingsCursorShapeForReview"></A>
+<H5>Markørutseende for lesing</H5>
+
+<P>
+Dette valget lar deg velge utseendet (punktmønsteret) på punktskriftmarkøren når punktskrift er knyttet til lesing. 
+</P>
+<P>
+Valgindikatoren er ikke berørt av dette valget. Den er alltid punkt 7 og 8 uten blinking.
+</P>
+
+<A NAME="BrailleSettingsMessageTimeout"></A>
+<H5>Tidsavbrudd for melding (sek)</H5>
+
+<P>
+Dette valget er et numerisk felt som kontrollerer hvor lenge meldinger i NVDA vises på leselisten. 
+</P>
+<P>
+Ved å spesifisere 0, slås visning av meldinger av fullstendig.
+</P>
+
+<A NAME="BrailleSettingsNoMessageTimeout"></A>
+<H5>Vis meldinger uten tidsavbrudd</H5>
+
+<P>
+Dette valget lar NVDA vise meldinger på leselisten uten at de forsvinner automatisk etter en viss tid.
+</P>
+
+<A NAME="BrailleTether"></A>
+<H5>Knytt punktskrift til</H5>
+
+<P>
+Tast: NVDA+Ctrl+t
+</P>
+<P>
+Dette valget lar deg avgjøre hvorvidt leselisten skal følge systemfokus, navigasjonsobjektet/lesemarkøren, eller begge.
+</P>
+<P>
+Når "automatisk" er valgt, vil NVDA følge systemfokus og -markøren som standard.
+I dette tilfellet, når navigasjonsobjektets eller lesemarkørens posisjon endres som følge av eksplisitt brukersamhandling, vil NVDA knytte seg midlertidig til lesemarkør, til fokus eller markør endres.  
+</P>
+
+<A NAME="BrailleSettingsReadByParagraph"></A>
+<H5>Les avsnittsvis</H5>
+
+<P>
+Hvis dette valget er slått på, vil punktskrift bli vist som avsnitt i stedet for linjer.
+</P>
+<P>
+Kommandoene for neste og forrige linje vil tilsvarende gå til neste eller forrige avsnitt. Dette betyr at du ikke behøver å bla med leselisten ved slutten av hver linje; heller ikke når mer tekst ville fått plass på leselista. Dette kan gi mulighet for mer flyt i lesingen av større mengder tekst.
+</P>
+<P>
+Valget er avslått som standard.
+</P>
+
+<A NAME="BrailleSettingsWordWrap"></A>
+<H5>Unngå ordsplitting når mulig</H5>
+
+<P>
+Hvis dette valget er slått på, vil et ord som er for langt til å vises på slutten av leselisten ikke bli splittet. I stedet vil det være noe tomrom på slutten av leselisten. Når du blar framover med leselisten, vil du kunne lese hele ordet. Dette kalles noen ganger også "tekstomslutting".
+</P>
+<P>
+Legg merke til at hvis ordet er for langt til å få plass på leselisten i seg selv, må ordet fortsatt splittes. 
+</P>
+<P>
+Hvis dette valget er avslått, vil så mye som mulig av ordet på slutten av leselisten bli vist. Når du blar framover med leselisten, vil du kunne lese resten av ordet. 
+</P>
+<P>
+Å slå på dette valget vil kunne gi bedre flyt i lesingen, men vil ofte innebære at du må bla mer med leselisten.
+</P>
+
+<A NAME="BrailleSettingsFocusContextPresentation"></A>
+<H5>Presentasjon av fokuskontekst</H5>
+
+<P>
+Dette valget lar deg avgjøre hvilken kontekstinformasjon NVDA vil vise på leselisten når et objekt får fokus. 
+</P>
+<P>
+Kontekstinformasjon refererer til hierarkiet av objekter som inneholder fokus.
+</P>
+<P>
+Når du for eksempel fokuserer på et listeelement, er dette listeelementet en del av en liste. Denne listen kan være en del av en dialog, osv.
+</P>
+<P>
+Se delen om <A HREF="#ObjectNavigation">objektnavigasjon</A> for mer informasjon om hierarkiet som gjelder objekter i NVDA.
+</P>
+<P>
+Når innstillingen er satt til å fylle leselisten for endringer i kontekst, vil NVDA forsøke å vise så mye kontekstinformasjon som mulig på leselisten, men bare om de delene av konteksten som har blitt endret.
+</P>
+<P>
+Når det gjelder eksempelet ovenfor, vil dette si at når du endrer fokus til listen, vil NVDA vise listeelementet på leselisten. Om det er nok ledig plass på leselisten, vil NVDA videre forsøke å vise at listeelementet er en del av en liste.
+Om du så begynner å gå gjennom listen ved hjelp av piltastene, er det forutsatt at du er oppmerksom på at du fortsatt er i listen. Følgelig vil NVDA bare vise det fokuserte listeelementet for de gjenværende elementene i listen.  
+</P>
+<P>
+Hvis du vil lese konteksten igjen, for eksempel at du er i en liste og at listen er del av en dialog, må du bla leselisten bakover.
+</P>
+<P>
+Når dette valget er satt til å alltid fylle leselisten, vil NVDA forsøke å vise så mye kontekstinformasjon på leselisten som mulig, uavhengig av om du har sett den samme kontekstinformasjonen før eller ikke. 
+</P>
+<P>
+Dette har den fordelen at NVDA vil få plass til så mye informasjon som mulig på leselisten.
+</P>
+<P>
+Ulempen ved dette er at det alltid vil være en forskjell i posisjonen hvor fokuset begynner på leselisten. Dette kan gjøre det vanskelig å for eksempel skumme raskt gjennom en lang liste med elementer, fordi du hele tiden må flytte fingeren for å finne begynnelsen på elementet.  
+</P>
+<P>
+Dette var standard i NVDA 2017.2 og tidligere.
+</P>
+<P>
+Når du setter innstillingen for presentasjon av fokuskontekst til å bare vise kontekstinformasjonen når du blar bakover, vil NVDA aldri vise kontekstinformasjon på leselisten som standard.
+</P>
+<P>
+For å holde oss til eksempelet ovenfor, vil NVDA vise at du har satt fokus på et listeelement.
+</P>
+<P>
+For at du da skal kunne lese konteksten, for eksempel at du er i en liste og at listen er en del av en dialog, må du bla bakover med leselisten. 
+</P>
+<P>
+For å kunne bytte presentasjon av fokuskontekst fra hvor som helst, kan du definere en tilpasset gest ved hjelp av dialogen <A HREF="#InputGestures">Inndatagester</A>.
+</P>
+
+<A NAME="SelectBrailleDisplay"></A>
+<H4>12.1.5. Velg leselist (NVDA+Ctrl+a)</H4>
+
+<P>
+Dialogen Velg leselist, som kan åpnes ved å aktivere knappen Endre ... i dialogen Punktskrift i NVDAs innstillingsdialog, lar deg velge hvilken leselist NVDA skal benytte for å vise punktskrift.
+</P>
+<P>
+Når du har valgt leselisten du vil bruke, kan du trykke på OK, og NVDA vil laste inn valgt leselist.
+</P>
+<P>
+Om det oppstår feil ved lasting av leselistdriveren, vil NVDA varsle deg om det med en melding, og vil fortsette å benytte den tidligere leselisten, hvis det finnes noen. 
+</P>
+
+<A NAME="SelectBrailleDisplayDisplay"></A>
+<H5>Leselist</H5>
+
+<P>
+Denne kombinasjonsboksen presenterer flere alternativer, avhengig av hvilke leselistdrivere som er tilgjengelige på PC-en din.
+</P>
+<P>
+Flytt deg gjennom valgene med piltastene.
+</P>
+<P>
+Ingen leselist betyr at du ikke benytter punktskrift.
+</P>
+<P>
+Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> for mer informasjon om leselistene som støttes.
+</P>
+
+<A NAME="SelectBrailleDisplayPort"></A>
+<H5>Port</H5>
+
+<P>
+   This option, if available, allows you to choose what port or type of connection will be used to communicate
+   with the braille display you have selected.
+   It is a combo box containing the possible choices for your braille display.
+   By default, NVDA employs automatic port detection, which means the connection with the braille device will be
+   established automatically by scanning for available USB and bluetooth devices on your system.
+   However, for some braille displays, you may be able to explicitly choose what port should be used.
+   Common options are "Automatic" (which tells NVDA to employ the default automatic port selection procedure),
+   "USB", "Bluetooth" and legacy serial communication ports if your braille display supports this type of
+   communication.
+   This option won't be available if your braille display only supports automatic port detection.
+   You may consult the documentation for your braille display in the section [Supported Braille Displays
+   #SupportedBrailleDisplays] to check for more details on the supported types of communication and available
+   ports.
+</P>
+
+<A NAME="KeyboardSettings"></A>
+<H4>12.1.6. Tastatur (NVDA+Ctrl+k)</H4>
+
+<P>
+   The Keyboard category in the NVDA Settings dialog contains options that sets how NVDA behaves as you use and
+   type on your keyboard.
+   This settings category contains the following options:
+</P>
+
+<A NAME="KeyboardSettingsLayout"></A>
+<H5>Tastaturoppsett</H5>
+
+<P>
+   This combo box lets you choose what type of keyboard layout NVDA should use. Currently the two that come with
+   NVDA are Desktop and Laptop.
+</P>
+
+<A NAME="KeyboardSettingsCapsModifier"></A>
+<H5>Bruk CapsLock som NVDA-tast</H5>
+
+<P>
+   If this checkbox is checked, capslock can be used as an NVDA modifier key.
+</P>
+
+<A NAME="KeyboardSettingsExtendedInsert"></A>
+<H5>Use extended insert as an NVDA modifier key</H5>
+
+<P>
+   If this checkbox is checked, the extended insert key (usually found above the arrow keys, near home and end)
+   can be used as an NVDA modifier key.
+</P>
+
+<A NAME="KeyboardSettingsNumpadInsert"></A>
+<H5>Use numpad insert as an NVDA modifier key</H5>
+
+<P>
+   If this checkbox is checked, the insert key on the number pad can be used as an NVDA modifier key.
+   If no key is chosen as the NVDA key it may be impossible to access certain NVDA commands.
+   Therefore, The NVDA settings dialog will display an error message if all keys are unselected when pressing Ok
+   or Apply.
+   After dismissing the error message, you must select at least one before being able to press Ok to dismiss the
+   dialog properly.
+   %kc:setting
+</P>
+
+<A NAME="KeyboardSettingsSpeakTypedCharacters"></A>
+<H5>Speak Typed Characters</H5>
+
+<P>
+   Key: NVDA+2
+   When enabled, NVDA will announce all characters you type on the keyboard.
+   %kc:setting
+</P>
+
+<A NAME="KeyboardSettingsSpeakTypedWords"></A>
+<H5>Speak Typed Words</H5>
+
+<P>
+   Key: NVDA+3
+   When enabled, NVDA will announce all words you type on the keyboard.
+</P>
+
+<A NAME="KeyboardSettingsSpeechInteruptForCharacters"></A>
+<H5>Speech interrupt for typed characters</H5>
+
+<P>
+   If on, this option will cause speech to be interrupted each time a character is typed. This is on by default.
+</P>
+
+<A NAME="KeyboardSettingsSpeechInteruptForEnter"></A>
+<H5>Speech interrupt for Enter key</H5>
+
+<P>
+   If on, this option will cause speech to be interrupted each time the Enter key is pressed. This is on by
+   default.
+</P>
+
+<A NAME="KeyboardSettingsSkimReading"></A>
+<H5>Allow skim reading in Say All</H5>
+
+<P>
+   If on, certain navigation commands (such as quick navigation in browse mode or moving by line or paragraph) do
+   not stop Say All, rather Say All jumps to the new position and continues reading.
+</P>
+
+<A NAME="KeyboardSettingsBeepLowercase"></A>
+<H5>Beep if Typing Lowercase Letters when Caps Lock is On</H5>
+
+<P>
+   When enabled, a warning beep will be heard if a letter is typed with the shift key while caps lock is on.
+   Generally, typing shifted letters with caps lock is unintentional and is usually due to not realizing that
+   caps lock is enabled.
+   Therefore, it can be quite helpful to be warned about this.
+   %kc:setting
+</P>
+
+<A NAME="KeyboardSettingsSpeakCommandKeys"></A>
+<H5>Speak Command Keys</H5>
+
+<P>
+   Key: NVDA+4
+   When enabled, NVDA will announce all non-character keys you type on the keyboard. This includes key
+   combinations such as control plus another letter.
+</P>
+
+<A NAME="KeyboardSettingsAlertForSpellingErrors"></A>
+<H5>Play sound for spelling errors while typing</H5>
+
+<P>
+   When enabled, a short buzzer sound will be played when a word you type contains a spelling error.
+   This option is only available if reporting of spelling errors is enabled in NVDA's [Document Formatting
+   Settings #DocumentFormattingSettings], found in the NVDA Settings dialog.
+</P>
+
+<A NAME="KeyboardSettingsHandleKeys"></A>
+<H5>Handle keys from other applications</H5>
+
+<P>
+   This option allows the user to control if key presses generated by applications such as on-screen keyboards
+   and speech recognition software should be processed by NVDA.
+   This option is on by default, though certain users may wish to turn this off, such as those typing Vietnamese
+   with the Unikey typing software as it will cause incorrect character input.
+</P>
+
+<A NAME="MouseSettings"></A>
+<H4>12.1.7. Mus (NVDA+Ctrl+m)</H4>
+
+<P>
+   The Mouse category in the NVDA Settings dialog allows NVDA to track the mouse, play mouse coordinate beeps and
+   sets other mouse usage options.
+   This category contains the following options:
+</P>
+
+<A NAME="MouseSettingsShape"></A>
+<H5>Report Mouse Shape Changes</H5>
+
+<P>
+   A checkbox, that when checked means that NVDA will announce the shape of the mouse pointer each time it
+   changes.
+   The mouse pointer in Windows changes shape to convey certain information such as when something is editable,
+   or when something is loading etc.
+   %kc:setting
+</P>
+
+<A NAME="MouseSettingsTracking"></A>
+<H5>Enable mouse tracking</H5>
+
+<P>
+   Key: NVDA+m
+   When enabled, NVDA will announce the text currently under the mouse pointer, as you move it around the screen.
+   This allows you to find things on the screen, by physically moving the mouse, rather than trying to find them
+   through object navigation.
+</P>
+
+<A NAME="MouseSettingsTextUnit"></A>
+<H5>Text unit resolution</H5>
+
+<P>
+   If NVDA is set to announce the text under the mouse as you move it, this option allows you to choose exactly
+   how much text will be spoken.
+   The options are character, word, line and paragraph.
+</P>
+
+<A NAME="MouseSettingsRole"></A>
+<H5>Report role when mouse enters object</H5>
+
+<P>
+   If this checkbox is checked, NVDA will announce the role (type) of object as the mouse moves inside it.
+</P>
+
+<A NAME="MouseSettingsAudio"></A>
+<H5>Play audio coordinates when mouse moves</H5>
+
+<P>
+   Checking this checkbox makes NVDA play beeps as the mouse moves, so that the user can work out where the mouse
+   is in regards to the dimensions of the screen.
+   The higher the mouse is on the screen, the higher the pitch of the beeps.
+   The further left or right the mouse is located on the screen, the further left or right the sound will be
+   played (assuming the user has stereo speakers or headphones).
+</P>
+
+<A NAME="MouseSettingsBrightness"></A>
+<H5>Brightness controls audio coordinates volume</H5>
+
+<P>
+   If the "play audio coordinates when mouse moves" checkbox is checked, then checking this checkbox means that
+   the volume of the audio coordinates beeps is controlled by how bright the screen is under the mouse.
+   This setting is unchecked by default.
+</P>
+
+<A NAME="TouchInteraction"></A>
+<H4>12.1.8. Touch Interaction</H4>
+
+<P>
+   This settings category, only available on computers running Windows 8 and later with touch capabilities,
+   allows you to configure how NVDA interacts with touchscreens.
+   This category contains the following options:
+</P>
+
+<A NAME="TouchTypingMode"></A>
+<H5>Touch typing mode</H5>
+
+<P>
+   This checkbox allows you to specify the method you wish to use when entering text using the touch keyboard.
+   If this checkbox is checked, when you locate a key on the touch keyboard, you can lift your finger and the
+   selected key will be pressed.
+   If this is unchecked, you need to double-tap on the touch keyboard key to press the key.
+</P>
+
+<A NAME="ReviewCursorSettings"></A>
+<H4>12.1.9. Lesemarkør</H4>
+
+<P>
+   The Review Cursor category in the NVDA Settings dialog is used to configure NVDA's review cursor behavior.
+   This category contains the following options:
+   %kc:setting
+</P>
+
+<A NAME="ReviewCursorFollowFocus"></A>
+<H5>Follow System Focus</H5>
+
+<P>
+   Key: NVDA+7
+   When enabled, The review cursor will always be placed in the same object as the current system focus whenever
+   the focus changes.
+   %kc:setting
+</P>
+
+<A NAME="ReviewCursorFollowCaret"></A>
+<H5>Follow System Caret</H5>
+
+<P>
+   Key: NVDA+6
+   When enabled, the review cursor will automatically be moved to the position of the System caret each time it
+   moves.
+</P>
+
+<A NAME="ReviewCursorFollowMouse"></A>
+<H5>Follow mouse cursor</H5>
+
+<P>
+   When enabled, the review cursor will follow the mouse as it moves.
+</P>
+
+<A NAME="ReviewCursorSimple"></A>
+<H5>Simple Review mode</H5>
+
+<P>
+   When enabled, NVDA will filter the hierarchy of objects that can be navigated to exclude objects that aren't
+   of interest to the user; e.g. invisible objects and objects used only for layout purposes.
+   To toggle simple review mode from anywhere, please assign a custom gesture using the [Input Gestures dialog
+   #InputGestures].
+</P>
+
+<A NAME="ObjectPresentationSettings"></A>
+<H4>12.1.10. Objektpresentasjon (NVDA+Ctrl+o)</H4>
+
+<P>
+   The Object Presentation category in the NVDA Settings dialog is used to set how much information NVDA will
+   present about controls such as description, position information and so on.
+   This category contains the following options:
+</P>
+
+<A NAME="ObjectPresentationReportToolTips"></A>
+<H5>Report Tool Tips</H5>
+
+<P>
+   A checkbox that when checked tells NVDA to report tool tips as they appear.
+   Many Windows and controls show a small message (or tool tip) when you move the mouse pointer over them, or
+   sometimes when you move the focus to them.
+</P>
+
+<A NAME="ObjectPresentationReportBalloons"></A>
+<H5>Report Help Balloons</H5>
+
+<P>
+   This checkbox when checked tells NVDA to report help balloons as they appear.
+   Help Balloons are like tool tips, but are usually larger in size, and are associated with system events such
+   as a network cable being unplugged, or perhaps to alert you about Windows security issues.
+</P>
+
+<A NAME="ObjectPresentationShortcutKeys"></A>
+<H5>Report Object Shortcut Keys</H5>
+
+<P>
+   When this checkbox is checked, NVDA will include the shortcut key that is associated with a certain object or
+   control when it is reported.
+   For example the File menu on a menu bar may have a shortcut key of alt+f.
+</P>
+
+<A NAME="ObjectPresentationPositionInfo"></A>
+<H5>Report object position information</H5>
+
+<P>
+   This option lets you choose whether you wish to have an object's position (e.g. 1 of 4) reported when moving
+   to the object with the focus or object navigation.
+</P>
+
+<A NAME="ObjectPresentationGuessPositionInfo"></A>
+<H5>Guess Object Position Information when unavailable</H5>
+
+<P>
+   If reporting of object position information is turned on, this option allows NVDA to guess object position
+   information when it is otherwise unavailable for a particular control.
+   When on, NVDA will report position information for more controls such as menus and toolbars, however this
+   information may be slightly inaccurate.
+</P>
+
+<A NAME="ObjectPresentationReportDescriptions"></A>
+<H5>Report Object descriptions</H5>
+
+<P>
+   Uncheck this checkbox if you don't wish to have the description reported along with objects.
+   %kc:setting
+</P>
+
+<A NAME="ObjectPresentationProgressBarOutput"></A>
+<H5>Progress bar output</H5>
+
+<P>
+   Key: NVDA+u
+   This option controls how NVDA reports progress bar updates to you.
+   It has the following options:
+</P>
+
+   <UL>
+   <LI>Off: Progress bars will not be reported as they change.
+   <LI>Speak: This option tells NVDA to speak the progress bar in percentages. Each time the progress bar changes,
+   NVDA will speak the new value.
+   <LI>Beep: This tells NVDA to beep each time the progress bar changes. The higher the beep, the closer the
+   progress bar is to completion.
+   <LI>Beep and speak: This option tells NVDA to both beep and speak when a progress bar updates.
+   </UL>
+
+<A NAME="ObjectPresentationReportBackgroundProgressBars"></A>
+<H5>Report background progress bars</H5>
+
+<P>
+   This is an option that, when checked, tells NVDA to keep reporting a progress bar, even if it is not
+   physically in the foreground.
+   If you minimize or switch away from a window that contains a progress bar, NVDA will keep track of it,
+   allowing you to do other things while NVDA tracks the progress bar.
+   %kc:setting
+</P>
+
+<A NAME="ObjectPresentationReportDynamicContent"></A>
+<H5>Report dynamic content changes</H5>
+
+<P>
+   Key: NVDA+5
+   Toggles the announcement of new content in particular objects such as terminals and the history control in
+   chat programs.
+</P>
+
+<A NAME="ObjectPresentationSuggestionSounds"></A>
+<H5>Play a sound when auto-suggestions appear</H5>
+
+<P>
+   Toggles announcement of appearance of auto-suggestions, and if enabled, NVDA will play a sound to indicate
+   this.
+   Auto-suggestions are lists of suggested entries based on text entered into certain edit fields and documents.
+   For example, when you enter text into the search box in Start menu in Windows Vista and later, Windows
+   displays a list of suggestions based on what you typed.
+   For some edit fields such as search fields in various Windows 10 apps, NVDA can notify you that a list of
+   suggestions has appeared when you type text.
+   The auto-suggestions list will close once you move away from the edit field, and for some fields, NVDA can
+   notify you of this when this happens.
+</P>
+
+<A NAME="InputCompositionSettings"></A>
+<H4>12.1.11. Input Composition</H4>
+
+<P>
+   The Input Composition category allows you to control how NVDA reports the input of Asian characters, such as
+   with IME or Text Service input methods.
+   Note that due to the fact that input methods vary greatly by available features and by how they convey
+   information, it will most likely be necessary to configure these options differently for each input method to
+   get the most efficient typing experience.
+</P>
+
+<A NAME="InputCompositionReportAllCandidates"></A>
+<H5>Automatically report all available candidates</H5>
+
+<P>
+   This option, which is on by default, allows you to choose whether or not all visible candidates should be
+   reported automatically when a candidate list appears or its page is changed.
+   Having this option on for pictographic input methods such as Chinese New ChangJie or Boshiami is useful, as
+   you can automatically hear all symbols and their numbers and you can choose one right away.
+   However, for phonetic input methods such as Chinese New Phonetic, it may be more useful to turn this option
+   off, as all the symbols will sound the same and you will have to use the arrow keys to navigate the list items
+   individually to gain more information from the character descriptions for each candidate.
+</P>
+
+<A NAME="InputCompositionAnnounceSelectedCandidate"></A>
+<H5>Announce Selected Candidate</H5>
+
+<P>
+   This option, which is on by default, allows you to choose whether NVDA should announce the selected candidate
+   when a candidate list appears or when the selection is changed.
+   For input methods where the selection can be changed with the arrow keys (such as Chinese New Phonetic) this
+   is necessary, but for some input methods it may be more efficient typing with this option turned off.
+   Note that even with this option off, the review cursor will still be placed on the selected candidate allowing
+   you to use object navigation / review to manually read this or other candidates.
+</P>
+<P>
+==== Always include short character descriptions for candidates
+   ====[InputCompositionCandidateIncludesShortCharacterDescription]
+   This option, which is on by default, allows you to choose whether or not NVDA should provide a short
+   description for each character in a candidate, either when it's selected or when it's automatically read when
+   the candidate list appears.
+   Note that for locales such as Chinese, the announcement of extra character descriptions for the selected
+   candidate is not affected by this option.
+   This option may be useful for Korean and Japanese input methods.
+</P>
+
+<A NAME="InputCompositionReadingStringChanges"></A>
+<H5>Report changes to the reading string</H5>
+
+<P>
+   Some input methods such as Chinese New Phonetic and New ChangJie have a reading string (sometimes known as a
+   precomposition string).
+   You can choose whether or not NVDA should announce new characters being typed into this reading string with
+   this option.
+   This option is on by default.
+   Note some older input methods such as Chinese ChangJie may not use the reading string to hold precomposition
+   characters, but instead use the composition string directly. Please see the next option for configuring
+   reporting of the composition string.
+</P>
+
+<A NAME="InputCompositionCompositionStringChanges"></A>
+<H5>Report changes to the composition string</H5>
+
+<P>
+   After reading or precomposition data has been combined into a valid pictographic symbol, most input methods
+   place this symbol into a composition string for temporary storage along with other combined symbols before
+   they are finally inserted into the document.
+   This option allows you to choose whether or not NVDA should report new symbols as they appear in the
+   composition string.
+   This option is on by default.
+</P>
+
+<A NAME="BrowseModeSettings"></A>
+<H4>12.1.12. Browse Mode (NVDA+Ctrl+b)</H4>
+
+<P>
+   The Browse Mode category in the NVDA Settings dialog is used to configure NVDA's behavior when you read and
+   navigate complex documents such as web pages.
+   This category contains the following options:
+</P>
+
+<A NAME="BrowseModeSettingsMaxLength"></A>
+<H5>Maximum Number of Characters on One Line</H5>
+
+<P>
+   This field sets the maximum length of a line in browse mode (in characters).
+</P>
+
+<A NAME="BrowseModeSettingsPageLines"></A>
+<H5>Maximum Lines Per Page</H5>
+
+<P>
+   This field sets the amount of lines you will move by when pressing page up or page down while in browse mode.
+   %kc:setting
+</P>
+
+<A NAME="BrowseModeSettingsScreenLayout"></A>
+<H5>Use screen layout</H5>
+
+<P>
+   Key: NVDA+v
+   This option allows you to specify whether content in browse mode should place content such as links and other
+   fields on their own line, or if it should keep them in the flow of text as it is visually shown. If the option
+   is enabled then things will stay as they are visually shown, but if it is disabled then fields will be placed
+   on their own line.
+</P>
+
+<A NAME="BrowseModeSettingsAutoSayAll"></A>
+<H5>Automatic Say All on page load</H5>
+
+<P>
+   This checkbox toggles the automatic reading of a page after it loads in browse mode.
+   This option is enabled by default.
+</P>
+
+<A NAME="BrowseModeSettingsIncludeLayoutTables"></A>
+<H5>Include layout tables</H5>
+
+<P>
+   This option affects how NVDA handles tables used purely for layout purposes.
+   When on, NVDA will treat these as normal tables, reporting them based on [Document Formatting Settings
+   #DocumentFormattingSettings] and locating them with quick navigation commands.
+   When off, they will not be reported nor found with quick navigation.
+   However, the content of the tables will still be included as normal text.
+   This option is turned off by default.
+   To toggle inclusion of layout tables from anywhere, please assign a custom gesture using the [Input Gestures
+   dialog #InputGestures].
+</P>
+
+<A NAME="BrowseModeLinksAndHeadings"></A>
+<H5>Configuring reporting of fields such as links and headings</H5>
+
+<P>
+   Please see the options in the <A HREF="#DocumentFormattingSettings">Document Formatting category</A> of the [NVDA Settings
+   #NVDASettings] dialog to configure the fields that are reported when navigating, such as links, headings and
+   tables.
+</P>
+
+<A NAME="BrowseModeSettingsAutoPassThroughOnFocusChange"></A>
+<H5>Automatic focus mode for focus changes</H5>
+
+<P>
+   This option allows focus mode to be invoked if focus changes.
+   For example, when on a web page, if you press tab and you land on a form, if this option is checked, focus
+   mode will automatically be invoked.
+</P>
+
+<A NAME="BrowseModeSettingsAutoPassThroughOnCaretMove"></A>
+<H5>Automatic focus mode for caret movement</H5>
+
+<P>
+   This option, when checked, allows NVDA to enter and leave focus mode when using arrow keys.
+   For example, if arrowing down a web page and you land on an edit box, NVDA will automatically bring you into
+   focus mode. If you arrow out of the edit box, NVDA will put you back in browse mode.
+</P>
+
+<A NAME="BrowseModeSettingsPassThroughAudioIndication"></A>
+<H5>Audio indication of Focus and Browse modes</H5>
+
+<P>
+   If this option is enabled, NVDA will play special sounds when it switches between browse mode and focus mode,
+   rather than speaking the change.
+</P>
+
+<A NAME="BrowseModeSettingsTrapNonCommandGestures"></A>
+<H5>Trap non-command gestures from reaching the document</H5>
+
+<P>
+   Enabled by default, this option allows you to choose if gestures (such as key presses) that do not result in
+   an NVDA command and are not considered to be a command key in general, should be trapped from going through to
+   the document you are currently focused on.
+   As an example, if enabled, if the letter j was pressed, it would be trapped from reaching the document, even
+   though it is not a quick navigation command nor is it likely to be a command in the application itself.
+</P>
+
+<A NAME="DocumentFormattingSettings"></A>
+<H4>12.1.13. Dokumentformatering (NVDA+Ctrl+d)</H4>
+
+<P>
+   Most of the checkboxes in this category are for configuring what type of formatting you wish to have reported
+   as you move the cursor around documents.
+   For example, if you check the report font name checkbox, each time you arrow onto text with a different font,
+   the name of the font will be announced.
+   The document formatting options are organized into groups.
+   You can configure reporting of:
+</P>
+
+   <UL>
+   <LI>Font
+   <LI>Font name
+   <LI>Font size
+   <LI>Font attributes
+   <LI>Emphasis
+   <LI>Style
+   <LI>Colors
+   <LI>Document information
+   <LI>Comments
+   <LI>Editor revisions
+   <LI>Spelling errors
+   <LI>Pages and spacing
+   <LI>Page numbers
+   <LI>Line numbers
+   <LI>Line indentation reporting <A HREF="#lineIndentationOptions">(Off, Speech, Tones, Both Speech and Tones)</A>
+   <LI>Paragraph indentation (e.g. hanging indent, first line indent)
+   <LI>Line spacing (single, double, etc.)
+   <LI>Alignment
+   <LI>Table information
+   <LI>Tables
+   <LI>Row/column headers
+   <LI>Cell coordinates
+   <LI>Cell borders [(Off, Styles, Both Colors and Styles)
+   <LI>Elements
+   <LI>Headings
+   <LI>Links
+   <LI>Lists
+   <LI>Block quotes
+   <LI>Landmarks
+   <LI>Frames
+   <LI>Clickable
+   </UL>
+
+<P>
+   -
+   To toggle these settings from anywhere, please assign custom gestures using the [Input Gestures dialog
+   #InputGestures].
+</P>
+
+<A NAME="DocumentFormattingDetectFormatAfterCursor"></A>
+<H5>Report formatting changes after the cursor</H5>
+
+<P>
+   If enabled, this setting tells NVDA to try and detect all the formatting changes on a line as it reports it,
+   even if doing this may slow down NVDA's performance.
+   By default, NVDA will detect the formatting at the position of the System caret / Review Cursor, and in some
+   instances may detect formatting on the rest of the line, only if it is not going to cause a performance
+   decrease.
+   Enable this option while proof reading documents in applications such as WordPad, where formatting is
+   important.
+</P>
+
+<A NAME="DocumentFormattingSettingsLineIndentation"></A>
+<H5>Line indentation reporting</H5>
+
+<P>
+   This option allows you to configure how indentation at the beginning of lines is reported.
+   The Report line indentation with combo box has four options.
+</P>
+
+   <UL>
+   <LI>Off: NVDA will not treat indentation specially.
+   <LI>Speech: If speech is selected, when the amount of indentation changes, NVDA will say something like "twelve
+   space" or "four tab."
+   <LI>Tones: If Tones is selected, when the amount of indentation changes, tones indicate the amount of change in
+   indent.
+   The tone will increase in pitch every space, and for a tab, it will increase in pitch the equivalent of 4
+   spaces.
+   <LI>Both Speech and Tones: This option reads indentation using both of the above methods.
+   </UL>
+
+<A NAME="Win10OcrSettings"></A>
+<H4>12.1.14. Innstillinger for OCR i Windows 10</H4>
+
+<P>
+   The settings in this category allow you to configure <A HREF="#Win10Ocr">Windows 10 OCR</A>.
+   This category contains the following options:
+</P>
+
+<A NAME="Win10OcrSettingsRecognitionLanguage"></A>
+<H5>Recognition language</H5>
+
+<P>
+   This combo box allows you to choose the language to be used for text recognition.
+</P>
+
+<A NAME="MiscSettings"></A>
+<H3>12.2. Diverse innstillinger</H3>
+
+<P>
+   Besides the <A HREF="#NVDASettings">NVDA Settings</A> dialog, The Preferences sub-menu of the NVDA Menu contains several
+   other items which are outlined below.
+</P>
+
+<A NAME="SpeechDictionaries"></A>
+<H4>12.2.1. Taleordlister</H4>
+
+<P>
+   The speech dictionaries menu (found in the Preferences menu) contains dialogs that allow you to manage the way
+   NVDA pronounces particular words or phrases.
+   There are currently three different types of speech dictionaries.
+   They are:
+</P>
+
+   <UL>
+   <LI>Default: rules in this dictionary affect all speech in NVDA.
+   <LI>Voice: rules in this dictionary affect speech for the synthesizer voice currently being used.
+   <LI>Temporary: rules in this dictionary affect all speech in NVDA, but only for the current session. These rules
+   are temporary and will be lost if NVDA is restarted.
+   </UL>
+
+<P>
+   You need to assign custom gestures using the <A HREF="#InputGestures">Input Gestures dialog</A> if you wish to open any of
+   these dictionary dialogs from anywhere.
+   All dictionary dialogs contain a list of rules which will be used for processing the speech.
+   The dialog also contains Add, Edit and Remove buttons.
+   To add a new rule to the dictionary, press the Add button, and fill in the fields in the dialog box that
+   appears and then press Ok.
+   You will then see your new rule in the list of rules.
+   However, to make sure your rule is actually saved, make sure to press Ok to exit the dictionary dialog
+   completely once you have finished adding/editing rules.
+   The rules for NVDA's speech dictionaries allow you to change one string of characters into another.
+   For example, you could create a rule which causes NVDA to say the word "frog" instead of "bird" whenever the
+   word "bird" is encountered.
+   In the Add rule dialog, the easiest way to do this is to type the word bird in the Pattern field, and the word
+   frog in the Replacement field.
+   You may also want to type a description of the rule in the Comment field (something like: changes bird to
+   frog).
+   NVDA's speech dictionaries however are much more powerful than simple word replacement.
+   The Add rule dialog also contains a checkbox to say whether or not you want the rule to be case sensitive
+   (meaning that NVDA should care whether the characters are uppercase or lowercase.
+   NVDA ignores case by default).
+   Finally, a set of radio buttons allows you to tell NVDA whether your pattern should match anywhere, should
+   only match if it is a complete word or should be treated as a "Regular expression".
+   Setting the pattern to match as a whole word means that the replacement will only be made if the pattern does
+   not occur as part of a larger word; i.e. a character other than an alphanumeric character or an underscore (or
+   no character at all) comes both immediately before and after the pattern.
+   Thus, using the earlier example of replacing the word "bird" with "frog", if you were to make this a whole
+   word replacement, it would not match "birds" or "bluebird".
+   A regular expression is a pattern containing special symbols that allow you to match on more than one
+   character at a time, or match on just numbers, or just letters, as a few examples.
+   Regular expressions are not covered in this user guide, but there are many tutorials on the web which can
+   provide you with more information.
+</P>
+
+<A NAME="SymbolPronunciation"></A>
+<H4>12.2.2. Uttale av tegnsetting/symboler</H4>
+
+<P>
+   This dialog allows you to change the way punctuation and other symbols are pronounced, as well as the symbol
+   level at which they are spoken.
+   The language for which symbol pronunciation is being edited will be shown in the dialog's title.
+   Note that this dialog respects the "Trust voice's language for processing symbols and characters" option found
+   in the <A HREF="#SpeechSettings">Speech category</A> of the <A HREF="#NVDASettings">NVDA Settings</A> dialog; i.e. it uses the voice
+   language rather than the NVDA global language setting when this option is enabled.
+   To change a symbol, first select it in the Symbols list.
+</P>
+
+   <UL>
+   <LI>The Replacement field allows you to change the text that should be spoken in place of this symbol.
+   <LI>Using the Level field, you can adjust the lowest symbol level at which this symbol should be spoken.
+   <LI>The Send actual symbol to synthesizer field specifies when the symbol itself (in contrast to its
+   replacement) should be sent to the synthesizer.
+   This is useful if the symbol causes the synthesizer to pause or change the inflection of the voice.
+   For example, a comma causes the synthesizer to pause.
+   There are three options:
+   <LI>never: Never send the actual symbol to the synthesizer.
+   <LI>always: Always send the actual symbol to the synthesizer.
+   <LI>only below symbols' level: Send the actual symbol only if the configured speech symbol level is lower than
+   the level set for this symbol.
+   For example, you might use this so that a symbol will have its replacement spoken at higher levels without
+   pausing, while still being indicated with a pause at lower levels.
+   </UL>
+
+<P>
+   -
+   You can add new symbols by pressing the Add button.
+   In the dialog that appears, enter the symbol and press the OK button.
+   Then, change the fields for the new symbol as you would for other symbols.
+   You can remove a symbol you previously added by pressing the Remove button.
+   When you are finished, press the OK button to save your changes or the Cancel button to discard them.
+</P>
+
+<A NAME="InputGestures"></A>
+<H4>12.2.3. Input Gestures</H4>
+
+<P>
+   In this dialog, you can customize the input gestures (keys on the keyboard, buttons on a braille display,
+   etc.) for NVDA commands.
+   Only commands that are applicable immediately before the dialog is opened are shown.
+   For example, if you want to customize commands related to browse mode, you should open the Input Gestures
+   dialog while you are in browse mode.
+   The tree in this dialog lists all of the applicable NVDA commands grouped by category.
+   You can filter them by entering one or more words from the command's name into the Filter by edit box in any
+   order.
+   Any gestures associated with a command are listed beneath the command.
+   To add an input gesture to a command, select the command and press the Add button.
+   Then, perform the input gesture you wish to associate; e.g. press a key on the keyboard or a button on a
+   braille display.
+   Often, a gesture can be interpreted in more than one way.
+   For example, if you pressed a key on the keyboard, you may wish it to be specific to the current keyboard
+   layout (e.g. desktop or laptop) or you may wish it to apply for all layouts.
+   In this case, a menu will appear allowing you to select the desired option.
+   To remove a gesture from a command, select the gesture and press the Remove button.
+   When you are finished making changes, press the OK button to save them or the Cancel button to discard them.
+</P>
+
+<A NAME="SavingAndReloading"></A>
+<H3>12.3. Saving and Reloading the configuration</H3>
+
+<P>
+   By default NVDA will automatically save your settings on exit.
+   Note, however, that this option can be changed under the general options in the preferences menu.
+   To save the settings manually at any time, choose the Save configuration item in the NVDA menu.
+   If you ever make a mistake with your settings and need to revert back to the saved settings, choose the
+   "revert to saved configuration" item in the NVDA menu.
+   You can also reset your settings to their original factory defaults by choosing Reset Configuration To Factory
+   Defaults, which is also found in the NVDA menu.
+   The following NVDA key commands are also useful:
+   %kc:beginInclude
+</P>
 
 <TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Name</TH>
 <TH>Desktop key</TH>
-<TH>Laptop key</TH>
-<TH>Description</TH>
+<TH>Bærbar tast</TH>
+<TH>Beskrivelse</TH>
 </TR>
 <TR>
-<TD>Move to next synth setting</TD>
-<TD>NVDA+control+rightArrow</TD>
-<TD>NVDA+shift+control+rightArrow</TD>
-<TD>Moves to the next</TD>
+<TD>Save configuration</TD>
+<TD>NVDA+Ctrl+c</TD>
+<TD>NVDA+Ctrl+c</TD>
+<TD>Saves your current configuration so that it is not</TD>
 </TR>
 </TABLE>
 
 <P>
-   available speech setting after the current, wrapping around to the first setting again after the last |
+   lost when you exit NVDA |
 </P>
 
 <TABLE ALIGN="center" CELLPADDING="4">
 <TR>
-<TD>Move to previous synth setting</TD>
-<TD>NVDA+control+leftArrow</TD>
-<TD>NVDA+shift+control+leftArrow</TD>
-<TD>Moves to the next</TD>
+<TD>Revert configuration</TD>
+<TD>NVDA+Ctrl+r</TD>
+<TD>NVDA+Ctrl+r</TD>
+<TD>Pressing once resets your configuration to when you</TD>
 </TR>
 </TABLE>
 
 <P>
-   available speech setting before the current, wrapping around to the last setting after the first |
-</P>
-
-<TABLE ALIGN="center" CELLPADDING="4">
-<TR>
-<TD>Increment current synth setting</TD>
-<TD>NVDA+control+upArrow</TD>
-<TD>NVDA+shift+control+upArrow</TD>
-<TD>increases the current</TD>
-</TR>
-</TABLE>
-
-<P>
-   speech setting you are on. E.g. increases the rate, chooses the next voice, increases the volume |
-</P>
-
-<TABLE ALIGN="center" CELLPADDING="4">
-<TR>
-<TD>Decrement current synth setting</TD>
-<TD>NVDA+control+downArrow</TD>
-<TD>NVDA+shift+control+downArrow</TD>
-<TD>decreases the</TD>
-</TR>
-</TABLE>
-
-<P>
-   current speech setting you are on. E.g. decreases the rate, chooses the previous voice, decreases the volume |
+   last saved it. Pressing three times will reset it back to factory defaults. |
    %kc:endInclude
 </P>
 
-<!-- html code generated by txt2tags 2.6 (https://txt2tags.org) -->
+<A NAME="ConfigurationProfiles"></A>
+<H3>12.4. Konfigurasjonsprofiler</H3>
+
+<P>
+   Sometimes, you may wish to have different settings for different situations.
+   For example, you may wish to have reporting of indentation enabled while you are editing or reporting of font
+   attributes enabled while you are proofreading.
+   NVDA allows you to do this using configuration profiles.
+   A configuration profile contains only those settings which are changed while the profile is being edited.
+   Most settings can be changed in configuration profiles except for those in the General category of the [NVDA
+   Settings #NVDASettings] dialog, which apply to the entirety of NVDA.
+   Configuration profiles can be manually activated.
+   They can also be activated automatically due to triggers such as switching to a particular application.
+</P>
+
+<A NAME="ProfilesBasicManagement"></A>
+<H4>12.4.1. Basic Management</H4>
+
+<P>
+   You manage configuration profiles by selecting "Configuration profiles" in the NVDA menu.
+   You can also do this using a key command:
+   %kc:beginInclude
+</P>
+
+   <UL>
+   <LI>NVDA+Ctrl+p: Show the Configuration Profiles dialog.
+   </UL>
+
+<P>
+   %kc:endInclude
+   The first control in this dialog is the profile list from which you can select one of the available profiles.
+   When you open the dialog, the profile you are currently editing is selected.
+   Additional information is also shown for active profiles, indicating whether they are manually activated,
+   triggered and/or being edited.
+   To rename or delete a profile, press the Rename or Delete buttons, respectively.
+   Press the Close button to close the dialog.
+</P>
+
+<A NAME="ProfilesCreating"></A>
+<H4>12.4.2. Creating a Profile</H4>
+
+<P>
+   To create a profile, press the New button.
+   In the New Profile dialog, you can enter a name for the profile.
+   You can also select how this profile should be used.
+   If you only want to use this profile manually, select Manual activation, which is the default.
+   Otherwise, select a trigger which should automatically activate this profile.
+   For convenience, if you haven't entered a name for the profile, selecting a trigger will fill in the name
+   accordingly.
+   See <A HREF="#ConfigProfileTriggers">below</A> for more information about triggers.
+   Pressing OK will create the profile and close the Configuration Profiles dialog so you can edit it.
+</P>
+
+<A NAME="ConfigProfileManual"></A>
+<H4>12.4.3. Manual Activation</H4>
+
+<P>
+   You can manually activate a profile by selecting a profile and pressing the Manual activate button.
+   Once activated, other profiles can still be activated due to triggers, but any settings in the manually
+   activated profile will override them.
+   For example, if a profile is triggered for the current application and reporting of links is enabled in that
+   profile but disabled it in the manually activated profile, links will not be reported.
+   However, if you have changed the voice in the triggered profile but have never changed it in the manually
+   activated profile, the voice from the triggered profile will be used.
+   Any settings you change will be saved in the manually activated profile.
+   To deactivate a manually activated profile, select it in the Configuration Profiles dialog and press the
+   Manual deactivate button.
+</P>
+
+<A NAME="ConfigProfileTriggers"></A>
+<H4>12.4.4. Triggers</H4>
+
+<P>
+   Pressing the Triggers button in the Configuration Profiles dialog allows you to change the profiles which
+   should be automatically activated for various triggers.
+   The Triggers list shows the available triggers, which are as follows:
+</P>
+
+   <UL>
+   <LI>Current application: Triggered when you switch to the current application.
+   <LI>Say all: Triggered while reading with the say all command.
+   </UL>
+
+<P>
+   To change the profile which should be automatically activated for a trigger, select the trigger and then
+   select the desired profile from the Profile list.
+   You can select "(normal configuration)" if you don't want a profile to be used.
+   Press the Close button to return to the Configuration Profiles dialog.
+</P>
+
+<A NAME="ConfigProfileEditing"></A>
+<H4>12.4.5. Editing a Profile</H4>
+
+<P>
+   If you have manually activated a profile, any settings you change will be saved to that profile.
+   Otherwise, any settings you change will be saved to the most recently triggered profile.
+   For example, if you have associated a profile with the Notepad application and you switch to Notepad, any
+   changed settings will be saved to that profile.
+   Finally, if there is neither a manually activated nor a triggered profile, any settings you change will be
+   saved to your normal configuration.
+   To edit the profile associated with say all, you must <A HREF="#ConfigProfileManual">manually activate</A> that profile.
+</P>
+
+<A NAME="ConfigProfileDisablingTriggers"></A>
+<H4>12.4.6. Temporarily Disabling Triggers</H4>
+
+<P>
+   Sometimes, it is useful to temporarily disable all triggers.
+   For example, you might wish to edit a manually activated profile or your normal configuration without
+   triggered profiles interfering.
+   You can do this by checking the Temporarily disable all triggers checkbox in the Configuration Profiles
+   dialog.
+   To toggle disabling triggers from anywhere, please assign a custom gesture using the [Input Gestures dialog
+   #InputGestures].
+</P>
+
+<A NAME="LocationOfConfigurationFiles"></A>
+<H3>12.5. Location of Configuration files</H3>
+
+<P>
+   Portable versions of NVDA store all settings and add-ons in a directory called userConfig, found in the NVDA
+   directory.
+   Installed versions of NVDA store all settings and add-ons in a special NVDA directory located in your Windows
+   user profile.
+   This means that each user on the system can have their own NVDA settings.
+   To get to your settings directory for an installed version of NVDA, on the start menu you can go to programs
+   -&gt; NVDA -&gt; explore user configuration directory.
+   Settings for NVDA when running on the logon or UAC screens are stored in the systemConfig directory in NVDA's
+   installation directory.
+   Usually, this configuration should not be touched.
+   To change NVDA's configuration on the logon/UAC screens, configure NVDA as you wish while logged into Windows,
+   save the configuration, and then press the "Use currently saved settings on the logon and other secure
+   screens" button in the General category of the <A HREF="#NVDASettings">NVDA Settings</A> dialog.
+</P>
+
+<A NAME="ExtraTools"></A>
+<H2>13. Ekstra verktøy</H2>
+
+<A NAME="LogViewer"></A>
+<H3>13.1. Log Viewer</H3>
+
+<P>
+   The log viewer, found under Tools in the NVDA menu, allows you to view all the logging output that has
+   occurred up until now from when you last started NVDA.
+   Apart from reading the content, you can also Save a copy of the log file, or refresh the viewer so that it
+   shows the most recent output since the Log viewer was opened.
+   These actions are available under the viewer's Log menu.
+</P>
+
+<A NAME="SpeechViewer"></A>
+<H3>13.2. Speech Viewer</H3>
+
+<P>
+   For sighted software developers or people demoing NVDA to sighted audiences, a floating window is available
+   that allows you to view all the text that NVDA is currently speaking.
+   To enable the speech viewer, check the "Speech Viewer" menu item under Tools in the NVDA menu.
+   Uncheck the menu item to disable it.
+   The speech viewer window contains a check box labeled "Show speech viewer on startup".
+   If this is checked, the speech viewer will open when NVDA is started.
+   The speech viewer window will always attempt to re-open with the same dimensions and location as when it was
+   closed.
+   While the speech viewer is enabled, it constantly updates to show you the most current text being spoken.
+   However, if you click or focus inside the viewer, NVDA will temporarily stop updating the text, so that you
+   are able to easily select or copy the existing content.
+   To toggle the speech viewer from anywhere, please assign a custom gesture using the [Input Gestures dialog
+   #InputGestures].
+</P>
+
+<A NAME="AddonsManager"></A>
+<H3>13.3. Add-ons Manager</H3>
+
+<P>
+   The Add-ons Manager, accessed by selecting Manage add-ons under Tools in the NVDA menu, allows you to install,
+   uninstall, enable and disable add-on packages for NVDA.
+   These packages are provided by the community and contain custom code that may add or change features in NVDA
+   or even provide support for extra Braille displays or speech synthesizers.
+   The Add-ons Manager contains a list that displays all the add-ons currently installed in your NVDA user
+   configuration.
+   Package name, status, version and author are shown for each add-on, though further information such as a
+   description and URL can be viewed by selecting the add-on and pressing the About add-on button.
+   If there is help available for the selected add-on, you can access it by pressing the Add-on help button.
+   To browse and download available add-ons online, press the Get add-ons button.
+   This button opens the <A HREF="https://addons.nvda-project.org/">NVDA Add-ons page</A>.
+   If NVDA is installed and running on your system, you can open the add-on directly from the browser to begin
+   the installation process as described below.
+   Otherwise, save the add-on package and follow the instructions below.
+   To install an Add-on you previously obtained, press the Install button.
+   This will allow you to browse for an add-on package (.nvda-addon file) somewhere on your computer or on a
+   network.
+   Once you press Open, the installation process will begin.
+   When an add-on is being installed, NVDA will first ask you to confirm that you really wish to install the
+   add-on.
+   As the functionality of add-ons is unrestricted inside NVDA, which in theory could include accessing your
+   personal data or even the entire system if NVDA is an installed copy, it is very important to only install
+   add-ons from sources you trust.
+   Once the add-on is installed, NVDA must be restarted for the add-on to start running.
+   Until you do, a status of "install" will show for that add-on in the list.
+   To remove an add-on, select the add-on from the list and press the Remove button.
+   NVDA will ask if you really wish to do this.
+   As with installing, NVDA must be restarted for the add-on to be fully removed.
+   Until you do, a status of "remove" will be shown for that add-on in the list.
+   To disable an add-on, press the "disable" button.
+   To enable a previously disabled add-on, press the "enable" button.
+   You can disable an add-on if the add-on status indicates it is "enabled", or enable it if the add-on is
+   "disabled".
+   For each press of the enable/disable button, add-on status changes to indicate what will happen when NVDA
+   restarts.
+   If the addon was previously disabled, a status will show "enabled after restart". If the addon was previously
+   "Enabled", a status will show "disabled after restart"
+   Just like when you install or remove add-ons, you need to restart NVDA in order for changes to take effect.
+   The manager also has a Close button to close the dialog.
+   If you have installed, removed or changed the status of an add-on, NVDA will first ask you if you wish to
+   restart so that your changes can take effect.
+   In the past, it was possible to extend NVDA's functionality by copying individual plugins and drivers into
+   your NVDA user Configuration directory.
+   Although this version of NVDA may still load them, they will not be shown in the Add-on Manager.
+   It is best to remove these files from your configuration and install the appropriate add-on if one is
+   available.
+   To access the Add-ons Manager from anywhere, please assign a custom gesture using the [Input Gestures dialog
+   #InputGestures].
+</P>
+
+<A NAME="PythonConsole"></A>
+<H3>13.4. Python-konsoll</H3>
+
+<P>
+   The NVDA Python console, found under Tools in the NVDA menu, is a development tool which is useful for
+   debugging, general inspection of NVDA internals or inspection of the accessibility hierarchy of an
+   application.
+   For more information, please see the [NVDA Developer Guide
+   <A HREF="https://www.nvaccess.org/files/nvda/documentation/developerGuide.html">https://www.nvaccess.org/files/nvda/documentation/developerGuide.html</A>].
+</P>
+
+<A NAME="ReloadPlugins"></A>
+<H3>13.5. Reload plugins</H3>
+
+<P>
+   This item, once activated, reloads app modules and global plugins without restarting NVDA, which can be useful
+   for developers.
+</P>
+
+<A NAME="SupportedSpeechSynths"></A>
+<H2>14. Støttede talesynteser</H2>
+
+<P>
+   This section contains information about the speech synthesizers supported by NVDA.
+   For an even more extensive list of free and commercial synthesizers that you can purchase and download for use
+   with NVDA, please see <A HREF="https://github.com/nvaccess/nvda/wiki/ExtraVoices">extra voices page</A>.
+</P>
+
+<A NAME="eSpeakNG"></A>
+<H3>14.1. eSpeak NG</H3>
+
+<P>
+   The <A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak NG</A> synthesizer is built directly into NVDA and does not
+   require any other special drivers or components to be installed.
+   NVDA starts using eSpeak NG by default.
+   As this synthesizer is built into NVDA, this is a great choice for when running NVDA off a USB thumb drive on
+   other systems.
+   Each voice that comes with eSpeak NG speaks a different language.
+   There are over 43 different languages supported by eSpeak NG.
+   There are also many variants which can be chosen to alter the sound of the voice.
+</P>
+
+<A NAME="SAPI4"></A>
+<H3>14.2. Microsoft Speech API version 4 (SAPI 4)</H3>
+
+<P>
+   SAPI 4 is an older Microsoft standard for software speech synthesizers.
+   NVDA still supports this for users who already have SAPI 4 synthesizers installed.
+   However, Microsoft no longer support this and needed components are no longer available from Microsoft.
+   When using this synthesizer with NVDA, the available voices (accessed from the [Speech category
+   #SpeechSettings] of the <A HREF="#NVDASettings">NVDA Settings</A> dialog or by the [Synth Settings Ring
+   #SynthSettingsRing]) will contain all the voices from all the installed SAPI 4 engines found on your system.
+</P>
+
+<A NAME="SAPI5"></A>
+<H3>14.3. Microsoft Speech API version 5 (SAPI 5)</H3>
+
+<P>
+   SAPI 5 is a Microsoft standard for software speech synthesizers.
+   Many speech synthesizers that comply with this standard may be purchased or downloaded for free from various
+   companies and websites, though your system will probably already come with at least one SAPI 5 voice
+   preinstalled.
+   When using this synthesizer with NVDA, the available voices (accessed from the [Speech category
+   #SpeechSettings] of the <A HREF="#NVDASettings">NVDA Settings</A> dialog or by the [Synth Settings Ring
+   #SynthSettingsRing]) will contain all the voices from all the installed SAPI 5 engines found on your system.
+</P>
+
+<A NAME="MicrosoftSpeechPlatform"></A>
+<H3>14.4. Microsoft Speech Platform</H3>
+
+<P>
+   The Microsoft Speech Platform provides voices for many languages which are normally used in the development of
+   server-based speech applications.
+   These voices can also be used with NVDA.
+   To use these voices, you will need to install two components:
+</P>
+
+   <UL>
+   <LI>Microsoft Speech Platform - Runtime (Version 11) , x86:
+   <A HREF="http://www.microsoft.com/download/en/details.aspx?id=27225">http://www.microsoft.com/download/en/details.aspx?id=27225</A>
+   <LI>Microsoft Speech Platform - Runtime Languages (Version 11):
+   <A HREF="http://www.microsoft.com/download/en/details.aspx?id=27224">http://www.microsoft.com/download/en/details.aspx?id=27224</A>
+   <LI>This page includes many files for both speech recognition and text-to-speech.
+   Choose the files containing the TTS data for the desired languages/voices.
+   For example, the file MSSpeech_TTS_en-US_ZiraPro.msi is a U.S. English voice.
+   </UL>
+
+<P>
+   -
+</P>
+
+<A NAME="OneCore"></A>
+<H3>14.5. Windows OneCore Voices</H3>
+
+<P>
+   Windows 10 includes new voices known as "OneCore" or "mobile" voices.
+   Voices are provided for many languages, and they are more responsive than the Microsoft voices available using
+   Microsoft Speech API version 5.
+   Please see this Microsoft article for a list of available voices and instructions to install them:
+   <A HREF="https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices">https://support.microsoft.com/en-us/help/22797/windows-10-narrator-tts-voices</A>
+   Please note that the faster rates available with Narrator are not currently available with NVDA.
+   Also, the speed you select in the Windows Settings affects the rate set in NVDA.
+   These are issues we cannot resolve without changes to Windows.
+   We are hopeful that these will be addressed in a future Windows update.
+</P>
+
+<A NAME="Audiologic"></A>
+<H3>14.6. Audiologic Tts3</H3>
+
+<P>
+   This is a commercial speech synthesizer specifically for the Italian language.
+   You must have the synthesizer installed on your system in order for it to be used with NVDA.
+   For more information, please visit the Audiologic website at <A HREF="http://www.audiologic.it">www.audiologic.it</A>.
+   This synthesizer does not support <A HREF="#SpeechSettingsUseSpelling">spelling functionality</A>.
+</P>
+
+<A NAME="SupportedBrailleDisplays"></A>
+<H2>15. Støttede leselister</H2>
+
+<P>
+   This section contains information about the Braille displays supported by NVDA.
+</P>
+
+<A NAME="FreedomScientificFocus"></A>
+<H3>15.1. Freedom Scientific Focus/PAC Mate-serien</H3>
+
+<P>
+Alle Focus- og PAC Mate-leselister <A HREF="http://www.freedomscientific.com/">Freedom Scientific</A> støttes når de er tilkoblet via USB eller bluetooth. 
+Freedom Scientific sine leselistdrivere må være installert på systemet ditt for at NVDA skal fungere med disse leselistene.
+Hvis du ikke alt har driverne, kan du få tak i dem her: <A HREF="http://www2.freedomscientific.com/downloads/focus-40-blue/focus-40-14-blue-downloads.asp">http://www2.freedomscientific.com/downloads/focus-40-blue/focus-40-14-blue-downloads.asp</A>.
+Sellv om denne siden bare omtaler Focus Blue-leselistene, vil driverne støtte samtlige Focus- og PAC Mate-leselister fra Freedom Scientific. 
+</P>
+<P>
+Om systemet ditt kjører 64 bit Windows og driverne allerede er blitt installert av en annen skjermleser, vil du antakelig fortsatt behøve å installere driverne fra denne lenken, ettersom filene NVDA har bruk for antakelig ikke ble installert av den andre skjermleseren.  
+</P>
+<P>
+Som standard kan NVDA oppdage og koble seg til disse leselistene enten via USB eller bluetooth.
+</P>
+<P>
+Når du konfigurerer leselisten, kan du imidlertid eksplisitt velge "USB" eller "Bluetooth"-port for å begrense hvilken tilkoblingstype som skal brukes. Dette kan være nyttig hvis du vil koble Focus-leselisten til NVDA via bluetooth, men samtidig kunne lade den via USB fra PC-en.  
+</P>
+<P>
+Her følger tastetilordningene for denne lesselisten med NVDA.
+Vennligst se i dokumentasjonen for leselisten for å få en beskrivelse av hvor du finner disse tastene.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>topRouting1 (første celle på leselisten)</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>topRouting20/40/80 (siste celle på leselisten)</TD>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>leftAdvanceBar</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>rightAdvanceBar</TD>
+</TR>
+<TR>
+<TD>Bytt leselist knyttet til</TD>
+<TD>leftGDFButton+rightGDFButton</TD>
+</TR>
+<TR>
+<TD>Bytt handling på venstre wiz-hjul</TD>
+<TD>leftWizWheelPress</TD>
+</TR>
+<TR>
+<TD>Gå bakover med venstre wiz-hjulhandling</TD>
+<TD>leftWizWheelUp</TD>
+</TR>
+<TR>
+<TD>Gå framover med venstre wiz-hjulhandling</TD>
+<TD>leftWizWheelDown</TD>
+</TR>
+<TR>
+<TD>Bytt handling på høyre wiz-hjul</TD>
+<TD>rightWizWheelPress</TD>
+</TR>
+<TR>
+<TD>Move back using right wiz wheel action</TD>
+<TD>rightWizWheelUp</TD>
+</TR>
+<TR>
+<TD>Move forward using right wiz wheel action</TD>
+<TD>rightWizWheelDown</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>brailleSpaceBar+dot1+dot2</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>brailleSpaceBar+dot4+dot5</TD>
+</TR>
+<TR>
+<TD>PilOpp-tast</TD>
+<TD>brailleSpaceBar+dot1</TD>
+</TR>
+<TR>
+<TD>PilNed-tast</TD>
+<TD>brailleSpaceBar+dot4</TD>
+</TR>
+<TR>
+<TD>control+leftArrow key</TD>
+<TD>brailleSpaceBar+dot2</TD>
+</TR>
+<TR>
+<TD>control+rightArrow key</TD>
+<TD>brailleSpaceBar+dot5</TD>
+</TR>
+<TR>
+<TD>PilVenstre-tast</TD>
+<TD>brailleSpaceBar+dot3</TD>
+</TR>
+<TR>
+<TD>PilHøyre-tast</TD>
+<TD>brailleSpaceBar+dot6</TD>
+</TR>
+<TR>
+<TD>Home-tast</TD>
+<TD>brailleSpaceBar+dot1+dot3</TD>
+</TR>
+<TR>
+<TD>End-tast</TD>
+<TD>brailleSpaceBar+dot4+dot6</TD>
+</TR>
+<TR>
+<TD>control+home key</TD>
+<TD>brailleSpaceBar+dot1+dot2+dot3</TD>
+</TR>
+<TR>
+<TD>control+end key</TD>
+<TD>brailleSpaceBar+dot4+dot5+dot6</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>brailleSpaceBar+dot1+dot3+dot4</TD>
+</TR>
+<TR>
+<TD>alt+tab key</TD>
+<TD>brailleSpaceBar+dot2+dot3+dot4+dot5</TD>
+</TR>
+<TR>
+<TD>alt+Skift+tab key</TD>
+<TD>brailleSpaceBar+dot1+dot2+dot5+dot6</TD>
+</TR>
+<TR>
+<TD>windows+tab key</TD>
+<TD>brailleSpaceBar+dot2+dot3+dot4</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>brailleSpaceBar+dot1+dot5</TD>
+</TR>
+<TR>
+<TD>windows key</TD>
+<TD>brailleSpaceBar+dot2+dot4+dot5+dot6</TD>
+</TR>
+<TR>
+<TD>space key</TD>
+<TD>brailleSpaceBar</TD>
+</TR>
+<TR>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>brailleSpaceBar+dot1+dot2+dot3+dot4+dot5+dot6</TD>
+</TR>
+<TR>
+<TD>Rapporter gjeldende linje</TD>
+<TD>brailleSpaceBar+dot1+dot4</TD>
+</TR>
+<TR>
+<TD>NVDA menu</TD>
+<TD>brailleSpaceBar+dot1+dot3+dot4+dot5</TD>
+</TR>
+</TABLE>
+
+<P>
+For nyere Focus-modeller som har vippeknapper (Focus 40, Focus 80 og Focus Blue):
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>leftRockerBarUp, rightRockerBarUp</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>leftRockerBarDown, rightRockerBarDown</TD>
+</TR>
+</TABLE>
+
+<P>
+Bare for Focus 80:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>leftBumperBarUp, rightBumperBarUp</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>leftBumperBarDown, rightBumperBarDown</TD>
+</TR>
+</TABLE>
+
+<A NAME="OptelecALVA"></A>
+<H3>15.2. Optelec ALVA 6-serien/protokollkonverter</H3>
+
+<P>
+   Both the ALVA BC640 and BC680 displays from <A HREF="http://www.optelec.com/">Optelec</A> are supported when connected via
+   USB or bluetooth.
+   Alternatively, you can connect an older Optelec display, such as a Braille Voyager, using a protocol converter
+   supplied by Optelec.
+   You do not need any specific drivers to be installed to use these displays.
+   Just plug in the display and configure NVDA to use it.
+   Note: NVDA might be unable to use an ALVA BC6 display over Bluetooth when it is paired using the ALVA
+   Bluetooth utility.
+   When you have paired your device using this utility and NVDA is unable to detect your device, we recommend you
+   to pair your ALVA display the regular way using the Windows Bluetooth settings.
+   Note: while some of these displays do have a braille keyboard, they handle translation from braille to text
+   themselves by default.
+   This means that NVDA's braille input system is not in use in the default situation (i.e. the input braille
+   table setting has no effect).
+   For ALVA displays with recent firmware, it is possible to disable this HID keyboard simulation using an input
+   gesture.
+   Following are key assignments for this display with NVDA.
+   Please see the display's documentation for descriptions of where these keys can be found.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>t1 eller etouch1</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>t2</TD>
+</TR>
+<TR>
+<TD>Move to current focus</TD>
+<TD>t3</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>t4</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>t5 eller etouch3</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>secondary routing</TD>
+</TR>
+<TR>
+<TD>Toggle HID keyboard simulation</TD>
+<TD>t1+spEnter</TD>
+</TR>
+<TR>
+<TD>Move to top line in review</TD>
+<TD>t1+t2</TD>
+</TR>
+<TR>
+<TD>Move to bottom line in review</TD>
+<TD>t4+t5</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>t1+t3</TD>
+</TR>
+<TR>
+<TD>Report title</TD>
+<TD>etouch2</TD>
+</TR>
+<TR>
+<TD>Report status bar</TD>
+<TD>etouch4</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>sp1</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>sp2</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>sp3</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>sp4</TD>
+</TR>
+<TR>
+<TD>PilOpp-tast</TD>
+<TD>spUp</TD>
+</TR>
+<TR>
+<TD>PilNed-tast</TD>
+<TD>spDown</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>spLeft</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>spRight</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>spEnter, enter|</TD>
+</TR>
+<TR>
+<TD>Report date/time</TD>
+<TD>sp1+sp2</TD>
+</TR>
+<TR>
+<TD>NVDA-meny</TD>
+<TD>sp1+sp3</TD>
+</TR>
+<TR>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>sp1+sp4</TD>
+</TR>
+<TR>
+<TD>windows+b key (focus system tray)</TD>
+<TD>sp3+sp4</TD>
+</TR>
+<TR>
+<TD>windows key</TD>
+<TD>sp2+sp3, windows</TD>
+</TR>
+<TR>
+<TD>alt+tab key</TD>
+<TD>sp2+sp4</TD>
+</TR>
+<TR>
+<TD>control+home key</TD>
+<TD>t3+spUp</TD>
+</TR>
+<TR>
+<TD>control+end key</TD>
+<TD>t3+spDown</TD>
+</TR>
+<TR>
+<TD>home key</TD>
+<TD>t3+spLeft</TD>
+</TR>
+<TR>
+<TD>end key</TD>
+<TD>t3+spRight</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>alt</TD>
+</TR>
+<TR>
+<TD>control key</TD>
+<TD>control</TD>
+</TR>
+</TABLE>
+
+<A NAME="HandyTech"></A>
+<H3>15.3. Handy Tech-leselister</H3>
+
+<P>
+   NVDA supports most displays from <A HREF="http://www.handytech.de/">Handy Tech</A> when connected via USB, serial port or
+   bluetooth.
+   For older USB displays, you will need to install the USB drivers from Handy Tech on your system.
+   The following displays are not supported out of the box, but can be used via [Handy Tech's universal driver
+   <A HREF="https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers">https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers</A>] and NVDA
+   add-on:
+</P>
+
+   <UL>
+   <LI>Braillino
+   <LI>Bookworm
+   <LI>Modular displays with firmware version 1.13 or lower. Please note that the firmware of this displays can be
+   updated.
+   </UL>
+
+<P>
+   Following are the key assignments for Handy Tech displays with NVDA.
+   Please see the display's documentation for descriptions of where these keys can be found.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>venstre, opp, b3</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>høyre, ned, b6</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>b4</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>b5</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>esc, left triple action key up+down</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>b2+b4+b5</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>b4+b6</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>enter, right triple action key up+down</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>esc+enter, left+right triple action key up+down, joystickAction</TD>
+</TR>
+<TR>
+<TD>PilOpp-tast</TD>
+<TD>joystickUp</TD>
+</TR>
+<TR>
+<TD>PilNed-tast</TD>
+<TD>joystickDown</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>joystickLeft</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>joystickRight</TD>
+</TR>
+<TR>
+<TD>NVDA-meny</TD>
+<TD>b2+b4+b5+b6</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>b2</TD>
+</TR>
+<TR>
+<TD>Toggle the braille cursor</TD>
+<TD>b1</TD>
+</TR>
+<TR>
+<TD>Toggle focus context presentation</TD>
+<TD>b7</TD>
+</TR>
+<TR>
+<TD>Toggle braille input</TD>
+<TD>space+b1+b3+b4 (space+capital B)</TD>
+</TR>
+</TABLE>
+
+<A NAME="MDVLilli"></A>
+<H3>15.4. MDV Lilli</H3>
+
+<P>
+   The Lilli braille display available from <A HREF="http://www.mdvbologna.it/">MDV</A> is supported.
+   You do not need any specific drivers to be installed to use this display.
+   Just plug in the display and configure NVDA to use it.
+   Following are the key assignments for this display with NVDA.
+   Please see the display's documentation for descriptions of where these keys can be found.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Scroll braille display backward</TD>
+<TD>LF</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>RG</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>UP</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>DN</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>route</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>SLF</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>SRG</TD>
+</TR>
+<TR>
+<TD>alt+tab key</TD>
+<TD>SDN</TD>
+</TR>
+<TR>
+<TD>alt+Skift+tab key</TD>
+<TD>SUP</TD>
+</TR>
+</TABLE>
+
+<A NAME="Baum"></A>
+<H3>15.5. Baum/Humanware/APH/Orbit-leselister</H3>
+
+<P>
+   Several <A HREF="http://www.baum.de/cms/en/">Baum</A>, <A HREF="http://www.humanware.com/">HumanWare</A>, <A HREF="http://www.aph.org/">APH</A>
+   and <A HREF="http://www.orbitresearch.com/">Orbit</A> displays are supported when connected via USB, bluetooth or serial.
+   These include:
+</P>
+
+   <UL>
+   <LI>Baum: SuperVario, PocketVario, VarioUltra, Pronto!, SuperVario2, Vario 340
+   <LI>HumanWare: Brailliant, BrailleConnect, Brailliant2
+   <LI>APH: Refreshabraille
+   <LI>Orbit: Orbit Reader 20
+   </UL>
+
+<P>
+   Some other displays manufactured by Baum may also work, though this has not been tested.
+   If connecting via USB to displays which do not use HID, you must first install the USB drivers provided by the
+   manufacturer.
+   The VarioUltra and Pronto! use HID.
+   The Refreshabraille and Orbit Reader 20 can use HID if configured appropriately.
+   The USB serial mode of the Orbit Reader 20 is currently only supported in Windows 10.
+   USB HID should generally be used instead.
+   Following are the key assignments for these displays with NVDA.
+   Please see your display's documentation for descriptions of where these keys can be found.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>d2</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>d5</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>d1</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>d3</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+</TABLE>
+
+<P>
+   For displays which have a joystick:
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>PilOpp-tast</TD>
+<TD>opp</TD>
+</TR>
+<TR>
+<TD>PilNed-tast</TD>
+<TD>ned</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>left</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>right</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>select</TD>
+</TR>
+</TABLE>
+
+<A NAME="HedoProfiLine"></A>
+<H3>15.6. hedo ProfiLine USB</H3>
+
+<P>
+   The hedo ProfiLine USB from <A HREF="http://www.hedo.de/">hedo Reha-Technik</A> is supported.
+   You must first install the USB drivers provided by the manufacturer.
+   Following are the key assignments for this display with NVDA.
+   Please see the display's documentation for descriptions of where these keys can be found.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>K1</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>K3</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>B2</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>B5</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>K2</TD>
+</TR>
+<TR>
+<TD>Say all</TD>
+<TD>B6</TD>
+</TR>
+</TABLE>
+
+<A NAME="HedoMobilLine"></A>
+<H3>15.7. hedo MobilLine USB</H3>
+
+<P>
+   The hedo MobilLine USB from <A HREF="http://www.hedo.de/">hedo Reha-Technik</A> is supported.
+   You must first install the USB drivers provided by the manufacturer.
+   Following are the key assignments for this display with NVDA.
+   Please see the display's documentation for descriptions of where these keys can be found.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>K1</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>K3</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>B2</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>B5</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>K2</TD>
+</TR>
+<TR>
+<TD>Say all</TD>
+<TD>B6</TD>
+</TR>
+</TABLE>
+
+<A NAME="HumanWareBrailliant"></A>
+<H3>15.8. HumanWare Brailliant BI/B Series / BrailleNote Touch</H3>
+
+<P>
+   The Brailliant BI and B series of displays from <A HREF="http://www.humanware.com/">HumanWare</A>, including the BI 14, BI
+   32, BI 40 and B 80, are supported when connected via USB or bluetooth.
+   If connecting via USB with the protocol set to HumanWare, you must first install the USB drivers provided by
+   the manufacturer.
+   USB drivers are not required if the protocol is set to OpenBraille.
+   The BrailleNote Touch is also supported, and does not require any drivers to be installed.
+   Following are the key assignments for the Brailliant BI/B and BrailleNote touch displays with NVDA.
+   Please see the display's documentation for descriptions of where these keys can be found.
+</P>
+
+<A NAME="toc122"></A>
+<H4>15.8.1. Key assignments for All models</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>venstre</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>høyre</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>up</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>down</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>up+down</TD>
+</TR>
+<TR>
+<TD>PilOpp-tast</TD>
+<TD>mellomrom+punkt1</TD>
+</TR>
+<TR>
+<TD>PilNed-tast</TD>
+<TD>mellomrom+punkt4</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>space+dot3</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>space+dot6</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>space+dot1+dot3</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>space+dot4+dot6</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>space+dot1+dot3+dot4 (space+m)</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>space+dot1+dot5 (space+e)</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>dot8</TD>
+</TR>
+<TR>
+<TD>windows key</TD>
+<TD>space+dot3+dot4</TD>
+</TR>
+<TR>
+<TD>alt+tab key</TD>
+<TD>space+dot2+dot3+dot4+dot5 (space+t)</TD>
+</TR>
+<TR>
+<TD>NVDA-meny</TD>
+<TD>mellomrom+punkt1+punkt3+punkt4+punkt5 (mellomrom+n)</TD>
+</TR>
+<TR>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>space+dot1+dot4+dot5 (space+d)</TD>
+</TR>
+<TR>
+<TD>Say all</TD>
+<TD>space+dot1+dot2+dot3+dot4+dot5+dot6</TD>
+</TR>
+</TABLE>
+
+<A NAME="toc123"></A>
+<H4>15.8.2. Tastetilordninger for Brailliant BI 32, BI 40 og B 80</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>NVDA-meny</TD>
+<TD>c1+c3+c4+c5 (command n)</TD>
+</TR>
+<TR>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>c1+c4+c5 (command d)</TD>
+</TR>
+<TR>
+<TD>Say all</TD>
+<TD>c1+c2+c3+c4+c5+c6</TD>
+</TR>
+</TABLE>
+
+<A NAME="toc124"></A>
+<H4>15.8.3. Tastetilordninger for Brailliant BI 14</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>up arrow key</TD>
+<TD>joystick up</TD>
+</TR>
+<TR>
+<TD>down arrow key</TD>
+<TD>joystick down</TD>
+</TR>
+<TR>
+<TD>left arrow key</TD>
+<TD>joystick left</TD>
+</TR>
+<TR>
+<TD>right arrow key</TD>
+<TD>joystick right</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>joystick action</TD>
+</TR>
+</TABLE>
+
+<A NAME="Hims"></A>
+<H3>15.9. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille-serien</H3>
+
+<P>
+   NVDA supports Braille Sense, Braille EDGE, Smart Beetle and Sync Braille displays from [Hims
+   <A HREF="http://www.hims-inc.com/">http://www.hims-inc.com/</A>] when connected via USB or bluetooth.
+   If connecting via USB, you will need to install the USB drivers from HIMS on your system.
+   You can download these from here: <A HREF="http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip">http://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip</A>
+   Following are the key assignments for these displays with NVDA.
+   Please see the display's documentation for descriptions of where these keys can be found.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>leftSideScrollUp, rightSideScrollUp, leftSideScroll</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>leftSideScrollDown, rightSideScrollDown, rightSideScroll</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>leftSideScrollUp+rightSideScrollUp</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>leftSideScrollDown+rightSideScrollDown</TD>
+</TR>
+<TR>
+<TD>Move to previous line in review</TD>
+<TD>rightSideUpArrow</TD>
+</TR>
+<TR>
+<TD>Move to next line in review</TD>
+<TD>rightSideDownArrow</TD>
+</TR>
+<TR>
+<TD>Move to previous character in review</TD>
+<TD>rightSideLeftArrow</TD>
+</TR>
+<TR>
+<TD>Move to next character in review</TD>
+<TD>rightSideRightArrow</TD>
+</TR>
+<TR>
+<TD>Move to current focus</TD>
+<TD>leftSideScrollUp+leftSideScrollDown, rightSideScrollUp+rightSideScrollDown,</TD>
+</TR>
+</TABLE>
+
+<P>
+   leftSideScroll+rightSideScroll |
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TD>control key</TD>
+<TD>smartbeetle:f1, brailleedge:f3</TD>
+</TR>
+<TR>
+<TD>windows key</TD>
+<TD>f7, smartbeetle:f2</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>dot1+dot3+dot4+space, f2, smartbeetle:f3, brailleedge:f4</TD>
+</TR>
+<TR>
+<TD>shift key</TD>
+<TD>f5</TD>
+</TR>
+<TR>
+<TD>insert key</TD>
+<TD>dot2+dot4+space, f6</TD>
+</TR>
+<TR>
+<TD>applications key</TD>
+<TD>dot1+dot2+dot3+dot4+space, f8</TD>
+</TR>
+<TR>
+<TD>capsLock key</TD>
+<TD>dot1+dot3+dot6+space</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>dot4+dot5+space, f3, brailleedge:f2</TD>
+</TR>
+<TR>
+<TD>shift+alt+tab key</TD>
+<TD>f2+f3+f1</TD>
+</TR>
+<TR>
+<TD>alt+tab key</TD>
+<TD>f2+f3</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>dot1+dot2+space</TD>
+</TR>
+<TR>
+<TD>end key</TD>
+<TD>dot4+dot6+space</TD>
+</TR>
+<TR>
+<TD>control+end key</TD>
+<TD>dot4+dot5+dot6+space</TD>
+</TR>
+<TR>
+<TD>home key</TD>
+<TD>dot1+dot3+space, smartbeetle:f4</TD>
+</TR>
+<TR>
+<TD>control+home key</TD>
+<TD>dot1+dot2+dot3+space</TD>
+</TR>
+<TR>
+<TD>alt+f4 key</TD>
+<TD>dot1+dot3+dot5+dot6+space</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>dot3+space, leftSideLeftArrow</TD>
+</TR>
+<TR>
+<TD>control+Skift+leftArrow key</TD>
+<TD>dot2+dot8+space+f1</TD>
+</TR>
+<TR>
+<TD>control+leftArrow key</TD>
+<TD>dot2+space</TD>
+</TR>
+<TR>
+<TD>shift+alt+leftArrow key</TD>
+<TD>dot2+dot7+f1</TD>
+</TR>
+<TR>
+<TD>alt+leftArrow key</TD>
+<TD>dot2+dot7</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>dot6+space, leftSideRightArrow</TD>
+</TR>
+<TR>
+<TD>control+Skift+rightArrow key</TD>
+<TD>dot5+dot8+space+f1</TD>
+</TR>
+<TR>
+<TD>control+rightArrow key</TD>
+<TD>dot5+space</TD>
+</TR>
+<TR>
+<TD>shift+alt+rightArrow key</TD>
+<TD>dot5+dot7+f1</TD>
+</TR>
+<TR>
+<TD>alt+rightArrow key</TD>
+<TD>dot5+dot7</TD>
+</TR>
+<TR>
+<TD>pageUp key</TD>
+<TD>dot1+dot2+dot6+space</TD>
+</TR>
+<TR>
+<TD>control+pageUp key</TD>
+<TD>dot1+dot2+dot6+dot8+space</TD>
+</TR>
+<TR>
+<TD>PilOpp key</TD>
+<TD>dot1+space, leftSideUpArrow</TD>
+</TR>
+<TR>
+<TD>control+Skift+PilOpp key</TD>
+<TD>dot2+dot3+dot8+space+f1</TD>
+</TR>
+<TR>
+<TD>control+PilOpp key</TD>
+<TD>dot2+dot3+space</TD>
+</TR>
+<TR>
+<TD>shift+alt+PilOpp key</TD>
+<TD>dot2+dot3+dot7+f1</TD>
+</TR>
+<TR>
+<TD>alt+PilOpp key</TD>
+<TD>dot2+dot3+dot7</TD>
+</TR>
+<TR>
+<TD>shift+PilOpp key</TD>
+<TD>leftSideScrollDown+space</TD>
+</TR>
+<TR>
+<TD>pageDown key</TD>
+<TD>dot3+dot4+dot5+space</TD>
+</TR>
+<TR>
+<TD>control+pageDown key</TD>
+<TD>dot3+dot4+dot5+dot8+space</TD>
+</TR>
+<TR>
+<TD>PilNed key</TD>
+<TD>dot4+space, leftSideDownArrow</TD>
+</TR>
+<TR>
+<TD>control+Skift+PilNed key</TD>
+<TD>dot5+dot6+dot8+space+f1</TD>
+</TR>
+<TR>
+<TD>control+PilNed key</TD>
+<TD>dot5+dot6+space</TD>
+</TR>
+<TR>
+<TD>shift+alt+PilNed key</TD>
+<TD>dot5+dot6+dot7+f1</TD>
+</TR>
+<TR>
+<TD>alt+PilNed key</TD>
+<TD>dot5+dot6+dot7</TD>
+</TR>
+<TR>
+<TD>shift+PilNed key</TD>
+<TD>space+rightSideScrollDown</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>dot1+dot5+space, f4, brailleedge:f1</TD>
+</TR>
+<TR>
+<TD>delete key</TD>
+<TD>dot1+dot3+dot5+space, dot1+dot4+dot5+space</TD>
+</TR>
+<TR>
+<TD>f1 key</TD>
+<TD>dot1+dot2+dot5+space</TD>
+</TR>
+<TR>
+<TD>f3 key</TD>
+<TD>dot1+dot2+dot4+dot8</TD>
+</TR>
+<TR>
+<TD>f4 key</TD>
+<TD>dot7+f3</TD>
+</TR>
+<TR>
+<TD>windows+b key</TD>
+<TD>dot1+dot2+f1</TD>
+</TR>
+<TR>
+<TD>windows+d key</TD>
+<TD>dot1+dot4+dot5+f1</TD>
+</TR>
+<TR>
+<TD>control+insert key</TD>
+<TD>smartbeetle:f1+rightSideScroll</TD>
+</TR>
+<TR>
+<TD>alt+insert key</TD>
+<TD>smartbeetle:f3+rightSideScroll</TD>
+</TR>
+</TABLE>
+
+<A NAME="Seika"></A>
+<H3>15.10. Seika leselister</H3>
+
+<P>
+   The Seika Version 3, 4 and 5 (40 cells) and Seika80 (80 cells) braille displays from [Nippon Telesoft
+   <A HREF="http://www.nippontelesoft.com/">http://www.nippontelesoft.com/</A>] are supported.
+   You can find more information about these displays at <A HREF="http://www.seika-braille.com/">http://www.seika-braille.com/</A>.
+   You must first install the USB drivers provided by the manufacturer.
+   Following are the key assignments for this display with NVDA.
+   Please see the display's documentation for descriptions of where these keys can be found.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>venstre</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>høyre</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>b3</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>b4</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>b5</TD>
+</TR>
+<TR>
+<TD>Say all</TD>
+<TD>b6</TD>
+</TR>
+<TR>
+<TD>tab</TD>
+<TD>b1</TD>
+</TR>
+<TR>
+<TD>shift+tab</TD>
+<TD>b2</TD>
+</TR>
+<TR>
+<TD>alt+tab</TD>
+<TD>b1+b2</TD>
+</TR>
+<TR>
+<TD>NVDA-meny</TD>
+<TD>venstre+høyre</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+</TABLE>
+
+<A NAME="Papenmeier"></A>
+<H3>15.11. Papenmeier BRAILLEX nyere modeller</H3>
+
+<P>
+   The following Braille displays are supported:
+</P>
+
+   <UL>
+   <LI>BRAILLEX EL 40c, EL 80c, EL 20c, EL 60c (USB)
+   <LI>BRAILLEX EL 40s, EL 80s, EL 2d80s, EL 70s, EL 66s (USB)
+   <LI>BRAILLEX Trio (USB and bluetooth)
+   <LI>BRAILLEX Live 20, BRAILLEX Live and BRAILLEX Live Plus (USB and bluetooth)
+   </UL>
+
+<P>
+   If BrxCom is installed, NVDA will use BrxCom.
+   BrxCom is a tool that allows keyboard input from the braille display to function independently from a screen
+   reader.
+   A new version of BrxCom which works with NVDA will be released by Papenmeier soon.
+   Keyboard input is possible with the Trio and BRAILLEX Live models.
+   Most devices have an Easy Access Bar (EAB) that allows intuitive and fast operation.
+   The EAB can be moved in four directions where generally each direction has two switches.
+   The C and Live series are the only exceptions to this rule.
+   The c-series and some other displays have two routing rows whereby the upper row is used to report formatting
+   information.
+   Holding one of the upper routing keys and pressing the EAB on c-series devices emulates the second switch
+   state.
+   The live series displays have one routing row only and the EAB has one step per direction.
+   The second step may be emulated by pressing one of the routing keys and pressing the EAB in the corresponding
+   direction.
+   Pressing and holding the up, down, right and left keys (or EAB) causes the corresponding action to be
+   repeated.
+   Generally, the following keys are available on these braille displays:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>l1</TD>
+<TD>Left front key</TD>
+</TR>
+<TR>
+<TD>l2</TD>
+<TD>Left rear key</TD>
+</TR>
+<TR>
+<TD>r1</TD>
+<TD>Right front key</TD>
+</TR>
+<TR>
+<TD>r2</TD>
+<TD>Right rear key</TD>
+</TR>
+<TR>
+<TD>up</TD>
+<TD>1 Step up</TD>
+</TR>
+<TR>
+<TD>up2</TD>
+<TD>2 Steps up</TD>
+</TR>
+<TR>
+<TD>left</TD>
+<TD>1 Step left</TD>
+</TR>
+<TR>
+<TD>left2</TD>
+<TD>2 Steps left</TD>
+</TR>
+<TR>
+<TD>right</TD>
+<TD>1 Step right</TD>
+</TR>
+<TR>
+<TD>right2</TD>
+<TD>2 Steps right</TD>
+</TR>
+<TR>
+<TD>dn</TD>
+<TD>1 Step down</TD>
+</TR>
+<TR>
+<TD>dn2</TD>
+<TD>2 Steps down</TD>
+</TR>
+</TABLE>
+
+<P>
+   Following are the Papenmeier command assignments for NVDA:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>venstre</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>høyre</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>up</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>dn</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Report current character in review</TD>
+<TD>l1</TD>
+</TR>
+<TR>
+<TD>Activate current navigator object</TD>
+<TD>l2</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>r2</TD>
+</TR>
+<TR>
+<TD>Report title</TD>
+<TD>l1+up</TD>
+</TR>
+<TR>
+<TD>Report Status Bar</TD>
+<TD>l2+down</TD>
+</TR>
+<TR>
+<TD>Move to containing object</TD>
+<TD>up2</TD>
+</TR>
+<TR>
+<TD>Move to first contained object</TD>
+<TD>dn2</TD>
+</TR>
+<TR>
+<TD>Move to previous object</TD>
+<TD>left2</TD>
+</TR>
+<TR>
+<TD>Move to next object</TD>
+<TD>right2</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing row</TD>
+</TR>
+</TABLE>
+
+<P>
+   The Trio model has four additional keys which are in front of the braille keyboard.
+   These are (ordered from left to right):
+</P>
+
+   <UL>
+   <LI>left thumb key (lt)
+   <LI>space
+   <LI>space
+   <LI>right thumb key (rt)
+   </UL>
+
+<P>
+   Currently, the right thumb key is not in use.
+   The inner keys are both mapped to space.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>space with dot 7</TD>
+</TR>
+<TR>
+<TD>PilOpp key</TD>
+<TD>space with dot 2</TD>
+</TR>
+<TR>
+<TD>leftArrow key</TD>
+<TD>space with dot 1</TD>
+</TR>
+<TR>
+<TD>rightArrow key</TD>
+<TD>space with dot 4</TD>
+</TR>
+<TR>
+<TD>PilNed</TD>
+<TD>space with dot 5</TD>
+</TR>
+<TR>
+<TD>control key</TD>
+<TD>lt+dot2</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>lt+dot3</TD>
+</TR>
+<TR>
+<TD>control+escape key</TD>
+<TD>space with dot 1 2 3 4 5 6</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>space with dot 3 7</TD>
+</TR>
+</TABLE>
+
+<A NAME="PapenmeierOld"></A>
+<H3>15.12. Papenmeier Braille BRAILLEX eldre modeller</H3>
+
+<P>
+   The following Braille displays are supported:
+</P>
+
+   <UL>
+   <LI>BRAILLEX EL 80, EL 2D-80, EL 40 P
+   <LI>BRAILLEX Tiny, 2D Screen
+   </UL>
+
+<P>
+   Note that these displays can only be connected via a serial port.
+   Therefore, you should select the port to which the display is connected after you have chosen this driver in
+   the <A HREF="#SelectBrailleDisplay">Select Braille Display</A> dialog.
+   Some of these devices have an Easy Access Bar (EAB) that allows intuitive and fast operation.
+   The EAB can be moved in four directions where generally each direction has two switches.
+   Pressing and holding the up, down, right and left keys (or EAB) causes the corresponding action to be
+   repeated.
+   Older devices do not have an EAB; front keys are used instead.
+   Generally, the following keys are available on braille displays:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>l1</TD>
+<TD>Left front key</TD>
+</TR>
+<TR>
+<TD>l2</TD>
+<TD>Left rear key</TD>
+</TR>
+<TR>
+<TD>r1</TD>
+<TD>Right front key</TD>
+</TR>
+<TR>
+<TD>r2</TD>
+<TD>Right rear key</TD>
+</TR>
+<TR>
+<TD>up</TD>
+<TD>1 Step up</TD>
+</TR>
+<TR>
+<TD>up2</TD>
+<TD>2 Steps up</TD>
+</TR>
+<TR>
+<TD>left</TD>
+<TD>1 Step left</TD>
+</TR>
+<TR>
+<TD>left2</TD>
+<TD>2 Steps left</TD>
+</TR>
+<TR>
+<TD>right</TD>
+<TD>1 Step right</TD>
+</TR>
+<TR>
+<TD>right2</TD>
+<TD>2 Steps right</TD>
+</TR>
+<TR>
+<TD>dn</TD>
+<TD>1 Step down</TD>
+</TR>
+<TR>
+<TD>dn2</TD>
+<TD>2 Steps down</TD>
+</TR>
+</TABLE>
+
+<P>
+   Following are the Papenmeier command assignments for NVDA:
+   %kc:beginInclude
+   Devices with EAB:
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>left</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>right</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>up</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>dn</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Report current character in review</TD>
+<TD>l1</TD>
+</TR>
+<TR>
+<TD>Activate current navigator object</TD>
+<TD>l2</TD>
+</TR>
+<TR>
+<TD>Report title</TD>
+<TD>l1up</TD>
+</TR>
+<TR>
+<TD>Report Status Bar</TD>
+<TD>l2down</TD>
+</TR>
+<TR>
+<TD>Move to containing object</TD>
+<TD>up2</TD>
+</TR>
+<TR>
+<TD>Move to first contained object</TD>
+<TD>dn2</TD>
+</TR>
+<TR>
+<TD>Move to next object</TD>
+<TD>right2</TD>
+</TR>
+<TR>
+<TD>Move to previous object</TD>
+<TD>left2</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
+</TR>
+</TABLE>
+
+<P>
+   BRAILLEX Tiny:
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Report current character in review</TD>
+<TD>l1</TD>
+</TR>
+<TR>
+<TD>Activate current navigator object</TD>
+<TD>l2</TD>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>left</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>right</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>up</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>dn</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>r2</TD>
+</TR>
+<TR>
+<TD>Move to containing object</TD>
+<TD>r1+up</TD>
+</TR>
+<TR>
+<TD>Move to first contained object</TD>
+<TD>r1+dn</TD>
+</TR>
+<TR>
+<TD>Move to previous object</TD>
+<TD>r1+left</TD>
+</TR>
+<TR>
+<TD>Move to next object</TD>
+<TD>r1+right</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
+</TR>
+<TR>
+<TD>Report title</TD>
+<TD>l1+up</TD>
+</TR>
+<TR>
+<TD>Report status bar</TD>
+<TD>l2+down</TD>
+</TR>
+</TABLE>
+
+<P>
+   BRAILLEX 2D Screen:
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Report current character in review</TD>
+<TD>l1</TD>
+</TR>
+<TR>
+<TD>Activate current navigator object</TD>
+<TD>l2</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>r2</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>up</TD>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>left</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>right</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>dn</TD>
+</TR>
+<TR>
+<TD>Move to next object</TD>
+<TD>left2</TD>
+</TR>
+<TR>
+<TD>Move to containing object</TD>
+<TD>up2</TD>
+</TR>
+<TR>
+<TD>Move to first contained object</TD>
+<TD>dn2</TD>
+</TR>
+<TR>
+<TD>Move to previous object</TD>
+<TD>right2</TD>
+</TR>
+</TABLE>
+
+<P>
+   %kc:endInclude
+</P>
+
+<A NAME="HumanWareBrailleNote"></A>
+<H3>15.13. HumanWare BrailleNote</H3>
+
+<P>
+   NVDA supports the BrailleNote notetakers from <A HREF="http://www.humanware.com">Humanware</A> when acting as a display
+   terminal for a screen reader.
+   The following models are supported:
+</P>
+
+   <UL>
+   <LI>BrailleNote Classic (serial connection only)
+   <LI>BrailleNote PK (Serial and bluetooth connections)
+   <LI>BrailleNote MPower (Serial and bluetooth connections)
+   <LI>BrailleNote Apex (USB and Bluetooth connections)
+   </UL>
+
+<P>
+   For BrailleNote Touch, please refer to the <A HREF="HumanWareBrailliant">Brailliant BI Series / BrailleNote Touch</A>
+   section.
+   Except for BrailleNote PK, both braille (BT) and QWERTY (QT) keyboards are supported.
+   For BrailleNote QT, PC keyboard emulation isn't supported.
+   You can also enter braille dots using the QT keyboard.
+   Please check the braille terminal section of the BrailleNote manual guide for details.
+   If your device supports more than one type of connection, when connecting your BrailleNote to NVDA, you must
+   set the braille terminal port in braille terminal options.
+   Please check the BrailleNote manual for details.
+   In NVDA, you may also need to set the port in the <A HREF="#SelectBrailleDisplay">Select Braille Display</A> dialog.
+   If you are connecting via USB or bluetooth, you can set the port to "Automatic", "USB" or "Bluetooth",
+   depending on the available choices.
+   If connecting using a legacy serial port (or a USB to serial converter) or if none of the previous options
+   appear, you must explicitly choose the communication port to be used from the list of hardware ports.
+   Before connecting your BrailleNote Apex using its USB client interface, you must install the drivers provided
+   by HumanWare.
+   On the BrailleNote Apex BT, you can use the scroll wheel located between dots 1 and 4 for various NVDA
+   commands.
+   The wheel consists of four directional dots, a center click button, and a wheel that spins clockwise or
+   counterclockwise.
+   Following are the BrailleNote command assignments for NVDA.
+   Please check your BrailleNote's documentation to find where these keys are located.
+   %kc:beginInclude
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>back</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>advance</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>previous</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>next</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>NvDA menu</TD>
+<TD>space+dot1+dot3+dot4+dot5 (space+n)</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>previous+next</TD>
+</TR>
+<TR>
+<TD>Up arrow key</TD>
+<TD>space+dot1</TD>
+</TR>
+<TR>
+<TD>Down arrow key</TD>
+<TD>space+dot4</TD>
+</TR>
+<TR>
+<TD>Left Arrow key</TD>
+<TD>space+dot3</TD>
+</TR>
+<TR>
+<TD>Right arrow key</TD>
+<TD>space+dot6</TD>
+</TR>
+<TR>
+<TD>Page up key</TD>
+<TD>space+dot1+dot3</TD>
+</TR>
+<TR>
+<TD>Page down key</TD>
+<TD>space+dot4+dot6</TD>
+</TR>
+<TR>
+<TD>Home key</TD>
+<TD>space+dot1+dot2</TD>
+</TR>
+<TR>
+<TD>End key</TD>
+<TD>space+dot4+dot5</TD>
+</TR>
+<TR>
+<TD>Control+home keys</TD>
+<TD>space+dot1+dot2+dot3</TD>
+</TR>
+<TR>
+<TD>Control+end keys</TD>
+<TD>space+dot4+dot5+dot6</TD>
+</TR>
+<TR>
+<TD>Space key</TD>
+<TD>space</TD>
+</TR>
+<TR>
+<TD>Enter</TD>
+<TD>space+dot8</TD>
+</TR>
+<TR>
+<TD>Backspace</TD>
+<TD>space+dot7</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>space+dot2+dot3+dot4+dot5 (space+t)</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>space+dot1+dot2+dot5+dot6</TD>
+</TR>
+<TR>
+<TD>Windows key</TD>
+<TD>space+dot2+dot4+dot5+dot6 (space+w)</TD>
+</TR>
+<TR>
+<TD>Alt key</TD>
+<TD>space+dot1+dot3+dot4 (space+m)</TD>
+</TR>
+<TR>
+<TD>Toggle input help</TD>
+<TD>space+dot2+dot3+dot6 (space+lower h)</TD>
+</TR>
+</TABLE>
+
+<P>
+   Following are commands assigned to BrailleNote QT when it is not in braille input mode.
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>NvDA menu</TD>
+<TD>read+n</TD>
+</TR>
+<TR>
+<TD>Up arrow key</TD>
+<TD>PilOpp</TD>
+</TR>
+<TR>
+<TD>Down arrow key</TD>
+<TD>PilNed</TD>
+</TR>
+<TR>
+<TD>Left Arrow key</TD>
+<TD>leftArrow|</TD>
+</TR>
+<TR>
+<TD>Right arrow key</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Page up key</TD>
+<TD>function+PilOpp</TD>
+</TR>
+<TR>
+<TD>Page down key</TD>
+<TD>function+PilNed</TD>
+</TR>
+<TR>
+<TD>Home key</TD>
+<TD>function+leftArrow</TD>
+</TR>
+<TR>
+<TD>End key</TD>
+<TD>function+rightArrow</TD>
+</TR>
+<TR>
+<TD>Control+home keys</TD>
+<TD>read+t</TD>
+</TR>
+<TR>
+<TD>Control+end keys</TD>
+<TD>read+b</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>enter</TD>
+</TR>
+<TR>
+<TD>Backspace key</TD>
+<TD>backspace</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>tab</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>shift+tab</TD>
+</TR>
+<TR>
+<TD>Windows key</TD>
+<TD>read+w</TD>
+</TR>
+<TR>
+<TD>Alt key</TD>
+<TD>read+m</TD>
+</TR>
+<TR>
+<TD>Toggle input help</TD>
+<TD>read+1</TD>
+</TR>
+</TABLE>
+
+<P>
+   Following are commands assigned to the scroll wheel:
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Up arrow key</TD>
+<TD>PilOpp</TD>
+</TR>
+<TR>
+<TD>Down arrow key</TD>
+<TD>PilNed</TD>
+</TR>
+<TR>
+<TD>Left Arrow key</TD>
+<TD>leftArrow</TD>
+</TR>
+<TR>
+<TD>Right arrow key</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>center button</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>scroll wheel clockwise</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>scroll wheel counterclockwise</TD>
+</TR>
+</TABLE>
+
+<P>
+   %kc:endInclude
+</P>
+
+<A NAME="EcoBraille"></A>
+<H3>15.14. EcoBraille</H3>
+
+<P>
+   NVDA supports EcoBraille displays from <A HREF="http://www.once.es/">ONCE</A>.
+   The following models are supported:
+</P>
+
+   <UL>
+   <LI>EcoBraille 20
+   <LI>EcoBraille 40
+   <LI>EcoBraille 80
+   <LI>EcoBraille Plus
+   </UL>
+
+<P>
+   In NVDA, you can set the serial port to which the display is connected in the [Select Braille Display
+   #SelectBrailleDisplay] dialog.
+   Following are the key assignments for EcoBraille displays.
+   Please see the <A HREF="ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braille/ECO/">EcoBraille documentation</A> for
+   descriptions of where these keys can be found.
+   %kc:beginInclude
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>T2</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>T4</TD>
+</TR>
+<TR>
+<TD>Move braille display to previous line</TD>
+<TD>T1</TD>
+</TR>
+<TR>
+<TD>Move braille display to next line</TD>
+<TD>T5</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>Routing</TD>
+</TR>
+<TR>
+<TD>Activate current navigator object</TD>
+<TD>T3</TD>
+</TR>
+<TR>
+<TD>Switch to next review mode</TD>
+<TD>F1</TD>
+</TR>
+<TR>
+<TD>Move to containing object</TD>
+<TD>F2</TD>
+</TR>
+<TR>
+<TD>Switch to previous review mode</TD>
+<TD>F3</TD>
+</TR>
+<TR>
+<TD>Move to previous object</TD>
+<TD>F4</TD>
+</TR>
+<TR>
+<TD>Report current object</TD>
+<TD>F5</TD>
+</TR>
+<TR>
+<TD>Move to next object</TD>
+<TD>F6</TD>
+</TR>
+<TR>
+<TD>Move to focus object</TD>
+<TD>F7</TD>
+</TR>
+<TR>
+<TD>Move to first contained object</TD>
+<TD>F8</TD>
+</TR>
+<TR>
+<TD>Move System focus or caret to current review position</TD>
+<TD>F9</TD>
+</TR>
+<TR>
+<TD>Report review cursor location</TD>
+<TD>F0</TD>
+</TR>
+<TR>
+<TD>Toggle braille tethered to</TD>
+<TD>A</TD>
+</TR>
+</TABLE>
+
+<P>
+   %kc:endInclude
+</P>
+
+<A NAME="SuperBraille"></A>
+<H3>15.15. SuperBraille</H3>
+
+<P>
+   The SuperBraille device, mostly available in Taiwan, can be connected to by either USB or serial.
+   As the SuperBraille does not have any physical typing keys or scrolling buttons, all input must be performed
+   via a standard computer keyboard.
+   Due to this, and to maintain compatibility with other screen readers in Taiwan, two key bindings for scrolling
+   the braille display have been provided:
+   %kc:beginInclude
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>numerisk minus</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>numerisk pluss</TD>
+</TR>
+</TABLE>
+
+<P>
+   %kc:endInclude
+</P>
+
+<A NAME="Eurobraille"></A>
+<H3>15.16. Eurobraille Esys/Esytime/Iris leselister</H3>
+
+<P>
+   The Esys, Esytime and Iris displays from <A HREF="http://www.eurobraille.fr/">Eurobraille</A> are supported by NVDA.
+   Esys and Esytime-Evo devices are supported when connected via USB or bluetooth.
+   Older Esytime devices only support USB.
+   Iris displays can only be connected via a serial port.
+   Therefore, for these displays, you should select the port to which the display is connected after you have
+   chosen this driver in the Braille Settings dialog.
+   Iris and Esys displays have a braille keyboard with 10 keys.
+   Of the two keys placed like a space bar, the left key is corresponding to the backspace key and the right key
+   to the space key.
+   Following are the key assignments for these displays with NVDA.
+   Please see the display's documentation for descriptions of where these keys can be found.
+   %kc:beginInclude
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>Tast</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>switch1-6left, l1</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>switch1-6Right, l8</TD>
+</TR>
+<TR>
+<TD>Move to current focus</TD>
+<TD>switch1-6Left+switch1-6Right, l1+l8</TD>
+</TR>
+<TR>
+<TD>Route to braille cell</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>doubleRouting</TD>
+</TR>
+<TR>
+<TD>Move to previous line in review</TD>
+<TD>joystick1Up</TD>
+</TR>
+<TR>
+<TD>Move to next line in review</TD>
+<TD>joystick1Down</TD>
+</TR>
+<TR>
+<TD>Move to previous character in review</TD>
+<TD>joystick1Left</TD>
+</TR>
+<TR>
+<TD>Move to next character in review</TD>
+<TD>joystick1Right</TD>
+</TR>
+<TR>
+<TD>Switch to previous review mode</TD>
+<TD>joystick1Left+joystick1Up</TD>
+</TR>
+<TR>
+<TD>Switch to next review mode</TD>
+<TD>joystick1Right+joystick1Down</TD>
+</TR>
+<TR>
+<TD>Erase the last entered braille cell or character</TD>
+<TD>backSpace</TD>
+</TR>
+<TR>
+<TD>Translate any braille input and press the enter key</TD>
+<TD>backSpace+space</TD>
+</TR>
+<TR>
+<TD>insert key</TD>
+<TD>dot3+dot5+space, l7</TD>
+</TR>
+<TR>
+<TD>delete key</TD>
+<TD>dot3+dot6+space</TD>
+</TR>
+<TR>
+<TD>home key</TD>
+<TD>dot1+dot2+dot3+space, joystick2Left+joystick2Up</TD>
+</TR>
+<TR>
+<TD>end key</TD>
+<TD>dot4+dot5+dot6+space, joystick2Right+joystick2Down</TD>
+</TR>
+<TR>
+<TD>PilVenstre</TD>
+<TD>dot2+space, joystick2Left, leftArrow</TD>
+</TR>
+<TR>
+<TD>PilHøyre</TD>
+<TD>dot5+space, joystick2Right, rightArrow</TD>
+</TR>
+<TR>
+<TD>Pil</TD>
+<TD>dot1+space, joystick2Up, PilOpp</TD>
+</TR>
+<TR>
+<TD>PilNed key</TD>
+<TD>dot6+space, joystick2Down, PilNed</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>joystick2Center</TD>
+</TR>
+<TR>
+<TD>pageUp key</TD>
+<TD>dot1+dot3+space</TD>
+</TR>
+<TR>
+<TD>pageDown key</TD>
+<TD>dot4+dot6+space</TD>
+</TR>
+<TR>
+<TD>numerisk 1</TD>
+<TD>dot1+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numerisk 2</TD>
+<TD>dot1+dot2+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numerisk 3</TD>
+<TD>dot1+dot4+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad4 key</TD>
+<TD>dot1+dot4+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad5 key</TD>
+<TD>dot1+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad6 key</TD>
+<TD>dot1+dot2+dot4+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad7 key</TD>
+<TD>dot1+dot2+dot4+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad8 key</TD>
+<TD>dot1+dot2+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpad9 key</TD>
+<TD>dot2+dot4+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpadInsert key</TD>
+<TD>dot3+dot4+dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpadDecimal key</TD>
+<TD>dot2+backspace</TD>
+</TR>
+<TR>
+<TD>numpadDivide key</TD>
+<TD>dot3+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>numpadMultiply key</TD>
+<TD>dot3+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>numpadMinus key</TD>
+<TD>dot3+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>numpadPlus key</TD>
+<TD>dot2+dot3+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>numpadEnter key</TD>
+<TD>dot3+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>escape key</TD>
+<TD>dot1+dot2+dot4+dot5+space, l2</TD>
+</TR>
+<TR>
+<TD>tab key</TD>
+<TD>dot2+dot5+dot6+space, l3</TD>
+</TR>
+<TR>
+<TD>shift+tab key</TD>
+<TD>dot2+dot3+dot5+space</TD>
+</TR>
+<TR>
+<TD>printScreen key</TD>
+<TD>dot1+dot3+dot4+dot6+space</TD>
+</TR>
+<TR>
+<TD>pause key</TD>
+<TD>dot1+dot4+space</TD>
+</TR>
+<TR>
+<TD>applications key</TD>
+<TD>dot5+dot6+backspace</TD>
+</TR>
+<TR>
+<TD>f1 key</TD>
+<TD>dot1+backspace</TD>
+</TR>
+<TR>
+<TD>f2 key</TD>
+<TD>dot1+dot2+backspace</TD>
+</TR>
+<TR>
+<TD>f3 key</TD>
+<TD>dot1+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>f4 key</TD>
+<TD>dot1+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f5 key</TD>
+<TD>dot1+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f6 key</TD>
+<TD>dot1+dot2+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>f7 key</TD>
+<TD>dot1+dot2+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f8 key</TD>
+<TD>dot1+dot2+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f9 key</TD>
+<TD>dot2+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>f10 key</TD>
+<TD>dot2+dot4+dot5+backspace</TD>
+</TR>
+<TR>
+<TD>f11 key</TD>
+<TD>dot1+dot3+backspace</TD>
+</TR>
+<TR>
+<TD>f12 key</TD>
+<TD>dot1+dot2+dot3+backspace</TD>
+</TR>
+<TR>
+<TD>windows key</TD>
+<TD>dot1+dot2+dot3+dot4+backspace</TD>
+</TR>
+<TR>
+<TD>capsLock key</TD>
+<TD>dot7+backspace, dot8+backspace</TD>
+</TR>
+<TR>
+<TD>numLock key</TD>
+<TD>dot3+backspace, dot6+backspace</TD>
+</TR>
+<TR>
+<TD>shift key</TD>
+<TD>dot7+space, l4</TD>
+</TR>
+<TR>
+<TD>Toggle shift key</TD>
+<TD>dot1+dot7+space, dot4+dot7+space</TD>
+</TR>
+<TR>
+<TD>control key</TD>
+<TD>dot7+dot8+space, l5</TD>
+</TR>
+<TR>
+<TD>Toggle control key</TD>
+<TD>dot1+dot7+dot8+space, dot4+dot7+dot8+space</TD>
+</TR>
+<TR>
+<TD>alt key</TD>
+<TD>dot8+space, l6</TD>
+</TR>
+<TR>
+<TD>Toggle alt key</TD>
+<TD>dot1+dot8+space, dot4+dot8+space</TD>
+</TR>
+<TR>
+<TD>ToggleHID keyboard input simulation</TD>
+<TD>esytime):l1+joystick1Down, esytime):l8+joystick1Down</TD>
+</TR>
+</TABLE>
+
+<A NAME="BRLTTY"></A>
+<H3>15.17. BRLTTY</H3>
+
+<P>
+<A HREF="http://www.brltty.com/">BRLTTY</A> er et separat program som kan brukes til å støtte flere leselister.
+</P>
+<P>
+For å kunne bruke dette programmet, må du installere <A HREF="http://www.brltty.com/download.html">BRLTTY for Windows</A>. Du bør laste ned og installere den nyeste installasjonspakken, som vil  hete noe slikt som brltty-win-5.2-2.exe.
+</P>
+<P>
+Når du konfigurerer leselisten og porten som skal brukes, så følg nøye med på introduksjonene, særlig om du har en USB-leselist og allerede har installert produsentens drivere.
+</P>
+<P>
+For leselister som har punktskrifttastatur, støtter BRLTTY nå skriving av punktskrift selv. Derfor er NVDAs valg for inndatatabell ikke relevant i et slikt tilfelle. 
+</P>
+<P>
+Her er BRLTTYs kommandotilordninger for NVDA. Vennligst se <A HREF="http://mielke.cc/brltty/doc/KeyBindings/">BRLTTY key binding lists</A> for informasjon om hvordan BRLTTY-kommandoer er knyttet til knapper og kontroller på leselister.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Navn</TH>
+<TH>BRLTTY-kommando</TH>
+</TR>
+<TR>
+<TD>Gå bakover med leselisten</TD>
+<TD>fwinlt (gå til venstre ett vindu)</TD>
+</TR>
+<TR>
+<TD>Gå framover med leselisten</TD>
+<TD>fwinrt (gå til høyre ett vindu)</TD>
+</TR>
+<TR>
+<TD>Flytt leselisten til forrige linje</TD>
+<TD>lnup (gå opp en linje)</TD>
+</TR>
+<TR>
+<TD>Flytt leselisten til neste linje</TD>
+<TD>lndn (gå ned en linje)</TD>
+</TR>
+<TR>
+<TD>Hent markør til punktskriftcelle</TD>
+<TD>route (bring markør til tegn)</TD>
+</TR>
+</TABLE>
+
+<A NAME="AdvancedTopics"></A>
+<H2>16. Avanserte temaer</H2>
+
+<A NAME="CommandLineOptions"></A>
+<H3>16.1. Kommandolinjevalg</H3>
+
+<P>
+   NVDA can accept one or more additional options when it starts which alter its behavior.
+   You can pass as many options as you need.
+   These options can be passed when starting from a shortcut (in the shortcut properties), from the Run dialog
+   (Start Menu -&gt; Run or Windows+r) or from a Windows command console.
+   Options should be separated from the name of NVDA's executable file and from other options by spaces.
+   For example, the Desktop shortcut that NVDA creates during installation has the -r option, which tells NVDA to
+   close the currently running copy before starting the new one.
+   Another useful option is --disable-addons, which tells NVDA to suspend all running add-ons.
+   This allows you to determine whether a problem is caused by an add-on and to recover from serious problems
+   caused by add-ons.
+   As an example, you can exit the currently running copy of NVDA by entering the following in the Run dialog:
+   nvda -q
+   Some of the command line options have a short and a long version, while some of them have only a long version.
+   For those which have a short version, you can combine them like this:
+</P>
+
+<TABLE ALIGN="center" CELLPADDING="4">
+<TR>
+<TD>nvda -rm</TD>
+<TD>This will exit the currently running copy of NVDA and will start a new copy with startup sounds</TD>
+</TR>
+</TABLE>
+
+<P>
+   disabled, etc. |
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TD>nvda -rm --disable-addons</TD>
+<TD>Same as above, but with add-ons disabled</TD>
+</TR>
+</TABLE>
+
+<P>
+   Some of the command line options accept additional parameters; e.g. how detailed the logging should be or the
+   path to the user configuration directory.
+   Those parameters should be placed after the option, separated from the option by a space when using the short
+   version or an equals sign (=) when using the long version; e.g.:
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TD>nvda -l 10</TD>
+<TD>Tells NVDA to start with log level set to debug</TD>
+</TR>
+<TR>
+<TD>nvda --log-file=c:\nvda.log</TD>
+<TD>Tells NVDA to write its log to c:\nvda.log</TD>
+</TR>
+<TR>
+<TD>nvda --log-level=20 -f c:\nvda.log</TD>
+<TD>Tells NVDA to start with log level set to info and to write its log to</TD>
+</TR>
+</TABLE>
+
+<P>
+   c:\nvda.log |
+   Following are the command line options for NVDA:
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Short</TH>
+<TH>Long</TH>
+<TH>Beskrivelse</TH>
+</TR>
+<TR>
+<TD>-h</TD>
+<TD>--help</TD>
+<TD>show command line help and exit</TD>
+</TR>
+<TR>
+<TD>-q</TD>
+<TD>--quit</TD>
+<TD>Quit already running copy of NVDA</TD>
+</TR>
+<TR>
+<TD>-r</TD>
+<TD>--replace</TD>
+<TD>Quit already running copy of NVDA and start this one</TD>
+</TR>
+<TR>
+<TD>-k</TD>
+<TD>--check-running</TD>
+<TD>Report whether NVDA is running via the exit code; 0 if running, 1 if not running</TD>
+</TR>
+<TR>
+<TD>-f LOGFILENAME</TD>
+<TD>--log-file=LOGFILENAME</TD>
+<TD>The file where log messages should be written to</TD>
+</TR>
+<TR>
+<TD>-l LOGLEVEL</TD>
+<TD>--log-level=LOGLEVEL</TD>
+<TD>The lowest level of message logged (debug 10, info 20, warning 30,</TD>
+</TR>
+</TABLE>
+
+<P>
+   error 40, critical 50), default is warning |
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TD>-c CONFIGPATH</TD>
+<TD>--config-path=CONFIGPATH</TD>
+<TD>The path where all settings for NVDA are stored</TD>
+</TR>
+<TR>
+<TD>-m</TD>
+<TD>--minimal</TD>
+<TD>No sounds, no interface, no start message, etc.</TD>
+</TR>
+<TR>
+<TD>-s</TD>
+<TD>--secure</TD>
+<TD>Secure mode (disable Python console)</TD>
+</TR>
+<TR>
+<TD>None</TD>
+<TD>--disable-addons</TD>
+<TD>Addons will have no effect</TD>
+</TR>
+<TR>
+<TD>None</TD>
+<TD>--debug-logging</TD>
+<TD>Enable debug level logging just for this run. This setting will override any other</TD>
+</TR>
+</TABLE>
+
+<P>
+   log level ( --loglevel, -l) argument given. |
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TD>None</TD>
+<TD>--no-sr-flag</TD>
+<TD>Don't change the global system screen reader flag</TD>
+</TR>
+<TR>
+<TD>None</TD>
+<TD>--install</TD>
+<TD>Installs NVDA (starting the newly installed copy)</TD>
+</TR>
+<TR>
+<TD>None</TD>
+<TD>--install-silent</TD>
+<TD>Silently installs NVDA (does not start the newly installed copy)</TD>
+</TR>
+<TR>
+<TD>None</TD>
+<TD>--create-portable</TD>
+<TD>Creates a portable copy of NVDA (starting the newly created copy). Requires</TD>
+</TR>
+</TABLE>
+
+<P>
+   --portable-path to be specified |
+</P>
+
+<TABLE ALIGN="center" CELLPADDING="4">
+<TR>
+<TD>None</TD>
+<TD>--create-portable-silent</TD>
+<TD>Creates a portable copy of NVDA (does not start the newly installed copy).</TD>
+</TR>
+</TABLE>
+
+<P>
+   Requires --portable-path to be specified |
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TD>None</TD>
+<TD>--portable-path=PORTABLEPATH</TD>
+<TD>The path where a portable copy will be created</TD>
+</TR>
+</TABLE>
+
+<A NAME="SystemWideParameters"></A>
+<H3>16.2. Systeminnstillinger</H3>
+
+<P>
+   NVDA allows some values to be set in the system registry which alter the system wide behavior of NVDA.
+   These values are stored in the registry under one of the following keys:
+</P>
+
+   <UL>
+   <LI>32-bit system: "HKEY_LOCAL_MACHINE\SOFTWARE\nvda"
+   <LI>64-bit system: "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\nvda"
+   </UL>
+
+<P>
+   The following values can be set under this registry key:
+</P>
+
+<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Type</TH>
+<TH>Possible values</TH>
+<TH>Beskrivelse</TH>
+</TR>
+<TR>
+<TD>configInLocalAppData</TD>
+<TD>DWORD</TD>
+<TD>0 (default) to disable, 1 to enable</TD>
+<TD>If enabled, stores the NVDA user</TD>
+</TR>
+</TABLE>
+
+<P>
+   configuration in the local application data instead of the roaming application data |
+</P>
+
+<TABLE ALIGN="center" CELLPADDING="4">
+<TR>
+<TD>serviceDebug</TD>
+<TD>DWORD</TD>
+<TD>0 (default) to disable, 1 to enable</TD>
+<TD>If enabled, disables secure mode on windows</TD>
+</TR>
+</TABLE>
+
+<P>
+   secure desktops, allowing the use of the Python console and Log viewer. Due to several major security
+   implications, the use of this option is strongly discouraged |
+</P>
+
+<A NAME="FurtherInformation"></A>
+<H2>17. Mer informasjon</H2>
+
+<P>
+Trenger du mer informasjon eller assistanse angående NVDA, anbefaler vi at du besøker NVDAs nettsted på <A HREF="https://github.com/nvaccess/nvda/">https://github.com/nvaccess/nvda/</A>. Her vil du finne tilleggsdokumentasjon, så vel som teknisk støtte og ressurser fra NVDA-samfunnet.
+</P>
+<P>
+Dette nettstedet tilbyr også informasjon og ressurser angående utviklingen av NVDA.
+</P>
+
+<!-- html code generated by txt2tags 2.6 (http://txt2tags.org) -->
 <!-- cmdline: txt2tags -q userGuide.t2t -->
 </BODY></HTML>
