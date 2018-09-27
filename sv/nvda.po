@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-21 00:10+1000\n"
+"POT-Creation-Date: 2018-09-28 00:10+1000\n"
 "PO-Revision-Date: 2018-07-22 17:38+0200\n"
 "Last-Translator: Niklas Johansson <sleeping.pillow@gmail.com>\n"
 "Language-Team: sv\n"
@@ -2241,7 +2241,7 @@ msgstr "stycke"
 
 #. Translators: Presented for a section in a document which is a block quotation;
 #. i.e. a long quotation in a separate paragraph distinguished by indentation, etc.
-#. See https://en.wikipedia.org/wiki/Block_quotation
+#. See http://en.wikipedia.org/wiki/Block_quotation
 msgid "block quote"
 msgstr "blockcitat"
 
@@ -4603,7 +4603,7 @@ msgstr "Diverse"
 #. This should normally be left as is, but might be changed for some locales
 #. if the default key causes problems for the normal locale keyboard layout.
 #. The key must be formatted as described in this article:
-#. https://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
+#. http://msdn.microsoft.com/en-us/library/3zb1shc6%28v=vs.84%29.aspx
 msgid "CTRL+ALT+N"
 msgstr "CTRL+ALT+N"
 
@@ -6418,18 +6418,18 @@ msgid "no italic"
 msgstr "ingen kursivering"
 
 #. Translators: Reported when text is formatted with double strikethrough.
-#. See https://en.wikipedia.org/wiki/Strikethrough
+#. See http://en.wikipedia.org/wiki/Strikethrough
 #, fuzzy
 msgid "double strikethrough"
 msgstr "ingen genomstrykning"
 
 #. Translators: Reported when text is formatted with strikethrough.
-#. See https://en.wikipedia.org/wiki/Strikethrough
+#. See http://en.wikipedia.org/wiki/Strikethrough
 msgid "strikethrough"
 msgstr "genomstruken"
 
 #. Translators: Reported when text is formatted without strikethrough.
-#. See https://en.wikipedia.org/wiki/Strikethrough
+#. See http://en.wikipedia.org/wiki/Strikethrough
 msgid "no strikethrough"
 msgstr "ingen genomstrykning"
 
@@ -6459,12 +6459,12 @@ msgid "align right"
 msgstr "högerjusterad"
 
 #. Translators: Reported when text is justified.
-#. See https://en.wikipedia.org/wiki/Typographic_alignment#Justified
+#. See http://en.wikipedia.org/wiki/Typographic_alignment#Justified
 msgid "align justify"
 msgstr "justerad"
 
 #. Translators: Reported when text is justified with character spacing (Japanese etc)
-#. See https://kohei.us/2010/01/21/distributed-text-justification/
+#. See http://kohei.us/2010/01/21/distributed-text-justification/
 msgid "align distributed"
 msgstr "distribuerad justering"
 
@@ -6896,7 +6896,7 @@ msgstr "En gratis skärmläsare för Microsoft Windows byggd på öppen källkod
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "Copyright (C) {years} NVDA Contributors"
 
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
@@ -6909,7 +6909,7 @@ msgid ""
 "who wants it. This applies to both original and modified copies of this "
 "software, plus any derivative works.\n"
 "For further details, you can view the license from the Help menu.\n"
-"It can also be viewed online at: https://www.gnu.org/licenses/old-licenses/"
+"It can also be viewed online at: http://www.gnu.org/licenses/old-licenses/"
 "gpl-2.0.html\n"
 "\n"
 "{name} is developed by NV Access, a non-profit organisation committed to "
@@ -6930,8 +6930,8 @@ msgstr ""
 "här gäller både originalet och modifierade exemplar av denna mjukvara, samt  "
 "eventuella härledda verk.\n"
 "För vidare information kan du se licensen i Hjälp-menyn.\n"
-"Den kan också ses på nätet: https://www.gnu.org/licenses/old-licenses/gpl-2.0."
-"html\n"
+"Den kan också ses på nätet: https://www.gnu.org/licenses/old-licenses/"
+"gpl-2.0.html\n"
 "\n"
 "{name} utvecklas av NV Access, en icke-vinstdrivande organisation förbunden "
 "att hjälpa och främja fria och open source-lösningar för blinda och "
@@ -11262,7 +11262,7 @@ msgid "{offset:.3g} points"
 msgstr "{offset:.3g} punkter"
 
 #. Translators: a measurement in Microsoft Word
-#. See https://support.microsoft.com/kb/76388 for details.
+#. See http://support.microsoft.com/kb/76388 for details.
 #, python-brace-format
 msgid "{offset:.3g} picas"
 msgstr "{offset:.3g} picas"
