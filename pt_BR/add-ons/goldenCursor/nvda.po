@@ -26,7 +26,7 @@ msgstr "Posições do mouse para %s"
 msgid "New mouse position"
 msgstr "Nova posição do mouse"
 
-#. Translators: The label for the combo box of the mouse positions in the current application.
+#. Translators: The label for the list view of the mouse positions in the current application.
 msgid "&Saved mouse positions"
 msgstr "Posições do mouse &salvas"
 
@@ -115,8 +115,8 @@ msgid "Clear mouse positions"
 msgstr "Limpar as posições do mouse"
 
 #. Translators: A dialog message shown when tags for the application is cleared.
-#, python-brace-format
-msgid "All mouse positions for the application {appName} has been deleted."
+#, fuzzy, python-brace-format
+msgid "All mouse positions for the application {appName} have been deleted."
 msgstr ""
 "Todas as posições do mouse para o aplicativo {appName} foram excluídas."
 
@@ -124,6 +124,7 @@ msgstr ""
 msgid "Mouse positions cleared"
 msgstr "Posições do mouse apagadas"
 
+#. Translators: This is the label for the Golden Cursor settings category in NVDA Settings screen.
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Golden Cursor"
@@ -147,8 +148,8 @@ msgstr ""
 "atual"
 
 #. Translators: edit field label for new mouse position.
-#, python-brace-format
-msgid "Enter the name for the current mouse position (x: {x}, Y: {y}"
+#, fuzzy, python-brace-format
+msgid "Enter the name for the current mouse position (x: {x}, Y: {y})"
 msgstr "Digite o nome da posição atual do mouse (x: {x}, Y: {y}"
 
 #. Translators: title for save mouse position dialog.
@@ -156,8 +157,8 @@ msgid "Save mouse position"
 msgstr "Salvar posição do mouse"
 
 #. Translators: presented when position (tag) has been saved.
-#, python-format
-msgid "Position has been saved in %s."
+#, fuzzy, python-format
+msgid "Position saved in %s."
 msgstr "Posição foi salva em %s."
 
 #. Translators: Input help message for a Golden Cursor command.
@@ -237,10 +238,6 @@ msgstr ""
 "Alterna a restrição de movimento do mouse entre o aplicativo atual e "
 "irrestrito"
 
-#. Translators: This is the label for the Golden Cursor settings dialog.
-msgid "Golden Cursor Settings"
-msgstr "Configurações do Cursor Dourado"
-
 #. Translators: This is the label for a checkbox in the
 #. Golden Cursor settings dialog.
 msgid "&Announce new mouse coordinates when mouse moves"
@@ -249,6 +246,10 @@ msgstr "&Anuncia novas coordenadas do mouse quando o mouse se mover"
 #. Translators: The label for a setting in Golden Cursor settings dialog to change mouse movement units.
 msgid "Mouse movement &unit (in pixels)"
 msgstr "&Unidade de movimento do mouse (em pixels)"
+
+#. Translators: This is the label for the Golden Cursor settings dialog.
+msgid "Golden Cursor Settings"
+msgstr "Configurações do Cursor Dourado"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
