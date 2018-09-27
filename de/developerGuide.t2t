@@ -689,7 +689,7 @@ Anderenfalls wird das Paket nicht installiert.
 - version: Die Version der Erweiterung z. B. 2.0 (Pflichtfeld).
 - author: Der Autor des Pakets, vorzugsweise in der Form "Voller Name <E-Mail-Adresse>" (Pflichtfeld)
 - description: Eine längere Beschreibung über den Sinn und Zweck der Erweiterung.
-- url: Eine Internetadresse, unter der die Erweiterung, weitere Informationen oder Aktualisierungen zu finden sind.
+- url: Eine Internetadresse, unter der die Erweiterung, weitere Informationen oder Updates zu finden sind.
 -
 
 +++ Beispiel für eine Manifest-Datei +++

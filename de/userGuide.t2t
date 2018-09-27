@@ -931,7 +931,7 @@ Falls Sie Kategorien oder Dialoge öffnen wollen, die nicht über zugewiesene Ta
 Weiter unten finden Sie Erläuterungen zu jeder Kategorie aus dem NVDA-Einstellungsdialog.
 
 +++ Allgemein (NVDA+Strg+G) +++[GeneralSettings]
-Hier können allgemeingültige Einstellungen von NVDA vorgenommen werden. Sie können z. B. die Sprache einstellen, in der die Meldungen und Dialoge von NVDA angezeigt werden sollen. Sie können auch festlegen, dass regelmäßig geprüft werden soll, ob Aktualisierungen für NVDA verfügbar sind.
+Hier können allgemeingültige Einstellungen von NVDA vorgenommen werden. Sie können z. B. die Sprache einstellen, in der die Meldungen und Dialoge von NVDA angezeigt werden sollen. Sie können auch festlegen, dass regelmäßig geprüft werden soll, ob Updates für NVDA verfügbar sind.
 Diese Kategorie enthält die folgenden Optionen:
 
 ==== Sprache ====[GeneralSettingsLanguage]
@@ -948,7 +948,7 @@ Diese Option ist ein Kontrollfeld, wenn aktiviert, speichert NVDA jedes Mal beim
 
 ==== Optionen zum Beenden von NVDA anzeigen ====[GeneralSettingsShowExitOptions]
 Mit diesem Kontrollkästchen legen Sie fest, ob beim Beenden von NVDA ein Dialog angezeigt wird. Hier können Sie verschiedene Aktionen auslösen.
-Wenn das Kontrollkästchen aktiviert ist, können Sie in diesem Dialog bestimmen, ob Sie NVDA beenden, neu starten, mit deaktivierten Erweiterungen neu starten oder eine ausstehende Aktualisierung installieren möchten.
+Wenn das Kontrollkästchen aktiviert ist, können Sie in diesem Dialog bestimmen, ob Sie NVDA beenden, neu starten, mit deaktivierten Erweiterungen neu starten oder eine ausstehende Update installieren möchten.
 Wenn das Kontrollkästchen nicht aktiviert ist, wird NVDA sofort beendet.
 
 ==== Klänge abspielen, wenn NVDA gestartet oder beendet wird ====[GeneralSettingsPlaySounds]
@@ -972,10 +972,10 @@ Wenn Sie diesen Schalter betätigen, wird Ihre benutzerdefinierte Konfiguration 
 Speichern Sie zuvor Ihre Konfiguration, um sicherzustellen, dass auch tatsächlich all Ihre Einstellungen übernommen wurden. Sie können dies im NVDA-Menü oder mit der Tastenkombination NVDA+Strg+C tun.
 Diese Option ist nur in der installierten Version verfügbar!
 
-==== Automatisch nach Aktualisierungen suchen ====[GeneralSettingsCheckForUpdates]
-Wenn diese Option aktiviert ist, sucht NVDA automatisch nach Aktualisierungen und informiert sie, wenn eine aktualisierte Version verfügbar ist.
-Sie können auch manuell auf Aktualisierungen prüfen, indem Sie "nach Aktualisierungen suchen" aus dem Hilfe-Menü auswählen.
-Um beim Prüfen auf Aktualisierungen von NVDA sicherzustellen, dass Sie auch wirklich die passende Aktualisierung erhalten, ist es notwendig, einige Informationen an den Update-Server von NV Access zu senden. Dies gilt sowohl für die manuelle als auch für die automatische Prüfung auf Aktualisierungen.
+==== Automatisch nach Updates suchen ====[GeneralSettingsCheckForUpdates]
+Wenn diese Option aktiviert ist, sucht NVDA automatisch nach Updates und informiert sie, wenn eine aktualisierte Version verfügbar ist.
+Sie können auch manuell auf Updates prüfen, indem Sie "nach Updates suchen" aus dem Hilfe-Menü auswählen.
+Um beim Prüfen auf Updates von NVDA sicherzustellen, dass Sie auch wirklich die passende Update erhalten, ist es notwendig, einige Informationen an den Update-Server von NV Access zu senden. Dies gilt sowohl für die manuelle als auch für die automatische Prüfung auf Updates.
 Die folgenden Informationen werden immer gesendet:
 - Aktuelle NVDA-Version
 - Betriebssystemversion
@@ -995,9 +995,9 @@ Wenn die Option aktiviert ist, werden die folgenden Daten zusätzlich gesendet:
 
 Diese Informationen helfen NV Access bei der zukünftigen Entwicklung von NVDA.
 
-==== Beim Start von NVDA ausstehende Aktualisierungen melden ====[GeneralSettingsNotifyPendingUpdates]
-Wenn diese Option aktiviert ist, wird NVDA nach dem Start darüber informieren, falls eine Aktualisierung aussteht und Ihnen die Möglichkeit geben, diese zu installieren. 
-Sie können die ausstehende Aktualisierung auch manuell über das NVDA-Menü, den NVDA-Beenden-Dialog oder durch eine erneute Suche nach Aktualisierungen aus dem Hilfe-Menü installieren
+==== Beim Start von NVDA ausstehende Updates melden ====[GeneralSettingsNotifyPendingUpdates]
+Wenn diese Option aktiviert ist, wird NVDA nach dem Start darüber informieren, falls eine Update aussteht und Ihnen die Möglichkeit geben, diese zu installieren. 
+Sie können die ausstehende Update auch manuell über das NVDA-Menü, den NVDA-Beenden-Dialog oder durch eine erneute Suche nach Updates aus dem Hilfe-Menü installieren
 
 +++ Stimme- und Sprachausgabe (NVDA+Strg+V) +++[SpeechSettings]
 Hier können Sie festlegen, welche Sprachausgabe von NVDA genutzt werden und wie sich die Akustik der Stimme anhören soll.
@@ -1404,7 +1404,7 @@ Deaktivieren Sie einfach diese Option, wenn Sie die Ansage der Objektbeschreibun
 ==== Ausgabe des Fortschrittsbalkens ====[ObjectPresentationProgressBarOutput]
 Tastenkombination: NVDA+U
 
-Diese Option kontrolliert, wie NVDA die Aktualisierungen der Fortschrittsbalken ansagen soll.
+Diese Option kontrolliert, wie NVDA die Updates der Fortschrittsbalken ansagen soll.
 
 Die folgenden Optionen stehen zur Auswahl:
 - Aus: Bei Änderungen werden keine Fortschrittsmeldungen angesagt.
@@ -1780,7 +1780,7 @@ Wenn dieses Kontrollkästchen aktiviert ist, wird der Sprachbetrachter geöffnet
 Sofern möglich, wird dessen Fenster dieselbe Position sowie die gleiche Größe wie bei der letzten Verwendung einnehmen.	
 
 Während der Sprachbetrachter eingeschaltet ist, aktualisiert sich sogleich der Text beim Sprechen.
-Wenn Sie in das Fenster des Betrachters klicken, unterbricht NVDA augenblicklich die weitere Aktualisierung der gesprochenen Textdarstellungen, so dass Sie nun die entsprechenden Einträge markieren und in die Zwischenablage kopieren können.
+Wenn Sie in das Fenster des Betrachters klicken, unterbricht NVDA augenblicklich die weitere Update der gesprochenen Textdarstellungen, so dass Sie nun die entsprechenden Einträge markieren und in die Zwischenablage kopieren können.
 
 Um den Sprachbetrachter per Tastenkombination ein- oder auszuschalten, müssen Sie diesem mittels des []Dialog Eingaben #InputGestures] eine eigene Tastenkombination zuweisen.
 
@@ -1882,7 +1882,7 @@ Im [Artikel vom Microsoft Support-Center https://support.microsoft.com/de-de/hel
 Bitte bedenken Sie dabei, dass die höheren Sprechgeschwindigkeiten, die im Narrator eingestellt werden können, in NVDA nicht zur Verfügung stehen.
 Eine Änderung der Sprechgeschwindigkeit in Windows hat außerdem Einfluss auf die Sprechgeschwindigkeit in NVDA.
 Dieses Problem kann nur durch Änderungen in Windows behoben werden.
-Wir hoffen, dass dies im Rahmen einer Aktualisierung von Windows geschehen wird.
+Wir hoffen, dass dies im Rahmen einer Update von Windows geschehen wird.
 
 ++ AudioLogic TTS 3 ++[Audiologic]
 Dies ist eine kommerzielle Sprachausgabe speziell für die italienische Sprache.
