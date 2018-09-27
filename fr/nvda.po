@@ -6575,7 +6575,7 @@ msgstr "&Fermer"
 #. Translators: A message indicating that an updated version of NVDA is ready to be installed.
 #, python-brace-format
 msgid "NVDA version {version} is ready to be installed.\n"
-msgstr "NVDA version {version} est est prêt à être installé.\n"
+msgstr "NVDA version {version} est prêt à être installé.\n"
 
 #. Translators: The label of a button to install an NVDA update.
 msgid "&Install update"
