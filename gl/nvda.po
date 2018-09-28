@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 00:10+1000\n"
-"PO-Revision-Date: 2018-09-18 17:50+0100\n"
+"PO-Revision-Date: 2018-09-28 16:21+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Equipo de tradución ao Galego <oprisniki@gmail.com>\n"
 "Language: gl_ES\n"
@@ -6649,7 +6649,7 @@ msgstr ""
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "Copyright (C) {years} colaboradores do NVDA"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
