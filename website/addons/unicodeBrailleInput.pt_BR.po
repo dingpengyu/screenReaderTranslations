@@ -1,14 +1,14 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/unicodeBrailleInput.pt_BR.po
+# Copyright (C) 2013-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013-2014, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2017-11-29 11:05+1000\n"
-"PO-Revision-Date: 2017-09-24 17:55-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
+"PO-Revision-Date: 2018-09-28 20:18-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"UnicodeBrailleInput\"]]\n"
-msgstr "[[!meta title=\"Entrada unicode para braile\"]]\n"
+msgstr "[[!meta title=\"Entrada unicode para braille\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Mesar Hameed, Patrick Zajda."
@@ -40,22 +40,21 @@ msgid ""
 "This add-on allows you to convert text from braille (E.G. 1345-1236-145-1) "
 "to Unicode braille characters."
 msgstr ""
-"Este complemento possibilita converter textos braile (ex.: 1345-1236-145-1) "
-"para caracteres braile unicode."
+"Este complemento possibilita converter textos braille (ex.: 1345-1236-145-1) "
+"para caracteres braille unicode."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The purpose of this specialized addon is to make it easier to help to "
-#| "improve liblouis tables and to add automatic tests for your language."
 msgid ""
 "The purpose of this specialized addon is to make it easier to help to "
 "improve liblouis tables and to add automatic tests for your language. With "
 "the addition of unicode braille table in NVDA 2017.3, this add-on is no "
 "longer required, as users can choose to input braille with the new table."
 msgstr ""
-"O objetivo deste complemento ad-oc é que fique mais fácil ajudar a melhorar "
-"as tabelas da liblouis e adicionar testes automáticos a seu idioma."
+"O objetivo deste complemento especializado é facilitar a ajuda para melhorar "
+"as tabelas liblouis e adicionar testes automáticos para o seu idioma. Com a "
+"adição da tabela braille unicode no NVDA 2017.3, esse complemento não é mais "
+"necessário, pois os usuários podem optar por inserir braille com a nova "
+"tabela."
 
 #. type: Title ##
 #, no-wrap
@@ -72,12 +71,12 @@ msgstr ""
 msgid ""
 "Press NVDA+Ctrl+U or choose Unicode Braille Input found under NVDA tools menu"
 msgstr ""
-"Pressione NVDA+Ctrl+U ou escolha Entrada Braile Unicode, encontrado no menu "
+"Pressione NVDA+Ctrl+U ou escolha Entrada Braille Unicode, encontrado no menu "
 "ferramentas do NVDA"
 
 #. type: Bullet: '* '
 msgid "Type your braille text in numeric form."
-msgstr "Digite o texto braile em forma numérica."
+msgstr "Digite o texto braille em forma numérica."
 
 #. type: Bullet: '* '
 msgid "Press OK."
@@ -124,7 +123,7 @@ msgid ""
 "by the regular space character."
 msgstr ""
 "Adicionada uma caixa de seleção para substituir opcionalmente o espaço "
-"braile (caractere 0x2800) pelo caractere de espaço regular."
+"braille (caractere 0x2800) pelo caractere de espaço regular."
 
 #. type: Bullet: '* '
 msgid ""
