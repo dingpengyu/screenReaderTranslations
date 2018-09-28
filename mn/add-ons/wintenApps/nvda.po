@@ -53,10 +53,6 @@ msgstr ""
 msgid "Chat edit field not found"
 msgstr ""
 
-#. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
-msgid "No emoji"
-msgstr ""
-
 msgid "&Windows 10 App Essentials..."
 msgstr ""
 
