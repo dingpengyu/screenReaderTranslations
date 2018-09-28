@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Módulo para Goldwave\n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2018-09-24 15:54-0300\n"
+"PO-Revision-Date: 2018-09-28 20:45-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -247,7 +247,7 @@ msgstr "Mudanças na 1.1"
 
 #. type: Bullet: '* '
 msgid "Support for message announcements in braille."
-msgstr "Suporte a anúncios de mensagens em braile."
+msgstr "Suporte a anúncios de mensagens em braille."
 
 #. type: Bullet: '* '
 msgid "Audio selection summary is presented in languages other than English."
