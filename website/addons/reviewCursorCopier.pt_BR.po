@@ -1,37 +1,37 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Brazilian Portuguese translation of website/addons/reviewCursorCopier.pt_BR.po
+# Copyright (C) 2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: reviewCursorCopier.pt_BR\n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-09-28 14:27-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
+"Language-Team: Equipe de tradução do NVDA para Português do Brasil "
+"<clever97@gmail.com>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Review Cursor Copier\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Copiador do cursor de exploração\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Tuukka Ojala <tuukka.ojala@gmail.com>"
-msgstr ""
+msgstr "Autor: Tuukka Ojala <tuukka.ojala@gmail.com>"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Download [versão estável][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Download [versão em desenvolvimento][2]"
 
 #. type: Plain text
 msgid ""
@@ -39,30 +39,33 @@ msgid ""
 "review cursor to the clipboard. Currently, the following commands are "
 "implemented:"
 msgstr ""
+"Este complemento do NVDA fornece vários comandos para copiar o texto sob o "
+"cursor de exploração para a área de transferência. Atualmente, os seguintes "
+"comandos são implementados:"
 
 #. type: Bullet: '* '
 msgid "Copy the line under the review cursor"
-msgstr ""
+msgstr "Copiar a linha sob o cursor de exploração"
 
 #. type: Bullet: '* '
 msgid "Copy the word under the review cursor"
-msgstr ""
+msgstr "Copiar a palavra sob o cursor de exploração"
 
 #. type: Bullet: '* '
 msgid "Copy from the start of the current line to the review cursor"
-msgstr ""
+msgstr "Copiar do início da linha atual até o cursor de exploração"
 
 #. type: Bullet: '* '
 msgid "Copy from the review cursor to the end of the current line"
-msgstr ""
+msgstr "Copiar do cursor de exploração até o final da linha atual"
 
 #. type: Bullet: '* '
 msgid "Copy from the start of the current word to the review cursor"
-msgstr ""
+msgstr "Copiar do início da palavra atual até o cursor de exploração"
 
 #. type: Bullet: '* '
 msgid "Copy from the review cursor to the end of the current word"
-msgstr ""
+msgstr "Copiar do cursor de exploração até o final da palavra atual"
 
 #. type: Plain text
 msgid ""
@@ -72,25 +75,33 @@ msgid ""
 "category. More information about setting and modifying input gestures can be "
 "found in the NVDA user guide."
 msgstr ""
+"Nenhum desses comandos tem atribuições de teclas por padrão. Por favor, use "
+"o diálogo de gestos de entrada — definir comandos — localizado no menu de "
+"configurações do NVDA para configurá-los. Todos os comandos fornecidos por "
+"este complemento podem ser encontrados na categoria \"exploração de texto\". "
+"Mais informações sobre configuração e modificação de gestos — comandos — de "
+"entrada podem ser encontradas no guia do usuário do NVDA."
 
 #. type: Title ##
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "Licença"
 
 #. type: Plain text
 msgid "This work is licensed under the GNU General Public License, version 2."
 msgstr ""
+"Este trabalho está licenciado sob a Licença Pública Geral GNU — General "
+"Public License —, versão 2."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"
