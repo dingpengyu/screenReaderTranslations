@@ -1,14 +1,14 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/resourceMonitor.pt_BR.po
+# Copyright (C) 2013-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013-2015, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2017-11-09 21:58-0800\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
+"PO-Revision-Date: 2018-09-28 11:52-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
@@ -36,16 +36,12 @@ msgid "Download [stable version][1]"
 msgstr "Baixe a [versão estável][1]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "This plugin gives information about CPU load, memory usage and other "
-#| "resource usage information."
 msgid ""
 "This add-on gives information about CPU load, memory usage and other "
 "resource usage information."
 msgstr ""
-"Este plug-in fornece informações acerca de carga da CPU, uso de memória e "
-"outras informações sobre uso de recursos."
+"Este complemento fornece informações sobre carga de CPU, uso de memória e "
+"outras informações de uso de recursos."
 
 #. type: Title #
 #, no-wrap
@@ -142,34 +138,26 @@ msgstr ""
 "haver lentidão ao obter informações de uso do disco."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for Windows XP from this add-on will end on December 31, 2017. "
-#| "Support for Windows Server 2003 and Windows Vista will end on June 30, "
-#| "2018."
 msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
 "for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
 msgstr ""
-"O suporte a Windows XP por parte deste complemento será encerrado em 31 de "
-"dezembro de 2017. Suporte ao Windows Server 2003 e Windows Vista se "
-"encerrará em 30 de junho de 2018."
+"O suporte para o Windows XP deste complemento terminou em 31 de dezembro de "
+"2017. O suporte para o Windows Server 2003, Vista e Server 2008 terminou em "
+"30 de junho de 2018."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.09"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versão 17.09"
+msgstr "Versão 18.10"
 
 #. type: Bullet: '* '
 msgid "Code has been made more compatible with Python 3."
-msgstr ""
+msgstr "O código ficou mais compatível com o Python 3."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Updated psutil dependency to 5.0.1."
 msgid "Updated psutil dependency to 5.4.7."
-msgstr "Atualizada dependência psutil para 5.0.1."
+msgstr "Atualizada dependência psutil para 5.4.7."
 
 #. type: Bullet: '* '
 msgid ""
@@ -177,54 +165,57 @@ msgid ""
 "errors if using a computer or a service with more than a petabyte of RAM or "
 "disk size."
 msgstr ""
+"Ao obter capacidade de disco e uso de memória, o NVDA não mais dará erros se "
+"estiver usando um computador ou um serviço com mais de um petabyte de RAM ou "
+"tamanho de disco."
 
 #. type: Bullet: '* '
 msgid ""
 "Values for memory and disk usage are shown with up to two decimal places (e."
 "g. 4.00 GB instead of 4.0 GB)."
 msgstr ""
+"Os valores para uso de memória e disco são mostrados com até duas casas "
+"decimais (por exemplo, 4,00 GB em vez de 4,0 GB)."
 
 #. type: Bullet: '* '
 msgid "Improved detection of Windows Insider Preview builds."
 msgstr ""
+"Detecção aprimorada de construções — builds — do Windows Insider Preview."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.09"
+#, no-wrap
 msgid "Version 18.04"
-msgstr "Versão 17.09"
+msgstr "Versão 18.04"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Important: Version 17.09.x is the last version to support Windows XP."
 msgid ""
 "Version 18.04.x is the last release to support Windows releases earlier than "
 "7 SP1."
 msgstr ""
-"Importante: A versão 17.09.x é a última versão que suporta o Windows XP."
+"Versão 18.04.x é a última versão a suportar versões anteriores ao Windows 7 "
+"SP1."
 
 #. type: Bullet: '* '
 msgid "Last release to support Windows Server 2003, Vista and Server 2008."
 msgstr ""
+"Última versão para suporte ao Windows Server 2003, Vista e Server 2008."
 
 #. type: Bullet: '* '
 msgid ""
 "Better detection of Windows 10 releases and distinguishing between public "
 "and Insider Preview builds."
 msgstr ""
+"Melhor detecção de versões do Windows 10 e distinção entre construções — "
+"builds — públicas e Insider Preview."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.02"
+#, no-wrap
 msgid "Version 17.12"
-msgstr "Versão 17.02"
+msgstr "Versão 17.12"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Added support for recognition of Windows 10."
 msgid "Added support for 64-bit ARM processors on Windows 10."
-msgstr "Adicionado suporte ao reconhecimento de Windows 10."
+msgstr "Adicionado suporte para processadores ARM 64-bit no Windows 10."
 
 #. type: Title ##
 #, no-wrap
