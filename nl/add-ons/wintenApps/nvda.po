@@ -57,10 +57,6 @@ msgstr "Meldt en verplaatst de leescursor naar een recent bericht"
 msgid "Chat edit field not found"
 msgstr "Chatgeschiedenis niet gevonden"
 
-#. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
-msgid "No emoji"
-msgstr ""
-
 #, fuzzy
 msgid "&Windows 10 App Essentials..."
 msgstr "Windows 10 App Essentials"
