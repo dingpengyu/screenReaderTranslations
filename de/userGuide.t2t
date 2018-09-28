@@ -1045,11 +1045,11 @@ Wenn Sie beispielsweise ein amerikanisch-englisches Dokument lesen, in dem Textp
 Diese Option ist standardmäßig deaktiviert.
 
 %kc:setting
-==== Zeichen/Symbolebene ====[SpeechSettingsSymbolLevel]
+==== Ausführlichkeitsstufe ====[SpeechSettingsSymbolLevel]
 Tastenkombination: NVDA+P
 
 Hier kann eingestellt werden, ob und wie viele Satz- und Sonderzeichen NVDA als Wort aussprechen soll.
-Wenn hier "alle" ausgewählt ist, spricht NVDA alle Symbole, als wären diese ausgeschrieben.
+Wenn hier "Alle" ausgewählt ist, spricht NVDA alle Symbole, als wären diese ausgeschrieben.
 Diese Option gilt für alle Sprachausgaben, nicht nur für die aktuell gewählte.
 
 ==== beim Sprechen von Zeichen und Symbolen die Sprache der Stimme berücksichtigen ====[SpeechSettingsTrust]
@@ -1289,7 +1289,7 @@ Wenn diese Option aktiviert ist, wird die Sprache jedes Mal unterbrochen, wenn S
 ==== Sprache beim Drücken der Eingabetaste unterbrechen ====[KeyboardSettingsSpeechInteruptForEnter]
 Ist diese Option aktiviert, so wird die Sprache jedes Mal unterbrochen, wenn Sie die Eingabetaste drücken. Diese Option ist standardmäßig aktiviert.
 
-==== Navigation während "alles lesen" erlauben ====[KeyboardSettingsSkimReading]
+==== Navigation während "Alles lesen" erlauben ====[KeyboardSettingsSkimReading]
 Wenn diese Option aktiviert ist, Unterbrechen Navigationsbefehle nun nicht mehr den Lesevorgang beim Lesen eines Dokuments mit NVDA+Pfeil Ab. Hierzu gehören sowohl die Schnellnavigationstasten als auch die Befehle zum Navigieren zwischen Zeilen und Absätzen. Diese Option ist standardmäßig deaktiviert.
 
 ==== Signaltöne beim Eingeben von Kleinbuchstaben abspielen, wenn die Dauergroßschreibung aktiv ist ====[KeyboardSettingsBeepLowercase]
