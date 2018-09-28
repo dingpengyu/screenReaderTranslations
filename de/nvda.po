@@ -3492,7 +3492,7 @@ msgstr "Schaltet die Ansage der anklickbaren Elemente um."
 #. %s will be replaced with the symbol level; e.g. none, some, most and all.
 #, python-format
 msgid "Symbol level %s"
-msgstr "Satzzeichenebene %s"
+msgstr "Ausführlichkeitsstufe: %s"
 
 #. Translators: Input help mode message for cycle speech symbol level command.
 msgid ""
@@ -5989,7 +5989,7 @@ msgstr "Leer"
 #. Translators: cap will be spoken before the given letter when it is capitalized.
 #, python-format
 msgid "cap %s"
-msgstr "Großes %s"
+msgstr "Groß %s"
 
 #. Translators: This is spoken when the given line has no indentation.
 msgid "no indent"
@@ -8695,7 +8695,7 @@ msgstr "&Dialekte automatisch wechseln (falls unterstützt)"
 #. Translators: This is the label for a combobox in the
 #. voice settings panel (possible choices are none, some, most and all).
 msgid "Punctuation/symbol &level:"
-msgstr "Z&eichen- und Symbolebene:"
+msgstr "Ausführ&lichkeitsstufe"
 
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel (if checked, text will be read using the voice for the language of the text).
