@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Romanian translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 00:10+1000\n"
-"PO-Revision-Date: 2018-09-19 16:32+0300\n"
+"PO-Revision-Date: 2018-09-28 21:30+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: mihai.craciun@gmail.com, dan.punga@gmail.com, "
 "florianionascu@hotmail.com, nicusoruntila@yahoo.com\n"
@@ -6666,7 +6666,7 @@ msgstr ""
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "Copyright (C)  {years} Colaboratori NVDA"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
@@ -6708,7 +6708,7 @@ msgstr ""
 "persoane cu deficiențe de vedere.\n"
 "Dacă îl considerați pe NVDA folositor și doriți să continue să se "
 "îmbunătățească, vă rugăm să luați în considerare donația către NV Access. "
-"Puteți face asta, selectând Donează din meniul NVDA."
+"Puteți face asta selectând Donează din meniul NVDA."
 
 #. Translators: the message that is shown when the user tries to install an add-on from windows explorer and NVDA is not running.
 #, python-brace-format

@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2018-01-24 22:05+0100\n"
-"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
+"PO-Revision-Date: 2018-09-28 21:57+0300\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -102,11 +102,6 @@ msgid "A list of the saved feeds."
 msgstr "O listă a fluxurilor salvate."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "List of articles: Opens a dialog which presents the articles list from "
-#| "your current feed. Select the article you want to read and press OK "
-#| "button to open the corresponding page in your browser."
 msgid ""
 "List of articles: Opens a dialog which presents the articles list from your "
 "current feed. Select the article you want to read and press Enter or Open "
@@ -115,18 +110,13 @@ msgid ""
 "of the selected article; from this dialog, you'll be able to copy this info "
 "to the clipboard."
 msgstr ""
-"- Filtrat după: O casetă de editare pentru a căuta fluxurilr salvate "
-"înainte.  - O listă a fluxurilor salvate.  - listă de articole: Deschide un "
-"dialog care prezintă lista de articole din fluxul curent. Selectați "
-"articolul pe care vreți să-l citiți și apăsați butonul OK pentru a deschide "
-"pagina în navigator.  - Nou: Deschide un dialog cu o casetă de editare "
-"pentru a introduce adresa unui flux nou. Dacă adresa este validă și fluxul "
-"poate fi salvat, numele său, bazat pe titlul fluxului, va apărea la "
-"sfârșitul listei de fluxuri.  -  Redenumire: Deschide un dialog cu o casetă "
-"de editare pentru a redenumi fluxul selectat.  - Ștergere: Deschide un "
-"dialog pentru a șterge fluxul selectat după confirmare.  -  Setează "
-"implicit: Setează fluxul selectat ca implicit, deci articolele sale pot fi "
-"accesate cu gesturile NVDA-ului.  - Închidere: Închide dialogul fluxurilor."
+"Lista articolelor: Deschide un dialog care  prezintă lista articolelor de la "
+"fluxul curent. Selectați articolul pe care vreți să îl citiți și apăsați "
+"Enter sau butonul „Deschide pagina web a articolului selectat” pentru a "
+"deschide pagina corespunzătoare în navigatorul web. Apăsați butonul „Despre "
+"articol” pentru a deschide un dialog care arată titlul și link-ul "
+"articolului selectat; din acest dialog, veți putea să copiați aceste "
+"informații pe planșetă."
 
 #. type: Bullet: '* '
 msgid "Open feed: Opens the selected feed in the default application."
@@ -291,24 +281,25 @@ msgstr ""
 "numărul elementelor disponibile."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 4.0"
+#, no-wrap
 msgid "Changes for 5.0"
-msgstr "Modificări în 4.0"
+msgstr "Modificări în 5.0"
 
 #. type: Bullet: '* '
 msgid "The articles list dialog has been enhanced."
-msgstr ""
+msgstr "A fost îmbunătățit dialogul listei articolelor."
 
 #. type: Bullet: '* '
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Compatibil cu NVDA 2018.3 sau mai nou (necesar)."
 
 #. type: Bullet: '* '
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Dacă e musai, puteți descărca [ultima versiune compatibilă cu NVDA 2017.3]"
+"[3]."
 
 #. type: Title ##
 #, no-wrap
@@ -386,10 +377,8 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
 
 #, fuzzy
 #~| msgid ""

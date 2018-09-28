@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2018-07-05 12:24+0300\n"
+"PO-Revision-Date: 2018-09-28 21:44+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -150,20 +150,17 @@ msgstr ""
 "a luat sfârșit pe 30 iunie 2018."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.04"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versiunea 18.04"
+msgstr "Versiunea 18.10"
 
 #. type: Bullet: '* '
 msgid "Code has been made more compatible with Python 3."
-msgstr ""
+msgstr "Codul a fost făcut mai compatibil cu Python 3."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Updated psutil dependency to 5.0.1."
 msgid "Updated psutil dependency to 5.4.7."
-msgstr "S-a actualizat la dependența psutil 5.0.1."
+msgstr "S-a actualizat la dependența psutil 5.0.7."
 
 #. type: Bullet: '* '
 msgid ""
@@ -171,16 +168,21 @@ msgid ""
 "errors if using a computer or a service with more than a petabyte of RAM or "
 "disk size."
 msgstr ""
+"La obținerea capacității discului și a utilizării memoriei, NVDA nu va mai "
+"da erori folosind un computer sau un service cu mai mult de un petabyte de "
+"ram sau spațiu pe disc."
 
 #. type: Bullet: '* '
 msgid ""
 "Values for memory and disk usage are shown with up to two decimal places (e."
 "g. 4.00 GB instead of 4.0 GB)."
 msgstr ""
+"Valorile pentru memorie și pentru utilizarea discului sunt afișate cu până "
+"la două zecimale (e.x. 4.00 GB în loc de 4.0 GB)."
 
 #. type: Bullet: '* '
 msgid "Improved detection of Windows Insider Preview builds."
-msgstr ""
+msgstr "S-a îmbunătățit detectarea compilărilor de Insider ale Windows 10."
 
 #. type: Title ##
 #, no-wrap

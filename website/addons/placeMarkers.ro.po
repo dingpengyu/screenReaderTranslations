@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2017-06-19 17:02+0300\n"
+"PO-Revision-Date: 2018-09-28 22:15+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -117,11 +117,6 @@ msgstr ""
 "markers va fi salvată, fără o extensie."
 
 #. type: Bullet: '*	'
-#, fuzzy
-#| msgid ""
-#| "alt+NVDA+k: Opens a dialog with the bookmarks saved for this document. "
-#| "You can write a note for each bookmark; press Save note to save changes. "
-#| "Pressing OK you can move to the selected position."
 msgid ""
 "alt+NVDA+k: Opens a dialog with the bookmarks saved for this document. You "
 "can write a note for each bookmark; press Save note to save changes. "
@@ -191,10 +186,9 @@ msgstr ""
 "specifică, și nu marcajele care economisesc o poziție precisă."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 11.0"
-msgstr "Modificări în 1.0"
+msgstr "Modificări în 11.0"
 
 #. type: Bullet: '*	'
 msgid "Compatible with NVDA 2018.3 or later (required)."
@@ -207,10 +201,9 @@ msgid ""
 msgstr ""
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 10.0"
-msgstr "Modificări în 1.0"
+msgstr "Modificări în 10.0"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -224,10 +217,9 @@ msgid "Now specific search is supported in Edge."
 msgstr ""
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 8.0"
+#, no-wrap
 msgid "Changes for 9.0"
-msgstr "Modificări în 8.0"
+msgstr "Modificări în 9.0"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -454,10 +446,8 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
 
 #~ msgid ""
 #~ "This addon is based on SpecificSearch and Bookmark&Search, developed by "
