@@ -1,20 +1,21 @@
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of website/addons/weatherPlus.pt_BR.po
+# Copyright (C) 2016-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Adair <adair.wk@gmail.com> & Rémy Ruiz <remyruiz@gmail.com>, 2016, 2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weather Plus\n"
 "POT-Creation-Date: 2018-05-14 02:24+1000\n"
-"PO-Revision-Date: 2017-09-05 12:06+0200\n"
-"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"PO-Revision-Date: 2018-09-28 20:26-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Portuguese Brazil NVDA add-ons translation team <adair."
 "wk@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 1.6.11\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -28,7 +29,7 @@ msgstr "Autor: Adriano Barbieri"
 
 #. type: Bullet: '*	'
 msgid "Download: [Stable version][1]"
-msgstr "Baixar: [Versão estável][1]"
+msgstr "Baixe: [Versão estável][1]"
 
 #. type: Plain text
 msgid ""
@@ -62,19 +63,17 @@ msgid "https://www.nvda.it/"
 msgstr "https://www.nvda.it/"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "https://www.geonames.org/"
 msgid "https://www.timeanddate.com/"
-msgstr "https://www.geonames.org/"
+msgstr "https://www.timeanddate.com/"
 
 #. type: Bullet: '* '
 msgid "https://veloroutes.org/elevation/"
-msgstr ""
+msgstr "https://veloroutes.org/elevation/"
 
 #. type: Title ##
 #, no-wrap
 msgid "Usage"
-msgstr "Uso"
+msgstr "Como usar"
 
 #. type: Bullet: '* '
 msgid "Press NVDA + w to the current temperature and weather conditions."
@@ -108,13 +107,13 @@ msgid ""
 "Press NVDA + shift + control + alt + w to open the Weather Plus settings "
 "dialog."
 msgstr ""
-"Pressione NVDA + control + shift + alt + w para abrir o Weather Plus de "
-"diálogo configurações."
+"Pressione NVDA + control + shift + alt + w para abrir o diálogo de "
+"configurações do Weather Plus."
 
 #. type: Title ##
 #, no-wrap
 msgid "To set Weather Plus"
-msgstr "Para definir cidades e conhecer outras opções do Weather Plus"
+msgstr "Para configurar o Weather Plus"
 
 #. type: Plain text
 msgid "Read the file: Weather Plus First Settings.html."
