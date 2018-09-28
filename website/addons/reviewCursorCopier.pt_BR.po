@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reviewCursorCopier.pt_BR\n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: 2018-09-28 14:27-0300\n"
+"PO-Revision-Date: 2018-09-28 15:05-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -27,11 +27,11 @@ msgstr "Autor: Tuukka Ojala <tuukka.ojala@gmail.com>"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "Download [versão estável][1]"
+msgstr "Baixe a [versão estável][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "Download [versão em desenvolvimento][2]"
+msgstr "Baixe a [versão em desenvolvimento][2]"
 
 #. type: Plain text
 msgid ""
