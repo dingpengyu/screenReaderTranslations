@@ -51,6 +51,12 @@
 <LI>Updated configobj to 5.1.0dev commit 5b5de48a. (<A HREF="https://github.com/nvaccess/nvda/issues/4470">#4470</A>)
 </UL>
 
+<H2>2018.3.2</H2>
+
+<P>
+This is a minor release to work around a crash in Google Chrome when navigating tweetts on <A HREF="http://www.twitter.com">www.twitter.com</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/8777">#8777</A>)
+</P>
+
 <H2>2018.3.1</H2>
 
 <P>
@@ -1880,7 +1886,7 @@ Highlights of this release include support for Asian character input; experiment
  <LI>This is supported for both NVDA itself and add-ons.
  <LI>xgettext and msgfmt from GNU gettext must be used to create any PO and MO files. The Python tools do not support message contexts.
  <LI>For xgettext, pass the --keyword=pgettext:1c,2 command line argument to enable inclusion of message contexts.
- <LI>See <A HREF="https://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts">https://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts</A> for more information.
+ <LI>See <A HREF="http://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts">http://www.gnu.org/software/gettext/manual/html_node/Contexts.html#Contexts</A> for more information.
  </UL>
 <LI>It is now possible to access built-in NVDA modules where they have been overridden by third party modules. See the nvdaBuiltin module for details.
 <LI>Add-on translation support can now be used within the add-on installTasks module. (<A HREF="https://github.com/nvaccess/nvda/issues/2715">#2715</A>)
@@ -2661,7 +2667,7 @@ Major highlights of this release include support for 64 bit editions of Windows;
 <LI>Backspace is now handled correctly when speaking typed words. (<A HREF="https://github.com/nvaccess/nvda/issues/306">#306</A>)
 <LI>Don't incorrectly report "Start menu" for certain context menus in Windows Explorer/the Windows shell. (<A HREF="https://github.com/nvaccess/nvda/issues/257">#257</A>)
 <LI>NVDA now correctly handles ARIA labels in Mozilla Gecko when there is no other useful content. (<A HREF="https://github.com/nvaccess/nvda/issues/156">#156</A>)
-<LI>NVDA no longer incorrectly enables focus mode automatically for editable text fields which update their value when the focus changes; e.g. <A HREF="https://tigerdirect.com/">https://tigerdirect.com/</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/220">#220</A>)
+<LI>NVDA no longer incorrectly enables focus mode automatically for editable text fields which update their value when the focus changes; e.g. <A HREF="http://tigerdirect.com/">http://tigerdirect.com/</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/220">#220</A>)
 <LI>NVDA will now attempt to recover from some situations which would previously cause it to freeze completely. It may take up to 10 seconds for NVDA to detect and recover from such a freeze.
 <LI>When the NVDA language is set to "User default", use the user's Windows  display language setting instead of the Windows locale setting. (<A HREF="https://github.com/nvaccess/nvda/issues/353">#353</A>)
 <LI>NVDA now recognises the existence of controls in AIM 7.
@@ -2960,7 +2966,7 @@ Major highlights of this release include support for 64 bit editions of Windows;
 <LI>NVDA now has a built-in synthesizer called eSpeak, developed by Jonathan Duddington.It is very responsive and lite-weight, and has support for many different languages. Sapi synthesizers can still be used, but eSpeak will be used by default.
  <UL>
  <LI>eSpeak does not depend on any special software to be installed, so it can be used with NVDA on any computer, on a USB thumb drive, or anywhere. 
- <LI>For more info on eSpeak, or to find other versions, go to <A HREF="https://espeak.sourceforge.net/">https://espeak.sourceforge.net/</A>.
+ <LI>For more info on eSpeak, or to find other versions, go to <A HREF="http://espeak.sourceforge.net/">http://espeak.sourceforge.net/</A>.
  </UL>
 <LI>Fix bug where the wrong character was being announced when pressing delete in Internet Explorer / Outlook Express editable panes.
 <LI>Added support for more edit fields in Skype.
