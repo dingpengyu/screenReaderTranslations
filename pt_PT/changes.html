@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 <HEAD>
-<META NAME="generator" CONTENT="https://txt2tags.org">
+<META NAME="generator" CONTENT="http://txt2tags.org">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 <TITLE>Novidades do  NVDA</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
@@ -10,6 +10,59 @@
 <FONT SIZE="4"><I>Traduzido pela Equipa portuguesa do NVDA</I></FONT><BR>
 </CENTER>
 
+
+<H2>2018.4</H2>
+
+<H3>Novas Funcionalidades</H3>
+
+<UL>
+<LI>Novas tabelas Braille: Chinês (China, Mandarin) grau 1 e grau 2. (<A HREF="https://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+</UL>
+
+<H3>Alterações</H3>
+
+<UL>
+<LI>"Anunciar balões de ajuda" no diálogo Apresentação de Objectos foi renomeado para "Anunciar notificações" para incluir o anúncio de notificações (toast) no Windows 8 e seguintes. (<A HREF="https://github.com/nvaccess/nvda/issues/5789">#5789</A>)
+<LI>No diálogo Teclado as caixas de verificação para activar/desactivar as teclas modificadoras do NVDA passam a estar numa lista, em vez de caixas de verificação separadas.
+<LI>O NVDA já não anuncia informação redundante ao ler o relógio na barra de notificações em algumas versões do Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/4364">#4364</A>)
+<LI>Actualizado o conversor Braille liblouis para a versão 3.7.0. (<A HREF="https://github.com/nvaccess/nvda/issues/8697">#8697</A>)
+</UL>
+
+<H3>Bug Fixes</H3>
+
+<UL>
+<LI>No Outlook 2016/365, as bandeiras da categoria e do estado das mensagens já são anunciadas. (<A HREF="https://github.com/nvaccess/nvda/issues/8603">#8603</A>)
+<LI>Quando o NVDA está configurado para idiomas como Kirgyz, Mongol ou Macedónio, já não apresenta um diálogo, no arranque, a avisar que o idioma não é suportado pelo sistema operativo. (<A HREF="https://github.com/nvaccess/nvda/issues/8064">#8064</A>)
+<LI>O comando para mover o rato para o objecto de navegação move, com mais precisão, o rato para a posição actual no modo de navegação no Mozilla Firefox, Google Chrome and Acrobat Reader DC. (<A HREF="https://github.com/nvaccess/nvda/issues/6460">#6460</A>)
+<LI>A interacção com caixas combbinadas no Firefox, Chrome e Internet Explorer foi melhorada. (<A HREF="https://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+</UL>
+
+<H3>Changes for Developers</H3>
+
+<UL>
+<LI>gui.nvdaControls now contains two classes to create accessible lists with check boxes. (<A HREF="https://github.com/nvaccess/nvda/issues/7325">#7325</A>)
+ <UL>
+ <LI>CustomCheckListBox is an accessible subclass of wx.CheckListBox.
+ <LI>AutoWidthColumnCheckListCtrl adds accessible check boxes to an AutoWidthColumnListCtrl, which itself is based on wx.ListCtrl.
+ </UL>
+<LI>If you need to make a wx widget accessible which isn't already, it is possible to do so by using an instance of gui.accPropServer.IAccPropServer_impl. (<A HREF="https://github.com/nvaccess/nvda/issues/7491">#7491</A>)
+ <UL>
+ <LI>See the implementation of gui.nvdaControls.ListCtrlAccPropServer for more info.
+ </UL>
+<LI>Updated configobj to 5.1.0dev commit 5b5de48a. (<A HREF="https://github.com/nvaccess/nvda/issues/4470">#4470</A>)
+</UL>
+
+<H2>2018.3.2</H2>
+
+<P>
+Apenas para corrigir um bug que provocava falhas no Google Chrome ao navegar por tweetts em <A HREF="http://www.twitter.com">www.twitter.com</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/8777">#8777</A>)
+</P>
+
+<H2>2018.3.1</H2>
+
+<P>
+Apenas para corrigir um bug que provocava falhas na versão de 32 bit do Mozilla Firefox. (<A HREF="https://github.com/nvaccess/nvda/issues/8759">#8759</A>)
+</P>
 
 <H2>2018.3</H2>
 
@@ -1754,7 +1807,7 @@ Suporte para marcas de formulários em documentos no modo de navegação, caso s
  </UL>
 <LI>O NVDA já não falha ao copiar configurações do usuário para uso no logon e outras telas seguras, quando o caminho do perfil do usuário contém caracteres não-ascii. (<A HREF="https://github.com/nvaccess/nvda/issues/3092">#3092</A>)
 <LI>O NVDA já não trava quando se usa a entrada de caracteres Asiáticos  em alguns aplicativos .NET. (<A HREF="https://github.com/nvaccess/nvda/issues/3005">#3005</A>)
-<LI>Agora é possível usar o modo de navegação para páginas no Internet Explorer 10 em modos standards; um exemplo é a página de login <A HREF="https://www.gmail.com">www.gmail.com</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/3151">#3151</A>)
+<LI>Agora é possível usar o modo de navegação para páginas no Internet Explorer 10 em modos standards; um exemplo é a página de login <A HREF="http://www.gmail.com">www.gmail.com</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/3151">#3151</A>)
 </UL>
 
 <H3>Alterações Específicas para Desenvolvedores</H3>
@@ -3067,6 +3120,6 @@ O mais destacável desta versão inclui o suporte para versões de 64 bit do Win
 <LI>Ao carregar um sintetizador pela primeira vez, o NVDA deixa que ele escolha os parâmetros mais adequados de voz, velocidade e tom, em lugar de forçá-lo a usar os padrões que este supõe estar adequados. Isso resolve um problema com os sintetizadores  Eloquence e Viavoice sapi4 que iniciavam a falar de forma excessivamente rápida para uma primeira vez.
 </UL>
 
-<!-- html code generated by txt2tags 2.6 (https://txt2tags.org) -->
+<!-- html code generated by txt2tags 2.6 (http://txt2tags.org) -->
 <!-- cmdline: txt2tags -q changes.t2t -->
 </BODY></HTML>
