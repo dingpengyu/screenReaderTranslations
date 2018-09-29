@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-28 00:10+1000\n"
-"PO-Revision-Date: 2018-09-18 13:53+0300\n"
+"PO-Revision-Date: 2018-09-29 12:51+0300\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: NVDA_TR <cagrid@hotmail.com>\n"
 "Language: tr_TR\n"
@@ -6603,7 +6603,7 @@ msgstr "Microsoft Windows için Açık kaynak ve ücretsiz Ekran Okuyucu"
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "Kopyahakkı (C) {years} NVDA'ya katkıda bulunanlar"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
