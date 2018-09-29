@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2018-09-28 22:15+0300\n"
+"PO-Revision-Date: 2018-09-29 14:13+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -27,11 +27,11 @@ msgstr "Autori: Noelia, Chris."
 
 #. type: Bullet: '* '
 msgid "download [stable version][1]"
-msgstr "Descărcați [versiunea stabilă][1]"
+msgstr "descărcați [versiunea stabilă][1]"
 
 #. type: Bullet: '* '
 msgid "download [development version][2]"
-msgstr "Descărcați [versiunea în dezvoltare][2]"
+msgstr "descărcați [versiunea în dezvoltare][2]"
 
 #. type: Plain text
 msgid ""
@@ -129,14 +129,13 @@ msgstr ""
 "la poziția selectată."
 
 #. type: Bullet: '*	'
-#, fuzzy
-#| msgid "control+shift+NVDA+k: Saves the current position as a bookmark."
 msgid "Not assigned: Saves a position as a temporary bookmark."
-msgstr "control+shift+NVDA+k: Salvează poziția curentă ca un semn de carte."
+msgstr "Neatribuit: Salvează poziția curentă ca un semn de carte temporar."
 
 #. type: Bullet: '*	'
 msgid "Not assigned: Moves to the temporary bookmark for the current document."
 msgstr ""
+"Neatribuită: Mută la semnul de carte temporar pentru documentul curent."
 
 #. type: Title ##
 #, no-wrap
@@ -192,13 +191,15 @@ msgstr "Modificări în 11.0"
 
 #. type: Bullet: '*	'
 msgid "Compatible with NVDA 2018.3 or later (required)."
-msgstr ""
+msgstr "Compatibil cu NVDA 2018.3 sau mai nou (necesar)."
 
 #. type: Bullet: '*	'
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
 msgstr ""
+"Dacă e musai, puteți descărca [ultima versiune compatibilă cu NVDA 2017.3]"
+"[3]."
 
 #. type: Title ##
 #, no-wrap
@@ -211,10 +212,14 @@ msgid ""
 "+shift+k or NVDA+alt+k, will be sent to the application instead of trying to "
 "move the cursor to bookmarks, to avoid errors, especially in long documents."
 msgstr ""
+"În Edge, gesturile asociate cu selectarea semnelor de carte, cum ar fi NVDA"
+"+k, NVDA+shift+k sau NVDA+alt+k, vor fi trimise la aplicație în loc să "
+"încerce să mute cursorul la semne de carte ca să evite erori, în special din "
+"documentele bogate în conținut."
 
 #. type: Bullet: '*	'
 msgid "Now specific search is supported in Edge."
-msgstr ""
+msgstr "Nicio căutare specifică nu este suportată în Edge."
 
 #. type: Title ##
 #, no-wrap
@@ -226,26 +231,26 @@ msgid ""
 "When moving to a bookmark from the Notes dialog, the review cursor follows "
 "the system cursor."
 msgstr ""
+"Atunci când se deplasează la un semn de carte de la dialogul notelor, "
+"cursorul de examinare îl urmărește pe cel al sistemului."
 
 #. type: Bullet: '*	'
 msgid "The command to select the previous bookmark works properly again."
 msgstr ""
+"Comanda pentru selectarea semnului de carte anterior funcționează din nou "
+"așa cum trebuie."
 
 #. type: Bullet: '*	'
 msgid "Bookmarks can be deleted from the Notes dialog."
-msgstr ""
+msgstr "Semnele de carte pot fi șterse din dialogul notelor."
 
 #. type: Bullet: '*	'
-#, fuzzy
-#| msgid ""
-#| "Now you can assign gestures to open the Copy and Restore place markers "
-#| "dialogs."
 msgid ""
 "Now you can assign gestures to save and move to a temporary bookmark for "
 "each document."
 msgstr ""
-"Acum poți atribui gesturi pentru a deschide dialogurile copiere și "
-"restaurare place marker."
+"Acum poți atribui gesturi pentru a salva și pentru a te deplasa la un semn "
+"de carte temporar."
 
 #. type: Title ##
 #, no-wrap
