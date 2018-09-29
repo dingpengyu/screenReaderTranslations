@@ -1141,15 +1141,13 @@ msgstr "Vietnamita grau 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Chinês (Taiwan, Mandarin)"
+msgstr "Chinês (China, Mandarin) Grau 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Chinês (Taiwan, Mandarin)"
+msgstr "Chinês (China, Mandarin) Grau 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6658,7 +6656,7 @@ msgstr "Um leitor de ecrã livre, e de código aberto, para Microsoft Windows"
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "Copyright (C) {years} Contribuidores do NVDA"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
@@ -6697,9 +6695,9 @@ msgstr ""
 "old-licenses/gpl-2.0.html\n"
 "\n"
 "O {name} é desenvolvido pela NV Access, uma instituição sem fins lucrativos "
-"que tem por missão ajudar e promover soluções livre e open source para "
+"que tem por missão ajudar e promover soluções livres e open source para "
 "pessoas cegas e com baixa visão.\n"
-"Se achar que o NVDA é útil e se pretender contribuir na sua melhoria, por "
+"Se considerar que o NVDA é útil e pretender contribuir na sua melhoria, por "
 "favor concidere fazer um donativo à NV Access. Pode fazê-lo através do item "
 "\"Efectuar um donativo a partir do menu do NVDA."
 
@@ -8672,9 +8670,8 @@ msgstr "Teclado"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "&Utilizar CapsLock como uma tecla modificadora do NVDA"
+msgstr "&Seleccionar teclas modificadoras do NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8838,9 +8835,8 @@ msgstr "Anunciar &sugestões"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Anunciar &sugestões"
+msgstr "Anunciar &notificatões"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
