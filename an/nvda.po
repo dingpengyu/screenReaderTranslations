@@ -1139,25 +1139,23 @@ msgstr "Vietnamés grau 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Chino (Taiwan, Mandarín)"
+msgstr "Chinés (China, Mandarín) grau 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Chino (Taiwan, Mandarín)"
+msgstr "Chinés (China, Mandarín) grau 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 msgid "Chinese (Hong Kong, Cantonese)"
-msgstr "Chino (Hong Kong, Cantonés)"
+msgstr "Chinés (Hong Kong, Cantonés)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
 msgid "Chinese (Taiwan, Mandarin)"
-msgstr "Chino (Taiwan, Mandarín)"
+msgstr "Chinés (Taiwán, Mandarín)"
 
 #. Translators: The mode to interact with controls in documents
 msgid "Focus mode"
@@ -6658,7 +6656,7 @@ msgstr "Un lector de pantalla libre y de codigo ubierto pa o Microsoft Windows"
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "Copyright (C) {years} colaboradors de NVDA"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
@@ -6686,21 +6684,21 @@ msgstr ""
 "Adreza: {url}\n"
 "{copyright}\n"
 "\n"
-"{name} ye cubierto por a GNU General Public License (Versión 2). Yes libre "
+"{name} ye cubierto por la GNU General Public License (Versión 2). Yes libre "
 "de compartir u cambiar iste programa de qualsiquier traza que quieras "
-"siempre que siga acompanyau d'a licencia y fer que tot o codigo fuent siga "
-"disponible pa qui lo quiera. Isto s'aplica tanto a la copia orichinal como a "
+"siempre que siga acompanyau d'a licencia y fer que to'l codigo fuent siga "
+"disponible pa qui lo quiera. Ixo s'aplica tanto a la copia orichinal como a "
 "la modificada d'iste programa, y a qualsiquier treballo derivau d'ell.\n"
-"Pa mas detalles, puetz veyer a licencia dende o menú Aduya.\n"
-"Tamién se puet veyer en linia en: https://www.gnu.org/licenses/old-licenses/"
+"Pa mas detalles, puetz mirar-te la licencia dende lo menú d'aduya.\n"
+"Tamién se puet mirar en linia en: https://www.gnu.org/licenses/old-licenses/"
 "gpl-2.0.html\n"
 "\n"
 "{name} ye desembolicau por NV Access, una organización sin animo de lucro "
-"que promueve la aduya y promoción de solucions libres y de codigo ubierto pa "
+"que promueve l'aduya y promoción de solucions libres y de codigo ubierto pa "
 "personas ciegas y con diversidat visual.\n"
 "Si trobas lo NVDA util y quiers que contine amillorando, por favor considera "
-"a posibilidat de fer una donación a NV Access. Puetz fer-lo trigando \"Fer "
-"una donación\" dende o menú d'o NVDA."
+"la posibilidat de fer una donación a NV Access. Puetz fer-la trigando \"Fer "
+"una donación\" dende lo menú d'o NVDA."
 
 #. Translators: the message that is shown when the user tries to install an add-on from windows explorer and NVDA is not running.
 #, python-brace-format
@@ -8676,9 +8674,8 @@ msgstr "Teclau"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "&usar o Bloqueyo de mayusclas como tecla modificadera d'o NVDA"
+msgstr "&Seleccionar as teclas modificaderas d'o NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8843,9 +8840,8 @@ msgstr "Anunciar os &consellos"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Anunciar os &consellos"
+msgstr "Anunciar as &notificacions"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
