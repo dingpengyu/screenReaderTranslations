@@ -132,7 +132,7 @@
       <LI><A HREF="#ReviewCursorSettings">12.1.9. Lesemarkør</A>
       <LI><A HREF="#ObjectPresentationSettings">12.1.10. Objektpresentasjon (NVDA+Ctrl+o)</A>
       <LI><A HREF="#InputCompositionSettings">12.1.11. Input Composition</A>
-      <LI><A HREF="#BrowseModeSettings">12.1.12. Browse Mode (NVDA+Ctrl+b)</A>
+      <LI><A HREF="#BrowseModeSettings">12.1.12. Nettmodus (NVDA+Ctrl+b)</A>
       <LI><A HREF="#DocumentFormattingSettings">12.1.13. Dokumentformatering (NVDA+Ctrl+d)</A>
       <LI><A HREF="#Win10OcrSettings">12.1.14. Innstillinger for OCR i Windows 10</A>
       </UL>
@@ -142,14 +142,14 @@
       <LI><A HREF="#SymbolPronunciation">12.2.2. Uttale av tegnsetting/symboler</A>
       <LI><A HREF="#InputGestures">12.2.3. Input Gestures</A>
       </UL>
-    <LI><A HREF="#SavingAndReloading">12.3. Saving and Reloading the configuration</A>
+    <LI><A HREF="#SavingAndReloading">12.3. Lagre konfigurasjonen og laste den inn på nytt</A>
     <LI><A HREF="#ConfigurationProfiles">12.4. Konfigurasjonsprofiler</A>
       <UL>
-      <LI><A HREF="#ProfilesBasicManagement">12.4.1. Basic Management</A>
-      <LI><A HREF="#ProfilesCreating">12.4.2. Creating a Profile</A>
-      <LI><A HREF="#ConfigProfileManual">12.4.3. Manual Activation</A>
+      <LI><A HREF="#ProfilesBasicManagement">12.4.1. Grunnleggende behandling</A>
+      <LI><A HREF="#ProfilesCreating">12.4.2. Lage en profil</A>
+      <LI><A HREF="#ConfigProfileManual">12.4.3. Manuell aktivering</A>
       <LI><A HREF="#ConfigProfileTriggers">12.4.4. Triggers</A>
-      <LI><A HREF="#ConfigProfileEditing">12.4.5. Editing a Profile</A>
+      <LI><A HREF="#ConfigProfileEditing">12.4.5. Redigere en profil</A>
       <LI><A HREF="#ConfigProfileDisablingTriggers">12.4.6. Temporarily Disabling Triggers</A>
       </UL>
     <LI><A HREF="#LocationOfConfigurationFiles">12.5. Location of Configuration files</A>
@@ -168,13 +168,13 @@
     <LI><A HREF="#SAPI4">14.2. Microsoft Speech API version 4 (SAPI 4)</A>
     <LI><A HREF="#SAPI5">14.3. Microsoft Speech API version 5 (SAPI 5)</A>
     <LI><A HREF="#MicrosoftSpeechPlatform">14.4. Microsoft Speech Platform</A>
-    <LI><A HREF="#OneCore">14.5. Windows OneCore Voices</A>
+    <LI><A HREF="#OneCore">14.5. Windows OneCore-stemmer</A>
     <LI><A HREF="#Audiologic">14.6. Audiologic Tts3</A>
     </UL>
   <LI><A HREF="#SupportedBrailleDisplays">15. Støttede leselister</A>
     <UL>
     <LI><A HREF="#FreedomScientificFocus">15.1. Freedom Scientific Focus/PAC Mate-serien</A>
-    <LI><A HREF="#OptelecALVA">15.2. Optelec ALVA 6-serien/protokollkonverter</A>
+    <LI><A HREF="#OptelecALVA">15.2. Optelec ALVA 6-serien/protokollkonverterer</A>
     <LI><A HREF="#HandyTech">15.3. Handy Tech-leselister</A>
     <LI><A HREF="#MDVLilli">15.4. MDV Lilli</A>
     <LI><A HREF="#Baum">15.5. Baum/Humanware/APH/Orbit-leselister</A>
@@ -525,7 +525,7 @@ Så lenge NVDA kjører, vil all berøring av skjermen gå direkte til NVDA. Derf
 Den mest grunnleggende handlingen du kan utføre med berøringsskjermen er å annonsere kontrollen eller teksten på et hvilket som helst sted på skjermen. For å gjøre dette, plasserer du én finger et vilkårlig sted på skjermen.
 </P>
 <P>
-Du kan også holde fingeren på skjermen og flytte den rundt for å få opplest andre kontroller eller tekst som fingeren flytter seg over.
+Du kan også holde fingeren på skjermen og flytte den rundt for å få opplest andre kontroller eller tekst som fingeren beveger seg over.
 </P>
 
 <A NAME="TouchGestures"></A>
@@ -618,7 +618,7 @@ NVDA-menyen lar deg kontrollere NVDAs innstillinger, hjelp, lagre/tilbakestille 
 <P>
 For å gå til NVDA-menyen fra hvor som helst i Windows mens NVDA kjører, trykker du NVDA+n.
 Du kan også gå til NVDA-menyen via systemstatusfeltet i Windows.
-Enten høyreklikk på NVDA-ikonet i systemstatusfeltet, eller få tilgang til systemstatusfeltet ved å trykke Win+b, pil ned til NVDA-ikonet og trykk deretter på meny-tasten. Den finner du rett til venstre for høyre kontrolltast på de fleste tastaturer.
+Enten høyreklikk på NVDA-ikonet i systemstatusfeltet, eller få tilgang til systemstatusfeltet ved å trykke Win+b, pil ned til NVDA-ikonet og trykk deretter på meny-tasten. Den finner du rett til venstre for høyre Ctrl-tast på de fleste tastaturer.
 </P>
 <P>
 Når menyen vises, kan du bruke piltastene til å navigere i den, og enter-tasten for å aktivere et element.
@@ -1330,11 +1330,11 @@ Informasjon som hvorvidt teksten er en lenke, overskrift, osv. blir opplyst samm
 Noen ganger trenger du å kommunisere direkte med kontroller i disse dokumentene. For eksempel må du gjøre dette for redigerbare tekstfelt og lister, slik at du kan skrive tegn og bruke piltastene til å arbeide med kontrollen. Dette gjør du ved å bytte til fokusmodus, hvor nesten alle tastetrykk blir sendt til kontrollen.
 </P>
 <P>
-I nettmodus vil NVDA som standard automatisk bytte til fokusmodus hvis du flytter til eller klikker på en bestemt kontroll som krever det.
+I nettmodus vil NVDA som standard automatisk bytte til fokusmodus hvis du flytter til eller klikker på en kontroll som krever det.
 Motsatt vil det å flytte til eller klikke på en kontroll som ikke krever fokusmodus bytte tilbake til nettmodus.
-Du kan også trykke enter eller mellomrom for å bytte til fokusmodus i kontroller som krever det.
+Du kan også trykke på Enter eller mellomrom for å bytte til fokusmodus i kontroller som krever det.
 Ved å trykke escape byttes det tilbake til nettmodus.
-I tillegg kan du manuelt påtvinge fokusmodus. Den vil forbli aktiv inntil du velger å deaktivere den.
+I tillegg kan du manuelt aktivere fokusmodus. Den vil forbli aktiv inntil du velger å deaktivere den.
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -2871,7 +2871,7 @@ Dette valget lar deg avgjøre hvorvidt leselisten skal følge systemfokus, navig
 </P>
 <P>
 Når "automatisk" er valgt, vil NVDA følge systemfokus og -markøren som standard.
-I dette tilfellet, når navigasjonsobjektets eller lesemarkørens posisjon endres som følge av eksplisitt brukersamhandling, vil NVDA knytte seg midlertidig til lesemarkør, til fokus eller markør endres.  
+I dette tilfellet, når navigasjonsobjektets eller lesemarkørens posisjon endres som følge av eksplisitt brukersamhandling, vil NVDA knytte seg midlertidig til lesemarkør, til fokus eller markør endres.
 </P>
 
 <A NAME="BrailleSettingsReadByParagraph"></A>
@@ -2923,7 +2923,7 @@ Når innstillingen er satt til å fylle leselisten for endringer i kontekst, vil
 </P>
 <P>
 Når det gjelder eksempelet ovenfor, vil dette si at når du endrer fokus til listen, vil NVDA vise listeelementet på leselisten. Om det er nok ledig plass på leselisten, vil NVDA videre forsøke å vise at listeelementet er en del av en liste.
-Om du så begynner å gå gjennom listen ved hjelp av piltastene, er det forutsatt at du er oppmerksom på at du fortsatt er i listen. Følgelig vil NVDA bare vise det fokuserte listeelementet for de gjenværende elementene i listen.  
+Om du så begynner å gå gjennom listen ved hjelp av piltastene, er det forutsatt at du er oppmerksom på at du fortsatt er i listen. Følgelig vil NVDA bare vise det fokuserte listeelementet for de gjenværende elementene i listen.
 </P>
 <P>
 Hvis du vil lese konteksten igjen, for eksempel at du er i en liste og at listen er del av en dialog, må du bla leselisten bakover.
@@ -2935,7 +2935,7 @@ Når dette valget er satt til å alltid fylle leselisten, vil NVDA forsøke å v
 Dette har den fordelen at NVDA vil få plass til så mye informasjon som mulig på leselisten.
 </P>
 <P>
-Ulempen ved dette er at det alltid vil være en forskjell i posisjonen hvor fokuset begynner på leselisten. Dette kan gjøre det vanskelig å for eksempel skumme raskt gjennom en lang liste med elementer, fordi du hele tiden må flytte fingeren for å finne begynnelsen på elementet.  
+Ulempen ved dette er at det alltid vil være en forskjell i posisjonen hvor fokuset begynner på leselisten. Dette kan gjøre det vanskelig å for eksempel skumme raskt gjennom en lang liste med elementer, fordi du hele tiden må flytte fingeren for å finne begynnelsen på elementet.
 </P>
 <P>
 Dette var standard i NVDA 2017.2 og tidligere.
@@ -2986,36 +2986,43 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 <H5>Port</H5>
 
 <P>
-   This option, if available, allows you to choose what port or type of connection will be used to communicate
-   with the braille display you have selected.
-   It is a combo box containing the possible choices for your braille display.
-   By default, NVDA employs automatic port detection, which means the connection with the braille device will be
-   established automatically by scanning for available USB and bluetooth devices on your system.
-   However, for some braille displays, you may be able to explicitly choose what port should be used.
-   Common options are "Automatic" (which tells NVDA to employ the default automatic port selection procedure),
-   "USB", "Bluetooth" and legacy serial communication ports if your braille display supports this type of
-   communication.
-   This option won't be available if your braille display only supports automatic port detection.
-   You may consult the documentation for your braille display in the section [Supported Braille Displays
-   #SupportedBrailleDisplays] to check for more details on the supported types of communication and available
-   ports.
+Dette valget vil, dersom det er tilgjengelig, la deg velge hvilken port eller type tilkobling som brukes til kommunikasjon med leselisten du har valgt.
+</P>
+<P>
+Dette er en kombinasjonsboks med de valgene som er tilgjengelig for leselisten din.
+</P>
+<P>
+Som standard skal NVDA oppdage port automatisk. Dette betyr at tilkoblingen til punktskriftenheten vil bli etablert automatisk ved at NVDA søker etter tilgjengelige USB- og bluetooth-enheter på PC-en din. 
+</P>
+<P>
+Imidlertid vil du kunne velge hvilken port som skal brukes for noen leselister.
+</P>
+<P>
+Vanlige alternativer er "automatisk" (som instruerer NVDA om å benytte prosedyren for automatisk valg av port), "USB", "Bluetooth" og seriell port hvis leselisten din støtter denne typen kommunikasjon.
+</P>
+<P>
+Dette valget vil ikke være tilgjengelig dersom leselisten din bare støtter automatisk oppdaging av port.
+</P>
+<P>
+Se dokumentasjonen for leselisten din i delen 
+<A HREF="#SupportedBrailleDisplays">Støttede leselister</A> for å finne flere detaljer om de støttede typene av kommunikasjon og tilgjengelige porter.
 </P>
 
 <A NAME="KeyboardSettings"></A>
 <H4>12.1.6. Tastatur (NVDA+Ctrl+k)</H4>
 
 <P>
-   The Keyboard category in the NVDA Settings dialog contains options that sets how NVDA behaves as you use and
-   type on your keyboard.
-   This settings category contains the following options:
+Kategorien Tastatur i NVDAs innstillingdsdialog inneholder innstillinger som avgjør hvordan NVDA oppfører seg når du bruker og skriver på tastaturet ditt. 
+</P>
+<P>
+I denne kategorien finner du følgende valg:
 </P>
 
 <A NAME="KeyboardSettingsLayout"></A>
 <H5>Tastaturoppsett</H5>
 
 <P>
-   This combo box lets you choose what type of keyboard layout NVDA should use. Currently the two that come with
-   NVDA are Desktop and Laptop.
+Denne kombinasjonsboksen lar deg velge hvilket tastaturoppsett NVDA skal ha. For øyeblikket er de to alternativene som leveres med NvDA stasjonært og bærbart.
 </P>
 
 <A NAME="KeyboardSettingsCapsModifier"></A>
@@ -3026,7 +3033,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="KeyboardSettingsExtendedInsert"></A>
-<H5>Use extended insert as an NVDA modifier key</H5>
+<H5>Bruk utvidet Insert som NVDA-tast</H5>
 
 <P>
    If this checkbox is checked, the extended insert key (usually found above the arrow keys, near home and end)
@@ -3034,7 +3041,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="KeyboardSettingsNumpadInsert"></A>
-<H5>Use numpad insert as an NVDA modifier key</H5>
+<H5>Bruk numerisk Insert som NVDA-tast</H5>
 
 <P>
    If this checkbox is checked, the insert key on the number pad can be used as an NVDA modifier key.
@@ -3047,19 +3054,23 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="KeyboardSettingsSpeakTypedCharacters"></A>
-<H5>Speak Typed Characters</H5>
+<H5>Si skrevne tegn</H5>
 
 <P>
-   Key: NVDA+2
+Tast: NVDA+2
+</P>
+<P>
    When enabled, NVDA will announce all characters you type on the keyboard.
    %kc:setting
 </P>
 
 <A NAME="KeyboardSettingsSpeakTypedWords"></A>
-<H5>Speak Typed Words</H5>
+<H5>Si skrevne ord</H5>
 
 <P>
-   Key: NVDA+3
+Tast: NVDA+3
+</P>
+<P>
    When enabled, NVDA will announce all words you type on the keyboard.
 </P>
 
@@ -3101,7 +3112,9 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 <H5>Speak Command Keys</H5>
 
 <P>
-   Key: NVDA+4
+Tast: NVDA+4
+</P>
+<P>
    When enabled, NVDA will announce all non-character keys you type on the keyboard. This includes key
    combinations such as control plus another letter.
 </P>
@@ -3116,7 +3129,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="KeyboardSettingsHandleKeys"></A>
-<H5>Handle keys from other applications</H5>
+<H5>Håndtere tastetrykk fra andre programmer</H5>
 
 <P>
    This option allows the user to control if key presses generated by applications such as on-screen keyboards
@@ -3146,10 +3159,12 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="MouseSettingsTracking"></A>
-<H5>Enable mouse tracking</H5>
+<H5>Slå på mussporing</H5>
 
 <P>
-   Key: NVDA+m
+Tast: NVDA+m
+</P>
+<P>
    When enabled, NVDA will announce the text currently under the mouse pointer, as you move it around the screen.
    This allows you to find things on the screen, by physically moving the mouse, rather than trying to find them
    through object navigation.
@@ -3223,7 +3238,9 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 <H5>Follow System Focus</H5>
 
 <P>
-   Key: NVDA+7
+Tast: NVDA+7
+</P>
+<P>
    When enabled, The review cursor will always be placed in the same object as the current system focus whenever
    the focus changes.
    %kc:setting
@@ -3233,20 +3250,22 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 <H5>Follow System Caret</H5>
 
 <P>
-   Key: NVDA+6
+Tast: NVDA+6
+</P>
+<P>
    When enabled, the review cursor will automatically be moved to the position of the System caret each time it
    moves.
 </P>
 
 <A NAME="ReviewCursorFollowMouse"></A>
-<H5>Follow mouse cursor</H5>
+<H5>Følg musmarkør</H5>
 
 <P>
    When enabled, the review cursor will follow the mouse as it moves.
 </P>
 
 <A NAME="ReviewCursorSimple"></A>
-<H5>Simple Review mode</H5>
+<H5>Enkel lesemodus</H5>
 
 <P>
    When enabled, NVDA will filter the hierarchy of objects that can be navigated to exclude objects that aren't
@@ -3321,7 +3340,9 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 <H5>Progress bar output</H5>
 
 <P>
-   Key: NVDA+u
+Tast: NVDA+u
+</P>
+<P>
    This option controls how NVDA reports progress bar updates to you.
    It has the following options:
 </P>
@@ -3350,7 +3371,9 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 <H5>Report dynamic content changes</H5>
 
 <P>
-   Key: NVDA+5
+Tast: NVDA+5
+</P>
+<P>
    Toggles the announcement of new content in particular objects such as terminals and the history control in
    chat programs.
 </P>
@@ -3405,9 +3428,11 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
    Note that even with this option off, the review cursor will still be placed on the selected candidate allowing
    you to use object navigation / review to manually read this or other candidates.
 </P>
+
+<A NAME="InputCompositionCandidateIncludesShortCharacterDescription"></A>
+<H5>Always include short character descriptions for candidates</H5>
+
 <P>
-==== Always include short character descriptions for candidates
-   ====[InputCompositionCandidateIncludesShortCharacterDescription]
    This option, which is on by default, allows you to choose whether or not NVDA should provide a short
    description for each character in a candidate, either when it's selected or when it's automatically read when
    the candidate list appears.
@@ -3443,7 +3468,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="BrowseModeSettings"></A>
-<H4>12.1.12. Browse Mode (NVDA+Ctrl+b)</H4>
+<H4>12.1.12. Nettmodus (NVDA+Ctrl+b)</H4>
 
 <P>
    The Browse Mode category in the NVDA Settings dialog is used to configure NVDA's behavior when you read and
@@ -3470,7 +3495,9 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 <H5>Use screen layout</H5>
 
 <P>
-   Key: NVDA+v
+Tast: NVDA+v
+</P>
+<P>
    This option allows you to specify whether content in browse mode should place content such as links and other
    fields on their own line, or if it should keep them in the flow of text as it is visually shown. If the option
    is enabled then things will stay as they are visually shown, but if it is disabled then fields will be placed
@@ -3611,45 +3638,44 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="DocumentFormattingSettingsLineIndentation"></A>
-<H5>Line indentation reporting</H5>
+<H5>Rapportering av linjeinnrykk</H5>
 
 <P>
-   This option allows you to configure how indentation at the beginning of lines is reported.
-   The Report line indentation with combo box has four options.
+Dette valget lar deg konfigurere hvordan innrykk på begynnelsen av linjer rapporteres.
+</P>
+<P>
+Kombinasjonsboksen "Rapporter linjeinnrykk med" har fire valg:
 </P>
 
-   <UL>
-   <LI>Off: NVDA will not treat indentation specially.
-   <LI>Speech: If speech is selected, when the amount of indentation changes, NVDA will say something like "twelve
-   space" or "four tab."
-   <LI>Tones: If Tones is selected, when the amount of indentation changes, tones indicate the amount of change in
-   indent.
-   The tone will increase in pitch every space, and for a tab, it will increase in pitch the equivalent of 4
-   spaces.
-   <LI>Both Speech and Tones: This option reads indentation using both of the above methods.
-   </UL>
+<UL>
+<LI>Av: NVDA vil ikke behandle innrykk spesielt.
+<LI>Tale: Om tale er valgt og innrykk endres, vil NVDA si noe sånt som "tolv mellomrom" eller "fire tabulator."
+<LI>Toner: Om toner er valgt og innrykk endres, vil toner indikere omfanget av endringen av innrykket. Tonehøyden vil øke for hvert mellomrom, og for en tabulator vil tonehøyden øke tilsvarende fire mellomrom.
+<LI>Både tale og toner: Dette valget rapporterer innrykk ved hjelp av begge metodene ovenfor.
+</UL>
 
 <A NAME="Win10OcrSettings"></A>
 <H4>12.1.14. Innstillinger for OCR i Windows 10</H4>
 
 <P>
-   The settings in this category allow you to configure <A HREF="#Win10Ocr">Windows 10 OCR</A>.
-   This category contains the following options:
+Innstillingene i denne kategorien lar deg konfigurere <A HREF="#Win10Ocr">Windows 10 OCR</A>.
+</P>
+<P>
+Denne kategorien består av følgende valg:
 </P>
 
 <A NAME="Win10OcrSettingsRecognitionLanguage"></A>
-<H5>Recognition language</H5>
+<H5>Språk for gjenkjenning</H5>
 
 <P>
-   This combo box allows you to choose the language to be used for text recognition.
+Denne kombinasjonsboksen lar deg velge språket som skal brukes for tekstgjenkjenning.
 </P>
 
 <A NAME="MiscSettings"></A>
 <H3>12.2. Diverse innstillinger</H3>
 
 <P>
-   Besides the <A HREF="#NVDASettings">NVDA Settings</A> dialog, The Preferences sub-menu of the NVDA Menu contains several
-   other items which are outlined below.
+I tillegg til dialogen <A HREF="#NVDASettings">NCDA-Innstillinger</A>, inneholder undermenyen Preferanser i NVDA-menyen flere andre elementer som er omtalt nedenfor. 
 </P>
 
 <A NAME="SpeechDictionaries"></A>
@@ -3766,7 +3792,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="SavingAndReloading"></A>
-<H3>12.3. Saving and Reloading the configuration</H3>
+<H3>12.3. Lagre konfigurasjonen og laste den inn på nytt</H3>
 
 <P>
    By default NVDA will automatically save your settings on exit.
@@ -3777,41 +3803,28 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
    You can also reset your settings to their original factory defaults by choosing Reset Configuration To Factory
    Defaults, which is also found in the NVDA menu.
    The following NVDA key commands are also useful:
-   %kc:beginInclude
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
-<TH>Name</TH>
-<TH>Desktop key</TH>
+<TH>Navn</TH>
+<TH>Stasjonær tast</TH>
 <TH>Bærbar tast</TH>
 <TH>Beskrivelse</TH>
 </TR>
 <TR>
-<TD>Save configuration</TD>
+<TD>Lagre konfigurasjon</TD>
 <TD>NVDA+Ctrl+c</TD>
 <TD>NVDA+Ctrl+c</TD>
-<TD>Saves your current configuration so that it is not</TD>
+<TD>Lagrer din gjeldende konfigurasjon slik at den ikke forsvinner når du avslutter NVDA</TD>
 </TR>
-</TABLE>
-
-<P>
-   lost when you exit NVDA |
-</P>
-
-<TABLE ALIGN="center" CELLPADDING="4">
 <TR>
-<TD>Revert configuration</TD>
+<TD>Tilbakestill konfigurasjon</TD>
 <TD>NVDA+Ctrl+r</TD>
 <TD>NVDA+Ctrl+r</TD>
-<TD>Pressing once resets your configuration to when you</TD>
+<TD>Trykk én gang for å tilbakestille konfigurasjonen din til da du sist lagret den. Tre trykk vil tilbakestille den til fabrikkstandard.</TD>
 </TR>
 </TABLE>
-
-<P>
-   last saved it. Pressing three times will reset it back to factory defaults. |
-   %kc:endInclude
-</P>
 
 <A NAME="ConfigurationProfiles"></A>
 <H3>12.4. Konfigurasjonsprofiler</H3>
@@ -3829,7 +3842,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="ProfilesBasicManagement"></A>
-<H4>12.4.1. Basic Management</H4>
+<H4>12.4.1. Grunnleggende behandling</H4>
 
 <P>
    You manage configuration profiles by selecting "Configuration profiles" in the NVDA menu.
@@ -3852,7 +3865,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="ProfilesCreating"></A>
-<H4>12.4.2. Creating a Profile</H4>
+<H4>12.4.2. Lage en profil</H4>
 
 <P>
    To create a profile, press the New button.
@@ -3867,7 +3880,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="ConfigProfileManual"></A>
-<H4>12.4.3. Manual Activation</H4>
+<H4>12.4.3. Manuell aktivering</H4>
 
 <P>
    You can manually activate a profile by selecting a profile and pressing the Manual activate button.
@@ -3904,7 +3917,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="ConfigProfileEditing"></A>
-<H4>12.4.5. Editing a Profile</H4>
+<H4>12.4.5. Redigere en profil</H4>
 
 <P>
    If you have manually activated a profile, any settings you change will be saved to that profile.
@@ -4058,23 +4071,29 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 <H2>14. Støttede talesynteser</H2>
 
 <P>
-   This section contains information about the speech synthesizers supported by NVDA.
-   For an even more extensive list of free and commercial synthesizers that you can purchase and download for use
-   with NVDA, please see <A HREF="https://github.com/nvaccess/nvda/wiki/ExtraVoices">extra voices page</A>.
+Denne delen inneholder informasjon om talesynteser som støttes av NVDA.
+</P>
+<P>
+En mer omfattende liste over gratis og kommersielle talesynteser du kan kjøpe og laste ned for bruk sammen med NVDA, finner du på siden <A HREF="https://github.com/nvaccess/nvda/wiki/ExtraVoices">extra voices</A>.
 </P>
 
 <A NAME="eSpeakNG"></A>
 <H3>14.1. eSpeak NG</H3>
 
 <P>
-   The <A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak NG</A> synthesizer is built directly into NVDA and does not
-   require any other special drivers or components to be installed.
-   NVDA starts using eSpeak NG by default.
-   As this synthesizer is built into NVDA, this is a great choice for when running NVDA off a USB thumb drive on
-   other systems.
-   Each voice that comes with eSpeak NG speaks a different language.
-   There are over 43 different languages supported by eSpeak NG.
-   There are also many variants which can be chosen to alter the sound of the voice.
+Talesyntesen <A HREF="https://github.com/espeak-ng/espeak-ng">eSpeak NG</A> er bygd inn i NVDA og krever ikke installasjon av andre drivere eller komponenter for å kunne brukes.
+</P>
+<P>
+NVDA benytter eSpeak NG som standard.
+</P>
+<P>
+Siden denne talesyntesen er bygd inn i NVDA, er dette et utmerket valg når du kjører NVDA fra en USB-minnepenn på andre systemer. 
+</P>
+<P>
+Hver stemme som leveres med eSpeak NG snakker et eget språk. eSpeak NG støtter over 43 ulike språk.
+</P>
+<P>
+Det er også mange varianter som kan velges for å justere lyden av stemmen.
 </P>
 
 <A NAME="SAPI4"></A>
@@ -4127,7 +4146,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 </P>
 
 <A NAME="OneCore"></A>
-<H3>14.5. Windows OneCore Voices</H3>
+<H3>14.5. Windows OneCore-stemmer</H3>
 
 <P>
    Windows 10 includes new voices known as "OneCore" or "mobile" voices.
@@ -4155,7 +4174,7 @@ Vennligst se delen <A HREF="#SupportedBrailleDisplays">Støttede leselister</A> 
 <H2>15. Støttede leselister</H2>
 
 <P>
-   This section contains information about the Braille displays supported by NVDA.
+Denne delen inneholder informasjon om leselistene som støttes av NVDA.
 </P>
 
 <A NAME="FreedomScientificFocus"></A>
@@ -4235,76 +4254,76 @@ Vennligst se i dokumentasjonen for leselisten for å få en beskrivelse av hvor 
 <TD>routing</TD>
 </TR>
 <TR>
-<TD>shift+tab key</TD>
-<TD>brailleSpaceBar+dot1+dot2</TD>
+<TD>Skift+Tab</TD>
+<TD>brailleSpaceBar+punkt1+punkt2</TD>
 </TR>
 <TR>
-<TD>tab key</TD>
-<TD>brailleSpaceBar+dot4+dot5</TD>
+<TD>Tab</TD>
+<TD>brailleSpaceBar+punkt4+punkt5</TD>
 </TR>
 <TR>
-<TD>PilOpp-tast</TD>
-<TD>brailleSpaceBar+dot1</TD>
+<TD>Pil opp</TD>
+<TD>brailleSpaceBar+punkt1</TD>
 </TR>
 <TR>
-<TD>PilNed-tast</TD>
-<TD>brailleSpaceBar+dot4</TD>
+<TD>Pil ned</TD>
+<TD>brailleSpaceBar+punkt4</TD>
 </TR>
 <TR>
-<TD>control+leftArrow key</TD>
-<TD>brailleSpaceBar+dot2</TD>
+<TD>Ctrl+Pil venstre</TD>
+<TD>brailleSpaceBar+punkt2</TD>
 </TR>
 <TR>
-<TD>control+rightArrow key</TD>
-<TD>brailleSpaceBar+dot5</TD>
+<TD>Ctrl+Pil høyre</TD>
+<TD>brailleSpaceBar+punkt5</TD>
 </TR>
 <TR>
-<TD>PilVenstre-tast</TD>
-<TD>brailleSpaceBar+dot3</TD>
+<TD>Pil venstre</TD>
+<TD>brailleSpaceBar+punkt3</TD>
 </TR>
 <TR>
-<TD>PilHøyre-tast</TD>
-<TD>brailleSpaceBar+dot6</TD>
+<TD>Pil høyre</TD>
+<TD>brailleSpaceBar+punkt6</TD>
 </TR>
 <TR>
-<TD>Home-tast</TD>
-<TD>brailleSpaceBar+dot1+dot3</TD>
+<TD>Home</TD>
+<TD>brailleSpaceBar+punkt1+punkt3</TD>
 </TR>
 <TR>
-<TD>End-tast</TD>
-<TD>brailleSpaceBar+dot4+dot6</TD>
+<TD>End</TD>
+<TD>brailleSpaceBar+punkt4+punkt6</TD>
 </TR>
 <TR>
 <TD>control+home key</TD>
-<TD>brailleSpaceBar+dot1+dot2+dot3</TD>
+<TD>brailleSpaceBar+punkt1+punkt2+punkt3</TD>
 </TR>
 <TR>
 <TD>control+end key</TD>
-<TD>brailleSpaceBar+dot4+dot5+dot6</TD>
+<TD>brailleSpaceBar+punkt4+punkt5+punkt6</TD>
 </TR>
 <TR>
 <TD>alt key</TD>
-<TD>brailleSpaceBar+dot1+dot3+dot4</TD>
+<TD>brailleSpaceBar+punkt1+punkt3+punkt4</TD>
 </TR>
 <TR>
 <TD>alt+tab key</TD>
-<TD>brailleSpaceBar+dot2+dot3+dot4+dot5</TD>
+<TD>brailleSpaceBar+punkt2+punkt3+punkt4+punkt5</TD>
 </TR>
 <TR>
 <TD>alt+Skift+tab key</TD>
-<TD>brailleSpaceBar+dot1+dot2+dot5+dot6</TD>
+<TD>brailleSpaceBar+punkt1+punkt2+punkt5+punkt6</TD>
 </TR>
 <TR>
 <TD>windows+tab key</TD>
-<TD>brailleSpaceBar+dot2+dot3+dot4</TD>
+<TD>brailleSpaceBar+punkt2+punkt3+punkt4</TD>
 </TR>
 <TR>
 <TD>escape key</TD>
-<TD>brailleSpaceBar+dot1+dot5</TD>
+<TD>brailleSpaceBar+punkt1+punkt5</TD>
 </TR>
 <TR>
 <TD>windows key</TD>
-<TD>brailleSpaceBar+dot2+dot4+dot5+dot6</TD>
+<TD>brailleSpaceBar+punkt2+punkt4+punkt5+punkt6</TD>
 </TR>
 <TR>
 <TD>space key</TD>
@@ -4312,15 +4331,15 @@ Vennligst se i dokumentasjonen for leselisten for å få en beskrivelse av hvor 
 </TR>
 <TR>
 <TD>windows+d key (minimize all applications)</TD>
-<TD>brailleSpaceBar+dot1+dot2+dot3+dot4+dot5+dot6</TD>
+<TD>brailleSpaceBar+punkt1+punkt2+punkt3+punkt4+punkt5+punkt6</TD>
 </TR>
 <TR>
 <TD>Rapporter gjeldende linje</TD>
-<TD>brailleSpaceBar+dot1+dot4</TD>
+<TD>brailleSpaceBar+punkt1+punkt4</TD>
 </TR>
 <TR>
 <TD>NVDA menu</TD>
-<TD>brailleSpaceBar+dot1+dot3+dot4+dot5</TD>
+<TD>brailleSpaceBar+punkt1+punkt3+punkt4+punkt5</TD>
 </TR>
 </TABLE>
 
@@ -4363,13 +4382,13 @@ Bare for Focus 80:
 </TABLE>
 
 <A NAME="OptelecALVA"></A>
-<H3>15.2. Optelec ALVA 6-serien/protokollkonverter</H3>
+<H3>15.2. Optelec ALVA 6-serien/protokollkonverterer</H3>
 
 <P>
-   Both the ALVA BC640 and BC680 displays from <A HREF="http://www.optelec.com/">Optelec</A> are supported when connected via
-   USB or bluetooth.
-   Alternatively, you can connect an older Optelec display, such as a Braille Voyager, using a protocol converter
-   supplied by Optelec.
+Både ALVA BC640 og BC680-leselistene fra <A HREF="http://www.optelec.com/">Optelec</A> kan tilkobles både med USB og bluetooth.
+</P>
+<P>
+Alternativt kan du koble til en eldre Optelec-leselist, som Braille Voyager, via en protokollkonverterer som leveres av Optelec.
    You do not need any specific drivers to be installed to use these displays.
    Just plug in the display and configure NVDA to use it.
    Note: NVDA might be unable to use an ALVA BC6 display over Bluetooth when it is paired using the ALVA
@@ -4396,15 +4415,15 @@ Bare for Focus 80:
 <TD>t1 eller etouch1</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
+<TD>Flytt leselisten til forrige linje</TD>
 <TD>t2</TD>
 </TR>
 <TR>
-<TD>Move to current focus</TD>
+<TD>Flytt til gjeldende fokus</TD>
 <TD>t3</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
+<TD>Flytt leselisten til neste linje</TD>
 <TD>t4</TD>
 </TR>
 <TR>
@@ -4416,11 +4435,11 @@ Bare for Focus 80:
 <TD>routing</TD>
 </TR>
 <TR>
-<TD>Report text formatting under braille cell</TD>
-<TD>secondary routing</TD>
+<TD>Rapporter tekstformatering under punktskriftcellen</TD>
+<TD>sekundær markørhenter</TD>
 </TR>
 <TR>
-<TD>Toggle HID keyboard simulation</TD>
+<TD>Toggle simulering av HID-tastatur</TD>
 <TD>t1+spEnter</TD>
 </TR>
 <TR>
@@ -4444,27 +4463,27 @@ Bare for Focus 80:
 <TD>etouch4</TD>
 </TR>
 <TR>
-<TD>shift+tab key</TD>
+<TD>Skift+Tab</TD>
 <TD>sp1</TD>
 </TR>
 <TR>
-<TD>alt key</TD>
+<TD>Alt</TD>
 <TD>sp2</TD>
 </TR>
 <TR>
-<TD>escape key</TD>
+<TD>Escape</TD>
 <TD>sp3</TD>
 </TR>
 <TR>
-<TD>tab key</TD>
+<TD>Tab</TD>
 <TD>sp4</TD>
 </TR>
 <TR>
-<TD>PilOpp-tast</TD>
+<TD>Pil opp</TD>
 <TD>spUp</TD>
 </TR>
 <TR>
-<TD>PilNed-tast</TD>
+<TD>Pil ned</TD>
 <TD>spDown</TD>
 </TR>
 <TR>
@@ -4480,7 +4499,7 @@ Bare for Focus 80:
 <TD>spEnter, enter|</TD>
 </TR>
 <TR>
-<TD>Report date/time</TD>
+<TD>Rapporter dato/tid</TD>
 <TD>sp1+sp2</TD>
 </TR>
 <TR>
@@ -4520,7 +4539,7 @@ Bare for Focus 80:
 <TD>t3+spRight</TD>
 </TR>
 <TR>
-<TD>alt key</TD>
+<TD>Alt</TD>
 <TD>alt</TD>
 </TR>
 <TR>
@@ -4533,20 +4552,18 @@ Bare for Focus 80:
 <H3>15.3. Handy Tech-leselister</H3>
 
 <P>
-   NVDA supports most displays from <A HREF="http://www.handytech.de/">Handy Tech</A> when connected via USB, serial port or
-   bluetooth.
+NVDA støtter de fleste leselister fra <A HREF="http://www.handytech.de/">Handy Tech</A> når de er koblet til via USB, serieport eller bluetooth.
    For older USB displays, you will need to install the USB drivers from Handy Tech on your system.
    The following displays are not supported out of the box, but can be used via [Handy Tech's universal driver
    <A HREF="https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers">https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers</A>] and NVDA
    add-on:
 </P>
 
-   <UL>
-   <LI>Braillino
-   <LI>Bookworm
-   <LI>Modular displays with firmware version 1.13 or lower. Please note that the firmware of this displays can be
-   updated.
-   </UL>
+<UL>
+<LI>Braillino
+<LI>Bookworm
+<LI>Modular-leselister med internprogramvare versjon 1.13 eller lavere. Vær oppmerksom på at internprogramvaren på disse leselistene kan oppdateres.
+</UL>
 
 <P>
    Following are the key assignments for Handy Tech displays with NVDA.
@@ -4567,11 +4584,11 @@ Bare for Focus 80:
 <TD>høyre, ned, b6</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
+<TD>Flytt leselisten til forrige linje</TD>
 <TD>b4</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
+<TD>Flytt leselisten til neste linje</TD>
 <TD>b5</TD>
 </TR>
 <TR>
@@ -4579,31 +4596,31 @@ Bare for Focus 80:
 <TD>routing</TD>
 </TR>
 <TR>
-<TD>shift+tab key</TD>
-<TD>esc, left triple action key up+down</TD>
+<TD>Skift+Tab</TD>
+<TD>esc, venstre trippeltast opp+ned</TD>
 </TR>
 <TR>
-<TD>alt key</TD>
+<TD>Alt</TD>
 <TD>b2+b4+b5</TD>
 </TR>
 <TR>
-<TD>escape key</TD>
+<TD>Escape</TD>
 <TD>b4+b6</TD>
 </TR>
 <TR>
-<TD>tab key</TD>
-<TD>enter, right triple action key up+down</TD>
+<TD>Tab</TD>
+<TD>enter, høyre trippeltast opp+ned</TD>
 </TR>
 <TR>
 <TD>enter key</TD>
 <TD>esc+enter, left+right triple action key up+down, joystickAction</TD>
 </TR>
 <TR>
-<TD>PilOpp-tast</TD>
+<TD>Pil opp</TD>
 <TD>joystickUp</TD>
 </TR>
 <TR>
-<TD>PilNed-tast</TD>
+<TD>Pil ned</TD>
 <TD>joystickDown</TD>
 </TR>
 <TR>
@@ -4632,7 +4649,7 @@ Bare for Focus 80:
 </TR>
 <TR>
 <TD>Toggle braille input</TD>
-<TD>space+b1+b3+b4 (space+capital B)</TD>
+<TD>mellomrom+b1+b3+b4 (mellomrom+capital B)</TD>
 </TR>
 </TABLE>
 
@@ -4673,19 +4690,19 @@ Bare for Focus 80:
 <TD>route</TD>
 </TR>
 <TR>
-<TD>shift+tab key</TD>
+<TD>Skift+Tab</TD>
 <TD>SLF</TD>
 </TR>
 <TR>
-<TD>tab key</TD>
+<TD>Tab</TD>
 <TD>SRG</TD>
 </TR>
 <TR>
-<TD>alt+tab key</TD>
+<TD>Alt+Tab</TD>
 <TD>SDN</TD>
 </TR>
 <TR>
-<TD>alt+Skift+tab key</TD>
+<TD>Alt+Skift+Tab</TD>
 <TD>SUP</TD>
 </TR>
 </TABLE>
@@ -4694,24 +4711,29 @@ Bare for Focus 80:
 <H3>15.5. Baum/Humanware/APH/Orbit-leselister</H3>
 
 <P>
-   Several <A HREF="http://www.baum.de/cms/en/">Baum</A>, <A HREF="http://www.humanware.com/">HumanWare</A>, <A HREF="http://www.aph.org/">APH</A>
-   and <A HREF="http://www.orbitresearch.com/">Orbit</A> displays are supported when connected via USB, bluetooth or serial.
-   These include:
+Flere leselister fra <A HREF="http://www.baum.de/cms/en/">Baum</A>, <A HREF="http://www.humanware.com/">HumanWare</A>, <A HREF="http://www.aph.org/">APH</A> og <A HREF="http://www.orbitresearch.com/">Orbit</A> er støttes når de er tilkoblet via USB, bluetooth eller serieport. Disse omfatter:
 </P>
 
-   <UL>
-   <LI>Baum: SuperVario, PocketVario, VarioUltra, Pronto!, SuperVario2, Vario 340
-   <LI>HumanWare: Brailliant, BrailleConnect, Brailliant2
-   <LI>APH: Refreshabraille
-   <LI>Orbit: Orbit Reader 20
-   </UL>
+<UL>
+<LI>Baum: SuperVario, PocketVario, VarioUltra, Pronto!, SuperVario2, Vario 340
+<LI>HumanWare: Brailliant, BrailleConnect, Brailliant2
+<LI>APH: Refreshabraille
+<LI>Orbit: Orbit Reader 20
+</UL>
 
 <P>
-   Some other displays manufactured by Baum may also work, though this has not been tested.
-   If connecting via USB to displays which do not use HID, you must first install the USB drivers provided by the
-   manufacturer.
-   The VarioUltra and Pronto! use HID.
-   The Refreshabraille and Orbit Reader 20 can use HID if configured appropriately.
+Enkelte andre leselister produsert av BAUM kan også fungere, men dette har ikke blitt testet.
+</P>
+<P>
+Om du oppretter en tilkobling via USB til leselister som ikke benytter HID, må du først installere USB-driverne som leveres av produsenten.
+</P>
+<P>
+VarioUltra og Pronto! benytter HID.
+</P>
+<P>
+Refreshabraille og Orbit Reader 20 kan benytte HID hvis de konfigureres for det.
+</P>
+<P>
    The USB serial mode of the Orbit Reader 20 is currently only supported in Windows 10.
    USB HID should generally be used instead.
    Following are the key assignments for these displays with NVDA.
@@ -4732,11 +4754,11 @@ Bare for Focus 80:
 <TD>d5</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
+<TD>Flytt leselisten til forrige linje</TD>
 <TD>d1</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
+<TD>Flytt leselisten til neste linje</TD>
 <TD>d3</TD>
 </TR>
 <TR>
@@ -4746,33 +4768,33 @@ Bare for Focus 80:
 </TABLE>
 
 <P>
-   For displays which have a joystick:
+For leselister som har en joystick:
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
 <TH>Tast</TH>
 </TR>
 <TR>
-<TD>PilOpp-tast</TD>
+<TD>Pil opp</TD>
 <TD>opp</TD>
 </TR>
 <TR>
-<TD>PilNed-tast</TD>
+<TD>Pil ned</TD>
 <TD>ned</TD>
 </TR>
 <TR>
-<TD>leftArrow key</TD>
-<TD>left</TD>
+<TD>Pil venstre</TD>
+<TD>venstre</TD>
 </TR>
 <TR>
-<TD>rightArrow key</TD>
-<TD>right</TD>
+<TD>Pil høyre</TD>
+<TD>høyre</TD>
 </TR>
 <TR>
-<TD>enter key</TD>
-<TD>select</TD>
+<TD>Enter</TD>
+<TD>velg</TD>
 </TR>
 </TABLE>
 
@@ -4897,64 +4919,64 @@ Bare for Focus 80:
 <TD>høyre</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
-<TD>up</TD>
+<TD>Flytt leselisten til forrige linje</TD>
+<TD>opp</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
-<TD>down</TD>
+<TD>Flytt leselisten til neste linje</TD>
+<TD>ned</TD>
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
 </TR>
 <TR>
-<TD>Toggle braille tethered to</TD>
-<TD>up+down</TD>
+<TD>Bytt punktskrift knyttet til</TD>
+<TD>opp+ned</TD>
 </TR>
 <TR>
-<TD>PilOpp-tast</TD>
+<TD>Pil opp</TD>
 <TD>mellomrom+punkt1</TD>
 </TR>
 <TR>
-<TD>PilNed-tast</TD>
+<TD>Pil ned</TD>
 <TD>mellomrom+punkt4</TD>
 </TR>
 <TR>
-<TD>leftArrow key</TD>
-<TD>space+dot3</TD>
+<TD>Pil venstre</TD>
+<TD>mellomrom+punkt3</TD>
 </TR>
 <TR>
-<TD>rightArrow key</TD>
-<TD>space+dot6</TD>
+<TD>Pil høyre</TD>
+<TD>mellomrom+punkt6</TD>
 </TR>
 <TR>
-<TD>shift+tab key</TD>
-<TD>space+dot1+dot3</TD>
+<TD>Skift+Tab</TD>
+<TD>mellomrom+punkt1+punkt3</TD>
 </TR>
 <TR>
-<TD>tab key</TD>
-<TD>space+dot4+dot6</TD>
+<TD>Tab</TD>
+<TD>mellomrom+punkt4+punkt6</TD>
 </TR>
 <TR>
-<TD>alt key</TD>
-<TD>space+dot1+dot3+dot4 (space+m)</TD>
+<TD>Alt</TD>
+<TD>mellomrom+punkt1+punkt3+punkt4 (mellomrom+m)</TD>
 </TR>
 <TR>
-<TD>escape key</TD>
-<TD>space+dot1+dot5 (space+e)</TD>
+<TD>Escape</TD>
+<TD>mellomrom+punkt1+punkt5 (mellomrom+e)</TD>
 </TR>
 <TR>
-<TD>enter key</TD>
-<TD>dot8</TD>
+<TD>Enter</TD>
+<TD>punkt8</TD>
 </TR>
 <TR>
 <TD>windows key</TD>
-<TD>space+dot3+dot4</TD>
+<TD>mellomrom+punkt3+punkt4</TD>
 </TR>
 <TR>
-<TD>alt+tab key</TD>
-<TD>space+dot2+dot3+dot4+dot5 (space+t)</TD>
+<TD>Alt+Tab</TD>
+<TD>mellomrom+punkt2+punkt3+punkt4+punkt5 (mellomrom+t)</TD>
 </TR>
 <TR>
 <TD>NVDA-meny</TD>
@@ -4962,11 +4984,11 @@ Bare for Focus 80:
 </TR>
 <TR>
 <TD>windows+d key (minimize all applications)</TD>
-<TD>space+dot1+dot4+dot5 (space+d)</TD>
+<TD>mellomrom+punkt1+punkt4+punkt5 (mellomrom+d)</TD>
 </TR>
 <TR>
 <TD>Say all</TD>
-<TD>space+dot1+dot2+dot3+dot4+dot5+dot6</TD>
+<TD>mellomrom+punkt1+punkt2+punkt3+punkt4+punkt5+punkt6</TD>
 </TR>
 </TABLE>
 
@@ -4980,7 +5002,7 @@ Bare for Focus 80:
 </TR>
 <TR>
 <TD>NVDA-meny</TD>
-<TD>c1+c3+c4+c5 (command n)</TD>
+<TD>c1+c3+c4+c5 (kommando n)</TD>
 </TR>
 <TR>
 <TD>windows+d key (minimize all applications)</TD>
@@ -5001,24 +5023,24 @@ Bare for Focus 80:
 <TH>Tast</TH>
 </TR>
 <TR>
-<TD>up arrow key</TD>
-<TD>joystick up</TD>
+<TD>Pil opp</TD>
+<TD>joystick opp</TD>
 </TR>
 <TR>
-<TD>down arrow key</TD>
-<TD>joystick down</TD>
+<TD>Pil ned</TD>
+<TD>joystick ned</TD>
 </TR>
 <TR>
-<TD>left arrow key</TD>
-<TD>joystick left</TD>
+<TD>Pil venstre</TD>
+<TD>joystick venstre</TD>
 </TR>
 <TR>
-<TD>right arrow key</TD>
-<TD>joystick right</TD>
+<TD>Pil høyre</TD>
+<TD>joystick høyre</TD>
 </TR>
 <TR>
-<TD>enter key</TD>
-<TD>joystick action</TD>
+<TD>Enter</TD>
+<TD>joystick-handling</TD>
 </TR>
 </TABLE>
 
@@ -5052,11 +5074,11 @@ Bare for Focus 80:
 <TD>leftSideScrollDown, rightSideScrollDown, rightSideScroll</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
+<TD>Flytt leselisten til forrige linje</TD>
 <TD>leftSideScrollUp+rightSideScrollUp</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
+<TD>Flytt leselisten til neste linje</TD>
 <TD>leftSideScrollDown+rightSideScrollDown</TD>
 </TR>
 <TR>
@@ -5085,202 +5107,202 @@ Bare for Focus 80:
    leftSideScroll+rightSideScroll |
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
-<TD>control key</TD>
+<TD>Ctrl</TD>
 <TD>smartbeetle:f1, brailleedge:f3</TD>
 </TR>
 <TR>
-<TD>windows key</TD>
+<TD>Windows</TD>
 <TD>f7, smartbeetle:f2</TD>
 </TR>
 <TR>
-<TD>alt key</TD>
-<TD>dot1+dot3+dot4+space, f2, smartbeetle:f3, brailleedge:f4</TD>
+<TD>Alt</TD>
+<TD>punkt1+punkt3+punkt4+mellomrom, f2, smartbeetle:f3, brailleedge:f4</TD>
 </TR>
 <TR>
-<TD>shift key</TD>
+<TD>Skift</TD>
 <TD>f5</TD>
 </TR>
 <TR>
-<TD>insert key</TD>
-<TD>dot2+dot4+space, f6</TD>
+<TD>Insert</TD>
+<TD>punkt2+punkt4+space, f6</TD>
 </TR>
 <TR>
 <TD>applications key</TD>
-<TD>dot1+dot2+dot3+dot4+space, f8</TD>
+<TD>punkt1+punkt2+punkt3+punkt4+space, f8</TD>
 </TR>
 <TR>
-<TD>capsLock key</TD>
-<TD>dot1+dot3+dot6+space</TD>
+<TD>CapsLock</TD>
+<TD>punkt1+punkt3+punkt6+mellomrom</TD>
 </TR>
 <TR>
-<TD>tab key</TD>
-<TD>dot4+dot5+space, f3, brailleedge:f2</TD>
+<TD>Tab</TD>
+<TD>punkt4+punkt5+mellomrom, f3, brailleedge:f2</TD>
 </TR>
 <TR>
-<TD>shift+alt+tab key</TD>
+<TD>Skift+Alt+Tab</TD>
 <TD>f2+f3+f1</TD>
 </TR>
 <TR>
-<TD>alt+tab key</TD>
+<TD>Alt+Tab</TD>
 <TD>f2+f3</TD>
 </TR>
 <TR>
-<TD>shift+tab key</TD>
-<TD>dot1+dot2+space</TD>
+<TD>Skift+Tab</TD>
+<TD>punkt1+punkt2+mellomrom</TD>
 </TR>
 <TR>
-<TD>end key</TD>
-<TD>dot4+dot6+space</TD>
+<TD>End</TD>
+<TD>punkt4+punkt6+mellomrom</TD>
 </TR>
 <TR>
 <TD>control+end key</TD>
-<TD>dot4+dot5+dot6+space</TD>
+<TD>punkt4+punkt5+punkt6+space</TD>
 </TR>
 <TR>
 <TD>home key</TD>
-<TD>dot1+dot3+space, smartbeetle:f4</TD>
+<TD>punkt1+punkt3+space, smartbeetle:f4</TD>
 </TR>
 <TR>
 <TD>control+home key</TD>
-<TD>dot1+dot2+dot3+space</TD>
+<TD>punkt1+punkt2+punkt3+space</TD>
 </TR>
 <TR>
-<TD>alt+f4 key</TD>
-<TD>dot1+dot3+dot5+dot6+space</TD>
+<TD>Alt+F4</TD>
+<TD>punkt1+punkt3+punkt5+punkt6+mellomrom</TD>
 </TR>
 <TR>
-<TD>leftArrow key</TD>
-<TD>dot3+space, leftSideLeftArrow</TD>
+<TD>Pil venstre</TD>
+<TD>punkt3+mellomrom, leftSideLeftArrow</TD>
 </TR>
 <TR>
 <TD>control+Skift+leftArrow key</TD>
-<TD>dot2+dot8+space+f1</TD>
+<TD>punkt2+punkt8+mellomrom+f1</TD>
 </TR>
 <TR>
 <TD>control+leftArrow key</TD>
-<TD>dot2+space</TD>
+<TD>punkt2+space</TD>
 </TR>
 <TR>
-<TD>shift+alt+leftArrow key</TD>
-<TD>dot2+dot7+f1</TD>
+<TD>Skift+Alt+Pil venstre</TD>
+<TD>punkt2+punkt7+f1</TD>
 </TR>
 <TR>
-<TD>alt+leftArrow key</TD>
-<TD>dot2+dot7</TD>
+<TD>Alt+Pil venstre</TD>
+<TD>punkt2+punkt7</TD>
 </TR>
 <TR>
-<TD>rightArrow key</TD>
-<TD>dot6+space, leftSideRightArrow</TD>
+<TD>Pil høyre</TD>
+<TD>punkt6+mellomrom, leftSideRightArrow</TD>
 </TR>
 <TR>
-<TD>control+Skift+rightArrow key</TD>
-<TD>dot5+dot8+space+f1</TD>
+<TD>Ctrl+Skift+Pil høyre</TD>
+<TD>punkt5+punkt8+mellomrom+f1</TD>
 </TR>
 <TR>
-<TD>control+rightArrow key</TD>
-<TD>dot5+space</TD>
+<TD>Ctrl+Pil høyre</TD>
+<TD>punkt5+mellomrom</TD>
 </TR>
 <TR>
-<TD>shift+alt+rightArrow key</TD>
-<TD>dot5+dot7+f1</TD>
+<TD>Skift+Alt+Pil høyre</TD>
+<TD>punkt5+punkt7+f1</TD>
 </TR>
 <TR>
-<TD>alt+rightArrow key</TD>
-<TD>dot5+dot7</TD>
+<TD>Alt+Pil høyre</TD>
+<TD>punkt5+punkt7</TD>
 </TR>
 <TR>
 <TD>pageUp key</TD>
-<TD>dot1+dot2+dot6+space</TD>
+<TD>punkt1+punkt2+punkt6+space</TD>
 </TR>
 <TR>
 <TD>control+pageUp key</TD>
-<TD>dot1+dot2+dot6+dot8+space</TD>
+<TD>punkt1+punkt2+punkt6+punkt8+space</TD>
 </TR>
 <TR>
 <TD>PilOpp key</TD>
-<TD>dot1+space, leftSideUpArrow</TD>
+<TD>punkt1+space, leftSideUpArrow</TD>
 </TR>
 <TR>
-<TD>control+Skift+PilOpp key</TD>
-<TD>dot2+dot3+dot8+space+f1</TD>
+<TD>Ctrl+Skift+Pil opp</TD>
+<TD>punkt2+punkt3+punkt8+mellomrom+f1</TD>
 </TR>
 <TR>
-<TD>control+PilOpp key</TD>
-<TD>dot2+dot3+space</TD>
+<TD>Ctrl+Pil opp</TD>
+<TD>punkt2+punkt3+mellomrom</TD>
 </TR>
 <TR>
-<TD>shift+alt+PilOpp key</TD>
-<TD>dot2+dot3+dot7+f1</TD>
+<TD>Skift+Alt+Pil opp</TD>
+<TD>punkt2+punkt3+punkt7+f1</TD>
 </TR>
 <TR>
-<TD>alt+PilOpp key</TD>
-<TD>dot2+dot3+dot7</TD>
+<TD>Alt+Pil opp</TD>
+<TD>punkt2+punkt3+punkt7</TD>
 </TR>
 <TR>
 <TD>shift+PilOpp key</TD>
 <TD>leftSideScrollDown+space</TD>
 </TR>
 <TR>
-<TD>pageDown key</TD>
-<TD>dot3+dot4+dot5+space</TD>
+<TD>PageDown</TD>
+<TD>punkt3+punkt4+punkt5+mellomrom</TD>
 </TR>
 <TR>
-<TD>control+pageDown key</TD>
-<TD>dot3+dot4+dot5+dot8+space</TD>
+<TD>Ctrl+PageDown</TD>
+<TD>punkt3+punkt4+punkt5+punkt8+mellomrom</TD>
 </TR>
 <TR>
 <TD>PilNed key</TD>
-<TD>dot4+space, leftSideDownArrow</TD>
+<TD>punkt4+space, leftSideDownArrow</TD>
 </TR>
 <TR>
-<TD>control+Skift+PilNed key</TD>
-<TD>dot5+dot6+dot8+space+f1</TD>
+<TD>Ctrl+Skift+Pil ned</TD>
+<TD>punkt5+punkt6+punkt8+mellomrom+f1</TD>
 </TR>
 <TR>
-<TD>control+PilNed key</TD>
-<TD>dot5+dot6+space</TD>
+<TD>Ctrl+Pil ned</TD>
+<TD>punkt5+punkt6+mellomrom</TD>
 </TR>
 <TR>
-<TD>shift+alt+PilNed key</TD>
-<TD>dot5+dot6+dot7+f1</TD>
+<TD>Skift+Alt+Pil ned</TD>
+<TD>punkt5+punkt6+punkt7+f1</TD>
 </TR>
 <TR>
-<TD>alt+PilNed key</TD>
-<TD>dot5+dot6+dot7</TD>
+<TD>Alt+Pil ned</TD>
+<TD>punkt5+punkt6+punkt7</TD>
 </TR>
 <TR>
 <TD>shift+PilNed key</TD>
-<TD>space+rightSideScrollDown</TD>
+<TD>mellomrom+rightSideScrollDown</TD>
 </TR>
 <TR>
 <TD>escape key</TD>
-<TD>dot1+dot5+space, f4, brailleedge:f1</TD>
+<TD>punkt1+punkt5+space, f4, brailleedge:f1</TD>
 </TR>
 <TR>
 <TD>delete key</TD>
-<TD>dot1+dot3+dot5+space, dot1+dot4+dot5+space</TD>
+<TD>punkt1+punkt3+punkt5+space, punkt1+punkt4+punkt5+space</TD>
 </TR>
 <TR>
 <TD>f1 key</TD>
-<TD>dot1+dot2+dot5+space</TD>
+<TD>punkt1+punkt2+punkt5+space</TD>
 </TR>
 <TR>
-<TD>f3 key</TD>
-<TD>dot1+dot2+dot4+dot8</TD>
+<TD>F3</TD>
+<TD>punkt1+punkt2+punkt4+punkt8</TD>
 </TR>
 <TR>
-<TD>f4 key</TD>
-<TD>dot7+f3</TD>
+<TD>F4</TD>
+<TD>punkt7+F3</TD>
 </TR>
 <TR>
-<TD>windows+b key</TD>
-<TD>dot1+dot2+f1</TD>
+<TD>Windows+b</TD>
+<TD>punkt1+punkt2+f1</TD>
 </TR>
 <TR>
 <TD>windows+d key</TD>
-<TD>dot1+dot4+dot5+f1</TD>
+<TD>punkt1+punkt4+punkt5+f1</TD>
 </TR>
 <TR>
 <TD>control+insert key</TD>
@@ -5296,12 +5318,16 @@ Bare for Focus 80:
 <H3>15.10. Seika leselister</H3>
 
 <P>
-   The Seika Version 3, 4 and 5 (40 cells) and Seika80 (80 cells) braille displays from [Nippon Telesoft
-   <A HREF="http://www.nippontelesoft.com/">http://www.nippontelesoft.com/</A>] are supported.
-   You can find more information about these displays at <A HREF="http://www.seika-braille.com/">http://www.seika-braille.com/</A>.
-   You must first install the USB drivers provided by the manufacturer.
-   Following are the key assignments for this display with NVDA.
-   Please see the display's documentation for descriptions of where these keys can be found.
+Leselistene Seika Versjon 3, 4 og 5 (40 celler) og Seika80 (80 celler) fra <A HREF="http://www.nippontelesoft.com/">Nippon Telesoft</A> støttes.
+</P>
+<P>
+Du kan finner mer informasjon om disse leselistene her: <A HREF="http://www.seika-braille.com/">http://www.seika-braille.com/</A>.
+</P>
+<P>
+Du må først installere USB-driverne fra produsenten før disse leselistene kan brukes sammen med NVDA.
+</P>
+<P>
+Følgende er tastetilordningene for disse leselistene med NVDA. Se i dokumentasjonen for disse leselistene for å få en beskrivelse av hvor de ulike tastene er å finne.
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -5318,15 +5344,15 @@ Bare for Focus 80:
 <TD>høyre</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
+<TD>Flytt leselisten til forrige linje</TD>
 <TD>b3</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
+<TD>Flytt leselisten til neste linje</TD>
 <TD>b4</TD>
 </TR>
 <TR>
-<TD>Toggle braille tethered to</TD>
+<TD>Bytt punktskrift knyttet til</TD>
 <TD>b5</TD>
 </TR>
 <TR>
@@ -5334,15 +5360,15 @@ Bare for Focus 80:
 <TD>b6</TD>
 </TR>
 <TR>
-<TD>tab</TD>
+<TD>Tab</TD>
 <TD>b1</TD>
 </TR>
 <TR>
-<TD>shift+tab</TD>
+<TD>Skift+Tab</TD>
 <TD>b2</TD>
 </TR>
 <TR>
-<TD>alt+tab</TD>
+<TD>Alt+Tab</TD>
 <TD>b1+b2</TD>
 </TR>
 <TR>
@@ -5359,15 +5385,15 @@ Bare for Focus 80:
 <H3>15.11. Papenmeier BRAILLEX nyere modeller</H3>
 
 <P>
-   The following Braille displays are supported:
+Følgende leselister støttes:
 </P>
 
-   <UL>
-   <LI>BRAILLEX EL 40c, EL 80c, EL 20c, EL 60c (USB)
-   <LI>BRAILLEX EL 40s, EL 80s, EL 2d80s, EL 70s, EL 66s (USB)
-   <LI>BRAILLEX Trio (USB and bluetooth)
-   <LI>BRAILLEX Live 20, BRAILLEX Live and BRAILLEX Live Plus (USB and bluetooth)
-   </UL>
+<UL>
+<LI>BRAILLEX EL 40c, EL 80c, EL 20c, EL 60c (USB)
+<LI>BRAILLEX EL 40s, EL 80s, EL 2d80s, EL 70s, EL 66s (USB)
+<LI>BRAILLEX Trio (USB og bluetooth)
+<LI>BRAILLEX Live 20, BRAILLEX Live og BRAILLEX Live Plus (USB and bluetooth)
+</UL>
 
 <P>
    If BrxCom is installed, NVDA will use BrxCom.
@@ -5463,12 +5489,12 @@ Bare for Focus 80:
 <TD>høyre</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
-<TD>up</TD>
+<TD>Flytt leselisten til forrige linje</TD>
+<TD>opp</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
-<TD>dn</TD>
+<TD>Flytt leselisten til neste linje</TD>
+<TD>ned</TD>
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
@@ -5479,20 +5505,20 @@ Bare for Focus 80:
 <TD>l1</TD>
 </TR>
 <TR>
-<TD>Activate current navigator object</TD>
+<TD>Aktiver gjeldende navigasjonsobjekt</TD>
 <TD>l2</TD>
 </TR>
 <TR>
-<TD>Toggle braille tethered to</TD>
+<TD>Bytt knytt punktskrift til</TD>
 <TD>r2</TD>
 </TR>
 <TR>
-<TD>Report title</TD>
-<TD>l1+up</TD>
+<TD>Rapporter tittel</TD>
+<TD>l1+opp</TD>
 </TR>
 <TR>
-<TD>Report Status Bar</TD>
-<TD>l2+down</TD>
+<TD>Rapporter statuslinje</TD>
+<TD>l2+ned</TD>
 </TR>
 <TR>
 <TD>Move to containing object</TD>
@@ -5560,11 +5586,11 @@ Bare for Focus 80:
 </TR>
 <TR>
 <TD>control key</TD>
-<TD>lt+dot2</TD>
+<TD>lt+punkt2</TD>
 </TR>
 <TR>
 <TD>alt key</TD>
-<TD>lt+dot3</TD>
+<TD>lt+punkt3</TD>
 </TR>
 <TR>
 <TD>control+escape key</TD>
@@ -5657,30 +5683,29 @@ Bare for Focus 80:
 
 <P>
    Following are the Papenmeier command assignments for NVDA:
-   %kc:beginInclude
    Devices with EAB:
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
 <TH>Tast</TH>
 </TR>
 <TR>
 <TD>Gå bakover med leselisten</TD>
-<TD>left</TD>
+<TD>venstre</TD>
 </TR>
 <TR>
 <TD>Gå framover med leselisten</TD>
-<TD>right</TD>
+<TD>høyre</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
-<TD>up</TD>
+<TD>Flytt leselisten til forrige linje</TD>
+<TD>opp</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
-<TD>dn</TD>
+<TD>Flytt leselisten til neste linje</TD>
+<TD>ned</TD>
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
@@ -5725,10 +5750,10 @@ Bare for Focus 80:
 </TABLE>
 
 <P>
-   BRAILLEX Tiny:
+BRAILLEX Tiny:
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
 <TH>Tast</TH>
@@ -5738,24 +5763,24 @@ Bare for Focus 80:
 <TD>l1</TD>
 </TR>
 <TR>
-<TD>Activate current navigator object</TD>
+<TD>Aktiver gjeldende navigasjonsobjekt</TD>
 <TD>l2</TD>
 </TR>
 <TR>
 <TD>Gå bakover med leselisten</TD>
-<TD>left</TD>
+<TD>venstre</TD>
 </TR>
 <TR>
 <TD>Gå framover med leselisten</TD>
-<TD>right</TD>
+<TD>høyre</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
-<TD>up</TD>
+<TD>Flytt leselisten til forrige linje</TD>
+<TD>opp</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
-<TD>dn</TD>
+<TD>Flytt leselisten til neste linje</TD>
+<TD>ned</TD>
 </TR>
 <TR>
 <TD>Toggle braille tethered to</TD>
@@ -5792,10 +5817,10 @@ Bare for Focus 80:
 </TABLE>
 
 <P>
-   BRAILLEX 2D Screen:
+BRAILLEX 2D Screen:
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
 <TH>Tast</TH>
@@ -5817,23 +5842,23 @@ Bare for Focus 80:
 <TD>upper routing strip</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
-<TD>up</TD>
+<TD>Flytt leselisten til forrige linje</TD>
+<TD>opp</TD>
 </TR>
 <TR>
 <TD>Gå bakover med leselisten</TD>
-<TD>left</TD>
+<TD>venstre</TD>
 </TR>
 <TR>
 <TD>Gå framover med leselisten</TD>
-<TD>right</TD>
+<TD>høyre</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
-<TD>dn</TD>
+<TD>Flytt leselisten til neste linje</TD>
+<TD>ned</TD>
 </TR>
 <TR>
-<TD>Move to next object</TD>
+<TD>Gå til neste objekt</TD>
 <TD>left2</TD>
 </TR>
 <TR>
@@ -5845,14 +5870,10 @@ Bare for Focus 80:
 <TD>dn2</TD>
 </TR>
 <TR>
-<TD>Move to previous object</TD>
+<TD>Gå til forrige objekt</TD>
 <TD>right2</TD>
 </TR>
 </TABLE>
-
-<P>
-   %kc:endInclude
-</P>
 
 <A NAME="HumanWareBrailleNote"></A>
 <H3>15.13. HumanWare BrailleNote</H3>
@@ -5893,37 +5914,36 @@ Bare for Focus 80:
    counterclockwise.
    Following are the BrailleNote command assignments for NVDA.
    Please check your BrailleNote's documentation to find where these keys are located.
-   %kc:beginInclude
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
 <TH>Tast</TH>
 </TR>
 <TR>
 <TD>Gå bakover med leselisten</TD>
-<TD>back</TD>
+<TD>bakover</TD>
 </TR>
 <TR>
 <TD>Gå framover med leselisten</TD>
-<TD>advance</TD>
+<TD>framover</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
-<TD>previous</TD>
+<TD>Flytt leselisten til forrige linje</TD>
+<TD>forrige</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
-<TD>next</TD>
+<TD>Flytt leselisten til neste linje</TD>
+<TD>neste</TD>
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
 </TR>
 <TR>
-<TD>NvDA menu</TD>
-<TD>space+dot1+dot3+dot4+dot5 (space+n)</TD>
+<TD>NvDA-meny</TD>
+<TD>mellomrom+punkt1+punkt3+punkt4+punkt5 (mellomrom+n)</TD>
 </TR>
 <TR>
 <TD>Toggle braille tethered to</TD>
@@ -5931,43 +5951,43 @@ Bare for Focus 80:
 </TR>
 <TR>
 <TD>Up arrow key</TD>
-<TD>space+dot1</TD>
+<TD>mellomrom+punkt1</TD>
 </TR>
 <TR>
 <TD>Down arrow key</TD>
-<TD>space+dot4</TD>
+<TD>mellomrom+punkt4</TD>
 </TR>
 <TR>
 <TD>Left Arrow key</TD>
-<TD>space+dot3</TD>
+<TD>mellomrom+punkt3</TD>
 </TR>
 <TR>
 <TD>Right arrow key</TD>
-<TD>space+dot6</TD>
+<TD>mellomrom+punkt6</TD>
 </TR>
 <TR>
 <TD>Page up key</TD>
-<TD>space+dot1+dot3</TD>
+<TD>mellomrom+punkt1+punkt3</TD>
 </TR>
 <TR>
 <TD>Page down key</TD>
-<TD>space+dot4+dot6</TD>
+<TD>mellomrom+punkt4+punkt6</TD>
 </TR>
 <TR>
-<TD>Home key</TD>
-<TD>space+dot1+dot2</TD>
+<TD>Home</TD>
+<TD>mellomrom+punkt1+punkt2</TD>
 </TR>
 <TR>
-<TD>End key</TD>
-<TD>space+dot4+dot5</TD>
+<TD>End</TD>
+<TD>mellomrom+punkt4+punkt5</TD>
 </TR>
 <TR>
-<TD>Control+home keys</TD>
-<TD>space+dot1+dot2+dot3</TD>
+<TD>Ctrl+Home</TD>
+<TD>mellomrom+punkt1+punkt2+punkt3</TD>
 </TR>
 <TR>
-<TD>Control+end keys</TD>
-<TD>space+dot4+dot5+dot6</TD>
+<TD>Ctrl+End</TD>
+<TD>mellomrom+punkt4+punkt5+punkt6</TD>
 </TR>
 <TR>
 <TD>Space key</TD>
@@ -5975,31 +5995,31 @@ Bare for Focus 80:
 </TR>
 <TR>
 <TD>Enter</TD>
-<TD>space+dot8</TD>
+<TD>mellomrom+punkt8</TD>
 </TR>
 <TR>
 <TD>Backspace</TD>
-<TD>space+dot7</TD>
+<TD>mellomrom+punkt7</TD>
 </TR>
 <TR>
 <TD>Tab key</TD>
-<TD>space+dot2+dot3+dot4+dot5 (space+t)</TD>
+<TD>mellomrom+punkt2+punkt3+punkt4+punkt5 (mellomrom+t)</TD>
 </TR>
 <TR>
 <TD>Shift+tab keys</TD>
-<TD>space+dot1+dot2+dot5+dot6</TD>
+<TD>mellomrom+punkt1+punkt2+punkt5+punkt6</TD>
 </TR>
 <TR>
 <TD>Windows key</TD>
-<TD>space+dot2+dot4+dot5+dot6 (space+w)</TD>
+<TD>mellomrom+punkt2+punkt4+punkt5+punkt6 (mellomrom+w)</TD>
 </TR>
 <TR>
 <TD>Alt key</TD>
-<TD>space+dot1+dot3+dot4 (space+m)</TD>
+<TD>mellomrom+punkt1+punkt3+punkt4 (mellomrom+m)</TD>
 </TR>
 <TR>
 <TD>Toggle input help</TD>
-<TD>space+dot2+dot3+dot6 (space+lower h)</TD>
+<TD>mellomrom+punkt2+punkt3+punkt6 (mellomrom+lower h)</TD>
 </TR>
 </TABLE>
 
@@ -6053,107 +6073,103 @@ Bare for Focus 80:
 <TD>read+t</TD>
 </TR>
 <TR>
-<TD>Control+end keys</TD>
+<TD>Ctrl+End</TD>
 <TD>read+b</TD>
 </TR>
 <TR>
-<TD>Enter key</TD>
-<TD>enter</TD>
+<TD>Enter</TD>
+<TD>Enter</TD>
 </TR>
 <TR>
-<TD>Backspace key</TD>
-<TD>backspace</TD>
+<TD>Slett bakover</TD>
+<TD>Slett bakover</TD>
 </TR>
 <TR>
-<TD>Tab key</TD>
-<TD>tab</TD>
+<TD>Tab</TD>
+<TD>Tab</TD>
 </TR>
 <TR>
-<TD>Shift+tab keys</TD>
-<TD>shift+tab</TD>
+<TD>Skift+Tab</TD>
+<TD>Skift+Tab</TD>
 </TR>
 <TR>
-<TD>Windows key</TD>
+<TD>Windows-tast</TD>
 <TD>read+w</TD>
 </TR>
 <TR>
-<TD>Alt key</TD>
+<TD>Alt</TD>
 <TD>read+m</TD>
 </TR>
 <TR>
-<TD>Toggle input help</TD>
+<TD>Slå hjelp for inndata på/av</TD>
 <TD>read+1</TD>
 </TR>
 </TABLE>
 
 <P>
-   Following are commands assigned to the scroll wheel:
+Følgende er kommandoer knyttet til rullehjulet:
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
 <TH>Tast</TH>
 </TR>
 <TR>
-<TD>Up arrow key</TD>
-<TD>PilOpp</TD>
+<TD>Pil opp</TD>
+<TD>Pil opp</TD>
 </TR>
 <TR>
-<TD>Down arrow key</TD>
-<TD>PilNed</TD>
+<TD>Pil ned</TD>
+<TD>Pil ned</TD>
 </TR>
 <TR>
-<TD>Left Arrow key</TD>
-<TD>leftArrow</TD>
+<TD>Venstre piltast</TD>
+<TD>Pil venstre</TD>
 </TR>
 <TR>
-<TD>Right arrow key</TD>
-<TD>rightArrow</TD>
+<TD>Høyre piltast</TD>
+<TD>Pil høyre</TD>
 </TR>
 <TR>
-<TD>Enter key</TD>
-<TD>center button</TD>
+<TD>Enter</TD>
+<TD>Senterknapp</TD>
 </TR>
 <TR>
-<TD>Tab key</TD>
-<TD>scroll wheel clockwise</TD>
+<TD>Tab</TD>
+<TD>rull hjulet med klokken</TD>
 </TR>
 <TR>
-<TD>Shift+tab keys</TD>
-<TD>scroll wheel counterclockwise</TD>
+<TD>Skift+Tab</TD>
+<TD>rull hjulet mot klokken</TD>
 </TR>
 </TABLE>
-
-<P>
-   %kc:endInclude
-</P>
 
 <A NAME="EcoBraille"></A>
 <H3>15.14. EcoBraille</H3>
 
 <P>
-   NVDA supports EcoBraille displays from <A HREF="http://www.once.es/">ONCE</A>.
-   The following models are supported:
+NVDA støtte EcoBraille-leselister fra <A HREF="http://www.once.es/">ONCE</A>.
+</P>
+<P>
+Følgende modeller støttes:
 </P>
 
-   <UL>
-   <LI>EcoBraille 20
-   <LI>EcoBraille 40
-   <LI>EcoBraille 80
-   <LI>EcoBraille Plus
-   </UL>
+<UL>
+<LI>EcoBraille 20
+<LI>EcoBraille 40
+<LI>EcoBraille 80
+<LI>EcoBraille Plus
+</UL>
 
 <P>
-   In NVDA, you can set the serial port to which the display is connected in the [Select Braille Display
-   #SelectBrailleDisplay] dialog.
+I NVDA kan du sette serieporten leselisten er koblet til i dialogen <A HREF="#SelectBrailleDisplay">Velg leselist</A>.
    Following are the key assignments for EcoBraille displays.
    Please see the <A HREF="ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braille/ECO/">EcoBraille documentation</A> for
    descriptions of where these keys can be found.
-   %kc:beginInclude
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
 <TH>Tast</TH>
@@ -6167,11 +6183,11 @@ Bare for Focus 80:
 <TD>T4</TD>
 </TR>
 <TR>
-<TD>Move braille display to previous line</TD>
+<TD>Flytt leselisten til forrige linje</TD>
 <TD>T1</TD>
 </TR>
 <TR>
-<TD>Move braille display to next line</TD>
+<TD>Flytt leselisten til neste linje</TD>
 <TD>T5</TD>
 </TR>
 <TR>
@@ -6215,7 +6231,7 @@ Bare for Focus 80:
 <TD>F8</TD>
 </TR>
 <TR>
-<TD>Move System focus or caret to current review position</TD>
+<TD>Flytt systemfokus eller markør til gjeldende leseposisjon</TD>
 <TD>F9</TD>
 </TR>
 <TR>
@@ -6228,10 +6244,6 @@ Bare for Focus 80:
 </TR>
 </TABLE>
 
-<P>
-   %kc:endInclude
-</P>
-
 <A NAME="SuperBraille"></A>
 <H3>15.15. SuperBraille</H3>
 
@@ -6241,10 +6253,9 @@ Bare for Focus 80:
    via a standard computer keyboard.
    Due to this, and to maintain compatibility with other screen readers in Taiwan, two key bindings for scrolling
    the braille display have been provided:
-   %kc:beginInclude
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
 <TH>Tast</TH>
@@ -6258,10 +6269,6 @@ Bare for Focus 80:
 <TD>numerisk pluss</TD>
 </TR>
 </TABLE>
-
-<P>
-   %kc:endInclude
-</P>
 
 <A NAME="Eurobraille"></A>
 <H3>15.16. Eurobraille Esys/Esytime/Iris leselister</H3>
@@ -6278,25 +6285,24 @@ Bare for Focus 80:
    to the space key.
    Following are the key assignments for these displays with NVDA.
    Please see the display's documentation for descriptions of where these keys can be found.
-   %kc:beginInclude
 </P>
 
-<TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
+<TABLE BORDER="1" CELLPADDING="4">
 <TR>
 <TH>Navn</TH>
 <TH>Tast</TH>
 </TR>
 <TR>
 <TD>Gå bakover med leselisten</TD>
-<TD>switch1-6left, l1</TD>
+<TD>switch1-6Venstre, l1</TD>
 </TR>
 <TR>
 <TD>Gå framover med leselisten</TD>
-<TD>switch1-6Right, l8</TD>
+<TD>switch1-6Høyre, l8</TD>
 </TR>
 <TR>
-<TD>Move to current focus</TD>
-<TD>switch1-6Left+switch1-6Right, l1+l8</TD>
+<TD>Flytt til gjeldende fokus</TD>
+<TD>switch1-6Venstre+switch1-6Høyre, l1+l8</TD>
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
@@ -6340,35 +6346,35 @@ Bare for Focus 80:
 </TR>
 <TR>
 <TD>insert key</TD>
-<TD>dot3+dot5+space, l7</TD>
+<TD>punkt3+punkt5+space, l7</TD>
 </TR>
 <TR>
 <TD>delete key</TD>
-<TD>dot3+dot6+space</TD>
+<TD>punkt3+punkt6+space</TD>
 </TR>
 <TR>
 <TD>home key</TD>
-<TD>dot1+dot2+dot3+space, joystick2Left+joystick2Up</TD>
+<TD>punkt1+punkt2+punkt3+space, joystick2Left+joystick2Up</TD>
 </TR>
 <TR>
 <TD>end key</TD>
-<TD>dot4+dot5+dot6+space, joystick2Right+joystick2Down</TD>
+<TD>punkt4+punkt5+punkt6+space, joystick2Right+joystick2Down</TD>
 </TR>
 <TR>
 <TD>PilVenstre</TD>
-<TD>dot2+space, joystick2Left, leftArrow</TD>
+<TD>punkt2+space, joystick2Left, leftArrow</TD>
 </TR>
 <TR>
-<TD>PilHøyre</TD>
-<TD>dot5+space, joystick2Right, rightArrow</TD>
+<TD>Pil høyre</TD>
+<TD>punkt5+mellomrom, joystick2Høyre, Pil høyre</TD>
 </TR>
 <TR>
-<TD>Pil</TD>
-<TD>dot1+space, joystick2Up, PilOpp</TD>
+<TD>Pil opp</TD>
+<TD>punkt1+mellomrom, joystick2Opp, Pil opp</TD>
 </TR>
 <TR>
-<TD>PilNed key</TD>
-<TD>dot6+space, joystick2Down, PilNed</TD>
+<TD>Pil ned</TD>
+<TD>punkt6+mellomrom, joystick2Ned, Pil ned</TD>
 </TR>
 <TR>
 <TD>enter key</TD>
@@ -6376,183 +6382,183 @@ Bare for Focus 80:
 </TR>
 <TR>
 <TD>pageUp key</TD>
-<TD>dot1+dot3+space</TD>
+<TD>punkt1+punkt3+space</TD>
 </TR>
 <TR>
 <TD>pageDown key</TD>
-<TD>dot4+dot6+space</TD>
+<TD>punkt4+punkt6+space</TD>
 </TR>
 <TR>
 <TD>numerisk 1</TD>
-<TD>dot1+dot6+backspace</TD>
+<TD>punkt1+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numerisk 2</TD>
-<TD>dot1+dot2+dot6+backspace</TD>
+<TD>punkt1+punkt2+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numerisk 3</TD>
-<TD>dot1+dot4+dot6+backspace</TD>
+<TD>punkt1+punkt4+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numpad4 key</TD>
-<TD>dot1+dot4+dot5+dot6+backspace</TD>
+<TD>punkt1+punkt4+punkt5+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numpad5 key</TD>
-<TD>dot1+dot5+dot6+backspace</TD>
+<TD>punkt1+punkt5+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numpad6 key</TD>
-<TD>dot1+dot2+dot4+dot6+backspace</TD>
+<TD>punkt1+punkt2+punkt4+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numpad7 key</TD>
-<TD>dot1+dot2+dot4+dot5+dot6+backspace</TD>
+<TD>punkt1+punkt2+punkt4+punkt5+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numpad8 key</TD>
-<TD>dot1+dot2+dot5+dot6+backspace</TD>
+<TD>punkt1+punkt2+punkt5+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numpad9 key</TD>
-<TD>dot2+dot4+dot6+backspace</TD>
+<TD>punkt2+punkt4+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numpadInsert key</TD>
-<TD>dot3+dot4+dot5+dot6+backspace</TD>
+<TD>punkt3+punkt4+punkt5+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numpadDecimal key</TD>
-<TD>dot2+backspace</TD>
+<TD>punkt2+backspace</TD>
 </TR>
 <TR>
 <TD>numpadDivide key</TD>
-<TD>dot3+dot4+backspace</TD>
+<TD>punkt3+punkt4+backspace</TD>
 </TR>
 <TR>
 <TD>numpadMultiply key</TD>
-<TD>dot3+dot5+backspace</TD>
+<TD>punkt3+punkt5+backspace</TD>
 </TR>
 <TR>
 <TD>numpadMinus key</TD>
-<TD>dot3+dot6+backspace</TD>
+<TD>punkt3+punkt6+backspace</TD>
 </TR>
 <TR>
 <TD>numpadPlus key</TD>
-<TD>dot2+dot3+dot5+backspace</TD>
+<TD>punkt2+punkt3+punkt5+backspace</TD>
 </TR>
 <TR>
 <TD>numpadEnter key</TD>
-<TD>dot3+dot4+dot5+backspace</TD>
+<TD>punkt3+punkt4+punkt5+backspace</TD>
 </TR>
 <TR>
 <TD>escape key</TD>
-<TD>dot1+dot2+dot4+dot5+space, l2</TD>
+<TD>punkt1+punkt2+punkt4+punkt5+space, l2</TD>
 </TR>
 <TR>
-<TD>tab key</TD>
-<TD>dot2+dot5+dot6+space, l3</TD>
+<TD>Tab</TD>
+<TD>punkt2+punkt5+punkt6+mellomrom, l3</TD>
 </TR>
 <TR>
-<TD>shift+tab key</TD>
-<TD>dot2+dot3+dot5+space</TD>
+<TD>Skift+Tab</TD>
+<TD>punkt2+punkt3+punkt5+mellomrom</TD>
 </TR>
 <TR>
 <TD>printScreen key</TD>
-<TD>dot1+dot3+dot4+dot6+space</TD>
+<TD>punkt1+punkt3+punkt4+punkt6+space</TD>
 </TR>
 <TR>
-<TD>pause key</TD>
-<TD>dot1+dot4+space</TD>
+<TD>Pause</TD>
+<TD>punkt1+punkt4+mellomrom</TD>
 </TR>
 <TR>
 <TD>applications key</TD>
-<TD>dot5+dot6+backspace</TD>
+<TD>punkt5+punkt6+backspace</TD>
 </TR>
 <TR>
-<TD>f1 key</TD>
-<TD>dot1+backspace</TD>
+<TD>F1</TD>
+<TD>punkt1+slett bakover</TD>
 </TR>
 <TR>
-<TD>f2 key</TD>
-<TD>dot1+dot2+backspace</TD>
+<TD>F2</TD>
+<TD>punkt1+punkt2+slett bakover</TD>
 </TR>
 <TR>
-<TD>f3 key</TD>
-<TD>dot1+dot4+backspace</TD>
+<TD>F3</TD>
+<TD>punkt1+punkt4+slett bakover</TD>
 </TR>
 <TR>
-<TD>f4 key</TD>
-<TD>dot1+dot4+dot5+backspace</TD>
+<TD>F4</TD>
+<TD>punkt1+punkt4+punkt5+slett bakover</TD>
 </TR>
 <TR>
-<TD>f5 key</TD>
-<TD>dot1+dot5+backspace</TD>
+<TD>F5</TD>
+<TD>punkt1+punkt5+slett bakover</TD>
 </TR>
 <TR>
-<TD>f6 key</TD>
-<TD>dot1+dot2+dot4+backspace</TD>
+<TD>F6</TD>
+<TD>punkt1+punkt2+punkt4+slett bakover</TD>
 </TR>
 <TR>
-<TD>f7 key</TD>
-<TD>dot1+dot2+dot4+dot5+backspace</TD>
+<TD>F7</TD>
+<TD>punkt1+punkt2+punkt4+punkt5+slett bakover</TD>
 </TR>
 <TR>
-<TD>f8 key</TD>
-<TD>dot1+dot2+dot5+backspace</TD>
+<TD>F8</TD>
+<TD>punkt1+punkt2+punkt5+slett bakover</TD>
 </TR>
 <TR>
-<TD>f9 key</TD>
-<TD>dot2+dot4+backspace</TD>
+<TD>F9</TD>
+<TD>punkt2+punkt4+slett bakover</TD>
 </TR>
 <TR>
-<TD>f10 key</TD>
-<TD>dot2+dot4+dot5+backspace</TD>
+<TD>F10</TD>
+<TD>punkt2+punkt4+punkt5+slett bakover</TD>
 </TR>
 <TR>
-<TD>f11 key</TD>
-<TD>dot1+dot3+backspace</TD>
+<TD>F11</TD>
+<TD>punkt1+punkt3+slett bakover</TD>
 </TR>
 <TR>
-<TD>f12 key</TD>
-<TD>dot1+dot2+dot3+backspace</TD>
+<TD>F12</TD>
+<TD>punkt1+punkt2+punkt3+slett bakover</TD>
 </TR>
 <TR>
-<TD>windows key</TD>
-<TD>dot1+dot2+dot3+dot4+backspace</TD>
+<TD>Windows-tasten</TD>
+<TD>punkt1+punkt2+punkt3+punkt4+slett bakover</TD>
 </TR>
 <TR>
-<TD>capsLock key</TD>
-<TD>dot7+backspace, dot8+backspace</TD>
+<TD>CapsLock</TD>
+<TD>punkt7+slett bakover, punkt8+slett bakover</TD>
 </TR>
 <TR>
-<TD>numLock key</TD>
-<TD>dot3+backspace, dot6+backspace</TD>
+<TD>NumLock</TD>
+<TD>punkt3+slett bakover, punkt6+slett bakover</TD>
 </TR>
 <TR>
-<TD>shift key</TD>
-<TD>dot7+space, l4</TD>
+<TD>Skift</TD>
+<TD>punkt7+mellomrom, l4</TD>
 </TR>
 <TR>
 <TD>Toggle shift key</TD>
-<TD>dot1+dot7+space, dot4+dot7+space</TD>
+<TD>punkt1+punkt7+space, punkt4+punkt7+space</TD>
 </TR>
 <TR>
-<TD>control key</TD>
-<TD>dot7+dot8+space, l5</TD>
+<TD>Ctrl</TD>
+<TD>punkt7+punkt8+mellomrom, l5</TD>
 </TR>
 <TR>
 <TD>Toggle control key</TD>
-<TD>dot1+dot7+dot8+space, dot4+dot7+dot8+space</TD>
+<TD>punkt1+punkt7+punkt8+space, punkt4+punkt7+punkt8+space</TD>
 </TR>
 <TR>
-<TD>alt key</TD>
-<TD>dot8+space, l6</TD>
+<TD>Alt</TD>
+<TD>punkt8+mellomrom, l6</TD>
 </TR>
 <TR>
 <TD>Toggle alt key</TD>
-<TD>dot1+dot8+space, dot4+dot8+space</TD>
+<TD>punkt1+punkt8+space, punkt4+punkt8+space</TD>
 </TR>
 <TR>
 <TD>ToggleHID keyboard input simulation</TD>
@@ -6814,7 +6820,7 @@ Her er BRLTTYs kommandotilordninger for NVDA. Vennligst se <A HREF="http://mielk
 
 <TABLE ALIGN="center" BORDER="1" CELLPADDING="4">
 <TR>
-<TH>Name</TH>
+<TH>Navn</TH>
 <TH>Type</TH>
 <TH>Possible values</TH>
 <TH>Beskrivelse</TH>
