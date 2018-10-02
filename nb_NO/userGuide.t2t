@@ -195,7 +195,7 @@ Så lenge NVDA kjører, vil all berøring av skjermen gå direkte til NVDA. Derf
 +++ Utforsk skjermen +++[ExploringTheScreen]
 Den mest grunnleggende handlingen du kan utføre med berøringsskjermen er å annonsere kontrollen eller teksten på et hvilket som helst sted på skjermen. For å gjøre dette, plasserer du én finger et vilkårlig sted på skjermen.
 
-Du kan også holde fingeren på skjermen og flytte den rundt for å få opplest andre kontroller eller tekst som fingeren flytter seg over.
+Du kan også holde fingeren på skjermen og flytte den rundt for å få opplest andre kontroller eller tekst som fingeren beveger seg over.
 
 +++ Berøringsgester +++[TouchGestures]
 Når NVDA-kommandoer blir beskrevet seinere i denne brukerhåndboka, vil de ofte også inneholde en berøringsgest som kan brukes for å aktivere kommandoen på berøringsskjermen.
@@ -250,7 +250,7 @@ NVDA-menyen lar deg kontrollere NVDAs innstillinger, hjelp, lagre/tilbakestille 
 
 For å gå til NVDA-menyen fra hvor som helst i Windows mens NVDA kjører, trykker du NVDA+n.
 Du kan også gå til NVDA-menyen via systemstatusfeltet i Windows.
-Enten høyreklikk på NVDA-ikonet i systemstatusfeltet, eller få tilgang til systemstatusfeltet ved å trykke Win+b, pil ned til NVDA-ikonet og trykk deretter på meny-tasten. Den finner du rett til venstre for høyre kontrolltast på de fleste tastaturer.
+Enten høyreklikk på NVDA-ikonet i systemstatusfeltet, eller få tilgang til systemstatusfeltet ved å trykke Win+b, pil ned til NVDA-ikonet og trykk deretter på meny-tasten. Den finner du rett til venstre for høyre Ctrl-tast på de fleste tastaturer.
 
 Når menyen vises, kan du bruke piltastene til å navigere i den, og enter-tasten for å aktivere et element.
 
@@ -467,11 +467,11 @@ Informasjon som hvorvidt teksten er en lenke, overskrift, osv. blir opplyst samm
 
 Noen ganger trenger du å kommunisere direkte med kontroller i disse dokumentene. For eksempel må du gjøre dette for redigerbare tekstfelt og lister, slik at du kan skrive tegn og bruke piltastene til å arbeide med kontrollen. Dette gjør du ved å bytte til fokusmodus, hvor nesten alle tastetrykk blir sendt til kontrollen.
 
-I nettmodus vil NVDA som standard automatisk bytte til fokusmodus hvis du flytter til eller klikker på en bestemt kontroll som krever det.
+I nettmodus vil NVDA som standard automatisk bytte til fokusmodus hvis du flytter til eller klikker på en kontroll som krever det.
 Motsatt vil det å flytte til eller klikke på en kontroll som ikke krever fokusmodus bytte tilbake til nettmodus.
-Du kan også trykke enter eller mellomrom for å bytte til fokusmodus i kontroller som krever det.
+Du kan også trykke på Enter eller mellomrom for å bytte til fokusmodus i kontroller som krever det.
 Ved å trykke escape byttes det tilbake til nettmodus.
-I tillegg kan du manuelt påtvinge fokusmodus. Den vil forbli aktiv inntil du velger å deaktivere den.
+I tillegg kan du manuelt aktivere fokusmodus. Den vil forbli aktiv inntil du velger å deaktivere den.
 
 %kc:beginInclude
 || Navn | Tast | Beskrivelse |
@@ -1217,7 +1217,7 @@ Tast: NVDA+Ctrl+t
 Dette valget lar deg avgjøre hvorvidt leselisten skal følge systemfokus, navigasjonsobjektet/lesemarkøren, eller begge.
 
 Når "automatisk" er valgt, vil NVDA følge systemfokus og -markøren som standard.
-I dette tilfellet, når navigasjonsobjektets eller lesemarkørens posisjon endres som følge av eksplisitt brukersamhandling, vil NVDA knytte seg midlertidig til lesemarkør, til fokus eller markør endres.  
+I dette tilfellet, når navigasjonsobjektets eller lesemarkørens posisjon endres som følge av eksplisitt brukersamhandling, vil NVDA knytte seg midlertidig til lesemarkør, til fokus eller markør endres.
 
 ==== Les avsnittsvis ====[BrailleSettingsReadByParagraph]
 Hvis dette valget er slått på, vil punktskrift bli vist som avsnitt i stedet for linjer.
@@ -1247,7 +1247,7 @@ Se delen om [objektnavigasjon #ObjectNavigation] for mer informasjon om hierarki
 Når innstillingen er satt til å fylle leselisten for endringer i kontekst, vil NVDA forsøke å vise så mye kontekstinformasjon som mulig på leselisten, men bare om de delene av konteksten som har blitt endret.
 
 Når det gjelder eksempelet ovenfor, vil dette si at når du endrer fokus til listen, vil NVDA vise listeelementet på leselisten. Om det er nok ledig plass på leselisten, vil NVDA videre forsøke å vise at listeelementet er en del av en liste.
-Om du så begynner å gå gjennom listen ved hjelp av piltastene, er det forutsatt at du er oppmerksom på at du fortsatt er i listen. Følgelig vil NVDA bare vise det fokuserte listeelementet for de gjenværende elementene i listen.  
+Om du så begynner å gå gjennom listen ved hjelp av piltastene, er det forutsatt at du er oppmerksom på at du fortsatt er i listen. Følgelig vil NVDA bare vise det fokuserte listeelementet for de gjenværende elementene i listen.
 
 Hvis du vil lese konteksten igjen, for eksempel at du er i en liste og at listen er del av en dialog, må du bla leselisten bakover.
 
@@ -1255,7 +1255,7 @@ Når dette valget er satt til å alltid fylle leselisten, vil NVDA forsøke å v
 
 Dette har den fordelen at NVDA vil få plass til så mye informasjon som mulig på leselisten.
 
-Ulempen ved dette er at det alltid vil være en forskjell i posisjonen hvor fokuset begynner på leselisten. Dette kan gjøre det vanskelig å for eksempel skumme raskt gjennom en lang liste med elementer, fordi du hele tiden må flytte fingeren for å finne begynnelsen på elementet.  
+Ulempen ved dette er at det alltid vil være en forskjell i posisjonen hvor fokuset begynner på leselisten. Dette kan gjøre det vanskelig å for eksempel skumme raskt gjennom en lang liste med elementer, fordi du hele tiden må flytte fingeren for å finne begynnelsen på elementet.
 
 Dette var standard i NVDA 2017.2 og tidligere.
 
@@ -1284,36 +1284,37 @@ Ingen leselist betyr at du ikke benytter punktskrift.
 Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer informasjon om leselistene som støttes.
 
 ==== Port ====[SelectBrailleDisplayPort]
-   This option, if available, allows you to choose what port or type of connection will be used to communicate
-   with the braille display you have selected.
-   It is a combo box containing the possible choices for your braille display.
-   By default, NVDA employs automatic port detection, which means the connection with the braille device will be
-   established automatically by scanning for available USB and bluetooth devices on your system.
-   However, for some braille displays, you may be able to explicitly choose what port should be used.
-   Common options are "Automatic" (which tells NVDA to employ the default automatic port selection procedure),
-   "USB", "Bluetooth" and legacy serial communication ports if your braille display supports this type of
-   communication.
-   This option won't be available if your braille display only supports automatic port detection.
-   You may consult the documentation for your braille display in the section [Supported Braille Displays
-   #SupportedBrailleDisplays] to check for more details on the supported types of communication and available
-   ports.
+Dette valget vil, dersom det er tilgjengelig, la deg velge hvilken port eller type tilkobling som brukes til kommunikasjon med leselisten du har valgt.
+
+Dette er en kombinasjonsboks med de valgene som er tilgjengelig for leselisten din.
+
+Som standard skal NVDA oppdage port automatisk. Dette betyr at tilkoblingen til punktskriftenheten vil bli etablert automatisk ved at NVDA søker etter tilgjengelige USB- og bluetooth-enheter på PC-en din. 
+
+Imidlertid vil du kunne velge hvilken port som skal brukes for noen leselister.
+
+Vanlige alternativer er "automatisk" (som instruerer NVDA om å benytte prosedyren for automatisk valg av port), "USB", "Bluetooth" og seriell port hvis leselisten din støtter denne typen kommunikasjon.
+
+Dette valget vil ikke være tilgjengelig dersom leselisten din bare støtter automatisk oppdaging av port.
+
+Se dokumentasjonen for leselisten din i delen 
+[Støttede leselister #SupportedBrailleDisplays] for å finne flere detaljer om de støttede typene av kommunikasjon og tilgjengelige porter.
 
 +++ Tastatur (NVDA+Ctrl+k) +++[KeyboardSettings]
-   The Keyboard category in the NVDA Settings dialog contains options that sets how NVDA behaves as you use and
-   type on your keyboard.
-   This settings category contains the following options:
+Kategorien Tastatur i NVDAs innstillingdsdialog inneholder innstillinger som avgjør hvordan NVDA oppfører seg når du bruker og skriver på tastaturet ditt. 
+
+I denne kategorien finner du følgende valg:
 
 ==== Tastaturoppsett ====[KeyboardSettingsLayout]
-   This combo box lets you choose what type of keyboard layout NVDA should use. Currently the two that come with
-   NVDA are Desktop and Laptop.
+Denne kombinasjonsboksen lar deg velge hvilket tastaturoppsett NVDA skal ha. For øyeblikket er de to alternativene som leveres med NvDA stasjonært og bærbart.
 
 ==== Bruk CapsLock som NVDA-tast ====[KeyboardSettingsCapsModifier]
    If this checkbox is checked, capslock can be used as an NVDA modifier key.
-   ==== Use extended insert as an NVDA modifier key ====[KeyboardSettingsExtendedInsert]
+
+==== Bruk utvidet Insert som NVDA-tast ====[KeyboardSettingsExtendedInsert]
    If this checkbox is checked, the extended insert key (usually found above the arrow keys, near home and end)
    can be used as an NVDA modifier key.
 
-==== Use numpad insert as an NVDA modifier key ====[KeyboardSettingsNumpadInsert]
+==== Bruk numerisk Insert som NVDA-tast ====[KeyboardSettingsNumpadInsert]
    If this checkbox is checked, the insert key on the number pad can be used as an NVDA modifier key.
    If no key is chosen as the NVDA key it may be impossible to access certain NVDA commands.
    Therefore, The NVDA settings dialog will display an error message if all keys are unselected when pressing Ok
@@ -1322,13 +1323,15 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    dialog properly.
    %kc:setting
 
-==== Speak Typed Characters ====[KeyboardSettingsSpeakTypedCharacters]
-   Key: NVDA+2
+==== Si skrevne tegn ====[KeyboardSettingsSpeakTypedCharacters]
+Tast: NVDA+2
+
    When enabled, NVDA will announce all characters you type on the keyboard.
    %kc:setting
 
-==== Speak Typed Words ====[KeyboardSettingsSpeakTypedWords]
-   Key: NVDA+3
+==== Si skrevne ord ====[KeyboardSettingsSpeakTypedWords]
+Tast: NVDA+3
+
    When enabled, NVDA will announce all words you type on the keyboard.
 
 ==== Speech interrupt for typed characters ====[KeyboardSettingsSpeechInteruptForCharacters]
@@ -1350,7 +1353,8 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    %kc:setting
 
 ==== Speak Command Keys ====[KeyboardSettingsSpeakCommandKeys]
-   Key: NVDA+4
+Tast: NVDA+4
+
    When enabled, NVDA will announce all non-character keys you type on the keyboard. This includes key
    combinations such as control plus another letter.
 
@@ -1359,7 +1363,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    This option is only available if reporting of spelling errors is enabled in NVDA's [Document Formatting
    Settings #DocumentFormattingSettings], found in the NVDA Settings dialog.
 
-==== Handle keys from other applications ====[KeyboardSettingsHandleKeys]
+==== Håndtere tastetrykk fra andre programmer ====[KeyboardSettingsHandleKeys]
    This option allows the user to control if key presses generated by applications such as on-screen keyboards
    and speech recognition software should be processed by NVDA.
    This option is on by default, though certain users may wish to turn this off, such as those typing Vietnamese
@@ -1377,8 +1381,9 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    or when something is loading etc.
    %kc:setting
 
-==== Enable mouse tracking ====[MouseSettingsTracking]
-   Key: NVDA+m
+==== Slå på mussporing ====[MouseSettingsTracking]
+Tast: NVDA+m
+
    When enabled, NVDA will announce the text currently under the mouse pointer, as you move it around the screen.
    This allows you to find things on the screen, by physically moving the mouse, rather than trying to find them
    through object navigation.
@@ -1420,20 +1425,22 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    %kc:setting
 
 ==== Follow System Focus ====[ReviewCursorFollowFocus]
-   Key: NVDA+7
+Tast: NVDA+7
+
    When enabled, The review cursor will always be placed in the same object as the current system focus whenever
    the focus changes.
    %kc:setting
 
 ==== Follow System Caret ====[ReviewCursorFollowCaret]
-   Key: NVDA+6
+Tast: NVDA+6
+
    When enabled, the review cursor will automatically be moved to the position of the System caret each time it
    moves.
 
-==== Follow mouse cursor ====[ReviewCursorFollowMouse]
+==== Følg musmarkør ====[ReviewCursorFollowMouse]
    When enabled, the review cursor will follow the mouse as it moves.
 
-==== Simple Review mode ====[ReviewCursorSimple]
+==== Enkel lesemodus ====[ReviewCursorSimple]
    When enabled, NVDA will filter the hierarchy of objects that can be navigated to exclude objects that aren't
    of interest to the user; e.g. invisible objects and objects used only for layout purposes.
    To toggle simple review mode from anywhere, please assign a custom gesture using the [Input Gestures dialog
@@ -1474,7 +1481,8 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    %kc:setting
 
 ==== Progress bar output ====[ObjectPresentationProgressBarOutput]
-   Key: NVDA+u
+Tast: NVDA+u
+
    This option controls how NVDA reports progress bar updates to you.
    It has the following options:
    - Off: Progress bars will not be reported as they change.
@@ -1493,7 +1501,8 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    %kc:setting
 
 ==== Report dynamic content changes ====[ObjectPresentationReportDynamicContent]
-   Key: NVDA+5
+Tast: NVDA+5
+
    Toggles the announcement of new content in particular objects such as terminals and the history control in
    chat programs.
 
@@ -1532,8 +1541,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    Note that even with this option off, the review cursor will still be placed on the selected candidate allowing
    you to use object navigation / review to manually read this or other candidates.
 
-==== Always include short character descriptions for candidates
-   ====[InputCompositionCandidateIncludesShortCharacterDescription]
+==== Always include short character descriptions for candidates ====[InputCompositionCandidateIncludesShortCharacterDescription]
    This option, which is on by default, allows you to choose whether or not NVDA should provide a short
    description for each character in a candidate, either when it's selected or when it's automatically read when
    the candidate list appears.
@@ -1559,7 +1567,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    composition string.
    This option is on by default.
 
-+++ Browse Mode (NVDA+Ctrl+b) +++[BrowseModeSettings]
++++ Nettmodus (NVDA+Ctrl+b) +++[BrowseModeSettings]
    The Browse Mode category in the NVDA Settings dialog is used to configure NVDA's behavior when you read and
    navigate complex documents such as web pages.
    This category contains the following options:
@@ -1572,7 +1580,8 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    %kc:setting
 
 ==== Use screen layout ====[BrowseModeSettingsScreenLayout]
-   Key: NVDA+v
+Tast: NVDA+v
+
    This option allows you to specify whether content in browse mode should place content such as links and other
    fields on their own line, or if it should keep them in the flow of text as it is visually shown. If the option
    is enabled then things will stay as they are visually shown, but if it is disabled then fields will be placed
@@ -1670,29 +1679,26 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    Enable this option while proof reading documents in applications such as WordPad, where formatting is
    important.
 
-==== Line indentation reporting ====[DocumentFormattingSettingsLineIndentation]
-   This option allows you to configure how indentation at the beginning of lines is reported.
-   The Report line indentation with combo box has four options.
-   - Off: NVDA will not treat indentation specially.
-   - Speech: If speech is selected, when the amount of indentation changes, NVDA will say something like "twelve
-   space" or "four tab."
-   - Tones: If Tones is selected, when the amount of indentation changes, tones indicate the amount of change in
-   indent.
-   The tone will increase in pitch every space, and for a tab, it will increase in pitch the equivalent of 4
-   spaces.
-   - Both Speech and Tones: This option reads indentation using both of the above methods.
-   -
+==== Rapportering av linjeinnrykk ====[DocumentFormattingSettingsLineIndentation]
+Dette valget lar deg konfigurere hvordan innrykk på begynnelsen av linjer rapporteres.
+
+Kombinasjonsboksen "Rapporter linjeinnrykk med" har fire valg:
+- Av: NVDA vil ikke behandle innrykk spesielt.
+- Tale: Om tale er valgt og innrykk endres, vil NVDA si noe sånt som "tolv mellomrom" eller "fire tabulator."
+- Toner: Om toner er valgt og innrykk endres, vil toner indikere omfanget av endringen av innrykket. Tonehøyden vil øke for hvert mellomrom, og for en tabulator vil tonehøyden øke tilsvarende fire mellomrom.
+- Både tale og toner: Dette valget rapporterer innrykk ved hjelp av begge metodene ovenfor.
+-
 
 +++ Innstillinger for OCR i Windows 10 +++[Win10OcrSettings]
-   The settings in this category allow you to configure [Windows 10 OCR #Win10Ocr].
-   This category contains the following options:
+Innstillingene i denne kategorien lar deg konfigurere [Windows 10 OCR #Win10Ocr].
 
-==== Recognition language ====[Win10OcrSettingsRecognitionLanguage]
-   This combo box allows you to choose the language to be used for text recognition.
+Denne kategorien består av følgende valg:
+
+==== Språk for gjenkjenning ====[Win10OcrSettingsRecognitionLanguage]
+Denne kombinasjonsboksen lar deg velge språket som skal brukes for tekstgjenkjenning.
 
 ++ Diverse innstillinger ++[MiscSettings]
-   Besides the [NVDA Settings #NVDASettings] dialog, The Preferences sub-menu of the NVDA Menu contains several
-   other items which are outlined below.
+I tillegg til dialogen [NCDA-Innstillinger #NVDASettings], inneholder undermenyen Preferanser i NVDA-menyen flere andre elementer som er omtalt nedenfor. 
 
 +++ Taleordlister +++[SpeechDictionaries]
    The speech dictionaries menu (found in the Preferences menu) contains dialogs that allow you to manage the way
@@ -1785,7 +1791,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    To remove a gesture from a command, select the gesture and press the Remove button.
    When you are finished making changes, press the OK button to save them or the Cancel button to discard them.
 
-++ Saving and Reloading the configuration ++[SavingAndReloading]
+++ Lagre konfigurasjonen og laste den inn på nytt ++[SavingAndReloading]
    By default NVDA will automatically save your settings on exit.
    Note, however, that this option can be changed under the general options in the preferences menu.
    To save the settings manually at any time, choose the Save configuration item in the NVDA menu.
@@ -1794,13 +1800,12 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    You can also reset your settings to their original factory defaults by choosing Reset Configuration To Factory
    Defaults, which is also found in the NVDA menu.
    The following NVDA key commands are also useful:
-   %kc:beginInclude
-   || Name | Desktop key | Bærbar tast | Beskrivelse |
-   | Save configuration | NVDA+Ctrl+c | NVDA+Ctrl+c | Saves your current configuration so that it is not
-   lost when you exit NVDA |
-   | Revert configuration | NVDA+Ctrl+r | NVDA+Ctrl+r | Pressing once resets your configuration to when you
-   last saved it. Pressing three times will reset it back to factory defaults. |
-   %kc:endInclude
+
+%kc:beginInclude
+|| Navn | Stasjonær tast | Bærbar tast | Beskrivelse |
+| Lagre konfigurasjon | NVDA+Ctrl+c | NVDA+Ctrl+c | Lagrer din gjeldende konfigurasjon slik at den ikke forsvinner når du avslutter NVDA |
+| Tilbakestill konfigurasjon | NVDA+Ctrl+r | NVDA+Ctrl+r | Trykk én gang for å tilbakestille konfigurasjonen din til da du sist lagret den. Tre trykk vil tilbakestille den til fabrikkstandard. |
+%kc:endInclude
 
 ++ Konfigurasjonsprofiler ++[ConfigurationProfiles]
    Sometimes, you may wish to have different settings for different situations.
@@ -1813,7 +1818,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    Configuration profiles can be manually activated.
    They can also be activated automatically due to triggers such as switching to a particular application.
 
-+++ Basic Management +++[ProfilesBasicManagement]
++++ Grunnleggende behandling +++[ProfilesBasicManagement]
    You manage configuration profiles by selecting "Configuration profiles" in the NVDA menu.
    You can also do this using a key command:
    %kc:beginInclude
@@ -1827,7 +1832,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    To rename or delete a profile, press the Rename or Delete buttons, respectively.
    Press the Close button to close the dialog.
 
-+++ Creating a Profile +++[ProfilesCreating]
++++ Lage en profil +++[ProfilesCreating]
    To create a profile, press the New button.
    In the New Profile dialog, you can enter a name for the profile.
    You can also select how this profile should be used.
@@ -1838,7 +1843,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    See [below #ConfigProfileTriggers] for more information about triggers.
    Pressing OK will create the profile and close the Configuration Profiles dialog so you can edit it.
 
-+++ Manual Activation +++[ConfigProfileManual]
++++ Manuell aktivering +++[ConfigProfileManual]
    You can manually activate a profile by selecting a profile and pressing the Manual activate button.
    Once activated, other profiles can still be activated due to triggers, but any settings in the manually
    activated profile will override them.
@@ -1862,7 +1867,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    You can select "(normal configuration)" if you don't want a profile to be used.
    Press the Close button to return to the Configuration Profiles dialog.
 
-+++ Editing a Profile +++[ConfigProfileEditing]
++++ Redigere en profil +++[ConfigProfileEditing]
    If you have manually activated a profile, any settings you change will be saved to that profile.
    Otherwise, any settings you change will be saved to the most recently triggered profile.
    For example, if you have associated a profile with the Notepad application and you switch to Notepad, any
@@ -1980,19 +1985,20 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    for developers.
 
 + Støttede talesynteser +[SupportedSpeechSynths]
-   This section contains information about the speech synthesizers supported by NVDA.
-   For an even more extensive list of free and commercial synthesizers that you can purchase and download for use
-   with NVDA, please see [extra voices page https://github.com/nvaccess/nvda/wiki/ExtraVoices].
+Denne delen inneholder informasjon om talesynteser som støttes av NVDA.
+
+En mer omfattende liste over gratis og kommersielle talesynteser du kan kjøpe og laste ned for bruk sammen med NVDA, finner du på siden [extra voices https://github.com/nvaccess/nvda/wiki/ExtraVoices].
 
 ++ eSpeak NG ++[eSpeakNG]
-   The [eSpeak NG https://github.com/espeak-ng/espeak-ng] synthesizer is built directly into NVDA and does not
-   require any other special drivers or components to be installed.
-   NVDA starts using eSpeak NG by default.
-   As this synthesizer is built into NVDA, this is a great choice for when running NVDA off a USB thumb drive on
-   other systems.
-   Each voice that comes with eSpeak NG speaks a different language.
-   There are over 43 different languages supported by eSpeak NG.
-   There are also many variants which can be chosen to alter the sound of the voice.
+Talesyntesen [eSpeak NG https://github.com/espeak-ng/espeak-ng] er bygd inn i NVDA og krever ikke installasjon av andre drivere eller komponenter for å kunne brukes.
+
+NVDA benytter eSpeak NG som standard.
+
+Siden denne talesyntesen er bygd inn i NVDA, er dette et utmerket valg når du kjører NVDA fra en USB-minnepenn på andre systemer. 
+
+Hver stemme som leveres med eSpeak NG snakker et eget språk. eSpeak NG støtter over 43 ulike språk.
+
+Det er også mange varianter som kan velges for å justere lyden av stemmen.
 
 ++ Microsoft Speech API version 4 (SAPI 4) ++[SAPI4]
    SAPI 4 is an older Microsoft standard for software speech synthesizers.
@@ -2026,7 +2032,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    -
    -
 
-++ Windows OneCore Voices ++[OneCore]
+++ Windows OneCore-stemmer ++[OneCore]
    Windows 10 includes new voices known as "OneCore" or "mobile" voices.
    Voices are provided for many languages, and they are more responsive than the Microsoft voices available using
    Microsoft Speech API version 5.
@@ -2044,7 +2050,7 @@ Vennligst se delen [Støttede leselister #SupportedBrailleDisplays] for mer info
    This synthesizer does not support [spelling functionality #SpeechSettingsUseSpelling].
 
 + Støttede leselister +[SupportedBrailleDisplays]
-   This section contains information about the Braille displays supported by NVDA.
+Denne delen inneholder informasjon om leselistene som støttes av NVDA.
 
 ++ Freedom Scientific Focus/PAC Mate-serien ++[FreedomScientificFocus]
 Alle Focus- og PAC Mate-leselister [Freedom Scientific http://www.freedomscientific.com/] støttes når de er tilkoblet via USB eller bluetooth. 
@@ -2074,28 +2080,28 @@ Vennligst se i dokumentasjonen for leselisten for å få en beskrivelse av hvor 
    | Move back using right wiz wheel action | rightWizWheelUp |
    | Move forward using right wiz wheel action | rightWizWheelDown |
    | Route to braille cell | routing |
-   | shift+tab key | brailleSpaceBar+dot1+dot2 |
-   | tab key | brailleSpaceBar+dot4+dot5 |
-   | PilOpp-tast | brailleSpaceBar+dot1 |
-   | PilNed-tast | brailleSpaceBar+dot4 |
-   | control+leftArrow key | brailleSpaceBar+dot2 |
-   | control+rightArrow key | brailleSpaceBar+dot5 |
-| PilVenstre-tast | brailleSpaceBar+dot3 |
-| PilHøyre-tast | brailleSpaceBar+dot6 |
-| Home-tast | brailleSpaceBar+dot1+dot3 |
-| End-tast | brailleSpaceBar+dot4+dot6 |
-   | control+home key | brailleSpaceBar+dot1+dot2+dot3 |
-   | control+end key | brailleSpaceBar+dot4+dot5+dot6 |
-   | alt key | brailleSpaceBar+dot1+dot3+dot4 |
-   | alt+tab key | brailleSpaceBar+dot2+dot3+dot4+dot5 |
-   | alt+Skift+tab key | brailleSpaceBar+dot1+dot2+dot5+dot6 |
-   | windows+tab key | brailleSpaceBar+dot2+dot3+dot4 |
-   | escape key | brailleSpaceBar+dot1+dot5 |
-   | windows key | brailleSpaceBar+dot2+dot4+dot5+dot6 |
+| Skift+Tab | brailleSpaceBar+punkt1+punkt2 |
+| Tab | brailleSpaceBar+punkt4+punkt5 |
+| Pil opp | brailleSpaceBar+punkt1 |
+| Pil ned | brailleSpaceBar+punkt4 |
+| Ctrl+Pil venstre | brailleSpaceBar+punkt2 |
+| Ctrl+Pil høyre | brailleSpaceBar+punkt5 |
+| Pil venstre | brailleSpaceBar+punkt3 |
+| Pil høyre | brailleSpaceBar+punkt6 |
+| Home | brailleSpaceBar+punkt1+punkt3 |
+| End | brailleSpaceBar+punkt4+punkt6 |
+   | control+home key | brailleSpaceBar+punkt1+punkt2+punkt3 |
+   | control+end key | brailleSpaceBar+punkt4+punkt5+punkt6 |
+   | alt key | brailleSpaceBar+punkt1+punkt3+punkt4 |
+   | alt+tab key | brailleSpaceBar+punkt2+punkt3+punkt4+punkt5 |
+   | alt+Skift+tab key | brailleSpaceBar+punkt1+punkt2+punkt5+punkt6 |
+   | windows+tab key | brailleSpaceBar+punkt2+punkt3+punkt4 |
+   | escape key | brailleSpaceBar+punkt1+punkt5 |
+   | windows key | brailleSpaceBar+punkt2+punkt4+punkt5+punkt6 |
    | space key | brailleSpaceBar |
-   | windows+d key (minimize all applications) | brailleSpaceBar+dot1+dot2+dot3+dot4+dot5+dot6 |
-| Rapporter gjeldende linje | brailleSpaceBar+dot1+dot4 |
-   | NVDA menu | brailleSpaceBar+dot1+dot3+dot4+dot5 |
+   | windows+d key (minimize all applications) | brailleSpaceBar+punkt1+punkt2+punkt3+punkt4+punkt5+punkt6 |
+| Rapporter gjeldende linje | brailleSpaceBar+punkt1+punkt4 |
+   | NVDA menu | brailleSpaceBar+punkt1+punkt3+punkt4+punkt5 |
 
 For nyere Focus-modeller som har vippeknapper (Focus 40, Focus 80 og Focus Blue):
 || Navn | Tast |
@@ -2108,11 +2114,10 @@ Bare for Focus 80:
 | Gå framover med leselisten | leftBumperBarDown, rightBumperBarDown |
 %kc:endInclude
 
-++ Optelec ALVA 6-serien/protokollkonverter ++[OptelecALVA]
-   Both the ALVA BC640 and BC680 displays from [Optelec http://www.optelec.com/] are supported when connected via
-   USB or bluetooth.
-   Alternatively, you can connect an older Optelec display, such as a Braille Voyager, using a protocol converter
-   supplied by Optelec.
+++ Optelec ALVA 6-serien/protokollkonverterer ++[OptelecALVA]
+Både ALVA BC640 og BC680-leselistene fra [Optelec http://www.optelec.com/] kan tilkobles både med USB og bluetooth.
+
+Alternativt kan du koble til en eldre Optelec-leselist, som Braille Voyager, via en protokollkonverterer som leveres av Optelec.
    You do not need any specific drivers to be installed to use these displays.
    Just plug in the display and configure NVDA to use it.
    Note: NVDA might be unable to use an ALVA BC6 display over Bluetooth when it is paired using the ALVA
@@ -2130,28 +2135,28 @@ Bare for Focus 80:
 %kc:beginInclude
 || Navn | Tast |
 | Gå bakover med leselisten | t1 eller etouch1 |
-   | Move braille display to previous line | t2 |
-   | Move to current focus | t3 |
-   | Move braille display to next line | t4 |
+| Flytt leselisten til forrige linje | t2 |
+| Flytt til gjeldende fokus | t3 |
+| Flytt leselisten til neste linje | t4 |
 | Gå framover med leselisten | t5 eller etouch3 |
    | Route to braille cell | routing |
-   | Report text formatting under braille cell | secondary routing |
-   | Toggle HID keyboard simulation | t1+spEnter |
+| Rapporter tekstformatering under punktskriftcellen | sekundær markørhenter |
+| Toggle simulering av HID-tastatur | t1+spEnter |
    | Move to top line in review | t1+t2 |
    | Move to bottom line in review | t4+t5 |
    | Toggle braille tethered to | t1+t3 |
    | Report title | etouch2 |
    | Report status bar | etouch4 |
-   | shift+tab key | sp1 |
-   | alt key | sp2 |
-   | escape key | sp3 |
-   | tab key | sp4 |
-| PilOpp-tast | spUp |
-| PilNed-tast | spDown |
+| Skift+Tab | sp1 |
+| Alt | sp2 |
+| Escape | sp3 |
+| Tab | sp4 |
+| Pil opp | spUp |
+| Pil ned | spDown |
    | leftArrow key | spLeft |
    | rightArrow key | spRight |
    | enter key | spEnter, enter|
-   | Report date/time | sp1+sp2 |
+| Rapporter dato/tid | sp1+sp2 |
 | NVDA-meny | sp1+sp3 |
    | windows+d key (minimize all applications) | sp1+sp4 |
    | windows+b key (focus system tray) | sp3+sp4 |
@@ -2161,45 +2166,43 @@ Bare for Focus 80:
    | control+end key | t3+spDown |
    | home key | t3+spLeft |
    | end key | t3+spRight |
-   | alt key | alt |
+| Alt | alt |
    | control key | control |
 %kc:endInclude
 
 ++ Handy Tech-leselister ++[HandyTech]
-   NVDA supports most displays from [Handy Tech http://www.handytech.de/] when connected via USB, serial port or
-   bluetooth.
+NVDA støtter de fleste leselister fra [Handy Tech http://www.handytech.de/] når de er koblet til via USB, serieport eller bluetooth.
    For older USB displays, you will need to install the USB drivers from Handy Tech on your system.
    The following displays are not supported out of the box, but can be used via [Handy Tech's universal driver
    https://handytech.de/en/service/downloads-and-manuals/handy-tech-software/braille-display-drivers] and NVDA
    add-on:
-   - Braillino
-   - Bookworm
-   - Modular displays with firmware version 1.13 or lower. Please note that the firmware of this displays can be
-   updated.
-   -
+- Braillino
+- Bookworm
+- Modular-leselister med internprogramvare versjon 1.13 eller lavere. Vær oppmerksom på at internprogramvaren på disse leselistene kan oppdateres.
+-
    Following are the key assignments for Handy Tech displays with NVDA.
    Please see the display's documentation for descriptions of where these keys can be found.
 %kc:beginInclude
 || Navn | Tast |
 | Gå bakover med leselisten | venstre, opp, b3 |
 | Gå framover med leselisten | høyre, ned, b6 |
-   | Move braille display to previous line | b4 |
-   | Move braille display to next line | b5 |
+| Flytt leselisten til forrige linje | b4 |
+| Flytt leselisten til neste linje | b5 |
    | Route to braille cell | routing |
-   | shift+tab key | esc, left triple action key up+down |
-   | alt key | b2+b4+b5 |
-   | escape key | b4+b6 |
-   | tab key | enter, right triple action key up+down |
+| Skift+Tab | esc, venstre trippeltast opp+ned |
+| Alt | b2+b4+b5 |
+| Escape | b4+b6 |
+| Tab | enter, høyre trippeltast opp+ned |
    | enter key | esc+enter, left+right triple action key up+down, joystickAction |
-| PilOpp-tast | joystickUp |
-| PilNed-tast | joystickDown |
+| Pil opp | joystickUp |
+| Pil ned | joystickDown |
    | leftArrow key | joystickLeft |
    | rightArrow key | joystickRight |
 | NVDA-meny | b2+b4+b5+b6 |
    | Toggle braille tethered to | b2 |
    | Toggle the braille cursor | b1 |
    | Toggle focus context presentation | b7 |
-   | Toggle braille input | space+b1+b3+b4 (space+capital B) |
+   | Toggle braille input | mellomrom+b1+b3+b4 (mellomrom+capital B) |
 %kc:endInclude
 
 ++ MDV Lilli ++[MDVLilli]
@@ -2215,26 +2218,29 @@ Bare for Focus 80:
    | Move braille display to previous line | UP |
    | Move braille display to next line | DN |
    | Route to braille cell | route |
-   | shift+tab key | SLF |
-   | tab key | SRG |
-   | alt+tab key | SDN |
-   | alt+Skift+tab key | SUP |
+| Skift+Tab | SLF |
+| Tab | SRG |
+| Alt+Tab | SDN |
+| Alt+Skift+Tab | SUP |
 %kc:endInclude
 
 ++ Baum/Humanware/APH/Orbit-leselister ++[Baum]
-   Several [Baum http://www.baum.de/cms/en/], [HumanWare http://www.humanware.com/], [APH http://www.aph.org/]
-   and [Orbit http://www.orbitresearch.com/] displays are supported when connected via USB, bluetooth or serial.
-   These include:
-   - Baum: SuperVario, PocketVario, VarioUltra, Pronto!, SuperVario2, Vario 340
-   - HumanWare: Brailliant, BrailleConnect, Brailliant2
-   - APH: Refreshabraille
-   - Orbit: Orbit Reader 20
-   -
-   Some other displays manufactured by Baum may also work, though this has not been tested.
-   If connecting via USB to displays which do not use HID, you must first install the USB drivers provided by the
-   manufacturer.
-   The VarioUltra and Pronto! use HID.
-   The Refreshabraille and Orbit Reader 20 can use HID if configured appropriately.
+Flere leselister fra [Baum http://www.baum.de/cms/en/], [HumanWare http://www.humanware.com/], [APH http://www.aph.org/] og [Orbit http://www.orbitresearch.com/] er støttes når de er tilkoblet via USB, bluetooth eller serieport. Disse omfatter:
+
+- Baum: SuperVario, PocketVario, VarioUltra, Pronto!, SuperVario2, Vario 340
+- HumanWare: Brailliant, BrailleConnect, Brailliant2
+- APH: Refreshabraille
+- Orbit: Orbit Reader 20
+-
+
+Enkelte andre leselister produsert av BAUM kan også fungere, men dette har ikke blitt testet.
+
+Om du oppretter en tilkobling via USB til leselister som ikke benytter HID, må du først installere USB-driverne som leveres av produsenten.
+
+VarioUltra og Pronto! benytter HID.
+
+Refreshabraille og Orbit Reader 20 kan benytte HID hvis de konfigureres for det.
+
    The USB serial mode of the Orbit Reader 20 is currently only supported in Windows 10.
    USB HID should generally be used instead.
    Following are the key assignments for these displays with NVDA.
@@ -2243,16 +2249,17 @@ Bare for Focus 80:
 || Navn | Tast |
 | Gå bakover med leselisten | d2 |
 | Gå framover med leselisten | d5 |
-   | Move braille display to previous line | d1 |
-   | Move braille display to next line | d3 |
+| Flytt leselisten til forrige linje | d1 |
+| Flytt leselisten til neste linje | d3 |
    | Route to braille cell | routing |
-   For displays which have a joystick:
-   || Navn | Tast |
-| PilOpp-tast | opp |
-| PilNed-tast | ned |
-   | leftArrow key | left |
-   | rightArrow key | right |
-   | enter key | select |
+
+For leselister som har en joystick:
+|| Navn | Tast |
+| Pil opp | opp |
+| Pil ned | ned |
+| Pil venstre | venstre |
+| Pil høyre | høyre |
+| Enter | velg |
 %kc:endInclude
 
 ++ hedo ProfiLine USB ++[HedoProfiLine]
@@ -2302,30 +2309,30 @@ Bare for Focus 80:
 || Navn | Tast |
 | Gå bakover med leselisten | venstre |
 | Gå framover med leselisten | høyre |
-   | Move braille display to previous line | up |
-   | Move braille display to next line | down |
+| Flytt leselisten til forrige linje | opp |
+| Flytt leselisten til neste linje | ned |
    | Route to braille cell | routing |
-   | Toggle braille tethered to | up+down |
-| PilOpp-tast | mellomrom+punkt1 |
-| PilNed-tast | mellomrom+punkt4 |
-   | leftArrow key | space+dot3 |
-   | rightArrow key | space+dot6 |
-   | shift+tab key | space+dot1+dot3 |
-   | tab key | space+dot4+dot6 |
-   | alt key | space+dot1+dot3+dot4 (space+m) |
-   | escape key | space+dot1+dot5 (space+e) |
-   | enter key | dot8 |
-   | windows key | space+dot3+dot4 |
-   | alt+tab key | space+dot2+dot3+dot4+dot5 (space+t) |
+| Bytt punktskrift knyttet til | opp+ned |
+| Pil opp | mellomrom+punkt1 |
+| Pil ned | mellomrom+punkt4 |
+| Pil venstre | mellomrom+punkt3 |
+| Pil høyre | mellomrom+punkt6 |
+| Skift+Tab | mellomrom+punkt1+punkt3 |
+| Tab | mellomrom+punkt4+punkt6 |
+| Alt | mellomrom+punkt1+punkt3+punkt4 (mellomrom+m) |
+| Escape | mellomrom+punkt1+punkt5 (mellomrom+e) |
+| Enter | punkt8 |
+   | windows key | mellomrom+punkt3+punkt4 |
+| Alt+Tab | mellomrom+punkt2+punkt3+punkt4+punkt5 (mellomrom+t) |
 | NVDA-meny | mellomrom+punkt1+punkt3+punkt4+punkt5 (mellomrom+n) |
-   | windows+d key (minimize all applications) | space+dot1+dot4+dot5 (space+d) |
-   | Say all | space+dot1+dot2+dot3+dot4+dot5+dot6 |
+   | windows+d key (minimize all applications) | mellomrom+punkt1+punkt4+punkt5 (mellomrom+d) |
+   | Say all | mellomrom+punkt1+punkt2+punkt3+punkt4+punkt5+punkt6 |
 %kc:endInclude
 
 +++ Tastetilordninger for Brailliant BI 32, BI 40 og B 80 +++
 %kc:beginInclude
 || Navn | Tast |
-| NVDA-meny | c1+c3+c4+c5 (command n) |
+| NVDA-meny | c1+c3+c4+c5 (kommando n) |
    | windows+d key (minimize all applications) | c1+c4+c5 (command d) |
    | Say all | c1+c2+c3+c4+c5+c6 |
 %kc:endInclude
@@ -2333,11 +2340,11 @@ Bare for Focus 80:
 +++ Tastetilordninger for Brailliant BI 14 +++
 %kc:beginInclude
 || Navn | Tast |
-   | up arrow key | joystick up |
-   | down arrow key | joystick down |
-   | left arrow key | joystick left |
-   | right arrow key | joystick right |
-   | enter key | joystick action |
+| Pil opp | joystick opp |
+| Pil ned | joystick ned |
+| Pil venstre | joystick venstre |
+| Pil høyre | joystick høyre |
+| Enter | joystick-handling |
 %kc:endInclude
 
 ++ HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille-serien ++[Hims]
@@ -2352,96 +2359,97 @@ Bare for Focus 80:
    | Route to braille cell | routing |
 | Gå bakover med leselisten | leftSideScrollUp, rightSideScrollUp, leftSideScroll |
 | Gå framover med leselisten | leftSideScrollDown, rightSideScrollDown, rightSideScroll |
-   | Move braille display to previous line | leftSideScrollUp+rightSideScrollUp |
-   | Move braille display to next line | leftSideScrollDown+rightSideScrollDown |
+| Flytt leselisten til forrige linje | leftSideScrollUp+rightSideScrollUp |
+| Flytt leselisten til neste linje | leftSideScrollDown+rightSideScrollDown |
    | Move to previous line in review | rightSideUpArrow |
    | Move to next line in review | rightSideDownArrow |
    | Move to previous character in review | rightSideLeftArrow |
    | Move to next character in review | rightSideRightArrow |
    | Move to current focus | leftSideScrollUp+leftSideScrollDown, rightSideScrollUp+rightSideScrollDown,
    leftSideScroll+rightSideScroll |
-   | control key | smartbeetle:f1, brailleedge:f3 |
-   | windows key | f7, smartbeetle:f2 |
-   | alt key | dot1+dot3+dot4+space, f2, smartbeetle:f3, brailleedge:f4 |
-   | shift key | f5 |
-   | insert key | dot2+dot4+space, f6 |
-   | applications key | dot1+dot2+dot3+dot4+space, f8 |
-   | capsLock key | dot1+dot3+dot6+space |
-   | tab key | dot4+dot5+space, f3, brailleedge:f2 |
-   | shift+alt+tab key | f2+f3+f1 |
-   | alt+tab key | f2+f3 |
-   | shift+tab key | dot1+dot2+space |
-   | end key | dot4+dot6+space |
-   | control+end key | dot4+dot5+dot6+space |
-   | home key | dot1+dot3+space, smartbeetle:f4 |
-   | control+home key | dot1+dot2+dot3+space |
-   | alt+f4 key | dot1+dot3+dot5+dot6+space |
-   | leftArrow key | dot3+space, leftSideLeftArrow |
-   | control+Skift+leftArrow key | dot2+dot8+space+f1 |
-   | control+leftArrow key | dot2+space |
-   | shift+alt+leftArrow key | dot2+dot7+f1 |
-   | alt+leftArrow key | dot2+dot7 |
-   | rightArrow key | dot6+space, leftSideRightArrow |
-   | control+Skift+rightArrow key | dot5+dot8+space+f1 |
-   | control+rightArrow key | dot5+space |
-   | shift+alt+rightArrow key | dot5+dot7+f1 |
-   | alt+rightArrow key | dot5+dot7 |
-   | pageUp key | dot1+dot2+dot6+space |
-   | control+pageUp key | dot1+dot2+dot6+dot8+space |
-   | PilOpp key | dot1+space, leftSideUpArrow |
-   | control+Skift+PilOpp key | dot2+dot3+dot8+space+f1 |
-   | control+PilOpp key | dot2+dot3+space |
-   | shift+alt+PilOpp key | dot2+dot3+dot7+f1 |
-   | alt+PilOpp key | dot2+dot3+dot7 |
+| Ctrl | smartbeetle:f1, brailleedge:f3 |
+| Windows | f7, smartbeetle:f2 |
+| Alt | punkt1+punkt3+punkt4+mellomrom, f2, smartbeetle:f3, brailleedge:f4 |
+| Skift | f5 |
+| Insert | punkt2+punkt4+space, f6 |
+   | applications key | punkt1+punkt2+punkt3+punkt4+space, f8 |
+| CapsLock | punkt1+punkt3+punkt6+mellomrom |
+| Tab | punkt4+punkt5+mellomrom, f3, brailleedge:f2 |
+| Skift+Alt+Tab | f2+f3+f1 |
+| Alt+Tab | f2+f3 |
+| Skift+Tab | punkt1+punkt2+mellomrom |
+| End | punkt4+punkt6+mellomrom |
+   | control+end key | punkt4+punkt5+punkt6+space |
+   | home key | punkt1+punkt3+space, smartbeetle:f4 |
+   | control+home key | punkt1+punkt2+punkt3+space |
+| Alt+F4 | punkt1+punkt3+punkt5+punkt6+mellomrom |
+| Pil venstre | punkt3+mellomrom, leftSideLeftArrow |
+   | control+Skift+leftArrow key | punkt2+punkt8+mellomrom+f1 |
+   | control+leftArrow key | punkt2+space |
+| Skift+Alt+Pil venstre | punkt2+punkt7+f1 |
+| Alt+Pil venstre | punkt2+punkt7 |
+| Pil høyre | punkt6+mellomrom, leftSideRightArrow |
+| Ctrl+Skift+Pil høyre | punkt5+punkt8+mellomrom+f1 |
+| Ctrl+Pil høyre | punkt5+mellomrom |
+| Skift+Alt+Pil høyre | punkt5+punkt7+f1 |
+| Alt+Pil høyre | punkt5+punkt7 |
+   | pageUp key | punkt1+punkt2+punkt6+space |
+   | control+pageUp key | punkt1+punkt2+punkt6+punkt8+space |
+   | PilOpp key | punkt1+space, leftSideUpArrow |
+| Ctrl+Skift+Pil opp | punkt2+punkt3+punkt8+mellomrom+f1 |
+| Ctrl+Pil opp | punkt2+punkt3+mellomrom |
+| Skift+Alt+Pil opp | punkt2+punkt3+punkt7+f1 |
+| Alt+Pil opp | punkt2+punkt3+punkt7 |
    | shift+PilOpp key | leftSideScrollDown+space |
-   | pageDown key | dot3+dot4+dot5+space |
-   | control+pageDown key | dot3+dot4+dot5+dot8+space |
-   | PilNed key | dot4+space, leftSideDownArrow |
-   | control+Skift+PilNed key | dot5+dot6+dot8+space+f1 |
-   | control+PilNed key | dot5+dot6+space |
-   | shift+alt+PilNed key | dot5+dot6+dot7+f1 |
-   | alt+PilNed key | dot5+dot6+dot7 |
-   | shift+PilNed key | space+rightSideScrollDown |
-   | escape key | dot1+dot5+space, f4, brailleedge:f1 |
-   | delete key | dot1+dot3+dot5+space, dot1+dot4+dot5+space |
-   | f1 key | dot1+dot2+dot5+space |
-   | f3 key | dot1+dot2+dot4+dot8 |
-   | f4 key | dot7+f3 |
-   | windows+b key | dot1+dot2+f1 |
-   | windows+d key | dot1+dot4+dot5+f1 |
+| PageDown | punkt3+punkt4+punkt5+mellomrom |
+| Ctrl+PageDown | punkt3+punkt4+punkt5+punkt8+mellomrom |
+   | PilNed key | punkt4+space, leftSideDownArrow |
+| Ctrl+Skift+Pil ned | punkt5+punkt6+punkt8+mellomrom+f1 |
+| Ctrl+Pil ned | punkt5+punkt6+mellomrom |
+| Skift+Alt+Pil ned | punkt5+punkt6+punkt7+f1 |
+| Alt+Pil ned | punkt5+punkt6+punkt7 |
+   | shift+PilNed key | mellomrom+rightSideScrollDown |
+   | escape key | punkt1+punkt5+space, f4, brailleedge:f1 |
+   | delete key | punkt1+punkt3+punkt5+space, punkt1+punkt4+punkt5+space |
+   | f1 key | punkt1+punkt2+punkt5+space |
+| F3 | punkt1+punkt2+punkt4+punkt8 |
+| F4 | punkt7+F3 |
+| Windows+b | punkt1+punkt2+f1 |
+   | windows+d key | punkt1+punkt4+punkt5+f1 |
    | control+insert key | smartbeetle:f1+rightSideScroll |
    | alt+insert key | smartbeetle:f3+rightSideScroll |
 %kc:endInclude
 
 ++ Seika leselister ++[Seika]
-   The Seika Version 3, 4 and 5 (40 cells) and Seika80 (80 cells) braille displays from [Nippon Telesoft
-   http://www.nippontelesoft.com/] are supported.
-   You can find more information about these displays at http://www.seika-braille.com/.
-   You must first install the USB drivers provided by the manufacturer.
-   Following are the key assignments for this display with NVDA.
-   Please see the display's documentation for descriptions of where these keys can be found.
+Leselistene Seika Versjon 3, 4 og 5 (40 celler) og Seika80 (80 celler) fra [Nippon Telesoft http://www.nippontelesoft.com/] støttes.
+
+Du kan finner mer informasjon om disse leselistene her: http://www.seika-braille.com/.
+
+Du må først installere USB-driverne fra produsenten før disse leselistene kan brukes sammen med NVDA.
+
+Følgende er tastetilordningene for disse leselistene med NVDA. Se i dokumentasjonen for disse leselistene for å få en beskrivelse av hvor de ulike tastene er å finne.
 %kc:beginInclude
 || Navn | Tast |
 | Gå bakover med leselisten | venstre |
 | Gå framover med leselisten | høyre |
-   | Move braille display to previous line | b3 |
-   | Move braille display to next line | b4 |
-   | Toggle braille tethered to | b5 |
+| Flytt leselisten til forrige linje | b3 |
+| Flytt leselisten til neste linje | b4 |
+| Bytt punktskrift knyttet til | b5 |
    | Say all | b6 |
-   | tab | b1 |
-   | shift+tab | b2 |
-   | alt+tab | b1+b2 |
+| Tab | b1 |
+| Skift+Tab | b2 |
+| Alt+Tab | b1+b2 |
 | NVDA-meny | venstre+høyre |
    | Route to braille cell | routing |
 %kc:endInclude
 
 ++ Papenmeier BRAILLEX nyere modeller ++[Papenmeier]
-   The following Braille displays are supported:
-   - BRAILLEX EL 40c, EL 80c, EL 20c, EL 60c (USB)
-   - BRAILLEX EL 40s, EL 80s, EL 2d80s, EL 70s, EL 66s (USB)
-   - BRAILLEX Trio (USB and bluetooth)
-   - BRAILLEX Live 20, BRAILLEX Live and BRAILLEX Live Plus (USB and bluetooth)
-   -
+Følgende leselister støttes:
+- BRAILLEX EL 40c, EL 80c, EL 20c, EL 60c (USB)
+- BRAILLEX EL 40s, EL 80s, EL 2d80s, EL 70s, EL 66s (USB)
+- BRAILLEX Trio (USB og bluetooth)
+- BRAILLEX Live 20, BRAILLEX Live og BRAILLEX Live Plus (USB and bluetooth)
+-
    If BrxCom is installed, NVDA will use BrxCom.
    BrxCom is a tool that allows keyboard input from the braille display to function independently from a screen
    reader.
@@ -2460,6 +2468,7 @@ Bare for Focus 80:
    Pressing and holding the up, down, right and left keys (or EAB) causes the corresponding action to be
    repeated.
    Generally, the following keys are available on these braille displays:
+
 || Navn | Tast |
    | l1 | Left front key |
    | l2 | Left rear key |
@@ -2479,20 +2488,21 @@ Bare for Focus 80:
 || Navn | Tast |
 | Gå bakover med leselisten | venstre |
 | Gå framover med leselisten | høyre |
-   | Move braille display to previous line | up |
-   | Move braille display to next line | dn |
+| Flytt leselisten til forrige linje | opp |
+| Flytt leselisten til neste linje | ned |
    | Route to braille cell | routing |
    | Report current character in review | l1 |
-   | Activate current navigator object | l2 |
-   | Toggle braille tethered to | r2 |
-   | Report title | l1+up |
-   | Report Status Bar | l2+down |
+| Aktiver gjeldende navigasjonsobjekt | l2 |
+| Bytt knytt punktskrift til | r2 |
+| Rapporter tittel | l1+opp |
+| Rapporter statuslinje | l2+ned |
    | Move to containing object | up2 |
    | Move to first contained object | dn2 |
    | Move to previous object | left2 |
    | Move to next object | right2 |
    | Report text formatting under braille cell | upper routing row |
 %kc:endInclude
+
    The Trio model has four additional keys which are in front of the braille keyboard.
    These are (ordered from left to right):
    - left thumb key (lt)
@@ -2509,8 +2519,8 @@ Bare for Focus 80:
    | leftArrow key | space with dot 1 |
    | rightArrow key | space with dot 4 |
    | PilNed | space with dot 5 |
-   | control key | lt+dot2 |
-   | alt key | lt+dot3 |
+   | control key | lt+punkt2 |
+   | alt key | lt+punkt3 |
    | control+escape key | space with dot 1 2 3 4 5 6 |
    | tab key | space with dot 3 7 |
 %kc:endInclude
@@ -2543,13 +2553,13 @@ Bare for Focus 80:
    | dn | 1 Step down |
    | dn2 | 2 Steps down |
    Following are the Papenmeier command assignments for NVDA:
-   %kc:beginInclude
+%kc:beginInclude
    Devices with EAB:
-   || Navn | Tast |
-   | Gå bakover med leselisten | left |
-   | Gå framover med leselisten | right |
-   | Move braille display to previous line | up |
-   | Move braille display to next line | dn |
+|| Navn | Tast |
+| Gå bakover med leselisten | venstre |
+| Gå framover med leselisten | høyre |
+| Flytt leselisten til forrige linje | opp |
+| Flytt leselisten til neste linje | ned |
    | Route to braille cell | routing |
    | Report current character in review | l1 |
    | Activate current navigator object | l2 |
@@ -2560,14 +2570,15 @@ Bare for Focus 80:
    | Move to next object | right2 |
    | Move to previous object | left2 |
    | Report text formatting under braille cell | upper routing strip |
-   BRAILLEX Tiny:
-   || Navn | Tast |
+
+BRAILLEX Tiny:
+|| Navn | Tast |
    | Report current character in review | l1 |
-   | Activate current navigator object | l2 |
-   | Gå bakover med leselisten | left |
-   | Gå framover med leselisten | right |
-   | Move braille display to previous line | up |
-   | Move braille display to next line | dn |
+| Aktiver gjeldende navigasjonsobjekt | l2 |
+| Gå bakover med leselisten | venstre |
+| Gå framover med leselisten | høyre |
+| Flytt leselisten til forrige linje | opp |
+| Flytt leselisten til neste linje | ned |
    | Toggle braille tethered to | r2 |
    | Move to containing object | r1+up |
    | Move to first contained object | r1+dn |
@@ -2576,21 +2587,21 @@ Bare for Focus 80:
    | Report text formatting under braille cell | upper routing strip |
    | Report title | l1+up |
    | Report status bar | l2+down |
-   BRAILLEX 2D Screen:
-   || Navn | Tast |
+BRAILLEX 2D Screen:
+|| Navn | Tast |
    | Report current character in review | l1 |
    | Activate current navigator object | l2 |
    | Toggle braille tethered to | r2 |
    | Report text formatting under braille cell | upper routing strip |
-   | Move braille display to previous line | up |
-   | Gå bakover med leselisten | left |
-   | Gå framover med leselisten | right |
-   | Move braille display to next line | dn |
-   | Move to next object | left2 |
+| Flytt leselisten til forrige linje | opp |
+| Gå bakover med leselisten | venstre |
+| Gå framover med leselisten | høyre |
+| Flytt leselisten til neste linje | ned |
+| Gå til neste objekt | left2 |
    | Move to containing object | up2 |
    | Move to first contained object | dn2 |
-   | Move to previous object | right2 |
-   %kc:endInclude
+| Gå til forrige objekt | right2 |
+%kc:endInclude
 
 ++ HumanWare BrailleNote ++[HumanWareBrailleNote]
    NVDA supports the BrailleNote notetakers from [Humanware http://www.humanware.com] when acting as a display
@@ -2623,33 +2634,34 @@ Bare for Focus 80:
    counterclockwise.
    Following are the BrailleNote command assignments for NVDA.
    Please check your BrailleNote's documentation to find where these keys are located.
-   %kc:beginInclude
-   || Navn | Tast |
-   | Gå bakover med leselisten | back |
-   | Gå framover med leselisten | advance |
-   | Move braille display to previous line | previous |
-   | Move braille display to next line | next |
+
+%kc:beginInclude
+|| Navn | Tast |
+| Gå bakover med leselisten | bakover |
+| Gå framover med leselisten | framover |
+| Flytt leselisten til forrige linje | forrige |
+| Flytt leselisten til neste linje | neste |
    | Route to braille cell | routing |
-   | NvDA menu | space+dot1+dot3+dot4+dot5 (space+n) |
+| NvDA-meny | mellomrom+punkt1+punkt3+punkt4+punkt5 (mellomrom+n) |
    | Toggle braille tethered to | previous+next |
-   | Up arrow key | space+dot1 |
-   | Down arrow key | space+dot4 |
-   | Left Arrow key | space+dot3 |
-   | Right arrow key | space+dot6 |
-   | Page up key | space+dot1+dot3 |
-   | Page down key | space+dot4+dot6 |
-   | Home key | space+dot1+dot2 |
-   | End key | space+dot4+dot5 |
-   | Control+home keys | space+dot1+dot2+dot3 |
-   | Control+end keys | space+dot4+dot5+dot6 |
+   | Up arrow key | mellomrom+punkt1 |
+   | Down arrow key | mellomrom+punkt4 |
+   | Left Arrow key | mellomrom+punkt3 |
+   | Right arrow key | mellomrom+punkt6 |
+   | Page up key | mellomrom+punkt1+punkt3 |
+   | Page down key | mellomrom+punkt4+punkt6 |
+| Home | mellomrom+punkt1+punkt2 |
+| End | mellomrom+punkt4+punkt5 |
+| Ctrl+Home | mellomrom+punkt1+punkt2+punkt3 |
+| Ctrl+End | mellomrom+punkt4+punkt5+punkt6 |
    | Space key | space |
-   | Enter | space+dot8 |
-   | Backspace | space+dot7 |
-   | Tab key | space+dot2+dot3+dot4+dot5 (space+t) |
-   | Shift+tab keys | space+dot1+dot2+dot5+dot6 |
-   | Windows key | space+dot2+dot4+dot5+dot6 (space+w) |
-   | Alt key | space+dot1+dot3+dot4 (space+m) |
-   | Toggle input help | space+dot2+dot3+dot6 (space+lower h) |
+   | Enter | mellomrom+punkt8 |
+   | Backspace | mellomrom+punkt7 |
+   | Tab key | mellomrom+punkt2+punkt3+punkt4+punkt5 (mellomrom+t) |
+   | Shift+tab keys | mellomrom+punkt1+punkt2+punkt5+punkt6 |
+   | Windows key | mellomrom+punkt2+punkt4+punkt5+punkt6 (mellomrom+w) |
+   | Alt key | mellomrom+punkt1+punkt3+punkt4 (mellomrom+m) |
+   | Toggle input help | mellomrom+punkt2+punkt3+punkt6 (mellomrom+lower h) |
    Following are commands assigned to BrailleNote QT when it is not in braille input mode.
    || Navn | Tast |
    | NvDA menu | read+n |
@@ -2662,44 +2674,46 @@ Bare for Focus 80:
    | Home key | function+leftArrow |
    | End key | function+rightArrow |
    | Control+home keys | read+t |
-   | Control+end keys | read+b |
-   | Enter key | enter |
-   | Backspace key | backspace |
-   | Tab key | tab |
-   | Shift+tab keys | shift+tab |
-   | Windows key | read+w |
-   | Alt key | read+m |
-   | Toggle input help | read+1 |
-   Following are commands assigned to the scroll wheel:
-   || Navn | Tast |
-   | Up arrow key | PilOpp |
-   | Down arrow key | PilNed |
-   | Left Arrow key | leftArrow |
-   | Right arrow key | rightArrow |
-   | Enter key | center button |
-   | Tab key | scroll wheel clockwise |
-   | Shift+tab keys | scroll wheel counterclockwise |
-   %kc:endInclude
+| Ctrl+End | read+b |
+| Enter | Enter |
+| Slett bakover | Slett bakover |
+| Tab | Tab |
+| Skift+Tab | Skift+Tab |
+| Windows-tast | read+w |
+| Alt | read+m |
+| Slå hjelp for inndata på/av | read+1 |
+
+Følgende er kommandoer knyttet til rullehjulet:
+|| Navn | Tast |
+| Pil opp | Pil opp |
+| Pil ned | Pil ned |
+| Venstre piltast | Pil venstre |
+| Høyre piltast | Pil høyre |
+| Enter | Senterknapp |
+| Tab | rull hjulet med klokken |
+| Skift+Tab | rull hjulet mot klokken |
+%kc:endInclude
 
 ++ EcoBraille ++[EcoBraille]
-   NVDA supports EcoBraille displays from [ONCE http://www.once.es/].
-   The following models are supported:
-   - EcoBraille 20
-   - EcoBraille 40
-   - EcoBraille 80
-   - EcoBraille Plus
-   -
-   In NVDA, you can set the serial port to which the display is connected in the [Select Braille Display
-   #SelectBrailleDisplay] dialog.
+NVDA støtte EcoBraille-leselister fra [ONCE http://www.once.es/].
+
+Følgende modeller støttes:
+- EcoBraille 20
+- EcoBraille 40
+- EcoBraille 80
+- EcoBraille Plus
+-
+I NVDA kan du sette serieporten leselisten er koblet til i dialogen [Velg leselist #SelectBrailleDisplay].
    Following are the key assignments for EcoBraille displays.
    Please see the [EcoBraille documentation ftp://ftp.once.es/pub/utt/bibliotecnia/Lineas_Braille/ECO/] for
    descriptions of where these keys can be found.
-   %kc:beginInclude
-   || Navn | Tast |
-   | Gå bakover med leselisten | T2 |
-   | Gå framover med leselisten | T4 |
-   | Move braille display to previous line | T1 |
-   | Move braille display to next line | T5 |
+
+%kc:beginInclude
+|| Navn | Tast |
+| Gå bakover med leselisten | T2 |
+| Gå framover med leselisten | T4 |
+| Flytt leselisten til forrige linje | T1 |
+| Flytt leselisten til neste linje | T5 |
    | Route to braille cell | Routing |
    | Activate current navigator object | T3 |
    | Switch to next review mode | F1 |
@@ -2710,10 +2724,10 @@ Bare for Focus 80:
    | Move to next object | F6 |
    | Move to focus object | F7 |
    | Move to first contained object | F8 |
-   | Move System focus or caret to current review position | F9 |
+| Flytt systemfokus eller markør til gjeldende leseposisjon | F9 |
    | Report review cursor location | F0 |
    | Toggle braille tethered to | A |
-   %kc:endInclude
+%kc:endInclude
 
 ++ SuperBraille ++[SuperBraille]
    The SuperBraille device, mostly available in Taiwan, can be connected to by either USB or serial.
@@ -2721,11 +2735,11 @@ Bare for Focus 80:
    via a standard computer keyboard.
    Due to this, and to maintain compatibility with other screen readers in Taiwan, two key bindings for scrolling
    the braille display have been provided:
-   %kc:beginInclude
-   || Navn | Tast |
-   | Gå bakover med leselisten | numerisk minus |
-   | Gå framover med leselisten | numerisk pluss |
-   %kc:endInclude
+%kc:beginInclude
+|| Navn | Tast |
+| Gå bakover med leselisten | numerisk minus |
+| Gå framover med leselisten | numerisk pluss |
+%kc:endInclude
 
 ++ Eurobraille Esys/Esytime/Iris leselister ++[Eurobraille]
    The Esys, Esytime and Iris displays from [Eurobraille http://www.eurobraille.fr/] are supported by NVDA.
@@ -2739,11 +2753,11 @@ Bare for Focus 80:
    to the space key.
    Following are the key assignments for these displays with NVDA.
    Please see the display's documentation for descriptions of where these keys can be found.
-   %kc:beginInclude
-   || Navn | Tast |
-   | Gå bakover med leselisten | switch1-6left, l1 |
-   | Gå framover med leselisten | switch1-6Right, l8 |
-   | Move to current focus | switch1-6Left+switch1-6Right, l1+l8 |
+%kc:beginInclude
+|| Navn | Tast |
+| Gå bakover med leselisten | switch1-6Venstre, l1 |
+| Gå framover med leselisten | switch1-6Høyre, l8 |
+| Flytt til gjeldende fokus | switch1-6Venstre+switch1-6Høyre, l1+l8 |
    | Route to braille cell | routing |
    | Report text formatting under braille cell | doubleRouting |
    | Move to previous line in review | joystick1Up |
@@ -2754,60 +2768,60 @@ Bare for Focus 80:
    | Switch to next review mode | joystick1Right+joystick1Down |
    | Erase the last entered braille cell or character | backSpace |
    | Translate any braille input and press the enter key | backSpace+space |
-   | insert key | dot3+dot5+space, l7 |
-   | delete key | dot3+dot6+space |
-   | home key | dot1+dot2+dot3+space, joystick2Left+joystick2Up |
-   | end key | dot4+dot5+dot6+space, joystick2Right+joystick2Down |
-   | PilVenstre | dot2+space, joystick2Left, leftArrow |
-   | PilHøyre | dot5+space, joystick2Right, rightArrow |
-   | Pil | dot1+space, joystick2Up, PilOpp |
-   | PilNed key | dot6+space, joystick2Down, PilNed |
+   | insert key | punkt3+punkt5+space, l7 |
+   | delete key | punkt3+punkt6+space |
+   | home key | punkt1+punkt2+punkt3+space, joystick2Left+joystick2Up |
+   | end key | punkt4+punkt5+punkt6+space, joystick2Right+joystick2Down |
+   | PilVenstre | punkt2+space, joystick2Left, leftArrow |
+| Pil høyre | punkt5+mellomrom, joystick2Høyre, Pil høyre |
+| Pil opp | punkt1+mellomrom, joystick2Opp, Pil opp |
+| Pil ned | punkt6+mellomrom, joystick2Ned, Pil ned |
    | enter key | joystick2Center |
-   | pageUp key | dot1+dot3+space |
-   | pageDown key | dot4+dot6+space |
-   | numerisk 1 | dot1+dot6+backspace |
-   | numerisk 2 | dot1+dot2+dot6+backspace |
-   | numerisk 3 | dot1+dot4+dot6+backspace |
-   | numpad4 key | dot1+dot4+dot5+dot6+backspace |
-   | numpad5 key | dot1+dot5+dot6+backspace |
-   | numpad6 key | dot1+dot2+dot4+dot6+backspace |
-   | numpad7 key | dot1+dot2+dot4+dot5+dot6+backspace |
-   | numpad8 key | dot1+dot2+dot5+dot6+backspace |
-   | numpad9 key | dot2+dot4+dot6+backspace |
-   | numpadInsert key | dot3+dot4+dot5+dot6+backspace |
-   | numpadDecimal key | dot2+backspace |
-   | numpadDivide key | dot3+dot4+backspace |
-   | numpadMultiply key | dot3+dot5+backspace |
-   | numpadMinus key | dot3+dot6+backspace |
-   | numpadPlus key | dot2+dot3+dot5+backspace |
-   | numpadEnter key | dot3+dot4+dot5+backspace |
-   | escape key | dot1+dot2+dot4+dot5+space, l2 |
-   | tab key | dot2+dot5+dot6+space, l3 |
-   | shift+tab key | dot2+dot3+dot5+space |
-   | printScreen key | dot1+dot3+dot4+dot6+space |
-   | pause key | dot1+dot4+space |
-   | applications key | dot5+dot6+backspace |
-   | f1 key | dot1+backspace |
-   | f2 key | dot1+dot2+backspace |
-   | f3 key | dot1+dot4+backspace |
-   | f4 key | dot1+dot4+dot5+backspace |
-   | f5 key | dot1+dot5+backspace |
-   | f6 key | dot1+dot2+dot4+backspace |
-   | f7 key | dot1+dot2+dot4+dot5+backspace |
-   | f8 key | dot1+dot2+dot5+backspace |
-   | f9 key | dot2+dot4+backspace |
-   | f10 key | dot2+dot4+dot5+backspace |
-   | f11 key | dot1+dot3+backspace |
-   | f12 key | dot1+dot2+dot3+backspace |
-   | windows key | dot1+dot2+dot3+dot4+backspace |
-   | capsLock key | dot7+backspace, dot8+backspace |
-   | numLock key | dot3+backspace, dot6+backspace |
-   | shift key | dot7+space, l4 |
-   | Toggle shift key | dot1+dot7+space, dot4+dot7+space |
-   | control key | dot7+dot8+space, l5 |
-   | Toggle control key | dot1+dot7+dot8+space, dot4+dot7+dot8+space |
-   | alt key | dot8+space, l6 |
-   | Toggle alt key | dot1+dot8+space, dot4+dot8+space |
+   | pageUp key | punkt1+punkt3+space |
+   | pageDown key | punkt4+punkt6+space |
+   | numerisk 1 | punkt1+punkt6+backspace |
+   | numerisk 2 | punkt1+punkt2+punkt6+backspace |
+   | numerisk 3 | punkt1+punkt4+punkt6+backspace |
+   | numpad4 key | punkt1+punkt4+punkt5+punkt6+backspace |
+   | numpad5 key | punkt1+punkt5+punkt6+backspace |
+   | numpad6 key | punkt1+punkt2+punkt4+punkt6+backspace |
+   | numpad7 key | punkt1+punkt2+punkt4+punkt5+punkt6+backspace |
+   | numpad8 key | punkt1+punkt2+punkt5+punkt6+backspace |
+   | numpad9 key | punkt2+punkt4+punkt6+backspace |
+   | numpadInsert key | punkt3+punkt4+punkt5+punkt6+backspace |
+   | numpadDecimal key | punkt2+backspace |
+   | numpadDivide key | punkt3+punkt4+backspace |
+   | numpadMultiply key | punkt3+punkt5+backspace |
+   | numpadMinus key | punkt3+punkt6+backspace |
+   | numpadPlus key | punkt2+punkt3+punkt5+backspace |
+   | numpadEnter key | punkt3+punkt4+punkt5+backspace |
+   | escape key | punkt1+punkt2+punkt4+punkt5+space, l2 |
+| Tab | punkt2+punkt5+punkt6+mellomrom, l3 |
+| Skift+Tab | punkt2+punkt3+punkt5+mellomrom |
+   | printScreen key | punkt1+punkt3+punkt4+punkt6+space |
+| Pause | punkt1+punkt4+mellomrom |
+   | applications key | punkt5+punkt6+backspace |
+| F1 | punkt1+slett bakover |
+| F2 | punkt1+punkt2+slett bakover |
+| F3 | punkt1+punkt4+slett bakover |
+| F4 | punkt1+punkt4+punkt5+slett bakover |
+| F5 | punkt1+punkt5+slett bakover |
+| F6 | punkt1+punkt2+punkt4+slett bakover |
+| F7 | punkt1+punkt2+punkt4+punkt5+slett bakover |
+| F8 | punkt1+punkt2+punkt5+slett bakover |
+| F9 | punkt2+punkt4+slett bakover |
+| F10 | punkt2+punkt4+punkt5+slett bakover |
+| F11 | punkt1+punkt3+slett bakover |
+| F12 | punkt1+punkt2+punkt3+slett bakover |
+| Windows-tasten | punkt1+punkt2+punkt3+punkt4+slett bakover |
+| CapsLock | punkt7+slett bakover, punkt8+slett bakover |
+| NumLock | punkt3+slett bakover, punkt6+slett bakover |
+| Skift | punkt7+mellomrom, l4 |
+   | Toggle shift key | punkt1+punkt7+space, punkt4+punkt7+space |
+| Ctrl | punkt7+punkt8+mellomrom, l5 |
+   | Toggle control key | punkt1+punkt7+punkt8+space, punkt4+punkt7+punkt8+space |
+| Alt | punkt8+mellomrom, l6 |
+   | Toggle alt key | punkt1+punkt8+space, punkt4+punkt8+space |
    | ToggleHID keyboard input simulation | esytime):l1+joystick1Down, esytime):l8+joystick1Down |
 %kc:endInclude
 
@@ -2888,7 +2902,7 @@ Her er BRLTTYs kommandotilordninger for NVDA. Vennligst se [BRLTTY key binding l
    - 64-bit system: "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\nvda"
    -
    The following values can be set under this registry key:
-   || Name | Type | Possible values | Beskrivelse |
+   || Navn | Type | Possible values | Beskrivelse |
    | configInLocalAppData | DWORD | 0 (default) to disable, 1 to enable | If enabled, stores the NVDA user
    configuration in the local application data instead of the roaming application data |
    | serviceDebug | DWORD | 0 (default) to disable, 1 to enable | If enabled, disables secure mode on windows
