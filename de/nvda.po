@@ -2985,7 +2985,7 @@ msgstr "Touch Screen"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "System focus"
-msgstr "Systemfokus"
+msgstr "System-Fokus"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "System status"
@@ -8819,7 +8819,7 @@ msgstr "NVDA-Cursor"
 #. Translators: This is the label for a checkbox in the
 #. review cursor settings panel.
 msgid "Follow system &focus"
-msgstr "System&fokus verfolgen"
+msgstr "System-&Fokus verfolgen"
 
 #. Translators: This is the label for a checkbox in the
 #. review cursor settings panel.
