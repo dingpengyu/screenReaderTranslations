@@ -622,7 +622,7 @@ For å få plass til så mye informasjon som mulig på ei leselist, har følgend
 | mnyknp | menyknapp |
 | me | menyelement |
 | pnl | panel |
-| fdrln | framdriftslinje |
+| fdr | framdriftsindikator |
 | rknp | radioknapp |
 | rlflt | rullefelt |
 | del | del |
@@ -1308,7 +1308,7 @@ I denne kategorien finner du følgende valg:
 Denne kombinasjonsboksen lar deg velge hvilket tastaturoppsett NVDA skal ha. For øyeblikket er de to alternativene som leveres med NvDA stasjonært og bærbart.
 
 ==== Bruk CapsLock som NVDA-tast ====[KeyboardSettingsCapsModifier]
-   If this checkbox is checked, capslock can be used as an NVDA modifier key.
+Om denne avkryssingsboksen er avkrysset, kan CapsLock brukes som NVDA-tast.
 
 ==== Bruk utvidet Insert som NVDA-tast ====[KeyboardSettingsExtendedInsert]
    If this checkbox is checked, the extended insert key (usually found above the arrow keys, near home and end)
@@ -1321,18 +1321,19 @@ Denne kombinasjonsboksen lar deg velge hvilket tastaturoppsett NVDA skal ha. For
    or Apply.
    After dismissing the error message, you must select at least one before being able to press Ok to dismiss the
    dialog properly.
-   %kc:setting
+%kc:setting
 
 ==== Si skrevne tegn ====[KeyboardSettingsSpeakTypedCharacters]
 Tast: NVDA+2
 
-   When enabled, NVDA will announce all characters you type on the keyboard.
-   %kc:setting
+Når dette valget er slått på, vil NVDA annonsere alle tegn du skriver på tastaturet.
+
+%kc:setting
 
 ==== Si skrevne ord ====[KeyboardSettingsSpeakTypedWords]
 Tast: NVDA+3
 
-   When enabled, NVDA will announce all words you type on the keyboard.
+Når dette valget er slått på, vil NVDA annonsere alle ord du skriver på tastaturet.
 
 ==== Speech interrupt for typed characters ====[KeyboardSettingsSpeechInteruptForCharacters]
    If on, this option will cause speech to be interrupted each time a character is typed. This is on by default.
@@ -1350,9 +1351,10 @@ Tast: NVDA+3
    Generally, typing shifted letters with caps lock is unintentional and is usually due to not realizing that
    caps lock is enabled.
    Therefore, it can be quite helpful to be warned about this.
-   %kc:setting
 
-==== Speak Command Keys ====[KeyboardSettingsSpeakCommandKeys]
+%kc:setting
+
+==== Si kommandotaster ====[KeyboardSettingsSpeakCommandKeys]
 Tast: NVDA+4
 
    When enabled, NVDA will announce all non-character keys you type on the keyboard. This includes key
