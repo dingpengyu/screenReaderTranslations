@@ -1219,6 +1219,9 @@ msgid ""
 "Toggles single letter navigation on and off. When on, single letter keys in browse mode jump to "
 "various kinds of elements on the page. When off, these keys are passed to the application"
 msgstr ""
+"Slår enkeltbokstavnavigasjon på og av. Når dette er slått på, vil trykk på bokstavtaster i nettmodus "
+"føre til at fokus flyttes til ulike typer elementer på siden. Når dette er slått av, blir trykk på "
+"bokstavtastene sendt direkte til programmet."
 
 #. Translators: a message when a particular quick nav command is not supported in the current document.
 #. Translators: Reported when a user tries to use a find command when it isn't supported.
@@ -3023,7 +3026,7 @@ msgstr "Demping av annen lyd støttes ikke"
 
 #. Translators: Describes the Cycle audio ducking mode command.
 msgid "Cycles through audio ducking modes which determine when NVDA lowers the volume of other sounds"
-msgstr ""
+msgstr "Blar gjennom modier for lyddemping, som avgjør når NVDA demper lydnivået på annen lyd"
 
 #. Translators: This will be presented when the input help is toggled.
 msgid "input help on"
