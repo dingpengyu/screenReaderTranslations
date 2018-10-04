@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-07 00:10+1000\n"
-"PO-Revision-Date: 2018-10-02 07:59-0700\n"
+"PO-Revision-Date: 2018-10-04 10:01+0100\n"
 "Language: so\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: Osman H Baiia <othman82@hotmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -103,7 +103,7 @@ msgstr "naxwaha: {text}"
 #. Translators: This is presented when errors are found in an appModule (example output: error in appModule explorer).
 #, python-format
 msgid "Error in appModule %s"
-msgstr "Cilad ku jirta abbMojulka %s"
+msgstr "Cilad ku jirta abbMojulka% s"
 
 #. Translators: Reported for the banner landmark, normally found on web pages.
 msgctxt "aria"
@@ -1640,433 +1640,433 @@ msgstr "Ma jirto qaladkaa hore"
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
 msgid "Lin&ks"
-msgstr ""
+msgstr "&Iskuxireyasha"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
 msgid "&Headings"
-msgstr ""
+msgstr "&Cinwaanayasha"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
 msgid "&Form fields"
-msgstr ""
+msgstr "&Foom labajibbaaran"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
 msgid "&Buttons"
-msgstr ""
+msgstr "&Badhanka"
 
 #. Translators: The label of a radio button to select the type of element
 #. in the browse mode Elements List dialog.
 #. Translators: This is the label for a checkbox in the
 #. document formatting settings panel.
 msgid "Lan&dmarks"
-msgstr ""
+msgstr "&Tilmaanta calaamadda "
 
 #. Translators: The title of the browse mode Elements List dialog.
 msgid "Elements List"
-msgstr ""
+msgstr "Liiska Xulashada"
 
 #. Translators: The label of a group of radio buttons to select the type of element
 #. in the browse mode Elements List dialog.
 msgid "Type:"
-msgstr ""
+msgstr "Nooca:"
 
 #. Translators: The label of an editable text field to filter the elements
 #. in the browse mode Elements List dialog.
 msgid "Filt&er by:"
-msgstr ""
+msgstr "&Falanqee:"
 
 #. Translators: The label of a button to activate an element
 #. in the browse mode Elements List dialog.
 msgid "&Activate"
-msgstr ""
+msgstr "&Dhaqaajiso"
 
 #. Translators: The label of a button to move to an element
 #. in the browse mode Elements List dialog.
 msgid "&Move to"
-msgstr ""
+msgstr "&U gudub"
 
 #, python-format
 msgid "%s landmark"
-msgstr ""
+msgstr "%s tilmaanta calaamadda "
 
 #. Translators: This is brailled to indicate a landmark (example output: lmk main).
 #, python-format
 msgid "lmk %s"
-msgstr ""
+msgstr "tlmclm %s"
 
 #. Translators: This is spoken to indicate what has been selected. for example 'selected hello world'
 #. Translators: Announces selected text. %s is replaced with the text.
 #, python-format
 msgid "selected %s"
-msgstr ""
+msgstr "la doortay %s"
 
 #. Translators: the message presented when the activateLongDescription script cannot locate a long description to activate.
 msgid "No long description"
-msgstr ""
+msgstr "sharraxaad dheer lama helin"
 
 #. Translators: the description for the activateLongDescription script on browseMode documents.
 msgid "Shows the long description at this position if one is found."
-msgstr ""
+msgstr "Waxay muujisaa sharaxaadda dheer ee goobtan haddii mid la helo."
 
 #. Translators: Reported when the user attempts to move to the start or end of a container
 #. (list, table, etc.) but there is no container.
 msgid "Not in a container"
-msgstr ""
+msgstr "Aan ku jirin weel"
 
 #. Translators: Description for the Move to start of container command in browse mode.
 msgid "Moves to the start of the container element, such as a list or table"
-msgstr ""
+msgstr "u gudub bilowga weelka xulashada, sida liiska ama miiska"
 
 #. Translators: a message reported when:
 #. Review cursor is at the bottom line of the current navigator object.
 #. Landing at the end of a browse mode document when trying to jump to the end of the current container.
 #. Translators: a message reported when review cursor is at the bottom line of the current navigator object.
 msgid "Bottom"
-msgstr ""
+msgstr "Hoose"
 
 #. Translators: Description for the Move past end of container command in browse mode.
 msgid "Moves past the end  of the container element, such as a list or table"
-msgstr ""
+msgstr "u gudub dhammaadka weelka xulashada, sida liiska ama miiska"
 
 #. Translators: The level at which the given symbol will be spoken.
 msgctxt "symbolLevel"
 msgid "none"
-msgstr ""
+msgstr "midna"
 
 #. Translators: The level at which the given symbol will be spoken.
 msgctxt "symbolLevel"
 msgid "some"
-msgstr ""
+msgstr "qaar"
 
 #. Translators: The level at which the given symbol will be spoken.
 msgctxt "symbolLevel"
 msgid "most"
-msgstr ""
+msgstr "ugu badnaan"
 
 #. Translators: The level at which the given symbol will be spoken.
 msgctxt "symbolLevel"
 msgid "all"
-msgstr ""
+msgstr "dhammaan"
 
 #. Translators: The level at which the given symbol will be spoken.
 msgctxt "symbolLevel"
 msgid "character"
-msgstr ""
+msgstr "xaraf"
 
 #. Translators: An option for when a symbol itself will be sent to the synthesizer.
 #. See the "Punctuation/symbol pronunciation" section of the User Guide for details.
 msgctxt "symbolPreserve"
 msgid "never"
-msgstr ""
+msgstr "marnaba"
 
 #. Translators: An option for when a symbol itself will be sent to the synthesizer.
 #. See the "Punctuation/symbol pronunciation" section of the User Guide for details.
 msgctxt "symbolPreserve"
 msgid "always"
-msgstr ""
+msgstr "had iyo jeer"
 
 #. Translators: An option for when a symbol itself will be sent to the synthesizer.
 #. See the "Punctuation/symbol pronunciation" section of the User Guide for details.
 msgctxt "symbolPreserve"
 msgid "only below symbol's level"
-msgstr ""
+msgstr "kaliya heerka hoose ee astaanta"
 
 #. Translators: the color white (HSV saturation0%, value 100%)
 msgctxt "color hue"
 msgid "white"
-msgstr ""
+msgstr "caddaan"
 
 #. Translators: the color very light grey (HSV saturation 0%, value 84%)
 msgctxt "color hue"
 msgid "very light grey"
-msgstr ""
+msgstr "Cawl aad u iftiin leh"
 
 #. Translators: the color light grey (HSV saturation 0%, value 66%)
 msgctxt "color hue"
 msgid "light grey"
-msgstr ""
+msgstr "Cawl u iftiin leh"
 
 #. Translators: the color grey (HSV saturation 0%, value 50%)
 msgctxt "color hue"
 msgid "grey"
-msgstr ""
+msgstr "cawl"
 
 #. Translators: the color dark grey (HSV saturation 0%, value 34%)
 msgctxt "color hue"
 msgid "dark grey"
-msgstr ""
+msgstr "cawl mugdi ah"
 
 #. Translators: the color very dark grey (HSV saturation 0%, value 16%)
 msgctxt "color hue"
 msgid "very dark grey"
-msgstr ""
+msgstr "cawl aad u mugdi "
 
 #. Translators: the color black (HSV saturation 0%, value 0%)
 msgctxt "color hue"
 msgid "black"
-msgstr ""
+msgstr "madow"
 
 #. Translators: The color red (HSV hue 0 degrees)
 msgctxt "color hue"
 msgid "red"
-msgstr ""
+msgstr "guduud"
 
 #. Translators: The color between  red and orange (HSV hue 15 degrees)
 msgctxt "color hue"
 msgid "red-orange"
-msgstr ""
+msgstr "mushakal"
 
 #. Translators: The color orange (HSV hue 30 degrees)
 msgctxt "color hue"
 msgid "orange"
-msgstr ""
+msgstr "orangi"
 
 #. Translators: The color between  orange and yellow (HSV hue 45 degrees)
 msgctxt "color hue"
 msgid "orange-yellow"
-msgstr ""
+msgstr "jaale-orangi"
 
 #. Translators: The color yellow (HSV hue 60 degrees)
 msgctxt "color hue"
 msgid "yellow"
-msgstr ""
+msgstr "jaale"
 
 #. Translators: The color between  yellow and green (HSV hue 90 degrees)
 msgctxt "color hue"
 msgid "yellow-green"
-msgstr ""
+msgstr "jaale-cagaaran"
 
 #. Translators: The color green (HSV hue 120 degrees)
 msgctxt "color hue"
 msgid "green"
-msgstr ""
+msgstr "cagaar"
 
 #. Translators: The color between  green and aqua (HSV hue 150 degrees)
 msgctxt "color hue"
 msgid "green-aqua"
-msgstr ""
+msgstr "cagaar-biyo"
 
 #. Translators: The color aqua (HSV hue 180 degrees)
 msgctxt "color hue"
 msgid "aqua"
-msgstr ""
+msgstr "biyo"
 
 #. Translators: The color between  aqua and blue (HSV hue 210 degrees)
 msgctxt "color hue"
 msgid "aqua-blue"
-msgstr ""
+msgstr "biyo-buluug"
 
 #. Translators: The color blue (HSV hue 240 degrees)
 msgctxt "color hue"
 msgid "blue"
-msgstr ""
+msgstr "buluug"
 
 #. Translators: The color between  blue and purple (HSV hue 270 degrees)
 msgctxt "color hue"
 msgid "blue-purple"
-msgstr ""
+msgstr "buluug-carwaaji"
 
 #. Translators: The color purple (HSV hue 300 degrees)
 msgctxt "color hue"
 msgid "purple"
-msgstr ""
+msgstr "carwaaji"
 
 #. Translators: The color between  purple and pink (HSV hue 312 degrees)
 msgctxt "color hue"
 msgid "purple-pink"
-msgstr ""
+msgstr "carwaaji-basali"
 
 #. Translators: The color pink (HSV hue 324 degrees)
 msgctxt "color hue"
 msgid "pink"
-msgstr ""
+msgstr "basali"
 
 #. Translators: The color between  pink and red (HSV hue 342 degrees)
 msgctxt "color hue"
 msgid "pink-red"
-msgstr ""
+msgstr "basali-guduud"
 
 #. Translators: a bright color (HSV saturation 100% and value 100%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "bright {color}"
-msgstr ""
+msgstr "{color} dhalaalaya"
 
 #. Translators: color (HSV saturation 100% and value 72%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "{color}"
-msgstr ""
+msgstr "{color}"
 
 #. Translators: a dark color (HSV saturation 100% and value 44%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "dark {color}"
-msgstr ""
+msgstr "{color} mugdi ah"
 
 #. Translators: a very dark color (HSV saturation 100% and value 16%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "very dark {color}"
-msgstr ""
+msgstr "{color} aad u mugdi"
 
 #. Translators: a light pale color (HSV saturation 50% and value 100%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "light pale {color}"
-msgstr ""
+msgstr "{color} cirro leh u iftiin"
 
 #. Translators: a pale color (HSV saturation 50% and value 72%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "pale {color}"
-msgstr ""
+msgstr "{color} cirro leh"
 
 #. Translators: a dark pale color (HSV saturation 50% and value 44%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "dark pale {color}"
-msgstr ""
+msgstr "{color} cirro leh u mugdi"
 
 #. Translators: a very dark color (HSV saturation 50% and value 16%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "very dark pale {color}"
-msgstr ""
+msgstr "{color} cirro leh u aad mugdi"
 
 #. Translators: a light color almost white - hardly any hue (HSV saturation 10% and value 100%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "{color} white"
-msgstr ""
+msgstr "{color} cad"
 
 #. Translators: a color almost grey - hardly any hue (HSV saturation 10% and value 72%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "{color} grey"
-msgstr ""
+msgstr "{color} cawl"
 
 #. Translators: a dark color almost grey - hardly any hue (HSV saturation 10% and value 44%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "dark {color} grey"
-msgstr ""
+msgstr "{color} cawl u mugdi"
 
 #. Translators: a very dark color almost grey - hardly any hue (HSV saturation 10% and value 16%)
 #, python-brace-format
 msgctxt "color variation"
 msgid "very dark {color} grey"
-msgstr ""
+msgstr "{color} cawl aad u mugdi"
 
 #. Translators: The color between  red and brown (HSV hue 15 degrees, below 50% brightness)
 msgctxt "color hue"
 msgid "red-brown"
-msgstr ""
+msgstr "guduud-bunni"
 
 #. Translators: The color brown (HSV hue 30 degrees, below 50% brightness)
 msgctxt "color hue"
 msgid "brown"
-msgstr ""
+msgstr "bunni"
 
 #. Translators: The color between  brown and yellow (HSV hue 45 degrees, below 50% brightness)
 msgctxt "color hue"
 msgid "brown-yellow"
-msgstr ""
+msgstr "bunni-jaale"
 
 #. Translators: The word for an unknown control type.
 #. Translators: Reported when the type of a chart is not known.
 msgid "unknown"
-msgstr ""
+msgstr "lama garanayo"
 
 #. Translators: The word for window of a program such as document window.
 msgid "window"
-msgstr ""
+msgstr "daaqada"
 
 #. Translators: Used to identify title bar of a program.
 msgid "title bar"
-msgstr ""
+msgstr "Maqaalka horyaalka"
 
 #. Translators: The word used for pane such as desktop pane.
 msgid "pane"
-msgstr ""
+msgstr "sanduuqa"
 
 #. Translators: The word used to denote a dialog box such as open dialog.
 msgid "dialog"
-msgstr ""
+msgstr "wadahadal"
 
 #. Translators: The text used to identify check boxes such as select check box.
 msgid "check box"
-msgstr ""
+msgstr "saxi labajibbbaran"
 
 #. Translators: The text used to identify radio buttons such as yes or no radio button.
 msgid "radio button"
-msgstr ""
+msgstr "badhanka raadiyaha"
 
 #. Translators: The word used to identify a static text such as dialog text.
 msgid "text"
-msgstr ""
+msgstr "qoraalka"
 
 #. Translators: The word used to identify edit fields such as subject edit field.
 msgid "edit"
-msgstr ""
+msgstr "isbedel"
 
 #. Translators: The word used to identify a button such as OK button.
 msgid "button"
-msgstr ""
+msgstr "badhanka"
 
 #. Translators: Text used to identify menu bar of a program.
 msgid "menu bar"
-msgstr ""
+msgstr "baar menyu"
 
 #. Translators: Used to identify a menu item such as an item in file menu.
 msgid "menu item"
-msgstr ""
+msgstr "shayga menyu"
 
 #. Translators: The word used for menus such as edit menu.
 #. Translators: Identifies a menu such as file menu.
 msgid "menu"
-msgstr ""
+msgstr "menyu"
 
 #. Translators: Used to identify combo boxes such as file type combo box.
 msgid "combo box"
-msgstr ""
+msgstr "sanduuqa combo"
 
 #. Translators: The word used for lists such as folder list.
 msgid "list"
-msgstr ""
+msgstr "liiska"
 
 #. Translators: Used to identify a list item such as email list items.
 msgid "list item"
-msgstr ""
+msgstr "shayga liiska"
 
 #. Translators: The word used to identify graphics such as webpage graphics.
 msgid "graphic"
-msgstr ""
+msgstr "sawiro"
 
 #. Translators: Used to identify help balloon (a circular window with helpful text such as notification text).
 msgid "help balloon"
-msgstr ""
+msgstr "buufinta caawin"
 
 #. Translators: Used to identify a tooltip (a small window with additional text about selected item such as file information).
 msgid "tool tip"
-msgstr ""
+msgstr "qoraalka qalabka"
 
 #. Translators: Identifies a link in webpage documents.
 msgid "link"
-msgstr ""
+msgstr "iskuxire"
 
 #. Translators: Identifies a treeview (a tree-like structure such as treeviews for subfolders).
 msgid "tree view"
-msgstr ""
+msgstr "sida geed"
 
 #. Translators: Identifies a tree view item.
 msgid "tree view item"
-msgstr ""
+msgstr "sida geed shayga"
 
 #. Translators: The word presented for tabs in a tab enabled window.
 msgctxt "controlType"
