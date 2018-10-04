@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-08 02:15+1000\n"
-"PO-Revision-Date: 2018-09-19 04:23+0200\n"
+"PO-Revision-Date: 2018-10-04 05:19+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -27,7 +27,7 @@ msgstr "Autoren: Joseph Lee, Cleverson Uliana und andere"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "[stabile version][1] herunterladen"
+msgstr "[Stabile Version herunterladen][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
@@ -50,7 +50,7 @@ msgstr "Befehle"
 msgid ""
 "Control+NVDA+TAB: Steps through arrow key modes (see below for details)."
 msgstr ""
-"STRG+NVDA+TAB: wechselt zwischen den Navigationsarten auf dem Bildschirm "
+"Strg+NVDA+Tab: Wechselt zwischen den Navigationsarten auf dem Bildschirm "
 "(Details siehe unten)."
 
 #. type: Title ##
@@ -100,19 +100,19 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Right arrow: next object."
-msgstr "Rechtspfeil: nächstes Objekt."
+msgstr "Pfeiltaste nach rechts: Nächstes Objekt."
 
 #. type: Bullet: '* '
 msgid "Left arrow: previous object."
-msgstr "Linkspfeil: vorheriges Objekt."
+msgstr "Pfeiltaste nach links: Vorheriges Objekt."
 
 #. type: Bullet: '* '
 msgid "Up arrow: parent object."
-msgstr "Pfeil nach oben: Hauptobjekt für die aktuelle Region."
+msgstr "Pfeiltaste nach oben: Hauptobjekt für die aktuelle Region."
 
 #. type: Bullet: '* '
 msgid "Down arrow: first child object."
-msgstr "Pfeil nach unten: erstes Unterobjekt des Hauptobjektes."
+msgstr "Pfeiltaste nach unten: Erstes Unterobjekt des Hauptobjekts."
 
 #. type: Bullet: '* '
 #| msgid "SPACE: activate."
@@ -130,19 +130,19 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Right arrow: next element."
-msgstr "Rechtspfeil: nächstes Element."
+msgstr "Pfeiltaste nach rechts: Nächstes Element."
 
 #. type: Bullet: '* '
 msgid "Left arrow: previous element."
-msgstr "Linkspfeil: vorheriges Element"
+msgstr "Pfeiltaste nach links: Vorheriges Element"
 
 #. type: Bullet: '* '
 msgid "Up arrow: previous element type."
-msgstr "Pfeil nach oben: vorheriges Elementtyp."
+msgstr "Pfeiltaste nach oben: Vorheriges Elementtyp."
 
 #. type: Bullet: '* '
 msgid "Down arrow: next element type."
-msgstr "Pfeil nach unten: nächstes Elementtyp."
+msgstr "Pfeiltaste nach unten: Nächstes Elementtyp."
 
 #. type: Plain text
 msgid "With scan mode active:"
@@ -150,19 +150,19 @@ msgstr "Bei aktiviertem Scan-Modus:"
 
 #. type: Bullet: '* '
 msgid "Down arrow: next object or the next line."
-msgstr "Pfeil nach unten: Nächstes Objekt oder nächste Zeile."
+msgstr "Pfeiltaste nach unten: Nächstes Objekt oder nächste Zeile."
 
 #. type: Bullet: '* '
 msgid "Up arrow: previous object or previous line."
-msgstr "Pfeil nach oben: Vorheriges Objekt oder vorherige Zeile."
+msgstr "Pfeiltaste nach oben: Vorheriges Objekt oder vorherige Zeile."
 
 #. type: Bullet: '* '
 msgid "Right arrow: review next character."
-msgstr "Rechtspfeil: nächster Buchstabe."
+msgstr "Pfeiltaste nach rechts: Nächster Buchstabe."
 
 #. type: Bullet: '* '
 msgid "Left arrow: previous character."
-msgstr "Linkspfeil: vorheriger Buchstabe."
+msgstr "Pfeiltaste nach links: Vorheriger Buchstabe."
 
 #. type: Bullet: '* '
 msgid "Control+right arrow: next word."
@@ -213,7 +213,7 @@ msgstr "Version 16.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable version."
-msgstr "Ehrstveröffentlichung der stabilen Version."
+msgstr "Erstveröffentlichung."
 
 #. type: Plain text
 #, no-wrap

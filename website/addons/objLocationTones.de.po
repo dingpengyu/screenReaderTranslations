@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-24 03:57+1000\n"
-"PO-Revision-Date: 2017-12-05 16:45+0100\n"
-"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
+"PO-Revision-Date: 2018-10-04 05:14+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Object Location Tones\"]]\n"
-msgstr "[[!meta title=\"Töne für Objektlokalisierung\"]]\n"
+msgstr "[[!meta title=\"Objektlokalisierungstöne\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
@@ -27,7 +27,7 @@ msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "[Stabile Version][1] herunterladen"
+msgstr "[Stable Version herunterladen][1]"
 
 #. type: Plain text
 msgid ""
@@ -37,11 +37,11 @@ msgid ""
 "tones off, uninstall or disable this add-on from add-ons manager."
 msgstr ""
 "Nach der Installation dieser Erweiterung und dem Neustart von NVDA (oder "
-"wenn Sie diese Erweiterung aktivieren) hören Sie beim Navigieren zu "
-"verschiedenen Steuerelementen Töne, welche die Position der Objekte auf dem "
-"Bildschirm anzeigen. Um die Objektpositionstöne auszuschalten, "
-"deinstallieren oder deaktivieren Sie diese Erweiterung aus dem Dialog "
-"Erweiterungen verwalten unter Extras im NVDA-Menü."
+"wenn Sie diese Erweiterung aktivieren), während Sie zu verschiedenen "
+"Steuerelementen navigieren, hören Sie Töne, die anzeigen, wo sich das Objekt "
+"auf dem Bildschirm befindet. Um die Töne der Objektposition zu deaktivieren, "
+"deinstallieren oder deaktivieren Sie diese Erweiterung im Menü \"Extras\" -> "
+"\"Erweiterungen verwalten\"."
 
 #. type: Plain text
 msgid "Important notes:"
@@ -52,13 +52,14 @@ msgid ""
 "If using Audio Themes 3D or similar add-ons, it is advised to disable Object "
 "Location Tones add-on."
 msgstr ""
-"Wenn Sie die Erweiterung Audioschemata oder ähnliche Erweiterungen "
-"verwenden, können Sie diese Erweiterung deaktivieren bzw. deinstallieren."
+"Wenn Sie Audio Themes 3D oder ähnliche Erweiterungen verwenden, wird "
+"empfohlen, die Erweiterung Objektlokalisierungstöne zu deaktivieren."
 
 #. type: Bullet: '* '
 msgid "If a control is offscreen, tones will not be played."
 msgstr ""
-"Wenn ein objekt nicht auf dem Bildschirm erscheint, wird kein Ton abgespielt."
+"Wenn ein Steuerelement nicht auf dem Bildschirm angezeigt wird, werden keine "
+"Töne abgespielt."
 
 #. type: Plain text
 #, no-wrap
