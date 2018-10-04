@@ -1,18 +1,18 @@
 # Copyright (C) 2006-2018 NVDA Contributors
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-05 00:10+1000\n"
-"PO-Revision-Date: 2018-10-04 10:01+0100\n"
+"PO-Revision-Date: 2018-10-04 09:01-0700\n"
 "Last-Translator: Osman H Baiia <othman82@hotmail.com>\n"
 "Language-Team: \n"
 "Language: so\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -103,7 +103,7 @@ msgstr "naxwaha: {text}"
 #. Translators: This is presented when errors are found in an appModule (example output: error in appModule explorer).
 #, python-format
 msgid "Error in appModule %s"
-msgstr "Cilad ku jirta abbMojulka% s"
+msgstr "Cilad ku jirta abbMojulka %s"
 
 #. Translators: Reported for the banner landmark, normally found on web pages.
 msgctxt "aria"
