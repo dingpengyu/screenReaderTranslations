@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-10-05 19:26+1000\n"
 "PO-Revision-Date: 2018-06-28 19:55+0200\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Danish <LL@li.org>\n"
@@ -220,13 +220,6 @@ msgstr ""
 "Hvis du ønsker at holde konfigurationsmapperne rene, vil det også være "
 "muligt i denne dialog at vælge om ubrugte ordbøger (tilhørende ikke-"
 "eksisterende profiler) skal fjernes fra tilføjelsen når den udlæses."
-
-#. type: Plain text
-msgid ""
-"Also, it's possible to enable Settings only in normal configuration (not "
-"recommended). This is intended to disable settings changes in case of speed "
-"issues when switching profiles."
-msgstr ""
 
 #. type: Title ##
 #, no-wrap

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-10-05 19:26+1000\n"
 "PO-Revision-Date: 2018-09-25 10:43+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
@@ -222,16 +222,6 @@ msgstr ""
 "thể chọn nếu từ điển không còn được dùng (tích hợp vào một hồ sơ không tồn "
 "tại) sẽ bị xóa khỏi add-on khi nó bị tắt."
 
-#. type: Plain text
-msgid ""
-"Also, it's possible to enable Settings only in normal configuration (not "
-"recommended). This is intended to disable settings changes in case of speed "
-"issues when switching profiles."
-msgstr ""
-"Cũng có thể chỉ bật thiết lập trong cấu hình bình thường (không khuyến "
-"khích). Điều này nhằm vô hiệu hóa các thay đổi thiết lập trong trường hợp "
-"xảy ra vấn đề về tốc độ đọc khi chuyển hồ sơ."
-
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -431,9 +421,17 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 
 #. type: Plain text
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
 msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
+
+#~ msgid ""
+#~ "Also, it's possible to enable Settings only in normal configuration (not "
+#~ "recommended). This is intended to disable settings changes in case of "
+#~ "speed issues when switching profiles."
+#~ msgstr ""
+#~ "Cũng có thể chỉ bật thiết lập trong cấu hình bình thường (không khuyến "
+#~ "khích). Điều này nhằm vô hiệu hóa các thay đổi thiết lập trong trường hợp "
+#~ "xảy ra vấn đề về tốc độ đọc khi chuyển hồ sơ."
 
 #~ msgid ""
 #~ "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/"

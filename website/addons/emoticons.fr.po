@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Emoticon\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-10-05 19:26+1000\n"
 "PO-Revision-Date: 2018-09-24 22:37+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: fr <remyruiz@gmail.com>\n"
@@ -229,17 +229,6 @@ msgstr ""
 "(associés à des profils non existants) seront supprimés du module "
 "complémentaire lorsqu'il est déchargé."
 
-#. type: Plain text
-msgid ""
-"Also, it's possible to enable Settings only in normal configuration (not "
-"recommended). This is intended to disable settings changes in case of speed "
-"issues when switching profiles."
-msgstr ""
-"De plus, il est possible d'activer les Paramètres uniquement en "
-"configuration normale (non recommandé). Ceci est destiné à désactiver les "
-"changements de paramètres en cas de problèmes de vitesse lors de la "
-"commutation de profils."
-
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -448,9 +437,18 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 
 #. type: Plain text
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
 msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
+
+#~ msgid ""
+#~ "Also, it's possible to enable Settings only in normal configuration (not "
+#~ "recommended). This is intended to disable settings changes in case of "
+#~ "speed issues when switching profiles."
+#~ msgstr ""
+#~ "De plus, il est possible d'activer les Paramètres uniquement en "
+#~ "configuration normale (non recommandé). Ceci est destiné à désactiver les "
+#~ "changements de paramètres en cas de problèmes de vitesse lors de la "
+#~ "commutation de profils."
 
 #~ msgid ""
 #~ "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0N\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-10-05 19:26+1000\n"
 "PO-Revision-Date: 2018-09-19 03:56+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -220,16 +220,6 @@ msgstr ""
 "Wenn Sie Ihre Konfigurationsordner sauber halten möchten, können Sie in "
 "diesem Dialog nicht genutzte Wörterbücher von gelöschten Profilen entfernen."
 
-#. type: Plain text
-msgid ""
-"Also, it's possible to enable Settings only in normal configuration (not "
-"recommended). This is intended to disable settings changes in case of speed "
-"issues when switching profiles."
-msgstr ""
-"Außerdem ist es möglich, Einstellungen nur in der normalen Konfiguration zu "
-"aktivieren (nicht empfohlen). Dies ist dazu gedacht, Einstellungsänderungen "
-"bei Geschwindigkeitsproblemen beim Profilwechsel zu deaktivieren."
-
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -438,6 +428,16 @@ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
+
+#~ msgid ""
+#~ "Also, it's possible to enable Settings only in normal configuration (not "
+#~ "recommended). This is intended to disable settings changes in case of "
+#~ "speed issues when switching profiles."
+#~ msgstr ""
+#~ "Außerdem ist es möglich, Einstellungen nur in der normalen Konfiguration "
+#~ "zu aktivieren (nicht empfohlen). Dies ist dazu gedacht, "
+#~ "Einstellungsänderungen bei Geschwindigkeitsproblemen beim Profilwechsel "
+#~ "zu deaktivieren."
 
 #~ msgid ""
 #~ "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/"

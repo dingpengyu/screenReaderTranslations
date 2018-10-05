@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-10-05 19:26+1000\n"
 "PO-Revision-Date: 2018-03-05 14:32+0100\n"
 "Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -250,13 +250,6 @@ msgid ""
 msgstr ""
 "Ako želite izbrisati mape s konfiguracijom, možete odabrati da se rječnici "
 "neće koristiti (nepostojeći profili će biti uklonjeni iz dodatka)."
-
-#. type: Plain text
-msgid ""
-"Also, it's possible to enable Settings only in normal configuration (not "
-"recommended). This is intended to disable settings changes in case of speed "
-"issues when switching profiles."
-msgstr ""
 
 #. type: Title ##
 #, no-wrap

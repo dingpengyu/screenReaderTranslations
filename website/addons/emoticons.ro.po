@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-10-05 19:26+1000\n"
 "PO-Revision-Date: 2018-09-28 22:09+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -226,16 +226,6 @@ msgstr ""
 "care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate "
 "din supliment atunci când nu sunt încărcate."
 
-#. type: Plain text
-msgid ""
-"Also, it's possible to enable Settings only in normal configuration (not "
-"recommended). This is intended to disable settings changes in case of speed "
-"issues when switching profiles."
-msgstr ""
-"De asemenea, puteți activa setări numai în configurația normală "
-"(nerecomandat). Aceasta e făcută cu scopul de a dezactiva modificările de "
-"setări în cazul problemelor de viteză la comutarea profilurilor."
-
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
@@ -442,6 +432,15 @@ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 #. type: Plain text
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
 msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
+
+#~ msgid ""
+#~ "Also, it's possible to enable Settings only in normal configuration (not "
+#~ "recommended). This is intended to disable settings changes in case of "
+#~ "speed issues when switching profiles."
+#~ msgstr ""
+#~ "De asemenea, puteți activa setări numai în configurația normală "
+#~ "(nerecomandat). Aceasta e făcută cu scopul de a dezactiva modificările de "
+#~ "setări în cazul problemelor de viteză la comutarea profilurilor."
 
 #~ msgid ""
 #~ "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/"
