@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: NVDA master-9280,3350d74\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-05 00:10+1000\n"
-"PO-Revision-Date: 2018-09-19 13:26+0330\n"
+"PO-Revision-Date: 2018-10-05 23:17+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@freelists.org>\n"
 "Language: fa\n"
@@ -6614,7 +6614,7 @@ msgstr "یک صفحه خوانِ رایگان و متن‌باز برای وین
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "حقِّ تألیف (C) {years} متعلق به مشارکت‌کنندگانِ NVDA میباشد."
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
