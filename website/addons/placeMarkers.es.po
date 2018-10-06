@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Add-on website files\n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2018-09-24 22:36+0200\n"
+"PO-Revision-Date: 2018-10-06 14:24+0100\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. type: Plain text
 #, no-wrap
@@ -31,7 +31,7 @@ msgstr "descargar [versión estable][1]"
 
 #. type: Bullet: '* '
 msgid "download [development version][2]"
-msgstr "descarga [versión de desarrollo][2]"
+msgstr "descargar [versión de desarrollo][2]"
 
 #. type: Plain text
 msgid ""
@@ -104,11 +104,11 @@ msgstr ""
 
 #. type: Bullet: '*	'
 msgid "NVDA+k: Moves to the next bookmark."
-msgstr "NVDA+k: mueve a la marca siguiente."
+msgstr "NVDA+k: se mueve a la marca siguiente."
 
 #. type: Bullet: '*	'
 msgid "shift+NVDA+k: Moves to the previous bookmark."
-msgstr "shift+NVDA+k: mueve a la marca anterior."
+msgstr "shift+NVDA+k: se mueve a la marca anterior."
 
 #. type: Bullet: '*	'
 msgid ""
@@ -116,7 +116,7 @@ msgid ""
 "saved to the clipboard, without an extension."
 msgstr ""
 "control+shift+k: copia el nombre del fichero donde se guardarán los datos de "
-"marcadores al portapapeles, sin una extensión."
+"las marcas al portapapeles, sin una extensión."
 
 #. type: Bullet: '*	'
 msgid ""
@@ -127,7 +127,7 @@ msgid ""
 msgstr ""
 "alt+NVDA+k: abre un diálogo con las marcas guardadas para este documento. "
 "Puedes escribir una nota para cada marca; pulsa Guardar Nota para guardar "
-"cambios. Pulsando Aceptar puedes moverte al a la posición seleccionada."
+"cambios. Pulsando Aceptar puedes moverte a la posición seleccionada."
 
 #. type: Bullet: '*	'
 msgid "Not assigned: Saves a position as a temporary bookmark."
@@ -164,16 +164,15 @@ msgstr "Carpeta de marcas: abre una carpeta con las marcas guardadas."
 #. type: Bullet: '*	'
 msgid "Copy placeMarkers folder: You can save a copy of the bookmarks folder."
 msgstr ""
-"Copiar carpeta de marcadores: puedes guardar una copia de la carpeta de "
-"marcadores."
+"Copiar carpeta de marcas: puedes guardar una copia de la carpeta de marcas."
 
 #. type: Bullet: '*	'
 msgid ""
 "Restore placeMarkers: You can restore your bookmarks from a previously saved "
 "placeMarkers folder."
 msgstr ""
-"Restaurar marcadores: Puedes guardar tus marcas desde una carpeta de "
-"marcadores guardada anteriormente."
+"Restaurar marcas: Puedes guardar tus marcas desde una carpeta de marcas "
+"guardada anteriormente."
 
 #. type: Plain text
 msgid ""
@@ -205,7 +204,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 10.0"
-msgstr "Cambios para 19.0"
+msgstr "Cambios para 10.0"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -262,9 +261,8 @@ msgid ""
 "Removed fragment identifiers from bookmark filenames, which can avoid issues "
 "in the VitalSource Bookshelf ePUB reader."
 msgstr ""
-"Eliminados fragmentos de identificadores de nombres de ficheros de "
-"marcador,  los cuales pueden evitar problemas en VitalSource Bookshelf ePUB "
-"READER."
+"Eliminados fragmentos de identificadores de nombres de ficheros de marcas,  "
+"los cuales pueden evitar problemas en VitalSource Bookshelf ePUB READER."
 
 #. type: Bullet: '*	'
 msgid ""
@@ -317,15 +315,15 @@ msgid ""
 "dialogs."
 msgstr ""
 "Ahora puedes asignar gestos para abrir los diálogos Copiar y Restaurar "
-"marcadores."
+"marcas."
 
 #. type: Bullet: '*	'
 msgid ""
 "NVDA will present a message to notify when place markers have been copied or "
 "restored with the corresponding dialogs."
 msgstr ""
-"NVDA presentará un mensaje para notificar cuando se haya copiado o "
-"restaurado los marcadores con los diálogos correspondientes."
+"NVDA presentará un mensaje para notificar cuando se hayan copiado o "
+"restaurado las marcas con los diálogos correspondientes."
 
 #. type: Title ##
 #, no-wrap
@@ -337,7 +335,7 @@ msgid ""
 "When the add-on features are not usable, gestures are sent to the "
 "corresponding application."
 msgstr ""
-"Cuando las características del complemento no son usables, los gestos se "
+"Cuando las características del complemento no sean usables, los gestos se "
 "envían a la aplicación correspondiente."
 
 #. type: Title ##
@@ -347,7 +345,7 @@ msgstr "Cambios para 5.0"
 
 #. type: Bullet: '* '
 msgid "Added case sensitive search."
-msgstr "Añadida búsqueda sensible a las mayúsculas."
+msgstr "Añadida la búsqueda sensible a las mayúsculas."
 
 #. type: Bullet: '* '
 msgid "Removed option to open documentation from Place markers menu."
@@ -368,9 +366,8 @@ msgid ""
 "Removed fragment identifiers from bookmark filenames, which can avoid issues "
 "in ePUBREADER Firefox add-on."
 msgstr ""
-"Eliminados fragmentos de identificadores de nombres de ficheros de "
-"marcador,  los cuales pueden evitar problemas en el complemento de Firefox "
-"ePUBREADER."
+"Eliminados fragmentos de identificadores de nombres de ficheros de marcas, "
+"los cuales pueden evitar problemas en el complemento de Firefox ePUBREADER."
 
 #. type: Bullet: '* '
 msgid "Add-on help is available from the Add-ons Manager."
@@ -389,8 +386,7 @@ msgstr "Actualización de traducciones y nuevos idiomas."
 
 #. type: Bullet: '* '
 msgid "Bookmark position is not announced in skim reading."
-msgstr ""
-"Ahora no se anuncia la posición del marcador en la lectura superficial."
+msgstr "Ahora no se anuncia la posición de la marca en la lectura superficial."
 
 #. type: Title ##
 #, no-wrap
