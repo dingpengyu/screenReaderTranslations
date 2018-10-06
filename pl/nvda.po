@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-05 00:10+1000\n"
-"PO-Revision-Date: 2018-08-23 17:13+0100\n"
+"PO-Revision-Date: 2018-10-06 15:09+0100\n"
 "Last-Translator: Grzegorz Zlotowicz <grzezlo@wp.pl>\n"
 "Language-Team: killer@tyflonet.com\n"
 "Language: pl_PL\n"
@@ -1141,15 +1141,13 @@ msgstr "Wietnamski stopień 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Chiński (Taiwan, Mandaryński)"
+msgstr "Chiński (Chiny, Mandaryński) z tonami"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Chiński (Taiwan, Mandaryński)"
+msgstr "Chiński (Chiny, Mandaryński) bez tonów"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6631,7 +6629,7 @@ msgstr "Darmowy i wolny screen reader dla Microsoft Windows"
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "Copyright (C) {years} Współautorzy NVDA"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
@@ -8623,9 +8621,8 @@ msgstr "Klawiatura"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "Użyj &CapsLock jako klawisza NVDA"
+msgstr "&Wybierz klawisze modyfikatora NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8788,9 +8785,8 @@ msgstr "Czytaj dymki &podpowiedzi"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Czytaj dymki &podpowiedzi"
+msgstr "Czytaj &powiadomienia"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
