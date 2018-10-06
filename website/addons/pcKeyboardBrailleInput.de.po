@@ -7,36 +7,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-09-24 00:53+1000\n"
-"PO-Revision-Date: 2017-12-19 00:27+0100\n"
-"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
+"PO-Revision-Date: 2018-10-06 08:08+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"PC Keyboard Braille Input for NVDA\"]]\n"
-msgstr "[[!meta title=\"Brailleeingabe für NVDA mittels PC-Tastatur\"]]\n"
+msgstr "[[!meta title=\"PC-Tastatur via Braille-Eingabe für NVDA\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: NV Access Limited"
-msgstr ""
+msgstr "Autor: NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "Copyright: 2012-2014 NV Access Limited"
-msgstr ""
+msgstr "Copyright: 2012-2014 NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "License: GNU General Public License version 2.0"
-msgstr ""
+msgstr "Lizenz: GNU Allgemeine Öffentliche Lizenz Version 2.0"
 
 #. type: Bullet: '* '
 msgid "Download: [version 2014.1][1]"
-msgstr ""
+msgstr "Download: [Version 2014.1][1]"
 
 #. type: Plain text
 msgid ""
@@ -56,7 +56,7 @@ msgid "Press NVDA+z to enable braille input."
 msgstr "Drücken Sie NVDA+Z, um die Eingabe von Blindenschrift einzuschalten."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
 #| "\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
@@ -74,12 +74,13 @@ msgid ""
 "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
 "4. Press NVDA+z to disable braille input.\n"
 msgstr ""
-"2. Verwenden Sie die Tasten der Grundhaltung, um Blindenschrift zu schreiben.\n"
-"\t- Verwenden Sie die Tasten F, D und S, um die Punkte 1, 2 und 3 einzugeben.\n"
-"\t- Verwenden Sie die Tasten J, K und L, um die Punkte 4, 5 und 6 einzugeben.\n"
-"\t- Verwenden Sie die Tasten A und Ö, um die Punkte 7 und 8 einzugeben.\n"
-"\t- Alternativ können Sie auch die Tasten in der oberen Reihe (Q, W, E, R, U, I, O und P) verwenden.3. alle anderen Tasten haben ihre Standardfunktion.\n"
-"4. Drücken Sie nvda+z, um die Eingabe von Blindenschrift wieder zu deaktivieren.\n"
+"2. Geben Sie die Blindenschrift ein, indem Sie auf der PC-Tastatur Tasten zusammendrücken, als ob es sich um eine Braille-Tastatur handeln würde.\n"
+"\t* Verwenden Sie die Tasten S, D und F für die Punkte 1, 2 und 3.\n"
+"\t* Verwenden Sie die Tasten J, K und L für die Punkte 4, 5 und 6.\n"
+"\t* Verwenden Sie die Tasten A und ; (Semikolon) für die Punkte 7 und 8.\n"
+"\t* Sie können auch die Tasten in der obigen Zeile verwenden, z. B. Q, W, E, R, U, I, O und P.\n"
+"3. Sie können die meisten anderen Tasten wie gewohnt drücken, einschließlich Leerzeichen, Rücktaste, Eingabe- und Funktionstasten.\n"
+"4. Drücken Sie NVDA+Z, um die Braille-Eingabe zu deaktivieren.\n"
 
 #. type: Title ##
 #, no-wrap
@@ -115,10 +116,9 @@ msgid "Contributors"
 msgstr "Mitwirkende"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "- James Teh"
 msgid "James Teh"
-msgstr "- James Teh"
+msgstr "James Teh"
 
 #. type: Plain text
 #, no-wrap

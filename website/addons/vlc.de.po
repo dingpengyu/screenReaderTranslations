@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-06-29 16:43+0200\n"
+"PO-Revision-Date: 2018-10-06 09:25+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -27,11 +27,11 @@ msgstr "Autor: Javi Dominguez"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][2]"
-msgstr "[stabile Version herunterladen][2]"
+msgstr "[Stabile Version herunterladen][2]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][3]"
-msgstr "Herunterladen der [Entwicklerversion][3]"
+msgstr "[Testversion herunterladen][3]"
 
 #. type: Plain text
 msgid "This addon provides some accessibility features for VLC Media Player."

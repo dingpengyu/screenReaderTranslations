@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-25 06:19+1000\n"
-"PO-Revision-Date: 2018-01-11 13:26+0100\n"
-"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
+"PO-Revision-Date: 2018-10-06 08:22+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -23,17 +23,14 @@ msgstr "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: NV Access Limited"
-msgstr ""
+msgstr "Author: NV Access Limited"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "* Author: NV Access Limited\n"
 #| "*   Download [SpeechPlayer in Espeak][1]\n"
 msgid "Download [SpeechPlayer in Espeak][1]"
-msgstr ""
-"* Autor: NV Access Limited\n"
-"* Herunterladen von [SpeechPlayer in Espeak][1]\n"
+msgstr "[SpeechPlayer in Espeak herunterladen][1]"
 
 #. type: Plain text
 msgid "A hybrid of speechPlayer and eSpeak, containing the Edward voice."
@@ -46,12 +43,7 @@ msgstr "[[!tag dev synth]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spie"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spie"
 
-#~ msgid ""
-#~ "[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4."
-#~ "nvda-addon"
-#~ msgstr ""
-#~ "[1]: [https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4."
-#~ "nvda-addon](https://www.nvaccess.org/files/nvda-addons/"
-#~ "speechPlayerInEspeak-0.4.nvda-addon)"
+#~ msgid "[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4.nvda-addon"
+#~ msgstr "[1]: [https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4.nvda-addon](https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4.nvda-addon)"

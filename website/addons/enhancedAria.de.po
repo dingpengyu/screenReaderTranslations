@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-03 02:58+1000\n"
-"PO-Revision-Date: 2018-08-22 10:57+0200\n"
+"PO-Revision-Date: 2018-10-06 09:16+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -27,7 +27,7 @@ msgstr "Autor: Jose Manuel Delicado"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "Herunterladen der [stabilen Version][1]"
+msgstr "[Stabile Version herunterladen][1]"
 
 #. type: Plain text
 msgid ""

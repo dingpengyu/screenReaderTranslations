@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-03 02:58+1000\n"
-"PO-Revision-Date: 2018-08-06 02:24+0200\n"
+"PO-Revision-Date: 2018-10-06 09:14+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -27,7 +27,7 @@ msgstr "Author: Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [prototype version][1]"
-msgstr "Herunterladen der [Vorabversion][1]"
+msgstr "[Vorabversion herunterladen][1]"
 
 #. type: Plain text
 msgid ""
