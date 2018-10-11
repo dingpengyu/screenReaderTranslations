@@ -5,15 +5,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-12 00:10+1000\n"
-"PO-Revision-Date: 2018-09-21 15:45+0100\n"
-"Last-Translator: Imam <imam.kahraman@gmail.com>\n"
+"POT-Creation-Date: 2018-09-21 00:10+1000\n"
+"PO-Revision-Date: 2018-09-24 09:49+0000\n"
+"Last-Translator: rojanu <Unknown>\n"
 "Language-Team: \n"
-"Language: kmr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Launchpad-Export-Date: 2018-10-10 09:16+0000\n"
+"X-Generator: Launchpad (build 18790)\n"
+"Language: kmr\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
@@ -513,11 +514,11 @@ msgstr "otomatîk"
 
 #. Translators: String representing the USB port selection for braille displays.
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #. Translators: String representing the Bluetooth port selection for braille displays.
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #. Translators: Displayed in braille for a heading with a level.
 #. %s is replaced with the level.
@@ -2398,7 +2399,7 @@ msgstr "kadrana hejmaran"
 
 #. Translators: Identifies a dial object.
 msgid "dial"
-msgstr ""
+msgstr "bigere"
 
 #. Translators: Identifies a drop list.
 msgid "drop list"
@@ -4788,7 +4789,7 @@ msgstr "klavye, hemû rêgez"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Aragonese"
-msgstr ""
+msgstr "Aragonî"
 
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
@@ -4803,7 +4804,7 @@ msgstr "Kurdiya bakûr"
 #. Translators: The name of a language supported by NVDA.
 msgctxt "languageName"
 msgid "Burmese"
-msgstr ""
+msgstr "Burmayî"
 
 #. Translators: the label for the Windows default NVDA interface language.
 msgid "User default"
@@ -4986,7 +4987,7 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Cube"
-msgstr ""
+msgstr "Kûp"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5076,7 +5077,7 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Down Arrow"
-msgstr ""
+msgstr "Tîra Jêrê"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5088,7 +5089,7 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Explosion"
-msgstr ""
+msgstr "Teqîn"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5334,7 +5335,7 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Left Arrow"
-msgstr ""
+msgstr "Tîra Çepê"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5635,7 +5636,7 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Rectangle"
-msgstr ""
+msgstr "Lakêşe"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5647,7 +5648,7 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Right Arrow"
-msgstr ""
+msgstr "Tîra Rastê"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5749,7 +5750,7 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Sun"
-msgstr ""
+msgstr "Roj"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5773,7 +5774,7 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Up Arrow"
-msgstr ""
+msgstr "Tîra Jorê"
 
 #. Translators: a shape name from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5809,49 +5810,49 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Wave"
-msgstr ""
+msgstr "Bizava"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "action"
 msgid "Back"
-msgstr ""
+msgstr "Paşde"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "action"
 msgid "Beginning"
-msgstr ""
+msgstr "Destpêk"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "action"
 msgid "Document"
-msgstr ""
+msgstr "Pelge"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "action"
 msgid "End"
-msgstr ""
+msgstr "Dawîn"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "action"
 msgid "Next"
-msgstr ""
+msgstr "Pêşve"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "action"
 msgid "Help"
-msgstr ""
+msgstr "Alîkarî"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "action"
 msgid "Home"
-msgstr ""
+msgstr "Destpêk"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
@@ -5869,13 +5870,13 @@ msgstr ""
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "shape"
 msgid "Return"
-msgstr ""
+msgstr "Xebitandin"
 
 #. Translators: an action button label from Microsoft Office.
 #. See MSOAutoShapeType enumeration from https://msdn.microsoft.com/en-us/library/office/ff862770.aspx?f=255&MSPPError=-2147217396
 msgctxt "action"
 msgid "Sound"
-msgstr ""
+msgstr "Deng"
 
 msgid "Type help(object) to get help about object."
 msgstr ""
@@ -6069,13 +6070,13 @@ msgstr ""
 #. {backgroundColor} will be replaced with the background color.
 #, python-brace-format
 msgid "{color} on {backgroundColor}"
-msgstr ""
+msgstr "{color} ser {backgroundColor}"
 
 #. Translators: Reported when the text color changes (but not the background color).
 #. {color} will be replaced with the text color.
 #, python-brace-format
 msgid "{color}"
-msgstr ""
+msgstr "{color}"
 
 #. Translators: Reported when the background color changes (but not the text color).
 #. {backgroundColor} will be replaced with the background color.
@@ -6405,7 +6406,7 @@ msgstr ""
 #. Translators: a touch with no release, on a touch screen.
 msgctxt "touch action"
 msgid "hold"
-msgstr ""
+msgstr "parastin"
 
 #. Translators: a quick swipe of a finger in an up direction, on a touch screen.
 msgctxt "touch action"
@@ -6435,7 +6436,7 @@ msgstr ""
 #. Translators: A finger is still touching the touch screen and is moving around with out breaking contact.
 msgctxt "touch action"
 msgid "hover"
-msgstr ""
+msgstr "lerzek"
 
 #. Translators: a finger that was hovering (touching the touch screen for a long time) has been released
 msgctxt "touch action"
@@ -6577,7 +6578,7 @@ msgstr ""
 #. Translators: The label of a button to indicate that the user is finished donating
 #. in the "Please Donate" dialog.
 msgid "&Done"
-msgstr ""
+msgstr "&Temam"
 
 msgid "NonVisual Desktop Access"
 msgstr ""
@@ -6656,7 +6657,7 @@ msgstr ""
 
 #. Translators: Announced in braille when suggestions appear when search term is entered in various search fields such as Start search box in Windows 10.
 msgid "Suggestions"
-msgstr ""
+msgstr "Pêşniyar"
 
 #. Translators: The label for a 'composition' Window that appears when the user is typing one or more east-Asian characters into a document.
 msgid "Composition"
@@ -6665,18 +6666,18 @@ msgstr ""
 #. Translators: The label for a 'candidate' list that shows a choice of symbols a user can choose from when typing east-Asian characters into a document.
 #. Translators: A label for a 'candidate' list which contains symbols the user can choose from  when typing east-asian characters into a document.
 msgid "Candidate"
-msgstr ""
+msgstr "Berendam"
 
 msgid "Display"
-msgstr ""
+msgstr "Dîmender"
 
 #. Translators: The title of Start menu/screen in your language (only the word start).
 msgid "Start"
-msgstr ""
+msgstr "Destpêke"
 
 #. Translators: Reported when no track is playing in Foobar 2000.
 msgid "No track playing"
-msgstr ""
+msgstr "Tu Stran Nayê Lêdan"
 
 #. Translators: The description of an NVDA command for reading the remaining time of the currently playing track in Foobar 2000.
 msgid "Reports the remaining time of the currently playing track, if any"
@@ -6742,11 +6743,11 @@ msgstr ""
 
 #. Translators: This is presented in outlook or live mail to indicate email attachments.
 msgid "Attachments"
-msgstr ""
+msgstr "Pêvek"
 
 #. Translators: This is presented in outlook or live mail when creating a new email 'to:' or 'recipient:'
 msgid "To:"
-msgstr ""
+msgstr "Ji bo:"
 
 #. Translators: This is presented in outlook or live mail when sending an email to a newsgroup
 msgid "Newsgroup:"
@@ -6758,15 +6759,15 @@ msgstr ""
 
 #. Translators: This is presented in outlook or live mail, email subject
 msgid "Subject:"
-msgstr ""
+msgstr "Mijar:"
 
 #. Translators: This is presented in outlook or live mail, email sender
 msgid "From:"
-msgstr ""
+msgstr "Şandyar:"
 
 #. Translators: This is presented in outlook or live mail, date of email
 msgid "Date:"
-msgstr ""
+msgstr "Tarîx:"
 
 #. Translators: This is presented in outlook or live mail
 msgid "Forward to:"
@@ -6995,7 +6996,7 @@ msgstr ""
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
 msgid "Print Preview"
-msgstr ""
+msgstr "Pêşdîtina Çapê"
 
 #. Translators: a label for a particular view or pane in Microsoft PowerPoint
 msgid "Thumbnails"
@@ -7158,11 +7159,11 @@ msgstr ""
 
 #. Translators: This is the name of a button in sound recorder.
 msgid "Play"
-msgstr ""
+msgstr "Lê Bide"
 
 #. Translators: This is the name of a button in sound recorder.
 msgid "Stop"
-msgstr ""
+msgstr "Rawestîne"
 
 #. Translators: This is the name of a button in sound recorder.
 msgid "Record"
@@ -7177,22 +7178,22 @@ msgstr "rast"
 #. Translators: the user has pressed the shuffle tracks toggle in winamp, shuffle is now on.
 msgctxt "shuffle"
 msgid "on"
-msgstr ""
+msgstr "vekirî"
 
 #. Translators: the user has pressed the shuffle tracks toggle in winamp, shuffle is now off.
 msgctxt "shuffle"
 msgid "off"
-msgstr ""
+msgstr "girtî"
 
 #. Translators: the user has pressed the repeat track toggle in winamp, repeat is now on.
 msgctxt "repeat"
 msgid "on"
-msgstr ""
+msgstr "vekirî"
 
 #. Translators: the user has pressed the repeat track toggle in winamp, repeat is now off.
 msgctxt "repeat"
 msgid "off"
-msgstr ""
+msgstr "girtî"
 
 #. Translators: presented when there is no emoji when searching for one in Windows 10 Fall Creators Update and later.
 msgid "No emoji"
@@ -7391,7 +7392,7 @@ msgstr ""
 #. Translators: The title of a warning dialog.
 #. Translators: The title of the warning dialog displayed when trying to copy settings for use in secure screens.
 msgid "Warning"
-msgstr ""
+msgstr "Hişyar"
 
 #. Translators: The title of the dialog presented while NVDA is running the COM Registration fixing tool
 #. Translators: The title of a dialog presented when the COM Registration Fixing tool is complete.
@@ -7487,11 +7488,11 @@ msgstr ""
 
 #. Translators: The label for the menu item to reload plugins.
 msgid "Reload plugins"
-msgstr ""
+msgstr "Pêvekan nu barbike"
 
 #. Translators: The label for the Tools submenu in NVDA menu.
 msgid "Tools"
-msgstr ""
+msgstr "Amûr"
 
 #. Translators: The label of a menu item to open NVDA user guide.
 msgid "&User Guide"
@@ -7655,7 +7656,7 @@ msgstr "derkeve"
 
 #. Translators: An option in the combo box to choose exit action.
 msgid "Restart"
-msgstr ""
+msgstr "Nûdestpêbike"
 
 #. Translators: An option in the combo box to choose exit action.
 msgid "Restart with add-ons disabled"
@@ -7715,11 +7716,11 @@ msgstr ""
 
 #. Translators: The label for a column in add-ons list used to identify add-on package name (example: package is OCR).
 msgid "Package"
-msgstr ""
+msgstr "Pakêt"
 
 #. Translators: The label for a column in add-ons list used to identify add-on's running status (example: status is running).
 msgid "Status"
-msgstr ""
+msgstr "Rewş"
 
 #. Translators: The label for a column in add-ons list used to identify add-on's version (example: version is 0.3).
 msgid "Version"
@@ -7727,7 +7728,7 @@ msgstr "Version"
 
 #. Translators: The label for a column in add-ons list used to identify add-on's author (example: author is NV Access).
 msgid "Author"
-msgstr ""
+msgstr "Nivîskar"
 
 #. Translators: The label for a button in Add-ons Manager dialog to show information about the selected add-on.
 msgid "&About add-on..."
@@ -7751,7 +7752,7 @@ msgstr ""
 #. Translators: The label for a button in speech dictionaries dialog to remove existing entries.
 #. Translators: The label of a button to remove a gesture in the Input Gestures dialog.
 msgid "&Remove"
-msgstr ""
+msgstr "&Rake"
 
 #. Translators: The label of a button in Add-ons Manager to open the Add-ons website and get more add-ons.
 msgid "&Get add-ons..."
@@ -7828,7 +7829,7 @@ msgstr "lê bar bike"
 
 #. Translators: The status shown for an addon that has been marked as removed, before NVDA has been restarted.
 msgid "remove"
-msgstr ""
+msgstr "rakirin"
 
 #. Translators: The status shown for an addon when it requires a restart to become disabled
 msgid "Disabled after restart"
@@ -7840,11 +7841,11 @@ msgstr ""
 
 #. Translators: The status shown for an addon when its currently suspended do to addons being disabled.
 msgid "disabled"
-msgstr ""
+msgstr "ne çalak e"
 
 #. Translators: The status shown for an addon when its currently running in NVDA.
 msgid "enabled"
-msgstr ""
+msgstr "çalak e"
 
 #. Translators: The label for a button in Add-ons Manager dialog to enable or disable the selected add-on.
 msgid "&Enable add-on"
@@ -7888,15 +7889,15 @@ msgstr ""
 
 #. Translators: The label of a button to create a new configuration profile.
 msgid "&New"
-msgstr ""
+msgstr "&Nû"
 
 #. Translators: The label of a button to rename a configuration profile.
 msgid "&Rename"
-msgstr ""
+msgstr "&Nav biguhere"
 
 #. Translators: The label of a button to delete a configuration profile.
 msgid "&Delete"
-msgstr ""
+msgstr "&Jê bibe"
 
 #. Translators: The label of a button to manage triggers
 #. in the Configuration Profiles dialog.
@@ -8006,7 +8007,7 @@ msgstr "profîl"
 
 #. Translators: The title of the dialog to create a new configuration profile.
 msgid "New Profile"
-msgstr ""
+msgstr "Profîleke Nû"
 
 #. Translators: The label of a field to enter the name of a new configuration profile.
 msgid "Profile name:"
@@ -8094,7 +8095,7 @@ msgstr ""
 
 #. Translators: The title of a dialog presented to indicate a successful operation.
 msgid "Success"
-msgstr ""
+msgstr "Serkeftî"
 
 #. Translators: The title of the Install NVDA dialog.
 msgid "Install NVDA"
@@ -8137,7 +8138,7 @@ msgstr ""
 
 #. Translators: The label of a button to continue with the operation.
 msgid "&Continue"
-msgstr ""
+msgstr "&Bidomîne"
 
 #. Translators: A warning presented when the user attempts to downgrade NVDA
 #. to an older version.
@@ -8170,7 +8171,7 @@ msgstr ""
 
 #. Translators: The label of a button to browse for a directory.
 msgid "Browse..."
-msgstr ""
+msgstr "Binihêre..."
 
 #. Translators: The title of the dialog presented when browsing for the
 #. destination directory when creating a portable copy of NVDA.
@@ -8238,7 +8239,7 @@ msgstr "Log"
 
 #. Translators: Label of a menu item in NVDA Log Viewer.
 msgid "Save As"
-msgstr ""
+msgstr "Tomarkirin wekî..."
 
 #. Translators: Dialog text presented when NVDA cannot save a log file.
 #, python-format
@@ -8247,15 +8248,15 @@ msgstr ""
 
 #. Translators: The Ok button on a NVDA dialog. This button will accept any changes and dismiss the dialog.
 msgid "OK"
-msgstr ""
+msgstr "Temam"
 
 #. Translators: The cancel button on a NVDA dialog. This button will discard any changes and dismiss the dialog.
 msgid "Cancel"
-msgstr ""
+msgstr "Betal"
 
 #. Translators: The Apply button on a NVDA dialog. This button will accept any changes but will not dismiss the dialog.
 msgid "Apply"
-msgstr ""
+msgstr "Bi kar bîne"
 
 #. Translators: The label for the list of categories in a multi category settings dialog.
 msgid "&Categories:"
@@ -8268,7 +8269,7 @@ msgstr ""
 
 #. Translators: This is the label for the general settings panel.
 msgid "General"
-msgstr ""
+msgstr "Giştî"
 
 #. Translators: One of the log levels of NVDA (the info mode shows info as NVDA runs).
 msgid "info"
@@ -10166,7 +10167,7 @@ msgstr ""
 #. Translators: A type of background pattern in Microsoft Excel.
 #. No pattern
 msgid "none"
-msgstr ""
+msgstr "ti yek"
 
 #. Translators: A type of background pattern in Microsoft Excel.
 #. 75% dark moire
@@ -10546,7 +10547,7 @@ msgstr ""
 #. Translators: single line spacing
 msgctxt "line spacing value"
 msgid "single"
-msgstr ""
+msgstr "tekane"
 
 #. Translators: double line spacing
 msgctxt "line spacing value"
@@ -10556,7 +10557,7 @@ msgstr ""
 #. Translators:  line spacing of 1.5 lines
 msgctxt "line spacing value"
 msgid "1.5 lines"
-msgstr ""
+msgstr "1.5 rêz"
 
 #. Translators: exact (minimum) line spacing
 msgctxt "line spacing value"
@@ -10621,15 +10622,15 @@ msgstr "her alî spartî"
 
 #. Translators: a message when toggling formatting in Microsoft word
 msgid "Superscript"
-msgstr ""
+msgstr "Sembola jorîn"
 
 #. Translators: a message when toggling formatting in Microsoft word
 msgid "Subscript"
-msgstr ""
+msgstr "Sembola binî"
 
 #. Translators: a message when toggling formatting in Microsoft word
 msgid "Baseline"
-msgstr ""
+msgstr "Xeta binî"
 
 #. Translators: a message reported when a paragraph is moved below another paragraph
 #, python-format
