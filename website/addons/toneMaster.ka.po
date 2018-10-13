@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-03 03:38+1000\n"
+"POT-Creation-Date: 2018-10-14 03:37+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,11 +39,11 @@ msgstr ""
 msgid ""
 "I always wanted to create musical tunes with NVDA, rather than just "
 "listening to NVDA's progress and error beeps. However, it's not too easy to "
-"do, so first I wanted to make it easier. That's why I wrote Tone "
-"Master. Just imagine how it could be for you to hear NVDA playing song by "
-"Mozzart or Beethoven, or may be greatest hits by Rolling Stones. Although "
-"the final result sounds like those ringtones on old mobile phones, it may "
-"still be funny."
+"do, so first I wanted to make it easier. That's why I wrote Tone Master. "
+"Just imagine how it could be for you to hear NVDA playing song by Mozzart or "
+"Beethoven, or may be greatest hits by Rolling Stones. Although the final "
+"result sounds like those ringtones on old mobile phones, it may still be "
+"funny."
 msgstr ""
 
 #. type: Plain text
@@ -156,7 +156,8 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Alt+NVDA+E: Opens currently loaded tone data file in Notepad for editing."
+msgid ""
+"Alt+NVDA+E: Opens currently loaded tone data file in Notepad for editing."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -214,6 +215,10 @@ msgid "Changes for 1.2"
 msgstr ""
 
 #. type: Bullet: '* '
+msgid "fixes wx4 compatibility"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
 "Fixed: Addressed major issue where selecting an empty tone data, then "
 "selecting another one and trying to play it results in tone data not being "
@@ -246,11 +251,13 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Improved: User will be notified by NVDA if tone data playback is stopped."
+msgid ""
+"Improved: User will be notified by NVDA if tone data playback is stopped."
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Fixed: Disallowed playback of tone data while the one is already playing."
+msgid ""
+"Fixed: Disallowed playback of tone data while the one is already playing."
 msgstr ""
 
 #. type: Title ##
