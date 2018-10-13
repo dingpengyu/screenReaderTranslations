@@ -15,10 +15,10 @@ NVDA gir tilbakemeldinger via syntetisk tale og punktskrift, og gjør blinde og 
 NVDA er utviklet av [NV Access https://www.nvaccess.org/], med bidrag fra fellesskapet.
 
 ++ Generelle funksjoner ++[GeneralFeatures]
-NVDA lar blinde og svaksynte få tilgang til og bruke Windows operativsystem og mange tredjeparts applikasjoner.
+NVDA lar blinde og svaksynte få tilgang til og bruke Windows operativsystem og mange tredjeparts programmer.
 
 Blant de viktigste funksjonene er:
-- Støtte for populære applikasjoner, inkludert nettlesere, e-postklienter, internett-chatteprogrammer og kontorpakker
+- Støtte for populære programmer, inkludert nettlesere, e-postklienter, internett-chatteprogrammer og kontorpakker
 - Innebygget syntetisk tale som støtter over 80 språk
 - Lesing av tekstformatering hvor dette er tilgjengelig, for eksempel fontnavn og -størrelse, stil og stavefeil
 - Automatisk lesing av tekst under musen og valgfri hørbar indikasjon der muspekeren er plassert
@@ -30,7 +30,7 @@ Blant de viktigste funksjonene er:
 - Mulig å kjøre i Windows-pålogging og i andre sikre skjermer
 - Annonserer kontroller og tekst når en bruker berøringskommandoer
 - Støtte for vanlige tilgjengelighetsgrensesnitt som Microsoft Active Accessibility, Java Access Bridge, IAccessible2 og UI Automation (UI Automation støttes bare i Windows 7 og senere)
-- Støtte for Windows kommandolinje og konsoll-applikasjoner
+- Støtte for Windows kommandolinje og konsoll-programmer
 -
 
 ++ Internasjonalisering ++[Internationalization]
@@ -264,7 +264,7 @@ Når menyen vises, kan du bruke piltastene til å navigere i den, og enter-taste
 | Slå av/på tastaturhjelpmodus | NVDA+1 | NVDA+1 | ingen | Når du trykker en tast i denne modusen vil tasten bli lest sammen med beskrivelse av eventuell NVDA-kommando tilknyttet den |
 | Avslutt NVDA | NVDA+q | NVDA+q | ingen | Avslutter NVDA |
 | Slipp neste tast gjennom | NVDA+F2 | NVDA+F2 | ingen | Lar NVDA slippe neste tastetrykk rett gjennom til det aktive programmet, selv om det normalt er håndtert som en NVDA-tastekommando |
-| Slå applikasjonsdvalemodus på/av | NVDA+Skift+s | NVDA-Skift+z | ingen | Dvalemodus deaktiverer alle NVDA-kommandoer og tale/punktskrift for det gjeldende programmet. Dette er mest nyttig i applikasjoner som har sin egen tale eller skjermleserfunksjon. Trykk denne kommandoen på nytt for å deaktivere dvalemodus. |
+| Slå programdvalemodus på/av | NVDA+Skift+s | NVDA-Skift+z | ingen | Dvalemodus deaktiverer alle NVDA-kommandoer og tale/punktskrift for det gjeldende programmet. Dette er mest nyttig i programmer som har sin egen tale eller skjermleserfunksjon. Trykk denne kommandoen på nytt for å deaktivere dvalemodus. |
 %%kc:endInclude
 
 ++ Rapportering av systeminformasjon ++[ReportingSystemInformation]
@@ -322,7 +322,7 @@ Når fokus er i en tabell, er følgende tastekommandoer også tilgjengelige:
 %kc:endInclude
 
 ++ Objektnavigasjon ++[ObjectNavigation]
-Det meste av tiden vil du arbeide med applikasjoner ved hjelp av kommandoer som flytter [fokuset #SystemFocus] og [markøren #SystemCaret]. Men noen ganger kan du ønske å utforske det gjeldende programmet eller operativsystemet uten å flytte fokus eller markør. Kanskje ønsker du også å arbeide med [objekter #Objects] som ikke kan nås normalt ved hjelp av tastaturet. I disse tilfellene kan du bruke objektnavigasjon.
+Det meste av tiden vil du arbeide med programmer ved hjelp av kommandoer som flytter [fokuset #SystemFocus] og [markøren #SystemCaret]. Men noen ganger kan du ønske å utforske det gjeldende programmet eller operativsystemet uten å flytte fokus eller markør. Kanskje ønsker du også å arbeide med [objekter #Objects] som ikke kan nås normalt ved hjelp av tastaturet. I disse tilfellene kan du bruke objektnavigasjon.
 
 Objektnavigasjon lar deg flytte mellom og få informasjon om de enkelte [objekter #Objects].
 
@@ -341,10 +341,10 @@ Objektet som leses kalles navigasjonsobjektet.
 Når du navigerer til et objekt, kan du se på innholdet i det ved hjelp av [tekstlesingskommandoer #ReviewingText] når du er i [modus for objektlesing #ObjectReview].
 Som standard flyttes navigasjonsobjektet sammen med systemfokus, men denne oppførselen kan slås av og på.
 
-Merk at leselisten følger både [fokus #SystemFocus] og [markør #SystemCaret], så vel som objektnavigasjon og tekstlesing som standard.
-Hvis du vil at den bare skal følge fokus og markør, må du [konfigurere leselist til å knyttes til #BrailleTether] fokus. I dette tilfellet vil leselisten ikke følge objektnavigasjon og tekstlesing.
+Merk at punktskriften følger både [fokus #SystemFocus] og [markør #SystemCaret], så vel som objektnavigasjon og tekstlesing som standard.
+Hvis du vil at den bare skal følge fokus og markør, må du [konfigurere punktskrift til å knyttes til #BrailleTether] fokus. I dette tilfellet vil leselisten ikke følge objektnavigasjon og tekstlesing.
 
-Om du vil at leselisten skal følge objektnavigasjon og tekstlesing i stedet, må du [konfigurere leselisten til å knyttes til #BrailleTether] lesing.
+Om du vil at leselisten skal følge objektnavigasjon og tekstlesing i stedet, må du [konfigurere punktskrift til å knyttes til #BrailleTether] lesing.
 
 Ved objektnavigering bruker du følgende taster:
 %kc:beginInclude
@@ -365,14 +365,14 @@ Merk: NumPad-taster (taster på det numeriske tastaturet) krever at NumLock-tast
 ++ Lese tekst ++[ReviewingText]
 NVDA lar deg lese innholdet [på skjermen #ScreenReview], i gjeldende [dokument #DocumentReview] eller i gjeldende [object #ObjectReview] tegn for tegn, ord for ord eller linje for linje.
  
-Dette er mest nyttig på steder (inkludert Windows kommandokonsoll) der det ikke finnes [systemmarkør #SystemCaret].
+Dette er mest nyttig på steder (inkludert Windows ledetekst) der det ikke finnes [systemmarkør #SystemCaret].
 For eksempel kan du bruke den til å lese teksten i en lang informasjonmelding i en dialog.
 
 Når du flytter lesemarkøren, følger systemmarkøren ikke med, slik at du kan se gjennom teksten uten å miste redigeringsposisjonen.
 Men som standard følger lesemarkøren med når systemmarkøren beveger seg. Dette kan slås av og på.
 
 Merk at leselisten følger [fokuset #SystemFocus] og [markøren #SystemCaret] som standard, i stedet for objektnavigasjon og tekstlesing.
-Hvis du vil at den skal følge objektnavigasjon og tekstlesing i stedet, må du [konfigurere leselisten til å bindes til #BrailleTether] lesing.
+Hvis du vil at den skal følge objektnavigasjon og tekstlesing i stedet, må du [konfigurere punktskrift til å knyttes til #BrailleTether] lesing.
 
 Følgende kommandoer er tilgjengelige for lesing av tekst:
 %kc:beginInclude
@@ -510,7 +510,7 @@ Følgende taster brukt alene hopper til neste tilgjengelige element. Bruker du d
 - m: ramme
 - g: grafikk
 - d: ARIA-landemerke
-- o: innebygd objekt (lyd- og videospiller, applikasjon, dialog, etc.)
+- o: innebygd objekt (lyd- og videospiller, program, dialog, etc.)
 - 1 til 6: overskriftene på nivå 1 til 6
 - a: merknad (kommentar, forfatterrevisjon, etc.)
 - w: skrivefeil
@@ -593,7 +593,7 @@ Du kan konfigurere punktskrift ved å bruke [Punktskrift-kategorien #BrailleSett
 For å få plass til så mye informasjon som mulig på ei leselist, har følgende forkortinger blitt definert. Disse angir så vel kontrolltype og situasjon som landemerker.
 
 || Forkorting | Kontrolltype |
-| app | applikation |
+| prg | program |
 | bsit | blokksitat |
 | knp | knapp |
 | ktknp | nedtrekksknapp |
@@ -668,10 +668,10 @@ Følgende situasjonsindikatorer er også definert:
 
 Til slutt er følgende forkortinger for landemerker definert:
 || Forkorting | Landemerke |
-| bnnr | banner |
+| bnr | banner |
 | iinf | innholdsinfo |
 | kmpl | komplementær |
-| skjema | skjema |
+| skjm | skjema |
 | hoved | hoved |
 | nav | navigasjon |
 | søk | søk |
@@ -1311,16 +1311,15 @@ Denne kombinasjonsboksen lar deg velge hvilket tastaturoppsett NVDA skal ha. For
 Om denne avkryssingsboksen er avkrysset, kan CapsLock brukes som NVDA-tast.
 
 ==== Bruk utvidet Insert som NVDA-tast ====[KeyboardSettingsExtendedInsert]
-   If this checkbox is checked, the extended insert key (usually found above the arrow keys, near home and end)
-   can be used as an NVDA modifier key.
+Hvis denne avkryssingsboksen er avkrysset, vil utvidet Insert (som du normalt finner ovenfor piltastene på et stasjonært tastatur, nær Home og End) kunne brukes som NVDA-tast.
 
 ==== Bruk numerisk Insert som NVDA-tast ====[KeyboardSettingsNumpadInsert]
-   If this checkbox is checked, the insert key on the number pad can be used as an NVDA modifier key.
-   If no key is chosen as the NVDA key it may be impossible to access certain NVDA commands.
-   Therefore, The NVDA settings dialog will display an error message if all keys are unselected when pressing Ok
-   or Apply.
-   After dismissing the error message, you must select at least one before being able to press Ok to dismiss the
-   dialog properly.
+Hvis denne avkryssingsboksen er avkrysset, kan Insert-tasten på det numeriske tastaturet brukes som NVDA-tast.
+
+Dersom ingen tast er definert som NVDA-tast, blir det umulig å få tilgang til en del NVDA-kommandoer. Derfor vil NVDAs innstillingsdialog vise en feilmelding dersom ingen tast er valgt når du trykker på OK- eller Bruk-knappen.
+
+Etter at du har fjernet feilmeldingen, må du velge minst én tast som NVDA-tast før du kan trykke OK for å avslutte dialogen på riktig måte.
+
 %kc:setting
 
 ==== Si skrevne tegn ====[KeyboardSettingsSpeakTypedCharacters]
@@ -1335,8 +1334,8 @@ Tast: NVDA+3
 
 Når dette valget er slått på, vil NVDA annonsere alle ord du skriver på tastaturet.
 
-==== Speech interrupt for typed characters ====[KeyboardSettingsSpeechInteruptForCharacters]
-   If on, this option will cause speech to be interrupted each time a character is typed. This is on by default.
+==== Avbryt tale ved skriving av tegn ====[KeyboardSettingsSpeechInteruptForCharacters]
+Hvis på, vil dette valget føre til at talen blir avbrutt hver gang et tegn skrives. Dette valget er slått på som standard.
 
 ==== Speech interrupt for Enter key ====[KeyboardSettingsSpeechInteruptForEnter]
    If on, this option will cause speech to be interrupted each time the Enter key is pressed. This is on by
@@ -1357,8 +1356,7 @@ Når dette valget er slått på, vil NVDA annonsere alle ord du skriver på tast
 ==== Si kommandotaster ====[KeyboardSettingsSpeakCommandKeys]
 Tast: NVDA+4
 
-   When enabled, NVDA will announce all non-character keys you type on the keyboard. This includes key
-   combinations such as control plus another letter.
+Når dette valget er på, vil NVDA annonsere alle taster du trykker på tastaturet som ikke er bokstaver eller tegn. Dette omfatter tastekombinasjoner som Ctrl + en bokstav.
 
 ==== Play sound for spelling errors while typing ====[KeyboardSettingsAlertForSpellingErrors]
    When enabled, a short buzzer sound will be played when a word you type contains a spelling error.
@@ -1366,10 +1364,9 @@ Tast: NVDA+4
    Settings #DocumentFormattingSettings], found in the NVDA Settings dialog.
 
 ==== Håndtere tastetrykk fra andre programmer ====[KeyboardSettingsHandleKeys]
-   This option allows the user to control if key presses generated by applications such as on-screen keyboards
-   and speech recognition software should be processed by NVDA.
-   This option is on by default, though certain users may wish to turn this off, such as those typing Vietnamese
-   with the Unikey typing software as it will cause incorrect character input.
+Dette valget lar brukeren avgjøre om tastetrykk generert av programmer som skjermtastaturer og programmer for talegjenkjenning skal håndteres av NvDA.
+
+Dette valget er slått på som standard, men noen brukere ønsker kanskje å slå dette av. Det kan for eksempel gjelde for brukere som skriver vietnamesisk med skriveprogrammet Unikey, siden dette vil generere feilaktig inndata.
 
 +++ Mus (NVDA+Ctrl+m) +++[MouseSettings]
    The Mouse category in the NVDA Settings dialog allows NVDA to track the mouse, play mouse coordinate beeps and
@@ -1386,9 +1383,9 @@ Tast: NVDA+4
 ==== Slå på mussporing ====[MouseSettingsTracking]
 Tast: NVDA+m
 
-   When enabled, NVDA will announce the text currently under the mouse pointer, as you move it around the screen.
-   This allows you to find things on the screen, by physically moving the mouse, rather than trying to find them
-   through object navigation.
+Når dette er slått på, vil NVDA annonsere teksten som for øyeblikket er under muspekeren, etter hvert som du flytter muspekeren omkring på skjermen.
+
+Dette lar deg finne ting på skjermen ved å fysisk flytte musen, heller enn å forsøke å finne dem ved bruk av objektnavigasjon. 
 
 ==== Text unit resolution ====[MouseSettingsTextUnit]
    If NVDA is set to announce the text under the mouse as you move it, this option allows you to choose exactly
@@ -1410,10 +1407,10 @@ Tast: NVDA+m
    the volume of the audio coordinates beeps is controlled by how bright the screen is under the mouse.
    This setting is unchecked by default.
 
-+++ Touch Interaction +++[TouchInteraction]
-   This settings category, only available on computers running Windows 8 and later with touch capabilities,
-   allows you to configure how NVDA interacts with touchscreens.
-   This category contains the following options:
++++ Berøringssamhandling +++[TouchInteraction]
+Denne innstillingskategorien, som er tilgjengelig bare på datamaskiner som kjører Windows 8 og senere med berøringsfunksjonalitet, lar deg stille inn hvordan NVDA samhandler med berøringsskjermer.  
+
+Denne kategorien inneholder følgende valg:
 
 ==== Touch typing mode ====[TouchTypingMode]
    This checkbox allows you to specify the method you wish to use when entering text using the touch keyboard.
@@ -1422,18 +1419,20 @@ Tast: NVDA+m
    If this is unchecked, you need to double-tap on the touch keyboard key to press the key.
 
 +++ Lesemarkør +++[ReviewCursorSettings]
-   The Review Cursor category in the NVDA Settings dialog is used to configure NVDA's review cursor behavior.
-   This category contains the following options:
-   %kc:setting
+Kategorien Lesemarkør i NVDAs innstillingsdialog brukes til å konfigurere oppførselen til lesemarkøren i NVDA.
 
-==== Follow System Focus ====[ReviewCursorFollowFocus]
+Denne kategorien inneholder følgende valg:
+
+%kc:setting
+
+==== Følg systemfokus ====[ReviewCursorFollowFocus]
 Tast: NVDA+7
 
    When enabled, The review cursor will always be placed in the same object as the current system focus whenever
    the focus changes.
-   %kc:setting
+%kc:setting
 
-==== Follow System Caret ====[ReviewCursorFollowCaret]
+==== Følg systemmarkør ====[ReviewCursorFollowCaret]
 Tast: NVDA+6
 
    When enabled, the review cursor will automatically be moved to the position of the System caret each time it
@@ -1451,14 +1450,15 @@ Tast: NVDA+6
 +++ Objektpresentasjon (NVDA+Ctrl+o) +++[ObjectPresentationSettings]
    The Object Presentation category in the NVDA Settings dialog is used to set how much information NVDA will
    present about controls such as description, position information and so on.
-   This category contains the following options:
 
-==== Report Tool Tips ====[ObjectPresentationReportToolTips]
+Denne kategorien inneholder følgende valg:
+
+==== Rapporter verktøytips ====[ObjectPresentationReportToolTips]
    A checkbox that when checked tells NVDA to report tool tips as they appear.
    Many Windows and controls show a small message (or tool tip) when you move the mouse pointer over them, or
    sometimes when you move the focus to them.
 
-==== Report Help Balloons ====[ObjectPresentationReportBalloons]
+==== Rapporter hjelpeballonger ====[ObjectPresentationReportBalloons]
    This checkbox when checked tells NVDA to report help balloons as they appear.
    Help Balloons are like tool tips, but are usually larger in size, and are associated with system events such
    as a network cable being unplugged, or perhaps to alert you about Windows security issues.
@@ -1480,7 +1480,8 @@ Tast: NVDA+6
 
 ==== Report Object descriptions ====[ObjectPresentationReportDescriptions]
    Uncheck this checkbox if you don't wish to have the description reported along with objects.
-   %kc:setting
+
+%kc:setting
 
 ==== Progress bar output ====[ObjectPresentationProgressBarOutput]
 Tast: NVDA+u
@@ -1500,7 +1501,8 @@ Tast: NVDA+u
    physically in the foreground.
    If you minimize or switch away from a window that contains a progress bar, NVDA will keep track of it,
    allowing you to do other things while NVDA tracks the progress bar.
-   %kc:setting
+
+%kc:setting
 
 ==== Report dynamic content changes ====[ObjectPresentationReportDynamicContent]
 Tast: NVDA+5
@@ -1572,16 +1574,18 @@ Tast: NVDA+5
 +++ Nettmodus (NVDA+Ctrl+b) +++[BrowseModeSettings]
    The Browse Mode category in the NVDA Settings dialog is used to configure NVDA's behavior when you read and
    navigate complex documents such as web pages.
-   This category contains the following options:
+
+Denne kategorien inneholder følgende valg:
 
 ==== Maximum Number of Characters on One Line ====[BrowseModeSettingsMaxLength]
    This field sets the maximum length of a line in browse mode (in characters).
 
 ==== Maximum Lines Per Page ====[BrowseModeSettingsPageLines]
    This field sets the amount of lines you will move by when pressing page up or page down while in browse mode.
-   %kc:setting
 
-==== Use screen layout ====[BrowseModeSettingsScreenLayout]
+%kc:setting
+
+==== Bruk skjermoppsett ====[BrowseModeSettingsScreenLayout]
 Tast: NVDA+v
 
    This option allows you to specify whether content in browse mode should place content such as links and other
@@ -1635,40 +1639,40 @@ Tast: NVDA+v
    For example, if you check the report font name checkbox, each time you arrow onto text with a different font,
    the name of the font will be announced.
    The document formatting options are organized into groups.
-   You can configure reporting of:
-   - Font
-   - Font name
-   - Font size
-   - Font attributes
+Du kan konfigurere rapportering av:
+- Font
+- Fontnavn
+- Fontstørrelse
+- Fontattributter
    - Emphasis
    - Style
-   - Colors
-   - Document information
-   - Comments
+- Farger
+- Dokumentinformasjon
+- Kommentarer
    - Editor revisions
-   - Spelling errors
+- Stavefeil
    - Pages and spacing
-   - Page numbers
-   - Line numbers
+- Sidetall
+- Linjenummer
    - Line indentation reporting [(Off, Speech, Tones, Both Speech and Tones) #lineIndentationOptions]
-   - Paragraph indentation (e.g. hanging indent, first line indent)
-   - Line spacing (single, double, etc.)
-   - Alignment
-   - Table information
-   - Tables
+- Avsnittsinnrykk (for eksempel hengende innrykk og innrykk av første linje)
+- Linjeavstand (enkel, dobbel, etc.)
+- Justering
+- Tabellinformasjon
+- Tabeller
    - Row/column headers
-   - Cell coordinates
+- Cellekoordinater
    - Cell borders [(Off, Styles, Both Colors and Styles)
-   - Elements
-   - Headings
-   - Links
-   - Lists
-   - Block quotes
-   - Landmarks
-   - Frames
-   - Clickable
-   -
-   -
+- Elementer
+- Overskrifter
+- Lenker
+- Lister
+- Blokksitater
+- Landemerker
+- Rammer
+- Klikkbar
+-
+-
    To toggle these settings from anywhere, please assign custom gestures using the [Input Gestures dialog
    #InputGestures].
 
@@ -1711,7 +1715,8 @@ I tillegg til dialogen [NCDA-Innstillinger #NVDASettings], inneholder undermenye
    - Voice: rules in this dictionary affect speech for the synthesizer voice currently being used.
    - Temporary: rules in this dictionary affect all speech in NVDA, but only for the current session. These rules
    are temporary and will be lost if NVDA is restarted.
-   -
+-
+
    You need to assign custom gestures using the [Input Gestures dialog #InputGestures] if you wish to open any of
    these dictionary dialogs from anywhere.
    All dictionary dialogs contain a list of rules which will be used for processing the speech.
@@ -1765,15 +1770,15 @@ I tillegg til dialogen [NCDA-Innstillinger #NVDASettings], inneholder undermenye
    the level set for this symbol.
    For example, you might use this so that a symbol will have its replacement spoken at higher levels without
    pausing, while still being indicated with a pause at lower levels.
-   -
-   -
+-
+-
    You can add new symbols by pressing the Add button.
    In the dialog that appears, enter the symbol and press the OK button.
    Then, change the fields for the new symbol as you would for other symbols.
    You can remove a symbol you previously added by pressing the Remove button.
    When you are finished, press the OK button to save your changes or the Cancel button to discard them.
 
-+++ Input Gestures +++[InputGestures]
++++ Inndatagester +++[InputGestures]
    In this dialog, you can customize the input gestures (keys on the keyboard, buttons on a braille display,
    etc.) for NVDA commands.
    Only commands that are applicable immediately before the dialog is opened are shown.
@@ -1823,10 +1828,11 @@ I tillegg til dialogen [NCDA-Innstillinger #NVDASettings], inneholder undermenye
 +++ Grunnleggende behandling +++[ProfilesBasicManagement]
    You manage configuration profiles by selecting "Configuration profiles" in the NVDA menu.
    You can also do this using a key command:
-   %kc:beginInclude
+%kc:beginInclude
    - NVDA+Ctrl+p: Show the Configuration Profiles dialog.
-   -
-   %kc:endInclude
+-
+%kc:endInclude
+
    The first control in this dialog is the profile list from which you can select one of the available profiles.
    When you open the dialog, the profile you are currently editing is selected.
    Additional information is also shown for active profiles, indicating whether they are manually activated,
@@ -1903,14 +1909,14 @@ I tillegg til dialogen [NCDA-Innstillinger #NVDASettings], inneholder undermenye
    screens" button in the General category of the [NVDA Settings #NVDASettings] dialog.
 
 + Ekstra verktøy +[ExtraTools]
-++ Log Viewer ++[LogViewer]
+++ Loggviser ++[LogViewer]
    The log viewer, found under Tools in the NVDA menu, allows you to view all the logging output that has
    occurred up until now from when you last started NVDA.
    Apart from reading the content, you can also Save a copy of the log file, or refresh the viewer so that it
    shows the most recent output since the Log viewer was opened.
    These actions are available under the viewer's Log menu.
 
-++ Speech Viewer ++[SpeechViewer]
+++ Taleviser ++[SpeechViewer]
    For sighted software developers or people demoing NVDA to sighted audiences, a floating window is available
    that allows you to view all the text that NVDA is currently speaking.
    To enable the speech viewer, check the "Speech Viewer" menu item under Tools in the NVDA menu.
@@ -1925,7 +1931,7 @@ I tillegg til dialogen [NCDA-Innstillinger #NVDASettings], inneholder undermenye
    To toggle the speech viewer from anywhere, please assign a custom gesture using the [Input Gestures dialog
    #InputGestures].
 
-++ Add-ons Manager ++[AddonsManager]
+++ Tilleggsbehandler ++[AddonsManager]
    The Add-ons Manager, accessed by selecting Manage add-ons under Tools in the NVDA menu, allows you to install,
    uninstall, enable and disable add-on packages for NVDA.
    These packages are provided by the community and contain custom code that may add or change features in NVDA
@@ -2024,15 +2030,13 @@ Det er også mange varianter som kan velges for å justere lyden av stemmen.
    server-based speech applications.
    These voices can also be used with NVDA.
    To use these voices, you will need to install two components:
-   - Microsoft Speech Platform - Runtime (Version 11) , x86:
-   http://www.microsoft.com/download/en/details.aspx?id=27225
-   - Microsoft Speech Platform - Runtime Languages (Version 11):
-   http://www.microsoft.com/download/en/details.aspx?id=27224
+- Microsoft Speech Platform - Runtime (Version 11), x86: http://www.microsoft.com/download/en/details.aspx?id=27225
+- Microsoft Speech Platform - Runtime Languages (Version 11): http://www.microsoft.com/download/en/details.aspx?id=27224
    - This page includes many files for both speech recognition and text-to-speech.
    Choose the files containing the TTS data for the desired languages/voices.
    For example, the file MSSpeech_TTS_en-US_ZiraPro.msi is a U.S. English voice.
-   -
-   -
+-
+-
 
 ++ Windows OneCore-stemmer ++[OneCore]
    Windows 10 includes new voices known as "OneCore" or "mobile" voices.
@@ -2074,7 +2078,7 @@ Vennligst se i dokumentasjonen for leselisten for å få en beskrivelse av hvor 
 | Gå framover med leselisten | topRouting20/40/80 (siste celle på leselisten) |
 | Gå bakover med leselisten | leftAdvanceBar |
 | Gå framover med leselisten | rightAdvanceBar |
-| Bytt leselist knyttet til | leftGDFButton+rightGDFButton |
+| Bytt punktskrift knyttet til | leftGDFButton+rightGDFButton |
 | Bytt handling på venstre wiz-hjul | leftWizWheelPress |
 | Gå bakover med venstre wiz-hjulhandling | leftWizWheelUp |
 | Gå framover med venstre wiz-hjulhandling | leftWizWheelDown |
@@ -2146,30 +2150,30 @@ Alternativt kan du koble til en eldre Optelec-leselist, som Braille Voyager, via
 | Toggle simulering av HID-tastatur | t1+spEnter |
    | Move to top line in review | t1+t2 |
    | Move to bottom line in review | t4+t5 |
-   | Toggle braille tethered to | t1+t3 |
-   | Report title | etouch2 |
-   | Report status bar | etouch4 |
+| Bytt leselist knyttet til | t1+t3 |
+| Rapporter tittel | etouch2 |
+| Rapporter statuslinje | etouch4 |
 | Skift+Tab | sp1 |
 | Alt | sp2 |
 | Escape | sp3 |
 | Tab | sp4 |
 | Pil opp | spUp |
 | Pil ned | spDown |
-   | leftArrow key | spLeft |
-   | rightArrow key | spRight |
-   | enter key | spEnter, enter|
+| Pil venstre | spLeft |
+| Pil høyre | spRight |
+| Enter | spEnter, enter |
 | Rapporter dato/tid | sp1+sp2 |
 | NVDA-meny | sp1+sp3 |
-   | windows+d key (minimize all applications) | sp1+sp4 |
-   | windows+b key (focus system tray) | sp3+sp4 |
-   | windows key | sp2+sp3, windows |
-   | alt+tab key | sp2+sp4 |
-   | control+home key | t3+spUp |
-   | control+end key | t3+spDown |
-   | home key | t3+spLeft |
-   | end key | t3+spRight |
+| Win+d (minimer alle programmer) | sp1+sp4 |
+| Win+b (fokus på systemkurv) | sp3+sp4 |
+| Win | sp2+sp3, windows |
+| Alt+tab | sp2+sp4 |
+| Ctrl+Home | t3+spUp |
+| Ctrl+End | t3+spDown |
+| Home | t3+spLeft |
+| End | t3+spRight |
 | Alt | alt |
-   | control key | control |
+| Ctrl | control |
 %kc:endInclude
 
 ++ Handy Tech-leselister ++[HandyTech]
@@ -2201,10 +2205,10 @@ NVDA støtter de fleste leselister fra [Handy Tech http://www.handytech.de/] nå
    | leftArrow key | joystickLeft |
    | rightArrow key | joystickRight |
 | NVDA-meny | b2+b4+b5+b6 |
-   | Toggle braille tethered to | b2 |
-   | Toggle the braille cursor | b1 |
-   | Toggle focus context presentation | b7 |
-   | Toggle braille input | mellomrom+b1+b3+b4 (mellomrom+capital B) |
+| Bytt punktskrift knyttet til | b2 |
+| Bytt punktskriftmarkør | b1 |
+| Bytt presentasjon av fokuskontekst | b7 |
+| Bytt punktskrift inndata | mellomrom+b1+b3+b4 (mellomrom+stor B) |
 %kc:endInclude
 
 ++ MDV Lilli ++[MDVLilli]
@@ -2273,10 +2277,10 @@ For leselister som har en joystick:
 || Navn | Tast |
 | Gå bakover med leselisten | K1 |
 | Gå framover med leselisten | K3 |
-   | Move braille display to previous line | B2 |
-   | Move braille display to next line | B5 |
+| Flytt leselist til forrige linje | B2 |
+| Flytt leselisst til neste linje | B5 |
    | Route to braille cell | routing |
-   | Toggle braille tethered to | K2 |
+| Bytt punktskrift knyttet til | K2 |
    | Say all | B6 |
 %kc:endInclude
 
