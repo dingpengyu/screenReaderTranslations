@@ -54,6 +54,10 @@ When you open a folder with .tdf files, you can then load them in your text edit
 
 ## Changes for 1.2
 
+* fixes wx4 compatibility
+
+## Changes for 1.2
+
 * Fixed: Addressed major issue where selecting an empty tone data, then selecting another one and trying to play it results in tone data not being played.
 
 ## Changes for 1.1
