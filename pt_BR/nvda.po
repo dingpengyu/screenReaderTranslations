@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 00:10+1000\n"
-"PO-Revision-Date: 2018-09-06 19:41-0300\n"
+"PO-Revision-Date: 2018-10-15 19:16-0300\n"
 "Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -1146,15 +1146,13 @@ msgstr "Vietnamita, grau 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Chinês (Taiwan, Mandarim)"
+msgstr "Chinês (China, Mandarim grau 1)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Chinês (Taiwan, Mandarim)"
+msgstr "Chinês (China, Mandarim grau 2)"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6663,7 +6661,7 @@ msgstr "Um leitor de tela livre e de código aberto para o Microsoft Windows"
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "Copyright (C) {years} Colaboradores do NVDA"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
@@ -6703,8 +6701,8 @@ msgstr ""
 "comprometida em auxiliar e promover soluções gratuitas e de código aberto "
 "para pessoas cegas e de baixa visão.\n"
 "Caso o NVDA lhe seja útil e deseje que ele continue a melhorar, por "
-"gentileza leve em conta doar à NV Access; encontra-se para tanto a opção "
-"Efetuar uma doação no menu do NVDA."
+"gentileza cogite em doar à NV Access; encontra-se para tanto a opção Efetuar "
+"uma doação no menu do NVDA."
 
 #. Translators: the message that is shown when the user tries to install an add-on from windows explorer and NVDA is not running.
 #, python-brace-format
@@ -8668,9 +8666,8 @@ msgstr "Teclado"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "&Usar CapsLock como uma tecla modificadora do NVDA"
+msgstr "&Selecionar as Teclas Modificadoras para o NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8833,9 +8830,8 @@ msgstr "Anunciar &dicas de ferramentas"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Anunciar &dicas de ferramentas"
+msgstr "Anunciar &notificações"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
