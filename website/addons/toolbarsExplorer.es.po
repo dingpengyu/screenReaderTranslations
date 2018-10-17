@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-24 05:59+1000\n"
+"POT-Creation-Date: 2018-10-17 23:28+1000\n"
 "PO-Revision-Date: 2018-08-24 18:56+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,12 @@ msgstr "[[!meta title=\"ToolbarsExplorer\"]]\n"
 #. type: Bullet: '* '
 msgid "Author: Alberto Buffolino"
 msgstr "Autor: Alberto Buffolino"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Download [development version][2]"
+msgid "Download [stable version][1]"
+msgstr "Descargar [versión de desarrollo][2]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
@@ -79,7 +85,10 @@ msgstr ""
 "su elemento;"
 
 #. type: Bullet: '* '
-msgid "Applications: simulates right mouse click on toolbar or its item;"
+#, fuzzy
+#| msgid "Applications: simulates right mouse click on toolbar or its item;"
+msgid ""
+"Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
 "Aplicaciones: simula un click derecho del ratón en la barra de herramientas "
 "o su elemento;"
@@ -100,16 +109,48 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Notes and suggestions"
+msgid "Notes"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Exploration terminates explicitly pressing escape, and implicitly "
+#| "performing an action on toolbar or its item;"
+msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
+msgstr ""
+"La exploración termina de forma explícita al presionar escape, e implíccita "
+"realizando una acción sobre la barra de herramientas o su elemento;"
+
+#. type: Bullet: '* '
+msgid ""
+"performing an action on toolbar or its item (with space, applications/shift"
+"+F10, enter);"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"pressing a gesture that moves out of current toolbar objects (alt, windows, "
+"tab, NVDA+F1, object navigation gestures, etc)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
+"control+z) simply does nothing."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Notes and suggestions"
+msgid "Suggestions"
 msgstr "Notas y sugerencias"
 
 #. type: Bullet: '* '
 msgid ""
-"Exploration terminates explicitly pressing escape, and implicitly performing "
-"an action on toolbar or its item;"
+"The add-on may fail in Mozilla applications the first time after add-on "
+"installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
-"La exploración termina de forma explícita al presionar escape, e implíccita "
-"realizando una acción sobre la barra de herramientas o su elemento;"
 
 #. type: Bullet: '* '
 msgid ""
@@ -126,5 +167,9 @@ msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
-msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgid ""
+"[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
+"addons.nvda-project.org/files/get.php?file=tbx-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"

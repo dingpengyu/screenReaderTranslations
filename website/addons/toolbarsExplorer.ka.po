@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-03 03:39+1000\n"
+"POT-Creation-Date: 2018-10-17 23:28+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,6 +23,10 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Author: Alberto Buffolino"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -68,7 +72,8 @@ msgid "Space: simulates left mouse click on toolbar or its item;"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Applications: simulates right mouse click on toolbar or its item;"
+msgid ""
+"Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -84,13 +89,40 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Notes and suggestions"
+msgid "Notes"
+msgstr ""
+
+#. type: Plain text
+msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Exploration terminates explicitly pressing escape, and implicitly performing "
-"an action on toolbar or its item;"
+"performing an action on toolbar or its item (with space, applications/shift"
+"+F10, enter);"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"pressing a gesture that moves out of current toolbar objects (alt, windows, "
+"tab, NVDA+F1, object navigation gestures, etc)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
+"control+z) simply does nothing."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Suggestions"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The add-on may fail in Mozilla applications the first time after add-on "
+"installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -105,5 +137,7 @@ msgid "[[!tag dev]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgid ""
+"[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
+"addons.nvda-project.org/files/get.php?file=tbx-dev"
 msgstr ""
