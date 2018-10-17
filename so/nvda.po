@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-12 00:10+1000\n"
-"PO-Revision-Date: 2018-10-11 08:51-0700\n"
+"PO-Revision-Date: 2018-10-17 10:26+0100\n"
 "Last-Translator: Osman H Baiia <othman82@hotmail.com>\n"
 "Language-Team: \n"
 "Language: so\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -1336,51 +1336,51 @@ msgstr "Ma jirto miiska hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next link"
-msgstr "u gudub iskuxire xigta"
+msgstr "u gudub xeriiriye xigta"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next link"
-msgstr "Ma jirto iskuxire xigta "
+msgstr "Ma jirto xeriiriye xigta "
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous link"
-msgstr "u gudub iskuxirega hore "
+msgstr "u gudub xeriiriye hore "
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous link"
-msgstr "Ma jirto iskuxirega hore"
+msgstr "Ma jirto xeriiriye hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next visited link"
-msgstr "u gudub iskuxire xigta u booqday "
+msgstr "u gudub xeriiriye xigta u booqday "
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next visited link"
-msgstr "Ma jirto iskuxire xigta u booqday"
+msgstr "Ma jirto xeriiriye xigta u booqday"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous visited link"
-msgstr "u gudub iskuxirega hore u booqday"
+msgstr "u gudub xeriiriye hore u booqday"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous visited link"
-msgstr "Ma jirto iskuxirega hore u booqday"
+msgstr "Ma jirto xeriiriye hore u booqday"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next unvisited link"
-msgstr "u gudub iskuxire xigta ma booqan"
+msgstr "u gudub xeriiriye xigta ma booqan"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next unvisited link"
-msgstr "Ma jirto iskuxire xigta ma booqan"
+msgstr "Ma jirto xeriiriye xigta ma booqan"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous unvisited link"
-msgstr "u gudub iskuxirega hore ma booqan"
+msgstr "u gudub xeriiriye hore ma booqan"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous unvisited link"
-msgstr "Ma jirto iskuxirega hore ma booqan"
+msgstr "Ma jirto xeriiriye hore ma booqan"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next form field"
@@ -1576,15 +1576,15 @@ msgstr "Ma jirto qoraal xirinka hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "skips forward past a block of links"
-msgstr "horay u soco iskuxireyasha xiriirka"
+msgstr "horay u soco isku xirka xiriirka"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no more text after a block of links"
-msgstr "ma jirto  qoraal dambe ka dib iskuxireyasha xiriirka"
+msgstr "ma jirto  qoraal dambe ka dib isku xirka xiriirka"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "skips backward past a block of links"
-msgstr "gadal u soco iskuxireyasha xiriirka"
+msgstr "gadal u soco isku xirka xiriirka"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no more text before a block of links"
@@ -2077,7 +2077,7 @@ msgstr "shayga tilmaan"
 
 #. Translators: Identifies a link in webpage documents.
 msgid "link"
-msgstr "iskuxire"
+msgstr "xeriiriye"
 
 #. Translators: Identifies a treeview (a tree-like structure such as treeviews for subfolders).
 msgid "tree view"
@@ -2197,7 +2197,7 @@ msgstr "qaybood"
 #. i.e. a long quotation in a separate paragraph distinguished by indentation, etc.
 #. See http://en.wikipedia.org/wiki/Block_quotation
 msgid "block quote"
-msgstr "qoraalka xirinka"
+msgstr "astaan xirin"
 
 #. Translators: Identifies a table header (a short text at the start of a table which describes what the table is about).
 msgid "table header"
