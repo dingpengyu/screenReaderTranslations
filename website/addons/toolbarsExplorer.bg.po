@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-17 23:28+1000\n"
-"PO-Revision-Date: 2018-08-24 09:44+0300\n"
+"PO-Revision-Date: 2018-10-17 17:57+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -26,10 +26,9 @@ msgid "Author: Alberto Buffolino"
 msgstr "Автор: Alberto Buffolino"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "Download [development version][2]"
 msgid "Download [stable version][1]"
-msgstr "Изтегляне на [тестова версия][2]"
+msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
@@ -85,13 +84,11 @@ msgstr ""
 "с инструменти или нейн елемент;"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Applications: simulates right mouse click on toolbar or its item;"
 msgid ""
 "Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
-"Applications: Симулира щракване с десен бутон на мишката върху лентата с "
-"инструменти или нейн елемент;"
+"Applications/Shift+F10: Симулира щракване с десен бутон на мишката върху "
+"лентата с инструменти или нейн елемент;"
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
@@ -110,47 +107,51 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "Забележки"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Exploration terminates explicitly pressing escape, and implicitly "
-#| "performing an action on toolbar or its item;"
 msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
 msgstr ""
-"Изследването се прекратява при натискане на Escape или при извършване на "
-"действие върху лентата с инструменти или нейн елемент;"
+"Изследването се прекратява директно при натискане на Escape и недиректно:"
 
 #. type: Bullet: '* '
 msgid ""
 "performing an action on toolbar or its item (with space, applications/shift"
 "+F10, enter);"
 msgstr ""
+"Извършване на действие върху лентата с инструменти или елемента й (с клавиша "
+"за интервал, Applications/Shift+F10, ENTER);"
 
 #. type: Bullet: '* '
 msgid ""
 "pressing a gesture that moves out of current toolbar objects (alt, windows, "
 "tab, NVDA+F1, object navigation gestures, etc)."
 msgstr ""
+"Задействане на жест, който измества фокуса от текущите обекти на лентата с "
+"инструменти (Alt, Windows, Tab, NVDA+F1, жестове за обектна навигация и т."
+"н.)."
 
 #. type: Plain text
 msgid ""
 "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
 "control+z) simply does nothing."
 msgstr ""
+"Други жестове, които не включват Alt или Windows (като H, 1, Shift, Shift+H, "
+"Control+Z) просто не правят нищо."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Notes and suggestions"
+#, no-wrap
 msgid "Suggestions"
-msgstr "Бележки и предложения"
+msgstr "Предложения"
 
 #. type: Bullet: '* '
 msgid ""
 "The add-on may fail in Mozilla applications the first time after add-on "
 "installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
+"Добавката може да не сработи в приложения на Mozilla при първото пускане "
+"след инсталирането/обновяването си. В такъв случай, моля, рестартирайте NVDA "
+"и приложенията на Mozilla, за да разрешите този проблем."
 
 #. type: Bullet: '* '
 msgid ""
@@ -167,9 +168,10 @@ msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid ""
 "[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
 "addons.nvda-project.org/files/get.php?file=tbx-dev"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr ""
+"[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
+"addons.nvda-project.org/files/get.php?file=tbx-dev"
