@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-17 23:28+1000\n"
+"POT-Creation-Date: 2018-10-18 19:31+1000\n"
 "PO-Revision-Date: 2018-08-25 15:24+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -166,7 +166,11 @@ msgstr "[[!tag dev]]\n"
 #. type: Plain text
 #, fuzzy
 #| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgid ""
-"[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
-"addons.nvda-project.org/files/get.php?file=tbx-dev"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"

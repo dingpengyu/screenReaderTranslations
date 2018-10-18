@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-17 23:28+1000\n"
+"POT-Creation-Date: 2018-10-18 19:31+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,7 +137,9 @@ msgid "[[!tag dev]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
-"addons.nvda-project.org/files/get.php?file=tbx-dev"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr ""
+
+#. type: Plain text
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
 msgstr ""

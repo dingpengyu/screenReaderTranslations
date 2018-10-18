@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-17 23:28+1000\n"
+"POT-Creation-Date: 2018-10-18 19:31+1000\n"
 "PO-Revision-Date: 2018-10-18 11:24+0200\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2\n"
-"Language-Team: \n"
 
 #. type: Plain text
 #, no-wrap
@@ -168,9 +168,21 @@ msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
-msgid ""
+#, fuzzy
+#| msgid ""
+#| "[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
+#| "addons.nvda-project.org/files/get.php?file=tbx-dev"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr ""
 "[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
 "addons.nvda-project.org/files/get.php?file=tbx-dev"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
+#| "addons.nvda-project.org/files/get.php?file=tbx-dev"
+msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
 msgstr ""
 "[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
 "addons.nvda-project.org/files/get.php?file=tbx-dev"
