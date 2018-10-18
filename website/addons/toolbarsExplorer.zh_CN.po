@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-18 19:31+1000\n"
-"PO-Revision-Date: 2018-09-11 08:28+0800\n"
+"PO-Revision-Date: 2018-10-18 20:14+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -26,10 +26,8 @@ msgid "Author: Alberto Buffolino"
 msgstr "作者: Alberto Buffolino"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [development version][2]"
 msgid "Download [stable version][1]"
-msgstr "下载 [开发板][2]"
+msgstr "下载[稳定版][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
@@ -76,11 +74,9 @@ msgid "Space: simulates left mouse click on toolbar or its item;"
 msgstr "Space: 模拟鼠标左键单击工具栏或其项目;"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Applications: simulates right mouse click on toolbar or its item;"
 msgid ""
 "Applications/shift+F10: simulates right mouse click on toolbar or its item;"
-msgstr "Applications: 模拟鼠标右键单击工具栏或其项目;"
+msgstr "Applications/shift+F10: 模拟鼠标右键单击工具栏或其项目;"
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
@@ -98,45 +94,48 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "注意"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Exploration terminates explicitly pressing escape, and implicitly "
-#| "performing an action on toolbar or its item;"
 msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
-msgstr "探索终止显式按下escape，并在工具栏或其项目上隐式执行操作;"
+msgstr "探索终止显式按下escape，并在工具栏或其项目上隐式执行操作："
 
 #. type: Bullet: '* '
 msgid ""
 "performing an action on toolbar or its item (with space, applications/shift"
 "+F10, enter);"
 msgstr ""
+"在工具栏或其项目上执行操作（请使用 space, applications/shift+F10, enter)快捷"
+"键;"
 
 #. type: Bullet: '* '
 msgid ""
 "pressing a gesture that moves out of current toolbar objects (alt, windows, "
 "tab, NVDA+F1, object navigation gestures, etc)."
 msgstr ""
+"按下移出当前工具栏对象的手势可用以下快捷键 (alt, windows, tab, NVDA+F1, 对象"
+"导航手势等）。"
 
 #. type: Plain text
 msgid ""
 "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
 "control+z) simply does nothing."
 msgstr ""
+"其他不包含alt或windows的手势 (如 h, 1, shift, shift+h, control+z)按下以上快捷"
+"键不会有任何效果。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Notes and suggestions"
+#, no-wrap
 msgid "Suggestions"
-msgstr "注意事项和建议"
+msgstr "使用建议"
 
 #. type: Bullet: '* '
 msgid ""
 "The add-on may fail in Mozilla applications the first time after add-on "
 "installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
+"插件安装/更新后，插件可能在Mozilla浏览器中首次使用无效;请重启NVDA和Mozilla浏"
+"览器来解决此问题;"
 
 #. type: Bullet: '* '
 msgid ""
@@ -152,13 +151,9 @@ msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php？file=tbx"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
