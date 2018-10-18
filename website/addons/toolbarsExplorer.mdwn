@@ -40,4 +40,5 @@ Other gestures not containing alt or windows (as h, 1, shift, shift+h, control+z
 [[!tag dev]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=tbx
+
 [2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev
