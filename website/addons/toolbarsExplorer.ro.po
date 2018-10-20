@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-18 19:31+1000\n"
-"PO-Revision-Date: 2018-08-25 15:24+0300\n"
+"PO-Revision-Date: 2018-10-20 09:59+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -26,10 +26,8 @@ msgid "Author: Alberto Buffolino"
 msgstr "Author: Alberto Buffolino"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [development version][2]"
 msgid "Download [stable version][1]"
-msgstr "Descărcați [versiunea în dezvoltare][2]"
+msgstr "Descărcați [versiunea stabilă][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
@@ -83,12 +81,11 @@ msgid "Space: simulates left mouse click on toolbar or its item;"
 msgstr "Spațiu: simulează click stânga pe bara de unelte sau pe elementul său;"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Applications: simulates right mouse click on toolbar or its item;"
 msgid ""
 "Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
-"Aplicații: simulează click dreapta pe bara de unelte sau pe elementul său;"
+"Aplicații/shift+F10: simulează click dreapta pe bara de unelte sau pe "
+"elementul său;"
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
@@ -107,47 +104,50 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "Note"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Exploration terminates explicitly pressing escape, and implicitly "
-#| "performing an action on toolbar or its item;"
 msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
 msgstr ""
-"Explicit, explorarea se termină la apăsarea tastei Escape, iar implicit la "
-"efectuarea unei acțiuni pe bara de unelte sau pe elementul său;"
+"Explicit, explorarea se termină la apăsarea tastei Escape, iar implicit:"
 
 #. type: Bullet: '* '
 msgid ""
 "performing an action on toolbar or its item (with space, applications/shift"
 "+F10, enter);"
 msgstr ""
+"efectuarea unei acțiuni pe bara de unelte sau pe elementul acesteia (cu "
+"spațiu, aplicații/shift+F10, enter);"
 
 #. type: Bullet: '* '
 msgid ""
 "pressing a gesture that moves out of current toolbar objects (alt, windows, "
 "tab, NVDA+F1, object navigation gestures, etc)."
 msgstr ""
+"apăsarea unui gest care deplasează cursorul în afara obiectelor barei "
+"curente (alt, windows, tab, NVDA+F1, gesturi de navigare ale obiectelor etc)."
 
 #. type: Plain text
 msgid ""
 "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
 "control+z) simply does nothing."
 msgstr ""
+"Alte gesturi care conțin alt sau windos (ca h, 1, shift, shift+h, control+z) "
+"pur și simplu nu fac nimic."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Notes and suggestions"
+#, no-wrap
 msgid "Suggestions"
-msgstr "Note și sugestii"
+msgstr "Sugestii"
 
 #. type: Bullet: '* '
 msgid ""
 "The add-on may fail in Mozilla applications the first time after add-on "
 "installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
+"Suplimentul poate eșua în aplicațiile Mozilla prima dată după instalarea/"
+"actualizarea suplimentului; vă rugăm să reporniți NVDA și aplicațiile "
+"Mozilla pentru a rezolva această problemă;"
 
 #. type: Bullet: '* '
 msgid ""
@@ -164,13 +164,9 @@ msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
