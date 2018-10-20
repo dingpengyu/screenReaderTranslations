@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Mongolian Translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-19 00:10+1000\n"
-"PO-Revision-Date: 2018-09-06 22:30+0800\n"
+"PO-Revision-Date: 2018-10-20 16:50+0800\n"
 "Last-Translator: \n"
 "Language-Team: MongolianNVDATranslationTeam <mongoliannvdatranslation@gmail."
 "com>\n"
@@ -1142,15 +1142,13 @@ msgstr "Vietnamese grade 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Chinese (Taiwan, Mandarin)"
+msgstr "Chinese (China, Mandarin) grade 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Chinese (Taiwan, Mandarin)"
+msgstr "Chinese (China, Mandarin) grade 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6648,7 +6646,7 @@ msgstr ""
 "ТӨВ \n"
 "Copyright (C) {years} NVDA Contributors"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
@@ -7821,6 +7819,17 @@ msgid ""
 "Do you wish to allow NV Access to periodically collect this data in order to "
 "improve NVDA?"
 msgstr ""
+"In order to improve NVDA in the future, NV Access wishes to collect usage "
+"data from running copies of NVDA.\n"
+"\n"
+"Data includes Operating System version, NVDA version, language, country of "
+"origin, plus certain NVDA configuration such as current synthesizer, braille "
+"display and braille table. No spoken or braille content will be ever sent to "
+"NV Access.  Please refer to the User Guide for a current list of all data "
+"collected.\n"
+"\n"
+"Do you wish to allow NV Access to periodically collect this data in order to "
+"improve NVDA?"
 
 #. Translators: The label of a Yes button in a dialog
 msgid "&Yes"
@@ -8451,7 +8460,7 @@ msgstr "ОК"
 
 #. Translators: The cancel button on a NVDA dialog. This button will discard any changes and dismiss the dialog.
 msgid "Cancel"
-msgstr "цуцлах "
+msgstr "Болих"
 
 #. Translators: The Apply button on a NVDA dialog. This button will accept any changes but will not dismiss the dialog.
 msgid "Apply"
@@ -8694,7 +8703,6 @@ msgstr "Компьютерийн гар"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
 msgstr ""
 "&Том үсгийн товчыг Дэлгэц уншигч програмыг удирдах товч болгон давхар "
@@ -8862,7 +8870,6 @@ msgstr "&Зөвлөмжүүд сонсох"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
 msgstr "&Зөвлөмжүүд сонсох"
 
