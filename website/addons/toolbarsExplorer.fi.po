@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ToolbarsExplorer\n"
 "POT-Creation-Date: 2018-10-18 19:31+1000\n"
-"PO-Revision-Date: 2018-10-18 09:08+0200\n"
+"PO-Revision-Date: 2018-10-20 13:54+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -166,21 +166,9 @@ msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
-#| "addons.nvda-project.org/files/get.php?file=tbx-dev"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgstr ""
-"[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
-"addons.nvda-project.org/files/get.php?file=tbx-dev"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
-#| "addons.nvda-project.org/files/get.php?file=tbx-dev"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
-msgstr ""
-"[1]: https://addons.nvda-project.org/files/get.php?file=tbx [2]: https://"
-"addons.nvda-project.org/files/get.php?file=tbx-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
