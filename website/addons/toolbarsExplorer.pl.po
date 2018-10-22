@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-18 19:31+1000\n"
-"PO-Revision-Date: 2018-09-22 14:10+0100\n"
+"PO-Revision-Date: 2018-10-22 11:39+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -26,10 +26,8 @@ msgid "Author: Alberto Buffolino"
 msgstr "Autor: Alberto Buffolino"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [development version][2]"
 msgid "Download [stable version][1]"
-msgstr "Pobierz [wersja rozwojowa][2]"
+msgstr "Pobierz [wersja stabilna][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
@@ -85,13 +83,11 @@ msgstr ""
 "jego elemencie;"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Applications: simulates right mouse click on toolbar or its item;"
 msgid ""
 "Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
-"Klawisz kontekstowy: symuluje kliknięcie prawym przyciskiem myszy na pasku "
-"narzędzi lub jego elemencie;"
+"Klawisz kontekstowy/sift+F10: symuluje kliknięcie prawym przyciskiem myszy "
+"na pasku narzędzi lub jego elemencie;"
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
@@ -110,47 +106,50 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "Uwagi"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Exploration terminates explicitly pressing escape, and implicitly "
-#| "performing an action on toolbar or its item;"
 msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
 msgstr ""
-"Eksplorację jawnie kończy naciśnięcie klawisza Escape, a niejawnie wykonanie "
-"czynności na pasku narzędzi lub jego elemencie;"
+"Eksplorację jawnie kończy naciśnięcie klawisza Escape, a także niejawnie."
 
 #. type: Bullet: '* '
 msgid ""
 "performing an action on toolbar or its item (with space, applications/shift"
 "+F10, enter);"
 msgstr ""
+"wykonywanie akcji na elemencie paska narzędzi oraz na samym pasku za pomocą "
+"spacji klawisza kontekstowego/shift+F10, oraz klawiszem enter);"
 
 #. type: Bullet: '* '
 msgid ""
 "pressing a gesture that moves out of current toolbar objects (alt, windows, "
 "tab, NVDA+F1, object navigation gestures, etc)."
 msgstr ""
+"naciśmnięcie gestu wyprowadzającego z aktualnego paska narzędzi (alt, "
+"windows, tab, NVDA+F1, nawigacja objektowa itd)."
 
 #. type: Plain text
 msgid ""
 "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
 "control+z) simply does nothing."
 msgstr ""
+"Inne gesty włączając w to klawisze (takie jak h, 1, shift, shift+h, control"
+"+z) po prostu nie robią nic."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Notes and suggestions"
+#, no-wrap
 msgid "Suggestions"
-msgstr "Uwagi i sugestie"
+msgstr "sugestie"
 
 #. type: Bullet: '* '
 msgid ""
 "The add-on may fail in Mozilla applications the first time after add-on "
 "installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
+"Dodatek może nie działać po pierwsze instalacji/aktualizacji aplikacji "
+"Mozilli; Aby rozwiązać problem, prosimy zrastartować NVDA i aplikacje "
+"Mozilla;"
 
 #. type: Bullet: '* '
 msgid ""
@@ -166,13 +165,9 @@ msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"

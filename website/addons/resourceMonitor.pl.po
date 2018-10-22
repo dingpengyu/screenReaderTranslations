@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2018-09-09 22:10+0100\n"
+"PO-Revision-Date: 2018-10-22 11:42+0100\n"
 "Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl_PL\n"
@@ -147,20 +147,17 @@ msgstr ""
 "czerwca 2018."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.04"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Wersja 18.04"
+msgstr "Wersja 18.10"
 
 #. type: Bullet: '* '
 msgid "Code has been made more compatible with Python 3."
 msgstr ""
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Updated psutil dependency to 5.0.1."
 msgid "Updated psutil dependency to 5.4.7."
-msgstr "zaktualizowano bibliotekę psutil do wersji 5.0.1."
+msgstr "Zaktualizowano zależność psutil do wersji 5.4.7."
 
 #. type: Bullet: '* '
 msgid ""
@@ -177,7 +174,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Improved detection of Windows Insider Preview builds."
-msgstr ""
+msgstr "Ulepszone wykrywanie kompilacji Windows insider preview."
 
 #. type: Title ##
 #, no-wrap
