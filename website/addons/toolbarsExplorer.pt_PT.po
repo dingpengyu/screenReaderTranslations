@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-24 04:34+1000\n"
-"PO-Revision-Date: 2018-09-15 13:08+0100\n"
+"PO-Revision-Date: 2018-10-23 22:10+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt_PT\n"
@@ -26,10 +26,9 @@ msgid "Author: Alberto Buffolino"
 msgstr "Autor: Alberto Buffolino"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "Download [development version][2]"
 msgid "Download [stable version][1]"
-msgstr "Baixar [versão de desenvolvimento][2]"
+msgstr "Baixar [versão estável][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
@@ -84,13 +83,11 @@ msgstr ""
 "seus itens;"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Applications: simulates right mouse click on toolbar or its item;"
 msgid ""
 "Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
-"Tecla de aplicações: simula o clique direito do rato na barra de ferramentas "
-"ou em um de seus itens;"
+"Tecla de aplicações/sift+f10: simula o clique direito do rato na barra de "
+"ferramentas ou em um de seus itens;"
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
@@ -109,48 +106,52 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Exploration terminates explicitly pressing escape, and implicitly "
-#| "performing an action on toolbar or its item;"
 msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
 msgstr ""
-"A exploração termina, explicitamente, ao pressionar escape ou ao executar "
-"implicitamente uma acção na barra de ferramentas ou em qualquer de seus "
-"itens;"
+"A exploração termina, explicitamente, ao pressionar a tecla  escape ou ao "
+"executar implicitamente uma acção na barra de ferramentas ou em qualquer de "
+"seus itens;"
 
 #. type: Bullet: '* '
 msgid ""
 "performing an action on toolbar or its item (with space, applications/shift"
 "+F10, enter);"
 msgstr ""
+"executa uma acção na barra de ferramentas ou seu item (com espaço, "
+"aplicativos / shift + F10, enter);"
 
 #. type: Bullet: '* '
 msgid ""
 "pressing a gesture that moves out of current toolbar objects (alt, windows, "
 "tab, NVDA+F1, object navigation gestures, etc)."
 msgstr ""
+"Pressionar um comando que sai da barra de ferramentas actual (alt, tecla "
+"windows, tab, NVDA+F1, comandos de navegação por objectos, etc)."
 
 #. type: Plain text
 msgid ""
 "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
 "control+z) simply does nothing."
 msgstr ""
+"outros comandos que não contenham alt ou a tecla windows (como h, 1, shift, "
+"shift+h, control+z) não fazem nada."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Notes and suggestions"
+#, no-wrap
 msgid "Suggestions"
-msgstr "Notas e sugestões:"
+msgstr "Sugestões:"
 
 #. type: Bullet: '* '
 msgid ""
 "The add-on may fail in Mozilla applications the first time after add-on "
 "installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
+"O extra pode falhar nas aplicações da Mozilla na primeira vez após a "
+"instalação / actualização; por favor reinicie o NVDA e o Mozilla para "
+"resolver;"
 
 #. type: Bullet: '* '
 msgid ""
@@ -162,19 +163,17 @@ msgstr ""
 "ferramentas."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
-msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
