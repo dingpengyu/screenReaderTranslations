@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-03 02:58+1000\n"
+"POT-Creation-Date: 2018-10-24 09:02+1000\n"
 "PO-Revision-Date: 2018-08-07 15:27+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: \n"
@@ -26,7 +26,9 @@ msgid "Author: Joseph Lee"
 msgstr "Autore: Joseph Lee"
 
 #. type: Bullet: '* '
-msgid "Download [prototype version][1]"
+#, fuzzy
+#| msgid "Download [prototype version][1]"
+msgid "Download [stable version][1]"
 msgstr "Download [versione sperimentale][1]"
 
 #. type: Plain text
@@ -68,12 +70,24 @@ msgid "Braille Extender"
 msgstr "Braille Extender"
 
 #. type: Bullet: '* '
-msgid "StationPlaylist Studio"
-msgstr "StationPlaylist Studio"
-
-#. type: Bullet: '* '
 msgid "WeatherPlus"
 msgstr "WeatherPlus"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The following add-ons provide built-in update feature and thus updates "
+#| "will not be checked via this add-on:"
+msgid ""
+"The following add-ons do have their own update check feature which will be "
+"disabled once Add-on Updater is installed:"
+msgstr ""
+"Esistono alcuni componenti aggiuntivi che sono in grado di aggiornarsi "
+"autonomamente, perciò non saranno presi in esame da questo addon. Essi sono:"
+
+#. type: Bullet: '* '
+msgid "StationPlaylist Studio"
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
@@ -90,69 +104,19 @@ msgstr ""
 "ragione di esistere."
 
 #. type: Title ##
-#, no-wrap
-msgid "Version 18.08.5"
-msgstr "Versione 18.08.5"
-
-#. type: Bullet: '* '
-msgid ""
-"Fixed an issue where Add-on Updater settings panel failed to show if one or "
-"more add-ons had badly formatted manifest data."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
-"for updates."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.4"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Fixed a regression introducedin 18.08.3 where NVDA continuously played "
-"progress beep when trying to check for add-on updates."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.3"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Added ability to exclude add-ons from being updated via a new checkable list "
-"box found in Add-on Updater settings panel. Checked items will not be "
-"updated."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.1"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"It is now possible to let NVDA check for add-on updates automatically (every "
-"24 hours). This is configured through a new Add-on Updater settings panel "
-"found in NVDA settings."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08"
+#, fuzzy, no-wrap
+#| msgid "Version 18.08"
+msgid "Version 18.10"
 msgstr "Versione 18.08"
 
 #. type: Bullet: '* '
-msgid "Initial version."
-msgstr "Versione iniziale"
+msgid "Initial stable release (still marked as proof of concept)."
+msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
@@ -162,3 +126,9 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
 msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
+
+#~ msgid "Version 18.08.5"
+#~ msgstr "Versione 18.08.5"
+
+#~ msgid "Initial version."
+#~ msgstr "Versione iniziale"

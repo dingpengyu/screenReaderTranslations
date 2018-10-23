@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-06 04:01+1000\n"
+"POT-Creation-Date: 2018-10-24 09:02+1000\n"
 "PO-Revision-Date: 2018-08-05 22:14+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,9 @@ msgid "Author: Joseph Lee"
 msgstr "Автор: Joseph Lee"
 
 #. type: Bullet: '* '
-msgid "Download [prototype version][1]"
+#, fuzzy
+#| msgid "Download [prototype version][1]"
+msgid "Download [stable version][1]"
 msgstr "Изтегляне на [прототипна версия][1]"
 
 #. type: Plain text
@@ -65,12 +67,24 @@ msgid "Braille Extender"
 msgstr "Брайлови подобрения (BrailleExtender)"
 
 #. type: Bullet: '* '
-msgid "StationPlaylist Studio"
-msgstr "StationPlaylist Studio"
-
-#. type: Bullet: '* '
 msgid "WeatherPlus"
 msgstr "Време Плюс (WeatherPlus)"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The following add-ons provide built-in update feature and thus updates "
+#| "will not be checked via this add-on:"
+msgid ""
+"The following add-ons do have their own update check feature which will be "
+"disabled once Add-on Updater is installed:"
+msgstr ""
+"Следните добавки предоставят вградена функция за обновяване и поради това за "
+"обновления за тях няма да се проверява чрез тази добавка:"
+
+#. type: Bullet: '* '
+msgid "StationPlaylist Studio"
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
@@ -86,84 +100,19 @@ msgstr ""
 "тази добавка ще бъде премахната."
 
 #. type: Title ##
-#, no-wrap
-msgid "Version 18.08.5"
-msgstr "Версия 18.08.5"
-
-#. type: Bullet: '* '
-msgid ""
-"Fixed an issue where Add-on Updater settings panel failed to show if one or "
-"more add-ons had badly formatted manifest data."
-msgstr ""
-"Отстранен е проблем, при който панелът за настройки на добавката Add-on "
-"Updater не може да се покаже, ако една или повече добавки имат неправилно "
-"форматирани manifest данни."
-
-#. type: Bullet: '* '
-msgid ""
-"Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
-"for updates."
-msgstr ""
-"Добавено е семейството от добавки на Nuance Vocalizer към добавките, които "
-"няма да бъдат проверявани за обновления."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.4"
-msgstr "Версия 18.08.4"
-
-#. type: Bullet: '* '
-msgid ""
-"Fixed a regression introducedin 18.08.3 where NVDA continuously played "
-"progress beep when trying to check for add-on updates."
-msgstr ""
-"Отстранен е проблем, появил се във версия 18.08.3, при който NVDA "
-"непрекъснато възпроизвежда тона за лентата за напредъка, при опит за "
-"проверка за обновления на добавките."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.3"
-msgstr "Версия 18.08.3"
-
-#. type: Bullet: '* '
-msgid ""
-"Added ability to exclude add-ons from being updated via a new checkable list "
-"box found in Add-on Updater settings panel. Checked items will not be "
-"updated."
-msgstr ""
-"Добавена е възможност за изключване на дадени добавки от списъка за "
-"обновяване чрез нов списък с отметки, намиращ се в панела за настройки на "
-"Add-on Updater. Отметнатите елементи няма да бъдат обновявани."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.1"
-msgstr "Версия 18.08.1"
-
-#. type: Bullet: '* '
-msgid ""
-"It is now possible to let NVDA check for add-on updates automatically (every "
-"24 hours). This is configured through a new Add-on Updater settings panel "
-"found in NVDA settings."
-msgstr ""
-"Вече е възможно да позволите на NVDA автоматично да проверява за обновления "
-"на добавки (на всеки 24 часа). Настройката за включване и изключване на "
-"автоматичната проверка се намира в раздела \"Add-on Updater\" в прозореца с "
-"настройките на NVDA."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08"
+#, fuzzy, no-wrap
+#| msgid "Version 18.08"
+msgid "Version 18.10"
 msgstr "Версия 18.08"
 
 #. type: Bullet: '* '
-msgid "Initial version."
-msgstr "Първо издание."
+msgid "Initial stable release (still marked as proof of concept)."
+msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
@@ -173,3 +122,60 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
 msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
+
+#~ msgid "Version 18.08.5"
+#~ msgstr "Версия 18.08.5"
+
+#~ msgid ""
+#~ "Fixed an issue where Add-on Updater settings panel failed to show if one "
+#~ "or more add-ons had badly formatted manifest data."
+#~ msgstr ""
+#~ "Отстранен е проблем, при който панелът за настройки на добавката Add-on "
+#~ "Updater не може да се покаже, ако една или повече добавки имат неправилно "
+#~ "форматирани manifest данни."
+
+#~ msgid ""
+#~ "Added Nuance Vocalizer family of add-ons to add-ons that'll not be "
+#~ "checked for updates."
+#~ msgstr ""
+#~ "Добавено е семейството от добавки на Nuance Vocalizer към добавките, "
+#~ "които няма да бъдат проверявани за обновления."
+
+#~ msgid "Version 18.08.4"
+#~ msgstr "Версия 18.08.4"
+
+#~ msgid ""
+#~ "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
+#~ "progress beep when trying to check for add-on updates."
+#~ msgstr ""
+#~ "Отстранен е проблем, появил се във версия 18.08.3, при който NVDA "
+#~ "непрекъснато възпроизвежда тона за лентата за напредъка, при опит за "
+#~ "проверка за обновления на добавките."
+
+#~ msgid "Version 18.08.3"
+#~ msgstr "Версия 18.08.3"
+
+#~ msgid ""
+#~ "Added ability to exclude add-ons from being updated via a new checkable "
+#~ "list box found in Add-on Updater settings panel. Checked items will not "
+#~ "be updated."
+#~ msgstr ""
+#~ "Добавена е възможност за изключване на дадени добавки от списъка за "
+#~ "обновяване чрез нов списък с отметки, намиращ се в панела за настройки на "
+#~ "Add-on Updater. Отметнатите елементи няма да бъдат обновявани."
+
+#~ msgid "Version 18.08.1"
+#~ msgstr "Версия 18.08.1"
+
+#~ msgid ""
+#~ "It is now possible to let NVDA check for add-on updates automatically "
+#~ "(every 24 hours). This is configured through a new Add-on Updater "
+#~ "settings panel found in NVDA settings."
+#~ msgstr ""
+#~ "Вече е възможно да позволите на NVDA автоматично да проверява за "
+#~ "обновления на добавки (на всеки 24 часа). Настройката за включване и "
+#~ "изключване на автоматичната проверка се намира в раздела \"Add-on Updater"
+#~ "\" в прозореца с настройките на NVDA."
+
+#~ msgid "Initial version."
+#~ msgstr "Първо издание."

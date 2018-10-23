@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-06 04:01+1000\n"
+"POT-Creation-Date: 2018-10-24 09:02+1000\n"
 "PO-Revision-Date: 2018-08-08 05:54+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -26,7 +26,9 @@ msgid "Author: Joseph Lee"
 msgstr "作者: Joseph Lee"
 
 #. type: Bullet: '* '
-msgid "Download [prototype version][1]"
+#, fuzzy
+#| msgid "Download [prototype version][1]"
+msgid "Download [stable version][1]"
 msgstr "下载 [原型版][1]"
 
 #. type: Plain text
@@ -60,12 +62,22 @@ msgid "Braille Extender"
 msgstr "Braille Extender"
 
 #. type: Bullet: '* '
-msgid "StationPlaylist Studio"
-msgstr "StationPlaylist Studio"
-
-#. type: Bullet: '* '
 msgid "WeatherPlus"
 msgstr "WeatherPlus"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The following add-ons provide built-in update feature and thus updates "
+#| "will not be checked via this add-on:"
+msgid ""
+"The following add-ons do have their own update check feature which will be "
+"disabled once Add-on Updater is installed:"
+msgstr "以下插件提供内置更新功能，因此不会通过此插件检查更新："
+
+#. type: Bullet: '* '
+msgid "StationPlaylist Studio"
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
@@ -80,74 +92,19 @@ msgstr ""
 "护。"
 
 #. type: Title ##
-#, no-wrap
-msgid "Version 18.08.5"
-msgstr "版本18.08.5"
-
-#. type: Bullet: '* '
-msgid ""
-"Fixed an issue where Add-on Updater settings panel failed to show if one or "
-"more add-ons had badly formatted manifest data."
-msgstr "修复了插件更新程序设置面板无法显示一个或多个插件列表数据的问题。"
-
-#. type: Bullet: '* '
-msgid ""
-"Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
-"for updates."
-msgstr "为插件添加了Nuance Vocalizer插件，这些插件不会检查更新。"
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.4"
-msgstr "版本18.08.4"
-
-#. type: Bullet: '* '
-msgid ""
-"Fixed a regression introducedin 18.08.3 where NVDA continuously played "
-"progress beep when trying to check for add-on updates."
-msgstr ""
-"修复了18.08.3中引入的回归问题，其中NVDA在尝试检查附加更新时持续播放进度。"
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.3"
-msgstr "版本18.08.3"
-
-#. type: Bullet: '* '
-msgid ""
-"Added ability to exclude add-ons from being updated via a new checkable list "
-"box found in Add-on Updater settings panel. Checked items will not be "
-"updated."
-msgstr ""
-"增加了排除插件更新的功能，相关设置可以打开NVDA菜单-选项子菜单-NVDA通用设置下"
-"的addon-update设置项进行设置。设置完后已选择的插件不会进行更新。"
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.1"
-msgstr "版本18.08.1"
-
-#. type: Bullet: '* '
-msgid ""
-"It is now possible to let NVDA check for add-on updates automatically (every "
-"24 hours). This is configured through a new Add-on Updater settings panel "
-"found in NVDA settings."
-msgstr ""
-"现在支持让NVDA自动检查插件更新（每24小时一次）。这是通过NVDA设置中的新插件更"
-"新程序设置面板配置的。"
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08"
+#, fuzzy, no-wrap
+#| msgid "Version 18.08"
+msgid "Version 18.10"
 msgstr "版本18.08"
 
 #. type: Bullet: '* '
-msgid "Initial version."
-msgstr "发布初始版本."
+msgid "Initial stable release (still marked as proof of concept)."
+msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
@@ -157,3 +114,50 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
 msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
+
+#~ msgid "Version 18.08.5"
+#~ msgstr "版本18.08.5"
+
+#~ msgid ""
+#~ "Fixed an issue where Add-on Updater settings panel failed to show if one "
+#~ "or more add-ons had badly formatted manifest data."
+#~ msgstr "修复了插件更新程序设置面板无法显示一个或多个插件列表数据的问题。"
+
+#~ msgid ""
+#~ "Added Nuance Vocalizer family of add-ons to add-ons that'll not be "
+#~ "checked for updates."
+#~ msgstr "为插件添加了Nuance Vocalizer插件，这些插件不会检查更新。"
+
+#~ msgid "Version 18.08.4"
+#~ msgstr "版本18.08.4"
+
+#~ msgid ""
+#~ "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
+#~ "progress beep when trying to check for add-on updates."
+#~ msgstr ""
+#~ "修复了18.08.3中引入的回归问题，其中NVDA在尝试检查附加更新时持续播放进度。"
+
+#~ msgid "Version 18.08.3"
+#~ msgstr "版本18.08.3"
+
+#~ msgid ""
+#~ "Added ability to exclude add-ons from being updated via a new checkable "
+#~ "list box found in Add-on Updater settings panel. Checked items will not "
+#~ "be updated."
+#~ msgstr ""
+#~ "增加了排除插件更新的功能，相关设置可以打开NVDA菜单-选项子菜单-NVDA通用设置"
+#~ "下的addon-update设置项进行设置。设置完后已选择的插件不会进行更新。"
+
+#~ msgid "Version 18.08.1"
+#~ msgstr "版本18.08.1"
+
+#~ msgid ""
+#~ "It is now possible to let NVDA check for add-on updates automatically "
+#~ "(every 24 hours). This is configured through a new Add-on Updater "
+#~ "settings panel found in NVDA settings."
+#~ msgstr ""
+#~ "现在支持让NVDA自动检查插件更新（每24小时一次）。这是通过NVDA设置中的新插件"
+#~ "更新程序设置面板配置的。"
+
+#~ msgid "Initial version."
+#~ msgstr "发布初始版本."

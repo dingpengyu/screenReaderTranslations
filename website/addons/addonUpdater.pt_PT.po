@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Actualizador de extras\n"
-"POT-Creation-Date: 2018-09-03 02:58+1000\n"
+"POT-Creation-Date: 2018-10-24 09:02+1000\n"
 "PO-Revision-Date: 2018-08-15 12:14+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA\n"
@@ -27,7 +27,9 @@ msgid "Author: Joseph Lee"
 msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
-msgid "Download [prototype version][1]"
+#, fuzzy
+#| msgid "Download [prototype version][1]"
+msgid "Download [stable version][1]"
 msgstr "baixar [prototype version][1]"
 
 #. type: Plain text
@@ -66,12 +68,24 @@ msgid "Braille Extender"
 msgstr "Braille Extender"
 
 #. type: Bullet: '* '
-msgid "StationPlaylist Studio"
-msgstr "StationPlaylist Studio"
-
-#. type: Bullet: '* '
 msgid "WeatherPlus"
 msgstr "WeatherPlus"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The following add-ons provide built-in update feature and thus updates "
+#| "will not be checked via this add-on:"
+msgid ""
+"The following add-ons do have their own update check feature which will be "
+"disabled once Add-on Updater is installed:"
+msgstr ""
+"Os seguintes extras fornecem recursos de actualização integrados e, "
+"portanto, as actualizações não serão verificadas através deste extra:"
+
+#. type: Bullet: '* '
+msgid "StationPlaylist Studio"
+msgstr "StationPlaylist Studio"
 
 #. type: Bullet: '* '
 msgid "Windows 10 App Essentials"
@@ -86,84 +100,19 @@ msgstr ""
 "relevante esteja incluído no NVDA, este extra será descontinuado. "
 
 #. type: Title ##
-#, no-wrap
-msgid "Version 18.08.5"
-msgstr "Versão 18.08.5"
-
-#. type: Bullet: '* '
-msgid ""
-"Fixed an issue where Add-on Updater settings panel failed to show if one or "
-"more add-ons had badly formatted manifest data."
-msgstr ""
-"Corrigido um problema em que o painel de configurações do Add-on Updater não "
-"mostrava se um ou mais extras tivessem dados do ficheiro manifest mal "
-"formatados."
-
-#. type: Bullet: '* '
-msgid ""
-"Added Nuance Vocalizer family of add-ons to add-ons that'll not be checked "
-"for updates."
-msgstr ""
-"Adicionada a família de extras Nuance Vocalizer a add-ons que não serão "
-"verificados quanto a atualizações."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.4"
-msgstr "Versão 18.08.4"
-
-#. type: Bullet: '* '
-msgid ""
-"Fixed a regression introducedin 18.08.3 where NVDA continuously played "
-"progress beep when trying to check for add-on updates."
-msgstr ""
-"Corrigida uma regressão introduzida no 18.08.3, em que o NVDA tocava "
-"continuamente o bipe de progresso ao tentar verificar atualizações de "
-"complemento."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.3"
-msgstr "Versão 18.08.3"
-
-#. type: Bullet: '* '
-msgid ""
-"Added ability to exclude add-ons from being updated via a new checkable list "
-"box found in Add-on Updater settings panel. Checked items will not be "
-"updated."
-msgstr ""
-"Adicionada a Capacidade de excluir complementos de serem atualizados por "
-"meio de uma nova lista de caixas de verificação que se encontra no painel de "
-"configurações do Add-on Updater. Itens verificados não serão atualizados."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08.1"
-msgstr "Versão 18.08.1"
-
-#. type: Bullet: '* '
-msgid ""
-"It is now possible to let NVDA check for add-on updates automatically (every "
-"24 hours). This is configured through a new Add-on Updater settings panel "
-"found in NVDA settings."
-msgstr ""
-"Agora é possível deixar que o NVDA verifique as actualizações complementares "
-"automaticamente (a cada 24 horas). Isso é configurado através de um novo "
-"painel de configurações do actualizador de extras que pode ser encontrado "
-"nas configurações do NVDA."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 18.08"
+#, fuzzy, no-wrap
+#| msgid "Version 18.08"
+msgid "Version 18.10"
 msgstr "Versão 18.08"
 
 #. type: Bullet: '* '
-msgid "Initial version."
-msgstr "Versão inicial"
+msgid "Initial stable release (still marked as proof of concept)."
+msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
@@ -173,3 +122,61 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
 #. type: Plain text
 msgid "[2]: https://github.com/nvaccess/nvda/issues/3208"
 msgstr "[2]: https://github.com/nvaccess/nvda/issues/3208"
+
+#~ msgid "Version 18.08.5"
+#~ msgstr "Versão 18.08.5"
+
+#~ msgid ""
+#~ "Fixed an issue where Add-on Updater settings panel failed to show if one "
+#~ "or more add-ons had badly formatted manifest data."
+#~ msgstr ""
+#~ "Corrigido um problema em que o painel de configurações do Add-on Updater "
+#~ "não mostrava se um ou mais extras tivessem dados do ficheiro manifest mal "
+#~ "formatados."
+
+#~ msgid ""
+#~ "Added Nuance Vocalizer family of add-ons to add-ons that'll not be "
+#~ "checked for updates."
+#~ msgstr ""
+#~ "Adicionada a família de extras Nuance Vocalizer a add-ons que não serão "
+#~ "verificados quanto a atualizações."
+
+#~ msgid "Version 18.08.4"
+#~ msgstr "Versão 18.08.4"
+
+#~ msgid ""
+#~ "Fixed a regression introducedin 18.08.3 where NVDA continuously played "
+#~ "progress beep when trying to check for add-on updates."
+#~ msgstr ""
+#~ "Corrigida uma regressão introduzida no 18.08.3, em que o NVDA tocava "
+#~ "continuamente o bipe de progresso ao tentar verificar atualizações de "
+#~ "complemento."
+
+#~ msgid "Version 18.08.3"
+#~ msgstr "Versão 18.08.3"
+
+#~ msgid ""
+#~ "Added ability to exclude add-ons from being updated via a new checkable "
+#~ "list box found in Add-on Updater settings panel. Checked items will not "
+#~ "be updated."
+#~ msgstr ""
+#~ "Adicionada a Capacidade de excluir complementos de serem atualizados por "
+#~ "meio de uma nova lista de caixas de verificação que se encontra no painel "
+#~ "de configurações do Add-on Updater. Itens verificados não serão "
+#~ "atualizados."
+
+#~ msgid "Version 18.08.1"
+#~ msgstr "Versão 18.08.1"
+
+#~ msgid ""
+#~ "It is now possible to let NVDA check for add-on updates automatically "
+#~ "(every 24 hours). This is configured through a new Add-on Updater "
+#~ "settings panel found in NVDA settings."
+#~ msgstr ""
+#~ "Agora é possível deixar que o NVDA verifique as actualizações "
+#~ "complementares automaticamente (a cada 24 horas). Isso é configurado "
+#~ "através de um novo painel de configurações do actualizador de extras que "
+#~ "pode ser encontrado nas configurações do NVDA."
+
+#~ msgid "Initial version."
+#~ msgstr "Versão inicial"
