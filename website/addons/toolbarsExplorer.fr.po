@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toolbarsExplorer\n"
 "POT-Creation-Date: 2018-10-24 04:34+1000\n"
-"PO-Revision-Date: 2018-10-21 00:07+0200\n"
+"PO-Revision-Date: 2018-10-23 22:44+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: French NVDA add-ons translation team <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -159,10 +159,10 @@ msgstr ""
 "Position des barre d'outils."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
