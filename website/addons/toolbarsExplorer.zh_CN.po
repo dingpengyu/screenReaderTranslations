@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-24 04:34+1000\n"
-"PO-Revision-Date: 2018-10-24 04:30+0800\n"
+"PO-Revision-Date: 2018-10-24 04:39+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"ToolbarsExplorer\"]]\n"
-msgstr "[[!meta title=\"ToolbarsExplorer\"]]\n"
+msgstr "[[!meta title=\"ToolbarsExplorer资源管理器插件\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Alberto Buffolino"
