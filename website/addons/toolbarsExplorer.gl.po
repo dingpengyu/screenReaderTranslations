@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-18 19:31+1000\n"
+"POT-Creation-Date: 2018-10-24 04:34+1000\n"
 "PO-Revision-Date: 2018-08-24 10:44+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,8 +161,9 @@ msgstr ""
 "barra de ferramentas."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text

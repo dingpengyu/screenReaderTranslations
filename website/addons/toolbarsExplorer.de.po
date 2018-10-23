@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-18 19:31+1000\n"
+"POT-Creation-Date: 2018-10-24 04:34+1000\n"
 "PO-Revision-Date: 2018-10-19 13:13+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -26,7 +26,6 @@ msgid "Author: Alberto Buffolino"
 msgstr "Autor: Alberto Buffolino"
 
 #. type: Bullet: '* '
-#| msgid "Download [development version][2]"
 msgid "Download [stable version][1]"
 msgstr "[Stabile Version herunterladen][1]"
 
@@ -81,7 +80,6 @@ msgstr ""
 "Symbolleiste oder auf dem Element."
 
 #. type: Bullet: '* '
-#| msgid "Applications: simulates right mouse click on toolbar or its item;"
 msgid ""
 "Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
@@ -108,9 +106,6 @@ msgid "Notes"
 msgstr "Anmerkungen"
 
 #. type: Plain text
-#| msgid ""
-#| "Exploration terminates explicitly pressing escape, and implicitly "
-#| "performing an action on toolbar or its item;"
 msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
 msgstr "Die Erkundung wird explizit durch Drücken von escape beendet."
 
@@ -141,7 +136,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Notes and suggestions"
 msgid "Suggestions"
 msgstr "Vorschläge"
 
@@ -163,16 +157,15 @@ msgstr ""
 "klassische Symbolleiste, setzen Sie sie im Menü Ansicht / Werkzeugleisten."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 
 #. type: Plain text
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
