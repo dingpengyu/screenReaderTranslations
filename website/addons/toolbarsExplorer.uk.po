@@ -3,46 +3,49 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-24 04:34+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-10-24 17:45+0300\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"ToolbarsExplorer\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"ToolbarsExplorer\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Alberto Buffolino"
-msgstr ""
+msgstr "Автор: Alberto Buffolino"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Завантажити [стабільну версію][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Завантажити [версію в розробці][2]"
 
 #. type: Plain text
 msgid ""
 "This add-on makes easier to use toolbars in applications, providing an "
 "exploration model derived by object navigation, with simplified gestures."
 msgstr ""
+"Цей додаток полегшує використання панелей інструментів у програмах, "
+"використовуючи модель їх дослідження, утворену об'єктною навігацією, але зі "
+"спрощеними жестами."
 
 #. type: Title ##
 #, no-wrap
 msgid "Commands"
-msgstr ""
+msgstr "Команди"
 
 #. type: Plain text
 #, no-wrap
@@ -50,35 +53,46 @@ msgid ""
 "* Alt+applications: starts toolbars exploration<br/>\n"
 "(you can remap it via NVDA gesture manager, under Object navigation).\n"
 msgstr ""
+"* Alt+клавіша контекстного меню: початок пошуку панелей інструментів<br/>\n"
+"(ви можете змінити цю комбінацію в пункті Жести вводу, розділ Об'єктна навігація).\n"
 
 #. type: Plain text
 msgid "During exploration, following gestures are available:"
 msgstr ""
+"Після того, як пошук панелей інструментів буде завершено, стануть доступні "
+"такі комбінації:"
 
 #. type: Bullet: '* '
 msgid "Left/right arrow: moves to previous/next toolbar;"
 msgstr ""
+"Стрілки вліво/вправо: перейти до попередньої/наступної панелі інструментів;"
 
 #. type: Bullet: '* '
 msgid "Up/down arrow: scrolls up/down items in current toolbar;"
 msgstr ""
+"Стрілки вгору/вниз: переміщення вгору/вниз між елементами поточної панелі "
+"інструментів;"
 
 #. type: Bullet: '* '
 msgid "Enter: activates toolbar or its item;"
-msgstr ""
+msgstr "Ентер: активовує панель інструментів чи її елемент;"
 
 #. type: Bullet: '* '
 msgid "Space: simulates left mouse click on toolbar or its item;"
 msgstr ""
+"Пробіл: виконує функцію клацання лівою кнопкою мишки на панелі інструментів "
+"чи її елементі;"
 
 #. type: Bullet: '* '
 msgid ""
 "Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
+"Контекстне меню чи shift+F10: виконує функцію клацання правою кнопкою мишки "
+"на панелі інструментів чи її елементі;"
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
-msgstr ""
+msgstr "Ескейп: вихід з режиму дослідження панелей інструментів."
 
 #. type: Plain text
 msgid ""
@@ -86,60 +100,76 @@ msgid ""
 "gesture provided by NVDA, as exactly as when you move to objects with "
 "standard object navigation."
 msgstr ""
+"Додатково, ви можете виконувати дії на панелях інструментів або з їхніми "
+"елементами за допомогою будь-якого жесту NVDA, точно так само, як при "
+"переміщенні до об'єктів за допомогою стандартної об'єктної навігації."
 
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "Примітки"
 
 #. type: Plain text
 msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
 msgstr ""
+"Дослідження припиняється після натискання клавіші ескейп, а також у випадках:"
 
 #. type: Bullet: '* '
 msgid ""
 "performing an action on toolbar or its item (with space, applications/shift"
 "+F10, enter);"
 msgstr ""
+"Після виконання дії над панеллю інструментів чи її елементом (за допомогою "
+"пробіла, контекстного меню чи shift+f10, клавіші ентер);"
 
 #. type: Bullet: '* '
 msgid ""
 "pressing a gesture that moves out of current toolbar objects (alt, windows, "
 "tab, NVDA+F1, object navigation gestures, etc)."
 msgstr ""
+"натискання клавіші чи комбінації клавіш, яка переміщує за межі поточної "
+"панелі інструментів чи її елементів (alt, windows, tab, NVDA+F1, жестів "
+"об'єктної навігації і так далі)."
 
 #. type: Plain text
 msgid ""
 "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
 "control+z) simply does nothing."
 msgstr ""
+"Інші жести, що не містять alt або windows (наприклад h, 1, shift, shift+h, "
+"control+z) просто нічого не роблять."
 
 #. type: Title ##
 #, no-wrap
 msgid "Suggestions"
-msgstr ""
+msgstr "Поради"
 
 #. type: Bullet: '* '
 msgid ""
 "The add-on may fail in Mozilla applications the first time after add-on "
 "installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
+"Додаток може не працювати у програмах від Mozilla одразу після його "
+"встановлення/оновлення; будь ласка, перезапустіть NVDA та програми від "
+"Mozilla для вирішення;"
 
 #. type: Bullet: '* '
 msgid ""
 "In LibreOffice, best configuration is probably default or single toolbar, "
 "set it on view menu/toolbar position."
 msgstr ""
+"In LibreOffice, best configuration is probably default or single toolbar, "
+"set it on view menu/toolbar position."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
