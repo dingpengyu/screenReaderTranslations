@@ -7,33 +7,35 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-24 18:53+1000\n"
-"PO-Revision-Date: 2018-09-11 08:27+0800\n"
+"PO-Revision-Date: 2018-10-25 01:41+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Tone Master\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Tone Master\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Hrvoje Katić"
-msgstr ""
+msgstr "作者: Hrvoje Katić"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Plain text
 msgid ""
 "Welcome to Tone Master! I've created this little NVDA add-on just for fun, "
 "but also for you to have fun while using it."
 msgstr ""
+"欢迎来到Tone Master！我开发了这个小小的NVDA插件只是为了好玩，希望让你在使用它"
+"时玩得开心。"
 
 #. type: Plain text
 msgid ""
@@ -45,6 +47,10 @@ msgid ""
 "result sounds like those ringtones on old mobile phones, it may still be "
 "funny."
 msgstr ""
+"我一直想用NVDA来创作音乐曲调，而不仅仅是听NVDA的进度和错误的嘟嘟声。但是，这"
+"并不容易，所以首先我想让它变得更容易。这就是我写Tone Master的原因。想象一下，"
+"听到Mozzart或Beethoven的NVDA演奏歌曲是一种怎么样的体验，或者滚石乐队最受欢迎"
+"的歌曲。虽然最终结果听起来像旧手机上的铃声，但它可能仍然很有趣。"
 
 #. type: Plain text
 msgid ""
@@ -52,11 +58,13 @@ msgid ""
 "tone data files. These files can be edited with your favorite text editor "
 "and then saved for playback with NVDA. Read on for instructions!"
 msgstr ""
+"Tone Master通过实现音调数据文件简化了播放音调序列的过程。这些文件可以使用您喜"
+"欢的文本编辑器进行编辑，然后保存以便使用NVDA进行播放。继续阅读说明!"
 
 #. type: Title ##
 #, no-wrap
 msgid "Tone data files"
-msgstr ""
+msgstr "音调数据文件"
 
 #. type: Plain text
 msgid ""
@@ -67,6 +75,10 @@ msgid ""
 "able to play it successfully, you have to follow simple rules described "
 "below."
 msgstr ""
+"在您使用Tone Master播放第一首乐曲之前，您必须先创建并加载音色数据文件。音调数"
+"据文件只是扩展名为.tdf的文本文件。 Tone Master使用这些文件处理和播放音调序"
+"列。要为Tone Master创建音色数据文件以便能够成功播放，您必须遵循下面描述的简单"
+"规则。"
 
 #. type: Bullet: '1. '
 msgid ""
@@ -76,34 +88,40 @@ msgid ""
 "three parameters are necessary to specify, otherwise Tone Master will not be "
 "able to play your tone data."
 msgstr ""
+"1. .tdf文件中的每一行*必须*包含三个以冒号（:)分隔的参数。第一个参数是音调，第"
+"二个参数是音调持续时间，第三个参数是每个音调之间的静音时间。所有三个参数都需"
+"要指定，否则Tone Master将无法播放您的音调数据。"
 
 #. type: Bullet: '2. '
 msgid ""
 "Pitch and duration parameters must be specified as signed integers, and the "
 "silence must be specified as floating point real value."
 msgstr ""
+"2. 间距和持续时间参数必须指定为有符号整数，并且必须将静音指定为浮点实数值。"
 
 #. type: Bullet: '3. '
 msgid ""
 "A hash sign (#) at the beginning of any line in .tdf file will be treeted as "
 "a comment and will be ignored by Tone Master."
 msgstr ""
+"3. .tdf文件中任何行开头的哈希符号（＃）将作为注释进行树形化，Tone Master将忽"
+"略该符号。"
 
 #. type: Plain text
 msgid "Example: Play a sequence of 3 tones"
-msgstr ""
+msgstr "例子：播放3个音调的序列"
 
 #. type: Plain text
 msgid "1500:100:0.5"
-msgstr ""
+msgstr "1500:100:0.5"
 
 #. type: Plain text
 msgid "1000:100:0.09"
-msgstr ""
+msgstr "1000:100:0.09"
 
 #. type: Plain text
 msgid "500:100:0.7"
-msgstr ""
+msgstr "500:100:0.7"
 
 #. type: Plain text
 msgid ""
@@ -112,6 +130,9 @@ msgid ""
 "and the silence is 0.09. The last tone in a sequence has pitch 500, duration "
 "100, and the silence is 0.7."
 msgstr ""
+"在该示例中，序列中的第一音调具有1500的音高，100的持续时间和0.5的静音。第二个"
+"音调的音高为1000，持续时间为100，静音为0.09。序列中的最后一个音调具有音高"
+"500，持续时间100，并且静音为0.7。"
 
 #. type: Plain text
 msgid ""
@@ -120,6 +141,9 @@ msgid ""
 "the next one, and you will get unexpectable results. That's why I made it to "
 "be necessary."
 msgstr ""
+"注意，即使您认为不是，也需要使用静音参数来指定，因为如果没有指定，NVDA将覆盖"
+"下一个音调的前一个音调，您将获得意想不到的结果。这就是为什么我认为这是必要"
+"的。"
 
 #. type: Plain text
 msgid ""
@@ -127,49 +151,54 @@ msgid ""
 "editing the example file included with this add-on. It's located in the "
 "\"tones\" subfolder, where all your .tdf files must be located as well."
 msgstr ""
+"要更熟悉音调数据文件语法，请查看并尝试编辑此插件附带的示例文件。它位"
+"于“tones”子文件夹中，所有.tdf文件也必须位于此子文件夹中。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Shortcut keys"
-msgstr ""
+msgstr "快捷键"
 
 #. type: Bullet: '* '
 msgid "Alt+NVDA+T: Plays currently loaded tone data if everything is ok."
-msgstr ""
+msgstr "Alt+NVDA+T: 播放当前加载的音色数据。"
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+Shift+NVDA+T: Stops playback for currently loaded tone data if any tone "
 "data is playing."
 msgstr ""
+"Alt+Shift+NVDA+T: 如果正在播放任何音调数据，则停止播放当前加载的音色数据。"
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+N: Creates and opens a new blank tone data file in Notepad for "
 "editing."
-msgstr ""
+msgstr "Alt+NVDA+N: 在记事本中创建并打开一个新的空白音调数据文件以进行编辑。"
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+L: Opens a dialog that lets you choose one of your available tone "
 "data files to be loaded for playback."
 msgstr ""
+"Alt + NVDA + L：打开一个对话框，您可以选择要加载的一个可用音色数据文件进行播"
+"放。"
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+E: Opens currently loaded tone data file in Notepad for editing."
-msgstr ""
+msgstr "Alt + NVDA + E：在记事本中打开当前加载的音色数据文件以进行编辑。"
 
 #. type: Bullet: '* '
 msgid ""
 "Alt+NVDA+O: Opens a folder with tone data files where you should also save "
 "them in order to be located by Tone Master."
-msgstr ""
+msgstr "Alt + NVDA + O：打开一个带有音色数据文件的文件夹。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Other notes"
-msgstr ""
+msgstr "其他说明"
 
 #. type: Plain text
 msgid ""
@@ -177,6 +206,8 @@ msgid ""
 "where these files are located by going into the NVDA menu, Tools SubMenu, "
 "Tone Master SubMenu."
 msgstr ""
+"您还可以通过进入NVDA菜单，Tools SubMenu，Tone Master SubMenu来创建，编辑和加"
+"载音色数据文件，或打开这些文件所在的音调文件夹。"
 
 #. type: Plain text
 msgid ""
@@ -187,18 +218,26 @@ msgid ""
 "for you, and it will also be opened in Notepad for editing. Press Escape at "
 "the file name prompt to cancel new file creation."
 msgstr ""
+"显示创建新音调数据文件的对话框时，键入不带.tdf扩展名的名称。该扩展程序将由"
+"Tone Master自动添加。如果未指定名称，Tone Master将使用默认名称“untitled."
+"tdf”。 Tone Master将自动为您创建和加载新文件，它也将在记事本中打开以进行编"
+"辑。在文件名提示下按Escape取消新文件创建。"
 
 #. type: Plain text
 msgid ""
 "Note: Tone Master uses Notepad for editing tone data files, since it comes "
 "with Windows by default and therefore any computer should have it available."
 msgstr ""
+"注意：Tone Master使用记事本编辑音调数据文件，因为默认情况下它附带Windows中，"
+"因此任何计算机都应该有记事本这个程序。"
 
 #. type: Plain text
 msgid ""
 "When the dialog for loading tone data file is open, use the arrow keys to "
 "select a file to load and then press Enter. Press Escape to cancel loading."
 msgstr ""
+"当打开加载音调数据文件的对话框时，使用光标键选择要加载的文件，然后按Enter键。"
+"按Escape键取消加载。"
 
 #. type: Plain text
 msgid ""
@@ -208,20 +247,23 @@ msgid ""
 "possible. Then you can edit the file, save your progress, and after each "
 "save you can use play command to hear your last result."
 msgstr ""
+"使用.tdf文件打开文件夹时，可以在文本编辑器中加载它们以供查看或编辑。但是，为"
+"了在运行中听到您的结果，我强烈建议您尽可能先将文件加载到Tone Master中。然后，"
+"您可以编辑文件，保存进度，每次保存后，您可以使用播放快捷键来听取最后的结果。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.3"
-msgstr ""
+msgstr "版本1.3"
 
 #. type: Bullet: '* '
 msgid "Fixed: Fixed compatibility issue with newer NVDA versions."
-msgstr ""
+msgstr "修复：修复较新的NVDA版本的兼容性问题。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.2"
-msgstr ""
+msgstr "版本1.2"
 
 #. type: Bullet: '* '
 msgid ""
@@ -229,50 +271,54 @@ msgid ""
 "selecting another one and trying to play it results in tone data not being "
 "played."
 msgstr ""
+"修正：解决主要问题，选择空音数据，然后选择另一个并尝试播放，导致音调数据无法"
+"播放。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.1"
-msgstr ""
+msgstr "版本1.1"
 
 #. type: Bullet: '* '
 msgid ""
 "Added: An option to create new tone data file and open it in Notepad for "
 "editing."
-msgstr ""
+msgstr "* 新增：创建新音色数据文件并在记事本中打开以进行编辑的选项。"
 
 #. type: Bullet: '* '
 msgid "Added: An option to edit currently loaded tone data file in Notepad."
-msgstr ""
+msgstr "新增：在记事本中编辑当前加载的音色数据文件的选项。"
 
 #. type: Bullet: '* '
 msgid "Improved: Error messages are now more user-friendly."
-msgstr ""
+msgstr "改进：错误消息提示现在变的更加友好。"
 
 #. type: Bullet: '* '
 msgid ""
 "Improved: Certain addon features such as opening tones folder or editing "
 "tone data files in Notepad are now disallowed on secure screens."
 msgstr ""
+"改进：现在不允许在安全屏幕上禁用某些插件功能，例如打开音调文件夹或在记事本中"
+"编辑音调数据文件。"
 
 #. type: Bullet: '* '
 msgid ""
 "Improved: User will be notified by NVDA if tone data playback is stopped."
-msgstr ""
+msgstr "改进：如果音频数据播放停止，NVDA将通知用户。"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed: Disallowed playback of tone data while the one is already playing."
-msgstr ""
+msgstr "修正：在播放音色数据时不允许重复播放音色数据。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr ""
+msgstr "版本1.0"
 
 #. type: Bullet: '* '
 msgid "Initial release."
-msgstr ""
+msgstr "初始发布。"
 
 #. type: Plain text
 #, no-wrap
@@ -281,4 +327,4 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tmast"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tmast"
