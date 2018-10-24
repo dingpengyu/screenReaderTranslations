@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-17 02:47+1000\n"
-"PO-Revision-Date: 2018-09-03 19:02+0300\n"
+"PO-Revision-Date: 2018-10-24 15:17+0300\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Input Lock\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Input Lock\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Jose Manuel Delicado"
@@ -191,6 +191,8 @@ msgid ""
 "If another addon has previously added a capture function to inputManager, it is "
 "restored when the input is unlocked."
 msgstr ""
+"Якщо інший додаток раніше додав функцію перехоплення для inputManager, вона "
+"відновлюється, коли вхід розблоковано."
 
 #. type: Title ###
 #, no-wrap
@@ -208,4 +210,6 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=inputlock"
-msgstr "[[!tag dev stable]]"
+msgstr ""
+"[1]: https://addons.nvda-project.org/files/get.php?file=inputlock[[!tag dev "
+"stable]]"
