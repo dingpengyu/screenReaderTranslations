@@ -1,5 +1,0 @@
-commit 6d72e9297bea37a5ce772a09ae26ff61b99b0f64
-Author: Łukasz Golonka <wulfryk1@gmail.com>
-Date:   Tue Aug 7 01:15:03 2018 +0200
-
-    fix for #8073 improve list of commands for Optelec displays (#8465)
