@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-24 09:02+1000\n"
-"PO-Revision-Date: 2018-08-06 22:08+0700\n"
-"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"PO-Revision-Date: 2018-10-24 09:55+0700\n"
+"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -26,10 +26,8 @@ msgid "Author: Joseph Lee"
 msgstr "Tác giả: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [prototype version][1]"
 msgid "Download [stable version][1]"
-msgstr "Tải về [phiên bản gốc][1]"
+msgstr "Tải về [phiên bản chính thức][1]"
 
 #. type: Plain text
 msgid ""
@@ -70,16 +68,12 @@ msgid "WeatherPlus"
 msgstr "WeatherPlus"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The following add-ons provide built-in update feature and thus updates "
-#| "will not be checked via this add-on:"
 msgid ""
 "The following add-ons do have their own update check feature which will be "
 "disabled once Add-on Updater is installed:"
 msgstr ""
-"Các add-on sau đây đã có khả năng tự kiểm tra cập nhật và vì vậy chúng không "
-"được kiểm tra bởi add-on này:"
+"Các add-on sau đây đã có khả năng tự kiểm tra cập nhật và sẽ bị vô hiệu hóa "
+"khi cài add-on này:"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
@@ -98,20 +92,21 @@ msgstr ""
 "bao gồm trong NVDA][2], add-on này sẽ bị khai tử."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Phiên bản 18.08"
+msgstr "Phiên bản 18.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable release (still marked as proof of concept)."
 msgstr ""
+"Bản phát hành chính thức đầu tiên (vẫn được đánh dấu là bằng chứng về khái "
+"niệm)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
