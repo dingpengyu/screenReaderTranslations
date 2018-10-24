@@ -3,58 +3,68 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-04 08:54+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-10-24 16:27+0300\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Mozilla Apps Enhancements\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Mozilla Apps Enhancements\"]]\n"
 
 #. type: Bullet: '*   '
 msgid "Author: Javi Dominguez"
-msgstr ""
+msgstr "Автор: Javi Dominguez"
 
 #. type: Bullet: '*   '
 msgid "download [stable version][1]"
-msgstr ""
+msgstr "Завантажити [стабільну версію][1]"
 
 #. type: Plain text
 msgid "This add-on provides NVDA enhancements for Mozilla aps."
 msgstr ""
+"Цей додаток надає розширення можливостей NVDA при роботі з програмами від "
+"Mozilla."
 
 #. type: Title ##
 #, no-wrap
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+A (desktop) or NVDA+Control+A (laptop) Reads the page address. If "
 "pressed twice quickly, copies it to clipboard."
 msgstr ""
+"NVDA+A (розкладка клавіатури desktop) чи NVDA+Control+A (розкладка "
+"клавіатури laptop) читає адресу сторінки. При подвійному швидкому натисканні "
+"копіює її в буфер обміну."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+End (desktop) or NVDA+Shift+End (laptop) Reads the status bar. If "
 "pressed twice quickly, copies it to clipboard."
 msgstr ""
+"NVDA+в кінець (розкладка клавіатури desktop) чи NVDA+Shift+в кінець "
+"(розкладка клавіатури laptop) читає рядок стану. При подвійному швидкому "
+"натисканні копіює інформацію в буфер обміну."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+F8 Shows a list of opened tabs. If pressed twice quickly, shows buttons "
 "of tool bar."
 msgstr ""
+"NVDA+F8 показує список відкритих вкладок. При подвійному швидкому натисканні "
+"показує кнопки панелі інструментів."
 
 #. type: Bullet: '* '
 msgid ""
@@ -62,15 +72,18 @@ msgid ""
 "it if it is possible. By pressing two times quickly shows the history of "
 "notifications."
 msgstr ""
+"NVDA+Control+N читає останнє сповіщення і переміщує до нього системний "
+"фокус, якщо це можливо. При подвійному швидкому натисканні показує історію "
+"сповіщень."
 
 #. type: Bullet: '* '
 msgid "NVDA+F6 Brings the focus to the document."
-msgstr ""
+msgstr "NVDA+F6 Переміщує фокус на документ."
 
 #. type: Title ##
 #, no-wrap
 msgid "Thunderbird"
-msgstr ""
+msgstr "Thunderbird"
 
 #. type: Plain text
 #, no-wrap
@@ -88,17 +101,29 @@ msgid ""
 "\t* Control+NVDA+1-9 moves between columns.\n"
 "\t* NVDA+H Displays a dialog in which you can change the order of the columns in the message list.\n"
 msgstr ""
+"* У вікні повідомлення:\n"
+"\t* Control+Shift+(1-4) читає імена відправника та отримувача повідомлення. При подвійному швидкому натисканні відкриває меню параметрів.\n"
+"\t* Control+Shift+5 читає тему повідомлення.\n"
+"\t* Control+Shift+6 читає дату повідомлення.\n"
+"\t* Control+Shift+A Переміщує фокус до списку вкладень, якщо вони є.\n"
+"(Ці скрипти також доступні у списку повідомлень, якщо ви активуєте панель попереднього перегляду.)\n"
+"* У панелі швидкого фільтрування:\n"
+"\t* натисніть стрілку вгору для відображення інших параметрів, ентер, щоб позначити чи забрати позначку з вибраного параметра.\n"
+"* У списку повідомлень:\n"
+"\t* якщо активна панель попереднього перегляду, натисніть NVDA+стрілку вниз (розкладка клавіатури desktop) чи NVDA+A (розкладка клавіатури laptop) щоб прочитати повідомлення без виходу зі списку.\n"
+"\t* Control+NVDA+1-9 переміщає між стовпцями.\n"
+"\t* NVDA+H показує діалог, у якому ви можете змінити порядок стовпців у списку повідомлень.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "Keystrokes can be customized in  Preferences  of NVDA > Input gestures when Firefox or Thunderbird are open.\n"
-msgstr ""
+msgstr "Ці комбінації можна змінити в меню NVDA > параметри > Жести вводу, коли відкриті програми Firefox чи Thunderbird.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=moz"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=moz"
