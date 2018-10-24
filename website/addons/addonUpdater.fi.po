@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Add-on Updater\n"
 "POT-Creation-Date: 2018-10-24 09:02+1000\n"
-"PO-Revision-Date: 2018-08-06 11:23+0200\n"
+"PO-Revision-Date: 2018-10-24 11:12+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -28,10 +28,8 @@ msgid "Author: Joseph Lee"
 msgstr "Tekijä: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [prototype version][1]"
 msgid "Download [stable version][1]"
-msgstr "Lataa [prototyyppiversio][1]"
+msgstr "Lataa [vakaa versio][1]"
 
 #. type: Plain text
 msgid ""
@@ -73,16 +71,12 @@ msgid "WeatherPlus"
 msgstr "WeatherPlus"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The following add-ons provide built-in update feature and thus updates "
-#| "will not be checked via this add-on:"
 msgid ""
 "The following add-ons do have their own update check feature which will be "
 "disabled once Add-on Updater is installed:"
 msgstr ""
-"Seuraavissa lisäosissa on sisäänrakennettu päivitystoiminto, joten tämä "
-"lisäosa ei tarkista niiden päivityksiä:"
+"Seuraavissa lisäosissa on sisäänrakennettu päivitystentarkistustoiminto, "
+"joka poistetaan käytöstä, kun Lisäosien päivittäjä on asennettu:"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
@@ -101,20 +95,18 @@ msgstr ""
 "ominaisuus][2] on lisätty NVDA:han."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versio 18.08"
+msgstr "Versio 18.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable release (still marked as proof of concept)."
-msgstr ""
+msgstr "Ensimmäinen vakaa versio (edelleen konseptiasteella)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev]]\n"
+#, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
