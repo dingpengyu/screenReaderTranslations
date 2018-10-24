@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Actualizador de extras\n"
 "POT-Creation-Date: 2018-10-24 09:02+1000\n"
-"PO-Revision-Date: 2018-08-15 12:14+0100\n"
+"PO-Revision-Date: 2018-10-24 11:33+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA\n"
 "Language: pt_PT\n"
@@ -27,10 +27,8 @@ msgid "Author: Joseph Lee"
 msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [prototype version][1]"
 msgid "Download [stable version][1]"
-msgstr "baixar [prototype version][1]"
+msgstr "baixar [versão estável][1]"
 
 #. type: Plain text
 msgid ""
@@ -72,7 +70,6 @@ msgid "WeatherPlus"
 msgstr "WeatherPlus"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "The following add-ons provide built-in update feature and thus updates "
 #| "will not be checked via this add-on:"
@@ -80,8 +77,9 @@ msgid ""
 "The following add-ons do have their own update check feature which will be "
 "disabled once Add-on Updater is installed:"
 msgstr ""
-"Os seguintes extras fornecem recursos de actualização integrados e, "
-"portanto, as actualizações não serão verificadas através deste extra:"
+"Os extras a seguir têm os seus próprios recursos de verificação de "
+"atualização, que serão desactivados depois da instalação do Actualizador de "
+"extras:"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
@@ -100,20 +98,19 @@ msgstr ""
 "relevante esteja incluído no NVDA, este extra será descontinuado. "
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versão 18.08"
+msgstr "Versão 18.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable release (still marked as proof of concept)."
-msgstr ""
+msgstr "Versão estável inicial (ainda marcada como prova de conceito)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
