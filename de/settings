@@ -35,7 +35,7 @@
   "addon.teamViewer": "1", 
   "addon.textInformation": "1", 
   "addon.toneMaster": "1", 
-  "addon.toolbarsExplorer": "0", 
+  "addon.toolbarsExplorer": "1", 
   "addon.unicodeBrailleInput": "1", 
   "addon.virtualRevision": "1", 
   "addon.vitalSourceBookshelf": "1", 
