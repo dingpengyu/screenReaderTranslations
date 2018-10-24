@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: toneMaster add-on\n"
 "POT-Creation-Date: 2018-10-24 18:53+1000\n"
-"PO-Revision-Date: 2018-10-15 16:58+0200\n"
+"PO-Revision-Date: 2018-10-24 12:52+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: NVDA add-ons Frenche translation team <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -301,6 +301,8 @@ msgstr "Changements pour la version 1.3"
 #. type: Bullet: '* '
 msgid "Fixed: Fixed compatibility issue with newer NVDA versions."
 msgstr ""
+"Corrigé : Correction d'un problème de compatibilité avec les nouvelles "
+"versions de NVDA."
 
 #. type: Title ##
 #, no-wrap
