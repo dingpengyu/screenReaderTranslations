@@ -54,7 +54,7 @@ When you open a folder with .tdf files, you can then load them in your text edit
 
 ## Changes for 1.3
 
-* fixes wx4 compatibility
+* Fixed: Fixed compatibility issue with newer NVDA versions.
 
 ## Changes for 1.2
 
