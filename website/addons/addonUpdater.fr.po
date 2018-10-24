@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: addonUpdater Addons website for NVDA\n"
 "POT-Creation-Date: 2018-10-24 09:02+1000\n"
-"PO-Revision-Date: 2018-08-05 21:33+0200\n"
+"PO-Revision-Date: 2018-10-24 12:30+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -26,10 +26,8 @@ msgid "Author: Joseph Lee"
 msgstr "Auteur : Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [prototype version][1]"
 msgid "Download [stable version][1]"
-msgstr "Télécharger [version prototype][1]"
+msgstr "Télécharger [version stable][1]"
 
 #. type: Plain text
 msgid ""
@@ -74,17 +72,13 @@ msgid "WeatherPlus"
 msgstr "WeatherPlus"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The following add-ons provide built-in update feature and thus updates "
-#| "will not be checked via this add-on:"
 msgid ""
 "The following add-ons do have their own update check feature which will be "
 "disabled once Add-on Updater is installed:"
 msgstr ""
-"Les modules complémentaires suivants fournissent une fonction de mise à jour "
-"intégrée et les mises à jour ne seront donc pas vérifiées via ce module "
-"complémentaire :"
+"Les modules complémentaires suivants ont leur propre fonction de "
+"vérification de mise à jour qui sera désactivée une fois que le Add-on "
+"Updater  est installé:"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
@@ -104,20 +98,20 @@ msgstr ""
 "complémentaire sera supprimé."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.08"
 msgid "Version 18.10"
-msgstr "Version 18.08"
+msgstr "Version 18.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable release (still marked as proof of concept)."
-msgstr ""
+msgstr "Première version stable (toujours marquée comme preuve de concept)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
