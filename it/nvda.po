@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-19 00:10+1000\n"
-"PO-Revision-Date: 2018-08-07 09:51+0200\n"
+"PO-Revision-Date: 2018-10-24 10:56+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: Italian NVDA Community <info@nvda.it>\n"
 "Language: it_IT\n"
@@ -1139,15 +1139,13 @@ msgstr "Vietnamese grado 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 1"
-msgstr "Cinese (Taiwan, Mandarin)"
+msgstr "Cinese (Cina, Mandarin) grado 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Chinese (China, Mandarin) grade 2"
-msgstr "Cinese (Taiwan, Mandarin)"
+msgstr "Cinese (Cina, Mandarin) grado 2"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6664,7 +6662,7 @@ msgstr "Uno screen reader gratuito e open-source per Microsoft windows"
 msgid "Copyright (C) {years} NVDA Contributors"
 msgstr "Copyright (C) {years} collaboratori di NVDA"
 
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "{longName} ({name})\n"
 "Version: {version}\n"
@@ -6699,7 +6697,7 @@ msgstr ""
 "alle copie originali che modificate di questo software, e ad ogni lavoro che "
 "ne derivi.\n"
 "Per maggiori informazioni, si può visualizzare la licenza dal menu aiuto.\n"
-"Inoltre è disponibile anche online all'indirizzo: https://www.gnu.org/"
+"Inoltre è disponibile anche online all'indirizzo: http://www.gnu.org/"
 "licenses/old-licenses/gpl-2.0.html\n"
 "\n"
 "{name} è sviluppato da NV Access, un'organizzazione senza fini di lucro che "
@@ -8692,9 +8690,8 @@ msgstr "Tastiera"
 
 #. Translators: This is the label for a list of checkboxes
 #. controlling which keys are NVDA modifier keys.
-#, fuzzy
 msgid "&Select NVDA Modifier Keys"
-msgstr "&Utilizza BloccaMaiuscole come tasto funzione per NVDA"
+msgstr "&Seleziona i tasti funzione NVDA"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8861,9 +8858,8 @@ msgstr "Leggi i &tooltip"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
-#, fuzzy
 msgid "Report &notifications"
-msgstr "Leggi i &tooltip"
+msgstr "Annuncia &notifiche"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
