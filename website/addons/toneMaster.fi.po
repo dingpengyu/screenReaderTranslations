@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ToneMaster\n"
 "POT-Creation-Date: 2018-10-24 18:53+1000\n"
-"PO-Revision-Date: 2018-10-16 19:26+0200\n"
+"PO-Revision-Date: 2018-10-25 08:28+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -282,7 +282,7 @@ msgstr "Muutokset versiossa 1.3"
 
 #. type: Bullet: '* '
 msgid "Fixed: Fixed compatibility issue with newer NVDA versions."
-msgstr ""
+msgstr "Korjattu: Yhteensopivuusongelma uudempien NVDA-versioiden kanssa."
 
 #. type: Title ##
 #, no-wrap
@@ -295,8 +295,8 @@ msgid ""
 "selecting another one and trying to play it results in tone data not being "
 "played."
 msgstr ""
-"Korjattu: Suuri ongelma, jossa tyhjän säveldatatiedoston valitsemisesta ja "
-"sitten toisen tiedoston valitsemisesta ja toiston yrittämisestä on "
+"Korjattu: Huomattava ongelma, jossa tyhjän säveldatatiedoston valitsemisesta "
+"ja sitten toisen tiedoston valitsemisesta ja toiston yrittämisestä on "
 "seurauksena se, ettei säveldataa toisteta."
 
 #. type: Title ##
@@ -341,7 +341,7 @@ msgstr ""
 msgid ""
 "Fixed: Disallowed playback of tone data while the one is already playing."
 msgstr ""
-"Korjattu: Säveldatan toisto estetty, mikäli toisen tiedoston toisto on "
+"Korjattu: Säveldatan toisto estetään, jos toisen tiedoston toisto on "
 "käynnissä."
 
 #. type: Title ##
