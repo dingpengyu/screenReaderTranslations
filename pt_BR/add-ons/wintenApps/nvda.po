@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: wintenApps\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-10-14 22:05+1000\n"
-"PO-Revision-Date: 2018-09-28 22:51-0300\n"
+"PO-Revision-Date: 2018-10-26 11:08-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever92000@yahoo.com.br>\n"
@@ -38,7 +38,7 @@ msgstr "Versão antiga do Windows"
 #. Customized because there is no easy way to obtain column position info for this object yet.
 #. Therefore report that this is not supported yet.
 msgid "Cannot move between rows"
-msgstr ""
+msgstr "Impossível mover-se entre linhas"
 
 #. Translators: Message presented when no more weather data is available for the current item.
 msgid "No more weather data for this item."
