@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Golden Cursor Webpage\n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2018-09-24 15:51-0300\n"
+"PO-Revision-Date: 2018-10-27 17:43-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -55,15 +55,11 @@ msgstr ""
 "houver."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
-#| "currently focused application."
 msgid ""
 "Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
 msgstr ""
-"Shift+NVDA+L: salva uma tag ou um rótulo para a posição atual do mouse no "
+"Shift+NVDA+l: salva uma tag ou um rótulo para a posição atual do mouse no "
 "aplicativo atualmente focalizado."
 
 #. type: Bullet: '* '
@@ -153,14 +149,13 @@ msgstr ""
 "aplicativo serão apagadas."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 3.0"
+#, no-wrap
 msgid "Version 3.2"
-msgstr "Versão 3.0"
+msgstr "Versão 3.2"
 
 #. type: Bullet: '* '
 msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
-msgstr ""
+msgstr "Complemento é compatível com o NVDA 2018.3 (wxPython 4)."
 
 #. type: Title ##
 #, no-wrap
