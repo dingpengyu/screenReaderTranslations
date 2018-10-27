@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-26 00:10+1000\n"
-"PO-Revision-Date: 2018-10-23 17:56+0100\n"
+"PO-Revision-Date: 2018-10-27 15:32+0100\n"
 "Last-Translator: Osman H Baiia <othman82@hotmail.com>\n"
 "Language-Team: \n"
 "Language: so\n"
@@ -1608,19 +1608,19 @@ msgstr "Ma jirto tilmaanta calaamadda hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next embedded object"
-msgstr " u gudub objekt ku jira xiga"
+msgstr " u gudub shayga ku jira xiga"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no next embedded object"
-msgstr "ma jirto objekt ku jira xiga"
+msgstr "ma jirto shayga ku jira xiga"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the previous embedded object"
-msgstr "u gudub objekt ku jira hore"
+msgstr "u gudub shayga ku jira hore"
 
 #. Translators: Message presented when the browse mode element is not found.
 msgid "no previous embedded object"
-msgstr "Ma jirto objekt ku jira hore"
+msgstr "Ma jirto shayga ku jira hore"
 
 #. Translators: Input help message for a quick navigation command in browse mode.
 msgid "moves to the next annotation"
@@ -2257,64 +2257,64 @@ msgstr "astaanta ah"
 
 #. Translators: Identifies a directory pane.
 msgid "directory pane"
-msgstr ""
+msgstr "qaybta faylka"
 
 #. Translators: Identifies an embedded object such as flash content on webpages.
 msgid "embedded object"
-msgstr ""
+msgstr "shayga ku jira"
 
 #. Translators: Identifies an end note.
 msgid "end note"
-msgstr ""
+msgstr "dhammaystir farta"
 
 #. Translators: Identifies a footer (usually text).
 msgid "footer"
-msgstr ""
+msgstr "cagaha"
 
 #. Translators: Identifies a foot note (text at the end of a passage or used for anotations).
 msgid "foot note"
-msgstr ""
+msgstr "xusuusta cagaha"
 
 #. Translators: Reported for an object which is a glass pane; i.e.
 #. a pane that is guaranteed to be on top of all panes beneath it.
 msgid "glass pane"
-msgstr ""
+msgstr "muraayadda quraaradaha"
 
 #. Translators: Identifies a header (usually text at top of documents or on tops of pages).
 msgid "header"
-msgstr ""
+msgstr "madaxa"
 
 #. Translators: Identifies an image map (a type of graphical link).
 msgid "image map"
-msgstr ""
+msgstr "sawirka khariidada"
 
 #. Translators: Identifies an input window.
 msgid "input window"
-msgstr ""
+msgstr "daqada talooyinka"
 
 #. Translators: Identifies a label.
 msgid "label"
-msgstr ""
+msgstr "calaamadeyn"
 
 #. Translators: Identifies a note field.
 msgid "note"
-msgstr ""
+msgstr "xusuusin"
 
 #. Translators: Identifies a page.
 msgid "page"
-msgstr ""
+msgstr "bogga"
 
 #. Translators: Identifies a radio menu item.
 msgid "radio menu item"
-msgstr ""
+msgstr "sheyga raadiyaha badhan"
 
 #. Translators: Identifies a layered pane.
 msgid "layered pane"
-msgstr ""
+msgstr "dhajiyay faylka"
 
 #. Translators: Identifies a redundant object.
 msgid "redundant object"
-msgstr ""
+msgstr "shayga duubista"
 
 #. Translators: Identifies a root pane.
 msgid "root pane"
