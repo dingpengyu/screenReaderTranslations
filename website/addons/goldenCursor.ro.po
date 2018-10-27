@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2018-06-25 21:03+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -52,8 +52,12 @@ msgstr ""
 "Control+NVDA+L: afișeaza pozițiile maus salvate pentru o anumită aplicație."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+#| "currently focused application."
 msgid ""
-"Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+"Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
 msgstr ""
 "Shift+NVDA+l: salveaza o etichetă pentru poziția actuală a mausului în "
@@ -145,6 +149,16 @@ msgid ""
 msgstr ""
 "Atunci când ștergeți ultima poziție salvată, pozițiile aplicației vor fi "
 "curățate ."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 3.2"
+msgstr "Versiunea 3.0"
+
+#. type: Bullet: '* '
+msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

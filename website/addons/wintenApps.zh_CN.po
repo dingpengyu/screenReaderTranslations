@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-30 01:04+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2018-09-11 08:35+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -48,6 +48,11 @@ msgid ""
 msgstr ""
 "以下应用程序模块或用于某些应用程序的支持已包含在内（请参阅每个应用程序部分以"
 "了解包含的内容）："
+
+#. type: Title ##
+#, no-wrap
+msgid "Action center"
+msgstr ""
 
 #. type: Bullet: '* '
 msgid "Alarms and Clock."
@@ -140,10 +145,17 @@ msgid "Notes:"
 msgstr "注意:"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "This add-on requires Windows 10 Version 1709 (build 16299) or later and "
+#| "NVDA 2018.2 or later. For best results, use the add-on with latest "
+#| "Windows 10 stable release (build 17134) and latest stable version of NVDA."
 msgid ""
 "This add-on requires Windows 10 Version 1709 (build 16299) or later and NVDA "
-"2018.2 or later. For best results, use the add-on with latest Windows 10 "
-"stable release (build 17134) and latest stable version of NVDA."
+"2018.3 or later. For best results, use the add-on with latest Windows 10 "
+"stable release (build 17134) and latest stable version of NVDA. Note that "
+"until further notice, Version 1809 (build 17763) is not available from "
+"Microsoft."
 msgstr ""
 "此插件需要Windows 101709（版本16299）或以上版本以及NVDA 2018.2或以上版本。 为"
 "获得最佳效果，请使用最新的Windows 10稳定版本（build 17134）和最新的NVDA正式"
@@ -176,6 +188,19 @@ msgstr "常规设置"
 
 #. type: Bullet: '* '
 msgid ""
+"If Add-on Updater add-on is installed, that add-on will check for Windows 10 "
+"App Essentials updates."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Default update check interval has changed to weekly checks for both stable "
+"and development releases. This is applicable if the add-on itself checks for "
+"updates."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
 "Submenu items are properly recognized in various apps, including context "
 "menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
@@ -183,9 +208,14 @@ msgstr ""
 "Microsoft Edge的应用程序菜单（Redstone 5）。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Certain dialogs are now recognized as proper dialogs and reported as "
+#| "such, including Insider Preview dialog (settings app). This will be part "
+#| "of NVDA 2018.3."
 msgid ""
 "Certain dialogs are now recognized as proper dialogs and reported as such, "
-"including Insider Preview dialog (settings app). This will be part of NVDA "
+"including Insider Preview dialog (settings app). This is now part of NVDA "
 "2018.3."
 msgstr ""
 "某些对话框现在被识别为正确的对话框并按此朗读，包括“内幕预览”对话框（设置应用"
@@ -207,13 +237,22 @@ msgid ""
 msgstr "在某些上下文菜单中（例如在Edge中），位置信息（例如，1、2）不再被朗读。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "The following UIA events are recognized: active text position change, "
+#| "controller for, drag start, drag cancel, drag complete, element selected, "
+#| "live region change, notification, system alert, tooltip opened, window "
+#| "opened. With NVDA set to run with debug logging enabled, these events "
+#| "will be tracked, and for UIA notification event, a debug tone will be "
+#| "heard if notifications come from somewhere other than the currently "
+#| "active app."
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
-"live region change, notification, system alert, tooltip opened, window "
-"opened. With NVDA set to run with debug logging enabled, these events will "
-"be tracked, and for UIA notification event, a debug tone will be heard if "
-"notifications come from somewhere other than the currently active app."
+"item status, live region change, notification, system alert, tooltip opened, "
+"window opened. With NVDA set to run with debug logging enabled, these events "
+"will be tracked, and for UIA notification event, a debug tone will be heard "
+"if notifications come from somewhere other than the currently active app."
 msgstr ""
 "以下UIA事件被识别：活动文本位置更改，控制器，拖动开始，拖动取消，拖动完成，元"
 "素选择，实时区域更改，通知，系统警报，工具提示打开，窗口打开。将NVDA设置为启"
@@ -222,24 +261,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Added ability to check for add-on updates (automatic or manual) via Windows "
-"10 App Essentials dialog found in NvDA Preferences menu. By default, stable "
-"and development versions will check for new updates automatically on a "
-"weekly or daily basis, respectively."
+"Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
+"earlier NVDA releases."
 msgstr ""
-"增加可通过NVDA选项菜单中的Windows 10 应用增强对话框的检查插件更新（自动或手"
-"动）的功能。 默认情况下，稳定版和开发版将分别按每周或每天自动检查新更新。"
-
-#. type: Bullet: '* '
-msgid ""
-"In some apps, live region text is announced. This includes alerts in Edge "
-"(including elements marked with aria-role=alert), results in Calculator and "
-"others. Note that this may result in double-speaking in some cases. This is "
-"now part of NVDA 2017.3 or later."
-msgstr ""
-"在某些应用中，会朗读实时区域文字。这包括Edge中的警报（包括标有aria-role = "
-"alert的元素），计算器中的结果等。请注意，在某些情况下，这可能会导致双重朗读。"
-"现在是NVDA 2017.3或更高版本的一部分。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -257,23 +281,6 @@ msgstr "来自Edge和通用应用程序的工具提示已被识别并将被朗�
 
 #. type: Bullet: '* '
 msgid ""
-"With Sets turned on (builds 17627 through 17692 for some insiders), when "
-"opening a new Sets tab (Control+Windows+T), NVDA will announce search "
-"results when searching for items in the embedded Cortana window."
-msgstr ""
-"在build 17627及17692以上版本中，当打开一个新的设置选项卡（Control + Windows "
-"+ T）时，NVDA将在嵌入式Cortana窗口中搜索项目时读出搜索结果。"
-
-#. type: Bullet: '* '
-msgid ""
-"With Sets turned on, when switching between Sets tabs, NvDA will announce "
-"name and position of the tab you are switching to."
-msgstr ""
-"现在打开集时，在“设置”选项卡之间切换时，NvDA将朗读您要切换到的选项卡的名称和"
-"位置。"
-
-#. type: Bullet: '* '
-msgid ""
 "When opening, closing, or switching between virtual desktops, NVDA will "
 "announce current desktop ID (desktop 2, for example)."
 msgstr ""
@@ -284,6 +291,15 @@ msgid ""
 "NVDA will no longer announce Start menu size text when changing screen "
 "resolutions or orientation."
 msgstr "在更改屏幕分辨率或方向时，NVDA将不再公布“开始”菜单大小文本。"
+
+#. type: Bullet: '* '
+msgid "Brightness quick action is now a button instead of a toggle button."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Various status changes such as Focus Assist and Brightness will be reported."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -360,9 +376,14 @@ msgstr ""
 "完全互动。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "When reviewing items in messages list, you can now use table navigation "
+#| "commands to review message headers."
 msgid ""
 "When reviewing items in messages list, you can now use table navigation "
-"commands to review message headers."
+"commands to review message headers. Note that navigating between rows "
+"(messages) is not supported."
 msgstr "查看邮件列表中的项目时，现在可以使用表格导航命令查看消息标题。"
 
 #. type: Bullet: '* '
@@ -391,16 +412,30 @@ msgstr ""
 "朗读诸如文件下载和各种网页警报之类的通知，以及阅读视图（如果使用版本1709及更"
 "高版本）的可用性。"
 
+#. type: Bullet: '* '
+msgid "Text auto-complete will be tracked and announced in address omnibar."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Modern keyboard"
 msgstr "系统键盘"
 
+#. type: Plain text
+msgid "Note: most features below are now part of NVDA 2018.3."
+msgstr ""
+
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
+#| "later, including the redesigned panel in build 17661 and later. For best "
+#| "experience when reading emojis, use Windows OneCore speech synthesizer."
 msgid ""
 "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
-"later, including the redesigned panel in build 17661 and later. For best "
-"experience when reading emojis, use Windows OneCore speech synthesizer."
+"later, including the redesigned panel in Version 1809 (build 17661 and "
+"later) and changes made in 19H1 (build 18262). For best experience when "
+"reading emojis, use Windows OneCore speech synthesizer."
 msgstr ""
 "支持版本1709（RealCudior Update）中的EMOJI输入面板，并包括在构建17661和以后的"
 "重新设计的面板。在阅读表情符号时，最好使用Windows OneCore语言合成器。"
@@ -414,14 +449,19 @@ msgstr "支持版本1803（2018年4月更新）及更高版本中的硬件键盘
 #. type: Bullet: '* '
 msgid ""
 "In post-1709 builds, NVDA will announce the first selected emoji when emoji "
-"panel opens."
+"panel opens. This is more noticeable in build 18262 and later where emoji "
+"panel may open to last browsed category, such as displaying skin tone "
+"modifier when opened to People category."
 msgstr ""
-"在1709后的版本中，当表情符号面板打开时，NVDA会读出第一个选定的表情符号。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Support for announcing cloud clipboard items in build 17666 (Redstone 5) "
+#| "and later."
 msgid ""
-"Support for announcing cloud clipboard items in build 17666 (Redstone 5) and "
-"later."
+"Support for announcing cloud clipboard items in Version 1809 (build 17666 "
+"and later)."
 msgstr "支持在17666版本（Redstone 5）及更高版本中朗读云端剪贴板项目。"
 
 #. type: Bullet: '* '
@@ -437,6 +477,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
+"NVDA will no longer play error tones or do nothing when closing emoji panel "
+"in more recent Insider Preview builds."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
 "When searching for contacts, first suggestion will be announced, "
 "particularly if using recent app releases."
 msgstr "搜索联系人时，将首先朗读搜索的建议，特别是在使用最新的应用程序版本时。"
@@ -447,9 +493,13 @@ msgid "Settings"
 msgstr "设置"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Certain information such as Windows Update progress is reported "
+#| "automatically."
 msgid ""
 "Certain information such as Windows Update progress is reported "
-"automatically."
+"automatically, including Storage sense/disk cleanup widget."
 msgstr "某些信息（如Windows Update进度）会自动朗读。"
 
 #. type: Bullet: '* '
@@ -464,9 +514,13 @@ msgid ""
 msgstr "当使用对象导航在控件之间导航时，可以识别设置组。"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "For some combo boxes, NVDA will no longer fail to recognize labels and/or "
+#| "announce value changes."
 msgid ""
-"For some combo boxes, NVDA will no longer fail to recognize labels and/or "
-"announce value changes."
+"For some combo boxes and radio buttons, NVDA will no longer fail to "
+"recognize labels and/or announce value changes."
 msgstr "对于某些组合框，NVDA将不再无法识别标签/读出更改值。"
 
 #. type: Bullet: '* '
@@ -487,6 +541,10 @@ msgstr ""
 #, no-wrap
 msgid "Skype"
 msgstr "Skype"
+
+#. type: Plain text
+msgid "Note: the below entries won't work properly in Skype 14 universal app."
+msgstr ""
 
 #. type: Bullet: '* '
 msgid "Typing indicator text is announced just like Skype for Desktop client."
@@ -581,6 +639,47 @@ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
 #. type: Plain text
 msgid "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
 msgstr "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
+
+#~ msgid ""
+#~ "Added ability to check for add-on updates (automatic or manual) via "
+#~ "Windows 10 App Essentials dialog found in NvDA Preferences menu. By "
+#~ "default, stable and development versions will check for new updates "
+#~ "automatically on a weekly or daily basis, respectively."
+#~ msgstr ""
+#~ "增加可通过NVDA选项菜单中的Windows 10 应用增强对话框的检查插件更新（自动或"
+#~ "手动）的功能。 默认情况下，稳定版和开发版将分别按每周或每天自动检查新更"
+#~ "新。"
+
+#~ msgid ""
+#~ "In some apps, live region text is announced. This includes alerts in Edge "
+#~ "(including elements marked with aria-role=alert), results in Calculator "
+#~ "and others. Note that this may result in double-speaking in some cases. "
+#~ "This is now part of NVDA 2017.3 or later."
+#~ msgstr ""
+#~ "在某些应用中，会朗读实时区域文字。这包括Edge中的警报（包括标有aria-role = "
+#~ "alert的元素），计算器中的结果等。请注意，在某些情况下，这可能会导致双重朗"
+#~ "读。现在是NVDA 2017.3或更高版本的一部分。"
+
+#~ msgid ""
+#~ "With Sets turned on (builds 17627 through 17692 for some insiders), when "
+#~ "opening a new Sets tab (Control+Windows+T), NVDA will announce search "
+#~ "results when searching for items in the embedded Cortana window."
+#~ msgstr ""
+#~ "在build 17627及17692以上版本中，当打开一个新的设置选项卡（Control + "
+#~ "Windows + T）时，NVDA将在嵌入式Cortana窗口中搜索项目时读出搜索结果。"
+
+#~ msgid ""
+#~ "With Sets turned on, when switching between Sets tabs, NvDA will announce "
+#~ "name and position of the tab you are switching to."
+#~ msgstr ""
+#~ "现在打开集时，在“设置”选项卡之间切换时，NvDA将朗读您要切换到的选项卡的名称"
+#~ "和位置。"
+
+#~ msgid ""
+#~ "In post-1709 builds, NVDA will announce the first selected emoji when "
+#~ "emoji panel opens."
+#~ msgstr ""
+#~ "在1709后的版本中，当表情符号面板打开时，NVDA会读出第一个选定的表情符号。"
 
 #~ msgid ""
 #~ "In context menus for Start Menu tiles, submenus are properly recognized."

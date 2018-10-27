@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+"Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
 msgstr ""
 
@@ -124,6 +124,15 @@ msgstr ""
 msgid ""
 "When deleting saved positions, if there are no saved positions left, "
 "positions for the application will be cleared."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 3.2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
 msgstr ""
 
 #. type: Title ##

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons traslation team\n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2018-06-26 17:14+0100\n"
 "Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
 "Language-Team: Galician translation team <oprisniki@gmail.com>\n"
@@ -54,8 +54,12 @@ msgstr ""
 "algunha."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+#| "currently focused application."
 msgid ""
-"Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+"Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
 msgstr ""
 "Shift+NVDA+l: garda unha tag ou unha etiqueta para a posición do rato actual "
@@ -147,6 +151,16 @@ msgid ""
 msgstr ""
 "Ao se borrar posicións gardadas, se non quedan máis posicións gardadas, "
 "limparanse as da aplicación."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 3.2"
+msgstr "Versión 3.0"
+
+#. type: Bullet: '* '
+msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

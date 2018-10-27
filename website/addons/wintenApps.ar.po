@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-08-30 01:04+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2017-12-29 03:32-0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -52,6 +52,11 @@ msgid ""
 msgstr ""
 "تحتوي الإضافة على الملحقات البرمجية التالية (يرجى النظر في كل قسم تطبيق معين "
 "للمزيد من التفاصيل حول ما تحتويه الإضافة من ملحقات عن هذا التطبيق):"
+
+#. type: Title ##
+#, no-wrap
+msgid "Action center"
+msgstr ""
 
 #. type: Bullet: '* '
 msgid "Alarms and Clock."
@@ -136,8 +141,10 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "This add-on requires Windows 10 Version 1709 (build 16299) or later and NVDA "
-"2018.2 or later. For best results, use the add-on with latest Windows 10 "
-"stable release (build 17134) and latest stable version of NVDA."
+"2018.3 or later. For best results, use the add-on with latest Windows 10 "
+"stable release (build 17134) and latest stable version of NVDA. Note that "
+"until further notice, Version 1809 (build 17763) is not available from "
+"Microsoft."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -164,6 +171,19 @@ msgstr "عام"
 
 #. type: Bullet: '* '
 msgid ""
+"If Add-on Updater add-on is installed, that add-on will check for Windows 10 "
+"App Essentials updates."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Default update check interval has changed to weekly checks for both stable "
+"and development releases. This is applicable if the add-on itself checks for "
+"updates."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
 "Submenu items are properly recognized in various apps, including context "
 "menu for Start menu tiles and microsoft Edge's app menu (Redstone 5)."
 msgstr ""
@@ -171,7 +191,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "Certain dialogs are now recognized as proper dialogs and reported as such, "
-"including Insider Preview dialog (settings app). This will be part of NVDA "
+"including Insider Preview dialog (settings app). This is now part of NVDA "
 "2018.3."
 msgstr ""
 
@@ -192,26 +212,16 @@ msgstr ""
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
-"live region change, notification, system alert, tooltip opened, window "
-"opened. With NVDA set to run with debug logging enabled, these events will "
-"be tracked, and for UIA notification event, a debug tone will be heard if "
-"notifications come from somewhere other than the currently active app."
+"item status, live region change, notification, system alert, tooltip opened, "
+"window opened. With NVDA set to run with debug logging enabled, these events "
+"will be tracked, and for UIA notification event, a debug tone will be heard "
+"if notifications come from somewhere other than the currently active app."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Added ability to check for add-on updates (automatic or manual) via Windows "
-"10 App Essentials dialog found in NvDA Preferences menu. By default, stable "
-"and development versions will check for new updates automatically on a "
-"weekly or daily basis, respectively."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"In some apps, live region text is announced. This includes alerts in Edge "
-"(including elements marked with aria-role=alert), results in Calculator and "
-"others. Note that this may result in double-speaking in some cases. This is "
-"now part of NVDA 2017.3 or later."
+"Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
+"earlier NVDA releases."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -228,19 +238,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"With Sets turned on (builds 17627 through 17692 for some insiders), when "
-"opening a new Sets tab (Control+Windows+T), NVDA will announce search "
-"results when searching for items in the embedded Cortana window."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"With Sets turned on, when switching between Sets tabs, NvDA will announce "
-"name and position of the tab you are switching to."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
 "When opening, closing, or switching between virtual desktops, NVDA will "
 "announce current desktop ID (desktop 2, for example)."
 msgstr ""
@@ -249,6 +246,15 @@ msgstr ""
 msgid ""
 "NVDA will no longer announce Start menu size text when changing screen "
 "resolutions or orientation."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Brightness quick action is now a button instead of a toggle button."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Various status changes such as Focus Assist and Brightness will be reported."
 msgstr ""
 
 #. type: Title ##
@@ -330,7 +336,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "When reviewing items in messages list, you can now use table navigation "
-"commands to review message headers."
+"commands to review message headers. Note that navigating between rows "
+"(messages) is not supported."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -357,16 +364,25 @@ msgid ""
 "availability of Reading View (if using Version 1709 and later) are announced."
 msgstr "الآن ستعلن أسماء الأزرار"
 
+#. type: Bullet: '* '
+msgid "Text auto-complete will be tracked and announced in address omnibar."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Modern keyboard"
 msgstr ""
 
+#. type: Plain text
+msgid "Note: most features below are now part of NVDA 2018.3."
+msgstr ""
+
 #. type: Bullet: '* '
 msgid ""
 "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
-"later, including the redesigned panel in build 17661 and later. For best "
-"experience when reading emojis, use Windows OneCore speech synthesizer."
+"later, including the redesigned panel in Version 1809 (build 17661 and "
+"later) and changes made in 19H1 (build 18262). For best experience when "
+"reading emojis, use Windows OneCore speech synthesizer."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -378,13 +394,15 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "In post-1709 builds, NVDA will announce the first selected emoji when emoji "
-"panel opens."
+"panel opens. This is more noticeable in build 18262 and later where emoji "
+"panel may open to last browsed category, such as displaying skin tone "
+"modifier when opened to People category."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Support for announcing cloud clipboard items in build 17666 (Redstone 5) and "
-"later."
+"Support for announcing cloud clipboard items in Version 1809 (build 17666 "
+"and later)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -393,6 +411,12 @@ msgid ""
 "features. These include no longer announcing \"Microsoft Candidate UI\" when "
 "opening hardware keyboard input suggestions and staying silent when certain "
 "touch keyboard keys raise name change event on some systems."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play error tones or do nothing when closing emoji panel "
+"in more recent Insider Preview builds."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -413,7 +437,7 @@ msgstr "إعدادات"
 #| "automatically."
 msgid ""
 "Certain information such as Windows Update progress is reported "
-"automatically."
+"automatically, including Storage sense/disk cleanup widget."
 msgstr "سيتم الإعلان عن بعض المعلومات بشكل آلي كتحديث الويندوز."
 
 #. type: Bullet: '* '
@@ -429,8 +453,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"For some combo boxes, NVDA will no longer fail to recognize labels and/or "
-"announce value changes."
+"For some combo boxes and radio buttons, NVDA will no longer fail to "
+"recognize labels and/or announce value changes."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -448,6 +472,10 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Skype"
+msgstr ""
+
+#. type: Plain text
+msgid "Note: the below entries won't work properly in Skype 14 universal app."
 msgstr ""
 
 #. type: Bullet: '* '

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: golden cursor Addons website for NVDA\n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2018-06-15 19:22+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
@@ -53,8 +53,12 @@ msgstr ""
 "application, le cas échéant."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+#| "currently focused application."
 msgid ""
-"Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+"Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
 msgstr ""
 "Maj+NVDA+l : sauvegarde un tag ou une étiquette pour la position actuelle de "
@@ -156,6 +160,16 @@ msgid ""
 msgstr ""
 "Lorsque vous supprimez des positions sauvegardées, s'il n'y a plus de "
 "positions sauvegardées, les positions de l'application seront effacées."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 3.2"
+msgstr "Version 3.0"
+
+#. type: Bullet: '* '
+msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

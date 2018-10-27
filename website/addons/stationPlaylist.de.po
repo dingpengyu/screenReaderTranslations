@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-09-25 01:06+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2018-10-06 09:03+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
@@ -63,9 +63,6 @@ msgid "IMPORTANT NOTES:"
 msgstr "WICHTIGE HINWEISE:"
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "This add-on requires NVDA 2017.4 or later and StationPlaylist Studio 5.10 "
-#| "or later."
 msgid ""
 "This add-on requires NVDA 2018.3 or later and StationPlaylist Studio 5.11 or "
 "later."
@@ -198,9 +195,6 @@ msgid ""
 msgstr "Strg+Umschalt+X aus dem Studio-Fenster: Braille-Timer-Einstellungen."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "Control+Alt+left/right arrow (while focused on a track): Announce "
-#| "previous/next track column."
 msgid ""
 "Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
 "and Track Tool): Announce previous/next track column."
@@ -239,8 +233,6 @@ msgstr ""
 "einer Spur in einem Fenster des Lesemodus an."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "Alt+NVDA+C while focused on a track: announces track comments if any."
 msgid ""
 "Alt+NVDA+C while focused on a track (Studio only): announces track comments "
 "if any."
@@ -256,9 +248,6 @@ msgstr ""
 "Erweiterung."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "Control+NVDA+- (hyphen) from Studio window: Send feedback to add-on "
-#| "developer using the default email client."
 msgid ""
 "Alt+NVDA+- (hyphen) from Studio window: Send feedback to add-on developer "
 "using the default email client."
@@ -893,13 +882,6 @@ msgid "Columns Explorer"
 msgstr "Spaltenexplorer"
 
 #. type: Plain text
-#| msgid ""
-#| "By pressing Control+NVDA+1 through 0 (6 for Studio 5.0x) or SPL "
-#| "Assistant, 1 through 0 (6 for Studio 5.01 and earlier), you can obtain "
-#| "contents of specific columns. By default, these are artist, title, "
-#| "duration, intro, category and filename (Studio 5.10 adds year, album, "
-#| "genre and time scheduled). You can configure which columns will be "
-#| "explored via columns explorer dialog found in add-on settings dialog."
 msgid ""
 "By pressing Control+NVDA+1 through 0 or SPL Assistant, 1 through 0, you can "
 "obtain contents of specific columns. By default, these are artist, title, "
@@ -989,8 +971,56 @@ msgstr ""
 "die oben aufgeführten Touch-Befehle, um Befehle auszuführen."
 
 #. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 18.10.1/18.09.3-LTS"
+msgid "Version 18.11/18.09.5-LTS"
+msgstr "Version 18.10.1 / 18.09.3-LTS"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "You can now perform Track Finder command (Control+NVDA+F) while a "
+#| "playlist is loaded but the first track isn't focused."
+msgid ""
+"You can now obtain playlist snapshots (SPL Assistant, F8) and transcripts "
+"(SPL Assistant, Shift+F8) while a playlist is loaded but the first track "
+"isn't focused."
+msgstr ""
+"Sie können nun den Titelfinder-Befehl (STRG+NVDA+F) ausführen, während eine "
+"Playlist geladen ist. Dies gilt, auch wenn der erste Titel nicht fokussiert "
+"ist."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer appear to do nothing or play error tones when trying "
+#| "to obtain metadata streaming status via SPL Assistant (E)."
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when trying to "
+"announce metadata streaming status when Studio starts if configured to do so."
+msgstr ""
+"NVDA scheint nichts mehr zu tun oder Fehlertöne abzuspielen, wenn versucht "
+"wird, den Metadaten-Streaming-Status über den SPL-Assistenten (E) zu "
+"erhalten."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "If NVDA is configured to announce metadata streaming status when Studio "
+#| "starts, NVDA will honor this setting and no longer announce streaming "
+#| "status when switching to and from instant switch profiles."
+msgid ""
+"If configured to announce metadata streaming status at startup, metadata "
+"streaming status announcement will no longer cut off announcements about "
+"status bar changes and vice versa."
+msgstr ""
+"Wenn die Ansage der Statusinformationen des Metadaten-Streamings beim "
+"Starten des Studio im Einstellungsdialog der Erweiterung aktiviert ist, wird "
+"NVDA diese Einstellung berücksichtigen und den Streaming-Status beim "
+"Wechseln zu und von Instant-Switch-Profilen nicht mehr melden."
+
+#. type: Title ##
 #, no-wrap
-#| msgid "Version 16.10.1/15.2-LTS"
 msgid "Version 18.10.2/18.09.4-LTS"
 msgstr "Version 18.10.2 / 18.09.4-LTS"
 
@@ -1006,7 +1036,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 16.10.1/15.2-LTS"
 msgid "Version 18.10.1/18.09.3-LTS"
 msgstr "Version 18.10.1 / 18.09.3-LTS"
 
@@ -1025,12 +1054,10 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.08"
 msgid "Version 18.10"
 msgstr "Version 18.10"
 
 #. type: Bullet: '* '
-#| msgid "Windows 7 Service Pack 1 or later is required."
 msgid "NVDA 2018.3 or later is required."
 msgstr "NVDA 2018.3 oder höher ist erforderlich."
 
@@ -1191,9 +1218,6 @@ msgstr ""
 "Wiedergabeliste oder beim Starten von Studio der Fall ist."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "NVDA will no longer appear to do anything or play an error tone when "
-#| "switching to a time-based broadcast profile."
 msgid ""
 "NVDA will no longer appear to do nothing or play error tones when trying to "
 "obtain metadata streaming status via SPL Assistant (E)."
@@ -1268,11 +1292,6 @@ msgstr ""
 "dieser Befehle zur Spaltennavigation verwendet."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "NVDA will no longer play error tones or appear to do nothing when using "
-#| "Control+Alt+left or right arrow keys to navigate columns in Track Tool "
-#| "5.20 with a track loaded. Because of this change, when using Studio 5.20, "
-#| "build 48 or later is required."
 msgid ""
 "NVDA will no longer play error tones or appear to do nothing when attempting "
 "to add comments to tracks in Studio or when exiting NVDA while using Studio, "
@@ -1307,10 +1326,6 @@ msgstr ""
 "Übersetzt mit www.DeepL.com/Translator"
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "NVDA will no longer play error tones or do nothing when searching for a "
-#| "track forward from the last track or backward from the first track, "
-#| "respectively."
 msgid ""
 "NVDA will no longer play error tones or appear to do nothing when trying to "
 "rename a broadcast profile from add-on settings, caused by wxPython 4 "
@@ -1375,9 +1390,6 @@ msgstr ""
 "anzuzeigen."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "Added Control+Alt+Home/End to move Column Navigator to first or last "
-#| "column in Playlist Viewer."
 msgid ""
 "In Creator and Track Tool, added Control+Alt+Home/End keys to move Column "
 "Navigator to first or last column for the focused track."
@@ -1475,9 +1487,6 @@ msgstr ""
 "Sie Strg+NVDA+1 bis 0, um Daten in einer bestimmten Spalte anzuzeigen."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "8.0: Added a dialog in add-on settings to configure Columns Explorer "
-#| "slots for Track Tool."
 msgid ""
 "Added a button in Studio add-on settings to configure Columns Explorer for "
 "SPL Creator."

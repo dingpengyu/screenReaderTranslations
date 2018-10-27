@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-25 01:06+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2018-09-24 22:39+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
@@ -912,8 +912,53 @@ msgstr ""
 "và sử dụng các thao tác cảm ứng đã liệt kê ở trên để thực hiện các lệnh."
 
 #. type: Title ##
-#, no-wrap
+#, fuzzy, no-wrap
 #| msgid "Version 18.10.1/18.09.3-LTS"
+msgid "Version 18.11/18.09.5-LTS"
+msgstr "Phiên bản 18.10.1/18.09.3-LTS"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "You can now perform Track Finder command (Control+NVDA+F) while a "
+#| "playlist is loaded but the first track isn't focused."
+msgid ""
+"You can now obtain playlist snapshots (SPL Assistant, F8) and transcripts "
+"(SPL Assistant, Shift+F8) while a playlist is loaded but the first track "
+"isn't focused."
+msgstr ""
+"Giờ bạn có thể thực hiện lệnh tìm kiếm track (Control+NVDA+F) khi đã tải một "
+"danh sách phát nhưng con trỏ không đứng ở track đầu tiên."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer appear to do nothing or play error tones when trying "
+#| "to obtain metadata streaming status via SPL Assistant (E)."
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when trying to "
+"announce metadata streaming status when Studio starts if configured to do so."
+msgstr ""
+"NVDA sẽ không còn tình trạng không làm gì hoặc phát âm thanh báo lỗi khi cố "
+"gắng thu thập trạng thái metadata streaming thông qua SPL Assistant (E)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "If NVDA is configured to announce metadata streaming status when Studio "
+#| "starts, NVDA will honor this setting and no longer announce streaming "
+#| "status when switching to and from instant switch profiles."
+msgid ""
+"If configured to announce metadata streaming status at startup, metadata "
+"streaming status announcement will no longer cut off announcements about "
+"status bar changes and vice versa."
+msgstr ""
+"Nếu được cấu hình để thông báo trạng thái metadata streaming khi khởi động "
+"Studio, NVDA sẽ tôn trọng thiết lập này và không thông báo trạng thái phát "
+"khi chuyển đến và chuyển đi khỏi các hồ sơ chuyển nhánh."
+
+#. type: Title ##
+#, no-wrap
 msgid "Version 18.10.2/18.09.4-LTS"
 msgstr "Phiên bản 18.10.2/18.09.4-LTS"
 

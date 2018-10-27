@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-07-07 18:09+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2018-07-06 21:54+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -51,8 +51,12 @@ msgid "Control+NVDA+L: view saved mouse positions for an application if any."
 msgstr "Control+NVDA+L: アプリケーションに保存されたマウス位置がある場合に表示"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+#| "currently focused application."
 msgid ""
-"Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+"Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
 msgstr ""
 "Shift+NVDA+L: フォーカスされているアプリケーションでの現在のマウス位置にタグ"
@@ -140,6 +144,15 @@ msgid ""
 msgstr ""
 "保存した位置を削除する時、保存された位置が一つも存在しない場合は、そのアプリ"
 "ケーションのための位置は削除されます。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 3.2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

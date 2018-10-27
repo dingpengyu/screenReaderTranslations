@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-25 01:06+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2017-12-28 10:55-0800\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: \n"
@@ -921,6 +921,32 @@ msgid ""
 "and have NVDA 2012.3 or later installed, you can perform some Studio "
 "commands from the touchscreen. First use three finger tap to switch to SPL "
 "mode, then use the touch commands listed above to perform commands."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 18.11/18.09.5-LTS"
+msgstr "Zmeny vo verzii 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"You can now obtain playlist snapshots (SPL Assistant, F8) and transcripts "
+"(SPL Assistant, Shift+F8) while a playlist is loaded but the first track "
+"isn't focused."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when trying to "
+"announce metadata streaming status when Studio starts if configured to do so."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"If configured to announce metadata streaming status at startup, metadata "
+"streaming status announcement will no longer cut off announcements about "
+"status bar changes and vice versa."
 msgstr ""
 
 #. type: Title ##

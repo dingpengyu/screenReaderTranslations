@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-10-28 06:10+1000\n"
 "PO-Revision-Date: 2018-05-04 21:39+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,8 +53,12 @@ msgstr ""
 "jakieś zostały wcześniej zapisane."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+#| "currently focused application."
 msgid ""
-"Shift+NVDA+L: save a tag or a label for the current mouse position in the "
+"Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
 msgstr ""
 "Shift+NVDA+L: Zapisz tag lub oznaczenie dla aktualnej pozycji myszy w "
@@ -147,6 +151,16 @@ msgid ""
 msgstr ""
 "Jeżeli wszystkie zapisane w dodatku pozycje zostaną usunięte, lista pozycji "
 "dla danej aplikacji zostanie wyczyszczona."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 2.0"
+msgid "Version 3.2"
+msgstr "Wersja 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
