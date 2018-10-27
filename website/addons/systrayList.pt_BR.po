@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2018-09-24 20:43-0300\n"
+"PO-Revision-Date: 2018-10-27 17:54-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -35,10 +35,8 @@ msgid "Download [stable version][1]"
 msgstr "Baixe a [versão estável][1]"
 
 #. type: Bullet: '*   '
-#, fuzzy
-#| msgid "Download [stable version][1]"
 msgid "Download [development version][2]"
-msgstr "Baixe a [versão estável][1]"
+msgstr "Baixe a [versão em desenvolvimento][2]"
 
 #. type: Plain text
 msgid ""
@@ -56,13 +54,6 @@ msgstr ""
 "aplicativos em execução no momento."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Note that you can access the windows system tray in any screenreader "
-#| "software using the Windows+B, and the task bar by pressing Windows+T. "
-#| "This plugin is only useful to make the transition from JAWS for Windows "
-#| "smoother and to avoid some tooltips that may pop-up when cycling through "
-#| "the system tray with the windows keyboard means."
 msgid ""
 "Note that you can access the windows system tray in any screen reader "
 "software using the Windows+B, and the task bar by pressing Windows+T. This "
@@ -71,27 +62,28 @@ msgid ""
 "tray with the windows keyboard means."
 msgstr ""
 "Note que você pode acessar a bandeja do sistema — área de notificação — do "
-"Windows em qualquer software de leitor de tela usando o Windows+B e a barra "
+"Windows em qualquer software de leitor de tela usando o Windows+B, e a barra "
 "de tarefas pressionando Windows+T. Este plug-in é útil apenas para fazer a "
 "transição do JAWS para Windows mais suave e para evitar algumas dicas de "
 "ferramentas que podem aparecer ao percorrer a bandeja do sistema do Windows "
 "por meio do teclado."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 2.0 2017-05-20"
+#, no-wrap
 msgid "Changes for 3.0 2018-10-27"
-msgstr "Mudanças na 2.0 2017-05-20"
+msgstr "Mudanças na 3.0 2018-10-27"
 
 #. type: Plain text
 msgid ""
 "Support for Windows releases earlier than Windows 7 Service Pack 1 will end "
 "in 2019."
 msgstr ""
+"O suporte para versões do Windows anteriores ao Windows 7 Service Pack 1 "
+"terminará em 2019."
 
 #. type: Bullet: '* '
 msgid "Add-on is Python 3 compatible."
-msgstr ""
+msgstr "Complemento é compatível com o Python 3."
 
 #. type: Title ##
 #, no-wrap
