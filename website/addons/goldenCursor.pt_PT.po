@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cursor dourado, versão 3.0\n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2018-06-13 18:52+0100\n"
+"PO-Revision-Date: 2018-10-27 21:29+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA; ampa4374@gmail.com; rui."
 "fontes@tiflotecnia.com\n"
@@ -55,15 +55,11 @@ msgstr ""
 "as houver."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
-#| "currently focused application."
 msgid ""
 "Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
 msgstr ""
-"Shift+NVDA+l: Guarda uma etiqueta ou um nível para a posição actual do rato "
+"Shift+NVDA+l: Guarda uma etiqueta ou um nível para a posição actual do rato, "
 "na aplicação actualmente focada. "
 
 #. type: Bullet: '* '
@@ -155,14 +151,13 @@ msgstr ""
 "aplicação, o respectivo ficheiro de posições será excluído."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 3.0"
+#, no-wrap
 msgid "Version 3.2"
-msgstr "Versão 3.0"
+msgstr "Versão 3.2"
 
 #. type: Bullet: '* '
 msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
-msgstr ""
+msgstr "O Extra é compatível com o  NVDA 2018.3 (wxPython 4)."
 
 #. type: Title ##
 #, no-wrap

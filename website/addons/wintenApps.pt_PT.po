@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Windows 10 aplicações essenciais\n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2018-09-15 13:13+0100\n"
+"PO-Revision-Date: 2018-10-27 22:30+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -55,7 +55,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Action center"
-msgstr ""
+msgstr "Centro de acção"
 
 #. type: Bullet: '* '
 msgid "Alarms and Clock."
@@ -138,7 +138,6 @@ msgid "Notes:"
 msgstr "Notas:"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "This add-on requires Windows 10 Version 1709 (build 16299) or later and "
 #| "NVDA 2018.2 or later. For best results, use the add-on with latest "
@@ -150,10 +149,11 @@ msgid ""
 "until further notice, Version 1809 (build 17763) is not available from "
 "Microsoft."
 msgstr ""
-"Este extra requer o Windows 10 Versão 1709 (build 16299) ou posterior e o "
-"NVDA 2018.2 ou posterior. Para obter melhores resultados, use o complemento "
-"com a versão estável mais recente do Windows 10 (compilação 17134) e a "
-"versão estável mais recente do NVDA."
+"Este extra requer o Windows 10 Versão 1709 (compilação 16299) ou posterior e "
+"o NVDA 2018.3 ou posterior. Para obter melhores resultados, use o extra com "
+"a versão estável mais recente do Windows 10 (compilação 17134) e a versão "
+"estável mais recente do NVDA. Note que, até novo aviso, a versão 1809 "
+"(compilação 17763) não está disponível na Microsoft."
 
 #. type: Bullet: '* '
 msgid "Some add-on features are or will be part of NVDA screen reader."
@@ -189,6 +189,8 @@ msgid ""
 "If Add-on Updater add-on is installed, that add-on will check for Windows 10 "
 "App Essentials updates."
 msgstr ""
+"Se o extra Add-on Updater estiver instalado, verificará as actualizações do "
+"Windows 10 App Essentials."
 
 #. type: Bullet: '* '
 msgid ""
@@ -196,6 +198,9 @@ msgid ""
 "and development releases. This is applicable if the add-on itself checks for "
 "updates."
 msgstr ""
+"O intervalo padrão de verificação de actualizações foi alterado para "
+"verificações semanais, para versões estáveis e de desenvolvimento. Isso "
+"aplica-se for o próprio extra a verificar automaticamente as atualizações."
 
 #. type: Bullet: '* '
 msgid ""
@@ -207,18 +212,13 @@ msgstr ""
 "aplicativos do Microsoft Edge (Redstone 5)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain dialogs are now recognized as proper dialogs and reported as "
-#| "such, including Insider Preview dialog (settings app). This will be part "
-#| "of NVDA 2018.3."
 msgid ""
 "Certain dialogs are now recognized as proper dialogs and reported as such, "
 "including Insider Preview dialog (settings app). This is now part of NVDA "
 "2018.3."
 msgstr ""
-"Certos diálogos agora são reconhecidos como diálogos apropriados e relatados "
-"como tal, incluindo a caixa de diálogo Insider Preview (app de "
+"Certos diálogos, agora, são reconhecidos como diálogos apropriados e "
+"relatados como tal, incluindo a caixa de diálogo Insider Preview (app de "
 "configurações). Isso fará parte do NVDA 2018.3."
 
 #. type: Bullet: '* '
@@ -240,15 +240,6 @@ msgstr ""
 "(por exemplo, 1 de 2) deixaram de ser anunciadas."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "The following UIA events are recognized: active text position change, "
-#| "controller for, drag start, drag cancel, drag complete, element selected, "
-#| "live region change, notification, system alert, tooltip opened, window "
-#| "opened. With NVDA set to run with debug logging enabled, these events "
-#| "will be tracked, and for UIA notification event, a debug tone will be "
-#| "heard if notifications come from somewhere other than the currently "
-#| "active app."
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
@@ -257,20 +248,22 @@ msgid ""
 "will be tracked, and for UIA notification event, a debug tone will be heard "
 "if notifications come from somewhere other than the currently active app."
 msgstr ""
-"Os seguintes eventos UIA são reconhecidos: alteração da posição do texto "
-"activo, controlador para, arrastar início, arrastar cancelamento, arrastar "
-"completo, elemento selecionado, alterar região ao vivo, notificação, alerta "
-"do sistema, tooltip aberta, janela aberta. Com o NVDA configurado para ser "
-"executado com o log de depuração activado, esses eventos serão rastreados e, "
-"para o evento de notificação UIA, um beep de depuração será ouvido se as "
-"notificações vierem de algum lugar diferente do aplicativo actualmente "
-"activo."
+"Os seguintes eventos UIA são, agora, reconhecidos: alteração da posição do "
+"texto activo, controlador para, arrastar início, arrastar cancelamento, "
+"arrastar completo, elemento selecionado, alterar região ao vivo, "
+"notificação, alerta do sistema, tooltip aberta, janela aberta. Com o NVDA "
+"configurado para ser executado com o log de depuração activado, esses "
+"eventos serão rastreados e, para o evento de notificação UIA, um beep de "
+"depuração será ouvido se as notificações vierem de algum lugar diferente do "
+"aplicativo actualmente activo."
 
 #. type: Bullet: '* '
 msgid ""
 "Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
 "earlier NVDA releases."
 msgstr ""
+"Correcção de melhoria de desempenho do UIA com respaldo do NVDA 2018.4 para "
+"usuários que usam versões anteriores do NVDA."
 
 #. type: Bullet: '* '
 msgid ""
@@ -308,11 +301,14 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Brightness quick action is now a button instead of a toggle button."
 msgstr ""
+"A ação rápida do brilho agora é um botão em vez de um botão de alternância."
 
 #. type: Bullet: '* '
 msgid ""
 "Various status changes such as Focus Assist and Brightness will be reported."
 msgstr ""
+"Várias alterações de status, como Foco Assistido e Brilho, passam a ser "
+"indicadas."
 
 #. type: Title ##
 #, no-wrap
@@ -403,17 +399,14 @@ msgstr ""
 "jogos antes da compilação 17723."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When reviewing items in messages list, you can now use table navigation "
-#| "commands to review message headers."
 msgid ""
 "When reviewing items in messages list, you can now use table navigation "
 "commands to review message headers. Note that navigating between rows "
 "(messages) is not supported."
 msgstr ""
 "Ao rever itens na lista de mensagens, agora pode usar os comandos de "
-"navegação da tabela para rever os respectivos cabeçalhos."
+"navegação da tabela para rever os respectivos cabeçalhos. Observe que a "
+"navegação entre linhas (mensagens) não é suportada."
 
 #. type: Bullet: '* '
 msgid ""
@@ -448,6 +441,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Text auto-complete will be tracked and announced in address omnibar."
 msgstr ""
+"O preenchimento automático de texto será rastreado e anunciado na barra de "
+"endereço."
 
 #. type: Title ##
 #, no-wrap
@@ -457,13 +452,9 @@ msgstr "Teclado moderno"
 #. type: Plain text
 msgid "Note: most features below are now part of NVDA 2018.3."
 msgstr ""
+"Nota: a maioria dos recursos seguintes, agora, fazem parte do NVDA 2018.3."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
-#| "later, including the redesigned panel in build 17661 and later. For best "
-#| "experience when reading emojis, use Windows OneCore speech synthesizer."
 msgid ""
 "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
 "later, including the redesigned panel in Version 1809 (build 17661 and "
@@ -472,7 +463,7 @@ msgid ""
 msgstr ""
 "Suporte para o painel de entrada do Emoji na versão 1709 (Actualização "
 "\"Fall Creators \") e posterior, incluindo o painel reprojetado na "
-"compilação 17661 e posterior. Para obter uma melhor experiência ao ler "
+"compilação 17661 e posterior. Para obter uma melhor experiência, ao ler "
 "emojis, use o sintetizador de fala do Windows OneCore."
 
 #. type: Bullet: '* '
@@ -490,9 +481,13 @@ msgid ""
 "panel may open to last browsed category, such as displaying skin tone "
 "modifier when opened to People category."
 msgstr ""
+"Nas compilações posteriores à  1709, o NVDA anunciará o primeiro emoji "
+"selecionado quando o painel de emojis for aberto. Isso é mais perceptível na "
+"versão 18262 e posterior, onde o painel emoji pode ser aberto para a última "
+"categoria navegada, como a exibição do modificador de tom de pele quando "
+"aberto na categoria Pessoas."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "Support for announcing cloud clipboard items in build 17666 (Redstone 5) "
 #| "and later."
@@ -500,8 +495,8 @@ msgid ""
 "Support for announcing cloud clipboard items in Version 1809 (build 17666 "
 "and later)."
 msgstr ""
-"Suporte para anunciar itens da área de transferência em nuvem no build 17666 "
-"(Redstone 5) e posterior."
+"Suporte para anunciar itens da área de transferência em nuvem na versão 1809 "
+"(compilação 17666 e posterior)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -521,6 +516,8 @@ msgid ""
 "NVDA will no longer play error tones or do nothing when closing emoji panel "
 "in more recent Insider Preview builds."
 msgstr ""
+"O NVDA não reproduzirá mais os tons de erro ou não fará nada ao fechar o "
+"painel de emojis em versões mais recentes do Insider Preview."
 
 #. type: Bullet: '* '
 msgid ""
@@ -536,16 +533,12 @@ msgid "Settings"
 msgstr "Configurações"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain information such as Windows Update progress is reported "
-#| "automatically."
 msgid ""
 "Certain information such as Windows Update progress is reported "
 "automatically, including Storage sense/disk cleanup widget."
 msgstr ""
 "Certas informações, como o progresso da actualização do Windows, são faladas "
-"automaticamente."
+"automaticamente, incluindo a armazenagem e a limpeza do disco."
 
 #. type: Bullet: '* '
 msgid ""
@@ -563,16 +556,12 @@ msgstr ""
 "para navegar entre controlos."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "For some combo boxes, NVDA will no longer fail to recognize labels and/or "
-#| "announce value changes."
 msgid ""
 "For some combo boxes and radio buttons, NVDA will no longer fail to "
 "recognize labels and/or announce value changes."
 msgstr ""
-"Para algumas caixas combinadas, o NVDA não falhará ao reconhecer os rótulos "
-"e / ou anunciar mudanças de valor."
+"Para algumas caixas combinadas e botões de rádio, o NVDA não falhará ao "
+"reconhecer os rótulos e / ou anunciar mudanças de valor."
 
 #. type: Bullet: '* '
 msgid ""
@@ -598,6 +587,8 @@ msgstr "Skype"
 #. type: Plain text
 msgid "Note: the below entries won't work properly in Skype 14 universal app."
 msgstr ""
+"Nota: as entradas seguintes não funcionarão correctamente na aplicação "
+"universal do Skype 14."
 
 #. type: Bullet: '* '
 msgid "Typing indicator text is announced just like Skype for Desktop client."
