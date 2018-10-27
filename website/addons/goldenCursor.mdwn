@@ -9,7 +9,7 @@ This add-on allows you to move the mouse using a keyboard and save mouse positio
 ## Key commands
 
 * Control+NVDA+L: view saved mouse positions for an application if any.
-* Shift+NVDA+L: save a tag or a label for the current mouse position in the currently focused application.
+* Shift+NVDA+l: save a tag or a label for the current mouse position in the currently focused application.
 * Windows+NVDA+C: change mouse movement unit.
 * Windows+NVDA+R: toggle mouse restriction.
 * Windows+NVDA+S: toggle reporting of mouse position in pixels.
@@ -28,6 +28,10 @@ Note: these gestures can be reassigned via NVDA's Input Gestures dialog under Go
 * Version 1.x and 2.x mouse position formats are incompatible.
 * To perform functions that require use of arrow keys, turn off mouse arrows first.
 * When deleting saved positions, if there are no saved positions left, positions for the application will be cleared.
+
+## Version 3.2
+
+* Add-on is compatible with NVDA 2018.3 (wxPython 4).
 
 ## Version 3.0
 
