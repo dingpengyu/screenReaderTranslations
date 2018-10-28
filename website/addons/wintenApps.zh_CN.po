@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2018-09-11 08:35+0800\n"
+"PO-Revision-Date: 2018-10-28 08:16+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -52,7 +52,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Action center"
-msgstr ""
+msgstr "活动中心"
 
 #. type: Bullet: '* '
 msgid "Alarms and Clock."
@@ -145,11 +145,6 @@ msgid "Notes:"
 msgstr "注意:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "This add-on requires Windows 10 Version 1709 (build 16299) or later and "
-#| "NVDA 2018.2 or later. For best results, use the add-on with latest "
-#| "Windows 10 stable release (build 17134) and latest stable version of NVDA."
 msgid ""
 "This add-on requires Windows 10 Version 1709 (build 16299) or later and NVDA "
 "2018.3 or later. For best results, use the add-on with latest Windows 10 "
@@ -157,7 +152,7 @@ msgid ""
 "until further notice, Version 1809 (build 17763) is not available from "
 "Microsoft."
 msgstr ""
-"此插件需要Windows 101709（版本16299）或以上版本以及NVDA 2018.2或以上版本。 为"
+"此插件需要Windows 101709（版本16299）或以上版本以及NVDA 2018.3或以上版本。 为"
 "获得最佳效果，请使用最新的Windows 10稳定版本（build 17134）和最新的NVDA正式"
 "版。"
 
@@ -191,6 +186,7 @@ msgid ""
 "If Add-on Updater add-on is installed, that add-on will check for Windows 10 "
 "App Essentials updates."
 msgstr ""
+"如果安装了Add-on Updater插件，则该插件将检查Windows 10 App Essentials更新。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -198,6 +194,8 @@ msgid ""
 "and development releases. This is applicable if the add-on itself checks for "
 "updates."
 msgstr ""
+"默认更新检查间隔已更改为每周检查稳定版和开发版。如果插件本身检查更新，则适"
+"用。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -208,18 +206,13 @@ msgstr ""
 "Microsoft Edge的应用程序菜单（Redstone 5）。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain dialogs are now recognized as proper dialogs and reported as "
-#| "such, including Insider Preview dialog (settings app). This will be part "
-#| "of NVDA 2018.3."
 msgid ""
 "Certain dialogs are now recognized as proper dialogs and reported as such, "
 "including Insider Preview dialog (settings app). This is now part of NVDA "
 "2018.3."
 msgstr ""
 "某些对话框现在被识别为正确的对话框并按此朗读，包括“内幕预览”对话框（设置应用"
-"程序对话框）。这将是NVDA 2018.3的一部分。"
+"程序）。这是NVDA 2018.3的一部分。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -237,15 +230,6 @@ msgid ""
 msgstr "在某些上下文菜单中（例如在Edge中），位置信息（例如，1、2）不再被朗读。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "The following UIA events are recognized: active text position change, "
-#| "controller for, drag start, drag cancel, drag complete, element selected, "
-#| "live region change, notification, system alert, tooltip opened, window "
-#| "opened. With NVDA set to run with debug logging enabled, these events "
-#| "will be tracked, and for UIA notification event, a debug tone will be "
-#| "heard if notifications come from somewhere other than the currently "
-#| "active app."
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
@@ -254,16 +238,16 @@ msgid ""
 "will be tracked, and for UIA notification event, a debug tone will be heard "
 "if notifications come from somewhere other than the currently active app."
 msgstr ""
-"以下UIA事件被识别：活动文本位置更改，控制器，拖动开始，拖动取消，拖动完成，元"
-"素选择，实时区域更改，通知，系统警报，工具提示打开，窗口打开。将NVDA设置为启"
-"用调试日志记录运行时，将跟踪这些事件，对于UIA通知事件，如果通知来自当前活动应"
-"用程序以外的某个位置，则会听到调试音。"
+"现在识别以下UIA事件：活动文本位置更改，控制器，拖动开始，拖动取消，拖动完成，"
+"元素选择，项目状态，实时区域更改，通知，系统警报，工具提示打开，窗口打开。将"
+"NVDA设置为启用调试日志记录运行时，将跟踪这些事件，对于UIA通知事件，如果通知来"
+"自当前活动应用程序以外的某个位置，则会听到调试音。"
 
 #. type: Bullet: '* '
 msgid ""
 "Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
 "earlier NVDA releases."
-msgstr ""
+msgstr "NVDA 2018.4为使用早期NVDA版本的用户提供了后向移植UIA性能增强功能。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -294,12 +278,12 @@ msgstr "在更改屏幕分辨率或方向时，NVDA将不再公布“开始”�
 
 #. type: Bullet: '* '
 msgid "Brightness quick action is now a button instead of a toggle button."
-msgstr ""
+msgstr "亮度快速操作现在是一个按钮而不是切换按钮。"
 
 #. type: Bullet: '* '
 msgid ""
 "Various status changes such as Focus Assist and Brightness will be reported."
-msgstr ""
+msgstr "将朗读各种状态变化，例如Focus Assist和Brightness。"
 
 #. type: Title ##
 #, no-wrap
@@ -376,15 +360,13 @@ msgstr ""
 "完全互动。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When reviewing items in messages list, you can now use table navigation "
-#| "commands to review message headers."
 msgid ""
 "When reviewing items in messages list, you can now use table navigation "
 "commands to review message headers. Note that navigating between rows "
 "(messages) is not supported."
-msgstr "查看邮件列表中的项目时，现在可以使用表格导航命令查看消息标题。"
+msgstr ""
+"现在查看消息列表中的项目时，您现在可以使用表格导航命令来查看消息标题。请注"
+"意，不支持在行（消息）之间导航。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -414,7 +396,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Text auto-complete will be tracked and announced in address omnibar."
-msgstr ""
+msgstr "文本自动完成将在地址omnibar中跟踪和公布。"
 
 #. type: Title ##
 #, no-wrap
@@ -423,22 +405,18 @@ msgstr "系统键盘"
 
 #. type: Plain text
 msgid "Note: most features below are now part of NVDA 2018.3."
-msgstr ""
+msgstr "注意：以下大多数功能现在都是NVDA 2018.3的一部分。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
-#| "later, including the redesigned panel in build 17661 and later. For best "
-#| "experience when reading emojis, use Windows OneCore speech synthesizer."
 msgid ""
 "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
 "later, including the redesigned panel in Version 1809 (build 17661 and "
 "later) and changes made in 19H1 (build 18262). For best experience when "
 "reading emojis, use Windows OneCore speech synthesizer."
 msgstr ""
-"支持版本1709（RealCudior Update）中的EMOJI输入面板，并包括在构建17661和以后的"
-"重新设计的面板。在阅读表情符号时，最好使用Windows OneCore语言合成器。"
+"现在支持版本1709（秋季发行版更新）及更高版本中的表情符号输入面板，包括版本"
+"1809（版本17661及更高版本）中重新设计的面板以及19H1（版本18262）中所做的更"
+"改。要获得阅读表情符号时的最佳体验，请使用Windows OneCore语音合成器。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -453,16 +431,15 @@ msgid ""
 "panel may open to last browsed category, such as displaying skin tone "
 "modifier when opened to People category."
 msgstr ""
+"在1709后的版本中，NVDA将在表情符号面板打开时宣布第一个选定的表情符号。这在构"
+"建18262及更高版本中可以体验到，其中表情符号面板可以打开到上次浏览的类别，例如"
+"在打开到People类别时显示肤色修饰符。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for announcing cloud clipboard items in build 17666 (Redstone 5) "
-#| "and later."
 msgid ""
 "Support for announcing cloud clipboard items in Version 1809 (build 17666 "
 "and later)."
-msgstr "支持在17666版本（Redstone 5）及更高版本中朗读云端剪贴板项目。"
+msgstr "支持在版本1809（版本17666及更高版本）中朗读云剪贴板项目。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -480,6 +457,8 @@ msgid ""
 "NVDA will no longer play error tones or do nothing when closing emoji panel "
 "in more recent Insider Preview builds."
 msgstr ""
+"在最近的Insider Preview版本中关闭表情符号面板时，NVDA将不再播放错误音或不执行"
+"任何操作。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -493,14 +472,11 @@ msgid "Settings"
 msgstr "设置"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain information such as Windows Update progress is reported "
-#| "automatically."
 msgid ""
 "Certain information such as Windows Update progress is reported "
 "automatically, including Storage sense/disk cleanup widget."
-msgstr "某些信息（如Windows Update进度）会自动朗读。"
+msgstr ""
+"现在将自动报告某些信息，例如Windows Update进度，包括存储感知/磁盘清理小部件。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -514,14 +490,10 @@ msgid ""
 msgstr "当使用对象导航在控件之间导航时，可以识别设置组。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "For some combo boxes, NVDA will no longer fail to recognize labels and/or "
-#| "announce value changes."
 msgid ""
 "For some combo boxes and radio buttons, NVDA will no longer fail to "
 "recognize labels and/or announce value changes."
-msgstr "对于某些组合框，NVDA将不再无法识别标签/读出更改值。"
+msgstr "对于某些组合框和单选按钮，NVDA将不再无法识别标签和/或读出更改值。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -544,7 +516,7 @@ msgstr "Skype"
 
 #. type: Plain text
 msgid "Note: the below entries won't work properly in Skype 14 universal app."
-msgstr ""
+msgstr "注意：以下条目在Skype 14通用应用程序中无法正常运行。"
 
 #. type: Bullet: '* '
 msgid "Typing indicator text is announced just like Skype for Desktop client."

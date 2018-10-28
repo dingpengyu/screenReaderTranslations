@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2018-09-11 08:24+0800\n"
+"PO-Revision-Date: 2018-10-28 07:56+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: Simplified Chinese translate team <vgjh2005@gmail.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -22,34 +22,19 @@ msgid "[[!meta title=\"systrayList\"]]\n"
 msgstr "[[!meta title=\"systrayList托盘图标插件\"]]\n"
 
 #. type: Bullet: '*   '
-#, fuzzy
-#| msgid ""
-#| "Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista "
-#| "<ruiandrebatista at gmail.com>"
 msgid ""
 "Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors"
-msgstr ""
-"作者： Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista "
-"<ruiandrebatista at gmail.com>"
+msgstr "作者: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors"
 
 #. type: Bullet: '*   '
-#, fuzzy
-#| msgid "Download: [version 1.4][1]"
 msgid "Download [stable version][1]"
-msgstr "下载（版本1.4）：[1]"
+msgstr "下载 [稳定版][1]"
 
 #. type: Bullet: '*   '
-#, fuzzy
-#| msgid "Download: [version 1.4][1]"
 msgid "Download [development version][2]"
-msgstr "下载（版本1.4）：[1]"
+msgstr "下载 [开发板][2]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "This plugin makes possible to read and activate icons on the system tray "
-#| "within a list box for easy access to those items. With the plugin "
-#| "installed press NVDA+f11 for this dialog to pop-up."
 msgid ""
 "This add-on allows you to read and activate icons on the system tray or the "
 "task bar, within a list box, for easy access and interaction to those items. "
@@ -57,17 +42,11 @@ msgid ""
 "with system tray elements, and press twice to display task bar elements, "
 "which are the currently running applications."
 msgstr ""
-"此插件将允许您通过一个列表框快速的访问并激活托盘区域的图标和菜单。如果此插件"
-"已安装，可通过“NVDA加F11”组合键弹出对话框。"
+"此插件允许您在列表框中读取和激活系统托盘或任务栏上的图标，以便于访问和浏览这"
+"些项目。安装了插件后，按NVDA + f11一次，此对话框弹出系统托盘窗口，然后按两次"
+"显示任务栏窗口。"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Note that you can access the windows sysstem tray in any screenreader "
-#| "software using the windows+b shortcut key. This plugin is only useful to "
-#| "make the transition from JAWS for Windows smoother and to avoid some "
-#| "tooltips that may pop-up when cycling through the system tray with the "
-#| "windows keyboard means."
 msgid ""
 "Note that you can access the windows system tray in any screen reader "
 "software using the Windows+B, and the task bar by pressing Windows+T. This "
@@ -75,25 +54,24 @@ msgid ""
 "and to avoid some tooltips that may pop-up when cycling through the system "
 "tray with the windows keyboard means."
 msgstr ""
-"请注意，您可在任何的屏幕阅读器软件的支持下通过按下“Windows加Ｂ“键访问托盘图"
-"标。此插件只在让您从　ＪＡＷＳ　中过度，可以避免在使用　Windows 快捷键访问托"
-"盘图标时其他程序的托盘菜单的弹出的干扰。"
+"注意，您可以使用Windows + B访问任何屏幕阅读器软件中的Windows系统托盘，按"
+"Windows + T可以访问任务栏。此插件仅用于使从JAWS for Windows的过渡更顺畅，并避"
+"免在使用Windows键盘装置循环通过系统托盘时可能弹出的一些工具提示。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 2.0 2017-05-20"
+#, no-wrap
 msgid "Changes for 3.0 2018-10-27"
-msgstr "版本2.02017-05-20"
+msgstr "版本 3.0 2018-10-27"
 
 #. type: Plain text
 msgid ""
 "Support for Windows releases earlier than Windows 7 Service Pack 1 will end "
 "in 2019."
-msgstr ""
+msgstr "早于Windows 7 Service Pack 1的Windows版本支持将于2019年结束。"
 
 #. type: Bullet: '* '
 msgid "Add-on is Python 3 compatible."
-msgstr ""
+msgstr "插件现在与Python 3兼容。"
 
 #. type: Title ##
 #, no-wrap
@@ -110,7 +88,7 @@ msgstr "修复了各种用户界面问题。"
 
 #. type: Bullet: '* '
 msgid "New and updated translations."
-msgstr "更新新的翻译"
+msgstr "更新新的翻译。"
 
 #. type: Title ##
 #, no-wrap
@@ -127,7 +105,7 @@ msgstr "现在可以从附加组件管理器获得插件帮助。"
 
 #. type: Bullet: '* '
 msgid "Translation updates."
-msgstr "更新翻译"
+msgstr "更新翻译。"
 
 #. type: Title ##
 #, no-wrap
@@ -139,16 +117,12 @@ msgid "Requires NVDA 2012.3beta2 or greater."
 msgstr "要求 NVDA 2012.3 Beta1或更高。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Add donation request to installation"
 msgid "Add donation request to installation procedure"
-msgstr "增加捐助请求到安装程序"
+msgstr "将捐赠请求添加到安装过程"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "implemented taskbar support"
 msgid "Implemented taskbar support"
-msgstr "工具任务栏支持"
+msgstr "实现了任务栏支持"
 
 #. type: Bullet: '* '
 msgid ""
@@ -167,7 +141,7 @@ msgstr "1.3的更新　- 2012-05-25"
 
 #. type: Bullet: '* '
 msgid "Converted to an add-on package"
-msgstr "转换为一个　Add-On　插件包。"
+msgstr "转换为插件包"
 
 #. type: Bullet: '* '
 msgid "French and Turkish Translations."
@@ -179,10 +153,8 @@ msgid "Changes for  1.2 - 2012-04.25"
 msgstr "1.2的更新 - 2012-04.25"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Spanish and german translations. thanks to all that contributed."
 msgid "Spanish and German translations. Thanks to all that contributed."
-msgstr "西班牙语和德语的语言支持。感谢所有捐助过的人们。"
+msgstr "西班牙语和德语更新。感谢所有贡献者。"
 
 #. type: Title ##
 #, no-wrap
@@ -193,7 +165,7 @@ msgstr "1.1的更新 - 2012-03-20"
 msgid ""
 "Corrected a bug that was making it impossible to use the plugin when a "
 "gettext translation is not available"
-msgstr "修复：翻译不可用。"
+msgstr "修复了在gettext转换不可用时无法使用该插件的错误"
 
 #. type: Title ##
 #, no-wrap
@@ -210,7 +182,5 @@ msgid "[[!tag stable]]\n"
 msgstr "[[!tag stable]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=st"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=st"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=st"
