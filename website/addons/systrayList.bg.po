@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2017-11-19 21:58+0200\n"
+"PO-Revision-Date: 2018-10-28 10:19+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
 "Language: bg\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -34,10 +34,9 @@ msgid "Download [stable version][1]"
 msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Bullet: '*   '
-#, fuzzy
 #| msgid "Download [stable version][1]"
 msgid "Download [development version][2]"
-msgstr "Изтегляне на [стабилна версия][1]"
+msgstr "Изтегляне на [тестова версия][2]"
 
 #. type: Plain text
 msgid ""
@@ -55,13 +54,6 @@ msgstr ""
 "които са текущо изпълняващите се приложения."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Note that you can access the windows system tray in any screenreader "
-#| "software using the Windows+B, and the task bar by pressing Windows+T. "
-#| "This plugin is only useful to make the transition from JAWS for Windows "
-#| "smoother and to avoid some tooltips that may pop-up when cycling through "
-#| "the system tray with the windows keyboard means."
 msgid ""
 "Note that you can access the windows system tray in any screen reader "
 "software using the Windows+B, and the task bar by pressing Windows+T. This "
@@ -70,27 +62,29 @@ msgid ""
 "tray with the windows keyboard means."
 msgstr ""
 "Обърнете внимание, че без значение кой екранен четец използвате, може да "
-"достигнете до системния жлеб на windows с натискане на windows+b, а до "
-"лентата на задачите - с натискане на Windows+T. Тази добавка е полезна "
+"достигнете до системния жлеб на Windows с натискане на Windows+B, а до "
+"лентата на задачите – с натискане на Windows+T. Тази добавка е полезна "
 "главно за да помогне на потребители на JAWS for Windows да се адаптират към "
 "работа с NVDA и за избягването на някои помощни балони, които може да се "
 "появят при навигация в системния жлеб посредством клавиатурата."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Changes for 2.0 2017-05-20"
 msgid "Changes for 3.0 2018-10-27"
-msgstr "Промени във версия 2.0 2017-05-20"
+msgstr "Промени във версия 3.0 2018-10-27"
 
 #. type: Plain text
 msgid ""
 "Support for Windows releases earlier than Windows 7 Service Pack 1 will end "
 "in 2019."
 msgstr ""
+"Поддръжката за издания на Windows по-стари от Windows 7 Service Pack 1 ще "
+"бъде прекратена през 2019 г."
 
 #. type: Bullet: '* '
 msgid "Add-on is Python 3 compatible."
-msgstr ""
+msgstr "Добавена е съвместимост с Python 3"
 
 #. type: Title ##
 #, no-wrap
