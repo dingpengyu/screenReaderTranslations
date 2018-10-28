@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quickBooks2014\n"
 "POT-Creation-Date: 2018-09-24 00:53+1000\n"
-"PO-Revision-Date: 2017-06-03 16:17+0200\n"
+"PO-Revision-Date: 2018-10-28 16:49+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -45,26 +45,32 @@ msgstr "Caractéristiques"
 
 #. type: Bullet: '* '
 msgid "Automatic enabling of QuickBooks accessibility mode."
-msgstr ""
+msgstr "Activation automatique du mode d’accessibilité QuickBooks."
 
 #. type: Bullet: '* '
 msgid "Labeling of many input fields."
-msgstr ""
+msgstr "Étiquetage de nombreux champs de saisie."
 
 #. type: Bullet: '* '
 msgid ""
 "Tracking of focus and highlighting for lists such as the Chart of Accounts."
 msgstr ""
+"Suivi du focus et mise en évidence pour des listes telles que le plan "
+"comptable."
 
 #. type: Bullet: '* '
 msgid ""
 "Correct control type identification of custom check boxes, radio buttons and "
 "buttons."
 msgstr ""
+"Identification correcte du type de contrôle des cases à cocher "
+"personnalisées, des boutons radio et des boutons."
 
 #. type: Bullet: '* '
 msgid "Automatic reporting of messages in custom message dialogs."
 msgstr ""
+"Annonce automatique des messages dans les boîtes de dialogue de messages "
+"personnalisés."
 
 #. type: Plain text
 #, no-wrap

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pcKeyboardBrailleInput\n"
 "POT-Creation-Date: 2018-09-24 00:53+1000\n"
-"PO-Revision-Date: 2017-06-03 21:32+0200\n"
+"PO-Revision-Date: 2018-10-28 16:35+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -23,19 +23,19 @@ msgstr "[[!meta title=\"PC Keyboard Braille Input pour NVDA\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: NV Access Limited"
-msgstr ""
+msgstr "Auteur: NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "Copyright: 2012-2014 NV Access Limited"
-msgstr ""
+msgstr "Copyright: 2012-2014 NV Access Limited"
 
 #. type: Bullet: '* '
 msgid "License: GNU General Public License version 2.0"
-msgstr ""
+msgstr "License: GNU General Public License version 2.0"
 
 #. type: Bullet: '* '
 msgid "Download: [version 2014.1][1]"
-msgstr ""
+msgstr "Télécharger: [version 2014.1][1]"
 
 #. type: Plain text
 msgid ""
@@ -56,7 +56,7 @@ msgid "Press NVDA+z to enable braille input."
 msgstr "Appuyez sur NVDA + z pour activer la saisie braille."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "2. Type braille by pressing keys together on the PC keyboard as if it were a braille keyboard.\n"
 #| "\t- Use the keys s, d and f for dots 1, 2 and 3 respectively.\n"
@@ -74,13 +74,13 @@ msgid ""
 "3. You can press most other keys as normal, including space, backspace, enter and function keys.\n"
 "4. Press NVDA+z to disable braille input.\n"
 msgstr ""
-"2. taper braille en appuyant sur les touches ensemble  sur le clavier du PC comme s'il s'agissait d'un clavier braille.\n"
-"\t- Utiliser les touches s, d et f pour les points 1, 2 et 3 respectivement.\n"
-"\t- Utiliser les touches j, k et l pour les points 4, 5 et 6 respectivement.\n"
-"\t- Utiliser les touches a et ; (point virgule) pour les points 7 et 8, respectivement.\n"
-"\t- Vous pouvez également utiliser les touche de la rangée supérieur; c'est-à-dire q, w, e, r, u, i, o et p.\n"
-"3. Vous pouvez appuyer la plupart des autres touches comme d'habitude, y compris espace, retour arrière, entrée et les touches de fonction.\n"
-"4. Appuyez sur NVDA+z pour désactiver la saisie braille.\n"
+"2. Saisir  du braille en appuyant simultanément sur les touches du clavier de votre PC comme s'il s'agissait d'un clavier braille.\n"
+"\t* Utilisez les touches s, d et f pour les points 1, 2 et 3 respectivement.\n"
+"\t* Utilisez les touches j, k et l pour les points 4, 5 et 6 respectivement.\n"
+"\t* Utilisez les touches a et ; (point-virgule) pour les points 7 et 8, respectivement.\n"
+"\t* Vous pouvez également utiliser les touches de la rangée ci-dessus; c'est-à-dire. q, w, e, r, u, i, o et p.\n"
+"3. Vous pouvez appuyer sur la plupart des autres touches normalement, y compris espace, retour arrière, entrée et les touches de fonction.\n"
+"4. Appuyez sur NVDA + z pour désactiver la saisie braille.\n"
 
 #. type: Title ##
 #, no-wrap
@@ -123,10 +123,9 @@ msgid "Contributors"
 msgstr "Contributeurs"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "- James Teh"
 msgid "James Teh"
-msgstr "- James Teh"
+msgstr "James Teh"
 
 #. type: Plain text
 #, no-wrap
