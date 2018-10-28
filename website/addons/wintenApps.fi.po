@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Windows 10 App Essentials\n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2018-08-31 08:08+0200\n"
+"PO-Revision-Date: 2018-10-28 13:24+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -53,7 +53,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Action center"
-msgstr ""
+msgstr "Toimintokeskus"
 
 #. type: Bullet: '* '
 msgid "Alarms and Clock."
@@ -137,11 +137,6 @@ msgid "Notes:"
 msgstr "Huomautuksia:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "This add-on requires Windows 10 Version 1709 (build 16299) or later and "
-#| "NVDA 2018.2 or later. For best results, use the add-on with latest "
-#| "Windows 10 stable release (build 17134) and latest stable version of NVDA."
 msgid ""
 "This add-on requires Windows 10 Version 1709 (build 16299) or later and NVDA "
 "2018.3 or later. For best results, use the add-on with latest Windows 10 "
@@ -150,9 +145,10 @@ msgid ""
 "Microsoft."
 msgstr ""
 "Huom: Tämä lisäosa edellyttää Windows 10:n versiota 1709 (koontiversio "
-"16299) tai uudempaa ja NVDA 2018.2:ta tai uudempaa. Käytä parhaan "
+"16299) tai uudempaa ja NVDA 2018.3:ta tai uudempaa. Käytä parhaan "
 "käyttökokemuksen varmistamiseksi Windows 10:n viimeisintä vakaata versiota "
-"(koontiversio 17134) sekä uusinta NVDA:ta."
+"(koontiversio 17134) sekä uusinta NVDA:ta. Huomaa, että versiota 1809 "
+"(koontiversio 17763) ei ole toistaiseksi saatavilla Microsoftilta."
 
 #. type: Bullet: '* '
 msgid "Some add-on features are or will be part of NVDA screen reader."
@@ -187,6 +183,8 @@ msgid ""
 "If Add-on Updater add-on is installed, that add-on will check for Windows 10 "
 "App Essentials updates."
 msgstr ""
+"Jos Lisäosien päivittäjä -lisäosa on asennettuna, se tarkistaa Windows 10 "
+"App Essentialsin päivitykset."
 
 #. type: Bullet: '* '
 msgid ""
@@ -194,6 +192,9 @@ msgid ""
 "and development releases. This is applicable if the add-on itself checks for "
 "updates."
 msgstr ""
+"Sekä vakaiden että kehitysversioiden päivitykset tarkistetaan nyt "
+"oletusarvoisesti viikon välein. Tämä pitää paikkansa vain, mikäli käytössä "
+"on lisäosan oma päivitystentarkistustoiminto."
 
 #. type: Bullet: '* '
 msgid ""
@@ -205,19 +206,14 @@ msgstr ""
 "sovellusvalikko (Redstone 5)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain dialogs are now recognized as proper dialogs and reported as "
-#| "such, including Insider Preview dialog (settings app). This will be part "
-#| "of NVDA 2018.3."
 msgid ""
 "Certain dialogs are now recognized as proper dialogs and reported as such, "
 "including Insider Preview dialog (settings app). This is now part of NVDA "
 "2018.3."
 msgstr ""
-"Tietyt valintaikkunat tunnistetaan ja puhutaan nyt asianmukaisesti "
+"½Tietyt valintaikkunat tunnistetaan ja puhutaan nyt asianmukaisesti "
 "valintaikkunoina, mukaan lukien Insider-esiversion valintaikkuna (Asetukset-"
-"sovellus). Tämä tulee sisältymään NVDA 2018.3:een."
+"sovellus). Tämä sisältyy nyt NVDA 2018.3:een."
 
 #. type: Bullet: '* '
 msgid ""
@@ -238,15 +234,6 @@ msgstr ""
 "Edgessä)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "The following UIA events are recognized: active text position change, "
-#| "controller for, drag start, drag cancel, drag complete, element selected, "
-#| "live region change, notification, system alert, tooltip opened, window "
-#| "opened. With NVDA set to run with debug logging enabled, these events "
-#| "will be tracked, and for UIA notification event, a debug tone will be "
-#| "heard if notifications come from somewhere other than the currently "
-#| "active app."
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
@@ -257,16 +244,19 @@ msgid ""
 msgstr ""
 "Seuraavat UIA-tapahtumat tunnistetaan: sijainnin muutos aktiivisessa "
 "tekstissä, ohjain kohteelle, vetämisen aloitus, vetämisen peruutus, "
-"vetäminen suoritettu, elementti valittu, aktiivisen alueen muutos, ilmoitus, "
-"järjestelmän ilmoitus, työkaluvihje avattu, ikkuna avattu. Näitä tapahtumia "
-"seurataan ja UIA-ilmoitustapahtuma ilmaistaan virheäänellä, kun NVDA:n "
-"lokitasoksi on määritetty \"virheenkorjaus\"."
+"vetäminen suoritettu, elementti valittu, kohteen tila, aktiivisen alueen "
+"muutos, ilmoitus, järjestelmän ilmoitus, työkaluvihje avattu, ikkuna avattu. "
+"Näitä tapahtumia seurataan, kun NVDA:n lokitasoksi on määritetty "
+"\"virheenkorjaus\", ja UIA-ilmoitustapahtuma ilmaistaan virheäänellä, mikäli "
+"ilmoitukset tulevat muualta kuin aktiivisesta sovelluksesta."
 
 #. type: Bullet: '* '
 msgid ""
 "Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
 "earlier NVDA releases."
 msgstr ""
+"Lisätty NVDA 2018.4:n UIA-suorituskykyparannuksen korjaus ja tehty se "
+"taaksepäin yhteensopivaksi vanhempien NVDA-versioiden kanssa."
 
 #. type: Bullet: '* '
 msgid ""
@@ -303,12 +293,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Brightness quick action is now a button instead of a toggle button."
-msgstr ""
+msgstr "Kirkkaus-pikatoiminto on nyt vipupainikkeen sijasta painike."
 
 #. type: Bullet: '* '
 msgid ""
 "Various status changes such as Focus Assist and Brightness will be reported."
 msgstr ""
+"Useat tilojen, kuten Keskittymisavustajan ja kirkkauden, muutokset "
+"ilmoitetaan."
 
 #. type: Title ##
 #, no-wrap
@@ -395,17 +387,14 @@ msgstr ""
 "koontiversiota 17723."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When reviewing items in messages list, you can now use table navigation "
-#| "commands to review message headers."
 msgid ""
 "When reviewing items in messages list, you can now use table navigation "
 "commands to review message headers. Note that navigating between rows "
 "(messages) is not supported."
 msgstr ""
 "Voit nyt käyttää viestiluettelon kohteita tarkastellessasi "
-"taulukkonavigointikomentoja viestiotsakkeiden lukemiseen."
+"taulukkonavigointikomentoja viestiotsakkeiden lukemiseen. Huomaa, että "
+"rivien (viestien) välillä liikkumista ei tueta."
 
 #. type: Bullet: '* '
 msgid ""
@@ -438,6 +427,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Text auto-complete will be tracked and announced in address omnibar."
 msgstr ""
+"Tekstin automaattista täydennystä seurataan ja siitä ilmoitetaan "
+"osoitepalkissa."
 
 #. type: Title ##
 #, no-wrap
@@ -447,13 +438,10 @@ msgstr "Moderni näppäimistö"
 #. type: Plain text
 msgid "Note: most features below are now part of NVDA 2018.3."
 msgstr ""
+"Huom: suurin osa alla luetelluista ominaisuuksista sisältyy nyt NVDA 2018.3:"
+"een."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
-#| "later, including the redesigned panel in build 17661 and later. For best "
-#| "experience when reading emojis, use Windows OneCore speech synthesizer."
 msgid ""
 "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
 "later, including the redesigned panel in Version 1809 (build 17661 and "
@@ -461,9 +449,10 @@ msgid ""
 "reading emojis, use Windows OneCore speech synthesizer."
 msgstr ""
 "Tuki version 1709 (Fall Creators -päivitys) ja uudempien kelluvalle "
-"emojinsyöttöpaneelille, mukaan lukien koontiversion 17661 ja uudempien "
-"uudelleensuunniteltu paneeli. Käytä parhaan kokemuksen saamiseksi Windows "
-"OneCore -syntetisaattoria."
+"emojinsyöttöpaneelille, mukaan lukien version 1809 (koontiversio 17661 ja "
+"uudemmat) uudelleensuunniteltu paneeli sekä versioon 19H1 (koontiversio "
+"18262) tehdyt muutokset. Käytä parhaan kokemuksen saamiseksi Windows OneCore "
+"-syntetisaattoria."
 
 #. type: Bullet: '* '
 msgid ""
@@ -480,18 +469,19 @@ msgid ""
 "panel may open to last browsed category, such as displaying skin tone "
 "modifier when opened to People category."
 msgstr ""
+"Kun emojipaneeli avautuu, NVDA ilmoittaa koontiversion 1709 jälkeisissä "
+"versioissa ensimmäisen valittuna olevan emojin. Tämä on näkyvämpää "
+"koontiversiossa 18262 ja uudemmissa, joissa emojipaneeli saattaa avautua "
+"viimeksi selattuun kategoriaan, kuten näyttäessään ihonvärimuuntimen Ihmiset-"
+"kategorian avauduttua."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for announcing cloud clipboard items in build 17666 (Redstone 5) "
-#| "and later."
 msgid ""
 "Support for announcing cloud clipboard items in Version 1809 (build 17666 "
 "and later)."
 msgstr ""
-"Tuki pilvileikepöydän kohteiden ilmoittamiselle koontiversiossa 17666 "
-"(Redstone 5) ja uudemmissa."
+"Tuki pilvileikepöydän kohteiden ilmoittamiselle versiossa 1809 (koontiversio "
+"17666 ja uudemmat)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -511,6 +501,8 @@ msgid ""
 "NVDA will no longer play error tones or do nothing when closing emoji panel "
 "in more recent Insider Preview builds."
 msgstr ""
+"NVDA ei enää toista virheääniä tai ole tekemättä mitään emojipaneelia "
+"suljettaessa uudemmissa Insider-esiversioissa."
 
 #. type: Bullet: '* '
 msgid ""
@@ -526,16 +518,13 @@ msgid "Settings"
 msgstr "Asetukset"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain information such as Windows Update progress is reported "
-#| "automatically."
 msgid ""
 "Certain information such as Windows Update progress is reported "
 "automatically, including Storage sense/disk cleanup widget."
 msgstr ""
 "Määrätyt tiedot, kuten Windows Updaten päivitysten asennuksen edistyminen, "
-"puhutaan nyt automaattisesti."
+"mukaan lukien Tallennusseurannan/Levynsiivouksen pienoisohjelma, puhutaan "
+"nyt automaattisesti."
 
 #. type: Bullet: '* '
 msgid ""
@@ -551,16 +540,12 @@ msgstr ""
 "käyttäen."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "For some combo boxes, NVDA will no longer fail to recognize labels and/or "
-#| "announce value changes."
 msgid ""
 "For some combo boxes and radio buttons, NVDA will no longer fail to "
 "recognize labels and/or announce value changes."
 msgstr ""
-"NVDA ei enää epäonnistu joidenkin yhdistelmäruutujen selitteiden "
-"tunnistamisessa ja/tai arvomuutosten ilmoittamisessa."
+"NVDA ei enää epäonnistu joidenkin yhdistelmäruutujen ja valintapainikkeiden "
+"selitteiden tunnistamisessa ja/tai arvomuutosten ilmoittamisessa."
 
 #. type: Bullet: '* '
 msgid ""
@@ -586,6 +571,8 @@ msgstr "Skype"
 #. type: Plain text
 msgid "Note: the below entries won't work properly in Skype 14 universal app."
 msgstr ""
+"Huom: alla mainitut kohdat eivät toimi oikein Skype 14:n universaalissa "
+"sovelluksessa."
 
 #. type: Bullet: '* '
 msgid "Typing indicator text is announced just like Skype for Desktop client."
