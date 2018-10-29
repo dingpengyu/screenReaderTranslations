@@ -5,14 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-29 17:01+1000\n"
-"PO-Revision-Date: 2018-09-24 22:39+0700\n"
+"PO-Revision-Date: 2018-10-29 14:22+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -912,25 +912,24 @@ msgstr ""
 "và sử dụng các thao tác cảm ứng đã liệt kê ở trên để thực hiện các lệnh."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 18.10.1/18.09.3-LTS"
 msgid "Version 18.11/18.09.5-LTS"
-msgstr "Phiên bản 18.10.1/18.09.3-LTS"
+msgstr "Phiên bản 18.11/18.09.5-LTS"
 
 #. type: Plain text
 msgid ""
 "Note: 18.11.1 replaces 18.11 in order to provide more solid Studio 5.31 "
 "support."
 msgstr ""
+"Lưu ý: 18.11.1 thay thế 18.11 để cung cấp những hỗ trợ đắc lực hơn cho "
+"Studio 5.31."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Initial support for StationPlaylist Studio 5.30."
 msgid "Initial support for StationPlaylist Studio 5.31."
-msgstr "Bắt đầu hỗ trợ cho StationPlaylist Studio 5.30."
+msgstr "Bắt đầu hỗ trợ cho StationPlaylist Studio 5.31."
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "You can now perform Track Finder command (Control+NVDA+F) while a "
 #| "playlist is loaded but the first track isn't focused."
@@ -939,35 +938,28 @@ msgid ""
 "(SPL Assistant, Shift+F8) while a playlist is loaded but the first track "
 "isn't focused."
 msgstr ""
-"Giờ bạn có thể thực hiện lệnh tìm kiếm track (Control+NVDA+F) khi đã tải một "
-"danh sách phát nhưng con trỏ không đứng ở track đầu tiên."
+"Giờ bạn có thể thu thập các ảnh chụp (SPL Assistant, F8) và bảng điểm danh "
+"sách phát (SPL Assistant, Shift+F8) khi một danh sách phát được mở nhưng con "
+"trỏ không đứng ở tack đầu tiên."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will no longer appear to do nothing or play error tones when trying "
-#| "to obtain metadata streaming status via SPL Assistant (E)."
 msgid ""
 "NVDA will no longer appear to do nothing or play error tones when trying to "
 "announce metadata streaming status when Studio starts if configured to do so."
 msgstr ""
 "NVDA sẽ không còn tình trạng không làm gì hoặc phát âm thanh báo lỗi khi cố "
-"gắng thu thập trạng thái metadata streaming thông qua SPL Assistant (E)."
+"gắng thông báo trạng thái metadata streaming khi khởi độn Studio nếu đã được "
+"cấu hình như vậy."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "If NVDA is configured to announce metadata streaming status when Studio "
-#| "starts, NVDA will honor this setting and no longer announce streaming "
-#| "status when switching to and from instant switch profiles."
 msgid ""
 "If configured to announce metadata streaming status at startup, metadata "
 "streaming status announcement will no longer cut off announcements about "
 "status bar changes and vice versa."
 msgstr ""
 "Nếu được cấu hình để thông báo trạng thái metadata streaming khi khởi động "
-"Studio, NVDA sẽ tôn trọng thiết lập này và không thông báo trạng thái phát "
-"khi chuyển đến và chuyển đi khỏi các hồ sơ chuyển nhánh."
+"Studio, việc thông báo trạng thái metadata streaming sẽ không còn bỏ đi các "
+"thông báo thay đổi thanh trạng thái và ngược lại."
 
 #. type: Title ##
 #, no-wrap
