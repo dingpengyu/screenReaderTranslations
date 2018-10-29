@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA website files\n"
-"POT-Creation-Date: 2018-10-28 06:10+1000\n"
+"POT-Creation-Date: 2018-10-29 17:01+1000\n"
 "PO-Revision-Date: 2018-05-29 11:16+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA Translation team <LL@li.org>\n"
@@ -985,6 +985,18 @@ msgstr ""
 #| msgid "Version 16.10.1/15.2-LTS"
 msgid "Version 18.11/18.09.5-LTS"
 msgstr "Versión 16.10.1/15.2-LTS"
+
+#. type: Plain text
+msgid ""
+"Note: 18.11.1 replaces 18.11 in order to provide more solid Studio 5.31 "
+"support."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Initial support for StationPlaylist Studio 5.30."
+msgid "Initial support for StationPlaylist Studio 5.31."
+msgstr "Soporte inicial para StationPlaylist Studio 5.30."
 
 #. type: Bullet: '* '
 #, fuzzy

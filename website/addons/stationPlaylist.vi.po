@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-28 06:10+1000\n"
+"POT-Creation-Date: 2018-10-29 17:01+1000\n"
 "PO-Revision-Date: 2018-09-24 22:39+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
@@ -916,6 +916,18 @@ msgstr ""
 #| msgid "Version 18.10.1/18.09.3-LTS"
 msgid "Version 18.11/18.09.5-LTS"
 msgstr "Phiên bản 18.10.1/18.09.3-LTS"
+
+#. type: Plain text
+msgid ""
+"Note: 18.11.1 replaces 18.11 in order to provide more solid Studio 5.31 "
+"support."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Initial support for StationPlaylist Studio 5.30."
+msgid "Initial support for StationPlaylist Studio 5.31."
+msgstr "Bắt đầu hỗ trợ cho StationPlaylist Studio 5.30."
 
 #. type: Bullet: '* '
 #, fuzzy

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-28 06:10+1000\n"
+"POT-Creation-Date: 2018-10-29 17:01+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -765,6 +765,16 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.11/18.09.5-LTS"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Note: 18.11.1 replaces 18.11 in order to provide more solid Studio 5.31 "
+"support."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Initial support for StationPlaylist Studio 5.31."
 msgstr ""
 
 #. type: Bullet: '* '
