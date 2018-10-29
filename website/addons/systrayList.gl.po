@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2017-11-30 20:33+0100\n"
-"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
+"PO-Revision-Date: 2018-10-28 11:37+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: \n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -33,10 +33,8 @@ msgid "Download [stable version][1]"
 msgstr "Descargar [versión estable][1]"
 
 #. type: Bullet: '*   '
-#, fuzzy
-#| msgid "Download [stable version][1]"
 msgid "Download [development version][2]"
-msgstr "Descargar [versión estable][1]"
+msgstr "Descargar [versión de desenvolvemento][2]"
 
 #. type: Plain text
 msgid ""
@@ -54,13 +52,6 @@ msgstr ""
 "aplicacións actualmente en execución."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Note that you can access the windows system tray in any screenreader "
-#| "software using the Windows+B, and the task bar by pressing Windows+T. "
-#| "This plugin is only useful to make the transition from JAWS for Windows "
-#| "smoother and to avoid some tooltips that may pop-up when cycling through "
-#| "the system tray with the windows keyboard means."
 msgid ""
 "Note that you can access the windows system tray in any screen reader "
 "software using the Windows+B, and the task bar by pressing Windows+T. This "
@@ -76,20 +67,21 @@ msgstr ""
 "Windows."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 2.0 2017-05-20"
+#, no-wrap
 msgid "Changes for 3.0 2018-10-27"
-msgstr "Cambios para 2.0 2017-05-20"
+msgstr "Cambios para 3.0 2018-10-27"
 
 #. type: Plain text
 msgid ""
 "Support for Windows releases earlier than Windows 7 Service Pack 1 will end "
 "in 2019."
 msgstr ""
+"O soporte para versións de Windows anteriores a Windows 7 Service Pack 1 "
+"rematará en 2019."
 
 #. type: Bullet: '* '
 msgid "Add-on is Python 3 compatible."
-msgstr ""
+msgstr "O complemento é compatible con Python 3."
 
 #. type: Title ##
 #, no-wrap

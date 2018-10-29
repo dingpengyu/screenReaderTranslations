@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons traslation team\n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2018-06-26 17:14+0100\n"
-"Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
+"PO-Revision-Date: 2018-10-28 11:38+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Galician translation team <oprisniki@gmail.com>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Plain text
@@ -54,10 +54,6 @@ msgstr ""
 "algunha."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
-#| "currently focused application."
 msgid ""
 "Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
@@ -153,14 +149,13 @@ msgstr ""
 "limparanse as da aplicación."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 3.0"
+#, no-wrap
 msgid "Version 3.2"
-msgstr "Versión 3.0"
+msgstr "Versión 3.2"
 
 #. type: Bullet: '* '
 msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
-msgstr ""
+msgstr "O complemento é compatible con NVDA 2018.3 (WxPython 4)."
 
 #. type: Title ##
 #, no-wrap

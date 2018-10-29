@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: website files\n"
 "POT-Creation-Date: 2018-10-05 19:26+1000\n"
-"PO-Revision-Date: 2018-09-20 20:30+0100\n"
-"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
+"PO-Revision-Date: 2018-10-26 21:04+0200\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -427,10 +427,9 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
 
 #~ msgid ""
 #~ "Also, it's possible to enable Settings only in normal configuration (not "
