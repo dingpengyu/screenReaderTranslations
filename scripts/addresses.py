@@ -58,7 +58,7 @@ addresses = {
     },
     'es': {
         'lang': 'Spanish',
-        'email': ['Juan C. buno <oprisniki@gmail.com>', 'Noelia Martinez <nrm1977@gmail.com>', 'Remy Ruiz <remyruiz@gmail.com>'],
+        'email': ['Juan C. buno <oprisniki@gmail.com>', 'Noelia Martinez <nrm1977@gmail.com>', 'Remy Ruiz <remyruiz@gmail.com>', 'Jose M. Delicado <jm.delicado@nvda.es>'],
     },
     'es_CO': {
         'lang': 'Spanish Colombia',
@@ -82,7 +82,7 @@ addresses = {
     },
     'gl': {
         'lang': 'Galician',
-        'email': ['Juan C. buno <oprisniki@gmail.com>'],
+        'email': ['Juan C. buno <oprisniki@gmail.com>', 'Ivan Novegil <ivan.novegil@nvda.es>'],
     },
     'he': {
         'lang': 'Hebrew',
