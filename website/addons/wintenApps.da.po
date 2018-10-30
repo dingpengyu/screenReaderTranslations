@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-28 06:10+1000\n"
+"POT-Creation-Date: 2018-10-31 04:07+1000\n"
 "PO-Revision-Date: 2018-08-17 12:05+0200\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: \n"
@@ -258,12 +258,6 @@ msgstr ""
 "opened. Med NVDA indstillet til at køre med logføring aktiveret, spores "
 "disse begivenheder, og for UIA notification event, en fejltone vil blive "
 "hørt, hvis notifikationer kommer fra en anden app en den aktuelle."
-
-#. type: Bullet: '* '
-msgid ""
-"Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
-"earlier NVDA releases."
-msgstr ""
 
 #. type: Bullet: '* '
 #, fuzzy

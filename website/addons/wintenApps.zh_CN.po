@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-28 06:10+1000\n"
+"POT-Creation-Date: 2018-10-31 04:07+1000\n"
 "PO-Revision-Date: 2018-10-28 08:16+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
@@ -242,12 +242,6 @@ msgstr ""
 "元素选择，项目状态，实时区域更改，通知，系统警报，工具提示打开，窗口打开。将"
 "NVDA设置为启用调试日志记录运行时，将跟踪这些事件，对于UIA通知事件，如果通知来"
 "自当前活动应用程序以外的某个位置，则会听到调试音。"
-
-#. type: Bullet: '* '
-msgid ""
-"Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
-"earlier NVDA releases."
-msgstr "NVDA 2018.4为使用早期NVDA版本的用户提供了后向移植UIA性能增强功能。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -611,6 +605,11 @@ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
 #. type: Plain text
 msgid "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
 msgstr "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
+
+#~ msgid ""
+#~ "Backported UIA performance enhancement fix from NVDA 2018.4 for users "
+#~ "using earlier NVDA releases."
+#~ msgstr "NVDA 2018.4为使用早期NVDA版本的用户提供了后向移植UIA性能增强功能。"
 
 #~ msgid ""
 #~ "Added ability to check for add-on updates (automatic or manual) via "

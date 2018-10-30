@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Windows 10 App Essentials\n"
-"POT-Creation-Date: 2018-10-28 06:10+1000\n"
+"POT-Creation-Date: 2018-10-31 04:07+1000\n"
 "PO-Revision-Date: 2018-10-28 13:24+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
@@ -249,14 +249,6 @@ msgstr ""
 "Näitä tapahtumia seurataan, kun NVDA:n lokitasoksi on määritetty "
 "\"virheenkorjaus\", ja UIA-ilmoitustapahtuma ilmaistaan virheäänellä, mikäli "
 "ilmoitukset tulevat muualta kuin aktiivisesta sovelluksesta."
-
-#. type: Bullet: '* '
-msgid ""
-"Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
-"earlier NVDA releases."
-msgstr ""
-"Lisätty NVDA 2018.4:n UIA-suorituskykyparannuksen korjaus ja tehty se "
-"taaksepäin yhteensopivaksi vanhempien NVDA-versioiden kanssa."
 
 #. type: Bullet: '* '
 msgid ""
@@ -679,6 +671,13 @@ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
 #. type: Plain text
 msgid "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
 msgstr "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
+
+#~ msgid ""
+#~ "Backported UIA performance enhancement fix from NVDA 2018.4 for users "
+#~ "using earlier NVDA releases."
+#~ msgstr ""
+#~ "Lisätty NVDA 2018.4:n UIA-suorituskykyparannuksen korjaus ja tehty se "
+#~ "taaksepäin yhteensopivaksi vanhempien NVDA-versioiden kanssa."
 
 #~ msgid ""
 #~ "Added ability to check for add-on updates (automatic or manual) via "

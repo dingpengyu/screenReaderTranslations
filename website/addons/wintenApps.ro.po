@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-28 06:10+1000\n"
+"POT-Creation-Date: 2018-10-31 04:07+1000\n"
 "PO-Revision-Date: 2018-08-30 13:32+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -265,12 +265,6 @@ msgstr ""
 "deschis, fereastră deschisă. Cu NVDA-ul setat să ruleze cu diagnosticarea "
 "activată, aceste evenimente vor fi urmărite, iar pentru evenimentul de tip "
 "notificare UIA, se va auzi un ton de diagnosticare."
-
-#. type: Bullet: '* '
-msgid ""
-"Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
-"earlier NVDA releases."
-msgstr ""
 
 #. type: Bullet: '* '
 msgid ""

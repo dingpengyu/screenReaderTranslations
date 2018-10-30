@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-28 06:10+1000\n"
+"POT-Creation-Date: 2018-10-31 04:07+1000\n"
 "PO-Revision-Date: 2018-08-30 02:39+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -262,12 +262,6 @@ msgstr ""
 "Benachrichtigungsereignisse wird ein Debug-Ton ausgegeben, wenn "
 "Benachrichtigungen von einem anderen Ort als der aktuell aktiven Anwendung "
 "kommen."
-
-#. type: Bullet: '* '
-msgid ""
-"Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
-"earlier NVDA releases."
-msgstr ""
 
 #. type: Bullet: '* '
 msgid ""

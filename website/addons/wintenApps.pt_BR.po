@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Windows 10 aplicações essenciais\n"
-"POT-Creation-Date: 2018-10-28 06:10+1000\n"
+"POT-Creation-Date: 2018-10-31 04:07+1000\n"
 "PO-Revision-Date: 2018-10-05 21:38-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
@@ -266,12 +266,6 @@ msgstr ""
 "rastreados e, para o evento de notificação UIA, um bipe de depuração será "
 "ouvido se as notificações vierem de algum lugar diferente do aplicativo "
 "atualmente ativo."
-
-#. type: Bullet: '* '
-msgid ""
-"Backported UIA performance enhancement fix from NVDA 2018.4 for users using "
-"earlier NVDA releases."
-msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
