@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Calibre\n"
-"POT-Creation-Date: 2018-11-01 22:46+1000\n"
+"POT-Creation-Date: 2018-11-02 08:55+1000\n"
 "PO-Revision-Date: 2018-11-01 15:45+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
@@ -39,22 +39,16 @@ msgstr "Lataa [kehitysversio][2]"
 msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
 msgstr "Lisäosa, joka parantaa Calibre-e-kirjanhallintasovelluksen käyttöliittymän saavutettavuutta\n"
 
-#. type: Bullet: '* '
-msgid "F5 open the context menu for virtual libraries"
-msgstr "F5: avaa virtuaalikirjastojen tilannekohtaisen valikon"
-
-#. type: Bullet: '* '
-msgid "F6 open the context menu for saved searches"
-msgstr "F6: avaa tallennettujen hakujen tilannekohtaisen valikon"
-
-#. type: Bullet: '* '
-msgid "F7 open the context menu for adding books"
-msgstr "F7: avaa tilannekohtaisen valikon kirjojen lisäämistä varten"
-
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "* F8 open the context menu for selecting   and maintenance library\n"
+#| "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
+#| "* F12 search the current book in Google\n"
+#| "* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
+#| "* NVDA+Control+H open the context menu for settings of the current column\n"
+#| "* I in library view reads the book information.\n"
 msgid ""
-"* F8 open the context menu for selecting   and maintenance library\n"
 "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
 "* F12 search the current book in Google\n"
 "* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
@@ -103,3 +97,12 @@ msgstr "[3]: https://manual.calibre-ebook.com/gui.html"
 #. type: Plain text
 msgid "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
 msgstr "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
+
+#~ msgid "F5 open the context menu for virtual libraries"
+#~ msgstr "F5: avaa virtuaalikirjastojen tilannekohtaisen valikon"
+
+#~ msgid "F6 open the context menu for saved searches"
+#~ msgstr "F6: avaa tallennettujen hakujen tilannekohtaisen valikon"
+
+#~ msgid "F7 open the context menu for adding books"
+#~ msgstr "F7: avaa tilannekohtaisen valikon kirjojen lisäämistä varten"

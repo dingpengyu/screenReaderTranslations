@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Calibre, versão 1\n"
-"POT-Creation-Date: 2018-11-01 22:46+1000\n"
+"POT-Creation-Date: 2018-11-02 08:55+1000\n"
 "PO-Revision-Date: 2018-11-01 13:14+0000\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: Equipa Portuguesa do NVDA: Ângelo Abrantes e Rui Fontes\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
-"Language-Team: Equipa Portuguesa do NVDA: Ângelo Abrantes e Rui Fontes\n"
 "X-Generator: Poedit 2.0.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -39,22 +39,16 @@ msgstr "Baixar [versão de desenvolvimento][2]"
 msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
 msgstr "Um extra do NVDA com algumas funções de acessibilidade para o gestor de livros \"Calibre\"\n"
 
-#. type: Bullet: '* '
-msgid "F5 open the context menu for virtual libraries"
-msgstr "F5 abre o menu de contexto para as bibliotecas virtuais"
-
-#. type: Bullet: '* '
-msgid "F6 open the context menu for saved searches"
-msgstr "f6 abre o menu de contexto para as pesquisar guardadas"
-
-#. type: Bullet: '* '
-msgid "F7 open the context menu for adding books"
-msgstr "f7 abre o menu de contexto para adicionar livros"
-
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "* F8 open the context menu for selecting   and maintenance library\n"
+#| "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
+#| "* F12 search the current book in Google\n"
+#| "* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
+#| "* NVDA+Control+H open the context menu for settings of the current column\n"
+#| "* I in library view reads the book information.\n"
 msgid ""
-"* F8 open the context menu for selecting   and maintenance library\n"
 "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
 "* F12 search the current book in Google\n"
 "* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
@@ -103,3 +97,12 @@ msgstr "[3]: https://manual.calibre-ebook.com/gui.html"
 #. type: Plain text
 msgid "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
 msgstr "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
+
+#~ msgid "F5 open the context menu for virtual libraries"
+#~ msgstr "F5 abre o menu de contexto para as bibliotecas virtuais"
+
+#~ msgid "F6 open the context menu for saved searches"
+#~ msgstr "f6 abre o menu de contexto para as pesquisar guardadas"
+
+#~ msgid "F7 open the context menu for adding books"
+#~ msgstr "f7 abre o menu de contexto para adicionar livros"
