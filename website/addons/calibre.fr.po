@@ -3,108 +3,102 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-01 22:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-11-01 16:27+0100\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.12\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Calibre\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Calibre\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Javi Dominguez"
-msgstr ""
+msgstr "Auteur : Javi Dominguez"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Télécharger [version stable][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Télécharger [version de développement][2]"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-" An NVDA add-on with some accessibility enhancements for the interface of "
-"Calibre eBook Management\n"
-msgstr ""
+msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
+msgstr " Un module complémentaire NVDA avec quelques améliorations d'accessibilité pour l'interface du gestionnaire de livres Calibre (Calibre eBook Management)\n"
 
 #. type: Bullet: '* '
 msgid "F5 open the context menu for virtual libraries"
-msgstr ""
+msgstr "F5 ouvre le menu contextuel pour les bibliothèques virtuelles"
 
 #. type: Bullet: '* '
 msgid "F6 open the context menu for saved searches"
-msgstr ""
+msgstr "F6 ouvre le menu contextuel pour les recherches sauvegardées"
 
 #. type: Bullet: '* '
 msgid "F7 open the context menu for adding books"
-msgstr ""
+msgstr "F7 ouvre le menu contextuel pour ajouter des livres"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* F8 open the context menu for selecting   and maintenance library\n"
-"* F10 brings the focus to   the toolbar. Then you can navigate it with "
-"standard keys (tab and arrows); enter to activate item and key applications "
-"to display the context menu; escape to exit the toolbar.\n"
+"* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
 "* F12 search the current book in Google\n"
-"* NVDA+Alt+End says the total of books in the current library view and the "
-"number of books selected\n"
+"* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
+"* F8 ouvre le menu contextuel de sélection et de maintenance de la bibliothèque\n"
+"* F10 amène le focus sur la barre d'outils. Ensuite, vous pouvez naviguer avec les touches standard (tab et flèches) ; entrer pour activer l'élément et la touche applications pour afficher le menu contextuel ; ECHAP pour quitter la barre d'outils.\n"
+"* F12 recherchez le livre actuellement sélectionné sur Google\n"
+"* NVDA+Alt+Fin annonce le nombre total de livres dans la vue de la bibliothèque actuelle et le nombre de livres sélectionnés\n"
+"* NVDA+Contrôle+H ouvre le menu contextuel des paramètres pour la configuration de la colonne actuelle\n"
+"* I sur un livre dans la vue de la bibliothèque lit les informations du livre.\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"Keystrokes can be customized in  Preferences  of NVDA > Input gestures when "
-"calibre are open. Also you can define in preferences the way NVDA reads the "
-"table headers  in the library (rows and columns, columns only or none).\n"
-msgstr ""
+msgid "Keystrokes can be customized in  Preferences  of NVDA > Input gestures when calibre are open. Also you can define in preferences the way NVDA reads the table headers  in the library (rows and columns, columns only or none).\n"
+msgstr "Ces commandes au clavier peuvent être personnalisées à partir du dialogue Gestes de commandes > Préférences de NVDA lorsque Calibre est ouvert. Vous pouvez également définir dans les préférences la manière dont NVDA lit les en-têtes de tableau dans la bibliothèque (lignes et colonnes, colonnes seulement ou aucune).\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-" Take a look at the [documentation of Calibre][3] for know more Keyboard "
-"shortcuts.\n"
-msgstr ""
+msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
+msgstr " Consultez la  [documentation de Calibre][3] pour en savoir plus sur les raccourcis clavier.\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"  Covered by the GNU General Public License. See the [file COPYING.txt][4] "
-"for more details.  \n"
-msgstr ""
+msgid "  Covered by the GNU General Public License. See the [file COPYING.txt][4] for more details.  \n"
+msgstr "  Couvert par la licence publique générale GNU (GNU General Public License). Voir le [fichier COPYING.txt][4] pour plus de détails.  \n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cae"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cae"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=cae-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=cae-dev"
 
 #. type: Plain text
 msgid "[3]: https://manual.calibre-ebook.com/gui.html"
-msgstr ""
+msgstr "[3]: https://manual.calibre-ebook.com/gui.html"
 
 #. type: Plain text
 msgid "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
-msgstr ""
+msgstr "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
