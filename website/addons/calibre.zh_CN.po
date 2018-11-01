@@ -3,108 +3,101 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-01 22:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-11-01 22:03+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Calibre\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Calibre-NVDA支持插件\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Javi Dominguez"
-msgstr ""
+msgstr "作者: Javi Dominguez"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "下载 [开发板][2]"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-" An NVDA add-on with some accessibility enhancements for the interface of "
-"Calibre eBook Management\n"
-msgstr ""
+msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
+msgstr "此插件主要改进了，NVDA屏幕朗读器对Calibre eBook Management图书管理工具的无障碍支持。\n"
 
 #. type: Bullet: '* '
 msgid "F5 open the context menu for virtual libraries"
-msgstr ""
+msgstr "F5打开虚拟书库的上下文菜单"
 
 #. type: Bullet: '* '
 msgid "F6 open the context menu for saved searches"
-msgstr ""
+msgstr "F6打开保存搜索的上下文菜单"
 
 #. type: Bullet: '* '
 msgid "F7 open the context menu for adding books"
-msgstr ""
+msgstr "F7打开上下文菜单以添加书籍"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* F8 open the context menu for selecting   and maintenance library\n"
-"* F10 brings the focus to   the toolbar. Then you can navigate it with "
-"standard keys (tab and arrows); enter to activate item and key applications "
-"to display the context menu; escape to exit the toolbar.\n"
+"* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
 "* F12 search the current book in Google\n"
-"* NVDA+Alt+End says the total of books in the current library view and the "
-"number of books selected\n"
+"* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
+"* F8打开选择和维护书库的上下文菜单\n"
+"* F10将焦点移到工具栏。然后你可以用标准键（标签和箭头）进行浏览;进入以激活项目和关键应用程序以显示上下文菜单;esc退出工具栏。\n"
+"* F12从Google搜索当前图书\n"
+"* NVDA + Alt + End朗读当前书库视图中的书籍总数和所选书籍的数量\n"
+"* NVDA + Control + H打开当前列设置的上下文菜单\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"Keystrokes can be customized in  Preferences  of NVDA > Input gestures when "
-"calibre are open. Also you can define in preferences the way NVDA reads the "
-"table headers  in the library (rows and columns, columns only or none).\n"
-msgstr ""
+msgid "Keystrokes can be customized in  Preferences  of NVDA > Input gestures when calibre are open. Also you can define in preferences the way NVDA reads the table headers  in the library (rows and columns, columns only or none).\n"
+msgstr "快捷键可以在NVDA的首选项中进行自定义>当窗口打开时按下你需要使用的手势。您还可以在首选项中定义NVDA读取库中表头的方式（行和列，仅列或无）。\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-" Take a look at the [documentation of Calibre][3] for know more Keyboard "
-"shortcuts.\n"
-msgstr ""
+msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
+msgstr "了解更多键盘快捷键，请查看[Caliber]文档[3]。\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"  Covered by the GNU General Public License. See the [file COPYING.txt][4] "
-"for more details.  \n"
-msgstr ""
+msgid "  Covered by the GNU General Public License. See the [file COPYING.txt][4] for more details.  \n"
+msgstr "受GNU通用公共许可证的保护。有关详细信息，请参阅[file COPYING.txt] [4]。\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cae"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cae"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=cae-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=cae-dev"
 
 #. type: Plain text
 msgid "[3]: https://manual.calibre-ebook.com/gui.html"
-msgstr ""
+msgstr "[3]: https://manual.calibre-ebook.com/gui.html"
 
 #. type: Plain text
 msgid "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
-msgstr ""
+msgstr "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
