@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-01 22:46+1000\n"
-"PO-Revision-Date: 2018-11-01 16:24+0200\n"
+"PO-Revision-Date: 2018-11-01 20:56+0200\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +36,7 @@ msgstr "Изтегляне на [тестова версия][2]"
 #. type: Plain text
 #, no-wrap
 msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
-msgstr "Добавка за NVDA с някои подобрения по достъпността за интерфейса на Caliber eBook Management\n"
+msgstr " Добавка за NVDA с някои подобрения по достъпността за интерфейса на Caliber eBook Management\n"
 
 #. type: Bullet: '* '
 msgid "F5 open the context menu for virtual libraries"
@@ -60,12 +60,12 @@ msgid ""
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
-"* F8: Отваряне на контекстното меню за избор и обслужване на библиотеката.\\n\n"
+"* F8: Отваряне на контекстното меню за избор и обслужване на библиотеката.\n"
 "* F10: Фокусиране върху лентата с инструменти. След това можете да я обхождате със стандартни клавишни команди (TAB и стрелките). ENTER задейства елементите, а клавиша Applications извиква контекстното меню. Escape излиза от лентата с инструменти.\\n\n"
-"* F12: Търсене за текущата книга в Google.\\n\n"
-"* NVDA+Alt+End: Съобщаване на общия брой на книгите в текущия изглед на библиотеката и броя на избраните книги.\\n\n"
-"* NVDA+Control+H: Отваряне на контекстното меню за настройки на текущата колона.\\n\n"
-"* I: В библиотеката прочита информация за книгата.\\n\n"
+"* F12: Търсене за текущата книга в Google.\n"
+"* NVDA+Alt+End: Съобщаване на общия брой на книгите в текущия изглед на библиотеката и броя на избраните книги.\n"
+"* NVDA+Control+H: Отваряне на контекстното меню за настройки на текущата колона.\n"
+"* I: В библиотеката прочита информация за книгата.\n"
 
 #. type: Plain text
 #, no-wrap
