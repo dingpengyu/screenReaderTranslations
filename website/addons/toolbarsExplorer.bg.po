@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-24 04:34+1000\n"
+"POT-Creation-Date: 2018-11-01 23:42+1000\n"
 "PO-Revision-Date: 2018-10-23 22:36+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
@@ -131,9 +131,13 @@ msgstr ""
 "н.)."
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
+#| "control+z) simply does nothing."
 msgid ""
-"Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
-"control+z) simply does nothing."
+"Other gestures not containing alt, windows or escape (as h, 1, shift, shift"
+"+h, control+z) simply does nothing."
 msgstr ""
 "Други жестове, които не включват Alt или Windows (като H, 1, Shift, Shift+H, "
 "Control+Z) просто не правят нищо."
@@ -163,7 +167,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 

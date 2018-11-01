@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-24 04:34+1000\n"
+"POT-Creation-Date: 2018-11-01 23:42+1000\n"
 "PO-Revision-Date: 2018-10-23 22:10+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: \n"
@@ -26,7 +26,6 @@ msgid "Author: Alberto Buffolino"
 msgstr "Autor: Alberto Buffolino"
 
 #. type: Bullet: '* '
-#| msgid "Download [development version][2]"
 msgid "Download [stable version][1]"
 msgstr "Baixar [versão estável][1]"
 
@@ -132,9 +131,13 @@ msgstr ""
 "windows, tab, NVDA+F1, comandos de navegação por objectos, etc)."
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
+#| "control+z) simply does nothing."
 msgid ""
-"Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
-"control+z) simply does nothing."
+"Other gestures not containing alt, windows or escape (as h, 1, shift, shift"
+"+h, control+z) simply does nothing."
 msgstr ""
 "outros comandos que não contenham alt ou a tecla windows (como h, 1, shift, "
 "shift+h, control+z) não fazem nada."
@@ -164,16 +167,13 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 
 #. type: Plain text
-#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"

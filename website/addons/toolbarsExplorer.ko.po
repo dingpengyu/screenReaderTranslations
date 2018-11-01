@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-10-24 04:34+1000\n"
+"POT-Creation-Date: 2018-11-01 23:42+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,8 +110,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
-"control+z) simply does nothing."
+"Other gestures not containing alt, windows or escape (as h, 1, shift, shift"
+"+h, control+z) simply does nothing."
 msgstr ""
 
 #. type: Title ##
