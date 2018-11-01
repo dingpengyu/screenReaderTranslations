@@ -3,108 +3,103 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Calibre, versão 1\n"
 "POT-Creation-Date: 2018-11-01 22:46+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-11-01 13:14+0000\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: Equipa Portuguesa do NVDA: Ângelo Abrantes e Rui Fontes\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Calibre\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Calibre\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Javi Dominguez"
-msgstr ""
+msgstr "Autor: Javi Dominguez"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Baixar [versão estável][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Baixar [versão de desenvolvimento][2]"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-" An NVDA add-on with some accessibility enhancements for the interface of "
-"Calibre eBook Management\n"
-msgstr ""
+msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
+msgstr "Um extra do NVDA com algumas funções de acessibilidade para o gestor de livros \"Calibre\"\n"
 
 #. type: Bullet: '* '
 msgid "F5 open the context menu for virtual libraries"
-msgstr ""
+msgstr "F5 abre o menu de contexto para as bibliotecas virtuais"
 
 #. type: Bullet: '* '
 msgid "F6 open the context menu for saved searches"
-msgstr ""
+msgstr "f6 abre o menu de contexto para as pesquisar guardadas"
 
 #. type: Bullet: '* '
 msgid "F7 open the context menu for adding books"
-msgstr ""
+msgstr "f7 abre o menu de contexto para adicionar livros"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* F8 open the context menu for selecting   and maintenance library\n"
-"* F10 brings the focus to   the toolbar. Then you can navigate it with "
-"standard keys (tab and arrows); enter to activate item and key applications "
-"to display the context menu; escape to exit the toolbar.\n"
+"* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
 "* F12 search the current book in Google\n"
-"* NVDA+Alt+End says the total of books in the current library view and the "
-"number of books selected\n"
+"* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
+"* F8 abre o menu de contexto, para selecção e manutenção da biblioteca\n"
+"* F10 leva o foco para a barra de ferramentas. Então, pode navegar com as teclas padrão (tab e flechas); enter, para activar os itens dos aplicativos e tecla de aplicações, para exibir o menu de contexto; escape para sair da barra de ferramentas.\n"
+"* F12 pesquisar o livro atual no Google\n"
+"* NVDA+Alt+End indica o total de livros na lista da biblioteca actual e o número de livros seleccionados\n"
+"* NVDA+Control+H abre o menu de contexto para as configurações da coluna atual\n"
+"* i, na lista da biblioteca, lê as informações do livro.\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"Keystrokes can be customized in  Preferences  of NVDA > Input gestures when "
-"calibre are open. Also you can define in preferences the way NVDA reads the "
-"table headers  in the library (rows and columns, columns only or none).\n"
-msgstr ""
+msgid "Keystrokes can be customized in  Preferences  of NVDA > Input gestures when calibre are open. Also you can define in preferences the way NVDA reads the table headers  in the library (rows and columns, columns only or none).\n"
+msgstr "As teclas de atalho podem ser personalizadas em Preferências do NVDA> definir comandos, quando o calibre está aberto. Também é possível definir nas preferências a maneira como o NVDA lê os cabeçalhos da tabela na biblioteca (linhas e colunas, somente colunas ou nenhuma).\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-" Take a look at the [documentation of Calibre][3] for know more Keyboard "
-"shortcuts.\n"
-msgstr ""
+msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
+msgstr "Faça uma leitura da [documentação do Calibre] [3] para conhecer mais atalhos de teclado.\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"  Covered by the GNU General Public License. See the [file COPYING.txt][4] "
-"for more details.  \n"
-msgstr ""
+msgid "  Covered by the GNU General Public License. See the [file COPYING.txt][4] for more details.  \n"
+msgstr "Salvaguardado pela Licença Pública Geral GNU. Veja o [arquivo COPYING.txt] [4] para mais detalhes.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cae"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cae"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=cae-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=cae-dev"
 
 #. type: Plain text
 msgid "[3]: https://manual.calibre-ebook.com/gui.html"
-msgstr ""
+msgstr "[3]: https://manual.calibre-ebook.com/gui.html"
 
 #. type: Plain text
 msgid "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
-msgstr ""
+msgstr "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
