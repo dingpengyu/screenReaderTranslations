@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-01 22:46+1000\n"
-"PO-Revision-Date: 2018-11-01 16:27+0100\n"
+"PO-Revision-Date: 2018-11-01 21:29+0100\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,19 +36,19 @@ msgstr "Télécharger [version de développement][2]"
 #. type: Plain text
 #, no-wrap
 msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
-msgstr " Un module complémentaire NVDA avec quelques améliorations d'accessibilité pour l'interface du gestionnaire de livres Calibre (Calibre eBook Management)\n"
+msgstr " Un module complémentaire NVDA avec quelques améliorations d'accessibilité à l'interface du gestionnaire d'Ebooks Calibre\n"
 
 #. type: Bullet: '* '
 msgid "F5 open the context menu for virtual libraries"
-msgstr "F5 ouvre le menu contextuel pour les bibliothèques virtuelles"
+msgstr "F5 Ouvre le menu contextuel pour les bibliothèques virtuelles"
 
 #. type: Bullet: '* '
 msgid "F6 open the context menu for saved searches"
-msgstr "F6 ouvre le menu contextuel pour les recherches sauvegardées"
+msgstr "F6 Ouvre le menu contextuel pour les recherches sauvegardées"
 
 #. type: Bullet: '* '
 msgid "F7 open the context menu for adding books"
-msgstr "F7 ouvre le menu contextuel pour ajouter des livres"
+msgstr "F7 Ouvre le menu contextuel pour ajouter des livres"
 
 #. type: Plain text
 #, no-wrap
@@ -60,17 +60,17 @@ msgid ""
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
-"* F8 ouvre le menu contextuel de sélection et de maintenance de la bibliothèque\n"
-"* F10 amène le focus sur la barre d'outils. Ensuite, vous pouvez naviguer avec les touches standard (tab et flèches) ; entrer pour activer l'élément et la touche applications pour afficher le menu contextuel ; ECHAP pour quitter la barre d'outils.\n"
-"* F12 recherchez le livre actuellement sélectionné sur Google\n"
-"* NVDA+Alt+Fin annonce le nombre total de livres dans la vue de la bibliothèque actuelle et le nombre de livres sélectionnés\n"
-"* NVDA+Contrôle+H ouvre le menu contextuel des paramètres pour la configuration de la colonne actuelle\n"
-"* I sur un livre dans la vue de la bibliothèque lit les informations du livre.\n"
+"* F8 Ouvre le menu contextuel pour sélectionner   et pour la bibliothèque de maintenance\n"
+"* F10 Amène le focus à la barre d'outils. Ensuite, vous pouvez naviguer avec les touches standard (tab et flèches) ; entrer pour activer l'élément et la touche applications pour afficher le menu contextuel ; ECHAP pour quitter la barre d'outils.\n"
+"* F12 Rechercher le livre courant dans Google\n"
+"* NVDA+Alt+Fin Dit le nombre total de livres dans la vue de bibliothèque courante et le nombre de livres sélectionnés\n"
+"* NVDA+Contrôle+H Ouvre le menu contextuel pour paramétrer la colonne en cours\n"
+"* I sur un livre dans la vue de la bibliothèque lit les infos sur le livre.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "Keystrokes can be customized in  Preferences  of NVDA > Input gestures when calibre are open. Also you can define in preferences the way NVDA reads the table headers  in the library (rows and columns, columns only or none).\n"
-msgstr "Ces commandes au clavier peuvent être personnalisées à partir du dialogue Gestes de commandes > Préférences de NVDA lorsque Calibre est ouvert. Vous pouvez également définir dans les préférences la manière dont NVDA lit les en-têtes de tableau dans la bibliothèque (lignes et colonnes, colonnes seulement ou aucune).\n"
+msgstr "Ces commandes au clavier peuvent être personnalisées à partir du dialogue Gestes de commandes > Préférences de NVDA lorsque Calibre est ouvert. Vous pouvez également définir dans les préférences la manière dont NVDA annonce les en-têtes de tableau dans la bibliothèque (lignes et colonnes, seulement les colonnes ou aucun).\n"
 
 #. type: Plain text
 #, no-wrap
