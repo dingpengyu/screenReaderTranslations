@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-01 23:42+1000\n"
-"PO-Revision-Date: 2018-10-23 22:10+0100\n"
+"PO-Revision-Date: 2018-11-01 14:45+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt_PT\n"
@@ -131,16 +131,12 @@ msgstr ""
 "windows, tab, NVDA+F1, comandos de navegação por objectos, etc)."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
-#| "control+z) simply does nothing."
 msgid ""
 "Other gestures not containing alt, windows or escape (as h, 1, shift, shift"
 "+h, control+z) simply does nothing."
 msgstr ""
-"outros comandos que não contenham alt ou a tecla windows (como h, 1, shift, "
-"shift+h, control+z) não fazem nada."
+"outros comandos que não contenham alt ou a tecla windows ou escape (como h, "
+"1, shift, shift+h, control+z) não fazem nada."
 
 #. type: Title ##
 #, no-wrap
