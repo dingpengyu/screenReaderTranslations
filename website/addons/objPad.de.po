@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-08 02:15+1000\n"
-"PO-Revision-Date: 2018-10-04 05:19+0200\n"
-"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"PO-Revision-Date: 2018-11-01 15:49+0100\n"
+"Last-Translator: Adriani <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -31,7 +31,7 @@ msgstr "[Stabile Version herunterladen][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "[Testversion herunterladen][2]"
+msgstr "[Entwicklungsversion herunterladen][2]"
 
 #. type: Plain text
 msgid ""
@@ -89,8 +89,8 @@ msgid ""
 "Scan mode: use arrow keys to move through objects on screen regardless of "
 "hierarchy."
 msgstr ""
-"Scan-Modus: Benutzen Sie die Pfeiltasten, um unabhängig von der Hierarchie "
-"durch die Objekte auf dem Bildschirm zu navigieren."
+"Erkundungsmodus: Benutzen Sie die Pfeiltasten, um unabhängig von der "
+"Hierarchie durch die Objekte auf dem Bildschirm zu navigieren."
 
 #. type: Plain text
 msgid "The following commands are available with arrow keys set to object nav:"

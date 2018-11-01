@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2018-10-06 09:18+0200\n"
-"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"PO-Revision-Date: 2018-11-01 16:49+0100\n"
+"Last-Translator: Adriani <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -31,7 +31,7 @@ msgstr "[Stabile Version herunterladen][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "[Testversion herunterladen][2]"
+msgstr "[Entwicklungsversion herunterladen][2]"
 
 #. type: Plain text
 msgid ""
@@ -53,10 +53,6 @@ msgstr ""
 "vorhanden."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
-#| "currently focused application."
 msgid ""
 "Shift+NVDA+l: save a tag or a label for the current mouse position in the "
 "currently focused application."
@@ -155,14 +151,13 @@ msgstr ""
 "mehr vorhanden sind, werden die Positionen für die Anwendung gelöscht."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 3.0"
+#, no-wrap
 msgid "Version 3.2"
-msgstr "Version 3.0"
+msgstr "Version 3.2"
 
 #. type: Bullet: '* '
 msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
-msgstr ""
+msgstr "Die Erweiterung ist kompatibel mit NVDA 2018.3 (wxPython 4)."
 
 #. type: Title ##
 #, no-wrap

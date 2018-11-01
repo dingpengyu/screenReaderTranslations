@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-01-24 03:56+1000\n"
-"PO-Revision-Date: 2017-12-17 23:35+0100\n"
-"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
+"PO-Revision-Date: 2018-11-01 15:36+0100\n"
+"Last-Translator: Adriani <adriani.botez@gmail.com>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -33,7 +33,7 @@ msgstr "[Stabile Version][1] herunterladen"
 
 #. type: Bullet: '* '
 msgid "download [development version][2]"
-msgstr "[Testversion][2] herunterladen"
+msgstr "[Entwicklungsversion][2] herunterladen"
 
 #. type: Plain text
 msgid ""

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-01 23:42+1000\n"
-"PO-Revision-Date: 2018-10-24 02:48+0200\n"
-"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"PO-Revision-Date: 2018-11-01 16:47+0100\n"
+"Last-Translator: Adriani <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "[Stabile Version herunterladen][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "[Testversion herunterladen][2]"
+msgstr "[Entwicklungsversion herunterladen][2]"
 
 #. type: Plain text
 msgid ""
@@ -53,8 +53,9 @@ msgid ""
 "* Alt+applications: starts toolbars exploration<br/>\n"
 "(you can remap it via NVDA gesture manager, under Object navigation).\n"
 msgstr ""
-"Alt+Anwendungen: Startet die Erkundung der Symbolleisten<br/>.\n"
-"(Sie können es über die NVDA-Gesten, unter Objekt-Navigation, neu zuordnen).\n"
+"* Alt+Anwendungstaste (alt+kontextmenütaste): Startet die Erkundung der Symbolleisten<br/>.\n"
+"(Sie können den tastenbefehl unter dem Dialog \"Eingaben\" unter Objektnavigation neu zuordnen).\n"
+".)\n"
 
 #. type: Plain text
 msgid "During exploration, following gestures are available:"
@@ -67,7 +68,8 @@ msgstr "Pfeil nach links/rechts: Zur nächsten/vorherigen Symbolleiste bewegen."
 #. type: Bullet: '* '
 msgid "Up/down arrow: scrolls up/down items in current toolbar;"
 msgstr ""
-"Pfeil nach oben/unten: Geht durch die Einträge in der aktuellen Symbolleiste."
+"Pfeil nach oben/unten: navigiert zwischen den Einträgen in der aktuellen "
+"Symbolleiste."
 
 #. type: Bullet: '* '
 msgid "Enter: activates toolbar or its item;"
@@ -76,15 +78,15 @@ msgstr "Eingabetaste: Aktiviert die Symbolleiste oder den Eintrag."
 #. type: Bullet: '* '
 msgid "Space: simulates left mouse click on toolbar or its item;"
 msgstr ""
-"Leertaste: Simuliert einen Mausklick mit der linken Taste auf der "
-"Symbolleiste oder auf dem Element."
+"Leertaste: Simuliert einen linken Mausklick auf der Symbolleiste oder auf "
+"dem Element."
 
 #. type: Bullet: '* '
 msgid ""
 "Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
-"Anwendung/Umschalt+F10: Simuliert den rechten Mausklick auf die Symbolleiste "
-"oder deren Element."
+"Anwendung(kontextmenü)/Umschalt+F10: Simuliert den rechten Mausklick auf die "
+"Symbolleiste oder dem Element."
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
@@ -107,7 +109,9 @@ msgstr "Anmerkungen"
 
 #. type: Plain text
 msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
-msgstr "Die Erkundung wird explizit durch Drücken von escape beendet."
+msgstr ""
+"Die Erkundung wird explizit durch Drücken von escape beendet. Außerdem "
+"beenden folgende Aktionen implizit die Erkundung:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -115,16 +119,16 @@ msgid ""
 "+F10, enter);"
 msgstr ""
 "Ausführen einer Aktion auf der Symbolleiste oder einem Element (mit "
-"Leerzeichen, Anwendungen/Umschalt+F10, Enter)."
+"Leerzeichen, Anwendungstaste/Umschalt+F10, Eingabetaste)."
 
 #. type: Bullet: '* '
 msgid ""
 "pressing a gesture that moves out of current toolbar objects (alt, windows, "
 "tab, NVDA+F1, object navigation gestures, etc)."
 msgstr ""
-"Drücken einer Geste, die sich aus den aktuellen Objekten der Symbolleiste "
-"herausbewegt (alt, Fenster, Registerkarte, NVDA+F1, Objektnavigationsgesten, "
-"etc.)."
+"Drücken einer Geste, die den fokus vom aktuellen Objekten der Symbolleiste "
+"wegbewegt (z.BB. alt, Windows-Taste, Tab-Taste, NVDA+F1, "
+"Objektnavigationsgesten etc.)."
 
 #. type: Plain text
 #, fuzzy
@@ -135,22 +139,22 @@ msgid ""
 "Other gestures not containing alt, windows or escape (as h, 1, shift, shift"
 "+h, control+z) simply does nothing."
 msgstr ""
-"Andere Gesten, die keine Alt- oder Fenster enthalten (wie H, 1, Umschalt, "
-"Umschalt, Umschalt+H, Strg+Z), tun einfach nichts."
+"Andere Gesten, die keine Alt- oder Windows-taste enthalten (wie z.B. H, 1, "
+"Umschalt, Umschalt+H, Strg+Z) führen zu keiner Aktion."
 
 #. type: Title ##
 #, no-wrap
 msgid "Suggestions"
-msgstr "Vorschläge"
+msgstr "Vorschläge für Problemlösungen"
 
 #. type: Bullet: '* '
 msgid ""
 "The add-on may fail in Mozilla applications the first time after add-on "
 "installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
-"Die Erweiterung kann in Mozilla-Anwendungen beim ersten Mal nach der "
-"Installation/Aktualisierung des Add-ons fehlschlagen; bitte starten Sie "
-"NVDA- und Mozilla-Anwendungen neu, um die Lösung zu finden."
+"Die Erweiterung kann möglicherweise in Mozilla-Anwendungen beim ersten Mal "
+"nach der Installation/Aktualisierung fehlschlagen; bitte starten Sie NVDA- "
+"und die Mozilla-Anwendungen neu, um das Problem zu lösen."
 
 #. type: Bullet: '* '
 msgid ""
@@ -158,7 +162,8 @@ msgid ""
 "set it on view menu/toolbar position."
 msgstr ""
 "In LibreOffice ist die beste Konfiguration wahrscheinlich die Standard- oder "
-"klassische Symbolleiste, setzen Sie sie im Menü Ansicht / Werkzeugleisten."
+"klassische Symbolleiste. Stellen Sie dies im Menü Ansicht / Werkzeugleisten "
+"ein."
 
 #. type: Plain text
 #, no-wrap

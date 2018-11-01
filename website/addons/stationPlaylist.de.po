@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-10-29 17:01+1000\n"
-"PO-Revision-Date: 2018-10-06 09:03+0200\n"
-"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"PO-Revision-Date: 2018-11-01 17:01+0100\n"
+"Last-Translator: Adriani <adriani.botez@gmail.com>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,15 +28,15 @@ msgstr "Authoren: Geoff Shang, Joseph Lee und andere Entwickler"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "lade [stabile Version][1] herunter"
+msgstr "[stabile Version herunterladen][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "lade [Entwickler-Version][2] herunter"
+msgstr "[Entwicklungsversion herunterladen][2]"
 
 #. type: Bullet: '* '
 msgid "Download [long-term support version][3] - for Studio 5.10/5.11 users"
-msgstr "[Für Studio 5.10 / 5.11 (LTS-Version) herunterladen][3]"
+msgstr "[LTS-Version für Studio 5.10 / 5.11 herunterladen][3]"
 
 #. type: Plain text
 msgid ""
@@ -971,65 +971,51 @@ msgstr ""
 "die oben aufgeführten Touch-Befehle, um Befehle auszuführen."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.10.1/18.09.3-LTS"
+#, no-wrap
 msgid "Version 18.11/18.09.5-LTS"
-msgstr "Version 18.10.1 / 18.09.3-LTS"
+msgstr "Version 18.11 / 18.09.5-LTS"
 
 #. type: Plain text
 msgid ""
 "Note: 18.11.1 replaces 18.11 in order to provide more solid Studio 5.31 "
 "support."
 msgstr ""
+"Hinweis: Version 18.11.1 ersetzt 18.11, um eine solidere Studio 5.31-"
+"Unterstützung zu bieten."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Initial support for StationPlaylist Studio 5.30."
 msgid "Initial support for StationPlaylist Studio 5.31."
-msgstr "Erstmalige Unterstützung für StationPlaylist Studio 5.30."
+msgstr "Erstmalige Unterstützung für StationPlaylist Studio 5.31."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "You can now perform Track Finder command (Control+NVDA+F) while a "
-#| "playlist is loaded but the first track isn't focused."
 msgid ""
 "You can now obtain playlist snapshots (SPL Assistant, F8) and transcripts "
 "(SPL Assistant, Shift+F8) while a playlist is loaded but the first track "
 "isn't focused."
 msgstr ""
-"Sie können nun den Titelfinder-Befehl (STRG+NVDA+F) ausführen, während eine "
-"Playlist geladen ist. Dies gilt, auch wenn der erste Titel nicht fokussiert "
-"ist."
+"Sie können nun Playlist-Statistiken (SPL-Assistent: f8) und Playlist-"
+"Transkripte (SPL-Assistent: Umschalt+f8) erstellen, während eine Playlist "
+"geladen ist, auch wenn der erste Titel nicht fokussiert ist."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "NVDA will no longer appear to do nothing or play error tones when trying "
-#| "to obtain metadata streaming status via SPL Assistant (E)."
 msgid ""
 "NVDA will no longer appear to do nothing or play error tones when trying to "
 "announce metadata streaming status when Studio starts if configured to do so."
 msgstr ""
-"NVDA scheint nichts mehr zu tun oder Fehlertöne abzuspielen, wenn versucht "
-"wird, den Metadaten-Streaming-Status über den SPL-Assistenten (E) zu "
-"erhalten."
+"NVDA ist aktiv und spielt keine Fehlertöne mehr ab, wenn versucht wird den "
+"Metadaten-Streaming-Status beim starten von Studio zu erhalten. Dies gilt "
+"nur bei entsprechender Einstellung."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "If NVDA is configured to announce metadata streaming status when Studio "
-#| "starts, NVDA will honor this setting and no longer announce streaming "
-#| "status when switching to and from instant switch profiles."
 msgid ""
 "If configured to announce metadata streaming status at startup, metadata "
 "streaming status announcement will no longer cut off announcements about "
 "status bar changes and vice versa."
 msgstr ""
 "Wenn die Ansage der Statusinformationen des Metadaten-Streamings beim "
-"Starten des Studio im Einstellungsdialog der Erweiterung aktiviert ist, wird "
-"NVDA diese Einstellung berücksichtigen und den Streaming-Status beim "
-"Wechseln zu und von Instant-Switch-Profilen nicht mehr melden."
+"Starten des Studio im Einstellungsdialog der Erweiterung aktiviert ist, "
+"kommen sich diese Ansage und die Ansage anderer Änderungen in der "
+"Statusleiste nicht mehr in die Quere."
 
 #. type: Title ##
 #, no-wrap

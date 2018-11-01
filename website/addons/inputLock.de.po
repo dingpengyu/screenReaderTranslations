@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-17 02:47+1000\n"
-"PO-Revision-Date: 2018-09-14 18:53+0200\n"
+"PO-Revision-Date: 2018-11-01 15:46+0100\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Last-Translator: Adriani <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -45,8 +45,8 @@ msgstr ""
 "Haben Sie Kinder oder Haustiere zu Hause? Haben Sie eine Katze, die sehr gerne "
 "auf Ihren Tisch klettert und über Ihre Tastatur läuft? Bewegen Sie "
 "versehentlich die Maus in zufällige Bereiche auf dem Bildschirm, während Sie "
-"Ihren Laptop benutzen? Dann ist die Eingabesperre für Sie da! Sie können Ihren "
-"Computer ohne Risiko eingeschaltet lassen, sodass Sie diesen nicht "
+"Ihren Laptop benutzen? Dann ist die Eingabesperre für Sie optimal! Sie können "
+"Ihren Computer ohne Risiko eingeschaltet lassen, sodass Sie diesen nicht "
 "beaufsichtigen müssen."
 
 #. type: Plain text
@@ -54,8 +54,8 @@ msgid ""
 "Once installed, you will be able to lock your keyboard, touch screen, if your "
 "laptop has one, mouse and Braille display."
 msgstr ""
-"Einmal installiert, werden Sie in der Lage sein, Ihre Tastatur, den "
-"Touchscreen, Maus und Braillezeile zu sperren, sofern Sie diese verwenden."
+"Nach der Installation werden Sie in der Lage sein, Ihre Tastatur, den "
+"Touchscreen, Maus und auch die Braillezeile zu sperren."
 
 #. type: Title ##
 #, no-wrap
@@ -155,8 +155,8 @@ msgid ""
 "Added a configuration panel in settings dialog. For old NVDA versions, a menu "
 "item and a dialog have been added too."
 msgstr ""
-"Im Einstellungsdialog wurde ein Konfigurationsfeld hinzugefügt. Für alte NVDA-"
-"Versionen wurden auch ein Menüpunkt und ein Dialog hinzugefügt."
+"Im Einstellungsdialog wurde eine Einstellungskategorie hinzugefügt. Für alte "
+"NVDA-Versionen wurden auch ein Menüpunkt und ein Dialog hinzugefügt."
 
 #. type: Bullet: '* '
 msgid "Added a setting to lock the mouse when NVDA is started."

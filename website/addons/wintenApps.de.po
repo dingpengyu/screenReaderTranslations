@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-31 04:07+1000\n"
-"PO-Revision-Date: 2018-08-30 02:39+0200\n"
-"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"PO-Revision-Date: 2018-11-01 17:28+0100\n"
+"Last-Translator: Adriani <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -27,11 +27,11 @@ msgstr "Autors: Joseph Lee, Derek Riemer und mehrere Benutzer von Windows 10"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "[Stabile Version][1] herunterladen"
+msgstr "[Stabile Version herunterladen][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr "[Entwicklerversion][2] herunterladen"
+msgstr "[Entwicklungsversion herunterladen][2]"
 
 #. type: Plain text
 msgid ""
@@ -52,7 +52,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Action center"
-msgstr ""
+msgstr "Einstellungscenter für Benachrichtigungen und Aktionen"
 
 #. type: Bullet: '* '
 msgid "Alarms and Clock."
@@ -135,11 +135,6 @@ msgid "Notes:"
 msgstr "Hinweise:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "This add-on requires Windows 10 Version 1709 (build 16299) or later and "
-#| "NVDA 2018.2 or later. For best results, use the add-on with latest "
-#| "Windows 10 stable release (build 17134) and latest stable version of NVDA."
 msgid ""
 "This add-on requires Windows 10 Version 1709 (build 16299) or later and NVDA "
 "2018.3 or later. For best results, use the add-on with latest Windows 10 "
@@ -147,10 +142,11 @@ msgid ""
 "until further notice, Version 1809 (build 17763) is not available from "
 "Microsoft."
 msgstr ""
-"Diese Erweiterung benötigt Windows 10 Version 1709 (Build 16299) oder neuer "
-"und NVDA 2018.2 oder höher.\n"
-"Am besten, Sie benutzen die Erweiterung mit der neuesten Windows 10 Version "
-"(Build 17134) und der akutellsten Version von NVDA."
+"Diese Erweiterung erfordert Windows 10 Version 1709 (Build 16299) oder höher "
+"und NVDA 2018.3 oder höher. Für beste Ergebnisse verwenden Sie das Add-on "
+"mit der neuesten stabilen Version von Windows 10 (Build 17134) und der "
+"neuesten stabilen Version von NVDA. Beachten Sie, dass die Version 1809 "
+"(Build 17763) bis auf weiteres nicht von Microsoft erhältlich ist."
 
 #. type: Bullet: '* '
 msgid "Some add-on features are or will be part of NVDA screen reader."
@@ -186,6 +182,8 @@ msgid ""
 "If Add-on Updater add-on is installed, that add-on will check for Windows 10 "
 "App Essentials updates."
 msgstr ""
+"Wenn die Erweiterung Zusatz-Updater installiert ist, wird diese Erweiterung "
+"nach Updates für Windows 10 App Essentials suchen."
 
 #. type: Bullet: '* '
 msgid ""
@@ -193,6 +191,10 @@ msgid ""
 "and development releases. This is applicable if the add-on itself checks for "
 "updates."
 msgstr ""
+"Das standardmäßige Prüfintervall für Aktualisierungen wurde auf wöchentliche "
+"Prüfungen sowohl für stabile als auch für Entwicklungsversionen geändert. "
+"Dies gilt, wenn die Erweiterung Windows 10 App Essentials selbst nach "
+"Updates sucht."
 
 #. type: Bullet: '* '
 msgid ""
@@ -204,11 +206,6 @@ msgstr ""
 "von Microsoft Edge (Redstone 5)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain dialogs are now recognized as proper dialogs and reported as "
-#| "such, including Insider Preview dialog (settings app). This will be part "
-#| "of NVDA 2018.3."
 msgid ""
 "Certain dialogs are now recognized as proper dialogs and reported as such, "
 "including Insider Preview dialog (settings app). This is now part of NVDA "
@@ -216,7 +213,7 @@ msgid ""
 msgstr ""
 "Bestimmte Dialoge werden nun als richtige Dialoge erkannt und als solche "
 "gemeldet, einschließlich des Insider-Vorschau-Dialogs (in den Windows-"
-"Einstellungen)."
+"Einstellungen). Diese Funktion ist nun auch Teil des NVDA selbst."
 
 #. type: Bullet: '* '
 msgid ""
@@ -237,15 +234,6 @@ msgstr ""
 "B. 1 von 2) nicht mehr angesagt."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "The following UIA events are recognized: active text position change, "
-#| "controller for, drag start, drag cancel, drag complete, element selected, "
-#| "live region change, notification, system alert, tooltip opened, window "
-#| "opened. With NVDA set to run with debug logging enabled, these events "
-#| "will be tracked, and for UIA notification event, a debug tone will be "
-#| "heard if notifications come from somewhere other than the currently "
-#| "active app."
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
@@ -255,13 +243,13 @@ msgid ""
 "if notifications come from somewhere other than the currently active app."
 msgstr ""
 "Folgende UIA-Ereignisse werden erkannt: aktive Textpositionsänderung, "
-"Controller für, Drag Start, Drag Cancel, Drag Complete, Element ausgewählt, "
-"Live Region Change, Benachrichtigung, Systemalarm, Tooltip geöffnet, Fenster "
-"geöffnet. Wenn NVDA so eingestellt ist, dass es mit aktiviertem Debug-"
-"Logging läuft, werden diese Ereignisse verfolgt, und für UIA-"
+"Steuerelement für, Ziehen Starten, Ziehen Abbrechen, Ziehen erfolgt, Element "
+"ausgewählt, Änderung der Live Region, Benachrichtigung, Systemalarm, Tooltip "
+"geöffnet, Fenster geöffnet. Wenn NVDA mit Debug-Protokollierungsstufe "
+"ausgeführt wird, werden diese Ereignisse verfolgt. Für UIA-"
 "Benachrichtigungsereignisse wird ein Debug-Ton ausgegeben, wenn "
-"Benachrichtigungen von einem anderen Ort als der aktuell aktiven Anwendung "
-"kommen."
+"Benachrichtigungen von einer anderen Anwendung als der aktuell aktiven "
+"Anwendung kommen."
 
 #. type: Bullet: '* '
 msgid ""
@@ -296,11 +284,15 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Brightness quick action is now a button instead of a toggle button."
 msgstr ""
+"Die schnelle Aktion für Helligkeit ist nun eine Schaltfläche anstelle einer "
+"Umschalttaste."
 
 #. type: Bullet: '* '
 msgid ""
 "Various status changes such as Focus Assist and Brightness will be reported."
 msgstr ""
+"Verschiedene Statusänderungen wie Focus Assist und Helligkeit werden nun "
+"angesagt."
 
 #. type: Title ##
 #, no-wrap
@@ -394,17 +386,14 @@ msgstr ""
 "Spieleleiste interagieren."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When reviewing items in messages list, you can now use table navigation "
-#| "commands to review message headers."
 msgid ""
 "When reviewing items in messages list, you can now use table navigation "
 "commands to review message headers. Note that navigating between rows "
 "(messages) is not supported."
 msgstr ""
 "Beim Navigieren durch Elemente in der Nachrichtenliste können Sie nun "
-"Tabellen-Navigationsbefehle verwenden, um Betreffzeilen zu überprüfen."
+"Tabellen-Navigationsbefehle verwenden, um Betreffzeilen zu überprüfen. Die "
+"Navigation zwischen Zeilen (Nachrichten) wird noch nicht unterstützt."
 
 #. type: Bullet: '* '
 msgid ""
@@ -438,6 +427,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Text auto-complete will be tracked and announced in address omnibar."
 msgstr ""
+"Die automatische Vervollständigung beim Tippen wird verfolgt und in der "
+"Adress-Omnibar ordnungsgemäß angesagt."
 
 #. type: Title ##
 #, no-wrap
@@ -447,13 +438,10 @@ msgstr "moderne virtuelle Tastaturen"
 #. type: Plain text
 msgid "Note: most features below are now part of NVDA 2018.3."
 msgstr ""
+"Hinweis: Die meisten der unten aufgeführten Funktionen sind nun Teil von "
+"NVDA 2018.3."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
-#| "later, including the redesigned panel in build 17661 and later. For best "
-#| "experience when reading emojis, use Windows OneCore speech synthesizer."
 msgid ""
 "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
 "later, including the redesigned panel in Version 1809 (build 17661 and "
@@ -462,7 +450,8 @@ msgid ""
 msgstr ""
 "Unterstützung für die Emoji-Tastatur in der Windowsversion 1709 (Fall "
 "Creators Update), einschließlich der neuen Version im Windows Build 17661. "
-"Für beste Erfahrungen beim Lesen von Emojis verwenden Sie Windows-OneCore-"
+"Auch die Änderungen in 19H1 (Build18266) werden unterstützt. Für beste "
+"Erfahrungen beim Lesen von Emojis verwenden Sie Windows-OneCore-"
 "Sprachausgaben."
 
 #. type: Bullet: '* '
@@ -480,18 +469,18 @@ msgid ""
 "panel may open to last browsed category, such as displaying skin tone "
 "modifier when opened to People category."
 msgstr ""
+"In Builds nach 1709 wird NVDA das erste ausgewählte Emoji ankündigen, wenn "
+"das Emoji-Panel geöffnet wird. Dies ist vor allem in Build 18262 und später "
+"spürbar, wo das Emoji-Panel sich bei der zuletzt besuchten Kategorie öffnen "
+"kann."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for announcing cloud clipboard items in build 17666 (Redstone 5) "
-#| "and later."
 msgid ""
 "Support for announcing cloud clipboard items in Version 1809 (build 17666 "
 "and later)."
 msgstr ""
-"Unterstützung für die Ankündigung von Cloud-Clipboard-Elementen in Build "
-"17666 (Redstone 5) und höher."
+"Unterstützung für die Ansage der Einträge in der Cloud-basierten "
+"Zwischenablage in Build 17666 (Redstone 5) und höher."
 
 #. type: Bullet: '* '
 msgid ""
@@ -511,6 +500,8 @@ msgid ""
 "NVDA will no longer play error tones or do nothing when closing emoji panel "
 "in more recent Insider Preview builds."
 msgstr ""
+"NVDA bleibt aktiv und spielt keine Fehlertöne mehr ab, wenn das Emoji-Panel "
+"in neueren Insider Preview-Builds geschlossen wird."
 
 #. type: Bullet: '* '
 msgid ""
@@ -526,16 +517,13 @@ msgid "Settings"
 msgstr "Einstellungen"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain information such as Windows Update progress is reported "
-#| "automatically."
 msgid ""
 "Certain information such as Windows Update progress is reported "
 "automatically, including Storage sense/disk cleanup widget."
 msgstr ""
-"Bestimmte Informationen, wie z.B. der Fortschritt von Windows Update, werden "
-"nun automatisch gemeldet."
+"Bestimmte Informationen wie z.B. der Fortschritt von Windows Update, Widget "
+"zur Bereinigung und Defragmentierung von Speicher und Festplatten werden in "
+"echtzeit gemeldet."
 
 #. type: Bullet: '* '
 msgid ""
@@ -553,16 +541,12 @@ msgstr ""
 "zwischen Elementen angewendet wird."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "For some combo boxes, NVDA will no longer fail to recognize labels and/or "
-#| "announce value changes."
 msgid ""
 "For some combo boxes and radio buttons, NVDA will no longer fail to "
 "recognize labels and/or announce value changes."
 msgstr ""
-"Bei einigen Ausklapplisten wird NVDA nun die Beschriftung erkennen und/oder "
-"Wertänderungen ankündigen."
+"Bei einigen Kombinationsfeldern und Kontrollfeldern wird NVDA nun die "
+"Beschriftung erkennen und/oder Wertänderungen ankündigen."
 
 #. type: Bullet: '* '
 msgid ""
@@ -588,6 +572,8 @@ msgstr "Skype"
 #. type: Plain text
 msgid "Note: the below entries won't work properly in Skype 14 universal app."
 msgstr ""
+"Hinweis: Die folgenden Einträge funktionieren in der universellen Skype 14 "
+"App nicht ordnungsgemäß."
 
 #. type: Bullet: '* '
 msgid "Typing indicator text is announced just like Skype for Desktop client."
