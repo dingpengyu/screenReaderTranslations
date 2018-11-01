@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-01 22:46+1000\n"
-"PO-Revision-Date: 2018-11-01 23:14+0700\n"
+"PO-Revision-Date: 2018-11-01 23:25+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgstr "Tác giả: Javi Dominguez"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr "Tải về [stable version][1]"
+msgstr "Tải về [phiên bản chính thức][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
