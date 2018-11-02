@@ -3,55 +3,58 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-11-02 14:57+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"TeamViewer\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"TeamViewer\"]]\n"
 
 #. type: Bullet: '*	'
 msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed."
-msgstr ""
+msgstr "Tác giả: Noelia Ruiz Martínez, Mesar Hameed."
 
 #. type: Bullet: '*	'
 msgid "download [stable version][1]"
-msgstr ""
+msgstr "tải về [phiên bản chính thức][1]"
 
 #. type: Bullet: '*	'
 msgid "download [development version][2]"
-msgstr ""
+msgstr "tải về [phiên bản thử nghiệm][2]"
 
 #. type: Plain text
 msgid "This add-on improves accessibility of TeamViewer with NVDA."
-msgstr ""
+msgstr "Add-on này cải thiện tính tiếp cận của NVDA với TeamViewer."
 
 #. type: Plain text
 msgid ""
-"It's based on TeamViewerNVDASupport add-on, developed by the same "
-"author. You should uninstall that old add-on to use this one, since both "
-"have common keystrokes and features."
+"It's based on TeamViewerNVDASupport add-on, developed by the same author. "
+"You should uninstall that old add-on to use this one, since both have "
+"common keystrokes and features."
 msgstr ""
+"Nó dựa trên add-on TeamViewerNVDASupport, phát triển bởi cùng tác giả. Bạn "
+"nên gỡ bỏ add-on đó để dùng cái này, vì chúng có cùng các tính năng và "
+"phím lệnh phổ biến."
 
 #. type: Plain text
 msgid "Tested on [TeamViewer][3] 9, trial version."
-msgstr ""
+msgstr "Đã thử nghiệm trên [TeamViewer][3] 9, bản dùng thử."
 
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
-msgstr ""
+msgstr "Các phím lệnh:"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -59,44 +62,48 @@ msgid ""
 "they can be pasted and sent via chat for example when remote control is "
 "required."
 msgstr ""
+"nvda+shift+C: sao chép ID và mật khẩu hiện tại vào bộ nhớ tạm, có thể dán "
+"và gửi qua các chương trình chat khi cần điều khiển từ xa chẳng hạn."
 
 #. type: Bullet: '*	'
 msgid ""
 "control+tab and control+shift+tab: Switch to other tab in the TeamViewer "
 "main dialog."
 msgstr ""
+"control+tab và control+shift+tab: chuyển đến các tab khác trong hộp thoại "
+"chính của TeamViewer."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.0"
-msgstr ""
+msgstr "Changes for 2.0Các thay đổi cho phiên bản 2.0"
 
 #. type: Bullet: '*	 '
 msgid "Add-on help is available from the Add-ons Manager."
-msgstr ""
+msgstr "Đã có phần trợ giúp cho add-on trong Trình quản lý add-on."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr ""
+msgstr "Các thay đổi cho phiên bản 1.0"
 
 #. type: Bullet: '*	 '
 msgid "Initial version."
-msgstr ""
+msgstr "Phiên bản đầu tiên."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tv"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tv"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tv-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tv-dev"
 
 #. type: Plain text
 msgid "[3]: https://www.teamviewer.com"
-msgstr ""
+msgstr "[3]: https://www.teamviewer.com"
