@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE
+﻿# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -51,7 +51,7 @@ msgstr ""
 "* F10 đưa con trỏ đến thanh công cụ. Sau đó, bạn có thể điều hướng với các phím chuẩn (tab và mũi tên); enter để kích hoạt mục tại vị trí con trỏ và applications để hiển thị trình đơn ngữ cảnh; escape để thoát khỏi thanh công cụ.\n"
 "* F12 tìm quyển sách hiện tại trên Google\n"
 "* NVDA+Alt+End thông báo tổng số sách trong thư viện hiện tại và số sách đã chọn\n"
-"* NVDA+Control+H mở trình đơn ngữ cảnh để thiết của cột hiện tại\n"
+"* NVDA+Control+H mở trình đơn ngữ cảnh để cài đặt cho cột hiện tại\n"
 "* I trong kiểu xem thư viện đọc thông tin sách.\n"
 
 #. type: Plain text
