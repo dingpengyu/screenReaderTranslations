@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-01 23:25+0700\n"
+"PO-Revision-Date: 2018-11-02 09:46+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -39,14 +39,7 @@ msgid " An NVDA add-on with some accessibility enhancements for the interface of
 msgstr " Một NVDA add-on với vài cải tiến về tính tiếp cận cho giao diện của trình quản lý sách điện tử Calibre\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "* F8 open the context menu for selecting   and maintenance library\n"
-#| "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
-#| "* F12 search the current book in Google\n"
-#| "* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
-#| "* NVDA+Control+H open the context menu for settings of the current column\n"
-#| "* I in library view reads the book information.\n"
+#, no-wrap
 msgid ""
 "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
 "* F12 search the current book in Google\n"
@@ -54,12 +47,12 @@ msgid ""
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
-"* F8 open the context menu for selecting   and maintenance library\n"
-"* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
-"* F12 search the current book in Google\n"
-"* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
-"* NVDA+Control+H open the context menu for settings of the current column\n"
-"* I in library view reads the book information.\n"
+"* F8 mở trình đơn ngữ cảnh để chọn và bảo trì thư viện\n"
+"* F10 đưa con trỏ đến thanh công cụ. Sau đó, bạn có thể điều hướng với các phím chuẩn (tab và mũi tên); enter để kích hoạt mục tại vị trí con trỏ và applications để hiển thị trình đơn ngữ cảnh; escape để thoát khỏi thanh công cụ.\n"
+"* F12 tìm quyển sách hiện tại trên Google\n"
+"* NVDA+Alt+End thông báo tổng số sách trong thư viện hiện tại và số sách đã chọn\n"
+"* NVDA+Control+H mở trình đơn ngữ cảnh để thiết của cột hiện tại\n"
+"* I trong kiểu xem thư viện đọc thông tin sách.\n"
 
 #. type: Plain text
 #, no-wrap
