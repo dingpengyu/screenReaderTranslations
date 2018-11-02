@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-02 08:46+0800\n"
+"PO-Revision-Date: 2018-11-02 08:59+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -55,17 +55,17 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "Keystrokes can be customized in  Preferences  of NVDA > Input gestures when calibre are open. Also you can define in preferences the way NVDA reads the table headers  in the library (rows and columns, columns only or none).\n"
-msgstr "快捷键可以在NVDA的首选项中进行自定义>当窗口打开时按下你需要使用的手势。您还可以在首选项中定义NVDA读取库中表头的方式（行和列，仅列或无）。\n"
+msgstr "注意，快捷首饰可以在NVDA的首选项中进行自定义。>当窗口打开时，按下你需要使用的快捷手势。您还可以在首选项中定义NVDA读取库中表头的方式（行和列，仅列或无）。\n"
 
 #. type: Plain text
 #, no-wrap
 msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
-msgstr "想了解更多calibre键盘快捷键，请查看[Caliber]文档[3]。\n"
+msgstr " 了解更多键盘快捷键，请查看[Caliber]文档[3]。\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  Covered by the GNU General Public License. See the [file COPYING.txt][4] for more details.  \n"
-msgstr "  受GNU通用公共许可证的保护。有关详细信息，请参阅[file COPYING.txt] [4]。\n"
+msgstr "  此插件受GNU通用公共许可证的保护，有关详细信息，请参阅[file COPYING.txt] [4]。\n"
 
 #. type: Plain text
 #, no-wrap
