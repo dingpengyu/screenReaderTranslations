@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-01 21:29+0100\n"
+"PO-Revision-Date: 2018-11-02 14:48+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -36,17 +36,10 @@ msgstr "Télécharger [version de développement][2]"
 #. type: Plain text
 #, no-wrap
 msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
-msgstr " Un module complémentaire NVDA avec quelques améliorations d'accessibilité à l'interface du gestionnaire d'Ebooks Calibre\n"
+msgstr " Un module complémentaire NVDA avec quelques améliorations d'accessibilité à l'interface du gestionnaire eBook Calibre\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "* F8 open the context menu for selecting   and maintenance library\n"
-#| "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
-#| "* F12 search the current book in Google\n"
-#| "* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
-#| "* NVDA+Control+H open the context menu for settings of the current column\n"
-#| "* I in library view reads the book information.\n"
+#, no-wrap
 msgid ""
 "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
 "* F12 search the current book in Google\n"
@@ -54,7 +47,6 @@ msgid ""
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
-"* F8 Ouvre le menu contextuel pour sélectionner   et pour la bibliothèque de maintenance\n"
 "* F10 Amène le focus à la barre d'outils. Ensuite, vous pouvez naviguer avec les touches standard (tab et flèches) ; entrer pour activer l'élément et la touche applications pour afficher le menu contextuel ; ECHAP pour quitter la barre d'outils.\n"
 "* F12 Rechercher le livre courant dans Google\n"
 "* NVDA+Alt+Fin Dit le nombre total de livres dans la vue de bibliothèque courante et le nombre de livres sélectionnés\n"
@@ -69,12 +61,12 @@ msgstr "Ces commandes au clavier peuvent être personnalisées à partir du dial
 #. type: Plain text
 #, no-wrap
 msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
-msgstr " Consultez la  [documentation de Calibre][3] pour en savoir plus sur les raccourcis clavier.\n"
+msgstr " Jeter un coup d'œil à la [documentation de Calibre][3] pour en savoir plus sur les raccourcis clavier.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  Covered by the GNU General Public License. See the [file COPYING.txt][4] for more details.  \n"
-msgstr "  Couvert par la licence publique générale GNU (GNU General Public License). Voir le [fichier COPYING.txt][4] pour plus de détails.  \n"
+msgstr "  Couvert par la licence GNU General Public License. Voir le [fichier COPYING.txt][4] pour plus de détails.  \n"
 
 #. type: Plain text
 #, no-wrap
