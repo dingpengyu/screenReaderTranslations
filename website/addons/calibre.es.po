@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-01 15:58+0100\n"
+"PO-Revision-Date: 2018-11-02 13:05+0100\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -39,14 +39,7 @@ msgid " An NVDA add-on with some accessibility enhancements for the interface of
 msgstr " Un complemento de NVDA con algunas mejoras de accesibilidad para el gestor de libros electrónicos Calibre\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "* F8 open the context menu for selecting   and maintenance library\n"
-#| "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
-#| "* F12 search the current book in Google\n"
-#| "* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
-#| "* NVDA+Control+H open the context menu for settings of the current column\n"
-#| "* I in library view reads the book information.\n"
+#, no-wrap
 msgid ""
 "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
 "* F12 search the current book in Google\n"
@@ -54,12 +47,11 @@ msgid ""
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
-"* F8 abre el menú de contexto para seleccionar el mantenimiento de una biblioteca\n"
 "* F10 lleva el foco a la barra de herramientas. Allí puedes navegar con las teclas estándar (tabulador y flechas); intro para activar un elemento y la tecla aplicaciones para mostrar el menú de contexto; escape para salir de la barra de herramientas.\n"
 "* F12 busca el libro actual en Google\n"
 "* NVDA+alt+fin verbaliza el total de libros en la vista de la biblioteca actual y la cantidad de libros seleccionados\n"
 "* NVDA+control+h abre el menú de contexto con los ajustes de la columna actual\n"
-"* La I en la vista de la biblioteca lee la información del libro.\n"
+"* La i en la vista de la biblioteca lee la información del libro.\n"
 
 #. type: Plain text
 #, no-wrap
