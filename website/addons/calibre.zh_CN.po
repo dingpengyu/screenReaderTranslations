@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-01 22:03+0800\n"
+"PO-Revision-Date: 2018-11-02 08:46+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Calibre\"]]\n"
-msgstr "[[!meta title=\"Calibre-NVDA支持插件\"]]\n"
+msgstr "[[!meta title=\"NVDACalibre图书支持插件\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Javi Dominguez"
@@ -36,17 +36,10 @@ msgstr "下载 [开发板][2]"
 #. type: Plain text
 #, no-wrap
 msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
-msgstr "此插件主要改进了，NVDA屏幕朗读器对Calibre eBook Management图书管理工具的无障碍支持。\n"
+msgstr " 此插件主要改进了NVDA屏幕朗读器对Calibre eBook Management图书管理工具的无障碍支持。\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "* F8 open the context menu for selecting   and maintenance library\n"
-#| "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
-#| "* F12 search the current book in Google\n"
-#| "* NVDA+Alt+End says the total of books in the current library view and the number of books selected\n"
-#| "* NVDA+Control+H open the context menu for settings of the current column\n"
-#| "* I in library view reads the book information.\n"
+#, no-wrap
 msgid ""
 "* F10 brings the focus to   the toolbar. Then you can navigate it with standard keys (tab and arrows); enter to activate item and key applications to display the context menu; escape to exit the toolbar.\n"
 "* F12 search the current book in Google\n"
@@ -54,10 +47,9 @@ msgid ""
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
-"* F8打开选择和维护书库的上下文菜单\n"
 "* F10将焦点移到工具栏。然后你可以用标准键（标签和箭头）进行浏览;进入以激活项目和关键应用程序以显示上下文菜单;esc退出工具栏。\n"
-"* F12从Google搜索当前图书\n"
-"* NVDA + Alt + End朗读当前书库视图中的书籍总数和所选书籍的数量\n"
+"* F12从Google中搜索当前图书\n"
+"* NVDA + Alt + End朗读当前库视图中的书籍总数和所选书籍的数量\n"
 "* NVDA + Control + H打开当前列设置的上下文菜单\n"
 
 #. type: Plain text
@@ -68,12 +60,12 @@ msgstr "快捷键可以在NVDA的首选项中进行自定义>当窗口打开时�
 #. type: Plain text
 #, no-wrap
 msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
-msgstr "了解更多键盘快捷键，请查看[Caliber]文档[3]。\n"
+msgstr "想了解更多calibre键盘快捷键，请查看[Caliber]文档[3]。\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  Covered by the GNU General Public License. See the [file COPYING.txt][4] for more details.  \n"
-msgstr "受GNU通用公共许可证的保护。有关详细信息，请参阅[file COPYING.txt] [4]。\n"
+msgstr "  受GNU通用公共许可证的保护。有关详细信息，请参阅[file COPYING.txt] [4]。\n"
 
 #. type: Plain text
 #, no-wrap
