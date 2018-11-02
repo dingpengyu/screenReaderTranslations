@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-02 14:48+0100\n"
+"PO-Revision-Date: 2018-11-02 15:33+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -36,7 +36,7 @@ msgstr "Télécharger [version de développement][2]"
 #. type: Plain text
 #, no-wrap
 msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
-msgstr " Un module complémentaire NVDA avec quelques améliorations d'accessibilité à l'interface du gestionnaire eBook Calibre\n"
+msgstr " Un module complémentaire NVDA avec quelques améliorations d'accessibilité à l'interface du gestionnaire de livres numériques Calibre\n"
 
 #. type: Plain text
 #, no-wrap
