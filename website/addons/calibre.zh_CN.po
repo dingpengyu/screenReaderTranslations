@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-02 08:59+0800\n"
+"PO-Revision-Date: 2018-11-02 09:11+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -60,7 +60,7 @@ msgstr "注意，快捷首饰可以在NVDA的首选项中进行自定义。>当�
 #. type: Plain text
 #, no-wrap
 msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
-msgstr " 了解更多键盘快捷键，请查看[Caliber]文档[3]。\n"
+msgstr "  了解更多calibre键盘快捷键，请查看[Caliber]文档[3]。\n"
 
 #. type: Plain text
 #, no-wrap
