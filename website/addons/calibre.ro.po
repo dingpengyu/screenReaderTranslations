@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-03 15:59+0200\n"
+"PO-Revision-Date: 2018-11-03 16:27+0200\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,12 +61,12 @@ msgstr "Combinațiile de taste pot fi personalizate în Preferințele NVDA > Ges
 #. type: Plain text
 #, no-wrap
 msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
-msgstr " Aruncați o privire peste [documentația Calibre][3] pentru pentru a afla mai multe combinații de taste.\n"
+msgstr " Aruncați o privire peste [documentația Calibre][3] pentru a afla mai multe combinații de taste.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  Covered by the GNU General Public License. See the [file COPYING.txt][4] for more details.  \n"
-msgstr " Acoperit de GNU General Public License. Vedeți [fișierul COPYING.txt][4] pntru mai multe detalii  .\n"
+msgstr " Acoperit de GNU General Public License. Vedeți [fișierul COPYING.txt][4] pentru mai multe detalii  .\n"
 
 #. type: Plain text
 #, no-wrap
