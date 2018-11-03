@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-03 03:00+1000\n"
-"PO-Revision-Date: 2018-08-24 22:51+0300\n"
+"PO-Revision-Date: 2018-11-03 13:28+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -105,6 +105,15 @@ msgid ""
 "\t* Numpad 1 to 9: Use review cursor to read math content.\n"
 "\t* Escape: Exit the navigation mode.\n"
 msgstr ""
+"* Comenzi ale modului de navigare:\n"
+"\t* Săgeată jos: mărește o subparte mai mică a conținutului matematic.\n"
+"\t* Săgeată sus: face mai mică o subparte mai mare a conținutului matematic.\n"
+"\t* Săgeată stânga: mută la conținutul matematic precedent.\n"
+"\t* Săgeată dreapta: mută la conținutul matematic succedent.\n"
+"\t* Home: mută la începutul conținutului matematic.\n"
+"\t* Control+C: Copiază codul sursă al obiectului MathML.\n"
+"\t* Tastele blocului numeric de la 1 la 9: folosește cursorul de examinare pentru citirea conținutului matematic.\n"
+"\t* Escape: iese din modul de navigare.\n"
 
 #. type: Title ##
 #, no-wrap
@@ -131,6 +140,9 @@ msgid ""
 "definied in the dictionary, use dictionary to read the meaning of subpart in "
 "the upper layer part."
 msgstr ""
+"Citește semnificația șablonului definit în dicționar: Dacă șablonul este "
+"definit în dicționar, utilizați dicționarul pentru a citi semnificația "
+"subpărții din partea stratului de mai sus."
 
 #. type: Bullet: '* '
 msgid ""
@@ -138,6 +150,9 @@ msgid ""
 "incomplete in dictionary, use automatic generation function to read the "
 "meaning of subpart in the upper layer part."
 msgstr ""
+"Citește semnificația autogenerării: Când șablonul este nedefinit sau "
+"incomplet în dicționar, folosiți funcționalitatea de generare automată "
+"pentru a citi semnificația subpărții din partea stratului de mai sus."
 
 #. type: Plain text
 #, no-wrap

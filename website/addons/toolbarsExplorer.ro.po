@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-01 23:42+1000\n"
-"PO-Revision-Date: 2018-10-20 09:59+0300\n"
+"PO-Revision-Date: 2018-11-02 20:02+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -128,16 +128,12 @@ msgstr ""
 "curente (alt, windows, tab, NVDA+F1, gesturi de navigare ale obiectelor etc)."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Other gestures not containing alt or windows (as h, 1, shift, shift+h, "
-#| "control+z) simply does nothing."
 msgid ""
 "Other gestures not containing alt, windows or escape (as h, 1, shift, shift"
 "+h, control+z) simply does nothing."
 msgstr ""
-"Alte gesturi care conțin alt sau windos (ca h, 1, shift, shift+h, control+z) "
-"pur și simplu nu fac nimic."
+"Alte gesturi care nu conțin alt, windows sau escape (ca h, 1, shift, shift"
+"+h, control+z) pur și simplu nu fac nimic."
 
 #. type: Title ##
 #, no-wrap
@@ -163,10 +159,9 @@ msgstr ""
 "unelte."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev]]\n"
+#, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"

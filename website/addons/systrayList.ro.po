@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-28 06:10+1000\n"
-"PO-Revision-Date: 2017-11-27 18:52+0200\n"
+"PO-Revision-Date: 2018-11-02 20:12+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -33,10 +33,8 @@ msgid "Download [stable version][1]"
 msgstr "Descărcați [versiunea stabilă][1]"
 
 #. type: Bullet: '*   '
-#, fuzzy
-#| msgid "Download [stable version][1]"
 msgid "Download [development version][2]"
-msgstr "Descărcați [versiunea stabilă][1]"
+msgstr "Descărcați [versiunea în dezvoltare][2]"
 
 #. type: Plain text
 msgid ""
@@ -54,13 +52,6 @@ msgstr ""
 "care sunt aplicațiile curente care rulează."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Note that you can access the windows system tray in any screenreader "
-#| "software using the Windows+B, and the task bar by pressing Windows+T. "
-#| "This plugin is only useful to make the transition from JAWS for Windows "
-#| "smoother and to avoid some tooltips that may pop-up when cycling through "
-#| "the system tray with the windows keyboard means."
 msgid ""
 "Note that you can access the windows system tray in any screen reader "
 "software using the Windows+B, and the task bar by pressing Windows+T. This "
@@ -74,20 +65,21 @@ msgstr ""
 "la JAWS pentru Windows lin și pentru a evita unele tipuri de unelte ."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 2.0 2017-05-20"
+#, no-wrap
 msgid "Changes for 3.0 2018-10-27"
-msgstr "Modificări aduse în versiunea 2.0, 20 mai 2017"
+msgstr "Modificări aduse în versiunea 3.0, 27 octombrie 2018"
 
 #. type: Plain text
 msgid ""
 "Support for Windows releases earlier than Windows 7 Service Pack 1 will end "
 "in 2019."
 msgstr ""
+"Suportul pentru versiunile de Windows mai vechi decât Windows 7 Service Pack "
+"1 va lua sfârșit în 2019."
 
 #. type: Bullet: '* '
 msgid "Add-on is Python 3 compatible."
-msgstr ""
+msgstr "Suplimentul e compatibil cu Python 3."
 
 #. type: Title ##
 #, no-wrap
@@ -127,7 +119,7 @@ msgstr "Actualizări la traduceri."
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.4 - 2013-01-19"
-msgstr "Modificări aduse în versiunea 1.4, 19 ianuarie 2013."
+msgstr "Modificări aduse în versiunea 1.4, 19 ianuarie 2013"
 
 #. type: Bullet: '* '
 msgid "Requires NVDA 2012.3beta2 or greater."

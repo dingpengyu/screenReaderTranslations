@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-24 09:02+1000\n"
-"PO-Revision-Date: 2018-08-06 10:18+0300\n"
+"PO-Revision-Date: 2018-11-03 13:36+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
@@ -26,10 +26,8 @@ msgid "Author: Joseph Lee"
 msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [prototype version][1]"
 msgid "Download [stable version][1]"
-msgstr "Descărcați [versiunea prototip][1]"
+msgstr "Descărcați [versiunea stabilă][1]"
 
 #. type: Plain text
 msgid ""
@@ -73,17 +71,13 @@ msgid "WeatherPlus"
 msgstr "WeatherPlus"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The following add-ons provide built-in update feature and thus updates "
-#| "will not be checked via this add-on:"
 msgid ""
 "The following add-ons do have their own update check feature which will be "
 "disabled once Add-on Updater is installed:"
 msgstr ""
-"Următoarele suplimente au deja implementată funcția de actualizare. De "
-"aceea, actualizările lor nu vor fi căutate, descărcate și instalate prin "
-"intermediul acestui supliment:"
+"Următoarele suplimente au deja implementată propria lor funcție de căutare a "
+"actualizărilor, care va fi dezactivată odată cu instalarea suplimentului Add-"
+"on Updater:"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
@@ -103,20 +97,20 @@ msgstr ""
 "supliment va fi întreruptă."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versiunea 18.08"
+msgstr "Versiunea 18.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable release (still marked as proof of concept)."
 msgstr ""
+"Versiune stabilă inițială (încă marcată ca punct de plecare către integrarea "
+"acestui supliment în NVDA)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev]]\n"
+#, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"

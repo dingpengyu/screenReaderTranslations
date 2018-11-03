@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-31 04:07+1000\n"
-"PO-Revision-Date: 2018-08-30 13:32+0300\n"
+"PO-Revision-Date: 2018-11-02 19:57+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -54,11 +54,11 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Action center"
-msgstr ""
+msgstr "Centru de acțiuni"
 
 #. type: Bullet: '* '
 msgid "Alarms and Clock."
-msgstr "Alarme și ceas."
+msgstr "Alarme și Ceas."
 
 #. type: Bullet: '* '
 msgid "Calendar"
@@ -137,11 +137,6 @@ msgid "Notes:"
 msgstr "Note:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "This add-on requires Windows 10 Version 1709 (build 16299) or later and "
-#| "NVDA 2018.2 or later. For best results, use the add-on with latest "
-#| "Windows 10 stable release (build 17134) and latest stable version of NVDA."
 msgid ""
 "This add-on requires Windows 10 Version 1709 (build 16299) or later and NVDA "
 "2018.3 or later. For best results, use the add-on with latest Windows 10 "
@@ -150,9 +145,11 @@ msgid ""
 "Microsoft."
 msgstr ""
 "Acest supliment necesită Windows 10 versiunea 1709 )compilarea 16299) sau "
-"mai nouă și NVDA 2018.2 sau mai nou. Pentru cele mai bune rezultate, "
+"mai nouă și NVDA 2018.3 sau mai nou. Pentru cele mai bune rezultate, "
 "folosiți-l cu ultima compilare stabilă ( compilarea17134) și cea mai recentă "
-"versiune stabilă a NVDA-ului."
+"versiune stabilă a NVDA-ului. Vă aducem la cunoștință faptul că momentan, "
+"versiunea 1809 (compilarea 17763) nu este disponibilă, fiindcă Microsoft nu "
+"a publicat-o încă."
 
 #. type: Bullet: '* '
 msgid "Some add-on features are or will be part of NVDA screen reader."
@@ -191,6 +188,8 @@ msgid ""
 "If Add-on Updater add-on is installed, that add-on will check for Windows 10 "
 "App Essentials updates."
 msgstr ""
+"Dacă suplimentul Add-on Updater este instalat, va căuta actualizări pentru "
+"Windows 10 App Essentials."
 
 #. type: Bullet: '* '
 msgid ""
@@ -198,6 +197,9 @@ msgid ""
 "and development releases. This is applicable if the add-on itself checks for "
 "updates."
 msgstr ""
+"Intervalul implicit de căutare a actualizărilor a fost modificat la căutări "
+"săptămânale atât pentru versiunile stabile, cât și pentru cele în "
+"dezvoltare. Acesta este aplicabil dacă suplimentul însuși caută actualizări."
 
 #. type: Bullet: '* '
 msgid ""
@@ -209,11 +211,6 @@ msgstr ""
 "aplicație al Microsoft Edge (Redstone 5)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain dialogs are now recognized as proper dialogs and reported as "
-#| "such, including Insider Preview dialog (settings app). This will be part "
-#| "of NVDA 2018.3."
 msgid ""
 "Certain dialogs are now recognized as proper dialogs and reported as such, "
 "including Insider Preview dialog (settings app). This is now part of NVDA "
@@ -221,7 +218,7 @@ msgid ""
 msgstr ""
 "Anumite dialoguri sunt acum recunoscute ca dialoguri corespunzătoare și sunt "
 "raportate ca atare. Acestea includ dialogul Insider Preview (aplicația "
-"setări). Aceasta va face parte din NVDA 2018.3"
+"setări). Aceasta face parte acum din NVDA 2018.3."
 
 #. type: Bullet: '* '
 msgid ""
@@ -242,15 +239,6 @@ msgstr ""
 "x. 1 din 2) nu mai este anunțată."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "The following UIA events are recognized: active text position change, "
-#| "controller for, drag start, drag cancel, drag complete, element selected, "
-#| "live region change, notification, system alert, tooltip opened, window "
-#| "opened. With NVDA set to run with debug logging enabled, these events "
-#| "will be tracked, and for UIA notification event, a debug tone will be "
-#| "heard if notifications come from somewhere other than the currently "
-#| "active app."
 msgid ""
 "The following UIA events are recognized: active text position change, "
 "controller for, drag start, drag cancel, drag complete, element selected, "
@@ -261,10 +249,11 @@ msgid ""
 msgstr ""
 "Următoarele evenimente UIA sunt recunoscute: schimbarea poziției textului "
 "activ, controler pentru, început de tragere, tragere finalizată, element "
-"selectat, schimbarea regiunii active, notificare, alertă de sistem, indiciu "
-"deschis, fereastră deschisă. Cu NVDA-ul setat să ruleze cu diagnosticarea "
-"activată, aceste evenimente vor fi urmărite, iar pentru evenimentul de tip "
-"notificare UIA, se va auzi un ton de diagnosticare."
+"selectat, stare element, schimbare regiune activă, notificare, alertă de "
+"sistem, indiciu deschis, fereastră deschisă. Cu NVDA-ul setat să ruleze cu "
+"diagnosticarea activată, aceste evenimente vor fi urmărite, iar pentru "
+"evenimentul de tip notificare UIA, se va auzi un ton de diagnosticare dacă "
+"notificările nu vin din aplicația curentă, ci de altundeva."
 
 #. type: Bullet: '* '
 msgid ""
@@ -302,11 +291,14 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Brightness quick action is now a button instead of a toggle button."
 msgstr ""
+"Acțiunea rapidă a luminozității este acum un buton, nu un buton de activare."
 
 #. type: Bullet: '* '
 msgid ""
 "Various status changes such as Focus Assist and Brightness will be reported."
 msgstr ""
+"Diverse modificări de stare precum asistarea focalizării și luminozitatea, "
+"vor fi raportate."
 
 #. type: Title ##
 #, no-wrap
@@ -393,17 +385,14 @@ msgstr ""
 "decât 17723."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "When reviewing items in messages list, you can now use table navigation "
-#| "commands to review message headers."
 msgid ""
 "When reviewing items in messages list, you can now use table navigation "
 "commands to review message headers. Note that navigating between rows "
 "(messages) is not supported."
 msgstr ""
-"Când examinați elemente în lista de mesaje, puteți să folosiți comenzile de "
-"navigare ale tabelului pentru a examina antetele mesajelor."
+"Când examinați elemente dinn lista de mesaje, puteți să folosiți comenzile "
+"de navigare ale tabelului pentru a examina antetele mesajelor. Rețineți că "
+"navigarea printre rânduri (mesaje) nu este suportată."
 
 #. type: Bullet: '* '
 msgid ""
@@ -438,6 +427,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Text auto-complete will be tracked and announced in address omnibar."
 msgstr ""
+"Autocompletarea textului va fi urmărită și anunțată în omnibara de adrese."
 
 #. type: Title ##
 #, no-wrap
@@ -447,13 +437,9 @@ msgstr "Tastatură modernă"
 #. type: Plain text
 msgid "Note: most features below are now part of NVDA 2018.3."
 msgstr ""
+"Notă: majoritatea caracteristicilor de mai jos nu fac parte din NVDA 2018.3."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
-#| "later, including the redesigned panel in build 17661 and later. For best "
-#| "experience when reading emojis, use Windows OneCore speech synthesizer."
 msgid ""
 "Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
 "later, including the redesigned panel in Version 1809 (build 17661 and "
@@ -461,9 +447,9 @@ msgid ""
 "reading emojis, use Windows OneCore speech synthesizer."
 msgstr ""
 "Suport pentru panoul de intrare floating Emoji în versiunea 1709 (Fall "
-"Creators Update) și pentru panoul nou din compilarea 17661. Pentru cea mai "
-"bună experiență la citirea moji-urilor, folosiți sintetizatorul Windows "
-"OneCore."
+"Creators Update) și pentru panoul nou din compilarea 17661 sau mai nouă, și "
+"modificările făcute 19H1 (compilarea 18262). Pentru cea mai bună experiență "
+"la citirea moji-urilor, folosiți sintetizatorul Windows OneCore."
 
 #. type: Bullet: '* '
 msgid ""
@@ -480,18 +466,18 @@ msgid ""
 "panel may open to last browsed category, such as displaying skin tone "
 "modifier when opened to People category."
 msgstr ""
+"În compilările post-1709, NVDA va anunța primul emoji selectat când se "
+"deschide panoul emoji. Aceasta este mai observabilă în compilarea 18262 și "
+"mai nouă, în care panoul emoji se poate deschide la ultima categorie în care "
+"s-a navigat."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for announcing cloud clipboard items in build 17666 (Redstone 5) "
-#| "and later."
 msgid ""
 "Support for announcing cloud clipboard items in Version 1809 (build 17666 "
 "and later)."
 msgstr ""
-"Suport pentru anunțarea elementelor planșetei cloud în compilarea 17666 "
-"(Redstone 5) și mai nouă."
+"Suport pentru anunțarea elementelor planșetei cloud în versiunea 1809 "
+"(compilarea 17666 și mai nouă."
 
 #. type: Bullet: '* '
 msgid ""
@@ -511,6 +497,8 @@ msgid ""
 "NVDA will no longer play error tones or do nothing when closing emoji panel "
 "in more recent Insider Preview builds."
 msgstr ""
+"NVDA nu va mai reda tonuri de eroare sau nu va mai face nimic la închiderea "
+"panoului emoji în compilări mai recente Insider Preview."
 
 #. type: Bullet: '* '
 msgid ""
@@ -526,16 +514,12 @@ msgid "Settings"
 msgstr "Setări"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Certain information such as Windows Update progress is reported "
-#| "automatically."
 msgid ""
 "Certain information such as Windows Update progress is reported "
 "automatically, including Storage sense/disk cleanup widget."
 msgstr ""
 "Anumite informații, cum ar fi progresul Windows Update, sunt acum raportate "
-"automat."
+"automat, incluzând stocarea sensului sau widget-ul curățare disc."
 
 #. type: Bullet: '* '
 msgid ""
@@ -553,16 +537,12 @@ msgstr ""
 "pentru a naviga printre controale."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "For some combo boxes, NVDA will no longer fail to recognize labels and/or "
-#| "announce value changes."
 msgid ""
 "For some combo boxes and radio buttons, NVDA will no longer fail to "
 "recognize labels and/or announce value changes."
 msgstr ""
-"Pentru unele casete combinate, NVDA nu va mai eșua la recunoașterea "
-"etichetelor și/sau anunțarea schimbărilor valorii."
+"Pentru unele casete combinate și butoane rotative, NVDA nu va mai eșua la "
+"recunoașterea etichetelor și/sau anunțarea schimbărilor valorii."
 
 #. type: Bullet: '* '
 msgid ""
@@ -588,6 +568,8 @@ msgstr "Skype"
 #. type: Plain text
 msgid "Note: the below entries won't work properly in Skype 14 universal app."
 msgstr ""
+"Notă: intrările de mai jos nu vor funcționa așa cum trebuie în aplicația "
+"universală Skype 14."
 
 #. type: Bullet: '* '
 msgid "Typing indicator text is announced just like Skype for Desktop client."
