@@ -3,40 +3,40 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-11-03 14:34+0200\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Calibre\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Calibre\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Javi Dominguez"
-msgstr ""
+msgstr "Autor: Javi Dominguez"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Descărcați [versiunea stabilă][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Descărcați [versiunea în dezvoltare][2]"
 
 #. type: Plain text
 #, no-wrap
 msgid " An NVDA add-on with some accessibility enhancements for the interface of Calibre eBook Management\n"
-msgstr ""
+msgstr " Un supliment NVDA cu niște îmbunătățiri de accesibilitate pentru interfața Calibre eBook Management\n"
 
 #. type: Plain text
 #, no-wrap
@@ -66,20 +66,20 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cae"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cae"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=cae-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=cae-dev"
 
 #. type: Plain text
 msgid "[3]: https://manual.calibre-ebook.com/gui.html"
-msgstr ""
+msgstr "[3]: https://manual.calibre-ebook.com/gui.html"
 
 #. type: Plain text
 msgid "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
-msgstr ""
+msgstr "[4]: https://github.com/javidominguez/Calibre/blob/master/COPYING.txt"
