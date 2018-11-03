@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-03 14:34+0200\n"
+"PO-Revision-Date: 2018-11-03 15:59+0200\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,21 +47,26 @@ msgid ""
 "* NVDA+Control+H open the context menu for settings of the current column\n"
 "* I in library view reads the book information.\n"
 msgstr ""
+"* F10 aduce focalizarea la bara de unelte. Apoi, puteți naviga cu tastele standard (tab și săgeți); enter pentru a activa elementul și tasta aplicații pentru a se afișa meniul contextual; escape pentru a ieși din bara de unelte.\n"
+"* F12 caută cartea curentă pe Google.\n"
+"* NVDA+Alt+End spune totalitatea cărților din vizualizarea bibliotecii curente și numărul cărților selectate.\n"
+"* NVDA+Control+H deschide meniul contextual pentru setările coloanei curente.\n"
+"* I în vizualizarea bibliotecii, citește informațiile despre carte.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "Keystrokes can be customized in  Preferences  of NVDA > Input gestures when calibre are open. Also you can define in preferences the way NVDA reads the table headers  in the library (rows and columns, columns only or none).\n"
-msgstr ""
+msgstr "Combinațiile de taste pot fi personalizate în Preferințele NVDA > Gesturi de intrare atunci când Calibre este deschis. De asemenea, puteți să definiți în preferințe modalitatea în care NVDA citește antetele de tabele din bibliotecă (rânduri și coloane, numai coloane sau niciuna din acestea).\n"
 
 #. type: Plain text
 #, no-wrap
 msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
-msgstr ""
+msgstr " Aruncați o privire peste [documentația Calibre][3] pentru pentru a afla mai multe combinații de taste.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "  Covered by the GNU General Public License. See the [file COPYING.txt][4] for more details.  \n"
-msgstr ""
+msgstr " Acoperit de GNU General Public License. Vedeți [fișierul COPYING.txt][4] pntru mai multe detalii  .\n"
 
 #. type: Plain text
 #, no-wrap
