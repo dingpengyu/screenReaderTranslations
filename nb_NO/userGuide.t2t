@@ -264,7 +264,7 @@ Når menyen vises, kan du bruke piltastene til å navigere i den, og enter-taste
 | Slå av/på tastaturhjelpmodus | NVDA+1 | NVDA+1 | ingen | Når du trykker en tast i denne modusen vil tasten bli lest sammen med beskrivelse av eventuell NVDA-kommando tilknyttet den |
 | Avslutt NVDA | NVDA+q | NVDA+q | ingen | Avslutter NVDA |
 | Slipp neste tast gjennom | NVDA+F2 | NVDA+F2 | ingen | Lar NVDA slippe neste tastetrykk rett gjennom til det aktive programmet, selv om det normalt er håndtert som en NVDA-tastekommando |
-| Slå programdvalemodus på/av | NVDA+Skift+s | NVDA-Skift+z | ingen | Dvalemodus deaktiverer alle NVDA-kommandoer og tale/punktskrift for det gjeldende programmet. Dette er mest nyttig i programmer som har sin egen tale eller skjermleserfunksjon. Trykk denne kommandoen på nytt for å deaktivere dvalemodus. |
+| Slå programdvalemodus på/av | NVDA+Skift+s | NVDA+Skift+z | ingen | Dvalemodus deaktiverer alle NVDA-kommandoer og tale/punktskrift for det gjeldende programmet. Dette er mest nyttig i programmer som har sin egen tale eller skjermleserfunksjon. Trykk denne kommandoen på nytt for å deaktivere dvalemodus. |
 %%kc:endInclude
 
 ++ Rapportering av systeminformasjon ++[ReportingSystemInformation]
@@ -305,9 +305,9 @@ NVDA vil annonsere det når du flytter mellom tegn, ord og linje, og vil også o
 NVDA har følgende tastaturkommandoer i tilknytning til systemmarkøren:
 %kc:beginInclude
 || Navn | Stasjonær tast | Bærbar tast | Beskrivelse |
-| Si alle | NVDA+PilNed | NVDA+a | Starter lesing fra systemmarkørens gjeldende posisjon, og flytter systemmarkøren under lesing |
-| Les gjeldende linje | NVDA+PilOpp | NVDA+l | Leser linjen der systemmarkøren befinner seg. Ved å trykke to ganger staves linjen. Ved å trykke tre ganger staves linjen med tegnbeskrivelse. |
-| Les gjeldende valgt tekst | NVDA+Skift+PilOpp | NVDA+Skift+s | Leser teksten som for øyeblikket er markert |
+| Si alle | NVDA+Pil ned | NVDA+a | Starter lesing fra systemmarkørens gjeldende posisjon, og flytter systemmarkøren under lesing |
+| Les gjeldende linje | NVDA+Pil opp | NVDA+l | Leser linjen der systemmarkøren befinner seg. Ved å trykke to ganger staves linjen. Ved å trykke tre ganger staves linjen med tegnbeskrivelse. |
+| Les gjeldende valgt tekst | NVDA+Skift+Pil opp | NVDA+Skift+s | Leser teksten som for øyeblikket er markert |
 | Neste setning | Alt+PilNed | Alt+PilNed | Flytter markøren til neste setning og leser den. (støttes bare i 
 Microsoft Word og Outlook) |
 | Forrige setning | Alt+PilOpp | Alt+PilOpp | Flytter markøren til forrige setning og leser den. 
@@ -349,18 +349,18 @@ Om du vil at leselisten skal følge objektnavigasjon og tekstlesing i stedet, m�
 Ved objektnavigering bruker du følgende taster:
 %kc:beginInclude
 || Navn | Stasjonær tast | Bærbar tast | Berøring | Beskrivelse |
-| Les gjeldende objekt | NVDA+NumPad5 | NVDA+Ctrl+o | ingen | Leser det gjeldende navigasjonsobjektet. Ved å trykke to ganger staves informasjonen, og trykker du tre ganger kopieres objektets navn og verdi til utklippstavlen. |
-| Gå til innholdsobjektet | NVDA+NumPad8 | NVDA+Skift+PilOpp | Sveip opp (objektmodus) | Flytter til objektet som inneholder gjeldende navigasjonsobjekt |
-| Gå til forrige objekt | NVDA+NumPad4 | NVDA+Skift+PilVenstre | Sveip mot venstre (objektmodus) | Flytter til objektet før den gjeldende navigasjonsobjektet |
-| Gå til neste objekt | NVDA+NumPad6 | NVDA+Skift+PilHøyre | Sveip mot høyre (objektmodus) | Flytter til objektet etter gjeldende navigasjonsobjekt |
-| Gå til første beholderobjekt | NVDA+NumPad2 | NVDA+Skift+PilNed | Sveip ned (objektmodus) | Flytter til det første innholdsobjektet i det gjeldende navigasjonsobjektet |
-| Gå til fokusobjekt | NVDA+NumPadMinus | NVDA+SlettBakover | ingen | Flytter til objektet som for øyeblikket har systemfokus, og plasserer også lesemarkøren i posisjonen for systemmarkøren, hvis den vises |
-| Aktiver nåværende navigasjonsobjekt | NVDA+NumPadEnter | NVDA+Enter | Dobbelttrykk | Aktiverer gjeldende navigasjonsobjekt (som å klikke med musen eller trykke mellomrom når den har systemfokus) |
-| Flytt systemfokus eller markør til gjeldende leseposisjon | NVDA+Skift+NumPadMinus | NVDA+Skift+SlettBakover | ingen | Flytter systemfokus til gjeldende navigasjonsobjekt når kommandoen trykkes én gang. Trykkes kommandoen to ganger, flyttes systemmarkøren til posisjonen for lesemarkøren |
-| Rapporter om lesemarkørens plassering | NVDA+NumPadDel | NVDA+Del | ingen | Leser informasjon om tekst eller objekt ved lesemarkøren. Dette kan for eksempel omfatte hvor i dokumentet en er (i prosent), avstand fra kanten av arket eller eksakt skjermposisjon. Ved å trykke to ganger kan en få flere detaljer |
+| Les gjeldende objekt | NVDA+Numerisk 5 | NVDA+Ctrl+o | ingen | Leser det gjeldende navigasjonsobjektet. Ved å trykke to ganger staves informasjonen, og trykker du tre ganger kopieres objektets navn og verdi til utklippstavlen. |
+| Gå til innholdsobjektet | NVDA+Numerisk 8 | NVDA+Skift+Pil opp | Sveip opp (objektmodus) | Flytter til objektet som inneholder gjeldende navigasjonsobjekt |
+| Gå til forrige objekt | NVDA+Numerisk 4 | NVDA+Skift+Pil venstre | Sveip mot venstre (objektmodus) | Flytter til objektet før den gjeldende navigasjonsobjektet |
+| Gå til neste objekt | NVDA+Numerisk 6 | NVDA+Skift+Pil høyre | Sveip mot høyre (objektmodus) | Flytter til objektet etter gjeldende navigasjonsobjekt |
+| Gå til første beholderobjekt | NVDA+Numerisk 2 | NVDA+Skift+Pil ned | Sveip ned (objektmodus) | Flytter til det første innholdsobjektet i det gjeldende navigasjonsobjektet |
+| Gå til fokusobjekt | NVDA+Numerisk minus | NVDA+Slett bakover | ingen | Flytter til objektet som for øyeblikket har systemfokus, og plasserer også lesemarkøren i posisjonen for systemmarkøren, hvis den vises |
+| Aktiver nåværende navigasjonsobjekt | NVDA+Numerisk Enter | NVDA+Enter | Dobbelttrykk | Aktiverer gjeldende navigasjonsobjekt (som å klikke med musen eller trykke mellomrom når den har systemfokus) |
+| Flytt systemfokus eller markør til gjeldende leseposisjon | NVDA+Skift+Numerisk minus | NVDA+Skift+Slett bakover | ingen | Flytter systemfokus til gjeldende navigasjonsobjekt når kommandoen trykkes én gang. Trykkes kommandoen to ganger, flyttes systemmarkøren til posisjonen for lesemarkøren |
+| Rapporter om lesemarkørens plassering | NVDA+Numerisk Del | NVDA+Del | ingen | Leser informasjon om tekst eller objekt ved lesemarkøren. Dette kan for eksempel omfatte hvor i dokumentet en er (i prosent), avstand fra kanten av arket eller eksakt skjermposisjon. Ved å trykke to ganger kan en få flere detaljer |
 %kc:endInclude
 
-Merk: NumPad-taster (taster på det numeriske tastaturet) krever at NumLock-tasten er slått av for å fungere.
+Merk: Numeriske taster (taster på talltastaturet) krever at NumLock-tasten er slått av for å fungere.
 
 ++ Lese tekst ++[ReviewingText]
 NVDA lar deg lese innholdet [på skjermen #ScreenReview], i gjeldende [dokument #DocumentReview] eller i gjeldende [object #ObjectReview] tegn for tegn, ord for ord eller linje for linje.
@@ -377,20 +377,20 @@ Hvis du vil at den skal følge objektnavigasjon og tekstlesing i stedet, må du 
 Følgende kommandoer er tilgjengelige for lesing av tekst:
 %kc:beginInclude
 || Navn | Stasjonær tast | Bærbar tast | Berøring | Beskrivelse |
-| Gå til øverste linje i lesing | Skift+NumPad7 | NVDA+Ctrl+Home | ingen | Flytter lesemarkøren til øverste linje i teksten |
-| Gå til forrige linje i lesing | NumPad7 | NVDA+PilOpp | bla opp (tekstmodus) | Flytter lesemarkøren til forrige tekstlinje |
-| Les gjeldende linje i lesing | Numpad8 | NVDA+Skift?. | ingen | Les gjeldende tekstlinje der lesemarkøren er plassert. Ved å trykke to ganger staves linjen. Hvis du trykker tre ganger, staves linjen med tegnbeskrivelser. |
-| Gå til neste linje i lesing | NumPad9 | NVDA+PilNed | bla ned (tekstmodus) | Flytt lesemarkøren til neste tekstlinje |
-| Gå til nederste linje i lesing | Skift+NumPad9 | NVDA+Ctrl+End | ingen | Flytter lesemarkøren til siste linje av teksten |
-| Gå til forrige ord i lesing | NumPad4 | NVDA+Ctrl?PilVenstre | bla med to fingrer mot venstre (tekstmodus) | Flytter lesemarkøren til forrige ord i teksten |
-| Les gjeldende ord i lesing | NumPad5 | NVDA+Ctrl+punnktum | ingen | Les gjeldende ord i teksten der lesemarkøren er plassert. Ved å trykke to ganger staves ordet. Hvis du trykker tre ganger, staves ordet med tegnbeskrivelser. |
-| Gå til neste ord i lesing | NumPad6 | NVDA+Ctrl+PilHøyre | bla med to fingrer mot høyre (tekstmodus) | Flytt lesemarkøren til neste ord i teksten |
-| Gå til starten av linjen i lesing | Skift+NumPad1 | NVDA+Home | none | Flytter lesemarkøren til begynnelsen av linjen i teksten |
-| Gå til forrige tegn i lesing | NumPad1 | NVDA+PilVenstre | bla mot venstre (tekstmodus) | Flytter lesemarkøren til forrige tegn på den gjeldende linjen i teksten |
-| Les gjeldende tegn i lesing | NumPad2 | NVDA+punktum | ingen | Les gjeldende tegn på linjen der lesemarkøren er plassert. Ved å trykke to ganger leses en beskrivelse eller eksempel på det tegnet. Hvis du trykker tre ganger, leses den numeriske verdien av tegnet i desimal og heksadesimal. |
-| Gå til neste tegn i lesing | NumPad3 | NVDA+PilHøyre | bla mot høyre (tekstmodus) | Flytter lesemarkøren til neste tegn på gjeldende linje i teksten |
-| Gå til slutten av linjen i lesing | Skift+NumPad3 | NVDA+End | ingen | Flytter lesemarkøren til slutten av gjeldende linje i teksten |
-| Si alle ved lesing | NumPad++ | NVDA+Skift+a | Bla ned med tre fingrer (tekstmodus) | Leser fra gjeldende posisjon av lesemarkøren, og følger under lesing |
+| Gå til øverste linje i lesing | Skift+Numerisk 7 | NVDA+Ctrl+Home | ingen | Flytter lesemarkøren til øverste linje i teksten |
+| Gå til forrige linje i lesing | Numerisk 7 | NVDA+Pil opp | bla opp (tekstmodus) | Flytter lesemarkøren til forrige tekstlinje |
+| Les gjeldende linje i lesing | Numpad8 | NVDA+Skift+punktum | ingen | Les gjeldende tekstlinje der lesemarkøren er plassert. Ved å trykke to ganger staves linjen. Hvis du trykker tre ganger, staves linjen med tegnbeskrivelser. |
+| Gå til neste linje i lesing | Numerisk 9 | NVDA+Pil ned | bla ned (tekstmodus) | Flytt lesemarkøren til neste tekstlinje |
+| Gå til nederste linje i lesing | Skift+Numerisk 9 | NVDA+Ctrl+End | ingen | Flytter lesemarkøren til siste linje av teksten |
+| Gå til forrige ord i lesing | Numerisk 4 | NVDA+Ctrl?Pil venstre | bla med to fingrer mot venstre (tekstmodus) | Flytter lesemarkøren til forrige ord i teksten |
+| Les gjeldende ord i lesing | Numerisk 5 | NVDA+Ctrl+punktum | ingen | Les gjeldende ord i teksten der lesemarkøren er plassert. Ved å trykke to ganger staves ordet. Hvis du trykker tre ganger, staves ordet med tegnbeskrivelser. |
+| Gå til neste ord i lesing | Numerisk 6 | NVDA+Ctrl+Pil høyre | bla med to fingrer mot høyre (tekstmodus) | Flytt lesemarkøren til neste ord i teksten |
+| Gå til starten av linjen i lesing | Skift+Numerisk 1 | NVDA+Home | none | Flytter lesemarkøren til begynnelsen av linjen i teksten |
+| Gå til forrige tegn i lesing | Numerisk 1 | NVDA+Pil venstre | bla mot venstre (tekstmodus) | Flytter lesemarkøren til forrige tegn på den gjeldende linjen i teksten |
+| Les gjeldende tegn i lesing | Numerisk 2 | NVDA+punktum | ingen | Les gjeldende tegn på linjen der lesemarkøren er plassert. Ved å trykke to ganger leses en beskrivelse eller eksempel på det tegnet. Hvis du trykker tre ganger, leses den numeriske verdien av tegnet i desimal og heksadesimal. |
+| Gå til neste tegn i lesing | Numerisk 3 | NVDA+Pil høyre | bla mot høyre (tekstmodus) | Flytter lesemarkøren til neste tegn på gjeldende linje i teksten |
+| Gå til slutten av linjen i lesing | Skift+Numerisk 3 | NVDA+End | ingen | Flytter lesemarkøren til slutten av gjeldende linje i teksten |
+| Si alle ved lesing | Numerisk pluss | NVDA+Skift+a | Bla ned med tre fingrer (tekstmodus) | Leser fra gjeldende posisjon av lesemarkøren, og følger under lesing |
 | Velg og kopier fra lesemarkøren | NVDA+F9 | NVDA+F9 | ingen | Starter velg og kopier-prosessen fra den gjeldende posisjonen til lesemarkøren. Selve handlingen blir ikke utført før du forteller NVDA hvor slutten på det valgte tekstområdet er |
 | Velg og kopier til lesemarkøren | NVDA+F10 | NVDA+F10 | ingen | Ved første trykk velges tekst fra det tidligere satte startmerket fram til og med gjeldende posisjon for lesemarkøren. Etter å ha trykket på tasten en gang til, vil teksten bli kopiert til utklippstavlen i Windows |
 | Les tekstformatering | NVDA+f | NVDA+f | ingen | Les formateringen av teksten der lesemarkøren befinner seg. Ved å trykke to ganger vises informasjonen i nettmodus |
@@ -449,12 +449,12 @@ Disse ekstra musfunksjonene er ikke aktivert som standard i NVDA. Hvis du ønske
 Selv om en fysisk mus eller styreflate bør brukes til å navigere med musen, har NVDA noen få tastekommandoer knyttet til mus:
 %kc:beginInclude
 || Navn | Stasjonær tast | Bærbar tast | Beskrivelse |
-| Klikk med venstre musknapp | NumPad skråstrek | NVDA+PilVenstre | Klikker på venstre musknapp én gang. Dobbeltklikk kan utføres ved å trykke på denne tasten to ganger i rask rekkefølge |
-| Lås venstre musknapp | Skift+NumPad skråstrek | NVDA+Skift+PilVenstre | Låser venstre musknapp nede. Trykk igjen for å slippe den. Når du drar musen, trykker du denne tasten for å låse den venstre knappen nede og deretter flytte musen enten fysisk eller ved å bruke en av de andre kommandoene for flytting av musen |
-| Klikk høyre musknapp | NumPad stjerne | NVDA+PilHøyre | Klikker på høyre musknapp én gang. |
-| Lås høyre musknapp | Skift+NumPad stjerne | NVDA+Skift+PilHøyre | Låser høyre musknapp nede. Trykk igjen for å slippe den. Når du drar musen, trykker du denne tasten for å låse den høyre knappen nede og deretter flytte musen enten fysisk eller ved å bruke en av de andre kommandoene for flytting av musen |
-| Flytt musen til gjeldende navigasjonsobjekt | NVDA+Numpad skråstrek | NVDA+Skift+m | Flytter muspekeren til posisjonen til det gjeldende navigasjonsobjektet og lesemarkøren |
-| Naviger til objektet under musen | NVDA+NumPad stjerne | NVDA+Skift+n | Sett navigasjonsobjektet til objektet i posisjonen til muspekeren |
+| Klikk med venstre musknapp | Numerisk skråstrek | NVDA+PilVenstre | Klikker på venstre musknapp én gang. Dobbeltklikk kan utføres ved å trykke på denne tasten to ganger i rask rekkefølge |
+| Lås venstre musknapp | Skift+Numerisk skråstrek | NVDA+Skift+Pil venstre | Låser venstre musknapp nede. Trykk igjen for å slippe den. Når du drar musen, trykker du denne tasten for å låse den venstre knappen nede og deretter flytte musen enten fysisk eller ved å bruke en av de andre kommandoene for flytting av musen |
+| Klikk høyre musknapp | Numerisk stjerne | NVDA+Pil høyre | Klikker på høyre musknapp én gang. |
+| Lås høyre musknapp | Skift+Numerisk stjerne | NVDA+Skift+Pil høyre | Låser høyre musknapp nede. Trykk igjen for å slippe den. Når du drar musen, trykker du denne tasten for å låse den høyre knappen nede og deretter flytte musen enten fysisk eller ved å bruke en av de andre kommandoene for flytting av musen |
+| Flytt musen til gjeldende navigasjonsobjekt | NVDA+Numerisk skråstrek | NVDA+Skift+m | Flytter muspekeren til posisjonen til det gjeldende navigasjonsobjektet og lesemarkøren |
+| Naviger til objektet under musen | NVDA+Numerisk stjerne | NVDA+Skift+n | Sett navigasjonsobjektet til objektet i posisjonen til muspekeren |
 %kc:endInclude
 
 + Nettmodus +[BrowseMode]
