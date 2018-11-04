@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2018-10-01 03:11+0700\n"
+"PO-Revision-Date: 2018-11-04 16:55+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Resource Monitor\"]]\n"
-msgstr "[[!meta title=\"Resource Monitor\"]]\n"
+msgstr "[[!meta title=\"Theo dõi tài nguyên\"]]\n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -59,40 +59,49 @@ msgid ""
 "NVDA+Shift+1 Presents the average processor load and if multicore CPU's are "
 "present the load of each core."
 msgstr ""
+"NVDA+Shift+1 trình bày tốc độ tải trung bình của vi xử lý và nếu CPU đa nhân "
+"thì trình bày cho mỗi nhân."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+2/5 Presents the used and total space for both physical and "
 "virtual ram."
 msgstr ""
+"NVDA+Shift+2/5 trình bày mức độ sử dụng và tổng không gian cho cả ram vật lý "
+"và ram ảo."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+3 Presents the used and total space of the static and removable "
 "drives."
 msgstr ""
+"NVDA+Shift+3 trình bày mức độ sử dụng và tổng không gian của ổ đĩa tĩnh và ổ "
+"di động."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+4 Presents battery percentage, charging status, remaining time "
 "(if not charging), and a warning if the battery is low or critical."
 msgstr ""
+"NVDA+Shift+4 trình bày phần trăm pin, trạng thái sạc, thời gian còn lại (nếu "
+"không sạc), và cảnh báo nếu mức pin thấp hay đã cạn."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+6 Presents CPU Architecture 32/64-bit and Windows version and "
 "service pack numbers."
 msgstr ""
+"NVDA+Shift+6 trình bày kiểu CPU 32/64-bit, phiên bản Windows và gói dịch vụ."
 
 #. type: Bullet: '* '
 msgid "NVDA+Shift+7 presents the system's uptime."
-msgstr ""
+msgstr "NVDA+Shift+7 trình bày thời gian hoạt động của hệ thống."
 
 #. type: Plain text
 msgid ""
 "If you have NvDA 2013.3 or later installed, you can change these shortcut "
 "keys."
-msgstr ""
+msgstr "Nếu cài đặt NvDA 2013.3 trở lên, bạn có thể thay đổi các phím tắt này."
 
 #. type: Title ##
 #, no-wrap
@@ -104,6 +113,8 @@ msgid ""
 "This add-on does not replace task manager and other system information "
 "programs for Windows. Also note the following:"
 msgstr ""
+"Add-on này không thay thế cho task manager và các trình kiểm tra thông tin "
+"hệ thống khác của Windows. Cũng lưu ý những điểm sau:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -111,18 +122,25 @@ msgid ""
 "noticeable for processors which uses Hyper-Threading where number of CPU's "
 "is twice the number of CPU cores."
 msgstr ""
+"Sử dụng CPU được cung cấp cho bộ vi xử lý logic chứ không phải lõi vật lý. "
+"Cần lưu ý điều này với các bộ vi xử lý dùng Hyper-Threading có số CPU gấp "
+"đôi số lõi vật lý."
 
 #. type: Bullet: '* '
 msgid ""
 "If there is heavy disk activity such as copying large files, there might be "
 "delays when obtaining disk usage information."
 msgstr ""
+"Nếu có một hoạt động làm nặng ổ đĩa như sao chép các tập tin lớn, có thể "
+"phải chờ trong khi lấy thông tin về mức độ sử dụng ô đĩa."
 
 #. type: Bullet: '* '
 msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
 "for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
 msgstr ""
+"Add-on này đã ngừng hỗ trợ Windows XP từ ngày 31/12/2017. Cũng đã ngừng hỗ "
+"trợ Windows Server 2003, Vista và Server 2008 vào ngày 30/06/2018."
 
 #. type: Title ##
 #, no-wrap
@@ -131,11 +149,11 @@ msgstr "Phiên bản 18.10"
 
 #. type: Bullet: '* '
 msgid "Code has been made more compatible with Python 3."
-msgstr ""
+msgstr "Mã nguồn đã được làm cho tương thích hơn với Python 3."
 
 #. type: Bullet: '* '
 msgid "Updated psutil dependency to 5.4.7."
-msgstr ""
+msgstr "Cập nhật psutil dependency lên 5.4.7."
 
 #. type: Bullet: '* '
 msgid ""
@@ -143,16 +161,21 @@ msgid ""
 "errors if using a computer or a service with more than a petabyte of RAM or "
 "disk size."
 msgstr ""
+"Khi lấy thông tin về tổng dung lượng ổ đĩa và mức sử dụng bộ nhớ, NVDA sẽ "
+"không còn báo lỗi nếu dùng một máy tính hay dịch vụ với nhiều hơn một  "
+"petabyte dung lượng am hay ổ đĩa."
 
 #. type: Bullet: '* '
 msgid ""
 "Values for memory and disk usage are shown with up to two decimal places (e."
 "g. 4.00 GB instead of 4.0 GB)."
 msgstr ""
+"Các giá trị của việc sử dụng bộ nhớ và ổ đĩa được hiển thị tới hai chữ số "
+"thập phân (ví dụ: 4.00 GB thay vì 4.0 GB)."
 
 #. type: Bullet: '* '
 msgid "Improved detection of Windows Insider Preview builds."
-msgstr ""
+msgstr "Cải thiện khả năng phát hiện cho Windows Insider Preview builds."
 
 #. type: Title ##
 #, no-wrap
@@ -164,16 +187,20 @@ msgid ""
 "Version 18.04.x is the last release to support Windows releases earlier than "
 "7 SP1."
 msgstr ""
+"Phiên bản 18.04.x là bản phát hành cuối cùng hỗ trợ các bản Windows phát "
+"hành trước 7 SP1."
 
 #. type: Bullet: '* '
 msgid "Last release to support Windows Server 2003, Vista and Server 2008."
-msgstr ""
+msgstr "Phiên bản cuối cùng hỗ trợ Windows Server 2003, Vista và Server 2008."
 
 #. type: Bullet: '* '
 msgid ""
 "Better detection of Windows 10 releases and distinguishing between public "
 "and Insider Preview builds."
 msgstr ""
+"Phát hiện tốt hơn với các bản phát hành Windows 10 và sự khác nhau giữa các "
+"bản chính thức và Insider Preview."
 
 #. type: Title ##
 #, no-wrap
@@ -182,7 +209,7 @@ msgstr "Phiên bản 17.12"
 
 #. type: Bullet: '* '
 msgid "Added support for 64-bit ARM processors on Windows 10."
-msgstr ""
+msgstr "Đã hỗ trợ cho 64-bit ARM processors trên Windows 10."
 
 #. type: Title ##
 #, no-wrap
@@ -192,6 +219,7 @@ msgstr "Phiên bản 17.09"
 #. type: Plain text
 msgid "Important: Version 17.09.x is the last version to support Windows XP."
 msgstr ""
+"Quan trọng: phiên bản 17.09.x là phiên bản cuối cùng hỗ trợ Windows XP."
 
 #. type: Bullet: '* '
 msgid "Last version to run on Windows XP."
@@ -203,6 +231,9 @@ msgid ""
 "revision for this add-on will be released once Version 1709 stable build is "
 "released."
 msgstr ""
+"Windows 10 build 16278 trở lên được nhận dạng là phiên bản 1709. Một bản "
+"chỉnh sửa chính cho add-on này sẽ được phát hành khi phiên bản 1709 chính "
+"thức được phát hành."
 
 #. type: Title ##
 #, no-wrap
@@ -211,7 +242,7 @@ msgstr "Phiên bản 17.07.1"
 
 #. type: Bullet: '* '
 msgid "Reintroduce support for Windows XP (broken since version 17.02)."
-msgstr ""
+msgstr "Hỗ trợ lại cho Windows XP (đã bị bỏ từ phiên bản 17.02)."
 
 #. type: Title ##
 #, no-wrap
@@ -222,6 +253,8 @@ msgstr "Phiên bản 17.05"
 msgid ""
 "Announcement of system uptime (time passed since last boot; NVDA+Shift+7)."
 msgstr ""
+"Thông báo thời gian hoạt động của hệ thống (thời gian trôi qua kể từ lần "
+"khởi động cuối cùng; NVDA + Shift + 7)."
 
 #. type: Title ##
 #, no-wrap
@@ -230,7 +263,7 @@ msgstr "Phiên bản 17.02"
 
 #. type: Bullet: '* '
 msgid "Updated psutil dependency to 5.0.1."
-msgstr ""
+msgstr "Cập nhật psutil dependency lên 5.0.1."
 
 #. type: Bullet: '* '
 msgid ""
@@ -238,6 +271,9 @@ msgid ""
 "some systems where a removable media is not properly recognized (such as "
 "when a card isn't inserted into a card reader).)"
 msgstr ""
+"Khi kiểm tra mức độ sử dụng đĩa, NVDA sẽ không còn tình trạng hiển thị hộp "
+"thoại báo lỗi trên vài hệ thống có ổ đĩa di động không được nhận dạng chính "
+"xác (như khi thẻ nhớ không được gắn vào ổ đọc thẻ).)"
 
 #. type: Title ##
 #, no-wrap
@@ -249,22 +285,28 @@ msgid ""
 "Starting with version 16.08, add-on releases will be shown as year.month."
 "revision."
 msgstr ""
+"Từ phiên bản 16.08, các bản phát hành của add-on sẽ được hiển thị tên là năm."
+"tháng.bản chỉnh sửa."
 
 #. type: Bullet: '* '
 msgid ""
 "Various revisions of Windows 10 are now properly recognized (such as 1607 "
 "for build 14393)."
 msgstr ""
+"Nhiều bản chỉnh sửa của Windows 10 giờ đã được nhận dạng chính xác (như 1607 "
+"cho số hiệu 14393)."
 
 #. type: Bullet: '* '
 msgid ""
 "Windows 10 build revisions (after installing cumulative updates) are "
 "properly recognized (such as 14393.51)."
 msgstr ""
+"Windows 10 bản sửa đổi (sau khi cài các bản cập nhật tích lũy) đã được nhận "
+"dạng chính xác (ví dụ 14393.51)."
 
 #. type: Bullet: '* '
 msgid "If using Insider Preview builds, this fact is recognized."
-msgstr ""
+msgstr "Nếu đang dùng bản Insider Preview, trường hợp này cũng được nhận dạng."
 
 #. type: Title ##
 #, no-wrap
@@ -276,10 +318,12 @@ msgid ""
 "Add-on repository has moved to GitHub (can be found at https://github.com/"
 "josephsl/resourcemonitor)."
 msgstr ""
+"Kho add-on đã được chuyển sang GitHub (có thể tìm thấy tại https://github."
+"com/josephsl/resourcemonitor)."
 
 #. type: Bullet: '* '
 msgid "Windows Server 2016 is properly recognized."
-msgstr ""
+msgstr "Windows Server 2016 đã được nhận dạng chính xác."
 
 #. type: Title ##
 #, no-wrap
@@ -288,23 +332,24 @@ msgstr "Các thay đổi cho phiên bản 4.0"
 
 #. type: Bullet: '* '
 msgid "Updated psutil dependency to 2.2.1."
-msgstr ""
+msgstr "Cập nhật psutil dependency lên 2.2.1."
 
 #. type: Bullet: '* '
 msgid "Vastly improved performance when obtaining information on CPU load."
-msgstr ""
+msgstr "Cải thiện lớn cho hiệu xuất vận hành khi lấy thông tin về tải CPU."
 
 #. type: Bullet: '* '
 msgid "Added support for recognition of Windows 10."
-msgstr ""
+msgstr "Đã hỗ trợ tính năng nhận dạng của Windows 10."
 
 #. type: Bullet: '* '
 msgid "In Windows 10, the build number of Windows will also be announced."
 msgstr ""
+"Trong Windows 10, số hiệu (build number) của Windows cũng sẽ được thông báo."
 
 #. type: Bullet: '* '
 msgid "You can use Add-ons Manager to access add-on help."
-msgstr ""
+msgstr "Bạn có thể truy cập hỗ trợ cho add-on thông qua trình quản lý add-on."
 
 #. type: Title ##
 #, no-wrap
@@ -313,7 +358,7 @@ msgstr "Các thay đổi cho phiên bản 3.1"
 
 #. type: Bullet: '* '
 msgid "Resource Monitor officially supports Windows 8.1."
-msgstr ""
+msgstr "Theo dõi tài nguyên chính thức hỗ trợ Windows 8.1."
 
 #. type: Bullet: '* '
 msgid "Updated translations."
@@ -326,23 +371,27 @@ msgstr "Các thay đổi cho phiên bản 3.0"
 
 #. type: Bullet: '* '
 msgid "Updated psutil dependency to 1.2.1."
-msgstr ""
+msgstr "Cập nhật psutil dependency lên 1.2.1."
 
 #. type: Bullet: '* '
 msgid ""
 "Announcement of current Windows version, CPU architecture and service pack "
 "if any (NVDA+Shift+6)."
 msgstr ""
+"Thông báo phiên bản Windows hiện tại, kiểu CPU và gói dịch vụ nếu có (NVDA"
+"+Shift+6)."
 
 #. type: Bullet: '* '
 msgid "Ability to change add-on shortcut keys (NVDA 2013.3 or later)."
-msgstr ""
+msgstr "Khả năng thay đổi phím tắt cho add-on (NVDA 2013.3 trở lên)."
 
 #. type: Bullet: '* '
 msgid ""
 "Ability to copy individual resource information to clipboard by pressing "
 "resource commands two times."
 msgstr ""
+"Khả năng sao chép  thông tin tài nguyên cụ thể vào bộ nhớ tạm bằng cách bấm "
+"lệnh xem thông tin hai lần."
 
 #. type: Title ##
 #, no-wrap
@@ -351,7 +400,7 @@ msgstr "Các thay đổi cho phiên bản 2.4"
 
 #. type: Bullet: '* '
 msgid "New languages: Chinese (simplified), Ukrainian."
-msgstr "Các ngôn ngữ mới: Chinese (simplified), Ukrainian."
+msgstr "Các ngôn ngữ mới: tiếng Trung Quốc (giản thể), tiếng Ukraina."
 
 #. type: Title ##
 #, no-wrap
@@ -360,7 +409,7 @@ msgstr "Các thay đổi cho phiên bản 2.3"
 
 #. type: Bullet: '* '
 msgid "Added Bulgarian translation."
-msgstr ""
+msgstr "Đã thêm bản dịch tiếng Bungari."
 
 #. type: Title ##
 #, no-wrap
@@ -374,6 +423,9 @@ msgid ""
 "Polish, Portuguese (Brazil), Russian, Slovak, Slovenian, Spanish, Tamil and "
 "Turkish."
 msgstr ""
+"Đã thêm các bản dịch sau: tiếng Ả Rập, Aragonese, Croatia, Hà Lan, Phần Lan, "
+"Pháp, Galicia, Đức, Hungary, Ý, Nhật Bản, Hàn Quốc, Nepal, Ba Lan, Bồ Đào "
+"Nha (Brazil), Nga, Slovak, Slovenia, Tây Ban Nha, Tamil và Thổ Nhĩ Kỳ."
 
 #. type: Title ##
 #, no-wrap
@@ -382,11 +434,11 @@ msgstr "Các thay đổi cho phiên bản 2.1"
 
 #. type: Bullet: '* '
 msgid "Updated psutil dependency to version 0.6.1."
-msgstr ""
+msgstr "Cập nhật psutil dependency lên phiên bản 0.6.1."
 
 #. type: Bullet: '* '
 msgid "Fixed long delay when getting information of drives."
-msgstr ""
+msgstr "Sửa lỗi đợi lâu khi lấy thông tin ổ đĩa."
 
 #. type: Bullet: '* '
 msgid "Code cleanup."
@@ -399,7 +451,7 @@ msgstr "Các thay đổi cho phiên bản 2.0"
 
 #. type: Bullet: '* '
 msgid "added translation support and translation comments."
-msgstr ""
+msgstr "thêm các hỗ trợ và chú thích phiên dịch."
 
 #. type: Title ##
 #, no-wrap
