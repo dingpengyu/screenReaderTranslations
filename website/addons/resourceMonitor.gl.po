@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2018-07-29 22:22+0100\n"
+"PO-Revision-Date: 2018-11-05 20:59+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: NVDA Galician translation team <oprisniki@gmail.com>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -148,20 +148,19 @@ msgstr ""
 "Server 2008 rematou o 30 de xunio do 2018."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.04"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versión 18.04"
+msgstr "Versión 18.10"
 
 #. type: Bullet: '* '
 msgid "Code has been made more compatible with Python 3."
-msgstr ""
+msgstr "Fíxose o código máis compatible con Python 3."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Updated psutil dependency to 5.0.1."
 msgid "Updated psutil dependency to 5.4.7."
-msgstr "Actualizado psutil dependency a 5.0.1."
+msgstr ""
+"Actualizada a dependencia psutil á versión Actualizado psutil dependency a "
+"5.0.1.5.4.7."
 
 #. type: Bullet: '* '
 msgid ""
@@ -169,16 +168,21 @@ msgid ""
 "errors if using a computer or a service with more than a petabyte of RAM or "
 "disk size."
 msgstr ""
+"Ao obter a capacidade de disco e o uso de memoria, NVDA xa non dará máis "
+"erros cando se utilice un computador ou servizo con máis dun petabyte de RAM "
+"ou tamaño de disco."
 
 #. type: Bullet: '* '
 msgid ""
 "Values for memory and disk usage are shown with up to two decimal places (e."
 "g. 4.00 GB instead of 4.0 GB)."
 msgstr ""
+"Os valores do uso da memoria e do disco amósanse con ata dous lugares "
+"decimais (p.ex. 4.00 GB no canto de 4.0 GB)."
 
 #. type: Bullet: '* '
 msgid "Improved detection of Windows Insider Preview builds."
-msgstr ""
+msgstr "Mellorada a detección de compilacións Windows Insider Preview."
 
 #. type: Title ##
 #, no-wrap

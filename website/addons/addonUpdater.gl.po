@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-24 09:02+1000\n"
-"PO-Revision-Date: 2018-08-08 11:43+0100\n"
+"PO-Revision-Date: 2018-11-05 13:42+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2\n"
+"Language-Team: \n"
 
 #. type: Plain text
 #, no-wrap
@@ -26,10 +26,8 @@ msgid "Author: Joseph Lee"
 msgstr "Autor: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [prototype version][1]"
 msgid "Download [stable version][1]"
-msgstr "Descargar [versión prototipo][1]"
+msgstr "Descargar [versión estable][1]"
 
 #. type: Plain text
 msgid ""
@@ -73,17 +71,12 @@ msgid "WeatherPlus"
 msgstr "WeatherPlus"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The following add-ons provide built-in update feature and thus updates "
-#| "will not be checked via this add-on:"
 msgid ""
 "The following add-ons do have their own update check feature which will be "
 "disabled once Add-on Updater is installed:"
 msgstr ""
-"Os seguintes complementos fornecen a característica de actualización nativa "
-"e polo tanto as súas actualizacións non serán verificadas con este "
-"complemento:"
+"Os seguintes complementos teñen a súa propia característica para verificar "
+"actualizacións que quedará deshabilitada unha vez instalado o Add-on Updater:"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
@@ -103,20 +96,19 @@ msgstr ""
 "será descontinuado."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versión 18.08"
+msgstr "Versión 18.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable release (still marked as proof of concept)."
-msgstr ""
+msgstr "Versión estable inicial (aínda marcada como proba de concepto)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev]]\n"
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
