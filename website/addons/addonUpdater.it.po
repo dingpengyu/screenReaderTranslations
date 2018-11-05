@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-24 09:02+1000\n"
-"PO-Revision-Date: 2018-08-07 15:27+0200\n"
+"PO-Revision-Date: 2018-11-05 11:30+0100\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -26,10 +26,8 @@ msgid "Author: Joseph Lee"
 msgstr "Autore: Joseph Lee"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [prototype version][1]"
 msgid "Download [stable version][1]"
-msgstr "Download [versione sperimentale][1]"
+msgstr "Download [versione stabile][1]"
 
 #. type: Plain text
 msgid ""
@@ -74,16 +72,12 @@ msgid "WeatherPlus"
 msgstr "WeatherPlus"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The following add-ons provide built-in update feature and thus updates "
-#| "will not be checked via this add-on:"
 msgid ""
 "The following add-ons do have their own update check feature which will be "
 "disabled once Add-on Updater is installed:"
 msgstr ""
-"Esistono alcuni componenti aggiuntivi che sono in grado di aggiornarsi "
-"autonomamente, perciò non saranno presi in esame da questo addon. Essi sono:"
+"I seguenti componenti aggiuntivi dispongono di un metodo di aggiornamento "
+"autonomo che verrà disabilitato dopo l'installazione di questo addon:"
 
 #. type: Bullet: '* '
 msgid "StationPlaylist Studio"
@@ -104,20 +98,18 @@ msgstr ""
 "ragione di esistere."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 18.08"
+#, no-wrap
 msgid "Version 18.10"
-msgstr "Versione 18.08"
+msgstr "Versione 18.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable release (still marked as proof of concept)."
-msgstr ""
+msgstr "Versione stabile iniziale (da considerarsi ancora sperimentale)."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev]]\n"
+#, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda3208"
