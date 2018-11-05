@@ -177,7 +177,7 @@
     <LI><A HREF="#OptelecALVA">14.2. Optelec ALVA 6 дэлгэцүүд болон protocol хувиргагч</A>
     <LI><A HREF="#HandyTech">14.3. Handy Tech дэлгэцүүд</A>
     <LI><A HREF="#MDVLilli">14.4. MDV Lilli</A>
-    <LI><A HREF="#Baum">14.5. Baum/Humanware/APH/Orbit Braille Displays</A>
+    <LI><A HREF="#Baum">14.5. Baum/Humanware/APH/Orbit Брайль Дэлгэцүүд</A>
     <LI><A HREF="#HedoProfiLine">14.6. hedo ProfiLine USB</A>
     <LI><A HREF="#HedoMobilLine">14.7. hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">14.8. HumanWare Brailliant BI/B Series / BrailleNote Touch</A>
@@ -188,12 +188,12 @@
       </UL>
     <LI><A HREF="#Hims">14.9. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille дэлгэцүүд</A>
     <LI><A HREF="#Seika">14.10. Seika Braille Дэлгэцүүд</A>
-    <LI><A HREF="#Papenmeier">14.11. Papenmeier BRAILLEX Newer Models</A>
-    <LI><A HREF="#PapenmeierOld">14.12. Papenmeier Braille BRAILLEX Older Models</A>
+    <LI><A HREF="#Papenmeier">14.11. Papenmeier BRAILLEX  шинэ хувилбарууд</A>
+    <LI><A HREF="#PapenmeierOld">14.12. Papenmeier Braille BRAILLEX Хуучин хувилбарууд</A>
     <LI><A HREF="#HumanWareBrailleNote">14.13. HumanWare BrailleNote</A>
     <LI><A HREF="#EcoBraille">14.14. EcoBraille</A>
     <LI><A HREF="#SuperBraille">14.15. SuperBraille</A>
-    <LI><A HREF="#Eurobraille">14.16. Eurobraille Esys/Esytime/Iris displays</A>
+    <LI><A HREF="#Eurobraille">14.16. Eurobraille Esys/Esytime/Iris дэлгэцүүд</A>
     <LI><A HREF="#BRLTTY">14.17. BRLTTY</A>
     </UL>
   <LI><A HREF="#AdvancedTopics">15. нарийвчилсан сэдвүүд</A>
@@ -202,6 +202,7 @@
     <LI><A HREF="#SystemWideParameters">15.2. Систем Wide Parameters</A>
     </UL>
   <LI><A HREF="#FurtherInformation">16. дэлгэрэнгүй мэдээлэл</A>
+  <LI><A HREF="#toc138">17. Орчуулгын тухай</A>
   </UL>
 
 <A NAME="Introduction"></A>
@@ -4335,11 +4336,11 @@ Lilli braille дэлгэц нь <A HREF="https://www.mdvbologna.it/">MDV-ээс<
 </TABLE>
 
 <A NAME="Baum"></A>
-<H3>14.5. Baum/Humanware/APH/Orbit Braille Displays</H3>
+<H3>14.5. Baum/Humanware/APH/Orbit Брайль Дэлгэцүүд</H3>
 
 <P>
-Several <A HREF="https://www.baum.de/cms/en/">Baum</A>, <A HREF="https://www.humanware.com/">HumanWare</A>, <A HREF="https://www.aph.org/">APH</A> and <A HREF="https://www.orbitresearch.com/">Orbit</A> displays are supported when connected via USB, bluetooth or serial.
-These include:
+<A HREF="https://www.baum.de/cms/en/">Baum</A>, <A HREF="https://www.humanware.com/">HumanWare</A>, <A HREF="https://www.aph.org/">APH</A> болон <A HREF="https://www.orbitresearch.com/">Orbit</A> брайль дэлгэцүүд нь USb, Bluetooth болон Serial холболтуудаар компьютерт ххолбогдоход NVDA программ дэмжиж ажилладаг.
+Эдгээр дэлгэцүүд нь:
 </P>
 
 <UL>
@@ -4350,16 +4351,16 @@ These include:
 </UL>
 
 <P>
-Some other displays manufactured by Baum may also work, though this has not been tested.
+Мөн Baum компаны үйлдвэрлэсэн   зарим бусад дэлгэцүүд ажиллах магадлалтай хэдий ч энэ нь хараахан туршигдаагүй байгаа билээ .
 </P>
 <P>
-If connecting via USB to displays which do not use HID, you must first install the USB drivers provided by the manufacturer.
-The VarioUltra and Pronto! use HID.
-The Refreshabraille and Orbit Reader 20 can use HID if configured appropriately.
+USB холболтоор холбосон брайль дэлгэцүүд Human Interface Devices буюу системийн хэрэглэгчийн удирдлагын системтэй холбоотой driver ашигладаггүй бол тухайн дэлгэцийн үйлдвэрлэгчийн гаргасан USB driver программуудыг суулгах шаардлагатай юм.
+VarioUltra болон Pronto нь Human Interface Devices хэрэглэдэг.
+ Refreshabraille болон Orbit Reader 20 нь зөв тохируулсан тохиолдолд HIDашиглах боломжтой.
 </P>
 <P>
-The USB serial mode of the Orbit Reader 20 is currently only supported in Windows 10.
-USB HID should generally be used instead.
+   Orbit Reader хорийн USB serial горим нь одоогийн байдлаар зөвхөн Windows 10 үйлдлийн систем дээр дэмжигдэж ажиллаж байна.
+Ерөнхийдөө USB HID нь голдуу ашиглагдах хэрэгтэй юм.
 </P>
 <P>
 Дараах жагсаалт нь уг дэлгэцийг NVDA программтай ажиллуулах командын товчлуурны жагсаалт юм.
@@ -4521,12 +4522,12 @@ USB HID should generally be used instead.
 <H3>14.8. HumanWare Brailliant BI/B Series / BrailleNote Touch</H3>
 
 <P>
-The Brailliant BI and B series of displays  from <A HREF="https://www.humanware.com/">HumanWare</A>, including the BI 14, BI 32, BI 40 and B 80, are supported when connected via USB or bluetooth.
-If connecting via USB with the protocol set to HumanWare, you must first install the USB drivers provided by the manufacturer.
-USB drivers are not required if the protocol is set to OpenBraille.
+<A HREF="https://www.humanware.com/">HumanWare</A> компаны Brailliant BI болон B цувралын дэлгэцүүд болох BI 14, BI 32, BI 40 and B 80 зэрэг нь NVDA USB эсвэл bluetooth холболтоор холбогдоход NVDA программ нь дэмжиж ажилладаг.
+Хэрэв USB холболт ашиглан humanware protocol ашиглан холбож байгаа бол юуны өмнө үйлдвэрлэгчийн гаргасан USB driver программыг суулгах шаардлагатай юм.
+USB driver нь хэрэглэж буй protocol нь нээлттэй байвал driver шаардахгүй аж.
 </P>
 <P>
-The BrailleNote Touch is also supported, and does not require any drivers to be installed.
+ Мөн BrailleNote Touch нь дэмжигдэж ажилладаг ба ямарч driver суулгах шаардлагагүй юм.
 </P>
 <P>
 Дараах жагсаалт нь Brailliant BI/B болон BrailleNote touch  дэлгэцүүдийг NVDA программтай ажиллуулах командын товчлуурны жагсаалт юм.
@@ -4679,9 +4680,9 @@ The BrailleNote Touch is also supported, and does not require any drivers to be 
 <H3>14.9. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille дэлгэцүүд</H3>
 
 <P>
-NVDA supports Braille Sense, Braille EDGE, Smart Beetle and Sync Braille displays from <A HREF="https://www.hims-inc.com/">Hims</A> when connected via USB or bluetooth. 
-If connecting via USB, you will need to install the USB drivers from HIMS on your system.
-You can download these from here: <A HREF="https://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip">https://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip</A>
+NVDA  программ нь <A HREF="https://www.hims-inc.com/">Hims</A> компаны Braille Sense, Braille EDGE, Smart Beetle болон Sync Braille дэлгэцүүдийг USB эсвэл bluetooth холболтоор холбоход дэмжиж ажилладаг. 
+хэрэв эдгээр дэлгэцүүдийг USB залгуураар холбож байгаа бол хамааралтай USB driver-уудыг HIMS компаны вэб хуудаснаас татан систем дээрээ суулгах шаардлагатай юм.
+Тухайн driver-уудыг дараах холбоосоор орж татаж авна уу: <A HREF="https://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip">https://www.himsintl.com/upload/HIMS_USB_Driver_v25.zip</A>
 </P>
 <P>
 Дараах жагсаалт нь эдгээр дэлгэцүүдийг NVDA программтай ажиллуулах командын товчлуурны жагсаалт юм.
@@ -5004,98 +5005,98 @@ NVA программ нь <A HREF="https://www.nippontelesoft.com/">Nippon Teles
 </TABLE>
 
 <A NAME="Papenmeier"></A>
-<H3>14.11. Papenmeier BRAILLEX Newer Models</H3>
+<H3>14.11. Papenmeier BRAILLEX  шинэ хувилбарууд</H3>
 
 <P>
-The following Braille displays are supported: 
+Дараах брайль дэлгэцүүдийг NVDA программ дэмжиж ажилладаг: 
 </P>
 
 <UL>
 <LI>BRAILLEX EL 40c, EL 80c, EL 20c, EL 60c (USB)
 <LI>BRAILLEX EL 40s, EL 80s, EL 2d80s, EL 70s, EL 66s (USB)
-<LI>BRAILLEX Trio (USB and bluetooth)
-<LI>BRAILLEX Live 20, BRAILLEX Live and BRAILLEX Live Plus (USB and bluetooth)
+<LI>BRAILLEX Trio (USB болон bluetooth)
+<LI>BRAILLEX Live 20, BRAILLEX Live and BRAILLEX Live Plus (USB болон bluetooth)
 </UL>
 
 <P>
-If BrxCom is installed, NVDA will use BrxCom.
-BrxCom is a tool that allows keyboard input from the braille display to function independently from a screen reader.
-A new version of BrxCom which works with NVDA will be released by Papenmeier soon.
-Keyboard input is possible with the Trio and BRAILLEX Live models.
+Хэрэв BrxCom суусан байвал NVDA программ нь BrxCom-ыг ашиглан ажиллана.
+BrxCom  нь брайль дэлгэцийн гар дэлгэц уншигч программын үйлдлээс тусгаар ажиллах боломжийг олгодог хэрэгсэл программ юм.
+ BrxCom-ын NVDA программтай ажилладаг шинэ хувилбарыг Papenmeier компань удахгүй гаргах гэж байгаа билээ.
+Үүнд брайль оролтын систем нь Trio болон BRAILLEX Live хувилбаруудтай ажилладаг болох юм.
 </P>
 <P>
-Most devices have an Easy Access Bar (EAB) that allows intuitive and fast operation.
-The EAB can be moved in four directions where generally each direction has two switches.
-The C and Live series are the only exceptions to this rule.
+Ихэнх төхөөрөмжүүд нь хялбар хэрэглэх тавцан буюу (EAB) хурдан болон ачаалал багатай ажиллах боломжтой үйлдлийг агуулдаг.
+ EAB нь дөрвөн тийш хөдлөх боломжтой бөгөөд зүг бүр хоёр түгжээтэй.
+Харин C болон Live  цувралуудад нь eab байддаггүй аж.
 </P>
 <P>
-The c-series and some other displays have two routing rows whereby the upper row is used to report formatting information.
-Holding one of the upper routing keys and pressing the EAB on c-series devices emulates the second switch state.
-The live series displays have one routing row only and the EAB has one step per direction.
-The second step may be emulated by pressing one of the routing keys and pressing the EAB in the corresponding direction.
-Pressing and holding the up, down, right and left keys (or EAB) causes the corresponding action to be repeated.
+ c-цувралууд болон зарим бусад дэлгэцүүд нь хоёр давхар мөртэй бөгөөд дээд мөрөнд нь format-ын мэдээлэл гардаг байна.
+ c-цувралын дэлгэцүүд дээр дээд мөрний товчлуурыг дараад eab дарахад энэ нь хоёр дахь солбилцол руу шилждэг.
+Харин live цувралын дэлгэцүүд нь  зөвхөн нэг удирдлагын мөртэй ба eab нь зүг бүрт нэг л алхамтай аж.
+Хоёр дахь солбилцол нь удирдлагын товчлууруудын нэгийг дараад eab-ыг хамааралтай зүг рүү нь дарсанаар гарах боломжтой байж болох юм.
+дээш, доош, баруун болон зүүн товчлуурууд (эсвэл EAB-ыг) дарааллуулан угсраан дарах үгүй бол удаан дарах зэрэг нь тухайн үйлдлийг давтахад хүргэдэг.
 </P>
 <P>
-Generally, the following keys are available on these braille displays:
+Ерөнхийдөө дараах товчллуурууд нь эдгээр дэлгэцүүд дээр байдаг байна:
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
-<TH>Name</TH>
-<TH>Key</TH>
+<TH>Нэр</TH>
+<TH>Товч</TH>
 </TR>
 <TR>
 <TD>l1</TD>
-<TD>Left front key</TD>
+<TD>Зүүн урд товч</TD>
 </TR>
 <TR>
 <TD>l2</TD>
-<TD>Left rear key</TD>
+<TD>Зүүн арын товч</TD>
 </TR>
 <TR>
 <TD>r1</TD>
-<TD>Right front key</TD>
+<TD>баруун урд товч</TD>
 </TR>
 <TR>
 <TD>r2</TD>
-<TD>Right rear key</TD>
+<TD>баруун арын товч</TD>
 </TR>
 <TR>
 <TD>up</TD>
-<TD>1 Step up</TD>
+<TD>нэг алхам дээшээ</TD>
 </TR>
 <TR>
 <TD>up2</TD>
-<TD>2 Steps up</TD>
+<TD>хоёр алхам дээшээ</TD>
 </TR>
 <TR>
 <TD>left</TD>
-<TD>1 Step left</TD>
+<TD>нэг алхам зүүн тийшээ</TD>
 </TR>
 <TR>
 <TD>left2</TD>
-<TD>2 Steps left</TD>
+<TD>хоёр алхам зүүн тийшээ</TD>
 </TR>
 <TR>
 <TD>right</TD>
-<TD>1 Step right</TD>
+<TD>нэг алхам баруун тийшээ</TD>
 </TR>
 <TR>
 <TD>right2</TD>
-<TD>2 Steps right</TD>
+<TD>хоёр алхам баруун тийшээ</TD>
 </TR>
 <TR>
 <TD>dn</TD>
-<TD>1 Step down</TD>
+<TD>нэг алхам доошоо</TD>
 </TR>
 <TR>
 <TD>dn2</TD>
-<TD>2 Steps down</TD>
+<TD>хоёр алхам доошоо</TD>
 </TR>
 </TABLE>
 
 <P>
-Following are the Papenmeier command assignments for NVDA:
+Дараах жагсаалт нь Papenmeier  дэлгэцүүдийн NVDA программтай ажилладаг гарын командууд юм:
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -5166,20 +5167,20 @@ Following are the Papenmeier command assignments for NVDA:
 </TABLE>
 
 <P>
-The Trio model has four additional keys which are in front of the braille keyboard.
-These are (ordered from left to right):
+Харин Trio хувилбар нь брайль гарын товчлууруудын урд нь байрлах нэмэлт дөрвөн товчлууртай байдаг.
+Эдгээр нь (зүүн гар талаасбаруун гартал руу цуварч байрладаг):
 </P>
 
 <UL>
-<LI>left thumb key (lt)
-<LI>space
-<LI>space
-<LI>right thumb key (rt)
+<LI>Зүүн эрхий хурууны товч (lt)
+<LI>зай
+<LI>зай
+<LI>баруун эрхий хурууны товч (rt)
 </UL>
 
 <P>
-Currently, the right thumb key is not in use.
-The inner keys are both mapped to space.
+Одоогийн байдлаар баруун эрхий хурууны товч нь ямар нэг зүйлд ашиглагдаагүй болно.
+Дундах товчлуурууд нь хоёулаа зай байхаар байрлагдсан байна.
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -5226,10 +5227,10 @@ The inner keys are both mapped to space.
 </TABLE>
 
 <A NAME="PapenmeierOld"></A>
-<H3>14.12. Papenmeier Braille BRAILLEX Older Models</H3>
+<H3>14.12. Papenmeier Braille BRAILLEX Хуучин хувилбарууд</H3>
 
 <P>
-The following Braille displays are supported: 
+Дараах дэлгэцүүдийг NVDA программ дэмжиж ажиллана: 
 </P>
 
 <UL>
@@ -5238,79 +5239,79 @@ The following Braille displays are supported:
 </UL>
 
 <P>
-Note that these displays can only be connected via a serial port.
-Therefore, you should select the port to which the display is connected after you have chosen this driver in the Braille Settings dialogue.
+Эдгээр дэлгэцүүд нь зөвхөн serial холболтоор холбогддог.
+Тиймээс дэлгэцийг залгасныхаа дараа NVDA программын брайль тохиргооноос ямар дэлгэц холбосноо тодруулан зааж өгөх шаардлагатай юм.
 </P>
 <P>
-Some of these devices have an Easy Access Bar (EAB) that allows intuitive and fast operation.
-The EAB can be moved in four directions where generally each direction has two switches.
-Pressing and holding the up, down, right and left keys (or EAB) causes the corresponding action to be repeated.
-Older devices do not have an EAB; front keys are used instead.
+Ихэнх төхөөрөмжүүд нь хялбар хэрэглэх тавцан буюу (EAB) хурдан болон ачаалал багатай ажиллах боломжтой үйлдлийг агуулдаг.
+ EAB нь дөрвөн тийш хөдлөх боломжтой бөгөөд зүг бүр хоёр түгжээтэй.
+дээш, доош, баруун болон зүүн товчлуурууд (эсвэл EAB-ыг) дарааллуулан угсраан дарах үгүй бол удаан дарах зэрэг нь тухайн үйлдлийг давтахад хүргэдэг.
+Хуучин хувилбарын дэлгэцүүдэд eab байдаггүй бөгөөд урд талын буюу хажуугийн товчлууруудаар орлуулан ашиглаж болох юм.
 </P>
 <P>
-Generally, the following keys are available on braille displays:
+Ерөнхийдөө дараах товчлуурууд эдгээр брайль дэлгэцүүд дээр байдаг байна:
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
-<TH>Name</TH>
-<TH>Key</TH>
+<TH>Нэр</TH>
+<TH>Товч</TH>
 </TR>
 <TR>
 <TD>l1</TD>
-<TD>Left front key</TD>
+<TD>Зүүн урд товч</TD>
 </TR>
 <TR>
 <TD>l2</TD>
-<TD>Left rear key</TD>
+<TD>зүүн арын товч</TD>
 </TR>
 <TR>
 <TD>r1</TD>
-<TD>Right front key</TD>
+<TD>баруун урд товч</TD>
 </TR>
 <TR>
 <TD>r2</TD>
-<TD>Right rear key</TD>
+<TD>баруун арын товч</TD>
 </TR>
 <TR>
 <TD>up</TD>
-<TD>1 Step up</TD>
+<TD>нэг алхам дээшээ</TD>
 </TR>
 <TR>
 <TD>up2</TD>
-<TD>2 Steps up</TD>
+<TD>хоёр алхам дээшээ</TD>
 </TR>
 <TR>
 <TD>left</TD>
-<TD>1 Step left</TD>
+<TD>нэг алхам зүүн тийшээ</TD>
 </TR>
 <TR>
 <TD>left2</TD>
-<TD>2 Steps left</TD>
+<TD>хоёр алхам зүүн тийшээ</TD>
 </TR>
 <TR>
 <TD>right</TD>
-<TD>1 Step right</TD>
+<TD>нэг алхам баруун тйишээ</TD>
 </TR>
 <TR>
 <TD>right2</TD>
-<TD>2 Steps right</TD>
+<TD>хоёр алхам баруун тийшээ</TD>
 </TR>
 <TR>
 <TD>dn</TD>
-<TD>1 Step down</TD>
+<TD>нэг алхам доошоо</TD>
 </TR>
 <TR>
 <TD>dn2</TD>
-<TD>2 Steps down</TD>
+<TD>хоёр алхам доошоо</TD>
 </TR>
 </TABLE>
 
 <P>
-Following are the Papenmeier command assignments for NVDA:
+Дараах нь Papenmeier дэлгэцүүдийн NVDA программтай ажилладаг гарын командууд юм:
 </P>
 <P>
-Devices with EAB:
+Eab-тай төхөөрөмжүүд:
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -5506,29 +5507,31 @@ BRAILLEX 2D Screen:
 <H3>14.13. HumanWare BrailleNote</H3>
 
 <P>
-NVDA supports the BrailleNote notetakers from <A HREF="https://www.humanware.com">Humanware</A> when acting as a display terminal for a screen reader.
-The following models are supported:
+NVDA программ нь <A HREF="https://www.humanware.com">Humanware</A> компаны BrailleNote брайль бичигчдийг брайль дэлгэц хэлбэрээр ашиглахад дэмжиж ажилладаг.
+Дараах хувилбарууд дэмжигддэг:
 </P>
 
 <UL>
-<LI>BrailleNote Classic (serial connection only)
-<LI>BrailleNote PK (Serial and bluetooth connections)
-<LI>BrailleNote MPower (Serial and bluetooth connections)
-<LI>BrailleNote Apex (USB and Bluetooth connections)
+<LI>BrailleNote Classic  (зөвхөн serial холболт)
+<LI>BrailleNote PK (Serial болон bluetooth холболтууд)
+<LI>BrailleNote MPower (Serial болон bluetooth холболтууд)
+<LI>BrailleNote Apex (USB болон Bluetooth холболтууд)
 </UL>
 
 <P>
-For BrailleNote Touch, please refer to  the <A HREF="HumanWareBrailliant">Brailliant BI Series / BrailleNote Touch</A> section.
+ BrailleNote Touch-ийн талаар илүү дэлгэрэнгүй мэдээллийг <A HREF="HumanWareBrailliant">Brailliant BI Series / BrailleNote Touch</A> хэсгээсавна уу.
 </P>
 <P>
-If your device supports more than one type of connection, when connecting your BrailleNote to NVDA, you must set the braille terminal port in braille terminal options.
-Please check the BrailleNote manual for details.
-In NVDA, you may also need to set the port in the Braille Settings dialog.
-If you are connecting via USB or bluetooth, you can set the port to "Automatic", "USB" or "Bluetooth", depending on the available choices.
-If connecting using a legacy serial port (or a USB to serial converter) or if none of the previous options appear, you must explicitly choose the communication port to be used from the list of hardware ports.
+Хэрэв дэлгэц тань хоёроос дээш холболт дэмждэг бол   брайль terminal дотор байрлах брайль порт сонголтыг тохируулах хэрэгтэйг анхаарна уу.
+Дэлгэрэнгүйг BrailleNote-ийн гарын авлагаас үзнэ үү.
+Мөн NVDA программын брайль тохиргоон дотроос брайль портыг тохируулна.
 </P>
 <P>
-Before connecting your BrailleNote Apex using its USB client interface, you must install the drivers provided by HumanWare.
+Хэрэв USB эсвэл bluetooth холболтоор холбож байгаа бол аль нэгийг нь автоматаар холбогдох гэж тохируулж болдог.
+Мөн legacy serial port (эсвэл USB-гээс serial руу хувиргагч) зэргийг ашиглаж байх үед, эсвэл эдгээр сонголтуудаас аль нь ч байхгүй бол гарч ирсэн портын сонголтуудаас ажиллах портыг нь сонгон тохируулах ёстой байна.
+</P>
+<P>
+BrailleNote Apex-ийг USB client interface ашиглан холбохоос өмнө humanware компаны сайтаас хамааралтай driver-үүдийг татаж суулгана уу.
 </P>
 <P>
 Дараах жагсаалт нь BrailleNote-ийг NVDA программтай ажиллуулах командын товчлуурны жагсаалт юм.
@@ -5642,8 +5645,8 @@ Before connecting your BrailleNote Apex using its USB client interface, you must
 <H3>14.14. EcoBraille</H3>
 
 <P>
-NVDA supports EcoBraille displays from <A HREF="https://www.once.es/">ONCE</A>.
-The following models are supported:
+NVDA программ нь  <A HREF="https://www.once.es/">ONCE-ийн</A> EcoBraille дэлгэцүүдийг дэмжин ажилладаг.
+Дараах хувилбарууд дэмжигддэг:
 </P>
 
 <UL>
@@ -5654,7 +5657,7 @@ The following models are supported:
 </UL>
 
 <P>
-In NVDA, you can set the serial port to which the display is connected in the Braille Settings dialog.
+ NVDA программын брайль тохиргоон дотроос  ямар дэлгэц залгаснаасаа хамаараад serial портыг сонгон тохируулах хэрэгтэй юм.
 </P>
 <P>
 Дараах жагсаалт нь EcoBraille дэлгэцүүдийн гарын командууд юм.
@@ -5740,9 +5743,9 @@ In NVDA, you can set the serial port to which the display is connected in the Br
 <H3>14.15. SuperBraille</H3>
 
 <P>
-The SuperBraille device, mostly available in Taiwan, can be connected to by either USB or serial.
-As the SuperBraille does not have any physical typing keys or scrolling buttons, all input must be performed via a standard computer keyboard.
-Due to this, and to maintain compatibility with other screen readers in Taiwan, two key bindings for scrolling the braille display have been provided:
+SuperBraille буюу супербайрль дэлгэцүүд нь ихэнхдээ Тайвань  улсад хэрэглэгддэг ба эдгээрийг зөвхөн USB болон Serial портуудаар дамжуулан холбох боломжтой байдаг.
+Superbraille нь ямарваа нэгэн дарах товчлуур байдаггүй учир бүхий л командууд нь компьютерийн гар дээр хийгддэг.
+Үүний улмаас мөн Тайвань элсад байх бусад дэлгэц уншигч программуудтай зохицож ажиллуулахын тулд хоёр товчлуурыг зааж өгсөн байдаг:
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -5761,18 +5764,18 @@ Due to this, and to maintain compatibility with other screen readers in Taiwan, 
 </TABLE>
 
 <A NAME="Eurobraille"></A>
-<H3>14.16. Eurobraille Esys/Esytime/Iris displays</H3>
+<H3>14.16. Eurobraille Esys/Esytime/Iris дэлгэцүүд</H3>
 
 <P>
-The Esys, Esytime and Iris displays from <A HREF="https://www.eurobraille.fr/">Eurobraille</A> are supported by NVDA.
-Esys and Esytime-Evo devices are supported when connected via USB or bluetooth.
-Older Esytime devices only support USB.
-Iris displays can only be connected via a serial port.
-Therefore, for these displays, you should select the port to which the display is connected after you have chosen this driver in the Braille Settings dialog.
+NVDA нь<A HREF="https://www.eurobraille.fr/">Eurobraille-ийн</A> Esys, Esytime болон Iris дэлгэцүүдийг   дэмжиж ажилладаг.
+Esys болон Esytime-Evo төхөөрөмжүүд нь USB эсвэл bluetooth холболтуудаар холбогдсон үед дэмжиж ажжилах боломжтой аж.
+Хуучны Esytime төхөөрөмжүүд нь зөвхөн USB холболттой л байдаг.
+Харин Iris дэлгэцүүд нь  зөвхөн serial порт ашиглан холбогддог.
+Тиймээс эдгээр дэлгэцүүдийг ашиглахдаа ямар дэлгэц холбосноо NVDA программын брайль тохиргоон дотроос зааж өгөх ёстой байна.
 </P>
 <P>
-Iris and Esys displays have a braille keyboard with 10 keys.
-Of the two keys placed like a space bar, the left key is corresponding to the backspace key and the right key to the space key.
+Iris болон Esys дэлгэцүүд нь арван товчлууртай брайль гартай байдаг.
+Зай товчлуур шиг байрласан хоёр товчлуурны зүүн талынх нь үсэг устгах харин баруун тал нь зай авах үүрэгтэй байдаг байна.
 </P>
 <P>
 Дараах жагсаалт нь эдгээр дэлгэцүүдийг NVDA программтай ажиллуулах командын товчлуурны жагсаалт юм.
@@ -6050,18 +6053,18 @@ Of the two keys placed like a space bar, the left key is corresponding to the ba
 <H3>14.17. BRLTTY</H3>
 
 <P>
-<A HREF="https://www.brltty.com/">BRLTTY</A> is a separate program which can be used to support many more braille displays.
-In order to use this, you need to install <A HREF="https://www.brltty.com/download.html">BRLTTY for Windows</A>.
-You should download and install the latest installer package, which will be named, for example, brltty-win-4.2-2.exe.
-When configuring the display and port to use, be sure to pay close attention to the instructions, especially if you are using a USB display and already have the manufacturer's drivers installed.
+<A HREF="https://www.brltty.com/">BRLTTY</A> нь илүү олон төрлийн дэлгэцүүд дэмжиж ажиллах зориулалттай нэмэлт программ юм.
+Үүнийг ашиглахын тулд windows үйлдлийн системд зориулсан <A HREF="https://www.brltty.com/download.html">BRLTTY</A> программыг татаж суулгах шаардлагатай.
+Та хамгийн сүүлийн хувилбарыг нь татаж суулгах ёстой ба энэ нь brltty-win-4.2-2.exe гэх мэтийн нэртэй байна.
+Хэрэв та аливаа дэлгэцийн үйлдвэрлэгчийн гаргасан driver-ийг суулгачихсан байгаа бол Дэлгэцийг таниулан тохируулж байх үедээ гарсан зааврыг болгоомжтой сонсоод дагаж хйихийг зөвлөж байна.
 </P>
 <P>
-For displays which have a braille keyboard, BRLTTY currently handles braille input itself.
-Therefore, NVDA's braille input table setting is not relevant.
+Брайль гартай дэлгэцүүдийн хувьд, BRLTTY нь өөрөө брайль оролтыг хариуцан ажилладаг.
+Тиймээс NVDA программын брайль оролтын тохиргоо нь хамаарахгүй юм.
 </P>
 <P>
-Following are the BRLTTY command assignments for NVDA.
-Please see the <A HREF="https://mielke.cc/brltty/doc/KeyBindings/">BRLTTY key binding lists</A> for information about how BRLTTY commands are mapped to controls on braille displays.
+Доорх нь BRLTTY NVDA программтай ажиллах гарын командууд юм.
+BRLTTY нь хэрхэн брайль дэлгэцүүдийн товчлуурыг удирддаг болохыг <A HREF="https://mielke.cc/brltty/doc/KeyBindings/">BRLTTY товчлуурын жагсаалтаас</A> илүү дэлгэрэнгүйгээр уншина уу.
 </P>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -6291,9 +6294,12 @@ NVDA программ нь мөн системийн бүртгэл дотор �
 Манай сайт нь мөн NVDA программ хөгжүүлэлтийн талаар бүхий л төрлийн мэдээ мэдээлэл болон NVDA хөгжүүлэгчдийн нөөц сурвалж зэрэгтэй танилцах боломжийг олгодог юм.
 </P>
 
+<A NAME="toc138"></A>
+<H2>17. Орчуулгын тухай</H2>
+
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
-<TH>Орчуулагч:</TH>
+<TH>Орчуулсан:</TH>
 </TR>
 <TR>
 <TD>Б.Ангараг-Эрдэнэ</TD>

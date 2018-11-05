@@ -261,7 +261,7 @@ mn 15.9. start:2078 paragraphs:2, tables:1, lists:0
 mn 15.10. start:2150 paragraphs:2, tables:1, lists:0
 mn 15.11. start:2172 paragraphs:8, tables:3, lists:2
 mn 15.12. start:2253 paragraphs:8, tables:4, lists:1
-mn 15.13. start:2336 paragraphs:5, tables:1, lists:1
+mn 15.13. start:2336 paragraphs:6, tables:1, lists:1
 mn 15.14. start:2386 paragraphs:3, tables:1, lists:1
 mn 15.15. start:2421 paragraphs:1, tables:1, lists:0
 mn 15.16. start:2431 paragraphs:3, tables:1, lists:0
@@ -270,5 +270,6 @@ mn 16. start:2532 paragraphs:0, tables:0, lists:0
 en 16. start:2720 paragraphs:1, tables:0, lists:0
 mn 16.1. start:2534 paragraphs:6, tables:3, lists:0
 mn 16.2. start:2577 paragraphs:2, tables:1, lists:1
-mn 17. start:2589 paragraphs:2, tables:2, lists:0
+mn 17. start:2589 paragraphs:1, tables:0, lists:0
+mn 18. start:2594 paragraphs:1, tables:2, lists:0
 # end of comparison
