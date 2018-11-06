@@ -1,4 +1,4 @@
-msgid ""
+﻿msgid ""
 msgstr ""
 "Project-Id-Version: Vietnamese Language for NVDA\n"
 "Report-Msgid-Bugs-To: \n"
@@ -8594,7 +8594,7 @@ msgstr "Ngừng đọc khi gõ ký tự"
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
 msgid "Speech interrupt for Enter key"
-msgstr "Ngừng đọc khi nhấn phím Enter"
+msgstr "Ngừng đọc khi bấm phím Enter"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
