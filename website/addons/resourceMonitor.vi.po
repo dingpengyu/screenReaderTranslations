@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE
+﻿# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-09-21 09:49+1000\n"
-"PO-Revision-Date: 2018-11-04 16:55+0700\n"
+"PO-Revision-Date: 2018-11-07 11:29+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,15 +59,15 @@ msgid ""
 "NVDA+Shift+1 Presents the average processor load and if multicore CPU's are "
 "present the load of each core."
 msgstr ""
-"NVDA+Shift+1 trình bày tốc độ tải trung bình của vi xử lý và nếu CPU đa nhân "
-"thì trình bày cho mỗi nhân."
+"NVDA+Shift+1 thể hiện tốc độ tải trung bình của vi xử lý và nếu CPU đa nhân "
+"thì thể hiện cho mỗi nhân."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+2/5 Presents the used and total space for both physical and "
 "virtual ram."
 msgstr ""
-"NVDA+Shift+2/5 trình bày mức độ sử dụng và tổng không gian cho cả ram vật lý "
+"NVDA+Shift+2/5 thể hiện mức độ sử dụng và tổng không gian cho cả ram vật lý "
 "và ram ảo."
 
 #. type: Bullet: '* '
@@ -75,7 +75,7 @@ msgid ""
 "NVDA+Shift+3 Presents the used and total space of the static and removable "
 "drives."
 msgstr ""
-"NVDA+Shift+3 trình bày mức độ sử dụng và tổng không gian của ổ đĩa tĩnh và ổ "
+"NVDA+Shift+3 thể hiện mức độ sử dụng và tổng không gian của ổ đĩa tĩnh và ổ "
 "di động."
 
 #. type: Bullet: '* '
@@ -83,19 +83,19 @@ msgid ""
 "NVDA+Shift+4 Presents battery percentage, charging status, remaining time "
 "(if not charging), and a warning if the battery is low or critical."
 msgstr ""
-"NVDA+Shift+4 trình bày phần trăm pin, trạng thái sạc, thời gian còn lại (nếu "
-"không sạc), và cảnh báo nếu mức pin thấp hay đã cạn."
+"NVDA+Shift+4 thể hiện phần trăm pin, trạng thái sạc, thời gian còn lại (nếu "
+"không sạc), và cảnh báo nếu mức pin thấp hay gần hết."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+6 Presents CPU Architecture 32/64-bit and Windows version and "
 "service pack numbers."
 msgstr ""
-"NVDA+Shift+6 trình bày kiểu CPU 32/64-bit, phiên bản Windows và gói dịch vụ."
+"NVDA+Shift+6 thể hiện kiểu CPU 32/64-bit, phiên bản Windows và gói dịch vụ."
 
 #. type: Bullet: '* '
 msgid "NVDA+Shift+7 presents the system's uptime."
-msgstr "NVDA+Shift+7 trình bày thời gian hoạt động của hệ thống."
+msgstr "NVDA+Shift+7 thể hiện thời gian hoạt động của hệ thống."
 
 #. type: Plain text
 msgid ""
