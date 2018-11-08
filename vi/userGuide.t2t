@@ -1052,11 +1052,21 @@ Cho phép bạn chọn chế độ đọc dấu câu và ký hiệu.
 Ví dụ, nếu bạn chọn tất cả thì tất cả các dấu và ký hiệu trong văn bản sẽ được đọc.
 Tùy chọn này áp dụng cho tất cả các bộ đọc chứ không chỉ riêng cho bộ đọc hiện tại.
 
-==== Sử dụng giọng đọc của ngôn ngữ để xử lý ký hiệu và ký tự ====[SpeechSettingsTrust]
+==== Sử dụng giọng đọc của ngôn ngữ để xử lý ký tự và ký hiệu ====[SpeechSettingsTrust]
 Mặc định, tùy chọn này được bật, để chọn có thể sử dụng giọng đọc để đọc các ký tự và ký hiệu hay không.
 Nếu bạn thấy NVDA đọc dấu câu không đúng cho một ngôn ngữ với bộ đọc hoặc giọng đọc đang dùng, bạn có thể tắt tùy chọn này để NVDA dùng các thiết lập ngôn ngữ chung.
 
-==== Phần trăm thay đổi độ cao cho chữ hoa ====[SpeechSettingsCapPitchChange]
+==== Phần trăm thay đổi độ cao cho==== Bao gồm dữ liệu của Unicode Consortium (cả biểu tượng cảm xúc) khi xử lý kí tự và kí hiệu ====[SpeechSettingsCLDR]
+Bật hộp kiểm này, NVDA sẽ bao gồm thêm các  từ điển phát âm kí hiệu khi phát âm kí tự và kí hiệu.
+Những từ điển này có mô tả cho các kí hiệu (đặc biệt là biểu tượng cảm xúc) được cung cấp bởi [Unicode Consortium http://www.unicode.org/consortium/] như một phần của [Common Locale Data Repository http://cldr.unicode.org/].
+Nếu muốn NVDA đọc mô tả kí tự của các biểu tượng cảm xúc dựa trên kho dữ liệu đó, bạn phải bật tùy chọn này.
+Tuy nhiên, nếu bạn đang dùng một bộ đọc có hỗ trợ mô tả các biểu tượng cảm xúc một cách tự nhiên, bạn có thể tắt tùy chọn này.
+
+Lưu ý rằng việc thêm hay sửa thủ công các mô tả cho kí tự sẽ được lưu lại thành một phần trong thiết lập người dùng của bạn.
+Vậy nên, nếu thay đổi mô tả của một biểu tượng cảm xúc cụ thể, tùy chỉnh mô tả của bạn sẽ được đọc cho  biểu tượng đó, bất kể tùy chọn này có bật hay không.
+Bạn có thể thêm, sửa hay xóa các mô tả kí hiệu trong [hộp thoại phát âm kí hiệu / dấu câu #SymbolPronunciation] của NVDA.
+
+ chữ hoa ====[SpeechSettingsCapPitchChange]
 Tùy chọn này cho phép bạn nhập phần trăm độ cao sẽ thay đổi khi đọc các chữ cái in hoa.
 Đây là giá trị phần trăm nên không nhận số âm và phải nằm trong vùng cho phép (từ 1 đến 100).
 Nếu không muốn có sự thay đổi về cao độ thì bạn có thể thiết lập giá trị 0 cho mục này.
