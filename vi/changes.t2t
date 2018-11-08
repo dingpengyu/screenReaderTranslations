@@ -7,6 +7,10 @@
 
 == Tính năng mới ==
 - Các bản chữ nổi mới: Tiếng Trung Quốc (Đài Loan, Quan Thoại) cấp 1 và cấp 2. (#5553)
+- Trạng thái trả lời (Replied) / chuyển tiếp (Forwarded) đã được thông báo trên các thư điện tử trong danh sách thư của Microsoft Outlook. (#6911)
+- NVDA giờ đây đã đọc được mô tả cho các biểu tượng cảm xúc và cả những kí tự là một phần của kho dữ liệu Unicode Common Locale Data Repository. (#6523)
+- Trong Microsoft Word, có thể đọc thông báo khoảng cách con trỏ từ cạnh trên và cạnh trái của trang bằng cách bấm NVDA+Delete bàn phím số. (#1939)
+- Trong Google Sheets với chế độ chữ nổi được bật, NVDA không còn thông báo 'đã chọn' ở mọi ô khi di chuyển con trỏ giữa các ô. (#8879)
 
 
 == Các thay đổi ==
@@ -14,13 +18,21 @@
 - Trong cài đặt bàn phím của NVDA, các hộp kiểm để bật / tắt các phím bổ trợ NVDA giờ đây hiển thị thành một danh sách thay vì là các hộp kiểm riêng lẻ.
 - NVDA sẽ không còn đọc các thông tin thừa  khi xem đồng hồ từ khay hệ thống trên vài phiên bản Windows. (#4364)
 - Cập nhật thư viện phiên dịch chữ nổi liblouis lên phiên bản 3.7.0. (#8697)
-
+- Cập nhật eSpeak-NG lên bản commit 919f3240cbb
 
 == Sửa lỗi ==
 - Trong Outlook 2016/365, trạng thái phân loại và gắn cờ đã được đọc cho các thư. (#8603)
 - Khi ngôn ngữ được chọn cho NVDA là Kirgyz, Mongolian hay Macedonian chẳng hạn, không còn tình trạng hiển thị hộp thoại lúc khởi động cảnh báo ngôn ngữ không được hệ thống hỗ trợ. (#8064)
 - Việc di chuyển chuột đến đối tượng điều hướng giờ đây sẽ di chuyển chuột chính xác hơn đến vị trí chế độ duyệt trong Mozilla Firefox, Google Chrome và Acrobat Reader DC. (#6460)
 - Việc tương tác với các hộp xổ trên web trong Firefox, Chrome và Internet Explorer đã được cải thiện. (#8664)
++- Nếu đang chạy trên một phiên bản Windows XP hay Vista tiếng Nhật , NVDA giờ đây đã hiển thị cảnh báo yêu cầu phiên bản hệ điều hành như mong muốn. (#8771)
+- Tăng khả năng vận hành trong Mozilla Firefox khi điều hướng trên các trang lớn với nhiều thay đổi động. (#8678)
+- Không còn tình trạng hiện thuộc tính phông trong chữ nổi nếu đã được tắt trong cài đặt định dạng tài liệu. (#7615)
+- NVDA không còn bị lỗi khi theo dõi con trỏ trong File Explorer và các ứng dụng khác đang dùng UI Automation khi một ứng dụng khác đang hoạt động (xử lý tập tin âm thanh hàng loạt chẳng hạn). (#7345)
+- Trong các trình đơn ARIA trên web, phím Escape giờ đây sẽ được chuyển đến trình đơn và không còn tình trạng tắt chế độ focus vô điều kiện. (#3215)
+- NVDA không còn từ chối thông báo con trỏ trên các trang web mà con trỏ thay thế cho một điều khiển không còn tồn tại. (#6606, #8341)
+- Trong Gmail mới, nếu dùng các phím di chuyển nhanh trong các thư khi đọc chúng, toàn bộ phần nội dung thư không còn bị đọc lên sau thành phần mà bạn mới điều hướng đến. (#8887)
+- Sau khi cập nhật NVDA, các trình duyệt như Firefox và google Chrome sẽ không còn bị sự cố, và chế độ duyệt sẽ tiếp tục phản ánh một cách chính xác bất kì tài liệu nào đang được tải. (#7641) 
 
 
 == Các thay đổi cho nhà phát triển ==
