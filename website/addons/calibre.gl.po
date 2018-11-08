@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 08:55+1000\n"
-"PO-Revision-Date: 2018-11-05 22:50+0100\n"
+"PO-Revision-Date: 2018-11-08 23:30+0100\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,7 +61,7 @@ msgstr "As teclas de atallo pódense persoalizar nas Preferencias do NVDA > Xest
 #. type: Plain text
 #, no-wrap
 msgid " Take a look at the [documentation of Calibre][3] for know more Keyboard shortcuts.\n"
-msgstr " Bótalle unha ollada á [documentation of Calibre][3] para coñecer máis atallos de teclado.\n"
+msgstr " Bótalle unha ollada á [documentación de Calibre][3] para coñecer máis atallos de teclado.\n"
 
 #. type: Plain text
 #, no-wrap
