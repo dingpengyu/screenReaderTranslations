@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 00:10+1000\n"
-"PO-Revision-Date: 2018-10-12 13:23+0100\n"
+"PO-Revision-Date: 2018-11-08 22:52+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Equipo de tradución ao Galego <oprisniki@gmail.com>\n"
 "Language: gl\n"
@@ -6893,18 +6893,16 @@ msgid "Editing profile {profile}"
 msgstr "Editando perfil {profile}"
 
 #. Translators: the last action taken on an Outlook mail message
-#, fuzzy
 msgid "replied"
-msgstr "reemplazar"
+msgstr "respostado"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "REPLIED ALL"
-msgstr ""
+msgstr "TODO RESPOSTADO"
 
 #. Translators: the last action taken on an Outlook mail message
-#, fuzzy
 msgid "forwarded"
-msgstr "adiante"
+msgstr "transmitido"
 
 #. Translators: for a high importance email
 msgid "high importance"
@@ -8652,11 +8650,12 @@ msgstr "Confiar na lingua da voz ao procesar caracteres e símbolos"
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel (if checked, data from the unicode CLDR will be used
 #. to speak emoji descriptions).
-#, fuzzy
 msgid ""
 "Include Unicode Consortium data (including emoji) when processing characters "
 "and symbols"
-msgstr "Confiar na lingua da voz ao procesar caracteres e símbolos"
+msgstr ""
+"Incluir datos Unicode Consortium (incluíndo emoji) ao se procesar caracteres "
+"e símbolos"
 
 #. Translators: This is a label for a setting in voice settings (an edit box to change voice pitch for capital letters; the higher the value, the pitch will be higher).
 msgid "Capital pitch change percentage"
@@ -10773,14 +10772,14 @@ msgid "{revisionType} {description}: {text} by {author} on {date}"
 msgstr "{revisionType} {description}: {text} por {author} en {date}"
 
 #. Translators: a distance from the left edge of the page in Microsoft Word
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "{distance} from left edge of page"
-msgstr "{distance:.3g} pontos dende o borde esquerdo da diapositiva"
+msgstr "{distance} dende a marxe esquerda da páxina"
 
 #. Translators: a distance from the left edge of the page in Microsoft Word
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "{distance} from top edge of page"
-msgstr "{distance:.3g} pontos dende o borde superior da diapositiva"
+msgstr "{distance} dende a marxe superior da páxina"
 
 #. Translators: single line spacing
 msgctxt "line spacing value"
