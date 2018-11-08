@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-02 00:10+1000\n"
+"POT-Creation-Date: 2018-11-09 00:10+1000\n"
 "PO-Revision-Date: 2018-09-28 07:37+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: fi <jani.kinnunen@wippies.fi>\n"
@@ -6894,6 +6894,20 @@ msgstr "lukematon"
 msgid "Editing profile {profile}"
 msgstr "Muokataan profiilia {profile}"
 
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "replied"
+msgstr "korvaus"
+
+#. Translators: the last action taken on an Outlook mail message
+msgid "REPLIED ALL"
+msgstr ""
+
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "forwarded"
+msgstr "seuraava"
+
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "erittäin tärkeä"
@@ -8624,6 +8638,15 @@ msgstr "Välimerkki- ja symboli&taso:"
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel (if checked, text will be read using the voice for the language of the text).
 msgid "Trust voice's language when processing characters and symbols"
+msgstr "Käytä puheäänen kieltä merkkejä ja symboleita käsiteltäessä"
+
+#. Translators: This is the label for a checkbox in the
+#. voice settings panel (if checked, data from the unicode CLDR will be used
+#. to speak emoji descriptions).
+#, fuzzy
+msgid ""
+"Include Unicode Consortium data (including emoji) when processing characters "
+"and symbols"
 msgstr "Käytä puheäänen kieltä merkkejä ja symboleita käsiteltäessä"
 
 #. Translators: This is a label for a setting in voice settings (an edit box to change voice pitch for capital letters; the higher the value, the pitch will be higher).
@@ -10732,6 +10755,16 @@ msgstr "kommentti: {text}, muokkaaja: {author}, päiväys: {date}"
 msgid "{revisionType} {description}: {text} by {author} on {date}"
 msgstr ""
 "{revisionType}, {description}: {text}, muokkaaja: {author}, päiväys: {date}"
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from left edge of page"
+msgstr "{distance:.3g} pistettä dian vasemmasta reunasta"
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from top edge of page"
+msgstr "{distance:.3g} pistettä dian yläreunasta"
 
 #. Translators: single line spacing
 msgctxt "line spacing value"

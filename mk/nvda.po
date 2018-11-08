@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA source-master-57432f4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-02 00:10+1000\n"
+"POT-Creation-Date: 2018-11-09 00:10+1000\n"
 "PO-Revision-Date: 2018-09-02 11:58+0100\n"
 "Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: мк <LL@li.org>\n"
@@ -6950,6 +6950,20 @@ msgstr "непрочитана"
 msgid "Editing profile {profile}"
 msgstr ""
 
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "replied"
+msgstr "заменет"
+
+#. Translators: the last action taken on an Outlook mail message
+msgid "REPLIED ALL"
+msgstr ""
+
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "forwarded"
+msgstr "напред"
+
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "од големо значење"
@@ -8703,6 +8717,16 @@ msgstr "ниво на &интерпункција:"
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel (if checked, text will be read using the voice for the language of the text).
 msgid "Trust voice's language when processing characters and symbols"
+msgstr ""
+"верувај им на јазиците од гласовите кога ќе процесуираш знаци и симболи"
+
+#. Translators: This is the label for a checkbox in the
+#. voice settings panel (if checked, data from the unicode CLDR will be used
+#. to speak emoji descriptions).
+#, fuzzy
+msgid ""
+"Include Unicode Consortium data (including emoji) when processing characters "
+"and symbols"
 msgstr ""
 "верувај им на јазиците од гласовите кога ќе процесуираш знаци и симболи"
 
@@ -10843,6 +10867,16 @@ msgstr "comment: {text} од {author} на {date}"
 #, python-brace-format
 msgid "{revisionType} {description}: {text} by {author} on {date}"
 msgstr "{revisionType} {description}: {text} од {author} на {date}"
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from left edge of page"
+msgstr "{distance:.3g} поени од левиот раб на слајдот"
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from top edge of page"
+msgstr "{distance:.3g} поени од горниот раб на слајдот"
 
 #. Translators: single line spacing
 msgctxt "line spacing value"

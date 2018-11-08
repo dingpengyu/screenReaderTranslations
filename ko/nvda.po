@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-02 00:10+1000\n"
+"POT-Creation-Date: 2018-11-09 00:10+1000\n"
 "PO-Revision-Date: 2018-08-15 14:51-0700\n"
 "Last-Translator: Dong Hui Park <hi@aheu.org>\n"
 "Language-Team: NVDA Korean users and translations forum <joseph."
@@ -6839,6 +6839,20 @@ msgstr "읽지 않음"
 msgid "Editing profile {profile}"
 msgstr "{profile} 프로필 편집중"
 
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "replied"
+msgstr "내용 수정"
+
+#. Translators: the last action taken on an Outlook mail message
+msgid "REPLIED ALL"
+msgstr ""
+
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "forwarded"
+msgstr "앞으로"
+
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "중요도 높음"
@@ -8552,6 +8566,15 @@ msgstr "구두점/기호 출력 레벨 (&L)"
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel (if checked, text will be read using the voice for the language of the text).
 msgid "Trust voice's language when processing characters and symbols"
+msgstr "기호 및 글자 출력 시 선택된 음성 엔진 언어 사용"
+
+#. Translators: This is the label for a checkbox in the
+#. voice settings panel (if checked, data from the unicode CLDR will be used
+#. to speak emoji descriptions).
+#, fuzzy
+msgid ""
+"Include Unicode Consortium data (including emoji) when processing characters "
+"and symbols"
 msgstr "기호 및 글자 출력 시 선택된 음성 엔진 언어 사용"
 
 #. Translators: This is a label for a setting in voice settings (an edit box to change voice pitch for capital letters; the higher the value, the pitch will be higher).
@@ -10648,6 +10671,16 @@ msgstr "주석: {text}; 저자: {author}; 날짜: {date}"
 #, python-brace-format
 msgid "{revisionType} {description}: {text} by {author} on {date}"
 msgstr "{description} {revisionType}: {text}; 저자: {author}; 날짜: {date}"
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from left edge of page"
+msgstr "슬라이드 좌측으로부터 {distance:.3g} 포인트"
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from top edge of page"
+msgstr "슬라이드 위로부터 {distance:.3g} 포인트"
 
 #. Translators: single line spacing
 msgctxt "line spacing value"

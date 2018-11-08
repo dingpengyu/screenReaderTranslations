@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA master-10663,552b45f\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-02 00:10+1000\n"
+"POT-Creation-Date: 2018-11-09 00:10+1000\n"
 "PO-Revision-Date: 2018-09-13 09:19-0700\n"
 "Last-Translator: siddalingeshwar ingalagi <ingalagisiddu@gmail.com>\n"
 "Language-Team: Kannada <ingalagisiddu@gmail.com>\n"
@@ -7097,6 +7097,20 @@ msgstr "ಓದಿಲ್ಲದ"
 msgid "Editing profile {profile}"
 msgstr ""
 
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "replied"
+msgstr "ಮರಳಿಸು"
+
+#. Translators: the last action taken on an Outlook mail message
+msgid "REPLIED ALL"
+msgstr ""
+
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "forwarded"
+msgstr "ಮುಂದುವರಿಸಿ"
+
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "ತುಂಭಾ ಮುಖ್ಯವಾದಂತಹ"
@@ -8849,6 +8863,15 @@ msgstr "ಲಾಂಚನ/ಚಿನ್ಹೆಯ &ಮಟ್ಟ"
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel (if checked, text will be read using the voice for the language of the text).
 msgid "Trust voice's language when processing characters and symbols"
+msgstr "ಅಕ್ಷರಗಳು ಮತ್ತು ಚಿನ್ಹೆಗಳನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಾಗ ಧ್ವನಿಯ ಭಾಷೆಯನ್ನು ನಂಬಿ"
+
+#. Translators: This is the label for a checkbox in the
+#. voice settings panel (if checked, data from the unicode CLDR will be used
+#. to speak emoji descriptions).
+#, fuzzy
+msgid ""
+"Include Unicode Consortium data (including emoji) when processing characters "
+"and symbols"
 msgstr "ಅಕ್ಷರಗಳು ಮತ್ತು ಚಿನ್ಹೆಗಳನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಾಗ ಧ್ವನಿಯ ಭಾಷೆಯನ್ನು ನಂಬಿ"
 
 #. Translators: This is a label for a setting in voice settings (an edit box to change voice pitch for capital letters; the higher the value, the pitch will be higher).
@@ -11028,6 +11051,16 @@ msgstr "ಪ್ರತಿಕ್ರಿಯೆ {text} {author} ರವರಿಂದ {da
 #, fuzzy, python-brace-format
 msgid "{revisionType} {description}: {text} by {author} on {date}"
 msgstr "{revisionType}: {text} {author} ರವರಿಂದ {date} ರಂದು"
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from left edge of page"
+msgstr "ಜಾರುವಿಕೆಯ  ಎಡ ತುದಿಯಲ್ಲಿ {distance:.3g} ಅಂಶಗಳು "
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from top edge of page"
+msgstr "{distance:.3g} ಜಾರುವಿಕೆಯ ಸಂಪೂರ್ಣ ಮೇಲ್ ತುದಿಯಲ್ಲಿನ ಅಂಶಗಳು"
 
 #. Translators: single line spacing
 msgctxt "line spacing value"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:11331\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-02 00:10+1000\n"
+"POT-Creation-Date: 2018-11-09 00:10+1000\n"
 "PO-Revision-Date: 2017-10-31 20:48-0700\n"
 "Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -6961,6 +6961,20 @@ msgstr "neskaitytas"
 msgid "Editing profile {profile}"
 msgstr ""
 
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "replied"
+msgstr "pakeistas turinys"
+
+#. Translators: the last action taken on an Outlook mail message
+msgid "REPLIED ALL"
+msgstr ""
+
+#. Translators: the last action taken on an Outlook mail message
+#, fuzzy
+msgid "forwarded"
+msgstr "pirmyn"
+
 #. Translators: for a high importance email
 msgid "high importance"
 msgstr "svarbus"
@@ -8711,6 +8725,16 @@ msgstr "Tariami skyrybos ženklai ir &simboliai:"
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel (if checked, text will be read using the voice for the language of the text).
 msgid "Trust voice's language when processing characters and symbols"
+msgstr ""
+"Pasitikėti automatiniu parinkto balso skyrybos ženklų ir kitų simbolių tarimu"
+
+#. Translators: This is the label for a checkbox in the
+#. voice settings panel (if checked, data from the unicode CLDR will be used
+#. to speak emoji descriptions).
+#, fuzzy
+msgid ""
+"Include Unicode Consortium data (including emoji) when processing characters "
+"and symbols"
 msgstr ""
 "Pasitikėti automatiniu parinkto balso skyrybos ženklų ir kitų simbolių tarimu"
 
@@ -10861,6 +10885,16 @@ msgstr "Komentaras: „{text}“, autorius – {author}, data – {date}"
 msgid "{revisionType} {description}: {text} by {author} on {date}"
 msgstr ""
 "{revisionType} {description}: „{text}“, autorius „{author}“, data – {date}"
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from left edge of page"
+msgstr "{distance:.3g} punktai nuo skaidrės kairiojo krašto"
+
+#. Translators: a distance from the left edge of the page in Microsoft Word
+#, fuzzy, python-brace-format
+msgid "{distance} from top edge of page"
+msgstr "{distance:.3g} punktai nuo skaidrės viršutinio krašto"
 
 #. Translators: single line spacing
 msgctxt "line spacing value"
