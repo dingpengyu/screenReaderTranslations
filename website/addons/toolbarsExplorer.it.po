@@ -3,46 +3,50 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-11-01 23:42+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-11-08 16:55+0100\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Alberto Buffolino <a.buffolino@gmail.com>\n"
+"Language-Team: Alberto Buffolino <a.buffolino@gmail.com>, Simone Dal Maso "
+"<simone.dalmaso@gmail.com>\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"ToolbarsExplorer\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"ToolbarsExplorer\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Alberto Buffolino"
-msgstr ""
+msgstr "Autore: Alberto Buffolino"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Download [versione stabile][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Download [versione in sviluppo][2]"
 
 #. type: Plain text
 msgid ""
 "This add-on makes easier to use toolbars in applications, providing an "
 "exploration model derived by object navigation, with simplified gestures."
 msgstr ""
+"Questo componente aggiuntivo rende più semplice l'utilizzo delle barre degli "
+"strumenti nelle applicazioni, fornendo un modello di esplorazione derivato "
+"dalla navigazione ad oggetti, con comandi semplificati."
 
 #. type: Title ##
 #, no-wrap
 msgid "Commands"
-msgstr ""
+msgstr "Comandi"
 
 #. type: Plain text
 #, no-wrap
@@ -50,35 +54,43 @@ msgid ""
 "* Alt+applications: starts toolbars exploration<br/>\n"
 "(you can remap it via NVDA gesture manager, under Object navigation).\n"
 msgstr ""
+"* Alt+tasto applicazioni: entra in modalità navigazione barre strumenti<br/>\n"
+"(è possibile rimappare la combinazione attraverso la gestione gesti e tasti d'immissione di NVDA, sotto Navigazione oggetti).\n"
 
 #. type: Plain text
 msgid "During exploration, following gestures are available:"
-msgstr ""
+msgstr "Durante la modalità esplorazione, sono attivi i seguenti tasti:"
 
 #. type: Bullet: '* '
 msgid "Left/right arrow: moves to previous/next toolbar;"
 msgstr ""
+"Freccia sinistra/destra: si muove alla barra strumenti precedente/successiva;"
 
 #. type: Bullet: '* '
 msgid "Up/down arrow: scrolls up/down items in current toolbar;"
 msgstr ""
+"Freccia su/giù: scorre su/giù gli elementi nella barra strumenti attuale;"
 
 #. type: Bullet: '* '
 msgid "Enter: activates toolbar or its item;"
-msgstr ""
+msgstr "Invio: attiva la barra strumenti o un suo elemento;"
 
 #. type: Bullet: '* '
 msgid "Space: simulates left mouse click on toolbar or its item;"
 msgstr ""
+"Barra spaziatrice: simula il click del tasto sinistro del mouse sulla barra "
+"strumenti o su un suo elemento;"
 
 #. type: Bullet: '* '
 msgid ""
 "Applications/shift+F10: simulates right mouse click on toolbar or its item;"
 msgstr ""
+"Tasto applicazioni/shift+F10: simula il click del tasto destro del mouse "
+"sulla barra strumenti o su un suo elemento;"
 
 #. type: Bullet: '* '
 msgid "Escape: exits from exploration."
-msgstr ""
+msgstr "Esc: esce dalla modalità esplorazione."
 
 #. type: Plain text
 msgid ""
@@ -86,60 +98,78 @@ msgid ""
 "gesture provided by NVDA, as exactly as when you move to objects with "
 "standard object navigation."
 msgstr ""
+"In aggiunta, è possibile eseguire azioni sulle barre strumenti o sui loro "
+"elementi utilizzando un qualsiasi comando fornito da NVDA, esattamente come "
+"quando ci si muove sugli oggetti con la navigazione oggetti standard."
 
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "Note"
 
 #. type: Plain text
 msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
 msgstr ""
+"La modalità esplorazione termina esplicitamente premendo esc, e "
+"implicitamente:"
 
 #. type: Bullet: '* '
 msgid ""
 "performing an action on toolbar or its item (with space, applications/shift"
 "+F10, enter);"
 msgstr ""
+"eseguendo un'azione sulla barra strumenti o su un suo elemento (con barra "
+"spaziatrice, tasto applicazioni/shift+F10, invio);"
 
 #. type: Bullet: '* '
 msgid ""
 "pressing a gesture that moves out of current toolbar objects (alt, windows, "
 "tab, NVDA+F1, object navigation gestures, etc)."
 msgstr ""
+"eseguendo un comando che si sposta al di fuori degli oggetti della barra "
+"strumenti attuale (alt, windows, tab, NVDA+F1, comandi di navigazione "
+"oggetti, etc)."
 
 #. type: Plain text
 msgid ""
 "Other gestures not containing alt, windows or escape (as h, 1, shift, shift"
 "+h, control+z) simply does nothing."
 msgstr ""
+"Altri comandi non contenenti alt, windows o esc (come h, 1, shift, shift+h, "
+"control+z) semplicemente non producono alcun effetto."
 
 #. type: Title ##
 #, no-wrap
 msgid "Suggestions"
-msgstr ""
+msgstr "Suggerimenti"
 
 #. type: Bullet: '* '
 msgid ""
 "The add-on may fail in Mozilla applications the first time after add-on "
 "installation/update; please restart NVDA and Mozilla applications to resolve;"
 msgstr ""
+"Il componente aggiuntivo potrebbe inizialmente non funzionare nelle "
+"applicazioni Mozilla dopo l'installazione/aggiornamento del componente "
+"stesso; per favore, riavviare NVDA e le applicazioni Mozilla per risolvere;"
 
 #. type: Bullet: '* '
 msgid ""
 "In LibreOffice, best configuration is probably default or single toolbar, "
 "set it on view menu/toolbar position."
 msgstr ""
+"In LibreOffice, la miglior configurazione è probabilmente quella di default "
+"o a barra strumenti singola, da impostare nel menu visualizza/interfaccia "
+"utente."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tbx"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tbx-dev"
