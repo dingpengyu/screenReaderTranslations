@@ -12,10 +12,14 @@
 
 <H2>2018.4</H2>
 
-<H3>Neue Features</H3>
+<H3>Neue Funktionen</H3>
 
 <UL>
 <LI>Neue Braille-Tabellen: Chinesische Voll- und Kurzschrift (China, Mandarin). (<A HREF="https://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+<LI>In der Nachrichtenansicht in Microsoft Outlook meldet NVDA nun den Status "beantwortet" und/oder "weitergeleitet" für jede Nachricht. (<A HREF="https://github.com/nvaccess/nvda/issues/6911">#6911</A>)
+<LI>NVDA kann jetzt Beschreibungen ffür Emoji und andere Zeichen vorlesen, welche Teil des Unicode Common Locale Data Repository sind. (<A HREF="https://github.com/nvaccess/nvda/issues/6523">#6523</A>)
+<LI>In Microsoft Word kann NVDA jetzt den Abstand des Cursors vom oberen und vom linken Rand der aktuellen Seite melden. Drücken Sie dafür NVDA+Entfernen. (<A HREF="https://github.com/nvaccess/nvda/issues/1939">#1939</A>)
+<LI>NVDA sagt nicht mehr "ausgewählt" bei jeder Zelle während der Navigation mit den Pfeiltasten zwischen Zellen in Google Sheets, wenn Braille-Modus aktiviert wurde. (<A HREF="https://github.com/nvaccess/nvda/issues/8879">#8879</A>)
 </UL>
 
 <H3>Änderungen</H3>
@@ -25,6 +29,7 @@
 <LI>In den Tastatureinstellungen von NVDA werden die Kontrollkästchen zum Aktivieren oder Deaktivieren der NVDA-Taste nun in einer Liste und nicht mehr als separate Kontrollkästchen angezeigt.
 <LI>NVDA zeigt unter einigen Windows-Versionen keine doppelten Informationen mehr an, wenn die Uhr in der Taskleiste vorgelesen wird. (<A HREF="https://github.com/nvaccess/nvda/issues/4364">#4364</A>)
 <LI>Liblouis Braille-Übersetzer auf Version 3.7.0 aktualisiert. (<A HREF="https://github.com/nvaccess/nvda/issues/8697">#8697</A>)
+<LI>eSpeak-NG wurde auf commit 919f3240cbb aktualisiert
 </UL>
 
 <H3>Fehlerbehebungen</H3>
@@ -34,6 +39,14 @@
 <LI>Wenn NVDA auf Sprachen wie Kirgyz, Mongolisch oder Mazedonisch eingestellt ist, wird beim Start kein Dialog mehr angezeigt, der davor warnt, dass die Sprache vom Betriebssystem nicht unterstützt wird. (<A HREF="https://github.com/nvaccess/nvda/issues/8064">#8064</A>)
 <LI>Wenn Sie die Maus mithilfe der Tastatur auf das Navigatorobjekt bewegen, wird die Maus nun viel genauer auf die Position im Fokusmodus in Mozilla Firefox, Google Chrome und Acrobat Reader DC bewegt. (<A HREF="https://github.com/nvaccess/nvda/issues/6460">#6460</A>)
 <LI>Der Umgang mit Kombinationsfeldern im Web in Firefox, Chrome und Internet Explorer wurde verbessert. (<A HREF="https://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+<LI>Die Warnmeldung über die erforderliche Windows-Version wird nunauch auf Windows XP und Vista mit japanischer Anzeigesprache richtig angezeigt. (<A HREF="https://github.com/nvaccess/nvda/issues/8771">#8771</A>)
+<LI>Verbesserung der Performance in Mozilla Firefox auf komplexen Webseiten mit verschiedenen dynamischen Inhalten. (<A HREF="https://github.com/nvaccess/nvda/issues/8678">#8678</A>)
+<LI>Format-Atribute (Überschrift, Link etc.) werden in Braille nicht mehr angezeigt, wenn die entsprechenden Einträge in den Einstellungen für Dokumentformatierung deaktiviert wurden. (<A HREF="https://github.com/nvaccess/nvda/issues/7615">#7615</A>)
+<LI>Im Windows-Explorer und anderen Anwendungen bei Verwendung von UI-Automation wird der Fokus zuverlässig von NVDA verfolgt, wenn eine andere Anwendung lädt (z.B. während der Batch-Ausführung bei der Audio-bearbeitung). (<A HREF="https://github.com/nvaccess/nvda/issues/7345">#7345</A>)
+<LI>In ARIA-Menüs im Web wird die Escape-Taste nun an das menü weitergereicht, so dass das Fokus-Modus  nicht mehr unterbrochen wird. (<A HREF="https://github.com/nvaccess/nvda/issues/3215">#3215</A>)
+<LI>Der Fokus wird auf Webseiten jetzt auch dann gemeldet, wenn ein neuer Fokus einen Element ersetzt, welches nicht mehr existiert. (<A HREF="https://github.com/nvaccess/nvda/issues/6606">#6606</A>, <A HREF="https://github.com/nvaccess/nvda/issues/8341">#8341</A>)
+<LI>Während der Navigation mit den Schnellnavigationstasten in Nachrichten im neuen Gmail, liest NVDA nun nicht mehr den ganzen Text der Nachricht vor, sobald man ein entsprechendes Element fokusiert. (<A HREF="https://github.com/nvaccess/nvda/issues/8887">#8887</A>)
+<LI>Browser wie Firefox und Google Chrome dürften nicht mehr abstürzen, nachdem NVDA aktualisiert wurde. Das Lesemodus müsste nun weiterhin Aktualisierungen in aktuell geladenen Dokumenten richtig reflektieren. (<A HREF="https://github.com/nvaccess/nvda/issues/7641">#7641</A>) 
 </UL>
 
 <H3>Änderungen für Entwickler</H3>
@@ -49,6 +62,7 @@
  <LI>Schauen Sie für weitere Informationen in den Implementierung von "gui.nvdaControls.ListCtrlAccPropServer" nach.
  </UL>
 <LI>Paket "configobj" auf 5.1.0dev Commit 5b5de48a aktualisiert. (<A HREF="https://github.com/nvaccess/nvda/issues/4470">#4470</A>)
+<LI>Die config.post_configProfileSwitch Aktion akzeptiert nun auch das optionale prevConf Schlagwort-Argument. Dies  erlaubt handlern vorzugreifen basierend auf Unterschiede zwischen Konfigurationen vor und nach dem Wechsel des Konfigurationsprofils. (<A HREF="https://github.com/nvaccess/nvda/issues/8758">#8758</A>)
 </UL>
 
 <H2>2018.3.2</H2>
