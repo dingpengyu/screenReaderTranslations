@@ -16,6 +16,10 @@
 
 <UL>
 <LI>Uusia pistetaulukoita: mandariinikiina (Kiina) tasot 1 ja 2. (<A HREF="https://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+<LI>Viestien vastattu/välitetty-tila ilmoitetaan nyt Microsoft Outlookin viestiluettelossa. (<A HREF="https://github.com/nvaccess/nvda/issues/6911">#6911</A>)
+<LI>NVDA voi nyt lukea emojien sekä muiden Unicode Common Locale Data -tietokantaan kuuluvien merkkien kuvaukset. (<A HREF="https://github.com/nvaccess/nvda/issues/6523">#6523</A>)
+<LI>Kohdistimen etäisyys sivun ylä- ja vasemmasta reunasta voidaan lukea Microsoft Wordissa painamalla NVDA+laskinnäppäimistön Del. (<A HREF="https://github.com/nvaccess/nvda/issues/1939">#1939</A>)
+<LI>NVDA ei enää ilmoita Google Sheetsissä jokaisen solun kohdalla "valittu" siirrettäessä kohdistusta niiden välillä pistenäyttötilan ollessa käytössä. (<A HREF="https://github.com/nvaccess/nvda/issues/8879">#8879</A>)
 </UL>
 
 <H3>Muutokset</H3>
@@ -25,6 +29,7 @@
 <LI>NVDA-toimintonäppäimiä käyttöön ottavat tai käytöstä poistavat valintaruudut  näytetään nyt näppäimistöasetuksissa erillisten sijaan luettelona.
 <LI>NVDA ei enää näytä tarpeetonta tietoa luettaessa kelloa ilmoitusalueelta joissakin Windows-versioissa. (<A HREF="https://github.com/nvaccess/nvda/issues/4364">#4364</A>)
 <LI>Päivitetty liblouis-pistekirjoituskääntäjä versioksi 3.7.0. (<A HREF="https://github.com/nvaccess/nvda/issues/8697">#8697</A>)
+<LI>Päivitetty eSpeak-NG muutoksella 919f3240cbb
 </UL>
 
 <H3>Korjatut ohjelmavirheet</H3>
@@ -33,7 +38,15 @@
 <LI>Viestien luokka ja lipun tila luetaan Outlook 2016:ssa/365:ssä. (<A HREF="https://github.com/nvaccess/nvda/issues/8603">#8603</A>)
 <LI>Kun NVDA:n kieleksi on asetettu esim. kirgiisi, mongoli tai makedonia, se ei näytä enää käynnistyessään valintaikkunaa, jossa varoitetaan, ettei käyttöjärjestelmä tue kyseistä kieltä. (<A HREF="https://github.com/nvaccess/nvda/issues/8064">#8064</A>)
 <LI>Hiiren siirtäminen navigointiobjektiin siirtää nyt hiiren paljon tarkemmin selaustilan sijaintiin Mozilla Firefoxissa, Google Chromessa ja Acrobat Reader DC:ssä. (<A HREF="https://github.com/nvaccess/nvda/issues/6460">#6460</A>)
-<LI>Vuorovaikutusta verkkosivuilla olevien yhdistelmäruutujen kanssa on paranneltu Firefoxissa, Chromessa ja Internet Explorerissa. (<A HREF="https://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+<LI>Vuorovaikutusta verkkosivuilla olevien yhdistelmäruutujen kanssa on parannettu Firefoxissa, Chromessa ja Internet Explorerissa. (<A HREF="https://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+<LI>Jos käytössä on Windows XP:n tai Vistan japaninkielinen versio, NVDA näyttää nyt odotetusti ilmoituksen käyttöjärjestelmävaatimuksista. (<A HREF="https://github.com/nvaccess/nvda/issues/8771">#8771</A>)
+<LI>Suorituskykyä parannettu Mozilla Firefoxissa selattaessa suuria sivuja, joilla on paljon dynaamisia muutoksia. (<A HREF="https://github.com/nvaccess/nvda/issues/8678">#8678</A>)
+<LI>Fontin määreitä ei enää näytetä pistenäytöllä, mikäli ne on poistettu käytöstä Dokumenttien muotoiluasetuksista. (<A HREF="https://github.com/nvaccess/nvda/issues/7615">#7615</A>)
+<LI>NVDA seuraa nyt kohdistusta asianmukaisesti Resurssienhallinnassa ja muissa UI Automation -rajapintaa käyttävissä sovelluksissa, kun jokin toinen sovellus on varattuna (esim. äänen eräajo). (<A HREF="https://github.com/nvaccess/nvda/issues/7345">#7345</A>)
+<LI>Esc-näppäin välitetään  nyt verkkosivujen ARIA-valikoissa oltaessa suoraan kyseiselle valikolle, eikä vuorovaikutustilaa poisteta käytöstä. (<A HREF="https://github.com/nvaccess/nvda/issues/3215">#3215</A>)
+<LI>NVDA ilmoittaa nyt asianmukaisesti kohdistuksen verkkosivuilla, joilla uusi kohdistus korvaa säätimen, jota ei enää ole. (<A HREF="https://github.com/nvaccess/nvda/issues/6606">#6606</A>, <A HREF="https://github.com/nvaccess/nvda/issues/8341">#8341</A>)
+<LI>Kun pikanavigointinäppäimiä käytetään uudessa Gmailissa viestejä luettaessa, koko viestin sisältöä ei enää lueta sen elementin jälkeen, johon siirryttiin. (<A HREF="https://github.com/nvaccess/nvda/issues/8887">#8887</A>)
+<LI>Kun NVDA on päivitetty, selaimien, kuten Firefox ja google Chrome, ei pitäisi enää kaatua, ja kaikkien sillä hetkellä ladattuina olevien sivujen päivitysten pitäisi edelleen näkyä selaustilassa. (<A HREF="https://github.com/nvaccess/nvda/issues/7641">#7641</A>) 
 </UL>
 
 <H3>Muutokset kehittäjille</H3>
