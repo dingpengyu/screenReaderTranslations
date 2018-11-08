@@ -16,6 +16,10 @@
 
 <UL>
 <LI>Các bản chữ nổi mới: Tiếng Trung Quốc (Đài Loan, Quan Thoại) cấp 1 và cấp 2. (<A HREF="https://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+<LI>Trạng thái trả lời (Replied) / chuyển tiếp (Forwarded) đã được thông báo trên các thư điện tử trong danh sách thư của Microsoft Outlook. (<A HREF="https://github.com/nvaccess/nvda/issues/6911">#6911</A>)
+<LI>NVDA giờ đây đã đọc được mô tả cho các biểu tượng cảm xúc và cả những kí tự là một phần của kho dữ liệu Unicode Common Locale Data Repository. (<A HREF="https://github.com/nvaccess/nvda/issues/6523">#6523</A>)
+<LI>Trong Microsoft Word, có thể đọc thông báo khoảng cách con trỏ từ cạnh trên và cạnh trái của trang bằng cách bấm NVDA+Delete bàn phím số. (<A HREF="https://github.com/nvaccess/nvda/issues/1939">#1939</A>)
+<LI>Trong Google Sheets với chế độ chữ nổi được bật, NVDA không còn thông báo 'đã chọn' ở mọi ô khi di chuyển con trỏ giữa các ô. (<A HREF="https://github.com/nvaccess/nvda/issues/8879">#8879</A>)
 </UL>
 
 <H3>Các thay đổi</H3>
@@ -25,15 +29,21 @@
 <LI>Trong cài đặt bàn phím của NVDA, các hộp kiểm để bật / tắt các phím bổ trợ NVDA giờ đây hiển thị thành một danh sách thay vì là các hộp kiểm riêng lẻ.
 <LI>NVDA sẽ không còn đọc các thông tin thừa  khi xem đồng hồ từ khay hệ thống trên vài phiên bản Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/4364">#4364</A>)
 <LI>Cập nhật thư viện phiên dịch chữ nổi liblouis lên phiên bản 3.7.0. (<A HREF="https://github.com/nvaccess/nvda/issues/8697">#8697</A>)
-</UL>
-
-<H3>Sửa lỗi</H3>
-
-<UL>
+<LI>Cập nhật eSpeak-NG lên bản commit 919f3240cbb
+<P></P>
+== Sửa lỗi ==
 <LI>Trong Outlook 2016/365, trạng thái phân loại và gắn cờ đã được đọc cho các thư. (<A HREF="https://github.com/nvaccess/nvda/issues/8603">#8603</A>)
 <LI>Khi ngôn ngữ được chọn cho NVDA là Kirgyz, Mongolian hay Macedonian chẳng hạn, không còn tình trạng hiển thị hộp thoại lúc khởi động cảnh báo ngôn ngữ không được hệ thống hỗ trợ. (<A HREF="https://github.com/nvaccess/nvda/issues/8064">#8064</A>)
 <LI>Việc di chuyển chuột đến đối tượng điều hướng giờ đây sẽ di chuyển chuột chính xác hơn đến vị trí chế độ duyệt trong Mozilla Firefox, Google Chrome và Acrobat Reader DC. (<A HREF="https://github.com/nvaccess/nvda/issues/6460">#6460</A>)
 <LI>Việc tương tác với các hộp xổ trên web trong Firefox, Chrome và Internet Explorer đã được cải thiện. (<A HREF="https://github.com/nvaccess/nvda/issues/8664">#8664</A>)
++- Nếu đang chạy trên một phiên bản Windows XP hay Vista tiếng Nhật , NVDA giờ đây đã hiển thị cảnh báo yêu cầu phiên bản hệ điều hành như mong muốn. (<A HREF="https://github.com/nvaccess/nvda/issues/8771">#8771</A>)
+<LI>Tăng khả năng vận hành trong Mozilla Firefox khi điều hướng trên các trang lớn với nhiều thay đổi động. (<A HREF="https://github.com/nvaccess/nvda/issues/8678">#8678</A>)
+<LI>Không còn tình trạng hiện thuộc tính phông trong chữ nổi nếu đã được tắt trong cài đặt định dạng tài liệu. (<A HREF="https://github.com/nvaccess/nvda/issues/7615">#7615</A>)
+<LI>NVDA không còn bị lỗi khi theo dõi con trỏ trong File Explorer và các ứng dụng khác đang dùng UI Automation khi một ứng dụng khác đang hoạt động (xử lý tập tin âm thanh hàng loạt chẳng hạn). (<A HREF="https://github.com/nvaccess/nvda/issues/7345">#7345</A>)
+<LI>Trong các trình đơn ARIA trên web, phím Escape giờ đây sẽ được chuyển đến trình đơn và không còn tình trạng tắt chế độ focus vô điều kiện. (<A HREF="https://github.com/nvaccess/nvda/issues/3215">#3215</A>)
+<LI>NVDA không còn từ chối thông báo con trỏ trên các trang web mà con trỏ thay thế cho một điều khiển không còn tồn tại. (<A HREF="https://github.com/nvaccess/nvda/issues/6606">#6606</A>, <A HREF="https://github.com/nvaccess/nvda/issues/8341">#8341</A>)
+<LI>Trong Gmail mới, nếu dùng các phím di chuyển nhanh trong các thư khi đọc chúng, toàn bộ phần nội dung thư không còn bị đọc lên sau thành phần mà bạn mới điều hướng đến. (<A HREF="https://github.com/nvaccess/nvda/issues/8887">#8887</A>)
+<LI>Sau khi cập nhật NVDA, các trình duyệt như Firefox và google Chrome sẽ không còn bị sự cố, và chế độ duyệt sẽ tiếp tục phản ánh một cách chính xác bất kì tài liệu nào đang được tải. (<A HREF="https://github.com/nvaccess/nvda/issues/7641">#7641</A>) 
 </UL>
 
 <H3>Các thay đổi cho nhà phát triển</H3>
