@@ -1058,7 +1058,7 @@ Nếu bạn thấy NVDA đọc dấu câu không đúng cho một ngôn ngữ v�
 
 ==== Phần trăm thay đổi độ cao cho==== Bao gồm dữ liệu của Unicode Consortium (cả biểu tượng cảm xúc) khi xử lý kí tự và kí hiệu ====[SpeechSettingsCLDR]
 Bật hộp kiểm này, NVDA sẽ bao gồm thêm các  từ điển phát âm kí hiệu khi phát âm kí tự và kí hiệu.
-Những từ điển này có mô tả cho các kí hiệu (đặc biệt là biểu tượng cảm xúc) được cung cấp bởi [Unicode Consortium http://www.unicode.org/consortium/] như một phần của [Common Locale Data Repository http://cldr.unicode.org/].
+Những từ điển này có mô tả cho các kí hiệu (đặc biệt là biểu tượng cảm xúc) được cung cấp bởi [Unicode Consortium http://www.unicode.org/consortium/] là một phần của kho dữ liệu tên [Common Locale Data Repository http://cldr.unicode.org/].
 Nếu muốn NVDA đọc mô tả kí tự của các biểu tượng cảm xúc dựa trên kho dữ liệu đó, bạn phải bật tùy chọn này.
 Tuy nhiên, nếu bạn đang dùng một bộ đọc có hỗ trợ mô tả các biểu tượng cảm xúc một cách tự nhiên, bạn có thể tắt tùy chọn này.
 
