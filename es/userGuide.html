@@ -2522,11 +2522,26 @@ Esta opción se aplica a todos los sintetizadores, no sólo al sintetizador acti
 </P>
 
 <A NAME="SpeechSettingsTrust"></A>
-<H5>Confiar en el idioma de la voz para procesar símbolos y caracteres</H5>
+<H5>Confiar en el idioma de la voz al procesar símbolos y caracteres</H5>
 
 <P>
 Activada de manera predeterminada, esta opción dice a NVDA si el idioma de la voz actual puede ser de confianza al procesar símbolos y caracteres.
 Si notas que NVDA está leyendo la puntuación en un idioma  incorrecto para un sintetizador o voz en particular, podrás querer desactivar esta opción para forzar a NVDA a utilizar su idioma global configurado en su lugar.
+</P>
+
+<A NAME="SpeechSettingsCLDR"></A>
+<H5>Incluir datos Unicode Consortium (incluyendo emoji) al procesar caracteres y símbolos</H5>
+
+<P>
+Cuando esta casilla de verificación esté activada, NVDA incluirá los diccionarios de pronunciación de símbolos adicional cuando pronuncie caracteres y símbolos.
+Estos diccionarios contienen descripciones para símbolos (en particular emoji) que se proporcionan por el <A HREF="http://www.unicode.org/consortium/">Unicode Consortium</A> como parte de su <A HREF="http://cldr.unicode.org/">Common Locale Data Repository</A>.
+Si quieres que NVDA verbalice descripciones de caracteres emoji basados en estos datos, deberías habilitar esta opción.
+Por lo tanto, si estás utilizando un sintetizador de voz que admita la verbalización de descripciones de emoji nativamente, deberías desactivar esto.
+</P>
+<P>
+Ten en cuenta que las descripciones de caracteres añadidas o editadas manualmente se guardan como parte de tus opciones de usuario.
+Por lo tanto, si cambias la descripción de un emoji en particular, tu descripción personalizada se verbalizará para ese emoji sin importar si esta opción está habilitada.
+Puedes añadir, editar o eliminar descripciones de símbolos en el <A HREF="#SymbolPronunciation">diálogo de pronunciación de puntuación y símbolos</A> de NVDA.
 </P>
 
 <A NAME="SpeechSettingsCapPitchChange"></A>
