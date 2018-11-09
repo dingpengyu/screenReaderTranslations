@@ -1879,11 +1879,11 @@ Những giọng đọc đó có thể được sử dụng với NVDA.
 - Microsoft Speech Platform - Runtime Languages (Version 11): https://www.microsoft.com/download/en/details.aspx?id=27224
  - Trang này bao gồm nhiều tập tin cho cả hai trình nhận dạng giọng nói và bộ đọc.
  Chọn tập tin có chứa dữ liệu cho ngôn ngữ của bạn.
-Ví dụ tập tin  MSSpeech_TTS_en-US_ZiraPro.msi là giọng cho tiếng anh mỹ.
+  Ví dụ tập tin  MSSpeech_TTS_en-US_ZiraPro.msi là giọng cho tiếng anh mỹ.
 -
 -
 
-++ Windows OneCore Voices ++[OneCore]
+++ Giọn Windows OneCore ++[OneCore]
 Windows 10 đi kèm với những giọng đọc mới được gọi là OneCore, hoặc còn gọi là "Mobil voices".
 Những giọng đọc mới này hỗ trợ cho khá nhiều ngôn ngữ khác nhau và có tính phản hồi nhanh hơn so với những giọng theo chuân SAPI-5.
 
