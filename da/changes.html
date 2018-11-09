@@ -12,12 +12,14 @@
 
 <H2>2018.4</H2>
 
-<P>
-?? Nye funktioner ??
-</P>
+<H3>Nye funktioner</H3>
 
 <UL>
 <LI>Nye punkttabeller: Kinesisk (Mandarin-kinesisk) niveau 1 og 2. (<A HREF="https://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+<LI>Status for besvarede/videresendte meddelelser rapporteres nu i meddelelseslisten i Microsoft Outlook. (<A HREF="https://github.com/nvaccess/nvda/issues/6911">#6911</A>)
+<LI>NVDA kan nu læse emoji såvel som andre tegn, der er en del af Unicode Common Locale Data Repository. (<A HREF="https://github.com/nvaccess/nvda/issues/6523">#6523</A>)
+<LI>Markørens position fra øverste og venstre kant på den aktuelle side kan nu blive oplyst ved at trykke NVDA+NumpadDelete i Microsoft Word. (<A HREF="https://github.com/nvaccess/nvda/issues/1939">#1939</A>)
+<LI>NVDA vil ikke længere rapportere "Valgt" i Google Sheets, når der bevæges rundt imellem celler, hvis punkttilstand er aktiv. (<A HREF="https://github.com/nvaccess/nvda/issues/8879">#8879</A>)
 </UL>
 
 <H3>Ændringer</H3>
@@ -27,6 +29,7 @@
 <LI>Check boxe til at slå NVDA-funktionstasten til og fra i NVDAs tastaturindstillinger er nu i en liste, i stedet for at vise som særskilte check boxe.
 <LI>NVDA vil ikke længere vise overflødige informationer om uret, når dette læses fra systembakken i nogle versioner af Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/4364">#4364</A>)
 <LI>Opdaterede LibLouis punktoversætter til version 3.7.0. (<A HREF="https://github.com/nvaccess/nvda/issues/8697">#8697</A>)
+<LI>Opdaterede eSpeak-NG til commit 919f3240cbb
 </UL>
 
 <H3>Fejlrettelser</H3>
@@ -36,6 +39,14 @@
 <LI>Når NVDA er indstillet til sprog som kirgisisk, mongolsk eller makedonsk, vil NVDA ikke længere meddele at sproget ikke er understøttet af operativsystemet ved opstart. (<A HREF="https://github.com/nvaccess/nvda/issues/8603">#8603</A>)
 <LI>Flytning af musen til navigatorobjektet vil nu meget mere nøjagtigt flytte musen til positionen i gennemsynstilstand, når du benytter Mozilla Firefox, Google Chrome og Acrobat Reader DC. (<A HREF="https://github.com/nvaccess/nvda/issues/6460">#6460</A>)
 <LI>Interaktion med combo boxe på internettet med Firefox, Chrome og Internet Explorer er blevet forbedret. (<A HREF="https://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+<LI>Hvis NVDA køres på en japansk version af Windows XP og Vista, vil beskeden om krævet operativsystem blive vist som forventet. (<A HREF="https://github.com/nvaccess/nvda/issues/8771">#8771</A>)
+<LI>Forbedring af ydeevne, når der navigeres rundt på store sider med mange dynamiske ændringer i Mozilla Firefox. (<A HREF="https://github.com/nvaccess/nvda/issues/8678">#8678</A>)
+<LI>Punktskrift viser ikke længere skrifttypeegenskaber, hvis skrifttypeattributterne er slået fra i dokumentformateringsindstillinger. (<A HREF="https://github.com/nvaccess/nvda/issues/7615">#7615</A>)
+<LI>NVDA vil ikke længere have problemer med at følge fokus i File Explorer og andre applikationer, der benytter UI Automation, når et andet program er optaget (f.eks. når der behandles flere lydfiler i et lydredigeringsprogram). (<A HREF="https://github.com/nvaccess/nvda/issues/7345">#7345</A>)
+<LI>ESC-tasten i ARIA-menuer på internettet vil ikke længere deaktivere fokustilstand ubetinget, men vil i stedet blive videresendt til menuen. (<A HREF="https://github.com/nvaccess/nvda/issues/3215">#3215</A>)
+<LI>NVDA vil ikke længere være ude af stand til at rapportere fokus på websider, hvor det nye fokus erstatter en kontrol der ikke længere findes. (<A HREF="https://github.com/nvaccess/nvda/issues/6606">#6606</A>, <A HREF="https://github.com/nvaccess/nvda/issues/8341">#8341</A>)
+<LI>Hele beskedindholdet vil ikke længere blive oplyst, når du benytter bogstavnavigation til at navigere til et element i den nye Gmail. (<A HREF="https://github.com/nvaccess/nvda/issues/8887">#8887</A>)
+<LI>Efter opdatering af NVDA, skulle browsere som Google Chrome og Firefox ikke længere gå ned, og gennemsynstilstand skulle fortsat gengive alt opdateret indhold i de aktuelt indlæste dokumenter. (<A HREF="https://github.com/nvaccess/nvda/issues/7641">#7641</A>)
 </UL>
 
 <H3>Ændringer for udviklere</H3>
