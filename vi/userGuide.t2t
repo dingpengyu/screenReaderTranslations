@@ -2538,6 +2538,7 @@ Vui lòng xem tài liệu hướng dẫn mô tả các phím để biết vị t
 | Bật/tắt chế độ trợ giúp nhập | space+dot2+dot3+dot6 (space+lower h) |
 
 Sau đây là các phím được gán cho BrailleNote QT khi không ở trong chế độ nhập liệu chữ nổi.
+
 || Tên | Phím |
 | Thực đơn NvDA | read+n |
 | Phím mũi tên lên | upArrow |
@@ -2606,7 +2607,7 @@ Vui lòng xem [Tài Liệu của EcoBraille ftp://ftp.once.es/pub/utt/bibliotecn
 | Bật/tắt con trỏ nổi đi theo | A |
 %kc:endInclude
 
-++ SuperBraille ++
+++ SuperBraille ++[SuperBraille]
 Màn hình chữ nổi SuperBraille được sử dụng phổ biến ở Đài Loan, có thể kết nối qua cổng USB và Serial.
 Màn hình SuperBraille không có bàn phím nhập liệu và nút cuộn. Vì vậy, các thao tác cho những chức năng tương tự đều được thực hiện với bàn phím máy tính.
 Để giải quyết vấn đề này, sau đây là 2 tổ hợp phím được định nghĩa cho chức năng cuộn của SuperBraille:
@@ -2713,7 +2714,6 @@ BRLTYY không liên quan đến việc hỗ trợ tính năng  ngầm tự nhậ
 
 Sau đây là các lệnh của BRLTTY được gán cho NVDA.
 Vui lòng xem [Danh sách phím tắt BRLTTY https://mielke.cc/brltty/doc/KeyBindings/] để biết thêm thông tin về cách thức các lệnh của BRLTTY kết hợp với các điều khiển trên màn hình nổi.
-
 %kc:beginInclude
 || Tên | Lệnh BRLTTY |
 | Cuộn về trước | fwinlt (về trái một cửa sổ) |
