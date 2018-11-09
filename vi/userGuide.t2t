@@ -1267,7 +1267,7 @@ Phân loại bàn phím  trong hộp thoại cấu hình NVDA có các tùy ch�
 Phân loại này có các tùy chọn sau:
 
 ==== Kiểu bàn phím ====[KeyboardSettingsLayout]
-Hộp xổ này cho phép bạn chọn kiểu bàn phím đẻ dùng với NVDA. Hiện tại có hai kiểu bàn phím là Desktop và Laptop.
+Hộp xổ này cho phép bạn chọn kiểu bàn phím đẻ dùng với NVDA. Hiện tại, có hai kiểu bàn phím là Desktop và Laptop.
 
 ==== Chọn các phím bổ trợ NVDA ====[KeyboardSettingsModifiers]
 Các hộp kiểm trong danh sách này điều khiển việc có thể dùng phím nào làm [phím bổ trợ NVDA #TheNVDAModifierKey]. Chọn trong các phím sau đây:
@@ -1284,7 +1284,7 @@ Sau khi bỏ qua bảng báo lỗi, bạn phải chọn ít nhất một phím l
 ==== Đọc ký tự khi gõ ====[KeyboardSettingsSpeakTypedCharacters]
 Phím bật/tắt: NVDA+2
 
-	Khi được chọn, NVDA sẽ đọc mỗi ký tự  sau khi bạn gõ vào từ bàn phím.
+Khi được chọn, NVDA sẽ đọc mỗi ký tự  sau khi bạn gõ vào từ bàn phím.
 
 %kc:setting
 ==== Đọc từ khi gõ ====[KeyboardSettingsSpeakTypedWords]
@@ -1316,7 +1316,7 @@ Nếu được chọn thì NVDA sẽ thông báo tất cả các phím lệnh (k
 Nếu bật, một âm thanh ngắn sẽ được phát khi từ bạn gõ có lỗi chính tả.
 Tùy chọn này chỉ hoạt động khi tùy chọn thông báo lỗi chính tả được bật trong phân loại  [định dạng tài liệu #DocumentFormattingSettings], được tìm thấy trong hộp thoại cấu hình NVDA.
 
-==== Quản 	lý phím từ ứng dụng khác ====[KeyboardSettingsHandleKeys]
+==== Quản lý phím từ ứng dụng khác ====[KeyboardSettingsHandleKeys]
 Tùy chọn này điều khiển việc nhập dữ liệu từ các ứng dụng như màn hình cảm ứng hay phần mềm nhận dạng tiếng nói. 
 Nó được bật mặc định. Do vậy, với những người dùng không muốn sử dụng chức năng này thì nên tắt chức năng này đi, ví dụ với người dùng ở Việt Nam cần tắt tùy chọn này để gõ được tiếng việt tốt với phần mềm UniKey.
 
