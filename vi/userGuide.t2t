@@ -2048,10 +2048,8 @@ Sau đây là danh sách các phím được gán của mẫu màn hình nổi n
 Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết các phím tương ứng.
 %kc:beginInclude
 || Tên | Phím |
-| Cuộn về trước | left, up |
-| Cuộn tới | right, down |
-| Cuộn màn hình lên | left, up, b3 |
-| Cuộn màn hình xuống | right, down, b6 |
+| Cuộn về trước | left, up, b3 |
+| Cuộn tới | right, down, b6 |
 | Chuyển về dòng trước | b4 |
 | Chuyển đến dòng kế | b5 |
 | Rút về ô chữ nổi | routing |
