@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 00:10+1000\n"
-"PO-Revision-Date: 2018-11-09 14:29+0800\n"
+"PO-Revision-Date: 2018-11-09 18:02+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers < Copyright (C) "
 "2010-2018>\n"
@@ -6757,7 +6757,7 @@ msgstr "编辑配置 {profile}"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "replied"
-msgstr "回复"
+msgstr "已回复"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "REPLIED ALL"
@@ -6765,7 +6765,7 @@ msgstr "全部回复"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "forwarded"
-msgstr "转发"
+msgstr "已转发"
 
 #. Translators: for a high importance email
 msgid "high importance"
@@ -10539,12 +10539,12 @@ msgstr "{revisionType} {description}: {text} by {author} on {date}"
 #. Translators: a distance from the left edge of the page in Microsoft Word
 #, python-brace-format
 msgid "{distance} from left edge of page"
-msgstr "word页面的左间距{distance}"
+msgstr "{distance}距页面左端"
 
 #. Translators: a distance from the left edge of the page in Microsoft Word
 #, python-brace-format
 msgid "{distance} from top edge of page"
-msgstr "word页面的上间距{distance}"
+msgstr "{distance}距页面顶端"
 
 #. Translators: single line spacing
 msgctxt "line spacing value"
