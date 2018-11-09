@@ -1,4 +1,2 @@
 # Structural comparison of vi/userGuide.t2t against vi/userGuide-newRevisions/15408/userGuide.t2t
-en 14.9.2. start:2202 paragraphs:0, tables:1, lists:0
-vi 14.9.2. start:2202 paragraphs:1, tables:1, lists:0
-# end of comparison
+# files have identical structure
