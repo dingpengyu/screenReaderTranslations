@@ -1267,7 +1267,7 @@ Phân loại bàn phím  trong hộp thoại cấu hình NVDA có các tùy ch�
 Phân loại này có các tùy chọn sau:
 
 ==== Kiểu bàn phím ====[KeyboardSettingsLayout]
-bạn có thể chọn kiểu bàn phím là desktop hoặc Laptop. ưu điểm của sử dụng kiểu bàn phím desktop là có thể sử dụng các phím số bên bàn phím số để duyệt nội dung.
+Hộp xổ này cho phép bạn chọn kiểu bàn phím đẻ dùng với NVDA. Hiện tại có hai kiểu bàn phím là Desktop và Laptop.
 
 ==== Chọn các phím bổ trợ NVDA ====[KeyboardSettingsModifiers]
 Các hộp kiểm trong danh sách này điều khiển việc có thể dùng phím nào làm [phím bổ trợ NVDA #TheNVDAModifierKey]. Chọn trong các phím sau đây:
