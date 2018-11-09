@@ -16,6 +16,10 @@
 
 <UL>
 <LI>Novas táboas braille: Chinés (China, Mandarín) grao 1 e grao 2. (<A HREF="https://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+<LI>Agora anúncianse os estados Respostado / Transmitido en elementos de correo na listaxe de mensaxes de Microsoft Outlook. (<A HREF="https://github.com/nvaccess/nvda/issues/6911">#6911</A>)
+<LI>O NVDA agora pode ler descripcións para emoji así coma outros caracteres que son parte do repositorio Unicode Common Locale Data. (<A HREF="https://github.com/nvaccess/nvda/issues/6523">#6523</A>)
+<LI>En Microsoft Word, a distancia do cursor dende as marxes superior e esquerda da páxina poden anunciarse  premendo NVDA+suprimir do teclado numérico. (<A HREF="https://github.com/nvaccess/nvda/issues/1939">#1939</A>)
+<LI>En Google Sheets co modo braille habilitado, o NVDA xa non anuncia 'selecionado' en cada celda ao mover o foco entre elas. (<A HREF="https://github.com/nvaccess/nvda/issues/8879">#8879</A>)
 </UL>
 
 <H3>Cambios</H3>
@@ -25,6 +29,7 @@
 <LI>Nas opcións de teclado do NVDA, as caixas de verificación para activar ou desactivar as teclas modificadoras do NVDA agora amósanse nunha listaxe en lugar de en caixas de verificación separadas.
 <LI>O NVDA xa non presenta información redundante ao ler o reloxo da bandexa do sistema nalgunhas versións de Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/4364">#4364</A>)
 <LI>Actualizado o transcriptor braille liblouis á versión 3.7.0. (<A HREF="https://github.com/nvaccess/nvda/issues/8697">#8697</A>)
+<LI>Actualizado eSpeak-NG a commit 919f3240cbb
 </UL>
 
 <H3>Coreción de Erros</H3>
@@ -34,6 +39,14 @@
 <LI>Cando o NVDA se configure para idiomas coma Kirgyz, Mongol ou Macedonio, xa non amosa un diálogo nun aviso ao arrancar que a lingua non se admite polo sistema operativo. (<A HREF="https://github.com/nvaccess/nvda/issues/8064">#8064</A>)
 <LI>Ao mover o rato ao navegador de obxectos agora será moito máis preciso mover o rato á posición dol modo exploración en Mozilla Firefox, Google Chrome e Acrobat Reader DC. (<A HREF="https://github.com/nvaccess/nvda/issues/6460">#6460</A>)
 <LI>Mellorouse interactuar coas caixas combinadas na web en Firefox, Chrome e Internet Explorer. (<A HREF="https://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+<LI>Se se executa na versión xaponesa de Windows XP ou Vista, o NVDA agora amosa a alerta dos requisitos da versión do Sistema Operativo segundo se esperaba. (<A HREF="https://github.com/nvaccess/nvda/issues/8771">#8771</A>)
+<LI>Auméntase o rendemento en Mozilla Firefox ao se navegar por páxinas longas con moitos cambios dinámicos. (<A HREF="https://github.com/nvaccess/nvda/issues/8678">#8678</A>)
+<LI>O braille xa non amosa atributos de fonte se se deshabilitaron nas opcións Formateado de documento. (<A HREF="https://github.com/nvaccess/nvda/issues/7615">#7615</A>)
+<LI>O NVDA xa non falla ao seguir ao foco no Explorador de Arquivos e outras aplicacións que usen UI Automation cando outra aplicación estea ocupada (coma o procesamento por lotes do audio). (<A HREF="https://github.com/nvaccess/nvda/issues/7345">#7345</A>)
+<LI>Nos menús ARIA na web, a tecla Escape agora pasarase a través do menú e xa non desactivará o modo foco incondicionalmente. (<A HREF="https://github.com/nvaccess/nvda/issues/3215">#3215</A>)
+<LI>O NVDA xa non rexeita anunciar o foco en páxinas web onde o foco novo reemprace un control que xa non exista. (<A HREF="https://github.com/nvaccess/nvda/issues/6606">#6606</A>, <A HREF="https://github.com/nvaccess/nvda/issues/8341">#8341</A>)
+<LI>No novo Gmail, ao se usar a navegación rápida dentro de mensaxes mentres se len, xa non se anuncia todo o corpo da mensaxe despois do elemento ao que rematas de navegar. (<A HREF="https://github.com/nvaccess/nvda/issues/8887">#8887</A>)
+<LI>Despois de actualizar o NVDA, navegadores como Firefox e google Chrome xa non deberían romperse, e o modo exploración debería seguir reflectindo correctamente as actualizacións de calquera documento cargado actualmente. (<A HREF="https://github.com/nvaccess/nvda/issues/7641">#7641</A>) 
 </UL>
 
 <H3>Cambios para Desenvolvedores</H3>
@@ -48,6 +61,8 @@
  <UL>
  <LI>Consulta a implementación de gui.nvdaControls.ListCtrlAccPropServer para máis información.
  </UL>
+<LI>Actualizado configobj a 5.1.0dev commit 5b5de48a. (<A HREF="https://github.com/nvaccess/nvda/issues/4470">#4470</A>)
+<LI>A acción config.post_configProfileSwitch agora toma o argumento opcional prevConf keyword, permitiendo aos manexadores tomar unha acción baseada en diferencias entre a configuración antes e despois do cambio de perfil. (<A HREF="https://github.com/nvaccess/nvda/issues/8758">#8758</A>)
 </UL>
 
 <H2>2018.3.2</H2>
