@@ -2149,6 +2149,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 ++ hedo MobilLine USB ++[HedoMobilLine]
 NVDA hỗ trợ mẫu hedo MobilLine USB của [hedo Reha-Technik https://www.hedo.de/].
 Trước tiên, bạn cần phải cài driver được cung cấp của nhà sản xuất.
+
 Màn hình này không hỗ trợ tính năng ngầm tự nhận biết của NVDA.
 
 Sau đây là danh sách các phím được gán của mẫu màn hình nổi này trong NVDA.
@@ -2316,9 +2317,10 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 Hiện đã hỗ trợ các màn hình nổi sau: 
 - BRAILLEX EL 40c, EL 80c, EL 20c, EL 60c (USB)
 - BRAILLEX EL 40s, EL 80s, EL 2d80s, EL 70s, EL 66s (USB)
-- BRAILLEX Trio (USB and bluetooth)
+- BRAILLEX Trio (USB và bluetooth)
 - BRAILLEX Live 20, BRAILLEX Live and BRAILLEX Live Plus (USB và bluetooth)
 -
+
 Các màn hình này không hỗ trợ tính năng ngầm tự nhận biết của NVDA.
 
 Nếu BrxCom được cài, NVDA sẽ sử dụng BrxCom.
