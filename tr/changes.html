@@ -16,6 +16,10 @@
 
 <UL>
 <LI>New braille tables: Chinese (China, Mandarin) grade 1 and grade 2. (<A HREF="https://github.com/nvaccess/nvda/issues/5553">#5553</A>)
+<LI>Replied / Forwarded status is now reported on mail items in the Microsoft Outlook message list. (<A HREF="https://github.com/nvaccess/nvda/issues/6911">#6911</A>)
+<LI>NVDA is now able to read descriptions for emoji as well as other characters that are part of the Unicode Common Locale Data Repository. (<A HREF="https://github.com/nvaccess/nvda/issues/6523">#6523</A>)
+<LI>In Microsoft Word, the cursor's distance from the top and left edges of the page can be reported by pressing NVDA+numpadDelete. (<A HREF="https://github.com/nvaccess/nvda/issues/1939">#1939</A>)
+<LI>In Google Sheets with braille mode enabled, NVDA no longer announces 'selected' on every cell when moving focus between cells. (<A HREF="https://github.com/nvaccess/nvda/issues/8879">#8879</A>)
 </UL>
 
 <H3>Changes</H3>
@@ -25,15 +29,21 @@
 <LI>IN NVDA's keyboard settings, the checkboxes to enable or disable NVDA modifier keys are now displayed in a list rather than as separate checkboxes.
 <LI>NVDA will no longer present redundant information when reading clock system tray on some versions of Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/4364">#4364</A>)
 <LI>Updated liblouis braille translator to version 3.7.0. (<A HREF="https://github.com/nvaccess/nvda/issues/8697">#8697</A>)
-</UL>
-
-<H3>Bug Fixes</H3>
-
-<UL>
+<LI>Updated eSpeak-NG to commit 919f3240cbb
+<P></P>
+== Bug Fixes ==
 <LI>In Outlook 2016/365, the category and flag status are reported for messages. (<A HREF="https://github.com/nvaccess/nvda/issues/8603">#8603</A>)
 <LI>When NVDA is set to languages such as Kirgyz, Mongolian or Macedonian, it no longer shows a dialog on start-up warning that the language is not supported by the Operating System. (<A HREF="https://github.com/nvaccess/nvda/issues/8064">#8064</A>)
 <LI>Moving the mouse to the navigator object will now much more accurately move the mouse to the browse mode position in Mozilla Firefox, Google Chrome and Acrobat Reader DC. (<A HREF="https://github.com/nvaccess/nvda/issues/6460">#6460</A>)
 <LI>Interacting with combo boxes on the web in Firefox, Chrome and Internet Explorer has been improved. (<A HREF="https://github.com/nvaccess/nvda/issues/8664">#8664</A>)
+<LI>If running on the Japanese version of Windows XP or Vista, NVDA now displays the alert of OS version requirements as expected. (<A HREF="https://github.com/nvaccess/nvda/issues/8771">#8771</A>)
+<LI>Performance increases in Mozilla Firefox when navigating large pages with lots of dynamic changes. (<A HREF="https://github.com/nvaccess/nvda/issues/8678">#8678</A>)
+<LI>Braille no longer shows font attributes  if they have been disabled in  Document Formatting settings. (<A HREF="https://github.com/nvaccess/nvda/issues/7615">#7615</A>)
+<LI>NVDA no longer fails to track focus in File Explorer and other applications using UI Automation when another app is busy (such as batch processing audio). (<A HREF="https://github.com/nvaccess/nvda/issues/7345">#7345</A>)
+<LI>In ARIA menus on the web, the Escape key will now be passed through to the menu and no longer turn off focus mode unconditionally. (<A HREF="https://github.com/nvaccess/nvda/issues/3215">#3215</A>)
+<LI>NVDA no longer refuses to report the focus on web pages where the new focus replaces a control that no longer exists. (<A HREF="https://github.com/nvaccess/nvda/issues/6606">#6606</A>, <A HREF="https://github.com/nvaccess/nvda/issues/8341">#8341</A>)
+<LI>In the new Gmail, when using quick navigation inside messages while reading them, the entire body of the message is no longer reported after the element to which you just navigated. (<A HREF="https://github.com/nvaccess/nvda/issues/8887">#8887</A>)
+<LI>After updating NVDA, Browsers such as Firefox and google Chrome should no longer crash, and browse mode should continue to correctly reflect updates to any currently loaded documents. (<A HREF="https://github.com/nvaccess/nvda/issues/7641">#7641</A>) 
 </UL>
 
 <H3>Changes for Developers</H3>
@@ -49,6 +59,7 @@
  <LI>See the implementation of gui.nvdaControls.ListCtrlAccPropServer for more info.
  </UL>
 <LI>Updated configobj to 5.1.0dev commit 5b5de48a. (<A HREF="https://github.com/nvaccess/nvda/issues/4470">#4470</A>)
+<LI>The config.post_configProfileSwitch action now takes the optional prevConf keyword argument, allowing handlers to take action based on differences between configuration before and after the profile switch. (<A HREF="https://github.com/nvaccess/nvda/issues/8758">#8758</A>)
 </UL>
 
 <H2>2018.3.2</H2>
