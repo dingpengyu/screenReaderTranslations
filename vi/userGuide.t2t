@@ -360,7 +360,7 @@ Sử dụng các phím tắt sau để duyệt qua các đối tượng:
 |Thông báo vị trí con trỏ duyệt | NVDA+delete bàn phím số | NVDA+delete | không có | Thông báo vị trí của nội dung hoặc đối tượng tại con trỏ duyệt. Ví dụ theo thông tin được cung cấp như tỷ lệ phần trăm của màn hình, khoảng cách đến các mép của trang hoặc tỉ lệ theo độ phân giải màn hình. Bấm nhanh hai lần để được cung cấp  thêm thông tin nếu có. |
 %kc:endInclude
 
-Chú ý: Bạn cần tắt phím NumLock để sử dụng các phím số bên bàn phím số cho kiểu bàn phím desktop.
+Chú ý: Bạn cần tắt phím NumLock để sử dụng các phím bên bàn phím số cho kiểu bàn phím desktop.
 
 ++ Duyệt nội dung ++[ReviewingText]
 NVDA cho phép bạn duyệt nội dung của   [màn hình #ScreenReview], [tài liệu #DocumentReview] hoặc [đối tượng hiện tại #ObjectReview] theo từng ký tự, từng từ hoặc từng dòng.
