@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 00:10+1000\n"
-"PO-Revision-Date: 2018-11-06 10:22+0000\n"
+"PO-Revision-Date: 2018-11-09 10:10+0000\n"
 "Last-Translator: Osman H Baiia <othman82@hotmail.com>\n"
 "Language-Team: \n"
 "Language: so\n"
@@ -2237,11 +2237,11 @@ msgstr "bogga hantida"
 
 #. Translators: Identifies a canvas element on webpages (a box with some background color with some text drawn on the box, like a canvas).
 msgid "canvas"
-msgstr "Guddiga Rinjiga"
+msgstr "Qayb ka tarjumaysa sawirada dhijitaalka internetka"
 
 #. Translators: Identifies a caption (usually a short text identifying a picture or a graphic on websites).
 msgid "caption"
-msgstr "quoris"
+msgstr "magacaabista"
 
 #. Translators: Identifies a check menu item (a menu item with a checkmark as part of the menu item's name).
 msgid "check menu item"
@@ -2327,11 +2327,11 @@ msgstr "barda isbedel"
 
 #. Translators: Identifies a terminal window such as command prompt.
 msgid "terminal"
-msgstr "qalabka wax soo saarka"
+msgstr "laanta"
 
 #. Translators: Identifies a rich edit box (an edit box which allows entering formatting commands in addition to text; encountered on webpages and NvDA log viewer).
 msgid "rich edit"
-msgstr "gelitaanka qoraalka"
+msgstr "gelitaanka qoraalka u weyn"
 
 #. Translators: Identifies a ruler object (commonly seen on some webpages and in some Office programs).
 msgid "ruler"
@@ -2339,7 +2339,7 @@ msgstr "taliyayaal"
 
 #. Translators: Identifies a scroll pane.
 msgid "scroll pane"
-msgstr "wareegga xawaaraha"
+msgstr "liiska far saar"
 
 #. Translators: Identifies a section of text.
 msgid "section"
@@ -2351,34 +2351,34 @@ msgstr "qaab"
 
 #. Translators: Identifies a split pane.
 msgid "split pane"
-msgstr "kala qaybsanaan xawaaraha"
+msgstr "kala qaybsanaan liiska"
 
 #. Translators: Reported for a view port; i.e. an object usually used in a scroll pane
 #. which represents the portion of the entire data that the user can see.
 #. As the user manipulates the scroll bars, the contents of the view port can change.
 msgid "view port"
-msgstr ""
+msgstr "Soo bandhiga Agaasimaha"
 
 #. Translators: Reported for an object that forms part of a menu system
 #. but which can be undocked from or torn off the menu system
 #. to exist as a separate window.
 msgid "tear off menu"
-msgstr "jeex menyu"
+msgstr "xulashada menyu"
 
 #. Translators: Identifies a text frame (a frame window which contains text).
 msgid "text frame"
-msgstr "qaab qoraal ah"
+msgstr "Dhismaha qoraalka"
 
 #. Translators: Identifies a toggle button (a button used to toggle something).
 msgid "toggle button"
-msgstr "isbedel badhan"
+msgstr "Bedel badhanka"
 
 msgid "border"
 msgstr "xadka"
 
 #. Translators: Identifies a caret object.
 msgid "caret"
-msgstr "tuugada"
+msgstr "us"
 
 #. Translators: Identifies a character field (should not be confused with edit fields).
 msgid "character"
@@ -2386,7 +2386,7 @@ msgstr "xaraf"
 
 #. Translators: Identifies a chart (commonly seen on some websites and in some Office documents).
 msgid "chart"
-msgstr "shaxanka"
+msgstr "Sawir Khariidadahayga"
 
 #. Translators: Identifies a cursor object.
 msgid "cursor"
@@ -2467,7 +2467,7 @@ msgstr "shaashada hore xawaaraha"
 
 #. Translators: Identifies an option pane.
 msgid "option pane"
-msgstr ""
+msgstr "liiska doorasho"
 
 #. Translators: Identifies a color chooser.
 msgid "color chooser"
@@ -2550,72 +2550,72 @@ msgstr "khad isku xire"
 
 #. Translators: Identifies a data grid control (a grid which displays data).
 msgid "data grid"
-msgstr ""
+msgstr "cajalad xogta"
 
 msgid "data item"
-msgstr ""
+msgstr "shayga xogta"
 
 msgid "header item"
-msgstr ""
+msgstr "Madaxa mawduuca"
 
 #. Translators: Identifies a thumb control (a button-like control for changing options).
 msgid "thumb control"
-msgstr ""
+msgstr "xakamaynta suulka"
 
 msgid "calendar"
-msgstr ""
+msgstr "taqwiimka"
 
 msgid "video"
-msgstr ""
+msgstr "fiidyo"
 
 msgid "audio"
-msgstr ""
+msgstr "maqalka"
 
 #. Translators: Identifies a chart element.
 msgid "chart element"
-msgstr ""
+msgstr "jaantuska qoraalka"
 
 #. Translators: Identifies deleted content.
 #. Translators: Reported when text is marked as having been deleted
 msgid "deleted"
-msgstr ""
+msgstr "tirtiray"
 
 #. Translators: Identifies inserted content.
 #. Translators: Reported when text is marked as having been inserted
 msgid "inserted"
-msgstr ""
+msgstr "galiyay"
 
 #. Translators: This is presented when a control or document is unavailable.
 msgid "unavailable"
-msgstr ""
+msgstr "aan jirin"
 
 #. Translators: This is presented when a control has focus.
 msgid "focused"
-msgstr ""
+msgstr "diiradda saarey"
 
 #. Translators: This is presented when the control is selected.
 msgid "selected"
-msgstr ""
+msgstr "la doortay"
 
 #. Translators: This is presented when a document is busy.
 msgid "busy"
-msgstr ""
+msgstr "mashquul"
 
 #. Translators: This is presented when a button is pressed.
 msgid "pressed"
-msgstr ""
+msgstr "cadaadiyey"
 
 #. Translators: This is presented when a check box is checked.
 msgid "checked"
-msgstr ""
+msgstr "la hubiyey"
 
 #. Translators: This is presented when a three state check box is half checked.
 msgid "half checked"
-msgstr ""
+msgstr "kala badh la hubiyey"
 
 #. Translators: This is presented when the control is a read-only control such as read-only edit box.
 msgid "read only"
-msgstr ""
+msgstr "akhri oo kaliya"
 
 #. Translators: This is presented when a tree view or submenu item is expanded.
 msgid "expanded"
