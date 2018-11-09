@@ -2524,11 +2524,26 @@ Bu ayardan sadece halihazırda kullanılan sentezleyici değil; tüm sentezleyic
 </P>
 
 <A NAME="SpeechSettingsTrust"></A>
-<H5>İşaret ve karakterleri işlerken seçili sesin diline bak</H5>
+<H5>Karakter ve sembolleri işlerken sentezleyici ve sesin dilini dikkate al</H5>
 
 <P>
-Bu seçenek varsayılan olarak etkindir ve NVDA'ya işaret ve karakterler seslendirilirken seçili sesin dilinin dikkate alınıp alınmayacağını söyler.
-Eğer NVDA'nın noktalama işaretlerini herhangi bir sentezleyici ya da ses için yanlış dilde seslendirdiğini fark ederseniz, bu seçeneği NVDA global ayarlarının kullanılmasını sağlamak için kapatabilirsiniz.
+Bu seçenek varsayılan olarak etkindir ve NVDA'ya karakter ve semboller seslendirilirken seçili sesin dilinin dikkate alınıp alınmayacağını söyler.
+NVDA'nın noktalama işaretlerini herhangi bir sentezleyici ya da ses için yanlış dilde seslendirdiğini fark ederseniz, bu seçeneği NVDA global ayarlarının kullanılmasını sağlamak için kapatabilirsiniz.
+</P>
+
+<A NAME="SpeechSettingsCLDR"></A>
+<H5>Karakter ve sembooleri işlerken (emoji dahil) Unicode Konsorsiyumu verisini dahil et</H5>
+
+<P>
+Bu onay kutusu etkinleştirildiğinde, NVDA karakter ve sembolleri tellaffuz ederken  ek  telaffuz sözlüklerini kullanır.
+Bu sözlükler çeşitli sembollerin telaffuzunu içerir  (özellikle emoji) ve <A HREF="http://www.unicode.org/consortium/">Unicode Consortium</A> tarafından <A HREF="http://cldr.unicode.org/">Ortak Yerel Veri Deposu</A> içinde sağlanırlar.
+Emojilerin bu verilere dayanılarak seslendirilmesini istiyorsanız bu onay kutusunu işaretleyin.
+Ancak, emojilerin kullandığınız sentezleyici tarafından seslendirilmesini istiyorsanız bu onay kutusunu işaretlememelisiniz.
+</P>
+<P>
+Öte yandan, elle eklediğiniz ya da düzenlediğiniz karakter tanımları kullanıcı ayarlarınızın bir bölümü olarak kaydedilir.
+Dolayısıyla, bir emojinin okunuşunu değiştirdiğinizde, bu onay kutusu işaretli olsun olmasın, emoji yaptığınız değişiklik doğrultusunda telaffuz edilecektir.
+NVDA'nın <A HREF="#SymbolPronunciation">noktalama/imla sözlüğü iletişim kutusundan</A> karakter okunuşlarını ekleyebilir, düzenleyebilir ya da silebilirsiniz.
 </P>
 
 <A NAME="SpeechSettingsCapPitchChange"></A>
