@@ -2205,7 +2205,7 @@ Vui lòng xem tài liệu hướng dẫn của màn hình nổi để biết cá
 | Thực đơn NVDA | c1+c3+c4+c5 (command n) |
 | Phím windows+d (thu nhỏ toàn bộ ứng dụng ) | c1+c4+c5 (command d) |
  | Đọc tất cả | c1+c2+c3+c4+c5+c6 |
- %kc:endInclude
+%kc:endInclude
  
 +++ Phím gán cho Brailliant BI 14 +++ 
 %kc:beginInclude
