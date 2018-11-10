@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-11 03:13+1000\n"
-"PO-Revision-Date: 2018-11-10 17:35+0800\n"
+"PO-Revision-Date: 2018-11-11 07:32+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"BluetoothAudio\"]]\n"
-msgstr "[[!meta title=\"NVDA蓝牙插件\"]]\n"
+msgstr "[[!meta title=\"NVDA蓝牙音频插件\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Tony Malykh"
@@ -33,20 +33,9 @@ msgstr "下载 [稳定版][1]"
 msgid ""
 "Bluetooth Audio is an NVDA add-on that improves sound quality when working "
 "with bluetooth headphones or speakers."
-msgstr ""
+msgstr "蓝牙音频是一款NVDA插件，可在使用蓝牙耳机或扬声器时改善音质。"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "   Bluetooth Audio is an NVDA add-on that improves sound quality when \n"
-#| "working with bluetooth headphones or speakers.\n"
-#| "   Most bluetooth devices enter standby mode after a few seconds of \n"
-#| "inactivity. That means that when NVDA starts speaking again, the first \n"
-#| "split second of sound will be lost. Bluetooth Audio add-on prevents \n"
-#| "bluetooth devices from entering standby mode by constantly playing a \n"
-#| "silent sound, that is inaudible to a human ear.\n"
-#| "   Warning: using Bluetooth Audio add-on might reduce battery life of \n"
-#| "your bluetooth device.\n"
 msgid ""
 "Most bluetooth devices enter standby mode after a few seconds of inactivity. "
 "That means that when NVDA starts speaking again, the first split second of "
@@ -54,16 +43,15 @@ msgid ""
 "entering standby mode by constantly playing a silent sound, that is "
 "inaudible to a human ear."
 msgstr ""
-"   蓝牙音频是一款NVDA插件，可在使用蓝牙耳机或扬声器时改善音质。大多数蓝牙设备"
-"在几秒钟不活动后进入待机模式。这意味着当NVDA再次开始朗读时，声音的第一个瞬间"
-"就会丢失。蓝牙音频插件可以通过不断播放人耳无法听到的声播来防止蓝牙设备进入待"
-"机模式。警告：使用蓝牙音频插件可能会缩短蓝牙设备的电池寿命。\n"
+"大多数蓝牙设备在几秒钟不活动后进入待机模式。这意味着当NVDA再次开始朗读时，声"
+"音的第一个瞬间就会丢失。蓝牙音频插件可以通过不断播放人耳无法听到的声播来防止"
+"蓝牙设备进入待机模式。"
 
 #. type: Plain text
 msgid ""
 "Warning: using Bluetooth Audio add-on might reduce battery life of your "
 "bluetooth device."
-msgstr ""
+msgstr "注意：使用蓝牙音频插件可能会缩短蓝牙设备的电池寿命。"
 
 #. type: Plain text
 #, no-wrap
@@ -72,7 +60,7 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=btaudio"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=btaudio"
 
 #~ msgid "Source code:"
 #~ msgstr "源代码:"

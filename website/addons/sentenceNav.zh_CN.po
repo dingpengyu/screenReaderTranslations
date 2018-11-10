@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-11 03:13+1000\n"
-"PO-Revision-Date: 2018-11-10 17:39+0800\n"
+"PO-Revision-Date: 2018-11-11 07:38+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -41,6 +41,8 @@ msgid ""
 "to [TextNav](http://github.com/mltony/nvda-text-nav/) add-on that needs to "
 "be installed separately."
 msgstr ""
+"注意，“跳转到包含文本的下一段”功能已移至需要单独安装的[TextNav]（http://"
+"github.com/mltony/nvda-text-nav/）插件。"
 
 #. type: Title ##
 #, no-wrap
@@ -48,32 +50,24 @@ msgid "Keystrokes"
 msgstr "快捷键"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Down arrow: Go to next sentence."
-msgstr "Alt + Down：转到下一句。"
+msgstr "Alt +下光标：转到下一句。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Up arrow: Go to previous sentence."
-msgstr "Alt + Up：转到上一句"
+msgstr "Alt +上光标：转到上一句。"
 
 #. type: Bullet: '* '
 msgid "NVDA+Alt+S: Speak current sentence."
-msgstr ""
+msgstr "NVDA + Alt + S：读出当前的句子。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Windows+Down arrow: Go to next phrase."
-msgstr "Alt + Down：转到下一句。"
+msgstr "Alt + Windows +下光标：转到下一个短语。"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Windows+Up arrow: Go to previous phrase."
-msgstr "Alt + Up：转到上一句"
+msgstr "Alt + Windows +上光标：转到上一个短语。"
 
 #. type: Plain text
 #, no-wrap
