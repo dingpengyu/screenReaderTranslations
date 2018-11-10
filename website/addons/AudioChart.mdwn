@@ -19,4 +19,4 @@ Microsoft Excel.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/mltony/nvda-audio-chart/releases/download/v1.0/audioChart-1.0.nvda-addon
+[1]: https://addons.nvda-project.org/files/get.php?file=audiochart
