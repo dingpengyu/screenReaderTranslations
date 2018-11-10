@@ -3,37 +3,39 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-11 03:13+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-11-10 22:32+0100\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"BluetoothAudio\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"BluetoothAudio\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Tony Malykh"
-msgstr ""
+msgstr "Autor: Tony Malykh"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Descargar [versión estable][1]"
 
 #. type: Plain text
 msgid ""
 "Bluetooth Audio is an NVDA add-on that improves sound quality when working "
 "with bluetooth headphones or speakers."
 msgstr ""
+"BluetoothAudio é un complemento do NVDA que mellora a calidade de son ao "
+"utilizar auriculares ou altofalantes Bluetooth."
 
 #. type: Plain text
 msgid ""
@@ -43,18 +45,25 @@ msgid ""
 "entering standby mode by constantly playing a silent sound, that is "
 "inaudible to a human ear."
 msgstr ""
+"A maioría de dispositivos Bluetooth entran en modo de repouso tras uns "
+"segundos de inactividade. Isto implica que ao comezar NVDA a falar de novo, "
+"perderase unha pequena parte do son inicial. O complemento Bluetooth Audio "
+"evita que os dispositivos Bluetooth entren en modo repouso reproducindo "
+"constantemente un son silencioso, inaudible polo oído humano."
 
 #. type: Plain text
 msgid ""
 "Warning: using Bluetooth Audio add-on might reduce battery life of your "
 "bluetooth device."
 msgstr ""
+"Advertencia: Usar o complemento Bluetooth Audio podería reducir a vida da "
+"batería do teu dispositivo Bluetooth."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=btaudio"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=btaudio"

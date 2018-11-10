@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-11 03:13+1000\n"
-"PO-Revision-Date: 2018-06-26 17:18+0100\n"
+"PO-Revision-Date: 2018-11-11 00:03+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: \n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,6 +43,9 @@ msgid ""
 "to [TextNav](http://github.com/mltony/nvda-text-nav/) add-on that needs to "
 "be installed separately."
 msgstr ""
+"Por favor, ten en conta que a característica \"Saltar a próximo parágrafo "
+"con texto\" moveuse ao complemento [TextNav](http://github.com/mltony/nvda-"
+"text-nav/)) que necesita instalarse de forma separada."
 
 #. type: Title ##
 #, no-wrap
@@ -50,32 +53,24 @@ msgid "Keystrokes"
 msgstr "Teclas rápidas"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Down arrow: Go to next sentence."
-msgstr "Alt+Frecha abaixo: ir á frase seguinte."
+msgstr "Alt+Frecha abaixo: ir á oración seguinte."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Up arrow: Go to previous sentence."
-msgstr "Alt+Frecha Arriba: Ir á frase anterior."
+msgstr "Alt+Frecha Arriba: Ir á oración anterior."
 
 #. type: Bullet: '* '
 msgid "NVDA+Alt+S: Speak current sentence."
-msgstr ""
+msgstr "NVDA+Alt+S: Falar oración actual."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Windows+Down arrow: Go to next phrase."
-msgstr "Alt+Frecha abaixo: ir á frase seguinte."
+msgstr "Alt+Windows+Frecha abaixo: ir á frase seguinte."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Windows+Up arrow: Go to previous phrase."
-msgstr "Alt+Frecha Arriba: Ir á frase anterior."
+msgstr "Alt+Windows+Frecha Arriba: Ir á frase anterior."
 
 #. type: Plain text
 #, no-wrap

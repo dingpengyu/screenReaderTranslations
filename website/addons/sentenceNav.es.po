@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-11 03:13+1000\n"
-"PO-Revision-Date: 2018-06-26 17:19+0100\n"
+"PO-Revision-Date: 2018-11-11 00:03+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,6 +43,9 @@ msgid ""
 "to [TextNav](http://github.com/mltony/nvda-text-nav/) add-on that needs to "
 "be installed separately."
 msgstr ""
+"Por favor, ten en cuenta que la característica \"Saltar a siguiente párrafo "
+"con texto\" se ha movido al complemento [TextNav](http://github.com/mltony/"
+"nvda-text-nav/) que deberá instalarse de forma separada."
 
 #. type: Title ##
 #, no-wrap
@@ -50,32 +53,24 @@ msgid "Keystrokes"
 msgstr "Teclas rápidas"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Down arrow: Go to next sentence."
-msgstr "Alt+Flecha abajo: Ir a la próxima frase."
+msgstr "Alt+Flecha abajo: Ir a la próxima oración."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Up arrow: Go to previous sentence."
-msgstr "Alt+Flecha Arriba: Ir a la frase anterior."
+msgstr "Alt+Flecha Arriba: Ir a la oración anterior."
 
 #. type: Bullet: '* '
 msgid "NVDA+Alt+S: Speak current sentence."
-msgstr ""
+msgstr "NVDA+Alt+S: Decir oración actual."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Windows+Down arrow: Go to next phrase."
-msgstr "Alt+Flecha abajo: Ir a la próxima frase."
+msgstr "Alt+Windows+Flecha abajo: Ir a la próxima frase."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Windows+Up arrow: Go to previous phrase."
-msgstr "Alt+Flecha Arriba: Ir a la frase anterior."
+msgstr "Alt+Windows+Flecha Arriba: Ir a la frase anterior."
 
 #. type: Plain text
 #, no-wrap
