@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TextNav\n"
-"POT-Creation-Date: 2018-11-11 03:13+1000\n"
+"POT-Creation-Date: 2018-11-11 05:59+1000\n"
 "PO-Revision-Date: 2018-11-10 15:30+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
@@ -68,7 +68,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Keystrokes:"
+msgid "Keystrokes: "
 msgstr ""
 
 #. type: Bullet: '* '
