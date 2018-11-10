@@ -7,10 +7,10 @@ Was ist neu in NVDA
 
 == Neue Funktionen ==
 - Neue Braille-Tabellen: Chinesische Voll- und Kurzschrift (China, Mandarin). (#5553)
-- In der Nachrichtenansicht in Microsoft Outlook meldet NVDA nun den Status "beantwortet" und/oder "weitergeleitet" für jede Nachricht. (#6911)
+- In der Nachrichtenansicht in Microsoft Outlook meldet NVDA nun den Status "Beantwortet" und/oder "Weitergeleitet" für jede Nachricht. (#6911)
 - NVDA kann jetzt Beschreibungen ffür Emoji und andere Zeichen vorlesen, welche Teil des Unicode Common Locale Data Repository sind. (#6523)
 - In Microsoft Word kann NVDA jetzt den Abstand des Cursors vom oberen und vom linken Rand der aktuellen Seite melden. Drücken Sie dafür NVDA+Entfernen. (#1939)
-- NVDA sagt nicht mehr "ausgewählt" bei jeder Zelle während der Navigation mit den Pfeiltasten zwischen Zellen in Google Sheets, wenn Braille-Modus aktiviert wurde. (#8879)
+- NVDA sagt nicht mehr "Ausgewählt" bei jeder Zelle während der Navigation mit den Pfeiltasten zwischen Zellen in Google Sheets, wenn Braille-Modus aktiviert wurde. (#8879)
 
 
 == Änderungen ==
