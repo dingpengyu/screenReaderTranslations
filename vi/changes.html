@@ -761,6 +761,61 @@ Bản phát hành này sửa lỗi làm treo Microsoft Word:
 <LI>Gỡ bỏ tính năng báo lỗi ngữ pháp vì nó gâyy ra lỗi bị treo trong Microsoft Word. (<A HREF="https://github.com/nvaccess/nvda/issues/5954">#5954</A>, <A HREF="https://github.com/nvaccess/nvda/issues/5877">#5877</A>)
 </UL>
 
+<H2>2016.2</H2>
+
+<P>
+Các cải tiến của bản phát hành này bao gồm khả năng thông báo lỗi chính tả trong khi soạn thảo hỗ trợ thông báo lỗi ngữ pháp với Microsoft Word; sửa lỗi và cải thiện khả năng hỗ trợ cho Microsoft Office.
+</P>
+
+<H3>Các tính năng mới</H3>
+
+<UL>
+<LI>Ở chế độ duyệt trong Internet Explorer và các điều khiển MSHTML khác, phím lệnh di chuyển qua các Annotation (A và Shift+A) sẽ di chuyển đến các đoạn văn bản được chèn và được xóa. (<A HREF="https://github.com/nvaccess/nvda/issues/5691">#5691</A>)
+<LI>Trong Microsoft Excel, NVDA giờ đã thông báo cấp độ của một nhóm nhiều ô, cũng như chúng đang được mở rộng hay thu nhỏ. (<A HREF="https://github.com/nvaccess/nvda/issues/5690">#5690</A>)
+<LI>Bấm lệnh thông báo định dạng văn bản (NVDA+F) nhanh hai lần sẽ hiển thị thông tin ở chế độ duyệt, dễ dàng xem các thông tin này hơn. (<A HREF="https://github.com/nvaccess/nvda/issues/4908">#4908</A>)
+<LI>Từ Microsoft Excel 2010 trở lên, NVDA sẽ thông báo các ô có thuộc tính Shading và Gradient. Việc tự động thông báo được điều khiển bởi tùy chọn thông báo màu trong thiết lập định dạng tài liệu. (<A HREF="https://github.com/nvaccess/nvda/issues/3683">#3683</A>)
+<LI>Bản phiên dịch chữ nổi mới: Koine Greek. (<A HREF="https://github.com/nvaccess/nvda/issues/5393">#5393</A>)
+<LI>Trong Log Viewer, người dùng có thể lưu lại thông tin bằng phím Ctrl+S. (<A HREF="https://github.com/nvaccess/nvda/issues/4532">#4532</A>)
+<LI>Nếu tính năng thông báo lỗi chính tả được bật và ứng dụng đang soạn thảo có hỗ trợ kiểm tra chính tả, NVDA sẽ phát âm thanh khi gặp từ sai chính tả. Người dùng có thể tắt tính năng này thông qua tùy chọn “Phát âm thanh báo lỗi chính tả khi nhập liệu" trong cài đặt bàn phím. (<A HREF="https://github.com/nvaccess/nvda/issues/2024">#2024</A>)
+<LI>Lỗi ngữ pháp giờ đây đã được thông báo trong Microsoft Word. Có thể tắt tính năng này thông qua tùy chọn "Thông báo lỗi chính tả" trong cài đặt định dạng tài liệu của NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/5877">#5877</A>)
+</UL>
+
+<H3>Các thay đổi</H3>
+
+<UL>
+<LI>Trong chế độ duyệt, ở các trường nhập liệu, phím Enter bên bàn phím số đã hoạt động giống như phím Enter bên bàn phím chữ. (<A HREF="https://github.com/nvaccess/nvda/issues/5385">#5385</A>)
+<LI>NVDA đã chuyển sang bộ đọc eSpeak NG. (<A HREF="https://github.com/nvaccess/nvda/issues/5651">#5651</A>)
+<LI>Trong Microsoft Excel, NVDA không bỏ qua các tiêu đề cột hay tiêu đề dòng trong trường hợp có một dòng trắng giữa phần dữ liệu và tiêu đề. (<A HREF="https://github.com/nvaccess/nvda/issues/5396">#5396</A>)
+<LI>Trong Microsoft Excel, NVDA sẽ đọc tọa độ trước khi đọc tiêu đề cột / dòng để tránh sự nhầm lẫn giữa tiêu đề và nội dung. (<A HREF="https://github.com/nvaccess/nvda/issues/5396">#5396</A>)
+</UL>
+
+<H3>Sửa lỗi</H3>
+
+<UL>
+<LI>Trong chế độ duyệt, khi dùng các phím di chuyển  để đi đến các thành phần không được hỗ trợ cho một tài liệu, NVDA sẽ thông báo nó không được hỗ trợ, thay vì thông báo không có thành phần đó. (<A HREF="https://github.com/nvaccess/nvda/issues/5691">#5691</A>)
+<LI>Khi liệt kê các bảng tính trong danh sách các thành phần của Microsoft Excel, các bản tính chỉ có đồ thị nay đã được bao gồm trong NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/5698">#5698</A>)
+<LI>Giờ đây, NVDA không thông báo những thông tin không cần thiết khi chuyển cửa sổ trong một ứng dụng Java với nhiều cửa sổ như IntelliJ hay Android Studio. (<A HREF="https://github.com/nvaccess/nvda/issues/5732">#5732</A>)
+<LI>Trong vài phần mềm soạn thảo trên nền tản Scintilla như Notepad ++, chữ nổi đã được cập nhật một cách chính xác khi di chuyển con trỏ bằng màn hình chữ nổi. (<A HREF="https://github.com/nvaccess/nvda/issues/5678">#5678</A>)
+<LI>NVDA không còn lỗi thỉnh thoảng bị tắt khi bật đầu ra của chữ nổi. (<A HREF="https://github.com/nvaccess/nvda/issues/4457">#4457</A>)
+<LI>Trong Microsoft Word, NVDA luôn thông báo các dấu thụt vào đầu dòng mà không bị phụ thuộc vào đơn vị đo (centimeters hay inches). (<A HREF="https://github.com/nvaccess/nvda/issues/5804">#5804</A>)
+<LI>Khi sử dụng màn hình chữ nổi, hiển thị được nhiều thông điệp mà trước đây chỉ được NVDA thông báo bằng giọng nói. (<A HREF="https://github.com/nvaccess/nvda/issues/5557">#5557</A>)
+<LI>Với các ứng dụng Java tiếp cận được với NVDA, thông tin về cấp độ của cây thư mục đã được thông báo (<A HREF="https://github.com/nvaccess/nvda/issues/5766">#5766</A>)
+<LI>Sửa lỗi bị tắt ngang trong Mozilla Firefox và Adobe Flash Player trong vài trường hợp. (<A HREF="https://github.com/nvaccess/nvda/issues/5367">#5367</A>)
+<LI>Trong Google Chrome và các trình duyệt dựa trên nền tảng này, nội dung trong các hộp thoại hay một ứng dụng có thể đọc được trong chế độ duyệt. (<A HREF="https://github.com/nvaccess/nvda/issues/5818">#5818</A>)
+<LI>Trong Google Chrome và các trình duyệt dựa trên nền tảng này, người dùng có thể buộc NVDA chuyển sang Browse Mode trong một hộp thoại hay ứng dụng.
+Trong Google Chrome và các trình duyệt dựa trên nền tản này, giờ bạn có thể buộc NVDA chuyển sang chế độ duyệt trrong các hộp thoạii hay ứng dụng web. (<A HREF="https://github.com/nvaccess/nvda/issues/5818">#5818</A>)
+<LI>Trong Internet Explorer hay các điều khiển MSHTML khác, di chuyển đến các điều khiển (cụ thể, khi dùng aria-activedescendant), NVDA không bị chuyển sang chế độ duyệt. Lỗi này thường xuất hiện khi di chuyển đến các gợi ý ở trường địa chỉ khi soạn thư trong Gmail. (<A HREF="https://github.com/nvaccess/nvda/issues/5676">#5676</A>)
+<LI>Trong Microsoft Word, NVDA không bị đóng băng trong một bảng lớn khi bật tính năng thông báo tiêu đề cột / dòng. (<A HREF="https://github.com/nvaccess/nvda/issues/5878">#5878</A>)
+<LI>Trong Microsoft Word, NVDA không thông báo sai các đoạn văn bản là Outline Level (nhưng không phải tiêu đề dựng sẵn) là Heading. <A HREF="https://github.com/nvaccess/nvda/issues/5186">#5186</A>)
+<LI>Trong chế độ duyệt của Microsoft Word, lệnh Move Past End và Move Past To Of Container (comma và shift+comma) nay đã hoạt động với bảng. (<A HREF="https://github.com/nvaccess/nvda/issues/5883">#5883</A>)
+</UL>
+
+<H3>Các thay đổi cho nhà phát triển</H3>
+
+<P>
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
+</P>
+
 <H2>Các phiên bản cũ</H2>
 
 <P>
