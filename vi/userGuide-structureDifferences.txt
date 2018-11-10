@@ -1,2 +1,1 @@
-# Structural comparison of vi/userGuide.t2t against vi/userGuide-newRevisions/15408/userGuide.t2t
-# files have identical structure
+No revision found, unable to calculate structure difference.
