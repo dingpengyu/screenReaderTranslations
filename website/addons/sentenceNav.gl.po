@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-05-29 05:08+1000\n"
+"POT-Creation-Date: 2018-11-10 16:10+1000\n"
 "PO-Revision-Date: 2018-06-26 17:18+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: \n"
@@ -31,46 +31,15 @@ msgstr "Descargar [versión estable][1]"
 
 #. type: Plain text
 msgid ""
-"SentenceNav is an NVDA add-on that allows you to read text by sentences, as "
-"opposed to by paragraphs or words."
+"     SentenceNav is an NVDA add-on that allows you to read text by "
+"sentences, as opposed to by paragraphs or words.       Please note that "
+"\"Jump to next  paragraph with text\" feature has been move to [TextNav]"
+"(http://github.com/mltony/nvda-text-nav/) add-on that needs to be installed "
+"separately.       Keystrokes      * Alt+Down: Go to next sentence.       * "
+"Alt+Up: Go to previous sentence.       * NVDA+Alt+S: Speak current "
+"sentence.       * Alt+Windows+Down: Go to next phrase.       * Alt+Windows"
+"+Up: Go to previous phrase."
 msgstr ""
-"SencenceNav é un complemento do NVDA que che permite ler texto por frases, "
-"en lugar de facelo por parágrafos ou palabras."
-
-#. type: Title ##
-#, no-wrap
-msgid "Keystrokes"
-msgstr "Teclas rápidas"
-
-#. type: Bullet: '* '
-msgid "Alt+Down: Go to next sentence."
-msgstr "Alt+Frecha abaixo: ir á frase seguinte."
-
-#. type: Bullet: '* '
-msgid "Alt+Up: Go to previous sentence"
-msgstr "Alt+Frecha Arriba: Ir á frase anterior."
-
-#. type: Bullet: '* '
-msgid "Alt+Shift+Down: Go to next text paragraph."
-msgstr "Alt+ShiftFrecha abaixo: ir ao parágrafo seguinte."
-
-#. type: Bullet: '* '
-msgid "Alt+Shift+Up: Go to previous text paragraph."
-msgstr "Alt+Shift+Frecha Arriba: Ir ao parágrafo anterior."
-
-#. type: Title ##
-#, no-wrap
-msgid "Release history"
-msgstr "Historial de liberacións"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
-"  * Initial release.\n"
-msgstr ""
-"* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
-"  * Liberación inicial.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -80,3 +49,35 @@ msgstr "[[!tag dev stable]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
+
+#~ msgid ""
+#~ "SentenceNav is an NVDA add-on that allows you to read text by sentences, "
+#~ "as opposed to by paragraphs or words."
+#~ msgstr ""
+#~ "SencenceNav é un complemento do NVDA que che permite ler texto por "
+#~ "frases, en lugar de facelo por parágrafos ou palabras."
+
+#~ msgid "Keystrokes"
+#~ msgstr "Teclas rápidas"
+
+#~ msgid "Alt+Down: Go to next sentence."
+#~ msgstr "Alt+Frecha abaixo: ir á frase seguinte."
+
+#~ msgid "Alt+Up: Go to previous sentence"
+#~ msgstr "Alt+Frecha Arriba: Ir á frase anterior."
+
+#~ msgid "Alt+Shift+Down: Go to next text paragraph."
+#~ msgstr "Alt+ShiftFrecha abaixo: ir ao parágrafo seguinte."
+
+#~ msgid "Alt+Shift+Up: Go to previous text paragraph."
+#~ msgstr "Alt+Shift+Frecha Arriba: Ir ao parágrafo anterior."
+
+#~ msgid "Release history"
+#~ msgstr "Historial de liberacións"
+
+#~ msgid ""
+#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
+#~ "  * Initial release.\n"
+#~ msgstr ""
+#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
+#~ "  * Liberación inicial.\n"

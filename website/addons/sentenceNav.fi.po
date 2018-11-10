@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SentenceNav\n"
-"POT-Creation-Date: 2018-05-29 05:08+1000\n"
+"POT-Creation-Date: 2018-11-10 16:10+1000\n"
 "PO-Revision-Date: 2018-06-01 10:32+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
@@ -33,46 +33,15 @@ msgstr "Lataa [vakaa versio][1]"
 
 #. type: Plain text
 msgid ""
-"SentenceNav is an NVDA add-on that allows you to read text by sentences, as "
-"opposed to by paragraphs or words."
+"     SentenceNav is an NVDA add-on that allows you to read text by "
+"sentences, as opposed to by paragraphs or words.       Please note that "
+"\"Jump to next  paragraph with text\" feature has been move to [TextNav]"
+"(http://github.com/mltony/nvda-text-nav/) add-on that needs to be installed "
+"separately.       Keystrokes      * Alt+Down: Go to next sentence.       * "
+"Alt+Up: Go to previous sentence.       * NVDA+Alt+S: Speak current "
+"sentence.       * Alt+Windows+Down: Go to next phrase.       * Alt+Windows"
+"+Up: Go to previous phrase."
 msgstr ""
-"SentenceNav on lisäosa, jonka avulla tekstiä voi lukea lause kerrallaan "
-"kappaleiden tai sanojen sijaan."
-
-#. type: Title ##
-#, no-wrap
-msgid "Keystrokes"
-msgstr "Näppäinkomennot"
-
-#. type: Bullet: '* '
-msgid "Alt+Down: Go to next sentence."
-msgstr "Alt+Nuoli alas: Siirry seuraavaan lauseeseen."
-
-#. type: Bullet: '* '
-msgid "Alt+Up: Go to previous sentence"
-msgstr "Alt+Nuoli ylös: Siirry edelliseen lauseeseen."
-
-#. type: Bullet: '* '
-msgid "Alt+Shift+Down: Go to next text paragraph."
-msgstr "Alt+Vaihto+Nuoli alas: Siirry seuraavaan kappaleeseen."
-
-#. type: Bullet: '* '
-msgid "Alt+Shift+Up: Go to previous text paragraph."
-msgstr "Alt+Vaihto+Nuoli ylös: Siirry edelliseen kappaleeseen."
-
-#. type: Title ##
-#, no-wrap
-msgid "Release history"
-msgstr "Julkaisuhistoria"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
-"  * Initial release.\n"
-msgstr ""
-"* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
-"  * Ensimmäinen julkaisu.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -82,3 +51,35 @@ msgstr "[[!tag dev stable]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
+
+#~ msgid ""
+#~ "SentenceNav is an NVDA add-on that allows you to read text by sentences, "
+#~ "as opposed to by paragraphs or words."
+#~ msgstr ""
+#~ "SentenceNav on lisäosa, jonka avulla tekstiä voi lukea lause kerrallaan "
+#~ "kappaleiden tai sanojen sijaan."
+
+#~ msgid "Keystrokes"
+#~ msgstr "Näppäinkomennot"
+
+#~ msgid "Alt+Down: Go to next sentence."
+#~ msgstr "Alt+Nuoli alas: Siirry seuraavaan lauseeseen."
+
+#~ msgid "Alt+Up: Go to previous sentence"
+#~ msgstr "Alt+Nuoli ylös: Siirry edelliseen lauseeseen."
+
+#~ msgid "Alt+Shift+Down: Go to next text paragraph."
+#~ msgstr "Alt+Vaihto+Nuoli alas: Siirry seuraavaan kappaleeseen."
+
+#~ msgid "Alt+Shift+Up: Go to previous text paragraph."
+#~ msgstr "Alt+Vaihto+Nuoli ylös: Siirry edelliseen kappaleeseen."
+
+#~ msgid "Release history"
+#~ msgstr "Julkaisuhistoria"
+
+#~ msgid ""
+#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
+#~ "  * Initial release.\n"
+#~ msgstr ""
+#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
+#~ "  * Ensimmäinen julkaisu.\n"

@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-11-10 16:10+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"TextNav\"]]\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Author: Tony Malykh"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"TextNav allows you to find text that you want to read on a web page \n"
+"in just a single keystroke.\n"
+"More precisely, it adds a keystroke to jump to next or previous \n"
+"text paragraphs - that is a paragraph containing one or more sentences.\n"
+"This feature might be useful to quickly find the textual part of a \n"
+"web page or to skip over menus, advertisements and other not important \n"
+"page elements.\n"
+"Keystrokes:\n"
+"    * Alt+Shift+Down: Go to next text paragraph.\n"
+"    * Alt+Shift+Up: Go to previous text paragraph.\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Source code:"
+msgstr ""
+
+#. type: Plain text
+msgid "https://github.com/mltony/nvda-text-nav/"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[1]: "
+"https://github.com/mltony/nvda-text-nav/releases/download/v1.0/textnav-1.0.nvda-addon"
+msgstr ""

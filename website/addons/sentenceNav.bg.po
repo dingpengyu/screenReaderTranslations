@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-05-29 05:08+1000\n"
+"POT-Creation-Date: 2018-11-10 16:10+1000\n"
 "PO-Revision-Date: 2018-05-29 10:12+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,46 +31,15 @@ msgstr "Изтегляне на [стабилна версия][1]"
 
 #. type: Plain text
 msgid ""
-"SentenceNav is an NVDA add-on that allows you to read text by sentences, as "
-"opposed to by paragraphs or words."
+"     SentenceNav is an NVDA add-on that allows you to read text by "
+"sentences, as opposed to by paragraphs or words.       Please note that "
+"\"Jump to next  paragraph with text\" feature has been move to [TextNav]"
+"(http://github.com/mltony/nvda-text-nav/) add-on that needs to be installed "
+"separately.       Keystrokes      * Alt+Down: Go to next sentence.       * "
+"Alt+Up: Go to previous sentence.       * NVDA+Alt+S: Speak current "
+"sentence.       * Alt+Windows+Down: Go to next phrase.       * Alt+Windows"
+"+Up: Go to previous phrase."
 msgstr ""
-"SentenceNav е добавка за NVDA, която ви позволява да четете текст по "
-"изречения, вместо по абзаци или думи."
-
-#. type: Title ##
-#, no-wrap
-msgid "Keystrokes"
-msgstr "Клавишни комбинации"
-
-#. type: Bullet: '* '
-msgid "Alt+Down: Go to next sentence."
-msgstr "Alt+Стрелка надолу: Придвижване до следващото изречение."
-
-#. type: Bullet: '* '
-msgid "Alt+Up: Go to previous sentence"
-msgstr "Alt+Стрелка нагоре: Придвижване до предишното изречение"
-
-#. type: Bullet: '* '
-msgid "Alt+Shift+Down: Go to next text paragraph."
-msgstr "Alt+Shift+Стрелка надолу: Придвижване до следващия абзац."
-
-#. type: Bullet: '* '
-msgid "Alt+Shift+Up: Go to previous text paragraph."
-msgstr "Alt+Shift+Стрелка нагоре: Придвижване до предишния абзац."
-
-#. type: Title ##
-#, no-wrap
-msgid "Release history"
-msgstr "Хронология на изданията"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
-"  * Initial release.\n"
-msgstr ""
-"* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
-"  * Първо издание.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -80,3 +49,35 @@ msgstr "[[!tag dev stable]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
+
+#~ msgid ""
+#~ "SentenceNav is an NVDA add-on that allows you to read text by sentences, "
+#~ "as opposed to by paragraphs or words."
+#~ msgstr ""
+#~ "SentenceNav е добавка за NVDA, която ви позволява да четете текст по "
+#~ "изречения, вместо по абзаци или думи."
+
+#~ msgid "Keystrokes"
+#~ msgstr "Клавишни комбинации"
+
+#~ msgid "Alt+Down: Go to next sentence."
+#~ msgstr "Alt+Стрелка надолу: Придвижване до следващото изречение."
+
+#~ msgid "Alt+Up: Go to previous sentence"
+#~ msgstr "Alt+Стрелка нагоре: Придвижване до предишното изречение"
+
+#~ msgid "Alt+Shift+Down: Go to next text paragraph."
+#~ msgstr "Alt+Shift+Стрелка надолу: Придвижване до следващия абзац."
+
+#~ msgid "Alt+Shift+Up: Go to previous text paragraph."
+#~ msgstr "Alt+Shift+Стрелка нагоре: Придвижване до предишния абзац."
+
+#~ msgid "Release history"
+#~ msgstr "Хронология на изданията"
+
+#~ msgid ""
+#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
+#~ "  * Initial release.\n"
+#~ msgstr ""
+#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
+#~ "  * Първо издание.\n"
