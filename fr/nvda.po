@@ -1796,7 +1796,7 @@ msgstr "toujours"
 #. See the "Punctuation/symbol pronunciation" section of the User Guide for details.
 msgctxt "symbolPreserve"
 msgid "only below symbol's level"
-msgstr "seulement au-dessous du niveau de symbole"
+msgstr "seulement au-dessous du niveau du symbole"
 
 #. Translators: the color white (HSV saturation0%, value 100%)
 msgctxt "color hue"
