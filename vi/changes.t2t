@@ -36,7 +36,7 @@
 
 
 == Các thay đổi cho nhà phát triển ==
-Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
 
 = 2018.3.2 =
 Đây là bản phát hành phụ nhằm giải quyết sự cố trong  Google Chrome khi điều hướng qua các tweett trên trang www.twitter.com. (#8777)
@@ -105,7 +105,7 @@ Các cải tiến của bản phát hành này bao gồm khả năng tự nhận
 
  
 == Các thay đổi cho nhà phát triển ==
-Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
 
 = 2018.2.1 =
 Bản phát hành này bao gồm các cập nhật phiên dịch vì xảy ra lỗi từ việc gỡ bỏ một tính năng.
@@ -171,7 +171,7 @@ Một số tính năng nổi bật trong bản phát hành này bao gồm hỗ t
 
 == Các thay đổi cho nhà phát triển ==
 
-Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
 
 = 2018.1.1 =
 Đây là bản phát hành đặc biệt  của NVDA, sửa một lỗi trong driver của bộ đọc OneCore, khiến cho nó bị đọc nhanh và cao hơn trong Windows 10 Redstone 4 (1803). (#8082) 
@@ -222,7 +222,7 @@ Một số tính năng nổi bật trong bản phát hành này là hỗ trợ s
 
 == Các thay Đổi cho Nhà Phát Triển ==
 
-Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
 
 
 = 2017.4 =
@@ -531,7 +531,7 @@ Các điểm chính trong phiên bản này bao gồm, cải thiện Microsoft E
 
 
 == Các thay đổi cho nhà phát triển ==
-Phần này không được dịch. Vui lòng xem phiên bản tiếng Anh changes.t2t
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
 
 
 = 2016.3 =
@@ -588,7 +588,7 @@ thư. (#5635)
 -
 
 == Các thay đổi cho nhà phát triển ==
-Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
 
 
 = 2016.2.1 =
@@ -638,7 +638,60 @@ Trong Google Chrome và các trình duyệt dựa trên nền tản này, giờ 
 -
 
 == Các thay đổi cho nhà phát triển ==
-Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
+
+= 2016.1 =
+Các cải tiến của bản phát hành này bao gồm khả năng giảm âm lượng của các âm thanh khác; các cải thiện liên quan đến màn hình chữ nổi, sửa vài lỗi liên quan đến bộ ứng dụng Microsoft Office và chế độ duyệt trong iTunes.
+
+= Các tính năng mới =
+- Các bản chữ nổi mới: Ba Lan máy tính 8 chấm,  Mông Cổ. (#5537, #5574)
+- Bạn có thể tắt con trỏ chữ Braille và thay đổi hình dạng của nó thông qua tùy chọn hiện con trỏ và kiểu con trỏ trong hộp thoại cài đặt chữ nổi. (#5198)
+- Giờ đây, NVDA có thể kết nối với màn hình chữ nổi HIMS Smart Beetle thông qua Bluetooth. (#5607)
+- NVDA có thể giảm các âm thanh khác khi được cài đặt trên Windows 8 trở lên. Có thể cấu hình qua tùy chọn giảm âm thanh trong hộp thoại chọn bộ đọc của NVDA hoặc bấm NVDA+shift+d. (#3830, #5575)
+- Hỗ trợ sử dụng APH Refreshabraille trong chế độ HID, Baum VarioUltra và Pronto! Khi kết nối qua USB. (#5609)
+- Hỗ trợ các màn hình nổi HumanWare Brailliant BI/B khi giao thức được thiết lập là OpenBraille. (#5612)
+-
+
+
+= Các thay đổi  =
+- Mặc định, tính năng thông báo nhấn mạnh đã được tắt. (#4920)
+- Trong hộp thoại danh sách các thành phần của Microsoft Office Excel, phím nóng để hiển thị công thức nay được đổi thành Alt+R nên sẽ khác với phím tắt ở trường bộ lọc. (5527)
+- Cập nhật liblouis braille translator lên 2.6.5. (#5574)
+- Từ “văn bản” sẽ không còn được đọc khi di chuyển con trỏ máy hoặc con trỏ duyệt đến các đối tượng là văn bản. (#5452)
+-
+
+= Sửa lỗi =
+- Trong iTunes 12, chế độ duyệt nay đã cập nhật một cách chính xác khi một trang mới được tải xuống trong iTunes Store. (#5191)
+- Trong Internet Explorer và các trình điều khiển khác có hỗ trợ HTML, phím tắt di chuyển đến các tiêu đề đã vận hành đúng như cách mà người dùng mong đợi khi một Heading bị bỏ đi nhằm phục vụ cho tính tiếp cận với trình đọc màn hình (chính xác là khi cấp độ của tiêu đề được  đánh dấu bằng Aria thay cho thẻ H). (#5434)
+- Trong Spotify, con trỏ không thường xuyên bị rơi vào tình trạng “không xác định đối tượng”. (#5439)
+- Con trỏ được trả về đúng vị trí trước đó của nó khi chuyển từ cửa sổ khác về Spotify . (#5439)
+- Khi chuyển qua lại giữa 2 chế độ duyệt và chế độ Focus, NVDA sẽ thông báo chế độ được chọn bằng giọng nói, đồng thời hiển thị thông tin đó trên màn hình nổi. (#5239)
+- NVDA sẽ không đọc nút Start là danh sách hay đã chọn khi di chuyển con trỏ đến nút này trên một số phiên bản hệ điều hành. (#5178)
+- NVDA sẽ không đọc các thông điệp như “Inserted” khi soạn thư trong Microsoft Outlook. (#5486)
+- Khi dùng màn hình chữ nổi mà có một đoạn văn bản được chọn ở dòng hiện tại (khi tìm những từ xuất hiện trên cùng một dòng chẳng hạn), nội dung trên màn hình chữ nổi sẽ được cuộn khi cần thiết. (#5410)
+- NVDA sẽ không bị tắt một cách âm thầm khi bấm Alt+F4 để thoát Command Prompt trong Windows 10. (#5343)
+- Trong hộp thoại danh sách các thành phần ở chế độ duyệt, khi người dùng thay đổi kiểu liệt kê thành phần, nội dung trong trường bộ lọc sẽ được xoá sạch. (#5511)
+- Ở vùng soạn thảo trong các ứng dụng của Mozilla, khi di chuyển bằng chuột, NVDA sẽ đọc từ, kí tự, dòng… thay vì đọc toàn bộ nội dung. (#5535)
+- Khi di chuyển chuột trong vùng soạn thảo trong các ứng dụng của Mozilla, việc đọc các điều khiển dạng Element như liên kết sẽ không bị dừng khi chúng chứa trong các dòng đang được đọc. (#2160, #5535)
+- Trong Internet Explorer, NVDA nay đã đọc được nội dung trang shoprite.com trong chế độ duyệt thay vì đọc Blank. (#5569)
+- Trong Microsoft Word, NVDA sẽ không đọc các Track Changes như “Inserted” khi Track Changes Markup không được hiển thị. (#5566)
+- Khi bấm một nút bật / tắt tại vị trí con trỏ, NVDA sẽ thông báo khi chúng chuyển từ đã chọn sang không chọn. (#5441)
+- Các thay đổi hình dạng chuột đã đượđã hoạt động như mong muốn. (#5595)
+- Khi đọc các dòng có thụt vào đầu dòng, các khoảng trắng bị đặt sai quy tắc sẽ được thông báo ngắn gọn hơn (trước đây, NVDA đọc Space Space Space thay vì 3 Space). (#5610)
+- Khi đóng một danh sách phương thức nhập hiện đại của Microsoft, focus được trả về đúng thành phần đầu vào của tài liệu cơ bản. (
+- Từ Microsoft Office 2013 trở lên, khi Ribbond được thiết lập ở chế độ Show Only Tabs (chỉ hiện thị các Tab), các thành phần trên Ribbond sẽ được thông báo chính xác khi một Tab được kích hoạt. (#5504)
+- Sửa lỗi và cải thiẹn cho việc tìm và nhận biết thao tác trên màn hình cảm ứng. (#5652)
+- Không còn thông báo màn hình cảm ứng trong trợ giúp nhập. (#5652)
+- NVDA không bị lỗi khi liệt kê các chú thích trong Microsoft Office Excel khi chúng nằm trong các ô bị trộn. (#5704)
+- Trường hợp rất hiếm gặp, NVDA không bị lỗi khi đọc nội dung của Sheet khi bật chế độ đọc tiêu đề cột và dòng. (#5705)
+- Trong Google Chrome, di chuyển trong vùng nhập liệu, kí tự trong các bảng chữ cái của người châu Á được thông báo chính xác. (#4080)
+- Khi tìm kiếm nhạc của Apple bằng iTunes, kết quả tìm kiếm được cập nhật chính xác. (#5659)
+- Trong Microsoft Office Excel, khi bấm Shift+F11 để tạo bảng tính mới, NVDA sẽ thông báo vị trí mới của con trỏ thay vì không đọc gì. (5689)
+- Sửa lỗi hiển thị trên màn hình chữ nổi với tiếng Hàn Quốc. (#5640)
+-
+
+= Các thay đổi cho nhà phát triển =
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
 
 = Các phiên bản cũ =
 Các thay đổi và tính năng mới của các phiên bản cũ hiện không được dịch sang tiếng Việt. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
