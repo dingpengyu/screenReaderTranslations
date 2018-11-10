@@ -591,5 +591,13 @@ thư. (#5635)
 Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
 
 
+= 2016.2.1 =
+Bản phát hành này sửa lỗi làm treo Microsoft Word:
+- NVDA không còn làm cho Microsoft Word bị lỗi ngay sau khi khởi động trong Windows XP. (#6033)
+- Gỡ bỏ tính năng báo lỗi ngữ pháp vì nó gâyy ra lỗi bị treo trong Microsoft Word. (#5954, #5877)
+
+
+
+
 = Các phiên bản cũ =
 Các thay đổi và tính năng mới của các phiên bản cũ hiện không được dịch sang tiếng Việt. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
