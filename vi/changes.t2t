@@ -551,10 +551,12 @@ Các cải tiến của bản phát hành này bao gồm khả năng vô hiệu 
 - Trong Microsoft Excel, bạn đã có thể tương tác được với biểu mẫu. Bạn di chuyển đến các biểu mẫu thông qua danh sách các thành phần hoặc dùng các phím di chuyển nhanh trong chế độ duyệt. (#4953)
 - Giờ đây, bạn có thể gán thao tác để bật/ tắt chế độ simple review thông qua hộp thoại Quản lý thao tác. (#6173)
 
+
 == Các thay đổi ==
 - Giờ đây, NVDA thông báo màu sắc bằng nhóm màu căn bản, phổ biến, gồm 9 kiểu màu thông thường, 3 kiểu màu bóng, với bóng sáng và bóng mờ. như vậy sẽ tốt hơn là thông báo màu với nhiều chủ đề và với những tên gọi khó hiểu. (#6029)
 - Phím lệnh NVDA+F9 và NVDA+F10 đã được thay đổi. Giờ đây, người dùng bấm F10 lần thứ nhất để kết thúc vùng chọn, bấm thêm lần nữa để sao chép vùng chọn vào bộ nhớ tạm. (#4636)
 - Đã cập nhật bộ đọc eSpeak NG lên phiên bản Master 11b1a7b (ra mắt ngày 22/6/2016). (#6037)
+
 
 == Sửa lỗi ==
 - Ở chế độ duyệt trong Microsoft Word, định dạng của văn bản được giữ nguyên khi sao chép. (#5956)
