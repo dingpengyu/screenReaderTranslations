@@ -1,8 +1,8 @@
-# Structural comparison of de/userGuide.t2t against de/userGuide-newRevisions/15243/userGuide.t2t
-de 17. start:2779 paragraphs:0, tables:0, lists:0
-de 17.1. start:2781 paragraphs:1, tables:0, lists:1
-de 17.1.1. start:2789 paragraphs:2, tables:0, lists:0
-de 17.1.2. start:2798 paragraphs:2, tables:0, lists:1
-de 17.2. start:2809 paragraphs:7, tables:0, lists:2
-de 17.2.1. start:2840 paragraphs:1, tables:0, lists:1
+# Structural comparison of de/userGuide.t2t against de/userGuide-newRevisions/15408/userGuide.t2t
+de 17. start:2789 paragraphs:0, tables:0, lists:0
+de 17.1. start:2791 paragraphs:1, tables:0, lists:1
+de 17.1.1. start:2799 paragraphs:2, tables:0, lists:0
+de 17.1.2. start:2808 paragraphs:2, tables:0, lists:1
+de 17.2. start:2819 paragraphs:7, tables:0, lists:2
+de 17.2.1. start:2850 paragraphs:1, tables:0, lists:1
 # end of comparison
