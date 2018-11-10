@@ -595,9 +595,50 @@ Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
 Bản phát hành này sửa lỗi làm treo Microsoft Word:
 - NVDA không còn làm cho Microsoft Word bị lỗi ngay sau khi khởi động trong Windows XP. (#6033)
 - Gỡ bỏ tính năng báo lỗi ngữ pháp vì nó gâyy ra lỗi bị treo trong Microsoft Word. (#5954, #5877)
+-
 
+= 2016.2 =
+Các cải tiến của bản phát hành này bao gồm khả năng thông báo lỗi chính tả trong khi soạn thảo hỗ trợ thông báo lỗi ngữ pháp với Microsoft Word; sửa lỗi và cải thiện khả năng hỗ trợ cho Microsoft Office.
 
+== Các tính năng mới ==
+- Ở chế độ duyệt trong Internet Explorer và các điều khiển MSHTML khác, phím lệnh di chuyển qua các Annotation (A và Shift+A) sẽ di chuyển đến các đoạn văn bản được chèn và được xóa. (#5691)
+- Trong Microsoft Excel, NVDA giờ đã thông báo cấp độ của một nhóm nhiều ô, cũng như chúng đang được mở rộng hay thu nhỏ. (#5690)
+- Bấm lệnh thông báo định dạng văn bản (NVDA+F) nhanh hai lần sẽ hiển thị thông tin ở chế độ duyệt, dễ dàng xem các thông tin này hơn. (#4908)
+- Từ Microsoft Excel 2010 trở lên, NVDA sẽ thông báo các ô có thuộc tính Shading và Gradient. Việc tự động thông báo được điều khiển bởi tùy chọn thông báo màu trong thiết lập định dạng tài liệu. (#3683)
+- Bản phiên dịch chữ nổi mới: Koine Greek. (#5393)
+- Trong Log Viewer, người dùng có thể lưu lại thông tin bằng phím Ctrl+S. (#4532)
+- Nếu tính năng thông báo lỗi chính tả được bật và ứng dụng đang soạn thảo có hỗ trợ kiểm tra chính tả, NVDA sẽ phát âm thanh khi gặp từ sai chính tả. Người dùng có thể tắt tính năng này thông qua tùy chọn “Phát âm thanh báo lỗi chính tả khi nhập liệu" trong cài đặt bàn phím. (#2024)
+- Lỗi ngữ pháp giờ đây đã được thông báo trong Microsoft Word. Có thể tắt tính năng này thông qua tùy chọn "Thông báo lỗi chính tả" trong cài đặt định dạng tài liệu của NVDA. (#5877)
+-
 
+== Các thay đổi ==
+- Trong chế độ duyệt, ở các trường nhập liệu, phím Enter bên bàn phím số đã hoạt động giống như phím Enter bên bàn phím chữ. (#5385)
+- NVDA đã chuyển sang bộ đọc eSpeak NG. (#5651)
+- Trong Microsoft Excel, NVDA không bỏ qua các tiêu đề cột hay tiêu đề dòng trong trường hợp có một dòng trắng giữa phần dữ liệu và tiêu đề. (#5396)
+- Trong Microsoft Excel, NVDA sẽ đọc tọa độ trước khi đọc tiêu đề cột / dòng để tránh sự nhầm lẫn giữa tiêu đề và nội dung. (#5396)
+-
+
+== Sửa lỗi ==
+- Trong chế độ duyệt, khi dùng các phím di chuyển  để đi đến các thành phần không được hỗ trợ cho một tài liệu, NVDA sẽ thông báo nó không được hỗ trợ, thay vì thông báo không có thành phần đó. (#5691)
+- Khi liệt kê các bảng tính trong danh sách các thành phần của Microsoft Excel, các bản tính chỉ có đồ thị nay đã được bao gồm trong NVDA. (#5698)
+- Giờ đây, NVDA không thông báo những thông tin không cần thiết khi chuyển cửa sổ trong một ứng dụng Java với nhiều cửa sổ như IntelliJ hay Android Studio. (#5732)
+- Trong vài phần mềm soạn thảo trên nền tản Scintilla như Notepad ++, chữ nổi đã được cập nhật một cách chính xác khi di chuyển con trỏ bằng màn hình chữ nổi. (#5678)
+- NVDA không còn lỗi thỉnh thoảng bị tắt khi bật đầu ra của chữ nổi. (#4457)
+- Trong Microsoft Word, NVDA luôn thông báo các dấu thụt vào đầu dòng mà không bị phụ thuộc vào đơn vị đo (centimeters hay inches). (#5804)
+- Khi sử dụng màn hình chữ nổi, hiển thị được nhiều thông điệp mà trước đây chỉ được NVDA thông báo bằng giọng nói. (#5557)
+- Với các ứng dụng Java tiếp cận được với NVDA, thông tin về cấp độ của cây thư mục đã được thông báo (#5766)
+- Sửa lỗi bị tắt ngang trong Mozilla Firefox và Adobe Flash Player trong vài trường hợp. (#5367)
+- Trong Google Chrome và các trình duyệt dựa trên nền tảng này, nội dung trong các hộp thoại hay một ứng dụng có thể đọc được trong chế độ duyệt. (#5818)
+- Trong Google Chrome và các trình duyệt dựa trên nền tảng này, người dùng có thể buộc NVDA chuyển sang Browse Mode trong một hộp thoại hay ứng dụng.
+Trong Google Chrome và các trình duyệt dựa trên nền tản này, giờ bạn có thể buộc NVDA chuyển sang chế độ duyệt trrong các hộp thoạii hay ứng dụng web. (#5818)
+- Trong Internet Explorer hay các điều khiển MSHTML khác, di chuyển đến các điều khiển (cụ thể, khi dùng aria-activedescendant), NVDA không bị chuyển sang chế độ duyệt. Lỗi này thường xuất hiện khi di chuyển đến các gợi ý ở trường địa chỉ khi soạn thư trong Gmail. (#5676)
+- Trong Microsoft Word, NVDA không bị đóng băng trong một bảng lớn khi bật tính năng thông báo tiêu đề cột / dòng. (#5878)
+- Trong Microsoft Word, NVDA không thông báo sai các đoạn văn bản là Outline Level (nhưng không phải tiêu đề dựng sẵn) là Heading. #5186)
+- Trong chế độ duyệt của Microsoft Word, lệnh Move Past End và Move Past To Of Container (comma và shift+comma) nay đã hoạt động với bảng. (#5883)
+-
+
+== Các thay đổi cho nhà phát triển ==
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t.
 
 = Các phiên bản cũ =
 Các thay đổi và tính năng mới của các phiên bản cũ hiện không được dịch sang tiếng Việt. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
