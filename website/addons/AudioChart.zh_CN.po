@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-11-10 16:10+1000\n"
+"POT-Creation-Date: 2018-11-11 03:13+1000\n"
 "PO-Revision-Date: 2018-11-10 17:32+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
@@ -57,8 +57,7 @@ msgstr "源代码:"
 
 #. type: Plain text
 msgid "     https://github.com/mltony/nvda-audio-chart/"
-msgstr ""
-"     https://github.com/mltony/nvda-audio-chart/"
+msgstr "     https://github.com/mltony/nvda-audio-chart/"
 
 #. type: Plain text
 #, no-wrap
@@ -66,9 +65,12 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid ""
-"[1]: https://github.com/mltony/nvda-audio-chart/"
-"releases/download/v1.0/audioChart-1.0.nvda-addon"
+msgid "[1]: https://addons.nvda-project.org/files/get.php?file=audiochart"
 msgstr ""
-"[1]: https://github.com/mltony/nvda-audio-chart/"
-"releases/download/v1.0/audioChart-1.0.nvda-addon"
+
+#~ msgid ""
+#~ "[1]: https://github.com/mltony/nvda-audio-chart/releases/download/v1.0/"
+#~ "audioChart-1.0.nvda-addon"
+#~ msgstr ""
+#~ "[1]: https://github.com/mltony/nvda-audio-chart/releases/download/v1.0/"
+#~ "audioChart-1.0.nvda-addon"

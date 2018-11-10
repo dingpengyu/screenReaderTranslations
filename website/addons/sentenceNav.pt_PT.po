@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Navegar por frases\n"
-"POT-Creation-Date: 2018-11-10 16:10+1000\n"
+"POT-Creation-Date: 2018-11-11 03:13+1000\n"
 "PO-Revision-Date: 2018-11-10 15:20+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
@@ -33,23 +33,51 @@ msgstr "Baixar [versão estável][1]"
 
 #. type: Plain text
 msgid ""
-"     SentenceNav is an NVDA add-on that allows you to read text by "
-"sentences, as opposed to by paragraphs or words.       Please note that "
-"\"Jump to next  paragraph with text\" feature has been move to [TextNav]"
-"(http://github.com/mltony/nvda-text-nav/) add-on that needs to be installed "
-"separately.       Keystrokes      * Alt+Down: Go to next sentence.       * "
-"Alt+Up: Go to previous sentence.       * NVDA+Alt+S: Speak current "
-"sentence.       * Alt+Windows+Down: Go to next phrase.       * Alt+Windows"
-"+Up: Go to previous phrase."
+"SentenceNav is an NVDA add-on that allows you to read text by sentences, as "
+"opposed to by paragraphs or words."
 msgstr ""
-"O SentenceNav é um extra do NVDA que permite ler texto por frases, ao "
-"contrário de por parágrafos ou por palavras. Observe que o recurso \"Ir "
-"para o próximo parágrafo com texto\" foi movido para o complemento "
-"[TextNav] (http://github.com/mltony/nvda-text-nav/) que precisa ser "
-"instalado separadamente. Teclas * Alt+setaAbaixo: vai para a próxima frase. "
-"* Alt+setaAcima: vai para a frase anterior. * NVDA+Alt+S: diz a frase "
-"actual. * Alt+Windows+setaAbaixo: vai para a próxima frase. * Alt + Windows"
-"+setaAcima: vai para a frase anterior."
+"O SentenceNav é um extra para o NVDA que permite que leia texto por frases, "
+"em oposição a parágrafos ou palavras."
+
+#. type: Plain text
+msgid ""
+"Please note that \"Jump to next  paragraph with text\" feature has been move "
+"to [TextNav](http://github.com/mltony/nvda-text-nav/) add-on that needs to "
+"be installed separately."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Keystrokes"
+msgstr "Teclas de atalho:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+Down: Go to next sentence."
+msgid "Alt+Down arrow: Go to next sentence."
+msgstr "Alt+seta para baixo: Lê a próxima frase."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+Up: Go to previous sentence"
+msgid "Alt+Up arrow: Go to previous sentence."
+msgstr "Alt+seta para cima: Lê a frase anterior"
+
+#. type: Bullet: '* '
+msgid "NVDA+Alt+S: Speak current sentence."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+Down: Go to next sentence."
+msgid "Alt+Windows+Down arrow: Go to next phrase."
+msgstr "Alt+seta para baixo: Lê a próxima frase."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+Up: Go to previous sentence"
+msgid "Alt+Windows+Up arrow: Go to previous phrase."
+msgstr "Alt+seta para cima: Lê a frase anterior"
 
 #. type: Plain text
 #, no-wrap
@@ -61,20 +89,23 @@ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
 
 #~ msgid ""
-#~ "SentenceNav is an NVDA add-on that allows you to read text by sentences, "
-#~ "as opposed to by paragraphs or words."
+#~ "     SentenceNav is an NVDA add-on that allows you to read text by "
+#~ "sentences, as opposed to by paragraphs or words.       Please note that "
+#~ "\"Jump to next  paragraph with text\" feature has been move to [TextNav]"
+#~ "(http://github.com/mltony/nvda-text-nav/) add-on that needs to be "
+#~ "installed separately.       Keystrokes      * Alt+Down: Go to next "
+#~ "sentence.       * Alt+Up: Go to previous sentence.       * NVDA+Alt+S: "
+#~ "Speak current sentence.       * Alt+Windows+Down: Go to next phrase.  "
+#~ "     * Alt+Windows+Up: Go to previous phrase."
 #~ msgstr ""
-#~ "O SentenceNav é um extra para o NVDA que permite que leia texto por "
-#~ "frases, em oposição a parágrafos ou palavras."
-
-#~ msgid "Keystrokes"
-#~ msgstr "Teclas de atalho:"
-
-#~ msgid "Alt+Down: Go to next sentence."
-#~ msgstr "Alt+seta para baixo: Lê a próxima frase."
-
-#~ msgid "Alt+Up: Go to previous sentence"
-#~ msgstr "Alt+seta para cima: Lê a frase anterior"
+#~ "O SentenceNav é um extra do NVDA que permite ler texto por frases, ao "
+#~ "contrário de por parágrafos ou por palavras. Observe que o recurso \"Ir "
+#~ "para o próximo parágrafo com texto\" foi movido para o complemento "
+#~ "[TextNav] (http://github.com/mltony/nvda-text-nav/) que precisa ser "
+#~ "instalado separadamente. Teclas * Alt+setaAbaixo: vai para a próxima "
+#~ "frase. * Alt+setaAcima: vai para a frase anterior. * NVDA+Alt+S: diz a "
+#~ "frase actual. * Alt+Windows+setaAbaixo: vai para a próxima frase. * Alt + "
+#~ "Windows+setaAcima: vai para a frase anterior."
 
 #~ msgid "Alt+Shift+Down: Go to next text paragraph."
 #~ msgstr "Alt+seta para baixo: vai para o próximo parágrafo de texto."

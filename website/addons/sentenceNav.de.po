@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-11-10 16:10+1000\n"
+"POT-Creation-Date: 2018-11-11 03:13+1000\n"
 "PO-Revision-Date: 2018-05-28 21:25+0200\n"
 "Last-Translator: Karl Eick <hozosch@web.de>\n"
 "Language-Team: \n"
@@ -31,15 +31,50 @@ msgstr "[Stabile Version  herunterladen][1]"
 
 #. type: Plain text
 msgid ""
-"     SentenceNav is an NVDA add-on that allows you to read text by "
-"sentences, as opposed to by paragraphs or words.       Please note that "
-"\"Jump to next  paragraph with text\" feature has been move to [TextNav]"
-"(http://github.com/mltony/nvda-text-nav/) add-on that needs to be installed "
-"separately.       Keystrokes      * Alt+Down: Go to next sentence.       * "
-"Alt+Up: Go to previous sentence.       * NVDA+Alt+S: Speak current "
-"sentence.       * Alt+Windows+Down: Go to next phrase.       * Alt+Windows"
-"+Up: Go to previous phrase."
+"SentenceNav is an NVDA add-on that allows you to read text by sentences, as "
+"opposed to by paragraphs or words."
 msgstr ""
+"Die Erweiterung Satznavigation erlaubt das Lesen von Texten Satz für Satz."
+
+#. type: Plain text
+msgid ""
+"Please note that \"Jump to next  paragraph with text\" feature has been move "
+"to [TextNav](http://github.com/mltony/nvda-text-nav/) add-on that needs to "
+"be installed separately."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Keystrokes"
+msgstr "Tastenkürzel"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+Down: Go to next sentence."
+msgid "Alt+Down arrow: Go to next sentence."
+msgstr "Alt+Pfeil abwärts: nächster Satz"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+Up: Go to previous sentence"
+msgid "Alt+Up arrow: Go to previous sentence."
+msgstr "Alt+Pfeil aufwärts: vorheriger Satz"
+
+#. type: Bullet: '* '
+msgid "NVDA+Alt+S: Speak current sentence."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+Down: Go to next sentence."
+msgid "Alt+Windows+Down arrow: Go to next phrase."
+msgstr "Alt+Pfeil abwärts: nächster Satz"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+Up: Go to previous sentence"
+msgid "Alt+Windows+Up arrow: Go to previous phrase."
+msgstr "Alt+Pfeil aufwärts: vorheriger Satz"
 
 #. type: Plain text
 #, no-wrap
@@ -49,21 +84,6 @@ msgstr "[[!tag dev stable]]\n"
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
-
-#~ msgid ""
-#~ "SentenceNav is an NVDA add-on that allows you to read text by sentences, "
-#~ "as opposed to by paragraphs or words."
-#~ msgstr ""
-#~ "Die Erweiterung Satznavigation erlaubt das Lesen von Texten Satz für Satz."
-
-#~ msgid "Keystrokes"
-#~ msgstr "Tastenkürzel"
-
-#~ msgid "Alt+Down: Go to next sentence."
-#~ msgstr "Alt+Pfeil abwärts: nächster Satz"
-
-#~ msgid "Alt+Up: Go to previous sentence"
-#~ msgstr "Alt+Pfeil aufwärts: vorheriger Satz"
 
 #~ msgid "Alt+Shift+Down: Go to next text paragraph."
 #~ msgstr "Alt+Umschalt+Pfeil abwärts: nächster Absatz"
@@ -75,8 +95,10 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sentencenav"
 #~ msgstr "Versionsverlauf"
 
 #~ msgid ""
-#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
+#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/"
+#~ "SentenceNav-1.0.nvda-addon)\n"
 #~ "  * Initial release.\n"
 #~ msgstr ""
-#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/SentenceNav-1.0.nvda-addon)\n"
+#~ "* [v1.0](https://github.com/mltony/nvda-sentence-nav/raw/master/releases/"
+#~ "SentenceNav-1.0.nvda-addon)\n"
 #~ "  * Erste Version.\n"
