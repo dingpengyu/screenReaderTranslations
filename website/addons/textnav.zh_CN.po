@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-10 16:10+1000\n"
-"PO-Revision-Date: 2018-11-10 15:27+0800\n"
+"PO-Revision-Date: 2018-11-10 17:36+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +48,7 @@ msgstr "   TextNav允许您只需案一次快捷键即可查找要在网页上�
 #. type: Title ##
 #, no-wrap
 msgid "Source code:"
-msgstr "源代码："
+msgstr "源代码：:"
 
 #. type: Plain text
 msgid "https://github.com/mltony/nvda-text-nav/"
