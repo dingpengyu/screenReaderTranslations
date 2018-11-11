@@ -19,6 +19,7 @@
 - NVDA sẽ không còn đọc các thông tin thừa  khi xem đồng hồ từ khay hệ thống trên vài phiên bản Windows. (#4364)
 - Cập nhật thư viện phiên dịch chữ nổi liblouis lên phiên bản 3.7.0. (#8697)
 - Cập nhật eSpeak-NG lên bản commit 919f3240cbb
+-
 
 == Sửa lỗi ==
 - Trong Outlook 2016/365, trạng thái phân loại và gắn cờ đã được đọc cho các thư. (#8603)
