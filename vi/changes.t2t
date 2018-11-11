@@ -709,6 +709,7 @@ Các cải tiến của bản phát hành này bao gồm các cải thiện cho 
 - Hỗ trợ soạn thảo văn bản với các ứng dụng của Mozilla, như hỗ trợ Google Docs với chế độ chữ nổi được bật trong Mozilla Firefox và HTML composition trong Mozilla Thunderbird. . (#1668)
 - Hỗ trợ soạn thảo văn bản trong Google Chrome và các ứng dụng trên nền tản Chrome như Google Docs với hỗ trợ chữ nổi được bật. (#2634)
  -Yêu cầu Chrome 47 trở lên
+ -
 - Ở  chế độ duyệt trong Microsoft Excel, người dùng có thể di chuyển qua các ô bị khoá trong các bảng tính được bảo vệ. (#4952)
 -
 
@@ -743,8 +744,8 @@ Các cải tiến của bản phát hành này bao gồm các cải thiện cho 
 - Trong Skype cho Desktop, các thông báo bị ẩn đã được NVDA đọc lên. (#4841)
 - Các thông báo đã được NVDA đọc một cách chính xác trong Skype cho Desktop 7.12 trở lên. (#5405)
 NVDA đã đọc chính xác vị trí con trỏ khi tắt trình đơn ngữ cảnh trong một số ứng dụng như Jart. (#5302)
-Windows 7 trở lên, tính năng báo màu đã trở lại trên một số ứng dụng như Wordpad. (#5352)
-Khi soạn thảo trong Microsoft Office Power Point mà bấm Enter, NVDA sẽ thông báo các văn bản đã được nhập vào. Ví dụ như dấu chấm đầu dòng (Bullet). (#5360)
+- Windows 7 trở lên, tính năng báo màu đã trở lại trên một số ứng dụng như Wordpad. (#5352)
+- Khi soạn thảo trong Microsoft Office Power Point mà bấm Enter, NVDA sẽ thông báo các văn bản đã được nhập vào. Ví dụ như dấu chấm đầu dòng (Bullet). (#5360)
 -
 
 
