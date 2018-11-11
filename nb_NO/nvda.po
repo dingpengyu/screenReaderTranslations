@@ -3625,8 +3625,8 @@ msgid ""
 "to the clipboard"
 msgstr ""
 "Leser det gjeldende navigasjonsobjektet. Når du trykker to ganger, staves "
-"informasjonen. Når du trykker tre ganger kopieres navn og nummer fra "
-"objektet til utklippstavlen"
+"informasjonen. Når du trykker tre ganger, kopieres objektets navn og verdi "
+"til utklippstavlen"
 
 #. Translators: message when there is no location information for the review cursor
 #, fuzzy
@@ -10843,12 +10843,12 @@ msgstr "{revisionType} {description}: {text} av {author} den {date}"
 #. Translators: a distance from the left edge of the page in Microsoft Word
 #, python-brace-format
 msgid "{distance} from left edge of page"
-msgstr ""
+msgstr "{distance} fra venstre sidekant"
 
 #. Translators: a distance from the left edge of the page in Microsoft Word
 #, python-brace-format
 msgid "{distance} from top edge of page"
-msgstr ""
+msgstr "{distance} fra sidetopp"
 
 #. Translators: single line spacing
 msgctxt "line spacing value"
