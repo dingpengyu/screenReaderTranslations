@@ -708,9 +708,8 @@ Các cải tiến của bản phát hành này bao gồm các cải thiện cho 
 - Hỗ trợ màn hình chữ nổi  Baum Pronto! V4 và VarioUltra thông qua kết nối Bluetooth. (#3717)
 - Hỗ trợ soạn thảo văn bản với các ứng dụng của Mozilla, như hỗ trợ Google Docs với chế độ chữ nổi được bật trong Mozilla Firefox và HTML composition trong Mozilla Thunderbird. . (#1668)
 - Hỗ trợ soạn thảo văn bản trong Google Chrome và các ứng dụng trên nền tản Chrome như Google Docs với hỗ trợ chữ nổi được bật. (#2634)
- -Yêu cầu Chrome 47 trở lên
- -
-- Ở  chế độ duyệt trong Microsoft Excel, người dùng có thể di chuyển qua các ô bị khoá trong các bảng tính được bảo vệ. (#4952)
+ - Yêu cầu Chrome 47 trở lên
+ - Ở  chế độ duyệt trong Microsoft Excel, người dùng có thể di chuyển qua các ô bị khoá trong các bảng tính được bảo vệ. (#4952)
 -
 
 == Các thay đổi ==
