@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-11 03:13+1000\n"
-"PO-Revision-Date: 2018-05-29 11:14+0200\n"
+"PO-Revision-Date: 2018-11-11 12:34+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -43,6 +43,9 @@ msgid ""
 "to [TextNav](http://github.com/mltony/nvda-text-nav/) add-on that needs to "
 "be installed separately."
 msgstr ""
+"Veuillez noter que la fonctionnalité \"Aller au paragraphe suivant avec du "
+"texte\" a été déplacée dans le complément [TextNav] (http://github.com/"
+"mltony/nvda-text-nav/) qui doit être installé séparément."
 
 #. type: Title ##
 #, no-wrap
@@ -50,32 +53,24 @@ msgid "Keystrokes"
 msgstr "Combinaisons des touches à frapper"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Down arrow: Go to next sentence."
-msgstr "Alt+Bas : Aller à la phrase suivante."
+msgstr "Alt+Flèche Bas : Aller à la phrase suivante."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Up arrow: Go to previous sentence."
-msgstr "Alt+Haut : Aller à la phrase précédente"
+msgstr "Alt+Flèche Haut : Aller à la phrase précédente"
 
 #. type: Bullet: '* '
 msgid "NVDA+Alt+S: Speak current sentence."
-msgstr ""
+msgstr "NVDA+Alt+S : Annoncer phrase actuelle."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Windows+Down arrow: Go to next phrase."
-msgstr "Alt+Bas : Aller à la phrase suivante."
+msgstr "Alt+Windows+Flèche Bas : Aller à la phrase suivante."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Windows+Up arrow: Go to previous phrase."
-msgstr "Alt+Haut : Aller à la phrase précédente"
+msgstr "Alt+Windows+Flèche Haut : Aller à la phrase précédente."
 
 #. type: Plain text
 #, no-wrap
