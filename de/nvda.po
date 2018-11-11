@@ -2098,7 +2098,7 @@ msgstr "Eintrag"
 #. Translators: The word presented for tabs in a tab enabled window.
 msgctxt "controlType"
 msgid "tab"
-msgstr "Tab"
+msgstr "rk"
 
 #. Translators: Identifies a tab control such as webpage tabs in web browsers.
 msgid "tab control"
