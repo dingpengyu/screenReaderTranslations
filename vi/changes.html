@@ -880,6 +880,71 @@ Các cải tiến của bản phát hành này bao gồm khả năng giảm âm 
 Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
 </P>
 
+<H2>2015.4</H2>
+
+<P>
+Các cải tiến của bản phát hành này bao gồm các cải thiện cho việc vận hành trên Windows 10; tích hợp vào Ease of Access Center (Windows 8 trở lên); các cải tiến cho Microsoft Excel, bao gồm liệt kê và đổi tên bảng tính và truy cập các ô bị khóa trong các bảng tính được bảo vệ, hỗ trợ soạn thảo văn bản với Mozilla Firefox, Google Chrome và Mozilla Thunderbird. 
+</P>
+
+<H3>Tính năng mới</H3>
+
+<UL>
+<LI>NVDA được tích hợp trong Ease of access Center. (<A HREF="https://github.com/nvaccess/nvda/issues/308">#308</A>)
+<LI>Khi di chuyển giữa các ô trong Excel, các thay đổi về định dạng sẽ được thông báo nếu bật các tùy chọn liên quan trong hộp thoại định dạng tài liệu. (<A HREF="https://github.com/nvaccess/nvda/issues/4878">#4878</A>)
+<LI>Tích hợp tính năng thông báo nhấn mạnh trong hộp thoại định dạng tài liệu và mặc định được bật. tùy chọn này cho phép NVDA tự thông báo sự tồn tại của các văn bản được nhấn mạnh trong một tài liệu. Đến nay, chỉ 	mới hỗ trợ các thẻ em và strong trong chế độ duyệt cho Internet Explorer và các điều khiển MSHTML khác. (<A HREF="https://github.com/nvaccess/nvda/issues/4920">#4920</A>)
+<LI>NVDA sẽ thông báo các văn bản được chèn và xoá khi soạn thảo ở chế độ duyệt trên các trình biên tập web, nếu bật tính năng Report Editor Revision trong hộp thoại cài đặt tài liệu. (<A HREF="https://github.com/nvaccess/nvda/issues/4920">#4920</A>)
+<LI>Khi xem Track Changes thông qua danh sách các thành phần của NVDA trong Microsoft Word, các thông tin liên quan đến thay đổi định dạng nay đã được hiển thị. (<A HREF="https://github.com/nvaccess/nvda/issues/4920">#4920</A>)
+<LI>Trong Microsoft Excel, bấm NVDA+F7 để liệt kê các bảng tính cũng như đổi tên chúng. (<A HREF="https://github.com/nvaccess/nvda/issues/4630">#4630</A>, <A HREF="https://github.com/nvaccess/nvda/issues/4414">#4414</A>)
+<LI>Trong một bộ đọc, người dùng có thể quy định các dấu câu nào được đọc thông qua hộp thoại Sympal Pronounciation. (<A HREF="https://github.com/nvaccess/nvda/issues/5234">#5234</A>)
+<LI>Trong Microsoft Excel, NVDA giờ đây đã thông báo các thông điệp đầu vào được tạo bởi người tạo bảng tính trên các ô. (<A HREF="https://github.com/nvaccess/nvda/issues/5051">#5051</A>)
+<LI>Hỗ trợ màn hình chữ nổi  Baum Pronto! V4 và VarioUltra thông qua kết nối Bluetooth. (<A HREF="https://github.com/nvaccess/nvda/issues/3717">#3717</A>)
+<LI>Hỗ trợ soạn thảo văn bản với các ứng dụng của Mozilla, như hỗ trợ Google Docs với chế độ chữ nổi được bật trong Mozilla Firefox và HTML composition trong Mozilla Thunderbird. . (<A HREF="https://github.com/nvaccess/nvda/issues/1668">#1668</A>)
+<LI>Hỗ trợ soạn thảo văn bản trong Google Chrome và các ứng dụng trên nền tản Chrome như Google Docs với hỗ trợ chữ nổi được bật. (<A HREF="https://github.com/nvaccess/nvda/issues/2634">#2634</A>)
+ -Yêu cầu Chrome 47 trở lên
+<LI>Ở  chế độ duyệt trong Microsoft Excel, người dùng có thể di chuyển qua các ô bị khoá trong các bảng tính được bảo vệ. (<A HREF="https://github.com/nvaccess/nvda/issues/4952">#4952</A>)
+</UL>
+
+<H3>Các thay đổi</H3>
+
+<UL>
+<LI>Tùy chọn Report Editor Revisions trong hộp thoại định dạng tài liệu của NVDA giờ đây mặc định được bật. (<A HREF="https://github.com/nvaccess/nvda/issues/4920">#4920</A>)
+<LI>khi di chuyển qua từng kí tự trong Microsoft Word với tùy chọn Report Editor Revisions được bật, thông tin cho track changes sẽ được thông báo ít hơn, giúp việc điều hướng trở nên hiệu quả hơn. Để có thêm thông tin, hãy dùng danh sách các thành phần. (<A HREF="https://github.com/nvaccess/nvda/issues/4920">#4920</A>)
+<LI>Cập nhật liblouis braille translator lên 2.6.4. (<A HREF="https://github.com/nvaccess/nvda/issues/5341">#5341</A>)
+<LI>Vài kí hiệu (các kí hiệu toán học cơ bản) đã được chuyển sang cấp độ một vài nên mặc định chúng sẽ được đọc. (# 3799)
+<LI>nếu bộ đọc có hỗ trợ, việc đọc sẽ được ngừng nghĩ khi gặp dấu ngoặc và dấu gạch ngang  (–). (<A HREF="https://github.com/nvaccess/nvda/issues/3799">#3799</A>)
+<LI>Khi quét khối các đoạn văn bản, NVDA sẽ đọc nội dung của đoạn văn bản đó trước khi đọc đang chọn. (<A HREF="https://github.com/nvaccess/nvda/issues/1707">#1707</A>)
+</UL>
+
+<H3>Sửa lỗi</H3>
+
+<UL>
+<LI>Cải tiến nhỏ cho khả năng vận hành khi duyệt danh sách thư trong Outlook 2010/2013. (<A HREF="https://github.com/nvaccess/nvda/issues/5268">#5268</A>)
+<LI>Trong một biểu đồ trong Microsoft Excel, điều hướng bằng một số phím (như là chuyển sang bảng tính khác với control+pageUp và control+pageDown) giờ đâyy đã hoạt động chính xác. (<A HREF="https://github.com/nvaccess/nvda/issues/5336">#5336</A>)
+<LI>Sửa diện mạo của các nút trong hộp thoại cảnh báo được hiển thị khi bạn chuẩn bị cài NVDA bản cũ hơn. (<A HREF="https://github.com/nvaccess/nvda/issues/5325">#5325</A>)
+<LI>Từ Windows 8 trở lên, nếu thiết lập để khởi động cùng với Windows, NVDA sẽ khởi động nhanh hơn. (308)
+ <UL>
+ <LI>Nếu cập nhật NVDA từ các phiên bản cũ hơn, người dùng cần thực hiện các bước sau đây để tắt rồi bật lại để tính năng này phát huy tác dụng:
+  1. Vào hộp thoại Thiết lập chung
+  2. Bỏ chọn Tự khởi động NVDA sau khi đăng nhập vào Windows
+  3. Bấm nút Đồng ý
+  4. Vào lại hộp thoại Thiết lập chung
+  5. Đánh dấu chọn vào Tự khởi động NVDA sau khi đăng nhập vào Windows
+  6. Bấm nút OK
+ </UL>
+<LI>Cải thiện vận hành cho UI Automation bao gồm File Explorer và Task Viewer. (<A HREF="https://github.com/nvaccess/nvda/issues/5293">#5293</A>)
+<LI>NVDA sẽ tự chuyển sang chế độ Focus nếu di chuyển bằng Tab đến các điều khiển có thuộc tính chỉ đọc ở chế độ duyệt trong Mozilla Firefox và các điều khiển trên nền Gecko. (<A HREF="https://github.com/nvaccess/nvda/issues/5118">#5118</A>)
+<LI>NVDA đã đọc chính xác là “No Previous” thay vì “No Next” khi vuốt sang trái trên màn hình cảm ứng mà không còn đối tượng để di chuyển con trỏ đến.
+<LI>Sửa lỗi khi gõ nhiều từ trong ô lọc trong hộp thoại quản lý thao tác. (<A HREF="https://github.com/nvaccess/nvda/issues/5426">#5426</A>)
+<LI>NVDA không còn bị treo trong vài trường hợp khi kết nối lại với một màn hình nổi HumanWare dòng Brailliant BI/B thông qua USB. (<A HREF="https://github.com/nvaccess/nvda/issues/5406">#5406</A>)
+<LI>Trong các ngôn ngữ với các kí tự kết hợp, mô tả kí tự giờ đã hoạt động như mong muốn cho chữ hoa tiếng Anh. (<A HREF="https://github.com/nvaccess/nvda/issues/5375">#5375</A>)
+<LI>NVDA không còn thỉnh thoảng bị đứng khi mở Start Menu trên Windows 10. (<A HREF="https://github.com/nvaccess/nvda/issues/5417">#5417</A>)
+<LI>Trong Skype cho Desktop, các thông báo bị ẩn đã được NVDA đọc lên. (<A HREF="https://github.com/nvaccess/nvda/issues/4841">#4841</A>)
+<LI>Các thông báo đã được NVDA đọc một cách chính xác trong Skype cho Desktop 7.12 trở lên. (<A HREF="https://github.com/nvaccess/nvda/issues/5405">#5405</A>)
+NVDA đã đọc chính xác vị trí con trỏ khi tắt trình đơn ngữ cảnh trong một số ứng dụng như Jart. (<A HREF="https://github.com/nvaccess/nvda/issues/5302">#5302</A>)
+Windows 7 trở lên, tính năng báo màu đã trở lại trên một số ứng dụng như Wordpad. (<A HREF="https://github.com/nvaccess/nvda/issues/5352">#5352</A>)
+Khi soạn thảo trong Microsoft Office Power Point mà bấm Enter, NVDA sẽ thông báo các văn bản đã được nhập vào. Ví dụ như dấu chấm đầu dòng (Bullet). (<A HREF="https://github.com/nvaccess/nvda/issues/5360">#5360</A>)
+</UL>
+
 <H2>Các phiên bản cũ</H2>
 
 <P>
