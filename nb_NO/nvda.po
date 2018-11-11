@@ -459,7 +459,7 @@ msgstr "ivlg"
 #. Translators: Displayed in braille for the banner landmark, normally found on web pages.
 msgctxt "braille landmark abbreviation"
 msgid "bnnr"
-msgstr ""
+msgstr "bnr"
 
 #. Translators: Displayed in braille for the complementary landmark, normally found on web pages.
 msgctxt "braille landmark abbreviation"
@@ -3052,7 +3052,7 @@ msgid ""
 "Cycles through audio ducking modes which determine when NVDA lowers the "
 "volume of other sounds"
 msgstr ""
-"Blar gjennom modier for lyddemping, som avgjør når NVDA demper lydnivået på "
+"Blar gjennom modier for lyddemping, som avgjør når NVDA demper nivået på "
 "annen lyd"
 
 #. Translators: This will be presented when the input help is toggled.
@@ -3070,7 +3070,7 @@ msgid ""
 msgstr ""
 "Slår hjelp for inndata på eller av. Når på, vil inndata som trykk på "
 "tastaturet fortelle deg hvilket skript som er forbundet med handlingen, om "
-"noe"
+"det finnes noe."
 
 #. Translators: This is presented when sleep mode is deactivated, NVDA will continue working as expected.
 msgid "Sleep mode off"
@@ -3093,7 +3093,7 @@ msgid ""
 "using character descriptions."
 msgstr ""
 "Leser den gjeldende linjen under applikasjonsmarkøren. Trykket to ganger "
-"staves den gjeldende linjen"
+"staves den gjeldende linjen. Tre trykk vil stave linjen med tegnbeskrivelser."
 
 #. Translators: Reported when left mouse button is clicked.
 msgid "Left click"
@@ -3638,10 +3638,12 @@ msgid ""
 "Reports information about the location of the text or object at the review "
 "cursor. Pressing twice may provide further detail."
 msgstr ""
+"Rapporterer informasjon om plasseringen av teksten eller objektet under "
+"lesemarkøren. To trykk kan gi mer detaljer."
 
 #. Translators: Reported when attempting to move the navigator object to focus.
 msgid "Move to focus"
-msgstr "Gå til fokus"
+msgstr "Flytt til fokus"
 
 #. Translators: Input help mode message for move navigator object to current focus command.
 msgid ""
@@ -3649,7 +3651,7 @@ msgid ""
 "position of the caret inside it, if possible."
 msgstr ""
 "Setter navigasjonsobjektet til gjeldende fokus, og lesemarkøren til "
-"posisjonen inne i det, om mulig."
+"posisjonen for markøren inne i det, om mulig."
 
 #. Translators: Reported when:
 #. 1. There is no focusable object e.g. cannot use tab and shift tab to move to controls.
@@ -3751,7 +3753,8 @@ msgid ""
 "Pressing three times will spell the line using character descriptions."
 msgstr ""
 "Leser linjen hvor det gjeldende navigasjonsobjektet er plassert. Dersom "
-"tasten trykkes to ganger, vil linjen bli stavet"
+"tasten trykkes to ganger, vil linjen bli stavet. Tre trykk vil stave linjen "
+"med tegnbeskrivelser."
 
 #. Translators: Input help mode message for move review cursor to next line command.
 msgid ""
@@ -3783,7 +3786,7 @@ msgid ""
 "situated. Pressing twice spells the word. Pressing three times spells the "
 "word using character descriptions"
 msgstr ""
-"Sier det ordet til det gjeldende navigasjonsobjektet lesemarkøren befinner "
+"Leser ordet i det gjeldende navigasjonsobjektet der lesemarkøren befinner "
 "seg. Ved å trykke to ganger staves ordet. Ved å trykke tre ganger staves "
 "ordet med tegnbeskrivelser"
 
@@ -3928,13 +3931,12 @@ msgid ""
 "document. If pressed twice, presents the information in browse mode"
 msgstr ""
 "Rapporterer formateringsinformasjon for gjeldende lesemarkørposisjon i et "
-"dokument.Om trykket to ganger, blir informasjonen presentert i nettmodus"
+"dokument. To trykk presenterer informasjonen i nettmodus"
 
 #. Translators: Input help mode message for report current focus command.
 #, fuzzy
 msgid "Reports the object with focus. If pressed twice, spells the information"
-msgstr ""
-"Rapporterer objektet med fokus. Hvis trykket to ganger, staves informasjonen"
+msgstr "Rapporterer objektet med fokus. Ved to trykk staves informasjonen"
 
 #. Translators: Reported when there is no status line for the current program or window.
 msgid "No status line found"
@@ -4034,7 +4036,7 @@ msgid ""
 "Toggles on and off the reporting of dynamic content changes, such as new "
 "text in dos console windows"
 msgstr ""
-"Slår på og av varsling om oppdatert dynamisk innhold, som eksempelvis ny "
+"Slår på og av varsling om oppdatert dynamisk innhold, som for eksempel ny "
 "tekst i ledetekstvinduer"
 
 #. Translators: presented when toggled.
@@ -4347,8 +4349,9 @@ msgid ""
 "including the current position of the review cursor is selected. If pressed "
 "twice, the text is copied to the clipboard"
 msgstr ""
-"Henter teksten fra den tidligere angitte startmarkøren til og med nåvÃ¦rende "
-"posisjon av lesemarkøren og kopierer den til utklippstavlen"
+"Ved ett trykk velges teksten fra det tidligere satte startmerket til og med "
+"nåværende posisjon for lesemarkøren. Ved to trykk kopieres teksten til "
+"utklippstavlen"
 
 #. Translators: Input help mode message for a braille command.
 msgid "Scrolls the braille display back"
@@ -4470,8 +4473,8 @@ msgid ""
 "Reports the new object or content under your finger if different to where "
 "your finger was last"
 msgstr ""
-"Leser det nye objektet eller innholdet under fingeren hvis det er forandret "
-"fra forrige fingerplassering"
+"Rapporterer det nye objektet eller innholdet under fingeren hvis det er "
+"endret fra forrige fingerplassering"
 
 #. Translators: Describes the command to open the Configuration Profiles dialog.
 msgid "Shows the NVDA Configuration Profiles dialog"
@@ -4479,11 +4482,11 @@ msgstr "Viser NVDAs-dialogen for konfigurasjonsprofiler"
 
 #. Translators: The message announced when temporarily disabling all configuration profile triggers.
 msgid "Configuration profile triggers disabled"
-msgstr ""
+msgstr "Triggere for konfigurasjonsprofil slått av"
 
 #. Translators: The message announced when re-enabling all configuration profile triggers.
 msgid "Configuration profile triggers enabled"
-msgstr ""
+msgstr "Triggere for konfigurasjonsprofil slått på"
 
 #. Translators: Input help mode message for toggle configuration profile triggers command.
 msgid ""
@@ -11202,7 +11205,7 @@ msgstr "Linjeavstand 1,5"
 #~ msgstr "Serier"
 
 #~ msgid "Primary"
-#~ msgstr "PrimÃ¦r"
+#~ msgstr "Primær"
 
 #, fuzzy
 #~ msgid "trendline"
