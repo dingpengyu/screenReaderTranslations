@@ -727,12 +727,13 @@ Các cải tiến của bản phát hành này bao gồm các cải thiện cho 
 - Sửa diện mạo của các nút trong hộp thoại cảnh báo được hiển thị khi bạn chuẩn bị cài NVDA bản cũ hơn. (#5325)
 - Từ Windows 8 trở lên, nếu thiết lập để khởi động cùng với Windows, NVDA sẽ khởi động nhanh hơn. (308)
  - Nếu cập nhật NVDA từ các phiên bản cũ hơn, người dùng cần thực hiện các bước sau đây để tắt rồi bật lại để tính năng này phát huy tác dụng:
-  1. Vào hộp thoại Thiết lập chung
-  2. Bỏ chọn Tự khởi động NVDA sau khi đăng nhập vào Windows
-  3. Bấm nút Đồng ý
-  4. Vào lại hộp thoại Thiết lập chung
-  5. Đánh dấu chọn vào Tự khởi động NVDA sau khi đăng nhập vào Windows
-  6. Bấm nút OK
+  + Vào hộp thoại Thiết lập chung
+  + Bỏ chọn Tự khởi động NVDA sau khi đăng nhập vào Windows
+  + Bấm nút Đồng ý
+  + Vào lại hộp thoại Thiết lập chung
+  + Đánh dấu chọn vào Tự khởi động NVDA sau khi đăng nhập vào Windows
+  + Bấm nút OK
++
 - Cải thiện vận hành cho UI Automation bao gồm File Explorer và Task Viewer. (#5293)
 - NVDA sẽ tự chuyển sang chế độ Focus nếu di chuyển bằng Tab đến các điều khiển có thuộc tính chỉ đọc ở chế độ duyệt trong Mozilla Firefox và các điều khiển trên nền Gecko. (#5118)
 - NVDA đã đọc chính xác là “No Previous” thay vì “No Next” khi vuốt sang trái trên màn hình cảm ứng mà không còn đối tượng để di chuyển con trỏ đến.
