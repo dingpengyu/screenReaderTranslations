@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SentenceNav\n"
 "POT-Creation-Date: 2018-11-11 03:13+1000\n"
-"PO-Revision-Date: 2018-11-10 14:27+0200\n"
+"PO-Revision-Date: 2018-11-12 12:13+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -45,6 +45,9 @@ msgid ""
 "to [TextNav](http://github.com/mltony/nvda-text-nav/) add-on that needs to "
 "be installed separately."
 msgstr ""
+"Huom: \"Siirrä seuraavaan tekstikappaleeseen\" -toiminto on siirretty "
+"[TextNav](http://github.com/mltony/nvda-text-nav/)-lisäosaan, joka on "
+"asennettava erikseen."
 
 #. type: Title ##
 #, no-wrap
@@ -52,32 +55,24 @@ msgid "Keystrokes"
 msgstr "Näppäinkomennot"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Down arrow: Go to next sentence."
-msgstr "Alt+Nuoli alas: Siirry seuraavaan lauseeseen."
+msgstr "Alt+Nuoli alas: Siirrä seuraavaan lauseeseen."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Up arrow: Go to previous sentence."
-msgstr "Alt+Nuoli ylös: Siirry edelliseen lauseeseen."
+msgstr "Alt+Nuoli ylös: Siirrä edelliseen lauseeseen."
 
 #. type: Bullet: '* '
 msgid "NVDA+Alt+S: Speak current sentence."
-msgstr ""
+msgstr "NVDA+Alt+S: Puhu nykyinen lause."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Windows+Down arrow: Go to next phrase."
-msgstr "Alt+Nuoli alas: Siirry seuraavaan lauseeseen."
+msgstr "Alt+Win+Nuoli alas: Siirrä seuraavaan virkkeeseen."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Windows+Up arrow: Go to previous phrase."
-msgstr "Alt+Nuoli ylös: Siirry edelliseen lauseeseen."
+msgstr "Alt+Win+Nuoli ylös: Siirrä edelliseen virkkeeseen."
 
 #. type: Plain text
 #, no-wrap
