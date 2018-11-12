@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 00:10+1000\n"
-"PO-Revision-Date: 2018-11-09 10:10+0000\n"
+"PO-Revision-Date: 2018-11-12 10:07+0000\n"
 "Last-Translator: Osman H Baiia <othman82@hotmail.com>\n"
 "Language-Team: \n"
 "Language: so\n"
@@ -2619,108 +2619,108 @@ msgstr "akhri oo kaliya"
 
 #. Translators: This is presented when a tree view or submenu item is expanded.
 msgid "expanded"
-msgstr ""
+msgstr "furan"
 
 #. Translators: This is presented when a tree view or submenu is collapsed.
 msgid "collapsed"
-msgstr ""
+msgstr "xiran"
 
 #. Translators: This is presented when a control or a document becomes invisible.
 msgid "invisible"
-msgstr ""
+msgstr "aan muuqan"
 
 #. Translators: This is presented when a visited link is encountered.
 msgid "visited"
-msgstr ""
+msgstr "booqday"
 
 #. Translators: This is presented when a link is encountered.
 msgid "linked"
-msgstr ""
+msgstr "isku xiran"
 
 #. Translators: This is presented when the control menu item has a submenu.
 msgid "subMenu"
-msgstr ""
+msgstr "sabmenyu"
 
 #. Translators: This is presented when a protected control or a document is encountered.
 msgid "protected"
-msgstr ""
+msgstr "ilaaliyo"
 
 #. Translators: This is presented when a required form field is encountered.
 msgid "required"
-msgstr ""
+msgstr "loo baahan yahay"
 
 #. Translators: Reported when an object no longer exists in the user interface;
 #. i.e. it is dead and is no longer usable.
 msgid "defunct"
-msgstr ""
+msgstr "Shaqaale aan lahayn"
 
 #. Translators: This is presented when an invalid entry has been made.
 msgid "invalid entry"
-msgstr ""
+msgstr "gelitaan aan sax ahayn"
 
 msgid "modal"
-msgstr ""
+msgstr "qaab"
 
 #. Translators: This is presented when a field supports auto completion of entered text such as email address field in Microsoft Outlook.
 msgid "has auto complete"
-msgstr ""
+msgstr "wuxuu leeyahay dhameystirid"
 
 #. Translators: This is presented when an edit field allows typing multiple lines of text such as comment fields on websites.
 msgid "multi line"
-msgstr ""
+msgstr "khadadka badan"
 
 msgid "iconified"
 msgstr ""
 
 #. Translators: Presented when the current control is located off screen.
 msgid "off screen"
-msgstr ""
+msgstr "shaashadda ka baxsan"
 
 #. Translators: Presented when the control allows selection such as text fields.
 msgid "selectable"
-msgstr ""
+msgstr "la dooran karo"
 
 #. Translators: Presented when a control can be moved to using system focus.
 msgid "focusable"
-msgstr ""
+msgstr "la diirada saarin karo"
 
 #. Translators: Presented when a control allows clicking via mouse (mostly presented on web controls).
 msgid "clickable"
-msgstr ""
+msgstr "la riixi karo"
 
 msgid "editable"
-msgstr ""
+msgstr "la beddel karo"
 
 msgid "checkable"
-msgstr ""
+msgstr "la hubin karo"
 
 msgid "draggable"
-msgstr ""
+msgstr "la giido karo"
 
 msgid "dragging"
-msgstr ""
+msgstr "jiidaya"
 
 #. Translators: Reported where an object which is being dragged can be dropped.
 #. This is only reported for objects that support accessible drag and drop.
 msgid "drop target"
-msgstr ""
+msgstr "bartilmaameedka dhigo"
 
 msgid "sorted"
-msgstr ""
+msgstr "kala soocaya"
 
 msgid "sorted ascending"
-msgstr ""
+msgstr "kala soocaya kicin"
 
 msgid "sorted descending"
-msgstr ""
+msgstr "kala soocaya  hoos u dhacin"
 
 #. Translators: a state that denotes that an object (usually a graphic) has a long description.
 msgid "has long description"
-msgstr ""
+msgstr "wuxuu leeyahay sharaxaad dheer"
 
 #. Translators: a state that denotes that an object is pinned in its current location
 msgid "pinned"
-msgstr ""
+msgstr "qadarin"
 
 #. Translators: a state that denotes the existance of a formula on a spreadsheet cell
 msgid "has formula"
