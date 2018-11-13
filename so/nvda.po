@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 00:10+1000\n"
-"PO-Revision-Date: 2018-11-13 09:58+0000\n"
+"PO-Revision-Date: 2018-11-13 10:58+0000\n"
 "Last-Translator: Osman H Baiia <othman82@hotmail.com>\n"
 "Language-Team: \n"
 "Language: so\n"
@@ -2846,7 +2846,7 @@ msgstr "Bateriga aan la buuxin. %d percent"
 
 #. Translators: This is shown on a braille display (if one is connected) when NVDA starts.
 msgid "NVDA started"
-msgstr "NVDA ayaa bilaabay"
+msgstr "NVDA bilowday"
 
 #. Translators: Title of a dialog to find text.
 msgid "Find"
