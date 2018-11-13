@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 00:10+1000\n"
-"PO-Revision-Date: 2018-11-12 19:52+0100\n"
+"PO-Revision-Date: 2018-11-13 17:44+0100\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: equipo de traducción al español de NVDA <oprisniki@gmail."
 "com>\n"
@@ -134,7 +134,7 @@ msgstr "navegación"
 #. Translators: Reported for the search landmark, normally found on web pages.
 msgctxt "aria"
 msgid "search"
-msgstr "bússqueda"
+msgstr "búsqueda"
 
 #. Translators: Reported for the form landmark, normally found on web pages.
 msgctxt "aria"
