@@ -1,6 +1,0 @@
-commit 8e7233424f969f2697f412f7d8919e30d8887580
-Merge: 74740ee 366fcf7
-Author: Michael Curran <mick@nvaccess.org>
-Date:   Tue Sep 18 14:50:33 2018 +1000
-
-    Merge branch 'master' into beta
