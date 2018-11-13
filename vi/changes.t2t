@@ -435,7 +435,7 @@ Một số điểm nổi bật trong bản phát hành này bao gồm: hỗ tr�
  
 
 = 2017.1 =
-Một số tính năng mới nổi bật trong phiên bản này bao ;gồm thông báo các vùng và cột nội dung trong Microsoft Word; hỗ trợ di chuyển, ghi chú lại và đọc sách với máy Kindle bản PC; và những cải thiện cho Microsoft Edge.
+Một số tính năng mới nổi bật trong phiên bản này bao gồm thông báo các vùng và cột nội dung trong Microsoft Word; hỗ trợ di chuyển, ghi chú lại và đọc sách với máy Kindle bản PC; và những cải thiện cho Microsoft Edge.
 
 == Tính Năng Mới ==
 - Đã có thể thông báo các kiểu số phân vùng và ngắt vùng trong Microsoft Word . Chức năng này được bật ở tùy chọn "Báo số trang" trong hộp thoại định dạng tài liệu. (#5946)
@@ -748,6 +748,51 @@ NVDA đã đọc chính xác vị trí con trỏ khi tắt trình đơn ngữ c�
 - Windows 7 trở lên, tính năng báo màu đã trở lại trên một số ứng dụng như Wordpad. (#5352)
 - Khi soạn thảo trong Microsoft Office Power Point mà bấm Enter, NVDA sẽ thông báo các văn bản đã được nhập vào. Ví dụ như dấu chấm đầu dòng (Bullet). (#5360)
 -
+
+
+= 2015.3 =
+Các cải tiến của bản phát hành này bao gồm việc  bắt đầu hỗ trợ cho Windows 10; khả năng vô hiệu hóa kí tự di chuyển nhanh trong chế độ duyệt (hữu dụng cho vài ứng dụng web); cải thiện cho Internet Explorer; và sửa lỗi văn bản bị cắt khi nhập liệu trong một số ứng dụng với chữ nổi được bật.
+
+
+== Các tính năng mới ==
+- lỗi chính tả đã được thông báo trong các trường nhập liệu với Internet Explorer và các điều khiển MSHTML khác. (#4174)
+- Nhiều kí hiệu toán học mã Unicode giờ đây đã được đọc khi chúng xuất hiện trong văn bản. (#3805)
+- Đã tự đọc gợi ý tìm kiếm trong start screen của Windows 10. (#5049)
+- Hỗ trợ các màn hình nổi EcoBraille 20, EcoBraille 40, EcoBraille 80 và EcoBraille Plus. (#4078)
+- Trong chế độ duyệt, có thể bật / tắt kí tự di chuyển nhanh bằng lệnh NVDA+shift+khoảng trắng. khi tắt, các phím chữ sẽ được chuyển tới ứng dụng, có ích cho một số ứng dụng web như Gmail, Twitter và Facebook. (#3203)
+- Các bản chữ nổi mới: Phần Lan 6 chấm, Ailen cấp 1, Ailen cấp 2, Hàn quốc cấp 1 (2006), Hàn Quốc cấp 2 (2006). (#5137, #5074, #5097)
+- Bàn phím QWERTY trên màn hình nổi Papenmeier BRAILLEX Live Plus đã được hỗ trợ. (#5181)
+- Thử nghiệm hỗ trợ cho trình duyệt web Microsoft Edge và browsing engine trong Windows 10. (#5212)
+- Ngôn ngữ mới: Kannada.
+
+
+== Các thay đổi ==
+- Cập nhật thư viện biên dịch chữ nổi liblouis lên 2.6.3. (#5137)
+- Khi chuẩn bị cài một bản NVDA cũ hơn bản hiện tại, bạn sẽ được cảnh báo rằng điều này không được khuyến khích và phải gỡ hoàn toàn NVDA trước khi thực hiện. (#5037)
+
+
+== Sửa lỗi ==
+- Ở chế độ duyệt trong Internet Explorer và các điều khiển MSHTML khác, di chuyển nhanh qua các biểu mẫu không còn bao gồm các danh sách ngoài ý muốn. (#4204)
+- Trong Firefox, NVDA không còn thông báo nội dung của một ARIA tab panel một cách không hợp lý khi focus chuyển vào bên trong nó. (#4638)
+- Trong Internet Explorer và các điều khiển MSHTML khác, tab đến một phần, các bài viết hay các hộp thoại sẽ không còn tình trạng thông báo toàn bộ nội dung bên trong một cách không hợp lý. (#5021, #5025)
+- Khi dùng các màn hình nổi Baum/HumanWare/APH  với bàn phím chữ nổi, đầu vào chữ nổi không còn bị ngưng hoạt động sau khi bấm các kiểu phím khác trên màn hình. (#3541)
+- Trong Windows 10, các thông tin không liên quan không còn được thông báo khi bấm alt+tab hay alt+shift+tab để chuyển giữa các cửa sổ. (#5116)
+- Văn bản được nhập không còn bị cắt khi dùng một số ứng dụng như Microsoft Outlook với màn hình chữ nổi. (#2953)
+- Ở chế độ duyệt trong Internet Explorer và các điều khiển MSHTML khác, nội dung chính xác đã được thông báo khi một thành phần xuất hiện hay thay đổi và focus được đưa đến đó ngay lập tức. (#5040)
+- Ở chế độ duyệt trong Microsoft Word, kí tự di chuyển nhanh giờ đây đã cập nhật màn hình chữ nổi và con trỏ duyệt như mong muốn. (#4968)
+- Trong chữ nổi, các khoảng trắng không liên quan không còn hiển thị giữa hay sau các chỉ báo cho các điều khiển và định dạng. (#5043)
+- khi một ứng dụng phản ứng chậm chạp và bạn chuyển cửa sổ đi khỏi nó, NVDA đã phản ứng nhanh hơn ở các ứng dụng kia trong đa số trường hợp. (#3831)
+- Thông báo Toast của Windows 10 đã được đọc như mong đợi. (#5136)
+- Giá trị đã được đọc đúng như thay đổi của nó trong một số hộp xổ (UI Automation) vốn trước đây không đọc được.
+- Ở chế độ duyệt trong các trình duyệt, lệnh tab đã hoạt động như mong đợi sau khi tab đến một khung tài liệu. (#5227)
+- Đã có thể bỏ qua Màn hình khóa của Windows 10 thông qua màn hình cảm ứng . (#5220)
+- Trong Windows 7 và cao hơn, văn bản không còn bị cắt khi nhập trong một số ứng dụng như Wordpad và Skype với màn hình chữ nổi. (#4291)
+- Ở màn hình khóa của Windows 10, không còn đọc được nội dung bộ nhớ tạm, truy cập các ứng dụng đang chạy bằng con trỏ duyệt, thay đổi cấu hình cho NVDA, v...v... (#5269)
+-
+
+
+= Các thay đổi cho nhà phát triển =
+Phần này không được dịch. Vui lòng xem bản tiếng Anh changes.t2t để biết thêm thông tin.
 
 
 = Các phiên bản cũ =
