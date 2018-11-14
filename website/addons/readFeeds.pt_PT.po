@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Leitor de RSS\n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-09-26 15:42+0100\n"
+"PO-Revision-Date: 2018-11-14 18:23+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -280,10 +280,9 @@ msgstr ""
 "selecionado e o número de itens disponíveis."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 5.0"
+#, no-wrap
 msgid "Changes for 6.0"
-msgstr "Alterações para 5.0:"
+msgstr "Alterações para 6.0:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -291,10 +290,14 @@ msgid ""
 "issues, the previous articles aren't deleted and can be read with the "
 "corresponding keystrokes."
 msgstr ""
+"Quando o feed padrão é actualizado e para de funcionar devido a problemas do "
+"servidor, os artigos anteriores não são excluídos e podem ser lidos, pelo "
+"uso das teclas correspondentes."
 
 #. type: Bullet: '* '
 msgid "Fix regression: The default feed can be updated twice again."
 msgstr ""
+"Corrigida regressão: o feed padrão pode ser atualizado duas vezes, novamente."
 
 #. type: Title ##
 #, no-wrap

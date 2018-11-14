@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Navegar por frases\n"
 "POT-Creation-Date: 2018-11-11 03:13+1000\n"
-"PO-Revision-Date: 2018-11-10 15:20+0000\n"
+"PO-Revision-Date: 2018-11-14 18:15+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -45,6 +45,9 @@ msgid ""
 "to [TextNav](http://github.com/mltony/nvda-text-nav/) add-on that needs to "
 "be installed separately."
 msgstr ""
+"Note que o recurso \"Ir para o próximo parágrafo de texto\" foi movido para "
+"o extra [TextNav] (http://github.com/mltony/nvda-text-nav/) que precisa ser "
+"instalado separadamente."
 
 #. type: Title ##
 #, no-wrap
@@ -52,32 +55,24 @@ msgid "Keystrokes"
 msgstr "Teclas de atalho:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Down arrow: Go to next sentence."
-msgstr "Alt+seta para baixo: Lê a próxima frase."
+msgstr "Alt+seta para baixo: Lê a próxima frase;"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Up arrow: Go to previous sentence."
-msgstr "Alt+seta para cima: Lê a frase anterior"
+msgstr "Alt+seta para cima: Lê a frase anterior;"
 
 #. type: Bullet: '* '
 msgid "NVDA+Alt+S: Speak current sentence."
-msgstr ""
+msgstr "NVDA+Alt+S: lê a frase actual;"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Down: Go to next sentence."
 msgid "Alt+Windows+Down arrow: Go to next phrase."
-msgstr "Alt+seta para baixo: Lê a próxima frase."
+msgstr "Alt+windows+seta para baixo: Lê a próxima frase."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Alt+Up: Go to previous sentence"
 msgid "Alt+Windows+Up arrow: Go to previous phrase."
-msgstr "Alt+seta para cima: Lê a frase anterior"
+msgstr "Alt+windows+seta para cima: Lê a frase anterior"
 
 #. type: Plain text
 #, no-wrap

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-11 05:59+1000\n"
-"PO-Revision-Date: 2018-11-10 16:13+0000\n"
+"PO-Revision-Date: 2018-11-11 12:06+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt_PT\n"
@@ -30,18 +30,6 @@ msgid "Download [stable version][1]"
 msgstr "Baixar [Versão estável][1]"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "TextNav allows you to find text that you want to read on a web page \n"
-#| "in just a single keystroke.\n"
-#| "More precisely, it adds a keystroke to jump to next or previous \n"
-#| "text paragraphs - that is a paragraph containing one or more sentences.\n"
-#| "This feature might be useful to quickly find the textual part of a \n"
-#| "web page or to skip over menus, advertisements and other not important \n"
-#| "page elements.\n"
-#| "Keystrokes:\n"
-#| "    * Alt+Shift+Down: Go to next text paragraph.\n"
-#| "    * Alt+Shift+Up: Go to previous text paragraph.\n"
 msgid ""
 "TextNav allows you to find text that you want to read on a web page in just "
 "a single keystroke.  More precisely, it adds a keystroke to jump to next or "
@@ -53,29 +41,26 @@ msgstr ""
 "O TextNav permite-lhe encontrar o texto que deseja ler, numa página da web\n"
 "com apenas uma única tecla.\n"
 "Mais precisamente, adiciona um pressionar de tecla para saltar para o "
-"próximo ou para o anterior\n"
-"parágrafos de texto - isto é, um parágrafo contendo uma ou mais frases.\n"
+"próximo parágrafo ou para o anterior\n"
+"de texto - isto é, um parágrafo contendo uma ou mais frases.\n"
 "Esse recurso pode ser útil para encontrar rapidamente a parte textual de "
 "uma\n"
 "página web ou para saltar menus, anúncios e outros elementos não "
 "importantes\n"
-"da página.\n"
-"Teclas:\n"
-"    * Alt+Shift+setaAbaixo: Ir para o próximo parágrafo de texto.\n"
-"    * Alt+Shift+setaAcima: Ir para o parágrafo do texto anterior.\n"
+"da página."
 
 #. type: Title ##
 #, no-wrap
 msgid "Keystrokes: "
-msgstr ""
+msgstr "Teclas de Atalho"
 
 #. type: Bullet: '* '
 msgid "Alt+Shift+Down arrow: Go to next text paragraph."
-msgstr ""
+msgstr "Alt+Shift+setaAbaixo: Vai para o próximo parágrafo de texto"
 
 #. type: Bullet: '* '
 msgid "Alt+Shift+Up arrow: Go to previous text paragraph."
-msgstr ""
+msgstr "Alt+Shift+SetaAcima: vai para o parágrafo de texto anterior"
 
 #. type: Plain text
 #, no-wrap
@@ -84,7 +69,7 @@ msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=textnav"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=textnav"
 
 #~ msgid "Source code:"
 #~ msgstr "Código fonte:"
