@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Add-on website files\n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-10-06 14:24+0100\n"
-"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"PO-Revision-Date: 2018-11-14 09:59+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -185,16 +185,18 @@ msgstr ""
 "y no las marcas."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 12.0"
-msgstr "Cambios para 1.0"
+msgstr "Cambios para 12.0"
 
 #. type: Bullet: '*	'
 msgid ""
 "Fixed a critical bug which caused NVDA to crash when trying to open the "
 "Notes dialog, if chinese characters were selected before saving bookmarks."
 msgstr ""
+"Solucionado un error crítico que causaba el cierre de NVDA al tratar de "
+"abrir el diálogo de notas si estaban seleccionados caracteres chinos antes "
+"de guardar marcadores."
 
 #. type: Title ##
 #, no-wrap

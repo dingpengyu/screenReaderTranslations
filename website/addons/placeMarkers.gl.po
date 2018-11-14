@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Add-on website files\n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-10-26 20:59+0200\n"
+"PO-Revision-Date: 2018-11-14 10:00+0100\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Add-ons translation team <oprisniki@gmail.com>\n"
 "Language: gl\n"
@@ -192,6 +192,9 @@ msgid ""
 "Fixed a critical bug which caused NVDA to crash when trying to open the "
 "Notes dialog, if chinese characters were selected before saving bookmarks."
 msgstr ""
+"Solucionado un erro crítico que causaba o peche de NVDA ao tratar de abrir o "
+"diálogo de notas cando estaban seleccionados caracteres chinos antes de "
+"gardar marcadores."
 
 #. type: Title ##
 #, no-wrap

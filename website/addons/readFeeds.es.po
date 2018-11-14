@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Add-on Website files\n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-09-24 22:34+0200\n"
-"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"PO-Revision-Date: 2018-11-14 10:04+0100\n"
+"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -280,10 +280,9 @@ msgstr ""
 "seleccionado y el número de elementos disponibles."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 5.0"
+#, no-wrap
 msgid "Changes for 6.0"
-msgstr "Cambios para 5.0"
+msgstr "Cambios para 6.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -291,10 +290,15 @@ msgid ""
 "issues, the previous articles aren't deleted and can be read with the "
 "corresponding keystrokes."
 msgstr ""
+"Cuando se refresca el feed por defecto y deja de funcionar por errores en el "
+"servidor, los artículos anteriores no se borran y pueden leerse con los "
+"atajos correspondientes."
 
 #. type: Bullet: '* '
 msgid "Fix regression: The default feed can be updated twice again."
 msgstr ""
+"Solucionada regresión: El feed por defecto puede actualizarse dos veces "
+"nuevamente."
 
 #. type: Title ##
 #, no-wrap
