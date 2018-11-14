@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ReadFeedsPACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2013-12-05 22:43+0200\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: turkish <cagrid@hotmail.com>\n"
@@ -250,6 +250,23 @@ msgstr ""
 msgid ""
 "The title of the articles list dialog displays the selected feed name and "
 "number of items available."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 6.0"
+msgstr "1.0 Değişiklikler"
+
+#. type: Bullet: '* '
+msgid ""
+"When the default feed has been updated and it stops working due to server "
+"issues, the previous articles aren't deleted and can be read with the "
+"corresponding keystrokes."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix regression: The default feed can be updated twice again."
 msgstr ""
 
 #. type: Title ##

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Add-on website files\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2018-10-26 20:59+0200\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Add-ons translation team <oprisniki@gmail.com>\n"
@@ -180,6 +180,18 @@ msgstr ""
 "Nota: A posición da marca baséase no número de caracteres, polo tanto en "
 "páxinas con contido dinámico é mellor usar a busca específica,e non as "
 "marcas."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Cambios para 1.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -447,7 +459,6 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #. type: Plain text
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
 msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
 

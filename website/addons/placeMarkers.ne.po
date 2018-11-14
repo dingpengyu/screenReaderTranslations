@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION1.0\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2016-12-29 15:15-0800\n"
 "Last-Translator: drishtibachak@gmail.com\n"
 "Language-Team: Nepali <drishtibachak@gmail.com>\n"
@@ -183,6 +183,18 @@ msgid ""
 msgstr ""
 "टिप्पणी: पुस्तकचिनोको स्थान वर्णहरुको सङ्ख्या; गतिसील सामाग्री युक्त पृष्ठमा हुने भएकोले "
 "विसेष खोजी गर्नु राम्रो हुन्छ  तर निदिर्ट पुस्तकचिनो मा होइन ।"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "१.० मा गरिएका परिवर्तनहरू"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

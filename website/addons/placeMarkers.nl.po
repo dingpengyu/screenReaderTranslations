@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2016-12-29 15:16-0800\n"
 "Last-Translator: Leonard de Ruijter <mail@leonardder.nl>\n"
 "Language-Team: NL\n"
@@ -187,6 +187,18 @@ msgstr ""
 "Noot: de bookmark positie is gebaseerd op het aantal tekens; in pagina's met "
 "dynamische inhoud kunt u beter de specific search gebruiken in plaats van de "
 "bookmarks die een specifieke positie opslaan."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Veranderingen in 1.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

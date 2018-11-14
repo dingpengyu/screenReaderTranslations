@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2013-12-10 11:15+0545\n"
 "Last-Translator: Him Prasad Gautam <drishtibachak@gmail.com>\n"
 "Language-Team: Nepali <drishtibachak@gmail.com>\n"
@@ -249,6 +249,23 @@ msgstr ""
 msgid ""
 "The title of the articles list dialog displays the selected feed name and "
 "number of items available."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 6.0"
+msgstr "१.० मा गरिएका परिवर्तनहरू"
+
+#. type: Bullet: '* '
+msgid ""
+"When the default feed has been updated and it stops working due to server "
+"issues, the previous articles aren't deleted and can be read with the "
+"corresponding keystrokes."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix regression: The default feed can be updated twice again."
 msgstr ""
 
 #. type: Title ##

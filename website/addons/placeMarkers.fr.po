@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: website placeMarkers\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2018-09-24 23:00+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: fr <remyruiz@gmail.com>\n"
@@ -193,6 +193,18 @@ msgstr ""
 "Note : la position du marqueur est basé sur le nombre de caractères. Dans "
 "les pages au contenu dynamique, il vaut mieux utiliser la recherche de texte "
 "spécifique, pas les marqueurs."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Changements pour la version 1.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -466,7 +478,6 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #. type: Plain text
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
 msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
 

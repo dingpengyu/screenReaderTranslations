@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Página do complemento Marcadores\n"
-"POT-Creation-Date: 2018-09-19 07:00+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2018-09-24 19:50-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
@@ -187,6 +187,18 @@ msgstr ""
 "Nota: A posição do marcador é baseada no número de caracteres; assim, em "
 "páginas de conteúdo dinâmico, é melhor usar a busca específica e não "
 "marcadores."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Mudanças na 1.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

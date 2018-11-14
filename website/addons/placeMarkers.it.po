@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Placemarkers\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2017-02-28 18:08+0100\n"
 "Last-Translator: Chris Leo Mameli <llajta2012@gmail.com>\n"
 "Language-Team: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
@@ -183,6 +183,18 @@ msgstr ""
 "Nota: La posizione del segnalibro è basata sul numero di caratteri; in "
 "pagine con un contenuto dinamico è meglio utilizzare la ricerca specifica, e "
 "non i segnaposti per salvare una posizione precisa."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Cambiamenti nella 1.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: placeMarkers\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2017-07-05 01:05+0400\n"
 "Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
 "Language-Team: Translators <LL@li.org>\n"
@@ -163,6 +163,18 @@ msgstr ""
 "Примечание: Положение закладки основано на количестве символов; и поэтому на "
 "страницах с динамическим содержимым лучше использовать конкретный поиск, а "
 "не закладки которые сохраняют чёткую позицию."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Изменения для 1.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

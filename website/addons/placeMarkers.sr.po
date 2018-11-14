@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2015-06-02 20:41+0100\n"
 "Last-Translator: Danijela Popovic <vlajna95@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,6 +180,18 @@ msgid ""
 msgstr ""
 "Napomena: Obeleživač se postavlja po broju karaktera, pa je za dinamične "
 "stranice gde se sadržaj često menja bolje koristiti pretragu"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Promene u 1.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Add-on website files\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2018-10-26 20:56+0200\n"
 "Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
@@ -278,6 +278,23 @@ msgstr ""
 "e o número de elementos dispoñibles."
 
 #. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 5.0"
+msgid "Changes for 6.0"
+msgstr "Cambios para 5.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When the default feed has been updated and it stops working due to server "
+"issues, the previous articles aren't deleted and can be read with the "
+"corresponding keystrokes."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix regression: The default feed can be updated twice again."
+msgstr ""
+
+#. type: Title ##
 #, no-wrap
 msgid "Changes for 5.0"
 msgstr "Cambios para 5.0"
@@ -373,7 +390,6 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
 
 #. type: Plain text
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
 msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
 

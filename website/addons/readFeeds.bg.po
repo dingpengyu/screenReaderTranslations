@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2018-01-01 10:57+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
@@ -283,6 +283,23 @@ msgid ""
 msgstr ""
 "Заглавието на диалога за списъка със статиите показва името на избраната "
 "емисия и номера на наличните статии."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 6.0"
+msgstr "Промени във версия 4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When the default feed has been updated and it stops working due to server "
+"issues, the previous articles aren't deleted and can be read with the "
+"corresponding keystrokes."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix regression: The default feed can be updated twice again."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

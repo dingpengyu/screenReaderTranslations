@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2018-09-25 15:38+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
@@ -178,6 +178,18 @@ msgid ""
 msgstr ""
 "Lưu ý: vị trí dấu trang dựa trên số lượng kí tự; vậy nên trong các trang web "
 "động thì dùng tìm kiếm cụ thể tốt hơn dấu trang."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Các thay đổi cho phiên bản 1.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -439,7 +451,6 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #. type: Plain text
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
 msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
 

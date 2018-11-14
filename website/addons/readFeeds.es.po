@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Add-on Website files\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2018-09-24 22:34+0200\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
@@ -278,6 +278,23 @@ msgid ""
 msgstr ""
 "El título del diálogo de lista de artículos muestra el nombre del feed "
 "seleccionado y el número de elementos disponibles."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 5.0"
+msgid "Changes for 6.0"
+msgstr "Cambios para 5.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When the default feed has been updated and it stops working due to server "
+"issues, the previous articles aren't deleted and can be read with the "
+"corresponding keystrokes."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix regression: The default feed can be updated twice again."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

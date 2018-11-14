@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2018-09-28 21:57+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -279,6 +279,23 @@ msgid ""
 msgstr ""
 "Dialogul titlului listei articolelor afișează numele fluxului selectat și "
 "numărul elementelor disponibile."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 5.0"
+msgid "Changes for 6.0"
+msgstr "Modificări în 5.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When the default feed has been updated and it stops working due to server "
+"issues, the previous articles aren't deleted and can be read with the "
+"corresponding keystrokes."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix regression: The default feed can be updated twice again."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-09-25 06:19+1000\n"
+"POT-Creation-Date: 2018-11-14 18:06+1000\n"
 "PO-Revision-Date: 2014-01-25 16:14+0100\n"
 "Last-Translator: Bart Simons <bart@bartsimons.be>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -227,6 +227,23 @@ msgstr ""
 msgid ""
 "The title of the articles list dialog displays the selected feed name and "
 "number of items available."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 6.0"
+msgstr "Veranderingen voor 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When the default feed has been updated and it stops working due to server "
+"issues, the previous articles aren't deleted and can be read with the "
+"corresponding keystrokes."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix regression: The default feed can be updated twice again."
 msgstr ""
 
 #. type: Title ##
