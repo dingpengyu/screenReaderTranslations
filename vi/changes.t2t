@@ -751,7 +751,7 @@ NVDA đã đọc chính xác vị trí con trỏ khi tắt trình đơn ngữ c�
 
 
 = 2015.3 =
-Các cải tiến của bản phát hành này bao gồm việc  bắt đầu hỗ trợ cho Windows 10; khả năng vô hiệu hóa kí tự di chuyển nhanh trong chế độ duyệt (hữu dụng cho vài ứng dụng web); cải thiện cho Internet Explorer; và sửa lỗi văn bản bị cắt khi nhập liệu trong một số ứng dụng với chữ nổi được bật.
+Các cải tiến của bản phát hành này bao gồm việc  bắt đầu hỗ trợ cho Windows 10; khả năng vô hiệu hóa kí tự di chuyển nhanh trong chế độ duyệt (hữu dụng cho vài ứng dụng web); cải thiện cho Internet Explorer; và sửa lỗi văn bản bị cắt khi nhập liệu trong một số ứng dụng với chữ nổi.
 
 
 == Các tính năng mới ==
@@ -789,6 +789,38 @@ Các cải tiến của bản phát hành này bao gồm việc  bắt đầu h�
 - Trong Windows 7 và cao hơn, văn bản không còn bị cắt khi nhập trong một số ứng dụng như Wordpad và Skype với màn hình chữ nổi. (#4291)
 - Ở màn hình khóa của Windows 10, không còn đọc được nội dung bộ nhớ tạm, truy cập các ứng dụng đang chạy bằng con trỏ duyệt, thay đổi cấu hình cho NVDA, v...v... (#5269)
 -
+
+
+= 2015.2 =
+Các cải tiến của bản phát hành này bao gồm khả năng đọc biểu đồ trong Microsoft Excel, hỗ trợ đọc và tương tác với các nội dung toán học.
+
+== Các tính năng mới ==
+- Di chuyển tới hay lùi từng câu trong Microsoft Word và Outlook giờ đây đã có thể thực hiện với Alt + mũi tên lên / xuống. (#3288)
+- Bản chữ nổi mới cho vài ngôn nữ tiếng Ấn độ. (#4778)
+- Trong Microsoft Excel, NVDA giờ đây sẽ thông báo khi một ô có nội dung bị tràn hay bị khuất. (#3040)
+- Trong Microsoft Excel, bạn có thể dùng danh sách các thành phần (NVDA+f7) để liệt kê danh sách theo biểu đồ, chú thích và công thức. (#1987)
+- Hỗ trợ đọc biểu đồ trong Microsoft Excel. Để dùng tính năng này, chọn biểu đồ thông qua danh sách các thành phần (NVDA+f7) rồi dùng các phím mũi tên để di chuyển giữa các điểm dữ liệu. (#1987)
+- Sử dụng MathPlayer 4 từ Design Science, NVDA giờ đây đã có thể đọc và duyệt các nội dung toán học trong các trình duyệt web, trong Microsoft Word và PowerPoint. Xem phần "Đọc nội dung toán học" trong tài liệu hướng dẫn để biết thêm chi tiết. (#4673)
+- Giờ đây đã có thể gán các thao tác (phím lệnh, thao tác cảm ứng, v...v...) cho tất cả các hộp thoại như thiết lập và định dạng tài liệu của NVDA thông qua hộp thoại quản lý các thao tác. (#4898)
+
+
+== Các thay đổi ==
+- Trong hộp thoại định dạng tài liệu của NVDA, đã đổi phím tắt cho các tùy chọn thông báo danh sách, thông báo liên kết, thông báo số dòng và  thông báo tên phông. (#4650)
+- Trong hộp thoại thiết lập chuột của NVDA, đã gán phím tắt cho tùy chọn phát âm thanh theo tọa độ khi chuột di chuyển và âm lượng độ sáng tọa độ âm thanh. (#4916)
+- Các cải tiến đáng kể cho tính năng thông báo màu. (#4984)
+- Cập nhật liblouis braille translator lên 2.6.2. (#4777)
+
+
+== Sửa lỗi ==
+- Mô tả kí tự giờ đã đọc đúng cho kí tự conjunct trong một số ngôn ngữ tiếng Ấn độ nhất định. (#4582)
+- Nếu bật tùy chọn "Sử dụng giọng đọc của ngôn ngữ để xử lý ký hiệu và ký tự", hộp thoại từ điển phát âm kí tự và kí hiệu sẽ dùng giọng đọc của ngôn ngữ đó một cách chính xác. Ngôn ngữ cho phát âm đang được chỉnh sửa cũng hiển thị trên tên của hộp thoại. (#4930)
+- Trong Internet Explorer và các điều khiển MSHTML khác, các kí tự được nhập không còn bị đọc một cách tùy tiện trong các hộp xổ nhập liệu như là trường tìm kiếm của Google trong Google Chrome. (#4976)
+- Khi chọn màu trong các ứng dụng của Microsoft Office, tên màu đã được thông báo. (#3045)
+- Đầu ra chữ nổi tiếng Đan Mạch đã hoạt động trở lại. (#4986)
+- PageUp/pageDown đã có thể dùng trở lại để thay đổi slides trong bài thuyết trình PowerPoint. (#4850)
+- Trong Skype for Desktop 7.2 trở lên, đã thông báo khi đang nhập nội dung và trục trặc xảy ra ngay sau khi di chuyển focus khỏi một cuộc đàm thoại đã được sửa. (#4972)
+- Sửa lỗi khi nhập một số kí hiệu / kí tự như ngoặc vuông vào ô lọc trong hộp thoại quản lý các thao tác. (#5060)
+- Trong Internet Explorer và các điều khiển MSHTML khác, bấm g hay shift+g để duyệt hình ảnh giờ đây đã bao gồm các thành phần được đánh dấu là ảnh cho mục tiêu tăng tính tiếp cận (ví dụ: ARIA role img). (#5062)
 
 
 == Các thay đổi cho nhà phát triển ==
