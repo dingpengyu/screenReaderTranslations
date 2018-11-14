@@ -956,7 +956,7 @@ NVDA đã đọc chính xác vị trí con trỏ khi tắt trình đơn ngữ c�
 <H2>2015.3</H2>
 
 <P>
-Các cải tiến của bản phát hành này bao gồm việc  bắt đầu hỗ trợ cho Windows 10; khả năng vô hiệu hóa kí tự di chuyển nhanh trong chế độ duyệt (hữu dụng cho vài ứng dụng web); cải thiện cho Internet Explorer; và sửa lỗi văn bản bị cắt khi nhập liệu trong một số ứng dụng với chữ nổi được bật.
+Các cải tiến của bản phát hành này bao gồm việc  bắt đầu hỗ trợ cho Windows 10; khả năng vô hiệu hóa kí tự di chuyển nhanh trong chế độ duyệt (hữu dụng cho vài ứng dụng web); cải thiện cho Internet Explorer; và sửa lỗi văn bản bị cắt khi nhập liệu trong một số ứng dụng với chữ nổi.
 </P>
 
 <H3>Các tính năng mới</H3>
@@ -999,6 +999,47 @@ Các cải tiến của bản phát hành này bao gồm việc  bắt đầu h�
 <LI>Đã có thể bỏ qua Màn hình khóa của Windows 10 thông qua màn hình cảm ứng . (<A HREF="https://github.com/nvaccess/nvda/issues/5220">#5220</A>)
 <LI>Trong Windows 7 và cao hơn, văn bản không còn bị cắt khi nhập trong một số ứng dụng như Wordpad và Skype với màn hình chữ nổi. (<A HREF="https://github.com/nvaccess/nvda/issues/4291">#4291</A>)
 <LI>Ở màn hình khóa của Windows 10, không còn đọc được nội dung bộ nhớ tạm, truy cập các ứng dụng đang chạy bằng con trỏ duyệt, thay đổi cấu hình cho NVDA, v...v... (<A HREF="https://github.com/nvaccess/nvda/issues/5269">#5269</A>)
+</UL>
+
+<H2>2015.2</H2>
+
+<P>
+Các cải tiến của bản phát hành này bao gồm khả năng đọc biểu đồ trong Microsoft Excel, hỗ trợ đọc và tương tác với các nội dung toán học.
+</P>
+
+<H3>Các tính năng mới</H3>
+
+<UL>
+<LI>Di chuyển tới hay lùi từng câu trong Microsoft Word và Outlook giờ đây đã có thể thực hiện với Alt + mũi tên lên / xuống. (<A HREF="https://github.com/nvaccess/nvda/issues/3288">#3288</A>)
+<LI>Bản chữ nổi mới cho vài ngôn nữ tiếng Ấn độ. (<A HREF="https://github.com/nvaccess/nvda/issues/4778">#4778</A>)
+<LI>Trong Microsoft Excel, NVDA giờ đây sẽ thông báo khi một ô có nội dung bị tràn hay bị khuất. (<A HREF="https://github.com/nvaccess/nvda/issues/3040">#3040</A>)
+<LI>Trong Microsoft Excel, bạn có thể dùng danh sách các thành phần (NVDA+f7) để liệt kê danh sách theo biểu đồ, chú thích và công thức. (<A HREF="https://github.com/nvaccess/nvda/issues/1987">#1987</A>)
+<LI>Hỗ trợ đọc biểu đồ trong Microsoft Excel. Để dùng tính năng này, chọn biểu đồ thông qua danh sách các thành phần (NVDA+f7) rồi dùng các phím mũi tên để di chuyển giữa các điểm dữ liệu. (<A HREF="https://github.com/nvaccess/nvda/issues/1987">#1987</A>)
+<LI>Sử dụng MathPlayer 4 từ Design Science, NVDA giờ đây đã có thể đọc và duyệt các nội dung toán học trong các trình duyệt web, trong Microsoft Word và PowerPoint. Xem phần "Đọc nội dung toán học" trong tài liệu hướng dẫn để biết thêm chi tiết. (<A HREF="https://github.com/nvaccess/nvda/issues/4673">#4673</A>)
+<LI>Giờ đây đã có thể gán các thao tác (phím lệnh, thao tác cảm ứng, v...v...) cho tất cả các hộp thoại như thiết lập và định dạng tài liệu của NVDA thông qua hộp thoại quản lý các thao tác. (<A HREF="https://github.com/nvaccess/nvda/issues/4898">#4898</A>)
+</UL>
+
+<H3>Các thay đổi</H3>
+
+<UL>
+<LI>Trong hộp thoại định dạng tài liệu của NVDA, đã đổi phím tắt cho các tùy chọn thông báo danh sách, thông báo liên kết, thông báo số dòng và  thông báo tên phông. (<A HREF="https://github.com/nvaccess/nvda/issues/4650">#4650</A>)
+<LI>Trong hộp thoại thiết lập chuột của NVDA, đã gán phím tắt cho tùy chọn phát âm thanh theo tọa độ khi chuột di chuyển và âm lượng độ sáng tọa độ âm thanh. (<A HREF="https://github.com/nvaccess/nvda/issues/4916">#4916</A>)
+<LI>Các cải tiến đáng kể cho tính năng thông báo màu. (<A HREF="https://github.com/nvaccess/nvda/issues/4984">#4984</A>)
+<LI>Cập nhật liblouis braille translator lên 2.6.2. (<A HREF="https://github.com/nvaccess/nvda/issues/4777">#4777</A>)
+</UL>
+
+<H3>Sửa lỗi</H3>
+
+<UL>
+<LI>Mô tả kí tự giờ đã đọc đúng cho kí tự conjunct trong một số ngôn ngữ tiếng Ấn độ nhất định. (<A HREF="https://github.com/nvaccess/nvda/issues/4582">#4582</A>)
+<LI>Nếu bật tùy chọn "Sử dụng giọng đọc của ngôn ngữ để xử lý ký hiệu và ký tự", hộp thoại từ điển phát âm kí tự và kí hiệu sẽ dùng giọng đọc của ngôn ngữ đó một cách chính xác. Ngôn ngữ cho phát âm đang được chỉnh sửa cũng hiển thị trên tên của hộp thoại. (<A HREF="https://github.com/nvaccess/nvda/issues/4930">#4930</A>)
+<LI>Trong Internet Explorer và các điều khiển MSHTML khác, các kí tự được nhập không còn bị đọc một cách tùy tiện trong các hộp xổ nhập liệu như là trường tìm kiếm của Google trong Google Chrome. (<A HREF="https://github.com/nvaccess/nvda/issues/4976">#4976</A>)
+<LI>Khi chọn màu trong các ứng dụng của Microsoft Office, tên màu đã được thông báo. (<A HREF="https://github.com/nvaccess/nvda/issues/3045">#3045</A>)
+<LI>Đầu ra chữ nổi tiếng Đan Mạch đã hoạt động trở lại. (<A HREF="https://github.com/nvaccess/nvda/issues/4986">#4986</A>)
+<LI>PageUp/pageDown đã có thể dùng trở lại để thay đổi slides trong bài thuyết trình PowerPoint. (<A HREF="https://github.com/nvaccess/nvda/issues/4850">#4850</A>)
+<LI>Trong Skype for Desktop 7.2 trở lên, đã thông báo khi đang nhập nội dung và trục trặc xảy ra ngay sau khi di chuyển focus khỏi một cuộc đàm thoại đã được sửa. (<A HREF="https://github.com/nvaccess/nvda/issues/4972">#4972</A>)
+<LI>Sửa lỗi khi nhập một số kí hiệu / kí tự như ngoặc vuông vào ô lọc trong hộp thoại quản lý các thao tác. (<A HREF="https://github.com/nvaccess/nvda/issues/5060">#5060</A>)
+<LI>Trong Internet Explorer và các điều khiển MSHTML khác, bấm g hay shift+g để duyệt hình ảnh giờ đây đã bao gồm các thành phần được đánh dấu là ảnh cho mục tiêu tăng tính tiếp cận (ví dụ: ARIA role img). (<A HREF="https://github.com/nvaccess/nvda/issues/5062">#5062</A>)
 </UL>
 
 <H3>Các thay đổi cho nhà phát triển</H3>
