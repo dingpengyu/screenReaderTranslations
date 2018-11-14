@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: website placeMarkers\n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-09-24 23:00+0200\n"
+"PO-Revision-Date: 2018-11-14 19:05+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: fr <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -195,16 +195,18 @@ msgstr ""
 "spécifique, pas les marqueurs."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 12.0"
-msgstr "Changements pour la version 1.0"
+msgstr "Changements pour la version 12.0"
 
 #. type: Bullet: '*	'
 msgid ""
 "Fixed a critical bug which caused NVDA to crash when trying to open the "
 "Notes dialog, if chinese characters were selected before saving bookmarks."
 msgstr ""
+"Correction d'un bug critique qui provoquait le blocage de NVDA lors de la "
+"tentative d'ouverture de la boîte de dialogue Notes, si les caractères "
+"chinois étaient sélectionnés avant la sauvegarde des marqueurs."
 
 #. type: Title ##
 #, no-wrap
