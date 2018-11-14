@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-09-19 09:40+0300\n"
+"PO-Revision-Date: 2018-11-14 13:16+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
 "Language: bg\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -189,16 +189,19 @@ msgstr ""
 "търсене вместо маркерите."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Changes for 1.0"
 msgid "Changes for 12.0"
-msgstr "Промени във версия 1.0"
+msgstr "Промени във версия 12.0"
 
 #. type: Bullet: '*	'
 msgid ""
 "Fixed a critical bug which caused NVDA to crash when trying to open the "
 "Notes dialog, if chinese characters were selected before saving bookmarks."
 msgstr ""
+"Отстранена е критична грешка, която предизвиква срив на NVDA, при опит за "
+"отваряне на диалоговия прозорец \\\"Бележки\\\", ако преди запазването на "
+"отметки са избрани китайски символи."
 
 #. type: Title ##
 #, no-wrap
@@ -470,10 +473,9 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
 
 #~ msgid ""
 #~ "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev [3]: "
