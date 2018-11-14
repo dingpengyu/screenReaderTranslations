@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-09-25 05:46+0800\n"
+"PO-Revision-Date: 2018-11-14 18:44+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. type: Plain text
 #, no-wrap
@@ -62,7 +62,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Commands:"
-msgstr "快捷键"
+msgstr "快捷键："
 
 #. type: Title ###
 #, no-wrap
@@ -190,7 +190,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Keyboard commands:"
-msgstr "快捷键"
+msgstr "键盘快捷键："
 
 #. type: Bullet: '* '
 msgid ""
@@ -223,7 +223,7 @@ msgstr "Ctrl + Shift + NVDA + O：宣布下一个Feed标题。"
 #. type: Title ##
 #, no-wrap
 msgid "Notifications:"
-msgstr "通知"
+msgstr "通知："
 
 #. type: Bullet: '* '
 msgid "When the title or URL have been copied."
@@ -248,10 +248,9 @@ msgid ""
 msgstr "“文章列表”对话框的标题显示所选的源名称和可用项目数。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 5.0"
+#, no-wrap
 msgid "Changes for 6.0"
-msgstr "版本5.0"
+msgstr "版本6.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -259,10 +258,12 @@ msgid ""
 "issues, the previous articles aren't deleted and can be read with the "
 "corresponding keystrokes."
 msgstr ""
+"当默认订阅源已更新并且由于服务器问题而停止工作时，之前的文章不会被删除，并且"
+"可以使用相应的按键进行读取。"
 
 #. type: Bullet: '* '
 msgid "Fix regression: The default feed can be updated twice again."
-msgstr ""
+msgstr "修复错误：默认Feed可以再次更新两次。"
 
 #. type: Title ##
 #, no-wrap
@@ -336,7 +337,7 @@ msgstr "版本1.0"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr "发布初始版本"
+msgstr "发布初始版本。"
 
 #. type: Plain text
 #, no-wrap
