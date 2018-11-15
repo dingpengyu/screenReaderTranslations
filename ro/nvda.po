@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Romanian translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: 2018-09-29 17:15+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: mihai.craciun@gmail.com, dan.punga@gmail.com, "
@@ -6914,8 +6914,9 @@ msgid "replied"
 msgstr "înlocuiește"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr ""
+#, fuzzy
+msgid "replied all"
+msgstr "înlocuiește"
 
 #. Translators: the last action taken on an Outlook mail message
 #, fuzzy

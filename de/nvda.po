@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -6928,8 +6928,9 @@ msgid "replied"
 msgstr "Beantwortet"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr "Alle beantwortet"
+#, fuzzy
+msgid "replied all"
+msgstr "Beantwortet"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "forwarded"
@@ -11024,3 +11025,6 @@ msgstr "Doppelter Zeilenabstand"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1,5 Zeilenabstand"
+
+#~ msgid "REPLIED ALL"
+#~ msgstr "Alle beantwortet"

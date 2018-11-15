@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: 2018-11-15 16:38+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers < Copyright (C) "
@@ -6760,8 +6760,9 @@ msgid "replied"
 msgstr "已回复"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr "全部回复"
+#, fuzzy
+msgid "replied all"
+msgstr "已回复"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "forwarded"
@@ -10704,6 +10705,9 @@ msgstr "双倍行间距"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5倍行间距"
+
+#~ msgid "REPLIED ALL"
+#~ msgstr "全部回复"
 
 #~ msgid "purple flag"
 #~ msgstr "紫色标记"

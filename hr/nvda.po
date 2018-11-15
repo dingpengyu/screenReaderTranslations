@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: 2018-11-10 19:28+0100\n"
 "Last-Translator: Zvonimir Stanečić <zvonimirek222@webczatnet.pl>\n"
 "Language-Team: Hr Mario Percinic<mario.percinic@gmail.com and Hrvoje "
@@ -6892,8 +6892,9 @@ msgid "replied"
 msgstr "Odgovoreno"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr "Odgovoreno svima"
+#, fuzzy
+msgid "replied all"
+msgstr "Odgovoreno"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "forwarded"
@@ -10927,6 +10928,9 @@ msgstr "Dvostruki prored"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5 prored"
+
+#~ msgid "REPLIED ALL"
+#~ msgstr "Odgovoreno svima"
 
 #~ msgid "purple flag"
 #~ msgstr "ljubičasta zastava"

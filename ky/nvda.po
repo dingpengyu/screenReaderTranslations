@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA source-master-55932c3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: 2018-08-23 09:52+0600\n"
 "Last-Translator: \n"
 "Language-Team: Bermet\n"
@@ -6866,8 +6866,9 @@ msgid "replied"
 msgstr "ордун алмашуу"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr ""
+#, fuzzy
+msgid "replied all"
+msgstr "ордун алмашуу"
 
 #. Translators: the last action taken on an Outlook mail message
 #, fuzzy

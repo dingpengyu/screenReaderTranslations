@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: 2018-08-15 14:51-0700\n"
 "Last-Translator: Dong Hui Park <hi@aheu.org>\n"
 "Language-Team: NVDA Korean users and translations forum <joseph."
@@ -6845,8 +6845,9 @@ msgid "replied"
 msgstr "내용 수정"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr ""
+#, fuzzy
+msgid "replied all"
+msgstr "내용 수정"
 
 #. Translators: the last action taken on an Outlook mail message
 #, fuzzy

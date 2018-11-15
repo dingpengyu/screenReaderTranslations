@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Russian translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: 2018-11-09 21:32+0800\n"
 "Last-Translator: Kvark <kvark128@yandex.ru>\n"
 "Language-Team: \n"
@@ -6908,8 +6908,9 @@ msgid "replied"
 msgstr "отвечено"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr "отвечено всем"
+#, fuzzy
+msgid "replied all"
+msgstr "отвечено"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "forwarded"
@@ -10974,6 +10975,9 @@ msgstr "Двойной междустрочный интервал"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "Полуторный междустрочный интервал"
+
+#~ msgid "REPLIED ALL"
+#~ msgstr "отвечено всем"
 
 #~ msgid "purple flag"
 #~ msgstr "Лиловый флажок"

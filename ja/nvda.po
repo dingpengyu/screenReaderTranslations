@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: 2018-11-09 14:11+0900\n"
 "Last-Translator: Takuya Nishimoto <nishimotz@gmail.com>\n"
 "Language-Team: NVDA Japanese Team <nishimotz@gmail.com>\n"
@@ -6804,8 +6804,9 @@ msgid "replied"
 msgstr "返信済み"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr "全員に返信済み"
+#, fuzzy
+msgid "replied all"
+msgstr "返信済み"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "forwarded"
@@ -10791,6 +10792,9 @@ msgstr "2行の行間"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "1.5行の行間"
+
+#~ msgid "REPLIED ALL"
+#~ msgstr "全員に返信済み"
 
 #~ msgid "purple flag"
 #~ msgstr "パープルのフラグ"

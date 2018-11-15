@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA bzr main:5884\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: 2018-11-10 19:36+0100\n"
 "Last-Translator: Grzegorz Zlotowicz <grzezlo@wp.pl>\n"
 "Language-Team: killer@tyflonet.com\n"
@@ -6866,8 +6866,9 @@ msgid "replied"
 msgstr "Odpowiedziano"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr "Odpowiedziano wszystkim"
+#, fuzzy
+msgid "replied all"
+msgstr "Odpowiedziano"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "forwarded"
@@ -10893,6 +10894,9 @@ msgstr "Interlinia podwójna"
 #. Translators: a message when switching to 1.5 line spaceing  in Microsoft word
 msgid "1.5 line spacing"
 msgstr "Interlinia 1.5"
+
+#~ msgid "REPLIED ALL"
+#~ msgstr "Odpowiedziano wszystkim"
 
 #~ msgid "purple flag"
 #~ msgstr "Fioletowa flaga"

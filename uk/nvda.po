@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-09 00:10+1000\n"
+"POT-Creation-Date: 2018-11-16 00:10+1000\n"
 "PO-Revision-Date: 2018-08-14 19:27+0300\n"
 "Last-Translator: Volodymyr <vlodko@torba.com>\n"
 "Language-Team: \n"
@@ -6887,8 +6887,9 @@ msgid "replied"
 msgstr "Заміна"
 
 #. Translators: the last action taken on an Outlook mail message
-msgid "REPLIED ALL"
-msgstr ""
+#, fuzzy
+msgid "replied all"
+msgstr "Заміна"
 
 #. Translators: the last action taken on an Outlook mail message
 #, fuzzy
