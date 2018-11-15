@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: NVDA source-master-4ccb2ab\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-09 00:10+1000\n"
-"PO-Revision-Date: 2018-11-14 10:10+0000\n"
+"PO-Revision-Date: 2018-11-15 11:04+0000\n"
 "Last-Translator: Osman H Baiia <othman82@hotmail.com>\n"
 "Language-Team: \n"
 "Language: so\n"
@@ -2933,64 +2933,64 @@ msgstr ""
 
 #. Translators: The name of a category of NVDA commands.
 msgid "Text review"
-msgstr ""
+msgstr "dib u eegida qoraalka"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "Object navigation"
-msgstr ""
+msgstr "Kursiga hindisaha wuxuu amraa shayga"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "System caret"
-msgstr ""
+msgstr "Tafaasiisha amarrada fartaada"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the mouse settings panel.
 msgid "Mouse"
-msgstr ""
+msgstr "jiirka"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the speech panel
 msgid "Speech"
-msgstr ""
+msgstr "Hadalka"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "Configuration"
-msgstr ""
+msgstr "qaabeynta"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: This is the label for the braille panel
 msgid "Braille"
-msgstr ""
+msgstr "breel"
 
 #. Translators: The name of a category of NVDA commands.
 msgctxt "script category"
 msgid "Tools"
-msgstr ""
+msgstr "qalabka"
 
 #. Translators: The name of a category of NVDA commands.
 #. Translators: a touch screen gesture
 msgid "Touch screen"
-msgstr ""
+msgstr "Shaashadda taabashada"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "System focus"
-msgstr ""
+msgstr "Nidaamka diirada saaraya"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "System status"
-msgstr ""
+msgstr "Xaaladda nidaamka"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "Input"
-msgstr ""
+msgstr "gelinta"
 
 #. Translators: The name of a category of NVDA commands.
 msgid "Document formatting"
-msgstr ""
+msgstr "qaabeynta dokumentiga"
 
 #. Translators: a message when audio ducking is not supported on this machine
 msgid "Audio ducking not supported"
-msgstr ""
+msgstr "codka quusitaank ma la tageerin"
 
 #. Translators: Describes the Cycle audio ducking mode command.
 msgid ""
