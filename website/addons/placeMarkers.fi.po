@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-09-25 09:51+0200\n"
+"PO-Revision-Date: 2018-11-15 12:08+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -187,16 +187,18 @@ msgstr ""
 "paikkamerkkien asemesta sivukohtaista hakua."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 12.0"
-msgstr "Muutokset versiossa 1.0"
+msgstr "Muutokset versiossa 12.0"
 
 #. type: Bullet: '*	'
 msgid ""
 "Fixed a critical bug which caused NVDA to crash when trying to open the "
 "Notes dialog, if chinese characters were selected before saving bookmarks."
 msgstr ""
+"Korjattu kriittinen bugi, joka kaatoi NVDA:n yritettäessä avata "
+"Muistiinpanot-valintaikkunaa, mikäli kiinalaisia merkkejä oli valittuna "
+"ennen paikkamerkkien tallentamista."
 
 #. type: Title ##
 #, no-wrap

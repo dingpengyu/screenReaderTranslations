@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-09-25 09:51+0200\n"
+"PO-Revision-Date: 2018-11-15 12:03+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -274,10 +274,9 @@ msgstr ""
 "Artikkeliluettelo-valintaikkunan otsikossa."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 5.0"
+#, no-wrap
 msgid "Changes for 6.0"
-msgstr "Muutokset versiossa 5.0"
+msgstr "Muutokset versiossa 6.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -285,10 +284,13 @@ msgid ""
 "issues, the previous articles aren't deleted and can be read with the "
 "corresponding keystrokes."
 msgstr ""
+"Kun oletussyöte on päivitetty ja se lakkaa toimimasta palvelinongelmien "
+"vuoksi, aiempia artikkeleita ei poisteta, vaan niitä voidaan lukea "
+"tarkoitukseen varatuilla näppäinkomennoilla."
 
 #. type: Bullet: '* '
 msgid "Fix regression: The default feed can be updated twice again."
-msgstr ""
+msgstr "Oletussyöte voidaan taas päivittää kahdesti."
 
 #. type: Title ##
 #, no-wrap
