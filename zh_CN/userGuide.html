@@ -86,7 +86,8 @@
     </UL>
   <LI><A HREF="#Braille">8. 盲文</A>
     <UL>
-    <LI><A HREF="#BrailleInput">8.1. 点字输入</A>
+    <LI><A HREF="#BrailleAbbreviations">8.1. 控件类型/状态和路标缩写</A>
+    <LI><A HREF="#BrailleInput">8.2. 点字输入</A>
     </UL>
   <LI><A HREF="#ContentRecognition">9. 图像内容识别</A>
     <UL>
@@ -114,6 +115,10 @@
     <LI><A HREF="#Poedit">10.6. Poedit</A>
     <LI><A HREF="#Skype">10.7. Skype</A>
     <LI><A HREF="#Kindle">10.8. Kindle for PC</A>
+      <UL>
+      <LI><A HREF="#KindleTextSelection">10.8.1. 文本选择</A>
+      <LI><A HREF="#KindleUserNotes">10.8.2. 用户注释</A>
+      </UL>
     <LI><A HREF="#Azardi">10.9. Azardi</A>
     </UL>
   <LI><A HREF="#ConfiguringNVDA">11. 配置 NVDA</A>
@@ -183,9 +188,9 @@
     <LI><A HREF="#HedoMobilLine">14.8. hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant">14.9. HumanWare Brailliant BI/B Series / BrailleNote Touch</A>
       <UL>
-      <LI><A HREF="#toc123">14.9.1. Key assignments for All models</A>
-      <LI><A HREF="#toc124">14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</A>
-      <LI><A HREF="#toc125">14.9.3. Key assignments for Brailliant BI 14</A>
+      <LI><A HREF="#toc126">14.9.1. Key assignments for All models</A>
+      <LI><A HREF="#toc127">14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</A>
+      <LI><A HREF="#toc128">14.9.3. Key assignments for Brailliant BI 14</A>
       </UL>
     <LI><A HREF="#Hims">14.10. HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille Series</A>
     <LI><A HREF="#Seika">14.11. 清华点显器</A>
@@ -1516,8 +1521,11 @@ NVDA 支持下列类型的数学内容：
 本节还包含有关支持NVDA自动背景盲文显示检测功能的显示器的信息。
 您可以使用[NVDA设置#NVDASettings]对话框的[盲文类别#BrailleSettings]配置盲文。
 </P>
+
+<A NAME="BrailleAbbreviations"></A>
+<H3>8.1. 控件类型/状态和路标缩写</H3>
+
 <P>
-++ 控件类型/状态和路标缩写 ++ [BrailleAbbreviations]
 为了在点显器上安装尽可能多的信息，已经定义了以下缩写来指示控制类型和状态以及界标。
 </P>
 
@@ -1857,7 +1865,7 @@ NVDA 支持下列类型的数学内容：
 </TABLE>
 
 <A NAME="BrailleInput"></A>
-<H3>8.1. 点字输入</H3>
+<H3>8.2. 点字输入</H3>
 
 <P>
 NVDA支持从点显器输入简写以及非简写点字。
@@ -2192,8 +2200,11 @@ NVDA支持在亚马逊Kindle for PC上阅读和导航书籍。
 NVDA为具有数学内容无障碍支持的书籍提供数学内容的阅读和交互式导航的早期支持。
 有关详细信息，请参阅[阅读数学内容#ReadingMath]部分。
 </P>
+
+<A NAME="KindleTextSelection"></A>
+<H4>10.8.1. 文本选择</H4>
+
 <P>
-+++ 文本选择 +++ [KindleTextSelection]
 Kindle允许您对所选文本执行各种功能，包括获取字典定义，添加注释和突出显示，将文本复制到剪贴板以及搜索Web。
 为此，首先像在浏览模式下一样选择文本; 例如 通过使用shift和光标键。
 ％KC：beginInclude
@@ -2201,8 +2212,11 @@ Kindle允许您对所选文本执行各种功能，包括获取字典定义，�
 ％KC：endInclude
 如果在未选择文本的情况下执行此操作，将在光标处显示单词的选项。
 </P>
+
+<A NAME="KindleUserNotes"></A>
+<H4>10.8.2. 用户注释</H4>
+
 <P>
-+++ 用户注释 +++ [KindleUserNotes]
 您可以添加关于文字的单词或段落的注释。
 要执行此操作，请首先选择相关文本并访问上述选择选项。
 然后，选择添加注释。
@@ -2505,6 +2519,18 @@ NVDA更新服务器只根据您的IP判断用户在哪国使用NVDA，并不会�
 <P>
 默认启用，该选项告诉 NVDA 在处理字符和标点时当前语音语言是否可信。
 如果您发现 NVDA 在使用特定的合成器或声音读出某标点时使用了错误的语言，您可能希望把它关闭并强制 NVDA 使用其自身的本地设置来代替语音语言译者注：对于vocalizer和vocalizer express的语音库而言此设置无效。
+</P>
+<P>
+====处理字符和符号时包含Unicode Consortium数据（包括表情符号）==== [SpeechSettingsCLDR]
+启用此复选框后，NVDA将在拼读字符和符号时包含其他符号发音词典。
+这些词典包含<A HREF="http://www.unicode.org/consortium/">Unicode 联盟</A>在<A HREF="http://cldr.unicode.org/">通用本地化数据库</A>中提供的一部分符号（特别是表情符号）的描述。
+如果您希望NVDA根据此数据拼读表情符号以及其他字符的描述，则应启用此选项。
+但是，如果您使用的语音合成器本身支持表情符号，您可以关闭这个选项。
+</P>
+<P>
+请注意，手动添加或编辑的字符描述将保存为用户设置的一部分。
+因此，如果您更改特定表情符号的说明，则无论是否启用此选项，该表情符号按照自定义说明拼读。
+您可以在NVDA的[标点符号读音#SymbolPronunciation]设置中添加，编辑或删除符号说明。
 </P>
 
 <A NAME="SpeechSettingsCapPitchChange"></A>
@@ -4711,7 +4737,7 @@ Following are the key assignments for  the Brailliant BI/B and BrailleNote touch
 Please see the display's documentation for descriptions of where these keys can be found.
 </P>
 
-<A NAME="toc123"></A>
+<A NAME="toc126"></A>
 <H4>14.9.1. Key assignments for All models</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4801,7 +4827,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc124"></A>
+<A NAME="toc127"></A>
 <H4>14.9.2. Key assignments for Brailliant BI 32, BI 40 and B 80</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -4823,7 +4849,7 @@ Please see the display's documentation for descriptions of where these keys can 
 </TR>
 </TABLE>
 
-<A NAME="toc125"></A>
+<A NAME="toc128"></A>
 <H4>14.9.3. Key assignments for Brailliant BI 14</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
