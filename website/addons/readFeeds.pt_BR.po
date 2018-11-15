@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ReadFeeds page\n"
 "POT-Creation-Date: 2018-11-14 18:06+1000\n"
-"PO-Revision-Date: 2018-09-24 19:26-0300\n"
+"PO-Revision-Date: 2018-11-15 16:47-0300\n"
 "Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -277,10 +277,9 @@ msgstr ""
 "número de itens disponíveis."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 5.0"
+#, no-wrap
 msgid "Changes for 6.0"
-msgstr "Mudanças na 5.0"
+msgstr "Mudanças na 6.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -288,10 +287,15 @@ msgid ""
 "issues, the previous articles aren't deleted and can be read with the "
 "corresponding keystrokes."
 msgstr ""
+"Quando o feed padrão é atualizado e ele para de funcionar devido a problemas "
+"do servidor, os artigos anteriores não são excluídos e podem ser lidos com "
+"os pressionamentos de teclas correspondentes."
 
 #. type: Bullet: '* '
 msgid "Fix regression: The default feed can be updated twice again."
 msgstr ""
+"Correção de regressão: o feed padrão pode ser atualizado duas vezes "
+"novamente."
 
 #. type: Title ##
 #, no-wrap
