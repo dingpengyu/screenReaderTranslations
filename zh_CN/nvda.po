@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-16 00:10+1000\n"
-"PO-Revision-Date: 2018-11-15 16:38+0800\n"
+"PO-Revision-Date: 2018-11-15 23:03+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers < Copyright (C) "
 "2010-2018>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
@@ -6760,9 +6760,8 @@ msgid "replied"
 msgstr "已回复"
 
 #. Translators: the last action taken on an Outlook mail message
-#, fuzzy
 msgid "replied all"
-msgstr "已回复"
+msgstr "全部回复"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "forwarded"
@@ -8183,7 +8182,7 @@ msgstr "拷贝当前用户配置(&U)"
 
 #. Translators: The label of a checkbox option in the Create Portable NVDA dialog.
 msgid "&Start the new portable copy after creation"
-msgstr "创建病自动启动便携副本(&S)"
+msgstr "创建并自动启动便携副本(&S)"
 
 #. Translators: The message displayed when the user has not specified a destination directory
 #. in the Create Portable NVDA dialog.
