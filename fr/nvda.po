@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: NVDA bzr main:11331\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-16 00:10+1000\n"
-"PO-Revision-Date: 2018-11-08 16:46+0100\n"
+"PO-Revision-Date: 2018-11-15 15:33+0100\n"
 "Last-Translator: Michel Such <michel.such@free.fr>\n"
 "Language-Team: fra <LL@li.org>\n"
 "Language: fr_FR\n"
@@ -6899,9 +6899,8 @@ msgid "replied"
 msgstr "répondu"
 
 #. Translators: the last action taken on an Outlook mail message
-#, fuzzy
 msgid "replied all"
-msgstr "répondu"
+msgstr "répondu à tous"
 
 #. Translators: the last action taken on an Outlook mail message
 msgid "forwarded"
